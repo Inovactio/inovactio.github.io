@@ -17,8 +17,11 @@ The base mod gives an addon `Ability` and a set of components. Everything above 
 | **Ability base classes** | zones, block waves, grabs, dashes, stomps, conditional passives, auras, item producers, transmutation, awakened Zoan forms |
 | **Morphs** | `MorphGates` to lock an ability to a form, `MorphStats` for form attributes, and the amplification bus that lets a form upgrade the rest of a kit |
 | **Animations** | a base `Animation` class, ready-made poses, and whole-body transforms that also reach full-form Zoan models |
+| **Creatures** | `CatchableCreature`: small wandering or flying creatures that flee, take off or attack, wait on perches, spawn on the surface, with rare variants and a data-driven capture; traps |
+| **Professions** | a profession registry, per-player XP and levels with data-driven curves, events for XP multipliers, Solo/Crew modes, client sync, a `/profession` command, workstations with level-locked recipes, and XP boost effects |
+| **Worldgen and dimensions** | worldgen and fluid registers, `AkumaCells` (a deterministic grid of features every reader agrees on), `OverworldLookup` (the overworld read from another dimension), `AkumaDimensionTravel` (a body, its boat and its rider sent to another dimension), `AkumaJigsaw` |
 | **Loot** | automatic injection of your fruits into the base mod's Devil Fruit boxes |
-| **Utilities** | targeting, i-frame-aware damage helpers, block propagation, idempotent attribute bonuses, size scaling, tooltips |
+| **Utilities** | Belly and Extol, exclusive effect groups, targeting, i-frame-aware damage helpers, block propagation, idempotent attribute bonuses, size scaling, tooltips |
 
 ## Why the classes carry so many warnings
 
@@ -40,7 +43,7 @@ You get all of that by extending the class. Departing from one is fine, but read
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
 | Mine Mine no Mi | 0.11.x (built against `1.20.1-0.11.5`) |
-| AkumaLib | 2.4.0 |
+| AkumaLib | 2.5.0 |
 
 ## Where to go next
 

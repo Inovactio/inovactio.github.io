@@ -12,6 +12,8 @@ AkumaLib registers a handful of things under its own `akumalib` namespace. Each 
 | `AkumaAnimations.RIGHT_ARM_FORWARD`, `KNEEL_PUNCH_GROUND` | two poses with no fruit identity | registered once so addons do not each repeat the same line |
 | the zone block overlay | the manager, packet and renderer behind `ZoneAbility`'s block overlay | the three pieces only work together, and the overlay can be turned off by players in `akumalib-client.toml` |
 | the awakened Zoan smoke layer | a render layer the library attaches to every living renderer | an addon gets the smoke without wiring anything on the client |
+| the `akumalib:professions` registry | the registry every addon's professions go into, plus the player data, the sync packet and `/profession` | one registry and one player store, so one command and one screen can list every addon's professions |
+| the `akumalib:workstation` menu and its screen | one menu type and one screen for every `WorkstationBlock` of every addon; the block says which profession and recipes apply | an addon gets a working workstation from a block, a recipe type and JSON, with nothing on the client to wire |
 | the spreading zone restore | `SpreadingBlockCleanupHandler`, putting back the ground of every `SpreadingBlockAbility` zone whose holder logs out, changes dimension, or whose server stops | the zones share one static registry, so one handler restores them all |
 
 !!! danger "Do not register your own size attribute or invulnerability effect"

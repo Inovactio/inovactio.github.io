@@ -41,7 +41,7 @@ Then declare AkumaLib as a required dependency, so Forge shows its missing-mod s
 [[dependencies.yourmodid]]
     modId = "akumalib"
     mandatory = true
-    versionRange = "[2.4.0,3)"
+    versionRange = "[2.5.0,3)"
     ordering = "AFTER"
     side = "BOTH"
 
@@ -89,6 +89,21 @@ public class MyMod {
     }
 }
 ```
+
+`AkumaRegistry` carries one deferred register per kind of entry an addon may add:
+
+| Register | For |
+|---|---|
+| `ABILITIES`, `MORPHS` | abilities and Zoan forms |
+| `ITEMS`, `BLOCKS`, `ENTITY_TYPES`, `CREATIVE_MODE_TABS` | items, blocks, entities, tabs |
+| `EFFECTS`, `ATTRIBUTES`, `SOUNDS`, `PARTICLE_TYPES`, `PARTICLE_EFFECTS` | effects, attributes, sounds, particles |
+| `PROFESSIONS` | [professions](professions/index.md) |
+| `MENUS`, `BLOCK_ENTITY_TYPES`, `RECIPE_TYPES`, `RECIPE_SERIALIZERS` | workstations: their screen, block entity and recipes |
+| `FLUIDS`, `FLUID_TYPES` | fluids, and the type that says how one behaves (swimming, boats, fog) |
+| `DENSITY_FUNCTION_TYPES`, `BIOME_SOURCES`, `CHUNK_GENERATORS`, `FEATURES`, `PLACEMENT_MODIFIER_TYPES` | terrain of your own: their codecs and types, the instances coming from datagen |
+| `STRUCTURE_TYPES`, `STRUCTURE_PLACEMENT_TYPES`, `STRUCTURE_PIECE_TYPES` | structures; a piece type left unregistered loses its structure on reload |
+
+Put every register you fill on the bus; an empty one on the bus costs nothing.
 
 !!! warning "A deferred register that never reaches the bus fails silently"
     Its entries simply never appear. There is no error and nothing in the log. When your first projectile, effect or sound "does nothing", check this line first.

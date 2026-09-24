@@ -1,12 +1,13 @@
 # Entities
 
-AkumaLib provides three entity base classes a technique can spawn:
+AkumaLib provides three entity base classes a technique can spawn, and one for creatures that live in the world:
 
 | Class | For | Page |
 |---|---|---|
 | `BoomerangProjectile` | a projectile that flies out, turns and comes back, hitting on both legs | [Projectiles](projectiles.md) |
 | `TransmutationProjectile` | a projectile applying a transmutation effect whose duration depends on Doriki | [Projectiles](projectiles.md) |
 | `TornadoEntity` | a funnel that pulls things in, tears up blocks, and can be steered | [Tornadoes](tornadoes.md) |
+| `CatchableCreature`, `CatchableFlyingCreature` | a small creature that flees players and is caught with a tool rather than killed | [Catchable creatures](creatures.md) |
 
 The library ships **no entity type, model or renderer** for them: each addon registers its own subclass and draws it the way its fruit looks.
 
