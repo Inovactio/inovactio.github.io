@@ -1,0 +1,113 @@
+site_name: Inovactio's Minecraft Mods
+site_description: Player wikis and developer documentation for Inovactio's Minecraft mods
+site_url: https://inovactio.github.io/
+copyright: © Inovactio. All Rights Reserved.
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Awaken Awaken no Mi:
+      - mods/awaken-awaken-no-mi/index.md
+  - Awaken Path:
+      - mods/awaken-path/index.md
+  - InoFruits:
+      - mods/inofruits/index.md
+  - Cruise Cruise no Mi:
+      - mods/cruise/index.md
+  - Sky Island:
+      - mods/sky-island/index.md
+  - AkumaLib:
+      - akumalib/index.md
+      - Getting started: akumalib/getting-started.md
+      - Core concepts:
+          - akumalib/core-concepts/index.md
+          - Damage: akumalib/core-concepts/damage.md
+          - What the library registers: akumalib/core-concepts/library-registrations.md
+          - Morph gates and stats: akumalib/core-concepts/morph-gates-and-stats.md
+          - Amplification: akumalib/core-concepts/amplification.md
+          - Charges: akumalib/core-concepts/charges.md
+      - Ability base classes:
+          - akumalib/ability-base-classes/index.md
+          - Zones: akumalib/ability-base-classes/zones.md
+          - Terrain: akumalib/ability-base-classes/terrain.md
+          - Passives: akumalib/ability-base-classes/passives.md
+          - Movement: akumalib/ability-base-classes/movement.md
+          - Grabs: akumalib/ability-base-classes/grabs.md
+          - Items and blocks: akumalib/ability-base-classes/items-and-blocks.md
+          - Awakened Zoan: akumalib/ability-base-classes/awakened-zoan.md
+      - Animations:
+          - akumalib/animations/index.md
+          - Choosing a pose: akumalib/animations/choosing-a-pose.md
+          - Writing an animation: akumalib/animations/writing-an-animation.md
+          - Animations on morphs: akumalib/animations/morphs.md
+          - Hands and armour: akumalib/animations/hands-and-armour.md
+      - Entities:
+          - akumalib/entities/index.md
+          - Projectiles: akumalib/entities/projectiles.md
+          - Tornadoes: akumalib/entities/tornadoes.md
+      - Loot injection:
+          - akumalib/loot-injection/index.md
+          - Devil Fruit boxes: akumalib/loot-injection/devil-fruit-boxes.md
+          - Chests: akumalib/loot-injection/chests.md
+      - Utilities:
+          - akumalib/utilities/index.md
+          - Targeting: akumalib/utilities/targeting.md
+          - Attributes and size: akumalib/utilities/attributes-and-size.md
+          - Blocks: akumalib/utilities/blocks.md
+          - Effects: akumalib/utilities/effects.md
+          - Tooltips: akumalib/utilities/tooltips.md
+          - Effect owners: akumalib/utilities/effect-owners.md
+          - Deferred work: akumalib/utilities/tick-queue.md
+          - Pulls: akumalib/utilities/motion.md
+          - Protected areas: akumalib/utilities/protection.md
+          - Lines: akumalib/utilities/lines.md
+          - Other helpers: akumalib/utilities/other-helpers.md
+      - Development: akumalib/development.md
