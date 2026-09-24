@@ -1,0 +1,23 @@
+/* Mod icons: the title icon at the top of a mod page, and the icon in front of each home page card title. */
+.md-typeset img.mod-icon {
+  float: right;
+  width: 96px;
+  height: 96px;
+  margin: 0 0 1em 1em;
+  object-fit: contain;
+}
+
+.md-typeset img.card-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset img.mod-icon {
+    width: 64px;
+    height: 64px;
+  }
+}

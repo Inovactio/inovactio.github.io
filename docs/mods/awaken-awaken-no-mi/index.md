@@ -1,5 +1,7 @@
 # Awaken Awaken no Mi
 
+![](../../assets/icons/awaken-awaken-no-mi.png){ .mod-icon }
+
 **Awaken Awaken no Mi** adds **awakenings** to the Devil Fruits of [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod): new abilities, and for Zoan fruits new awakened forms, that a fruit's user gets once their fruit is awakened.
 
 | | |

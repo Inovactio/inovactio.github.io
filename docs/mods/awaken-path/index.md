@@ -1,5 +1,7 @@
 # Awaken Path
 
+![](../../assets/icons/awaken-path.png){ .mod-icon }
+
 **Mine Mine no Mi: Awaken Path** gives [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) a **survival progression for Devil Fruit awakenings**. A player's fruit awakens on its own once they are strong enough and have kept it long enough; no command needed.
 
 | | |

@@ -1,5 +1,7 @@
 # AkumaLib
 
+![](../assets/icons/akumalib.png){ .mod-icon }
+
 **AkumaLib** is a shared ability framework for [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) addons, on Minecraft 1.20.1 with Forge.
 
 The base mod gives an addon `Ability` and a set of components. Everything above that has to be written from scratch by each addon, and gets written slightly differently every time: a zone that charges and expands, a wave that converts terrain, a grab that holds its target, a passive that grants attribute bonuses under a condition. AkumaLib is that layer, extracted once and shared.
