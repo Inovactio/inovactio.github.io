@@ -1,6 +1,6 @@
-# Inovactio's Mine Mine no Mi addons
+# Inovactio's Minecraft Mods
 
-Player wikis and developer documentation for the addons Inovactio makes for [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod), on **Minecraft 1.20.1** with **Forge**.
+Player wikis and developer documentation for Inovactio's Minecraft mods. All of them are addons for [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod), on **Minecraft 1.20.1** with **Forge**.
 
 <div class="grid cards" markdown>
 

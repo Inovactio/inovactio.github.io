@@ -1,7 +1,7 @@
 # inovactio.github.io
 
 Source of <https://inovactio.github.io/>: the player wikis and developer documentation of Inovactio's
-Mine Mine no Mi addons (Minecraft 1.20.1, Forge), built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
+Minecraft mods, built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
 
 ## Content rules
 

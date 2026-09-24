@@ -40,7 +40,20 @@ It adds **no new Devil Fruit**: every ability here belongs to a fruit the base m
     Awaken Awaken no Mi contains the awakened forms and abilities only. The progression that awakens a fruit lives elsewhere:
 
     - **In survival**, install [Awaken Path](../awaken-path/index.md). It awakens a player's fruit once they reach a Doriki threshold and have kept the fruit long enough.
-    - **Without Awaken Path**, a fruit can only be awakened through the base mod's commands or another addon.
+    - **Without Awaken Path**, a fruit can only be awakened by a command, or by another addon.
+
+### Awakening with a command
+
+The base mod's `ability` command has an `awaken` option:
+
+```text
+/ability awaken [targets]
+```
+
+Without `targets`, it applies to the player running it. It needs the command's permission, and the base mod's **Enable Awakenings** option must be on. That option is off by default; [Awaken Path](../awaken-path/index.md) switches it on for you.
+
+!!! warning "It is a toggle"
+    Run on a fruit that is already awakened, the command **removes** the awakening.
 
 ## Configuration
 
