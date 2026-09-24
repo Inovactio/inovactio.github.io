@@ -1,0 +1,47 @@
+name: Documentation
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  # Republishing the site without a new commit, e.g. after Pages settings change. Deploys only from main.
+  workflow_dispatch:
+
+jobs:
+  # Every pull request builds the site in strict mode, so a broken link or a page missing from the
+  # nav fails the check instead of the published site.
+  build:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - run: mkdocs build --strict
+
+  # The published site is built from main only, into the gh-pages branch.
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - run: mkdocs gh-deploy --force --strict
