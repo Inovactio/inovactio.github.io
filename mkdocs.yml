@@ -47,7 +47,6 @@ extra_css:
 # Remove a line here, and add the page back to the nav and the home page, when the mod is released.
 exclude_docs: |
   /mods/cruise/
-  /mods/sky-island/
 
 markdown_extensions:
   - admonition
@@ -189,6 +188,12 @@ nav:
               - "Zuku Zuku no Mi, Model: Owl": mods/inofruits/fruits/zuku-zuku-no-mi-model-owl.md
       - Status effects: mods/inofruits/effects.md
       - Configuration: mods/inofruits/configuration.md
+  - Sky Island:
+      - mods/sky-island/index.md
+      - Getting there and back: mods/sky-island/getting-there.md
+      - Angel Islands: mods/sky-island/angel-islands.md
+      - Upper Yards: mods/sky-island/upper-yards.md
+      - Configuration: mods/sky-island/configuration.md
   - AkumaLib:
       - akumalib/index.md
       - Getting started: akumalib/getting-started.md
