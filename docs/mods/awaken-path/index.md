@@ -10,7 +10,7 @@
 | Mod id | `mineminenomiawakenpath` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-awaken-path) |
 
-It adds no abilities of its own: it decides **when** a fruit awakens. What an awakened fruit can do comes from the base mod and from addons such as [Awaken Awaken no Mi](../awaken-awaken-no-mi/index.md).
+It adds no abilities of its own: it decides **when** a fruit awakens. What an awakened fruit can do comes from the base mod and from addons such as [Awaken Awaken no Mi](../awaken-awaken-no-mi/index.md), whose awakened abilities unlock the moment the fruit awakens.
 
 ## Requirements
 
@@ -26,29 +26,37 @@ AkumaLib is **not** needed.
 
 With the default settings, a player's fruit awakens once **both** conditions hold:
 
-1. **Doriki**: the player has reached the base mod's maximum Doriki.
-2. **Time with the fruit**: the player has spent **one real day** (1,728,000 ticks) **online** with their current fruit. Time spent logged out does not count.
+| Condition | Default | Details |
+|---|---|---|
+| **Doriki** | the base mod's maximum Doriki | The base mod's *Doriki Limit* option, **10,000** by default. A fixed threshold can be set instead. |
+| **Time with the fruit** | **one real day** (1,728,000 ticks) | Only time spent **online** with the current fruit counts. Time logged out does not. |
 
-The check runs whenever the player gains Doriki, eats a fruit or logs in, and once a minute while they play. When the fruit awakens, the player sees an **Awakening** title, hears a sound and is surrounded by particles.
+Each condition can be switched off in the [configuration](configuration.md). With only one of them on, that one alone decides; with both off, no fruit awakens through this mod.
 
-!!! info "The time counter follows the fruit"
-    The counter starts at zero when a fruit is eaten, is kept through death, and is cleared when the player loses their fruit.
+### When it is checked
+
+The mod checks a player whenever they **gain Doriki**, **eat a Devil Fruit** or **log in**, and **once a minute** while they play. A fruit that is already awakened is not checked again.
+
+### The time counter
+
+- It starts at **zero when a fruit is eaten**.
+- It is **kept through death**.
+- It is **cleared when the player loses their fruit**, so a new fruit starts from zero.
+- A player who already had a fruit before Awaken Path was installed gets a counter at their next login, **starting from zero**.
+
+## The awakening
+
+When a fruit awakens, the player gets, each part of which can be turned off:
+
+- a title on screen, **Awakening**, with the subtitle *"The fruit's true power stirs within you..."* (in French for a French game: *Éveil*);
+- a sound;
+- a burst of particles around them.
+
+The base mod then grants the awakened fruit's abilities straight away.
 
 !!! note "Awakenings are switched on for you"
-    The base mod has an *Enable Awakenings* option, off by default. Awaken Path forces it on unless you turn off its **Force Enable Awakenings** setting.
+    The base mod has an *Enable Awakenings* option, **off by default**, in each world's `serverconfig/mineminenomi-server.toml`. Awaken Path turns it on, whatever that file says, unless you switch off its **Force Enable Awakenings** setting.
 
 ## Configuration
 
-Settings live in `config/mineminenomiawakenpath-common.toml`:
-
-| Section | Setting | Default | What it does |
-|---|---|---|---|
-| Unlock | Unlock with Doriki | `true` | Whether the Doriki condition applies. |
-| Unlock | Doriki Threshold | `-1` | Doriki required. `-1` means the base mod's maximum Doriki. |
-| Unlock | Time With Fruit Threshold | `1728000` (1 day) | Ticks a player must spend online with their fruit. `-1` removes this condition. |
-| Unlock | Force Enable Awakenings | `true` | Forces the base mod's *Enable Awakenings* option on. |
-| Effects | Awakening Sound | `true` | Play a sound when a fruit awakens. |
-| Effects | Awakening Title | `true` | Show the *Awakening* title on screen. |
-| Effects | Awakening Particles | `true` | Spawn particles around the player. |
-
-Time is counted in ticks: **72,000 per hour**, **1,728,000 per day**. If both *Unlock with Doriki* is `false` and the time threshold is `-1`, no fruit awakens through this mod.
+Every setting, its default and the exact file content are on the [Configuration](configuration.md) page.
