@@ -5,6 +5,8 @@ copyright: © Inovactio. All Rights Reserved.
 
 theme:
   name: material
+  # AkumaLib's logo, the base the mods share: one favicon for the whole site.
+  favicon: assets/favicon.ico
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
