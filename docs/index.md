@@ -34,6 +34,16 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     [:octicons-arrow-right-24: Read the wiki](mods/inofruits/index.md)
 
+-   ![](assets/icons/sky-island.png){ .card-icon } **Sky Island**
+
+    ---
+
+    Skypiea as a dimension of its own, reached by a Knock-Up Stream: the cloud sea, the Angel Islands, the Upper Yards and Shandora.
+
+    **Needs:** Mine Mine no Mi, AkumaLib
+
+    [:octicons-arrow-right-24: Read the wiki](mods/sky-island/index.md)
+
 -   ![](assets/icons/akumalib.png){ .card-icon } **AkumaLib**
 
     ---
