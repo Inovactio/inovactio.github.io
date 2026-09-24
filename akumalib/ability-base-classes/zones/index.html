@@ -1,0 +1,3245 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Player wikis and developer documentation for Inovactio's Minecraft mods">
+      
+      
+      
+        <link rel="canonical" href="https://inovactio.github.io/akumalib/ability-base-classes/zones/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../terrain/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Zones - Inovactio's Minecraft Mods</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#zones" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Inovactio&#39;s Minecraft Mods" class="md-header__button md-logo" aria-label="Inovactio's Minecraft Mods" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Inovactio's Minecraft Mods
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Zones
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="amber"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../mods/awaken-awaken-no-mi/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Awaken Awaken no Mi
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../mods/awaken-path/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Awaken Path
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../mods/inofruits/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  InoFruits
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../mods/cruise/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Cruise Cruise no Mi
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../mods/sky-island/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Sky Island
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  AkumaLib
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Inovactio&#39;s Minecraft Mods" class="md-nav__button md-logo" aria-label="Inovactio's Minecraft Mods" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Inovactio's Minecraft Mods
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../mods/awaken-awaken-no-mi/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Awaken Awaken no Mi
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Awaken Awaken no Mi
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../mods/awaken-path/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Awaken Path
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Awaken Path
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../mods/inofruits/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    InoFruits
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    InoFruits
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../mods/cruise/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cruise Cruise no Mi
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cruise Cruise no Mi
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../mods/sky-island/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sky Island
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sky Island
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AkumaLib
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AkumaLib
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../core-concepts/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core concepts
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_3" id="__nav_7_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Core concepts
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/damage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Damage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/library-registrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What the library registers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/morph-gates-and-stats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Morph gates and stats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/amplification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amplification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/charges/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Charges
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ability base classes
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_4" id="__nav_7_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ability base classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zones
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#zoneability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ZoneAbility
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ZoneAbility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lifecycle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-minimal-zone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A minimal zone
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hooks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interrupting-a-charge-from-outside" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interrupting a charge from outside
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zone-sounds-zonesoundset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zone sounds: ZoneSoundSet
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spreadingblockability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SpreadingBlockAbility
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SpreadingBlockAbility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-to-implement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What to implement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settings_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#throughput-four-budgets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Throughput: four budgets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traps
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terrain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Terrain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../passives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../movement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Movement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grabs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grabs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../items-and-blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Items and blocks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../awakened-zoan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Awakened Zoan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../animations/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animations
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_5" id="__nav_7_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Animations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../animations/choosing-a-pose/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Choosing a pose
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../animations/writing-an-animation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Writing an animation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../animations/morphs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animations on morphs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../animations/hands-and-armour/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hands and armour
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../entities/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entities
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_6" id="__nav_7_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/projectiles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projectiles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/tornadoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tornadoes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../loot-injection/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Loot injection
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_7" id="__nav_7_7_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Loot injection
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../loot-injection/devil-fruit-boxes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Devil Fruit boxes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../loot-injection/chests/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chests
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../utilities/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utilities
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_8" id="__nav_7_8_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Utilities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/targeting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Targeting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/attributes-and-size/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attributes and size
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blocks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/effects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Effects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/tooltips/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tooltips
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/effect-owners/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Effect owners
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/tick-queue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deferred work
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/motion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pulls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/protection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protected areas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/lines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/other-helpers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other helpers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#zoneability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ZoneAbility
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ZoneAbility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lifecycle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-minimal-zone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A minimal zone
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hooks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interrupting-a-charge-from-outside" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interrupting a charge from outside
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zone-sounds-zonesoundset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zone sounds: ZoneSoundSet
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spreadingblockability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SpreadingBlockAbility
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SpreadingBlockAbility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-to-implement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What to implement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settings_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#throughput-four-budgets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Throughput: four budgets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traps
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="zones">Zones<a class="headerlink" href="#zones" title="Permanent link">&para;</a></h1>
+<p>A zone is a charged area that grows around the user, holds for a while, and applies its effects to what is inside. Two classes share one parent:</p>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ZoneAbility</code></td>
+<td>a sphere that applies effects to entities inside it</td>
+</tr>
+<tr>
+<td><code>SpreadingBlockAbility</code></td>
+<td>a zone that also converts the ground, and restores it at the end</td>
+</tr>
+<tr>
+<td><code>DomainAbility</code></td>
+<td>their shared parent: the zone sounds and the "entity left the zone" tracking</td>
+</tr>
+</tbody>
+</table>
+<h2 id="zoneability"><code>ZoneAbility</code><a class="headerlink" href="#zoneability" title="Permanent link">&para;</a></h2>
+<h3 id="lifecycle">Lifecycle<a class="headerlink" href="#lifecycle" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>First press:</strong> the user must be on the ground (unless <code>onGroundOnly</code> is <code>false</code>). A sphere is created, the charge starts, and the user is rooted for <code>chargeTime</code> ticks.</li>
+<li><strong>During the charge:</strong> the sphere grows. Pressing again <strong>releases the zone early</strong>, at the size it has reached, but only once <code>minChargeTime</code> ticks have passed.</li>
+<li><strong>Charge end:</strong> the zone holds for <code>zoneTime</code> ticks, applying its effects every effect interval.</li>
+<li><strong>Pressing during the zone</strong> closes it.</li>
+<li><strong>Close:</strong> effects listed for clearing are removed, the closing sound plays, and the cooldown starts <strong>in proportion to the size reached</strong>: <code>maxCooldown x (size / maxZoneSize)</code>, clamped between <code>minCooldown</code> and <code>maxCooldown</code>.</li>
+</ol>
+<h3 id="a-minimal-zone">A minimal zone<a class="headerlink" href="#a-minimal-zone" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyZoneAbility</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">ZoneAbility</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyZoneAbility</span><span class="p">(</span><span class="n">AbilityCore</span><span class="o">&lt;</span><span class="n">MyZoneAbility</span><span class="o">&gt;</span><span class="w"> </span><span class="n">core</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">core</span><span class="p">);</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">maxZoneSize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20</span><span class="p">;</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">chargeTime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">zoneTime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">400.0F</span><span class="p">;</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">zoneColor</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Color</span><span class="p">(</span><span class="mi">80</span><span class="p">,</span><span class="w"> </span><span class="mi">160</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">75</span><span class="p">);</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">setEffectsTickInterval</span><span class="p">(</span><span class="mi">20</span><span class="p">);</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">applyEffectToLivingEntityInZone</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">owner</span><span class="p">,</span><span class="w"> </span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">target</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">applyOrRefresh</span><span class="p">(</span><span class="n">target</span><span class="p">,</span><span class="w"> </span><span class="n">MobEffects</span><span class="p">.</span><span class="na">MOVEMENT_SLOWDOWN</span><span class="p">,</span><span class="w"> </span><span class="mi">40</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">);</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">MobEffect</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">getZoneEffectsToClearOnEnd</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">MobEffects</span><span class="p">.</span><span class="na">MOVEMENT_SLOWDOWN</span><span class="p">);</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="settings">Settings<a class="headerlink" href="#settings" title="Permanent link">&para;</a></h3>
+<p>Set these from your constructor.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Default</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>maxZoneSize</code></td>
+<td><code>128</code></td>
+<td>radius at a full charge</td>
+</tr>
+<tr>
+<td><code>minZoneSize</code></td>
+<td><code>0</code></td>
+<td>smallest radius</td>
+</tr>
+<tr>
+<td><code>chargeTime</code></td>
+<td><code>240</code></td>
+<td>ticks to reach <code>maxZoneSize</code></td>
+</tr>
+<tr>
+<td><code>minChargeTime</code></td>
+<td><code>60</code></td>
+<td>ticks before an early release is accepted</td>
+</tr>
+<tr>
+<td><code>zoneTime</code></td>
+<td><code>1200</code></td>
+<td>ticks the zone holds after the charge</td>
+</tr>
+<tr>
+<td><code>minCooldown</code>, <code>maxCooldown</code></td>
+<td><code>2400</code></td>
+<td>bounds of the proportional cooldown</td>
+</tr>
+<tr>
+<td><code>cancelCooldown</code></td>
+<td><code>10</code></td>
+<td>length of the closing animation when the user closes the zone</td>
+</tr>
+<tr>
+<td><code>zoneColor</code></td>
+<td>white, alpha <code>50</code></td>
+<td>the sphere's colour</td>
+</tr>
+<tr>
+<td><code>onGroundOnly</code></td>
+<td><code>true</code></td>
+<td>refuse the first press in mid-air</td>
+</tr>
+<tr>
+<td><code>applyEffectOnUser</code></td>
+<td><code>false</code></td>
+<td>include the user in the zone's targets</td>
+</tr>
+<tr>
+<td><code>allowAnimation</code></td>
+<td><code>true</code></td>
+<td>play the charging pose</td>
+</tr>
+<tr>
+<td><code>enableBlockOverlay</code></td>
+<td><code>false</code></td>
+<td>highlight the blocks inside the zone on clients</td>
+</tr>
+<tr>
+<td><code>overlayArgb</code></td>
+<td><code>0x50FFFFFF</code></td>
+<td>the overlay colour</td>
+</tr>
+<tr>
+<td><code>targetsCheck</code></td>
+<td>enemies</td>
+<td>which living entities are affected</td>
+</tr>
+</tbody>
+</table>
+<p>Change the effect rate with <code>setEffectsTickInterval(ticks)</code>: it is safe to call from the constructor.</p>
+<div class="admonition warning">
+<p class="admonition-title">Always give <code>zoneColor</code> an alpha</p>
+<p>The colour goes to the sphere as is. <code>new Color(r, g, b)</code> has an alpha of 255, which paints an <strong>opaque dome</strong> nobody can see out of. Use the four-argument constructor: around <code>50</code> for a saturated colour, <code>75</code> for a mid tone, <code>110</code> to <code>120</code> for a dark one.</p>
+</div>
+<h3 id="hooks">Hooks<a class="headerlink" href="#hooks" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Override</th>
+<th>Called</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>applyEffectToLivingEntityInZone(owner, target)</code></td>
+<td>for each targeted living entity inside, every effect interval</td>
+</tr>
+<tr>
+<td><code>onEntityLeavesZone(owner, target)</code></td>
+<td>once, when an entity that was affected is no longer inside</td>
+</tr>
+<tr>
+<td><code>getZoneEffectsToClearOnEnd()</code></td>
+<td>at close, the effects to strip from everything that was affected</td>
+</tr>
+<tr>
+<td><code>endChargeBlocks</code>, <code>continuityTickBlocks</code>, <code>continuityEndBlocks</code></td>
+<td>block work at charge end, per tick, and at close</td>
+</tr>
+<tr>
+<td><code>applyEffectToNonLivingEntityInZone(owner, target)</code></td>
+<td>for items, arrows, orbs... only if <code>affectsNonLivingEntities()</code> returns <code>true</code></td>
+</tr>
+</tbody>
+</table>
+<p>Useful helpers: <code>applyOrRefresh(target, effect, duration, amplifier, ambient, particles)</code>, <code>isEntityInZone(entity)</code>, <code>isPositionInZone(pos)</code>, <code>getZoneSize()</code>, <code>getCenterBlock()</code>.</p>
+<div class="admonition warning">
+<p class="admonition-title">The non-living hook needs the switch too</p>
+<p>Overriding <code>applyEffectToNonLivingEntityInZone</code> alone does nothing: the scan never hands it a target. Override <code>affectsNonLivingEntities()</code> to return <code>true</code> as well. It widens every scan to every entity in the zone's box, so only do it when the zone really acts on them.</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Zone damage is an unguarded pulse</p>
+<p><code>applyEffectToLivingEntityInZone</code> runs on every effect interval, for every target. Deal damage there with <code>hurtTarget</code>, <strong>not</strong> <code>hurtBurst</code>, unless the interval is longer than 10 ticks. See <a href="../../core-concepts/damage/#which-call-to-use">Damage</a>.</p>
+</div>
+<h3 id="interrupting-a-charge-from-outside">Interrupting a charge from outside<a class="headerlink" href="#interrupting-a-charge-from-outside" title="Permanent link">&para;</a></h3>
+<p><code>DomainAbility.interruptCharge(entity)</code> cancels a zone's charge as if it had never started, for an ability that breaks
+the caster's concentration. It returns whether a charge was running; nothing is put on cooldown.</p>
+<p><strong>AkumaLib calls it itself</strong> for every <code>AbilityHelper.emergencyStopAbility</code> - kairoseki, water, handcuffs, any
+<code>disableAbilities</code> caller - through <code>AkumaCharges.interrupt</code>, which is also the call to make for an interruption of
+your own when the ability may not be a domain. See <a href="../../core-concepts/charges/#a-charge-stopped-from-outside">Charges</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>What it takes back</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ZoneAbility</code></td>
+<td>the sphere spawned at charge start, the charge's <code>MOVEMENT_BLOCKED</code> and pose. A closing zone (the owner shutting it) is left alone</td>
+</tr>
+<tr>
+<td><code>SpreadingBlockAbility</code></td>
+<td>every block the charge had already spread, through the same restore queue as a normal close (over <code>restoreTicks</code>), the lock and the pose</td>
+</tr>
+<tr>
+<td>any other <code>DomainAbility</code></td>
+<td>nothing: the default returns <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition danger">
+<p class="admonition-title">Neither charge-component call is safe on a domain</p>
+<p><code>ChargeComponent.stopCharging</code> runs the charge-end event, and a domain opens its zone there, at the size reached.
+<code>forceStopCharging</code> skips the event but leaves what the charge put in the world: a sphere that is never discarded,
+or blocks with no continuity left to restore them. Call <code>AkumaCharges.interrupt</code>, which picks <code>interruptCharge</code>
+for a domain.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">The spreading restore is queued</p>
+<p>It used to be <code>restoreImmediately</code>, which at a large radius is tens of thousands of <code>setBlock</code> calls in one tick.
+The zone stays in <code>ACTIVE_ZONES</code> until the queue is drained, so a disconnect in between still restores everything,
+and a recast flushes whatever is left first.</p>
+</div>
+<h2 id="zone-sounds-zonesoundset">Zone sounds: <code>ZoneSoundSet</code><a class="headerlink" href="#zone-sounds-zonesoundset" title="Permanent link">&para;</a></h2>
+<p><code>DomainAbility</code> plays four sounds over a zone's life. Declare them as data from your constructor:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">this</span><span class="p">.</span><span class="na">setZoneSounds</span><span class="p">(</span><span class="n">ZoneSoundSet</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">MySounds</span><span class="p">.</span><span class="na">ZONE_CREATE</span><span class="p">,</span><span class="w"> </span><span class="n">MySounds</span><span class="p">.</span><span class="na">ZONE_CHARGE</span><span class="p">,</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">                </span><span class="n">MySounds</span><span class="p">.</span><span class="na">ZONE_EXPAND</span><span class="p">,</span><span class="w"> </span><span class="n">MySounds</span><span class="p">.</span><span class="na">ZONE_END</span><span class="p">)</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">        </span><span class="p">.</span><span class="na">pitches</span><span class="p">(</span><span class="mf">0.9F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.85F</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.9F</span><span class="p">)</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">        </span><span class="p">.</span><span class="na">jitters</span><span class="p">(</span><span class="mf">0.0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.2F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0F</span><span class="p">));</span>
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>Slot</th>
+<th>When</th>
+<th>Default volume</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>create</td>
+<td>the charge starts</td>
+<td><code>3.0</code></td>
+</tr>
+<tr>
+<td>interval</td>
+<td>repeatedly while the zone charges</td>
+<td><code>1.5</code></td>
+</tr>
+<tr>
+<td>charge end</td>
+<td>the zone reaches full size</td>
+<td><code>3.0</code></td>
+</tr>
+<tr>
+<td>end</td>
+<td>the zone closes</td>
+<td><code>2.0</code></td>
+</tr>
+</tbody>
+</table>
+<p>Pass the <code>RegistryObject</code>s directly, without <code>.get()</code>. <code>.volumes(...)</code>, <code>.pitches(...)</code> and <code>.jitters(...)</code> take one value per slot, in that order.</p>
+<div class="admonition tip">
+<p class="admonition-title">Add jitter to the interval sound</p>
+<p>A charge sound repeated for hundreds of ticks turns robotic. A pitch jitter of about <code>0.2</code> on the interval slot keeps it natural.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Declare the interval clip's length</p>
+<p>The interval slot is replayed every <strong>18 ticks</strong> by default - the pace of the base mod's short Room sound. A longer clip restarted that often plays two or three copies of itself over each other for the whole charge. Give the set the clip's length and it replays it only once a play has finished:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">this</span><span class="p">.</span><span class="na">setZoneSounds</span><span class="p">(</span><span class="n">ZoneSoundSet</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">MySounds</span><span class="p">.</span><span class="na">ZONE_CREATE</span><span class="p">,</span><span class="w"> </span><span class="n">MySounds</span><span class="p">.</span><span class="na">ZONE_CHARGE</span><span class="p">,</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">                </span><span class="n">MySounds</span><span class="p">.</span><span class="na">ZONE_EXPAND</span><span class="p">,</span><span class="w"> </span><span class="n">MySounds</span><span class="p">.</span><span class="na">ZONE_END</span><span class="p">)</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">        </span><span class="p">.</span><span class="na">pitches</span><span class="p">(</span><span class="mf">1.0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.8F</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0F</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0F</span><span class="p">)</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">        </span><span class="p">.</span><span class="na">intervalClip</span><span class="p">(</span><span class="mf">3.0F</span><span class="p">));</span><span class="w">   </span><span class="c1">// seconds, at pitch 1</span>
+</code></pre></div>
+<p>The cadence is worked out at the slot's <strong>base pitch</strong>, its slowest, since jitter only raises the pitch and a lower pitch plays a clip for longer: a 3 s clip at pitch <code>0.8</code> lasts 3.75 s, so it is replayed every 75 ticks. <code>setZoneSounds</code> sets <code>playSoundInterval</code> from it; assign that field yourself only before the call, or not at all.</p>
+<p>A clip replayed back to back also wants a short fade at both ends, or each restart clicks.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">No sound set means the base mod's Room sounds</p>
+<p>Leaving <code>setZoneSounds</code> unset plays the Ope Ope no Mi's Room sounds. That is a deliberate fallback, not a default to ship with.</p>
+</div>
+<h2 id="spreadingblockability"><code>SpreadingBlockAbility</code><a class="headerlink" href="#spreadingblockability" title="Permanent link">&para;</a></h2>
+<p>A zone that replaces the ground under it with a block of your choice as it grows, applies effects to what stands on it, optionally hardens into a second block, and <strong>puts every original block back</strong> when it closes.</p>
+<h3 id="what-to-implement">What to implement<a class="headerlink" href="#what-to-implement" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyGroundZoneAbility</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">SpreadingBlockAbility</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyGroundZoneAbility</span><span class="p">(</span><span class="n">AbilityCore</span><span class="o">&lt;</span><span class="n">MyGroundZoneAbility</span><span class="o">&gt;</span><span class="w"> </span><span class="n">core</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">core</span><span class="p">);</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">maxRadius</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">30</span><span class="p">;</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">blocksPerTick</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">40</span><span class="p">;</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="n">BlockState</span><span class="w"> </span><span class="nf">getSpreadBlock</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Blocks</span><span class="p">.</span><span class="na">PACKED_ICE</span><span class="p">.</span><span class="na">defaultBlockState</span><span class="p">();</span>
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onSpreadTick</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">elapsedTicks</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="w">        </span><span class="c1">// per-tick work while the zone is active</span>
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">applyEffectToLivingEntityInZone</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">owner</span><span class="p">,</span><span class="w"> </span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">target</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">elapsedTicks</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a><span class="w">        </span><span class="c1">// same rule as ZoneAbility: this is a pulse</span>
+<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="p">}</span>
+</code></pre></div>
+<p>Optional overrides: <code>getHardenedBlock()</code> (<code>null</code> for no hardening), <code>onChargeEndTransition</code>, <code>easeRadiusProgress</code> (the shape of the expansion), <code>canReplaceBlock</code>, <code>canReplaceSubSurfaceBlock</code>, <code>isSurfaceBlock</code>, <code>getEffectsToClearOnEnd</code>, <code>onZoneEndBlocks</code>.</p>
+<h3 id="settings_1">Settings<a class="headerlink" href="#settings_1" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Default</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>maxRadius</code></td>
+<td><code>15</code></td>
+<td>radius at a full charge</td>
+</tr>
+<tr>
+<td><code>chargeTime</code>, <code>minChargeTime</code></td>
+<td><code>240</code>, <code>60</code></td>
+<td>as for <code>ZoneAbility</code></td>
+</tr>
+<tr>
+<td><code>zoneTime</code></td>
+<td><code>600</code></td>
+<td>ticks the zone holds</td>
+</tr>
+<tr>
+<td><code>minCooldown</code>, <code>maxCooldown</code></td>
+<td><code>2400</code></td>
+<td>the proportional cooldown only rewards an early release when <code>minCooldown &lt; maxCooldown</code></td>
+</tr>
+<tr>
+<td><code>blocksPerTick</code></td>
+<td><code>3</code></td>
+<td>propagation budget, in <strong>blocks</strong></td>
+</tr>
+<tr>
+<td><code>burstMultiplier</code></td>
+<td><code>3</code></td>
+<td>cap on a single tick: <code>burstMultiplier x blocksPerTick</code></td>
+</tr>
+<tr>
+<td><code>surfaceLayers</code></td>
+<td><code>1</code></td>
+<td>blocks converted per column, from the surface down</td>
+</tr>
+<tr>
+<td><code>surfaceScanUp</code>, <code>surfaceScanDown</code></td>
+<td><code>4</code>, <code>8</code></td>
+<td>vertical window searched for each column's surface</td>
+</tr>
+<tr>
+<td><code>hardenTicks</code></td>
+<td><code>30</code></td>
+<td>ticks to lay the hardened block</td>
+</tr>
+<tr>
+<td><code>restoreTicks</code></td>
+<td><code>30</code></td>
+<td>ticks to restore the original blocks</td>
+</tr>
+</tbody>
+</table>
+<h3 id="throughput-four-budgets">Throughput: four budgets<a class="headerlink" href="#throughput-four-budgets" title="Permanent link">&para;</a></h3>
+<p>A large zone touches tens of thousands of blocks, and each phase has its own ceiling. Forgetting one produces a lag spike at a precise moment.</p>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Setting</th>
+<th>What goes wrong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>propagation</td>
+<td><code>blocksPerTick</code>, capped by <code>burstMultiplier</code></td>
+<td>the front never reaches the advertised radius, or a single tick places thousands of blocks</td>
+</tr>
+<tr>
+<td>hardening</td>
+<td><code>hardenTicks</code></td>
+<td>the server freezes the moment the zone reaches full size</td>
+</tr>
+<tr>
+<td>restore</td>
+<td><code>restoreTicks</code></td>
+<td>the default of 30 ticks is thousands of <code>setBlock</code> calls per tick on a huge zone</td>
+</tr>
+<tr>
+<td>memory</td>
+<td><code>surfaceLayers</code></td>
+<td>the original state of <strong>every</strong> converted block is kept for the zone's lifetime</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title"><code>blocksPerTick</code> counts blocks, not columns</p>
+<p>Going to three layers without raising the budget divides the speed of the front by three. The total work to reach <code>maxRadius</code> is fixed: halving <code>chargeTime</code> means doubling <code>blocksPerTick</code>.</p>
+</div>
+<p>For reference, a radius-110 zone with three layers (about 114,000 blocks) runs well at <code>chargeTime=110</code>, <code>blocksPerTick=520</code>, <code>burstMultiplier=2</code>, <code>hardenTicks=160</code>, <code>restoreTicks=160</code>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Large radius, uneven terrain</p>
+<p>Past a radius of about 40, valleys and hollows fall outside the default <code>+4 / -8</code> surface window and stay unconverted for good. Raise it to around <code>+8 / -32</code>.</p>
+</div>
+<h3 id="traps">Traps<a class="headerlink" href="#traps" title="Permanent link">&para;</a></h3>
+<div class="admonition info">
+<p class="admonition-title">Zones are restored when their holder leaves</p>
+<p>The restore is normally driven by the ability's own ticks, which stop the moment the holder leaves: a disconnect, a dimension change, a server shutdown. The zone registers itself so it can be restored from outside, and the library's <code>SpreadingBlockCleanupHandler</code> does it on <code>PlayerLoggedOutEvent</code>, <code>EntityLeaveLevelEvent</code> and <code>ServerStoppingEvent</code>. You wire nothing.</p>
+<p>An addon that still ships its own copy of that handler, from before the library had one, can keep it until its next library update: a zone restores once and is found gone the second time.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Reject your own blocks in <code>canReplaceBlock</code></p>
+<p>The default accepts any block with a solid top face. A zone spreading over blocks another ability of the same fruit placed records them as "original" and puts them back <strong>permanently</strong> at the end.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Override both replacement predicates together</p>
+<p>Layers below the surface go through <code>canReplaceSubSurfaceBlock</code>, not <code>canReplaceBlock</code>. The surface predicate requires a solid top face, which would stop the descent at the first dirt path or leaf block. A subclass overriding one must override the other.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Blocks you place yourself need <code>onZoneEndBlocks</code></p>
+<p>The zone only restores what <strong>it</strong> converted. A wall raised from <code>onChargeEndTransition</code> is invisible to the restore and would stand forever. Take such blocks down in <code>onZoneEndBlocks(Level)</code>, which runs at a normal close <strong>and</strong> on the disconnect path, so it must be safe to run twice.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Eating your own zone's terrain</p>
+<p>To remove some of the zone's blocks during the zone, call <code>consumePlacedBlocks(entity, positions)</code>. It restores those positions and stops tracking them. Removing the blocks by hand would leave a permanent hole.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">The ragged edge is intentional</p>
+<p>Conversion thins out towards the frontier on purpose, so a zone ends with a scattered rim rather than a clean disc. Genuine holes near the edge, on the other hand, mean the surface window is too small.</p>
+</div>
+<p>Restoring a block goes through <code>Block.updateFromNeighbourShapes</code>, so connections and properties like <code>snowy</code> are recomputed. Whatever rested on the converted surface (snow layers, flowers, torches) breaks when the block is replaced and does not come back.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Ability base classes">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Ability base classes
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../terrain/" class="md-footer__link md-footer__link--next" aria-label="Next: Terrain">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Terrain
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © Inovactio. All Rights Reserved.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
