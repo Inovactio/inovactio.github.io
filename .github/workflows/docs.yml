@@ -7,6 +7,9 @@ on:
   # Republishing the site without a new commit, e.g. after Pages settings change. Deploys only from main.
   workflow_dispatch:
 
+# Nothing by default: each job asks for exactly what it needs.
+permissions: {}
+
 jobs:
   # Every pull request builds the site in strict mode, so a broken link or a page missing from the
   # nav fails the check instead of the published site.
@@ -16,8 +19,11 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      # Actions are pinned to a full commit SHA: a tag can be moved, a SHA cannot. Dependabot keeps them current.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: "3.12"
           cache: pip
@@ -30,12 +36,17 @@ jobs:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
+      # gh-deploy pushes the built site to gh-pages.
       contents: write
+    # Two merges in a row deploy one after the other, never interleaved; the newest always lands last.
+    concurrency:
+      group: deploy-gh-pages
+      cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: "3.12"
           cache: pip

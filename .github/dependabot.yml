@@ -1,0 +1,23 @@
+version: 2
+updates:
+  # Keeps the SHA-pinned actions in docs.yml current; each bump is a PR that the strict build checks.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: ci
+
+  # requirements.txt. Major bumps are ignored: MkDocs 2.0 breaks Material, and a Material major is
+  # tied to it. Those are moved by hand, after checking the site still builds.
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: deps
+    ignore:
+      - dependency-name: mkdocs
+        update-types: ["version-update:semver-major"]
+      - dependency-name: mkdocs-material
+        update-types: ["version-update:semver-major"]
