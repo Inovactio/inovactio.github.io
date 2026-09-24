@@ -1,5 +1,7 @@
 # InoFruits
 
+![](../../assets/icons/inofruits.png){ .mod-icon }
+
 **InoFruits** adds **brand-new Devil Fruits** to [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod): fruits the base mod does not have, each with its own abilities.
 
 | | |

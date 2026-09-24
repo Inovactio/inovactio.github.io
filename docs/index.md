@@ -4,7 +4,7 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
 <div class="grid cards" markdown>
 
--   :material-fire:{ .lg .middle } **Awaken Awaken no Mi**
+-   ![](assets/icons/awaken-awaken-no-mi.png){ .card-icon } **Awaken Awaken no Mi**
 
     ---
 
@@ -14,7 +14,7 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     [:octicons-arrow-right-24: Read the wiki](mods/awaken-awaken-no-mi/index.md)
 
--   :material-trending-up:{ .lg .middle } **Awaken Path**
+-   ![](assets/icons/awaken-path.png){ .card-icon } **Awaken Path**
 
     ---
 
@@ -24,7 +24,7 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     [:octicons-arrow-right-24: Read the wiki](mods/awaken-path/index.md)
 
--   :material-fruit-cherries:{ .lg .middle } **InoFruits**
+-   ![](assets/icons/inofruits.png){ .card-icon } **InoFruits**
 
     ---
 
@@ -54,7 +54,7 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     [:octicons-arrow-right-24: Status](mods/sky-island/index.md)
 
--   :material-code-braces:{ .lg .middle } **AkumaLib**
+-   ![](assets/icons/akumalib.png){ .card-icon } **AkumaLib**
 
     ---
 
