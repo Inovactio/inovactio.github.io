@@ -97,11 +97,19 @@
          <lastmod>2026-09-24</lastmod>
     </url>
     <url>
+         <loc>https://inovactio.github.io/akumalib/entities/creatures/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
          <loc>https://inovactio.github.io/akumalib/entities/projectiles/</loc>
          <lastmod>2026-09-24</lastmod>
     </url>
     <url>
          <loc>https://inovactio.github.io/akumalib/entities/tornadoes/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/entities/traps/</loc>
          <lastmod>2026-09-24</lastmod>
     </url>
     <url>
@@ -117,6 +125,22 @@
          <lastmod>2026-09-24</lastmod>
     </url>
     <url>
+         <loc>https://inovactio.github.io/akumalib/professions/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/professions/advancements/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/professions/gathering/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/professions/workstations/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
          <loc>https://inovactio.github.io/akumalib/utilities/</loc>
          <lastmod>2026-09-24</lastmod>
     </url>
@@ -129,11 +153,35 @@
          <lastmod>2026-09-24</lastmod>
     </url>
     <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/cells/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/currency/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/devil-fruits/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/dimension-travel/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/doriki/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
          <loc>https://inovactio.github.io/akumalib/utilities/effect-owners/</loc>
          <lastmod>2026-09-24</lastmod>
     </url>
     <url>
          <loc>https://inovactio.github.io/akumalib/utilities/effects/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/jigsaw/</loc>
          <lastmod>2026-09-24</lastmod>
     </url>
     <url>
@@ -146,6 +194,10 @@
     </url>
     <url>
          <loc>https://inovactio.github.io/akumalib/utilities/other-helpers/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/overworld-lookup/</loc>
          <lastmod>2026-09-24</lastmod>
     </url>
     <url>
