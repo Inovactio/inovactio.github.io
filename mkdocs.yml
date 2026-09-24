@@ -36,6 +36,10 @@ theme:
 plugins:
   - search
 
+# Broken anchors fail the strict build too, not only broken pages.
+validation:
+  anchors: warn
+
 extra_css:
   - assets/stylesheets/extra.css
 
@@ -67,6 +71,84 @@ nav:
   - Home: index.md
   - Awaken Awaken no Mi:
       - mods/awaken-awaken-no-mi/index.md
+      - Fruits:
+          - mods/awaken-awaken-no-mi/fruits/index.md
+          - Paramecia:
+              - "Awa Awa no Mi": mods/awaken-awaken-no-mi/fruits/awa-awa-no-mi.md
+              - "Baku Baku no Mi": mods/awaken-awaken-no-mi/fruits/baku-baku-no-mi.md
+              - "Bane Bane no Mi": mods/awaken-awaken-no-mi/fruits/bane-bane-no-mi.md
+              - "Bara Bara No Mi": mods/awaken-awaken-no-mi/fruits/bara-bara-no-mi.md
+              - "Bari Bari no Mi": mods/awaken-awaken-no-mi/fruits/bari-bari-no-mi.md
+              - "Beta Beta no Mi": mods/awaken-awaken-no-mi/fruits/beta-beta-no-mi.md
+              - "Bomu Bomu no Mi": mods/awaken-awaken-no-mi/fruits/bomu-bomu-no-mi.md
+              - "Chiyu Chiyu no Mi": mods/awaken-awaken-no-mi/fruits/chiyu-chiyu-no-mi.md
+              - "Deka Deka no Mi": mods/awaken-awaken-no-mi/fruits/deka-deka-no-mi.md
+              - "Doa Doa no Mi": mods/awaken-awaken-no-mi/fruits/doa-doa-no-mi.md
+              - "Doku Doku no Mi": mods/awaken-awaken-no-mi/fruits/doku-doku-no-mi.md
+              - "Doru Doru no Mi": mods/awaken-awaken-no-mi/fruits/doru-doru-no-mi.md
+              - "Goe Goe no Mi": mods/awaken-awaken-no-mi/fruits/goe-goe-no-mi.md
+              - "Gura Gura no Mi": mods/awaken-awaken-no-mi/fruits/gura-gura-no-mi.md
+              - "Hana Hana No Mi": mods/awaken-awaken-no-mi/fruits/hana-hana-no-mi.md
+              - "Hiso Hiso No Mi": mods/awaken-awaken-no-mi/fruits/hiso-hiso-no-mi.md
+              - "Horo Horo no Mi": mods/awaken-awaken-no-mi/fruits/horo-horo-no-mi.md
+              - "Horu Horu no Mi": mods/awaken-awaken-no-mi/fruits/horu-horu-no-mi.md
+              - "Ito Ito no Mi": mods/awaken-awaken-no-mi/fruits/ito-ito-no-mi.md
+              - "Jiki Jiki no Mi": mods/awaken-awaken-no-mi/fruits/jiki-jiki-no-mi.md
+              - "Kachi Kachi no Mi": mods/awaken-awaken-no-mi/fruits/kachi-kachi-no-mi.md
+              - "Kage Kage no Mi": mods/awaken-awaken-no-mi/fruits/kage-kage-no-mi.md
+              - "Karu Karu no Mi": mods/awaken-awaken-no-mi/fruits/karu-karu-no-mi.md
+              - "Kilo Kilo no Mi": mods/awaken-awaken-no-mi/fruits/kilo-kilo-no-mi.md
+              - "Kira Kira no Mi": mods/awaken-awaken-no-mi/fruits/kira-kira-no-mi.md
+              - "Kobu Kobu No Mi": mods/awaken-awaken-no-mi/fruits/kobu-kobu-no-mi.md
+              - "Kuku Kuku no Mi": mods/awaken-awaken-no-mi/fruits/kuku-kuku-no-mi.md
+              - "Mero Mero no Mi": mods/awaken-awaken-no-mi/fruits/mero-mero-no-mi.md
+              - "Mini Mini No Mi": mods/awaken-awaken-no-mi/fruits/mini-mini-no-mi.md
+              - "Nagi Nagi no Mi": mods/awaken-awaken-no-mi/fruits/nagi-nagi-no-mi.md
+              - "Netsu Netsu no Mi": mods/awaken-awaken-no-mi/fruits/netsu-netsu-no-mi.md
+              - "Nikyu Nikyu no Mi": mods/awaken-awaken-no-mi/fruits/nikyu-nikyu-no-mi.md
+              - "Noro Noro no Mi": mods/awaken-awaken-no-mi/fruits/noro-noro-no-mi.md
+              - "Ope Ope no Mi": mods/awaken-awaken-no-mi/fruits/ope-ope-no-mi.md
+              - "Ori Ori no Mi": mods/awaken-awaken-no-mi/fruits/ori-ori-no-mi.md
+              - "Oto Oto no Mi": mods/awaken-awaken-no-mi/fruits/oto-oto-no-mi.md
+              - "Pero Pero no Mi": mods/awaken-awaken-no-mi/fruits/pero-pero-no-mi.md
+              - "Sabi Sabi no Mi": mods/awaken-awaken-no-mi/fruits/sabi-sabi-no-mi.md
+              - "Sube Sube No Mi": mods/awaken-awaken-no-mi/fruits/sube-sube-no-mi.md
+              - "Sui Sui no Mi": mods/awaken-awaken-no-mi/fruits/sui-sui-no-mi.md
+              - "Suke Suke no Mi": mods/awaken-awaken-no-mi/fruits/suke-suke-no-mi.md
+              - "Supa Supa no Mi": mods/awaken-awaken-no-mi/fruits/supa-supa-no-mi.md
+              - "Wara Wara no Mi": mods/awaken-awaken-no-mi/fruits/wara-wara-no-mi.md
+              - "Yomi Yomi no Mi": mods/awaken-awaken-no-mi/fruits/yomi-yomi-no-mi.md
+              - "Zushi Zushi no Mi": mods/awaken-awaken-no-mi/fruits/zushi-zushi-no-mi.md
+          - Logia:
+              - "Gasu Gasu no Mi": mods/awaken-awaken-no-mi/fruits/gasu-gasu-no-mi.md
+              - "Goro Goro no Mi": mods/awaken-awaken-no-mi/fruits/goro-goro-no-mi.md
+              - "Hie Hie no Mi": mods/awaken-awaken-no-mi/fruits/hie-hie-no-mi.md
+              - "Magu Magu no Mi": mods/awaken-awaken-no-mi/fruits/magu-magu-no-mi.md
+              - "Mera Mera no Mi": mods/awaken-awaken-no-mi/fruits/mera-mera-no-mi.md
+              - "Moku Moku no Mi": mods/awaken-awaken-no-mi/fruits/moku-moku-no-mi.md
+              - "Pika Pika no Mi": mods/awaken-awaken-no-mi/fruits/pika-pika-no-mi.md
+              - "Suna Suna no Mi": mods/awaken-awaken-no-mi/fruits/suna-suna-no-mi.md
+              - "Yami Yami no Mi": mods/awaken-awaken-no-mi/fruits/yami-yami-no-mi.md
+              - "Yuki Yuki no Mi": mods/awaken-awaken-no-mi/fruits/yuki-yuki-no-mi.md
+          - Zoan:
+              - "Hito Hito no Mi": mods/awaken-awaken-no-mi/fruits/hito-hito-no-mi.md
+              - "Hito Hito no Mi, Model: Daibutsu": mods/awaken-awaken-no-mi/fruits/hito-hito-no-mi-model-daibutsu.md
+              - "Kame Kame no Mi": mods/awaken-awaken-no-mi/fruits/kame-kame-no-mi.md
+              - "Mogu Mogu no Mi": mods/awaken-awaken-no-mi/fruits/mogu-mogu-no-mi.md
+              - "Neko Neko no Mi, Model: Leopard": mods/awaken-awaken-no-mi/fruits/neko-neko-no-mi-model-leopard.md
+              - "Ryu Ryu no Mi, Model: Allosaurus": mods/awaken-awaken-no-mi/fruits/ryu-ryu-no-mi-model-allosaurus.md
+              - "Ryu Ryu no Mi, Model: Brachiosaurus": mods/awaken-awaken-no-mi/fruits/ryu-ryu-no-mi-model-brachiosaurus.md
+              - "Ryu Ryu no Mi, Model: Pteranodon": mods/awaken-awaken-no-mi/fruits/ryu-ryu-no-mi-model-pteranodon.md
+              - "Sai Sai no Mi": mods/awaken-awaken-no-mi/fruits/sai-sai-no-mi.md
+              - "Sara Sara no Mi, Model: Axolotl": mods/awaken-awaken-no-mi/fruits/sara-sara-no-mi-model-axolotl.md
+              - "Tori Tori no Mi, Model: Phoenix": mods/awaken-awaken-no-mi/fruits/tori-tori-no-mi-model-phoenix.md
+              - "Ushi Ushi no Mi, Model: Bison": mods/awaken-awaken-no-mi/fruits/ushi-ushi-no-mi-model-bison.md
+              - "Ushi Ushi no Mi, Model: Giraffe": mods/awaken-awaken-no-mi/fruits/ushi-ushi-no-mi-model-giraffe.md
+              - "Zou Zou no Mi": mods/awaken-awaken-no-mi/fruits/zou-zou-no-mi.md
+              - "Zou Zou no Mi, Model: Mammoth": mods/awaken-awaken-no-mi/fruits/zou-zou-no-mi-model-mammoth.md
+      - Status effects: mods/awaken-awaken-no-mi/effects.md
+      - Items: mods/awaken-awaken-no-mi/items.md
+      - Configuration: mods/awaken-awaken-no-mi/configuration.md
   - Awaken Path:
       - mods/awaken-path/index.md
   - InoFruits:
