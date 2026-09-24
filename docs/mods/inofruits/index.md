@@ -32,58 +32,16 @@ The fruits behave like the base mod's own:
 ## Getting started
 
 1. Install Forge for Minecraft 1.20.1, then put **Mine Mine no Mi**, **AkumaLib** and **InoFruits** in your `mods` folder.
-2. Find a fruit in a Devil Fruit box. Wooden, iron and golden boxes each hold the fruits of their tier, listed [below](#fruits).
+2. Find a fruit in a Devil Fruit box. Wooden, iron and golden boxes each hold the fruits of their tier, listed in [Fruits](fruits/index.md).
 3. Eat it. Its abilities appear in the base mod's ability menu, grouped under the fruit.
 
 !!! note "Upgrading from before 3.0.0"
     The ferret fruit was renamed **Ita Ita no Mi, Model: Ferret** in 3.0.0. Older saves are remapped automatically: the fruit, its abilities and its forms carry over.
 
-## Configuration
+## Explore the wiki
 
-Settings live in `config/inofruits-common.toml`:
-
-| Section | Setting | Default | What it does |
-|---|---|---|---|
-| `bai_bai_no_mi` | `fukuseiCooldown` | `6000` (5 min) | Cooldown of *Fukusei*, which makes one permanent copy of the held item. The value that most affects a server's economy. |
-| `bai_bai_no_mi` | `baiBunshinCooldown` | `2400` (2 min) | Cooldown of *Bai Bunshin*, which spawns three copies of the user for 30 seconds. |
-| `bai_bai_no_mi` | `baizoCooldown` | `1800` (90 s) | Cooldown of *Baizo*, which doubles the clones already standing. |
-| `bai_bai_no_mi` | `baizoMaxClones` | `8` | Most clones one player may have at once. A server performance limit. |
-| `yuge_yuge_no_mi` | `kumoriSuppression` | `60` (3 s) | How long *Kumori* switches off a soaked Devil Fruit user's powers. `0` removes the suppression. |
-
-Values are in ticks (20 ticks = 1 second).
-
-!!! warning "Ship the file to your players"
-    The file is not synchronised to clients. The server always enforces its own values, but a player's ability tooltips read *their* copy. A server that changes a cooldown should give its players the same file, or their tooltips will show the defaults.
-
-## Fruits
-
-| Fruit | Type | Box |
-|---|---|---|
-| **Kaze Kaze no Mi** | Logia | Golden |
-| **Shio Shio no Mi** | Logia | Golden |
-| **Tsuchi Tsuchi no Mi** | Logia | Golden |
-| **Yuge Yuge no Mi** | Logia | Iron |
-| **Bai Bai no Mi** | Paramecia | Golden |
-| **Gamu Gamu no Mi** | Paramecia | Iron |
-| **Hone Hone no Mi** | Paramecia | Iron |
-| **Ichi Ichi no Mi** | Paramecia | Iron |
-| **Mitsu Mitsu no Mi** | Paramecia | Iron |
-| **Suji Suji no Mi** | Paramecia | Iron |
-| **Chiku Chiku no Mi** | Paramecia | Wooden |
-| **Iro Iro no Mi** | Paramecia | Wooden |
-| **Kane Kane no Mi** | Paramecia | Wooden |
-| **Kiza Kiza no Mi** | Paramecia | Wooden |
-| **Kobo Kobo no Mi** | Paramecia | Wooden |
-| **Neji Neji no Mi** | Paramecia | Wooden |
-| **Tsuri Tsuri no Mi** | Paramecia | Wooden |
-| **Wata Wata no Mi** | Paramecia | Wooden |
-| **Ita Ita no Mi, Model: Ferret** | Zoan | Iron |
-| **Kero Kero no Mi, Model: Frog** | Zoan | Iron |
-| **Mushi Mushi no Mi, Model: Mosquito** | Zoan | Iron |
-| **Wani Wani no Mi, Model: Crocodile** | Zoan | Iron |
-| **Zuku Zuku no Mi, Model: Owl** | Zoan | Iron |
-| **Fugu Fugu no Mi, Model: Pufferfish** | Zoan | Wooden |
-| **Isa Isa no Mi, Model: Whale** | Zoan | Wooden |
-| **Kani Kani no Mi, Model: Crab** | Zoan | Wooden |
-| **Nezu Nezu no Mi, Model: Rat** | Zoan | Wooden |
-| **Usa Usa no Mi, Model: Hare** | Zoan | Wooden |
+| Page | What you'll find |
+|---|---|
+| **[Fruits](fruits/index.md)** | the 28 fruits, one page each, with every ability's description and values |
+| **[Status effects](effects.md)** | the effects the fruits inflict or grant, and what applies each one |
+| **[Configuration](configuration.md)** | the settings of `inofruits-common.toml` |
