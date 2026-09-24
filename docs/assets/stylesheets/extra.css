@@ -21,3 +21,8 @@
     height: 64px;
   }
 }
+
+/* A malus in an ability's stats, red as in the game's tooltip. */
+.md-typeset .stat-malus {
+  color: #e53935;
+}
