@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Glittering Storm { #glittering-storm }
 
-*Active*
+![](../abilities/glittering-storm.png){ .ability-icon } *Active*
 
 Creates a tornado of diamond shards the user can steer, wrecking everything in its path and hurting enemies caught in it every 0.75 seconds.
 
@@ -21,7 +21,7 @@ Creates a tornado of diamond shards the user can steer, wrecking everything in i
 
 ## Brilliant Meteor { #brilliant-meteor }
 
-*Active*
+![](../abilities/brilliant-meteor.png){ .ability-icon } *Active*
 
 The user tears a huge block of diamond out of the ground and hurls it, shattering it into a burst of shards where it lands.
 
@@ -36,7 +36,7 @@ Thrown with Diamond Body active, it hits half again as hard.
 
 ## Unscratchable { #unscratchable }
 
-*Passive*
+![](../abilities/unscratchable.png){ .ability-icon } *Passive*
 
 While Diamond Body is active, blows too weak to scratch diamond do not hurt the user at all.
 

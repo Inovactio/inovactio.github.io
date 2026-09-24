@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Phoenix Assault Point { #awaken-phoenix-assault-point }
 
-*Active · Transformation*
+![](../abilities/awaken-phoenix-assault-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened phoenix hybrid, which focuses on attacking
 
@@ -33,7 +33,7 @@ Transforms the user into an awakened phoenix hybrid, which focuses on attacking
 
 ## Awaken Phoenix Fly Point { #awaken-phoenix-fly-point }
 
-*Active · Transformation*
+![](../abilities/awaken-phoenix-fly-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened phoenix, which focuses on flying
 
@@ -53,7 +53,7 @@ Transforms the user into an awakened phoenix, which focuses on flying
 
 ## Ao no Rakka { #ao-no-rakka }
 
-*Active*
+![](../abilities/ao-no-rakka.png){ .ability-icon } *Active*
 
 The user dives wrapped in blue flames hitting all enemies in the way, healing with each hit.
 
@@ -66,7 +66,7 @@ The user dives wrapped in blue flames hitting all enemies in the way, healing wi
 
 ## Rebirth Blaze { #rebirth-blaze }
 
-*Active*
+![](../abilities/rebirth-blaze.png){ .ability-icon } *Active*
 
 The phoenix bursts into blue flames and hovers, untouchable, until it is reborn at full health.
 

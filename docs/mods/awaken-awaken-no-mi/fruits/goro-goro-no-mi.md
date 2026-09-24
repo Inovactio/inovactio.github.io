@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Godland { #kami-no-kuni }
 
-*Active · Zone*
+![](../abilities/kami-no-kuni.png){ .ability-icon } *Active · Zone*
 
 Calls a real thunderstorm that lasts as long as the zone stays up.
 
@@ -27,7 +27,7 @@ Diamond and leather don't conduct at all.
 
 ## Stormstep { #stormstep }
 
-*Active*
+![](../abilities/stormstep.png){ .ability-icon } *Active*
 
 Fires a lightning bolt that jumps from enemy to enemy toward whoever conducts best
 
@@ -41,7 +41,7 @@ The metal a target carries sets how far the bolt jumps and how hard it hits, los
 
 ## Storm Sovereign { #storm-sovereign }
 
-*Passive*
+![](../abilities/storm-sovereign.png){ .ability-icon } *Passive*
 
 During a thunderstorm the user hits harder, moves faster and heals quickly
 

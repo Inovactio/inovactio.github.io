@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Love's Punishment { #loves-punishment }
 
-*Passive · Aura*
+![](../abilities/loves-punishment.png){ .ability-icon } *Passive · Aura*
 
 Enemies that get too close fall in love and slowly turn to stone.
 
@@ -19,7 +19,7 @@ Enemies that get too close fall in love and slowly turn to stone.
 
 ## Enthralling Gaze { #enthralling-gaze }
 
-*Active*
+![](../abilities/enthralling-gaze.png){ .ability-icon } *Active*
 
 Every enemy nearby who is looking at the user falls under her charm and cannot bring themselves to hurt her for a while.
 
@@ -32,7 +32,7 @@ The charmed can still move, use their abilities and attack anyone else.
 
 ## Heart Rebound { #heart-rebound }
 
-*Active*
+![](../abilities/heart-rebound.png){ .ability-icon } *Active*
 
 Throws a great heart that flies through everything in its way and comes back to the user, striking each enemy it passes both ways.
 

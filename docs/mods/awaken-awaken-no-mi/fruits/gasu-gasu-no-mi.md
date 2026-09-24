@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Taiki { #taiki }
 
-*Active · Zone*
+![](../abilities/taiki.png){ .ability-icon } *Active · Zone*
 
 The user takes control of the air around them, everyone inside breathes what they choose
 
@@ -28,7 +28,7 @@ The zone gets bigger while Shinokuni is active
 
 ## Asshuku { #asshuku }
 
-*Active*
+![](../abilities/asshuku.png){ .ability-icon } *Active*
 
 Pulls all the gas in the air into a single point and crushes whoever was breathing it.
 
@@ -44,7 +44,7 @@ Hits even harder while Shinokuni is active.
 
 ## Chuwa { #chuwa }
 
-*Passive*
+![](../abilities/chuwa.png){ .ability-icon } *Passive*
 
 Poison, fumes and smoke near the user fade away before they can affect allies
 

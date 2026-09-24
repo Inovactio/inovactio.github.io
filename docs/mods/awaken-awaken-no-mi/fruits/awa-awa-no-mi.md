@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## World Wash { #world-wash }
 
-*Active · Zone*
+![](../abilities/world-wash.png){ .ability-icon } *Active · Zone*
 
 Creates a big soap zone around the user that washes everyone inside, leaving them weak and unable to fight
 
@@ -22,7 +22,7 @@ Creates a big soap zone around the user that washes everyone inside, leaving the
 
 ## Bubble Cage { #bubble-cage }
 
-*Active*
+![](../abilities/bubble-cage.png){ .ability-icon } *Active*
 
 Fires a giant soap bubble that traps the first enemy hit so they can't move or attack.
 
@@ -37,7 +37,7 @@ The bubble bursts at the end or when used again, dealing damage and washing away
 
 ## Squeaky Clean { #squeaky-clean }
 
-*Passive*
+![](../abilities/squeaky-clean.png){ .ability-icon } *Passive*
 
 The user's hits deal a lot more damage to washed enemies.
 

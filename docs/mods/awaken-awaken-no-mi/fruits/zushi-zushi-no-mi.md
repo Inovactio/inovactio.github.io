@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Ukiyo { #ukiyo }
 
-*Active · Zone*
+![](../abilities/ukiyo.png){ .ability-icon } *Active · Zone*
 
 Turns off gravity in the zone, lifting every enemy off the ground and leaving them floating helpless
 
@@ -26,7 +26,7 @@ When the zone ends everyone falls back down, the higher they floated the harder 
 
 ## Deadweight { #deadweight }
 
-*Active*
+![](../abilities/deadweight.png){ .ability-icon } *Active*
 
 The user fixes one enemy in their sight and piles the weight of the sky onto it alone.
 
@@ -44,7 +44,7 @@ Looking away lets the weight go.
 
 ## Zenith { #zenith }
 
-*Passive*
+![](../abilities/zenith.png){ .ability-icon } *Passive*
 
 The higher the user is off the ground, the harder they hit and the faster they fly
 

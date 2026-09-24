@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## High-Frequency Wall { #high-frequency-wall }
 
-*Active*
+![](../abilities/high-frequency-wall.png){ .ability-icon } *Active*
 
 Creates a sound wall that destroys enemy projectiles and Deafens enemies who pass through it
 
@@ -20,7 +20,7 @@ Creates a sound wall that destroys enemy projectiles and Deafens enemies who pas
 
 ## Resonating World { #resonating-world }
 
-*Active · Zone*
+![](../abilities/resonating-world.png){ .ability-icon } *Active · Zone*
 
 Turns the area into a resonance chamber that damages moving enemies, sprinting or swimming makes it worse.
 
@@ -36,7 +36,7 @@ Landing from high up sends a shockwave, attacks inside echo back at the attacker
 
 ## Broken Focus { #broken-focus }
 
-*Passive*
+![](../abilities/broken-focus.png){ .ability-icon } *Passive*
 
 Every sound the user makes breaks their enemies' concentration: an ability being charged is cut off and locked for a while.
 

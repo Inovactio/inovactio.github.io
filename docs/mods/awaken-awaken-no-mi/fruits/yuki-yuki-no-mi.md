@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Yukiro { #yukiro }
 
-*Active · Zone*
+![](../abilities/yukiro.png){ .ability-icon } *Active · Zone*
 
 Spreads snow around the user and raises a wall of hard snow at the edge that only the user can walk through
 
@@ -29,7 +29,7 @@ Hard snow burns easily so a torch is a way out
 
 ## Gokkan { #gokkan }
 
-*Active*
+![](../abilities/gokkan.png){ .ability-icon } *Active*
 
 Drops the temperature so low that everything nearby freezes solid instantly.
 
@@ -45,7 +45,7 @@ Skips the usual frost buildup and freezes enemies right away
 
 ## Kanpa { #kanpa }
 
-*Passive*
+![](../abilities/kanpa.png){ .ability-icon } *Passive*
 
 Frost on enemies near the user stops fading and turns to ice much sooner.
 

@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Harvest of Fate { #harvest-of-fate }
 
-*Active*
+![](../abilities/harvest-of-fate.png){ .ability-icon } *Active*
 
 Rips the straw doll out of every nearby enemy at once.
 
@@ -23,7 +23,7 @@ Guarding enemies keep their doll and the user still can't carry more than ten
 
 ## Nail of Fate { #nail-of-fate }
 
-*Active*
+![](../abilities/nail-of-fate.png){ .ability-icon } *Active*
 
 Drives a nail into the straw doll in the main hand, hitting its owner wherever they are.
 
@@ -36,7 +36,7 @@ The doll is used up and goes back to its owner
 
 ## Shared Fate { #shared-fate }
 
-*Passive*
+![](../abilities/shared-fate.png){ .ability-icon } *Passive*
 
 Damage the user takes is also dealt to the owners of every straw doll they carry.
 

@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Kenzan World { #kenzan-world }
 
-*Active · Zone*
+![](../abilities/kenzan-world.png){ .ability-icon } *Active · Zone*
 
 Turns the ground into blades that cut enemies walking on it, and every cut makes them bleed deeper.
 
@@ -25,7 +25,7 @@ Sprinting doubles the damage and crouching halves it without deepening the wound
 
 ## Razor Cyclone { #razor-cyclone }
 
-*Active*
+![](../abilities/razor-cyclone.png){ .ability-icon } *Active*
 
 The user becomes a whirlwind of blades that glides forward, cutting every enemy it passes and making them bleed.
 
@@ -40,7 +40,7 @@ Inside the user's Kenzan World the whirlwind grows wider and cuts deeper.
 
 ## Steel Riposte { #steel-riposte }
 
-*Active*
+![](../abilities/steel-riposte.png){ .ability-icon } *Active*
 
 The user braces their steel body for an instant: the first blow that lands in that window is stopped completely.
 

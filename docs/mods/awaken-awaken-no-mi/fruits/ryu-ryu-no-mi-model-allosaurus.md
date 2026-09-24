@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Allosaurus Heavy Point { #awaken-allosaurus-heavy-point }
 
-*Active · Transformation*
+![](../abilities/awaken-allosaurus-heavy-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened allosaurus hybrid, which focuses on strength
 
@@ -33,7 +33,7 @@ Transforms the user into an awakened allosaurus hybrid, which focuses on strengt
 
 ## Awaken Allosaurus Walk Point { #awaken-allosaurus-walk-point }
 
-*Active · Transformation*
+![](../abilities/awaken-allosaurus-walk-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened allosaurus, which focuses on speed
 
@@ -60,7 +60,7 @@ Transforms the user into an awakened allosaurus, which focuses on speed
 
 ## Ancient Spine Saw { #ancient-spine-saw }
 
-*Active*
+![](../abilities/ancient-spine-saw.png){ .ability-icon } *Active*
 
 The user rolls forward along its spined back, cutting everything in its path.
 
@@ -72,7 +72,7 @@ The user rolls forward along its spined back, cutting everything in its path.
 
 ## Apex Pursuit { #apex-pursuit }
 
-*Active*
+![](../abilities/apex-pursuit.png){ .ability-icon } *Active*
 
 Marks the prey the allosaurus is looking at and runs it down, far faster than it can flee.
 

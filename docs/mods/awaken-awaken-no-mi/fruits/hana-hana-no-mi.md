@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Diosa Fleur { #diosa-fleur }
 
-*Active*
+![](../abilities/diosa-fleur.png){ .ability-icon } *Active*
 
 Summons a giant clone of the user that fights alongside them and gets stronger over time.
 
@@ -20,7 +20,7 @@ Summons a giant clone of the user that fights alongside them and gets stronger o
 
 ## Bloom Crusher { #bloom-crusher }
 
-*Active*
+![](../abilities/bloom-crusher.png){ .ability-icon } *Active*
 
 Giant arms burst out of the ground under the targeted enemy, grab them and crush them into the ground.
 
@@ -35,7 +35,7 @@ The Diosa Fleur clone joins the crush, and while Mil Fleur is active every enemy
 
 ## Clutch Lock { #clutch-lock }
 
-*Passive*
+![](../abilities/clutch-lock.png){ .ability-icon } *Passive*
 
 The user's sprouted hands grip much harder: every Clutch, Slap and Twist deals extra damage and pins the enemy in place for a while.
 

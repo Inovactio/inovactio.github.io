@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Kyomu { #kyomu }
 
-*Active · Zone*
+![](../abilities/kyomu.png){ .ability-icon } *Active · Zone*
 
 Opens a dark void where no Devil Fruit works and the darkness hurts anyone inside.
 
@@ -25,7 +25,7 @@ Devil Fruits stay silenced for a moment after leaving the void
 
 ## Singularity { #singularity }
 
-*Active*
+![](../abilities/singularity.png){ .ability-icon } *Active*
 
 Collapses every block the user has swallowed onto a single point, dragging everything nearby into it.
 
@@ -41,7 +41,7 @@ The more darkness was hoarded, the heavier the collapse - and it spends all of i
 
 ## Gluttony { #gluttony }
 
-*Passive*
+![](../abilities/gluttony.png){ .ability-icon } *Passive*
 
 Everything the user has swallowed adds weight to their hits.
 

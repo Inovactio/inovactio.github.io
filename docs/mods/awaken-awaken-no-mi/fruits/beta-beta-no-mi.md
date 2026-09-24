@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Beta Beta Ocean { #beta-beta-ocean }
 
-*Active*
+![](../abilities/beta-beta-ocean.png){ .ability-icon } *Active*
 
 Covers the ground around the user in sticky Mucus that slows enemies down
 
@@ -23,7 +23,7 @@ The Mucus burns really easily.
 
 ## Beta Beta Surge { #beta-beta-surge }
 
-*Active*
+![](../abilities/beta-beta-surge.png){ .ability-icon } *Active*
 
 Sends a wave of Mucus rolling forward that knocks enemies back and glues them in place.
 
@@ -37,7 +37,7 @@ The wave leaves a trail of Mucus behind it.
 
 ## Slick Passage { #slick-passage }
 
-*Passive*
+![](../abilities/slick-passage.png){ .ability-icon } *Passive*
 
 On Mucus the user slides around way faster and can't be knocked back.
 

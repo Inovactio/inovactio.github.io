@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Sabaku no Okoku { #sabaku-no-okoku }
 
-*Active · Zone*
+![](../abilities/sabaku-no-okoku.png){ .ability-icon } *Active · Zone*
 
 Dries out the ground for a huge area around the user, turning it into the user's desert.
 
@@ -26,7 +26,7 @@ Everything inside dries up and loses the water it carries.
 
 ## Sabaku no Sousou { #sabaku-no-sousou }
 
-*Active*
+![](../abilities/sabaku-no-sousou.png){ .ability-icon } *Active*
 
 Rips the quicksand out of the desert and pushes it forward, burying everything it hits
 
@@ -43,7 +43,7 @@ Damage goes up with the sand swallowed, and the sand goes back into the field
 
 ## Kawaki { #kawaki }
 
-*Passive*
+![](../abilities/kawaki.png){ .ability-icon } *Passive*
 
 Standing on sand makes the user faster, stronger and heal quicker.
 

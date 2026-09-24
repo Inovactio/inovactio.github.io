@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Tenchi Hokai { #tenchi-hokai }
 
-*Active*
+![](../abilities/tenchi-hokai.png){ .ability-icon } *Active*
 
 Tears the ground apart over a huge area, throwing it into the air and knocking out enemies.
 
@@ -22,7 +22,7 @@ Tears the ground apart over a huge area, throwing it into the air and knocking o
 
 ## Funshin { #funshin }
 
-*Active*
+![](../abilities/funshin.png){ .ability-icon } *Active*
 
 The user releases a quake under their feet, launching themselves in the direction they look.
 
@@ -39,7 +39,7 @@ Landing sends a second quake through the enemies around the user.
 
 ## Aftershock { #aftershock }
 
-*Passive*
+![](../abilities/aftershock.png){ .ability-icon } *Passive*
 
 The user's quakes do not stop when the blow does: every enemy hit by a Gura ability is shaken again a moment later.
 

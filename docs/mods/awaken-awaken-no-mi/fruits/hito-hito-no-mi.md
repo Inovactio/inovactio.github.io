@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Human Form { #awaken-human-form }
 
-*Active · Transformation*
+![](../abilities/awaken-human-form.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened human, which focuses on strength.
 
@@ -31,7 +31,7 @@ Transforms the user into an awakened human, which focuses on strength.
 
 ## Insight { #insight }
 
-*Active*
+![](../abilities/insight.png){ .ability-icon } *Active*
 
 The user studies an enemy for a moment and finds their weak points
 
@@ -48,7 +48,7 @@ Every hit on that enemy deals more damage and goes through half their armor.
 
 ## Adaptive Mind { #adaptive-mind }
 
-*Passive*
+![](../abilities/adaptive-mind.png){ .ability-icon } *Passive*
 
 Each kind of damage the user takes makes them tougher against that same kind
 

@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Brachiosaurus Heavy Point { #awaken-brachiosaurus-heavy-point }
 
-*Active · Transformation*
+![](../abilities/awaken-brachiosaurus-heavy-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened brachiosaurus hybrid, which focuses on strength.
 
@@ -36,7 +36,7 @@ Transforms the user into an awakened brachiosaurus hybrid, which focuses on stre
 
 ## Awaken Brachiosaurus Guard Point { #awaken-brachiosaurus-guard-point }
 
-*Active · Transformation*
+![](../abilities/awaken-brachiosaurus-guard-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened brachiosaurus, which focuses on defense.
 
@@ -64,7 +64,7 @@ Transforms the user into an awakened brachiosaurus, which focuses on defense.
 
 ## Brachio Stomp { #brachio-stomp }
 
-*Active*
+![](../abilities/brachio-stomp.png){ .ability-icon } *Active*
 
 The user stomps the ground a bunch of times, damaging everyone around them with each stomp
 
@@ -76,7 +76,7 @@ The user stomps the ground a bunch of times, damaging everyone around them with 
 
 ## Neck Catapult { #neck-catapult }
 
-*Active*
+![](../abilities/neck-catapult.png){ .ability-icon } *Active*
 
 The brachiosaurus dips its neck, scoops up whoever stands in front of it and hurls them across the field.
 

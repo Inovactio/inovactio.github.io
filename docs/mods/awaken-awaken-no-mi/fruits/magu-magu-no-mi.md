@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Meigo no Jidai { #meigo-no-jidai }
 
-*Active*
+![](../abilities/meigo-no-jidai.png){ .ability-icon } *Active*
 
 Melts the ground in a huge wave around the user, leaving burning magma and basalt behind.
 
@@ -22,7 +22,7 @@ Melts the ground in a huge wave around the user, leaving burning magma and basal
 
 ## Kagutsuchi { #kagutsuchi }
 
-*Active · Punch*
+![](../abilities/kagutsuchi.png){ .ability-icon } *Active · Punch*
 
 Coats the user's fists in overheated magma, every punch lands like an eruption.
 
@@ -35,7 +35,7 @@ Each hit burns a quarter of the Netsuryo gauge so the first punch hits the harde
 
 ## Netsuryo { #netsuryo }
 
-*Passive*
+![](../abilities/netsuryo.png){ .ability-icon } *Passive*
 
 The user stores heat while standing on magma, and twice as fast while standing in lava
 

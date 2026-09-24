@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Mogu Heavy Point { #awaken-mogu-heavy-point }
 
-*Active · Transformation*
+![](../abilities/awaken-mogu-heavy-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened mole hybrid, which focuses on strength and digging.
 
@@ -35,7 +35,7 @@ Transforms the user into an awakened mole hybrid, which focuses on strength and 
 
 ## Mogu Dig { #mogu-dig }
 
-*Active*
+![](../abilities/mogu-dig.png){ .ability-icon } *Active*
 
 **Modes**
 
@@ -49,7 +49,7 @@ Transforms the user into an awakened mole hybrid, which focuses on strength and 
 
 ## Subterranean Dash { #subterranean-dash }
 
-*Active*
+![](../abilities/subterranean-dash.png){ .ability-icon } *Active*
 
 Dashes forward really fast while burrowing underground.
 

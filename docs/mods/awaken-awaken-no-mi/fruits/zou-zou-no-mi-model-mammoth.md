@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Mammoth Heavy Point { #awaken-mammoth-heavy-point }
 
-*Active · Transformation*
+![](../abilities/awaken-mammoth-heavy-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened mammoth hybrid, which focuses on strength.
 
@@ -37,7 +37,7 @@ Transforms the user into an awakened mammoth hybrid, which focuses on strength.
 
 ## Awaken Mammoth Guard Point { #awaken-mammoth-guard-point }
 
-*Active · Transformation*
+![](../abilities/awaken-mammoth-guard-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened mammoth, which focuses on defense.
 
@@ -65,7 +65,7 @@ Transforms the user into an awakened mammoth, which focuses on defense.
 
 ## Drought Calamity { #drought-calamity }
 
-*Active*
+![](../abilities/drought-calamity.png){ .ability-icon } *Active*
 
 Stomps the ground so hard all the water in the area dries up, leaving a wasteland and rotting enemies.
 
@@ -78,7 +78,7 @@ Stomps the ground so hard all the water in the area dries up, leaving a wastelan
 
 ## Drought Siphon { #drought-siphon }
 
-*Active*
+![](../abilities/drought-siphon.png){ .ability-icon } *Active*
 
 The mammoth raises its trunk and draws the water out of every enemy around it, healing by what they lose.
 
@@ -95,7 +95,7 @@ Enemies soaked by water or rain have twice as much to give, and are left parched
 
 ## Ancient Hide { #ancient-hide }
 
-*Passive*
+![](../abilities/ancient-hide.png){ .ability-icon } *Passive*
 
 In an awakened form, the mammoth's ancient hide never lets a single blow take more than a small part of its health.
 

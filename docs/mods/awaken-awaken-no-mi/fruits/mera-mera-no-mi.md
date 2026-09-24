@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Crown of Flames { #crown-of-flames }
 
-*Active*
+![](../abilities/crown-of-flames.png){ .ability-icon } *Active*
 
 The user makes flames under their hands and feet to fly for 1 minute
 
@@ -28,7 +28,7 @@ The user makes flames under their hands and feet to fly for 1 minute
 
 ## Homura { #homura }
 
-*Passive · Aura*
+![](../abilities/homura.png){ .ability-icon } *Passive · Aura*
 
 Flames spread out from the user and burn nearby enemies, dealing more damage the weaker they are.
 

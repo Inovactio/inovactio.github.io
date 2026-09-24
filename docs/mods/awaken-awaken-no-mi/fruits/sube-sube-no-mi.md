@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Smooth World { #smooth-world }
 
-*Active · Zone*
+![](../abilities/smooth-world.png){ .ability-icon } *Active · Zone*
 
 Creates a slippery zone around the user where enemies lose their footing and slide around.
 
@@ -25,13 +25,13 @@ Enemies inside can't jump, hit half as hard and fly further when struck; sliding
 
 ## Slick Disarm { #slick-disarm }
 
-*Active · Punch*
+![](../abilities/slick-disarm.png){ .ability-icon } *Active · Punch*
 
 Punches the target with slippery fists, making them drop whatever they hold in both hands
 
 ## Frictionless { #frictionless }
 
-*Passive*
+![](../abilities/frictionless.png){ .ability-icon } *Passive*
 
 Nothing can keep hold of the user: grabs, binds, nets, glue, candy, wax and every other restraint slide right off.
 

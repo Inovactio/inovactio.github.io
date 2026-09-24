@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Airburst { #airburst }
 
-*Active*
+![](../abilities/airburst.png){ .ability-icon } *Active*
 
 Creates exploding bursts of air around the user for 30 seconds without breaking blocks.
 
@@ -21,7 +21,7 @@ Creates exploding bursts of air around the user for 30 seconds without breaking 
 
 ## Blast Jump { #blast-jump }
 
-*Active*
+![](../abilities/blast-jump.png){ .ability-icon } *Active*
 
 Blows up the ground under the user's feet, launching them high into the air
 
@@ -34,7 +34,7 @@ Blows up the ground under the user's feet, launching them high into the air
 
 ## Piercing Blast { #piercing-blast }
 
-*Active*
+![](../abilities/piercing-blast.png){ .ability-icon } *Active*
 
 The user fires a compressed air laser that pierces the target and explodes inside them.
 

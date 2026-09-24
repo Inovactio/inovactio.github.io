@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Sai Heavy Point { #awaken-sai-heavy-point }
 
-*Active · Transformation*
+![](../abilities/awaken-sai-heavy-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened rhino hybrid, which focuses on strength and charging.
 
@@ -35,7 +35,7 @@ Transforms the user into an awakened rhino hybrid, which focuses on strength and
 
 ## Awaken Sai Walk Point { #awaken-sai-walk-point }
 
-*Active · Transformation*
+![](../abilities/awaken-sai-walk-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened rhino, which focuses on speed
 
@@ -59,7 +59,7 @@ Transforms the user into an awakened rhino, which focuses on speed
 
 ## Horn Drill { #horn-drill }
 
-*Active*
+![](../abilities/horn-drill.png){ .ability-icon } *Active*
 
 The user spins and charges in a straight line, piercing through every enemy they pass.
 
@@ -71,7 +71,7 @@ The user spins and charges in a straight line, piercing through every enemy they
 
 ## Juggernaut { #juggernaut }
 
-*Active*
+![](../abilities/juggernaut.png){ .ability-icon } *Active*
 
 The rhino charges where it looks, faster and faster, and nothing stops it: no hold, no push, no wall it can break.
 

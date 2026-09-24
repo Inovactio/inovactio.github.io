@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Hormonal Fog { #hormonal-fog }
 
-*Active · Zone*
+![](../abilities/hormonal-fog.png){ .ability-icon } *Active · Zone*
 
 Releases a thick mist that gives allies good hormones and enemies bad ones.
 
@@ -22,7 +22,7 @@ Releases a thick mist that gives allies good hormones and enemies bad ones.
 
 ## Hell Wink { #hell-wink }
 
-*Active*
+![](../abilities/hell-wink.png){ .ability-icon } *Active*
 
 The user winks so hard a shockwave rips through everything they look at
 
@@ -37,7 +37,7 @@ Every hormone in the user's body makes it hit harder.
 
 ## Iron Constitution { #iron-constitution }
 
-*Passive*
+![](../abilities/iron-constitution.png){ .ability-icon } *Passive*
 
 The user and nearby allies don't suffer the side effects of hormones anymore.
 

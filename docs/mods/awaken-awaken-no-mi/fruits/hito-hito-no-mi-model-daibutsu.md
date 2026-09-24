@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Daibutsu Point { #awaken-daibutsu-point }
 
-*Active · Transformation*
+![](../abilities/awaken-daibutsu-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened golden Buddha, which focuses on raw power.
 
@@ -38,7 +38,7 @@ Transforms the user into an awakened golden Buddha, which focuses on raw power.
 
 ## Nyorai Shinshō { #nyorai-shinsho }
 
-*Active*
+![](../abilities/nyorai-shinsho.png){ .ability-icon } *Active*
 
 Drops a giant Buddha palm from the sky onto the aimed spot, crushing everything under it.
 
@@ -53,7 +53,7 @@ Anything it lands on is pinned to the ground for 40 seconds, unable to walk, swi
 
 ## Sanctuary { #sanctuary }
 
-*Active*
+![](../abilities/sanctuary.png){ .ability-icon } *Active*
 
 The Buddha stands over its own: every blow aimed at an ally nearby lands on the user instead.
 

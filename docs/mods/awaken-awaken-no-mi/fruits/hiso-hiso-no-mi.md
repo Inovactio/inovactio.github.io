@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Ethereal Whisper { #ethereal-whisper }
 
-*Active*
+![](../abilities/ethereal-whisper.png){ .ability-icon } *Active*
 
 Fires a ghostly whisper that damages enemies and messes with their senses.
 
@@ -21,7 +21,7 @@ Fires a ghostly whisper that damages enemies and messes with their senses.
 
 ## Call of the Wild { #call-of-the-wild }
 
-*Active*
+![](../abilities/call-of-the-wild.png){ .ability-icon } *Active*
 
 Calls every animal and monster nearby to hunt down one enemy
 
@@ -37,7 +37,7 @@ Beasts that can't bite trample the target instead.
 
 ## Eavesdrop { #eavesdrop }
 
-*Passive*
+![](../abilities/eavesdrop.png){ .ability-icon } *Passive*
 
 The user hears nearby enemies using their abilities, lighting them up and getting a burst of speed
 

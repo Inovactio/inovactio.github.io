@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Rhythmic Purgatory { #rhythmic-purgatory }
 
-*Active · Zone*
+![](../abilities/rhythmic-purgatory.png){ .ability-icon } *Active · Zone*
 
 Fills the area with a deadly beat that builds pressure on every enemy inside, beat after beat, until it drops and hurts them for all of it.
 
@@ -25,7 +25,7 @@ Those who cannot hear are spared.
 
 ## Grand Finale { #grand-finale }
 
-*Active*
+![](../abilities/grand-finale.png){ .ability-icon } *Active*
 
 Unleashes a wide wall of sound that rolls forward through everything, striking every enemy who hears it.
 
@@ -40,7 +40,7 @@ Released on the beat, it hits half again as hard.
 
 ## On the Beat { #on-the-beat }
 
-*Passive*
+![](../abilities/on-the-beat.png){ .ability-icon } *Passive*
 
 The user fights to a steady beat: blows landing on the beat deal bonus damage that grows with every beat kept in a row.
 

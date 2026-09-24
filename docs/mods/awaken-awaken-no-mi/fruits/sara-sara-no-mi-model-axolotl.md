@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Axolotl Heavy Point { #awaken-axolotl-heavy-point }
 
-*Active · Transformation*
+![](../abilities/awaken-axolotl-heavy-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened axolotl hybrid, which focuses on strength and regeneration
 
@@ -36,7 +36,7 @@ Transforms the user into an awakened axolotl hybrid, which focuses on strength a
 
 ## Awaken Axolotl Walk Point { #awaken-axolotl-walk-point }
 
-*Active · Transformation*
+![](../abilities/awaken-axolotl-walk-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened axolotl, which focuses on speed and swimming.
 
@@ -58,7 +58,7 @@ Transforms the user into an awakened axolotl, which focuses on speed and swimmin
 
 ## Cellular Overload { #cellular-overload }
 
-*Active*
+![](../abilities/cellular-overload.png){ .ability-icon } *Active*
 
 Pushes the axolotl's cells past every limit: every harmful effect that can be shed is shed at once, and for a short time most of the health the user loses grows back within seconds.
 
@@ -74,7 +74,7 @@ Once the overload ends the body is starving.
 
 ## Toxic Bloom { #toxic-bloom }
 
-*Active*
+![](../abilities/toxic-bloom.png){ .ability-icon } *Active*
 
 Releases all the poison stored in the axolotl's Toxic Reserve at once, as a toxic bloom that hurts and poisons the enemies around.
 
@@ -89,7 +89,7 @@ The more health was stored, the harder it hits.
 
 ## Toxic Reserve { #toxic-reserve }
 
-*Passive*
+![](../abilities/toxic-reserve.png){ .ability-icon } *Passive*
 
 While in an awakened form, every bit of health the axolotl regenerates is stored as poison in its body, ready to be released by Toxic Bloom.
 

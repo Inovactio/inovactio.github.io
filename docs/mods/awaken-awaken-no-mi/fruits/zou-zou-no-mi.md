@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Zou Heavy Point { #awaken-zou-heavy-point }
 
-*Active · Transformation*
+![](../abilities/awaken-zou-heavy-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened elephant hybrid, which focuses on strength.
 
@@ -37,7 +37,7 @@ Transforms the user into an awakened elephant hybrid, which focuses on strength.
 
 ## Awaken Zou Guard Point { #awaken-zou-guard-point }
 
-*Active · Transformation*
+![](../abilities/awaken-zou-guard-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened elephant, which focuses on defense.
 
@@ -65,7 +65,7 @@ Transforms the user into an awakened elephant, which focuses on defense.
 
 ## Ivory Catastrophe { #ivory-catastrophe }
 
-*Active*
+![](../abilities/ivory-catastrophe.png){ .ability-icon } *Active*
 
 Charges forward spinning with huge tusks, impaling everything in the way.
 
@@ -77,7 +77,7 @@ Charges forward spinning with huge tusks, impaling everything in the way.
 
 ## Trunk Geyser { #trunk-geyser }
 
-*Active*
+![](../abilities/trunk-geyser.png){ .ability-icon } *Active*
 
 The elephant raises its trunk and blasts a jet of seawater, driving back everything in its path and putting out fire.
 

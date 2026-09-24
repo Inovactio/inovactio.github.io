@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## God's Bulwark { #gods-bulwark }
 
-*Active*
+![](../abilities/gods-bulwark.png){ .ability-icon } *Active*
 
 Fills the user's body with barrier energy, making them fully invulnerable for a short time
 
@@ -20,7 +20,7 @@ Fills the user's body with barrier energy, making them fully invulnerable for a 
 
 ## Barrier Eruption { #barrier-eruption }
 
-*Active*
+![](../abilities/barrier-eruption.png){ .ability-icon } *Active*
 
 Slams barrier energy into the ground, raising huge barrier walls all around that launch nearby enemies.
 
@@ -33,7 +33,7 @@ Slams barrier energy into the ground, raising huge barrier walls all around that
 
 ## Grand Repulsion { #grand-repulsion }
 
-*Active*
+![](../abilities/grand-repulsion.png){ .ability-icon } *Active*
 
 Releases a shockwave of barriers that blasts away all nearby enemies.
 

@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Pteranodon Assault Point { #awaken-pteranodon-assault-point }
 
-*Active · Transformation*
+![](../abilities/awaken-pteranodon-assault-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened pteranodon hybrid, which focuses on attacking.
 
@@ -33,7 +33,7 @@ Transforms the user into an awakened pteranodon hybrid, which focuses on attacki
 
 ## Awaken Pteranodon Fly Point { #awaken-pteranodon-fly-point }
 
-*Active · Transformation*
+![](../abilities/awaken-pteranodon-fly-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened pteranodon, which focuses on flying.
 
@@ -54,7 +54,7 @@ Transforms the user into an awakened pteranodon, which focuses on flying.
 
 ## Tei-Kasané { #tei-kasane }
 
-*Active*
+![](../abilities/tei-kasane.png){ .ability-icon } *Active*
 
 The user vibrates their wings so fast the edges turn jagged and sharp.
 
@@ -65,7 +65,7 @@ The user vibrates their wings so fast the edges turn jagged and sharp.
 
 ## Downdraft { #downdraft }
 
-*Active*
+![](../abilities/downdraft.png){ .ability-icon } *Active*
 
 One beat of the awakened wings drives a column of air straight down, slamming everything flying below into the ground.
 

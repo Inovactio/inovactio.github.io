@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## White Night { #white-night }
 
-*Active · Zone*
+![](../abilities/white-night.png){ .ability-icon } *Active · Zone*
 
 Fills the sky with white smoke that marks and blinds everyone caught inside
 
@@ -27,7 +27,7 @@ The mark lasts after the dome and works with White Pull and Smoke Launch
 
 ## White Ash { #white-ash }
 
-*Active*
+![](../abilities/white-ash.png){ .ability-icon } *Active*
 
 Burns off all the smoke on the field at once, hurting every marked enemy.
 
@@ -44,7 +44,7 @@ Enemies with no smoke on them are not hurt.
 
 ## White Plague { #white-plague }
 
-*Passive*
+![](../abilities/white-plague.png){ .ability-icon } *Passive*
 
 Marked enemies near the user spread the smoke to whoever stands next to them
 

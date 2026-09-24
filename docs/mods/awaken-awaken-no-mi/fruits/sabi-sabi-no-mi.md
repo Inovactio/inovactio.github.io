@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Empire of Decay { #empire-of-decay }
 
-*Active · Zone*
+![](../abilities/empire-of-decay.png){ .ability-icon } *Active · Zone*
 
 Creates a zone that rusts enemies inside, the rust gets stronger the longer they stay.
 
@@ -22,7 +22,7 @@ Creates a zone that rusts enemies inside, the rust gets stronger the longer they
 
 ## Collapse { #collapse }
 
-*Active*
+![](../abilities/collapse.png){ .ability-icon } *Active*
 
 Every rusted enemy nearby crumbles at once, taking damage for each level of rust and each iron armor piece they wear.
 
@@ -37,7 +37,7 @@ Their rust is used up and their iron armor falls apart.
 
 ## Oxidized Plate { #oxidized-plate }
 
-*Passive*
+![](../abilities/oxidized-plate.png){ .ability-icon } *Passive*
 
 Rusted enemies near the user lose armor for every level of rust and every iron armor piece they wear, until it protects nothing.
 

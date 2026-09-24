@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Ice Epoch { #ice-epoch }
 
-*Active*
+![](../abilities/ice-epoch.png){ .ability-icon } *Active*
 
 Freezes the ground in a huge wave around the user, turning it into a glacier and trapping enemies in ice
 
@@ -21,7 +21,7 @@ Freezes the ground in a huge wave around the user, turning it into a glacier and
 
 ## Hyosai { #hyosai }
 
-*Active*
+![](../abilities/hyosai.png){ .ability-icon } *Active*
 
 Shatters every frozen enemy nearby all at once.
 
@@ -36,7 +36,7 @@ Enemies that are not already frozen are not affected
 
 ## Hyoten { #hyoten }
 
-*Passive*
+![](../abilities/hyoten.png){ .ability-icon } *Passive*
 
 Every frozen or frostbitten enemy nearby makes the user faster, stronger and harder to knock back.
 

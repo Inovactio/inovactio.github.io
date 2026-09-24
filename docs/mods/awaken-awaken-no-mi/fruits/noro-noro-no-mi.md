@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Reverse Slow { #reverse-slow }
 
-*Active*
+![](../abilities/reverse-slow.png){ .ability-icon } *Active*
 
 Reverses the Noroma rays to give the user four levels of Speed.
 
@@ -53,13 +53,13 @@ The faster the user goes, the faster their other abilities recover and charge.
 
 ## Reverse Slow : Smash { #reverse-slow-smash }
 
-*Passive*
+![](../abilities/reverse-slow-smash.png){ .ability-icon } *Passive*
 
 Running into enemies at high speed damages them
 
 ## Noroma Field { #noroma-field }
 
-*Active · Zone*
+![](../abilities/noroma-field.png){ .ability-icon } *Active · Zone*
 
 Floods the area with Noroma photons: enemies inside slow down more the longer they stay, and their abilities recover and charge far slower.
 

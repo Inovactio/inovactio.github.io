@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Gulliver's Nightmare { #gullivers-nightmare }
 
-*Active · Zone*
+![](../abilities/gullivers-nightmare.png){ .ability-icon } *Active · Zone*
 
 Shrinks every nearby enemy, making them way smaller and weaker.
 
@@ -22,7 +22,7 @@ Shrinks every nearby enemy, making them way smaller and weaker.
 
 ## Lilliput Crush { #lilliput-crush }
 
-*Active*
+![](../abilities/lilliput-crush.png){ .ability-icon } *Active*
 
 Stomps down on everything nearby, the smaller a target is the harder it gets crushed
 
@@ -38,7 +38,7 @@ Shrunken enemies get pinned to the ground for a moment.
 
 ## Tiny Titan { #tiny-titan }
 
-*Passive*
+![](../abilities/tiny-titan.png){ .ability-icon } *Passive*
 
 While in the mini form the user hits way harder against anything bigger than them
 

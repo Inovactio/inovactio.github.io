@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Aura of Friction { #aura-of-friction }
 
-*Active · Zone*
+![](../abilities/aura-of-friction.png){ .ability-icon } *Active · Zone*
 
 Enemies moving fast inside the aura heat up and burn, the faster they move the worse it gets.
 
@@ -22,7 +22,7 @@ Enemies moving fast inside the aura heat up and burn, the faster they move the w
 
 ## Scalding Steam { #scalding-steam }
 
-*Active*
+![](../abilities/scalding-steam.png){ .ability-icon } *Active*
 
 Boils all the water around the user in one go and scalds every enemy nearby
 
@@ -37,7 +37,7 @@ Enemies that are wet get burned way worse.
 
 ## Friction Burn { #friction-burn }
 
-*Passive*
+![](../abilities/friction-burn.png){ .ability-icon } *Passive*
 
 Every punch from the user rubs friction heat into the target, even outside the aura
 

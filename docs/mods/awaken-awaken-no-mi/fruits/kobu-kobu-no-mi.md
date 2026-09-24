@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## One Man Army { #one-man-army }
 
-*Active*
+![](../abilities/one-man-army.png){ .ability-icon } *Active*
 
 The user pushes past their limits for a short time, becoming a one-man army.
 
@@ -37,7 +37,7 @@ The user pushes past their limits for a short time, becoming a one-man army.
 
 ## Battlefield Resonance { #battlefield-resonance }
 
-*Active · Zone*
+![](../abilities/battlefield-resonance.png){ .ability-icon } *Active · Zone*
 
 Creates a zone that gives the user and every ally inside it Speed I and Resistance I.
 
@@ -52,7 +52,7 @@ When an ally hits an enemy inside the zone, every ally inside gets Battlefield R
 
 ## Never Surrender { #never-surrender }
 
-*Passive*
+![](../abilities/never-surrender.png){ .ability-icon } *Passive*
 
 When the user or an ally nearby is about to fall, the user's voice rallies them back to their feet.
 

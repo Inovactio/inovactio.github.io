@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Soulchill Aura { #soulchill-aura }
 
-*Passive · Aura*
+![](../abilities/soulchill-aura.png){ .ability-icon } *Passive · Aura*
 
 The cold of the underworld surrounds the user, chilling the souls of every enemy nearby and slowing them.
 
@@ -22,7 +22,7 @@ A soul that is weaker than the user's, or already failing, freezes solid.
 
 ## Soul Reap { #soul-reap }
 
-*Active*
+![](../abilities/soul-reap.png){ .ability-icon } *Active*
 
 The user's spirit rushes forward through every enemy in its path, cutting their souls rather than their bodies.
 
@@ -37,7 +37,7 @@ Armour does nothing against it, and a severed soul leaves its body with far less
 
 ## Undying Soul { #undying-soul }
 
-*Passive*
+![](../abilities/undying-soul.png){ .ability-icon } *Passive*
 
 When a blow would kill the user, their soul holds the skeleton together: they stand back up with part of their health and cannot be hurt for a moment.
 

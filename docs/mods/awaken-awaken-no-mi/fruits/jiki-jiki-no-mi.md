@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Assign World { #assign-world }
 
-*Active · Zone*
+![](../abilities/assign-world.png){ .ability-icon } *Active · Zone*
 
 Magnetizes the ground into scrap that drags down enemies wearing metal and pulls their weapons away.
 
@@ -23,7 +23,7 @@ Scrap Tempest uses the scrap from the field instead of the user's inventory
 
 ## Scrap Tempest { #scrap-tempest }
 
-*Active*
+![](../abilities/scrap-tempest.png){ .ability-icon } *Active*
 
 Rips the scrap out of the ground and slams it down on the aimed spot, crushing everything nearby.
 
@@ -38,7 +38,7 @@ More scrap makes a heavier hit, outside the field it uses the user's own metal i
 
 ## Ferrous Dominion { #ferrous-dominion }
 
-*Passive*
+![](../abilities/ferrous-dominion.png){ .ability-icon } *Passive*
 
 Standing on the user's magnetic field gives them armor, stronger hits and knockback resistance.
 

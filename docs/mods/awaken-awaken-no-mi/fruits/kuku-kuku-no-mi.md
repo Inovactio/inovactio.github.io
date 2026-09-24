@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Living Feast { #living-feast }
 
-*Active*
+![](../abilities/living-feast.png){ .ability-icon } *Active*
 
 The user gives up their hunger to bring a Cake Golem to life, the more food spent the bigger it gets.
 
@@ -20,7 +20,7 @@ The user gives up their hunger to bring a Cake Golem to life, the more food spen
 
 ## Cake Transmutation { #cake-transmutation }
 
-*Active*
+![](../abilities/cake-transmutation.png){ .ability-icon } *Active*
 
 Shoots a cake beam at the target.
 
@@ -33,7 +33,7 @@ Targets hit slowly turn into cake.
 
 ## Gourmet Metabolism { #gourmet-metabolism }
 
-*Passive*
+![](../abilities/gourmet-metabolism.png){ .ability-icon } *Passive*
 
 Everything the user eats heals them at once, and the extra nourishment hardens into absorption.
 

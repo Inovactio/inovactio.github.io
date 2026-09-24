@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Titan { #titan }
 
-*Active · Transformation*
+![](../abilities/titan.png){ .ability-icon } *Active · Transformation*
 
 Allows the user to grow to the size of a Titan.
 
@@ -36,7 +36,7 @@ Allows the user to grow to the size of a Titan.
 
 ## Titan Trample { #titan-trample }
 
-*Passive*
+![](../abilities/titan-trample.png){ .ability-icon } *Passive*
 
 Speeds up the user while running, trampling any nearby enemy.
 
@@ -47,7 +47,7 @@ Speeds up the user while running, trampling any nearby enemy.
 
 ## Titan Smash { #titan-smash }
 
-*Active*
+![](../abilities/titan-smash.png){ .ability-icon } *Active*
 
 Allows the user to smash the ground as a Titan
 

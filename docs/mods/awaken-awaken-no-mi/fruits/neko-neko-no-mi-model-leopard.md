@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Leopard Heavy Point { #awaken-leopard-heavy-point }
 
-*Active · Transformation*
+![](../abilities/awaken-leopard-heavy-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened leopard hybrid, which focuses on strength and speed.
 
@@ -33,7 +33,7 @@ Transforms the user into an awakened leopard hybrid, which focuses on strength a
 
 ## Awaken Leopard Walk Point { #awaken-leopard-walk-point }
 
-*Active · Transformation*
+![](../abilities/awaken-leopard-walk-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened leopard, which focuses on speed.
 
@@ -56,13 +56,13 @@ Transforms the user into an awakened leopard, which focuses on speed.
 
 ## Shugan { #shugan }
 
-*Active · Punch*
+![](../abilities/shugan.png){ .ability-icon } *Active · Punch*
 
 Stretches the user's claws out to deal massive damage up close.
 
 ## Hyozan: Kyousou { #hyozan-kyousou }
 
-*Active*
+![](../abilities/hyozan-kyousou.png){ .ability-icon } *Active*
 
 The user focuses for a moment then vanishes behind their enemies, cutting everyone in their path
 

@@ -9,13 +9,13 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Word of Recovery { #word-of-recovery }
 
-*Active · Punch*
+![](../abilities/word-of-recovery.png){ .ability-icon } *Active · Punch*
 
 The user heals a target with a single touch, restoring a huge amount of health.
 
 ## Cellular Overgrowth { #cellular-overgrowth }
 
-*Active · Punch*
+![](../abilities/cellular-overgrowth.png){ .ability-icon } *Active · Punch*
 
 Punches the target so their cells grow out of control, dealing damage based on their max health
 
@@ -27,7 +27,7 @@ The target can't be healed by anything for a while.
 
 ## Overflow { #overflow }
 
-*Passive*
+![](../abilities/overflow.png){ .ability-icon } *Passive*
 
 Healing that goes past full health on the user or nearby allies turns into absorption hearts
 

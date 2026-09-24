@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Hide and Seek { #hide-and-seek }
 
-*Active · Zone*
+![](../abilities/hide-and-seek.png){ .ability-icon } *Active · Zone*
 
 Drags everyone in the zone into a sealed pocket dimension until the user lets them out or time runs out.
 
@@ -21,7 +21,7 @@ Drags everyone in the zone into a sealed pocket dimension until the user lets th
 
 ## Living Gate { #living-gate }
 
-*Active*
+![](../abilities/living-gate.png){ .ability-icon } *Active*
 
 The user turns into a door, blocking physical attacks and swallowing incoming projectiles
 
@@ -34,7 +34,7 @@ When the door closes it fires every projectile back at 1.5x speed where the user
 
 ## Backdoor { #backdoor }
 
-*Passive*
+![](../abilities/backdoor.png){ .ability-icon } *Passive*
 
 Door Door aimed at an enemy opens the door behind them instead of through a wall.
 

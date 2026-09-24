@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Hollow Shroud { #hollow-shroud }
 
-*Passive · Aura*
+![](../abilities/hollow-shroud.png){ .ability-icon } *Passive · Aura*
 
 Surrounds the user in a ghostly aura that makes nearby enemies weaker, slower and blind.
 
@@ -21,7 +21,7 @@ Every Negative the user inflicts lasts twice as long.
 
 ## Ghost Legion { #ghost-legion }
 
-*Active*
+![](../abilities/ghost-legion.png){ .ability-icon } *Active*
 
 Releases a legion of hollows, one for each enemy nearby, that fly through walls to hunt their target down.
 
@@ -36,7 +36,7 @@ Each hollow that reaches its target drains its will, leaving it unable to move o
 
 ## Phantom Payload { #phantom-payload }
 
-*Active*
+![](../abilities/phantom-payload.png){ .ability-icon } *Active*
 
 Summons a huge hollow the user steers with their gaze, exploding when it touches anything or when the ability is used again.
 

@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Gravity Zone { #gravity-zone }
 
-*Active · Zone*
+![](../abilities/gravity-zone.png){ .ability-icon } *Active · Zone*
 
 Creates a gravity field that makes allies lighter and enemies heavier.
 
@@ -25,7 +25,7 @@ Heavy enemies are crushed by their own weight at every pulse of the field.
 
 ## Infinity Kilo Punch { #infinity-kilo-punch }
 
-*Active · Punch*
+![](../abilities/infinity-kilo-punch.png){ .ability-icon } *Active · Punch*
 
 Punches with infinite weight, dealing massive damage and launching the target really far away.
 
@@ -39,7 +39,7 @@ The target turns heavy in flight and slams back down once past the top of its ar
 
 ## Weight Shift { #weight-shift }
 
-*Passive*
+![](../abilities/weight-shift.png){ .ability-icon } *Passive*
 
 In the air the user is light as a feather: blows hurt far less but send them flying, and falls deal no damage.
 

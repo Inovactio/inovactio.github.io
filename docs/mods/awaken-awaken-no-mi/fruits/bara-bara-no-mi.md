@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Dislocation Punch { #dislocation-punch }
 
-*Active · Punch*
+![](../abilities/dislocation-punch.png){ .ability-icon } *Active · Punch*
 
 **Modes**
 
@@ -18,7 +18,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Bara Bara Parade { #bara-bara-parade }
 
-*Active*
+![](../abilities/bara-bara-parade.png){ .ability-icon } *Active*
 
 The user sends their hands flying at up to eight enemies nearby, each fist hunting down its own target.
 
@@ -32,7 +32,7 @@ Every fist that lands dislocates an arm or a leg.
 
 ## Severed Grip { #severed-grip }
 
-*Passive*
+![](../abilities/severed-grip.png){ .ability-icon } *Passive*
 
 When a blade fails to cut the user, the arm that swung it gets dislocated.
 

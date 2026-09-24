@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## K-Room { #k-room }
 
-*Active*
+![](../abilities/k-room.png){ .ability-icon } *Active*
 
 **Modes**
 
@@ -24,7 +24,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Shock Wille { #shock-wille }
 
-*Active*
+![](../abilities/shock-wille.png){ .ability-icon } *Active*
 
 Sends an electric shock through the K-Room so the next hit deals massive damage through armor
 
@@ -36,7 +36,7 @@ Sends an electric shock through the K-Room so the next hit deals massive damage 
 
 ## Puncture Wille { #puncture-wille }
 
-*Active*
+![](../abilities/puncture-wille.png){ .ability-icon } *Active*
 
 The user plants the coated hand and a colossal spire of Room erupts where they are aiming.
 
@@ -52,7 +52,7 @@ Everything around it is run through, ignoring armor, and thrown into the air.
 
 ## Anesthesia { #anesthesia }
 
-*Passive*
+![](../abilities/anesthesia.png){ .ability-icon } *Passive*
 
 While K-Room is active, every blow the user lands cuts with the Room and puts its target under.
 

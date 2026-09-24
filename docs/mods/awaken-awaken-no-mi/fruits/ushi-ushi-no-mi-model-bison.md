@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Bison Heavy Point { #awaken-bison-heavy-point }
 
-*Active · Transformation*
+![](../abilities/awaken-bison-heavy-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened bison hybrid, which focuses on strength and charging.
 
@@ -36,7 +36,7 @@ Transforms the user into an awakened bison hybrid, which focuses on strength and
 
 ## Awaken Bison Walk Point { #awaken-bison-walk-point }
 
-*Active · Transformation*
+![](../abilities/awaken-bison-walk-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened bison, which focuses on speed
 
@@ -60,7 +60,7 @@ Transforms the user into an awakened bison, which focuses on speed
 
 ## Fiddle Overdrive { #fiddle-overdrive }
 
-*Active*
+![](../abilities/fiddle-overdrive.png){ .ability-icon } *Active*
 
 The user pumps their Zoan heart way too fast, going into a steaming frenzy of power
 
@@ -74,7 +74,7 @@ The user pumps their Zoan heart way too fast, going into a steaming frenzy of po
 
 ## Thundering Herd { #thundering-herd }
 
-*Active*
+![](../abilities/thundering-herd.png){ .ability-icon } *Active*
 
 The bison breaks into a wild run, and the ground remembers every step.
 

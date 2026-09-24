@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Invisible Touch { #invisible-touch }
 
-*Active*
+![](../abilities/invisible-touch.png){ .ability-icon } *Active*
 
 Turns the block the user hits invisible.
 
@@ -19,7 +19,7 @@ Turns the block the user hits invisible.
 
 ## Diffraction { #diffraction }
 
-*Active*
+![](../abilities/diffraction.png){ .ability-icon } *Active*
 
 The user turns into a prism and fires 7 rainbow beams one after another.
 
@@ -31,7 +31,7 @@ The user turns into a prism and fires 7 rainbow beams one after another.
 
 ## Unseen { #unseen }
 
-*Passive*
+![](../abilities/unseen.png){ .ability-icon } *Passive*
 
 While invisible, swings and projectiles from anyone who can't see the user often pass straight through them.
 

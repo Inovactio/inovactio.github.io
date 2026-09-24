@@ -9,13 +9,13 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Spirit Seal { #spirit-seal }
 
-*Active · Punch*
+![](../abilities/spirit-seal.png){ .ability-icon } *Active · Punch*
 
 Hits the target and seals them, stopping them from using any abilities for a while.
 
 ## Iron Tether { #iron-tether }
 
-*Active*
+![](../abilities/iron-tether.png){ .ability-icon } *Active*
 
 Fires an iron band that chains the enemy it hits to the closest enemy nearby, or to the ground if there is none.
 
@@ -33,7 +33,7 @@ Using it again pulls the chain tight, slamming them together.
 
 ## Bound Hands { #bound-hands }
 
-*Passive*
+![](../abilities/bound-hands.png){ .ability-icon } *Passive*
 
 Enemies near the user whose hands are bound can't use items: no eating, no potions, no shields and no bows.
 

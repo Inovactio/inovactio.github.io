@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Candle World { #candle-world }
 
-*Active · Zone*
+![](../abilities/candle-world.png){ .ability-icon } *Active · Zone*
 
 Turns the area into hot wax that slows and burns enemies, then hardens and traps them
 
@@ -22,7 +22,7 @@ Turns the area into hot wax that slows and burns enemies, then hardens and traps
 
 ## Wax Master { #wax-master }
 
-*Passive*
+![](../abilities/wax-master.png){ .ability-icon } *Passive*
 
 The user is not slowed or trapped by soft wax blocks.
 
@@ -34,7 +34,7 @@ Standing on any wax makes the user faster.
 
 ## Wick { #wick }
 
-*Active*
+![](../abilities/wick.png){ .ability-icon } *Active*
 
 Sets the wax around every enemy nearby alight.
 

@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Netto Jigoku { #netto-jigoku }
 
-*Active · Zone*
+![](../abilities/netto-jigoku.png){ .ability-icon } *Active · Zone*
 
 Creates a burning zone around the user, enemies inside get more burn stacks the longer they stay.
 
@@ -22,7 +22,7 @@ Creates a burning zone around the user, enemies inside get more burn stacks the 
 
 ## Melting Point { #melting-point }
 
-*Active*
+![](../abilities/melting-point.png){ .ability-icon } *Active*
 
 Releases a wave of heat that turns the metal worn by nearby enemies red-hot, burning them every second for a while.
 
@@ -36,7 +36,7 @@ The more metal they carry, the worse it burns; taking it off or wearing diamond 
 
 ## Scorching Fist { #scorching-fist }
 
-*Active · Punch*
+![](../abilities/scorching-fist.png){ .ability-icon } *Active · Punch*
 
 Gathers the heat of the whole body into the next punch, which explodes on impact and burns everyone around the target.
 

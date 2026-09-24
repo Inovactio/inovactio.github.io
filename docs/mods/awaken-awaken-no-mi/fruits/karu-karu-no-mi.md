@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Inga Samsara { #inga-samsara }
 
-*Active · Zone*
+![](../abilities/inga-samsara.png){ .ability-icon } *Active · Zone*
 
 Creates a zone that links everyone's fate to the user, if the user bleeds everyone bleeds.
 
@@ -22,7 +22,7 @@ Creates a zone that links everyone's fate to the user, if the user bleeds everyo
 
 ## Inga Impact { #inga-impact }
 
-*Active*
+![](../abilities/inga-impact.png){ .ability-icon } *Active*
 
 Fires the user's Karma as a huge fist
 
@@ -36,7 +36,7 @@ Damage and size go up with the Karma stored.
 
 ## Karmic Return { #karmic-return }
 
-*Passive*
+![](../abilities/karmic-return.png){ .ability-icon } *Passive*
 
 Harm returns to its cause: every harmful effect inflicted on the user is inflicted on whoever caused it too.
 

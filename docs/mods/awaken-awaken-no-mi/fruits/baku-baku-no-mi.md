@@ -9,13 +9,13 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Bakumetal Genesis { #bakumetal-genesis }
 
-*Active*
+![](../abilities/bakumetal-genesis.png){ .ability-icon } *Active*
 
 Fuses obsidian, diamond, gold and iron inside the user's body into a Bakumetal ingot
 
 ## Armor Munch { #armor-munch }
 
-*Active*
+![](../abilities/armor-munch.png){ .ability-icon } *Active*
 
 Lunges at an enemy and bites off their best armor piece.
 
@@ -30,7 +30,7 @@ The user wears that armor for a minute and then gives it back.
 
 ## Iron Stomach { #iron-stomach }
 
-*Passive*
+![](../abilities/iron-stomach.png){ .ability-icon } *Passive*
 
 Every Bakumetal piece the user wears or holds makes them hit harder and take hits better.
 

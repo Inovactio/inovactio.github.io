@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Ever White { #ever-white }
 
-*Active · Zone*
+![](../abilities/ever-white.png){ .ability-icon } *Active · Zone*
 
 Covers the area in razor threads that cut and slow anyone walking on them, the user walks through freely
 
@@ -21,7 +21,7 @@ Covers the area in razor threads that cut and slow anyone walking on them, the u
 
 ## Break White { #break-white }
 
-*Active*
+![](../abilities/break-white.png){ .ability-icon } *Active*
 
 Makes razor threads burst out of the ground around the user, cutting and throwing enemies away.
 
@@ -36,7 +36,7 @@ Standing on threads makes the burst bigger and stronger
 
 ## White Ground { #white-ground }
 
-*Passive*
+![](../abilities/white-ground.png){ .ability-icon } *Passive*
 
 Standing on the user's own threads makes them stronger, tougher, faster and jump higher.
 

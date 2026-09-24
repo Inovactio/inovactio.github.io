@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Lightfall Domain { #lightfall-domain }
 
-*Active · Zone*
+![](../abilities/lightfall-domain.png){ .ability-icon } *Active · Zone*
 
 Creates a dome where it is always bright daylight, even at night or deep underground.
 
@@ -26,7 +26,7 @@ The dome does not hurt anyone.
 
 ## Kousoku { #kousoku }
 
-*Active*
+![](../abilities/kousoku.png){ .ability-icon } *Active*
 
 Fires a beam of light that hits instantly, striking everything along the line of sight
 
@@ -42,7 +42,7 @@ Deals massive damage in daylight but barely anything in the dark
 
 ## Sun's Blessing { #hi-no-megumi }
 
-*Passive*
+![](../abilities/hi-no-megumi.png){ .ability-icon } *Passive*
 
 The brighter the light around the user, the faster, stronger and quicker to heal they get.
 

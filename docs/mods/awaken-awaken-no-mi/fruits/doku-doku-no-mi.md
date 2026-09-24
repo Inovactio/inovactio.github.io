@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Venom World { #venom-world }
 
-*Active*
+![](../abilities/venom-world.png){ .ability-icon } *Active*
 
 Floods the ground around the user with venom that poisons enemies who walk on it
 
@@ -24,7 +24,7 @@ For a minute, enemies standing in the venom are dosed again every second.
 
 ## Compound Hydra { #compound-hydra }
 
-*Active*
+![](../abilities/compound-hydra.png){ .ability-icon } *Active*
 
 Fires a bunch of venom hydras one after another from different spots, poisoning the whole area.
 
@@ -34,7 +34,7 @@ Fires a bunch of venom hydras one after another from different spots, poisoning 
 
 ## Virulence { #virulence }
 
-*Passive*
+![](../abilities/virulence.png){ .ability-icon } *Passive*
 
 The user's venom builds on itself: every new dose of poison on an already poisoned enemy raises the poison by one level.
 

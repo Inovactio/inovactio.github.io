@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Waterpool Domain { #waterpool-domain }
 
-*Active · Zone*
+![](../abilities/waterpool-domain.png){ .ability-icon } *Active · Zone*
 
 Turns the ground into liquid: the user and their allies swim through it, while enemies sink and drown in it.
 
@@ -24,7 +24,7 @@ Inside it the user counts as swimming for Nekomimi Punch and the Nyan Nyan Suple
 
 ## Undertow { #undertow }
 
-*Active*
+![](../abilities/undertow.png){ .ability-icon } *Active*
 
 Grabs the enemy in front and drags them down into the ground, swimming off with them while they drown.
 
@@ -39,7 +39,7 @@ Using it again, or holding on too long, throws them back out of the ground where
 
 ## Breach { #breach }
 
-*Active*
+![](../abilities/breach.png){ .ability-icon } *Active*
 
 Sends the user's presence swimming through the ground toward the targeted enemy, then breaches beneath them in a violent burst.
 

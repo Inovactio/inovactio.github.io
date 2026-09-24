@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Giraffe Heavy Point { #awaken-giraffe-heavy-point }
 
-*Active · Transformation*
+![](../abilities/awaken-giraffe-heavy-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened giraffe hybrid, which focuses on strength and reach.
 
@@ -35,7 +35,7 @@ Transforms the user into an awakened giraffe hybrid, which focuses on strength a
 
 ## Awaken Giraffe Walk Point { #awaken-giraffe-walk-point }
 
-*Active · Transformation*
+![](../abilities/awaken-giraffe-walk-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened giraffe, which focuses on speed and reach.
 
@@ -61,7 +61,7 @@ Transforms the user into an awakened giraffe, which focuses on speed and reach.
 
 ## Longneck Ram { #longneck-ram }
 
-*Active*
+![](../abilities/longneck-ram.png){ .ability-icon } *Active*
 
 **Normal Mode**: Squeezes the neck and shoots the head forward, hitting enemies with a powerful nose strike.
 
@@ -79,7 +79,7 @@ Transforms the user into an awakened giraffe, which focuses on speed and reach.
 
 ## Neck Hammer { #neck-hammer }
 
-*Active*
+![](../abilities/neck-hammer.png){ .ability-icon } *Active*
 
 Rears the long neck back and brings the head down on the enemy in front, from high above.
 

@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Nightmare Banquet { #nightmare-banquet }
 
-*Active · Zone*
+![](../abilities/nightmare-banquet.png){ .ability-icon } *Active · Zone*
 
 Spreads the user's shadow over a huge area, stealing the shadow of every weaker enemy caught in it
 
@@ -22,7 +22,7 @@ Spreads the user's shadow over a huge area, stealing the shadow of every weaker 
 
 ## Shadow Marionette { #shadow-marionette }
 
-*Active*
+![](../abilities/shadow-marionette.png){ .ability-icon } *Active*
 
 Takes control of an enemy with no shadow, beasts fight for the user and people can't hit the user or their allies.
 
@@ -38,7 +38,7 @@ Only works on targets without a shadow and costs stolen shadows.
 
 ## Sunless Brand { #sunless-brand }
 
-*Passive*
+![](../abilities/sunless-brand.png){ .ability-icon } *Passive*
 
 Enemies near the user with no shadow burn even without sunlight or open sky.
 

@@ -9,7 +9,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ## Awaken Kame Walk Point { #awaken-kame-walk-point }
 
-*Active · Transformation*
+![](../abilities/awaken-kame-walk-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened turtle, which focuses on speed.
 
@@ -33,7 +33,7 @@ Transforms the user into an awakened turtle, which focuses on speed.
 
 ## Awaken Kame Guard Point { #awaken-kame-guard-point }
 
-*Active · Transformation*
+![](../abilities/awaken-kame-guard-point.png){ .ability-icon } *Active · Transformation*
 
 Transforms the user into an awakened turtle, which focuses on defense.
 
@@ -60,7 +60,7 @@ Sneaking hides the user in their shell where almost nothing gets through
 
 ## Spin { #spin }
 
-*Active*
+![](../abilities/spin.png){ .ability-icon } *Active*
 
 The user hides in their shell and spins, knocking back nearby enemies and blocking most of the damage it takes
 
@@ -80,7 +80,7 @@ The user hides in their shell and spins, knocking back nearby enemies and blocki
 
 ## Snapping Jaw { #snapping-jaw }
 
-*Active*
+![](../abilities/snapping-jaw.png){ .ability-icon } *Active*
 
 The turtle bites down on whatever is in front of it and drags it along, crushing it every second.
 
