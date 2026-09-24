@@ -65,3 +65,40 @@ if (EffectsHelper.isInvulnerable(target)) {
 ```
 
 Whether the target has the library's `INVULNERABLE` effect. `hurtBurst` already checks it; call it yourself in any other damage or control path that should respect it.
+
+## Exclusive groups
+
+Some effects must never stack: one meal buff at a time, the next replacing it, or a remedy and a meal that must not both raise the same stat. `AkumaEffectGroups` makes a **mob effect tag** exclusive: when an effect of the group lands on an entity, every other effect of that group is taken off.
+
+Declare the group once, in code:
+
+```java
+public static final TagKey<MobEffect> MEAL = AkumaEffectGroups.exclusive(new ResourceLocation("mymod", "meal"));
+```
+
+List its members as data, so a data pack can change them:
+
+```json title="data/mymod/tags/mob_effect/meal.json"
+{ "values": [ "mymod:fish_soup", "mymod:grilled_lizard" ] }
+```
+
+!!! danger "`mob_effect`, singular"
+    Effect tags live in `tags/mob_effect`. In 1.20.1 only blocks, items, fluids, entity types and game events use plural folders. A plural folder loads an empty tag without an error, and the group does nothing.
+
+The effect added last stays. The others are removed at the start of the entity's next tick rather than inside `addEffect`, so an effect added while the entity's effects are being ticked cannot break that loop. For one tick, both effects are active.
+
+`groupsOf(effect)` and `isIn(effect, tag)` read the groups, for a tooltip that says "replaces your current meal".
+
+## Slower hunger: `SatietyEffect`
+
+```java
+// -25 % hunger drain per level of the effect
+public static final RegistryObject<SatietyEffect> WELL_FED = MyRegistry.REGISTRY.registerEffect(
+        "Well Fed", () -> new SatietyEffect(0xE0B060, 0.25));
+```
+
+While the effect is on a player, the exhaustion they build up by running, jumping, fighting or mining is cut by its share. Several such effects add up, to at most -90 % (`SatietyEffect.MAX_REDUCTION`).
+
+Vanilla caps what a single meal can give: a full hunger bar, and as much saturation as there is hunger. Past that cap, a hearty meal can only last longer by slowing the drain, which this effect does.
+
+Vanilla has no event for exhaustion. `SatietyEvents` works around it: at the end of each player tick, on the server, it compares the exhaustion with the previous tick's and takes back the effect's share of the growth. If the exhaustion passed 4 in between, the food data has already spent 4 of it on hunger, and that 4 still counts as growth. `SatietyEvents.reduction(player)` reads the summed share, and `settle(player)` runs the step by hand, for a test.

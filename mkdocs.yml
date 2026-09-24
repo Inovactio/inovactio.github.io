@@ -218,6 +218,13 @@ nav:
           - akumalib/entities/index.md
           - Projectiles: akumalib/entities/projectiles.md
           - Tornadoes: akumalib/entities/tornadoes.md
+          - Catchable creatures: akumalib/entities/creatures.md
+          - Traps: akumalib/entities/traps.md
+      - Professions:
+          - akumalib/professions/index.md
+          - Workstations: akumalib/professions/workstations.md
+          - Advancements: akumalib/professions/advancements.md
+          - Gathering: akumalib/professions/gathering.md
       - Loot injection:
           - akumalib/loot-injection/index.md
           - Devil Fruit boxes: akumalib/loot-injection/devil-fruit-boxes.md
@@ -234,5 +241,12 @@ nav:
           - Pulls: akumalib/utilities/motion.md
           - Protected areas: akumalib/utilities/protection.md
           - Lines: akumalib/utilities/lines.md
+          - Currency: akumalib/utilities/currency.md
+          - Doriki and Cola: akumalib/utilities/doriki.md
+          - Devil Fruits: akumalib/utilities/devil-fruits.md
+          - Jigsaw pools: akumalib/utilities/jigsaw.md
+          - Cell grids: akumalib/utilities/cells.md
+          - Asking the overworld: akumalib/utilities/overworld-lookup.md
+          - Dimension travel: akumalib/utilities/dimension-travel.md
           - Other helpers: akumalib/utilities/other-helpers.md
       - Development: akumalib/development.md
