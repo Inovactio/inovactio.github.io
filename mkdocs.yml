@@ -37,6 +37,12 @@ plugins:
 extra_css:
   - assets/stylesheets/extra.css
 
+# Unreleased mods: their pages stay in the repository but are not built or published.
+# Remove a line here, and add the page back to the nav and the home page, when the mod is released.
+exclude_docs: |
+  /mods/cruise/
+  /mods/sky-island/
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -63,10 +69,6 @@ nav:
       - mods/awaken-path/index.md
   - InoFruits:
       - mods/inofruits/index.md
-  - Cruise Cruise no Mi:
-      - mods/cruise/index.md
-  - Sky Island:
-      - mods/sky-island/index.md
   - AkumaLib:
       - akumalib/index.md
       - Getting started: akumalib/getting-started.md

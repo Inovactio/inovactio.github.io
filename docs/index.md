@@ -34,26 +34,6 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     [:octicons-arrow-right-24: Read the wiki](mods/inofruits/index.md)
 
--   :material-ferry:{ .lg .middle } **Cruise Cruise no Mi**
-
-    ---
-
-    A work system for Mine Mine no Mi.
-
-    **Not released yet.**
-
-    [:octicons-arrow-right-24: Status](mods/cruise/index.md)
-
--   :material-weather-cloudy:{ .lg .middle } **Sky Island**
-
-    ---
-
-    Sky island dimensions.
-
-    **Not released yet.**
-
-    [:octicons-arrow-right-24: Status](mods/sky-island/index.md)
-
 -   ![](assets/icons/akumalib.png){ .card-icon } **AkumaLib**
 
     ---
