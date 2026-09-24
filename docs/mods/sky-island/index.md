@@ -8,6 +8,7 @@
 |---|---|
 | Version documented | **0.1.0** (beta) |
 | Mod id | `inosky` |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island) |
 
 !!! warning "A beta"
     Worlds are generated from this version's rules. A later version may change what stands in chunks that have not been explored yet.
