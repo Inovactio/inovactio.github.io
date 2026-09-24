@@ -16,7 +16,7 @@
         <link rel="prev" href="../awaken-awaken-no-mi/configuration/">
       
       
-        <link rel="next" href="../inofruits/">
+        <link rel="next" href="configuration/">
       
       
         
@@ -2926,6 +2926,8 @@
           
         
       
+        
+      
     
     
     
@@ -2963,6 +2965,11 @@
 
             </a>
             
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
           </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
@@ -2976,6 +2983,34 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
               
             
           </ul>
@@ -5800,6 +5835,45 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="How a fruit awakens">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#when-it-is-checked" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When it is checked
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-time-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The time counter
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-awakening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The awakening
+      
+    </span>
+  </a>
+  
 </li>
       
         <li class="md-nav__item">
@@ -5855,7 +5929,7 @@
 </tr>
 </tbody>
 </table>
-<p>It adds no abilities of its own: it decides <strong>when</strong> a fruit awakens. What an awakened fruit can do comes from the base mod and from addons such as <a href="../awaken-awaken-no-mi/">Awaken Awaken no Mi</a>.</p>
+<p>It adds no abilities of its own: it decides <strong>when</strong> a fruit awakens. What an awakened fruit can do comes from the base mod and from addons such as <a href="../awaken-awaken-no-mi/">Awaken Awaken no Mi</a>, whose awakened abilities unlock the moment the fruit awakens.</p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -5882,76 +5956,51 @@
 <p>AkumaLib is <strong>not</strong> needed.</p>
 <h2 id="how-a-fruit-awakens">How a fruit awakens<a class="headerlink" href="#how-a-fruit-awakens" title="Permanent link">&para;</a></h2>
 <p>With the default settings, a player's fruit awakens once <strong>both</strong> conditions hold:</p>
-<ol>
-<li><strong>Doriki</strong>: the player has reached the base mod's maximum Doriki.</li>
-<li><strong>Time with the fruit</strong>: the player has spent <strong>one real day</strong> (1,728,000 ticks) <strong>online</strong> with their current fruit. Time spent logged out does not count.</li>
-</ol>
-<p>The check runs whenever the player gains Doriki, eats a fruit or logs in, and once a minute while they play. When the fruit awakens, the player sees an <strong>Awakening</strong> title, hears a sound and is surrounded by particles.</p>
-<div class="admonition info">
-<p class="admonition-title">The time counter follows the fruit</p>
-<p>The counter starts at zero when a fruit is eaten, is kept through death, and is cleared when the player loses their fruit.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Awakenings are switched on for you</p>
-<p>The base mod has an <em>Enable Awakenings</em> option, off by default. Awaken Path forces it on unless you turn off its <strong>Force Enable Awakenings</strong> setting.</p>
-</div>
-<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
-<p>Settings live in <code>config/mineminenomiawakenpath-common.toml</code>:</p>
 <table>
 <thead>
 <tr>
-<th>Section</th>
-<th>Setting</th>
+<th>Condition</th>
 <th>Default</th>
-<th>What it does</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Unlock</td>
-<td>Unlock with Doriki</td>
-<td><code>true</code></td>
-<td>Whether the Doriki condition applies.</td>
+<td><strong>Doriki</strong></td>
+<td>the base mod's maximum Doriki</td>
+<td>The base mod's <em>Doriki Limit</em> option, <strong>10,000</strong> by default. A fixed threshold can be set instead.</td>
 </tr>
 <tr>
-<td>Unlock</td>
-<td>Doriki Threshold</td>
-<td><code>-1</code></td>
-<td>Doriki required. <code>-1</code> means the base mod's maximum Doriki.</td>
-</tr>
-<tr>
-<td>Unlock</td>
-<td>Time With Fruit Threshold</td>
-<td><code>1728000</code> (1 day)</td>
-<td>Ticks a player must spend online with their fruit. <code>-1</code> removes this condition.</td>
-</tr>
-<tr>
-<td>Unlock</td>
-<td>Force Enable Awakenings</td>
-<td><code>true</code></td>
-<td>Forces the base mod's <em>Enable Awakenings</em> option on.</td>
-</tr>
-<tr>
-<td>Effects</td>
-<td>Awakening Sound</td>
-<td><code>true</code></td>
-<td>Play a sound when a fruit awakens.</td>
-</tr>
-<tr>
-<td>Effects</td>
-<td>Awakening Title</td>
-<td><code>true</code></td>
-<td>Show the <em>Awakening</em> title on screen.</td>
-</tr>
-<tr>
-<td>Effects</td>
-<td>Awakening Particles</td>
-<td><code>true</code></td>
-<td>Spawn particles around the player.</td>
+<td><strong>Time with the fruit</strong></td>
+<td><strong>one real day</strong> (1,728,000 ticks)</td>
+<td>Only time spent <strong>online</strong> with the current fruit counts. Time logged out does not.</td>
 </tr>
 </tbody>
 </table>
-<p>Time is counted in ticks: <strong>72,000 per hour</strong>, <strong>1,728,000 per day</strong>. If both <em>Unlock with Doriki</em> is <code>false</code> and the time threshold is <code>-1</code>, no fruit awakens through this mod.</p>
+<p>Each condition can be switched off in the <a href="configuration/">configuration</a>. With only one of them on, that one alone decides; with both off, no fruit awakens through this mod.</p>
+<h3 id="when-it-is-checked">When it is checked<a class="headerlink" href="#when-it-is-checked" title="Permanent link">&para;</a></h3>
+<p>The mod checks a player whenever they <strong>gain Doriki</strong>, <strong>eat a Devil Fruit</strong> or <strong>log in</strong>, and <strong>once a minute</strong> while they play. A fruit that is already awakened is not checked again.</p>
+<h3 id="the-time-counter">The time counter<a class="headerlink" href="#the-time-counter" title="Permanent link">&para;</a></h3>
+<ul>
+<li>It starts at <strong>zero when a fruit is eaten</strong>.</li>
+<li>It is <strong>kept through death</strong>.</li>
+<li>It is <strong>cleared when the player loses their fruit</strong>, so a new fruit starts from zero.</li>
+<li>A player who already had a fruit before Awaken Path was installed gets a counter at their next login, <strong>starting from zero</strong>.</li>
+</ul>
+<h2 id="the-awakening">The awakening<a class="headerlink" href="#the-awakening" title="Permanent link">&para;</a></h2>
+<p>When a fruit awakens, the player gets, each part of which can be turned off:</p>
+<ul>
+<li>a title on screen, <strong>Awakening</strong>, with the subtitle <em>"The fruit's true power stirs within you..."</em> (in French for a French game: <em>Éveil</em>);</li>
+<li>a sound;</li>
+<li>a burst of particles around them.</li>
+</ul>
+<p>The base mod then grants the awakened fruit's abilities straight away.</p>
+<div class="admonition note">
+<p class="admonition-title">Awakenings are switched on for you</p>
+<p>The base mod has an <em>Enable Awakenings</em> option, <strong>off by default</strong>, in each world's <code>serverconfig/mineminenomi-server.toml</code>. Awaken Path turns it on, whatever that file says, unless you switch off its <strong>Force Enable Awakenings</strong> setting.</p>
+</div>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
+<p>Every setting, its default and the exact file content are on the <a href="configuration/">Configuration</a> page.</p>
 
 
 
@@ -6004,13 +6053,13 @@
         
         
           
-          <a href="../inofruits/" class="md-footer__link md-footer__link--next" aria-label="Next: InoFruits">
+          <a href="configuration/" class="md-footer__link md-footer__link--next" aria-label="Next: Configuration">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                InoFruits
+                Configuration
               </div>
             </div>
             <div class="md-footer__button md-icon">
