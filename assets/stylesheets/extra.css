@@ -21,3 +21,16 @@
     height: 64px;
   }
 }
+
+/* A malus in an ability's stats, red as in the game's tooltip. */
+.md-typeset .stat-malus {
+  color: #e53935;
+}
+
+/* An ability's own icon, in front of its kind line on a fruit page. */
+.md-typeset img.ability-icon {
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
