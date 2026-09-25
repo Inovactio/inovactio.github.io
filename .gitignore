@@ -1,3 +1,4 @@
 /site/
 .claude/settings.local.json
 *.stackdump
+__pycache__/
