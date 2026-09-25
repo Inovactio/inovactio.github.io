@@ -38,7 +38,7 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     ---
 
-    Skypiea as a dimension of its own, reached by a Knock-Up Stream: the cloud sea, the Angel Islands, the Upper Yards and Shandora.
+    Skypiea as a dimension of its own, reached by a Knock-Up Stream: the cloud sea, the Angel Islands, the Upper Yards and Shandora, and birds you can fly.
 
     **Needs:** Mine Mine no Mi, AkumaLib
 
