@@ -1,6 +1,10 @@
 # Nagi Nagi no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Effects applied** | ![](../effect-icons/total-isolation.png){ .effect-mini .pixelated }[Total Isolation](../effects.md#effect-total-isolation) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

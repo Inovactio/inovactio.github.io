@@ -1,6 +1,11 @@
 # Sabi Sabi no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Empire of Decay](#empire-of-decay) |
+| **Effects applied** | ![](../effect-icons/corroded.png){ .effect-mini .pixelated }[Corroded](../effects.md#effect-corroded), ![](../effect-icons/rust.png){ .effect-mini .pixelated }[Rust](../effects.md#effect-rust) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

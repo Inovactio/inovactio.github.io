@@ -1,6 +1,10 @@
 # Yomi Yomi no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 1 active, 2 passive |
+| **Effects applied** | ![](../effect-icons/soul-severed.png){ .effect-mini .pixelated }[Soul Severed](../effects.md#effect-soul-severed), ![](../effect-icons/soul-unbound.png){ .effect-mini .pixelated }[Soul Unbound](../effects.md#effect-soul-unbound) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

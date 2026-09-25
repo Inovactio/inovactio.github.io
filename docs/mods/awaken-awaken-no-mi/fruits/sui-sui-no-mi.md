@@ -1,6 +1,11 @@
 # Sui Sui no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 3 active, 0 passive |
+| **Zones** | [Waterpool Domain](#waterpool-domain) |
+| **Effects applied** | ![](../effect-icons/ground-drown.png){ .effect-mini .pixelated }[Ground Drown](../effects.md#effect-ground-drown), ![](../effect-icons/undertow-held.png){ .effect-mini .pixelated }[Undertow Held](../effects.md#effect-undertow-held) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

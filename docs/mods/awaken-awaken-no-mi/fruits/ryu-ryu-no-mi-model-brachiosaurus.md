@@ -1,6 +1,10 @@
 # Ryu Ryu no Mi, Model: Brachiosaurus
 
-**Ancient Zoan** · 4 awakened abilities
+| | |
+|---|---|
+| **Type** | Ancient Zoan |
+| **Abilities** | 4: 4 active, 0 passive |
+| **Transformations** | [Awaken Brachiosaurus Heavy Point](#awaken-brachiosaurus-heavy-point), [Awaken Brachiosaurus Guard Point](#awaken-brachiosaurus-guard-point) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

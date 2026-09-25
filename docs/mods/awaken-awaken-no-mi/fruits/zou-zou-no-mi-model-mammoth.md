@@ -1,6 +1,10 @@
 # Zou Zou no Mi, Model: Mammoth
 
-**Ancient Zoan** · 5 awakened abilities
+| | |
+|---|---|
+| **Type** | Ancient Zoan |
+| **Abilities** | 5: 4 active, 1 passive |
+| **Transformations** | [Awaken Mammoth Heavy Point](#awaken-mammoth-heavy-point), [Awaken Mammoth Guard Point](#awaken-mammoth-guard-point) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

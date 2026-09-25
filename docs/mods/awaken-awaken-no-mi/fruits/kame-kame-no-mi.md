@@ -1,6 +1,10 @@
 # Kame Kame no Mi
 
-**Zoan** · 4 awakened abilities
+| | |
+|---|---|
+| **Type** | Zoan |
+| **Abilities** | 4: 4 active, 0 passive |
+| **Transformations** | [Awaken Kame Walk Point](#awaken-kame-walk-point), [Awaken Kame Guard Point](#awaken-kame-guard-point) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

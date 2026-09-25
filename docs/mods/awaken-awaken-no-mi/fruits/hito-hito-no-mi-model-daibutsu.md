@@ -1,6 +1,11 @@
 # Hito Hito no Mi, Model: Daibutsu
 
-**Mythical Zoan** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Mythical Zoan |
+| **Abilities** | 3: 3 active, 0 passive |
+| **Transformations** | [Awaken Daibutsu Point](#awaken-daibutsu-point) |
+| **Effects applied** | ![](../effect-icons/buddha-seal.png){ .effect-mini .pixelated }[Buddha Seal](../effects.md#effect-buddha-seal) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

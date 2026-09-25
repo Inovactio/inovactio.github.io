@@ -1,6 +1,11 @@
 # Ryu Ryu no Mi, Model: Pteranodon
 
-**Ancient Zoan** · 4 awakened abilities
+| | |
+|---|---|
+| **Type** | Ancient Zoan |
+| **Abilities** | 4: 4 active, 0 passive |
+| **Transformations** | [Awaken Pteranodon Assault Point](#awaken-pteranodon-assault-point), [Awaken Pteranodon Fly Point](#awaken-pteranodon-fly-point) |
+| **Effects applied** | ![](../effect-icons/downdraft-pinned.png){ .effect-mini .pixelated }[Downdraft Pinned](../effects.md#effect-downdraft-pinned) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

@@ -2,11 +2,15 @@
 
 ![](../fruit-icons/shio-shio-no-mi.png){ .mod-icon }
 
-**Logia** · ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden box · 7 abilities
+| | |
+|---|---|
+| **Type** | Logia |
+| **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
+| **Chance per opening** | golden **4.13%**, iron **0.207%**, wooden **0.010%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 7: 6 active, 1 passive |
+| **Effects applied** | ![](../effect-icons/shio-form.png){ .effect-mini }[Shio Form](../effects.md#effect-shio-form), ![](../effect-icons/shiozuke.png){ .effect-mini }[Shiozuke](../effects.md#effect-shiozuke) |
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
-
-Chance per box opening: golden box **4.13%**, iron box **0.207%**, wooden box **0.010%** ([how it works](index.md#box-odds)).
 
 !!! note "About the values"
     The values are those of the ability's tooltip in game, with the base mod's default settings. Damage is shown on the base mod's scale, as in the ability screen.

@@ -1,6 +1,10 @@
 # Nikyu Nikyu no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive (1 hidden, not in the ability menu) |
+| **Effects applied** | ![](../effect-icons/banished.png){ .effect-mini .pixelated }[Banished](../effects.md#effect-banished) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

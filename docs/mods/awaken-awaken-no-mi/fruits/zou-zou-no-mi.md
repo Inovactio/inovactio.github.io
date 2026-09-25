@@ -1,6 +1,10 @@
 # Zou Zou no Mi
 
-**Zoan** · 4 awakened abilities
+| | |
+|---|---|
+| **Type** | Zoan |
+| **Abilities** | 4: 4 active, 0 passive |
+| **Transformations** | [Awaken Zou Heavy Point](#awaken-zou-heavy-point), [Awaken Zou Guard Point](#awaken-zou-guard-point) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

@@ -1,6 +1,11 @@
 # Kage Kage no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Nightmare Banquet](#nightmare-banquet) |
+| **Effects applied** | ![](../effect-icons/ability-seal.png){ .effect-mini .pixelated }[Ability Seal](../effects.md#effect-ability-seal), ![](../effect-icons/marionette.png){ .effect-mini .pixelated }[Marionette](../effects.md#effect-marionette), ![](../effect-icons/shadow-boost.png){ .effect-mini .pixelated }[Shadow Boost](../effects.md#effect-shadow-boost) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

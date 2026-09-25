@@ -1,6 +1,10 @@
 # Karu Karu no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Inga Samsara](#inga-samsara) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

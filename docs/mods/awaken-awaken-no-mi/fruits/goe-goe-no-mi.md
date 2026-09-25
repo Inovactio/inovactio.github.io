@@ -1,6 +1,11 @@
 # Goe Goe no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Resonating World](#resonating-world) |
+| **Effects applied** | ![](../effect-icons/deafened.png){ .effect-mini .pixelated }[Deafened](../effects.md#effect-deafened) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

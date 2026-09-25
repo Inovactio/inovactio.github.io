@@ -2,11 +2,16 @@
 
 ![](../fruit-icons/wani-wani-no-mi-model-crocodile.png){ .mod-icon }
 
-**Zoan** · ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron box · 6 abilities
+| | |
+|---|---|
+| **Type** | Zoan |
+| **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
+| **Chance per opening** | iron **2.32%**, wooden **0.116%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 6: 6 active, 0 passive |
+| **Transformations** | [Wani Wani Walk Point](#wani-wani-walk-point), [Wani Wani Heavy Point](#wani-wani-heavy-point) |
+| **Effects applied** | ![](../effect-icons/belly-crawl.png){ .effect-mini }[Belly Crawl](../effects.md#effect-belly-crawl) |
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
-
-Chance per box opening: iron box **2.32%**, wooden box **0.116%** ([how it works](index.md#box-odds)).
 
 !!! note "About the values"
     The values are those of the ability's tooltip in game, with the base mod's default settings. Damage is shown on the base mod's scale, as in the ability screen.

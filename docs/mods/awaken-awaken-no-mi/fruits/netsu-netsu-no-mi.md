@@ -1,6 +1,11 @@
 # Netsu Netsu no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 3 active, 0 passive |
+| **Zones** | [Netto Jigoku](#netto-jigoku) |
+| **Effects applied** | ![](../effect-icons/inferno.png){ .effect-mini .pixelated }[Inferno](../effects.md#effect-inferno), ![](../effect-icons/molten-armor.png){ .effect-mini .pixelated }[Molten Armor](../effects.md#effect-molten-armor) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

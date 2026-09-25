@@ -1,6 +1,10 @@
 # Neko Neko no Mi, Model: Leopard
 
-**Zoan** · 4 awakened abilities
+| | |
+|---|---|
+| **Type** | Zoan |
+| **Abilities** | 4: 4 active, 0 passive |
+| **Transformations** | [Awaken Leopard Heavy Point](#awaken-leopard-heavy-point), [Awaken Leopard Walk Point](#awaken-leopard-walk-point) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
