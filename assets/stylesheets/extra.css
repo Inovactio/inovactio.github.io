@@ -88,3 +88,35 @@
 .md-typeset img.pixelated {
   image-rendering: pixelated;
 }
+
+/* Sortable tables (assets/javascripts/sortable.js): a clickable header shows the direction it sorts. */
+.md-typeset .sortable-header {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+.md-typeset .sortable-header[data-sort="asc"]::after { content: " \25B2"; }
+.md-typeset .sortable-header[data-sort="desc"]::after { content: " \25BC"; }
+
+/* The box that filters a table. */
+.md-typeset input.table-filter {
+  width: 100%;
+  max-width: 28rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font-size: 0.8rem;
+}
+
+/* An ability's icon in front of its name, in a table row. */
+.md-typeset img.ability-mini {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 0.3em;
+}
+.md-typeset .sortable-table td:first-child {
+  white-space: nowrap;
+}
