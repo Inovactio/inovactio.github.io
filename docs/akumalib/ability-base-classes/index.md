@@ -16,11 +16,13 @@ Every class here extends a Mine Mine no Mi type and encodes a technique shape th
 | a passive granting attribute bonuses under a condition | `ConditionalStatPassiveAbility` | [Passives](passives.md) |
 | a passive aura hitting nearby enemies | `AuraAbility` | [Passives](passives.md) |
 | damage dealt by sprinting into things | `RunningSmashAbility` | [Passives](passives.md) |
+| a passive holding a value shown as a HUD gauge | `GaugePassiveAbility` | [Passives](passives.md) |
 | a held dash that hurts what it passes through | `MoveAbility` | [Movement](movement.md) |
 | the base mod's dash, with start and end hooks | `DashAbility` | [Movement](movement.md) |
 | a charged teleport that hits along its path | `InstantDashAbility` | [Movement](movement.md) |
 | a charged area stomp | `StompAbility` | [Movement](movement.md) |
 | anything that must be used on the ground | `GroundAbility` | [Movement](movement.md) |
+| the flight of a Zoan with two flying forms | `TwoFormFlightAbility` | [Movement](movement.md) |
 | catching a target and holding it | `GrabAbility` | [Grabs](grabs.md) |
 | handing the user an item the fruit makes | `ProduceItemAbility` | [Items and blocks](items-and-blocks.md) |
 | turning materials into an item | `CraftingAbility` | [Items and blocks](items-and-blocks.md) |

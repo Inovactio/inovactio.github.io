@@ -2,6 +2,37 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 2.6.0 { #v2-6-0 }
+
+<small>Released 2026-09-25 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/8974217)</small>
+
+<div class="changelog-body" markdown="0">
+<p>Three additions for addons with gauges, flying forms and pushes, taken out of InoFruits where each had been written three to five times: a <strong>gauge passive</strong>, a <strong>two-form flight</strong> in the shape of the base mod's Phoenix, and <strong>directional pushes</strong> next to the pulls.</p>
+<p><strong>No signature was removed or changed</strong>: an addon built against 2.5.0 keeps compiling and keeps working. That is why this is a minor bump.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p>The network protocol is unchanged (3): a 2.6.0 client can join a 2.5.0 server and the other way round.</p>
+<hr />
+<h3>New</h3>
+<h4>Gauge passive</h4>
+<ul>
+<li><strong><code>GaugePassiveAbility</code></strong>: a passive holding one value between zero and a maximum, shown on the HUD. It clamps every change and does nothing on an unchanged value. Every server change is synced to the holder, and the value is saved under a key you choose, so an ability migrated onto it keeps its saves. The <code>GaugeComponent</code> is client-only. <code>getValue</code>, <code>add</code>, <code>spend</code>, <code>fill</code>, <code>drain</code>, plus four hooks: <code>onValueChanged</code>, <code>gaugeText</code>, <code>gaugeColour</code>, <code>shouldRenderGauge</code>.</li>
+<li><strong><code>AkumaGauge.draw</code></strong>: the icon-plus-text layout of every ability gauge, for a gauge with no stored value (a figure computed from health).</li>
+</ul>
+<h4>Flight</h4>
+<ul>
+<li><strong><code>TwoFormFlightAbility</code></strong>: the flight of a Zoan with two flying forms, on the base mod's <code>PropelledFlightAbility</code>, as the Phoenix does it. Each form is a <code>Form</code> (its point ability, its morph, sprint and cruise speed and acceleration), plus a ceiling. The gate is the points' continuity (the morph lags a tick on a switch), the speed is read off the active morph, and <code>speedMultiplier</code> scales both for a buff.</li>
+<li><strong><code>AkumaFlight.takeOff / land</code></strong>: switches a flight passive on and off from the forms' start and end events, as <code>PhoenixFlyPointAbility</code> does. It never enables through a pause (haki overuse, Seastone, protected areas).</li>
+</ul>
+<h4>Motion</h4>
+<ul>
+<li><strong><code>AkumaMotion.shoveAlong</code></strong> (replaces the motion) and <strong><code>nudgeAlong</code></strong> (adds to it): a push along a direction rather than toward a point. The degenerate direction (straight up, or a target on the origin) becomes a straight lift instead of a silent push of zero.</li>
+</ul>
+<h4>Documentation</h4>
+<ul>
+<li>Passives, Movement and "Pulls and pushes" pages cover the three.</li>
+</ul>
+</div>
+
 ## 2.5.0 { #v2-5-0 }
 
 <small>Released 2026-09-24 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/8965631)</small>

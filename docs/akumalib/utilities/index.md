@@ -21,7 +21,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 | Page | Helpers |
 |---|---|
 | [Attributes and size](attributes-and-size.md) | `AttributeBonusHelper`, `SizeScale` |
-| [Pulls](motion.md) | `AkumaMotion`, `PullProfile`: moving a body toward a point with a tunable speed curve |
+| [Pulls and pushes](motion.md) | `AkumaMotion`, `PullProfile`: moving a body toward a point with a tunable speed curve, or along a direction |
 
 ## Blocks and visuals
 
