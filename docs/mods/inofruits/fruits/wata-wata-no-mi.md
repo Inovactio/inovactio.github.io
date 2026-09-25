@@ -6,6 +6,8 @@
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
+Chance per box opening: wooden box **2.45%** ([how it works](index.md#box-odds)).
+
 !!! note "About the values"
     The values are those of the ability's tooltip in game, with the base mod's default settings. Damage is shown on the base mod's scale, as in the ability screen.
 
