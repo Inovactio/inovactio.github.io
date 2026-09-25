@@ -5,6 +5,7 @@
 | | |
 |---|---|
 | **Type** | Paramecia |
+| **Theme** | Spill |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
 | **Chance per opening** | wooden **2.45%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 4: 4 active, 0 passive |
