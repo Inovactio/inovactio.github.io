@@ -43,5 +43,6 @@ The fruits behave like the base mod's own:
 | Page | What you'll find |
 |---|---|
 | **[Fruits](fruits/index.md)** | the 28 fruits, one page each, with every ability's description and values |
+| **[All abilities](all-abilities.md)** | every ability in one table you can sort and filter: cooldown, charge, hold, damage, range |
 | **[Status effects](effects.md)** | the effects the fruits inflict or grant, and what applies each one |
 | **[Configuration](configuration.md)** | the settings of `inofruits-common.toml` |

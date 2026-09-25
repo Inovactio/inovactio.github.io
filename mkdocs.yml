@@ -45,6 +45,9 @@ validation:
 extra_css:
   - assets/stylesheets/extra.css
 
+extra_javascript:
+  - assets/javascripts/sortable.js
+
 # Unreleased mods: their pages stay in the repository but are not built or published.
 # Remove a line here, and add the page back to the nav and the home page, when the mod is released.
 exclude_docs: |
@@ -147,6 +150,7 @@ nav:
               - "Ushi Ushi no Mi, Model: Giraffe": mods/awaken-awaken-no-mi/fruits/ushi-ushi-no-mi-model-giraffe.md
               - "Zou Zou no Mi": mods/awaken-awaken-no-mi/fruits/zou-zou-no-mi.md
               - "Zou Zou no Mi, Model: Mammoth": mods/awaken-awaken-no-mi/fruits/zou-zou-no-mi-model-mammoth.md
+      - All abilities: mods/awaken-awaken-no-mi/all-abilities.md
       - Status effects: mods/awaken-awaken-no-mi/effects.md
       - Items: mods/awaken-awaken-no-mi/items.md
       - Configuration: mods/awaken-awaken-no-mi/configuration.md
@@ -188,6 +192,7 @@ nav:
               - "Usa Usa no Mi, Model: Hare": mods/inofruits/fruits/usa-usa-no-mi-model-hare.md
               - "Wani Wani no Mi, Model: Crocodile": mods/inofruits/fruits/wani-wani-no-mi-model-crocodile.md
               - "Zuku Zuku no Mi, Model: Owl": mods/inofruits/fruits/zuku-zuku-no-mi-model-owl.md
+      - All abilities: mods/inofruits/all-abilities.md
       - Status effects: mods/inofruits/effects.md
       - Configuration: mods/inofruits/configuration.md
   - Sky Island:
