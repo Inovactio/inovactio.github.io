@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| Version documented | **0.1.0** (beta) |
+| Version documented | **0.2.0** (beta) |
 | Mod id | `inosky` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island) |
 
@@ -20,7 +20,7 @@
 | Minecraft | 1.20.1 |
 | Forge | 47 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.5 |
-| [AkumaLib](../../akumalib/index.md) | 2.5.0 or later |
+| [AkumaLib](../../akumalib/index.md) | 2.6.1 or later |
 
 Client **and** server.
 
@@ -34,6 +34,7 @@ Client **and** server.
 | **[Getting there and back](getting-there.md)** | the Knock-Up Stream, the arrival, falling back to the overworld |
 | **[Angel Islands](angel-islands.md)** | islands of cloud: Skypiean villages, the White Berets, Angel Beach, Heaven's Gate |
 | **[Upper Yards](upper-yards.md)** | the great islands of earth: the Giant Jack, Shandora, the Shandias and their camps |
+| **[Wildlife](wildlife.md)** | the South Bird, two flying mounts, the Cloud Fox and the Giant Dog |
 | **[Configuration](configuration.md)** | the geyser's rhythm, the fall back, the dials; the `/geyser` command |
 
 Skypiea sits **above the overworld's deep oceans** and nowhere else: its islands and its sea of clouds only exist where the overworld below is deep ocean. **The cloud sea** is a sea you swim in and sail on, with a swell; boats float on it.
