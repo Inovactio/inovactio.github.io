@@ -68,3 +68,10 @@
 .md-typeset td:has(> img.effect-icon) {
   white-space: nowrap;
 }
+
+/* Vanilla-size (18x18) pixel-art icons, drawn at an exact multiple without smoothing. */
+.md-typeset img.pixel-art {
+  width: 36px;
+  height: 36px;
+  image-rendering: pixelated;
+}
