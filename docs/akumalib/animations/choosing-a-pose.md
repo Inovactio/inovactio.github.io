@@ -31,8 +31,7 @@ The base mod registers 79 poses in `ModAnimations`. **Pick one by reading what i
 
 The library adds two poses of its own, in `AkumaAnimations`: `RIGHT_ARM_FORWARD` (one arm straight forward) and `KNEEL_PUNCH_GROUND` (kneel and strike the ground).
 
-!!! tip "Poses by meaning"
-    Kept consistent across a kit, and across fruits, these read clearly: a cone in front is `POINT_ARMS`, aiming at one target is `POINT_RIGHT_ARM`, an area around the user is `BODY_ROTATION_WIDE_ARMS`, pouring or sweeping low is `LOW_SWING_ARMS`, making something rise is `RAISE_ARMS`.
+Poses by meaning, kept consistent across a kit, and across fruits, read clearly: a cone in front is `POINT_ARMS`, aiming at one target is `POINT_RIGHT_ARM`, an area around the user is `BODY_ROTATION_WIDE_ARMS`, pouring or sweeping low is `LOW_SWING_ARMS`, making something rise is `RAISE_ARMS`.
 
 ## What a pose assigns decides whether it can be held
 
@@ -68,5 +67,4 @@ Two things make an arms-only pose better, not just acceptable, on a charge:
 
 A pose with no easing is invisible when held and conspicuous when brief: on a short flourish the snap shows at both ends. Prefer an eased pose for anything short.
 
-!!! note "Read the source of an unlisted pose"
-    `javap` on `ModAnimations` gives the names of the other poses, not what they do. Decompile the animation class, or test it in game, before relying on one that is not in the table above.
+Read the source of an unlisted pose: `javap` on `ModAnimations` gives the names of the other poses, not what they do. Decompile the animation class, or test it in game, before relying on one that is not in the table above.

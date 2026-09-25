@@ -75,11 +75,9 @@ This is the one file Forge **merges** across every installed mod.
 
 In a chest, both numbers mean what they look like: `chance` is how often your pool adds anything at all, and `rolls` is how many items it adds when it does.
 
-!!! warning "The table's own top-level `functions` are skipped"
-    The table is rolled the way vanilla nests one table inside another, which does not apply table-wide functions. Pool-level and entry-level conditions and functions do apply, so put anything table-wide on the pool instead.
-
-!!! note "A typo in `table` is silent"
-    An unknown table id rolls as an empty table: the chest generates its normal loot and yours never appears.
+!!! warning "Rolling your table"
+    1. **The table's own top-level `functions` are skipped.** The table is rolled the way vanilla nests one table inside another, which does not apply table-wide functions. Pool-level and entry-level conditions and functions do apply, so put anything table-wide on the pool instead.
+    2. **A typo in `table` is silent.** An unknown table id rolls as an empty table: the chest generates its normal loot and yours never appears.
 
 ## `mode`
 

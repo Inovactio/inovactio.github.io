@@ -28,6 +28,8 @@ public class ReachOutAnimation extends Animation<LivingEntity, HumanoidModel<Liv
 
 `getAnimationCompletion()` counts **from 0 to 1** over the animation's duration, which is what turns a static pose into a movement. `getTime()`, `getAnimationDuration()` and `getAnimationInitialDuration()` are also available.
 
+A moving pose, not a fixed one: a fixed pose says "a body is in this position". Most techniques are not a position: what tells a kick from standing with a leg raised is the speed at which it got there. Interpolate over `getAnimationCompletion()` for anything that should read as an action.
+
 ### The three hooks
 
 | Hook | Receives | Use it for |
@@ -36,8 +38,7 @@ public class ReachOutAnimation extends Animation<LivingEntity, HumanoidModel<Liv
 | `setAnimationPostAngles` | the model and the `PoseStack` | transforming the whole entity: scale, rotate, translate |
 | `setAnimationHeldItem` | the held item's `PoseStack` | angling or hiding the item in hand |
 
-!!! tip "Set both angle hooks, even when one does nothing"
-    An animation that only transforms the pose stack can still register an empty angles method. The base mod's dispatcher then always has a callback to call.
+Set both angle hooks, even when one does nothing: an animation that only transforms the pose stack can still register an empty angles method. The base mod's dispatcher then always has a callback to call.
 
 ## Registering it
 
@@ -73,17 +74,11 @@ public static final AnimationId<BarrelRollAnimation> DEATH_ROLL =
 
 ## Traps
 
-!!! warning "`GetRotValue` negates its argument"
-    The library's `Animation.GetRotValue(value)` returns `Math.toRadians(-value)`. Mixing it with plain `Math.toRadians` in one class makes half the angles read backwards from the other half. Prefer `Math.toRadians` everywhere.
-
-!!! warning "Signs are easy to get backwards"
-    Which way a positive `xRot` turns a part depends on how the part hangs from its pivot. On a limb hanging down, a positive `xRot` sends its end **backward**. When a sign cannot be checked, isolate it in one named constant, so a pose that plays backwards is a one-character fix.
-
-!!! warning "`AnimationId` is generic, so a ternary does not compile"
-    `AnimationId<PointArmsAnimation>` and `AnimationId<RaiseArmsAnimation>` share no inferred type. Use `if` / `else` with two `start` calls to pick between two poses.
-
-!!! warning "A `PlayerModel` needs its outer layer copied"
-    When you move a player's parts, copy the overlay parts too, or the outer skin layer stays behind:
+!!! warning "Four traps"
+    1. **`GetRotValue` negates its argument.** The library's `Animation.GetRotValue(value)` returns `Math.toRadians(-value)`. Mixing it with plain `Math.toRadians` in one class makes half the angles read backwards from the other half. Prefer `Math.toRadians` everywhere.
+    2. **Signs are easy to get backwards.** Which way a positive `xRot` turns a part depends on how the part hangs from its pivot. On a limb hanging down, a positive `xRot` sends its end **backward**. When a sign cannot be checked, isolate it in one named constant, so a pose that plays backwards is a one-character fix.
+    3. **`AnimationId` is generic, so a ternary does not compile.** `AnimationId<PointArmsAnimation>` and `AnimationId<RaiseArmsAnimation>` share no inferred type. Use `if` / `else` with two `start` calls to pick between two poses.
+    4. **A `PlayerModel` needs its outer layer copied.** When you move a player's parts, copy the overlay parts too, or the outer skin layer stays behind:
 
     ```java
     if (model instanceof PlayerModel<?> playerModel) {
@@ -94,6 +89,3 @@ public static final AnimationId<BarrelRollAnimation> DEATH_ROLL =
         playerModel.leftPants.copyFrom(playerModel.leftLeg);
     }
     ```
-
-!!! note "A moving pose, not a fixed one"
-    A fixed pose says "a body is in this position". Most techniques are not a position: what tells a kick from standing with a leg raised is the speed at which it got there. Interpolate over `getAnimationCompletion()` for anything that should read as an action.
