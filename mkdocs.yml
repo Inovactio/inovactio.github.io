@@ -28,6 +28,8 @@ theme:
     - navigation.top
     - navigation.footer
     - navigation.indexes
+    - navigation.path
+    - toc.follow
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -230,28 +232,35 @@ nav:
           - Workstations: akumalib/professions/workstations.md
           - Advancements: akumalib/professions/advancements.md
           - Gathering: akumalib/professions/gathering.md
+      - Worldgen and dimensions:
+          - akumalib/worldgen/index.md
+          - Cell grids: akumalib/utilities/cells.md
+          - Asking the overworld: akumalib/utilities/overworld-lookup.md
+          - Dimension travel: akumalib/utilities/dimension-travel.md
+          - Jigsaw pools: akumalib/utilities/jigsaw.md
       - Loot injection:
           - akumalib/loot-injection/index.md
           - Devil Fruit boxes: akumalib/loot-injection/devil-fruit-boxes.md
           - Chests: akumalib/loot-injection/chests.md
       - Utilities:
           - akumalib/utilities/index.md
-          - Targeting: akumalib/utilities/targeting.md
-          - Attributes and size: akumalib/utilities/attributes-and-size.md
-          - Blocks: akumalib/utilities/blocks.md
-          - Effects: akumalib/utilities/effects.md
-          - Tooltips: akumalib/utilities/tooltips.md
-          - Effect owners: akumalib/utilities/effect-owners.md
+          - Targeting and protection:
+              - Targeting: akumalib/utilities/targeting.md
+              - Protected areas: akumalib/utilities/protection.md
+          - Effects:
+              - Effects: akumalib/utilities/effects.md
+              - Effect owners: akumalib/utilities/effect-owners.md
+          - Bodies and movement:
+              - Attributes and size: akumalib/utilities/attributes-and-size.md
+              - Pulls: akumalib/utilities/motion.md
+          - Blocks and visuals:
+              - Blocks: akumalib/utilities/blocks.md
+              - Lines: akumalib/utilities/lines.md
+              - Tooltips: akumalib/utilities/tooltips.md
+          - Player data:
+              - Currency: akumalib/utilities/currency.md
+              - Doriki and Cola: akumalib/utilities/doriki.md
+              - Devil Fruits: akumalib/utilities/devil-fruits.md
           - Deferred work: akumalib/utilities/tick-queue.md
-          - Pulls: akumalib/utilities/motion.md
-          - Protected areas: akumalib/utilities/protection.md
-          - Lines: akumalib/utilities/lines.md
-          - Currency: akumalib/utilities/currency.md
-          - Doriki and Cola: akumalib/utilities/doriki.md
-          - Devil Fruits: akumalib/utilities/devil-fruits.md
-          - Jigsaw pools: akumalib/utilities/jigsaw.md
-          - Cell grids: akumalib/utilities/cells.md
-          - Asking the overworld: akumalib/utilities/overworld-lookup.md
-          - Dimension travel: akumalib/utilities/dimension-travel.md
           - Other helpers: akumalib/utilities/other-helpers.md
       - Development: akumalib/development.md
