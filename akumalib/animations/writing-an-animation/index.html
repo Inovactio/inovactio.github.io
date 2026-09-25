@@ -7144,6 +7144,7 @@
 <a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="p">}</span>
 </code></pre></div>
 <p><code>getAnimationCompletion()</code> counts <strong>from 0 to 1</strong> over the animation's duration, which is what turns a static pose into a movement. <code>getTime()</code>, <code>getAnimationDuration()</code> and <code>getAnimationInitialDuration()</code> are also available.</p>
+<p>A moving pose, not a fixed one: a fixed pose says "a body is in this position". Most techniques are not a position: what tells a kick from standing with a leg raised is the speed at which it got there. Interpolate over <code>getAnimationCompletion()</code> for anything that should read as an action.</p>
 <h3 id="the-three-hooks">The three hooks<a class="headerlink" href="#the-three-hooks" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -7171,10 +7172,7 @@
 </tr>
 </tbody>
 </table>
-<div class="admonition tip">
-<p class="admonition-title">Set both angle hooks, even when one does nothing</p>
-<p>An animation that only transforms the pose stack can still register an empty angles method. The base mod's dispatcher then always has a callback to call.</p>
-</div>
+<p>Set both angle hooks, even when one does nothing: an animation that only transforms the pose stack can still register an empty angles method. The base mod's dispatcher then always has a callback to call.</p>
 <h2 id="registering-it">Registering it<a class="headerlink" href="#registering-it" title="Permanent link">&para;</a></h2>
 <p>An <code>AnimationId</code> puts itself in the base mod's registry <strong>from its own constructor</strong>. Create the ids in a holder class:</p>
 <div class="highlight"><span class="filename">MyAnimations.java</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyAnimations</span><span class="w"> </span><span class="p">{</span>
@@ -7202,20 +7200,13 @@
 <p><code>ForwardRollAnimation</code> (a somersault, humanoid models only) and <code>BarrelRollAnimation</code> (a roll about the body's length, any model) both take a spin speed in degrees per tick, which is why the library does not register an instance of either.</p>
 <h2 id="traps">Traps<a class="headerlink" href="#traps" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
-<p class="admonition-title"><code>GetRotValue</code> negates its argument</p>
-<p>The library's <code>Animation.GetRotValue(value)</code> returns <code>Math.toRadians(-value)</code>. Mixing it with plain <code>Math.toRadians</code> in one class makes half the angles read backwards from the other half. Prefer <code>Math.toRadians</code> everywhere.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">Signs are easy to get backwards</p>
-<p>Which way a positive <code>xRot</code> turns a part depends on how the part hangs from its pivot. On a limb hanging down, a positive <code>xRot</code> sends its end <strong>backward</strong>. When a sign cannot be checked, isolate it in one named constant, so a pose that plays backwards is a one-character fix.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title"><code>AnimationId</code> is generic, so a ternary does not compile</p>
-<p><code>AnimationId&lt;PointArmsAnimation&gt;</code> and <code>AnimationId&lt;RaiseArmsAnimation&gt;</code> share no inferred type. Use <code>if</code> / <code>else</code> with two <code>start</code> calls to pick between two poses.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">A <code>PlayerModel</code> needs its outer layer copied</p>
-<p>When you move a player's parts, copy the overlay parts too, or the outer skin layer stays behind:</p>
+<p class="admonition-title">Four traps</p>
+<ol>
+<li><strong><code>GetRotValue</code> negates its argument.</strong> The library's <code>Animation.GetRotValue(value)</code> returns <code>Math.toRadians(-value)</code>. Mixing it with plain <code>Math.toRadians</code> in one class makes half the angles read backwards from the other half. Prefer <code>Math.toRadians</code> everywhere.</li>
+<li><strong>Signs are easy to get backwards.</strong> Which way a positive <code>xRot</code> turns a part depends on how the part hangs from its pivot. On a limb hanging down, a positive <code>xRot</code> sends its end <strong>backward</strong>. When a sign cannot be checked, isolate it in one named constant, so a pose that plays backwards is a one-character fix.</li>
+<li><strong><code>AnimationId</code> is generic, so a ternary does not compile.</strong> <code>AnimationId&lt;PointArmsAnimation&gt;</code> and <code>AnimationId&lt;RaiseArmsAnimation&gt;</code> share no inferred type. Use <code>if</code> / <code>else</code> with two <code>start</code> calls to pick between two poses.</li>
+<li><strong>A <code>PlayerModel</code> needs its outer layer copied.</strong> When you move a player's parts, copy the overlay parts too, or the outer skin layer stays behind:</li>
+</ol>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">model</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">PlayerModel</span><span class="o">&lt;?&gt;</span><span class="w"> </span><span class="n">playerModel</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="n">playerModel</span><span class="p">.</span><span class="na">hat</span><span class="p">.</span><span class="na">copyFrom</span><span class="p">(</span><span class="n">playerModel</span><span class="p">.</span><span class="na">head</span><span class="p">);</span>
 <a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="n">playerModel</span><span class="p">.</span><span class="na">rightSleeve</span><span class="p">.</span><span class="na">copyFrom</span><span class="p">(</span><span class="n">playerModel</span><span class="p">.</span><span class="na">rightArm</span><span class="p">);</span>
@@ -7224,10 +7215,6 @@
 <a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="n">playerModel</span><span class="p">.</span><span class="na">leftPants</span><span class="p">.</span><span class="na">copyFrom</span><span class="p">(</span><span class="n">playerModel</span><span class="p">.</span><span class="na">leftLeg</span><span class="p">);</span>
 <a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="p">}</span>
 </code></pre></div>
-</div>
-<div class="admonition note">
-<p class="admonition-title">A moving pose, not a fixed one</p>
-<p>A fixed pose says "a body is in this position". Most techniques are not a position: what tells a kick from standing with a leg raised is the speed at which it got there. Interpolate over <code>getAnimationCompletion()</code> for anything that should read as an action.</p>
 </div>
 
 

@@ -7113,10 +7113,7 @@
 <p>A fruit's morph can make the rest of its kit stronger while it is up. The base mod does this itself: the Doku Doku no Mi's <em>Chloro Ball</em> fires three bubbles instead of one while the <em>Venom Demon</em> form is active, and renames itself <em>Venom Chloro Ball</em>.</p>
 <p>AkumaLib gives that pattern three pieces: <code>IAmplifiableAbility</code>, <code>AmplifiedPresentation</code> and <code>AmplificationBus</code>.</p>
 <h2 id="the-rule-the-morph-tells-its-siblings">The rule: the morph tells its siblings<a class="headerlink" href="#the-rule-the-morph-tells-its-siblings" title="Permanent link">&para;</a></h2>
-<div class="admonition info">
-<p class="admonition-title">Push, never poll</p>
-<p>When the morph comes up or drops, <strong>it tells the other techniques</strong>. The techniques do not each watch the morph. This is what keeps the ability screen correct for a technique the player is not currently using.</p>
-</div>
+<p>Push, never poll: when the morph comes up or drops, <strong>it tells the other techniques</strong>. The techniques do not each watch the morph. This is what keeps the ability screen correct for a technique the player is not currently using.</p>
 <p>An amplification has three axes, and a technique that only takes the first one feels like a rounding error:</p>
 <table>
 <thead>
@@ -7176,10 +7173,7 @@
 <p class="admonition-title">Add the component, or nothing is ever renamed</p>
 <p><code>amplified.component()</code> must reach <code>addComponents</code>. A presentation whose component is missing builds, runs, and silently never changes the name or the icon.</p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">The player cannot switch it</p>
-<p>The underlying <code>AltModeComponent</code> is built so the player's mode-switch key never cycles it. Only the morph drives it, so a technique can never present as amplified outside its form.</p>
-</div>
+<p>The player cannot switch it: the underlying <code>AltModeComponent</code> is built so the player's mode-switch key never cycles it. Only the morph drives it, so a technique can never present as amplified outside its form.</p>
 <h2 id="2-read-the-numbers-where-the-technique-resolves">2. Read the numbers where the technique resolves<a class="headerlink" href="#2-read-the-numbers-where-the-technique-resolves" title="Permanent link">&para;</a></h2>
 <p><code>AmplifiedPresentation</code> is <strong>presentation only</strong>. Read the actual state at the moment the technique takes effect, from the morph itself:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">private</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onUseEvent</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">IAbility</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
@@ -7188,10 +7182,7 @@
 <a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="c1">// ...</span>
 <a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="p">}</span>
 </code></pre></div>
-<div class="admonition warning">
-<p class="admonition-title">Read it late, not at the press</p>
-<p>A form can drop between the key press and the effect: mid-flight, mid-charge, mid-grab. The number that matters is the one for the body that is actually there when the technique lands.</p>
-</div>
+<p>Read it late, not at the press, because a form can drop between the key press and the effect: mid-flight, mid-charge, mid-grab. The number that matters is the one for the body that is actually there when the technique lands.</p>
 <h2 id="3-let-the-morph-push-the-state">3. Let the morph push the state<a class="headerlink" href="#3-let-the-morph-push-the-state" title="Permanent link">&para;</a></h2>
 <p>Give your fruit's helper one method listing every amplifiable technique, and call it from the morph ability's continuity:</p>
 <div class="highlight"><span class="filename">MyHelper.java</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">setAmplified</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="n">amplified</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
@@ -7204,10 +7195,10 @@
 <a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">        </span><span class="p">.</span><span class="na">addEndEvent</span><span class="p">((</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">MyHelper</span><span class="p">.</span><span class="na">setAmplified</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">));</span>
 </code></pre></div>
 <p><code>AmplificationBus.push</code> pushes the state to every listed technique <strong>the user has equipped</strong> and that implements <code>IAmplifiableAbility</code>. Anything else is skipped silently: a player equips what they like, and a kit may list a technique whose presentation never changes.</p>
-<div class="admonition tip">
-<p class="admonition-title">Why a list in a helper</p>
+<details class="note">
+<summary>Why a list in a helper</summary>
 <p>Written by hand, each technique needs a lookup, a null check, a cast and a call, and the technique a kit forgets is always the newest one. A single list is something a reader can count against the fruit's abilities.</p>
-</div>
+</details>
 
 
 

@@ -7226,12 +7226,11 @@
 </code></pre></div>
 <p>In a chest, both numbers mean what they look like: <code>chance</code> is how often your pool adds anything at all, and <code>rolls</code> is how many items it adds when it does.</p>
 <div class="admonition warning">
-<p class="admonition-title">The table's own top-level <code>functions</code> are skipped</p>
-<p>The table is rolled the way vanilla nests one table inside another, which does not apply table-wide functions. Pool-level and entry-level conditions and functions do apply, so put anything table-wide on the pool instead.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">A typo in <code>table</code> is silent</p>
-<p>An unknown table id rolls as an empty table: the chest generates its normal loot and yours never appears.</p>
+<p class="admonition-title">Rolling your table</p>
+<ol>
+<li><strong>The table's own top-level <code>functions</code> are skipped.</strong> The table is rolled the way vanilla nests one table inside another, which does not apply table-wide functions. Pool-level and entry-level conditions and functions do apply, so put anything table-wide on the pool instead.</li>
+<li><strong>A typo in <code>table</code> is silent.</strong> An unknown table id rolls as an empty table: the chest generates its normal loot and yours never appears.</li>
+</ol>
 </div>
 <h2 id="mode"><code>mode</code><a class="headerlink" href="#mode" title="Permanent link">&para;</a></h2>
 <table>

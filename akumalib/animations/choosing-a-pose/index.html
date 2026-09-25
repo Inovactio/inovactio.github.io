@@ -7215,10 +7215,7 @@
 <p>Its angles method is empty. Never pick it.</p>
 </div>
 <p>The library adds two poses of its own, in <code>AkumaAnimations</code>: <code>RIGHT_ARM_FORWARD</code> (one arm straight forward) and <code>KNEEL_PUNCH_GROUND</code> (kneel and strike the ground).</p>
-<div class="admonition tip">
-<p class="admonition-title">Poses by meaning</p>
-<p>Kept consistent across a kit, and across fruits, these read clearly: a cone in front is <code>POINT_ARMS</code>, aiming at one target is <code>POINT_RIGHT_ARM</code>, an area around the user is <code>BODY_ROTATION_WIDE_ARMS</code>, pouring or sweeping low is <code>LOW_SWING_ARMS</code>, making something rise is <code>RAISE_ARMS</code>.</p>
-</div>
+<p>Poses by meaning, kept consistent across a kit, and across fruits, read clearly: a cone in front is <code>POINT_ARMS</code>, aiming at one target is <code>POINT_RIGHT_ARM</code>, an area around the user is <code>BODY_ROTATION_WIDE_ARMS</code>, pouring or sweeping low is <code>LOW_SWING_ARMS</code>, making something rise is <code>RAISE_ARMS</code>.</p>
 <h2 id="what-a-pose-assigns-decides-whether-it-can-be-held">What a pose assigns decides whether it can be held<a class="headerlink" href="#what-a-pose-assigns-decides-whether-it-can-be-held" title="Permanent link">&para;</a></h2>
 <p><strong>Not its name.</strong> Read the animation before holding one for a continuity.</p>
 <table>
@@ -7285,10 +7282,7 @@
 </tbody>
 </table>
 <p>A pose with no easing is invisible when held and conspicuous when brief: on a short flourish the snap shows at both ends. Prefer an eased pose for anything short.</p>
-<div class="admonition note">
-<p class="admonition-title">Read the source of an unlisted pose</p>
-<p><code>javap</code> on <code>ModAnimations</code> gives the names of the other poses, not what they do. Decompile the animation class, or test it in game, before relying on one that is not in the table above.</p>
-</div>
+<p>Read the source of an unlisted pose: <code>javap</code> on <code>ModAnimations</code> gives the names of the other poses, not what they do. Decompile the animation class, or test it in game, before relying on one that is not in the table above.</p>
 
 
 

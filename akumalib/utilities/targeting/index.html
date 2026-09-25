@@ -7190,10 +7190,10 @@
 <p class="admonition-title">Three defaults, two of them the opposite of the intuition</p>
 <p>A <strong>null</strong> user makes the underlying predicate <code>alwaysTrue</code>, so everything would be an enemy — this method answers <code>false</code> instead. A <strong>non-living</strong> target is always an enemy; factions are never consulted for one. And a <strong>factionless</strong> user counts everyone else as an enemy, so a mechanic keyed on "my allies" has none rather than having everybody.</p>
 </div>
-<div class="admonition tip">
-<p class="admonition-title">There is no shared predicate constant here, and there should not be</p>
+<details class="note">
+<summary>There is no shared predicate constant here, and there should not be</summary>
 <p><code>TargetPredicate.DEFAULT_AREA_CHECK</code> <strong>is</strong> <code>new TargetPredicate().testEnemyFaction()</code>, and with only that flag set its <code>test</code> runs <code>getEnemyFactions</code> and nothing else — both read off the base mod's bytecode in AwakenAwakenNoMi#444, where twelve files had rebuilt the predicate by hand. Pass the base mod's own constant to <code>TargetHelper.getEntitiesInArea</code>; a library constant beside it would be a third spelling of one object.</p>
-</div>
+</details>
 <h2 id="firstinline"><code>firstInLine</code><a class="headerlink" href="#firstinline" title="Permanent link">&para;</a></h2>
 <p>The nearest living entity in a line in front of the user, found by the ability's own <code>RangeComponent</code>:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">Optional</span><span class="o">&lt;</span><span class="n">LivingEntity</span><span class="o">&gt;</span><span class="w"> </span><span class="n">target</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">AkumaTargeting</span><span class="p">.</span><span class="na">firstInLine</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">rangeComponent</span><span class="p">,</span><span class="w"> </span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="mf">3.5F</span><span class="p">,</span><span class="w"> </span><span class="mf">1.2F</span><span class="p">);</span>
@@ -7212,11 +7212,7 @@
 <p>The overload taking a predicate tests the target inside the trace, so "nothing valid in sight" stays a single <code>null</code>:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">LivingEntity</span><span class="w"> </span><span class="n">target</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">AkumaTargeting</span><span class="p">.</span><span class="na">firstInSight</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="mf">12.0F</span><span class="p">,</span><span class="w"> </span><span class="n">candidate</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="o">!</span><span class="n">candidate</span><span class="p">.</span><span class="na">isPassenger</span><span class="p">());</span>
 </code></pre></div>
-<p>The user and dead entities are already excluded before the predicate runs.</p>
-<div class="admonition warning">
-<p class="admonition-title">Blocks stop the trace</p>
-<p>A target behind a wall is not in sight. That is usually what a technique wants; one that should reach through terrain has to search differently.</p>
-</div>
+<p>The user and dead entities are already excluded before the predicate runs. Blocks stop the trace: a target behind a wall is not in sight. That is usually what a technique wants; one that should reach through terrain has to search differently.</p>
 <h2 id="aimpoint"><code>aimPoint</code><a class="headerlink" href="#aimpoint" title="Permanent link">&para;</a></h2>
 <p>The point the user is aiming at, for a technique that lands on a spot rather than on a body:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">Vec3</span><span class="w"> </span><span class="n">impact</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">AkumaTargeting</span><span class="p">.</span><span class="na">aimPoint</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="mf">40.0D</span><span class="p">);</span>
@@ -7252,10 +7248,7 @@ on the caster: that radius is already measured from the body rather than from th
 <a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="p">}</span>
 </code></pre></div>
 <p>The angle is <strong>half</strong> the opening: <code>45</code> is a 90 degree fan. A target standing exactly on the user counts as inside, so a cone never refuses point-blank contact.</p>
-<div class="admonition tip">
-<p class="admonition-title">When a press finds nothing</p>
-<p>A technique that finds no target should still cost something, or a held key becomes a free scanner: <code>AkumaAbilityHelper.FAILED_PRESS_COOLDOWN</code> (10 ticks), not zero and not the full cooldown. A refusal, such as a protected area or a creative target, costs the same. And give the player a cue that nothing was hit, such as a whiff sound.</p>
-</div>
+<p><strong>When a press finds nothing.</strong> A technique that finds no target should still cost something, or a held key becomes a free scanner: <code>AkumaAbilityHelper.FAILED_PRESS_COOLDOWN</code> (10 ticks), not zero and not the full cooldown. A refusal, such as a protected area or a creative target, costs the same. And give the player a cue that nothing was hit, such as a whiff sound.</p>
 
 
 

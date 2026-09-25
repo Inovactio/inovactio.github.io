@@ -7199,10 +7199,10 @@
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">        </span><span class="n">DealDamageComponent</span><span class="p">.</span><span class="na">getTooltip</span><span class="p">(</span><span class="n">AkumaAbilityHelper</span><span class="p">.</span><span class="na">scaledDamage</span><span class="p">(</span><span class="n">DAMAGE</span><span class="p">)))</span>
 </code></pre></div>
 <p>For a projectile, pass the scaled value to <code>setDamage</code>, and use <code>AkumaAbilityHelper.getProjectileTooltipsScaled()</code> instead of <code>ProjectileComponent.getProjectileTooltips()</code>, which shows the raw, unreduced number.</p>
-<div class="admonition tip">
-<p class="admonition-title">Why real HP</p>
+<details class="note">
+<summary>Why real HP</summary>
 <p>A constant in real HP can be compared directly with the base mod's own techniques and with other addons. A constant in raw units cannot, and a file that mixes both is where a balance bug hides.</p>
-</div>
+</details>
 <div class="admonition warning">
 <p class="admonition-title">A value that already comes from the world is already real HP</p>
 <p>An entity's health, a gauge filled from damage taken, an item's HP: passing one of these straight to <code>hurtTarget</code> silently divides it by 2.5. A pool of 100 HP deals 40. Scale it like any other constant.</p>
@@ -7294,14 +7294,8 @@
 </tr>
 </tbody>
 </table>
-<div class="admonition note">
-<p class="admonition-title"><code>HitTrackerComponent.canHit</code> tests and records at once</p>
-<p>There is no separate "mark as hit" method. <code>canHit(target)</code> marks the target before you know whether the damage landed, so without <code>hurtBurst</code> an invulnerable-framed target would be marked, take nothing, and be skipped for the rest of the cast. Clearing the frames is what makes the mark truthful.</p>
-</div>
-<div class="admonition tip">
-<p class="admonition-title">Comment the deliberate <code>hurtTarget</code> calls</p>
-<p>The two categories look identical in a search. A one-line comment on every call site that stays on <code>hurtTarget</code> on purpose saves the next reader from "fixing" it into a damage multiplier.</p>
-</div>
+<p><code>HitTrackerComponent.canHit</code> tests and records at once: there is no separate "mark as hit" method. <code>canHit(target)</code> marks the target before you know whether the damage landed, so without <code>hurtBurst</code> an invulnerable-framed target would be marked, take nothing, and be skipped for the rest of the cast. Clearing the frames is what makes the mark truthful.</p>
+<p>Comment the deliberate <code>hurtTarget</code> calls: the two categories look identical in a search. A one-line comment on every call site that stays on <code>hurtTarget</code> on purpose saves the next reader from "fixing" it into a damage multiplier.</p>
 
 
 

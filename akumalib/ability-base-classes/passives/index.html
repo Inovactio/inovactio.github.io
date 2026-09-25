@@ -7190,11 +7190,7 @@
 <h1 id="passives">Passives<a class="headerlink" href="#passives" title="Permanent link">&para;</a></h1>
 <p>Three passive base classes: bonuses under a condition, an aura, and damage by sprinting.</p>
 <h2 id="conditionalstatpassiveability"><code>ConditionalStatPassiveAbility</code><a class="headerlink" href="#conditionalstatpassiveability" title="Permanent link">&para;</a></h2>
-<p>A passive that grants attribute bonuses while a condition holds: standing on a given block, the light level, the weather, the time of day.</p>
-<div class="admonition tip">
-<p class="admonition-title">Attribute modifiers, not re-applied effects</p>
-<p>A modifier with a fixed UUID leaves nothing behind when the condition ends, never clashes with a potion the player drank, and synced attributes reach the client on their own. This class is the loop that applies them correctly.</p>
-</div>
+<p>A passive that grants attribute bonuses while a condition holds: standing on a given block, the light level, the weather, the time of day. It uses attribute modifiers, not re-applied effects: a modifier with a fixed UUID leaves nothing behind when the condition ends, never clashes with a potion the player drank, and synced attributes reach the client on their own. This class is the loop that applies them correctly.</p>
 <h3 id="what-to-implement">What to implement<a class="headerlink" href="#what-to-implement" title="Permanent link">&para;</a></h3>
 <p>Declare the bonuses in the constructor, then say what tier the condition is at:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyGroundPassive</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">ConditionalStatPassiveAbility</span><span class="w"> </span><span class="p">{</span>
@@ -7263,12 +7259,11 @@
 <li><strong>Disable.</strong> A Devil Fruit passive is disabled the moment its holder touches water or kairoseki, and a disabled passive stops ticking <strong>before</strong> it could clean up. The class hooks the disable start and strips the bonuses.</li>
 </ul>
 <div class="admonition warning">
-<p class="admonition-title">Do not condition on <code>entity.onGround()</code></p>
-<p>It flickers to <code>false</code> during a sprint stride or a stair step, so the bonus flickers with it. Test the block at the feet or just below instead.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">Recompute the condition in tooltips</p>
-<p>Tooltips render on the client, which does not know the applied tier. Compute the condition again there.</p>
+<p class="admonition-title">Two traps with the condition</p>
+<ol>
+<li><strong>Do not condition on <code>entity.onGround()</code>.</strong> It flickers to <code>false</code> during a sprint stride or a stair step, so the bonus flickers with it. Test the block at the feet or just below instead.</li>
+<li><strong>Recompute the condition in tooltips.</strong> Tooltips render on the client, which does not know the applied tier. Compute the condition again there.</li>
+</ol>
 </div>
 <h2 id="auraability"><code>AuraAbility</code><a class="headerlink" href="#auraability" title="Permanent link">&para;</a></h2>
 <p>A passive that affects every nearby entity on an interval, with a chance per target.</p>
@@ -7347,13 +7342,10 @@
 <li><code>setDamage</code>, <code>setArea</code> and <code>setHasKnockback</code> change the values at runtime.</li>
 <li>A damage of <code>0</code> or less turns the smash off.</li>
 </ul>
+<p>A target in contact is hit about twice a second: the hit tracker is cleared every 10 ticks, so each target takes the damage once per window. The knockback normally throws a target clear after the first hit. With <code>setHasKnockback(false)</code>, or against a body that cannot be pushed, a target the user keeps running into is hit again at each new window.</p>
 <div class="admonition warning">
 <p class="admonition-title">The damage is raw</p>
 <p>The constructor's damage goes to the pipeline as is. Pass <code>AkumaAbilityHelper.scaledDamage(realHp)</code>.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">A target in contact is hit about twice a second</p>
-<p>The hit tracker is cleared every 10 ticks, so each target takes the damage once per window. The knockback normally throws a target clear after the first hit. With <code>setHasKnockback(false)</code>, or against a body that cannot be pushed, a target the user keeps running into is hit again at each new window.</p>
 </div>
 
 
