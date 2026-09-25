@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/assign-world.png){ .ability-icon } *Active · Zone*
 
+Applies ![](../effect-icons/heavy-weight.png){ .effect-mini .pixelated }[Heavy Weight](../effects.md#effect-heavy-weight)
+
 Magnetizes the ground into scrap that drags down enemies wearing metal and pulls their weapons away.
 
 Scrap Tempest uses the scrap from the field instead of the user's inventory

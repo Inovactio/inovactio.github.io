@@ -26,6 +26,8 @@ Throws a paint blob that does a little damage and blinds the target for 5 second
 
 ![](../abilities/shirushi.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/marked.png){ .effect-mini }[Marked](../effects.md#effect-marked)
+
 Paints a mark on the first target in the way which can be seen through walls.
 
 | Stat | Value |
@@ -47,6 +49,8 @@ The user takes on the colors of what's behind them, only works while standing st
 ## Ikusa Gesho { #ikusa-gesho }
 
 ![](../abilities/ikusa-gesho.png){ .ability-icon } *Active*
+
+Applies ![](../effect-icons/war-paint.png){ .effect-mini }[War Paint](../effects.md#effect-war-paint)
 
 Paints the user for battle, giving a different bonus for each of the 16 colors.
 

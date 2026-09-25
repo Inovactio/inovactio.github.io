@@ -53,6 +53,8 @@ Requires Mushi Mushi Fly Point or Mushi Mushi Heavy Point to be active.
 
 ![](../abilities/chibukure.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/chibukure.png){ .effect-mini }[Chibukure](../effects.md#effect-chibukure)
+
 Uses all the stored blood at once to heal and get a burst of speed, even while flying.
 
 Requires Mushi Mushi Fly Point or Mushi Mushi Heavy Point to be active.

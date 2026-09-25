@@ -27,6 +27,8 @@ Transforms the user into a rat hybrid with whiskers and a tail, a third smaller 
 
 ![](../abilities/ekibyo.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/ekibyo.png){ .effect-mini }[Ekibyo](../effects.md#effect-ekibyo)
+
 Bites the first target in the way giving it a plague that spreads to others.
 
 | Stat | Value |

@@ -24,6 +24,8 @@ A soul that is weaker than the user's, or already failing, freezes solid.
 
 ![](../abilities/soul-reap.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/soul-severed.png){ .effect-mini .pixelated }[Soul Severed](../effects.md#effect-soul-severed)
+
 The user's spirit rushes forward through every enemy in its path, cutting their souls rather than their bodies.
 
 Armour does nothing against it, and a severed soul leaves its body with far less health for a while.
@@ -38,6 +40,8 @@ Armour does nothing against it, and a severed soul leaves its body with far less
 ## Undying Soul { #undying-soul }
 
 ![](../abilities/undying-soul.png){ .ability-icon } *Passive*
+
+Applies ![](../effect-icons/soul-unbound.png){ .effect-mini .pixelated }[Soul Unbound](../effects.md#effect-soul-unbound)
 
 When a blow would kill the user, their soul holds the skeleton together: they stand back up with part of their health and cannot be hurt for a moment.
 

@@ -15,6 +15,8 @@ Chance per box opening: iron box **2.32%**, wooden box **0.116%** ([how it works
 
 ![](../abilities/mitsu-numa.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/nebatsuki.png){ .effect-mini }[Nebatsuki](../effects.md#effect-nebatsuki)
+
 Pours a big pool of honey that slows down anything standing in it, including the user.
 
 | Stat | Value |
@@ -27,6 +29,8 @@ Pours a big pool of honey that slows down anything standing in it, including the
 ## Mitsu Goromo { #mitsu-goromo }
 
 ![](../abilities/mitsu-goromo.png){ .ability-icon } *Active*
+
+Applies ![](../effect-icons/namakura.png){ .effect-mini }[Namakura](../effects.md#effect-namakura), ![](../effect-icons/nebatsuki.png){ .effect-mini }[Nebatsuki](../effects.md#effect-nebatsuki)
 
 Covers the target in honey, slowing their movement and attacks for 8 seconds.
 
@@ -49,6 +53,8 @@ The user eats some of their own honey, healing slowly for 8 seconds.
 
 ![](../abilities/kohaku.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/kohaku.png){ .effect-mini }[Kohaku](../effects.md#effect-kohaku)
+
 Pours honey on the target which hardens, keeping them stuck for 3 seconds.
 
 | Stat | Value |
@@ -60,6 +66,8 @@ Pours honey on the target which hardens, keeping them stuck for 3 seconds.
 
 ![](../abilities/amahada.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/amahada.png){ .effect-mini }[Amahada](../effects.md#effect-amahada), ![](../effect-icons/nebatsuki.png){ .effect-mini }[Nebatsuki](../effects.md#effect-nebatsuki)
+
 Covers the user in honey for 14 seconds, making anyone who hits them stuck.
 
 | Stat | Value |
@@ -70,6 +78,8 @@ Covers the user in honey for 14 seconds, making anyone who hits them stuck.
 ## Mitsu Suberi { #mitsu-suberi }
 
 ![](../abilities/mitsu-suberi.png){ .ability-icon } *Active*
+
+Applies ![](../effect-icons/nebatsuki.png){ .effect-mini }[Nebatsuki](../effects.md#effect-nebatsuki)
 
 The user slides on honey under their feet, leaving a sticky trail behind
 

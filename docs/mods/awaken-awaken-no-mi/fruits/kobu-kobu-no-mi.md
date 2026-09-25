@@ -39,6 +39,8 @@ The user pushes past their limits for a short time, becoming a one-man army.
 
 ![](../abilities/battlefield-resonance.png){ .ability-icon } *Active · Zone*
 
+Applies ![](../effect-icons/battlefield-resonance.png){ .effect-mini .pixelated }[Battlefield Resonance](../effects.md#effect-battlefield-resonance)
+
 Creates a zone that gives the user and every ally inside it Speed I and Resistance I.
 
 When an ally hits an enemy inside the zone, every ally inside gets Battlefield Resonance for 5 seconds: +50% damage, speed and jump, +25% attack speed.

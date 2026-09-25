@@ -21,6 +21,8 @@ Enemies that get too close fall in love and slowly turn to stone.
 
 ![](../abilities/enthralling-gaze.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/enthralled.png){ .effect-mini .pixelated }[Enthralled](../effects.md#effect-enthralled)
+
 Every enemy nearby who is looking at the user falls under her charm and cannot bring themselves to hurt her for a while.
 
 The charmed can still move, use their abilities and attack anyone else.

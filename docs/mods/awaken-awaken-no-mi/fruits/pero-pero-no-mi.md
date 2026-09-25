@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/candy-transmutation.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/candy-transmutation.png){ .effect-mini .pixelated }[Candy Transmutation](../effects.md#effect-candy-transmutation)
+
 Shoots a candy beam at the target.
 
 Targets hit are turned into candy
@@ -24,6 +26,8 @@ Targets hit are turned into candy
 
 ![](../abilities/sugar-shell.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/sugar-shell.png){ .effect-mini .pixelated }[Sugar Shell](../effects.md#effect-sugar-shell)
+
 Coats the user and every ally nearby in a shell of hard candy that absorbs damage for a while.
 
 A shell broken by blows shatters and glues the enemies around it in candy.
@@ -36,6 +40,8 @@ A shell broken by blows shatters and glues the enemies around it in candy.
 ## Sugar Coffin { #sugar-coffin }
 
 ![](../abilities/sugar-coffin.png){ .ability-icon } *Active*
+
+Applies ![](../effect-icons/sugar-coffin.png){ .effect-mini .pixelated }[Sugar Coffin](../effects.md#effect-sugar-coffin)
 
 Shuts the targeted enemy inside a coffin of hard candy that no blow can break, crushing them every second.
 

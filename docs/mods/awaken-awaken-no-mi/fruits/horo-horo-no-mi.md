@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/hollow-shroud.png){ .ability-icon } *Passive · Aura*
 
+Applies ![](../effect-icons/hollow-despair.png){ .effect-mini .pixelated }[Hollow Despair](../effects.md#effect-hollow-despair)
+
 Surrounds the user in a ghostly aura that makes nearby enemies weaker, slower and blind.
 
 Every Negative the user inflicts lasts twice as long.

@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/spirit-seal.png){ .ability-icon } *Active · Punch*
 
+Applies ![](../effect-icons/ability-seal.png){ .effect-mini .pixelated }[Ability Seal](../effects.md#effect-ability-seal)
+
 Hits the target and seals them, stopping them from using any abilities for a while.
 
 ## Iron Tether { #iron-tether }

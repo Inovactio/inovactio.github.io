@@ -67,6 +67,8 @@ The user vibrates their wings so fast the edges turn jagged and sharp.
 
 ![](../abilities/downdraft.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/downdraft-pinned.png){ .effect-mini .pixelated }[Downdraft Pinned](../effects.md#effect-downdraft-pinned)
+
 One beat of the awakened wings drives a column of air straight down, slamming everything flying below into the ground.
 
 Whatever it catches in the air cannot fly again for a while; whatever was already standing is blown off its feet.

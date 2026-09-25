@@ -75,3 +75,16 @@
   height: 36px;
   image-rendering: pixelated;
 }
+
+/* A small effect icon beside an effect's name in an ability's "Applies" line. */
+.md-typeset img.effect-mini {
+  width: 20px;
+  height: 20px;
+  vertical-align: text-bottom;
+  margin-right: 0.15em;
+}
+
+/* Pixel art drawn without smoothing. */
+.md-typeset img.pixelated {
+  image-rendering: pixelated;
+}

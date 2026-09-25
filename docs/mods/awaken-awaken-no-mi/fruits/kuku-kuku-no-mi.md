@@ -22,6 +22,8 @@ The user gives up their hunger to bring a Cake Golem to life, the more food spen
 
 ![](../abilities/cake-transmutation.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/cake-transmutation.png){ .effect-mini .pixelated }[Cake Transmutation](../effects.md#effect-cake-transmutation)
+
 Shoots a cake beam at the target.
 
 Targets hit slowly turn into cake.

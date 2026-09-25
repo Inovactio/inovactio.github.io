@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/total-isolation.png){ .ability-icon } *Active · Punch*
 
+Applies ![](../effect-icons/total-isolation.png){ .effect-mini .pixelated }[Total Isolation](../effects.md#effect-total-isolation)
+
 Traps a target in a soundproof bubble that cuts off all sounds and chat for them.
 
 ## Soundless Step { #soundless-step }
