@@ -5,6 +5,8 @@ copyright: © Inovactio. All Rights Reserved.
 
 theme:
   name: material
+  # Template overrides: the link previews (main.html) and the page-not-found page (404.html).
+  custom_dir: overrides
   # AkumaLib's logo, the base the mods share: one favicon for the whole site.
   favicon: assets/favicon.ico
   palette:
