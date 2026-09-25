@@ -1,0 +1,36 @@
+{% extends "main.html" %}
+
+{#- The page GitHub Pages serves for an address that does not exist: a way back to every wiki, and the search. -#}
+{% set site = config.site_url %}
+{% set wikis = [
+  ("mods/awaken-awaken-no-mi/", "awaken-awaken-no-mi", "Awaken Awaken no Mi", "Awakened abilities and forms for the base mod's Devil Fruits."),
+  ("mods/awaken-path/", "awaken-path", "Awaken Path", "Awakening a Devil Fruit in survival, through Doriki and time."),
+  ("mods/inofruits/", "inofruits", "InoFruits", "Brand-new Devil Fruits, found in the base mod's boxes."),
+  ("mods/sky-island/", "sky-island", "Sky Island", "Skypiea as a dimension of its own."),
+  ("akumalib/", "akumalib", "AkumaLib", "The developer docs of the shared ability framework."),
+] %}
+
+{% block content %}
+  <h1>Page not found</h1>
+  <p>
+    There is nothing at this address. The page may have moved when its wiki was reorganised, or the link may be
+    mistyped. Search the site, or start again from one of the wikis.
+  </p>
+  <p>
+    <label class="md-button md-button--primary" for="__search">Search the site</label>
+    <a class="md-button" href="{{ site }}">Home</a>
+  </p>
+  <div class="grid cards">
+    <ul>
+      {% for path, icon, name, blurb in wikis %}
+        <li>
+          <p>
+            <img alt="" class="card-icon" src="{{ site }}assets/icons/{{ icon }}.png">
+            <a href="{{ site }}{{ path }}"><strong>{{ name }}</strong></a>
+          </p>
+          <p>{{ blurb }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock %}
