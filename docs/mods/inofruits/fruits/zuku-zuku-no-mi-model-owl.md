@@ -1,5 +1,7 @@
 # Zuku Zuku no Mi, Model: Owl
 
+![](../fruit-icons/zuku-zuku-no-mi-model-owl.png){ .mod-icon }
+
 **Zoan** · Iron box · 7 abilities
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.

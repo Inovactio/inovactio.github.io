@@ -1,5 +1,7 @@
 # Iro Iro no Mi
 
+![](../fruit-icons/iro-iro-no-mi.png){ .mod-icon }
+
 **Paramecia** · Wooden box · 5 abilities
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.

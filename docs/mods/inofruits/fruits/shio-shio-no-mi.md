@@ -1,5 +1,7 @@
 # Shio Shio no Mi
 
+![](../fruit-icons/shio-shio-no-mi.png){ .mod-icon }
+
 **Logia** · Golden box · 7 abilities
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.

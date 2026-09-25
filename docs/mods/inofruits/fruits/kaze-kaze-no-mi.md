@@ -1,5 +1,7 @@
 # Kaze Kaze no Mi
 
+![](../fruit-icons/kaze-kaze-no-mi.png){ .mod-icon }
+
 **Logia** · Golden box · 9 abilities
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.

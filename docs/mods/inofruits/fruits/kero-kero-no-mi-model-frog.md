@@ -1,5 +1,7 @@
 # Kero Kero no Mi, Model: Frog
 
+![](../fruit-icons/kero-kero-no-mi-model-frog.png){ .mod-icon }
+
 **Zoan** · Iron box · 7 abilities
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.

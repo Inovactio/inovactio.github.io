@@ -34,3 +34,16 @@
   vertical-align: middle;
   margin-right: 0.5em;
 }
+
+/* A fruit's own sprite in front of its name, in a fruit list. */
+.md-typeset img.fruit-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
+/* Keep a fruit's sprite and name on one line. */
+.md-typeset td:has(> img.fruit-icon) {
+  white-space: nowrap;
+}

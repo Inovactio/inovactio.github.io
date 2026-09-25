@@ -1,5 +1,7 @@
 # Isa Isa no Mi, Model: Whale
 
+![](../fruit-icons/isa-isa-no-mi-model-whale.png){ .mod-icon }
+
 **Zoan** · Wooden box · 6 abilities
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
