@@ -59,3 +59,5 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 ## Credits
 
 These addons are built on **Mine Mine no Mi**, by Wynd and its other authors. They are not affiliated with or endorsed by the Mine Mine no Mi team. *One Piece* belongs to Eiichiro Oda.
+
+The Devil Fruit box icons on the InoFruits pages are Mine Mine no Mi's own textures, shown to identify the boxes. Every other image on this site belongs to Inovactio's mods.

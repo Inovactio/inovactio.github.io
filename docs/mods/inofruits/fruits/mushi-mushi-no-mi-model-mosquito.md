@@ -2,7 +2,7 @@
 
 ![](../fruit-icons/mushi-mushi-no-mi-model-mosquito.png){ .mod-icon }
 
-**Zoan** · Iron box · 8 abilities
+**Zoan** · ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron box · 8 abilities
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

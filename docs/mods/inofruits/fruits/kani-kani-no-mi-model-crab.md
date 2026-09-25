@@ -2,7 +2,7 @@
 
 ![](../fruit-icons/kani-kani-no-mi-model-crab.png){ .mod-icon }
 
-**Zoan** · Wooden box · 4 abilities
+**Zoan** · ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden box · 4 abilities
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
