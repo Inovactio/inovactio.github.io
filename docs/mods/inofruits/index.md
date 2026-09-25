@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| Version documented | **3.0.0** |
+| Version documented | **3.0.1** |
 | Mod id | `inofruits` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/inofruits) |
 
