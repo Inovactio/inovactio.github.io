@@ -176,6 +176,7 @@ nav:
           - mods/inofruits/fruits/index.md
           - Paramecia:
               - "Bai Bai no Mi": mods/inofruits/fruits/bai-bai-no-mi.md
+              - "Chi Chi no Mi": mods/inofruits/fruits/chi-chi-no-mi.md
               - "Chiku Chiku no Mi": mods/inofruits/fruits/chiku-chiku-no-mi.md
               - "Gamu Gamu no Mi": mods/inofruits/fruits/gamu-gamu-no-mi.md
               - "Hone Hone no Mi": mods/inofruits/fruits/hone-hone-no-mi.md
@@ -184,8 +185,11 @@ nav:
               - "Kane Kane no Mi": mods/inofruits/fruits/kane-kane-no-mi.md
               - "Kiza Kiza no Mi": mods/inofruits/fruits/kiza-kiza-no-mi.md
               - "Kobo Kobo no Mi": mods/inofruits/fruits/kobo-kobo-no-mi.md
+              - "Kugi Kugi no Mi": mods/inofruits/fruits/kugi-kugi-no-mi.md
+              - "Kutsu Kutsu no Mi": mods/inofruits/fruits/kutsu-kutsu-no-mi.md
               - "Mitsu Mitsu no Mi": mods/inofruits/fruits/mitsu-mitsu-no-mi.md
               - "Neji Neji no Mi": mods/inofruits/fruits/neji-neji-no-mi.md
+              - "Oki Oki no Mi": mods/inofruits/fruits/oki-oki-no-mi.md
               - "Suji Suji no Mi": mods/inofruits/fruits/suji-suji-no-mi.md
               - "Tsuri Tsuri no Mi": mods/inofruits/fruits/tsuri-tsuri-no-mi.md
               - "Wata Wata no Mi": mods/inofruits/fruits/wata-wata-no-mi.md
@@ -200,8 +204,10 @@ nav:
               - "Ita Ita no Mi, Model: Ferret": mods/inofruits/fruits/ita-ita-no-mi-model-ferret.md
               - "Kani Kani no Mi, Model: Crab": mods/inofruits/fruits/kani-kani-no-mi-model-crab.md
               - "Kero Kero no Mi, Model: Frog": mods/inofruits/fruits/kero-kero-no-mi-model-frog.md
+              - "Kuma Kuma no Mi, Model: Grizzly": mods/inofruits/fruits/kuma-kuma-no-mi-model-grizzly.md
               - "Mushi Mushi no Mi, Model: Mosquito": mods/inofruits/fruits/mushi-mushi-no-mi-model-mosquito.md
               - "Nezu Nezu no Mi, Model: Rat": mods/inofruits/fruits/nezu-nezu-no-mi-model-rat.md
+              - "Uma Uma no Mi, Model: Unicorn": mods/inofruits/fruits/uma-uma-no-mi-model-unicorn.md
               - "Usa Usa no Mi, Model: Hare": mods/inofruits/fruits/usa-usa-no-mi-model-hare.md
               - "Wani Wani no Mi, Model: Crocodile": mods/inofruits/fruits/wani-wani-no-mi-model-crocodile.md
               - "Zuku Zuku no Mi, Model: Owl": mods/inofruits/fruits/zuku-zuku-no-mi-model-owl.md

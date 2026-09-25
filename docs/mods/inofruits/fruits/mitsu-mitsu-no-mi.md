@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Honey |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.32%**, wooden **0.116%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **2.26%**, wooden **0.113%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 6: 6 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/amahada.png){ .effect-mini }[Amahada](../effects.md#effect-amahada), ![](../effect-icons/kohaku.png){ .effect-mini }[Kohaku](../effects.md#effect-kohaku), ![](../effect-icons/namakura.png){ .effect-mini }[Namakura](../effects.md#effect-namakura), ![](../effect-icons/nebatsuki.png){ .effect-mini }[Nebatsuki](../effects.md#effect-nebatsuki) |
 
@@ -28,7 +28,7 @@ Pours a big pool of honey that slows down anything standing in it, including the
 |---|---|
 | Hold | 16 s |
 | Cooldown | 15 s |
-| Damage | 1 |
+| Damage | 2 |
 | Range | 5 blocks (area) |
 
 ## Mitsu Goromo { #mitsu-goromo }
@@ -37,11 +37,11 @@ Pours a big pool of honey that slows down anything standing in it, including the
 
 Applies ![](../effect-icons/namakura.png){ .effect-mini }[Namakura](../effects.md#effect-namakura), ![](../effect-icons/nebatsuki.png){ .effect-mini }[Nebatsuki](../effects.md#effect-nebatsuki)
 
-Covers the target in honey, slowing their movement and attacks for 8 seconds.
+Covers the target in honey, slowing their movement and attacks for 6 seconds.
 
 | Stat | Value |
 |---|---|
-| Cooldown | 7 s |
+| Cooldown | 12 s |
 | Range | 12 blocks (line) |
 
 ## Mitsu Gusuri { #mitsu-gusuri }
@@ -92,4 +92,4 @@ The user slides on honey under their feet, leaving a sticky trail behind
 |---|---|
 | Cooldown | 10 s |
 | Hold | 1 s |
-| Damage | 3 |
+| Damage | 6 |

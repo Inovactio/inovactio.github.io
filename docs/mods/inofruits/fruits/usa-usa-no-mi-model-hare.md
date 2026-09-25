@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.45%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **2.32%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 5: 5 active, 0 passive |
 | **Transformations** | [Usa Usa Walk Point](#usa-usa-walk-point), [Usa Usa Heavy Point](#usa-usa-heavy-point) |
 

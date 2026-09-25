@@ -6,14 +6,14 @@
 
 | | |
 |---|---|
-| Version documented | **3.0.1** |
+| Version documented | **3.1.0** |
 | Mod id | `inofruits` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/inofruits) |
 | Changelog | [Every release](changelog.md) |
 
 ## What it adds
 
-**28 Devil Fruits**: 4 Logia, 14 Paramecia and 10 Zoan, with their abilities, morphs, projectiles and status effects.
+**34 Devil Fruits**: 4 Logia, 18 Paramecia and 12 Zoan (one of them Mythical), with their abilities, morphs, projectiles and status effects.
 
 The fruits behave like the base mod's own:
 
@@ -28,7 +28,7 @@ The fruits behave like the base mod's own:
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.x (built against `1.20.1-0.11.5`) |
-| [AkumaLib](../../akumalib/index.md) | **2.4.0 or later** |
+| [AkumaLib](../../akumalib/index.md) | **2.6.0 or later** |
 
 ## Getting started
 
@@ -43,7 +43,7 @@ The fruits behave like the base mod's own:
 
 | Page | What you'll find |
 |---|---|
-| **[Fruits](fruits/index.md)** | the 28 fruits, one page each, with every ability's description and values |
+| **[Fruits](fruits/index.md)** | the 34 fruits, one page each, with every ability's description and values |
 | **[All abilities](all-abilities.md)** | every ability in one table you can sort and filter: cooldown, charge, hold, damage, range |
 | **[Status effects](effects.md)** | the effects the fruits inflict or grant, and what applies each one |
 | **[Configuration](configuration.md)** | the settings of `inofruits-common.toml` |

@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.32%**, wooden **0.116%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **2.26%**, wooden **0.113%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 5 active, 2 passive |
 | **Transformations** | [Zuku Zuku Fly Point](#zuku-zuku-fly-point), [Zuku Zuku Assault Point](#zuku-zuku-assault-point) |
 
@@ -50,7 +50,7 @@ Requires Zuku Zuku Fly Point to be active.
 | Stat | Value |
 |---|---|
 | Cooldown | 10 s |
-| Hold | 15 s |
+| Hold | 8 s |
 | Range | 1.4 blocks (line) |
 
 ## Habataki { #habataki }
@@ -78,4 +78,4 @@ Requires Zuku Zuku Assault Point or Zuku Zuku Fly Point to be active.
 | Stat | Value |
 |---|---|
 | Cooldown | 3 s |
-| Projectile damage | 3 |
+| Projectile damage | 6 |

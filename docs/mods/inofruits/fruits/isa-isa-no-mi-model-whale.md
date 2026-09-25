@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.45%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **2.32%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 6: 5 active, 1 passive |
 | **Transformations** | [Isa Isa Guard Point](#isa-isa-guard-point), [Isa Isa Heavy Point](#isa-isa-heavy-point) |
 

@@ -7,8 +7,8 @@
 | **Type** | Paramecia |
 | **Theme** | Chewing gum |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.32%**, wooden **0.116%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 5: 4 active, 1 passive |
+| **Chance per opening** | iron **2.26%**, wooden **0.113%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 6: 5 active, 1 passive |
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -35,7 +35,7 @@ The user blows a gum bubble that floats slowly and pops on whatever it touches.
 | Stat | Value |
 |---|---|
 | Cooldown | 11 s |
-| Damage | 3–5 |
+| Damage | 3–8 |
 | Range | 3.5 blocks (area) |
 
 ## Kikyu { #kikyu }
@@ -66,3 +66,14 @@ Shoots a strand of gum up to 30 blocks and pulls in whatever it catches.
 ![](../abilities/nebaashi.png){ .ability-icon } *Passive*
 
 Sticky gum on the feet lets the user climb walls and hang from ceilings.
+
+## Hanekaeshi { #hanekaeshi }
+
+![](../abilities/hanekaeshi.png){ .ability-icon } *Active*
+
+Stretches a sheet of gum in the air in front of the user: every projectile that hits it bounces back at whoever threw it.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 12 s |
+| Hold | 4 s |

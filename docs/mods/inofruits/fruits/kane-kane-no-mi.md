@@ -7,8 +7,8 @@
 | **Type** | Paramecia |
 | **Theme** | Treasure |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.45%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 4: 3 active, 1 passive |
+| **Chance per opening** | wooden **2.32%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 6: 5 active, 1 passive |
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -59,3 +59,26 @@ The user is always lucky and Devil Fruit boxes upgrade three times as often.
 | Stat | Value |
 |---|---|
 | Luck | +2 |
+
+## Zeni Nage { #zeni-nage }
+
+![](../abilities/zeni-nage.png){ .ability-icon } *Active*
+
+Flicks a coin hardened into gold at the target, for 1 berry a throw. The luckier the user, the harder it hits.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 2 s |
+| Damage | 6–10 |
+| Range | 24 blocks (line) |
+
+## Oatari { #oatari }
+
+![](../abilities/oatari.png){ .ability-icon } *Active*
+
+For 30 seconds, creatures the user kills drop more loot and ores the user mines drop twice.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 120 s |
+| Hold | 30 s |

@@ -7,7 +7,7 @@
 | **Type** | Logia |
 | **Theme** | Steam |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.32%**, wooden **0.116%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **2.26%**, wooden **0.113%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 6 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/joki.png){ .effect-mini }[Joki](../effects.md#effect-joki) |
 
