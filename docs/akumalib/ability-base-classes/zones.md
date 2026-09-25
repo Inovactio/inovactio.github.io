@@ -80,10 +80,9 @@ Change the effect rate with `setEffectsTickInterval(ticks)`: it is safe to call 
 | `endChargeBlocks`, `continuityTickBlocks`, `continuityEndBlocks` | block work at charge end, per tick, and at close |
 | `applyEffectToNonLivingEntityInZone(owner, target)` | for items, arrows, orbs... only if `affectsNonLivingEntities()` returns `true` |
 
-Useful helpers: `applyOrRefresh(target, effect, duration, amplifier, ambient, particles)`, `isEntityInZone(entity)`, `isPositionInZone(pos)`, `getZoneSize()`, `getCenterBlock()`.
+The non-living hook needs its switch: overriding `applyEffectToNonLivingEntityInZone` alone does nothing, because the scan never hands it a target. Override `affectsNonLivingEntities()` to return `true` as well. It widens every scan to every entity in the zone's box, so only do it when the zone really acts on them.
 
-!!! warning "The non-living hook needs the switch too"
-    Overriding `applyEffectToNonLivingEntityInZone` alone does nothing: the scan never hands it a target. Override `affectsNonLivingEntities()` to return `true` as well. It widens every scan to every entity in the zone's box, so only do it when the zone really acts on them.
+Useful helpers: `applyOrRefresh(target, effect, duration, amplifier, ambient, particles)`, `isEntityInZone(entity)`, `isPositionInZone(pos)`, `getZoneSize()`, `getCenterBlock()`.
 
 !!! danger "Zone damage is an unguarded pulse"
     `applyEffectToLivingEntityInZone` runs on every effect interval, for every target. Deal damage there with `hurtTarget`, **not** `hurtBurst`, unless the interval is longer than 10 ticks. See [Damage](../core-concepts/damage.md#which-call-to-use).
@@ -109,14 +108,14 @@ your own when the ability may not be a domain. See [Charges](../core-concepts/ch
     or blocks with no continuity left to restore them. Call `AkumaCharges.interrupt`, which picks `interruptCharge`
     for a domain.
 
-!!! note "The spreading restore is queued"
+??? note "Why the spreading restore is queued"
     It used to be `restoreImmediately`, which at a large radius is tens of thousands of `setBlock` calls in one tick.
     The zone stays in `ACTIVE_ZONES` until the queue is drained, so a disconnect in between still restores everything,
     and a recast flushes whatever is left first.
 
 ## Zone sounds: `ZoneSoundSet`
 
-`DomainAbility` plays four sounds over a zone's life. Declare them as data from your constructor:
+`DomainAbility` plays four sounds over a zone's life. Declare them as data from your constructor. Leaving `setZoneSounds` unset plays the Ope Ope no Mi's Room sounds: a deliberate fallback, not a default to ship with.
 
 ```java
 this.setZoneSounds(ZoneSoundSet.of(MySounds.ZONE_CREATE, MySounds.ZONE_CHARGE,
@@ -132,10 +131,7 @@ this.setZoneSounds(ZoneSoundSet.of(MySounds.ZONE_CREATE, MySounds.ZONE_CHARGE,
 | charge end | the zone reaches full size | `3.0` |
 | end | the zone closes | `2.0` |
 
-Pass the `RegistryObject`s directly, without `.get()`. `.volumes(...)`, `.pitches(...)` and `.jitters(...)` take one value per slot, in that order.
-
-!!! tip "Add jitter to the interval sound"
-    A charge sound repeated for hundreds of ticks turns robotic. A pitch jitter of about `0.2` on the interval slot keeps it natural.
+Pass the `RegistryObject`s directly, without `.get()`. `.volumes(...)`, `.pitches(...)` and `.jitters(...)` take one value per slot, in that order. Give the interval slot a pitch jitter of about `0.2`: a charge sound repeated for hundreds of ticks turns robotic, and the jitter keeps it natural.
 
 !!! warning "Declare the interval clip's length"
     The interval slot is replayed every **18 ticks** by default - the pace of the base mod's short Room sound. A longer clip restarted that often plays two or three copies of itself over each other for the whole charge. Give the set the clip's length and it replays it only once a play has finished:
@@ -150,9 +146,6 @@ Pass the `RegistryObject`s directly, without `.get()`. `.volumes(...)`, `.pitche
     The cadence is worked out at the slot's **base pitch**, its slowest, since jitter only raises the pitch and a lower pitch plays a clip for longer: a 3 s clip at pitch `0.8` lasts 3.75 s, so it is replayed every 75 ticks. `setZoneSounds` sets `playSoundInterval` from it; assign that field yourself only before the call, or not at all.
 
     A clip replayed back to back also wants a short fade at both ends, or each restart clicks.
-
-!!! note "No sound set means the base mod's Room sounds"
-    Leaving `setZoneSounds` unset plays the Ope Ope no Mi's Room sounds. That is a deliberate fallback, not a default to ship with.
 
 ## `SpreadingBlockAbility`
 
@@ -217,31 +210,18 @@ A large zone touches tens of thousands of blocks, and each phase has its own cei
 !!! warning "`blocksPerTick` counts blocks, not columns"
     Going to three layers without raising the budget divides the speed of the front by three. The total work to reach `maxRadius` is fixed: halving `chargeTime` means doubling `blocksPerTick`.
 
-For reference, a radius-110 zone with three layers (about 114,000 blocks) runs well at `chargeTime=110`, `blocksPerTick=520`, `burstMultiplier=2`, `hardenTicks=160`, `restoreTicks=160`.
-
-!!! tip "Large radius, uneven terrain"
-    Past a radius of about 40, valleys and hollows fall outside the default `+4 / -8` surface window and stay unconverted for good. Raise it to around `+8 / -32`.
+For reference, a radius-110 zone with three layers (about 114,000 blocks) runs well at `chargeTime=110`, `blocksPerTick=520`, `burstMultiplier=2`, `hardenTicks=160`, `restoreTicks=160`. Past a radius of about 40, valleys and hollows fall outside the default `+4 / -8` surface window and stay unconverted for good: raise it to around `+8 / -32`.
 
 ### Traps
 
-!!! info "Zones are restored when their holder leaves"
-    The restore is normally driven by the ability's own ticks, which stop the moment the holder leaves: a disconnect, a dimension change, a server shutdown. The zone registers itself so it can be restored from outside, and the library's `SpreadingBlockCleanupHandler` does it on `PlayerLoggedOutEvent`, `EntityLeaveLevelEvent` and `ServerStoppingEvent`. You wire nothing.
+!!! warning "Three rules when you subclass it"
+    1. **Reject your own blocks in `canReplaceBlock`.** The default accepts any block with a solid top face. A zone spreading over blocks another ability of the same fruit placed records them as "original" and puts them back **permanently** at the end.
+    2. **Override both replacement predicates together.** Layers below the surface go through `canReplaceSubSurfaceBlock`, not `canReplaceBlock`. The surface predicate requires a solid top face, which would stop the descent at the first dirt path or leaf block. A subclass overriding one must override the other.
+    3. **Take down the blocks you place yourself in `onZoneEndBlocks`.** The zone only restores what **it** converted. A wall raised from `onChargeEndTransition` is invisible to the restore and would stand forever. Take such blocks down in `onZoneEndBlocks(Level)`, which runs at a normal close **and** on the disconnect path, so it must be safe to run twice.
 
-    An addon that still ships its own copy of that handler, from before the library had one, can keep it until its next library update: a zone restores once and is found gone the second time.
+### Good to know
 
-!!! warning "Reject your own blocks in `canReplaceBlock`"
-    The default accepts any block with a solid top face. A zone spreading over blocks another ability of the same fruit placed records them as "original" and puts them back **permanently** at the end.
-
-!!! warning "Override both replacement predicates together"
-    Layers below the surface go through `canReplaceSubSurfaceBlock`, not `canReplaceBlock`. The surface predicate requires a solid top face, which would stop the descent at the first dirt path or leaf block. A subclass overriding one must override the other.
-
-!!! warning "Blocks you place yourself need `onZoneEndBlocks`"
-    The zone only restores what **it** converted. A wall raised from `onChargeEndTransition` is invisible to the restore and would stand forever. Take such blocks down in `onZoneEndBlocks(Level)`, which runs at a normal close **and** on the disconnect path, so it must be safe to run twice.
-
-!!! note "Eating your own zone's terrain"
-    To remove some of the zone's blocks during the zone, call `consumePlacedBlocks(entity, positions)`. It restores those positions and stops tracking them. Removing the blocks by hand would leave a permanent hole.
-
-!!! info "The ragged edge is intentional"
-    Conversion thins out towards the frontier on purpose, so a zone ends with a scattered rim rather than a clean disc. Genuine holes near the edge, on the other hand, mean the surface window is too small.
-
-Restoring a block goes through `Block.updateFromNeighbourShapes`, so connections and properties like `snowy` are recomputed. Whatever rested on the converted surface (snow layers, flowers, torches) breaks when the block is replaced and does not come back.
+- **Zones are restored when their holder leaves.** The restore is normally driven by the ability's own ticks, which stop the moment the holder leaves: a disconnect, a dimension change, a server shutdown. The zone registers itself so it can be restored from outside, and the library's `SpreadingBlockCleanupHandler` does it on `PlayerLoggedOutEvent`, `EntityLeaveLevelEvent` and `ServerStoppingEvent`. You wire nothing. An addon that still ships its own copy of that handler, from before the library had one, can keep it until its next library update: a zone restores once and is found gone the second time.
+- **Eating your own zone's terrain.** To remove some of the zone's blocks during the zone, call `consumePlacedBlocks(entity, positions)`. It restores those positions and stops tracking them. Removing the blocks by hand would leave a permanent hole.
+- **The ragged edge is intentional.** Conversion thins out towards the frontier on purpose, so a zone ends with a scattered rim rather than a clean disc. Genuine holes near the edge, on the other hand, mean the surface window is too small.
+- **Restoring recomputes the block.** Restoring a block goes through `Block.updateFromNeighbourShapes`, so connections and properties like `snowy` are recomputed. Whatever rested on the converted surface (snow layers, flowers, torches) breaks when the block is replaced and does not come back.
