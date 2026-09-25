@@ -2,6 +2,25 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 2.6.1 { #v2-6-1 }
+
+<small>Released 2026-09-25 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/8974805)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>A start-up crash fix.</strong> With AkumaLib 2.6.0 (and 2.5.0), a normal game launched from a launcher
+crashed while loading, before the main menu. 2.6.1 fixes it. Nothing else changes.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p>Replace 2.6.0 with 2.6.1: addons made for 2.6.0 (InoFruits 3.1.0 among them) work with it as they are.
+2.6.1 can play with a 2.6.0 or 2.5.0 server or client.</p>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>The game crashed on start-up.</strong> A part of the library that changes the size of transformed
+  players could not find what it needed in a normal game, and Forge stopped loading. It only worked in
+  the development environment, which is why it was not caught before release.</li>
+</ul>
+</div>
+
 ## 2.6.0 { #v2-6-0 }
 
 <small>Released 2026-09-25 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/8974217)</small>
