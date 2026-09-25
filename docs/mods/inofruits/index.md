@@ -28,7 +28,7 @@ The fruits behave like the base mod's own:
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.x (built against `1.20.1-0.11.5`) |
-| [AkumaLib](../../akumalib/index.md) | **2.6.0 or later** |
+| [AkumaLib](../../akumalib/index.md) | **2.6.1 or later** |
 
 ## Getting started
 
