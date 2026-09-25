@@ -1,5 +1,7 @@
 # Fugu Fugu no Mi, Model: Pufferfish
 
+![](../fruit-icons/fugu-fugu-no-mi-model-pufferfish.png){ .mod-icon }
+
 **Zoan** · Wooden box · 7 abilities
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.

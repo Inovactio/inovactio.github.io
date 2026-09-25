@@ -1,5 +1,7 @@
 # Yuge Yuge no Mi
 
+![](../fruit-icons/yuge-yuge-no-mi.png){ .mod-icon }
+
 **Logia** · Iron box · 7 abilities
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.

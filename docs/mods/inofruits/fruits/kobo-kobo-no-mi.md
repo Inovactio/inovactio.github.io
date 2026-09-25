@@ -1,5 +1,7 @@
 # Kobo Kobo no Mi
 
+![](../fruit-icons/kobo-kobo-no-mi.png){ .mod-icon }
+
 **Paramecia** · Wooden box · 4 abilities
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.

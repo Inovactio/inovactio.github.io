@@ -1,5 +1,7 @@
 # Gamu Gamu no Mi
 
+![](../fruit-icons/gamu-gamu-no-mi.png){ .mod-icon }
+
 **Paramecia** · Iron box · 5 abilities
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
