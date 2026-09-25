@@ -1,6 +1,6 @@
 # Passives
 
-Three passive base classes: bonuses under a condition, an aura, and damage by sprinting.
+Four passive base classes: bonuses under a condition, an aura, damage by sprinting, and a gauge.
 
 ## `ConditionalStatPassiveAbility`
 
@@ -133,3 +133,46 @@ A target in contact is hit about twice a second: the hit tracker is cleared ever
 
 !!! warning "The damage is raw"
     The constructor's damage goes to the pipeline as is. Pass `AkumaAbilityHelper.scaledDamage(realHp)`.
+
+## `GaugePassiveAbility`
+
+*Since 2.6.0.* A passive that holds one number between zero and a maximum and shows it on the HUD: blood stored, light in a horn, force absorbed. What fills it and what spends it is yours; the plumbing every gauge repeats is the class's.
+
+```java
+public class MyReserve extends GaugePassiveAbility {
+
+    public MyReserve(AbilityCore<MyReserve> core) {
+        // max, the value a fresh holder starts with, and the NBT key
+        super(core, 100.0F, 0.0F, "points");
+    }
+
+    public void onHit(LivingEntity user, float amount) {
+        this.add(user, amount);
+    }
+
+    @Override
+    protected String gaugeText() {
+        return Math.round(this.getValue()) + "%";
+    }
+}
+```
+
+The value is read and moved with `getValue`, `getMax`, `getFillRatio`, `setValue`, `add`, `spend` (returns `false` when the gauge does not hold the amount), `fill` and `drain` (empties it and returns what it held).
+
+### What the class already handles
+
+- **The value is clamped** on every change, and a change to the same value does nothing.
+- **Every change on the server is sent to the player who holds it** (`SUpdateAbilityNBTPacket`), so the gauge on their screen is never stale.
+- **It is saved** under the key you name; a save without that key (the first load, or an ability that did not save one before) starts from the initial value. Keep an existing ability's old key when you migrate it, and saves carry over.
+- **The gauge is drawn by a client-only `GaugeComponent`**, added only when `isClientSide()`.
+
+### Hooks
+
+| Hook | Default | For |
+|---|---|---|
+| `onValueChanged(entity, previous, next)` | nothing | a sound the moment a threshold is crossed |
+| `gaugeText()` | the value as a whole number | a percentage, a unit |
+| `gaugeColour()` | white | a colour that says the gauge is ready or empty |
+| `shouldRenderGauge(player)` | always | a gauge only shown in a form |
+
+A gauge with no stored value, a figure computed from health for instance, draws the same layout on its own with `AkumaGauge.draw(ability, graphics, x, y, text, colour)` from its own `GaugeComponent` renderer.

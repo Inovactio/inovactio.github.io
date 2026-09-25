@@ -1,4 +1,4 @@
-# Pulls: `AkumaMotion`
+# Pulls and pushes: `AkumaMotion`
 
 Moving a body toward a point: a target reeled in, a user thrown at an anchor, loot drawn to hand.
 
@@ -56,3 +56,19 @@ Both return `false` and move nothing when the gap is under `minDistance`.
     The base mod's wrapper only sets `hurtMarked` when the entity is not a vehicle. A pulled horse with a rider on it moves on the server alone.
 
 Protection is a separate question: see [Protected areas](protection.md) before moving anybody.
+
+## Pushing along a direction
+
+*Since 2.6.0.* A push along a direction rather than toward a point: where the user looks, the line a gust travels, the flight of a projectile.
+
+```java
+AkumaMotion.shoveAlong(target, caster.getLookAngle(), 1.2, 0.4);   // replaces the body's motion
+AkumaMotion.nudgeAlong(target, flight, 0.6, 0.3);                  // adds to it
+```
+
+| Method | Horizontal | Vertical |
+|---|---|---|
+| `shoveAlong` | replaced: `push` blocks a tick along the flattened direction | replaced by `lift` |
+| `nudgeAlong` | `push` added to the current motion | at least `lift` |
+
+The direction is flattened and normalised for you. ⚠️ **A direction with no horizontal part** (straight up, or a target standing exactly on the origin) is the case every hand-written push gets wrong: `Vec3.normalize` returns `ZERO`, not NaN, so the push silently does nothing. `shoveAlong` turns it into a straight lift of `max(lift, push)`; `nudgeAlong` adds nothing horizontally.

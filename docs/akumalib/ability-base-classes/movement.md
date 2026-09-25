@@ -130,3 +130,36 @@ private void onUseEvent(LivingEntity entity, IAbility ability) {
 ```
 
 The same check is available anywhere as `AkumaAbilityHelper.ensureOnGroundOrNotify(user)`.
+
+## `TwoFormFlightAbility`
+
+*Since 2.6.0.* The flight of a Zoan with two flying forms, in the shape of the base mod's `PhoenixFlightAbility`: a `PropelledFlightAbility` (double jump to take off, a stamina gauge, velocity along the look vector) whose speed depends on the form held.
+
+```java
+public class MyFlight extends TwoFormFlightAbility {
+
+    private static final Form FULL = new Form(MyFullPoint.INSTANCE, MyMorphs.FULL,
+            0.74F, 0.50F, 0.0052F, 0.0035F);    // sprint and cruise speed, sprint and cruise acceleration
+    private static final Form HYBRID = new Form(MyHybridPoint.INSTANCE, MyMorphs.HYBRID,
+            0.60F, 0.41F, 0.0042F, 0.0028F);
+
+    public MyFlight(AbilityCore<MyFlight> core) {
+        super(core, 96, FULL, HYBRID);           // the ceiling, in blocks above the ground
+    }
+}
+```
+
+- **The gate** is the forms' point abilities being continuous, which is what the Phoenix checks, rather than the morph, which lags a tick behind on a switch.
+- **The speed** is read off the morph that is active: what the body currently is decides how fast it flies.
+- **`speedMultiplier(entity)`** scales both the top speed and the acceleration, for an effect that makes the flier faster. `getSpeed` stays overridable for a technique that drives the flight (a swoop).
+
+Switch the flight on and off with the forms, from each point's continuity events, with `AkumaFlight`:
+
+```java
+this.continuousComponent
+        .addStartEvent((entity, ability) -> AkumaFlight.takeOff(entity, MyFlight.INSTANCE))
+        .addEndEvent((entity, ability) -> AkumaFlight.land(entity, MyFlight.INSTANCE));
+```
+
+!!! warning "The base mod's flight is not vanilla flight"
+    `PropelledFlightAbility` never sets `player.getAbilities().flying`: it turns gravity off and drives the velocity itself. Read `isNoGravity()` if you need to know whether a player is flying, and never enable a flight through a pause (`takeOff` refuses to) - haki overuse, Seastone and protected areas pause a passive to take flight away.
