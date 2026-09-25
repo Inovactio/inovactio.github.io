@@ -43,7 +43,16 @@
   margin-right: 0.4em;
 }
 
-/* Keep a fruit's sprite and name on one line. */
-.md-typeset td:has(> img.fruit-icon) {
+/* Keep a fruit's sprite and name, and a box icon and its name, on one line. */
+.md-typeset td:has(> img.fruit-icon),
+.md-typeset td:has(> img.box-icon) {
   white-space: nowrap;
+}
+
+/* A Devil Fruit box icon (Mine Mine no Mi's texture, credited on the page) beside the box name. */
+.md-typeset img.box-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 0.2em;
 }

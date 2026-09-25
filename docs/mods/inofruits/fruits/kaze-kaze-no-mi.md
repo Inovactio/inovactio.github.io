@@ -2,7 +2,7 @@
 
 ![](../fruit-icons/kaze-kaze-no-mi.png){ .mod-icon }
 
-**Logia** · Golden box · 9 abilities
+**Logia** · ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden box · 9 abilities
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
