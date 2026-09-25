@@ -5113,6 +5113,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#good-to-know" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Good to know
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -7221,6 +7232,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#good-to-know" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Good to know
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -7484,11 +7506,8 @@
 </tr>
 </tbody>
 </table>
+<p>The non-living hook needs its switch: overriding <code>applyEffectToNonLivingEntityInZone</code> alone does nothing, because the scan never hands it a target. Override <code>affectsNonLivingEntities()</code> to return <code>true</code> as well. It widens every scan to every entity in the zone's box, so only do it when the zone really acts on them.</p>
 <p>Useful helpers: <code>applyOrRefresh(target, effect, duration, amplifier, ambient, particles)</code>, <code>isEntityInZone(entity)</code>, <code>isPositionInZone(pos)</code>, <code>getZoneSize()</code>, <code>getCenterBlock()</code>.</p>
-<div class="admonition warning">
-<p class="admonition-title">The non-living hook needs the switch too</p>
-<p>Overriding <code>applyEffectToNonLivingEntityInZone</code> alone does nothing: the scan never hands it a target. Override <code>affectsNonLivingEntities()</code> to return <code>true</code> as well. It widens every scan to every entity in the zone's box, so only do it when the zone really acts on them.</p>
-</div>
 <div class="admonition danger">
 <p class="admonition-title">Zone damage is an unguarded pulse</p>
 <p><code>applyEffectToLivingEntityInZone</code> runs on every effect interval, for every target. Deal damage there with <code>hurtTarget</code>, <strong>not</strong> <code>hurtBurst</code>, unless the interval is longer than 10 ticks. See <a href="../../core-concepts/damage/#which-call-to-use">Damage</a>.</p>
@@ -7528,14 +7547,14 @@ your own when the ability may not be a domain. See <a href="../../core-concepts/
 or blocks with no continuity left to restore them. Call <code>AkumaCharges.interrupt</code>, which picks <code>interruptCharge</code>
 for a domain.</p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">The spreading restore is queued</p>
+<details class="note">
+<summary>Why the spreading restore is queued</summary>
 <p>It used to be <code>restoreImmediately</code>, which at a large radius is tens of thousands of <code>setBlock</code> calls in one tick.
 The zone stays in <code>ACTIVE_ZONES</code> until the queue is drained, so a disconnect in between still restores everything,
 and a recast flushes whatever is left first.</p>
-</div>
+</details>
 <h2 id="zone-sounds-zonesoundset">Zone sounds: <code>ZoneSoundSet</code><a class="headerlink" href="#zone-sounds-zonesoundset" title="Permanent link">&para;</a></h2>
-<p><code>DomainAbility</code> plays four sounds over a zone's life. Declare them as data from your constructor:</p>
+<p><code>DomainAbility</code> plays four sounds over a zone's life. Declare them as data from your constructor. Leaving <code>setZoneSounds</code> unset plays the Ope Ope no Mi's Room sounds: a deliberate fallback, not a default to ship with.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">this</span><span class="p">.</span><span class="na">setZoneSounds</span><span class="p">(</span><span class="n">ZoneSoundSet</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">MySounds</span><span class="p">.</span><span class="na">ZONE_CREATE</span><span class="p">,</span><span class="w"> </span><span class="n">MySounds</span><span class="p">.</span><span class="na">ZONE_CHARGE</span><span class="p">,</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">                </span><span class="n">MySounds</span><span class="p">.</span><span class="na">ZONE_EXPAND</span><span class="p">,</span><span class="w"> </span><span class="n">MySounds</span><span class="p">.</span><span class="na">ZONE_END</span><span class="p">)</span>
 <a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">        </span><span class="p">.</span><span class="na">pitches</span><span class="p">(</span><span class="mf">0.9F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.85F</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.9F</span><span class="p">)</span>
@@ -7572,11 +7591,7 @@ and a recast flushes whatever is left first.</p>
 </tr>
 </tbody>
 </table>
-<p>Pass the <code>RegistryObject</code>s directly, without <code>.get()</code>. <code>.volumes(...)</code>, <code>.pitches(...)</code> and <code>.jitters(...)</code> take one value per slot, in that order.</p>
-<div class="admonition tip">
-<p class="admonition-title">Add jitter to the interval sound</p>
-<p>A charge sound repeated for hundreds of ticks turns robotic. A pitch jitter of about <code>0.2</code> on the interval slot keeps it natural.</p>
-</div>
+<p>Pass the <code>RegistryObject</code>s directly, without <code>.get()</code>. <code>.volumes(...)</code>, <code>.pitches(...)</code> and <code>.jitters(...)</code> take one value per slot, in that order. Give the interval slot a pitch jitter of about <code>0.2</code>: a charge sound repeated for hundreds of ticks turns robotic, and the jitter keeps it natural.</p>
 <div class="admonition warning">
 <p class="admonition-title">Declare the interval clip's length</p>
 <p>The interval slot is replayed every <strong>18 ticks</strong> by default - the pace of the base mod's short Room sound. A longer clip restarted that often plays two or three copies of itself over each other for the whole charge. Give the set the clip's length and it replays it only once a play has finished:</p>
@@ -7587,10 +7602,6 @@ and a recast flushes whatever is left first.</p>
 </code></pre></div>
 <p>The cadence is worked out at the slot's <strong>base pitch</strong>, its slowest, since jitter only raises the pitch and a lower pitch plays a clip for longer: a 3 s clip at pitch <code>0.8</code> lasts 3.75 s, so it is replayed every 75 ticks. <code>setZoneSounds</code> sets <code>playSoundInterval</code> from it; assign that field yourself only before the call, or not at all.</p>
 <p>A clip replayed back to back also wants a short fade at both ends, or each restart clicks.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">No sound set means the base mod's Room sounds</p>
-<p>Leaving <code>setZoneSounds</code> unset plays the Ope Ope no Mi's Room sounds. That is a deliberate fallback, not a default to ship with.</p>
 </div>
 <h2 id="spreadingblockability"><code>SpreadingBlockAbility</code><a class="headerlink" href="#spreadingblockability" title="Permanent link">&para;</a></h2>
 <p>A zone that replaces the ground under it with a block of your choice as it grows, applies effects to what stands on it, optionally hardens into a second block, and <strong>puts every original block back</strong> when it closes.</p>
@@ -7719,38 +7730,23 @@ and a recast flushes whatever is left first.</p>
 <p class="admonition-title"><code>blocksPerTick</code> counts blocks, not columns</p>
 <p>Going to three layers without raising the budget divides the speed of the front by three. The total work to reach <code>maxRadius</code> is fixed: halving <code>chargeTime</code> means doubling <code>blocksPerTick</code>.</p>
 </div>
-<p>For reference, a radius-110 zone with three layers (about 114,000 blocks) runs well at <code>chargeTime=110</code>, <code>blocksPerTick=520</code>, <code>burstMultiplier=2</code>, <code>hardenTicks=160</code>, <code>restoreTicks=160</code>.</p>
-<div class="admonition tip">
-<p class="admonition-title">Large radius, uneven terrain</p>
-<p>Past a radius of about 40, valleys and hollows fall outside the default <code>+4 / -8</code> surface window and stay unconverted for good. Raise it to around <code>+8 / -32</code>.</p>
-</div>
+<p>For reference, a radius-110 zone with three layers (about 114,000 blocks) runs well at <code>chargeTime=110</code>, <code>blocksPerTick=520</code>, <code>burstMultiplier=2</code>, <code>hardenTicks=160</code>, <code>restoreTicks=160</code>. Past a radius of about 40, valleys and hollows fall outside the default <code>+4 / -8</code> surface window and stay unconverted for good: raise it to around <code>+8 / -32</code>.</p>
 <h3 id="traps">Traps<a class="headerlink" href="#traps" title="Permanent link">&para;</a></h3>
-<div class="admonition info">
-<p class="admonition-title">Zones are restored when their holder leaves</p>
-<p>The restore is normally driven by the ability's own ticks, which stop the moment the holder leaves: a disconnect, a dimension change, a server shutdown. The zone registers itself so it can be restored from outside, and the library's <code>SpreadingBlockCleanupHandler</code> does it on <code>PlayerLoggedOutEvent</code>, <code>EntityLeaveLevelEvent</code> and <code>ServerStoppingEvent</code>. You wire nothing.</p>
-<p>An addon that still ships its own copy of that handler, from before the library had one, can keep it until its next library update: a zone restores once and is found gone the second time.</p>
-</div>
 <div class="admonition warning">
-<p class="admonition-title">Reject your own blocks in <code>canReplaceBlock</code></p>
-<p>The default accepts any block with a solid top face. A zone spreading over blocks another ability of the same fruit placed records them as "original" and puts them back <strong>permanently</strong> at the end.</p>
+<p class="admonition-title">Three rules when you subclass it</p>
+<ol>
+<li><strong>Reject your own blocks in <code>canReplaceBlock</code>.</strong> The default accepts any block with a solid top face. A zone spreading over blocks another ability of the same fruit placed records them as "original" and puts them back <strong>permanently</strong> at the end.</li>
+<li><strong>Override both replacement predicates together.</strong> Layers below the surface go through <code>canReplaceSubSurfaceBlock</code>, not <code>canReplaceBlock</code>. The surface predicate requires a solid top face, which would stop the descent at the first dirt path or leaf block. A subclass overriding one must override the other.</li>
+<li><strong>Take down the blocks you place yourself in <code>onZoneEndBlocks</code>.</strong> The zone only restores what <strong>it</strong> converted. A wall raised from <code>onChargeEndTransition</code> is invisible to the restore and would stand forever. Take such blocks down in <code>onZoneEndBlocks(Level)</code>, which runs at a normal close <strong>and</strong> on the disconnect path, so it must be safe to run twice.</li>
+</ol>
 </div>
-<div class="admonition warning">
-<p class="admonition-title">Override both replacement predicates together</p>
-<p>Layers below the surface go through <code>canReplaceSubSurfaceBlock</code>, not <code>canReplaceBlock</code>. The surface predicate requires a solid top face, which would stop the descent at the first dirt path or leaf block. A subclass overriding one must override the other.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">Blocks you place yourself need <code>onZoneEndBlocks</code></p>
-<p>The zone only restores what <strong>it</strong> converted. A wall raised from <code>onChargeEndTransition</code> is invisible to the restore and would stand forever. Take such blocks down in <code>onZoneEndBlocks(Level)</code>, which runs at a normal close <strong>and</strong> on the disconnect path, so it must be safe to run twice.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Eating your own zone's terrain</p>
-<p>To remove some of the zone's blocks during the zone, call <code>consumePlacedBlocks(entity, positions)</code>. It restores those positions and stops tracking them. Removing the blocks by hand would leave a permanent hole.</p>
-</div>
-<div class="admonition info">
-<p class="admonition-title">The ragged edge is intentional</p>
-<p>Conversion thins out towards the frontier on purpose, so a zone ends with a scattered rim rather than a clean disc. Genuine holes near the edge, on the other hand, mean the surface window is too small.</p>
-</div>
-<p>Restoring a block goes through <code>Block.updateFromNeighbourShapes</code>, so connections and properties like <code>snowy</code> are recomputed. Whatever rested on the converted surface (snow layers, flowers, torches) breaks when the block is replaced and does not come back.</p>
+<h3 id="good-to-know">Good to know<a class="headerlink" href="#good-to-know" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Zones are restored when their holder leaves.</strong> The restore is normally driven by the ability's own ticks, which stop the moment the holder leaves: a disconnect, a dimension change, a server shutdown. The zone registers itself so it can be restored from outside, and the library's <code>SpreadingBlockCleanupHandler</code> does it on <code>PlayerLoggedOutEvent</code>, <code>EntityLeaveLevelEvent</code> and <code>ServerStoppingEvent</code>. You wire nothing. An addon that still ships its own copy of that handler, from before the library had one, can keep it until its next library update: a zone restores once and is found gone the second time.</li>
+<li><strong>Eating your own zone's terrain.</strong> To remove some of the zone's blocks during the zone, call <code>consumePlacedBlocks(entity, positions)</code>. It restores those positions and stops tracking them. Removing the blocks by hand would leave a permanent hole.</li>
+<li><strong>The ragged edge is intentional.</strong> Conversion thins out towards the frontier on purpose, so a zone ends with a scattered rim rather than a clean disc. Genuine holes near the edge, on the other hand, mean the surface window is too small.</li>
+<li><strong>Restoring recomputes the block.</strong> Restoring a block goes through <code>Block.updateFromNeighbourShapes</code>, so connections and properties like <code>snowy</code> are recomputed. Whatever rested on the converted surface (snow layers, flowers, torches) breaks when the block is replaced and does not come back.</li>
+</ul>
 
 
 
