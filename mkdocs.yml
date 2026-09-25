@@ -5,6 +5,8 @@ copyright: © Inovactio. All Rights Reserved.
 
 theme:
   name: material
+  # Template overrides: overrides/main.html adds what a shared link shows.
+  custom_dir: overrides
   # AkumaLib's logo, the base the mods share: one favicon for the whole site.
   favicon: assets/favicon.ico
   palette:
@@ -37,6 +39,10 @@ theme:
 
 plugins:
   - search
+
+# A shared link's title, description and image, used by overrides/main.html.
+hooks:
+  - hooks/link_previews.py
 
 # Broken anchors fail the strict build too, not only broken pages.
 validation:
