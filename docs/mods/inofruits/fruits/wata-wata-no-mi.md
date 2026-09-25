@@ -5,6 +5,7 @@
 | | |
 |---|---|
 | **Type** | Paramecia |
+| **Theme** | Cotton |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
 | **Chance per opening** | wooden **2.45%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 5: 4 active, 1 passive (1 hidden, not in the ability menu) |
