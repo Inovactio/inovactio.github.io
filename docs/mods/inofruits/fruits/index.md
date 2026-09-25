@@ -45,6 +45,30 @@ InoFruits adds **28 Devil Fruits**. Pick one to see its abilities.
 | ![](../fruit-icons/wani-wani-no-mi-model-crocodile.png){ .fruit-icon } [**Wani Wani no Mi, Model: Crocodile**](wani-wani-no-mi-model-crocodile.md) | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron | [Wani Wani Walk Point](wani-wani-no-mi-model-crocodile.md#wani-wani-walk-point), [Wani Wani Heavy Point](wani-wani-no-mi-model-crocodile.md#wani-wani-heavy-point), [Death Roll](wani-wani-no-mi-model-crocodile.md#death-roll), [Tail Sweep](wani-wani-no-mi-model-crocodile.md#tail-sweep), [Lunging Bite](wani-wani-no-mi-model-crocodile.md#lunging-bite), [Belly Crawl](wani-wani-no-mi-model-crocodile.md#belly-crawl) |
 | ![](../fruit-icons/zuku-zuku-no-mi-model-owl.png){ .fruit-icon } [**Zuku Zuku no Mi, Model: Owl**](zuku-zuku-no-mi-model-owl.md) | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron | [Zuku Zuku Fly Point](zuku-zuku-no-mi-model-owl.md#zuku-zuku-fly-point), [Zuku Zuku Assault Point](zuku-zuku-no-mi-model-owl.md#zuku-zuku-assault-point), [Zuku Zuku Flight](zuku-zuku-no-mi-model-owl.md#zuku-zuku-flight), [Anshi](zuku-zuku-no-mi-model-owl.md#anshi), [Washizukami](zuku-zuku-no-mi-model-owl.md#washizukami), [Habataki](zuku-zuku-no-mi-model-owl.md#habataki), [Kazakiribane](zuku-zuku-no-mi-model-owl.md#kazakiribane) |
 
+## Box odds
+
+A Devil Fruit box gives **one fruit at most**. When it opens:
+
+- **5%** of the time, it also rolls the **next box up** (wooden → iron → golden), and a fruit from there comes first;
+- **95%** of the time, it rolls **five fruits** from its own list, where **every fruit is equally likely**;
+- it keeps the **first fruit still available**: with one fruit per world, a fruit someone already has is skipped.
+
+With every fruit still available, no Luck and only Mine Mine no Mi and InoFruits installed:
+
+| Box | Fruits in the box | Each of its own fruits | A fruit from a higher box | No fruit |
+|---|---|---|---|---|
+| ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden | 37 (13 from InoFruits) | **2.45%** | iron 4.52%, golden 0.238% | 4.76% |
+| ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron | 39 (11 from InoFruits) | **2.32%** | golden 4.75% | 4.76% |
+| ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden | 23 (4 from InoFruits) | **4.13%** | — | 5.00% |
+
+### What changes the odds
+
+- **Luck**: each point of the Luck attribute adds 5% to the chance of rolling the next box up, and takes 5% off the chance of rolling fruits. The base mod's **New World**, once active, counts as one more point.
+- **Fruits already found**: with one fruit per world, a fruit someone already has is skipped and the box looks further down its five rolls, so the remaining fruits come up more often.
+- **Other addons** that add fruits to the boxes share the same odds: each new fruit makes every other one of its box a little rarer.
+
+<small>Figures computed from Mine Mine no Mi 0.11.5's box logic and the boxes as the game loads them with InoFruits, then checked against 200,000 simulated openings of each box.</small>
+
 ---
 
 <small>The box icons are the Devil Fruit box textures of [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod), by Wynd and its other authors, shown to identify the boxes. The fruit sprites are InoFruits' own.</small>
