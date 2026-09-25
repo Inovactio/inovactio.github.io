@@ -56,3 +56,15 @@
   vertical-align: middle;
   margin-right: 0.2em;
 }
+
+/* A status effect's own icon in front of its name. */
+.md-typeset img.effect-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
+.md-typeset td:has(> img.effect-icon) {
+  white-space: nowrap;
+}
