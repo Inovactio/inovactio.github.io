@@ -62,6 +62,7 @@ Without `targets`, it applies to the player running it. It needs the command's p
 | Page | What you'll find |
 |---|---|
 | **[Fruits](fruits/index.md)** | the 70 awakened fruits, one page each, with every ability's description and values |
+| **[All abilities](all-abilities.md)** | every ability in one table you can sort and filter: cooldown, charge, hold, damage, range |
 | **[Status effects](effects.md)** | the effects the awakenings inflict or grant, and what applies each one |
 | **[Items](items.md)** | BakuMetal ingot, tools and armour, with their recipes, and Candy |
 | **[Configuration](configuration.md)** | the server settings of `awakenawakennomi-common.toml` |
