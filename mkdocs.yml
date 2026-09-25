@@ -38,7 +38,16 @@ theme:
     - content.code.annotate
 
 plugins:
-  - search
+  - search:
+      # Also split on the punctuation of code ("AkumaTargeting.inCone(caster" is three words, so "incone"
+      # finds it), but not on the dots of a version number, so "2.5.0" is still one word.
+      separator: '[\s\-,:;!=\[\]()"/]+|\.(?!\d)'
+
+hooks:
+  # Search ranking: the mod wikis before the developer pages, the changelogs last.
+  - hooks/search_boost.py
+  # A shared link's title, description and image, used by overrides/main.html.
+  - hooks/link_previews.py
 
 # Broken anchors fail the strict build too, not only broken pages.
 validation:
