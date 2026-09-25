@@ -15,6 +15,8 @@ Chance per box opening: wooden box **2.45%** ([how it works](index.md#box-odds))
 
 ![](../abilities/kiza-dashi.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/kiza.png){ .effect-mini }[Kiza](../effects.md#effect-kiza)
+
 Puts a slider on the target the user is looking at for 20 seconds
 
 | Stat | Value |

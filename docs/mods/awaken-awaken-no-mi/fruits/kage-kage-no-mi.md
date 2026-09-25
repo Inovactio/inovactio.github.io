@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/nightmare-banquet.png){ .ability-icon } *Active · Zone*
 
+Applies ![](../effect-icons/shadow-boost.png){ .effect-mini .pixelated }[Shadow Boost](../effects.md#effect-shadow-boost)
+
 Spreads the user's shadow over a huge area, stealing the shadow of every weaker enemy caught in it
 
 | Stat | Value |
@@ -23,6 +25,8 @@ Spreads the user's shadow over a huge area, stealing the shadow of every weaker 
 ## Shadow Marionette { #shadow-marionette }
 
 ![](../abilities/shadow-marionette.png){ .ability-icon } *Active*
+
+Applies ![](../effect-icons/ability-seal.png){ .effect-mini .pixelated }[Ability Seal](../effects.md#effect-ability-seal), ![](../effect-icons/marionette.png){ .effect-mini .pixelated }[Marionette](../effects.md#effect-marionette)
 
 Takes control of an enemy with no shadow, beasts fight for the user and people can't hit the user or their allies.
 

@@ -61,6 +61,8 @@ Running into enemies at high speed damages them
 
 ![](../abilities/noroma-field.png){ .ability-icon } *Active · Zone*
 
+Applies ![](../effect-icons/noroma-time.png){ .effect-mini .pixelated }[Noroma Time](../effects.md#effect-noroma-time)
+
 Floods the area with Noroma photons: enemies inside slow down more the longer they stay, and their abilities recover and charge far slower.
 
 Projectiles fired by enemies crawl through the field.

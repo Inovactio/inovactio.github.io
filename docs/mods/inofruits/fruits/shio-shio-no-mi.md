@@ -15,6 +15,8 @@ Chance per box opening: golden box **4.13%**, iron box **0.207%**, wooden box **
 
 ![](../abilities/logia-invulnerability-shio.png){ .ability-icon } *Passive*
 
+Applies ![](../effect-icons/shiozuke.png){ .effect-mini }[Shiozuke](../effects.md#effect-shiozuke)
+
 Allows the user to avoid attacks by instinctively transforming parts of their body into their specific element
 
 ## Kessho no Yari { #kessho-no-yari }
@@ -32,6 +34,8 @@ Hardens the salt under the user and makes a line of spikes come out of the groun
 ## Shiozuke { #shiozuke }
 
 ![](../abilities/shiozuke.png){ .ability-icon } *Active*
+
+Applies ![](../effect-icons/shiozuke.png){ .effect-mini }[Shiozuke](../effects.md#effect-shiozuke)
 
 Throws salt at enemies in front of the user, which stops their regeneration and halves any other healing.
 
@@ -57,6 +61,8 @@ Throws salt in a ring around the user, burning undead enemies and removing bad e
 
 ![](../abilities/shio-no-ame.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/shiozuke.png){ .effect-mini }[Shiozuke](../effects.md#effect-shiozuke)
+
 Makes salt rain down where the user is looking, even far away.
 
 | Stat | Value |
@@ -69,6 +75,8 @@ Makes salt rain down where the user is looking, even far away.
 
 ![](../abilities/shio-nagare.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/shio-form.png){ .effect-mini }[Shio Form](../effects.md#effect-shio-form), ![](../effect-icons/shiozuke.png){ .effect-mini }[Shiozuke](../effects.md#effect-shiozuke)
+
 The user turns into a current of salt and flies through the air, salting anything it passes through
 
 | Stat | Value |
@@ -80,6 +88,8 @@ The user turns into a current of salt and flies through the air, salting anythin
 ## Shio no Wa { #shio-no-wa }
 
 ![](../abilities/shio-no-wa.png){ .ability-icon } *Active*
+
+Applies ![](../effect-icons/shiozuke.png){ .effect-mini }[Shiozuke](../effects.md#effect-shiozuke)
 
 Pours a ring of salt on the ground that pushes the undead out and salts enemies crossing it.
 

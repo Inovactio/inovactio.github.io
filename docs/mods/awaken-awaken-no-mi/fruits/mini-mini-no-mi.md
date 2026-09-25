@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/gullivers-nightmare.png){ .ability-icon } *Active · Zone*
 
+Applies ![](../effect-icons/gullivers-shrink.png){ .effect-mini .pixelated }[Gulliver's Shrink](../effects.md#effect-gullivers-shrink)
+
 Shrinks every nearby enemy, making them way smaller and weaker.
 
 | Stat | Value |

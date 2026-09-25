@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/high-frequency-wall.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/deafened.png){ .effect-mini .pixelated }[Deafened](../effects.md#effect-deafened)
+
 Creates a sound wall that destroys enemy projectiles and Deafens enemies who pass through it
 
 | Stat | Value |
@@ -22,9 +24,11 @@ Creates a sound wall that destroys enemy projectiles and Deafens enemies who pas
 
 ![](../abilities/resonating-world.png){ .ability-icon } *Active · Zone*
 
+Applies ![](../effect-icons/deafened.png){ .effect-mini .pixelated }[Deafened](../effects.md#effect-deafened)
+
 Turns the area into a resonance chamber that damages moving enemies, sprinting or swimming makes it worse.
 
-Landing from high up sends a shockwave, attacks inside echo back at the attacker and everyone is Deafened.
+Landing from high up sends a shockwave, attacks inside echo back at the attacker and everyone is [Deafened](../effects.md#effect-deafened).
 
 | Stat | Value |
 |---|---|

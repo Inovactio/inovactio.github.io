@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/meigo-no-jidai.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/magma-burn.png){ .effect-mini .pixelated }[Magma Burn](../effects.md#effect-magma-burn)
+
 Melts the ground in a huge wave around the user, leaving burning magma and basalt behind.
 
 | Stat | Value |
@@ -23,6 +25,8 @@ Melts the ground in a huge wave around the user, leaving burning magma and basal
 ## Kagutsuchi { #kagutsuchi }
 
 ![](../abilities/kagutsuchi.png){ .ability-icon } *Active · Punch*
+
+Applies ![](../effect-icons/magma-burn.png){ .effect-mini .pixelated }[Magma Burn](../effects.md#effect-magma-burn)
 
 Coats the user's fists in overheated magma, every punch lands like an eruption.
 

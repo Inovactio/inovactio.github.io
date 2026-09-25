@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/dai-hanpatsu.png){ .ability-icon } *Active · Punch*
 
+Applies ![](../effect-icons/banished.png){ .effect-mini .pixelated }[Banished](../effects.md#effect-banished)
+
 Blasts the target with a huge paw, sending them flying far away where they land safely
 
 Use while crouching to send yourself away instead.

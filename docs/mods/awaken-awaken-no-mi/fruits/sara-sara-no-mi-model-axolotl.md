@@ -60,6 +60,8 @@ Transforms the user into an awakened axolotl, which focuses on speed and swimmin
 
 ![](../abilities/cellular-overload.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/cellular-overload.png){ .effect-mini .pixelated }[Cellular Overload](../effects.md#effect-cellular-overload)
+
 Pushes the axolotl's cells past every limit: every harmful effect that can be shed is shed at once, and for a short time most of the health the user loses grows back within seconds.
 
 Once the overload ends the body is starving.

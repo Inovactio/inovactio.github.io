@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/candle-world.png){ .ability-icon } *Active · Zone*
 
+Applies ![](../effect-icons/wax-petrify.png){ .effect-mini .pixelated }[Wax Petrify](../effects.md#effect-wax-petrify)
+
 Turns the area into hot wax that slows and burns enemies, then hardens and traps them
 
 | Stat | Value |

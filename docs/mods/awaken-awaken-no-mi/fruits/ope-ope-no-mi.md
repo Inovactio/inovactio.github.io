@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/k-room.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/anesthesia.png){ .effect-mini .pixelated }[Anesthesia](../effects.md#effect-anesthesia)
+
 **Modes**
 
 - **Arm Mode**: Coats the arm in a tiny Room. Awakened, the coating is what Anesthesia rides on.
@@ -53,6 +55,8 @@ Everything around it is run through, ignoring armor, and thrown into the air.
 ## Anesthesia { #anesthesia }
 
 ![](../abilities/anesthesia.png){ .ability-icon } *Passive*
+
+Applies ![](../effect-icons/anesthesia.png){ .effect-mini .pixelated }[Anesthesia](../effects.md#effect-anesthesia)
 
 While K-Room is active, every blow the user lands cuts with the Room and puts its target under.
 

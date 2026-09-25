@@ -17,6 +17,8 @@ The user heals a target with a single touch, restoring a huge amount of health.
 
 ![](../abilities/cellular-overgrowth.png){ .ability-icon } *Active · Punch*
 
+Applies ![](../effect-icons/overgrown.png){ .effect-mini .pixelated }[Overgrown](../effects.md#effect-overgrown)
+
 Punches the target so their cells grow out of control, dealing damage based on their max health
 
 The target can't be healed by anything for a while.

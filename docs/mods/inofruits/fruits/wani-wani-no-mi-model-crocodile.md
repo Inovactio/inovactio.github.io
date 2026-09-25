@@ -72,6 +72,8 @@ Requires Wani Wani Heavy Point or Wani Wani Walk Point to be active.
 
 ![](../abilities/belly-crawl.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/belly-crawl.png){ .effect-mini }[Belly Crawl](../effects.md#effect-belly-crawl)
+
 The user crawls low and fast, their next bite hits harder
 
 Requires Wani Wani Heavy Point or Wani Wani Walk Point to be active.

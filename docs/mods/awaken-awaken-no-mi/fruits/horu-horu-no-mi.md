@@ -11,6 +11,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/hormonal-fog.png){ .ability-icon } *Active · Zone*
 
+Applies ![](../effect-icons/negative-hormonal.png){ .effect-mini .pixelated }[Negative Hormonal](../effects.md#effect-negative-hormonal), ![](../effect-icons/positive-hormonal.png){ .effect-mini .pixelated }[Positive Hormonal](../effects.md#effect-positive-hormonal)
+
 Releases a thick mist that gives allies good hormones and enemies bad ones.
 
 | Stat | Value |

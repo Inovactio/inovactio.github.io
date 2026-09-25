@@ -40,6 +40,8 @@ Transforms the user into an awakened golden Buddha, which focuses on raw power.
 
 ![](../abilities/nyorai-shinsho.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/buddha-seal.png){ .effect-mini .pixelated }[Buddha Seal](../effects.md#effect-buddha-seal)
+
 Drops a giant Buddha palm from the sky onto the aimed spot, crushing everything under it.
 
 Anything it lands on is pinned to the ground for 40 seconds, unable to walk, swim or jump

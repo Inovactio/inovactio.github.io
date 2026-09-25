@@ -61,6 +61,8 @@ Allows the user to move through specific blocks based on their element
 
 ![](../abilities/nomikomi.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/nomikomi.png){ .effect-mini }[Nomikomi](../effects.md#effect-nomikomi)
+
 **Normal Mode**: The ground opens under the first target in the way and traps it for 3 seconds.
 
 | Stat | Value |

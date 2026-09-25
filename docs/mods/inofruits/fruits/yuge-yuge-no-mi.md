@@ -15,11 +15,15 @@ Chance per box opening: iron box **2.32%**, wooden box **0.116%** ([how it works
 
 ![](../abilities/logia-invulnerability-yuge.png){ .ability-icon } *Passive*
 
+Applies ![](../effect-icons/joki.png){ .effect-mini }[Joki](../effects.md#effect-joki)
+
 Allows the user to avoid attacks by instinctively transforming parts of their body into their specific element
 
 ## Kumori { #kumori }
 
 ![](../abilities/kumori.png){ .ability-icon } *Active*
+
+Applies ![](../effect-icons/joki.png){ .effect-mini }[Joki](../effects.md#effect-joki)
 
 Creates a cloud of steam over a far away place, soaking everything in it.
 
@@ -54,6 +58,8 @@ Suppresses a soaked Devil Fruit user for 3.0s
 ## Suijoki Funshin { #suijoki-funshin }
 
 ![](../abilities/suijoki-funshin.png){ .ability-icon } *Active*
+
+Applies ![](../effect-icons/joki.png){ .effect-mini }[Joki](../effects.md#effect-joki)
 
 The user blasts steam behind them and gets launched where they are looking, burning everything along the way
 
