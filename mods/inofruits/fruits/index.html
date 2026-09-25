@@ -6506,6 +6506,34 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#box-odds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Box odds
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Box odds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-changes-the-odds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What changes the odds
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -6701,6 +6729,55 @@
 </tr>
 </tbody>
 </table>
+<h2 id="box-odds">Box odds<a class="headerlink" href="#box-odds" title="Permanent link">&para;</a></h2>
+<p>A Devil Fruit box gives <strong>one fruit at most</strong>. When it opens:</p>
+<ul>
+<li><strong>5%</strong> of the time, it also rolls the <strong>next box up</strong> (wooden → iron → golden), and a fruit from there comes first;</li>
+<li><strong>95%</strong> of the time, it rolls <strong>five fruits</strong> from its own list, where <strong>every fruit is equally likely</strong>;</li>
+<li>it keeps the <strong>first fruit still available</strong>: with one fruit per world, a fruit someone already has is skipped.</li>
+</ul>
+<p>With every fruit still available, no Luck and only Mine Mine no Mi and InoFruits installed:</p>
+<table>
+<thead>
+<tr>
+<th>Box</th>
+<th>Fruits in the box</th>
+<th>Each of its own fruits</th>
+<th>A fruit from a higher box</th>
+<th>No fruit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Wooden box" class="box-icon" src="../../../assets/mineminenomi/wooden_box.png" title="Wooden box: texture from Mine Mine no Mi" /> Wooden</td>
+<td>37 (13 from InoFruits)</td>
+<td><strong>2.45%</strong></td>
+<td>iron 4.52%, golden 0.238%</td>
+<td>4.76%</td>
+</tr>
+<tr>
+<td><img alt="Iron box" class="box-icon" src="../../../assets/mineminenomi/iron_box.png" title="Iron box: texture from Mine Mine no Mi" /> Iron</td>
+<td>39 (11 from InoFruits)</td>
+<td><strong>2.32%</strong></td>
+<td>golden 4.75%</td>
+<td>4.76%</td>
+</tr>
+<tr>
+<td><img alt="Golden box" class="box-icon" src="../../../assets/mineminenomi/golden_box.png" title="Golden box: texture from Mine Mine no Mi" /> Golden</td>
+<td>23 (4 from InoFruits)</td>
+<td><strong>4.13%</strong></td>
+<td>—</td>
+<td>5.00%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="what-changes-the-odds">What changes the odds<a class="headerlink" href="#what-changes-the-odds" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Luck</strong>: each point of the Luck attribute adds 5% to the chance of rolling the next box up, and takes 5% off the chance of rolling fruits. The base mod's <strong>New World</strong>, once active, counts as one more point.</li>
+<li><strong>Fruits already found</strong>: with one fruit per world, a fruit someone already has is skipped and the box looks further down its five rolls, so the remaining fruits come up more often.</li>
+<li><strong>Other addons</strong> that add fruits to the boxes share the same odds: each new fruit makes every other one of its box a little rarer.</li>
+</ul>
+<p><small>Figures computed from Mine Mine no Mi 0.11.5's box logic and the boxes as the game loads them with InoFruits, then checked against 200,000 simulated openings of each box.</small></p>
 <hr />
 <p><small>The box icons are the Devil Fruit box textures of <a href="https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod">Mine Mine no Mi</a>, by Wynd and its other authors, shown to identify the boxes. The fruit sprites are InoFruits' own.</small></p>
 
