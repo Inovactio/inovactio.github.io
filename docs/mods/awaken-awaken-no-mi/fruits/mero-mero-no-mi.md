@@ -1,6 +1,10 @@
 # Mero Mero no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Effects applied** | ![](../effect-icons/enthralled.png){ .effect-mini .pixelated }[Enthralled](../effects.md#effect-enthralled) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

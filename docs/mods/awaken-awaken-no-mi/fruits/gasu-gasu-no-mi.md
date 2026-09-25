@@ -1,6 +1,10 @@
 # Gasu Gasu no Mi
 
-**Logia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Logia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Taiki](#taiki) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

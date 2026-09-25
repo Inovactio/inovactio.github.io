@@ -1,6 +1,11 @@
 # Kobu Kobu No Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Battlefield Resonance](#battlefield-resonance) |
+| **Effects applied** | ![](../effect-icons/battlefield-resonance.png){ .effect-mini .pixelated }[Battlefield Resonance](../effects.md#effect-battlefield-resonance) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

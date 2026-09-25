@@ -1,6 +1,10 @@
 # Mogu Mogu no Mi
 
-**Zoan** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Zoan |
+| **Abilities** | 3: 3 active, 0 passive |
+| **Transformations** | [Awaken Mogu Heavy Point](#awaken-mogu-heavy-point) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

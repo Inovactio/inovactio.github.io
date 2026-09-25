@@ -1,6 +1,10 @@
 # Ryu Ryu no Mi, Model: Allosaurus
 
-**Ancient Zoan** · 4 awakened abilities
+| | |
+|---|---|
+| **Type** | Ancient Zoan |
+| **Abilities** | 4: 4 active, 0 passive |
+| **Transformations** | [Awaken Allosaurus Heavy Point](#awaken-allosaurus-heavy-point), [Awaken Allosaurus Walk Point](#awaken-allosaurus-walk-point) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

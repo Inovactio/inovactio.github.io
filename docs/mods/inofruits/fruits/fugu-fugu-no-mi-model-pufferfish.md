@@ -2,11 +2,15 @@
 
 ![](../fruit-icons/fugu-fugu-no-mi-model-pufferfish.png){ .mod-icon }
 
-**Zoan** · ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden box · 7 abilities
+| | |
+|---|---|
+| **Type** | Zoan |
+| **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
+| **Chance per opening** | wooden **2.45%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 7: 5 active, 2 passive |
+| **Transformations** | [Fugu Fugu Guard Point](#fugu-fugu-guard-point), [Fugu Fugu Heavy Point](#fugu-fugu-heavy-point) |
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
-
-Chance per box opening: wooden box **2.45%** ([how it works](index.md#box-odds)).
 
 !!! note "About the values"
     The values are those of the ability's tooltip in game, with the base mod's default settings. Damage is shown on the base mod's scale, as in the ability screen.

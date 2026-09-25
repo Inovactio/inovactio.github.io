@@ -1,6 +1,11 @@
 # Mini Mini No Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Gulliver's Nightmare](#gullivers-nightmare) |
+| **Effects applied** | ![](../effect-icons/gullivers-shrink.png){ .effect-mini .pixelated }[Gulliver's Shrink](../effects.md#effect-gullivers-shrink) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

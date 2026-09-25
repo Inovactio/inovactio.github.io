@@ -1,6 +1,10 @@
 # Ushi Ushi no Mi, Model: Giraffe
 
-**Zoan** · 4 awakened abilities
+| | |
+|---|---|
+| **Type** | Zoan |
+| **Abilities** | 4: 4 active, 0 passive |
+| **Transformations** | [Awaken Giraffe Heavy Point](#awaken-giraffe-heavy-point), [Awaken Giraffe Walk Point](#awaken-giraffe-walk-point) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

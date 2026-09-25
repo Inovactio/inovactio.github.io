@@ -1,6 +1,10 @@
 # Hito Hito no Mi
 
-**Zoan** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Zoan |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Transformations** | [Awaken Human Form](#awaken-human-form) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

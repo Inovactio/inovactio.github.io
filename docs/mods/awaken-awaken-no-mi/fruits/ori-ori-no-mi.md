@@ -1,6 +1,10 @@
 # Ori Ori no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Effects applied** | ![](../effect-icons/ability-seal.png){ .effect-mini .pixelated }[Ability Seal](../effects.md#effect-ability-seal) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

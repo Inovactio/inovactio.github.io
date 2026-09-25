@@ -1,6 +1,10 @@
 # Ushi Ushi no Mi, Model: Bison
 
-**Zoan** · 4 awakened abilities
+| | |
+|---|---|
+| **Type** | Zoan |
+| **Abilities** | 4: 4 active, 0 passive |
+| **Transformations** | [Awaken Bison Heavy Point](#awaken-bison-heavy-point), [Awaken Bison Walk Point](#awaken-bison-walk-point) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

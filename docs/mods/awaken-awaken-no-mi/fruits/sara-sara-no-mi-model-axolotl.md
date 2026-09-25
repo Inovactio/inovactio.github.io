@@ -1,6 +1,11 @@
 # Sara Sara no Mi, Model: Axolotl
 
-**Zoan** · 5 awakened abilities
+| | |
+|---|---|
+| **Type** | Zoan |
+| **Abilities** | 5: 4 active, 1 passive |
+| **Transformations** | [Awaken Axolotl Heavy Point](#awaken-axolotl-heavy-point), [Awaken Axolotl Walk Point](#awaken-axolotl-walk-point) |
+| **Effects applied** | ![](../effect-icons/cellular-overload.png){ .effect-mini .pixelated }[Cellular Overload](../effects.md#effect-cellular-overload) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

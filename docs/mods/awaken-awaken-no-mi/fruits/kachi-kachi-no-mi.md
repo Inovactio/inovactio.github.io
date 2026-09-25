@@ -1,6 +1,11 @@
 # Kachi Kachi no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Aura of Friction](#aura-of-friction) |
+| **Effects applied** | ![](../effect-icons/friction.png){ .effect-mini .pixelated }[Friction](../effects.md#effect-friction) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

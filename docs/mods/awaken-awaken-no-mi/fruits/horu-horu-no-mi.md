@@ -1,6 +1,11 @@
 # Horu Horu no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Hormonal Fog](#hormonal-fog) |
+| **Effects applied** | ![](../effect-icons/negative-hormonal.png){ .effect-mini .pixelated }[Negative Hormonal](../effects.md#effect-negative-hormonal), ![](../effect-icons/positive-hormonal.png){ .effect-mini .pixelated }[Positive Hormonal](../effects.md#effect-positive-hormonal) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

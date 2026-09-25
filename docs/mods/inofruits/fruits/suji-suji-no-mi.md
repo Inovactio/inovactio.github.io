@@ -2,11 +2,15 @@
 
 ![](../fruit-icons/suji-suji-no-mi.png){ .mod-icon }
 
-**Paramecia** · ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron box · 5 abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
+| **Chance per opening** | iron **2.32%**, wooden **0.116%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 5: 5 active, 0 passive |
+| **Transformations** | [Suji Suji Upper Point](#suji-suji-upper-point), [Suji Suji Lower Point](#suji-suji-lower-point), [Suji Suji Full Point](#suji-suji-full-point) |
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
-
-Chance per box opening: iron box **2.32%**, wooden box **0.116%** ([how it works](index.md#box-odds)).
 
 !!! note "About the values"
     The values are those of the ability's tooltip in game, with the base mod's default settings. Damage is shown on the base mod's scale, as in the ability screen.

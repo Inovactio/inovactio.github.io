@@ -1,6 +1,10 @@
 # Chiyu Chiyu no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Effects applied** | ![](../effect-icons/overgrown.png){ .effect-mini .pixelated }[Overgrown](../effects.md#effect-overgrown) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

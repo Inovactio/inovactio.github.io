@@ -1,6 +1,10 @@
 # Kuku Kuku no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Effects applied** | ![](../effect-icons/cake-transmutation.png){ .effect-mini .pixelated }[Cake Transmutation](../effects.md#effect-cake-transmutation) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

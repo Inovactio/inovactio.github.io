@@ -1,6 +1,9 @@
 # Mera Mera no Mi
 
-**Logia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Logia |
+| **Abilities** | 3: 1 active, 2 passive (1 hidden, not in the ability menu) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

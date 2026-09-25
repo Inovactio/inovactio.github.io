@@ -1,6 +1,11 @@
 # Jiki Jiki no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Assign World](#assign-world) |
+| **Effects applied** | ![](../effect-icons/heavy-weight.png){ .effect-mini .pixelated }[Heavy Weight](../effects.md#effect-heavy-weight) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

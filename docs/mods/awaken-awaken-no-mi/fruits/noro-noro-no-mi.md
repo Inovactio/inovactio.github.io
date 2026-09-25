@@ -1,6 +1,11 @@
 # Noro Noro no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Noroma Field](#noroma-field) |
+| **Effects applied** | ![](../effect-icons/noroma-time.png){ .effect-mini .pixelated }[Noroma Time](../effects.md#effect-noroma-time) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

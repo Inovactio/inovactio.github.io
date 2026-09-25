@@ -1,6 +1,10 @@
 # Ope Ope no Mi
 
-**Paramecia** · 4 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 4: 3 active, 1 passive |
+| **Effects applied** | ![](../effect-icons/anesthesia.png){ .effect-mini .pixelated }[Anesthesia](../effects.md#effect-anesthesia) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

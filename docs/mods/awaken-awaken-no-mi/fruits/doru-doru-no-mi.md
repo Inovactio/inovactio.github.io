@@ -1,6 +1,11 @@
 # Doru Doru no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Candle World](#candle-world) |
+| **Effects applied** | ![](../effect-icons/wax-petrify.png){ .effect-mini .pixelated }[Wax Petrify](../effects.md#effect-wax-petrify) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

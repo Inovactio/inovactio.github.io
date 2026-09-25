@@ -2,11 +2,14 @@
 
 ![](../fruit-icons/bai-bai-no-mi.png){ .mod-icon }
 
-**Paramecia** · ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden box · 3 abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
+| **Chance per opening** | golden **4.13%**, iron **0.207%**, wooden **0.010%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 3: 3 active, 0 passive |
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
-
-Chance per box opening: golden box **4.13%**, iron box **0.207%**, wooden box **0.010%** ([how it works](index.md#box-odds)).
 
 !!! note "About the values"
     The values are those of the ability's tooltip in game, with the base mod's default settings. Damage is shown on the base mod's scale, as in the ability screen.

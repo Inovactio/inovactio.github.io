@@ -1,6 +1,11 @@
 # Kilo Kilo no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Zones** | [Gravity Zone](#gravity-zone) |
+| **Effects applied** | ![](../effect-icons/heavy-weight.png){ .effect-mini .pixelated }[Heavy Weight](../effects.md#effect-heavy-weight), ![](../effect-icons/light-weight.png){ .effect-mini .pixelated }[Light Weight](../effects.md#effect-light-weight) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

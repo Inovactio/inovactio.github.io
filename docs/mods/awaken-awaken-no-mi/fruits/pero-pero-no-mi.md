@@ -1,6 +1,10 @@
 # Pero Pero no Mi
 
-**Paramecia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Abilities** | 3: 3 active, 0 passive |
+| **Effects applied** | ![](../effect-icons/candy-transmutation.png){ .effect-mini .pixelated }[Candy Transmutation](../effects.md#effect-candy-transmutation), ![](../effect-icons/sugar-coffin.png){ .effect-mini .pixelated }[Sugar Coffin](../effects.md#effect-sugar-coffin), ![](../effect-icons/sugar-shell.png){ .effect-mini .pixelated }[Sugar Shell](../effects.md#effect-sugar-shell) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

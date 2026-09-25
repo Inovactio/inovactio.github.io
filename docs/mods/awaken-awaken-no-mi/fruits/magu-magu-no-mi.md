@@ -1,6 +1,10 @@
 # Magu Magu no Mi
 
-**Logia** · 3 awakened abilities
+| | |
+|---|---|
+| **Type** | Logia |
+| **Abilities** | 3: 2 active, 1 passive |
+| **Effects applied** | ![](../effect-icons/magma-burn.png){ .effect-mini .pixelated }[Magma Burn](../effects.md#effect-magma-burn) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 

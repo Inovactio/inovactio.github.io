@@ -2,11 +2,15 @@
 
 ![](../fruit-icons/mitsu-mitsu-no-mi.png){ .mod-icon }
 
-**Paramecia** · ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron box · 6 abilities
+| | |
+|---|---|
+| **Type** | Paramecia |
+| **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
+| **Chance per opening** | iron **2.32%**, wooden **0.116%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 6: 6 active, 0 passive |
+| **Effects applied** | ![](../effect-icons/amahada.png){ .effect-mini }[Amahada](../effects.md#effect-amahada), ![](../effect-icons/kohaku.png){ .effect-mini }[Kohaku](../effects.md#effect-kohaku), ![](../effect-icons/namakura.png){ .effect-mini }[Namakura](../effects.md#effect-namakura), ![](../effect-icons/nebatsuki.png){ .effect-mini }[Nebatsuki](../effects.md#effect-nebatsuki) |
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
-
-Chance per box opening: iron box **2.32%**, wooden box **0.116%** ([how it works](index.md#box-odds)).
 
 !!! note "About the values"
     The values are those of the ability's tooltip in game, with the base mod's default settings. Damage is shown on the base mod's scale, as in the ability screen.

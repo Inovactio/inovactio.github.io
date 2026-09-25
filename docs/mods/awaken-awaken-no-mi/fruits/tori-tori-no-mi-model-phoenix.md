@@ -1,6 +1,10 @@
 # Tori Tori no Mi, Model: Phoenix
 
-**Mythical Zoan** · 4 awakened abilities
+| | |
+|---|---|
+| **Type** | Mythical Zoan |
+| **Abilities** | 4: 4 active, 0 passive |
+| **Transformations** | [Awaken Phoenix Assault Point](#awaken-phoenix-assault-point), [Awaken Phoenix Fly Point](#awaken-phoenix-fly-point) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
