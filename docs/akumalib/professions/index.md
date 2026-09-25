@@ -1,9 +1,9 @@
 # Professions
 
+AkumaLib gives an addon **professions**: trades a player levels up in by doing things, such as a cook, a fisher or a hunter. The library owns the registry, the player's XP, the levels, the client sync and a test command. Your addon declares the professions and decides what grants XP.
+
 !!! tip "Crafting professions"
     For the block where a crafting profession makes its recipes, see [Workstations](workstations.md).
-
-AkumaLib gives an addon **professions**: trades a player levels up in by doing things, such as a cook, a fisher or a hunter. The library owns the registry, the player's XP, the levels, the client sync and a test command. Your addon declares the professions and decides what grants XP.
 
 !!! info "Nothing here is tied to one addon"
     The library ships no profession of its own. Two addons can each declare theirs, and a player levels in all of them side by side.
