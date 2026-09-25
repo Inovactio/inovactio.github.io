@@ -7,8 +7,8 @@
 | **Type** | Logia |
 | **Theme** | Salt |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **4.13%**, iron **0.207%**, wooden **0.010%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 7: 6 active, 1 passive |
+| **Chance per opening** | golden **3.65%**, iron **0.183%**, wooden **0.009%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 9: 8 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/shio-form.png){ .effect-mini }[Shio Form](../effects.md#effect-shio-form), ![](../effect-icons/shiozuke.png){ .effect-mini }[Shiozuke](../effects.md#effect-shiozuke) |
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
@@ -33,7 +33,7 @@ Hardens the salt under the user and makes a line of spikes come out of the groun
 | Stat | Value |
 |---|---|
 | Cooldown | 6 s |
-| Damage | 12 |
+| Damage | 18 |
 | Range | 13 blocks (line) |
 
 ## Shiozuke { #shiozuke }
@@ -59,7 +59,7 @@ Throws salt in a ring around the user, burning undead enemies and removing bad e
 | Stat | Value |
 |---|---|
 | Cooldown | 12 s |
-| Damage | 8 |
+| Damage | 12 |
 | Range | 10 blocks (area) |
 
 ## Shio no Ame { #shio-no-ame }
@@ -73,7 +73,7 @@ Makes salt rain down where the user is looking, even far away.
 | Stat | Value |
 |---|---|
 | Cooldown | 9 s |
-| Damage | 7 |
+| Damage | 12 |
 | Range | 28 blocks (area) |
 
 ## Shio Nagare { #shio-nagare }
@@ -103,3 +103,31 @@ Pours a ring of salt on the ground that pushes the undead out and salts enemies 
 | Cooldown | 20 s |
 | Hold | 30 s |
 | Range | 8 blocks (area) |
+
+## Dassui { #dassui }
+
+![](../abilities/dassui.png){ .ability-icon } *Active*
+
+Applies ![](../effect-icons/shiozuke.png){ .effect-mini }[Shiozuke](../effects.md#effect-shiozuke)
+
+Draws the water out of every enemy around the user: they are hurt, slowed, salted, and pulled slightly towards the user.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 14 s |
+| Damage | 6 |
+| Range | 8 blocks (area) |
+
+## Shio Bashira { #shio-bashira }
+
+![](../abilities/shio-bashira.png){ .ability-icon } *Active*
+
+Applies ![](../effect-icons/shiozuke.png){ .effect-mini }[Shiozuke](../effects.md#effect-shiozuke)
+
+Crusts the target in a pillar of salt: it is hurt, cannot move for 3 seconds and cannot heal for 10.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 30 s |
+| Damage | 20 |
+| Range | 20 blocks (line) |

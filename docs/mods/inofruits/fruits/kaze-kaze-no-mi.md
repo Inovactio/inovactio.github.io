@@ -7,8 +7,8 @@
 | **Type** | Logia |
 | **Theme** | Wind |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **4.13%**, iron **0.207%**, wooden **0.010%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 9: 7 active, 2 passive |
+| **Chance per opening** | golden **3.65%**, iron **0.183%**, wooden **0.009%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 10: 8 active, 2 passive |
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -60,7 +60,7 @@ A downward wind slams everything in the air within 12 blocks into the ground
 | Stat | Value |
 |---|---|
 | Cooldown | 10 s |
-| Damage | 7 |
+| Damage | 12 |
 | Range | 12 blocks (area) |
 
 ## Shippu { #shippu }
@@ -84,7 +84,7 @@ Throws a flat spinning disc of air that flies straight without dropping.
 | Stat | Value |
 |---|---|
 | Cooldown | 4 s |
-| Projectile damage | 10 |
+| Projectile damage | 16 |
 
 ## Fuuheki { #fuuheki }
 
@@ -108,5 +108,17 @@ Creates a tornado where the user is looking, which moves wherever they look next
 |---|---|
 | Hold | 6 s |
 | Cooldown | 25 s |
-| Damage | 5 |
+| Damage | 7 |
 | Range | 40 blocks (area) |
+
+## Kyuin { #kyuin }
+
+![](../abilities/kyuin.png){ .ability-icon } *Active*
+
+The user reverses the air in front of them: for a moment, every enemy in a wide cone is dragged towards the user.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 12 s |
+| Hold | 1 s |
+| Range | 16 blocks (cone) |

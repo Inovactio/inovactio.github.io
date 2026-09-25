@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.32%**, wooden **0.116%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **2.26%**, wooden **0.113%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 5 active, 3 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Mushi Mushi Fly Point](#mushi-mushi-fly-point), [Mushi Mushi Heavy Point](#mushi-mushi-heavy-point) |
 | **Effects applied** | ![](../effect-icons/chibukure.png){ .effect-mini }[Chibukure](../effects.md#effect-chibukure) |
@@ -52,7 +52,7 @@ Requires Mushi Mushi Fly Point or Mushi Mushi Heavy Point to be active.
 |---|---|
 | Cooldown | 3 s |
 | Range | 2.5 blocks (line) |
-| Damage | 5 |
+| Damage | 7 |
 
 ## Chibukure { #chibukure }
 

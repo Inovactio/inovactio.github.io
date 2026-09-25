@@ -28,7 +28,7 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     ---
 
-    28 brand-new Devil Fruits the base mod does not have, found in its own Devil Fruit boxes.
+    34 brand-new Devil Fruits the base mod does not have, found in its own Devil Fruit boxes.
 
     **Needs:** Mine Mine no Mi, AkumaLib
 

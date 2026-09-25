@@ -5,10 +5,10 @@
 | | |
 |---|---|
 | **Type** | Paramecia |
-| **Theme** | Gauge |
+| **Theme** | Slider |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.45%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 3: 3 active, 0 passive |
+| **Chance per opening** | wooden **2.32%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 6: 6 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/kiza.png){ .effect-mini }[Kiza](../effects.md#effect-kiza) |
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
@@ -49,3 +49,38 @@ The user pulls back their own sliders, removing every bad effect on them at once
 | Stat | Value |
 |---|---|
 | Cooldown | 60 s |
+
+## Kiza Maki { #kiza-maki }
+
+![](../abilities/kiza-maki.png){ .ability-icon } *Active*
+
+Applies ![](../effect-icons/kiza.png){ .effect-mini }[Kiza](../effects.md#effect-kiza)
+
+Puts a slider on every enemy in a wide cone in front of the user, for 10 seconds.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 16 s |
+| Range | 12 blocks (cone) |
+
+## Oshiage { #oshiage }
+
+![](../abilities/oshiage.png){ .ability-icon } *Active*
+
+Pushes up the slider on a marked ally by pulling down the user's own: the user loses speed or strength and the ally gains it.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 12 s |
+| Range | 12 blocks (line) |
+
+## Zen Hikisage { #zen-hikisage }
+
+![](../abilities/zen-hikisage.png){ .ability-icon } *Active*
+
+Pulls the master down: every marked body around the user loses both speed and strength at once, and the user takes a share of each.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 40 s |
+| Range | 16 blocks (area) |
