@@ -9,6 +9,7 @@
 | Version documented | **2.1.0** |
 | Mod id | `mineminenomiawakenpath` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-awaken-path) |
+| Changelog | [Every release](changelog.md) |
 
 It adds no abilities of its own: it decides **when** a fruit awakens. What an awakened fruit can do comes from the base mod and from addons such as [Awaken Awaken no Mi](../awaken-awaken-no-mi/index.md), whose awakened abilities unlock the moment the fruit awakens.
 

@@ -9,6 +9,7 @@
 | Version documented | **2.0.0** |
 | Mod id | `awakenawakennomi` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) |
+| Changelog | [Every release](changelog.md) |
 
 ## What it adds
 

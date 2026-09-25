@@ -154,9 +154,11 @@ nav:
       - Status effects: mods/awaken-awaken-no-mi/effects.md
       - Items: mods/awaken-awaken-no-mi/items.md
       - Configuration: mods/awaken-awaken-no-mi/configuration.md
+      - Changelog: mods/awaken-awaken-no-mi/changelog.md
   - Awaken Path:
       - mods/awaken-path/index.md
       - Configuration: mods/awaken-path/configuration.md
+      - Changelog: mods/awaken-path/changelog.md
   - InoFruits:
       - mods/inofruits/index.md
       - Fruits:
@@ -195,6 +197,7 @@ nav:
       - All abilities: mods/inofruits/all-abilities.md
       - Status effects: mods/inofruits/effects.md
       - Configuration: mods/inofruits/configuration.md
+      - Changelog: mods/inofruits/changelog.md
   - Sky Island:
       - mods/sky-island/index.md
       - Getting there and back: mods/sky-island/getting-there.md
@@ -269,3 +272,4 @@ nav:
           - Deferred work: akumalib/utilities/tick-queue.md
           - Other helpers: akumalib/utilities/other-helpers.md
       - Development: akumalib/development.md
+      - Changelog: akumalib/changelog.md

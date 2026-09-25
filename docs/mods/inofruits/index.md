@@ -9,6 +9,7 @@
 | Version documented | **3.0.1** |
 | Mod id | `inofruits` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/inofruits) |
+| Changelog | [Every release](changelog.md) |
 
 ## What it adds
 

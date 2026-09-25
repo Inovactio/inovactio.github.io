@@ -126,6 +126,8 @@ You get all of that by extending the class. Departing from one is fine, but read
 | Mine Mine no Mi | 0.11.x (built against `1.20.1-0.11.5`) |
 | AkumaLib | 2.5.0 |
 
+What each version added or changed, and what it requires: the [changelog](changelog.md).
+
 ## Built on AkumaLib
 
 <div class="grid cards" markdown>
