@@ -5280,6 +5280,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#twoformflightability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TwoFormFlightAbility
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7243,6 +7254,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#twoformflightability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TwoFormFlightAbility
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7484,6 +7506,34 @@
 <a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="p">}</span>
 </code></pre></div>
 <p>The same check is available anywhere as <code>AkumaAbilityHelper.ensureOnGroundOrNotify(user)</code>.</p>
+<h2 id="twoformflightability"><code>TwoFormFlightAbility</code><a class="headerlink" href="#twoformflightability" title="Permanent link">&para;</a></h2>
+<p><em>Since 2.6.0.</em> The flight of a Zoan with two flying forms, in the shape of the base mod's <code>PhoenixFlightAbility</code>: a <code>PropelledFlightAbility</code> (double jump to take off, a stamina gauge, velocity along the look vector) whose speed depends on the form held.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyFlight</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">TwoFormFlightAbility</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">Form</span><span class="w"> </span><span class="n">FULL</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Form</span><span class="p">(</span><span class="n">MyFullPoint</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">,</span><span class="w"> </span><span class="n">MyMorphs</span><span class="p">.</span><span class="na">FULL</span><span class="p">,</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">            </span><span class="mf">0.74F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.50F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0052F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0035F</span><span class="p">);</span><span class="w">    </span><span class="c1">// sprint and cruise speed, sprint and cruise acceleration</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">Form</span><span class="w"> </span><span class="n">HYBRID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Form</span><span class="p">(</span><span class="n">MyHybridPoint</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">,</span><span class="w"> </span><span class="n">MyMorphs</span><span class="p">.</span><span class="na">HYBRID</span><span class="p">,</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">            </span><span class="mf">0.60F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.41F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0042F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0028F</span><span class="p">);</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyFlight</span><span class="p">(</span><span class="n">AbilityCore</span><span class="o">&lt;</span><span class="n">MyFlight</span><span class="o">&gt;</span><span class="w"> </span><span class="n">core</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">core</span><span class="p">,</span><span class="w"> </span><span class="mi">96</span><span class="p">,</span><span class="w"> </span><span class="n">FULL</span><span class="p">,</span><span class="w"> </span><span class="n">HYBRID</span><span class="p">);</span><span class="w">           </span><span class="c1">// the ceiling, in blocks above the ground</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="p">}</span>
+</code></pre></div>
+<ul>
+<li><strong>The gate</strong> is the forms' point abilities being continuous, which is what the Phoenix checks, rather than the morph, which lags a tick behind on a switch.</li>
+<li><strong>The speed</strong> is read off the morph that is active: what the body currently is decides how fast it flies.</li>
+<li><strong><code>speedMultiplier(entity)</code></strong> scales both the top speed and the acceleration, for an effect that makes the flier faster. <code>getSpeed</code> stays overridable for a technique that drives the flight (a swoop).</li>
+</ul>
+<p>Switch the flight on and off with the forms, from each point's continuity events, with <code>AkumaFlight</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">this</span><span class="p">.</span><span class="na">continuousComponent</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">        </span><span class="p">.</span><span class="na">addStartEvent</span><span class="p">((</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">AkumaFlight</span><span class="p">.</span><span class="na">takeOff</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">MyFlight</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">))</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">        </span><span class="p">.</span><span class="na">addEndEvent</span><span class="p">((</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">AkumaFlight</span><span class="p">.</span><span class="na">land</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">MyFlight</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">));</span>
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">The base mod's flight is not vanilla flight</p>
+<p><code>PropelledFlightAbility</code> never sets <code>player.getAbilities().flying</code>: it turns gravity off and drives the velocity itself. Read <code>isNoGravity()</code> if you need to know whether a player is flying, and never enable a flight through a pause (<code>takeOff</code> refuses to) - haki overuse, Seastone and protected areas pause a passive to take flight away.</p>
+</div>
 
 
 

@@ -95,7 +95,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pulls-akumamotion" class="md-skip">
+        <a href="#pulls-and-pushes-akumamotion" class="md-skip">
           Skip to content
         </a>
       
@@ -6705,6 +6705,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#pushing-along-a-direction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pushing along a direction
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7223,6 +7234,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#pushing-along-a-direction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pushing along a direction
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7324,7 +7346,7 @@
 
 
 
-<h1 id="pulls-akumamotion">Pulls: <code>AkumaMotion</code><a class="headerlink" href="#pulls-akumamotion" title="Permanent link">&para;</a></h1>
+<h1 id="pulls-and-pushes-akumamotion">Pulls and pushes: <code>AkumaMotion</code><a class="headerlink" href="#pulls-and-pushes-akumamotion" title="Permanent link">&para;</a></h1>
 <p>Moving a body toward a point: a target reeled in, a user thrown at an anchor, loot drawn to hand.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">PullProfile</span><span class="w"> </span><span class="n">REEL</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">PullProfile</span><span class="p">.</span><span class="na">builder</span><span class="p">()</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">        </span><span class="p">.</span><span class="na">base</span><span class="p">(</span><span class="mf">0.9D</span><span class="p">).</span><span class="na">perBlock</span><span class="p">(</span><span class="mf">0.05D</span><span class="p">).</span><span class="na">max</span><span class="p">(</span><span class="mf">3.4D</span><span class="p">)</span><span class="w">   </span><span class="c1">// grows with the gap, capped</span>
@@ -7424,6 +7446,33 @@
 <p>The base mod's wrapper only sets <code>hurtMarked</code> when the entity is not a vehicle. A pulled horse with a rider on it moves on the server alone.</p>
 </div>
 <p>Protection is a separate question: see <a href="../protection/">Protected areas</a> before moving anybody.</p>
+<h2 id="pushing-along-a-direction">Pushing along a direction<a class="headerlink" href="#pushing-along-a-direction" title="Permanent link">&para;</a></h2>
+<p><em>Since 2.6.0.</em> A push along a direction rather than toward a point: where the user looks, the line a gust travels, the flight of a projectile.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">AkumaMotion</span><span class="p">.</span><span class="na">shoveAlong</span><span class="p">(</span><span class="n">target</span><span class="p">,</span><span class="w"> </span><span class="n">caster</span><span class="p">.</span><span class="na">getLookAngle</span><span class="p">(),</span><span class="w"> </span><span class="mf">1.2</span><span class="p">,</span><span class="w"> </span><span class="mf">0.4</span><span class="p">);</span><span class="w">   </span><span class="c1">// replaces the body's motion</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">AkumaMotion</span><span class="p">.</span><span class="na">nudgeAlong</span><span class="p">(</span><span class="n">target</span><span class="p">,</span><span class="w"> </span><span class="n">flight</span><span class="p">,</span><span class="w"> </span><span class="mf">0.6</span><span class="p">,</span><span class="w"> </span><span class="mf">0.3</span><span class="p">);</span><span class="w">                  </span><span class="c1">// adds to it</span>
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Horizontal</th>
+<th>Vertical</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>shoveAlong</code></td>
+<td>replaced: <code>push</code> blocks a tick along the flattened direction</td>
+<td>replaced by <code>lift</code></td>
+</tr>
+<tr>
+<td><code>nudgeAlong</code></td>
+<td><code>push</code> added to the current motion</td>
+<td>at least <code>lift</code></td>
+</tr>
+</tbody>
+</table>
+<p>The direction is flattened and normalised for you. ⚠️ <strong>A direction with no horizontal part</strong> (straight up, or a target standing exactly on the origin) is the case every hand-written push gets wrong: <code>Vec3.normalize</code> returns <code>ZERO</code>, not NaN, so the push silently does nothing. <code>shoveAlong</code> turns it into a straight lift of <code>max(lift, push)</code>; <code>nudgeAlong</code> adds nothing horizontally.</p>
 
 
 

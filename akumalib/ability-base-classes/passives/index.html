@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Three passive base classes: bonuses under a condition, an aura, and damage by sprinting.">
+        <meta name="description" content="Four passive base classes: bonuses under a condition, an aura, damage by sprinting, and a gauge.">
       
       
       
@@ -67,12 +67,12 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Inovactio's Minecraft Mods">
     <meta property="og:title" content="Passives · AkumaLib">
-    <meta property="og:description" content="Three passive base classes: bonuses under a condition, an aura, and damage by sprinting.">
+    <meta property="og:description" content="Four passive base classes: bonuses under a condition, an aura, damage by sprinting, and a gauge.">
     <meta property="og:url" content="https://inovactio.github.io/akumalib/ability-base-classes/passives/">
     <meta property="og:image" content="https://inovactio.github.io/assets/icons/akumalib.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Passives · AkumaLib">
-    <meta name="twitter:description" content="Three passive base classes: bonuses under a condition, an aura, and damage by sprinting.">
+    <meta name="twitter:description" content="Four passive base classes: bonuses under a condition, an aura, damage by sprinting, and a gauge.">
     <meta name="twitter:image" content="https://inovactio.github.io/assets/icons/akumalib.png"><meta name="theme-color" content="#7e56c2">
   
 
@@ -5280,6 +5280,45 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#gaugepassiveability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GaugePassiveAbility
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GaugePassiveAbility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-the-class-already-handles_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the class already handles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hooks_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hooks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7299,6 +7338,45 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#gaugepassiveability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GaugePassiveAbility
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GaugePassiveAbility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-the-class-already-handles_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the class already handles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hooks_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hooks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7383,7 +7461,7 @@
 
 
 <h1 id="passives">Passives<a class="headerlink" href="#passives" title="Permanent link">&para;</a></h1>
-<p>Three passive base classes: bonuses under a condition, an aura, and damage by sprinting.</p>
+<p>Four passive base classes: bonuses under a condition, an aura, damage by sprinting, and a gauge.</p>
 <h2 id="conditionalstatpassiveability"><code>ConditionalStatPassiveAbility</code><a class="headerlink" href="#conditionalstatpassiveability" title="Permanent link">&para;</a></h2>
 <p>A passive that grants attribute bonuses while a condition holds: standing on a given block, the light level, the weather, the time of day. It uses attribute modifiers, not re-applied effects: a modifier with a fixed UUID leaves nothing behind when the condition ends, never clashes with a potion the player drank, and synced attributes reach the client on their own. This class is the loop that applies them correctly.</p>
 <h3 id="what-to-implement">What to implement<a class="headerlink" href="#what-to-implement" title="Permanent link">&para;</a></h3>
@@ -7542,6 +7620,66 @@
 <p class="admonition-title">The damage is raw</p>
 <p>The constructor's damage goes to the pipeline as is. Pass <code>AkumaAbilityHelper.scaledDamage(realHp)</code>.</p>
 </div>
+<h2 id="gaugepassiveability"><code>GaugePassiveAbility</code><a class="headerlink" href="#gaugepassiveability" title="Permanent link">&para;</a></h2>
+<p><em>Since 2.6.0.</em> A passive that holds one number between zero and a maximum and shows it on the HUD: blood stored, light in a horn, force absorbed. What fills it and what spends it is yours; the plumbing every gauge repeats is the class's.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyReserve</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">GaugePassiveAbility</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyReserve</span><span class="p">(</span><span class="n">AbilityCore</span><span class="o">&lt;</span><span class="n">MyReserve</span><span class="o">&gt;</span><span class="w"> </span><span class="n">core</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">        </span><span class="c1">// max, the value a fresh holder starts with, and the NBT key</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">core</span><span class="p">,</span><span class="w"> </span><span class="mf">100.0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0F</span><span class="p">,</span><span class="w"> </span><span class="s">"points"</span><span class="p">);</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onHit</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">amount</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">amount</span><span class="p">);</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">gaugeText</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Math</span><span class="p">.</span><span class="na">round</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">getValue</span><span class="p">())</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">"%"</span><span class="p">;</span>
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="p">}</span>
+</code></pre></div>
+<p>The value is read and moved with <code>getValue</code>, <code>getMax</code>, <code>getFillRatio</code>, <code>setValue</code>, <code>add</code>, <code>spend</code> (returns <code>false</code> when the gauge does not hold the amount), <code>fill</code> and <code>drain</code> (empties it and returns what it held).</p>
+<h3 id="what-the-class-already-handles_1">What the class already handles<a class="headerlink" href="#what-the-class-already-handles_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>The value is clamped</strong> on every change, and a change to the same value does nothing.</li>
+<li><strong>Every change on the server is sent to the player who holds it</strong> (<code>SUpdateAbilityNBTPacket</code>), so the gauge on their screen is never stale.</li>
+<li><strong>It is saved</strong> under the key you name; a save without that key (the first load, or an ability that did not save one before) starts from the initial value. Keep an existing ability's old key when you migrate it, and saves carry over.</li>
+<li><strong>The gauge is drawn by a client-only <code>GaugeComponent</code></strong>, added only when <code>isClientSide()</code>.</li>
+</ul>
+<h3 id="hooks_1">Hooks<a class="headerlink" href="#hooks_1" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Hook</th>
+<th>Default</th>
+<th>For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>onValueChanged(entity, previous, next)</code></td>
+<td>nothing</td>
+<td>a sound the moment a threshold is crossed</td>
+</tr>
+<tr>
+<td><code>gaugeText()</code></td>
+<td>the value as a whole number</td>
+<td>a percentage, a unit</td>
+</tr>
+<tr>
+<td><code>gaugeColour()</code></td>
+<td>white</td>
+<td>a colour that says the gauge is ready or empty</td>
+</tr>
+<tr>
+<td><code>shouldRenderGauge(player)</code></td>
+<td>always</td>
+<td>a gauge only shown in a form</td>
+</tr>
+</tbody>
+</table>
+<p>A gauge with no stored value, a figure computed from health for instance, draws the same layout on its own with <code>AkumaGauge.draw(ability, graphics, x, y, text, colour)</code> from its own <code>GaugeComponent</code> renderer.</p>
 
 
 
