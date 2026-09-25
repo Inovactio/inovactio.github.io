@@ -20,7 +20,7 @@ It is the mod's single decision on the question — `FactionHelper.isEnemyFactio
 !!! warning "Three defaults, two of them the opposite of the intuition"
     A **null** user makes the underlying predicate `alwaysTrue`, so everything would be an enemy — this method answers `false` instead. A **non-living** target is always an enemy; factions are never consulted for one. And a **factionless** user counts everyone else as an enemy, so a mechanic keyed on "my allies" has none rather than having everybody.
 
-!!! tip "There is no shared predicate constant here, and there should not be"
+??? note "There is no shared predicate constant here, and there should not be"
     `TargetPredicate.DEFAULT_AREA_CHECK` **is** `new TargetPredicate().testEnemyFaction()`, and with only that flag set its `test` runs `getEnemyFactions` and nothing else — both read off the base mod's bytecode in AwakenAwakenNoMi#444, where twelve files had rebuilt the predicate by hand. Pass the base mod's own constant to `TargetHelper.getEntitiesInArea`; a library constant beside it would be a third spelling of one object.
 
 ## `firstInLine`
@@ -53,10 +53,7 @@ The overload taking a predicate tests the target inside the trace, so "nothing v
 LivingEntity target = AkumaTargeting.firstInSight(entity, 12.0F, candidate -> !candidate.isPassenger());
 ```
 
-The user and dead entities are already excluded before the predicate runs.
-
-!!! warning "Blocks stop the trace"
-    A target behind a wall is not in sight. That is usually what a technique wants; one that should reach through terrain has to search differently.
+The user and dead entities are already excluded before the predicate runs. Blocks stop the trace: a target behind a wall is not in sight. That is usually what a technique wants; one that should reach through terrain has to search differently.
 
 ## `aimPoint`
 
@@ -108,5 +105,4 @@ for (LivingEntity target : this.rangeComponent.getTargetsInArea(entity, 6.0F)) {
 
 The angle is **half** the opening: `45` is a 90 degree fan. A target standing exactly on the user counts as inside, so a cone never refuses point-blank contact.
 
-!!! tip "When a press finds nothing"
-    A technique that finds no target should still cost something, or a held key becomes a free scanner: `AkumaAbilityHelper.FAILED_PRESS_COOLDOWN` (10 ticks), not zero and not the full cooldown. A refusal, such as a protected area or a creative target, costs the same. And give the player a cue that nothing was hit, such as a whiff sound.
+**When a press finds nothing.** A technique that finds no target should still cost something, or a held key becomes a free scanner: `AkumaAbilityHelper.FAILED_PRESS_COOLDOWN` (10 ticks), not zero and not the full cooldown. A refusal, such as a protected area or a creative target, costs the same. And give the player a cue that nothing was hit, such as a whiff sound.

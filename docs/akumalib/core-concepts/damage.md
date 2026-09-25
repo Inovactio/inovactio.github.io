@@ -29,7 +29,7 @@ this.dealDamageComponent.hurtTarget(user, target, AkumaAbilityHelper.scaledDamag
 
 For a projectile, pass the scaled value to `setDamage`, and use `AkumaAbilityHelper.getProjectileTooltipsScaled()` instead of `ProjectileComponent.getProjectileTooltips()`, which shows the raw, unreduced number.
 
-!!! tip "Why real HP"
+??? note "Why real HP"
     A constant in real HP can be compared directly with the base mod's own techniques and with other addons. A constant in raw units cannot, and a file that mixes both is where a balance bug hides.
 
 !!! warning "A value that already comes from the world is already real HP"
@@ -88,8 +88,6 @@ Decide by the **method the damage is dealt in**, not by the file:
 | an unguarded pulse: a continuity tick, a passive tick, a zone tick | `hurtTarget` | **no** |
 | a cadence already longer than 10 ticks | `hurtTarget` | no, there is nothing to clear |
 
-!!! note "`HitTrackerComponent.canHit` tests and records at once"
-    There is no separate "mark as hit" method. `canHit(target)` marks the target before you know whether the damage landed, so without `hurtBurst` an invulnerable-framed target would be marked, take nothing, and be skipped for the rest of the cast. Clearing the frames is what makes the mark truthful.
+`HitTrackerComponent.canHit` tests and records at once: there is no separate "mark as hit" method. `canHit(target)` marks the target before you know whether the damage landed, so without `hurtBurst` an invulnerable-framed target would be marked, take nothing, and be skipped for the rest of the cast. Clearing the frames is what makes the mark truthful.
 
-!!! tip "Comment the deliberate `hurtTarget` calls"
-    The two categories look identical in a search. A one-line comment on every call site that stays on `hurtTarget` on purpose saves the next reader from "fixing" it into a damage multiplier.
+Comment the deliberate `hurtTarget` calls: the two categories look identical in a search. A one-line comment on every call site that stays on `hurtTarget` on purpose saves the next reader from "fixing" it into a damage multiplier.

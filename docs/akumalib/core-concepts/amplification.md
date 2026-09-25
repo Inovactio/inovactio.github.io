@@ -6,8 +6,7 @@ AkumaLib gives that pattern three pieces: `IAmplifiableAbility`, `AmplifiedPrese
 
 ## The rule: the morph tells its siblings
 
-!!! info "Push, never poll"
-    When the morph comes up or drops, **it tells the other techniques**. The techniques do not each watch the morph. This is what keeps the ability screen correct for a technique the player is not currently using.
+Push, never poll: when the morph comes up or drops, **it tells the other techniques**. The techniques do not each watch the morph. This is what keeps the ability screen correct for a technique the player is not currently using.
 
 An amplification has three axes, and a technique that only takes the first one feels like a rounding error:
 
@@ -59,8 +58,7 @@ public enum Mode { NORMAL, AMPLIFIED }
 !!! danger "Add the component, or nothing is ever renamed"
     `amplified.component()` must reach `addComponents`. A presentation whose component is missing builds, runs, and silently never changes the name or the icon.
 
-!!! note "The player cannot switch it"
-    The underlying `AltModeComponent` is built so the player's mode-switch key never cycles it. Only the morph drives it, so a technique can never present as amplified outside its form.
+The player cannot switch it: the underlying `AltModeComponent` is built so the player's mode-switch key never cycles it. Only the morph drives it, so a technique can never present as amplified outside its form.
 
 ## 2. Read the numbers where the technique resolves
 
@@ -74,8 +72,7 @@ private void onUseEvent(LivingEntity entity, IAbility ability) {
 }
 ```
 
-!!! warning "Read it late, not at the press"
-    A form can drop between the key press and the effect: mid-flight, mid-charge, mid-grab. The number that matters is the one for the body that is actually there when the technique lands.
+Read it late, not at the press, because a form can drop between the key press and the effect: mid-flight, mid-charge, mid-grab. The number that matters is the one for the body that is actually there when the technique lands.
 
 ## 3. Let the morph push the state
 
@@ -96,5 +93,5 @@ this.continuousComponent
 
 `AmplificationBus.push` pushes the state to every listed technique **the user has equipped** and that implements `IAmplifiableAbility`. Anything else is skipped silently: a player equips what they like, and a kit may list a technique whose presentation never changes.
 
-!!! tip "Why a list in a helper"
+??? note "Why a list in a helper"
     Written by hand, each technique needs a lookup, a null check, a cast and a call, and the technique a kit forgets is always the newest one. A single list is something a reader can count against the fruit's abilities.

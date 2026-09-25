@@ -4,10 +4,7 @@ Three passive base classes: bonuses under a condition, an aura, and damage by sp
 
 ## `ConditionalStatPassiveAbility`
 
-A passive that grants attribute bonuses while a condition holds: standing on a given block, the light level, the weather, the time of day.
-
-!!! tip "Attribute modifiers, not re-applied effects"
-    A modifier with a fixed UUID leaves nothing behind when the condition ends, never clashes with a potion the player drank, and synced attributes reach the client on their own. This class is the loop that applies them correctly.
+A passive that grants attribute bonuses while a condition holds: standing on a given block, the light level, the weather, the time of day. It uses attribute modifiers, not re-applied effects: a modifier with a fixed UUID leaves nothing behind when the condition ends, never clashes with a potion the player drank, and synced attributes reach the client on their own. This class is the loop that applies them correctly.
 
 ### What to implement
 
@@ -68,11 +65,9 @@ Build a tooltip line with `ConditionalStatPassiveAbility.describeState(name, sta
 - **Server side only.** Rewriting synced attributes on the client causes speed jitter.
 - **Disable.** A Devil Fruit passive is disabled the moment its holder touches water or kairoseki, and a disabled passive stops ticking **before** it could clean up. The class hooks the disable start and strips the bonuses.
 
-!!! warning "Do not condition on `entity.onGround()`"
-    It flickers to `false` during a sprint stride or a stair step, so the bonus flickers with it. Test the block at the feet or just below instead.
-
-!!! warning "Recompute the condition in tooltips"
-    Tooltips render on the client, which does not know the applied tier. Compute the condition again there.
+!!! warning "Two traps with the condition"
+    1. **Do not condition on `entity.onGround()`.** It flickers to `false` during a sprint stride or a stair step, so the bonus flickers with it. Test the block at the feet or just below instead.
+    2. **Recompute the condition in tooltips.** Tooltips render on the client, which does not know the applied tier. Compute the condition again there.
 
 ## `AuraAbility`
 
@@ -134,8 +129,7 @@ The constructor takes the width of the hit area in front of the user (default `1
 - `setDamage`, `setArea` and `setHasKnockback` change the values at runtime.
 - A damage of `0` or less turns the smash off.
 
+A target in contact is hit about twice a second: the hit tracker is cleared every 10 ticks, so each target takes the damage once per window. The knockback normally throws a target clear after the first hit. With `setHasKnockback(false)`, or against a body that cannot be pushed, a target the user keeps running into is hit again at each new window.
+
 !!! warning "The damage is raw"
     The constructor's damage goes to the pipeline as is. Pass `AkumaAbilityHelper.scaledDamage(realHp)`.
-
-!!! note "A target in contact is hit about twice a second"
-    The hit tracker is cleared every 10 ticks, so each target takes the damage once per window. The knockback normally throws a target clear after the first hit. With `setHasKnockback(false)`, or against a body that cannot be pushed, a target the user keeps running into is hit again at each new window.

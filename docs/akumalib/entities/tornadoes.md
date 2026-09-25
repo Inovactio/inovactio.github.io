@@ -45,8 +45,7 @@ funnel.setVector(aim.add(0.0, 10.0, 0.0));
 | `setSpeed(speed)` | `1.0` | synced to the client for your renderer, typically the spin speed. It does not move the entity |
 | `setVector(point)` | none | the point the funnel walks towards, easing along rather than teleporting |
 
-!!! tip "Let the ability own the lifetime"
-    Discard the funnel from the ability when its channel ends, and keep `setMaxLife` as a backstop longer than the channel, for the case where the ability stops ticking without reaching its end event.
+Let the ability own the lifetime: discard the funnel from the ability when its channel ends, and keep `setMaxLife` as a backstop longer than the channel, for the case where the ability stops ticking without reaching its end event.
 
 ## What it does each tick
 
@@ -75,7 +74,7 @@ The block states of falling blocks inside the funnel are collected in `getBlocks
 
 Water putting a funnel out is the universal Devil Fruit weakness, and returning `false` from `isQuenchedByWater` should be a deliberate choice. Rain is off by default because a funnel is not made of anything rain washes away; a funnel of sand, dust or ash should override `isQuenchedByRain` to return `true`.
 
-!!! note "The rain default changed"
+??? note "Why the rain default changed"
     The class began as a copy of the base mod's sandstorm, which rain puts out. A subclass written against that behaviour must now opt back in with `isQuenchedByRain()`.
 
 ## Traps
