@@ -1,6 +1,6 @@
-# Bestiary and logbook
+# Bestiary and Log Book
 
-Cruise keeps two records of what you have found: the **Bestiary**, with every fish and creature you have caught, and the Navigator's **Log Book**, with every land and place you have been. Both pay Belly, and trade XP, each time you fill a further tenth of them.
+Cruise keeps two records of what you have found: the **Bestiary**, with every fish and creature you have caught, and the Navigator's **Log Book**, with every land and place you have visited. Both pay Belly, and trade XP, each time you fill a further tenth of them.
 
 | | |
 |---|---|
@@ -35,14 +35,12 @@ Click a species to show it here:
 - its name ("???" if not caught yet);
 - the level it takes, e.g. "Hunter level 22";
 - "Caught: N", or "Not caught yet". A species caught before the Bestiary existed in your world says "Caught before the bestiary";
-- for a fish, its **record size**, your biggest landed: "Record: 42.0 cm";
-- **Where it lives**: its habitats. A creature that needs the Enhanced Bug Catcher Net says "Only with: Enhanced Bug Catcher Net".
-
-The habitats show even for a shadow, so the book tells you where to go looking.
+- for a fish, its **record size**, the biggest you have landed: "Record: 42.0 cm";
+- **Where it lives**: its habitats. A creature that needs the Enhanced Bug Catcher Net says "Only with: Enhanced Bug Catcher Net". The habitats show even for a shadow, so the book tells you where to go looking.
 
 ### How the pages fill
 
-- Every fish you land and every creature you catch adds one to its page, **whatever your trade**. In Crew mode a non-Hunter's net catches count too, though they can only catch the level-1 creatures.
+- Every Cruise fish you land and every creature you catch adds one to its page, **whatever your trade**. In Crew mode a non-Hunter's catches count too, though they can only catch the level-1 creatures.
 - The first catch of a species shows "New in the bestiary: *name*" above your hotbar.
 - Each rare variant has its own page: the **Golden Hercules** and the **Invisible Swallowtail**.
 - A released creature caught again doesn't count.
@@ -52,7 +50,7 @@ The Bestiary is kept with your character and survives death.
 
 ## Completion rewards
 
-Every tenth of a tab caught pays **Belly** to anyone, and **XP in that tab's trade** if you practise it: Fisher XP for fish, Hunter XP for creatures. The Log Book's two sections pay the same tiers, with Navigator XP.
+Every tenth of a tab caught pays **Belly** to anyone, plus **XP in that tab's trade** if you practise it: Fisher XP for fish, Hunter XP for creatures.
 
 | Tier | Belly | Trade XP | Creatures needed (of 33) |
 |---|---|---|---|
@@ -73,9 +71,9 @@ See [Trades and levels](trades-and-levels.md) for what the XP is worth.
 
 ## The Log Book
 
-The Log Book belongs to the [Navigator](trades/navigator.md) and opens from the Navigator's page in the same way. It has two sections, **Lands** and **Places**:
+The Log Book belongs to the [Navigator](trades/navigator.md) and opens from the Navigator's page. It has two sections, **Lands** and **Places**:
 
 - **Lands**: every Overworld biome you have stood in.
 - **Places**: every kind of structure you have stood in, or come within 8 blocks of. Buried treasure isn't counted.
 
-Each section has its own bar and the same ten tiers as the Bestiary, paid in Belly and **Navigator XP**. Anyone's Log Book fills, but only a Navigator earns XP from it: besides the tiers, a Navigator earns 25 XP the first time they see a new biome and 50 XP for a new kind of place. The [Navigator](trades/navigator.md) page covers it in full.
+Each section has its own bar and the same ten tiers as the Bestiary: Belly to anyone, plus **Navigator XP** if you practise the trade. Anyone's Log Book fills, but only a Navigator earns XP from it: besides the tiers, 25 XP for each new biome and 50 XP for each new kind of place. The Navigator's page covers it in full.

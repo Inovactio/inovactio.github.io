@@ -8,36 +8,36 @@ The Fisher lands the islands' own catches (fish, shellfish, crustaceans, even a 
 | Rods | made by the [Inventor](inventor.md) at the Workshop |
 | Levels | 1 to 100; new catches up to level 50 |
 
-Fisher XP comes **only** from Cruise's catches, from Sea Kings and from the [Bestiary](../bestiary-and-logbook.md). A vanilla cod, salmon or pufferfish, and any junk or treasure, gives none.
-
-There is **no fishing minigame**: you cast, wait for the bite and pull in exactly as in vanilla. Cruise decides only *what* comes up.
+Fisher XP comes **only** from Cruise's catches, from Sea Kings and from the Bestiary (see [Bestiary and Log Book](../bestiary-and-logbook.md)). A vanilla cod, salmon or pufferfish, and any junk or treasure, gives none.
 
 ## How a catch is decided
 
-1. You fish as in vanilla. When vanilla's roll gives you **a fish**, Cruise may swap it for one of its own catches. Junk and treasure are never swapped.
-2. Every catch is checked against where your bobber is:
+There is **no fishing minigame**: you cast, wait for the bite and pull in exactly as in vanilla. Cruise decides only *what* comes up.
+
+1. When vanilla's roll gives you **a fish**, Cruise may swap it for one of its own catches. Junk and treasure are never swapped.
+2. Each possible catch is checked against where your bobber is:
     - **Biome**: the biome the bobber is in. The sky fish and the lava fish ignore it.
     - **Depth**: how many blocks of water (or lava, for the lava fish) lie straight down from the bobber, up to 256. A bobber on a one-block puddle fishes at depth 1: deep-sea catches need a real column of water under the hook, not just a deep-ocean biome.
     - **Height**: a few catches need the bobber above or below a height (the sky fish want y 150 and up; some cave fish want low water).
     - **Your Fisher level**: a catch above your level stays in the water.
-3. Every catch that passes gets its **chance**. If the chances of everything that bites there add up to less than 100 %, each comes up with its own chance and the rest of the time you keep vanilla's fish. If they add up to more, they share the catch and you never get a vanilla fish there.
-4. Anything that raises chances (see [Better odds](#better-odds)) multiplies all of Cruise's chances in that spot at once: it pushes out vanilla fish, not other Cruise fish.
+3. Every catch that passes gets its **chance**. If the chances of everything that bites there add up to less than 100 %, each comes up with its own chance and the rest of the time you keep vanilla's fish. If they add up to more, they share the catch in proportion and you never get a vanilla fish there.
+4. Anything that raises chances (see [Better odds](#better-odds)) multiplies all of Cruise's chances in that spot at once, so it pushes out vanilla fish, not other Cruise fish.
 
-In Crew mode, a player of another trade still lands the level-1 catches (Forked-Tail Killifish, Striped Clam) but earns no Fisher XP; every catch still fills their Bestiary.
+In Crew mode, a player of another trade still lands the level-1 catches (Forked-Tail Killifish, Striped Clam) but earns no Fisher XP; their catches still fill their Bestiary.
 
 ## Size
 
 Every Cruise catch comes up with a **size in centimetres**, shown in its tooltip ("Size: 12.3 cm"). Sizes are drawn between the catch's minimum and maximum, **most often near the middle**. Two fish of different sizes don't stack.
 
 - **Fisher XP**: a catch pays 75 % of its XP at the smallest size, up to 125 % at the biggest.
-- **Price**: the [Fishmonger](../merchants-and-contracts.md) pays 75 % of the average price for the smallest, up to 150 % for the biggest.
-- **Cooking**: a dish's quality comes from where its fish sit in their size ranges, averaged: halfway up or more gives a **Fine** dish, four fifths up or more a **Superb** one. A fish with no size (bought, or given by command) counts for nothing.
+- **Price**: the Fishmonger pays 75 % of the average price for the smallest, up to 150 % for the biggest (see [Merchants and contracts](../merchants-and-contracts.md)).
+- **Cooking**: a dish's quality depends on where its fish sit in their size ranges, on average: halfway up or more gives a **Fine** dish, four fifths up or more a **Superb** one. A fish with no size (bought, or given by command) counts for nothing.
 
-The bigger-catch bonuses (rods, rod parts, the level-10 perk) pull each catch toward the top of its range: a bonus of 0.35 closes 35 % of the gap between where it rolled and the maximum. At a total of 1, every catch comes up at the maximum size.
+The bigger-catch bonuses (rods, rod parts, the level-10 perk) pull each catch toward the top of its range: a bonus of 0.35 closes 35 % of the gap between the rolled size and the maximum. Once the bonuses add up to 1, every catch comes up at the maximum size.
 
 ## The rods
 
-Any fishing rod works, the vanilla one included. The two Cruise rods are made by the **[Inventor](inventor.md)** at the Workshop (in Crew mode, a Fisher gets them from an Inventor).
+Any fishing rod works, the vanilla one included. The two Cruise rods are made by the **[Inventor](inventor.md)** at the Workshop, so in Crew mode a Fisher gets them from an Inventor.
 
 | Rod | Made from (Workshop) | Inventor level | Durability | Bigger catches | Special |
 |---|---|---|---|---|---|
@@ -49,9 +49,9 @@ No special rod is needed to hook a Sea King: any rod brings one up once your lev
 
 ### Rod parts
 
-Rod parts are made at the Workshop and fitted at the **Upgrade Bench**: the rod in the left slot, the part in the middle, the fitted rod on the right. The rod keeps its wear, its enchantments and its other parts, and its tooltip lists what is fitted. **Each part fits once per rod.** Before you take the rod, the bench shows what the part does on *that* rod.
+Rod parts are made at the Workshop and fitted at the **Upgrade Bench**: the rod goes in the left slot, the part in the middle, and the fitted rod comes out on the right. The rod keeps its wear, its enchantments and its other parts, and its tooltip lists what is fitted. **Each part fits only once per rod.** Before you take the rod, the bench shows what the part does on *that* rod.
 
-Every part fits every rod, but works best on the rod it was made for:
+Every part fits every rod, but works best on the rod it was made for ("bigger" adds to the bigger-catch bonus, "chance" multiplies every Cruise catch's chance):
 
 | Part (Inventor level) | on the Fishing Rod | on the Whopper | on the Sea King rod |
 |---|---|---|---|
@@ -60,7 +60,7 @@ Every part fits every rod, but works best on the rod it was made for:
 | **Whopper Rod Upgrade** (18) | bigger +0.10 | bigger +0.25 | bigger +0.15 |
 | **Sea King Rod Upgrade** (40) | bigger +0.10, chance ×1.10 | bigger +0.20, chance ×1.15 | bigger +0.30, chance ×1.25 |
 
-Fully fitted, the Whopper reaches bigger +0.90 (and +1.00, the maximum size every time, once the level-10 perk adds its 0.10), and the Sea King rod bigger +1.00 on its own: **every catch at its maximum size**.
+With all four parts, the Whopper reaches bigger +0.90, and +1.00 with the level-10 perk. The Sea King rod reaches +1.00 on its own. At +1.00, **every catch comes up at its maximum size**.
 
 ## Better odds
 
@@ -73,14 +73,14 @@ All of these multiply together and apply to every Cruise catch at once:
 | **Bait** (made by the [Hunter](hunter.md) at the Tannery) | ×1.35 for 2 minutes |
 | Riding a **Fishing Boat** (made by the [Carpenter](carpenter.md)) | ×1.25 |
 
-Luck of the Sea and the Musician's Lucky Tune still work on vanilla's own fish, junk and treasure, but not on Cruise's catch chances.
+Luck of the Sea and the Musician's Lucky Tune still work on vanilla's own fish, junk and treasure, but do not change Cruise's catch chances.
 
 ## Level perks
 
 | Level | Perk | What it does |
 |---|---|---|
-| 10 | "Catches run 10% bigger" | adds 0.10 to the bigger-catch bonus: each catch moves 10 % of the way from its rolled size toward the maximum |
-| 25 | "Rare fish bite 20% more often" | every Cruise catch's chance ×1.20 |
+| 10 | "Catches run 10% bigger" | adds 0.10 to the bigger-catch bonus: each catch moves 10 % of the way from its rolled size toward the maximum (it does not make every catch 10 % bigger) |
+| 25 | "Rare fish bite 20% more often" | every Cruise catch's chance ×1.20, common ones included |
 | 40 | "10% chance of a second fish on the line" | one catch in ten brings up a second fish of the same kind, with its own size (XP paid once; never a Sea King) |
 
 ## The catches
@@ -90,11 +90,11 @@ The catches open level by level, water by water: rivers and swamps, jungles and 
 How to read the table:
 
 - **Level**: the Fisher level from which it can bite.
-- **Where**: the biomes (or groups: all rivers, all oceans…) where it bites; "anywhere" ignores the biome.
+- **Where**: the biomes (or groups: all rivers, all oceans…) where it bites; "anywhere" means it ignores the biome.
 - **Depth**: the blocks of water under the bobber it needs, and a height when there is one.
-- **Chance**: its share of the catches vanilla would have made fish, before any bonus.
+- **Chance**: its share of the bites vanilla would have turned into a fish, before any bonus.
 - **Size**: the range in centimetres it is drawn from.
-- **XP (first catch)**: the Fisher XP for an average catch, and the one-time bonus the first time you land it. A catch that lives in two places (the Lovely Angel: forest waters and the sky) has two rows, and pays its bonus in each.
+- **XP (first catch)**: the Fisher XP for an average-sized catch, and the one-time bonus the first time you land it. A catch that lives in two places (the Lovely Angel: forest waters and the sky) has two rows, and pays its bonus once for each.
 
 | Catch | Level | Where | Depth | Chance | Size (cm) | XP (first catch) |
 |---|---|---|---|---|---|---|
@@ -141,23 +141,23 @@ Every catch is food, like a raw cod, except two you **open**:
 - **Adventure Fish** (level 16), "Use it to empty its pocket": one random item, from bone and string to, rarely, a Heart of the Sea.
 - **Treasure Pargai** (level 18), "Use it to take the pearl out": one random item, from a nautilus shell and prismarine to, rarely, a Heart of the Sea.
 
-The **sky** catches (the Lovely Angel's second home, the Sky Fish, the Giant Sky Fish) bite in **any water at y 150 or higher**. The natural place is the **sky lakes**: some of Mine Mine no Mi's sky islands now carry a lake dug into their cloud ground.
+The **sky** catches (the Lovely Angel's second home, the Sky Fish, the Giant Sky Fish) bite in **any water at y 150 or higher**, whatever the biome. The natural place is the **sky lakes**: some of Mine Mine no Mi's sky islands now carry a lake, up to seven blocks deep, dug into their cloud ground.
 
-Fishing junk can also bring up **Iron Scrap** (1–2, half the time, on top of the vanilla junk) and now and then a **Torn Rumor Map** for a [treasure hunt](../treasure-hunts.md), for everyone and with any rod.
+Fishing junk can also bring up **Iron Scrap** (1–2, half the time, on top of the vanilla junk) and now and then a **Torn Rumor Map** for a treasure hunt (see [Treasure hunts](../treasure-hunts.md)). This works for everyone, with any rod.
 
 ## Lava fishing (level 40)
 
 With the **Sea King Fishing Rod** in either hand, the bobber floats on **lava**, with smoke and flames instead of spray.
 
 - Lava has its own loot instead of vanilla's: charcoal, blackstone, gravel, iron nuggets, Iron Scrap, gold nuggets, magma cream, obsidian, now and then a gold ingot, and magma blocks.
-- The two lava fish replace that loot when they bite: the **Lava Flounder** (level 40, 1+ block of lava) and the **Burning Dragon** (level 47, 2+ blocks), in any lava, Nether included. Each pull gives a lava fish **or** a piece of lava loot, never both.
-- Nothing burns on its way out, and the lava fish are fire-proof items.
+- The two lava fish replace that loot when they bite: the **Lava Flounder** (level 40, 1+ block of lava) and the **Burning Dragon** (level 47, 2+ blocks), in any lava, Nether included. Each pull gives a lava fish **or** a piece of lava loot, never both. Below Fisher level 40, the rod only pulls lava loot.
+- Nothing burns on its way out, and the lava fish are fireproof items.
 
 ## The Sea Kings (level 44)
 
-Sea Kings are **hooked**, never found. In a **deep-ocean** biome, with enough water straight under the bobber, a bite can bring up a Sea King instead of a fish: the line comes up empty and the beast surfaces where the hook was, with a roar.
+Sea Kings are **hooked**, never found. In a **deep-ocean** biome, with enough water straight under the bobber, a bite can bring up a Sea King instead of a fish: the line comes up empty and the beast surfaces where the hook was, with a roar. Hooking one pays Fisher XP on the spot, and much more the first time you hook each kind.
 
-| Sea King | Level | Water under the hook | Chance | Health | Blow |
+| Sea King | Level | Water under the hook | Chance | Health | Blow (damage) |
 |---|---|---|---|---|---|
 | **Sea King** | 44 | 20+ blocks | 1 % | 140 (70 hearts) | 8 |
 | **Extra-Large Sea King** | 47 | 24+ | 0.7 % | 200 (100 hearts) | 11 |
@@ -186,23 +186,23 @@ Sea Kings are **hooked**, never found. In a **deep-ocean** biome, with enough wa
 | Extra-Large Sea King | 300 | +1 500 | 1 400 |
 | Goldfish Sea King | 450 | +2 250 | 2 000 |
 
-The kill XP goes to the player who lands the killing blow (arrows count), if they practise Fisher; the kill also drops 60 experience.
+The kill XP goes to the player who lands the killing blow (arrows count), if they practise Fisher. The kill also drops 60 vanilla experience.
 
 ### The fight
 
-A boss bar shows its name and health. It stays within 32 blocks of the water it was hooked in, never comes ashore, and fights the nearest player within 32 blocks (survival or adventure).
+A boss bar shows its name and health. It never strays more than 32 blocks from the spot where it was hooked, never comes ashore, and fights the nearest player within 32 blocks (in survival or adventure mode).
 
 It fights in a loop:
 
-1. **Circling**: about 9 blocks out, its back above the water.
+1. **Circling**: it circles you about 9 blocks out, its back above the water.
 2. **Rearing**: for about 2.25 seconds, with a bellow; the water foams along the 14-block line it will take. Halfway through it **stops turning**: step off the line.
-3. **Charge**: it runs the line. Anyone it touches takes its full blow and is thrown. A boat it meets takes 100 damage: a vanilla boat breaks and throws its crew into the water; a Carpenter hull that holds keeps its crew aboard.
+3. **Charge**: it runs the line. Anyone it touches takes its full blow and is thrown. A boat in its way takes 100 damage: a vanilla boat breaks and throws its crew into the water; a Carpenter hull that holds keeps its crew aboard.
 4. **Winded**: after the charge it lies at the surface, **3 seconds** if it hit someone, **5 seconds** if it missed. Every blow lands in full, and its body is **solid**: climb on its back and fight standing. When it comes to, it dives out from under you.
 
-And two answers to where you stand:
+It also has two answers to where you stand:
 
-- **Tail sweep**: anyone within about 4.5 blocks. It winds its tail up for 1.2 seconds while the water whitens along the arc (from one flank round the back to the other), then strikes for 60 % of its blow. **Stand at its head** and the tail goes past you. Again 3 seconds later.
-- **Water jet**: below **60 % health**, at a target more than 8 blocks away (up to 30). It aims for 1.25 seconds along a line of bubbles, then fires down it for 50 % of its blow. Step off the line.
+- **Tail sweep**: against anyone within about 4.5 blocks. It winds its tail up for 1.2 seconds while the water whitens along the arc (from one flank round the back to the other), then strikes for 60 % of its blow. **Stand at its head** and the tail goes past you. It can sweep again 3 seconds later.
+- **Water jet**: below **60 % health**, against a target more than 8 blocks away (up to 30). It aims for 1.25 seconds along a line of bubbles, then fires down it for 50 % of its blow. Step off the line.
 
 Below **30 % health** it charges twice as often.
 
@@ -218,7 +218,7 @@ Below **30 % health** it charges twice as often.
 | Extra-Large Sea King | 8–14 | 2–4 | 1 (half the time) |
 | Goldfish Sea King | 12–20 | 3–6 | 1–2 |
 
-The [Cook](cook.md) makes feasts of them, the [Tailor](tailor.md) Arlong's Shoes, the Master's Sail and the Bastille Mask, the [Musician](musician.md) the Hymn of Resolve; the [Fishmonger](../merchants-and-contracts.md) buys a Scale for 1 500 Belly, a Fin for 4 000 and a Head Crest for 15 000.
+The [Cook](cook.md) makes feasts of them (Delicacy Assortment, Meat-Lover's Delight, Roasted Meat Festival), the [Tailor](tailor.md) Arlong's Shoes, the Master's Sail and the Bastille Mask, and the [Musician](musician.md) the Hymn of Resolve scores. The Fishmonger buys a Scale for 1 500 Belly, a Fin for 4 000 and a Head Crest for 15 000 (see [Merchants and contracts](../merchants-and-contracts.md)).
 
 ## Selling your catch
 
@@ -226,4 +226,4 @@ The **Fishmonger**, a travelling merchant, buys Cruise's fish at prices set by h
 
 ## Advancements
 
-The **Fisher** tab opens at Fisher level 1: one advancement per notable catch (Clam Up, Pack a Punch, Cute but Deadly, Jaws, Head in the Clouds…), challenges for the rarest (Living Fossil, See You Later, Giant of the Skies, Where the Fire Swims, Colours of the Aurora, All That Is Gold), and **King of the Sea** for killing a Sea King. They trigger as soon as the item is in your inventory, however you got it.
+The **Fisher** tab opens at Fisher level 1: one advancement per notable catch (Clam Up, Pack a Punch, Cute but Deadly, Jaws, Head in the Clouds…), challenges for the rarest (Living Fossil, See You Later, Giant of the Skies, Where the Fire Swims, Colours of the Aurora, All That Is Gold), and **King of the Sea** for killing a Sea King. The catch advancements trigger as soon as the fish is in your inventory, however you got it.

@@ -1,12 +1,12 @@
 # Lumberjack
 
-The Lumberjack fells trees that grew in the world, plants saplings, and at the top of the trade brings down the three great trees of the islands: the **Kuuigosu**, the **Burning Tree** and the giant **Treasure Tree Adam**, whose woods the [Carpenter](carpenter.md) builds his boats from.
+The Lumberjack fells trees that grew in the world and plants saplings. The trade leads to the three great trees: the **Kuuigosu**, the **Burning Tree** and, at the top of the trade, the giant **Treasure Tree Adam**. The [Carpenter](carpenter.md) builds hulls from their woods.
 
 | | |
 |---|---|
 | Workstation | none: you work in the forest |
 | Tools | the **Woodsman's Axe** and the **Felling Saw**, made by the [Inventor](inventor.md) |
-| Levels | 1 to 100; the Adam at level 50 |
+| Levels | 1 to 100; felling the Adam needs level 50 |
 
 ## Felling for XP
 
@@ -33,11 +33,11 @@ Both are made by the [Inventor](inventor.md) at the Workshop.
 
 - ![](../icons/woodsmans_axe.png){ .item-icon }**Woodsman's Axe** (Inventor 20: 2 Pure Iron Ore, 3 Diamond Fragments, 2 Mysterious Parts, 2 logs)
     - Diamond tier, 1 800 uses, repaired with Diamond Fragments.
-    - "A Lumberjack's second log turns up 25% more often": the level-25 perk's 15 % becomes about 18.75 %.
+    - Its tooltip reads "A Lumberjack's second log turns up 25% more often": the level-25 perk's 15 % becomes 18.75 %.
     - It hits for less than a diamond axe, on purpose.
 - ![](../icons/felling_saw.png){ .item-icon }**Felling Saw** (Inventor 35: 4 Pure Iron Ore, 3 Mysterious Parts, 2 logs)
     - Iron tier, 1 200 uses, repaired with Pure Iron Ore.
-    - "One cut brings down the trunk, up to 64 logs". It follows the logs of the same wood joined to the cut, diagonals included, upward and outward but never below the cut, and skips logs a player placed.
+    - Its tooltip reads "One cut brings down the trunk, up to 64 logs". It follows the logs of the same wood that are joined to the cut, diagonals included, upward and outward but never below the cut, and it skips logs a player placed.
     - Each log costs one use, pays its XP, and can be doubled by the level-25 perk.
 
 ## The three great trees
@@ -53,17 +53,16 @@ Both are made by the [Inventor](inventor.md) at the Workshop.
 | Felling | anyone | anyone | **only a Lumberjack of level 50** |
 | XP per log | 3 | 4 | 6 |
 
-They grow wild only where the ground would take their sapling.
-
+- They grow wild only where the ground would take their sapling.
 - Only a Lumberjack can plant these three saplings. The fruit trees' saplings can be planted by a [Farmer](farmer.md) or a Lumberjack.
-- Anyone else who tries to fell the Adam reads "The Adam does not give. Only a Lumberjack of level 50 can fell it." and the block does not break. The lock covers only its log, its wood and their stripped forms: its leaves, its planks and everything made from them are free to anyone.
+- Anyone else who tries to fell the Adam sees "The Adam does not give. Only a Lumberjack of level 50 can fell it." and the block does not break. The lock covers only its log, its wood and their stripped forms: its leaves, its planks and everything made from them are free to anyone.
 
 ## The woods
 
 Cruise adds **nine wood sets**: the six fruit-tree woods (Red Fruit, Blue Fruit, Brown Fruit, Horrific Pear, Golden Fruit, Palm) and the Lumberjack's three (Kuuigosu, Burning Tree, Adam).
 
 - Each set has thirteen blocks: Log, Stripped Log, Wood, Stripped Wood, Planks, Slab, Stairs, Fence, Fence Gate, Door, Trapdoor, Button and Pressure Plate. An axe strips the log and the wood as in vanilla.
-- The woodwork recipes are ordinary crafting-table recipes, the same as vanilla's, and belong to no trade: they give no trade XP. Any log gives 4 Planks; 4 Logs give 3 Wood; the rest follow the usual vanilla patterns.
+- The woodwork recipes are ordinary crafting-table recipes, the same as vanilla's, and belong to no trade: they give no trade XP. Any of a wood's logs gives 4 Planks, 4 Logs give 3 Wood (4 Stripped Logs give 3 Stripped Wood), and the rest follow the usual vanilla patterns.
 - The planks count as ordinary planks in any recipe that takes "any planks".
 - **Burning Tree wood never catches fire**: it is not flammable and lava does not set it alight. The Burning Tree hull is the fireproof one (see [Boats](../boats.md)).
 
@@ -81,18 +80,18 @@ This table lists the nine woods and their sets:
 | ![](../icons/palm_planks.png){ .item-icon }Palm | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
 | ![](../icons/red_fruit_planks.png){ .item-icon }Red Fruit | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
 
-The [Carpenter](carpenter.md) builds his hulls and lockers from Kuuigosu, Burning Tree and Adam Planks, and Adam Planks also go into the [Blacksmith](blacksmith.md)'s Kuro Kabuto.
+The [Carpenter](carpenter.md) builds hulls and lockers from Kuuigosu, Burning Tree and Adam Planks, and Adam Planks also go into the [Blacksmith](blacksmith.md)'s Kuro Kabuto.
 
 ## Level perks
 
 | Level | Perk | What it does |
 |---|---|---|
 | 10 | "Logs give 50% faster under your axe" | ×1.5 breaking speed on logs |
-| 25 | "15% chance a felled log gives two" | a log from a natural tree drops twice (about 18.75 % with the Woodsman's Axe) |
+| 25 | "15% chance a felled log gives two" | a log from a natural tree drops twice (18.75 % with the Woodsman's Axe) |
 | 40 | "Leaves you break drop saplings twice as often" | the leaves roll their drops a second time, and only the saplings are kept |
 
-Level 50 is not a perk but a lock: only a Lumberjack of level 50 can fell the Treasure Tree Adam.
+Level 50 brings no perk but a lock: only a Lumberjack of level 50 can fell the Treasure Tree Adam.
 
 ## Advancements
 
-The **Lumberjack** tab opens at Lumberjack level 1: Apprentice Lumberjack (level 5), Three Woods (hold a Kuuigosu Log and a Burning Tree Log), and the challenge **The Tree That Cannot Be Chopped Down** (get an Adam Log), which rewards 100 experience.
+The **Lumberjack** tab opens at Lumberjack level 1: Apprentice Lumberjack (level 5), Three Woods (hold a Kuuigosu Log and a Burning Tree Log), and the challenge **The Tree That Cannot Be Chopped Down** (fell the Treasure Tree Adam: getting an Adam Log is enough), which rewards 100 experience points.

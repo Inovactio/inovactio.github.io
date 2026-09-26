@@ -17,13 +17,13 @@ You build the Laboratory at an ordinary crafting table. Anyone can build one:
 |---|---|---|
 | —, Brewing Stand, — | Planks, Glass Bottle, Planks | Planks, Planks, Planks |
 
-It faces you when you place it. Building one earns the **Lab Coat** advancement.
+It faces you when you place it.
 
-Most of the Chemist's ingredients come from the other trades: the [Farmer](farmer.md)'s herbs and fruit, the [Hunter](hunter.md)'s creatures, the [Fisher](fisher.md)'s fish, the [Miner](miner.md)'s fragments. The Sleep Honey for the Sleep Ball comes back with a captured Hidden Forest Bee, 35 % of the time.
+Most of the Chemist's ingredients come from the other trades: the [Farmer](farmer.md)'s herbs and fruit, the [Hunter](hunter.md)'s creatures, the [Fisher](fisher.md)'s fish and the [Miner](miner.md)'s fragments. The Sleep Honey for the Sleep Ball comes with a captured Hidden Forest Bee, 35 % of the time.
 
 ## Remedies
 
-You take a remedy like food, **at any time, even when you are not hungry**: a tonic is drunk, a candy eaten in half the usual time, a powder swallowed. Remedies heal, restore hunger, clear effects and sometimes give a short boost. Their tooltips list what each one does, with hearts shown as ❤ ("Heals 5 ❤").
+You take a remedy like food, but **at any time, even when you are not hungry**: a tonic is drunk, a candy is eaten in half the usual time, a powder is swallowed. Remedies heal, restore hunger, clear effects and sometimes give a short boost. Their tooltips list what each one does, with hearts shown as ❤ ("Heals 5 ❤").
 
 | Remedy | Chemist level | Heals | Hunger | Cures | Boost |
 |---|---|---|---|---|---|
@@ -35,30 +35,30 @@ You take a remedy like food, **at any time, even when you are not hungry**: a to
 | Stamina Tonic | 10 | — | 6 | Slowness, Mining Fatigue, Weakness, Hunger | Speed II for 0:45 |
 | Antidote Powder | 14 | — | — | Poison, Wither, Nausea, Hunger | — |
 | Restorative Drug | 30 | 10 ❤ | — | Poison, Wither, Nausea, Blindness, Weakness, Slowness, Mining Fatigue, Hunger | Regeneration II for 0:10 |
-| Revival Elixir | 36 | 20 ❤ | — | the Restorative Drug's list, and Darkness | — (carried, it saves you: see below) |
+| Revival Elixir | 36 | 20 ❤ | — | the Restorative Drug's list, and Darkness | — (carried, it saves your life: see below) |
 | ![](../icons/medicine.png){ .item-icon }Medicine | 46 | 15 ❤ | — | the same as the Revival Elixir | Regeneration III for 0:20 |
 
-The [Cook](cook.md) also needs the Antidote Powder, for the Fried Scorpion. The Medicine takes 2 of each powder (Thunder, Flame, Gunpowder, Ice) and is rare.
+The [Cook](cook.md) also needs the Antidote Powder, for the Fried Scorpion. The Medicine is rare and takes 2 of each powder (Thunder Powder, Flame Powder, Gunpowder, Ice Powder).
 
 ### ![](../icons/revival_elixir.png){ .item-icon }The Revival Elixir
 
 Made from a Hydramandrake, a Rainbow Phoenix, a Crossbone Butterfly and a Spirit Firefly; it stacks to 16.
 
-- **Drunk**: it heals **20 ❤** and cures Poison, Wither, Nausea, Blindness, Darkness, Weakness, Slowness, Mining Fatigue and Hunger.
-- **Carried**: if you would die with one anywhere in your inventory, one is used up instead. You come back at **half your max health**, cleared of every effect, with **Regeneration II for 0:30** and **Absorption II for 0:05**.
+- **Drunk**, it works like the other remedies: it heals **20 ❤** and cures the effects listed in the table above.
+- **Carried**, it saves your life: if you would die with one anywhere in your inventory, one is used up instead. You come back at **half your max health**, cleared of every effect, with **Regeneration II for 0:30** and **Absorption II for 0:05**.
     - A Totem of Undying held in your hand is used first.
-    - It does not save you from damage that goes through everything, such as the void or /kill.
+    - It does not save you from damage that nothing can block, such as falling into the void or /kill.
 
 ## Powders
 
-Each powder recipe gives **two**.
+Each powder recipe gives **two** powders.
 
 | Powder | Chemist level | Made from |
 |---|---|---|
 | Thunder Powder | 12 | a Lightning Beetle |
 | Flame Powder | 18 | a Fire Hercules |
 | Ice Powder | 20 | an Ice Sunfish |
-| Gunpowder (vanilla) | 26 | 3 Explosive Rock Fragment and a log |
+| Gunpowder (the ordinary Minecraft item) | 26 | 3 Explosive Rock Fragments and a log |
 
 Where the powders go:
 
@@ -71,46 +71,46 @@ Where the powders go:
 
 ## Battle balls
 
-You throw a ball like a snowball, and it bursts where it lands. Every living thing within **2.5 blocks** of the burst is caught, except the thrower. There is a 0.5 second cooldown between throws, and balls stack to 16. Each recipe gives **two balls**.
+You throw a ball like a snowball, and it bursts where it lands. Every living thing within **2.5 blocks** of the burst is caught, except the thrower. Throws have a 0.5 second cooldown, and balls stack to 16. Each recipe gives **two balls**.
 
 | Ball | Chemist level | Made from | What it does |
 |---|---|---|---|
 | ![](../icons/salt_ball.png){ .item-icon }Salt Ball | 14 | 1 Crystallised Salt, 1 Cobweb | **Slowness II for 0:04** to everything caught; **12 damage** (6 ❤) to what a Kage Kage no Mi shadow animates (Mine Mine no Mi's Nightmare Soldier, Doppelman, Tsuno Tokage); **6 damage** (3 ❤) to undead and water creatures |
 | Poison Ball | 24 | 1 Clawed Scorpion, 1 Clay Ball | **Poison II for 0:06** |
 | Sleep Ball | 28 | 2 Sleep Honey, 2 Clay Ball | **Slowness IV, Blindness and Weakness II**, all for 0:08 |
-| ![](../icons/instant_freeze_ball.png){ .item-icon }Instant Freeze Ball | 32 | 6 Ice Powder, 1 Crystallised Salt, 2 Clay Ball | **Slowness IV for 0:05**, and targets freeze through as in powder snow, staying frozen for a moment past fully frozen; still water around the burst turns to **thin ice that melts again** a few seconds later |
+| ![](../icons/instant_freeze_ball.png){ .item-icon }Instant Freeze Ball | 32 | 6 Ice Powder, 1 Crystallised Salt, 2 Clay Ball | **Slowness IV for 0:05**, and targets freeze solid as in powder snow and stay frozen a little longer; still water around the burst turns to **thin ice** that melts again a few seconds later |
 
 ## ![](../icons/potion_of_forgetting.png){ .item-icon }The Potion of Forgetting (level 30, Crew mode only)
 
-Made from a Golden Matsutake, a Mystery Mushroom, Bitter Grass, a Medicinal Herb and a Glass Bottle.
+Made from a Golden Matsutake, a Mystery Mushroom, Bitter Grass, a Medicinal Herb and a Glass Bottle; it is rare, stacks to 16, and is found nowhere else.
 
-- Drinking it opens the choice of a new trade. It is used up **only when you confirm** a choice, so closing the book keeps the potion.
-- On a confirmed choice, **every trade goes back to level 0** and you take up the new one.
+- Drinking it opens the choice of a new trade (not the one you already have). It is used up **only when you confirm** a choice, so closing the book keeps the potion.
+- On a confirmed choice, **all your trade XP is wiped**, in every trade, and you take up the new trade from the start.
 - In **Solo** mode the recipe does not exist, the potion is left out of the creative tab, and a stray potion cannot be drunk.
 
 See [Trades and levels](../trades-and-levels.md) for how the choice works.
 
 ## ![](../icons/rumble_ball.png){ .item-icon }The Rumble Ball (level 42)
 
-Made from a Golden Egg, a Golden Fruit and a Golden Hercules; it is rare. It is eaten fast, at any time.
+Made from a Golden Egg, a Golden Fruit and a Golden Hercules; it is rare. It is eaten quickly, at any time.
 
 - **A Zoan user** gets **Rumble for 3:00**, and **all their ability cooldowns end at once**. While Rumble lasts, they are stronger whenever they are transformed: **+4 attack damage, +6 armour, +50 % knockback resistance, +25 % speed**.
-    - The Hito Hito no Mi (Chopper's fruit), which has no forms in Mine Mine no Mi, gets the boost as it is.
-    - The boost switches on and off as the user transforms and returns, checked twice a second, and ends with the effect.
+    - The Hito Hito no Mi (Chopper's fruit), which has no forms in Mine Mine no Mi, gets the boost without transforming.
+    - The boost switches on when the user transforms and off when they change back (checked twice a second), and it ends with the effect.
 - **A second Rumble Ball while Rumble is still on is an overdose.** The Rumble is lost, and the user gets Nausea (0:15), Weakness II (0:30) and Slowness II (0:15).
 - **Anyone who is not a Zoan user** only gets Nausea for 0:10: "Nothing happens: only a Zoan's body answers a Rumble Ball."
 
 ## ![](../icons/experiment_equipment.png){ .item-icon }The Experiment Equipment (level 50)
 
-Made from 2 of each powder and an Instant Freeze Ball; it is rare and stacks to 1. This is the Chemist's apparatus: **kept in your inventory**, it gives a brew at the Laboratory a **15 % chance to yield one extra**. That chance is rolled only when the level 10 perk's own roll did not already give one.
+Made from 2 of each powder and an Instant Freeze Ball; it is rare and does not stack. This is the Chemist's apparatus: **kept in your inventory**, it gives each brew at the Laboratory a **15 % chance to yield one extra**. That chance is rolled only when the level 10 perk has not already given one.
 
 ## Level perks
 
 | Level | Perk | What it does |
 |---|---|---|
-| 10 | "10% chance a brew yields one more" | at the Laboratory, 10 % chance a brew yields one more ("One more: ...") |
+| 10 | "10% chance a brew yields one more" | at the Laboratory, a brew yields one more 10 % of the time ("One more: ...") |
 | 25 | "Your remedies are potent: they heal and feed 50% more" | your remedies come out **Potent** (tooltip "Potent: brewed by a skilled Chemist"): they heal **50 % more**, feed 50 % more, and their boost lasts 50 % longer. This covers every remedy, the Revival Elixir included, but not the balls, the powders or the Rumble Ball |
-| 40 | "25% chance to save an ingredient" | 25 % chance one ingredient comes back |
+| 40 | "25% chance to save an ingredient" | one ingredient comes back 25 % of the time |
 
 ## The recipes
 
@@ -142,4 +142,8 @@ Every Laboratory recipe, with the Chemist level that unlocks it and the XP it pa
 
 ## Advancements
 
-The **Chemist** tab ("Compound the islands' remedies at the Laboratory") holds **Lab Coat** (build a Laboratory), **Apprentice Chemist** (Chemist level 5), one advancement per notable item (Sweet Relief, First Aid, Second Wind, The Doctor Is In, Bottled Storm, Black Powder, A Pinch of Salt, Poison Pill, Sweet Dreams, Cold Snap), and four challenges: **Back on Your Feet** (a Restorative Drug), **Second Life** (a Revival Elixir), **Rumble!** (a Rumble Ball) and **The Last Flask** (both the Medicine and the Experiment Equipment).
+The **Chemist** tab ("Compound the islands' remedies at the Laboratory") holds:
+
+- **Lab Coat** (build a Laboratory) and **Apprentice Chemist** (reach Chemist level 5);
+- one advancement per notable item: Sweet Relief (Mix Candy), First Aid (Healing Tonic), Second Wind (Stamina Tonic), The Doctor Is In (Antidote Powder), Bottled Storm (Thunder Powder), Black Powder (Gunpowder), A Pinch of Salt (Salt Ball), Poison Pill (Poison Ball), Sweet Dreams (Sleep Ball) and Cold Snap (Instant Freeze Ball);
+- four challenges: **Back on Your Feet** (compound a Restorative Drug), **Second Life** (a Revival Elixir), **Rumble!** (a Rumble Ball) and **The Last Flask** (both the Medicine and the Experiment Equipment).

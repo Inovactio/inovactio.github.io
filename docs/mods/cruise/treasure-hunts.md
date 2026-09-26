@@ -14,18 +14,18 @@ There are three grades: the **Torn Rumor Map**, the **Torn Old Map** and the **T
 
 ### Where they are found
 
-- **Common chests**: shipwrecks (map, supply and treasure chests), underwater ruins (small and big), desert pyramids, jungle temples, pillager outposts, abandoned mineshafts and dungeons. 30 % of these chests hold a map: 80 % a Rumor map, 20 % an Old map.
-- **Rich chests**: buried treasure, woodland mansions, and Mine Mine no Mi's large pirate ship treasure, medium pirate ship captain, Marine battleship treasure, Marine large and small base captain, bandit fort secret stash, ghost ship captain, and easy and hard caravan chests. 50 % of these hold a map: 50 % Rumor, 35 % Old, 15 % Legendary.
-- **Fishing**: when a rod brings up junk, 6 % of the time a Torn Rumor Map comes with it. See the [Fisher](trades/fisher.md).
+- **Common chests**: shipwrecks (map, supply and treasure chests), underwater ruins (small and big), desert pyramids, jungle temples, pillager outposts, abandoned mineshafts and dungeons. 30 % of these chests hold a map: a Rumor map 80 % of the time, an Old map 20 %.
+- **Rich chests**: buried treasure, woodland mansions and, from Mine Mine no Mi, the large pirate ship's treasure, the medium pirate ship's captain, the Marine battleship's treasure, the Marine large and small bases' captain, the bandit fort's secret stash, the ghost ship's captain, and easy and hard caravan chests. 50 % of these hold a map: Rumor 50 %, Old 35 %, Legendary 15 %.
+- **Fishing**: when a rod brings up junk, a Torn Rumor Map comes with it 6 % of the time. See the [Fisher](trades/fisher.md).
 - **Merchants' stalls**: a Torn Rumor Map on 35 % of stalls (600 Belly), a Torn Old Map on 12 % (3 000), a Torn Legendary Map on 3 % (15 000). See [Merchants and contracts](merchants-and-contracts.md).
-- **Contract rewards**: a public contract adds a Torn Rumor Map 20 % of the time, the Merchants' contract a Torn Old Map 50 % of the time.
+- **Contract rewards**: a public contract adds a Torn Rumor Map 20 % of the time; the contract kept for Merchants adds a Torn Old Map 50 % of the time.
 - **Treasure chests**: a Rumor chest holds a Torn Old Map 5 % of the time, an Old chest a Torn Legendary Map 5 %.
 
 ## Deciphering
 
 Use (right-click) the torn map. Only a player who practises the **Merchant** trade can read it, at **level 1** for a Rumor map, **20** for an Old map and **75** for a Legendary map, and only in the **Overworld**. Anyone else is told "Only a Merchant can read this map" (or the level it takes) and keeps the scrap, to sell or give to a Merchant.
 
-Deciphered, the scrap becomes a **Treasure Map (Rumor / Old / Legendary)**: a map of the area around the treasure with a **red X**, in a random direction from where you stand.
+Once deciphered, the scrap becomes a **Treasure Map (Rumor / Old / Legendary)**: a map of the area around the treasure, with a **red X**. The treasure lies in a random direction from where you stood:
 
 | Grade | Merchant level | Distance to the X | Merchant XP when found |
 |---|---|---|---|
@@ -37,7 +37,7 @@ Deciphered, the scrap becomes a **Treasure Map (Rumor / Old / Legendary)**: a ma
 
 **Hold the treasure map in your hand.** The chest is only put in the ground when a player **holding that map** comes within 24 blocks of the X: "The treasure is close: dig under the X!", with a chime. It is buried under the X, below the top block of the ground or of the sea floor.
 
-Still map in hand, hints appear as you close in:
+With the map still in hand, hints appear as you close in:
 
 - "Close..." within 8 blocks;
 - "Very close!" within 4;
@@ -61,7 +61,7 @@ Anyone can open the chest, or break it. The first player to open it gets the "Tr
 
 ### Devil Fruit boxes
 
-When a chest holds a box, its kind is drawn: in an Old chest a Wooden Box 60 % / Iron Box 40 %, in a Legendary chest a Wooden Box 40 % / Iron Box 35 % / Golden Box 25 %. Per chest, that gives:
+When a chest holds a box, its kind is drawn: a Rumor chest always gets a Wooden Box; an Old chest a Wooden Box 60 % of the time, an Iron Box 40 %; a Legendary chest a Wooden Box 40 %, an Iron Box 35 %, a Golden Box 25 %. Per chest, that gives:
 
 | Chest | Wooden Box | Iron Box | Golden Box |
 |---|---|---|---|
@@ -71,7 +71,7 @@ When a chest holds a box, its kind is drawn: in an Old chest a Wooden Box 60 % /
 
 ### The goods
 
-Each draw picks one line; the numbers are how often, out of the total for that grade.
+Each draw picks one line; the number in brackets is its weight, out of the total for that grade.
 
 | Rumor (out of 98) | Old (out of 113) | Legendary (out of 109) |
 |---|---|---|
@@ -90,4 +90,4 @@ The ancient manual is one of Mine Mine no Mi's books.
 
 ## No treasure structure
 
-Cruise adds no treasure structure of its own: the torn maps are added to vanilla and Mine Mine no Mi chests (above), and the treasure chest is a plain chest put under the X when the map's holder arrives.
+Cruise adds no treasure structure of its own: the torn maps are added to vanilla and Mine Mine no Mi chests (see above), and the treasure chest is a plain chest put under the X when the map's holder arrives.

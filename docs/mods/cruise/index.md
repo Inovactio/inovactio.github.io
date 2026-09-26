@@ -55,7 +55,7 @@ Every trade levels from 1 to 100, with **perks** along the way. Its page in the 
 - **Five [merchants](merchants-and-contracts.md)** come to villages and the wild - the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader - and buy what the trades make, for Belly. Each brings **contracts** that pay above the market.
 - **The [Auction House](auction-house.md)**: one market for the whole server.
 - **[Treasure hunts](treasure-hunts.md)**: torn maps in chests, in fishing junk and on the merchants' stalls. A Merchant deciphers them; the X leads to a chest, and now and then to a Devil Fruit box.
-- **The [Bestiary and the log book](bestiary-and-logbook.md)**: every fish, creature, land and place you find, with rewards as you fill them.
+- **The [Bestiary and the Log Book](bestiary-and-logbook.md)**: every fish, creature, land and place you find, with rewards as you fill them.
 - **[Boats](boats.md)** of four hulls and four shapes, built by the Carpenter and rigged by the Tailor.
 - **185 advancements**, a tab per trade, and Jack of All Trades for whoever reaches level 5 in all fourteen.
 

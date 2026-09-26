@@ -38,7 +38,7 @@ The hull is what the boat is built of.
 | Hull | Blows it takes | Speed | Mended with | Special |
 |---|---|---|---|---|
 | ![](icons/reinforced_boat.png){ .item-icon }Reinforced | 3 | normal | any planks | — |
-| ![](icons/kuuigosu_boat.png){ .item-icon }Kuuigosu | 4 | faster: "Buoyant: it rides a quarter faster" | Kuuigosu Planks | — |
+| ![](icons/kuuigosu_boat.png){ .item-icon }Kuuigosu | 4 | faster (its tooltip says "Buoyant: it rides a quarter faster") | Kuuigosu Planks | — |
 | ![](icons/burning_boat.png){ .item-icon }Burning Tree | 6 | normal | Burning Tree Planks | **Fireproof**: fire and lava do not hurt it |
 | ![](icons/adam_boat.png){ .item-icon }Adam | 10 | normal | Adam Planks | — |
 
@@ -107,7 +107,7 @@ The item's tooltip lists its blows, seats and hold, the fishing bonus, "Buoyant"
 
 ## Mending
 
-Only a [Carpenter](trades/carpenter.md) can mend a hull on the water. Anyone else reads "Only a Carpenter can mend a hull afloat."
+Only a [Carpenter](trades/carpenter.md) can mend a hull on the water. Anyone else sees "Only a Carpenter can mend a hull afloat."
 
 - Hold a plank of the hull's wood (any planks for a Reinforced hull) and right-click a damaged boat.
 - Each plank restores one timber, or **two** from Carpenter 25. A hull never goes above its full count.
@@ -118,20 +118,20 @@ Parts are fitted at the ![](icons/upgrade_bench.png){ .item-icon }**Upgrade Benc
 
 | Part | Made by | Level | From | What it does |
 |---|---|---|---|---|
-| ![](icons/boat_sail.png){ .item-icon }Boat Sail | [Tailor](trades/tailor.md) (Sewing Table) | 12 | 4 White Wool, 2 String, 2 Stick, 1 planks | "Faster, but only in open water" |
-| ![](icons/iron_plating.png){ .item-icon }Iron Plating | [Inventor](trades/inventor.md) (Workshop) | 16 | 4 Iron Ingot, 4 Iron Scrap, 1 planks | "The hull carries 2 blows more" |
+| ![](icons/boat_sail.png){ .item-icon }Boat Sail | [Tailor](trades/tailor.md) (Sewing Table) | 12 | 4 White Wool, 2 String, 2 Stick, 1 plank | "Faster, but only in open water" |
+| ![](icons/iron_plating.png){ .item-icon }Iron Plating | [Inventor](trades/inventor.md) (Workshop) | 16 | 4 Iron Ingot, 4 Iron Scrap, 1 plank | "The hull carries 2 blows more" |
 | ![](icons/hull_ram.png){ .item-icon }Hull Ram | Inventor (Workshop) | 26 | 3 Iron Ingot, 2 Pure Iron Ore, 2 Mysterious Parts, 2 planks | "A boat under way hurts what it runs down" |
 | ![](icons/fine_sail.png){ .item-icon }Fine Sail | Tailor (Sewing Table) | 28 | 1 Boat Sail, 3 White Wool, 2 wings, 2 String | "Faster than a plain sail, in open water" |
 | ![](icons/burst_dial.png){ .item-icon }Burst Dial | Inventor (Workshop) | 42 | 1 Jet Dial, 3 Mysterious Parts, 3 Iron Ingot, 2 Iron Scrap | "Right-click a Cola at the tiller: she leaps the way you look" |
 | ![](icons/masters_sail.png){ .item-icon }Master's Sail | Tailor (Sewing Table) | 44 | 1 Fine Sail, 2 White Wool, 2 Sea King Scale, 1 Gold Ingot, 2 String | "The fastest sail, in open water" |
 
-"Wings" means any of the butterflies and moths the [Hunter](trades/hunter.md) catches: Swallowtail Butterfly, Invisible Swallowtail, Crossbone Butterfly, Doze Evil Eye Butterfly, Giant Devil Hand Moth, or the Flying Penguin.
+"Wings" means any of these [Hunter](trades/hunter.md) catches: Swallowtail Butterfly, Invisible Swallowtail, Crossbone Butterfly, Doze Evil Eye Butterfly, Giant Devil Hand Moth or Flying Penguin. "Planks" means any planks.
 
-- **Sails** make the boat faster, **only in open water**. About every two seconds the boat looks for water on most sides of it, 5 blocks out: on a river or in a narrow channel, the sail does nothing. A fitted sail shows on the boat as a mast with canvas across the beam: cream for the Boat Sail, white seamed with blue for the Fine Sail, red and gold for the Master's Sail.
+- **Sails** make the boat faster, **only in open water**. About every two seconds, the boat looks for water on most sides of it, 5 blocks out: on a river or in a narrow channel, the sail does nothing. A fitted sail shows on the boat as a mast with canvas across the beam: cream for the Boat Sail, white seamed with blue for the Fine Sail, red and gold for the Master's Sail.
 - **Iron Plating**: two more blows.
 - **Hull Ram**: while the boat is moving fast enough, it hurts living things it runs into (6 damage, at most once a second) and knocks them away. It never hurts its own passengers and does nothing to other boats.
 - **Burst Dial**: the pilot right-clicks a **Cola** (Mine Mine no Mi's) while steering. The Cola is used up instead of drunk, and the boat leaps the way the pilot is looking. The dial then needs 5 seconds before it takes more ("The dial needs a moment before it will take more cola.").
 
 ## Speed
 
-The hull, the shape, the sail and a [Navigator](trades/navigator.md) at the tiller all multiply a boat's speed. A Navigator of level 10 makes the boats they steer 1 % faster on any water, 2 % from level 40. The total is capped, so these bonuses do not stack without limit.
+The hull, the shape, the sail and a [Navigator](trades/navigator.md) at the tiller all multiply a boat's speed. A Navigator of level 10 makes the Carpenter's boats they steer 1 % faster on any water, and 2 % from level 40 (vanilla boats get nothing). The total is capped, so these bonuses do not stack without limit.

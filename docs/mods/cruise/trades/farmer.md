@@ -1,6 +1,6 @@
 # Farmer
 
-The Farmer plants and picks Cruise's **fruit trees** (from the Red Fruit of the plains to the Golden Fruit of the sky islands) and sows its **crops**, from Bitter Grass to the Wilted Carrot, and is the only one who picks and reaps them cleanly.
+The Farmer plants Cruise's **fruit trees**, from the Red Fruit of the plains to the Golden Fruit of the sky islands, and sows its **crops**, from Bitter Grass to the Wilted Carrot. Only a Farmer picks and reaps them cleanly.
 
 | | |
 |---|---|
@@ -46,7 +46,7 @@ A fruit goes through three stages before it is ripe, and is back about ten minut
 - **Anyone else** bruises the fruit half the time: nothing drops and the bud starts again, with "The fruit bruised in your hands: only a Farmer picks it cleanly."
 - In Solo mode everyone is a Farmer.
 
-A fruit needs leaves directly above it, and drops if the leaves go. A tree fresh from the world or grown from a sapling already carries fruit at mixed stages.
+A fruit needs leaves directly above it, and drops if the leaves go. A newly generated tree, or one grown from a sapling, already carries fruit at mixed stages.
 
 The fruits are food, except the Rubber Fruit:
 
@@ -61,7 +61,7 @@ The fruits are food, except the Rubber Fruit:
 The Golden Fruit belongs to the sky. Cruise adds a **golden orchard** to Mine Mine no Mi's sky islands: a lone island planted with golden fruit trees.
 
 - In a sky-island **town**, it can be one of the islands a bridge leads to.
-- A **lone** sky island is sometimes an orchard: a lone island is plain half the time, an orchard a quarter of the time and a sky lake a quarter of the time.
+- A **lone** sky island is plain half the time, an orchard a quarter of the time and a sky lake the other quarter.
 
 For worlds without the sky islands, Golden Fruit trees also grow, rarely, on windswept hills and in mountain biomes, but only at height 130 or above.
 
@@ -108,16 +108,16 @@ An unripe crop, or one broken by water or a piston, just drops its normal loot.
 | 20 | | Wilted Carrot |
 | 30 | Golden Fruit | |
 
-Fruit saplings can be planted by a [Lumberjack](lumberjack.md) too, at the same level. The Lumberjack's own three trees (the Kuuigosu at Lumberjack 15, the Burning Tree at 25 and the Adam at 50) are covered on the Lumberjack's page; a Farmer can't plant those.
+The [Lumberjack](lumberjack.md)'s own three trees (the Kuuigosu at Lumberjack 15, the Burning Tree at 25 and the Adam at 50) are covered on the Lumberjack's page; a Farmer can't plant those.
 
 ## Level perks
 
 | Level | Perk | What it does |
 |---|---|---|
-| 1 | Bonus harvest | a chance to pick a second fruit, or reap one more produce from a ripe crop: 20 % at level 1, +1 % per level, up to 75 %. The Farmer's page shows your current chance |
-| 10 | Rare harvests half again as common | the Cactus Flower and the Golden Matsutake come half again as often on crops you reap yourself |
-| 40 | Rare harvests twice as common | the Cactus Flower and the Golden Matsutake come twice as often (replaces the level-10 perk) |
+| 1 | "Bonus harvest" | a chance to pick a second fruit, or to reap one more produce from a ripe crop: 20 % at level 1, +1 % per level, up to 75 %. The Farmer's page shows your current chance |
+| 10 | "Rare harvests half again as common" | the Cactus Flower and the Golden Matsutake come half again as often from the crops you reap |
+| 40 | "Rare harvests twice as common" | the Cactus Flower and the Golden Matsutake come twice as often (replaces the level-10 perk) |
 
 ## Advancements
 
-The **Farmer** tab opens at Farmer level 1 and holds 12 advancements, among them **Apprentice** at level 5.
+The **Farmer** tab opens at Farmer level 1 and holds 12 advancements, among them **Apprentice Farmer** at level 5.
