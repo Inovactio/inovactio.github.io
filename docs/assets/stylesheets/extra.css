@@ -152,3 +152,17 @@
     height: 80px;
   }
 }
+
+/* A form (morph) an ability gives, under the ability's title on an InoFruits fruit page. */
+.md-typeset img.form-picture {
+  display: block;
+  height: 200px;
+  width: auto;
+  margin: 0.4em 0 1em;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset img.form-picture {
+    height: 150px;
+  }
+}

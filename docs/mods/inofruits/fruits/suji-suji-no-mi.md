@@ -11,6 +11,10 @@
 | **Abilities** | 5: 5 active, 0 passive |
 | **Transformations** | [Suji Suji Upper Point](#suji-suji-upper-point), [Suji Suji Lower Point](#suji-suji-lower-point), [Suji Suji Full Point](#suji-suji-full-point) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="suji-suji-upper-point suji-suji-lower-point suji-suji-full-point"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -20,17 +24,23 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/suji-suji-upper-point.png){ .ability-icon } *Active · Transformation*
 
+![Suji Suji Upper Point](../forms/suji-suji-upper-point.png){ .form-picture }
+
 Muscle fibers grow over the chest and arms, hitting extremely hard but very slowly
 
 ## Suji Suji Lower Point { #suji-suji-lower-point }
 
 ![](../abilities/suji-suji-lower-point.png){ .ability-icon } *Active · Transformation*
 
+![Suji Suji Lower Point](../forms/suji-suji-lower-point.png){ .form-picture }
+
 Muscle fibers grow over the legs, making the user run faster and jump higher without hitting harder.
 
 ## Suji Suji Full Point { #suji-suji-full-point }
 
 ![](../abilities/suji-suji-full-point.png){ .ability-icon } *Active · Transformation*
+
+![Suji Suji Full Point](../forms/suji-suji-full-point.png){ .form-picture }
 
 Muscle fibers grow over the whole body, hitting harder and moving faster but less than the other two forms
 

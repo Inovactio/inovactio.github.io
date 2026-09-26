@@ -12,6 +12,10 @@
 | **Transformations** | [Kugi Yoroi](#kugi-yoroi) |
 | **Effects applied** | ![](../effect-icons/nailed.png){ .effect-mini }[Nailed](../effects.md#effect-nailed) |
 
+Its form in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="kugi-yoroi"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -60,6 +64,8 @@ Marks the targeted spot, then rains small nails down on it; each one slows, and 
 ## Kugi Yoroi { #kugi-yoroi }
 
 ![](../abilities/kugi-yoroi.png){ .ability-icon } *Active · Transformation*
+
+![Kugi Yoroi](../forms/kugi-yoroi.png){ .form-picture }
 
 Applies ![](../effect-icons/nailed.png){ .effect-mini }[Nailed](../effects.md#effect-nailed)
 

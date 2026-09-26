@@ -11,6 +11,10 @@
 | **Transformations** | [Nezu Nezu Walk Point](#nezu-nezu-walk-point), [Nezu Nezu Heavy Point](#nezu-nezu-heavy-point) |
 | **Effects applied** | ![](../effect-icons/ekibyo.png){ .effect-mini }[Ekibyo](../effects.md#effect-ekibyo) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="nezu-nezu-walk-point nezu-nezu-heavy-point"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -20,11 +24,15 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/nezu-nezu-walk-point.png){ .ability-icon } *Active · Transformation*
 
+![Nezu Nezu Walk Point](../forms/nezu-nezu-walk-point.png){ .form-picture }
+
 Transforms the user into a rat, which is small enough to fit anywhere and too light to get hurt by falls.
 
 ## Nezu Nezu Heavy Point { #nezu-nezu-heavy-point }
 
 ![](../abilities/nezu-nezu-heavy-point.png){ .ability-icon } *Active · Transformation*
+
+![Nezu Nezu Heavy Point](../forms/nezu-nezu-heavy-point.png){ .form-picture }
 
 Transforms the user into a rat hybrid with whiskers and a tail, a third smaller and harder to hit
 

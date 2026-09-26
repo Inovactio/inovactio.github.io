@@ -10,6 +10,10 @@
 | **Abilities** | 5: 5 active, 0 passive |
 | **Transformations** | [Usa Usa Walk Point](#usa-usa-walk-point), [Usa Usa Heavy Point](#usa-usa-heavy-point) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="usa-usa-walk-point usa-usa-heavy-point"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/usa-usa-walk-point.png){ .ability-icon } *Active · Transformation*
 
+![Usa Usa Walk Point](../forms/usa-usa-walk-point.png){ .form-picture }
+
 Transforms the user into a hare, which focuses on speed and being small
 
 ## Usa Usa Heavy Point { #usa-usa-heavy-point }
 
 ![](../abilities/usa-usa-heavy-point.png){ .ability-icon } *Active · Transformation*
+
+![Usa Usa Heavy Point](../forms/usa-usa-heavy-point.png){ .form-picture }
 
 Transforms the user into a hare hybrid with long ears and hind legs, slower than the full hare.
 
