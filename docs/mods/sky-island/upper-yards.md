@@ -22,6 +22,20 @@ A little over half of the Upper Yards hold the ruins of **Shandora**, sometimes 
 
 The warriors of Shandora, and their chief, guarding their land. **They attack only looters**: leave their chests shut and they leave you alone.
 
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Shandia warrior with a burn bazooka](mobs/shandia-warrior.png)
+<figcaption>A warrior (one of six looks)</figcaption>
+</figure>
+
+<figure markdown>
+![The Shandia chief](mobs/shandia-chief.png)
+<figcaption>The chief</figcaption>
+</figure>
+
+</div>
+
 - Their weapons: the **Shandia spear** and the **burn bazooka**, both items of this mod.
 - Their skills, from dials: the burn bazooka, impact, a breath dash, a sky step, and the chief's reject.
 - Few of them at a time: a chief and a warrior on Shandora's square, one in the temple, one in the tower.
