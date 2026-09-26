@@ -10,6 +10,10 @@
 | **Abilities** | 4: 4 active, 0 passive |
 | **Transformations** | [Kani Kani Guard Point](#kani-kani-guard-point), [Kani Kani Heavy Point](#kani-kani-heavy-point) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="kani-kani-guard-point kani-kani-heavy-point"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/kani-kani-guard-point.png){ .ability-icon } *Active · Transformation*
 
+![Kani Kani Guard Point](../forms/kani-kani-guard-point.png){ .form-picture }
+
 Transforms the user into a crab, which focuses on defense, can breathe underwater and walk on the sea floor.
 
 ## Kani Kani Heavy Point { #kani-kani-heavy-point }
 
 ![](../abilities/kani-kani-heavy-point.png){ .ability-icon } *Active · Transformation*
+
+![Kani Kani Heavy Point](../forms/kani-kani-heavy-point.png){ .form-picture }
 
 Grows a shell over the chest and a pincer on each arm, making the user hard to push and slow
 

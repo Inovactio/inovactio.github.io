@@ -10,6 +10,10 @@
 | **Abilities** | 7: 5 active, 2 passive |
 | **Transformations** | [Zuku Zuku Fly Point](#zuku-zuku-fly-point), [Zuku Zuku Assault Point](#zuku-zuku-assault-point) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="zuku-zuku-fly-point zuku-zuku-assault-point"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/zuku-zuku-fly-point.png){ .ability-icon } *Active · Transformation*
 
+![Zuku Zuku Fly Point](../forms/zuku-zuku-fly-point.png){ .form-picture }
+
 Transforms the user into an owl, which is bad on foot but light as a feather when falling
 
 ## Zuku Zuku Assault Point { #zuku-zuku-assault-point }
 
 ![](../abilities/zuku-zuku-assault-point.png){ .ability-icon } *Active · Transformation*
+
+![Zuku Zuku Assault Point](../forms/zuku-zuku-assault-point.png){ .form-picture }
 
 Transforms the user into an owl hybrid with talons, a beak and wings for arms.
 

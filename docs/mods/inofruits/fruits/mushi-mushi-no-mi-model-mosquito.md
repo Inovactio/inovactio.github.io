@@ -11,6 +11,10 @@
 | **Transformations** | [Mushi Mushi Fly Point](#mushi-mushi-fly-point), [Mushi Mushi Heavy Point](#mushi-mushi-heavy-point) |
 | **Effects applied** | ![](../effect-icons/chibukure.png){ .effect-mini }[Chibukure](../effects.md#effect-chibukure) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="mushi-mushi-fly-point mushi-mushi-heavy-point"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -20,11 +24,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/mushi-mushi-fly-point.png){ .ability-icon } *Active · Transformation*
 
+![Mushi Mushi Fly Point](../forms/mushi-mushi-fly-point.png){ .form-picture }
+
 Transforms the user into a mosquito, the smallest and weakest form there is.
 
 ## Mushi Mushi Heavy Point { #mushi-mushi-heavy-point }
 
 ![](../abilities/mushi-mushi-heavy-point.png){ .ability-icon } *Active · Transformation*
+
+![Mushi Mushi Heavy Point](../forms/mushi-mushi-heavy-point.png){ .form-picture }
 
 Transforms the user into a mosquito hybrid with big eyes, a proboscis and wings
 

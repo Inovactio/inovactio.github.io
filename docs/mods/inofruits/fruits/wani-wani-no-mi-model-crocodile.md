@@ -11,6 +11,10 @@
 | **Transformations** | [Wani Wani Walk Point](#wani-wani-walk-point), [Wani Wani Heavy Point](#wani-wani-heavy-point) |
 | **Effects applied** | ![](../effect-icons/belly-crawl.png){ .effect-mini }[Belly Crawl](../effects.md#effect-belly-crawl) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="wani-wani-walk-point wani-wani-heavy-point"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -20,11 +24,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/wani-wani-walk-point.png){ .ability-icon } *Active · Transformation*
 
+![Wani Wani Walk Point](../forms/wani-wani-walk-point.png){ .form-picture }
+
 Transforms the user into a crocodile, which is slow and armored on land but twice as fast in water.
 
 ## Wani Wani Heavy Point { #wani-wani-heavy-point }
 
 ![](../abilities/wani-wani-heavy-point.png){ .ability-icon } *Active · Transformation*
+
+![Wani Wani Heavy Point](../forms/wani-wani-heavy-point.png){ .form-picture }
 
 Transforms the user into a crocodile hybrid with plates and long jaws, still good in the water
 

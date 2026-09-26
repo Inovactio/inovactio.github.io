@@ -11,6 +11,10 @@
 | **Abilities** | 5: 5 active, 0 passive |
 | **Transformations** | [Neji Neji Point](#neji-neji-point) |
 
+Its form in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="neji-neji-point"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,6 +23,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Neji Neji Point { #neji-neji-point }
 
 ![](../abilities/neji-neji-point.png){ .ability-icon } *Active · Transformation*
+
+![Neji Neji Point](../forms/neji-neji-point.png){ .form-picture }
 
 Turns both of the user's forearms into spinning drills, hitting hard but slowly and breaking through stone
 

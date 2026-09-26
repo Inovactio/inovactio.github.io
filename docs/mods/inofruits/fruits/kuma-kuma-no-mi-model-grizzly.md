@@ -10,6 +10,10 @@
 | **Abilities** | 8: 6 active, 2 passive |
 | **Transformations** | [Kuma Kuma Walk Point](#kuma-kuma-walk-point), [Kuma Kuma Heavy Point](#kuma-kuma-heavy-point) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="kuma-kuma-walk-point kuma-kuma-heavy-point"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/kuma-kuma-walk-point.png){ .ability-icon } *Active · Transformation*
 
+![Kuma Kuma Walk Point](../forms/kuma-kuma-walk-point.png){ .form-picture }
+
 Transforms the user into a grizzly hybrid with huge clawed arms, which focuses on strength.
 
 ## Kuma Kuma Heavy Point { #kuma-kuma-heavy-point }
 
 ![](../abilities/kuma-kuma-heavy-point.png){ .ability-icon } *Active · Transformation*
+
+![Kuma Kuma Heavy Point](../forms/kuma-kuma-heavy-point.png){ .form-picture }
 
 Transforms the user into a grizzly, which focuses on strength and charging.
 

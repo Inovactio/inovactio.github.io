@@ -11,6 +11,10 @@
 | **Abilities** | 6: 6 active, 0 passive |
 | **Transformations** | [Hone Hone Point](#hone-hone-point) |
 
+Its form in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="hone-hone-point"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,6 +23,8 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 ## Hone Hone Point { #hone-hone-point }
 
 ![](../abilities/hone-hone-point.png){ .ability-icon } *Active · Transformation*
+
+![Hone Hone Point](../forms/hone-hone-point.png){ .form-picture }
 
 The user wears their skeleton on the outside, which makes the other bone techniques stronger while active
 

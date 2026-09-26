@@ -11,6 +11,10 @@
 | **Transformations** | [Uma Uma Walk Point](#uma-uma-walk-point), [Uma Uma Heavy Point](#uma-uma-heavy-point) |
 | **Effects applied** | ![](../effect-icons/purified.png){ .effect-mini }[Purified](../effects.md#effect-purified) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="uma-uma-walk-point uma-uma-heavy-point"></div>
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -20,11 +24,15 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/uma-uma-walk-point.png){ .ability-icon } *Active · Transformation*
 
+![Uma Uma Walk Point](../forms/uma-uma-walk-point.png){ .form-picture }
+
 Transforms the user into a unicorn, which focuses on speed and can carry allies.
 
 ## Uma Uma Heavy Point { #uma-uma-heavy-point }
 
 ![](../abilities/uma-uma-heavy-point.png){ .ability-icon } *Active · Transformation*
+
+![Uma Uma Heavy Point](../forms/uma-uma-heavy-point.png){ .form-picture }
 
 Transforms the user into a unicorn hybrid, which focuses on strength and the horn.
 

@@ -10,6 +10,10 @@
 | **Abilities** | 7: 6 active, 1 passive |
 | **Transformations** | [Kero Kero Walk Point](#kero-kero-walk-point), [Kero Kero Heavy Point](#kero-kero-heavy-point) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="kero-kero-walk-point kero-kero-heavy-point"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/kero-kero-walk-point.png){ .ability-icon } *Active · Transformation*
 
+![Kero Kero Walk Point](../forms/kero-kero-walk-point.png){ .form-picture }
+
 Transforms the user into a frog, which focuses on jumping and staying low
 
 ## Kero Kero Heavy Point { #kero-kero-heavy-point }
 
 ![](../abilities/kero-kero-heavy-point.png){ .ability-icon } *Active · Transformation*
+
+![Kero Kero Heavy Point](../forms/kero-kero-heavy-point.png){ .form-picture }
 
 Transforms the user into a frog hybrid with human hands, a frog head and frog legs.
 

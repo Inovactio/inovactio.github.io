@@ -10,6 +10,10 @@
 | **Abilities** | 6: 5 active, 1 passive |
 | **Transformations** | [Isa Isa Guard Point](#isa-isa-guard-point), [Isa Isa Heavy Point](#isa-isa-heavy-point) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="isa-isa-guard-point isa-isa-heavy-point"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/isa-isa-guard-point.png){ .ability-icon } *Active · Transformation*
 
+![Isa Isa Guard Point](../forms/isa-isa-guard-point.png){ .form-picture }
+
 Transforms the user into a whale, which focuses on defense, barely moving on land but very fast in water.
 
 ## Isa Isa Heavy Point { #isa-isa-heavy-point }
 
 ![](../abilities/isa-isa-heavy-point.png){ .ability-icon } *Active · Transformation*
+
+![Isa Isa Heavy Point](../forms/isa-isa-heavy-point.png){ .form-picture }
 
 Transforms the user into a whale hybrid that can still walk at normal speed.
 

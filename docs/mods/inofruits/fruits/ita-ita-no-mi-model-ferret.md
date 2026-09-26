@@ -10,6 +10,10 @@
 | **Abilities** | 7: 7 active, 0 passive |
 | **Transformations** | [Ita Ita Walk Point](#ita-ita-walk-point), [Ita Ita Heavy Point](#ita-ita-heavy-point) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="ita-ita-walk-point ita-ita-heavy-point"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/ita-ita-walk-point.png){ .ability-icon } *Active · Transformation*
 
+![Ita Ita Walk Point](../forms/ita-ita-walk-point.png){ .form-picture }
+
 Transforms the user into a ferret, which focuses on speed and staying low to the ground
 
 ## Ita Ita Heavy Point { #ita-ita-heavy-point }
 
 ![](../abilities/ita-ita-heavy-point.png){ .ability-icon } *Active · Transformation*
+
+![Ita Ita Heavy Point](../forms/ita-ita-heavy-point.png){ .form-picture }
 
 Transforms the user into a ferret hybrid, which focuses on speed and claw attacks.
 

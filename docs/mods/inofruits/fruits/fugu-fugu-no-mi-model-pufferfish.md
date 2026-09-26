@@ -10,6 +10,10 @@
 | **Abilities** | 7: 5 active, 2 passive |
 | **Transformations** | [Fugu Fugu Guard Point](#fugu-fugu-guard-point), [Fugu Fugu Heavy Point](#fugu-fugu-heavy-point) |
 
+Its forms in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="fugu-fugu-guard-point fugu-fugu-heavy-point"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/fugu-fugu-guard-point.png){ .ability-icon } *Active · Transformation*
 
+![Fugu Fugu Guard Point](../forms/fugu-fugu-guard-point.png){ .form-picture }
+
 Transforms the user into a pufferfish, which focuses on defense, good underwater but too round for most doors.
 
 ## Fugu Fugu Heavy Point { #fugu-fugu-heavy-point }
 
 ![](../abilities/fugu-fugu-heavy-point.png){ .ability-icon } *Active · Transformation*
+
+![Fugu Fugu Heavy Point](../forms/fugu-fugu-heavy-point.png){ .form-picture }
 
 Covers the user's chest, arms and legs in spiky pufferfish skin
 

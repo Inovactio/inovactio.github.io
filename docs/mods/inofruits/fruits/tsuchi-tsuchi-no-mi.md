@@ -12,6 +12,10 @@
 | **Transformations** | [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) |
 | **Effects applied** | ![](../effect-icons/nomikomi.png){ .effect-mini }[Nomikomi](../effects.md#effect-nomikomi) |
 
+Its form in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="tsuchi-tsuchi-golem"></div>
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -103,6 +107,8 @@ Applies ![](../effect-icons/nomikomi.png){ .effect-mini }[Nomikomi](../effects.m
 ## Tsuchi Tsuchi Golem { #tsuchi-tsuchi-golem }
 
 ![](../abilities/tsuchi-tsuchi-golem.png){ .ability-icon } *Active · Transformation*
+
+![Tsuchi Tsuchi Golem](../forms/tsuchi-tsuchi-golem.png){ .form-picture }
 
 The user covers themselves in earth, becoming much harder to hurt but much slower.
 

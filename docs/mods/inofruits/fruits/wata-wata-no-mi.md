@@ -11,6 +11,10 @@
 | **Abilities** | 5: 4 active, 1 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Wata Yoroi](#wata-yoroi) |
 
+Its form in 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../forms/" data-ids="wata-yoroi"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,6 +23,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Wata Yoroi { #wata-yoroi }
 
 ![](../abilities/wata-yoroi.png){ .ability-icon } *Active · Transformation*
+
+![Wata Yoroi](../forms/wata-yoroi.png){ .form-picture }
 
 Covers the chest, shoulders and arms in cotton, reducing damage from hits and falls.
 
