@@ -126,6 +126,11 @@ The [Inventor](inventor.md) makes four parts at the Workshop. Anyone fits them a
 
 Creatures appear around you, 16 to 48 blocks away. Every 5 seconds each kind rolls its chance to appear, up to a cap on how many of it may be nearby. Hunter levels are in brackets.
 
+
+Every creature in 3D (drag to turn, scroll or pinch to zoom); the Hercules Beetle and the Swallowtail Butterfly show their rare variant under their buttons:
+
+<div class="model-viewer" data-models="../../models/" data-ids="a-class-toad antlion-lacewing atlas-beetle clawed-scorpion crossbone-butterfly doctor-hornet doze-evil-eye-butterfly fire-hercules flying-penguin giant-devil-hand-moth hercules-beetle hidden-forest-bee horned-icicle-lizard ice-stag-beetle jungle-lizard lantern-firefly lightbulb-firefly lightning-beetle mole oil-stain-frog purple-poison-frog rainbow-phoenix red-eyed-spotted-frog rock-lizard seagull spirit-firefly swallowtail-butterfly tempest-mouse thunder-spider tree-frog umbrella-frog"></div>
+
 **The sky.** Three creatures live on Mine Mine no Mi's sky islands, from height 150 up. Each also has a home on the ground, for worlds without sky islands.
 
 - **Lightning Beetle** (25, Enhanced net only). It clings to the quartz trees' trunks and crackles with sparks; rarer on forest trunks. It takes off when disturbed and carries Thunder Powder.

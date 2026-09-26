@@ -163,6 +163,23 @@ Sea Kings are **hooked**, never found. In a **deep-ocean** biome, with enough wa
 | **Extra-Large Sea King** | 47 | 24+ | 0.7 % | 200 (100 hearts) | 11 |
 | **Goldfish Sea King** (a giant carp) | 50 | 28+ | 0.4 % | 260 (130 hearts) | 14 |
 
+
+<div class="mob-gallery " markdown>
+
+<figure markdown>
+![The Sea King (and the Extra-Large one, bigger)](../pictures/sea-king.png)
+<figcaption>The Sea King (and the Extra-Large one, bigger)</figcaption>
+</figure>
+
+<figure markdown>
+![The Goldfish Sea King](../pictures/goldfish-sea-king.png)
+<figcaption>The Goldfish Sea King</figcaption>
+</figure>
+
+</div>
+
+<div class="model-viewer" data-models="../../models/" data-ids="sea-king goldfish-sea-king"></div>
+
 | Sea King | Fisher XP on the hook | First hook bonus | On the kill |
 |---|---|---|---|
 | Sea King | 200 | +1 000 | 900 |

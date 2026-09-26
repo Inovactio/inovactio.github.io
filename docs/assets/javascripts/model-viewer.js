@@ -7,7 +7,8 @@
  * Drag to turn it, scroll or pinch to zoom; it turns slowly on its own until touched.
  *
  * A pose is either one list of faces (drawn with the chosen variant's texture) or `layers`, each {texture, size,
- * faces}: a partial form is the player's model and the form's own, each with its texture.
+ * faces}: a partial form is the player's model and the form's own, each with its texture. A layer's texture may be
+ * "$variant": the variant chosen (a boat's hull under its sail).
  *
  * A face is [ox, oy, oz, ux, uy, uz, vx, vy, vz, tu, tv, tw, th, nx, ny, nz] in Minecraft model space (y down, head
  * towards -z): corners O, O+U, O+U+V, O+V, texture rectangle (tu, tv, tw, th) in texels. The shading matches the
@@ -141,7 +142,9 @@
     // Older files have one layer: the pose's faces, with the chosen variant's texture.
     function layers() {
       const p = data.poses[pose];
-      return p.layers || [{ texture: data.variants[variant].texture, size: data.texture, faces: p.faces }];
+      if (!p.layers) return [{ texture: data.variants[variant].texture, size: data.texture, faces: p.faces }];
+      // a layer whose texture is "$variant" wears the chosen variant's (a boat: the hull chosen, then its sail)
+      return p.layers.map(l => l.texture === '$variant' ? Object.assign({}, l, { texture: data.variants[variant].texture }) : l);
     }
 
     function upload() {
