@@ -44,6 +44,16 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     [:octicons-arrow-right-24: Read the wiki](mods/sky-island/index.md)
 
+-   ![](assets/icons/cruise.png){ .card-icon } **Cruise Cruise no Mi**
+
+    ---
+
+    The professions and the island life of One Piece: Unlimited Cruise 2: fourteen trades, from the Fisher to the Musician, merchants, boats and treasure hunts.
+
+    **Needs:** Mine Mine no Mi, AkumaLib
+
+    [:octicons-arrow-right-24: Read the wiki](mods/cruise/index.md)
+
 -   ![](assets/icons/akumalib.png){ .card-icon } **AkumaLib**
 
     ---

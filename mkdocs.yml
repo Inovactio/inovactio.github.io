@@ -62,9 +62,7 @@ extra_javascript:
   - assets/javascripts/model-viewer.js
 
 # Unreleased mods: their pages stay in the repository but are not built or published.
-# Remove a line here, and add the page back to the nav and the home page, when the mod is released.
-exclude_docs: |
-  /mods/cruise/
+# Add a line here for one, and remove it (adding the page back to the nav and the home page) when it is released.
 
 markdown_extensions:
   - admonition
@@ -225,6 +223,10 @@ nav:
       - Wildlife: mods/sky-island/wildlife.md
       - Configuration: mods/sky-island/configuration.md
       - Changelog: mods/sky-island/changelog.md
+  - Cruise Cruise no Mi:
+      - mods/cruise/index.md
+      - Configuration: mods/cruise/configuration.md
+      - Changelog: mods/cruise/changelog.md
   - AkumaLib:
       - akumalib/index.md
       - Getting started: akumalib/getting-started.md
