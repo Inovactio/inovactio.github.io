@@ -12,6 +12,12 @@ Skypiea's animals, after the manga: two birds you can ride, a living compass, an
 
 All five have spawn eggs in the **Skypiea** creative tab.
 
+## In 3D
+
+Drag to turn an animal round, scroll (or pinch) to zoom. The buttons under it show its coats, its saddle, and the birds on the ground.
+
+<div class="model-viewer" data-models="../models/" data-ids="south-bird sky-dot-bird three-jo-bird cloud-fox giant-dog"></div>
+
 ## The South Bird
 
 The bird of Jaya, grown **huge** on Skypiea (about two blocks tall), and friendly. It perches and takes to the air now and then. **A living compass**: whenever it stops, it swings round to face **south**, beak and all — a way to find your bearings on a sea of clouds.
