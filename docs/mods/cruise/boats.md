@@ -2,6 +2,35 @@
 
 The [Carpenter](trades/carpenter.md)'s boats look and steer like vanilla boats. The difference is the **hull**: it is counted in **blows** (timbers) and takes several hits before it gives, instead of breaking at the first one. There are **sixteen boats**: four hulls, each in four shapes. Anyone can ride them; only a Carpenter builds and mends them.
 
+
+<div class="mob-gallery small" markdown>
+
+<figure markdown>
+![Reinforced, with a Boat Sail](pictures/reinforced-boat-sail.png)
+<figcaption>Reinforced, with a Boat Sail</figcaption>
+</figure>
+
+<figure markdown>
+![Kuuigosu, with a Boat Sail](pictures/kuuigosu-boat-sail.png)
+<figcaption>Kuuigosu, with a Boat Sail</figcaption>
+</figure>
+
+<figure markdown>
+![Burning Tree, with a Fine Sail](pictures/burning-boat-sail.png)
+<figcaption>Burning Tree, with a Fine Sail</figcaption>
+</figure>
+
+<figure markdown>
+![Adam, with a Master's Sail](pictures/adam-boat-sail.png)
+<figcaption>Adam, with a Master's Sail</figcaption>
+</figure>
+
+</div>
+
+In 3D: the four shapes, each in its four hulls and with or without a sail (drag to turn, scroll or pinch to zoom):
+
+<div class="model-viewer" data-models="../models/" data-ids="boat longboat cargo-boat fishing-boat"></div>
+
 ## Hulls
 
 The hull is what the boat is built of.
@@ -18,6 +47,31 @@ The Kuuigosu, Burning Tree and Adam woods come from the [Lumberjack](trades/lumb
 ## Shapes
 
 The shape is what the boat was built as, and gives it its name ("Kuuigosu Longboat", "Adam Cargo Boat"…).
+
+
+<div class="mob-gallery small" markdown>
+
+<figure markdown>
+![Boat](pictures/reinforced-boat.png)
+<figcaption>Boat</figcaption>
+</figure>
+
+<figure markdown>
+![Longboat](pictures/reinforced-longboat.png)
+<figcaption>Longboat</figcaption>
+</figure>
+
+<figure markdown>
+![Cargo Boat](pictures/reinforced-cargo-boat.png)
+<figcaption>Cargo Boat</figcaption>
+</figure>
+
+<figure markdown>
+![Fishing Boat](pictures/reinforced-fishing-boat.png)
+<figcaption>Fishing Boat</figcaption>
+</figure>
+
+</div>
 
 | Shape | Seats | Hold | Notes |
 |---|---|---|---|

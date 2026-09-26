@@ -22,6 +22,38 @@ The merchants are civilians: no mob harms them (Marines, pirates, bandits, stray
 
 All prices on this page are in Belly.
 
+
+<div class="mob-gallery small" markdown>
+
+<figure markdown>
+![Fishmonger](pictures/fishmonger.png)
+<figcaption>Fishmonger</figcaption>
+</figure>
+
+<figure markdown>
+![Hunting Merchant](pictures/hunting-merchant.png)
+<figcaption>Hunting Merchant</figcaption>
+</figure>
+
+<figure markdown>
+![Travelling Cook](pictures/travelling-cook.png)
+<figcaption>Travelling Cook</figcaption>
+</figure>
+
+<figure markdown>
+![Prospector](pictures/prospector.png)
+<figcaption>Prospector</figcaption>
+</figure>
+
+<figure markdown>
+![Materials Trader](pictures/materials-trader.png)
+<figcaption>Materials Trader</figcaption>
+</figure>
+
+</div>
+
+<div class="model-viewer" data-models="../models/" data-ids="fishmonger hunting-merchant travelling-cook prospector materials-trader"></div>
+
 ## When and where they come
 
 - Every 5 minutes (by default), each of the five merchants gets **one try**. For each, a random player in the Overworld is picked.
