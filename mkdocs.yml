@@ -222,6 +222,7 @@ nav:
       - Upper Yards: mods/sky-island/upper-yards.md
       - Wildlife: mods/sky-island/wildlife.md
       - Configuration: mods/sky-island/configuration.md
+      - Changelog: mods/sky-island/changelog.md
   - AkumaLib:
       - akumalib/index.md
       - Getting started: akumalib/getting-started.md
