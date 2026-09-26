@@ -5,6 +5,9 @@
  * pose, and its texture variants) and shows one at a time, with buttons for the animal, its variant and its pose.
  * Drag to turn it, scroll or pinch to zoom; it turns slowly on its own until touched.
  *
+ * A pose is either one list of faces (drawn with the chosen variant's texture) or `layers`, each {texture, size,
+ * faces}: a partial form is the player's model and the form's own, each with its texture.
+ *
  * A face is [ox, oy, oz, ux, uy, uz, vx, vy, vz, tu, tv, tw, th, nx, ny, nz] in Minecraft model space (y down, head
  * towards -z): corners O, O+U, O+U+V, O+V, texture rectangle (tu, tv, tw, th) in texels. The shading matches the
  * static pictures on the page: 0.55 + 0.45 * max(0, n.l).
@@ -69,10 +72,8 @@
     for (let i = 0; i < pos.length; i += 3) for (let k = 0; k < 3; k++) {
       lo[k] = Math.min(lo[k], pos[i + k]); hi[k] = Math.max(hi[k], pos[i + k]);
     }
-    const centre = lo.map((l, k) => (l + hi[k]) / 2);
-    const radius = Math.hypot(hi[0] - lo[0], hi[1] - lo[1], hi[2] - lo[2]) / 2;
     return { pos: new Float32Array(pos), uv: new Float32Array(uv), nor: new Float32Array(nor),
-      idx: new Uint16Array(idx), centre: centre, radius: radius };
+      idx: new Uint16Array(idx), lo: lo, hi: hi };
   }
 
   function button(label, onClick) {
@@ -102,46 +103,68 @@
     gl.linkProgram(prog);
     gl.useProgram(prog);
     gl.enable(gl.DEPTH_TEST);
-    const buffers = { pos: gl.createBuffer(), uv: gl.createBuffer(), nor: gl.createBuffer(), idx: gl.createBuffer() };
     const attr = n => gl.getAttribLocation(prog, n);
-    const texture = gl.createTexture();
+    const textures = {};
 
-    let models = [], data = null, mesh = null, animal = 0, variant = 0, pose = 0;
-    let yaw = -2.5, pitch = 0.45, zoom = 1.4, spinning = true, count = 0;
+    let models = [], data = null, meshes = [], frame = null, animal = 0, variant = 0, pose = 0;
+    let yaw = -2.5, pitch = 0.45, zoom = 1.4, spinning = true;
 
     function highlight(row, i) {
       [...row.children].forEach((b, k) => b.classList.toggle('md-button--primary', k === i));
     }
 
-    function upload() {
-      mesh = buildMesh(data.poses[pose].faces, data.texture);
-      count = mesh.idx.length;
-      [['pos', 3, 'position'], ['uv', 2, 'uv'], ['nor', 3, 'normal']].forEach(function ([k, n, name]) {
-        gl.bindBuffer(gl.ARRAY_BUFFER, buffers[k]);
-        gl.bufferData(gl.ARRAY_BUFFER, mesh[k], gl.STATIC_DRAW);
-        gl.enableVertexAttribArray(attr(name));
-        gl.vertexAttribPointer(attr(name), n, gl.FLOAT, false, 0, 0);
-      });
-      gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, buffers.idx);
-      gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, mesh.idx, gl.STATIC_DRAW);
-    }
-
-    function loadTexture() {
-      const img = new Image();
-      img.onload = function () {
-        gl.bindTexture(gl.TEXTURE_2D, texture);
-        gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, img);
+    // One texture per image, loaded once; transparent until it arrives.
+    function glTexture(url) {
+      if (textures[url]) return textures[url];
+      const t = textures[url] = gl.createTexture();
+      const params = function () {
         gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
         gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
         gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
         gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
       };
-      img.src = base + data.variants[variant].texture;
+      gl.bindTexture(gl.TEXTURE_2D, t);
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, 1, 1, 0, gl.RGBA, gl.UNSIGNED_BYTE, new Uint8Array(4));
+      params();
+      const img = new Image();
+      img.onload = function () {
+        gl.bindTexture(gl.TEXTURE_2D, t);
+        gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, img);
+        params();
+      };
+      img.src = url;
+      return t;
+    }
+
+    // A pose is drawn in layers, each with its own texture (a partial form: the player, then the form over it).
+    // Older files have one layer: the pose's faces, with the chosen variant's texture.
+    function layers() {
+      const p = data.poses[pose];
+      return p.layers || [{ texture: data.variants[variant].texture, size: data.texture, faces: p.faces }];
+    }
+
+    function upload() {
+      meshes.forEach(m => Object.values(m.buf).forEach(b => gl.deleteBuffer(b)));
+      const built = layers().map(l => ({ mesh: buildMesh(l.faces, l.size), url: base + l.texture }));
+      const lo = [0, 1, 2].map(k => Math.min(...built.map(b => b.mesh.lo[k])));
+      const hi = [0, 1, 2].map(k => Math.max(...built.map(b => b.mesh.hi[k])));
+      frame = { centre: lo.map((l, k) => (l + hi[k]) / 2),
+        radius: Math.hypot(hi[0] - lo[0], hi[1] - lo[1], hi[2] - lo[2]) / 2 };
+      meshes = built.map(function ({ mesh, url }) {
+        const buf = { pos: gl.createBuffer(), uv: gl.createBuffer(), nor: gl.createBuffer(), idx: gl.createBuffer() };
+        ['pos', 'uv', 'nor'].forEach(function (k) {
+          gl.bindBuffer(gl.ARRAY_BUFFER, buf[k]);
+          gl.bufferData(gl.ARRAY_BUFFER, mesh[k], gl.STATIC_DRAW);
+        });
+        gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, buf.idx);
+        gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, mesh.idx, gl.STATIC_DRAW);
+        return { buf: buf, count: mesh.idx.length, texture: glTexture(url) };
+      });
     }
 
     function rows() {
       variants.replaceChildren(...(data.variants.length > 1 ? data.variants.map((v, i) =>
-        button(v.label, function () { variant = i; highlight(variants, i); loadTexture(); })) : []));
+        button(v.label, function () { variant = i; highlight(variants, i); upload(); })) : []));
       poses.replaceChildren(...(data.poses.length > 1 ? data.poses.map((p, i) =>
         button(p.label, function () { pose = i; highlight(poses, i); upload(); })) : []));
       highlight(variants, variant);
@@ -153,7 +176,7 @@
       highlight(bar, i);
       data = models[i];
       canvas.setAttribute('aria-label', data.name + ', a 3D model you can turn');
-      rows(); upload(); loadTexture();
+      rows(); upload();
     }
 
     function draw() {
@@ -164,12 +187,21 @@
       gl.viewport(0, 0, canvas.width, canvas.height);
       gl.clearColor(0, 0, 0, 0);
       gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
-      if (mesh) {
+      if (frame) {
         if (spinning) yaw += 0.006;
-        const s = zoom / (mesh.radius * 1.05);
-        gl.uniformMatrix4fv(gl.getUniformLocation(prog, 'view'), false, viewMatrix(yaw, pitch, mesh.centre));
+        const s = zoom / (frame.radius * 1.05);
+        gl.uniformMatrix4fv(gl.getUniformLocation(prog, 'view'), false, viewMatrix(yaw, pitch, frame.centre));
         gl.uniform2f(gl.getUniformLocation(prog, 'scale'), s * Math.min(1, h / w), s * Math.min(1, w / h));
-        gl.drawElements(gl.TRIANGLES, count, gl.UNSIGNED_SHORT, 0);
+        meshes.forEach(function (m) {
+          [['pos', 3, 'position'], ['uv', 2, 'uv'], ['nor', 3, 'normal']].forEach(function ([k, n, name]) {
+            gl.bindBuffer(gl.ARRAY_BUFFER, m.buf[k]);
+            gl.enableVertexAttribArray(attr(name));
+            gl.vertexAttribPointer(attr(name), n, gl.FLOAT, false, 0, 0);
+          });
+          gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, m.buf.idx);
+          gl.bindTexture(gl.TEXTURE_2D, m.texture);
+          gl.drawElements(gl.TRIANGLES, m.count, gl.UNSIGNED_SHORT, 0);
+        });
       }
       requestAnimationFrame(draw);
     }
