@@ -5,6 +5,10 @@
 | **Type** | Paramecia |
 | **Abilities** | 3: 2 active, 1 passive |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/glittering-storm"></div>
+
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
 !!! note "About the values"
@@ -13,6 +17,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 ## Glittering Storm { #glittering-storm }
 
 ![](../abilities/glittering-storm.png){ .ability-icon } *Active*
+
+![Glittering Storm](../objects/glittering-storm.png){ .form-picture }
 
 Creates a tornado of diamond shards the user can steer, wrecking everything in its path and hurting enemies caught in it every 0.75 seconds.
 

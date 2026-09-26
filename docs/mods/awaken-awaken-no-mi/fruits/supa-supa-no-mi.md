@@ -6,6 +6,10 @@
 | **Abilities** | 3: 3 active, 0 passive |
 | **Zones** | [Kenzan World](#kenzan-world) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/razor-cyclone"></div>
+
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
 !!! note "About the values"
@@ -30,6 +34,8 @@ Sprinting doubles the damage and crouching halves it without deepening the wound
 ## Razor Cyclone { #razor-cyclone }
 
 ![](../abilities/razor-cyclone.png){ .ability-icon } *Active*
+
+![Razor Cyclone](../objects/razor-cyclone.png){ .form-picture }
 
 The user becomes a whirlwind of blades that glides forward, cutting every enemy it passes and making them bleed.
 
