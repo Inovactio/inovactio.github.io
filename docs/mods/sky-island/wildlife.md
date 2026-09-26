@@ -16,9 +16,32 @@ All five have spawn eggs in the **Skypiea** creative tab.
 
 The bird of Jaya, grown **huge** on Skypiea (about two blocks tall), and friendly. It perches and takes to the air now and then. **A living compass**: whenever it stops, it swings round to face **south**, beak and all — a way to find your bearings on a sea of clouds.
 
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![The South Bird](mobs/south-bird.png)
+<figcaption>The South Bird</figcaption>
+</figure>
+
+</div>
+
 ## The flying mounts
 
 **The Sky Dot Bird** (Pierre's kind) is pink and dotted, quick and a strong climber. **The Three-Jo Bird** (Fuza's kind) is a great lilac vulture with a salmon ruff: bigger and tougher, slower to climb.
+
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Sky Dot Bird in flight](mobs/sky-dot-bird.png)
+<figcaption>The Sky Dot Bird, in flight</figcaption>
+</figure>
+
+<figure markdown>
+![A Three-Jo Bird](mobs/three-jo-bird.png)
+<figcaption>The Three-Jo Bird</figcaption>
+</figure>
+
+</div>
 
 | | Sky Dot Bird | Three-Jo Bird |
 |---|---|---|
@@ -48,9 +71,27 @@ The bird of Jaya, grown **huge** on Skypiea (about two blocks tall), and friendl
 
 Su's kind: a small white fox with a long muzzle, on the Angel Islands. **Tame it with fish** (raw cod or salmon); it follows you, and **lies down on the cloud** when you click it. It never fights. 12 health.
 
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Cloud Fox](mobs/cloud-fox.png)
+<figcaption>The Cloud Fox (cloud coat)</figcaption>
+</figure>
+
+</div>
+
 ## The Giant Dog
 
 Holy's kind: a **huge** dog — over three blocks tall — very rare in the Upper Yards. **Tame it with raw meat** (beef, pork or mutton).
+
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Giant Dog](mobs/giant-dog.png)
+<figcaption>The Giant Dog (charcoal coat)</figcaption>
+</figure>
+
+</div>
 
 - **A guard**, like a wolf: it goes for whatever strikes you and whatever you strike — never creepers, ghasts or your other animals. It catches up with you by leaping to your side when it gets stuck in the trees.
 - **A mount**: put a **vanilla saddle** on it and ride it like a horse. The movement keys go the way you look; **Jump leaps** about three blocks. Ridden, it bites nothing of its own accord. **Sneak** + click still makes it sit or stand.
