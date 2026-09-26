@@ -6,6 +6,10 @@
 | **Abilities** | 3: 2 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/cake-transmutation.png){ .effect-mini .pixelated }[Cake Transmutation](../effects.md#effect-cake-transmutation) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/living-feast objects/cake-transmutation"></div>
+
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
 !!! note "About the values"
@@ -14,6 +18,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 ## Living Feast { #living-feast }
 
 ![](../abilities/living-feast.png){ .ability-icon } *Active*
+
+![Living Feast](../objects/living-feast.png){ .form-picture }
 
 The user gives up their hunger to bring a Cake Golem to life, the more food spent the bigger it gets.
 
@@ -25,6 +31,8 @@ The user gives up their hunger to bring a Cake Golem to life, the more food spen
 ## Cake Transmutation { #cake-transmutation }
 
 ![](../abilities/cake-transmutation.png){ .ability-icon } *Active*
+
+![Cake Transmutation](../objects/cake-transmutation.png){ .form-picture }
 
 Applies ![](../effect-icons/cake-transmutation.png){ .effect-mini .pixelated }[Cake Transmutation](../effects.md#effect-cake-transmutation)
 
