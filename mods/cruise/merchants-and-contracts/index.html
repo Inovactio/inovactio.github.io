@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Five travelling merchants visit the Overworld, each buying the goods of one trade. Talk to one and his screen offers Buy (his shop) and Sell (Cruise's sale window); each also brings a stall of his…">
+        <meta name="description" content="Five travelling merchants visit the Overworld, each buying the goods of one trade. Talk to one and his screen offers Buy (his shop) and Sell (his sale window); each also brings a stall of his trade's…">
       
       
       
@@ -69,12 +69,12 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Inovactio's Minecraft Mods">
     <meta property="og:title" content="Merchants and contracts">
-    <meta property="og:description" content="Five travelling merchants visit the Overworld, each buying the goods of one trade. Talk to one and his screen offers Buy (his shop) and Sell (Cruise's sale window); each also brings a stall of his…">
+    <meta property="og:description" content="Five travelling merchants visit the Overworld, each buying the goods of one trade. Talk to one and his screen offers Buy (his shop) and Sell (his sale window); each also brings a stall of his trade's…">
     <meta property="og:url" content="https://inovactio.github.io/mods/cruise/merchants-and-contracts/">
     <meta property="og:image" content="https://inovactio.github.io/assets/icons/akumalib.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Merchants and contracts">
-    <meta name="twitter:description" content="Five travelling merchants visit the Overworld, each buying the goods of one trade. Talk to one and his screen offers Buy (his shop) and Sell (Cruise's sale window); each also brings a stall of his…">
+    <meta name="twitter:description" content="Five travelling merchants visit the Overworld, each buying the goods of one trade. Talk to one and his screen offers Buy (his shop) and Sell (his sale window); each also brings a stall of his trade's…">
     <meta name="twitter:image" content="https://inovactio.github.io/assets/icons/akumalib.png"><meta name="theme-color" content="#7e56c2">
   
 
@@ -5884,7 +5884,7 @@
   <span class="md-ellipsis">
     
   
-    Bestiary and logbook
+    Bestiary and Log Book
   
 
     
@@ -8669,7 +8669,7 @@
 
 
 <h1 id="merchants-and-contracts">Merchants and contracts<a class="headerlink" href="#merchants-and-contracts" title="Permanent link">&para;</a></h1>
-<p>Five <strong>travelling merchants</strong> visit the Overworld, each buying the goods of one trade. Talk to one and his screen offers <strong>Buy</strong> (his shop) and <strong>Sell</strong> (Cruise's sale window); each also brings a stall of his trade's goods and three <strong>contracts</strong>. Anyone can trade with them; a <a href="../trades/merchant/">Merchant</a> gets better prices and more.</p>
+<p>Five <strong>travelling merchants</strong> visit the Overworld, each buying the goods of one trade. Talk to one and his screen offers <strong>Buy</strong> (his shop) and <strong>Sell</strong> (his sale window); each also brings a stall of his trade's goods and three <strong>contracts</strong>. Anyone can trade with them; a <a href="../trades/merchant/">Merchant</a> gets better prices and more.</p>
 <table>
 <thead>
 <tr>
@@ -8692,7 +8692,7 @@
 </tr>
 </tbody>
 </table>
-<p>The merchants are civilians: no mob harms them (Marines, pirates, bandits, stray arrows and creeper blasts included). Only a player can hurt them, or falls, lava and drowning. A merchant leaves once no player is within 200 blocks.</p>
+<p>The merchants are civilians: no mob harms them (Marines, pirates and bandits included), nor do stray arrows or creeper blasts. Only players, falls, lava and drowning can hurt them. A merchant leaves once no player is within 200 blocks.</p>
 <h2 id="the-five-merchants">The five merchants<a class="headerlink" href="#the-five-merchants" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -8770,21 +8770,21 @@
 <h2 id="when-and-where-they-come">When and where they come<a class="headerlink" href="#when-and-where-they-come" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Every 5 minutes (by default), each of the five merchants gets <strong>one try</strong>. For each, a random player in the Overworld is picked.</li>
-<li>If that player is <strong>in a village</strong>, the merchant comes 35 % of the time. If the player is <strong>in the wild under the open sky</strong> (standing at or above the highest solid block of their column, leaves aside), 15 % of the time. A player underground or in a cave gets nobody.</li>
+<li>If that player is <strong>in a village</strong>, the merchant comes 35 % of the time; if the player is <strong>in the wild under the open sky</strong> (at or above the highest solid block of their column, leaves aside), 15 % of the time. A player underground or in a cave gets nobody.</li>
 <li>A village gets at most <strong>one of each kind</strong> (none while another of the same kind is within 64 blocks). The wild gets <strong>one merchant at a time</strong> (none while any Cruise merchant is within 64 blocks).</li>
 <li>He appears on solid ground, 12-31 blocks from the player (on each axis) in a village, 16-32 blocks away in the wild.</li>
 </ul>
-<p>A server can change how often they try (<code>tryEveryTicks</code>) and, for each merchant, whether he comes to villages and to the wild and how likely (<code>inVillages</code>, <code>villageChance</code>, <code>inTheWild</code>, <code>wildChance</code>), in the <code>merchants</code> section. See <a href="../configuration/">Configuration</a>.</p>
+<p>In the <code>merchants</code> section, a server can change how often they try (<code>tryEveryTicks</code>) and, for each merchant, whether he comes to villages and to the wild, and how likely (<code>inVillages</code>, <code>villageChance</code>, <code>inTheWild</code>, <code>wildChance</code>). See <a href="../configuration/">Configuration</a>.</p>
 <h2 id="his-purse">His purse<a class="headerlink" href="#his-purse" title="Permanent link">&para;</a></h2>
 <p>Each merchant arrives with a purse of <strong>5 000 to 100 000 Belly</strong> (the Travelling Cook <strong>20 000 to 250 000</strong>). He does not buy what he cannot pay for. The purse refills all at once at the start of the next in-game day (sleeping through the night counts), not bit by bit. From Merchant level 40 his purse no longer limits what he buys from you.</p>
 <h2 id="selling">Selling<a class="headerlink" href="#selling" title="Permanent link">&para;</a></h2>
-<p>Open the <strong>Sell</strong> window. Its nine slots take only what he buys; the window shows his offer and what is left in his purse. Press <strong>Sell</strong>. What he does not buy goes back to your inventory when you close the window. You have to stay within 8 blocks of him.</p>
-<p>Each item is priced one by one: the deal stops at the first one his purse, or your Belly cap, cannot cover.</p>
+<p>Open the <strong>Sell</strong> window. Its nine slots take only what he buys, and the window shows his offer and what is left in his purse; press <strong>Sell</strong>. You have to stay within 8 blocks of him. Whatever he does not buy goes back to your inventory when you close the window.</p>
+<p>Items are priced one by one: the deal stops at the first one that his purse, or your Belly cap, cannot cover.</p>
 <h3 id="the-market-fills-up">The market fills up<a class="headerlink" href="#the-market-fills-up" title="Permanent link">&para;</a></h3>
-<p>Every item of one kind you sell lowers the price of the next of that kind: after 16 sold it fetches <strong>half</strong>, after 48 a <strong>quarter</strong>. This is kept <strong>on you</strong>, not on the merchant, so fetching another merchant does not reset it, and nor does dying. It fades by half every in-game day.</p>
-<p>A Merchant of level 10 fills the market half as fast (32 before the price halves), and a Merchant's price bonus (+0.5 % per level, up to +25 % at level 50) applies on top.</p>
+<p>Every item of one kind you sell lowers the price of the next one of that kind: after 16 sold it fetches <strong>half</strong>, after 48 a <strong>quarter</strong>. This is counted <strong>on you</strong>, not on the merchant, so neither finding another merchant nor dying resets it. It fades by half every in-game day.</p>
+<p>A Merchant of level 10 fills the market half as fast (32 sold before the price halves), and a Merchant's price bonus (+0.5 % per level, up to +25 % at level 50) applies on top.</p>
 <h2 id="the-stall">The stall<a class="headerlink" href="#the-stall" title="Permanent link">&para;</a></h2>
-<p>On top of his fixed goods, each merchant arrives with a <strong>stall</strong> of his trade's goods, rolled once when he arrives:</p>
+<p>Besides his fixed goods, each merchant brings a <strong>stall</strong> of his trade's goods, drawn once when he arrives:</p>
 <ul>
 <li>the commonest good is there 85 % of the time, the rarest 4 %, the rest in between;</li>
 <li>a common good comes several at once (up to 8), a rare one alone;</li>
@@ -8793,9 +8793,9 @@
 </ul>
 <p>Something bought from a stall is a plain item: a fish has no size (it sells back at the average price), a dish has no quality.</p>
 <p>Every merchant may also bring <strong>torn treasure maps</strong>: a Torn Rumor Map 35 % of the time (600), a Torn Old Map 12 % (3 000), a Torn Legendary Map 3 % (15 000). See <a href="../treasure-hunts/">Treasure hunts</a>.</p>
-<p>A Merchant of level 25 pays 15 % less for everything he buys from a Cruise merchant (the Buy screen still shows the full price).</p>
+<p>A Merchant of level 25 pays 15 % less for everything they buy from a Cruise merchant (the Buy screen still shows the full price, but they are charged less).</p>
 <h2 id="what-they-pay">What they pay<a class="headerlink" href="#what-they-pay" title="Permanent link">&para;</a></h2>
-<p>These are the game's own prices for <strong>one item</strong>, before the market fills up and before a Merchant's bonus. "On stall" is how often the good is on his stall.</p>
+<p>These are the prices for <strong>one item</strong>, before the market fills up and before a Merchant's bonus. "On stall" is how often the good is on his stall.</p>
 <h3 id="fishmonger">Fishmonger<a class="headerlink" href="#fishmonger" title="Permanent link">&para;</a></h3>
 <p>A fish's price depends on its <strong>size</strong>: the table gives the price of a fish of average size; the smallest of its kind fetches ×0.75, the biggest ×1.5. See the <a href="../trades/fisher/">Fisher</a>.</p>
 <table>
@@ -9199,7 +9199,7 @@
 <td>85 %</td>
 </tr>
 <tr>
-<td>Diamond Fragment, Kairoseki, Raw Iron, Redstone</td>
+<td>Diamond Fragment, Kairoseki, Raw Iron, Redstone Dust</td>
 <td>7</td>
 <td>19-23</td>
 <td>65 %</td>
@@ -9230,7 +9230,7 @@
 </tr>
 <tr>
 <td>Dense Kairoseki</td>
-<td>28 (no more than four Kairoseki, which craft one)</td>
+<td>28 (held to the price of the four Kairoseki that craft one)</td>
 <td>76-92</td>
 <td>8 %</td>
 </tr>
@@ -9293,7 +9293,7 @@
 <td>10</td>
 <td>27-33</td>
 <td>30 %</td>
-<td>capture of a Seagull, a Hercules Beetle, a Doctor Hornet</td>
+<td>capture of a Seagull, a Hercules Beetle, a Doctor Hornet (in that order)</td>
 </tr>
 <tr>
 <td>Rubber Fruit</td>
@@ -9384,12 +9384,12 @@
 <td>380</td>
 <td>1 026-1 254</td>
 <td>4 %</td>
-<td>rare harvest of Mystery Mushroom</td>
+<td>rare harvest of Mystery Mushrooms</td>
 </tr>
 </tbody>
 </table>
 <h3 id="travelling-cook">Travelling Cook<a class="headerlink" href="#travelling-cook" title="Permanent link">&para;</a></h3>
-<p>A dish is worth the higher of two prices: its place on the Cook's scale (200 for the first dishes, up to 60 000 for the last), or two and a half times what its ingredients fetch raw from the other merchants. A <strong>Fine</strong> dish pays ×1.25, a <strong>Superb</strong> one ×1.5. His stall only carries the basic dishes (Cook level 15 and below), always of normal quality. See the <a href="../trades/cook/">Cook</a>.</p>
+<p>A dish is worth the higher of two prices: its place on the Cook's scale (from 200 for the first dishes up to 60 000 for the last), or two and a half times what its ingredients fetch raw from the other merchants. A <strong>Fine</strong> dish pays ×1.25, a <strong>Superb</strong> one ×1.5. His stall only carries the basic dishes (Cook level 15 and below), always of normal quality. See the <a href="../trades/cook/">Cook</a>.</p>
 <table>
 <thead>
 <tr>
@@ -9607,16 +9607,16 @@
 </tbody>
 </table>
 <h2 id="contracts">Contracts<a class="headerlink" href="#contracts" title="Permanent link">&para;</a></h2>
-<p>Every merchant arrives with <strong>three contracts</strong>: orders for goods of <strong>his own trade</strong>. The Fishmonger orders fish, the Prospector minerals, the Travelling Cook any dish (feasts included, not only the basic ones). Open his Sell window and press the <strong>Contracts</strong> button at the top right.</p>
+<p>Every merchant arrives with <strong>three contracts</strong>: orders for goods of <strong>his own trade</strong>. The Fishmonger orders fish, the Prospector minerals, the Travelling Cook any dish (feasts included, not only the basic ones). To see them, open his Sell window and press the <strong>Contracts</strong> button at the top right.</p>
 <ul>
-<li>Each contract asks for a number of one good ("3 x Fire Hercules"). The rarer the good, the less often it is ordered, and in smaller numbers (up to 8 of a common good). The three are for three different goods.</li>
-<li><strong>Reward</strong>: 1.5 to 1.8 times what he would pay for the goods, paid <strong>in full</strong>, <strong>not out of his purse</strong>, and with no drop for a filling market. A Merchant's price bonus raises it (up to +25 %).</li>
+<li>Each contract asks for a number of one good ("3 x Fire Hercules"). The rarer the good, the less often it is ordered and the fewer are asked for (up to 8 of a common good). The three contracts are for three different goods.</li>
+<li><strong>Reward</strong>: 1.5 to 1.8 times what he would pay for the goods, paid <strong>in full</strong> and <strong>not out of his purse</strong>, with no drop for a filling market. A Merchant's price bonus raises it (up to +25 %).</li>
 <li><strong>Treasure maps</strong>: a public contract adds a <strong>Torn Rumor Map</strong> to its reward 20 % of the time ("Pays … Belly + a map").</li>
 <li><strong>The third contract is kept for Merchants</strong> of level 10 and up. It always pays the top premium (×1.8), and adds a <strong>Torn Old Map</strong> 50 % of the time. Other players see "One more, kept for Merchants (level 10)".</li>
 </ul>
 <h3 id="delivering">Delivering<a class="headerlink" href="#delivering" title="Permanent link">&para;</a></h3>
 <p>The <strong>Deliver</strong> button is active when you carry enough. The goods are taken from anywhere in your inventory, <strong>the least valuable first</strong>: a Superb dish or a record fish is kept when a plain one will do. You are paid first; if you cannot hold that much Belly, the delivery fails and you keep your goods.</p>
-<p><strong>First come, first served</strong>: the first player to deliver a contract takes it, for everyone. A merchant does not post new contracts while he stays; the next merchant brings new ones.</p>
+<p><strong>First come, first served</strong>: once a player delivers a contract, it is gone for everyone. A merchant does not post new contracts while he stays; the next merchant brings new ones.</p>
 <p>Delivering pays a Merchant 1 XP per 10 Belly of the reward, and unlocks the <strong>A Deal Is a Deal</strong> advancement.</p>
 <p>What you may be told: "Someone got there first", "That contract is for Merchants", "You do not carry enough", "You cannot hold that much Belly", "The payment was refused".</p>
 
