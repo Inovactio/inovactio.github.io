@@ -23,6 +23,20 @@ Every block the villages are built from can be crafted: cloud brick, cut cloud, 
 
 Skypiea's police. Every village has their **post**, with a rare chest of seized goods, and **recruits and a captain** who keep order in the village. They are calibrated against the base mod's own NPCs — the captain is the stronger, with Busoshoku Haki.
 
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A White Beret captain](mobs/white-beret-captain.png)
+<figcaption>The captain</figcaption>
+</figure>
+
+<figure markdown>
+![A White Beret recruit](mobs/white-beret-guard.png)
+<figcaption>A recruit</figcaption>
+</figure>
+
+</div>
+
 ## Angel Beach
 
 The flat shore at the foot of an Angel Island's cliffs.

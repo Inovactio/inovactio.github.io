@@ -120,3 +120,26 @@
 .md-typeset .sortable-table td:first-child {
   white-space: nowrap;
 }
+
+/* In-game pictures of a mod's mobs, cut out of screenshots, side by side with a caption each. */
+.md-typeset .mob-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  align-items: flex-end;
+}
+
+.md-typeset .mob-gallery figure {
+  margin: 0;
+}
+
+.md-typeset .mob-gallery img {
+  height: 220px;
+  width: auto;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .mob-gallery img {
+    height: 160px;
+  }
+}
