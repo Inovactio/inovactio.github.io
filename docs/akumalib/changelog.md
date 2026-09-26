@@ -2,6 +2,36 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 2.7.0 { #v2-7-0 }
+
+<small>Released 2026-09-26 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/8980645)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Server owners now choose how fast professions level</strong>, from the server's own config file: a speed for every
+profession, and each profession's level curve, without writing a data pack.</p>
+<p><strong>No signature was removed or changed</strong>: an addon built against 2.5.0 or 2.6.x keeps compiling and keeps working. That
+is why this is a minor bump.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p>The network protocol is unchanged (3): a 2.7.0 client can join a 2.6.x or 2.5.0 server and the other way round.</p>
+<hr />
+<h3>New</h3>
+<ul>
+<li><strong>Profession XP settings.</strong> The world's <code>serverconfig/akumalib-server.toml</code> now has:
+<ul>
+<li><code>xpMultiplier</code>: speeds up or slows down XP in every profession (2.0 = twice as fast, 0.5 = half as fast);</li>
+<li><code>curves</code>: one line per profession, with how much each level costs and a speed of its own.</li>
+</ul>
+<p>Every installed profession is already listed when the world starts, with its usual values, so you only change
+  numbers. Players keep their XP: their levels simply follow the new curve. A line you never changed keeps up with the
+  mod's own updates and with data packs, even after a <code>/reload</code>; a line you changed stays as you set it. Edit the file
+  with the world closed. For a modpack, put the file in <code>defaultconfigs/</code> and every new world starts with it.</p></li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>A very steep profession curve no longer gives players wrong levels at the top of the scale.</li>
+</ul>
+</div>
+
 ## 2.6.1 { #v2-6-1 }
 
 <small>Released 2026-09-25 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/8974805)</small>
