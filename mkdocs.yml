@@ -55,9 +55,11 @@ validation:
 
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/model-viewer.css
 
 extra_javascript:
   - assets/javascripts/sortable.js
+  - assets/javascripts/model-viewer.js
 
 # Unreleased mods: their pages stay in the repository but are not built or published.
 # Remove a line here, and add the page back to the nav and the home page, when the mod is released.
