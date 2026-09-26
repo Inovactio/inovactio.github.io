@@ -4,7 +4,7 @@ Every Cruise Cruise no Mi release for Minecraft 1.20.1, newest first, as publish
 
 ## 0.1.0 { #v0-1-0 }
 
-<small>Released 2026-09-26 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files)</small>
+<small>Released 2026-09-26 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/8980720)</small>
 
 <div class="changelog-body" markdown="0">
 <p>The first release. A Forge addon for <strong>Mine Mine no Mi</strong> that brings the professions and the island life of
