@@ -121,7 +121,7 @@
   white-space: nowrap;
 }
 
-/* In-game pictures of a mod's mobs, cut out of screenshots, side by side with a caption each. */
+/* Pictures of a mod's mobs (cut out of screenshots, or rendered from their models), side by side with a caption each. */
 .md-typeset .mob-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -138,8 +138,17 @@
   width: auto;
 }
 
+/* Rows of variants (coats, saddles) are drawn lower. */
+.md-typeset .mob-gallery.small img {
+  height: 110px;
+}
+
 @media screen and (max-width: 44.9375em) {
   .md-typeset .mob-gallery img {
     height: 160px;
+  }
+
+  .md-typeset .mob-gallery.small img {
+    height: 80px;
   }
 }
