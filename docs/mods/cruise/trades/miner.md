@@ -1,11 +1,11 @@
 # Miner
 
-The Miner earns XP by breaking ore and certain rocks, and as the trade grows the rock starts to give up **finds** on top of its normal drops: Diamond Fragments, Marble, Kairoseki, Dial Fragments, Pure Iron Ore and more. At the **Masonry** they turn those finds into marble blocks, iron and diamonds.
+The Miner earns XP by breaking ore and certain rocks. As the trade grows, the rock starts to give up **finds** on top of its normal drops: Diamond Fragments, Marble, Kairoseki, Dial Fragments, Pure Iron Ore and more. At the **Masonry**, the Miner turns those finds into marble blocks, iron and diamonds.
 
 | | |
 |---|---|
 | Workstation | ![](../icons/masonry.png){ .item-icon }**Masonry** |
-| How it is made | 8 Stone around a Crafting Table (crafting table) |
+| How it is made | 8 Stone around a Crafting Table |
 | Tools | any pickaxe of the right tier; the **Enhanced Pick-axe** is made by the [Inventor](inventor.md) |
 | Levels | 1 to 100; new finds up to level 50 |
 
@@ -17,7 +17,7 @@ The Miner earns XP by breaking ore and certain rocks, and as the trade grows the
 
 ## XP from breaking
 
-Ores pay Miner XP at any level, the rarer the more; Ancient Debris pays the most. Plain Deepslate, Tuff, Calcite and Diorite pay nothing of their own: they only pay when a find turns up. Each find that drops pays its own extra XP on top.
+Ores pay Miner XP at any level: the rarer the ore, the more it pays, and Ancient Debris pays the most. Plain Deepslate, Tuff, Calcite and Diorite pay nothing of their own; they only pay when a find turns up. Each find that drops pays its own extra XP on top.
 
 This table gives the XP each block pays when broken:
 
@@ -40,8 +40,8 @@ This table gives the XP each block pays when broken:
 From **Miner level 5**, some blocks can turn up finds as well as their normal drops.
 
 - Each find is rolled **separately** every time the block is broken, so a block with several possible finds can give more than one at once.
-- Each find opens at a Miner level; the professions book lists it as an unlock at the lowest level where it appears.
-- A player who does not practise the Miner gets no finds at all.
+- Each find starts at a set Miner level; the professions book lists it as an unlock at the lowest level where it appears.
+- A player who does not practise the Miner trade gets no finds at all.
 
 This table lists every find, the block it comes from, its chance, the Miner level it needs and the extra XP it pays:
 
@@ -63,17 +63,17 @@ This table lists every find, the block it comes from, its chance, the Miner leve
 | Ancient Debris | Netherite Scrap | 25 % | 46 | 25 |
 | Deepslate, Tuff | Kairoseki | 0.15 % | 50 | 30 |
 
-A few finds need a word more:
+Two finds are worth a closer look:
 
-- **Pure Iron Ore** from iron ores has two separate rolls: one from level 25 and a second one from level 45, on top of each other.
+- **Pure Iron Ore** from iron ores has two separate rolls: one from level 25 and a second one from level 45, on top of the first.
 - **Mysterious Parts** (from level 38) and **Kairoseki** (from level 50) can turn up in plain Deepslate and Tuff, very rarely.
 
 ### The Explosive Rock
 
-Red, cracked boulders two to three blocks across, half buried, found in **badlands, desert and mountain** biomes (roughly one chunk in five where they can generate).
+Red, cracked boulders two to three blocks across, half buried, found in **badlands, desert and mountain** biomes (in roughly one chunk in five there).
 
 - A **Miner of level 5 or more** who breaks one with a pickaxe gets 1 to 3 ![](../icons/explosive_rock_fragment.png){ .item-icon }**Explosive Rock Fragments**. About 12 % of the time, a **Rock Lizard** was hiding inside.
-- Anyone else sets it off: a small blast that hurts but breaks no blocks. They get nothing.
+- Anyone else sets it off: a small blast that hurts but breaks no blocks, and leaves them nothing.
 
 ### Dials
 
@@ -88,13 +88,13 @@ There is no marble ore: **Marble** only comes from breaking **Calcite** (8 %) an
 ![](../icons/enhanced_pickaxe.png){ .item-icon }The **Enhanced Pick-axe** is made by the [Inventor](inventor.md) at the Workshop (Inventor 25: 5 Diamond Fragments, 3 Mysterious Parts, 1 log).
 
 - Diamond's mining tier, 1 800 uses, repaired with Diamond Fragments.
-- "A Miner's finds turn up 25% more often". This adds up with the level-10 perk, for ×1.875 in all.
+- Its tooltip reads "A Miner's finds turn up 25% more often". This adds up with the level-10 perk, for ×1.875 in all.
 
 ## The Masonry
 
-The Masonry is the Miner's workstation. It is crafted from 8 Stone around a Crafting Table, and needs a pickaxe to be picked back up. Every recipe asks for a Miner level and pays Miner XP.
+The Masonry is the Miner's workstation; it needs a pickaxe to be picked back up. Every recipe asks for a Miner level and pays Miner XP.
 
-It turns Marble into building blocks (Marble Block, Slab, Stairs, Polished Marble and its slab), **Pure Iron Ore** into Iron Ingots, and **Diamond Fragments** into a Diamond. All marble blocks need at least a stone pickaxe to drop.
+It turns Marble into building blocks (Marble Block, Marble Slab, Marble Stairs, Polished Marble and Polished Marble Slab), **Pure Iron Ore** into Iron Ingots, and **Diamond Fragments** into a Diamond. All marble blocks need at least a stone pickaxe to drop.
 
 These are the Masonry's recipes:
 
@@ -120,9 +120,9 @@ These are the Masonry's recipes:
 | Level | Perk | What it does |
 |---|---|---|
 | 10 | "Finds in the rock turn up 50% more often" | every find's chance ×1.5 (never above 100 %) |
-| 25 | "10% chance an ore gives its drops twice" | one ore in ten drops its normal drops a second time |
+| 25 | "10% chance an ore gives its drops twice" | one ore in ten gives its normal drops a second time |
 | 40 | "20% chance an ore gives its drops twice" | replaces the 10 % |
 
 ## Advancements
 
-The **Miner** tab opens at Miner level 1: Apprentice Miner (level 5), Diamond in the Rough (find a Diamond Fragment), Carved in Stone (find Marble), Sea-Prism Stone (get Kairoseki), Handle With Care (get Explosive Rock Fragments) and Shell Shock (get a Dial Fragment).
+The **Miner** tab opens at Miner level 1: Apprentice Miner (level 5), Diamond in the Rough (find a Diamond Fragment), Carved in Stone (find Marble), Sea-Prism Stone (mine Kairoseki), Handle With Care (break an Explosive Rock into fragments) and Shell Shock (shatter a dial into Dial Fragments).

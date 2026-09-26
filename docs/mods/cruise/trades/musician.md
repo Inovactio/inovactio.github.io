@@ -1,6 +1,6 @@
 # Musician
 
-The Musician writes **scores** at the **Music Stand** and plays them on an instrument for his crew. A tune gives everyone in the crew within reach a buff that lasts 20 minutes or more: speed, faster work, healing, attack, armour, luck, more XP or more Doriki. It is the one trade whose recipes already run to **level 100**.
+The Musician writes **scores** at the **Music Stand** and plays them on an instrument for their crew. A tune gives every crewmate within reach a buff that lasts 20 minutes or more: speed, faster work, healing, attack, armour, luck, more XP or more Doriki. It is the one trade whose recipes already run to **level 100**.
 
 | | |
 |---|---|
@@ -22,11 +22,19 @@ It faces you when you place it.
 
 ## Writing scores
 
-Every score takes **2 Paper and an Ink Sac**, plus the tune's own ingredient. Tier II adds **2 Gold Nuggets**. Tier III uses a **Glow Ink Sac, a Gold Ingot and a Diamond Fragment**. Scores stack to 16; tier II scores are uncommon, and tier III scores are rare and shine.
+Every score takes **2 Paper**, plus the tune's own ingredient (listed under [The eleven tunes](#the-eleven-tunes)):
+
+| Tier | Ink | Tune's ingredient | Extra |
+|---|---|---|---|
+| I | an Ink Sac | 1 | — |
+| II | an Ink Sac | 2 | 2 Gold Nuggets |
+| III | a Glow Ink Sac | 3 | a Gold Ingot and a Diamond Fragment |
+
+Scores stack to 16; tier II scores are uncommon, and tier III scores are rare and shine.
 
 ## Playing a tune
 
-1. **Carry an instrument.** You do not hold it: the **best instrument anywhere in your inventory** plays. "Best" means the one that reaches further, then the one that lasts longer.
+1. **Carry an instrument.** You do not need to hold it: the **best instrument anywhere in your inventory** plays. "Best" means the one that reaches furthest, then the one whose tune lasts longest.
 
     | Instrument | Tune reaches | Tune lasts | Uses |
     |---|---|---|---|
@@ -36,17 +44,17 @@ Every score takes **2 Paper and an Ink Sac**, plus the tune's own ingredient. Ti
 
 2. **Hold use with the score in hand.** You play for **3 seconds**, standing. Notes rise around you and the instrument sounds the tune's motif.
 3. When the tune ends:
-    - **you and every member of your crew within reach** get the tune's buff for the instrument's duration. "Crew" means Mine Mine no Mi's pirate crews. A player with no crew plays for himself alone, and nobody outside your crew gets anything, however close;
+    - **you and every member of your crew within reach** get the tune's buff for the instrument's duration. "Crew" means your Mine Mine no Mi pirate crew: nobody outside it gets anything, however close, and a player with no crew plays for themselves alone;
     - the **score is used up**;
     - the **instrument loses one use**.
 
 Your crewmates see "&lt;you&gt; plays &lt;tune&gt; for the crew".
 
-Who can play:
+To play, you need:
 
-- only a player who practises the Musician trade ("Only a Musician can play a score" in Crew mode);
-- your Musician level must reach the score's level ("This tune takes a Musician of level N");
-- you need an instrument ("You need an instrument to play it").
+- to practise the Musician trade ("Only a Musician can play a score" in Crew mode);
+- a Musician level at least the score's level ("This tune takes a Musician of level N");
+- an instrument ("You need an instrument to play it").
 
 **One tune at a time.** A new tune replaces the last. Tunes are separate from meal buffs and remedies, so a tune stays alongside a [Cook](cook.md)'s Appetite.
 
@@ -69,10 +77,10 @@ Every tune has three tiers, each its own score. The buff shows as I, II or III.
 | Lullaby of Mending | Healing | 10 / 40 / 70 | Medicinal Herb | **heals half a heart every 12 / 6 / 3 seconds** |
 | Sea Shanty | Movement | 15 / 45 / 75 | Forked-Tail Killifish | **+25 / +50 / +100 % swimming speed** |
 | Battle March | Combat | 20 / 50 / 80 | Flame Powder | **+1 / +2 / +4 attack damage** |
-| Lucky Tune | Work | 25 / 55 / 85 | Rabbit's Foot | **+0.5 / +1 / +2 luck** (better fishing and chest loot) |
+| Lucky Tune | Work | 25 / 55 / 85 | Rabbit's Foot | **+0.5 / +1 / +2 luck** (better vanilla fishing loot and chest loot) |
 | Iron Chorus | Combat | 30 / 60 / 90 | Pure Iron Ore | **+1.5 / +3 / +6 armour** and **+0.5 / +1 / +2 armour toughness** |
 | Leaping Jig | Movement | 35 / 65 / 95 | Tree Frog | **jumps higher** (+0.05 / +0.1 / +0.2 jump boost) and **1.5 / 3 / 6 blocks of a fall forgiven** |
-| Heartening Ballad | Healing | 40 / 70 / 100 | Golden Fruit | **Absorption equal to 20 / 30 / 40 % of your max health** when you hear it; gone once spent or when the tune ends |
+| Heartening Ballad | Healing | 40 / 70 / 100 | Golden Fruit | **Absorption equal to 20 / 30 / 40 % of your max health** when you hear it; it is gone once used up or when the tune ends |
 | Craftsman's Song | Work | 45 / 75 / 100 | Mysterious Parts | **+5 / +10 / +20 % XP in every trade**; it adds up with a meal's Appetite |
 | Hymn of Resolve | Combat | 50 / 80 / 100 | Sea King Scale | **+5 / +10 / +20 % Doriki from fights**; it adds up with a dish's Fighting Spirit |
 
@@ -80,16 +88,16 @@ Every tune has three tiers, each its own score. The buff shows as I, II or III.
 
 You earn XP two ways:
 
-- **Writing scores** at the Music Stand: each recipe pays XP.
-- **Playing**: each performance pays **10 + the tier's level + 10 for each crewmate who heard it** (up to 8 crewmates).
+- **Writing scores** at the Music Stand: each score pays 10 + 2 × its level (see [The recipes](#the-recipes)).
+- **Playing**: each performance pays **10 + the score's level + 10 for each crewmate who heard it** (up to 8 crewmates).
 
 ## Level perks
 
 | Level | Perk | What it does |
 |---|---|---|
-| 10 | Encore | 20 % of the time, the score is **not used up** |
-| 25 | Resonance | your tunes **carry 1.5× as far** (Flute 12, Violin 18, Guitar 24 blocks) |
-| 40 | Long notes | your tunes **last 1.5× as long** (Flute 30 minutes, Violin 37:30, Guitar 45 minutes) |
+| 10 | "Encore: a score is not always used up when you play it" | 20 % of the time, the score is **not used up** |
+| 25 | "Resonance: your tunes carry half as far again" | your tunes **reach 1.5× as far** (Flute 12, Violin 18, Guitar 24 blocks) |
+| 40 | "Long notes: your tunes last half as long again" | your tunes **last 1.5× as long** (Flute 30 minutes, Violin 37:30, Guitar 45 minutes) |
 
 ## The recipes
 

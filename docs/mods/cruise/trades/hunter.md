@@ -5,10 +5,10 @@ The Hunter catches the islands' small creatures (beetles, butterflies, frogs, li
 | | |
 |---|---|
 | Workstation | ![](../icons/tannery.png){ .item-icon }**Tannery** |
-| Tools | ![](../icons/bug_catcher_net.png){ .item-icon }**Bug Catcher Net** (anyone crafts it); the Enhanced net and the traps are made by the [Inventor](inventor.md) |
+| Tools | ![](../icons/bug_catcher_net.png){ .item-icon }**Bug Catcher Net** (anyone crafts it); the Enhanced Bug Catcher Net and the traps are made by the [Inventor](inventor.md) |
 | Levels | 1 to 100; new creatures up to level 40, Tannery recipes up to level 46 |
 
-Hunter XP comes from every creature caught, a bonus for the first of each species, the Tannery's recipes and the [Bestiary](../bestiary-and-logbook.md).
+Hunter XP comes from every creature caught, a bonus for the first of each species, the Tannery's recipes and the Bestiary (see [Bestiary and Log Book](../bestiary-and-logbook.md)).
 
 ## Your first net
 
@@ -28,7 +28,7 @@ A creature reacts to any player who comes close **without sneaking** (players in
     - the **Hidden Forest Bee** stings twice, each sting giving a short Poison;
     - the **Thunder Spider** bites twice for a heart each, with a shock that slows you down.
 
-Some creatures have a nasty surprise even when you do get close:
+Some creatures have a nasty surprise even when you do manage to get close:
 
 - The **Giant Devil Hand Moth** shakes its scales over everyone within 4 blocks as it takes off: 3 seconds of Blindness.
 - The **Doze Evil Eye Butterfly** does the same: 6 seconds of Slowness II and 3 seconds of Nausea.
@@ -53,7 +53,7 @@ Every creature has a **Hunter level**. If yours is too low, it slips out of the 
 
 Three creatures only go into the ![](../icons/enhanced_bug_catcher_net.png){ .item-icon }**Enhanced Bug Catcher Net**; any other net lets them slip through: the **Lightning Beetle**, the **Thunder Spider** and the **Spirit Firefly**.
 
-The Enhanced net is made by the [Inventor](inventor.md) at the Workshop (level 28) from 3 Raw Iron, 5 Mysterious Parts and 1 Bamboo. It has **256 uses**, four times the plain net, and reaches **1.5 blocks further** when held in your main hand.
+The Enhanced Bug Catcher Net is made by the [Inventor](inventor.md) at the Workshop (level 28) from 3 Raw Iron, 5 Mysterious Parts and 1 Bamboo. It has **256 uses**, four times the plain net, and reaches **1.5 blocks further** when held in your main hand.
 
 ## Hunter XP and first captures
 
@@ -66,7 +66,7 @@ In Crew mode, a player of another trade can still catch the level-1 creatures. T
 Two creatures have a rare look, and each comes as its own item:
 
 - ![](../icons/golden_hercules.png){ .item-icon }**Golden Hercules**: 1 Hercules Beetle in 20 is born golden; near a Hunter of level 25 or more, 1 in 10. It also carries more Sweet Sap (2 to 3 instead of 1 to 2).
-- **Invisible Swallowtail**: 1 Swallowtail Butterfly in 20. The Hunter's level-25 perk does **not** change this chance.
+- **Invisible Swallowtail**: 1 Swallowtail Butterfly in 20, whatever your level (the level-25 perk does **not** change it).
 
 A rare variant pays **three times** its species' XP. It shares the first-capture bonus with its normal form, and has its own page in the Bestiary.
 
@@ -94,9 +94,9 @@ There are two traps, both made by the [Inventor](inventor.md) at the Workshop:
 **The catch.** When the wait is over, the trap picks a creature that lives where it stands; if nothing can be caught there, it waits another round. When it closes on something it snaps shut with a wooden clack. Right-click it to collect the creature; before then it says "Nothing in the trap yet."
 
 - The catch follows the same rules as the net: if your Hunter level is too low, "It got away from the trap."
-- Rare variants come out of traps too: 1 Swallowtail in 20 is an Invisible Swallowtail.
+- Rare variants come out of traps too, at the same odds: a trapped Swallowtail can be an Invisible Swallowtail.
 
-**Single use.** A trap is spent once you collect its catch, unless something spares it: the Hunter's level-10 perk spares it half the time, and a fitted Reinforced Frame spares it half the time as well.
+**Single use.** A trap is spent once you collect its catch, unless something spares it: the Hunter's level-10 perk and a fitted Reinforced Frame each spare it half the time.
 
 **Moving a trap.** Break it to pick it up again. It comes back as the same item, with any parts still fitted.
 
@@ -109,7 +109,7 @@ There are two traps, both made by the [Inventor](inventor.md) at the Workshop:
 | **Seagull** | beaches, oceans, rivers, stony shores | yes | either |
 | **Antlion Lacewing** | desert, badlands | yes | **Enhanced Traps only** |
 
-"Outside" means nothing solid above the trap; leaves don't count. Where several of them can be caught, each is as likely as the others. The Antlion Lacewing needs a Hunter of level 24.
+"Outside" means nothing solid above the trap; leaves don't count. Where several of them can be caught, each is as likely as the others. The Antlion Lacewing needs a Hunter of level 24; the other three are level 1.
 
 ## Parts for nets and traps
 
@@ -124,8 +124,7 @@ The [Inventor](inventor.md) makes four parts at the Workshop. Anyone fits them a
 
 ## The creatures
 
-Creatures appear around you, 16 to 48 blocks away. Every 5 seconds each kind rolls its chance to appear, up to a cap on how many of it may be nearby. Hunter levels are in brackets.
-
+Creatures appear around you, 16 to 48 blocks away. Every 5 seconds each kind rolls its chance to appear, up to a cap on how many of it may be nearby. In the lists below, Hunter levels are in brackets.
 
 Every creature in 3D (drag to turn, scroll or pinch to zoom); the Hercules Beetle and the Swallowtail Butterfly show their rare variant under their buttons:
 
@@ -133,8 +132,8 @@ Every creature in 3D (drag to turn, scroll or pinch to zoom); the Hercules Beetl
 
 **The sky.** Three creatures live on Mine Mine no Mi's sky islands, from height 150 up. Each also has a home on the ground, for worlds without sky islands.
 
-- **Lightning Beetle** (25, Enhanced net only). It clings to the quartz trees' trunks and crackles with sparks; rarer on forest trunks. It takes off when disturbed and carries Thunder Powder.
-- **Thunder Spider** (22, Enhanced net only). It clings to the islands' cliffs and quartz trees, or to mountain rock from height 130. It bites twice with a numbing shock, then scurries off. It gives String.
+- **Lightning Beetle** (25, Enhanced Bug Catcher Net only). It clings to the quartz trees' trunks and crackles with sparks; rarer on forest trunks. It takes off when disturbed and carries Thunder Powder.
+- **Thunder Spider** (22, Enhanced Bug Catcher Net only). It clings to the islands' cliffs and quartz trees, or to mountain rock from height 130. It bites twice with a numbing shock, then scurries off. It gives String.
 - **Rainbow Phoenix** (40, the highest). A stained-glass butterfly on the quartz crowns, the flowers and the Golden Fruit leaves; also, very rarely, in meadows and cherry groves. The shyest creature of all. It gives Nectar.
 
 **The swamps** (swamps and mangrove swamps):
@@ -142,7 +141,7 @@ Every creature in 3D (drag to turn, scroll or pinch to zoom); the Hercules Beetl
 - **Red-Eyed Spotted Frog** (12). It hops away from you. Half the time it carries a Mystery Egg.
 - **Crossbone Butterfly** (18). It waits on the swamp's flowers, lily pads, ferns and grass.
 - **Giant Devil Hand Moth** (20). Same perches; its scales blind you as it flees.
-- **Spirit Firefly** (30, Enhanced net only). It drifts over the swamp at night, 1 to 3 blocks up, and drains you if you touch it.
+- **Spirit Firefly** (30, Enhanced Bug Catcher Net only). It drifts over the swamp at night, 1 to 3 blocks up, and drains you if you touch it.
 - The Lantern Firefly also comes to the swamps at night.
 
 **Forests, plains, deserts and coasts:**
@@ -163,7 +162,7 @@ Every creature in 3D (drag to turn, scroll or pinch to zoom); the Hercules Beetl
 
 **The jungles:**
 
-- **Mole** (1). Jungles, plus stony shores, stony peaks and the windswept hills. It carries Raw Iron and, 1 time in 10, an egg.
+- **Mole** (1). Jungles, plus stony shores, stony peaks and the windswept hills. It carries Raw Iron and, 1 time in 10, a Mystery Egg.
 - **Umbrella Frog** (8). Jungles and rivers; it wears a leaf hat against the rain.
 - **Jungle Lizard** (10). Basks on the jungle's trunks, leaves and moss.
 - **Hidden Forest Bee** (14). Waits on a flower and stings twice. It gives Nectar, half the time a Medicinal Herb, and sometimes Sleep Honey.
@@ -187,8 +186,8 @@ How to read the table:
 
 - **Level**: the Hunter level you need to catch it, by net or by trap. The Hunter's page in the professions book lists each creature under "Catch" at that level.
 - **Where**: the biome groups it lives in (all swamps, all forests…), with any condition such as outside, at night, underground or a height. For a creature that comes from traps, a "(traps)" part says where the trap must stand.
-- **How**: net, trap or both. Remember that the Lightning Beetle, the Thunder Spider and the Spirit Firefly need the Enhanced Bug Catcher Net.
-- **XP (first catch)**: the Hunter XP per catch, and the one-time bonus the first time you catch the species (always four times the XP). A rare variant pays three times the XP.
+- **How**: net, trap or both.
+- **XP (first catch)**: the Hunter XP per catch, and the one-time bonus the first time you catch the species (always four times the XP).
 
 | Creature | Level | Where | How | XP (first catch) |
 |---|---|---|---|---|
@@ -256,4 +255,4 @@ What the Tannery's own items do:
 
 ## Advancements
 
-The **Hunter** tab opens at Hunter level 1 and is the largest in the mod, with 42 advancements: **Apprentice** at level 5, and the rest for creatures caught and things made. Its challenges include **Golden Hercules** and **Naturalist**, for catching every creature.
+The **Hunter** tab opens at Hunter level 1 and is the largest in the mod, with 42 advancements: **Apprentice Hunter** at level 5, and the rest for creatures caught and things made. Its challenges include **Golden Hercules** and **Naturalist**, for catching every creature.

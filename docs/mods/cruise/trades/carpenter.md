@@ -16,11 +16,11 @@ Every Shipyard recipe asks for a Carpenter level and pays Carpenter XP.
 There are **16 boats**: four hulls (Reinforced, Kuuigosu, Burning Tree, Adam) in four shapes (Boat, Longboat, Cargo Boat, Fishing Boat).
 
 - **Reinforced** hulls (Carpenter 5 to 15) are built from any planks and iron.
-- **Kuuigosu** hulls (Carpenter 20 to 34) are the quick ones.
+- **Kuuigosu** hulls (Carpenter 20 to 30) are the quick ones.
 - **Burning Tree** hulls (Carpenter 36 to 40) are fireproof.
 - **Adam** hulls (Carpenter 50) take the most blows.
 
-How the hulls and shapes behave, how to ride, mend and salvage them: see [Boats](../boats.md).
+How the hulls and shapes behave, and how to ride, mend and salvage the boats: see [Boats](../boats.md).
 
 ## Lockers
 
@@ -33,7 +33,7 @@ Four chests of the Carpenter's own. Each is one block and **never pairs** into a
 | ![](../icons/kuuigosu_locker.png){ .item-icon }Kuuigosu Locker | 34 | 78 (13×6) | 60 | — |
 | ![](../icons/adam_strongbox.png){ .item-icon }Adam Strongbox | 45 | 105 (15×7) | 1 200 | **keeps its contents when broken** |
 
-- The Adam Strongbox drops as one item with everything inside ("Keeps what is in it when you break it"), and placing it puts it all back. The other three spill their contents when broken, like a chest.
+- The Adam Strongbox drops as one item with everything inside (its tooltip: "Keeps what is in it when you break it"), and placing it puts it all back. The other three spill their contents when broken, like a chest.
 - Lockers keep a name given with an anvil and work with comparators.
 
 ## The Auction House
@@ -78,7 +78,7 @@ Boats are fitted with sails, plating, a ram or a Burst Dial at the ![](../icons/
 - Parts go on the boat **before** it is placed: the bench only takes the boat item.
 - Each boat takes one of each part and **only one sail**: fitting a new sail takes the old one down, and it comes back to you.
 
-The sails are sewn by the [Tailor](tailor.md), the other parts are made by the [Inventor](inventor.md). The full list is on the [Boats](../boats.md) page. The same bench also fits the Inventor's fishing-rod parts and the [Hunter](hunter.md)'s net and trap gear.
+The sails are sewn by the [Tailor](tailor.md); the other parts are made by the [Inventor](inventor.md). The full list is on the [Boats](../boats.md) page. The same bench also fits the Inventor's fishing-rod parts and the [Hunter](hunter.md)'s net and trap gear.
 
 ## Level perks
 
@@ -90,4 +90,4 @@ The sails are sewn by the [Tailor](tailor.md), the other parts are made by the [
 
 ## Advancements
 
-The **Carpenter** tab opens at Carpenter level 1: Apprentice Carpenter (level 5), A Hull That Holds (build a Reinforced Boat), and the challenge **SUPER!** (build a boat of Adam Wood), which rewards 100 experience.
+The **Carpenter** tab opens at Carpenter level 1: Apprentice Carpenter (level 5), A Hull That Holds (build a Reinforced Boat), and the challenge **SUPER!** (build a boat of Adam Wood: an Adam Boat), which rewards 100 experience points.

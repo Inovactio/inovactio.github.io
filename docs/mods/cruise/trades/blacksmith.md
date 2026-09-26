@@ -1,6 +1,6 @@
 # Blacksmith
 
-The Blacksmith makes, at the **Forge**, the weapons and gear of Mine Mine no Mi that the base mod ships but never let players craft, from the Blue Sword to the Soul Solid, and takes over a few that it did, such as bullets, cannons and handcuffs.
+At the **Forge**, the Blacksmith makes Mine Mine no Mi weapons and gear that the base mod ships but never lets players craft, from the Blue Sword to the Soul Solid. The trade also takes over a few that the base mod did let players craft, such as bullets, cannons and handcuffs.
 
 | | |
 |---|---|
@@ -14,8 +14,8 @@ The Forge glows (light level 10) and needs a pickaxe to be picked back up. Every
 ## What the Forge makes
 
 - **From level 1**, the plain weapons and ammunition: Axe, Broadsword, Katana, Spear and Bullets, then the Pipe (5), the Mace and Scissors (10) and Handcuffs (14).
-- **Levels 17 to 28**, gear that needs other trades' goods: the Kabuto (Iron Scrap and Mysterious Parts), Pop Greens (Gunpowder), Cannon Balls, the Kairoseki Net and the Cannon.
-- **Levels 29 to 41**, sea-stone and fine blades: the Blue Sword, Kairoseki Bullets, the Warabide Sword, then Dense Kairoseki for the Jitte, the 5t Hammer and Kairoseki Handcuffs.
+- **Levels 17 to 28**: the Kabuto (with Iron Scrap and Mysterious Parts), Pop Greens (with Gunpowder), Cannon Balls, the Kairoseki Net and the Cannon.
+- **Levels 29 to 41**, sea-stone and fine blades: the Blue Sword, Kairoseki Bullets and the Warabide Sword, then Dense Kairoseki for the Jitte, the 5t Hammer and Kairoseki Handcuffs.
 - **The top of the trade**: the Kuro Kabuto (45), forged from a Kabuto and Adam Planks, and the **Soul Solid** (50).
 
 The item names are Mine Mine no Mi's own, and so are their combat stats.
@@ -55,7 +55,7 @@ By default, Cruise removes some of Mine Mine no Mi's crafting-table recipes, so 
 - **[Tailor](tailor.md)** (Sewing Table): Umbrella, Medic Bag, Flag.
 - **[Inventor](inventor.md)** (Workshop): Clima Tact, Perfect Clima Tact, Sorcery Clima Tact.
 
-The server setting **takeOverBaseRecipes** switches this off: all sixteen recipes go back to the crafting table, exactly as the base mod shipped them, and the trades still make these items too. A second setting keeps chosen items on the crafting table while the takeover stays on. Changes apply at the next `/reload` or world load; on a server, the server's settings decide. The recipe-book unlocks follow the same setting. See [Configuration](../configuration.md).
+Turning the **takeOverBaseRecipes** setting off gives all sixteen recipes back to the crafting table, exactly as the base mod shipped them; the trades still make these items too. A second setting keeps chosen items on the crafting table while the takeover stays on. The recipe-book unlocks follow the same settings. Changes apply at the next `/reload` or world load, and on a server, the server's settings decide. See [Configuration](../configuration.md).
 
 ## Level perks
 

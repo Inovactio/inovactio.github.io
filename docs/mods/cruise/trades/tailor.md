@@ -1,6 +1,6 @@
 # Tailor
 
-The Tailor sews Mine Mine no Mi's clothing at the **Sewing Table**: hats, capes, masks, glasses and the characters' outfits, which the base mod ships but never lets players make. The Tailor also sews the [Carpenter](carpenter.md)'s boat sails, and makes two materials of their own.
+The Tailor sews Mine Mine no Mi's clothing at the **Sewing Table**: hats, capes, masks, glasses and characters' outfits, which the base mod ships but never lets players make. The Tailor also sews the [Carpenter](carpenter.md)'s boat sails and makes two materials of their own.
 
 | | |
 |---|---|
@@ -18,19 +18,19 @@ Every recipe asks for a Tailor level and pays Tailor XP: 12 XP at level 1, risin
     - ![](../icons/mask_fragment.png){ .item-icon }**Mask Fragment** (level 14: 3 Clay Balls and 1 Yellow Dye).
     - They go into the Bandana (level 1) and the Sogeking Mask (level 29).
 - **Boat sails** for the Carpenter's boats: the Boat Sail (12), the Fine Sail (28) and the Master's Sail (44). Each better sail is sewn from the one before. See [Boats](../boats.md).
-- **Base-mod items taken from the crafting table**: the Flag (1), the Umbrella (4) and the Medic Bag (8). See the takeover on the [Blacksmith](blacksmith.md) page.
+- **Base-mod items taken from the crafting table**: the Flag (1), the Umbrella (4) and the Medic Bag (8). While the **takeOverBaseRecipes** setting is on (the default), they are made only here; see the takeover on the [Blacksmith](blacksmith.md) page and [Configuration](../configuration.md).
 - **Uniforms and headwear**: pirate and Marine uniforms (3 and 4), the Tricorne (6), Sniper Goggles (10), the Wizard Hat (12), the Plume Hat (15), the Bicorne (18), the Wide Brim Hat (20), the Pirate and Marine Captain Capes (22), the MH5 Gas Mask (24), the CP9 outfit (38), the Vice Admiral outfit (45) and the Fleet Admiral's Hat (50).
 - **The Straw Hat crew**: the Straw Hat (2), Luffy's (7), Zoro's (8), Usopp's (9) and Sanji's (11) outfits, the two Chopper's Hats (26 and 27), the Sogeking Mask (29), Franky's Glasses and Shirt (34) and the Soul King Crown (41).
-- **Other characters' outfits and accessories**, from level 13 up: Kuro, Kuroobi, Arlong, Smoker, Mr 1, Mr 3 and Mr 5, Crocodile, Ace and Sabo's hats, Kizaru, Law, Senor Pink, Killer, Kuma, Doflamingo, Mihawk and more.
+- **Other characters' outfits and accessories**, from level 13 up: pieces for Kuro, Kuroobi, Arlong, Smoker, Mr 1, Mr 3, Mr 5, Crocodile, Kizaru, Law, Senor Pink, Killer, Kuma, Doflamingo and Mihawk, Ace's and Sabo's hats, and more.
 
-The recipes are spread evenly up to level 50 (24 at levels 1–10, 22 at 11–20, 23 at 21–30, 19 at 31–40, 15 at 41–50).
+The recipes are spread fairly evenly up to level 50 (24 at levels 1–10, 22 at 11–20, 23 at 21–30, 19 at 31–40, 15 at 41–50).
 
 ### Ingredients from the other trades
 
 Besides wool of many colours, string and leather, the recipes call on the whole crew:
 
-- the [Hunter](hunter.md)'s catches: hides (lizards, frogs, the A-Class Toad, the Mole), wings (butterflies, moths, the Flying Penguin), fireflies, the Rock Lizard;
-- the [Fisher](fisher.md)'s fish (Forked-Tail Killifish, Shark, Missile Manta Ray) and Sea King Scales and Fins;
+- the [Hunter](hunter.md)'s catches: hides (lizards, frogs, the A Class Toad, the Mole), wings (butterflies, moths, the Flying Penguin), fireflies, and the Rock Lizard;
+- the [Fisher](fisher.md)'s fish (Forked-Tail Killifish, Shark, Missile Manta Ray), and Sea King Scales and Fins;
 - the [Farmer](farmer.md)'s Ancient Rice and Medicinal Herb;
 - the [Miner](miner.md)'s Pure Iron Ore, Diamond Fragments and Explosive Rock Fragments;
 - Iron Scrap, Mysterious Parts, and powders such as Thunder Powder and Flame Powder;
@@ -150,10 +150,8 @@ These are all the Sewing Table's recipes:
 |---|---|---|
 | 10 | "Double stitch: 10% of your work comes off the table twice" | 10 % chance a piece comes out twice: "A second piece off the table: …" |
 | 25 | "Sturdy seams: what you sew comes with Unbreaking I" | for items that have durability and no Unbreaking yet |
-| 30 | "Master's cut: what you sew is a master's work, signed" | armour pieces you sew get +1 Armor and +0.5 Armor Toughness when worn, and read "Master's work" and "Sewn by" your name |
+| 30 | "Master's cut: what you sew is a master's work, signed: +1 Armor, +0.5 Armor Toughness" | applies to armour pieces, when worn; they read "Master's work: +1 Armor, +0.5 Armor Toughness" and "Sewn by" your name |
 | 40 | "Offcuts: a quarter of your work gives an ingredient back" | 25 % chance one ingredient (never a tool) comes back: "Saved from the offcuts: …" |
-
-The Umbrella, Medic Bag and Flag are made only here while the server's **takeOverBaseRecipes** setting is on (the default); see [Configuration](../configuration.md).
 
 ## Advancements
 
