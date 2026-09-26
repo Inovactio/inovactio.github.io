@@ -1,8 +1,9 @@
 /* A 3D viewer for a mod's entity models, with their textures, in plain WebGL (no dependency).
  *
  * <div class="model-viewer" data-models="models/" data-ids="south-bird cloud-fox ..."></div>
- * loads each <id>.json from data-models (made by the wiki tools' modelrender/export.py: the model's faces in each
- * pose, and its texture variants) and shows one at a time, with buttons for the animal, its variant and its pose.
+ * loads each <id>.json from data-models (made by the wiki tools' modelrender scripts: the model's faces in each
+ * pose, and its texture variants) and shows one at a time, with buttons for the model, its variant and its pose.
+ * An id may start with a sub-folder ("forms/kuma-kuma-walk-point"); a model's textures sit beside its file.
  * Drag to turn it, scroll or pinch to zoom; it turns slowly on its own until touched.
  *
  * A pose is either one list of faces (drawn with the chosen variant's texture) or `layers`, each {texture, size,
@@ -145,7 +146,7 @@
 
     function upload() {
       meshes.forEach(m => Object.values(m.buf).forEach(b => gl.deleteBuffer(b)));
-      const built = layers().map(l => ({ mesh: buildMesh(l.faces, l.size), url: base + l.texture }));
+      const built = layers().map(l => ({ mesh: buildMesh(l.faces, l.size), url: data.folder + l.texture }));
       const lo = [0, 1, 2].map(k => Math.min(...built.map(b => b.mesh.lo[k])));
       const hi = [0, 1, 2].map(k => Math.max(...built.map(b => b.mesh.hi[k])));
       frame = { centre: lo.map((l, k) => (l + hi[k]) / 2),
@@ -237,7 +238,9 @@
     }, { passive: false });
 
     // the models are small (a few kilobytes each): load them all, then name the buttons after them
+    // An id may name a sub-folder ("forms/kuma-kuma-walk-point"): a model's textures sit beside its file.
     Promise.all(ids.map(id => fetch(base + id + '.json').then(r => r.json()))).then(function (loaded) {
+      loaded.forEach(function (m, i) { m.folder = base + ids[i].replace(/[^/]*$/, ''); });
       models = loaded;
       models.forEach(function (m, i) { bar.append(button(m.name, function () { show(i); })); });
       show(0);
