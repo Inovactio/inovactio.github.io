@@ -33,29 +33,30 @@ The mode is AkumaLib's setting, in the world's `serverconfig/akumalib-server.tom
 
 | Trade | Workstation | What it does |
 |---|---|---|
-| **Fisher** | - | 37 fish with their sizes, by biome and depth, down to the lava. Better rods. The **Sea Kings**. |
-| **Hunter** | Tannery | Some thirty creatures, caught with the net or in traps. Leather, bait, lures. |
-| **Farmer** | - | Seven fruit trees, plantations, golden orchards in the sky. |
-| **Cook** | Kitchen | The game's 29 dishes, in three qualities, each with a meal buff. |
-| **Inventor** | Workshop | Reels, sieves, nets, traps and their parts, dials, the Clima-Tacts, instruments. |
-| **Chemist** | Laboratory | Remedies, powders and battle balls, up to the Rumble Ball. |
-| **Miner** | Masonry | Finds in the rock, from Iron Scrap to diamonds. |
-| **Lumberjack** | - | The story's trees: the Kuuigosu, the Burning Tree, the colossal Treasure Tree Adam. |
-| **Carpenter** | Shipyard | Boats of four hulls and four shapes, hull parts, lockers, the Auction House. |
-| **Blacksmith** | Forge | The base mod's weapons nobody could make, up to Brook's Soul Solid. |
-| **Tailor** | Sewing Table | A hundred hats, capes and masks, every character outfit, the boats' sails. |
-| **Merchant** | - | Better prices, contracts, the Auction House, treasure hunts. |
-| **Navigator** | Chart Table | Log Pose, Barometer, Sea Charts, the Eternal Pose, a log book of the world. |
-| **Musician** | Music Stand | Scores played on a flute, a violin or a guitar, to buff the whole crew. |
+| **[Fisher](trades/fisher.md)** | - | 37 fish with their sizes, by biome and depth, down to the lava. Better rods. The **Sea Kings**. |
+| **[Hunter](trades/hunter.md)** | Tannery | Some thirty creatures, caught with the net or in traps. Leather, bait, lures. |
+| **[Farmer](trades/farmer.md)** | - | Seven fruit trees, plantations, golden orchards in the sky. |
+| **[Cook](trades/cook.md)** | Kitchen | The game's 29 dishes, in three qualities, each with a meal buff. |
+| **[Inventor](trades/inventor.md)** | Workshop | Reels, sieves, nets, traps and their parts, dials, the Clima-Tacts, instruments. |
+| **[Chemist](trades/chemist.md)** | Laboratory | Remedies, powders and battle balls, up to the Rumble Ball. |
+| **[Miner](trades/miner.md)** | Masonry | Finds in the rock, from Iron Scrap to diamonds. |
+| **[Lumberjack](trades/lumberjack.md)** | - | The story's trees: the Kuuigosu, the Burning Tree, the colossal Treasure Tree Adam. |
+| **[Carpenter](trades/carpenter.md)** | Shipyard | Boats of four hulls and four shapes, hull parts, lockers, the Auction House. |
+| **[Blacksmith](trades/blacksmith.md)** | Forge | The base mod's weapons nobody could make, up to Brook's Soul Solid. |
+| **[Tailor](trades/tailor.md)** | Sewing Table | A hundred hats, capes and masks, every character outfit, the boats' sails. |
+| **[Merchant](trades/merchant.md)** | - | Better prices, contracts, the Auction House, treasure hunts. |
+| **[Navigator](trades/navigator.md)** | Chart Table | Log Pose, Barometer, Sea Charts, the Eternal Pose, a log book of the world. |
+| **[Musician](trades/musician.md)** | Music Stand | Scores played on a flute, a violin or a guitar, to buff the whole crew. |
 
-Every trade levels on its own curve, with **perks** along the way. Its page in the profession book (**K**) shows what each level unlocks. A server can make any trade level faster or slower: see [Configuration](configuration.md).
+Every trade levels from 1 to 100, with **perks** along the way. Its page in the profession book (**K**) shows what each level unlocks. How levels, XP, Solo and Crew work: [Trades and levels](trades-and-levels.md). A server can make any trade level faster or slower: see [Configuration](configuration.md).
 
 ## Across the trades
 
-- **Five merchants** come to villages and the wild - the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader - and buy what the trades make, for Belly. Each brings **contracts** that pay above the market.
-- **The Auction House**: one market for the whole server.
-- **Treasure hunts**: torn maps in wrecks, in bottles and on the merchants' stalls. A Merchant deciphers them; the X leads to a chest, and now and then to a Devil Fruit box.
-- **The Bestiary** and **the log book**: every fish, creature, land and place you find, with rewards as you fill them.
+- **Five [merchants](merchants-and-contracts.md)** come to villages and the wild - the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader - and buy what the trades make, for Belly. Each brings **contracts** that pay above the market.
+- **The [Auction House](auction-house.md)**: one market for the whole server.
+- **[Treasure hunts](treasure-hunts.md)**: torn maps in chests, in fishing junk and on the merchants' stalls. A Merchant deciphers them; the X leads to a chest, and now and then to a Devil Fruit box.
+- **The [Bestiary and the log book](bestiary-and-logbook.md)**: every fish, creature, land and place you find, with rewards as you fill them.
+- **[Boats](boats.md)** of four hulls and four shapes, built by the Carpenter and rigged by the Tailor.
 - **185 advancements**, a tab per trade, and Jack of All Trades for whoever reaches level 5 in all fourteen.
 
 !!! note "Some of the base mod's recipes move to the trades"
