@@ -10,9 +10,9 @@
 | **Abilities** | 6: 5 active, 1 passive |
 | **Transformations** | [Isa Isa Guard Point](#isa-isa-guard-point), [Isa Isa Heavy Point](#isa-isa-heavy-point) |
 
-Its forms in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="isa-isa-guard-point isa-isa-heavy-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/isa-isa-guard-point forms/isa-isa-heavy-point"></div>
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

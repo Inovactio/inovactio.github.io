@@ -12,9 +12,9 @@
 | **Transformations** | [Kugi Yoroi](#kugi-yoroi) |
 | **Effects applied** | ![](../effect-icons/nailed.png){ .effect-mini }[Nailed](../effects.md#effect-nailed) |
 
-Its form in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="kugi-yoroi"></div>
+<div class="model-viewer" data-models="../../" data-ids="objects/kugizuke objects/kugibari objects/kugi-ame forms/kugi-yoroi"></div>
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -24,6 +24,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Kugizuke { #kugizuke }
 
 ![](../abilities/kugizuke.png){ .ability-icon } *Active*
+
+![Kugizuke](../objects/kugizuke.png){ .form-picture }
 
 Applies ![](../effect-icons/nailed.png){ .effect-mini }[Nailed](../effects.md#effect-nailed)
 
@@ -38,6 +40,8 @@ Throws a big nail that pins the target to the ground where it stands.
 
 ![](../abilities/kugibari.png){ .ability-icon } *Active*
 
+![Kugibari](../objects/kugibari.png){ .form-picture }
+
 Applies ![](../effect-icons/nailed.png){ .effect-mini }[Nailed](../effects.md#effect-nailed)
 
 Throws a spread of small nails; each one slows the target more, and three of them pin it down.
@@ -50,6 +54,8 @@ Throws a spread of small nails; each one slows the target more, and three of the
 ## Kugi Ame { #kugi-ame }
 
 ![](../abilities/kugi-ame.png){ .ability-icon } *Active*
+
+![Kugi Ame](../objects/kugi-ame.png){ .form-picture }
 
 Applies ![](../effect-icons/nailed.png){ .effect-mini }[Nailed](../effects.md#effect-nailed)
 

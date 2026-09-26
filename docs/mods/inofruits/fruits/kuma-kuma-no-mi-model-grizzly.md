@@ -10,9 +10,9 @@
 | **Abilities** | 8: 6 active, 2 passive |
 | **Transformations** | [Kuma Kuma Walk Point](#kuma-kuma-walk-point), [Kuma Kuma Heavy Point](#kuma-kuma-heavy-point) |
 
-Its forms in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="kuma-kuma-walk-point kuma-kuma-heavy-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/kuma-kuma-walk-point forms/kuma-kuma-heavy-point"></div>
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

@@ -11,9 +11,9 @@
 | **Abilities** | 6: 6 active, 0 passive |
 | **Transformations** | [Hone Hone Point](#hone-hone-point) |
 
-Its form in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="hone-hone-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/hone-hone-point objects/bone-throw objects/bone-shards"></div>
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -32,6 +32,8 @@ The user wears their skeleton on the outside, which makes the other bone techniq
 
 ![](../abilities/bone-throw.png){ .ability-icon } *Active*
 
+![Bone Throw](../objects/bone-throw.png){ .form-picture }
+
 Throws a bone that comes back to the user, hitting enemies both ways.
 
 | Stat | Value |
@@ -48,6 +50,8 @@ Grows a long bone blade out of the user's arm that can be used as a sword.
 ## Bone Shards { #bone-shards }
 
 ![](../abilities/bone-shards.png){ .ability-icon } *Active*
+
+![Bone Shards](../objects/bone-shards.png){ .form-picture }
 
 Shoots a burst of bone splinters in a short cone, which break apart at range
 

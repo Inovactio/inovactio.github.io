@@ -11,9 +11,9 @@
 | **Transformations** | [Uma Uma Walk Point](#uma-uma-walk-point), [Uma Uma Heavy Point](#uma-uma-heavy-point) |
 | **Effects applied** | ![](../effect-icons/purified.png){ .effect-mini }[Purified](../effects.md#effect-purified) |
 
-Its forms in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="uma-uma-walk-point uma-uma-heavy-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/uma-uma-walk-point forms/uma-uma-heavy-point"></div>
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

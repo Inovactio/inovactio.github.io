@@ -11,9 +11,9 @@
 | **Abilities** | 5: 5 active, 0 passive |
 | **Transformations** | [Neji Neji Point](#neji-neji-point) |
 
-Its form in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="neji-neji-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/neji-neji-point"></div>
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

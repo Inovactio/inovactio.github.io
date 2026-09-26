@@ -11,6 +11,10 @@
 | **Abilities** | 9: 8 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/blood-shell.png){ .effect-mini }[Blood Shell](../effects.md#effect-blood-shell) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/blood-spear"></div>
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,6 +23,8 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 ## Blood Spear { #blood-spear }
 
 ![](../abilities/blood-spear.png){ .ability-icon } *Active*
+
+![Blood Spear](../objects/blood-spear.png){ .form-picture }
 
 Throws a spear of the user's hardened blood that makes the target bleed. Costs blood.
 

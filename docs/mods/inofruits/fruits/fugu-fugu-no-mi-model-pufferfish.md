@@ -10,9 +10,9 @@
 | **Abilities** | 7: 5 active, 2 passive |
 | **Transformations** | [Fugu Fugu Guard Point](#fugu-fugu-guard-point), [Fugu Fugu Heavy Point](#fugu-fugu-heavy-point) |
 
-Its forms in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="fugu-fugu-guard-point fugu-fugu-heavy-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/fugu-fugu-guard-point forms/fugu-fugu-heavy-point objects/togeuchi"></div>
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -52,6 +52,8 @@ The hybrid's belly is bigger, pushing things away from further
 ## Togeuchi { #togeuchi }
 
 ![](../abilities/togeuchi.png){ .ability-icon } *Active*
+
+![Togeuchi](../objects/togeuchi.png){ .form-picture }
 
 The user shoots a ring of spines out of their body in every direction.
 
