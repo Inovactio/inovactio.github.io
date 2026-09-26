@@ -1,3 +1,13 @@
+---
+# Hidden search keywords: the search weighs them heavily; the page does not show them.
+tags:
+  - seaking
+  - sea king
+  - sea kings
+  - fishing
+  - fish
+---
+
 # Fisher
 
 The Fisher lands the islands' own catches (fish, shellfish, crustaceans, even a whale) with an ordinary fishing rod, measures each one in centimetres, and at the top of the trade hooks the **Sea Kings** of the deep sea and fights them.

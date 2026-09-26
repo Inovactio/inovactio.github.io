@@ -1,3 +1,11 @@
+---
+# Hidden search keywords: the search weighs them heavily; the page does not show them.
+tags:
+  - skypiea
+  - sky island
+  - dimension
+---
+
 # Sky Island
 
 ![](../../assets/icons/sky-island.png){ .mod-icon }

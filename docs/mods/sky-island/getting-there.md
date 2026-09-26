@@ -1,3 +1,14 @@
+---
+# Hidden search keywords: the search weighs them heavily; the page does not show them.
+tags:
+  - knockup
+  - knock up
+  - knock-up
+  - geyser
+  - way up
+  - travel
+---
+
 # Getting there and back
 
 ## The Knock-Up Stream

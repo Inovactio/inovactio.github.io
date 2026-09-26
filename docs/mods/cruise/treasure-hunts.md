@@ -1,3 +1,11 @@
+---
+# Hidden search keywords: the search weighs them heavily; the page does not show them.
+tags:
+  - treasure
+  - treasure map
+  - maps
+---
+
 # Treasure hunts
 
 Torn treasure maps turn up in chests, on the end of a fishing line and on merchants' stalls. A [Merchant](trades/merchant.md) deciphers one into a map with a red X; whoever follows it digs up a chest of Belly, goods and, sometimes, a Devil Fruit box.
