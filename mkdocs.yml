@@ -225,6 +225,28 @@ nav:
       - Changelog: mods/sky-island/changelog.md
   - Cruise Cruise no Mi:
       - mods/cruise/index.md
+      - Trades and levels: mods/cruise/trades-and-levels.md
+      - Trades:
+          - Fisher: mods/cruise/trades/fisher.md
+          - Hunter: mods/cruise/trades/hunter.md
+          - Farmer: mods/cruise/trades/farmer.md
+          - Cook: mods/cruise/trades/cook.md
+          - Inventor: mods/cruise/trades/inventor.md
+          - Chemist: mods/cruise/trades/chemist.md
+          - Miner: mods/cruise/trades/miner.md
+          - Lumberjack: mods/cruise/trades/lumberjack.md
+          - Carpenter: mods/cruise/trades/carpenter.md
+          - Blacksmith: mods/cruise/trades/blacksmith.md
+          - Merchant: mods/cruise/trades/merchant.md
+          - Tailor: mods/cruise/trades/tailor.md
+          - Navigator: mods/cruise/trades/navigator.md
+          - Musician: mods/cruise/trades/musician.md
+      - Around the islands:
+          - Merchants and contracts: mods/cruise/merchants-and-contracts.md
+          - Auction House: mods/cruise/auction-house.md
+          - Treasure hunts: mods/cruise/treasure-hunts.md
+          - Bestiary and logbook: mods/cruise/bestiary-and-logbook.md
+          - Boats: mods/cruise/boats.md
       - Configuration: mods/cruise/configuration.md
       - Changelog: mods/cruise/changelog.md
   - AkumaLib:
