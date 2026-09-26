@@ -33,11 +33,11 @@ The bird of Jaya, grown **huge** on Skypiea (about two blocks tall), and friendl
 
 <figure markdown>
 ![A Sky Dot Bird in flight](mobs/sky-dot-bird.png)
-<figcaption>The Sky Dot Bird, in flight</figcaption>
+<figcaption>The Sky Dot Bird</figcaption>
 </figure>
 
 <figure markdown>
-![A Three-Jo Bird](mobs/three-jo-bird.png)
+![A Three-Jo Bird in flight](mobs/three-jo-bird.png)
 <figcaption>The Three-Jo Bird</figcaption>
 </figure>
 
@@ -52,6 +52,20 @@ The bird of Jaya, grown **huge** on Skypiea (about two blocks tall), and friendl
 1. **Tame** it with seeds (wheat, melon, pumpkin, beetroot or torchflower), like a parrot. Seeds also heal a tamed one.
 2. **Saddle** it: use a **vanilla saddle** on it. Without a saddle, a click makes it sit or stand.
 3. **Ride** it: use it with an empty hand. **Only its owner** can ride and steer it.
+
+<div class="mob-gallery small" markdown>
+
+<figure markdown>
+![A saddled Sky Dot Bird on the ground](mobs/sky-dot-bird-saddled.png)
+<figcaption>Sky Dot Bird, with a saddle</figcaption>
+</figure>
+
+<figure markdown>
+![A saddled Three-Jo Bird on the ground](mobs/three-jo-bird-saddled.png)
+<figcaption>Three-Jo Bird, with a saddle</figcaption>
+</figure>
+
+</div>
 
 **Flying it** — a horse that flies:
 
@@ -75,7 +89,7 @@ Su's kind: a small white fox with a long muzzle, on the Angel Islands. **Tame it
 
 <figure markdown>
 ![A Cloud Fox](mobs/cloud-fox.png)
-<figcaption>The Cloud Fox (cloud coat)</figcaption>
+<figcaption>The Cloud Fox</figcaption>
 </figure>
 
 </div>
@@ -88,7 +102,12 @@ Holy's kind: a **huge** dog — over three blocks tall — very rare in the Uppe
 
 <figure markdown>
 ![A Giant Dog](mobs/giant-dog.png)
-<figcaption>The Giant Dog (charcoal coat)</figcaption>
+<figcaption>The Giant Dog</figcaption>
+</figure>
+
+<figure markdown>
+![A saddled Giant Dog](mobs/giant-dog-saddled.png)
+<figcaption>With a saddle</figcaption>
 </figure>
 
 </div>
@@ -105,6 +124,64 @@ The fox and the dog are born in one of **five coats** and keep it for life; the 
 |---|---|
 | Cloud Fox | **cloud** (Su), sky, dawn, mint, dusk |
 | Giant Dog | **cream** (Holy), russet, silver, chocolate, charcoal |
+
+<div class="mob-gallery small" markdown>
+
+<figure markdown>
+![Cloud Fox, cloud coat](mobs/coat-fox-cloud.png)
+<figcaption>cloud</figcaption>
+</figure>
+
+<figure markdown>
+![Cloud Fox, sky coat](mobs/coat-fox-sky.png)
+<figcaption>sky</figcaption>
+</figure>
+
+<figure markdown>
+![Cloud Fox, dawn coat](mobs/coat-fox-dawn.png)
+<figcaption>dawn</figcaption>
+</figure>
+
+<figure markdown>
+![Cloud Fox, mint coat](mobs/coat-fox-mint.png)
+<figcaption>mint</figcaption>
+</figure>
+
+<figure markdown>
+![Cloud Fox, dusk coat](mobs/coat-fox-dusk.png)
+<figcaption>dusk</figcaption>
+</figure>
+
+</div>
+
+<div class="mob-gallery small" markdown>
+
+<figure markdown>
+![Giant Dog, cream coat](mobs/coat-dog-cream.png)
+<figcaption>cream</figcaption>
+</figure>
+
+<figure markdown>
+![Giant Dog, russet coat](mobs/coat-dog-russet.png)
+<figcaption>russet</figcaption>
+</figure>
+
+<figure markdown>
+![Giant Dog, silver coat](mobs/coat-dog-silver.png)
+<figcaption>silver</figcaption>
+</figure>
+
+<figure markdown>
+![Giant Dog, chocolate coat](mobs/coat-dog-chocolate.png)
+<figcaption>chocolate</figcaption>
+</figure>
+
+<figure markdown>
+![Giant Dog, charcoal coat](mobs/coat-dog-charcoal.png)
+<figcaption>charcoal</figcaption>
+</figure>
+
+</div>
 
 ## Drops
 
