@@ -1,3 +1,12 @@
+---
+# Hidden search keywords: the search weighs them heavily; the page does not show them.
+tags:
+  - catch
+  - net
+  - bugs
+  - creatures
+---
+
 # Hunter
 
 The Hunter catches the islands' small creatures (beetles, butterflies, frogs, lizards, fireflies, even a phoenix) with a bug net or a trap, keeps them as items along with whatever they carry, and turns them into leather, bait, lures and trophies at the **Tannery**.

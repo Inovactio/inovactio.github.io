@@ -1,3 +1,17 @@
+---
+# Hidden search keywords: the search weighs them heavily; the page does not show them.
+tags:
+  - money
+  - belly
+  - sell
+  - buy
+  - price
+  - prices
+  - shop
+  - trader
+  - traders
+---
+
 # Merchants and contracts
 
 Five **travelling merchants** visit the Overworld, each buying the goods of one trade. Talk to one and his screen offers **Buy** (his shop) and **Sell** (his sale window); each also brings a stall of his trade's goods and three **contracts**. Anyone can trade with them; a [Merchant](trades/merchant.md) gets better prices and more.

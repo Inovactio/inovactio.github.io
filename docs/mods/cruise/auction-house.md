@@ -1,3 +1,10 @@
+---
+# Hidden search keywords: the search weighs them heavily; the page does not show them.
+tags:
+  - auction
+  - market
+---
+
 # Auction House
 
 The **Auction House** is where players trade with each other. Every Auction House block on the server opens **the same market**: a lot listed at one can be bought at any other, by any player, and the seller need not be online when it sells.

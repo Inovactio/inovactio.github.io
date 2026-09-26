@@ -1,3 +1,12 @@
+---
+# Hidden search keywords: the search weighs them heavily; the page does not show them.
+tags:
+  - boat
+  - boats
+  - ship
+  - sailing
+---
+
 # Boats
 
 The [Carpenter](trades/carpenter.md)'s boats look and steer like vanilla boats. The difference is the **hull**: it is counted in **blows** (timbers) and takes several hits before it gives, instead of breaking at the first one. There are **sixteen boats**: four hulls, each in four shapes. Anyone can ride them; only a Carpenter builds and mends them.

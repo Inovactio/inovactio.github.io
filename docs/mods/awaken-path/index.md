@@ -1,3 +1,11 @@
+---
+# Hidden search keywords: the search weighs them heavily; the page does not show them.
+tags:
+  - doriki
+  - awakening
+  - awaken
+---
+
 # Awaken Path
 
 ![](../../assets/icons/awaken-path.png){ .mod-icon }

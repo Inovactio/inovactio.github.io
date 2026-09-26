@@ -1,3 +1,20 @@
+---
+# Hidden search keywords: the search weighs them heavily; the page does not show them.
+tags:
+  - job
+  - jobs
+  - profession
+  - professions
+  - level
+  - levels
+  - levelling
+  - leveling
+  - xp
+  - experience
+  - solo
+  - crew
+---
+
 # Trades and levels
 
 Cruise Cruise no Mi adds **fourteen trades**. Each has its own level, perks, advancements and page in the professions book.

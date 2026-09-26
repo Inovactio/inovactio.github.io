@@ -1,3 +1,14 @@
+---
+# Hidden search keywords: the search weighs them heavily; the page does not show them.
+tags:
+  - logpose
+  - log pose
+  - eternalpose
+  - eternal pose
+  - compass
+  - exploring
+---
+
 # Navigator
 
 The Navigator learns by **discovering places**: every chunk they have never been in, and every new land and new kind of place in their Log Book. At their bench, the **Chart Table**, they make the tools that find the way: the Log Pose, the Barometer, the Sea Chart and the Eternal Pose. At the helm, they make the Carpenter's boats go a little faster.
