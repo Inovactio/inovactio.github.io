@@ -10,9 +10,9 @@
 | **Abilities** | 4: 4 active, 0 passive |
 | **Transformations** | [Kani Kani Guard Point](#kani-kani-guard-point), [Kani Kani Heavy Point](#kani-kani-heavy-point) |
 
-Its forms in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="kani-kani-guard-point kani-kani-heavy-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/kani-kani-guard-point forms/kani-kani-heavy-point"></div>
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

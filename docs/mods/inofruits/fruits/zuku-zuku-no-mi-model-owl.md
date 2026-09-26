@@ -10,9 +10,9 @@
 | **Abilities** | 7: 5 active, 2 passive |
 | **Transformations** | [Zuku Zuku Fly Point](#zuku-zuku-fly-point), [Zuku Zuku Assault Point](#zuku-zuku-assault-point) |
 
-Its forms in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="zuku-zuku-fly-point zuku-zuku-assault-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/zuku-zuku-fly-point forms/zuku-zuku-assault-point objects/kazakiribane"></div>
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -78,6 +78,8 @@ Requires Zuku Zuku Fly Point or Zuku Zuku Assault Point to be active.
 ## Kazakiribane { #kazakiribane }
 
 ![](../abilities/kazakiribane.png){ .ability-icon } *Active*
+
+![Kazakiribane](../objects/kazakiribane.png){ .form-picture }
 
 Pulls out a flight feather and throws it, flying straight without dropping
 

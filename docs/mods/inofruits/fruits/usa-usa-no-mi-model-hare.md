@@ -10,9 +10,9 @@
 | **Abilities** | 5: 5 active, 0 passive |
 | **Transformations** | [Usa Usa Walk Point](#usa-usa-walk-point), [Usa Usa Heavy Point](#usa-usa-heavy-point) |
 
-Its forms in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="usa-usa-walk-point usa-usa-heavy-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/usa-usa-walk-point forms/usa-usa-heavy-point"></div>
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

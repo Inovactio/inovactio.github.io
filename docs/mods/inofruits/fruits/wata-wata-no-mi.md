@@ -11,9 +11,9 @@
 | **Abilities** | 5: 4 active, 1 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Wata Yoroi](#wata-yoroi) |
 
-Its form in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="wata-yoroi"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/wata-yoroi objects/wataho"></div>
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -42,6 +42,8 @@ Creates a cloud of cotton that blinds anyone inside and hides the user
 ## Wataho { #wataho }
 
 ![](../abilities/wataho.png){ .ability-icon } *Active*
+
+![Wataho](../objects/wataho.png){ .form-picture }
 
 Throws a packed ball of cotton that picks up whatever it hits and carries it.
 

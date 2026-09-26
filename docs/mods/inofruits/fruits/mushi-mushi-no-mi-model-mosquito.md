@@ -11,9 +11,9 @@
 | **Transformations** | [Mushi Mushi Fly Point](#mushi-mushi-fly-point), [Mushi Mushi Heavy Point](#mushi-mushi-heavy-point) |
 | **Effects applied** | ![](../effect-icons/chibukure.png){ .effect-mini }[Chibukure](../effects.md#effect-chibukure) |
 
-Its forms in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="mushi-mushi-fly-point mushi-mushi-heavy-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/mushi-mushi-fly-point forms/mushi-mushi-heavy-point"></div>
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

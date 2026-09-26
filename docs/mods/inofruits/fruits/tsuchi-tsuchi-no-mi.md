@@ -12,9 +12,9 @@
 | **Transformations** | [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) |
 | **Effects applied** | ![](../effect-icons/nomikomi.png){ .effect-mini }[Nomikomi](../effects.md#effect-nomikomi) |
 
-Its form in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="tsuchi-tsuchi-golem"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/tsuchi-tsuchi-golem"></div>
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

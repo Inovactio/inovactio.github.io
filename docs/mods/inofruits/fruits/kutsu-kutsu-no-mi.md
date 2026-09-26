@@ -10,6 +10,10 @@
 | **Chance per opening** | wooden **2.32%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 7 active, 0 passive |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/water-soles objects/wall-soles objects/silent-soles objects/weighted-soles objects/spring-soles objects/skate-soles"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -18,6 +22,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Water Soles { #water-soles }
 
 ![](../abilities/water-soles.png){ .ability-icon } *Active*
+
+![Water Soles](../objects/water-soles.png){ .form-picture }
 
 The user's soles walk on water and lava as on solid ground. Crouch to sink.
 
@@ -30,6 +36,8 @@ The user's soles walk on water and lava as on solid ground. Crouch to sink.
 
 ![](../abilities/wall-soles.png){ .ability-icon } *Active*
 
+![Wall Soles](../objects/wall-soles.png){ .form-picture }
+
 The user's soles grip any surface: walk into a wall to climb it, stay put against it, hang from ceilings. Crouch to let go.
 
 | Stat | Value |
@@ -40,6 +48,8 @@ The user's soles grip any surface: walk into a wall to climb it, stay put agains
 ## Silent Soles { #silent-soles }
 
 ![](../abilities/silent-soles.png){ .ability-icon } *Active*
+
+![Silent Soles](../objects/silent-soles.png){ .form-picture }
 
 The user's soles make no sound: no footsteps, no vibrations, and mobs only notice the user at a quarter of the usual distance.
 
@@ -52,6 +62,8 @@ The user's soles make no sound: no footsteps, no vibrations, and mobs only notic
 
 ![](../abilities/weighted-soles.png){ .ability-icon } *Active*
 
+![Weighted Soles](../objects/weighted-soles.png){ .form-picture }
+
 The user's soles weigh a ton: nothing can knock the user back, but they walk slower. Stomp hits harder and wider.
 
 | Stat | Value |
@@ -63,6 +75,8 @@ The user's soles weigh a ton: nothing can knock the user back, but they walk slo
 
 ![](../abilities/spring-soles.png){ .ability-icon } *Active*
 
+![Spring Soles](../objects/spring-soles.png){ .form-picture }
+
 The user's soles are springs: jumps about seven blocks high, and no fall damage. Crouch to jump normally.
 
 | Stat | Value |
@@ -73,6 +87,8 @@ The user's soles are springs: jumps about seven blocks high, and no fall damage.
 ## Skate Soles { #skate-soles }
 
 ![](../abilities/skate-soles.png){ .ability-icon } *Active*
+
+![Skate Soles](../objects/skate-soles.png){ .form-picture }
 
 The user's soles are blades: the user skates fast on every ground, gliding far before stopping.
 

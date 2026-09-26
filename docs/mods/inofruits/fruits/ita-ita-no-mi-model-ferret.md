@@ -10,9 +10,9 @@
 | **Abilities** | 7: 7 active, 0 passive |
 | **Transformations** | [Ita Ita Walk Point](#ita-ita-walk-point), [Ita Ita Heavy Point](#ita-ita-heavy-point) |
 
-Its forms in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="ita-ita-walk-point ita-ita-heavy-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/ita-ita-walk-point forms/ita-ita-heavy-point"></div>
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

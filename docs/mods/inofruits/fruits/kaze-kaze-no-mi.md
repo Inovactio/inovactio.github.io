@@ -10,6 +10,10 @@
 | **Chance per opening** | golden **3.65%**, iron **0.183%**, wooden **0.009%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 10: 8 active, 2 passive |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/kamaitachi objects/tatsumaki"></div>
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -79,6 +83,8 @@ The user turns into wind and rushes forward in a line, cutting and launching eve
 
 ![](../abilities/kamaitachi.png){ .ability-icon } *Active*
 
+![Kamaitachi](../objects/kamaitachi.png){ .form-picture }
+
 Throws a flat spinning disc of air that flies straight without dropping.
 
 | Stat | Value |
@@ -101,6 +107,8 @@ Creates a wall of spinning air that deflects every projectile coming within 4 bl
 ## Tatsumaki { #tatsumaki }
 
 ![](../abilities/tatsumaki.png){ .ability-icon } *Active*
+
+![Tatsumaki](../objects/tatsumaki.png){ .form-picture }
 
 Creates a tornado where the user is looking, which moves wherever they look next.
 

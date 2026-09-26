@@ -11,9 +11,9 @@
 | **Abilities** | 5: 5 active, 0 passive |
 | **Transformations** | [Suji Suji Upper Point](#suji-suji-upper-point), [Suji Suji Lower Point](#suji-suji-lower-point), [Suji Suji Full Point](#suji-suji-full-point) |
 
-Its forms in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="suji-suji-upper-point suji-suji-lower-point suji-suji-full-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/suji-suji-upper-point forms/suji-suji-lower-point forms/suji-suji-full-point"></div>
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

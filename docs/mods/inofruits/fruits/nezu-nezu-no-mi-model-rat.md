@@ -11,9 +11,9 @@
 | **Transformations** | [Nezu Nezu Walk Point](#nezu-nezu-walk-point), [Nezu Nezu Heavy Point](#nezu-nezu-heavy-point) |
 | **Effects applied** | ![](../effect-icons/ekibyo.png){ .effect-mini }[Ekibyo](../effects.md#effect-ekibyo) |
 
-Its forms in 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../forms/" data-ids="nezu-nezu-walk-point nezu-nezu-heavy-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/nezu-nezu-walk-point forms/nezu-nezu-heavy-point"></div>
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
