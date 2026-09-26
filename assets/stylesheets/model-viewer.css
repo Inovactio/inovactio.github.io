@@ -1,0 +1,31 @@
+/* The 3D viewer of a mod's entity models (assets/javascripts/model-viewer.js). */
+.md-typeset .model-viewer canvas {
+  display: block;
+  width: 100%;
+  height: 380px;
+  cursor: grab;
+  touch-action: none;
+}
+
+.md-typeset .model-viewer canvas:active {
+  cursor: grabbing;
+}
+
+.md-typeset .model-viewer-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin: 0.4em 0;
+}
+
+.md-typeset .model-viewer-buttons .md-button {
+  margin: 0;
+  padding: 0.3em 0.9em;
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .model-viewer canvas {
+    height: 280px;
+  }
+}
