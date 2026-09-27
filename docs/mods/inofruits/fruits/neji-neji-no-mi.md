@@ -38,6 +38,8 @@ Requires Neji Neji Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Physical, Slash |
+| Haki | Hardening |
 | Cooldown | 5 s |
 | Range | 16 blocks (line) |
 | Damage | 7 |
@@ -52,6 +54,8 @@ Requires Neji Neji Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Internal |
+| Haki | Special |
 | Cooldown | 6 s |
 | Range | 10 blocks (line) |
 | Damage | 11 |
@@ -66,6 +70,8 @@ Requires Neji Neji Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Physical, Slash |
+| Haki | Hardening |
 | Cooldown | 12 s |
 | Range | 1.6 blocks (line) |
 | Damage | 12 |
@@ -80,6 +86,8 @@ Requires Neji Neji Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Physical, Slash |
+| Haki | Hardening |
 | Charge | 1 s |
 | Cooldown | 7 s |
 | Range | 9 blocks (line) |

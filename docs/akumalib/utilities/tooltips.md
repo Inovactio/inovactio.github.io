@@ -46,3 +46,23 @@ The library ships their English text. Keys for your own fruits and abilities bel
 
 !!! warning "A key missing from the lang file shows raw"
     Registering a name supplies a default, but the client renders from the lang file: a key with no entry appears as the raw key in the tooltip, and nothing fails at build time.
+
+## Damage source metadata the icons cannot show: `AkumaSourceTooltip`
+
+*Since 2.9.0.* The base mod shows an ability's haki nature, source types and element (`setSourceHakiNature`, `setSourceType`, `setSourceElement` on the builder) as a row of small icons after its name, and nothing else. A value with no texture is **not drawn**: the elements `AIR`, `SLIME`, `RUBBER`, `RUST`, `GRAVITY` and the type `INDIRECT`. They still change the fight, so say it in words:
+
+```java
+.addAdvancedDescriptionLine(AbilityDescriptionLine.NEW_LINE,
+        CooldownComponent.getTooltip(COOLDOWN),
+        DealDamageComponent.getTooltip(DAMAGE),
+        AkumaSourceTooltip.iconless(),                  // "Source Wind, Indirect", read from the core
+        AkumaSourceTooltip.pierces(true, true))         // "Pierces Armour, Logia"
+```
+
+| Method | Shows |
+|---|---|
+| `iconless()` | the core's icon-less element and types, read when the tooltip is drawn; skipped when every value has an icon |
+| `pierces(armour, logia)` | flags applied at hit time (`addGlobalPiercing`, `bypassLogia`), which the metadata cannot carry |
+| `describe(core)` | the `iconless()` text for a core, or `null` |
+
+`SourceType.LOGIA_BYPASS` is read nowhere in the base mod and has no icon: declare the hit-time `bypassLogia()` and show it with `pierces(false, true)`.

@@ -38,6 +38,8 @@ Throws a bone that comes back to the user, hitting enemies both ways.
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile, Blunt |
+| Haki | Imbuing |
 | Cooldown | 7 s |
 | Projectile damage | 6 |
 
@@ -46,6 +48,11 @@ Throws a bone that comes back to the user, hitting enemies both ways.
 ![](../abilities/bone-blade.png){ .ability-icon } *Active*
 
 Grows a long bone blade out of the user's arm that can be used as a sword.
+
+| Stat | Value |
+|---|---|
+| Damage type | Slash |
+| Haki | Imbuing |
 
 ## Bone Shards { #bone-shards }
 
@@ -57,6 +64,8 @@ Shoots a burst of bone splinters in a short cone, which break apart at range
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile, Slash |
+| Haki | Imbuing |
 | Cooldown | 5 s |
 | Projectile damage | 2 |
 

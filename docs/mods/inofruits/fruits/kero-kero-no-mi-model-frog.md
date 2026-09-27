@@ -43,6 +43,8 @@ Shoots out the tongue, pulling whoever it hits in close and holding them.
 
 | Stat | Value |
 |---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
 | Cooldown | 7 s |
 | Range | 48 blocks (line) |
 | Damage | 3 |
@@ -55,8 +57,11 @@ The user jumps up from the ground and slams anything under them when coming down
 
 | Stat | Value |
 |---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
 | Cooldown | 8 s |
 | Range | 3.5 blocks (area) |
+| Damage | 7 |
 
 ## Nendeki { #nendeki }
 
@@ -72,6 +77,8 @@ Whips the tongue out, hurting whatever it hits without pulling it.
 
 | Stat | Value |
 |---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
 | Cooldown | 4 s |
 | Range | 48 blocks (line) |
 | Damage | 9 |

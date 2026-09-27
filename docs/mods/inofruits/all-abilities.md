@@ -11,14 +11,14 @@ Every ability of the 34 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/bai-bunshin.png){ .ability-mini }[Bai Bunshin](fruits/bai-bai-no-mi.md#bai-bunshin) | [Bai Bai no Mi](fruits/bai-bai-no-mi.md) | Active | 120 s |  |  |  |  |
 | ![](abilities/baizo.png){ .ability-mini }[Baizo](fruits/bai-bai-no-mi.md#baizo) | [Bai Bai no Mi](fruits/bai-bai-no-mi.md) | Active | 90 s |  |  |  |  |
 | ![](abilities/fukusei.png){ .ability-mini }[Fukusei](fruits/bai-bai-no-mi.md#fukusei) | [Bai Bai no Mi](fruits/bai-bai-no-mi.md) | Active | 300 s |  |  |  |  |
-| ![](abilities/blood-spear.png){ .ability-mini }[Blood Spear](fruits/chi-chi-no-mi.md#blood-spear) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Active | 3 s |  |  |  |  |
-| ![](abilities/blood-rush.png){ .ability-mini }[Blood Rush](fruits/chi-chi-no-mi.md#blood-rush) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Active | 4 s |  |  |  |  |
+| ![](abilities/blood-spear.png){ .ability-mini }[Blood Spear](fruits/chi-chi-no-mi.md#blood-spear) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Active | 3 s |  |  | 6.6 |  |
+| ![](abilities/blood-rush.png){ .ability-mini }[Blood Rush](fruits/chi-chi-no-mi.md#blood-rush) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Active | 4 s |  |  | 3.4 |  |
 | ![](abilities/blood-tether.png){ .ability-mini }[Blood Tether](fruits/chi-chi-no-mi.md#blood-tether) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Active | 5 s |  |  |  |  |
-| ![](abilities/blood-drain.png){ .ability-mini }[Blood Drain](fruits/chi-chi-no-mi.md#blood-drain) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Active | 7 s |  |  |  | 12 blocks (area) |
+| ![](abilities/blood-drain.png){ .ability-mini }[Blood Drain](fruits/chi-chi-no-mi.md#blood-drain) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Active | 7 s |  |  | 0.4 | 12 blocks (area) |
 | ![](abilities/blood-shell.png){ .ability-mini }[Blood Shell](fruits/chi-chi-no-mi.md#blood-shell) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Active | 10 s |  |  |  |  |
 | ![](abilities/blood-bond.png){ .ability-mini }[Blood Bond](fruits/chi-chi-no-mi.md#blood-bond) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Active | 15 s |  | 10 s |  |  |
 | ![](abilities/blood-pool.png){ .ability-mini }[Blood Pool](fruits/chi-chi-no-mi.md#blood-pool) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Active | 16 s |  | 10 s |  | 6 blocks (area) |
-| ![](abilities/blood-festival.png){ .ability-mini }[Blood Festival](fruits/chi-chi-no-mi.md#blood-festival) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Active | 20 s |  |  |  | 6 blocks (area) |
+| ![](abilities/blood-festival.png){ .ability-mini }[Blood Festival](fruits/chi-chi-no-mi.md#blood-festival) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Active | 20 s |  |  | 9.2–27.6 | 6 blocks (area) |
 | ![](abilities/blood-reserve.png){ .ability-mini }[Blood Reserve](fruits/chi-chi-no-mi.md#blood-reserve) | [Chi Chi no Mi](fruits/chi-chi-no-mi.md) | Passive |  |  |  |  |  |
 | ![](abilities/chikuseki.png){ .ability-mini }[Chikuseki](fruits/chiku-chiku-no-mi.md#chikuseki) | [Chiku Chiku no Mi](fruits/chiku-chiku-no-mi.md) | Passive |  |  |  |  |  |
 | ![](abilities/chikudan.png){ .ability-mini }[Chikudan](fruits/chiku-chiku-no-mi.md#chikudan) | [Chiku Chiku no Mi](fruits/chiku-chiku-no-mi.md) | Active | 2–10 s |  |  | 0–24 |  |
@@ -89,7 +89,7 @@ Every ability of the 34 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/kero-kero-walk-point.png){ .ability-mini }[Kero Kero Walk Point](fruits/kero-kero-no-mi-model-frog.md#kero-kero-walk-point) | [Kero Kero no Mi, Model: Frog](fruits/kero-kero-no-mi-model-frog.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/kero-kero-heavy-point.png){ .ability-mini }[Kero Kero Heavy Point](fruits/kero-kero-no-mi-model-frog.md#kero-kero-heavy-point) | [Kero Kero no Mi, Model: Frog](fruits/kero-kero-no-mi-model-frog.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/shita.png){ .ability-mini }[Shita](fruits/kero-kero-no-mi-model-frog.md#shita) | [Kero Kero no Mi, Model: Frog](fruits/kero-kero-no-mi-model-frog.md) | Active | 7 s |  |  | 3 | 48 blocks (line) |
-| ![](abilities/hoppu.png){ .ability-mini }[Hoppu](fruits/kero-kero-no-mi-model-frog.md#hoppu) | [Kero Kero no Mi, Model: Frog](fruits/kero-kero-no-mi-model-frog.md) | Active | 8 s |  |  |  | 3.5 blocks (area) |
+| ![](abilities/hoppu.png){ .ability-mini }[Hoppu](fruits/kero-kero-no-mi-model-frog.md#hoppu) | [Kero Kero no Mi, Model: Frog](fruits/kero-kero-no-mi-model-frog.md) | Active | 8 s |  |  | 7 | 3.5 blocks (area) |
 | ![](abilities/nendeki.png){ .ability-mini }[Nendeki](fruits/kero-kero-no-mi-model-frog.md#nendeki) | [Kero Kero no Mi, Model: Frog](fruits/kero-kero-no-mi-model-frog.md) | Passive |  |  |  |  |  |
 | ![](abilities/shita-muchi.png){ .ability-mini }[Shita Muchi](fruits/kero-kero-no-mi-model-frog.md#shita-muchi) | [Kero Kero no Mi, Model: Frog](fruits/kero-kero-no-mi-model-frog.md) | Active | 4 s |  |  | 9 | 48 blocks (line) |
 | ![](abilities/tobitsuki.png){ .ability-mini }[Tobitsuki](fruits/kero-kero-no-mi-model-frog.md#tobitsuki) | [Kero Kero no Mi, Model: Frog](fruits/kero-kero-no-mi-model-frog.md) | Active | 6 s |  |  |  | 48 blocks (line) |

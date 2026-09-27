@@ -62,6 +62,8 @@ The block states of falling blocks inside the funnel are collected in `getBlocks
 !!! danger "The contact damage does not touch Logias"
     "Fly into wall" is one of the damage types every Logia is immune to by default. A technique whose funnel must hurt Logias has to deal its damage from the **ability**, through its `DealDamageComponent`, on a pulse of its own. Remember that it is a pulse: `hurtTarget`, not `hurtBurst`. See [Damage](../core-concepts/damage.md#which-call-to-use).
 
+    Then **turn the contact damage off** (*since 2.9.0*): override `hurtsOnContact()` to return `false`. Left on, it still lands on every non-Logia target, which takes the vanilla hit on top of the ability's.
+
 !!! warning "The pull ignores factions"
     Allies, items and loose arrows are pulled like enemies. If the ability deals damage, filter its targets itself, for instance through a `RangeComponent`.
 

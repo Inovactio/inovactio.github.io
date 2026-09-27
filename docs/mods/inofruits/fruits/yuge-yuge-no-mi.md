@@ -24,6 +24,10 @@ Applies ![](../effect-icons/joki.png){ .effect-mini }[Joki](../effects.md#effect
 
 Allows the user to avoid attacks by instinctively transforming parts of their body into their specific element
 
+| Stat | Value |
+|---|---|
+| Element | Water |
+
 ## Kumori { #kumori }
 
 ![](../abilities/kumori.png){ .ability-icon } *Active*
@@ -36,6 +40,9 @@ Suppresses a soaked Devil Fruit user for 3.0s
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Element | Water |
+| Haki | Special |
 | Cooldown | 12 s |
 | Damage | 2 |
 | Range | 25 blocks |
@@ -45,6 +52,12 @@ Suppresses a soaked Devil Fruit user for 3.0s
 
 ![](../abilities/netto.png){ .ability-icon } *Active*
 
+| Stat | Value |
+|---|---|
+| Damage type | Indirect |
+| Element | Fire |
+| Haki | Special |
+
 **Dry Target**: Shoots a jet of boiling water in front of the user setting everything it hits on fire.
 
 | Stat | Value |
@@ -53,6 +66,7 @@ Suppresses a soaked Devil Fruit user for 3.0s
 | Charge | 1 s |
 | Damage | 6 |
 | Range | 7 blocks (area) |
+| Source | Indirect |
 
 **Soaked Target**: Deals more than double the damage to targets that are already soaked.
 
@@ -70,6 +84,9 @@ The user blasts steam behind them and gets launched where they are looking, burn
 
 | Stat | Value |
 |---|---|
+| Damage type | Physical |
+| Element | Fire |
+| Haki | Special |
 | Cooldown | 8 s |
 | Hold | 1 s |
 | Damage | 5 |
@@ -82,6 +99,9 @@ Blasts steam under the user, launching them 10 blocks up and burning anything be
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Element | Water |
+| Haki | Special |
 | Hold | 5 s |
 | Cooldown | 10 s |
 | Damage | 4 |
@@ -91,6 +111,12 @@ Blasts steam under the user, launching them 10 blocks up and burning anything be
 
 ![](../abilities/suijoki-bakuhatsu.png){ .ability-icon } *Active*
 
+| Stat | Value |
+|---|---|
+| Damage type | Indirect |
+| Element | Explosion |
+| Haki | Special |
+
 **Dry Target**: Creates a steam explosion at the chosen spot, which only works on targets that are soaked.
 
 | Stat | Value |
@@ -99,6 +125,7 @@ Blasts steam under the user, launching them 10 blocks up and burning anything be
 | Damage | 3 |
 | Range | 20 blocks |
 | Area radius | 4 blocks |
+| Source | Indirect |
 
 **Soaked Target**: On a soaked target the water turns back into steam all at once, using up the soak
 

@@ -32,6 +32,8 @@ Hardens the salt under the user and makes a line of spikes come out of the groun
 
 | Stat | Value |
 |---|---|
+| Damage type | Slash |
+| Haki | Special |
 | Cooldown | 6 s |
 | Damage | 18 |
 | Range | 13 blocks (line) |
@@ -46,6 +48,8 @@ Throws salt at enemies in front of the user, which stops their regeneration and 
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Haki | Special |
 | Cooldown | 8 s |
 | Damage | 5 |
 | Range | 6 blocks (area) |
@@ -58,6 +62,8 @@ Throws salt in a ring around the user, burning undead enemies and removing bad e
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Haki | Special |
 | Cooldown | 12 s |
 | Damage | 12 |
 | Range | 10 blocks (area) |
@@ -72,6 +78,8 @@ Makes salt rain down where the user is looking, even far away.
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Haki | Special |
 | Cooldown | 9 s |
 | Damage | 12 |
 | Range | 28 blocks (area) |
@@ -86,6 +94,8 @@ The user turns into a current of salt and flies through the air, salting anythin
 
 | Stat | Value |
 |---|---|
+| Damage type | Physical |
+| Haki | Special |
 | Cooldown | 25 s |
 | Hold | 10 s |
 | Damage | 4 |
@@ -100,9 +110,12 @@ Pours a ring of salt on the ground that pushes the undead out and salts enemies 
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Haki | Special |
 | Cooldown | 20 s |
 | Hold | 30 s |
 | Range | 8 blocks (area) |
+| Damage (undead) | 3 |
 
 ## Dassui { #dassui }
 
@@ -114,6 +127,8 @@ Draws the water out of every enemy around the user: they are hurt, slowed, salte
 
 | Stat | Value |
 |---|---|
+| Damage type | Internal, Indirect |
+| Haki | Special |
 | Cooldown | 14 s |
 | Damage | 6 |
 | Range | 8 blocks (area) |
@@ -128,6 +143,8 @@ Crusts the target in a pillar of salt: it is hurt, cannot move for 3 seconds and
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Haki | Special |
 | Cooldown | 30 s |
 | Damage | 20 |
 | Range | 20 blocks (line) |

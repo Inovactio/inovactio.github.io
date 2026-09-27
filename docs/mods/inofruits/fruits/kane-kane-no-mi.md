@@ -68,6 +68,9 @@ Flicks a coin hardened into gold at the target, for 1 berry a throw. The luckier
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile |
+| Element | Metal |
+| Haki | Imbuing |
 | Cooldown | 2 s |
 | Damage | 6–10 |
 | Range | 24 blocks (line) |

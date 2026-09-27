@@ -49,6 +49,8 @@ Throws a packed ball of cotton that picks up whatever it hits and carries it.
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile, Blunt |
+| Haki | Imbuing |
 | Cooldown | 5 s |
 | Projectile damage | 4 |
 

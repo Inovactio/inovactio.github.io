@@ -30,7 +30,10 @@ Throws a spear of the user's hardened blood that makes the target bleed. Costs b
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile, Slash |
+| Haki | Imbuing |
 | Cooldown | 3 s |
+| Damage | 6.6 (at 20 max health) |
 
 ## Blood Rush { #blood-rush }
 
@@ -40,7 +43,10 @@ Dashes forward through enemies, making everyone on the way bleed. Costs blood.
 
 | Stat | Value |
 |---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
 | Cooldown | 4 s |
+| Damage | 3.4 (at 20 max health) |
 
 ## Blood Tether { #blood-tether }
 
@@ -60,8 +66,11 @@ Takes back the blood of every bleeding enemy nearby at once: the bleeding stops,
 
 | Stat | Value |
 |---|---|
+| Damage type | Internal |
+| Haki | Special |
 | Cooldown | 7 s |
 | Range | 12 blocks (area) |
+| Damage | 0.4 (at 20 max health) |
 
 ## Blood Shell { #blood-shell }
 
@@ -73,6 +82,8 @@ Clots the user's blood into a thick shell that absorbs a lot of damage for 8 sec
 
 | Stat | Value |
 |---|---|
+| Damage type | Slash, Indirect |
+| Haki | Special |
 | Cooldown | 10 s |
 
 ## Blood Bond { #blood-bond }
@@ -94,6 +105,8 @@ Spills the user's blood across the ground for 10 seconds: enemies in the pool bl
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Haki | Special |
 | Cooldown | 16 s |
 | Hold | 10 s |
 | Range | 6 blocks (area) |
@@ -106,8 +119,11 @@ Spends the whole Blood Reserve gauge (half full at least): blood spikes burst ar
 
 | Stat | Value |
 |---|---|
+| Damage type | Slash, Indirect |
+| Haki | Special |
 | Cooldown | 20 s |
 | Range | 6 blocks (area) |
+| Damage | 9.2–27.6 (at 20 max health) |
 
 ## Blood Reserve { #blood-reserve }
 

@@ -45,6 +45,8 @@ Spills the blood of the first target in the way, making it bleed out
 
 | Stat | Value |
 |---|---|
+| Damage type | Internal |
+| Haki | Special |
 | Cooldown | 7 s |
 | Range | 8 blocks (line) |
 

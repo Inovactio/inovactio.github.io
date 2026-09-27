@@ -23,6 +23,9 @@ Spits a ball of gum that sticks the target in place for a second
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile, Blunt |
+| Element | Slime |
+| Haki | Imbuing |
 | Cooldown | 2 s |
 | Damage | 2 |
 
@@ -34,6 +37,9 @@ The user blows a gum bubble that floats slowly and pops on whatever it touches.
 
 | Stat | Value |
 |---|---|
+| Damage type | Blunt, Indirect |
+| Element | Slime |
+| Haki | Special |
 | Cooldown | 11 s |
 | Damage | 3–8 |
 | Range | 3.5 blocks (area) |

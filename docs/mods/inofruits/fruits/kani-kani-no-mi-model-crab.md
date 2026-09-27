@@ -55,5 +55,7 @@ The pincers crush harder and the last squeeze makes the target bleed
 
 | Stat | Value |
 |---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
 | Cooldown | 10 s |
 | Damage | 4–6 |

@@ -23,6 +23,8 @@ Casts a fishing line at whatever the user is looking at and reels it in.
 
 | Stat | Value |
 |---|---|
+| Damage type | Physical, Slash |
+| Haki | Imbuing |
 | Cooldown | 8 s |
 | Damage | 4 |
 | Range | 50 blocks (line) |
@@ -46,6 +48,8 @@ Hooks onto anything in sight up to 50 blocks away and pulls the user to it.
 
 | Stat | Value |
 |---|---|
+| Damage type | Physical, Slash |
+| Haki | Imbuing |
 | Cooldown | 5 s |
 | Damage | 5 |
 | Range | 50 blocks (line) |

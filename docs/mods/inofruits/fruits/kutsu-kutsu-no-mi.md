@@ -105,6 +105,8 @@ The user stomps the ground, hurting and throwing up everyone around. Hits harder
 
 | Stat | Value |
 |---|---|
+| Damage type | Blunt, Indirect |
+| Haki | Hardening |
 | Cooldown | 6 s |
 | Damage | 10–16 |
 | Range | 4–6 blocks (area) |

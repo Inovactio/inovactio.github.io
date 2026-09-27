@@ -41,6 +41,11 @@ Transforms the user into a whale hybrid that can still walk at normal speed.
 
 Requires Isa Isa Heavy Point or Isa Isa Guard Point to be active.
 
+| Stat | Value |
+|---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
+
 **Heavy Point**: The user jumps in the air and falls flat, crushing everything around them.
 
 | Stat | Value |

@@ -44,6 +44,8 @@ Grabs the target in the user's jaws and rolls, hurting it until released.
 
 | Stat | Value |
 |---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
 | Cooldown | 12 s |
 | Damage | 8 |
 
@@ -57,6 +59,8 @@ Requires Wani Wani Heavy Point or Wani Wani Walk Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
 | Cooldown | 8 s |
 | Range | 4.5 blocks (area) |
 | Damage | 4 |
@@ -66,6 +70,11 @@ Requires Wani Wani Heavy Point or Wani Wani Walk Point to be active.
 ![](../abilities/lunging-bite.png){ .ability-icon } *Active*
 
 Requires Wani Wani Heavy Point or Wani Wani Walk Point to be active.
+
+| Stat | Value |
+|---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
 
 **Heavy Point**: Lunges forward a few blocks biting the first enemy in the way.
 

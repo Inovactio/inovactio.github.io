@@ -54,6 +54,9 @@ With the arm fibers it reaches further and goes through stone.
 
 | Stat | Value |
 |---|---|
+| Damage type | Blunt, Indirect |
+| Element | Shockwave |
+| Haki | Special |
 | Charge | 1 s |
 | Cooldown | 25 s |
 | Projectile damage | 13 |
@@ -68,6 +71,8 @@ With the leg fibers the jump goes further and higher, and the landing hits a wid
 
 | Stat | Value |
 |---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
 | Charge | 0 s |
 | Cooldown | 25 s |
 | Damage | 13–28 |

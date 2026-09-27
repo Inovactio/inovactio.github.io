@@ -37,6 +37,11 @@ Allows the user to move through specific blocks based on their element
 
 ![](../abilities/jibashiri.png){ .ability-icon } *Active*
 
+| Stat | Value |
+|---|---|
+| Damage type | Blunt, Indirect |
+| Haki | Special |
+
 **Normal Mode**: Sends a ridge of earth along the ground, launching anything it reaches up
 
 | Stat | Value |
@@ -44,6 +49,7 @@ Allows the user to move through specific blocks based on their element
 | Cooldown | 9 s |
 | Damage | 12 |
 | Range | 16 blocks (line) |
+| Source | Indirect |
 
 **Golem Mode**: The ridge goes 24 blocks instead of 16, hits harder and is wider.
 
@@ -91,6 +97,11 @@ Applies ![](../effect-icons/nomikomi.png){ .effect-mini }[Nomikomi](../effects.m
 
 ![](../abilities/tsubute.png){ .ability-icon } *Active*
 
+| Stat | Value |
+|---|---|
+| Damage type | Projectile, Blunt |
+| Haki | Imbuing |
+
 **Normal Mode**: Rips out a chunk of earth and throws it where the user is looking
 
 | Stat | Value |
@@ -121,17 +132,22 @@ The user covers themselves in earth, becoming much harder to hurt but much slowe
 
 | Stat | Value |
 |---|---|
-| Speed | <span class="stat-malus">-0.14</span> |
-| Punch Damage | +6 |
-| Knockback Resistance | +0.5 |
-| Attack Speed | <span class="stat-malus">-0.15</span> |
-| Max Health | x1.3 |
 | Toughness | +3 |
+| Max Health | x1.3 |
+| Knockback Resistance | +0.5 |
+| Punch Damage | +6 |
+| Speed | <span class="stat-malus">-0.14</span> |
 | Armor | +7 |
+| Attack Speed | <span class="stat-malus">-0.15</span> |
 
 ## Ryusa { #ryusa }
 
 ![](../abilities/ryusa.png){ .ability-icon } *Active*
+
+| Stat | Value |
+|---|---|
+| Damage type | Indirect |
+| Haki | Special |
 
 **Normal Mode**: Turns the ground where the user looks into quicksand: enemies caught in it are dragged towards its centre, bogged down and worn away.
 
@@ -141,6 +157,7 @@ The user covers themselves in earth, becoming much harder to hurt but much slowe
 | Hold | 8 s |
 | Damage | 2 |
 | Range | 5 blocks (area) |
+| Source | Indirect |
 
 **Golem Mode**: The quicksand is wider, lasts longer, grinds harder and swallows faster.
 
@@ -155,6 +172,11 @@ The user covers themselves in earth, becoming much harder to hurt but much slowe
 
 ![](../abilities/jisuberi.png){ .ability-icon } *Active*
 
+| Stat | Value |
+|---|---|
+| Damage type | Blunt, Indirect |
+| Haki | Special |
+
 **Normal Mode**: The ground in front of the user gives way in a landslide: every enemy in a wide cone is hurt, knocked away and buried for a moment.
 
 | Stat | Value |
@@ -162,6 +184,7 @@ The user covers themselves in earth, becoming much harder to hurt but much slowe
 | Cooldown | 30 s |
 | Damage | 22 |
 | Range | 12 blocks (cone) |
+| Source | Indirect |
 
 **Golem Mode**: The landslide reaches 18 blocks instead of 12, spreads wider, hits harder and buries longer.
 

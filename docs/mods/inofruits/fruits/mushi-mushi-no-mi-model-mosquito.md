@@ -58,6 +58,8 @@ Requires Mushi Mushi Fly Point or Mushi Mushi Heavy Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Physical, Internal |
+| Haki | Hardening |
 | Cooldown | 3 s |
 | Range | 2.5 blocks (line) |
 | Damage | 7 |
@@ -95,6 +97,8 @@ Requires Mushi Mushi Fly Point or Mushi Mushi Heavy Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Haki | Special |
 | Hold | 6 s |
 | Cooldown | 11 s |
 | Range | 4 blocks (area) |

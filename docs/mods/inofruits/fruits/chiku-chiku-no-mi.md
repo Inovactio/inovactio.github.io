@@ -29,6 +29,9 @@ Releases all the stored force forward as a single blast, emptying the battery.
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile, Indirect |
+| Element | Shockwave |
+| Haki | Special |
 | Cooldown | 2–10 s |
 | Damage | 0–24 |
 
@@ -40,6 +43,8 @@ Charges the next punch with all the stored force, emptying the battery on hit.
 
 | Stat | Value |
 |---|---|
+| Damage type | Fist, Physical |
+| Haki | Hardening |
 | Cooldown | 3–13 s |
 | Damage | 0–32 |
 
@@ -51,6 +56,9 @@ Releases all the stored force at once in every direction around the user.
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Element | Shockwave |
+| Haki | Special |
 | Cooldown | 3–15 s |
 | Damage | 0–30 |
 | Range | 6 blocks (area) |

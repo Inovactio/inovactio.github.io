@@ -33,6 +33,9 @@ Throws a big nail that pins the target to the ground where it stands.
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile, Physical |
+| Element | Metal |
+| Haki | Imbuing |
 | Cooldown | 12 s |
 | Damage | 5 |
 
@@ -48,6 +51,9 @@ Throws a spread of small nails; each one slows the target more, and three of the
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile, Physical |
+| Element | Metal |
+| Haki | Imbuing |
 | Cooldown | 8 s |
 | Damage | 2.5 |
 
@@ -63,6 +69,9 @@ Marks the targeted spot, then rains small nails down on it; each one slows, and 
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile, Physical |
+| Element | Metal |
+| Haki | Imbuing |
 | Cooldown | 14 s |
 | Range | 4 blocks (area) |
 | Damage | 2.5 |
@@ -79,6 +88,9 @@ Nails stand out of the user's whole body: melee attackers are hurt and keep a na
 
 | Stat | Value |
 |---|---|
+| Damage type | Slash, Physical |
+| Element | Metal |
+| Haki | Hardening |
 | Cooldown | 16 s |
 | Hold | 10 s |
 | Damage | 2.5 |
@@ -102,6 +114,9 @@ Rips out every nail in every body nearby at once, dealing more damage the more n
 
 | Stat | Value |
 |---|---|
+| Damage type | Internal, Slash |
+| Element | Metal |
+| Haki | Special |
 | Cooldown | 14 s |
 | Range | 20 blocks (area) |
 | Damage | 7–23 |
