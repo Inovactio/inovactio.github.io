@@ -8004,6 +8004,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#damage-source-metadata-the-icons-cannot-show-akumasourcetooltip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Damage source metadata the icons cannot show: AkumaSourceTooltip
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8511,6 +8522,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#damage-source-metadata-the-icons-cannot-show-akumasourcetooltip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Damage source metadata the icons cannot show: AkumaSourceTooltip
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8683,6 +8705,37 @@
 <p class="admonition-title">A key missing from the lang file shows raw</p>
 <p>Registering a name supplies a default, but the client renders from the lang file: a key with no entry appears as the raw key in the tooltip, and nothing fails at build time.</p>
 </div>
+<h2 id="damage-source-metadata-the-icons-cannot-show-akumasourcetooltip">Damage source metadata the icons cannot show: <code>AkumaSourceTooltip</code><a class="headerlink" href="#damage-source-metadata-the-icons-cannot-show-akumasourcetooltip" title="Permanent link">&para;</a></h2>
+<p><em>Since 2.9.0.</em> The base mod shows an ability's haki nature, source types and element (<code>setSourceHakiNature</code>, <code>setSourceType</code>, <code>setSourceElement</code> on the builder) as a row of small icons after its name, and nothing else. A value with no texture is <strong>not drawn</strong>: the elements <code>AIR</code>, <code>SLIME</code>, <code>RUBBER</code>, <code>RUST</code>, <code>GRAVITY</code> and the type <code>INDIRECT</code>. They still change the fight, so say it in words:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">.</span><span class="na">addAdvancedDescriptionLine</span><span class="p">(</span><span class="n">AbilityDescriptionLine</span><span class="p">.</span><span class="na">NEW_LINE</span><span class="p">,</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">        </span><span class="n">CooldownComponent</span><span class="p">.</span><span class="na">getTooltip</span><span class="p">(</span><span class="n">COOLDOWN</span><span class="p">),</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">        </span><span class="n">DealDamageComponent</span><span class="p">.</span><span class="na">getTooltip</span><span class="p">(</span><span class="n">DAMAGE</span><span class="p">),</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">        </span><span class="n">AkumaSourceTooltip</span><span class="p">.</span><span class="na">iconless</span><span class="p">(),</span><span class="w">                  </span><span class="c1">// "Source Wind, Indirect", read from the core</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">        </span><span class="n">AkumaSourceTooltip</span><span class="p">.</span><span class="na">pierces</span><span class="p">(</span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">))</span><span class="w">         </span><span class="c1">// "Pierces Armour, Logia"</span>
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Shows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>iconless()</code></td>
+<td>the core's icon-less element and types, read when the tooltip is drawn; skipped when every value has an icon</td>
+</tr>
+<tr>
+<td><code>pierces(armour, logia)</code></td>
+<td>flags applied at hit time (<code>addGlobalPiercing</code>, <code>bypassLogia</code>), which the metadata cannot carry</td>
+</tr>
+<tr>
+<td><code>describe(core)</code></td>
+<td>the <code>iconless()</code> text for a core, or <code>null</code></td>
+</tr>
+</tbody>
+</table>
+<p><code>SourceType.LOGIA_BYPASS</code> is read nowhere in the base mod and has no icon: declare the hit-time <code>bypassLogia()</code> and show it with <code>pierces(false, true)</code>.</p>
 
 
 

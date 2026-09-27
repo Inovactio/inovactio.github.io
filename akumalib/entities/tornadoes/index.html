@@ -8734,6 +8734,7 @@
 <div class="admonition danger">
 <p class="admonition-title">The contact damage does not touch Logias</p>
 <p>"Fly into wall" is one of the damage types every Logia is immune to by default. A technique whose funnel must hurt Logias has to deal its damage from the <strong>ability</strong>, through its <code>DealDamageComponent</code>, on a pulse of its own. Remember that it is a pulse: <code>hurtTarget</code>, not <code>hurtBurst</code>. See <a href="../../core-concepts/damage/#which-call-to-use">Damage</a>.</p>
+<p>Then <strong>turn the contact damage off</strong> (<em>since 2.9.0</em>): override <code>hurtsOnContact()</code> to return <code>false</code>. Left on, it still lands on every non-Logia target, which takes the vanilla hit on top of the ability's.</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">The pull ignores factions</p>
