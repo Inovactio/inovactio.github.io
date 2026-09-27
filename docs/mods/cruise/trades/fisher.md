@@ -165,7 +165,7 @@ With the **Sea King Fishing Rod** in either hand, the bobber floats on **lava**,
 
 ## The Sea Kings (level 44)
 
-Sea Kings are **hooked**, never found. In a **deep-ocean** biome, with enough water straight under the bobber, a bite can bring up a Sea King instead of a fish: the line comes up empty and the beast surfaces where the hook was, with a roar. Hooking one pays Fisher XP on the spot, and much more the first time you hook each kind.
+Sea Kings are **hooked**; the only other way to meet one is when one **surfaces on its own** off a coast for two days, announced in the chat (see [Events at sea](../events-at-sea.md#a-sea-king-surfaces)). That one is fought without a rod, and killing it pays the same Fisher XP. In a **deep-ocean** biome, with enough water straight under the bobber, a bite can bring up a Sea King instead of a fish: the line comes up empty and the beast surfaces where the hook was, with a roar. Hooking one pays Fisher XP on the spot, and much more the first time you hook each kind.
 
 | Sea King | Level | Water under the hook | Chance | Health | Blow (damage) |
 |---|---|---|---|---|---|

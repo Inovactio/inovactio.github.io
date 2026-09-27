@@ -25,7 +25,8 @@ There are three grades: the **Torn Rumor Map**, the **Torn Old Map** and the **T
 - **Common chests**: shipwrecks (map, supply and treasure chests), underwater ruins (small and big), desert pyramids, jungle temples, pillager outposts, abandoned mineshafts and dungeons. 30 % of these chests hold a map: a Rumor map 80 % of the time, an Old map 20 %.
 - **Rich chests**: buried treasure, woodland mansions and, from Mine Mine no Mi, the large pirate ship's treasure, the medium pirate ship's captain, the Marine battleship's treasure, the Marine large and small bases' captain, the bandit fort's secret stash, the ghost ship's captain, and easy and hard caravan chests. 50 % of these hold a map: Rumor 50 %, Old 35 %, Legendary 15 %.
 - **Fishing**: when a rod brings up junk, a Torn Rumor Map comes with it 6 % of the time. See the [Fisher](trades/fisher.md).
-- **Merchants' stalls**: a Torn Rumor Map on 35 % of stalls (600 Belly), a Torn Old Map on 12 % (3 000), a Torn Legendary Map on 3 % (15 000). See [Merchants and contracts](merchants-and-contracts.md).
+- **Merchants' stalls**: a Torn Rumor Map on 35 % of stalls (600 Belly), a Torn Old Map on 12 % (3 000), a Torn Legendary Map on 3 % (15 000). See [Merchants and contracts](merchants-and-contracts.md). The **Ship Merchant**'s stall has them far more often: 80 %, 40 % and 12 %.
+- **At sea** ([Events at sea](events-at-sea.md)): the merchant ship's chests and barrels hold a Torn Rumor Map 10 % of the time, its hidden chest a Torn Old Map 25 %; a **wreck** guarded by a Sea King holds them 25 % (Rumor) and 8 % (Old) of the time in every container, a wreck nothing guards 12 % and 3 %. Every big order of the Ship Merchant that does not give a score recipe gives a torn map.
 - **Contract rewards**: a public contract adds a Torn Rumor Map 20 % of the time; the contract kept for Merchants adds a Torn Old Map 50 % of the time.
 - **Treasure chests**: a Rumor chest holds a Torn Old Map 5 % of the time, an Old chest a Torn Legendary Map 5 %.
 
@@ -66,6 +67,8 @@ Anyone can open the chest, or break it. The first player to open it gets the "Tr
 | Goods | 3-5 draws | 4-6 draws | 5-7 draws |
 | Devil Fruit box | 10 % | 20 % | 35 % |
 | Extra torn map | 5 %: Torn Old Map | 5 %: Torn Legendary Map | - |
+
+The chest does not stay: **once it is empty and closed**, or **five minutes after it was first opened**, it goes away. Whatever is still inside drops on the ground, and the ground it was buried in is put back.
 
 ### Devil Fruit boxes
 

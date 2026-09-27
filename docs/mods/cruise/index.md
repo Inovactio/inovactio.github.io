@@ -2,13 +2,13 @@
 
 ![](../../assets/icons/cruise.png){ .mod-icon }
 
-**Cruise Cruise no Mi** brings the professions and the island life of *One Piece: Unlimited Cruise 2* to [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod): fourteen trades to learn, each with its workstation, its perks and its advancements. Fish the seas down to the Sea Kings, net the island's creatures, cook the game's dishes, forge the weapons nobody could make, sew the Straw Hats' outfits, build your crew a boat - and sell it all for Belly. Names, recipes and art follow the game.
+**Cruise Cruise no Mi** brings the professions and the island life of *One Piece: Unlimited Cruise 2* to [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod): fourteen trades to learn, each with its workstation, its perks, its titles and its advancements, and a sea where merchant ships, Sea Kings and wrecks come to you. Fish the seas down to the Sea Kings, net the island's creatures, cook the game's dishes, forge the weapons nobody could make, sew the Straw Hats' outfits, build your crew a boat - and sell it all for Belly. Names, recipes and art follow the game.
 
 | | |
 |---|---|
-| Version documented | **0.1.0** |
+| Version documented | **0.2.0** (beta) |
 | Mod id | `inocruise` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.1.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/8980720) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.2.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/8990337) · [changelog](changelog.md) |
 
 ## Requirements
 
@@ -17,10 +17,13 @@
 | Minecraft | 1.20.1 |
 | Forge | 47 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.5 |
-| [AkumaLib](../../akumalib/index.md) | 2.7.0 or later |
+| [AkumaLib](../../akumalib/index.md) | 2.8.0 or later |
 | JEI or EMI | optional, recommended: every workstation, fish, creature and find shows in them |
 
 Client **and** server.
+
+!!! note "A beta"
+    Everything is playable, but numbers - how often the [events at sea](events-at-sea.md) come, what they carry - may still move with the players' feedback.
 
 ## Solo or Crew
 
@@ -46,9 +49,9 @@ The mode is AkumaLib's setting, in the world's `serverconfig/akumalib-server.tom
 | **[Tailor](trades/tailor.md)** | Sewing Table | A hundred hats, capes and masks, every character outfit, the boats' sails. |
 | **[Merchant](trades/merchant.md)** | - | Better prices, contracts, the Auction House, treasure hunts. |
 | **[Navigator](trades/navigator.md)** | Chart Table | Log Pose, Barometer, Sea Charts, the Eternal Pose, a log book of the world. |
-| **[Musician](trades/musician.md)** | Music Stand | Scores played on a flute, a violin or a guitar, to buff the whole crew. |
+| **[Musician](trades/musician.md)** | Music Stand | Scores played on a flute, a violin, a guitar or a grand piano, to buff the whole crew. |
 
-Every trade levels from 1 to 100, with **perks** along the way. Its page in the profession book (**K**) shows what each level unlocks. How levels, XP, Solo and Crew work: [Trades and levels](trades-and-levels.md). A server can make any trade level faster or slower: see [Configuration](configuration.md).
+Every trade levels from 1 to 100, with **perks** along the way and a **title** at levels 25, 50, 75 and 100. Its page in the profession book (**K**) shows what each level unlocks. How levels, XP, Solo and Crew work: [Trades and levels](trades-and-levels.md). A server can make any trade level faster or slower: see [Configuration](configuration.md).
 
 ## Across the trades
 
@@ -57,7 +60,8 @@ Every trade levels from 1 to 100, with **perks** along the way. Its page in the 
 - **[Treasure hunts](treasure-hunts.md)**: torn maps in chests, in fishing junk and on the merchants' stalls. A Merchant deciphers them; the X leads to a chest, and now and then to a Devil Fruit box.
 - **The [Bestiary and the Log Book](bestiary-and-logbook.md)**: every fish, creature, land and place you find, with rewards as you fill them.
 - **[Boats](boats.md)** of four hulls and four shapes, built by the Carpenter and rigged by the Tailor.
-- **185 advancements**, a tab per trade, and Jack of All Trades for whoever reaches level 5 in all fourteen.
+- **[Events at sea](events-at-sea.md)**: a merchant ship of one of five houses, guarded by its crew; a Sea King that surfaces off the coast; wrecks adrift, the best of them circled by a Sea King. Announced in the chat and sold as rumours by the barkeepers.
+- **199 advancements**, a tab per trade, and Jack of All Trades for whoever reaches level 5 in all fourteen.
 
 !!! note "Some of the base mod's recipes move to the trades"
     Its weapons (Jitte, Mace, Pipe, Scissors, Cannon, bullets, handcuffs) are made by the **Blacksmith**, the Clima-Tacts by the **Inventor**, the Umbrella, Medic Bag and Flag by the **Tailor**. A server can put them back on the crafting table: see [Configuration](configuration.md).

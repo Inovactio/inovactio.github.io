@@ -32,6 +32,40 @@ Then one section per merchant - `fishmonger`, `huntingMerchant`, `travellingCook
 | `daysUp` | `30` | How many real days a lot stays up before it comes back to its seller. |
 | `maxListings` | `10` | How many lots a player may have up at once. |
 
+## Events at sea
+
+One section for each of the [events at sea](events-at-sea.md). Days are in-game days (one day = 20 real minutes); the wait between two events of a kind is drawn anew each time, between the two numbers.
+
+`merchantShip`:
+
+| Setting | Default | What it does |
+|---|---|---|
+| `enabled` | `true` | Whether the merchant ship comes at all. |
+| `leastDaysBetween` | `4` | The fewest days from one ship to the next (1 to 365). |
+| `mostDaysBetween` | `7` | The most days from one ship to the next (1 to 365). |
+| `stayHours` | `24` | How many in-game hours it stays at anchor (24 = one day). |
+
+`seaKing`:
+
+| Setting | Default | What it does |
+|---|---|---|
+| `enabled` | `true` | Whether a Sea King surfaces at all. |
+| `leastDaysBetween` | `7` | The fewest days from one to the next. |
+| `mostDaysBetween` | `10` | The most days from one to the next. |
+| `stayHours` | `48` | How many in-game hours it stays up (48 = two days). |
+
+`wreck`:
+
+| Setting | Default | What it does |
+|---|---|---|
+| `enabled` | `true` | Whether wrecks drift in at all. |
+| `leastDaysBetween` | `5` | The fewest days from one to the next. |
+| `mostDaysBetween` | `8` | The most days from one to the next. |
+| `stayHours` | `24` | How many in-game hours before it sinks. |
+| `guardianChance` | `0.25` | The chance a Sea King guards the wreck (0.25 = one wreck in four). |
+
+A disabled event that is already running still ends on time. Operators can list, start and stop events with AkumaLib's `/akumalib events` command: see AkumaLib's [world events page](../../akumalib/utilities/world-events.md#for-operators).
+
 ## The trades' levels (AkumaLib)
 
 Per world, in **`<world>/serverconfig/akumalib-server.toml`**:
