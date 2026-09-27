@@ -314,6 +314,10 @@ nav:
               - Currency: akumalib/utilities/currency.md
               - Doriki and Cola: akumalib/utilities/doriki.md
               - Devil Fruits: akumalib/utilities/devil-fruits.md
+              - Titles: akumalib/utilities/titles.md
+          - The world:
+              - World events: akumalib/utilities/world-events.md
+              - Fixes to the base mod: akumalib/utilities/base-mod-fixes.md
           - Deferred work: akumalib/utilities/tick-queue.md
           - Other helpers: akumalib/utilities/other-helpers.md
       - Development: akumalib/development.md

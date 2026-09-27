@@ -107,3 +107,25 @@ The recipes a player has made are saved with their professions, and forgotten wh
 ## JEI and EMI
 
 With JEI or EMI installed, every workstation of every addon gets a recipe category, with no addon code: the ingredients (shapeless), the result, the level required and the XP, the block as catalyst. Workstations that share a recipe type share a category. AkumaLib depends on their APIs at compile time only. A gathering profession's drops get categories of their own: see [Gathering](gathering.md#what-a-profession-gets-in-jei-and-emi).
+
+## Recipes to be learned
+
+A recipe that says `"learned": true` is not reached by level alone: the player must also have learned it, from a
+**recipe item** found in a chest, bought or given. Until then the workstation does not list it (and refuses it, for a
+client that would ask anyway), and the profession page shows it as "Find its recipe".
+
+```json
+{ "type": "mymod:cooking", "level": 30, "xp": 70, "learned": true, "ingredients": [ ... ], "result": { "item": "mymod:secret_stew" } }
+```
+
+The item is `RecipeItem`, or your subclass of it, registered with your own look. A stack carries the recipe's id in
+its `Recipe` tag: `RecipeItem.of(item, recipeId)` in code, `minecraft:set_nbt` in a loot table:
+
+```json
+{ "type": "minecraft:item", "name": "mymod:recipe",
+  "functions": [ { "function": "minecraft:set_nbt", "tag": "{Recipe:\"mymod:cooking/secret_stew\"}" } ] }
+```
+
+Right-clicked by a player of the workstation's trade, it teaches the recipe for good (`AkumaProfessions.learn`) and is
+used up; anyone else is told whose trade it is. What a player learned is saved with them, kept through death and when a
+Crew mode player changes trade. `AkumaProfessions.knows(player, recipe)` tells, on both sides.

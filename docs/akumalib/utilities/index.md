@@ -38,6 +38,14 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 | [Currency](currency.md) | `AkumaCurrency`: read, give and take Belly and Extol, synced, never below zero |
 | [Doriki and Cola](doriki.md) | `AkumaStats`: read and grant Doriki, refill a cyborg's Cola; `DorikiGainEffect`: more Doriki from fights |
 | [Devil Fruits](devil-fruits.md) | `AkumaDevilFruits`: a living entity's Devil Fruit as the base mod keeps it |
+| [Titles](titles.md) | `AkumaTitles`: titles players earn and wear after their name, from code, professions or data packs |
+
+## The world
+
+| Page | Helpers |
+|---|---|
+| [World events](world-events.md) | `AkumaWorldEvents`, `WorldEventType`: events that come near players now and then, announced in the chat and told by the base mod's barkeepers |
+| [Fixes to the base mod](base-mod-fixes.md) | what AkumaLib corrects in Mine Mine no Mi itself, and the server config to turn each fix off |
 
 ## Timing and the rest
 
