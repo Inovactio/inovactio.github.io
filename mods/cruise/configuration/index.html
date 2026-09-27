@@ -13,7 +13,7 @@
         <link rel="canonical" href="https://inovactio.github.io/mods/cruise/configuration/">
       
       
-        <link rel="prev" href="../boats/">
+        <link rel="prev" href="../events-at-sea/">
       
       
         <link rel="next" href="../changelog/">
@@ -5517,6 +5517,8 @@
       
         
       
+        
+      
     
     
     
@@ -5705,6 +5707,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../events-at-sea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Events at sea
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -5806,6 +5836,17 @@
     <span class="md-ellipsis">
       
         auctionHouse
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#events-at-sea" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Events at sea
       
     </span>
   </a>
@@ -8471,6 +8512,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#events-at-sea" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Events at sea
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-trades-levels-akumalib" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8646,6 +8698,110 @@
 </tr>
 </tbody>
 </table>
+<h2 id="events-at-sea">Events at sea<a class="headerlink" href="#events-at-sea" title="Permanent link">&para;</a></h2>
+<p>One section for each of the <a href="../events-at-sea/">events at sea</a>. Days are in-game days (one day = 20 real minutes); the wait between two events of a kind is drawn anew each time, between the two numbers.</p>
+<p><code>merchantShip</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether the merchant ship comes at all.</td>
+</tr>
+<tr>
+<td><code>leastDaysBetween</code></td>
+<td><code>4</code></td>
+<td>The fewest days from one ship to the next (1 to 365).</td>
+</tr>
+<tr>
+<td><code>mostDaysBetween</code></td>
+<td><code>7</code></td>
+<td>The most days from one ship to the next (1 to 365).</td>
+</tr>
+<tr>
+<td><code>stayHours</code></td>
+<td><code>24</code></td>
+<td>How many in-game hours it stays at anchor (24 = one day).</td>
+</tr>
+</tbody>
+</table>
+<p><code>seaKing</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether a Sea King surfaces at all.</td>
+</tr>
+<tr>
+<td><code>leastDaysBetween</code></td>
+<td><code>7</code></td>
+<td>The fewest days from one to the next.</td>
+</tr>
+<tr>
+<td><code>mostDaysBetween</code></td>
+<td><code>10</code></td>
+<td>The most days from one to the next.</td>
+</tr>
+<tr>
+<td><code>stayHours</code></td>
+<td><code>48</code></td>
+<td>How many in-game hours it stays up (48 = two days).</td>
+</tr>
+</tbody>
+</table>
+<p><code>wreck</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether wrecks drift in at all.</td>
+</tr>
+<tr>
+<td><code>leastDaysBetween</code></td>
+<td><code>5</code></td>
+<td>The fewest days from one to the next.</td>
+</tr>
+<tr>
+<td><code>mostDaysBetween</code></td>
+<td><code>8</code></td>
+<td>The most days from one to the next.</td>
+</tr>
+<tr>
+<td><code>stayHours</code></td>
+<td><code>24</code></td>
+<td>How many in-game hours before it sinks.</td>
+</tr>
+<tr>
+<td><code>guardianChance</code></td>
+<td><code>0.25</code></td>
+<td>The chance a Sea King guards the wreck (0.25 = one wreck in four).</td>
+</tr>
+</tbody>
+</table>
+<p>A disabled event that is already running still ends on time. Operators can list, start and stop events with AkumaLib's <code>/akumalib events</code> command: see AkumaLib's <a href="../../../akumalib/utilities/world-events/#for-operators">world events page</a>.</p>
 <h2 id="the-trades-levels-akumalib">The trades' levels (AkumaLib)<a class="headerlink" href="#the-trades-levels-akumalib" title="Permanent link">&para;</a></h2>
 <p>Per world, in <strong><code>&lt;world&gt;/serverconfig/akumalib-server.toml</code></strong>:</p>
 <ul>
@@ -8696,7 +8852,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../boats/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Boats">
+          <a href="../events-at-sea/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Events at sea">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -8706,7 +8862,7 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Boats
+                Events at sea
               </div>
             </div>
           </a>
