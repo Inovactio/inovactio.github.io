@@ -2,6 +2,53 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 2.8.0 { #v2-8-0 }
+
+<small>Released 2026-09-27 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/8990178)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Titles to earn and wear, recipes to find, and world events</strong>: things that come to the world now and then, announced
+in the chat and told by Mine Mine no Mi's barkeepers. Mobs from the base mod's structures no longer appear inside
+walls.</p>
+<p><strong>No signature was removed or changed</strong>: an addon built against 2.5.0, 2.6.x or 2.7.0 keeps compiling and keeps
+working. That is why this is a minor bump.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p>⚠️ <strong>The network protocol changed (4)</strong>: a 2.8.0 client cannot join a 2.7.x or older server, nor the other way round.
+Update the server and every player together.</p>
+<hr>
+<h3>New</h3>
+<ul>
+<li><p><strong>Titles.</strong> Players now earn titles and can wear one after their name in the player list, like
+&quot;Steve - Chef of the Baratie&quot;. A new <strong>Titles</strong> plank in the character screen lists them by category: the ones you
+have, the one you wear, and how to earn the others. Click a title to wear it, click it again to take it off.</p>
+</li>
+<li><p>Titles come from the mods that use AkumaLib (Cruise Cruise no Mi gives one at levels 25, 50, 75 and 100 of each
+profession), and modpacks can add their own with a data pack, earned through an advancement.</p>
+</li>
+<li><p><strong>Recipes to find.</strong> Some recipes are no longer reached by level alone: their recipe has to be found first (in a
+chest, on a stall...) and read once to be learned for good. Until then, the profession page shows them as
+&quot;Find its recipe&quot;.</p>
+</li>
+<li><p><strong>World events.</strong> The mods that use AkumaLib can now bring events to the world, the way Mine Mine no Mi brings its
+caravans: they come on their own now and then near a player, are announced in the chat, and end on time. Cruise
+Cruise no Mi's merchant ship, Sea King and wreck are the first ones. Operators can list, start and stop them with
+<code>/akumalib events</code>.</p>
+</li>
+<li><p><strong>Barkeepers tell rumours again.</strong> In Mine Mine no Mi 0.11.5 a barkeeper always answered &quot;nothing new&quot; to a player
+who is not a Marine or a Bounty Hunter; now he tells of the world events near him.</p>
+</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Mobs from structure spawners no longer appear inside walls.</strong> In Mine Mine no Mi's camps, bases and houses, the
+guards and trainers now appear where they fit, on solid ground and on the spawner's side of the walls. Server owners
+who prefer the base mod's own placement can turn this off with <code>fixStructureSpawnerPlacement</code>, in the new
+<code>[baseModFixes]</code> section of <code>serverconfig/akumalib-server.toml</code>.</li>
+<li><strong>Long names on a profession's page are readable again.</strong> In the Unlocks column, a name too long for the page ends
+in &quot;…&quot;, and hovering it shows the whole name.</li>
+</ul>
+</div>
+
 ## 2.7.0 { #v2-7-0 }
 
 <small>Released 2026-09-26 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/8980645)</small>

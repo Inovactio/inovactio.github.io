@@ -79,13 +79,30 @@ public class MyAbility extends Ability implements IChargeInterruptible {
 ```
 
 It runs server side only, **before** the charge is stopped, so the component still describes the charge being cut.
-Do not stop the charge or start a cooldown from it. `StompAbility` and `OceanAbility` implement it already.
+Do not stop the charge from it: the caller does. `StompAbility` and `OceanAbility` implement it already.
+
+**The hook may start the ability's cooldown**, and that is how an interruption is made to cost more than the flat 40.
+The mixin applies its 40 *after* the hook, and `CooldownComponent.startCooldown` returns at once while a cooldown already
+runs (read from the base mod's 0.11.5 jar), so whatever the hook starts is the cooldown that holds. `ChargeGuard` still
+reads the charge here, so the proportional cost of the [section below](#what-an-interrupted-charge-should-cost) is one line:
+
+```java
+@Override
+public void onChargeInterrupted(LivingEntity entity) {
+    entity.removeEffect(ModEffects.MOVEMENT_BLOCKED.get());
+    // A wave that converted most of its radius before the splash is not a 40-tick mistake.
+    this.cooldownComponent.startCooldown(entity, this.chargeGuard.partialCooldown(COOLDOWN));
+}
+```
+
+Leave it out and the flat 40 applies, as before.
 
 For an interruption of your own - an ability breaking a target's concentration - call `AkumaCharges.interrupt` on each
 of the target's abilities rather than choosing between `stopCharging` and `forceStopCharging`.
 
-!!! note "`ChargeGuard` still sees nothing on this path"
-    The end event is not dispatched, so `partialCooldown` does not apply to a forced stop. The flat 40 does.
+!!! note "`ChargeGuard` on this path"
+    The end event is not dispatched, so a `partialCooldown` in the end event does not apply to a forced stop. Call it
+    from `onChargeInterrupted` instead, as above: the charge is still readable there.
 
 !!! warning "Not covered"
     `ChargeComponent.doTick`'s own forced stops - `IN_EVENT` and a protected area refusing the ability - call
