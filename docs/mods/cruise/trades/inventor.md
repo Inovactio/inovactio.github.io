@@ -112,7 +112,26 @@ The sails are the [Tailor](tailor.md)'s, not the Inventor's. See [Boats](../boat
 | ![](../icons/violin.png){ .item-icon }Violin | 22 | 3 planks, stick, 4 String, Sweet Sap | 12 blocks | 25 minutes | 64 |
 | ![](../icons/guitar.png){ .item-icon }Guitar | 38 | 4 planks, 3 String, Iron Scrap, Magnet | 16 blocks | 30 minutes | 128 |
 
-See the [Musician](musician.md) for how they are played.
+Each one can then be improved, twice: a **Fine** one, then a **Master's** one, gilded, the Master's in black lacquer. Each step carries further, lasts longer and has more uses.
+
+| Instrument | Inventor level | Made from | Tune reaches | Tune lasts | Uses |
+|---|---|---|---|---|---|
+| ![](../icons/fine_bamboo_flute.png){ .item-icon }Fine Bamboo Flute | 26 | Bamboo Flute, 2 Gold Nuggets, Sweet Sap | 10 blocks | 25 minutes | 48 |
+| ![](../icons/fine_violin.png){ .item-icon }Fine Violin | 42 | Violin, Gold Ingot, 2 Sweet Sap | 15 blocks | 30 minutes | 96 |
+| ![](../icons/masters_bamboo_flute.png){ .item-icon }Master's Bamboo Flute | 46 | Fine Bamboo Flute, Gold Ingot, Ink Sac | 12 blocks | 30 minutes | 64 |
+| ![](../icons/fine_guitar.png){ .item-icon }Fine Guitar | 58 | Guitar, Gold Ingot, 2 Sweet Sap | 20 blocks | 35 minutes | 192 |
+| ![](../icons/masters_violin.png){ .item-icon }Master's Violin | 62 | Fine Violin, 2 Adam Planks, Gold Ingot, Ink Sac | 18 blocks | 35 minutes | 128 |
+| ![](../icons/masters_guitar.png){ .item-icon }Master's Guitar | 78 | Fine Guitar, 2 Adam Planks, 2 Gold Ingots, Ink Sac | 24 blocks | 40 minutes | 256 |
+
+And the **grand piano**, placed and played seated, never worn out:
+
+| Piano | Inventor level | Made from | Tune reaches | Tune lasts |
+|---|---|---|---|---|
+| ![](../icons/grand_piano.png){ .item-icon }Grand Piano | 40 | 4 Adam Planks, 2 Iron Ingots, Nether Quartz, Ink Sac, Gold Ingot | 20 blocks | 35 minutes |
+| ![](../icons/fine_grand_piano.png){ .item-icon }Fine Grand Piano | 70 | Grand Piano, Gold Ingot, 2 Sweet Sap | 30 blocks | 45 minutes |
+| ![](../icons/masters_grand_piano.png){ .item-icon }Master's Grand Piano | 100 | Fine Grand Piano, 2 Gold Ingots, Ink Sac | 40 blocks | 60 minutes |
+
+See the [Musician](musician.md) for how they are played, and [the grand piano](musician.md#the-grand-piano).
 
 ## For the Navigator
 
@@ -184,6 +203,7 @@ Every Workshop recipe, with the Inventor level that unlocks it and the XP it pay
 | ![](../icons/extension_pole.png){ .item-icon }Extension Pole | 24 | 58 | 3 × Bamboo, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, ![](../icons/antlion_lacewing.png){ .item-icon }Antlion Lacewing |
 | ![](../icons/enhanced_pickaxe.png){ .item-icon }Enhanced Pick-axe | 25 | 60 | 5 × ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment, 3 × ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts, any logs |
 | Clima Tact | 26 | 62 | 6 × Lapis Lazuli, 3 × Stick |
+| ![](../icons/fine_bamboo_flute.png){ .item-icon }Fine Bamboo Flute | 26 | 62 | ![](../icons/bamboo_flute.png){ .item-icon }Bamboo Flute, 2 × Gold Nugget, ![](../icons/sweet_sap.png){ .item-icon }Sweet Sap |
 | ![](../icons/hull_ram.png){ .item-icon }Hull Ram | 26 | 62 | 3 × Iron Ingot, 2 × ![](../icons/pure_iron_ore.png){ .item-icon }Pure Iron Ore, 2 × ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts, 2 × any planks |
 | ![](../icons/enhanced_bug_catcher_net.png){ .item-icon }Enhanced Bug Catcher Net | 28 | 66 | 3 × Raw Iron, 5 × ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts, Bamboo |
 | ![](../icons/lens.png){ .item-icon }Lens | 28 | 66 | ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment, 2 × Glass |
@@ -197,15 +217,23 @@ Every Workshop recipe, with the Inventor level that unlocks it and the XP it pay
 | Flame Dial | 38 | 86 | ![](../icons/mysterious_dial.png){ .item-icon }Mysterious Dial, ![](../icons/spirit_firefly.png){ .item-icon }Spirit Firefly |
 | ![](../icons/guitar.png){ .item-icon }Guitar | 38 | 86 | 4 × any planks, 3 × String, ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, ![](../icons/magnet.png){ .item-icon }Magnet |
 | ![](../icons/steady_grip.png){ .item-icon }Steady Grip | 39 | 88 | 2 × ![](../icons/ice_stag_beetle.png){ .item-icon }Ice Miyama Stag Beetle, 2 × any hides, 3 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts |
+| ![](../icons/grand_piano.png){ .item-icon }Grand Piano | 40 | 90 | 4 × ![](../icons/adam_planks.png){ .item-icon }Adam Planks, 2 × Iron Ingot, Nether Quartz, Ink Sac, Gold Ingot |
 | ![](../icons/sea_king_rod_upgrade.png){ .item-icon }Sea King Rod Upgrade | 40 | 90 | ![](../icons/mysterious_dial.png){ .item-icon }Mysterious Dial |
 | ![](../icons/thunder_dial.png){ .item-icon }Thunder Dial ×2 | 40 | 90 | ![](../icons/mysterious_dial.png){ .item-icon }Mysterious Dial, ![](../icons/thunder_spider.png){ .item-icon }Thunder Spider |
 | ![](../icons/burst_dial.png){ .item-icon }Burst Dial | 42 | 94 | ![](../icons/jet_dial.png){ .item-icon }Jet Dial, 3 × ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts, 3 × Iron Ingot, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap |
 | ![](../icons/enhanced_bombs.png){ .item-icon }Enhanced Bombs ×4 | 42 | 94 | 6 × Gunpowder, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, Coal |
+| ![](../icons/fine_violin.png){ .item-icon }Fine Violin | 42 | 94 | ![](../icons/violin.png){ .item-icon }Violin, Gold Ingot, 2 × ![](../icons/sweet_sap.png){ .item-icon }Sweet Sap |
 | ![](../icons/tone_dial.png){ .item-icon }Tone Dial | 44 | 98 | ![](../icons/mysterious_dial.png){ .item-icon }Mysterious Dial, Note Block, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap |
 | ![](../icons/catch_bag.png){ .item-icon }Catch Bag | 46 | 102 | 4 × String, 2 × any hides, 2 × ![](../icons/sweet_sap.png){ .item-icon }Sweet Sap, any wings |
+| ![](../icons/masters_bamboo_flute.png){ .item-icon }Master's Bamboo Flute | 46 | 102 | ![](../icons/fine_bamboo_flute.png){ .item-icon }Fine Bamboo Flute, Gold Ingot, Ink Sac |
 | Perfect Clima Tact | 46 | 102 | Clima Tact, Breath Dial, Milky Dial, Flame Dial, 2 × Eisen Dial, 2 × Flash Dial |
 | ![](../icons/blind_spot_cannonball.png){ .item-icon }Blind Spot Cannonball | 48 | 106 | 2 × ![](../icons/missile_manta_ray.png){ .item-icon }Missile Manta Ray, 6 × ![](../icons/enhanced_bombs.png){ .item-icon }Enhanced Bombs |
 | Sorcery Clima Tact | 50 | 110 | Perfect Clima Tact, 8 × Gold Ingot |
+| ![](../icons/fine_guitar.png){ .item-icon }Fine Guitar | 58 | 126 | ![](../icons/guitar.png){ .item-icon }Guitar, Gold Ingot, 2 × ![](../icons/sweet_sap.png){ .item-icon }Sweet Sap |
+| ![](../icons/masters_violin.png){ .item-icon }Master's Violin | 62 | 134 | ![](../icons/fine_violin.png){ .item-icon }Fine Violin, 2 × ![](../icons/adam_planks.png){ .item-icon }Adam Planks, Gold Ingot, Ink Sac |
+| ![](../icons/fine_grand_piano.png){ .item-icon }Fine Grand Piano | 70 | 150 | ![](../icons/grand_piano.png){ .item-icon }Grand Piano, Gold Ingot, 2 × ![](../icons/sweet_sap.png){ .item-icon }Sweet Sap |
+| ![](../icons/masters_guitar.png){ .item-icon }Master's Guitar | 78 | 166 | ![](../icons/fine_guitar.png){ .item-icon }Fine Guitar, 2 × ![](../icons/adam_planks.png){ .item-icon }Adam Planks, 2 × Gold Ingot, Ink Sac |
+| ![](../icons/masters_grand_piano.png){ .item-icon }Master's Grand Piano | 100 | 210 | ![](../icons/fine_grand_piano.png){ .item-icon }Fine Grand Piano, 2 × Gold Ingot, Ink Sac |
 
 ## Advancements
 

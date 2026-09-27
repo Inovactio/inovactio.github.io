@@ -22,6 +22,8 @@ Five **travelling merchants** visit the Overworld, each buying the goods of one 
 | How often | each merchant gets a try every 5 minutes (by default) |
 | Currency | Belly |
 
+A sixth merchant comes **by sea**: the **Ship Merchant**, aboard the merchant ship that drops anchor near a player every few days, with the best of every stall and big orders. See [Events at sea](events-at-sea.md#the-ship-merchant).
+
 The merchants are civilians: no mob harms them (Marines, pirates and bandits included), nor do stray arrows or creeper blasts. Only players, falls, lava and drowning can hurt them. A merchant leaves once no player is within 200 blocks.
 
 ## The five merchants

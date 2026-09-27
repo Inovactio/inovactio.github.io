@@ -27,7 +27,7 @@ Three gatherers also have a bench of their own: the Hunter's **Tannery**, the Mi
 
 ## Levels and XP
 
-Every trade starts at **level 1** and goes up to **level 100**. Most of this first version's content sits between levels 1 and 50; a few things already go further (the Musician's tier III scores, the legendary treasure maps at Merchant 75).
+Every trade starts at **level 1** and goes up to **level 100**. Most of the content sits between levels 1 and 50; a few things already go further (the Musician's tier III scores, the legendary treasure maps at Merchant 75).
 
 Every trade uses the same curve: going from one level to the next costs **20 × (current level)<sup>1.25</sup> XP**, so each level costs a little more than the last.
 
@@ -105,14 +105,38 @@ In **Crew** mode, a player can start over in another trade.
 - **The cost**: on confirmation, **all your trade XP is wiped** (every trade, not only yours) and you take up the new trade from the start. The potion is used up only then: close the book instead and you keep it.
 - In a **Solo** world there is nothing to forget: the recipe is removed, and a potion that still turns up cannot be drunk.
 
+## Titles
+
+Every trade gives a **title** at levels **25, 50, 75 and 100**, the last one a nod to the story. Wear the one you like from the **Titles** plank of the character screen, and it shows after your name in the player list, like "Steve - Chef of the Baratie". The screen lists every title by category: the ones you have, the one you wear, and how to earn the others. Click a title to wear it, click it again to take it off.
+
+| Trade | 25 | 50 | 75 | 100 |
+|---|---|---|---|---|
+| [Fisher](trades/fisher.md) | Angler | Seasoned Angler | Deep-Sea Angler | **Sea King Angler** |
+| [Hunter](trades/hunter.md) | Tracker | Trapper | Big Game Hunter | **King of the Beasts** |
+| [Farmer](trades/farmer.md) | Planter | Grower | Orchard Keeper | **Keeper of the Tangerine Grove** |
+| [Cook](trades/cook.md) | Galley Hand | Line Cook | Sous-Chef | **Chef of the Baratie** |
+| [Inventor](trades/inventor.md) | Tinkerer | Mechanic | Engineer | **Genius of Egghead** |
+| [Chemist](trades/chemist.md) | Herbalist | Apothecary | Physician | **Doctor of Drum Island** |
+| [Miner](trades/miner.md) | Digger | Prospector | Master Miner | **Kairoseki Delver** |
+| [Lumberjack](trades/lumberjack.md) | Woodcutter | Feller | Master Forester | **Feller of the Adam Tree** |
+| [Carpenter](trades/carpenter.md) | Joiner | Shipwright | Master Shipwright | **Galley-La Foreman** |
+| [Blacksmith](trades/blacksmith.md) | Striker | Smith | Master Smith | **Swordsmith of Wano** |
+| [Merchant](trades/merchant.md) | Peddler | Trader | Wholesaler | **Golden Emperor** |
+| [Tailor](trades/tailor.md) | Stitcher | Clothier | Master Tailor | **Couturier of the Grand Line** |
+| [Navigator](trades/navigator.md) | Wayfinder | Pilot | Chartmaker | **Mapmaker of the World** |
+| [Musician](trades/musician.md) | Busker | Minstrel | Virtuoso | **Soul King** |
+
+Reaching level 100 in a trade is also a challenge advancement, named after its title.
+
 ## Perks
 
 Every trade has **three to six perks**, most at **levels 10, 25 and 40** (the Tailor has one more at 30; the Farmer and the Merchant also have perks that grow from level 1). Each trade's page lists them. A perk only works in a trade you practise.
 
 ## Advancements
 
-Cruise has **185 advancements** on **15 tabs**: a main tab and one per trade.
+Cruise has **199 advancements** on **15 tabs**: a main tab and one per trade.
 
 - Each trade's tab opens at **level 1** in that trade and holds one level milestone, **Apprentice** (Apprentice Fisher, Apprentice Cook…) at level 5. Everything else is about doing things: a recipe made, a species caught, a dish eaten, a tree felled.
+- Each trade's tab also holds one **challenge for level 100**, named after the trade's top title (Chef of the Baratie, Soul King...).
 - The main tab's **Jack of All Trades** asks for level 5 in all fourteen trades, so it can only be earned in Solo mode.
 - Notable challenges: Naturalist (catch every creature), Gourmet (taste 26 of the dishes), King of the Sea (kill a Sea King), All That Is Gold (land the Golden Whale), The Tree That Cannot Be Chopped Down (fell the Adam), SUPER! (a boat of Adam wood), Yohohoho! (forge the Soul Solid), Rumble! (a Rumble Ball), Legendary Treasure, Full House (play for three crewmates or more).
