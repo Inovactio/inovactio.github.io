@@ -7026,6 +7026,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#recipes-to-be-learned" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recipes to be learned
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7446,6 +7457,8 @@
       
         
           
+        
+      
         
       
         
@@ -8052,6 +8065,8 @@
       
         
       
+        
+      
     
     
     
@@ -8168,6 +8183,156 @@
     
   
     Devil Fruits
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/titles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Titles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_10_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_10_7" id="__nav_7_10_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The world
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_10_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_10_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    The world
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/world-events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    World events
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/base-mod-fixes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fixes to the base mod
   
 
     
@@ -8425,6 +8590,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#recipes-to-be-learned" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recipes to be learned
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8671,6 +8847,20 @@
 <p>The recipes a player has made are saved with their professions, and forgotten when their profession changes in Crew mode.</p>
 <h2 id="jei-and-emi">JEI and EMI<a class="headerlink" href="#jei-and-emi" title="Permanent link">&para;</a></h2>
 <p>With JEI or EMI installed, every workstation of every addon gets a recipe category, with no addon code: the ingredients (shapeless), the result, the level required and the XP, the block as catalyst. Workstations that share a recipe type share a category. AkumaLib depends on their APIs at compile time only. A gathering profession's drops get categories of their own: see <a href="../gathering/#what-a-profession-gets-in-jei-and-emi">Gathering</a>.</p>
+<h2 id="recipes-to-be-learned">Recipes to be learned<a class="headerlink" href="#recipes-to-be-learned" title="Permanent link">&para;</a></h2>
+<p>A recipe that says <code>"learned": true</code> is not reached by level alone: the player must also have learned it, from a
+<strong>recipe item</strong> found in a chest, bought or given. Until then the workstation does not list it (and refuses it, for a
+client that would ask anyway), and the profession page shows it as "Find its recipe".</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">{</span><span class="w"> </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mymod:cooking"</span><span class="p">,</span><span class="w"> </span><span class="nt">"level"</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span><span class="w"> </span><span class="nt">"xp"</span><span class="p">:</span><span class="w"> </span><span class="mi">70</span><span class="p">,</span><span class="w"> </span><span class="nt">"learned"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="nt">"ingredients"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="err">...</span><span class="w"> </span><span class="p">],</span><span class="w"> </span><span class="nt">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"item"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mymod:secret_stew"</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">}</span>
+</code></pre></div>
+<p>The item is <code>RecipeItem</code>, or your subclass of it, registered with your own look. A stack carries the recipe's id in
+its <code>Recipe</code> tag: <code>RecipeItem.of(item, recipeId)</code> in code, <code>minecraft:set_nbt</code> in a loot table:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">{</span><span class="w"> </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"minecraft:item"</span><span class="p">,</span><span class="w"> </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mymod:recipe"</span><span class="p">,</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="nt">"functions"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"function"</span><span class="p">:</span><span class="w"> </span><span class="s2">"minecraft:set_nbt"</span><span class="p">,</span><span class="w"> </span><span class="nt">"tag"</span><span class="p">:</span><span class="w"> </span><span class="s2">"{Recipe:\"mymod:cooking/secret_stew\"}"</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">]</span><span class="w"> </span><span class="p">}</span>
+</code></pre></div>
+<p>Right-clicked by a player of the workstation's trade, it teaches the recipe for good (<code>AkumaProfessions.learn</code>) and is
+used up; anyone else is told whose trade it is. What a player learned is saved with them, kept through death and when a
+Crew mode player changes trade. <code>AkumaProfessions.knows(player, recipe)</code> tells, on both sides.</p>
 
 
 
