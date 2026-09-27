@@ -45,6 +45,8 @@ Kicks with a person's legs instead of a hare's, reaching almost twice as far and
 
 | Stat | Value |
 |---|---|
+| Damage type | Fist, Physical |
+| Haki | Hardening |
 | Cooldown | 5 s |
 | Damage | 7–11 |
 | Range | 2.5–4.5 blocks (line) |

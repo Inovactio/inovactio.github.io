@@ -25,6 +25,10 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 Allows the user to avoid attacks by instinctively transforming parts of their body into their specific element
 
+| Stat | Value |
+|---|---|
+| Element | Wind |
+
 ## Kaze Special Fly { #kaze-special-fly }
 
 ![](../abilities/kaze-special-fly.png){ .ability-icon } *Passive*
@@ -39,6 +43,9 @@ Shoots a gust of wind where the user is looking, blowing away everything in fron
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Element | Wind |
+| Haki | Special |
 | Cooldown | 9 s |
 | Damage | 5 |
 | Range | 14 blocks (cone) |
@@ -51,6 +58,7 @@ Creates a column of rising air that lifts anything inside up to 18 blocks.
 
 | Stat | Value |
 |---|---|
+| Element | Wind |
 | Hold | 8 s |
 | Cooldown | 15 s |
 | Range | 2.5 blocks (area) |
@@ -63,6 +71,9 @@ A downward wind slams everything in the air within 12 blocks into the ground
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect, Blunt |
+| Element | Wind |
+| Haki | Special |
 | Cooldown | 10 s |
 | Damage | 12 |
 | Range | 12 blocks (area) |
@@ -75,6 +86,9 @@ The user turns into wind and rushes forward in a line, cutting and launching eve
 
 | Stat | Value |
 |---|---|
+| Damage type | Slash, Physical |
+| Element | Wind |
+| Haki | Special |
 | Cooldown | 12 s |
 | Hold | 3 s |
 | Damage | 8 |
@@ -89,6 +103,9 @@ Throws a flat spinning disc of air that flies straight without dropping.
 
 | Stat | Value |
 |---|---|
+| Damage type | Slash, Projectile |
+| Element | Wind |
+| Haki | Imbuing |
 | Cooldown | 4 s |
 | Projectile damage | 16 |
 
@@ -100,6 +117,7 @@ Creates a wall of spinning air that deflects every projectile coming within 4 bl
 
 | Stat | Value |
 |---|---|
+| Element | Wind |
 | Hold | 6 s |
 | Cooldown | 14 s |
 | Range | 4 blocks (area) |
@@ -114,6 +132,9 @@ Creates a tornado where the user is looking, which moves wherever they look next
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Element | Wind |
+| Haki | Special |
 | Hold | 6 s |
 | Cooldown | 25 s |
 | Damage | 7 |
@@ -127,6 +148,7 @@ The user reverses the air in front of them: for a moment, every enemy in a wide 
 
 | Stat | Value |
 |---|---|
+| Element | Wind |
 | Cooldown | 12 s |
 | Hold | 1 s |
 | Range | 16 blocks (cone) |

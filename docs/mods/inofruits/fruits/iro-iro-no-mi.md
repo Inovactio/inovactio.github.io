@@ -24,6 +24,8 @@ Throws a paint blob that does a little damage and blinds the target for 5 second
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile, Indirect |
+| Haki | Imbuing |
 | Cooldown | 6 s |
 | Projectile damage | 2 |
 

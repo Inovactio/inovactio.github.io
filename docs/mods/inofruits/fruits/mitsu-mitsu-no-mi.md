@@ -26,6 +26,9 @@ Pours a big pool of honey that slows down anything standing in it, including the
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Element | Slime |
+| Haki | Special |
 | Hold | 16 s |
 | Cooldown | 15 s |
 | Damage | 2 |
@@ -90,6 +93,9 @@ The user slides on honey under their feet, leaving a sticky trail behind
 
 | Stat | Value |
 |---|---|
+| Damage type | Blunt, Physical |
+| Element | Slime |
+| Haki | Hardening |
 | Cooldown | 10 s |
 | Hold | 1 s |
 | Damage | 6 |

@@ -45,6 +45,8 @@ The hybrid's belly is bigger, pushing things away from further
 
 | Stat | Value |
 |---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
 | Cooldown | 15 s |
 | Damage | 6–9 |
 | Range | 3.5–5 blocks (area) |
@@ -61,6 +63,8 @@ The hybrid's belly throws more spines, and they hit harder
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile, Slash |
+| Haki | Imbuing |
 | Cooldown | 8 s |
 | Damage | 2–3 |
 
@@ -85,3 +89,7 @@ Enemies hitting the user in melee while in a form take some of the damage back.
 ![](../abilities/doku.png){ .ability-icon } *Passive*
 
 While in a form, anyone the user hits and anyone hitting the user gets poisoned.
+
+| Stat | Value |
+|---|---|
+| Element | Poison |

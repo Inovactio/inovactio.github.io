@@ -45,6 +45,8 @@ Requires Ita Ita Heavy Point or Ita Ita Walk Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
 | Cooldown | 6 s |
 | Damage | 2 |
 | Range | 2.5 blocks (area) |
@@ -54,6 +56,11 @@ Requires Ita Ita Heavy Point or Ita Ita Walk Point to be active.
 ![](../abilities/rending-claws.png){ .ability-icon } *Active · Punch*
 
 Slashes the target with thin claws making it bleed.
+
+| Stat | Value |
+|---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
 
 ## Ferret Dart { #ferret-dart }
 
@@ -65,6 +72,8 @@ Requires Ita Ita Heavy Point or Ita Ita Walk Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
 | Cooldown | 4 s |
 | Damage | 3 |
 | Range | 7 blocks (line) |

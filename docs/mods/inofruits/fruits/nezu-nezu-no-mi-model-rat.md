@@ -46,6 +46,7 @@ Bites the first target in the way giving it a plague that spreads to others.
 
 | Stat | Value |
 |---|---|
+| Element | Poison |
 | Cooldown | 15 s |
 | Range | 3.5 blocks (line) |
 
@@ -57,6 +58,9 @@ Sets off the plague on every nearby carrier dealing all of its remaining damage 
 
 | Stat | Value |
 |---|---|
+| Damage type | Internal |
+| Element | Poison |
+| Haki | Special |
 | Cooldown | 12 s |
 | Damage | 0–10 |
 | Range | 8 blocks (area) |

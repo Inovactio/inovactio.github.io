@@ -71,6 +71,9 @@ Requires Zuku Zuku Fly Point or Zuku Zuku Assault Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Element | Wind |
+| Haki | Special |
 | Cooldown | 10 s |
 | Damage | 3 |
 | Range | 8 blocks (area) |
@@ -87,5 +90,7 @@ Requires Zuku Zuku Assault Point or Zuku Zuku Fly Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Projectile, Slash |
+| Haki | Imbuing |
 | Cooldown | 3 s |
 | Projectile damage | 6 |

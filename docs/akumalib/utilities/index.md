@@ -29,7 +29,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 |---|---|
 | [Blocks](blocks.md) | `PropagationHelper`, `BlockPlacingHelper`, `BlockHighlightManager`, `BlockOverlayManager` |
 | [Lines](lines.md) | `AkumaLines`, `LineAnchor`, `LineStyle`: a rope or thread between two anchors, rendered on the client |
-| [Tooltips](tooltips.md) | `ToolTipHelper`, `AwakenTooltipHelper`, `AkumaI18n` |
+| [Tooltips](tooltips.md) | `ToolTipHelper`, `AwakenTooltipHelper`, `AkumaSourceTooltip`, `AkumaI18n` |
 
 ## Player data
 

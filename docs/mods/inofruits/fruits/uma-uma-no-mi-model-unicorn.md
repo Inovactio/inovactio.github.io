@@ -44,8 +44,12 @@ Drives the horn into the target, through armour, absorption and even a Logia's i
 
 | Stat | Value |
 |---|---|
+| Damage type | Physical, Slash |
+| Element | Light |
+| Haki | Hardening |
 | Cooldown | 8 s |
 | Damage | 24 |
+| Pierces | Armour, Logia |
 
 ## Unicorn Charge { #unicorn-charge }
 
@@ -55,6 +59,8 @@ Gallops forward horn first, running through everyone in the way and throwing the
 
 | Stat | Value |
 |---|---|
+| Damage type | Physical |
+| Haki | Hardening |
 | Cooldown | 10 s |
 | Hold | 1 s |
 | Damage | 20 |
@@ -67,9 +73,13 @@ Fires a beam of light from the horn that runs through every enemy in line, throu
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Element | Light |
+| Haki | Special |
 | Cooldown | 12 s |
 | Damage | 22 |
 | Range | 30 blocks (line) |
+| Pierces | Armour, Logia |
 
 ## Starfall { #starfall }
 
@@ -79,6 +89,9 @@ Calls down five lances of light on the spot the user looks at, each hurting the 
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Element | Light |
+| Haki | Special |
 | Cooldown | 16 s |
 | Damage | 6 |
 | Range | 30 blocks (area) |
@@ -106,6 +119,9 @@ Lays a circle of light where the user stands. Allies inside regenerate and nothi
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Element | Light |
+| Haki | Special |
 | Cooldown | 50 s |
 | Hold | 12 s |
 | Damage | 4 |
@@ -130,6 +146,9 @@ The unicorn rears up and releases the moon's light: enemies around are blasted a
 
 | Stat | Value |
 |---|---|
+| Damage type | Indirect |
+| Element | Light |
+| Haki | Special |
 | Cooldown | 60 s |
 | Damage | 40 |
 | Range | 12 blocks (area) |

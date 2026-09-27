@@ -45,6 +45,8 @@ Requires Kuma Kuma Walk Point or Kuma Kuma Heavy Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
 | Cooldown | 8 s |
 | Range | 3.5 blocks (area) |
 | Damage | 12 |
@@ -59,6 +61,8 @@ Requires Kuma Kuma Walk Point or Kuma Kuma Heavy Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
 | Cooldown | 10 s |
 | Range | 3 blocks (line) |
 | Damage | 8 |
@@ -73,6 +77,8 @@ Requires Kuma Kuma Heavy Point to be active.
 
 | Stat | Value |
 |---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
 | Cooldown | 12 s |
 | Damage | 12 |
 

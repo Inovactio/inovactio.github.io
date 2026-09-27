@@ -2,6 +2,81 @@
 
 Every InoFruits release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/inofruits/files/all).
 
+## 3.2.0 { #v3-2-0 }
+
+<small>Released 2026-09-27 · [Download](https://www.curseforge.com/minecraft/mc-mods/inofruits/files/8993040)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Nine transformations redrawn, three coats for the ferret, clearer ability tooltips, and a large fix pass.</strong>
+Ability tooltips now say what kind of damage a technique deals and what it goes through, the first-person
+view of every hybrid form matches what others see, and more than thirty bugs are gone.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi</strong> 0.11.5 and <strong>AkumaLib 2.9.0</strong> or newer.</p>
+<p>⚠️ <strong>Update AkumaLib to 2.9.0 first.</strong> With an older AkumaLib the game refuses to start and says which
+version it needs. Existing worlds and servers need nothing else.</p>
+<hr />
+<h3>New looks</h3>
+<ul>
+<li><strong>Redrawn transformations:</strong> Kani Kani (both forms), Mushi Mushi, Kero Kero, Zuku Zuku and Wani Wani,
+  then Ita Ita, Isa Isa, Nezu Nezu and Usa Usa (both forms each).</li>
+<li><strong>The ferret comes in three coats: cinnamon, champagne and silver.</strong> Each player always gets the same
+  one, in both forms.</li>
+<li><strong>The rat is bigger</strong>, in both forms.</li>
+<li><strong>The hare's back kick</strong> follows its new body: it gathers its legs, then throws both of them out behind.</li>
+</ul>
+<h3>Clearer tooltips</h3>
+<ul>
+<li><strong>Every ability shows the kind of damage it deals</strong>, with Mine Mine no Mi's own icons: slash, blunt,
+  projectile, fire, poison, light and so on, and which kind of Haki can boost it.</li>
+<li>Where Mine Mine no Mi has no icon (wind, honey, indirect hits…), the tooltip says it in words, for
+  example "Source Wind, Indirect".</li>
+<li>Abilities that go through armour or through a Logia's intangibility say so ("Pierces Armour, Logia").</li>
+<li>Abilities whose damage was missing from the tooltip now show it: Blood Spear, Blood Rush, Blood Festival,
+  Blood Drain, Hoppu, and Shio no Wa's damage against the undead.</li>
+<li>Damage from the fruits now counts as ability damage everywhere (Kugi Yoroi, Toge, Fuusen, Blood Shell),
+  with the right death messages. Ekibyo's sickness is now poison. Two Oki Oki laws have their own death
+  messages: "struck back by the law" and "healed to death".</li>
+</ul>
+<h3>First person</h3>
+<ul>
+<li><strong>Hybrid forms show their arm in the right place.</strong> The fur, claws or armour drawn over the player's
+  hand could be shifted, and the hand showed past the ferret's claws, especially after crouching.</li>
+<li><strong>Hone Hone and Neji Neji show the player's hand again</strong>, under the bones or the drill. Fugu Fugu, Suji
+  Suji, Wani Wani and Wata Wata now show on the arm what they show in third person.</li>
+<li><strong>Black Leg users see their leg</strong>, as others see it: the hare's or frog's leg, or the player's own leg
+  with the paws, hoof, nails or fibres the form puts on it. It used to show the bare arm.</li>
+<li><strong>Auras show on the player's own hand and leg</strong> in hybrid forms (Armament Haki, Diable Jambe…).</li>
+</ul>
+<h3>Fixes</h3>
+<p><strong>Duplications and loot</strong>
+- Taking items from a Bai Bai clone with Te Kobo duplicated them.
+- Oatari multiplied ancient debris (and other blocks that drop themselves) without limit, and paid its
+  bonus even when the block was not broken.
+- Tsuribito never actually doubled a catch.</p>
+<p><strong>Allies are spared</strong>
+- Kohaku, Mitsu Goromo, the golem's Nomikomi, Kugi nails and Kugi Ame, Blood Spear and Mitsu Suberi's
+  honey trail no longer hit, trap or slow crewmates.</p>
+<p><strong>Transformations and space</strong>
+- Many transformations suffocated when crouching under a low ceiling.
+- Wani Wani's walk form and Kani Kani's guard form suffocated in the low gaps they are made to fit.
+- Ichi Ichi could teleport creatures into walls.</p>
+<p><strong>Zones and dimensions</strong>
+- Placed zones and the Kaze Kaze tornado followed their user into another dimension.
+- A Kabe wall survived a dimension change, and its end could remove another player's dirt.
+- Oki Oki: No Escape kept pulling people back to a spot outside the zone after it moved.</p>
+<p><strong>Abilities</strong>
+- Tatsumaki hurt creatures twice. Taiatari's blast could add damage on top of the hit.
+- Horn blows wiped out absorption hearts gained during the blow (from a totem, for example).
+- Oki Oki: Grounded did not ground flight such as the unicorn's or the Phoenix's.
+- The Alicorn passive kept refusing harmful effects while it should have been off (Seastone, Silence).
+- Ikusa Gesho, Anshi and Hige removed the player's own potion effects.
+- Nejikomi gave permanent fall protection, and bored blocks vanished when the inventory was full.
+- Silent Soles muted the footsteps of everyone next to the user.
+- Mushi Mushi's stealth stayed off as long as the last creature hit was alive.
+- Hasai and Choyaku removed any root on the Suji Suji user, even one put there by someone else.
+- Ten projectiles had no name in death messages.
+- The game could start with an AkumaLib or Forge version that then crashed.</p>
+</div>
+
 ## 3.1.0 { #v3-1-0 }
 
 <small>Released 2026-09-25 · [Download](https://www.curseforge.com/minecraft/mc-mods/inofruits/files/8974304)</small>

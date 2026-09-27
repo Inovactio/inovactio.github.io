@@ -2,6 +2,36 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 2.9.0 { #v2-9-0 }
+
+<small>Released 2026-09-27 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/8993035)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Ability tooltips can now say what the icons leave out.</strong> Mine Mine no Mi shows an ability's damage type, element
+and haki as small icons after its name, and shows nothing at all for some of them (wind, honey, rubber, rust, gravity,
+indirect hits). Addons can now write those in words, and say when a hit goes through armour or through an
+intangible Logia. Tornadoes made by addons also stop hurting a second time on contact.</p>
+<p><strong>No signature was removed or changed</strong>: an addon built against 2.5.0, 2.6.x, 2.7.0 or 2.8.0 keeps compiling and keeps
+working. That is why this is a minor bump.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p>The network protocol is unchanged (4): a 2.9.0 client can join a 2.8.0 server and the other way round.</p>
+<hr />
+<h3>New</h3>
+<ul>
+<li><strong>"Source" and "Pierces" lines in ability tooltips.</strong> An addon's ability can now show, in its tooltip:</li>
+<li><strong>Source</strong>: the element or kind of hit Mine Mine no Mi has no icon for, like "Source Wind, Indirect";</li>
+<li><strong>Pierces</strong>: "Pierces Armour, Logia" for a hit that ignores armour or lands on a Logia user who would otherwise let
+    it pass through.</li>
+</ul>
+<p>InoFruits is the first to use them.</p>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Tornadoes made by addons no longer hurt twice.</strong> A creature caught in an addon's tornado took the tornado's own
+  damage and, on top of it, a hit for "flying into a wall". An addon can now turn that second hit off; InoFruits'
+  wind tornadoes do.</li>
+</ul>
+</div>
+
 ## 2.8.0 { #v2-8-0 }
 
 <small>Released 2026-09-27 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/8990178)</small>
