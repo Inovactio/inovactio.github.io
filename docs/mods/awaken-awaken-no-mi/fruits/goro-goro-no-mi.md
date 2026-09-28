@@ -49,4 +49,4 @@ The metal a target carries sets how far the bolt jumps and how hard it hits, los
 
 During a thunderstorm the user hits harder, moves faster and heals quickly
 
-Hits from conductive weapons pass through the user without hurting them.
+Hits from conductive weapons are dampened by the user's body, by up to half their damage.

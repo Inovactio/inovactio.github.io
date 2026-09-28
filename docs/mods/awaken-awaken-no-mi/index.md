@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| Version documented | **2.0.0** |
+| Version documented | **2.1.0** |
 | Mod id | `awakenawakennomi` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) |
 | Changelog | [Every release](changelog.md) |
@@ -28,10 +28,10 @@ It adds **no new Devil Fruit**: every ability here belongs to a fruit the base m
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.x (built against `1.20.1-0.11.5`) |
-| [AkumaLib](../../akumalib/index.md) | **2.4.0 or later** |
+| [AkumaLib](../../akumalib/index.md) | **2.6.1 or later** |
 
 !!! warning "AkumaLib is required"
-    AkumaLib is a library: it adds nothing you can see, but this mod is built on it. Without it, Forge stops on its missing-dependency screen. Since 2.0.0, Awaken Awaken no Mi needs AkumaLib **2.4.0 or newer**.
+    AkumaLib is a library: it adds nothing you can see, but this mod is built on it. Without it, Forge stops on its missing-dependency screen. Since 2.1.0, Awaken Awaken no Mi needs AkumaLib **2.6.1 or newer**.
 
 ## Getting started
 

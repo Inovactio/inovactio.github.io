@@ -2,6 +2,102 @@
 
 Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/all). The Minecraft 1.16.5 releases (0.2.1 to 0.7.2) are listed there too.
 
+## 2.1.0 { #v2-1-0 }
+
+<small>Released 2026-09-28 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/8997899)</small>
+
+<div class="changelog-body" markdown="0">
+<blockquote>
+<h4>⚠️ AkumaLib update required: 2.6.1</h4>
+<p>This version needs <strong><a href="https://www.curseforge.com/minecraft/mc-mods/akumalib">AkumaLib</a> 2.6.1</strong> or newer. With an older AkumaLib the game will stop on Forge's missing-dependency screen.</p>
+<p>Just replace the AkumaLib jar in your <code>mods</code> folder with the new one.</p>
+</blockquote>
+<p><strong>A bug-fix release.</strong> Every awakening was put through a full audit, then tested in game ability by ability: more than sixty fixes, from crashes to tooltips. A few mechanics the abilities always promised now work for the first time - Ice Epoch and Meigo no Jidai's lasting zone, jumping on your Cake Golem, Nikyu no Itami absorbing blows.</p>
+<hr />
+<h3>Now working as described</h3>
+<ul>
+<li><strong>Ice Epoch</strong> and <strong>Meigo no Jidai</strong>: after a full charge, the land stays frozen (or molten) for 60 seconds. Enemies who stay inside are frozen or set ablaze again every 2 seconds; you and your allies are spared</li>
+<li><strong>Cake Golem</strong>: you can jump while riding your golem - hold space longer for a higher jump</li>
+<li><strong>Nikyu no Itami</strong>: absorbs a fifth of each blow while its gauge has room, as its description always said</li>
+<li><strong>Mogu Heavy Point</strong>: the form now gives Haste and Night Vision</li>
+<li><strong>Scrap Field</strong> and <strong>String Weave</strong> slow players too, not only mobs. Heavy iron armour makes the Scrap Field much slower</li>
+<li><strong>Hide and Seek</strong>: one hunt at a time. A second Doa user is told the pocket dimension is busy instead of throwing both groups into the same arena</li>
+</ul>
+<hr />
+<h3>Fixes</h3>
+<h4>Crashes and freezes</h4>
+<ul>
+<li>The game no longer crashes when Rust, Inferno, Friction, Magma Burn, Molten Armor, Sugar Coffin, Meigo no Jidai or Glittering Tornado hurt someone after going through a portal</li>
+<li><strong>Airburst</strong> sets off about seven explosions again, not a hundred and fifty: the freeze is gone</li>
+<li><strong>Spin</strong> (Kame) no longer hits twice as often as it should</li>
+</ul>
+<h4>Damage and numbers</h4>
+<ul>
+<li><strong>Ursus Calamiti</strong> deals its real damage</li>
+<li><strong>Deadweight</strong> pulses go from 16 to 48, 160 in all, as the tooltip says</li>
+<li><strong>Asshuku</strong> reaches its full 135 damage without needing Shinokuni</li>
+<li><strong>Neck Catapult</strong>'s tooltip shows the real 60 damage</li>
+<li><strong>Inga Samsara</strong> and <strong>Shared Fate</strong> echo the blows you actually take, once per hit - no longer every tick you stand in lava or fire</li>
+<li><strong>Resonating World</strong> and <strong>Shadow Marionette</strong> stop working once their user logs out or dies</li>
+</ul>
+<h4>Allies and enemies</h4>
+<ul>
+<li><strong>Candle World</strong>, <strong>Sabaku no Okoku</strong>, <strong>Ever White</strong>, <strong>Assign World</strong>, <strong>Yukiro</strong> and <strong>Soul Reap</strong> no longer hurt your crewmates, pets or allies</li>
+<li><strong>Taiki</strong>, <strong>Sabaku no Okoku</strong> and <strong>Mogu Heavy Point</strong> no longer take away potions you drank (Regeneration, Speed, Haste...) when their effect ends</li>
+</ul>
+<h4>Movement and falls</h4>
+<ul>
+<li><strong>Neck Catapult</strong>, <strong>Ivory Catastrophe</strong> and the other throws no longer launch the target 40 blocks up when you look straight down</li>
+<li><strong>Weight Shift</strong> really cancels fall damage, and <strong>Zenith</strong> protects from any height</li>
+<li><strong>Downdraft</strong> no longer adds a second fall on top of its slam</li>
+<li><strong>Dai Hanpatsu</strong> on yourself: you land and stop rising</li>
+<li>A mob released by <strong>Undertow</strong> no longer falls through the world</li>
+<li><strong>Ukiyo</strong> lifts its targets to 22 blocks and holds them there, instead of letting them climb out of sight; an arrow that drifts out of the zone falls again</li>
+<li>Ending <strong>Waterpool Domain</strong> while swimming underground no longer leaves you stuck in the rock</li>
+<li><strong>Crown of Flames</strong> no longer lets you fly while its passive is blocked (Seastone, a protected area)</li>
+</ul>
+<h4>Charges and cooldowns</h4>
+<ul>
+<li>Charges finish properly under a faster ability time (Reverse Slow): Bubble Cage, Soul Reap, K-Room and a dozen others no longer fizzle after a full charge</li>
+<li>Pressing <strong>One Man Army</strong>, <strong>Fiddle Overdrive</strong>, <strong>Reverse Slow</strong> or <strong>Diffraction</strong> again ends them instead of starting over</li>
+<li>Interrupting <strong>Ice Epoch</strong> or <strong>Meigo no Jidai</strong> (water, Seastone) costs a share of the cooldown, not two seconds</li>
+</ul>
+<h4>The world around you</h4>
+<ul>
+<li><strong>Piercing Blast</strong>, <strong>Titan Smash</strong>, <strong>Titan Trample</strong>, <strong>Tenchi Hokai</strong> and <strong>Ice Epoch</strong> respect ability griefing and protected areas, block by block. Ice Epoch no longer turns chests into ice</li>
+<li><strong>Break White</strong>'s web always goes away, even if its user logs out or leaves the dimension</li>
+<li><strong>Yukiro</strong>'s wall gives back everything it replaced - grass, flowers, vines, snow</li>
+<li><strong>Scrap Tempest</strong> no longer tears down your field when you cannot pay for the cast</li>
+</ul>
+<h4>Summons</h4>
+<ul>
+<li><strong>Cake Golem</strong> and the <strong>Diosa Fleur</strong> clone keep their size, health and will to fight after you walk away and come back</li>
+<li>The Cake Golem's attack swing shows, and it only drops its cakes when an enemy beats it</li>
+<li><strong>Living Gate</strong>: projectiles swallowed before a relog come back out; a skeleton's arrow sent back can no longer be picked up</li>
+<li><strong>Hide and Seek</strong>: if the hunter logs out, the captured mobs go back to where they were taken, not to the world spawn</li>
+</ul>
+<h4>Visuals, sounds and text</h4>
+<ul>
+<li><strong>Barrier Eruption</strong>: the ring of panels forms a clean circle and can be seen from any distance</li>
+<li><strong>Total Isolation</strong> and <strong>Spirit Seal</strong> show their coloured veil in third person</li>
+<li><strong>Titan</strong>: crouching under a ceiling no longer lets the camera see through it</li>
+<li><strong>Netsuryo</strong>'s heat display reaches 0 and 100 instead of stopping just short</li>
+<li><strong>On the Beat</strong>: a combo carried over a relog or a respawn now lapses</li>
+<li>Burning effects no longer hiss as if put out every time a blow stacks them</li>
+<li><strong>Ability Seal</strong> no longer frees abilities another effect keeps disabled</li>
+<li>The <strong>High Frequency Wall</strong> block has a name, and Cake Golem and Crown Flight have proper names</li>
+<li><strong>Storm Sovereign</strong>'s description gives the real protection against conductive attacks</li>
+</ul>
+<hr />
+<h3>Requirements</h3>
+<ul>
+<li>Minecraft <strong>1.20.1</strong></li>
+<li>Forge <strong>47.4.18+</strong></li>
+<li><strong>Mine Mine no Mi</strong> <code>1.20.1-0.11.5</code></li>
+<li><strong>AkumaLib</strong> <code>2.6.1+</code></li>
+</ul>
+</div>
+
 ## 2.0.0 { #v2-0-0 }
 
 <small>Released 2026-09-18 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/8909975)</small>
