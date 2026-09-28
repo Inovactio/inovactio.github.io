@@ -49,13 +49,13 @@ The library ships their English text. Keys for your own fruits and abilities bel
 
 ## Damage source metadata the icons cannot show: `AkumaSourceTooltip`
 
-*Since 2.9.0.* The base mod shows an ability's haki nature, source types and element (`setSourceHakiNature`, `setSourceType`, `setSourceElement` on the builder) as a row of small icons after its name, and nothing else. A value with no texture is **not drawn**: the elements `AIR`, `SLIME`, `RUBBER`, `RUST`, `GRAVITY` and the type `INDIRECT`. They still change the fight, so say it in words:
+*Since 2.9.0.* The base mod shows an ability's haki nature, source types and element (`setSourceHakiNature`, `setSourceType`, `setSourceElement` on the builder) as a row of small icons after its name, and nothing else. A value with no texture is **not drawn**: the elements `SLIME`, `RUBBER`, `RUST`, `GRAVITY` and the type `INDIRECT` (and `AIR` before 2.11.0, which now has its icon: see [Fixes to the base mod](base-mod-fixes.md#the-wind-element-icon)). They still change the fight, so say it in words:
 
 ```java
 .addAdvancedDescriptionLine(AbilityDescriptionLine.NEW_LINE,
         CooldownComponent.getTooltip(COOLDOWN),
         DealDamageComponent.getTooltip(DAMAGE),
-        AkumaSourceTooltip.iconless(),                  // "Source Wind, Indirect", read from the core
+        AkumaSourceTooltip.iconless(),                  // "Source Indirect", read from the core
         AkumaSourceTooltip.pierces(true, true))         // "Pierces Armour, Logia"
 ```
 

@@ -108,6 +108,50 @@ Fire it like any projectile, through the ability's `ProjectileComponent`.
 !!! warning "Call `super` in your own `onHitEntity`"
     The class overrides `onHitEntity` to allow one hit per target per leg, and `super` there is what deals the damage. An override of your own must call `super.onHitEntity(result)` too.
 
+## `LatchingProjectile`
+
+*Since 2.11.0.* A projectile that **latches** onto the first living body it meets and hits it several times: a blade
+that keeps cutting, a drill that keeps boring. Each hit goes through `NuProjectileEntity#onHitEntity`, so the whole
+ability pipeline applies (the ×0.4 factor, Haki, source types, hit events).
+
+```java title="MyBladeProjectile.java"
+public class MyBladeProjectile extends LatchingProjectile {
+
+    private static final float DAMAGE = 3.0F;
+
+    public MyBladeProjectile(EntityType type, Level level) {
+        super(type, level);
+    }
+
+    public MyBladeProjectile(Level level, LivingEntity thrower, IAbility ability) {
+        super(MyEntities.BLADE.get(), level, thrower, ability);
+        this.setDamage(AkumaAbilityHelper.scaledDamage(DAMAGE));
+        this.setLatchHits(3, 10);   // three hits, the contact one included, 10 ticks apart
+    }
+}
+```
+
+Wrap its renderer so it stops being drawn once it has latched:
+
+```java
+event.registerEntityRenderer(MyEntities.BLADE.get(), LatchingProjectileRenderer.hidingWhenLatched(
+        new NuProjectileRenderer.Factory().setModel(...).setColor(...)));
+```
+
+| Member | Does |
+|---|---|
+| `setLatchHits(hits, interval)` | how many hits in all, and the ticks between two; the interval is raised to `MIN_INTERVAL` (10) |
+| `isLatched()` | whether it has met its body; synced, the renderer reads it |
+| `getLatchedTarget()` | the body it latched onto, server side |
+| `onLatchedHit(target, index)` | what each hit shows, right after its damage; a sweep mark and sound by default, override for a drill or a burn |
+
+- **Before contact** it flies like any pass-through projectile. **While latched** it rides its target, so a step back
+  does not leave it behind, and ignores every other body it overlaps.
+- **The interval is never under 10 ticks.** Vanilla drops a blow landing while the target's `invulnerableTime` is above
+  10, so a shorter interval would silently lose hits. No i-frame is ever cleared.
+- **It is not drawn once latched.** A model frozen on the target reads as something stuck in it, not as repeated cuts:
+  each hit shows itself through `onLatchedHit` instead.
+
 ## `TransmutationProjectile`
 
 A projectile applying a transmutation effect, whose duration grows with the **Doriki gap** between the thrower and the target.
