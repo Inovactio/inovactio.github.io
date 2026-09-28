@@ -26,17 +26,17 @@ Transforms the user into an awakened brachiosaurus hybrid, which focuses on stre
 
 | Stat | Value |
 |---|---|
-| Attack Speed | <span class="stat-malus">0</span> |
-| Step Height | +1.5 |
-| Armor | +25 |
 | Max Health | +100 |
-| Knockback Resistance | +2 |
-| Toughness | +8 |
+| Armor | +25 |
 | Jump Height | +2 |
-| Punch Damage | +16 |
-| Entity Reach | +1 |
-| Speed | +0.7 |
 | Fall Resistance | +5 |
+| Attack Speed | <span class="stat-malus">0</span> |
+| Knockback Resistance | +2 |
+| Punch Damage | +16 |
+| Step Height | +1.5 |
+| Toughness | +8 |
+| Speed | +0.7 |
+| Entity Reach | +1 |
 
 ## Awaken Brachiosaurus Guard Point { #awaken-brachiosaurus-guard-point }
 
@@ -53,18 +53,18 @@ Transforms the user into an awakened brachiosaurus, which focuses on defense.
 
 | Stat | Value |
 |---|---|
-| Attack Speed | +0.1 |
-| Step Height | +1.5 |
-| Armor | +30 |
 | Max Health | x1.5 |
-| Block Reach | +8.25 |
-| Knockback Resistance | +3 |
-| Toughness | +30 |
+| Armor | +30 |
 | Jump Height | +1.5 |
-| Punch Damage | +10 |
-| Entity Reach | +8.25 |
-| Speed | +0.14 |
+| Block Reach | +8.25 |
 | Fall Resistance | +10 |
+| Attack Speed | +0.1 |
+| Knockback Resistance | +3 |
+| Punch Damage | +10 |
+| Step Height | +1.5 |
+| Toughness | +30 |
+| Speed | +0.14 |
+| Entity Reach | +8.25 |
 
 ## Brachio Stomp { #brachio-stomp }
 
@@ -90,6 +90,6 @@ An enemy is smashed apart where they land; an ally is carried safely and lands r
 |---|---|
 | Cooldown | 20 s |
 | Charge | 1 s |
-| Damage | 24 |
+| Damage | 60 |
 | Range (blocks) | 20 |
 | Throw Distance (blocks) | 40 |
