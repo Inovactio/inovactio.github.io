@@ -73,8 +73,9 @@ Per world, in **`<world>/serverconfig/akumalib-server.toml`**:
 - `professionMode`: `AUTO` (Solo in single player and LAN, Crew on a dedicated server), `SOLO` or `CREW`;
 - `xpMultiplier`: how fast every trade levels (`2.0` twice as fast, `0.5` half as fast);
 - `curves`: one line per trade, with how much each level costs and a speed of its own, for example `"inocruise:fisher = 20, 1.25, 1"`.
+- `deathXpLoss`: what a death costs the trades (AkumaLib 2.10.0 or later): `KEEP` (nothing, the default), `PERCENT` (`deathXpLossPercent` of every trade's XP, 10 by default, so levels can go down) or `ALL` (every trade back to level 1). The chosen trade and the recipes learned are always kept.
 
-Every trade is already listed there when the world starts, with its usual values. See AkumaLib's [professions page](../../akumalib/professions/index.md#server-settings-curves-and-xp-multipliers) for the details.
+Every trade is already listed there when the world starts, with its usual values. See AkumaLib's [professions page](../../akumalib/professions/index.md#server-settings-curves-and-xp-multipliers) for the details, and [What a death costs](../../akumalib/professions/index.md#what-a-death-costs).
 
 !!! warning "Edit it with the world closed"
     A change made to a world's server config while the game is running is not reliably picked up.
