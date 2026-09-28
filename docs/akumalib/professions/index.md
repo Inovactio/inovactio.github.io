@@ -93,6 +93,28 @@ A data pack can replace any profession's curve, so server owners rebalance witho
 - Curves too steep for the numbers (an exponent of 9 or 10 reaches past what a long holds by level 100) are capped rather than wrapped round.
 - The multipliers apply in `AkumaProfessions.addXp`, before `ProfessionXpEvent`. A fraction becomes a chance of one more point, so 1 XP at `0.5` gives 1 point half the time. `setXp` and `setLevel`, the admin writes, are not multiplied.
 
+#### What a death costs
+
+*Since 2.10.0.* Two more settings in the same section decide what a player's professions lose when they die:
+
+```toml
+[professions]
+	deathXpLoss = "KEEP"
+	deathXpLossPercent = 10.0
+```
+
+| `deathXpLoss` | On death |
+|---|---|
+| `KEEP` (default) | nothing is lost |
+| `PERCENT` | `deathXpLossPercent` (0 to 100) of **every** profession's total XP, rounded to the point: levels can go down |
+| `ALL` | every profession goes back to 0 XP, level 1 |
+
+- Only a death costs anything: coming back from the End rebuilds the player too, and never loses XP.
+- Only XP is lost. The profession a Crew player chose, the recipes learned from a recipe item and the recipes already crafted are kept.
+- Levels follow the XP, and so do the [titles](../utilities/titles.md) a profession gives at a level: a player who drops below it stops holding that title until they climb back.
+- The player is not told: the professions book shows the new levels.
+- In code: `DeathXpLoss`, applied in the `PlayerEvent.Clone` handler after the profession data is copied over.
+
 !!! tip "For a modpack"
     Put the file in the pack's `defaultconfigs/` folder and every new world starts with it.
 
