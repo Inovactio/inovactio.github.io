@@ -1,5 +1,27 @@
 # Other helpers
 
+## `IBladedHandsAbility`
+
+*Since 2.11.0.* An ability that, while active, makes the user's bare hands count as a sword for the techniques that need
+one (`AbilityUseConditions.requiresSword`, and `requiresMeleeWeapon` through it): sickle nails, scissor hands, blade
+arms.
+
+```java
+public class MyClawsAbility extends PunchAbility implements IBladedHandsAbility {
+
+    @Override
+    public boolean hasBladedHands(LivingEntity entity) {
+        return this.continuousComponent.isContinuous();   // the claws are out
+    }
+}
+```
+
+- The base mod does this for one ability only, Spar Claw, written into `requiresSword` by name; AkumaLib opens the same
+  door to any **equipped** ability implementing the interface.
+- As for Spar Claw, it holds **only with an empty main hand**. The hand stays empty, so everything a bare hand gets
+  (`PUNCH_DAMAGE` above all) is kept.
+- `IBladedHandsAbility.isActive(entity)` tells whether any equipped ability makes the entity's hands blades right now.
+
 ## `FruitInjectionHelper`
 
 Adds abilities to, or removes them from, a Devil Fruit's list of ability cores, including a fruit the base mod owns:
