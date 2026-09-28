@@ -8808,8 +8808,9 @@
 <li><code>professionMode</code>: <code>AUTO</code> (Solo in single player and LAN, Crew on a dedicated server), <code>SOLO</code> or <code>CREW</code>;</li>
 <li><code>xpMultiplier</code>: how fast every trade levels (<code>2.0</code> twice as fast, <code>0.5</code> half as fast);</li>
 <li><code>curves</code>: one line per trade, with how much each level costs and a speed of its own, for example <code>"inocruise:fisher = 20, 1.25, 1"</code>.</li>
+<li><code>deathXpLoss</code>: what a death costs the trades (AkumaLib 2.10.0 or later): <code>KEEP</code> (nothing, the default), <code>PERCENT</code> (<code>deathXpLossPercent</code> of every trade's XP, 10 by default, so levels can go down) or <code>ALL</code> (every trade back to level 1). The chosen trade and the recipes learned are always kept.</li>
 </ul>
-<p>Every trade is already listed there when the world starts, with its usual values. See AkumaLib's <a href="../../../akumalib/professions/#server-settings-curves-and-xp-multipliers">professions page</a> for the details.</p>
+<p>Every trade is already listed there when the world starts, with its usual values. See AkumaLib's <a href="../../../akumalib/professions/#server-settings-curves-and-xp-multipliers">professions page</a> for the details, and <a href="../../../akumalib/professions/#what-a-death-costs">What a death costs</a>.</p>
 <div class="admonition warning">
 <p class="admonition-title">Edit it with the world closed</p>
 <p>A change made to a world's server config while the game is running is not reliably picked up.</p>
