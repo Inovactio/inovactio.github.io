@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="AkumaLib corrects a few things in Mine Mine no Mi itself, for every mod that uses it. Each fix can be turned off in the world's serverconfig/akumalib-server.toml, section [baseModFixes].">
+        <meta name="description" content="AkumaLib corrects a few things in Mine Mine no Mi itself, for every mod that uses it. The structure spawner fix can be turned off in the world's serverconfig/akumalib-server.toml, section…">
       
       
       
@@ -69,12 +69,12 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Inovactio's Minecraft Mods">
     <meta property="og:title" content="Fixes to the base mod · AkumaLib">
-    <meta property="og:description" content="AkumaLib corrects a few things in Mine Mine no Mi itself, for every mod that uses it. Each fix can be turned off in the world's serverconfig/akumalib-server.toml, section [baseModFixes].">
+    <meta property="og:description" content="AkumaLib corrects a few things in Mine Mine no Mi itself, for every mod that uses it. The structure spawner fix can be turned off in the world's serverconfig/akumalib-server.toml, section…">
     <meta property="og:url" content="https://inovactio.github.io/akumalib/utilities/base-mod-fixes/">
     <meta property="og:image" content="https://inovactio.github.io/assets/icons/akumalib.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Fixes to the base mod · AkumaLib">
-    <meta name="twitter:description" content="AkumaLib corrects a few things in Mine Mine no Mi itself, for every mod that uses it. Each fix can be turned off in the world's serverconfig/akumalib-server.toml, section [baseModFixes].">
+    <meta name="twitter:description" content="AkumaLib corrects a few things in Mine Mine no Mi itself, for every mod that uses it. The structure spawner fix can be turned off in the world's serverconfig/akumalib-server.toml, section…">
     <meta name="twitter:image" content="https://inovactio.github.io/assets/icons/akumalib.png"><meta name="theme-color" content="#7e56c2">
   
 
@@ -8286,6 +8286,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#partial-morphs-drawn-at-their-scale-squared" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Partial morphs drawn at their scale squared
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-partial-morphs-box-on-the-client" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A partial morph's box on the client
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-wind-element-icon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Wind element icon
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8467,6 +8500,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#partial-morphs-drawn-at-their-scale-squared" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Partial morphs drawn at their scale squared
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-partial-morphs-box-on-the-client" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A partial morph's box on the client
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-wind-element-icon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Wind element icon
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8569,8 +8635,9 @@
 
 
 <h1 id="fixes-to-the-base-mod">Fixes to the base mod<a class="headerlink" href="#fixes-to-the-base-mod" title="Permanent link">&para;</a></h1>
-<p>AkumaLib corrects a few things in Mine Mine no Mi itself, for every mod that uses it. Each fix can be turned off in
-the world's <code>serverconfig/akumalib-server.toml</code>, section <code>[baseModFixes]</code>.</p>
+<p>AkumaLib corrects a few things in Mine Mine no Mi itself, for every mod that uses it. The structure spawner fix can be
+turned off in the world's <code>serverconfig/akumalib-server.toml</code>, section <code>[baseModFixes]</code>; the others are plain bugs and
+have no setting.</p>
 <h2 id="structure-spawner-mobs-in-walls">Structure spawner mobs in walls<a class="headerlink" href="#structure-spawner-mobs-in-walls" title="Permanent link">&para;</a></h2>
 <p><em>Since 2.8.0.</em> <code>fixStructureSpawnerPlacement</code>, on by default.</p>
 <p>Mine Mine no Mi's structure spawner (in its camps, bases, sky island houses and trainers' houses) moves each new mob
@@ -8585,6 +8652,31 @@ up to two blocks aside, without checking where. Mobs often appeared half or full
 spawner (so a spawner in a corridor never puts mobs in the room behind the wall). Which mob, how many and when stay
 the base mod's.</p>
 <p>Turned off, the base mod's own placement runs unchanged.</p>
+<h2 id="partial-morphs-drawn-at-their-scale-squared">Partial morphs drawn at their scale squared<a class="headerlink" href="#partial-morphs-drawn-at-their-scale-squared" title="Permanent link">&para;</a></h2>
+<p><em>Since 2.11.0.</em> A partial morph (a form drawn over the player, such as a hybrid) that scales itself in its
+<code>preRenderCallback</code> was drawn at the <strong>square</strong> of that scale: a hybrid scaled 1.35 came out at 1.82, well past its box.</p>
+<p>The cause is the base mod's cache of the current morph: <code>getCurrentMorph(boolean countPartials)</code> returns the cached
+morph whatever <code>countPartials</code> says. The base mod's own held-item layer asks <code>getCurrentMorph(true)</code> every frame, so the
+partial morph lands in the cache, <code>getCurrentMorph()</code> returns it too, and <code>MorphsHandler.preRenderHook</code> runs its
+callback twice: once as the current morph, once as a partial one.</p>
+<p>AkumaLib answers <code>getCurrentMorph()</code> without the cached partial, as the uncached lookup does. Your callback runs once,
+and the scale you set is the scale drawn.</p>
+<div class="admonition warning">
+<p class="admonition-title">Forms change size on screen</p>
+<p>Every scaled partial morph is drawn smaller (scale above 1) or larger (below 1) than before 2.11.0, at the size its
+author chose. The base mod's own Mammoth hybrid (2.0, drawn at 4.0) and Allosaurus hybrid (1.4, drawn at 1.96) are
+among them. If you tuned a scale by eye before 2.11.0, check it again.</p>
+</div>
+<h2 id="a-partial-morphs-box-on-the-client">A partial morph's box on the client<a class="headerlink" href="#a-partial-morphs-box-on-the-client" title="Permanent link">&para;</a></h2>
+<p><em>Since 2.11.0.</em> The base mod resizes a morphed body when its <code>MorphComponent</code> starts or ends a morph. On the client, a
+partial morph arrives with the Devil Fruit sync instead, which resizes nothing: a player turned into a bigger hybrid
+kept a 0.6 × 1.8 box on every screen, while the server used the morph's size. They were hit, pushed and blocked as a
+normal player.</p>
+<p>AkumaLib resizes every player whose box differs from what its morph asks for, on the client tick, and resizes it back
+once when the morph ends. The size comes from your <code>MorphInfo.getSizes()</code>, as on the server.</p>
+<h2 id="the-wind-element-icon">The Wind element icon<a class="headerlink" href="#the-wind-element-icon" title="Permanent link">&para;</a></h2>
+<p><em>Since 2.11.0.</em> <code>SourceElement.AIR</code> has no texture in the base mod, so wind techniques showed no element icon in the
+ability tooltip. AkumaLib supplies one, only when the base mod returns none.</p>
 
 
 

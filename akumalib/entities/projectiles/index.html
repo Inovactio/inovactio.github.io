@@ -6878,6 +6878,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#latchingprojectile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LatchingProjectile
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#transmutationprojectile" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8655,6 +8666,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#latchingprojectile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LatchingProjectile
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#transmutationprojectile" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8879,23 +8901,80 @@
 <p class="admonition-title">Call <code>super</code> in your own <code>onHitEntity</code></p>
 <p>The class overrides <code>onHitEntity</code> to allow one hit per target per leg, and <code>super</code> there is what deals the damage. An override of your own must call <code>super.onHitEntity(result)</code> too.</p>
 </div>
+<h2 id="latchingprojectile"><code>LatchingProjectile</code><a class="headerlink" href="#latchingprojectile" title="Permanent link">&para;</a></h2>
+<p><em>Since 2.11.0.</em> A projectile that <strong>latches</strong> onto the first living body it meets and hits it several times: a blade
+that keeps cutting, a drill that keeps boring. Each hit goes through <code>NuProjectileEntity#onHitEntity</code>, so the whole
+ability pipeline applies (the ×0.4 factor, Haki, source types, hit events).</p>
+<div class="highlight"><span class="filename">MyBladeProjectile.java</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyBladeProjectile</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">LatchingProjectile</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">DAMAGE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">3.0F</span><span class="p">;</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyBladeProjectile</span><span class="p">(</span><span class="n">EntityType</span><span class="w"> </span><span class="n">type</span><span class="p">,</span><span class="w"> </span><span class="n">Level</span><span class="w"> </span><span class="n">level</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">type</span><span class="p">,</span><span class="w"> </span><span class="n">level</span><span class="p">);</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyBladeProjectile</span><span class="p">(</span><span class="n">Level</span><span class="w"> </span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">thrower</span><span class="p">,</span><span class="w"> </span><span class="n">IAbility</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">MyEntities</span><span class="p">.</span><span class="na">BLADE</span><span class="p">.</span><span class="na">get</span><span class="p">(),</span><span class="w"> </span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">thrower</span><span class="p">,</span><span class="w"> </span><span class="n">ability</span><span class="p">);</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">setDamage</span><span class="p">(</span><span class="n">AkumaAbilityHelper</span><span class="p">.</span><span class="na">scaledDamage</span><span class="p">(</span><span class="n">DAMAGE</span><span class="p">));</span>
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">setLatchHits</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">);</span><span class="w">   </span><span class="c1">// three hits, the contact one included, 10 ticks apart</span>
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="p">}</span>
+</code></pre></div>
+<p>Wrap its renderer so it stops being drawn once it has latched:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">event</span><span class="p">.</span><span class="na">registerEntityRenderer</span><span class="p">(</span><span class="n">MyEntities</span><span class="p">.</span><span class="na">BLADE</span><span class="p">.</span><span class="na">get</span><span class="p">(),</span><span class="w"> </span><span class="n">LatchingProjectileRenderer</span><span class="p">.</span><span class="na">hidingWhenLatched</span><span class="p">(</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">        </span><span class="k">new</span><span class="w"> </span><span class="n">NuProjectileRenderer</span><span class="p">.</span><span class="na">Factory</span><span class="p">().</span><span class="na">setModel</span><span class="p">(...).</span><span class="na">setColor</span><span class="p">(...)));</span>
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>setLatchHits(hits, interval)</code></td>
+<td>how many hits in all, and the ticks between two; the interval is raised to <code>MIN_INTERVAL</code> (10)</td>
+</tr>
+<tr>
+<td><code>isLatched()</code></td>
+<td>whether it has met its body; synced, the renderer reads it</td>
+</tr>
+<tr>
+<td><code>getLatchedTarget()</code></td>
+<td>the body it latched onto, server side</td>
+</tr>
+<tr>
+<td><code>onLatchedHit(target, index)</code></td>
+<td>what each hit shows, right after its damage; a sweep mark and sound by default, override for a drill or a burn</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Before contact</strong> it flies like any pass-through projectile. <strong>While latched</strong> it rides its target, so a step back
+  does not leave it behind, and ignores every other body it overlaps.</li>
+<li><strong>The interval is never under 10 ticks.</strong> Vanilla drops a blow landing while the target's <code>invulnerableTime</code> is above
+  10, so a shorter interval would silently lose hits. No i-frame is ever cleared.</li>
+<li><strong>It is not drawn once latched.</strong> A model frozen on the target reads as something stuck in it, not as repeated cuts:
+  each hit shows itself through <code>onLatchedHit</code> instead.</li>
+</ul>
 <h2 id="transmutationprojectile"><code>TransmutationProjectile</code><a class="headerlink" href="#transmutationprojectile" title="Permanent link">&para;</a></h2>
 <p>A projectile applying a transmutation effect, whose duration grows with the <strong>Doriki gap</strong> between the thrower and the target.</p>
-<div class="highlight"><span class="filename">MyTransmutationProjectile.java</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyTransmutationProjectile</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">TransmutationProjectile</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyTransmutationProjectile</span><span class="p">(</span><span class="n">EntityType</span><span class="w"> </span><span class="n">type</span><span class="p">,</span><span class="w"> </span><span class="n">Level</span><span class="w"> </span><span class="n">level</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">type</span><span class="p">,</span><span class="w"> </span><span class="n">level</span><span class="p">);</span>
-<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
-<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyTransmutationProjectile</span><span class="p">(</span><span class="n">Level</span><span class="w"> </span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">thrower</span><span class="p">,</span><span class="w"> </span><span class="n">Ability</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">MyEntities</span><span class="p">.</span><span class="na">TRANSMUTATION</span><span class="p">.</span><span class="na">get</span><span class="p">(),</span><span class="w"> </span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">thrower</span><span class="p">,</span><span class="w"> </span><span class="n">ability</span><span class="p">);</span>
-<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>
-<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">    </span><span class="nd">@Override</span>
-<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="n">MobEffect</span><span class="w"> </span><span class="nf">getTransmutationEffect</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">MyEffects</span><span class="p">.</span><span class="na">TRANSMUTED</span><span class="p">.</span><span class="na">get</span><span class="p">();</span>
-<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="p">}</span>
+<div class="highlight"><span class="filename">MyTransmutationProjectile.java</span><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyTransmutationProjectile</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">TransmutationProjectile</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyTransmutationProjectile</span><span class="p">(</span><span class="n">EntityType</span><span class="w"> </span><span class="n">type</span><span class="p">,</span><span class="w"> </span><span class="n">Level</span><span class="w"> </span><span class="n">level</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">type</span><span class="p">,</span><span class="w"> </span><span class="n">level</span><span class="p">);</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyTransmutationProjectile</span><span class="p">(</span><span class="n">Level</span><span class="w"> </span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">thrower</span><span class="p">,</span><span class="w"> </span><span class="n">Ability</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">MyEntities</span><span class="p">.</span><span class="na">TRANSMUTATION</span><span class="p">.</span><span class="na">get</span><span class="p">(),</span><span class="w"> </span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">thrower</span><span class="p">,</span><span class="w"> </span><span class="n">ability</span><span class="p">);</span>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="n">MobEffect</span><span class="w"> </span><span class="nf">getTransmutationEffect</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">MyEffects</span><span class="p">.</span><span class="na">TRANSMUTED</span><span class="p">.</span><span class="na">get</span><span class="p">();</span>
+<a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a><span class="p">}</span>
 </code></pre></div>
 <p>The firing constructor sets a lifetime of <code>32</code> ticks and <code>15</code> real HP of damage, already scaled. On an entity hit, after <code>super</code> has dealt the damage, the effect is applied for:</p>
 <table>

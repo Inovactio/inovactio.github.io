@@ -8398,6 +8398,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#v2-11-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.11.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#v2-10-0" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8581,6 +8592,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v2-11-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.11.0
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#v2-10-0" class="md-nav__link">
@@ -8792,6 +8814,46 @@
 
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
 <p>Every AkumaLib release for Minecraft 1.20.1, newest first, as published on <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all">CurseForge</a>.</p>
+<h2 id="v2-11-0">2.11.0<a class="headerlink" href="#v2-11-0" title="Permanent link">&para;</a></h2>
+<p><small>Released 2026-09-28 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9003163">Download</a></small></p>
+<div class="changelog-body" markdown="0">
+<p><strong>Transformations that change size are now drawn at their real size.</strong> Some Zoan and Devil Fruit forms were drawn
+far bigger or smaller than intended, and much bigger than the body that actually gets hit; the base mod's own Mammoth
+and Allosaurus hybrids were among them. This release also brings three new tools for addon makers.</p>
+<p><strong>No signature was removed or changed</strong>: an addon built against 2.5.0, 2.6.x, 2.7.0, 2.8.0, 2.9.0 or 2.10.0 keeps
+compiling and keeps working. That is why this is a minor bump.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p>The network protocol is unchanged (4): a 2.11.0 client can join a 2.8.0, 2.9.0 or 2.10.0 server and the other way
+round.</p>
+<p>⚠️ <strong>Some transformations will look different after the update.</strong> They were drawn at the wrong size until now, so
+they change on screen, back to the size their authors chose:</p>
+<ul>
+<li>in Mine Mine no Mi, the <strong>Mammoth hybrid</strong> was drawn twice its size, and the <strong>Allosaurus hybrid</strong> almost half again
+  as big;</li>
+<li>in addons, every form that is drawn bigger or smaller than the player, over the player: some shrink (InoFruits'
+  Tsuchi golem, Isa Isa and Kuma Kuma hybrids...), a few small ones grow back a little (Nezu Nezu, Ita Ita, Usa Usa
+  hybrids...).</li>
+</ul>
+<hr />
+<h3>New</h3>
+<p>For addon makers:</p>
+<ul>
+<li><strong>Projectiles that latch on.</strong> A new kind of projectile sticks to the first creature it meets, rides it and hits it
+  several times, each hit counting as a full ability hit. It stops being drawn on contact and shows each cut instead.</li>
+<li><strong>Hands that count as blades.</strong> A technique that turns the user's hands into blades (claws, scissors...) now lets
+  them use the sword techniques that need a sword, with an empty hand, keeping everything a bare fist gets.</li>
+<li><strong>Wind has its icon.</strong> Wind techniques now show an element icon in their tooltip, like fire or ice already did.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Transformations are drawn at the size they were made for.</strong> A form drawn over the player, such as a hybrid, was
+  drawn at the square of its size: a form meant to be one and a half times as big came out more than twice as big.</li>
+<li><strong>The body of a transformed player matches the form on every screen.</strong> When a player turned into a bigger hybrid,
+  other players (and the player's own game) still treated them as the size of a normal player: they were hit, pushed
+  and blocked as if they had not grown. Their body now follows the form everywhere.</li>
+</ul>
+</div>
+
 <h2 id="v2-10-0">2.10.0<a class="headerlink" href="#v2-10-0" title="Permanent link">&para;</a></h2>
 <p><small>Released 2026-09-28 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/8997832">Download</a></small></p>
 <div class="changelog-body" markdown="0">

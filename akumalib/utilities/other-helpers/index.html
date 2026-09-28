@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Adds abilities to, or removes them from, a Devil Fruit's list of ability cores, including a fruit the base mod owns…">
+        <meta name="description" content="Since 2.11.0. An ability that, while active, makes the user's bare hands count as a sword for the techniques that need one (AbilityUseConditions.requiresSword, and requiresMeleeWeapon through it)…">
       
       
       
@@ -69,12 +69,12 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Inovactio's Minecraft Mods">
     <meta property="og:title" content="Other helpers · AkumaLib">
-    <meta property="og:description" content="Adds abilities to, or removes them from, a Devil Fruit's list of ability cores, including a fruit the base mod owns…">
+    <meta property="og:description" content="Since 2.11.0. An ability that, while active, makes the user's bare hands count as a sword for the techniques that need one (AbilityUseConditions.requiresSword, and requiresMeleeWeapon through it)…">
     <meta property="og:url" content="https://inovactio.github.io/akumalib/utilities/other-helpers/">
     <meta property="og:image" content="https://inovactio.github.io/assets/icons/akumalib.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Other helpers · AkumaLib">
-    <meta name="twitter:description" content="Adds abilities to, or removes them from, a Devil Fruit's list of ability cores, including a fruit the base mod owns…">
+    <meta name="twitter:description" content="Since 2.11.0. An ability that, while active, makes the user's bare hands count as a sword for the techniques that need one (AbilityUseConditions.requiresSword, and requiresMeleeWeapon through it)…">
     <meta name="twitter:image" content="https://inovactio.github.io/assets/icons/akumalib.png"><meta name="theme-color" content="#7e56c2">
   
 
@@ -8338,6 +8338,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#ibladedhandsability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IBladedHandsAbility
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#fruitinjectionhelper" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8477,6 +8488,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#ibladedhandsability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IBladedHandsAbility
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#fruitinjectionhelper" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8593,10 +8615,29 @@
 
 
 <h1 id="other-helpers">Other helpers<a class="headerlink" href="#other-helpers" title="Permanent link">&para;</a></h1>
+<h2 id="ibladedhandsability"><code>IBladedHandsAbility</code><a class="headerlink" href="#ibladedhandsability" title="Permanent link">&para;</a></h2>
+<p><em>Since 2.11.0.</em> An ability that, while active, makes the user's bare hands count as a sword for the techniques that need
+one (<code>AbilityUseConditions.requiresSword</code>, and <code>requiresMeleeWeapon</code> through it): sickle nails, scissor hands, blade
+arms.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyClawsAbility</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">PunchAbility</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">IBladedHandsAbility</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">hasBladedHands</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">continuousComponent</span><span class="p">.</span><span class="na">isContinuous</span><span class="p">();</span><span class="w">   </span><span class="c1">// the claws are out</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="p">}</span>
+</code></pre></div>
+<ul>
+<li>The base mod does this for one ability only, Spar Claw, written into <code>requiresSword</code> by name; AkumaLib opens the same
+  door to any <strong>equipped</strong> ability implementing the interface.</li>
+<li>As for Spar Claw, it holds <strong>only with an empty main hand</strong>. The hand stays empty, so everything a bare hand gets
+  (<code>PUNCH_DAMAGE</code> above all) is kept.</li>
+<li><code>IBladedHandsAbility.isActive(entity)</code> tells whether any equipped ability makes the entity's hands blades right now.</li>
+</ul>
 <h2 id="fruitinjectionhelper"><code>FruitInjectionHelper</code><a class="headerlink" href="#fruitinjectionhelper" title="Permanent link">&para;</a></h2>
 <p>Adds abilities to, or removes them from, a Devil Fruit's list of ability cores, including a fruit the base mod owns:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">FruitInjectionHelper</span><span class="p">.</span><span class="na">appendAbilities</span><span class="p">(</span><span class="n">fruit</span><span class="p">,</span><span class="w"> </span><span class="n">MyExtraAbility</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">.</span><span class="na">get</span><span class="p">());</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">FruitInjectionHelper</span><span class="p">.</span><span class="na">removeAbilities</span><span class="p">(</span><span class="n">fruit</span><span class="p">,</span><span class="w"> </span><span class="n">SomeAbility</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">.</span><span class="na">get</span><span class="p">());</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">FruitInjectionHelper</span><span class="p">.</span><span class="na">appendAbilities</span><span class="p">(</span><span class="n">fruit</span><span class="p">,</span><span class="w"> </span><span class="n">MyExtraAbility</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">.</span><span class="na">get</span><span class="p">());</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">FruitInjectionHelper</span><span class="p">.</span><span class="na">removeAbilities</span><span class="p">(</span><span class="n">fruit</span><span class="p">,</span><span class="w"> </span><span class="n">SomeAbility</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">.</span><span class="na">get</span><span class="p">());</span>
 </code></pre></div>
 <ul>
 <li><code>appendAbilities</code> skips a core already on the fruit and ignores <code>null</code> entries.</li>
@@ -8608,13 +8649,13 @@
 </div>
 <h2 id="randomteleporthelper"><code>RandomTeleportHelper</code><a class="headerlink" href="#randomteleporthelper" title="Permanent link">&para;</a></h2>
 <p>Teleports a living entity to a random safe spot on the surface, within a ring around a point, <strong>without freezing the server</strong> to load chunks:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">RandomTeleportHelper</span><span class="p">.</span><span class="na">findAndTeleportAsync</span><span class="p">(</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">        </span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">target</span><span class="p">,</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">        </span><span class="mi">200</span><span class="p">,</span><span class="w"> </span><span class="mi">800</span><span class="p">,</span><span class="w">           </span><span class="c1">// minimum and maximum distance, in blocks</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">        </span><span class="mi">8</span><span class="p">,</span><span class="w">                  </span><span class="c1">// candidate spots to try</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">        </span><span class="n">origin</span><span class="p">.</span><span class="na">x</span><span class="p">,</span><span class="w"> </span><span class="n">origin</span><span class="p">.</span><span class="na">z</span><span class="p">,</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">        </span><span class="mi">1</span><span class="p">,</span><span class="w">                  </span><span class="c1">// height above the surface</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">        </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* runs when done, whether or not it teleported */</span><span class="w"> </span><span class="p">});</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">RandomTeleportHelper</span><span class="p">.</span><span class="na">findAndTeleportAsync</span><span class="p">(</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">        </span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">target</span><span class="p">,</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">        </span><span class="mi">200</span><span class="p">,</span><span class="w"> </span><span class="mi">800</span><span class="p">,</span><span class="w">           </span><span class="c1">// minimum and maximum distance, in blocks</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">        </span><span class="mi">8</span><span class="p">,</span><span class="w">                  </span><span class="c1">// candidate spots to try</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">        </span><span class="n">origin</span><span class="p">.</span><span class="na">x</span><span class="p">,</span><span class="w"> </span><span class="n">origin</span><span class="p">.</span><span class="na">z</span><span class="p">,</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">        </span><span class="mi">1</span><span class="p">,</span><span class="w">                  </span><span class="c1">// height above the surface</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">        </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* runs when done, whether or not it teleported */</span><span class="w"> </span><span class="p">});</span>
 </code></pre></div>
 <ol>
 <li>It picks the candidate spots in the ring at random.</li>
