@@ -28,7 +28,7 @@ The **33 status effects** InoFruits adds, and what applies them.
 | ![](effect-icons/law-silence.png){ .effect-icon } **Law: Silence**{ #effect-law-silence } | Neutral | [Silence](fruits/oki-oki-no-mi.md#law-silence) |
 | ![](effect-icons/law-truce.png){ .effect-icon } **Law: Truce**{ #effect-law-truce } | Neutral | [Truce](fruits/oki-oki-no-mi.md#law-truce) |
 | ![](effect-icons/law-walk.png){ .effect-icon } **Law: Walk**{ #effect-law-walk } | Neutral | [Walk](fruits/oki-oki-no-mi.md#law-walk) |
-| ![](effect-icons/marked.png){ .effect-icon } **Marked**{ #effect-marked } | Harmful | [Shirushi](fruits/iro-iro-no-mi.md#shirushi) |
+| ![](effect-icons/marked.png){ .effect-icon } **Marked**{ #effect-marked } | Harmful | [Shirushi](fruits/some-some-no-mi.md#shirushi) |
 | ![](effect-icons/nailed.png){ .effect-icon } **Nailed**{ #effect-nailed } | Harmful | [Kugi Ame](fruits/kugi-kugi-no-mi.md#kugi-ame), [Kugi Yoroi](fruits/kugi-kugi-no-mi.md#kugi-yoroi), [Kugibari](fruits/kugi-kugi-no-mi.md#kugibari), [Kugizuke](fruits/kugi-kugi-no-mi.md#kugizuke) |
 | ![](effect-icons/namakura.png){ .effect-icon } **Namakura**{ #effect-namakura } | Harmful | [Mitsu Goromo](fruits/mitsu-mitsu-no-mi.md#mitsu-goromo) |
 | ![](effect-icons/nebatsuki.png){ .effect-icon } **Nebatsuki**{ #effect-nebatsuki } | Harmful | [Amahada](fruits/mitsu-mitsu-no-mi.md#amahada), [Mitsu Goromo](fruits/mitsu-mitsu-no-mi.md#mitsu-goromo), [Mitsu Numa](fruits/mitsu-mitsu-no-mi.md#mitsu-numa), [Mitsu Suberi](fruits/mitsu-mitsu-no-mi.md#mitsu-suberi) |
@@ -36,4 +36,4 @@ The **33 status effects** InoFruits adds, and what applies them.
 | ![](effect-icons/purified.png){ .effect-icon } **Purified**{ #effect-purified } | Beneficial | [Purify](fruits/uma-uma-no-mi-model-unicorn.md#purify), [Sanctuary](fruits/uma-uma-no-mi-model-unicorn.md#sanctuary) |
 | ![](effect-icons/shio-form.png){ .effect-icon } **Shio Form**{ #effect-shio-form } | Beneficial | [Shio Nagare](fruits/shio-shio-no-mi.md#shio-nagare) |
 | ![](effect-icons/shiozuke.png){ .effect-icon } **Shiozuke**{ #effect-shiozuke } | Harmful | [Dassui](fruits/shio-shio-no-mi.md#dassui), [Logia Invulnerability Shio](fruits/shio-shio-no-mi.md#logia-invulnerability-shio), [Shio Bashira](fruits/shio-shio-no-mi.md#shio-bashira), [Shio Nagare](fruits/shio-shio-no-mi.md#shio-nagare), [Shio no Ame](fruits/shio-shio-no-mi.md#shio-no-ame), [Shio no Wa](fruits/shio-shio-no-mi.md#shio-no-wa), [Shiozuke](fruits/shio-shio-no-mi.md#shiozuke) |
-| ![](effect-icons/war-paint.png){ .effect-icon } **War Paint**{ #effect-war-paint } | Beneficial | [Ikusa Gesho](fruits/iro-iro-no-mi.md#ikusa-gesho) |
+| ![](effect-icons/war-paint.png){ .effect-icon } **War Paint**{ #effect-war-paint } | Beneficial | [Ikusa Gesho](fruits/some-some-no-mi.md#ikusa-gesho) |

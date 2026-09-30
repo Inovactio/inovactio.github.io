@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| Version documented | **3.2.0** |
+| Version documented | **3.3.0** |
 | Mod id | `inofruits` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/inofruits) |
 | Changelog | [Every release](changelog.md) |
@@ -28,7 +28,7 @@ The fruits behave like the base mod's own:
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.x (built against `1.20.1-0.11.5`) |
-| [AkumaLib](../../akumalib/index.md) | **2.9.0 or later** |
+| [AkumaLib](../../akumalib/index.md) | **3.0.0 or later** |
 
 ## Getting started
 

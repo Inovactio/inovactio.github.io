@@ -2,6 +2,52 @@
 
 Every InoFruits release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/inofruits/files/all).
 
+## 3.3.0 { #v3-3-0 }
+
+<small>Released 2026-09-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/inofruits/files/9016786)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>The Iro Iro no Mi becomes the Some Some no Mi, the ferret gets three more coats, and fruits renamed in 3.0.0 come
+back in old worlds.</strong> The fruits are also put in the Devil Fruit boxes by data files now, so a modpack or a server
+can choose which box gives which fruit.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi</strong> 0.11.5 and <strong>AkumaLib 3.0.0</strong> or newer.</p>
+<p>⚠️ <strong>Update AkumaLib to 3.0.0 first.</strong> With an older AkumaLib the game refuses to start and says which version it
+needs. And with AkumaLib 3.0.0, InoFruits 3.2.0 or older puts its fruits in no box: update both together.</p>
+<hr />
+<h2>Devil Fruit boxes</h2>
+<ul>
+<li><strong>Every fruit is in the same box as before</strong>, as common as a Mine Mine no Mi fruit of its tier, and the chance
+  for a box to give a fruit of the tier above still reaches them.</li>
+<li><strong>Modpacks and servers can change it</strong> with a data pack: move a fruit to another box, make it rarer or more
+  common, or take it out (see AkumaLib's
+  <a href="https://inovactio.github.io/akumalib/loot-injection/devil-fruit-boxes/">Devil Fruit boxes page</a>).</li>
+</ul>
+<h2>New looks</h2>
+<ul>
+<li><strong>Three more coats for the ferret: albino, polecat and full black</strong>, in both forms. The ferret now comes in six
+  coats, and each player still always gets the same one. ⚠️ With more coats to choose from, about half the players'
+  ferrets change colour once.</li>
+</ul>
+<h2>Renamed</h2>
+<ul>
+<li><strong>The Iro Iro no Mi is now the Some Some no Mi</strong> ("dye"): the old name belongs to a fruit of One Piece itself.
+  Nothing to do: a fruit you have eaten, its abilities, and the fruits in your chests and inventories carry over
+  under the new name.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Fruits renamed in 3.0.0 carry over.</strong> A world last played before 3.0.0 now keeps, under their new names, the
+  fruits in its chests and inventories and the fruit each player had eaten; they used to vanish. (A world already
+  opened with 3.0.0 or later lost them then, and they cannot come back.)</li>
+<li><strong>The ferret's body no longer floats above its legs</strong> in its animal form, at rest and when it walks.</li>
+<li><strong>The unicorn needs a form for its horn techniques.</strong> Horn Thrust, Prism Lance, Unicorn Charge, Starfall,
+  Guiding Light, Moonlight Burst, Purify and Sanctuary no longer work in human form.</li>
+<li><strong>The mosquito walks.</strong> Its six legs now move when it walks on the ground instead of sliding.</li>
+<li><strong>Hybrid forms move with your techniques.</strong> When a technique moves your arms (Saigoppe, a punch...), the fur,
+  claws or armour the form puts on them now follow instead of staying behind.</li>
+</ul>
+</div>
+
 ## 3.2.0 { #v3-2-0 }
 
 <small>Released 2026-09-27 · [Download](https://www.curseforge.com/minecraft/mc-mods/inofruits/files/8993040)</small>
