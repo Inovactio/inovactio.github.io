@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Spreads a block operation over several ticks, outward from a centre, instead of doing it all in one tick.">
+        <meta name="description" content="Since 3.1.0. Blocks an ability puts in the world for a while and takes back: a wall raised from the ground, a dome, a cage. Each cast opens a group, places through it and removes it at its end.">
       
       
       
@@ -69,12 +69,12 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Inovactio's Minecraft Mods">
     <meta property="og:title" content="Blocks · AkumaLib">
-    <meta property="og:description" content="Spreads a block operation over several ticks, outward from a centre, instead of doing it all in one tick.">
+    <meta property="og:description" content="Since 3.1.0. Blocks an ability puts in the world for a while and takes back: a wall raised from the ground, a dome, a cage. Each cast opens a group, places through it and removes it at its end.">
     <meta property="og:url" content="https://inovactio.github.io/akumalib/utilities/blocks/">
     <meta property="og:image" content="https://inovactio.github.io/assets/icons/akumalib.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Blocks · AkumaLib">
-    <meta name="twitter:description" content="Spreads a block operation over several ticks, outward from a centre, instead of doing it all in one tick.">
+    <meta name="twitter:description" content="Since 3.1.0. Blocks an ability puts in the world for a while and takes back: a wall raised from the ground, a dome, a cage. Each cast opens a group, places through it and removes it at its end.">
     <meta name="twitter:image" content="https://inovactio.github.io/assets/icons/akumalib.png"><meta name="theme-color" content="#7e56c2">
   
 
@@ -6454,6 +6454,8 @@
       
         
       
+        
+      
     
     
     
@@ -6610,6 +6612,34 @@
     
   
     Hands and armour
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../animations/first-person-limbs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First-person limbs
   
 
     
@@ -7916,6 +7946,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#temporaryblocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TemporaryBlocks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#propagationhelper" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7953,6 +7994,17 @@
     <span class="md-ellipsis">
       
         BlockOverlayManager
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entityhighlights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EntityHighlights
       
     </span>
   </a>
@@ -8490,6 +8542,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#temporaryblocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TemporaryBlocks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#propagationhelper" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8527,6 +8590,17 @@
     <span class="md-ellipsis">
       
         BlockOverlayManager
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entityhighlights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EntityHighlights
       
     </span>
   </a>
@@ -8635,28 +8709,60 @@
 
 
 <h1 id="blocks">Blocks<a class="headerlink" href="#blocks" title="Permanent link">&para;</a></h1>
+<h2 id="temporaryblocks"><code>TemporaryBlocks</code><a class="headerlink" href="#temporaryblocks" title="Permanent link">&para;</a></h2>
+<p><em>Since 3.1.0.</em> Blocks an ability puts in the world for a while and takes back: a wall raised from the ground, a dome, a cage. Each cast opens a group, places through it and removes it at its end.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">private</span><span class="w"> </span><span class="n">TemporaryBlocks</span><span class="p">.</span><span class="na">Group</span><span class="w"> </span><span class="n">wall</span><span class="p">;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kd">private</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onStart</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">IAbility</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">wall</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">TemporaryBlocks</span><span class="p">.</span><span class="na">open</span><span class="p">(</span><span class="n">entity</span><span class="p">);</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">BlockPos</span><span class="w"> </span><span class="n">pos</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">shape</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">wall</span><span class="p">.</span><span class="na">place</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">pos</span><span class="p">,</span><span class="w"> </span><span class="n">Blocks</span><span class="p">.</span><span class="na">DIRT</span><span class="p">.</span><span class="na">defaultBlockState</span><span class="p">(),</span><span class="w"> </span><span class="n">WALL_RULE</span><span class="p">);</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="p">}</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="kd">private</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onEnd</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">IAbility</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">wall</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">wall</span><span class="p">.</span><span class="na">remove</span><span class="p">();</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">wall</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="p">}</span>
+</code></pre></div>
+<p>What it takes care of, each rule paid for once in an addon:</p>
+<ul>
+<li><strong>placed through the base mod's own placer</strong> (<code>NuWorld.setBlockState</code> with your <code>BlockProtectionRule</code>): protected areas per block, griefing rules, restricted blocks;</li>
+<li><strong>never over a body</strong>: a block raised through somebody suffocates them, so an occupied square is skipped;</li>
+<li><strong>nothing drops</strong>: a block broken by hand or blown up goes without a drop, and no piston moves one. A temporary wall every few seconds would otherwise be a quarry;</li>
+<li><strong>only what is still ours comes down</strong>: a block mined and replaced by somebody is theirs; within the dirt family a change still counts as ours (grass spreads, covered grass turns back to dirt);</li>
+<li><strong>plants come back</strong>: what a block replaced (grass, flowers) is put back when the group comes down;</li>
+<li><strong>never left behind</strong>: a group whose owner dies comes down (the base mod ends no ability on death), and every group comes down as the server stops.</li>
+</ul>
+<p><code>TemporaryBlocks.isTemporary(level, pos)</code> tells whether a block is one of them.</p>
+<div class="admonition warning">
+<p class="admonition-title">Your rule decides what may be replaced</p>
+<p>The group replaces whatever your <code>BlockProtectionRule</code> allows. <code>DefaultProtectionRules.AIR</code> builds into air only; add foliage to it for a wall that stands in grass and flowers, which then come back.</p>
+</div>
 <h2 id="propagationhelper"><code>PropagationHelper</code><a class="headerlink" href="#propagationhelper" title="Permanent link">&para;</a></h2>
 <p>Spreads a block operation over several ticks, outward from a centre, instead of doing it all in one tick.</p>
 <p>It computes, once, the list of positions within a radius <strong>in propagation order</strong> (a breadth-first walk from the centre), and assigns each one the tick at which it should be processed, through an easing curve:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">private</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">PropagationHelper</span><span class="p">.</span><span class="na">PropagationEntry</span><span class="o">&gt;</span><span class="w"> </span><span class="n">pending</span><span class="p">;</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kd">private</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">elapsed</span><span class="p">;</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">start</span><span class="p">(</span><span class="n">BlockPos</span><span class="w"> </span><span class="n">center</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">pending</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">PropagationHelper</span><span class="p">.</span><span class="na">computeWithPowerEase</span><span class="p">(</span><span class="n">center</span><span class="p">,</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span><span class="w"> </span><span class="mf">1.5</span><span class="p">);</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">elapsed</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="p">}</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="c1">// in a tick event</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="kd">private</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onTick</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">IAbility</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">entity</span><span class="p">.</span><span class="na">level</span><span class="p">().</span><span class="na">isClientSide</span><span class="p">()</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">pending</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="p">;</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">elapsed</span><span class="o">++</span><span class="p">;</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">PropagationHelper</span><span class="p">.</span><span class="na">PropagationEntry</span><span class="w"> </span><span class="n">entry</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">pending</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">entry</span><span class="p">.</span><span class="na">tickToApply</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">elapsed</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">            </span><span class="c1">// process entry.pos</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">        </span><span class="p">}</span>
-<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">elapsed</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">30</span><span class="p">)</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">pending</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span>
-<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">private</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">PropagationHelper</span><span class="p">.</span><span class="na">PropagationEntry</span><span class="o">&gt;</span><span class="w"> </span><span class="n">pending</span><span class="p">;</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="kd">private</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">elapsed</span><span class="p">;</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">start</span><span class="p">(</span><span class="n">BlockPos</span><span class="w"> </span><span class="n">center</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">pending</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">PropagationHelper</span><span class="p">.</span><span class="na">computeWithPowerEase</span><span class="p">(</span><span class="n">center</span><span class="p">,</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span><span class="w"> </span><span class="mf">1.5</span><span class="p">);</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">elapsed</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="p">}</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="c1">// in a tick event</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="kd">private</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onTick</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">IAbility</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">entity</span><span class="p">.</span><span class="na">level</span><span class="p">().</span><span class="na">isClientSide</span><span class="p">()</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">pending</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="p">;</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">elapsed</span><span class="o">++</span><span class="p">;</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">PropagationHelper</span><span class="p">.</span><span class="na">PropagationEntry</span><span class="w"> </span><span class="n">entry</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">pending</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">entry</span><span class="p">.</span><span class="na">tickToApply</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">elapsed</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">            </span><span class="c1">// process entry.pos</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">elapsed</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">30</span><span class="p">)</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">pending</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="p">}</span>
 </code></pre></div>
 <table>
 <thead>
@@ -8697,8 +8803,8 @@
 <p>A plain list of positions an ability placed, so it can take them down later: <code>addBlockPos</code>, <code>getBlockList</code>, <code>clear</code>. <code>StompAbility</code> gives its subclasses one.</p>
 <h2 id="blockhighlightmanager"><code>BlockHighlightManager</code><a class="headerlink" href="#blockhighlightmanager" title="Permanent link">&para;</a></h2>
 <p>Outlines a set of block positions <strong>through terrain</strong>, for <strong>one player</strong>, for a while. Made for detection techniques: ores, containers, hidden things.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">UUID</span><span class="w"> </span><span class="n">group</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">UUID</span><span class="p">.</span><span class="na">nameUUIDFromBytes</span><span class="p">((</span><span class="s">"my_scan:"</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">player</span><span class="p">.</span><span class="na">getUUID</span><span class="p">()).</span><span class="na">getBytes</span><span class="p">());</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">BlockHighlightManager</span><span class="p">.</span><span class="na">show</span><span class="p">(</span><span class="n">player</span><span class="p">,</span><span class="w"> </span><span class="n">group</span><span class="p">,</span><span class="w"> </span><span class="n">positions</span><span class="p">,</span><span class="w"> </span><span class="mh">0xA0FFD700</span><span class="p">,</span><span class="w"> </span><span class="mi">160</span><span class="p">);</span><span class="w">   </span><span class="c1">// 8 seconds</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">UUID</span><span class="w"> </span><span class="n">group</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">UUID</span><span class="p">.</span><span class="na">nameUUIDFromBytes</span><span class="p">((</span><span class="s">"my_scan:"</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">player</span><span class="p">.</span><span class="na">getUUID</span><span class="p">()).</span><span class="na">getBytes</span><span class="p">());</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">BlockHighlightManager</span><span class="p">.</span><span class="na">show</span><span class="p">(</span><span class="n">player</span><span class="p">,</span><span class="w"> </span><span class="n">group</span><span class="p">,</span><span class="w"> </span><span class="n">positions</span><span class="p">,</span><span class="w"> </span><span class="mh">0xA0FFD700</span><span class="p">,</span><span class="w"> </span><span class="mi">160</span><span class="p">);</span><span class="w">   </span><span class="c1">// 8 seconds</span>
 </code></pre></div>
 <ul>
 <li>Positions are sent as a <strong>group</strong> keyed by a UUID you choose, with one colour (ARGB, alpha honoured). Several colours means several groups.</li>
@@ -8714,6 +8820,21 @@
 <h2 id="blockoverlaymanager"><code>BlockOverlayManager</code><a class="headerlink" href="#blockoverlaymanager" title="Permanent link">&para;</a></h2>
 <p>The client-side store behind <code>ZoneAbility</code>'s block overlay, which shades the blocks inside a zone. You do not normally call it: set <code>enableBlockOverlay = true</code> and <code>overlayArgb</code> on a <a href="../../ability-base-classes/zones/">zone</a>, and the library sends, renders and clears the overlay, including on disconnect. Players can turn the overlay off with <code>overlayEnabled</code> in <code>akumalib-client.toml</code>.</p>
 <p>It also exposes <code>isSolidForOverlay</code> and <code>isFullSolidForCulling</code>, the block tests the overlay renderer uses.</p>
+<h2 id="entityhighlights"><code>EntityHighlights</code><a class="headerlink" href="#entityhighlights" title="Permanent link">&para;</a></h2>
+<p><em>Since 3.1.0.</em> An entity outlined through walls for one player only - a mind read, a scent followed - where vanilla's glowing effect shows it to everybody.</p>
+<p>From the server, for a while:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">EntityHighlights</span><span class="p">.</span><span class="na">mark</span><span class="p">(</span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">target</span><span class="p">,</span><span class="w"> </span><span class="mi">600</span><span class="p">);</span><span class="w">   </span><span class="c1">// 30 seconds, for the user only</span>
+</code></pre></div>
+<p>On the client, for whatever a vision sees right now: a provider asked every tick, registered once (a static block in a client class does):</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">ClientEntityHighlights</span><span class="p">.</span><span class="na">addProvider</span><span class="p">(</span><span class="n">player</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">visionIsOn</span><span class="p">(</span><span class="n">player</span><span class="p">)</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">        </span><span class="o">?</span><span class="w"> </span><span class="n">player</span><span class="p">.</span><span class="na">level</span><span class="p">().</span><span class="na">getEntitiesOfClass</span><span class="p">(</span><span class="n">LivingEntity</span><span class="p">.</span><span class="na">class</span><span class="p">,</span><span class="w"> </span><span class="n">player</span><span class="p">.</span><span class="na">getBoundingBox</span><span class="p">().</span><span class="na">inflate</span><span class="p">(</span><span class="mi">40</span><span class="p">),</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">player</span><span class="p">)</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">        </span><span class="p">:</span><span class="w"> </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">());</span>
+</code></pre></div>
+<p>Marks and providers add up; only what AkumaLib lit is ever put out. It is vanilla's outline, set on this client's copy of the entity every tick through <code>Entity#setSharedFlag</code> (glowing is flag 6) - <code>setGlowingTag</code> does nothing on a client.</p>
+<div class="admonition warning">
+<p class="admonition-title">Both sides need 3.1.0</p>
+<p><code>mark</code> is a packet: the network protocol went to 5 with it.</p>
+</div>
 
 
 

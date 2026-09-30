@@ -6454,6 +6454,8 @@
       
         
       
+        
+      
     
     
     
@@ -6610,6 +6612,34 @@
     
   
     Hands and armour
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../animations/first-person-limbs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First-person limbs
   
 
     
@@ -8798,9 +8828,9 @@
 </tbody>
 </table>
 <p>All three do nothing when called on a client level, so an ability can call them without a side check.</p>
-<div class="admonition warning">
-<p class="admonition-title">A player who arrives later does not see the line</p>
-<p>It was sent when the line opened. That is fine for a line lasting a second or two. Re-send a long-lived line with <code>update</code> from time to time.</p>
+<div class="admonition info">
+<p class="admonition-title">A player who arrives later gets the line too</p>
+<p><em>Since 3.1.0.</em> The server keeps every open line and, every half second, sends it to the players who came within range of either end since, with what is left of its lifetime. A line is no longer kept once it is closed, its lifetime is over, or an entity end has left the world. There is no need to re-send a long-lived line.</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Give a line with two point ends a lifetime</p>

@@ -6138,6 +6138,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#without-a-component" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Without a component
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6581,6 +6592,8 @@
       
         
       
+        
+      
     
     
     
@@ -6737,6 +6750,34 @@
     
   
     Hands and armour
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../animations/first-person-limbs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First-person limbs
   
 
     
@@ -8594,6 +8635,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#without-a-component" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Without a component
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -8797,10 +8849,27 @@
 <td><code>hurtTarget</code></td>
 <td>no, there is nothing to clear</td>
 </tr>
+<tr>
+<td>a hit with no <code>DealDamageComponent</code>: a projectile, a summoned mob, an event handler, a stream of separate hits (a gatling's bullets, a swarm's stings)</td>
+<td><code>hurtBurst(target, source, damage)</code></td>
+<td><strong>yes</strong></td>
+</tr>
 </tbody>
 </table>
 <p><code>HitTrackerComponent.canHit</code> tests and records at once: there is no separate "mark as hit" method. <code>canHit(target)</code> marks the target before you know whether the damage landed, so without <code>hurtBurst</code> an invulnerable-framed target would be marked, take nothing, and be skipped for the rest of the cast. Clearing the frames is what makes the mark truthful.</p>
 <p>Comment the deliberate <code>hurtTarget</code> calls: the two categories look identical in a search. A one-line comment on every call site that stays on <code>hurtTarget</code> on purpose saves the next reader from "fixing" it into a damage multiplier.</p>
+<h3 id="without-a-component">Without a component<a class="headerlink" href="#without-a-component" title="Permanent link">&para;</a></h3>
+<p><em>Since 3.1.0.</em> A projectile, a summoned mob or an event handler has no <code>DealDamageComponent</code>. The same rule is there for it:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">AkumaAbilityHelper</span><span class="p">.</span><span class="na">hurtBurst</span><span class="p">(</span><span class="n">target</span><span class="p">,</span><span class="w"> </span><span class="n">ModDamageSources</span><span class="p">.</span><span class="na">getInstance</span><span class="p">().</span><span class="na">ability</span><span class="p">(</span><span class="k">this</span><span class="p">,</span><span class="w"> </span><span class="n">owner</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">core</span><span class="p">),</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">        </span><span class="n">AkumaAbilityHelper</span><span class="p">.</span><span class="na">scaledDamage</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">realDamage</span><span class="p">));</span>
+</code></pre></div>
+<p><code>openFrames(target)</code> does only the first half - never through <code>AkumaEffects.INVULNERABLE</code>, frames cleared - for a hit dealt by another path next, a mob's own <code>doHurtTarget</code> for one:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">target</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">living</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="o">!</span><span class="n">AkumaAbilityHelper</span><span class="p">.</span><span class="na">openFrames</span><span class="p">(</span><span class="n">living</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="p">}</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="k">return</span><span class="w"> </span><span class="kd">super</span><span class="p">.</span><span class="na">doHurtTarget</span><span class="p">(</span><span class="n">target</span><span class="p">);</span>
+</code></pre></div>
+<p>A stream of separate hits belongs here too: vanilla's frames would let one bullet in five land. A pulse that hits the same bodies again and again still does not - pace it at 10 ticks instead, with the damage it had per second.</p>
 
 
 

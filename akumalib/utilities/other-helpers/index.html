@@ -6454,6 +6454,8 @@
       
         
       
+        
+      
     
     
     
@@ -6610,6 +6612,34 @@
     
   
     Hands and armour
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../animations/first-person-limbs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First-person limbs
   
 
     
@@ -8381,6 +8411,72 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#abilityprogress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AbilityProgress
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sharedcooldowns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SharedCooldowns
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gatedunlocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GatedUnlocks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#screenmarkers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ScreenMarkers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thrownbodies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ThrownBodies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summonedallies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SummonedAllies
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8525,6 +8621,72 @@
     <span class="md-ellipsis">
       
         InoHelper
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abilityprogress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AbilityProgress
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sharedcooldowns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SharedCooldowns
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gatedunlocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GatedUnlocks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#screenmarkers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ScreenMarkers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thrownbodies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ThrownBodies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summonedallies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SummonedAllies
       
     </span>
   </a>
@@ -8695,6 +8857,41 @@ arms.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="abilityprogress"><code>AbilityProgress</code><a class="headerlink" href="#abilityprogress" title="Permanent link">&para;</a></h2>
+<p><em>Since 3.1.0.</em> How far along an equipped continuous ability is, for a pose or a model that follows it. Either side.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kt">float</span><span class="w"> </span><span class="n">t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">AbilityProgress</span><span class="p">.</span><span class="na">fraction</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">HornTossAbility</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">.</span><span class="na">get</span><span class="p">(),</span><span class="w"> </span><span class="n">HornTossAbility</span><span class="p">.</span><span class="na">HOLD</span><span class="p">,</span><span class="w"> </span><span class="n">partialTick</span><span class="p">);</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="kt">float</span><span class="w"> </span><span class="n">lift</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">AbilityProgress</span><span class="p">.</span><span class="na">riseFall</span><span class="p">(</span><span class="n">t</span><span class="p">,</span><span class="w"> </span><span class="mf">0.4F</span><span class="p">);</span><span class="w">   </span><span class="c1">// up over the first 40%, back down over the rest</span>
+</code></pre></div>
+<p><code>continueTime</code> gives the ticks (plus the partial tick), <code>fraction</code> the 0-1 share of a total, both -1 when the ability is not running; <code>riseFall</code> turns that into a 0-1-0 curve.</p>
+<h2 id="sharedcooldowns"><code>SharedCooldowns</code><a class="headerlink" href="#sharedcooldowns" title="Permanent link">&para;</a></h2>
+<p><em>Since 3.1.0.</em> Two abilities that share one cooldown, whoever registered them - an addon technique and a base mod one included, which an <code>AbilityPool</code> cannot bind:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">SharedCooldowns</span><span class="p">.</span><span class="na">link</span><span class="p">(</span><span class="n">JusshiganAbility</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">,</span><span class="w"> </span><span class="n">ShiganAbility</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">);</span><span class="w">   </span><span class="c1">// at mod construction</span>
+</code></pre></div>
+<p>Every tick, for a player with both equipped, when one is cooling down and the other is idle, the other starts a cooldown for what the first has left. A held stance counts as busy: its own cooldown comes when it ends.</p>
+<h2 id="gatedunlocks"><code>GatedUnlocks</code><a class="headerlink" href="#gatedunlocks" title="Permanent link">&para;</a></h2>
+<p><em>Since 3.1.0.</em> The base mod asks a fruit's gated abilities (<code>setUnlockCheck</code>) only at a few moments, so a technique unlocked by learning something else waits for the next one. This asks again every 100 ticks for the players you name:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">GatedUnlocks</span><span class="p">.</span><span class="na">recheck</span><span class="p">(</span><span class="n">player</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">MyHelper</span><span class="p">.</span><span class="na">hasFruit</span><span class="p">(</span><span class="n">player</span><span class="p">),</span><span class="w"> </span><span class="n">MyTechniqueAbility</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">);</span>
+</code></pre></div>
+<h2 id="screenmarkers"><code>ScreenMarkers</code><a class="headerlink" href="#screenmarkers" title="Permanent link">&para;</a></h2>
+<p><em>Since 3.1.0.</em> Markers on one player's screen pointing at places in the world, for a while: a clairvoyance, a radar, Observation Haki.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">ScreenMarkers</span><span class="p">.</span><span class="na">show</span><span class="p">(</span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="s">"mymod"</span><span class="p">,</span><span class="w"> </span><span class="s">"radar"</span><span class="p">),</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">        </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ScreenMarkers</span><span class="p">.</span><span class="na">Marker</span><span class="p">(</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">target</span><span class="p">.</span><span class="na">position</span><span class="p">(),</span><span class="w"> </span><span class="mh">0xFFF3C94C</span><span class="p">)),</span><span class="w"> </span><span class="mi">300</span><span class="p">);</span>
+</code></pre></div>
+<p>Along a band at the top of the screen, each marker sits in its direction from where the player looks, with its label and distance; one behind the player goes to the edge with an arrow. A new <code>show</code> with the same source replaces that source's markers, others stay. Labels are cut at 64 characters and a packet carries at most 256 markers. Both sides need 3.1.0 (network protocol 5).</p>
+<h2 id="thrownbodies"><code>ThrownBodies</code><a class="headerlink" href="#thrownbodies" title="Permanent link">&para;</a></h2>
+<p><em>Since 3.1.0.</em> A body an ability has just hurled, watched for the moment it slams into something - a wall, the ground, another body - so it can be hurt by the landing.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">body</span><span class="p">.</span><span class="na">setDeltaMovement</span><span class="p">(</span><span class="n">look</span><span class="p">.</span><span class="na">scale</span><span class="p">(</span><span class="n">THROW</span><span class="p">));</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="n">body</span><span class="p">.</span><span class="na">hurtMarked</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="n">ThrownBodies</span><span class="p">.</span><span class="na">track</span><span class="p">(</span><span class="n">body</span><span class="p">,</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span><span class="w"> </span><span class="n">impact</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">AkumaAbilityHelper</span><span class="p">.</span><span class="na">hurtBurst</span><span class="p">(</span><span class="n">impact</span><span class="p">.</span><span class="na">body</span><span class="p">(),</span><span class="w"> </span><span class="n">source</span><span class="p">,</span><span class="w"> </span><span class="n">damage</span><span class="p">));</span>
+</code></pre></div>
+<p>A slam is a flight still fast a tick ago (0.8 blocks a tick or more) that stops short the next. It reads the server-side velocity, which the server keeps for a body it threw - a thrown player included. It does not see a player who moves himself (a dash): only his client moves him. A mob without AI never slams: vanilla does not move it at all.</p>
+<h2 id="summonedallies"><code>SummonedAllies</code><a class="headerlink" href="#summonedallies" title="Permanent link">&para;</a></h2>
+<p><em>Since 3.1.0.</em> The rules every mob an ability summons for its user ends up needing, whatever it extends (<code>TamableAnimal</code>, the base mod's <code>CloneEntity</code>, a plain <code>Mob</code>):</p>
+<ul>
+<li><code>prepare(mob)</code>: the base mod adds its <code>PUNCH_DAMAGE</code> attribute to every bare-handed melee blow, a mob's too - a sting tuned at 2 hit for 5. Zeroed here;</li>
+<li><code>wantsToAttack(owner, target, sameOwner)</code>: an enemy of the owner (<code>AkumaTargeting.isEnemy</code>), never the owner, never a summon of the same owner;</li>
+<li><code>shouldLeave(owner, lifeLeft)</code> and <code>leave(mob)</code>: time up, or the owner gone or dead, and it vanishes in a puff.</li>
+</ul>
 
 
 

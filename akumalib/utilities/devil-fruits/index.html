@@ -6454,6 +6454,8 @@
       
         
       
+        
+      
     
     
     
@@ -6610,6 +6612,34 @@
     
   
     Hands and armour
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../animations/first-person-limbs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First-person limbs
   
 
     
@@ -8075,6 +8105,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Devil Fruits
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -8091,6 +8139,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#externalmorphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ExternalMorphs
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -8402,6 +8480,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#externalmorphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ExternalMorphs
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -8544,6 +8641,22 @@
 <li>The base mod's <code>mineminenomi:zoan</code> item tag leaves the artificial Zoans out. <code>isZoan</code> counts them.</li>
 <li>The Hito Hito no Mi (Chopper's fruit) is a Zoan with no abilities in 0.11.5, so its user is never morphed.</li>
 </ul>
+<h2 id="externalmorphs"><code>ExternalMorphs</code><a class="headerlink" href="#externalmorphs" title="Permanent link">&para;</a></h2>
+<p><em>Since 3.1.0.</em> A morph put on an entity from outside its own abilities - a curse that turns a player into a toy, a fruit that keeps its user a child. A morph normally travels with a morphing ability of the morphed entity; these have none.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">ExternalMorphs</span><span class="p">.</span><span class="na">set</span><span class="p">(</span><span class="n">player</span><span class="p">,</span><span class="w"> </span><span class="n">MyMorphs</span><span class="p">.</span><span class="na">TOY</span><span class="p">.</span><span class="na">get</span><span class="p">(),</span><span class="w"> </span><span class="kc">true</span><span class="p">);</span><span class="w">                   </span><span class="c1">// here and on every client that sees it</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">ExternalMorphs</span><span class="p">.</span><span class="na">keep</span><span class="p">(</span><span class="n">MyMorphs</span><span class="p">.</span><span class="na">TOY</span><span class="p">,</span><span class="w"> </span><span class="n">player</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">MyHelper</span><span class="p">.</span><span class="na">isToy</span><span class="p">(</span><span class="n">player</span><span class="p">));</span><span class="w">    </span><span class="c1">// once, at mod construction</span>
+</code></pre></div>
+<p>What it covers, each a fault of the base mod (0.11.5):</p>
+<ul>
+<li><strong>watchers</strong>: sent to the entity and everyone tracking it, and again to a player who starts tracking it later, for the morphs a keeper says still hold;</li>
+<li><strong>duplicates</strong>: the devil fruit sync appends the morphs it carries, so a watched entity can hold one twice - taking it off removes every copy;</li>
+<li><strong>size</strong>: the last morph off clears the list properly (losing the fruit alone left the player at the morph's size), and the dimensions refresh;</li>
+<li><strong>respawn, dimension change, login</strong>: the base mod drops these morphs; with a keeper, the player gets it back if it still holds, and loses it if not.</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Both sides need 3.1.0</p>
+<p>It is a packet: network protocol 5.</p>
+</div>
 
 
 

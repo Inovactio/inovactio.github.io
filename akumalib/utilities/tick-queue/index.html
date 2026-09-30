@@ -6454,6 +6454,8 @@
       
         
       
+        
+      
     
     
     
@@ -6610,6 +6612,34 @@
     
   
     Hands and armour
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../animations/first-person-limbs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First-person limbs
   
 
     
@@ -8342,6 +8372,28 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#serverscopedmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ServerScopedMap
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abilitylifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AbilityLifecycle
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8509,6 +8561,28 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#serverscopedmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ServerScopedMap
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abilitylifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AbilityLifecycle
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8638,6 +8712,20 @@
 </div>
 <h2 id="the-delay-is-in-ticks-the-server-ran">The delay is in ticks the server ran<a class="headerlink" href="#the-delay-is-in-ticks-the-server-ran" title="Permanent link">&para;</a></h2>
 <p>Not in game time, so it does not drift with <code>/tick freeze</code> or a paused single-player world.</p>
+<h2 id="serverscopedmap"><code>ServerScopedMap</code><a class="headerlink" href="#serverscopedmap" title="Permanent link">&para;</a></h2>
+<p><em>Since 3.1.0.</em> A static map that belongs to the running server, not to the game. In single player the same game opens world after world, and a plain static map carries one world's entries into the next: a last-use game time from a world at tick 1,000,000 blocked an ability for hours in a new one.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">ServerScopedMap</span><span class="o">&lt;</span><span class="n">UUID</span><span class="p">,</span><span class="w"> </span><span class="n">Long</span><span class="o">&gt;</span><span class="w"> </span><span class="n">LAST_USE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ServerScopedMap</span><span class="p">.</span><span class="na">perPlayer</span><span class="p">();</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">ServerScopedMap</span><span class="o">&lt;</span><span class="n">GlobalPos</span><span class="p">,</span><span class="w"> </span><span class="n">BlockState</span><span class="o">&gt;</span><span class="w"> </span><span class="n">MARKED</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ServerScopedMap</span><span class="p">.</span><span class="na">create</span><span class="p">();</span>
+</code></pre></div>
+<p><code>create()</code> is emptied when the server stops; <code>perPlayer()</code>, keyed by player UUID, also drops a player's entry when they log out. It is a <code>HashMap</code> otherwise: game thread only.</p>
+<h2 id="abilitylifecycle"><code>AbilityLifecycle</code><a class="headerlink" href="#abilitylifecycle" title="Permanent link">&para;</a></h2>
+<p><em>Since 3.1.0.</em> What the base mod leaves undone when an ability is cut short.</p>
+<p><strong>Death.</strong> The base mod ticks abilities only while their holder is alive and ends none of them when it dies: a continuous ability never reaches its end event, so whatever it put in the world or on the body stays. Opt in from your mod constructor, and every running ability of your namespace is stopped, end event included, as its holder dies:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">AbilityLifecycle</span><span class="p">.</span><span class="na">stopOnDeath</span><span class="p">(</span><span class="n">MODID</span><span class="p">);</span>
+</code></pre></div>
+<p>Losing the fruit needs nothing: <code>Ability.onRemove</code> already stops the continuity.</p>
+<p><strong>Zero gravity.</strong> <code>NoGravity</code> is saved with the entity: a server stopped during a float left the player floating at the next login. Use <code>noGravity(entity)</code> / <code>endNoGravity(entity)</code> instead of <code>setNoGravity</code>, and a login lifts a marked one.</p>
+<p><strong>Soft landings.</strong> A "the next fall is free" flag lived until a fall used it, and landing in water used none: it cancelled some later, unrelated fall. <code>grantSoftLanding(entity, key)</code> opens a 20-second window; <code>useSoftLanding(entity, key)</code> in your <code>LivingFallEvent</code> spends it.</p>
 
 
 
