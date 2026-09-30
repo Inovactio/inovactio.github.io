@@ -8319,6 +8319,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#combat-bar-slots-after-an-ability-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat bar slots after an ability sync
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8533,6 +8544,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#combat-bar-slots-after-an-ability-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat bar slots after an ability sync
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8677,6 +8699,25 @@ once when the morph ends. The size comes from your <code>MorphInfo.getSizes()</c
 <h2 id="the-wind-element-icon">The Wind element icon<a class="headerlink" href="#the-wind-element-icon" title="Permanent link">&para;</a></h2>
 <p><em>Since 2.11.0.</em> <code>SourceElement.AIR</code> has no texture in the base mod, so wind techniques showed no element icon in the
 ability tooltip. AkumaLib supplies one, only when the base mod returns none.</p>
+<h2 id="combat-bar-slots-after-an-ability-sync">Combat bar slots after an ability sync<a class="headerlink" href="#combat-bar-slots-after-an-ability-sync" title="Permanent link">&para;</a></h2>
+<p><em>Since 2.12.0.</em> The base mod's ability sync (<code>AbilityDataBase.deserializeNBT</code>) keeps whatever ability a combat-bar
+slot already holds and loads the slot's data into it, without checking that the data names that ability. It only
+builds a new ability for an empty slot, and only empties a slot whose ability is no longer unlocked. So, on the
+owner's client and on every player tracking them:</p>
+<ul>
+<li>after a <strong>fruit change</strong>, the slot stays empty until the next sync: the others see no form and no running technique;</li>
+<li>two abilities <strong>swapped</strong> between slots: one of them is lost;</li>
+<li>a slot <strong>emptied</strong> on the server keeps its old ability.</li>
+</ul>
+<p>AkumaLib empties every slot whose ability is not the one the sync names, before the base mod fills them, so it builds
+the right one. All of them are emptied before any is filled, because <code>setEquippedAbility</code> refuses an ability already
+equipped in another slot. A slot that keeps its ability keeps the same instance, and with it the client-side state
+(continuity, cooldown display).</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Before 2.12.0, an addon had to send <code>SSyncAbilityDataPacket</code> twice after changing a player's fruit for the new
+abilities to show. One sync is enough now.</p>
+</div>
 
 
 
