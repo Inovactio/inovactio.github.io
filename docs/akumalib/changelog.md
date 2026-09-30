@@ -2,6 +2,32 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 2.12.0 { #v2-12-0 }
+
+<small>Released 2026-09-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9016500)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>The ability bar shows the right techniques after a change, on every screen.</strong> After a fruit change or a
+rearranged combat bar, you, and the players around you, could see an empty slot, a technique that was no longer
+there, or lose one of two swapped techniques, until the next refresh. In multiplayer, the others then saw no
+transformation and no technique running.</p>
+<p><strong>No signature was removed or changed</strong>: an addon built against 2.5.0, 2.6.x, 2.7.0, 2.8.0, 2.9.0, 2.10.0 or 2.11.0
+keeps compiling and keeps working. That is why this is a minor bump.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p>The network protocol is unchanged (4): a 2.12.0 client can join a 2.8.0 to 2.11.0 server and the other way round.
+Install it on both the server and the clients to get the fix everywhere.</p>
+<hr />
+<h2>Fixes</h2>
+<ul>
+<li><strong>Combat bar slots follow the server.</strong> Each slot now shows the technique it really holds after a refresh:</li>
+<li>after eating a new fruit, the new techniques appear at once instead of leaving empty slots;</li>
+<li>two techniques swapped between slots both stay;</li>
+<li>a technique taken off the bar disappears from it.</li>
+</ul>
+<p>This applies to your own bar and to what the other players see of you: your transformations and your running
+  techniques show up for them straight away.</p>
+</div>
+
 ## 2.11.0 { #v2-11-0 }
 
 <small>Released 2026-09-28 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9003163)</small>
