@@ -2,6 +2,42 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 3.0.0 { #v3-0-0 }
+
+<small>Released 2026-09-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9016738)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Devil Fruit boxes can now be changed without code.</strong> Addons, modpacks and servers choose which fruits each box
+(wooden, iron, golden) can give, how rare each one is, and can take any fruit out, the base mod's included, with a
+simple data file. The chance for a box to give a fruit of the tier above is unchanged.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p>⚠️ <strong>This is a major version: update your addons with it.</strong> Addons that fill the boxes through AkumaLib now declare
+their fruits in data files, so <strong>InoFruits and Missing Missing no Mi need their next version</strong> (made for AkumaLib
+3.0.0) for their fruits to appear in the boxes. An addon built for AkumaLib 2.x that uses one of the removed parts
+listed below will not start with 3.0.0.</p>
+<p>The network protocol is unchanged (4): a 3.0.0 client can join a 2.8.0 to 2.12.0 server and the other way round.
+Install it on the server to use data files: the boxes are rolled there.</p>
+<hr />
+<h2>New</h2>
+<ul>
+<li><strong>Devil Fruit boxes from data files.</strong> A data pack or an addon puts a file in
+  <code>data/&lt;namespace&gt;/akumalib/dfboxes/</code>, in the same shape as the base mod's box tables, to <strong>add</strong> fruits to a
+  box, make any fruit <strong>rarer or more common</strong>, or <strong>remove</strong> one. Several files add up, and a server's data pack
+  has the last word. See the <a href="https://inovactio.github.io/akumalib/loot-injection/devil-fruit-boxes/">Devil Fruit boxes page</a>.</li>
+<li><strong>A warning for fruits nobody can find.</strong> When the game starts, any Devil Fruit that ended up in no box is named
+  in the log.</li>
+</ul>
+<h2>For addon makers: removed</h2>
+<p>These were marked for removal and are gone:</p>
+<ul>
+<li>the automatic box filling of <code>registerFruitItem</code>, and its three-argument form: declare the fruit in a data file;</li>
+<li><code>AkumaLootInjection</code>;</li>
+<li><code>BlockOverlayManager.addOverlay</code>, <code>removeOverlay</code> and <code>removeAllForZone</code> (they did nothing), and the old
+  <code>SyncZoneOverlayPacket</code> constructor: use <code>addZone</code> / <code>removeZone</code>;</li>
+<li><code>AkumaI18n.MESSAGE_MISSING</code> and its <code>akumalib.ability.missing_message</code> text: use <code>MESSAGE_MISSING_MATERIALS</code>.</li>
+</ul>
+</div>
+
 ## 2.12.0 { #v2-12-0 }
 
 <small>Released 2026-09-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9016500)</small>

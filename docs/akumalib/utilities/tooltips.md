@@ -41,9 +41,6 @@ The translation keys the library's own base classes and tooltip helpers use:
 
 The library ships their English text. Keys for your own fruits and abilities belong in your addon's lang file.
 
-!!! note "`MESSAGE_MISSING` is deprecated"
-    Before 2.3.0 the missing-materials constant was `MESSAGE_MISSING`, with the key `akumalib.ability.missing_message`. Both still work: the constant is an alias of `MESSAGE_MISSING_MATERIALS`, and the old key carries the same text, so an addon compiled against 2.2.0 still shows the right line. Use `MESSAGE_MISSING_MATERIALS` in new code; the alias goes at the next major version.
-
 !!! warning "A key missing from the lang file shows raw"
     Registering a name supplies a default, but the client renders from the lang file: a key with no entry appears as the raw key in the tooltip, and nothing fails at build time.
 

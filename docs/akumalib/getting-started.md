@@ -22,8 +22,8 @@ dependencies {
     minecraft "net.minecraftforge:forge:1.20.1-47.4.18"
 
     implementation fg.deobf("maven.modrinth:mine-mine-no-mi:1.20.1-0.11.5")
-    // AkumaLib 2.12.0 on CurseForge: project 1678152, file 9016500
-    implementation fg.deobf("curse.maven:akumalib-1678152:9016500")
+    // AkumaLib 3.0.0 on CurseForge: project 1678152, file 9016738
+    implementation fg.deobf("curse.maven:akumalib-1678152:9016738")
 }
 ```
 
@@ -41,7 +41,7 @@ Then declare AkumaLib as a required dependency, so Forge shows its missing-mod s
 [[dependencies.yourmodid]]
     modId = "akumalib"
     mandatory = true
-    versionRange = "[2.12.0,3)"
+    versionRange = "[3.0.0,4)"
     ordering = "AFTER"
     side = "BOTH"
 
@@ -198,5 +198,5 @@ The registry name comes from the display name: whitespace becomes `_` and `, : -
 !!! warning "Item textures live in `textures/items/`, plural"
     Put the texture at `assets/mymod/textures/items/my_my_no_mi.png`, with the model's `layer0` pointing at `mymod:items/my_my_no_mi`. The vanilla singular `textures/item/` shows the right icon in the inventory and the missing-texture square in the base mod's ability screen, which builds the path by convention. The log names the file it wanted.
 
-!!! success "Loot boxes are automatic"
-    `registerFruitItem` injects the fruit into the base mod's Devil Fruit box matching its tier (1 wooden, 2 iron, 3 golden), at the same weight as the base mod's own fruits. You write no loot table. Pass `false` as a third argument for a fruit that must stay unobtainable.
+!!! warning "Put it in a Devil Fruit box with a data file"
+    Since 3.0.0 `registerFruitItem` does not put the fruit in a box. Add it to `data/mymod/akumalib/dfboxes/<box>.json`, in the box of its tier (1 wooden, 2 iron, 3 golden): see [Devil Fruit boxes](loot-injection/devil-fruit-boxes.md). A fruit in no box is named in the log at server start.
