@@ -48,11 +48,6 @@ Every ability of the 34 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/surikae.png){ .ability-mini }[Surikae](fruits/ichi-ichi-no-mi.md#surikae) | [Ichi Ichi no Mi](fruits/ichi-ichi-no-mi.md) | Active | 20 s |  |  |  | 128 blocks (line) |
 | ![](abilities/hikikae.png){ .ability-mini }[Hikikae](fruits/ichi-ichi-no-mi.md#hikikae) | [Ichi Ichi no Mi](fruits/ichi-ichi-no-mi.md) | Active | 20 s |  |  |  | 128 blocks (line) |
 | ![](abilities/memai.png){ .ability-mini }[Memai](fruits/ichi-ichi-no-mi.md#memai) | [Ichi Ichi no Mi](fruits/ichi-ichi-no-mi.md) | Passive |  |  |  |  |  |
-| ![](abilities/enogu-dama.png){ .ability-mini }[Enogu Dama](fruits/iro-iro-no-mi.md#enogu-dama) | [Iro Iro no Mi](fruits/iro-iro-no-mi.md) | Active | 6 s |  |  | 2 |  |
-| ![](abilities/shirushi.png){ .ability-mini }[Shirushi](fruits/iro-iro-no-mi.md#shirushi) | [Iro Iro no Mi](fruits/iro-iro-no-mi.md) | Active | 15 s |  |  |  | 12 blocks (line) |
-| ![](abilities/hogoshoku.png){ .ability-mini }[Hogoshoku](fruits/iro-iro-no-mi.md#hogoshoku) | [Iro Iro no Mi](fruits/iro-iro-no-mi.md) | Active | 20 s |  | 30 s |  |  |
-| ![](abilities/ikusa-gesho.png){ .ability-mini }[Ikusa Gesho](fruits/iro-iro-no-mi.md#ikusa-gesho) | [Iro Iro no Mi](fruits/iro-iro-no-mi.md) | Active | 30 s |  | 30 s |  |  |
-| ![](abilities/enogu.png){ .ability-mini }[Enogu](fruits/iro-iro-no-mi.md#enogu) | [Iro Iro no Mi](fruits/iro-iro-no-mi.md) | Active | 1 s |  |  |  |  |
 | ![](abilities/isa-isa-guard-point.png){ .ability-mini }[Isa Isa Guard Point](fruits/isa-isa-no-mi-model-whale.md#isa-isa-guard-point) | [Isa Isa no Mi, Model: Whale](fruits/isa-isa-no-mi-model-whale.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/isa-isa-heavy-point.png){ .ability-mini }[Isa Isa Heavy Point](fruits/isa-isa-no-mi-model-whale.md#isa-isa-heavy-point) | [Isa Isa no Mi, Model: Whale](fruits/isa-isa-no-mi-model-whale.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/taiatari.png){ .ability-mini }[Taiatari](fruits/isa-isa-no-mi-model-whale.md#taiatari) | [Isa Isa no Mi, Model: Whale](fruits/isa-isa-no-mi-model-whale.md) | Active | 15 s |  |  | 8 / 14 | 4.5 blocks (area) / 8 blocks (area) |
@@ -173,6 +168,11 @@ Every ability of the 34 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/shio-no-wa.png){ .ability-mini }[Shio no Wa](fruits/shio-shio-no-mi.md#shio-no-wa) | [Shio Shio no Mi](fruits/shio-shio-no-mi.md) | Active | 20 s |  | 30 s |  | 8 blocks (area) |
 | ![](abilities/dassui.png){ .ability-mini }[Dassui](fruits/shio-shio-no-mi.md#dassui) | [Shio Shio no Mi](fruits/shio-shio-no-mi.md) | Active | 14 s |  |  | 6 | 8 blocks (area) |
 | ![](abilities/shio-bashira.png){ .ability-mini }[Shio Bashira](fruits/shio-shio-no-mi.md#shio-bashira) | [Shio Shio no Mi](fruits/shio-shio-no-mi.md) | Active | 30 s |  |  | 20 | 20 blocks (line) |
+| ![](abilities/enogu-dama.png){ .ability-mini }[Enogu Dama](fruits/some-some-no-mi.md#enogu-dama) | [Some Some no Mi](fruits/some-some-no-mi.md) | Active | 6 s |  |  | 2 |  |
+| ![](abilities/shirushi.png){ .ability-mini }[Shirushi](fruits/some-some-no-mi.md#shirushi) | [Some Some no Mi](fruits/some-some-no-mi.md) | Active | 15 s |  |  |  | 12 blocks (line) |
+| ![](abilities/hogoshoku.png){ .ability-mini }[Hogoshoku](fruits/some-some-no-mi.md#hogoshoku) | [Some Some no Mi](fruits/some-some-no-mi.md) | Active | 20 s |  | 30 s |  |  |
+| ![](abilities/ikusa-gesho.png){ .ability-mini }[Ikusa Gesho](fruits/some-some-no-mi.md#ikusa-gesho) | [Some Some no Mi](fruits/some-some-no-mi.md) | Active | 30 s |  | 30 s |  |  |
+| ![](abilities/enogu.png){ .ability-mini }[Enogu](fruits/some-some-no-mi.md#enogu) | [Some Some no Mi](fruits/some-some-no-mi.md) | Active | 1 s |  |  |  |  |
 | ![](abilities/suji-suji-upper-point.png){ .ability-mini }[Suji Suji Upper Point](fruits/suji-suji-no-mi.md#suji-suji-upper-point) | [Suji Suji no Mi](fruits/suji-suji-no-mi.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/suji-suji-lower-point.png){ .ability-mini }[Suji Suji Lower Point](fruits/suji-suji-no-mi.md#suji-suji-lower-point) | [Suji Suji no Mi](fruits/suji-suji-no-mi.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/suji-suji-full-point.png){ .ability-mini }[Suji Suji Full Point](fruits/suji-suji-no-mi.md#suji-suji-full-point) | [Suji Suji no Mi](fruits/suji-suji-no-mi.md) | Active · Transformation |  |  |  |  |  |
