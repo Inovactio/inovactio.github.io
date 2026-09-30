@@ -55,3 +55,24 @@ once when the morph ends. The size comes from your `MorphInfo.getSizes()`, as on
 
 *Since 2.11.0.* `SourceElement.AIR` has no texture in the base mod, so wind techniques showed no element icon in the
 ability tooltip. AkumaLib supplies one, only when the base mod returns none.
+
+## Combat bar slots after an ability sync
+
+*Since 2.12.0.* The base mod's ability sync (`AbilityDataBase.deserializeNBT`) keeps whatever ability a combat-bar
+slot already holds and loads the slot's data into it, without checking that the data names that ability. It only
+builds a new ability for an empty slot, and only empties a slot whose ability is no longer unlocked. So, on the
+owner's client and on every player tracking them:
+
+- after a **fruit change**, the slot stays empty until the next sync: the others see no form and no running technique;
+- two abilities **swapped** between slots: one of them is lost;
+- a slot **emptied** on the server keeps its old ability.
+
+AkumaLib empties every slot whose ability is not the one the sync names, before the base mod fills them, so it builds
+the right one. All of them are emptied before any is filled, because `setEquippedAbility` refuses an ability already
+equipped in another slot. A slot that keeps its ability keeps the same instance, and with it the client-side state
+(continuity, cooldown display).
+
+!!! tip
+    Before 2.12.0, an addon had to send `SSyncAbilityDataPacket` twice after changing a player's fruit for the new
+    abilities to show. One sync is enough now.
+
