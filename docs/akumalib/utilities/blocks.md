@@ -1,5 +1,41 @@
 # Blocks
 
+## `TemporaryBlocks`
+
+*Since 3.1.0.* Blocks an ability puts in the world for a while and takes back: a wall raised from the ground, a dome, a cage. Each cast opens a group, places through it and removes it at its end.
+
+```java
+private TemporaryBlocks.Group wall;
+
+private void onStart(LivingEntity entity, IAbility ability) {
+    this.wall = TemporaryBlocks.open(entity);
+    for (BlockPos pos : shape) {
+        this.wall.place(entity, pos, Blocks.DIRT.defaultBlockState(), WALL_RULE);
+    }
+}
+
+private void onEnd(LivingEntity entity, IAbility ability) {
+    if (this.wall != null) {
+        this.wall.remove();
+        this.wall = null;
+    }
+}
+```
+
+What it takes care of, each rule paid for once in an addon:
+
+- **placed through the base mod's own placer** (`NuWorld.setBlockState` with your `BlockProtectionRule`): protected areas per block, griefing rules, restricted blocks;
+- **never over a body**: a block raised through somebody suffocates them, so an occupied square is skipped;
+- **nothing drops**: a block broken by hand or blown up goes without a drop, and no piston moves one. A temporary wall every few seconds would otherwise be a quarry;
+- **only what is still ours comes down**: a block mined and replaced by somebody is theirs; within the dirt family a change still counts as ours (grass spreads, covered grass turns back to dirt);
+- **plants come back**: what a block replaced (grass, flowers) is put back when the group comes down;
+- **never left behind**: a group whose owner dies comes down (the base mod ends no ability on death), and every group comes down as the server stops.
+
+`TemporaryBlocks.isTemporary(level, pos)` tells whether a block is one of them.
+
+!!! warning "Your rule decides what may be replaced"
+    The group replaces whatever your `BlockProtectionRule` allows. `DefaultProtectionRules.AIR` builds into air only; add foliage to it for a wall that stands in grass and flowers, which then come back.
+
 ## `PropagationHelper`
 
 Spreads a block operation over several ticks, outward from a centre, instead of doing it all in one tick.
@@ -68,3 +104,27 @@ BlockHighlightManager.show(player, group, positions, 0xA0FFD700, 160);   // 8 se
 The client-side store behind `ZoneAbility`'s block overlay, which shades the blocks inside a zone. You do not normally call it: set `enableBlockOverlay = true` and `overlayArgb` on a [zone](../ability-base-classes/zones.md), and the library sends, renders and clears the overlay, including on disconnect. Players can turn the overlay off with `overlayEnabled` in `akumalib-client.toml`.
 
 It also exposes `isSolidForOverlay` and `isFullSolidForCulling`, the block tests the overlay renderer uses.
+
+## `EntityHighlights`
+
+*Since 3.1.0.* An entity outlined through walls for one player only - a mind read, a scent followed - where vanilla's glowing effect shows it to everybody.
+
+From the server, for a while:
+
+```java
+EntityHighlights.mark(user, target, 600);   // 30 seconds, for the user only
+```
+
+On the client, for whatever a vision sees right now: a provider asked every tick, registered once (a static block in a client class does):
+
+```java
+ClientEntityHighlights.addProvider(player -> visionIsOn(player)
+        ? player.level().getEntitiesOfClass(LivingEntity.class, player.getBoundingBox().inflate(40), e -> e != player)
+        : List.of());
+```
+
+Marks and providers add up; only what AkumaLib lit is ever put out. It is vanilla's outline, set on this client's copy of the entity every tick through `Entity#setSharedFlag` (glowing is flag 6) - `setGlowingTag` does nothing on a client.
+
+!!! warning "Both sides need 3.1.0"
+    `mark` is a packet: the network protocol went to 5 with it.
+

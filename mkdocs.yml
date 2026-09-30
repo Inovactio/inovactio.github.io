@@ -275,6 +275,7 @@ nav:
           - Writing an animation: akumalib/animations/writing-an-animation.md
           - Animations on morphs: akumalib/animations/morphs.md
           - Hands and armour: akumalib/animations/hands-and-armour.md
+          - First-person limbs: akumalib/animations/first-person-limbs.md
       - Entities:
           - akumalib/entities/index.md
           - Projectiles: akumalib/entities/projectiles.md

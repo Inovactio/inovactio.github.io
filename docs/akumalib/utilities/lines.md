@@ -67,8 +67,8 @@ Every value is clamped both when the style is built and when it is decoded.
 
 All three do nothing when called on a client level, so an ability can call them without a side check.
 
-!!! warning "A player who arrives later does not see the line"
-    It was sent when the line opened. That is fine for a line lasting a second or two. Re-send a long-lived line with `update` from time to time.
+!!! info "A player who arrives later gets the line too"
+    *Since 3.1.0.* The server keeps every open line and, every half second, sends it to the players who came within range of either end since, with what is left of its lifetime. A line is no longer kept once it is closed, its lifetime is over, or an entity end has left the world. There is no need to re-send a long-lived line.
 
 !!! warning "Give a line with two point ends a lifetime"
     Apart from `close`, the client drops a line in only three cases. Its lifetime runs out. An entity end stays missing for 20 ticks. Or the player leaves the world or the dimension. A line with two point ends, no lifetime and a lost `close` stays on screen until the player disconnects. The client also keeps at most 256 lines, and drops the oldest beyond that.
