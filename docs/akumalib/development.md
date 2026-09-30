@@ -102,7 +102,7 @@ The library ships its own mixin configuration, `mixins.akumalib.json`:
 [[dependencies.yourmodid]]
     modId = "akumalib"
     mandatory = true
-    versionRange = "[3.0.0,4)"
+    versionRange = "[3.1.0,4)"
     ordering = "AFTER"
     side = "BOTH"
 ```

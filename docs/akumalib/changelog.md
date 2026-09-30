@@ -2,6 +2,46 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 3.1.0 { #v3-1-0 }
+
+<small>Released 2026-09-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9019263)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Tools for addon makers, taken from Missing Missing no Mi.</strong> Blocks a technique puts in the world and takes back,
+bodies thrown into walls, allies an ability summons, forms put on from outside a fruit, markers on one player's
+screen, first-person arms and legs drawn right with a form on: the parts every fruit addon ends up writing are now
+written once, in the library. On its own, AkumaLib still changes nothing in your game.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p>No signature was removed or changed: an addon made for 3.0.0 works with 3.1.0.</p>
+<p>⚠️ <strong>The network protocol is new (5).</strong> A 3.1.0 client cannot join a 3.0.0 or older server, nor the other way
+round. Update the server and every player together. <strong>Missing Missing no Mi 1.0.0 needs AkumaLib 3.1.0.</strong></p>
+<hr />
+<h2>New</h2>
+<ul>
+<li><strong>Blocks that go away on their own.</strong> Walls, cages and platforms a technique raises disappear when it ends,
+  when their owner dies or when the server stops. Breaking them, blowing them up or pushing them with a piston
+  drops nothing.</li>
+<li><strong>Techniques that end with their user.</strong> A continuous technique can stop when its user dies; in Mine Mine no Mi
+  it keeps going. The library also turns gravity back on after a floating technique, even across a reconnect, and
+  gives a soft landing after a leap.</li>
+<li><strong>Thrown bodies hit what they meet.</strong> A body sent flying slams into the wall or the ground it meets, once.</li>
+<li><strong>Summoned allies behave.</strong> A summoned creature does not hit with its master's punch strength, only attacks
+  what it should, and leaves when its master goes.</li>
+<li><strong>Forms put on from outside a fruit</strong> (a curse that turns someone into a toy) are seen by every player, stay
+  after a respawn, a dimension change or a reconnect as long as they still apply, and come off at the right size.</li>
+<li><strong>Outlined creatures and screen markers for one player.</strong> An ability can outline a creature, or point at places
+  on the screen, for its user only.</li>
+<li><strong>Ropes and lines seen by late comers.</strong> A player who comes into range after a line was drawn now sees it.</li>
+<li><strong>Progress, shared cooldowns and unlocks.</strong> A technique can count its uses to unlock the next one, and two
+  techniques can share one cooldown.</li>
+<li><strong>Several hits in one blow.</strong> A technique can hit the same target several times in a row, each hit counted.</li>
+<li><strong>First-person arms and legs with a form on.</strong> Claws, nails and tools a form puts on the hands follow the arm
+  as it moves, a Black Leg user sees their leg rather than a bare arm, and Haki and Diable Jambe cover them as they
+  do without a form.</li>
+</ul>
+<p>All of these are described on the <a href="https://inovactio.github.io/akumalib/">AkumaLib pages</a>.</p>
+</div>
+
 ## 3.0.0 { #v3-0-0 }
 
 <small>Released 2026-09-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9016738)</small>

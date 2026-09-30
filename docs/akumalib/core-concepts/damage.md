@@ -87,7 +87,28 @@ Decide by the **method the damage is dealt in**, not by the file:
 | a recurrence guarded per target: a `HitTrackerComponent`, a private "already hit" set | `hurtBurst` | **yes** |
 | an unguarded pulse: a continuity tick, a passive tick, a zone tick | `hurtTarget` | **no** |
 | a cadence already longer than 10 ticks | `hurtTarget` | no, there is nothing to clear |
+| a hit with no `DealDamageComponent`: a projectile, a summoned mob, an event handler, a stream of separate hits (a gatling's bullets, a swarm's stings) | `hurtBurst(target, source, damage)` | **yes** |
 
 `HitTrackerComponent.canHit` tests and records at once: there is no separate "mark as hit" method. `canHit(target)` marks the target before you know whether the damage landed, so without `hurtBurst` an invulnerable-framed target would be marked, take nothing, and be skipped for the rest of the cast. Clearing the frames is what makes the mark truthful.
 
 Comment the deliberate `hurtTarget` calls: the two categories look identical in a search. A one-line comment on every call site that stays on `hurtTarget` on purpose saves the next reader from "fixing" it into a damage multiplier.
+
+### Without a component
+
+*Since 3.1.0.* A projectile, a summoned mob or an event handler has no `DealDamageComponent`. The same rule is there for it:
+
+```java
+AkumaAbilityHelper.hurtBurst(target, ModDamageSources.getInstance().ability(this, owner, this.core),
+        AkumaAbilityHelper.scaledDamage(this.realDamage));
+```
+
+`openFrames(target)` does only the first half - never through `AkumaEffects.INVULNERABLE`, frames cleared - for a hit dealt by another path next, a mob's own `doHurtTarget` for one:
+
+```java
+if (target instanceof LivingEntity living && !AkumaAbilityHelper.openFrames(living)) {
+    return false;
+}
+return super.doHurtTarget(target);
+```
+
+A stream of separate hits belongs here too: vanilla's frames would let one bullet in five land. A pulse that hits the same bodies again and again still does not - pace it at 10 ticks instead, with the damage it had per second.

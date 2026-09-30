@@ -27,7 +27,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 
 | Page | Helpers |
 |---|---|
-| [Blocks](blocks.md) | `PropagationHelper`, `BlockPlacingHelper`, `BlockHighlightManager`, `BlockOverlayManager` |
+| [Blocks](blocks.md) | `TemporaryBlocks`, `PropagationHelper`, `BlockPlacingHelper`, `BlockHighlightManager`, `BlockOverlayManager`, `EntityHighlights` |
 | [Lines](lines.md) | `AkumaLines`, `LineAnchor`, `LineStyle`: a rope or thread between two anchors, rendered on the client |
 | [Tooltips](tooltips.md) | `ToolTipHelper`, `AwakenTooltipHelper`, `AkumaSourceTooltip`, `AkumaI18n` |
 
@@ -51,7 +51,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 
 | Page | Helpers |
 |---|---|
-| [Deferred work](tick-queue.md) | `AkumaTickQueue`: run something at the end of this server tick, or N ticks from now |
+| [Deferred work](tick-queue.md) | `AkumaTickQueue`: run something at the end of this server tick, or N ticks from now; `ServerScopedMap`: static state emptied when the server stops; `AbilityLifecycle`: abilities stopped on death, zero gravity and soft landings that clean up after themselves |
 | [Other helpers](other-helpers.md) | `FruitInjectionHelper`, `RandomTeleportHelper`, `InoHelper` |
 
 ## Documented elsewhere

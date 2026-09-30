@@ -9,6 +9,7 @@ Animations in Mine Mine no Mi are **code, not assets**: no Blockbench, no JSON. 
 | [Writing an animation](writing-an-animation.md) | a custom pose, its registration, and the traps in writing one |
 | [Animations on morphs](morphs.md) | making a technique show on a full-form Zoan model |
 | [Hands and armour](hands-and-armour.md) | hiding the first-person hand and the armour during an animation |
+| [First-person limbs](first-person-limbs.md) | drawing a morph's limb, a Black Leg leg and a graft glued to the hand in first person |
 
 ## `AnimationComponent`
 
