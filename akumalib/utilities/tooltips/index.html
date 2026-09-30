@@ -8697,10 +8697,6 @@
 </tbody>
 </table>
 <p>The library ships their English text. Keys for your own fruits and abilities belong in your addon's lang file.</p>
-<div class="admonition note">
-<p class="admonition-title"><code>MESSAGE_MISSING</code> is deprecated</p>
-<p>Before 2.3.0 the missing-materials constant was <code>MESSAGE_MISSING</code>, with the key <code>akumalib.ability.missing_message</code>. Both still work: the constant is an alias of <code>MESSAGE_MISSING_MATERIALS</code>, and the old key carries the same text, so an addon compiled against 2.2.0 still shows the right line. Use <code>MESSAGE_MISSING_MATERIALS</code> in new code; the alias goes at the next major version.</p>
-</div>
 <div class="admonition warning">
 <p class="admonition-title">A key missing from the lang file shows raw</p>
 <p>Registering a name supplies a default, but the client renders from the lang file: a key with no entry appears as the raw key in the tooltip, and nothing fails at build time.</p>
