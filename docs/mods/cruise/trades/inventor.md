@@ -50,11 +50,11 @@ Fitted at the Upgrade Bench. **Every part fits every rod**, but it does most on 
 | Part (level; recipe) | Plain rod | Whopper | Sea King |
 |---|---|---|---|
 | Fishing Rod Upgrade (8; 1 Bamboo) | catches +0.20 bigger | +0.10 | +0.05 |
-| Fishing Line Upgrade (8; 9 String) | rare fish ×1.50 as often | ×1.35 | ×1.25 |
+| Fishing Line Upgrade (8; 9 String) | Cruise's fish ×1.50 as often | ×1.35 | ×1.25 |
 | Whopper Rod Upgrade (18; Raw Iron, 2 Iron Scrap) | +0.10 bigger | +0.25 | +0.15 |
 | Sea King Rod Upgrade (40; Mysterious Dial) | +0.10 bigger, ×1.10 | +0.20, ×1.15 | +0.30, ×1.25 |
 
-"Bigger" is how far the catch's size is pulled toward the top of its species' range; the bench shows +0.20 as "Catches bigger by 20%", and the rare-fish factor as "Rare fish x1.5 as often". See the [Fisher](fisher.md) for how they add up.
+"Bigger" is how far the catch's size is pulled toward the top of its species' range; the bench shows +0.20 as "Catches bigger by 20%", and the bite factor as "This addon's fish x1.5 as often". See the [Fisher](fisher.md) for how they add up.
 
 ## Salt: for the Fisher, the Cook and the Chemist
 

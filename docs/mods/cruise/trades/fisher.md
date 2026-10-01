@@ -90,7 +90,7 @@ Luck of the Sea and the Musician's Lucky Tune still work on vanilla's own fish, 
 | Level | Perk | What it does |
 |---|---|---|
 | 10 | "Catches run 10% bigger" | adds 0.10 to the bigger-catch bonus: each catch moves 10 % of the way from its rolled size toward the maximum (it does not make every catch 10 % bigger) |
-| 25 | "Rare fish bite 20% more often" | every Cruise catch's chance ×1.20, common ones included |
+| 25 | "This addon's fish bite 20% more often" | every Cruise catch's chance ×1.20, common ones included |
 | 40 | "10% chance of a second fish on the line" | one catch in ten brings up a second fish of the same kind, with its own size (XP paid once; never a Sea King) |
 
 ## The catches
