@@ -11,6 +11,10 @@
 | **Abilities** | 7: 6 active, 1 passive |
 | **Effects applied** | [In the Swamp](../effects.md#effect-in-the-swamp) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/numa-numa-no-gatling-gun objects/numa-kyu"></div>
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -27,6 +31,8 @@ Arrows and thrown things that go into the swamp body are swallowed and kept in i
 ## Numa Numa no Gatling Gun { #numa-numa-no-gatling-gun }
 
 ![](../abilities/numa-numa-no-gatling-gun.png){ .ability-icon } *Active*
+
+![Numa Numa no Gatling Gun](../objects/numa-numa-no-gatling-gun.png){ .form-picture }
 
 Fires a burst of what the swamp has swallowed: its arrows first, then balls of mud.
 
@@ -50,6 +56,8 @@ Turns the ground around the user into swamp for a while: anyone else sinks into 
 ## Numa Kyu { #numa-kyu }
 
 ![](../abilities/numa-kyu.png){ .ability-icon } *Active*
+
+![Numa Kyu](../objects/numa-kyu.png){ .form-picture }
 
 Wraps the enemy in sight in a sphere of mud that holds it, blinds it and smothers it.
 

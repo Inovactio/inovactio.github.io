@@ -11,6 +11,10 @@
 | **Abilities** | 9: 9 active, 0 passive |
 | **Transformations** | [Fashion Punc](#fashion-punc) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/punc-bala forms/fashion-punc"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -62,6 +66,8 @@ Primes the ground around the user: for a while, the blocks burst under any enemy
 
 ![](../abilities/punc-bala.png){ .ability-icon } *Active*
 
+![Punc Bala](../objects/punc-bala.png){ .form-picture }
+
 Swells bullets into balloons that float towards where the user aims and burst on whatever they touch.
 
 | Stat | Value |
@@ -112,6 +118,8 @@ Bursts the user's hair into a spray of needles that paralyse what they hit.
 ## Fashion Punc { #fashion-punc }
 
 ![](../abilities/fashion-punc.png){ .ability-icon } *Active · Transformation*
+
+![Fashion Punc](../forms/fashion-punc.png){ .form-picture }
 
 Swells the user into a giant balloon: the first blow bursts it instead of hurting, blasting and spraying needles all around.
 

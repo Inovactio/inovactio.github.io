@@ -11,6 +11,10 @@
 | **Abilities** | 8: 6 active, 2 passive |
 | **Transformations** | [Stone Giant](#ishi-giant) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/pulpostone objects/charlestone objects/ishiusu objects/bitestone objects/ishi-kobushi forms/ishi-giant"></div>
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -32,6 +36,8 @@ The user merges with stone: crouch into a stone block to sink in, then move thro
 
 ![](../abilities/pulpostone.png){ .ability-icon } *Active*
 
+![Pulpostone](../objects/pulpostone.png){ .form-picture }
+
 Stone tentacles rise round the spot the user looks at and slam down on it, pinning whoever they strike.
 
 | Stat | Value |
@@ -43,6 +49,8 @@ Stone tentacles rise round the spot the user looks at and slam down on it, pinni
 ## Charlestone { #charlestone }
 
 ![](../abilities/charlestone.png){ .ability-icon } *Active*
+
+![Charlestone](../objects/charlestone.png){ .form-picture }
 
 A field of stone spikes erupts from the ground round the user, wave after wave, throwing up everyone caught in it.
 
@@ -56,6 +64,8 @@ A field of stone spikes erupts from the ground round the user, wave after wave, 
 
 ![](../abilities/ishiusu.png){ .ability-icon } *Active*
 
+![Ishiusu](../objects/ishiusu.png){ .form-picture }
+
 Two spiked stone pillars rise on either side of the enemy the user looks at and slam together on it.
 
 | Stat | Value |
@@ -67,6 +77,8 @@ Two spiked stone pillars rise on either side of the enemy the user looks at and 
 ## Bitestone { #bitestone }
 
 ![](../abilities/bitestone.png){ .ability-icon } *Active*
+
+![Bitestone](../objects/bitestone.png){ .form-picture }
 
 A great stone head rises in front of the enemy the user looks at and bites it.
 
@@ -80,6 +92,8 @@ A great stone head rises in front of the enemy the user looks at and bites it.
 
 ![](../abilities/ishi-kobushi.png){ .ability-icon } *Active*
 
+![Ishi Kobushi](../objects/ishi-kobushi.png){ .form-picture }
+
 A stone fist punches out of the nearest stone wall or floor next to the enemy the user looks at.
 
 | Stat | Value |
@@ -91,6 +105,8 @@ A stone fist punches out of the nearest stone wall or floor next to the enemy th
 ## Stone Giant { #ishi-giant }
 
 ![](../abilities/ishi-giant.png){ .ability-icon } *Active · Transformation*
+
+![Stone Giant](../forms/ishi-giant.png){ .form-picture }
 
 The user builds a giant body of stone round himself: blows break its stone instead of hurting him, and it regrows while he stands on stone. With no stone left, it crumbles. Its size is chosen beforehand; a giant cannot jump, and the bigger it is, the slower.
 

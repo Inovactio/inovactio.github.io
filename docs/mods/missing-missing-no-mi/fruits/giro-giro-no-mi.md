@@ -11,6 +11,10 @@
 | **Abilities** | 5: 4 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/giro-sight.png){ .effect-mini }[Giro Sight](../effects.md#effect-giro-sight) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/mekujira"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -53,6 +57,8 @@ The user sends her sight out far round her: every player and boss within 4,000 b
 ## Hierro Lagrima: Mekujira { #mekujira }
 
 ![](../abilities/mekujira.png){ .ability-icon } *Active*
+
+![Hierro Lagrima: Mekujira](../objects/mekujira.png){ .form-picture }
 
 A tear from each of the user's eyes swells into a whale that rushes at the enemy she looks at.
 

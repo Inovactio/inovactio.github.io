@@ -10,6 +10,10 @@
 | **Abilities** | 6: 4 active, 2 passive |
 | **Transformations** | [Kabutomushi Heavy Point](#kabutomushi-heavy-point), [Kabutomushi Walk Point](#kabutomushi-walk-point) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/kabutomushi-heavy-point forms/kabutomushi-walk-point"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/kabutomushi-heavy-point.png){ .ability-icon } *Active · Transformation*
 
+![Kabutomushi Heavy Point](../forms/kabutomushi-heavy-point.png){ .form-picture }
+
 Transforms the user into a rhinoceros beetle hybrid: a horn, a hard shell, a second pair of arms and wings to fly.
 
 ## Kabutomushi Walk Point { #kabutomushi-walk-point }
 
 ![](../abilities/kabutomushi-walk-point.png){ .ability-icon } *Active · Transformation*
+
+![Kabutomushi Walk Point](../forms/kabutomushi-walk-point.png){ .form-picture }
 
 Transforms the user into a great rhinoceros beetle: heavily armoured, it flies and can carry a rider.
 

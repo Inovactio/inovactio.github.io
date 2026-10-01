@@ -10,6 +10,10 @@
 | **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 6 active, 1 passive |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/vipera-glaive forms/corrida-glaive objects/steel-cape"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -18,6 +22,8 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 ## Vipera Glaive { #vipera-glaive }
 
 ![](../abilities/vipera-glaive.png){ .ability-icon } *Active*
+
+![Vipera Glaive](../objects/vipera-glaive.png){ .form-picture }
 
 Flattens the blade of the user's sword, which stretches and snakes out to cut the enemy in sight, then draws back.
 
@@ -32,6 +38,8 @@ Flattens the blade of the user's sword, which stretches and snakes out to cut th
 ## Corrida Glaive { #corrida-glaive }
 
 ![](../abilities/corrida-glaive.png){ .ability-icon } *Active · Punch*
+
+![Corrida Glaive](../forms/corrida-glaive.png){ .form-picture }
 
 Folds the user's sword into a bull-headed mace: the next blow of the sword lands heavily and throws the enemy back.
 
@@ -69,6 +77,8 @@ Fires confetti high over where the user aims. Use again - Hira Release - to turn
 ## Steel Cape { #steel-cape }
 
 ![](../abilities/steel-cape.png){ .ability-icon } *Active*
+
+![Steel Cape](../objects/steel-cape.png){ .form-picture }
 
 Needs a worn cape. Stiffens it into a fluttering sheet of steel in front of the user: blows from the front are stopped and wear down the weapon that struck.
 

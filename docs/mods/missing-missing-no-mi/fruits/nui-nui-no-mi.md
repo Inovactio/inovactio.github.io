@@ -10,6 +10,10 @@
 | **Chance per opening** | wooden **2.92%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 5: 5 active, 0 passive |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/nuitsuke"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -18,6 +22,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Nuitsuke { #nuitsuke }
 
 ![](../abilities/nuitsuke.png){ .ability-icon } *Active*
+
+![Nuitsuke](../objects/nuitsuke.png){ .form-picture }
 
 Throws a needle and thread: what it hits is sewn to the ground and cannot move.
 

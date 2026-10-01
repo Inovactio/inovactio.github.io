@@ -11,6 +11,10 @@
 | **Abilities** | 10: 9 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/buried.png){ .effect-mini }[Buried](../effects.md#effect-buried) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/shishi-odoshi objects/chimaki objects/zanpa"></div>
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -50,6 +54,8 @@ Fires one of the blocks turning round the user where he aims. It stays where it 
 
 ![](../abilities/shishi-odoshi.png){ .ability-icon } *Active*
 
+![Shishi Odoshi](../objects/shishi-odoshi.png){ .form-picture }
+
 The ground rises into three roaring lion heads that charge along it: each bites the first enemy it meets and throws it back. Works in flight, close above the ground.
 
 | Stat | Value |
@@ -62,6 +68,8 @@ The ground rises into three roaring lion heads that charge along it: each bites 
 ## Shishi Odoshi: Chimaki { #chimaki }
 
 ![](../abilities/chimaki.png){ .ability-icon } *Active*
+
+![Shishi Odoshi: Chimaki](../objects/chimaki.png){ .form-picture }
 
 Applies ![](../effect-icons/buried.png){ .effect-mini }[Buried](../effects.md#effect-buried)
 
@@ -80,6 +88,8 @@ Used again while they are held, drops a boulder on each helix.
 ## Zanpa { #zanpa }
 
 ![](../abilities/zanpa.png){ .ability-icon } *Active*
+
+![Zanpa](../objects/zanpa.png){ .form-picture }
 
 With water nearby or under the rain, shuts the enemy in sight in a floating sphere of water: it is lifted, held and drowns. A Devil Fruit user loses his powers in it and drowns twice as fast.
 

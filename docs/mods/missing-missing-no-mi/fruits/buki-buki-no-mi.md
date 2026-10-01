@@ -10,6 +10,10 @@
 | **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/espada-girl forms/revolver-girl forms/revolver-leg forms/gatling-girl objects/sickle-girl forms/fire-girl forms/missile-girl forms/flying-disk-girl"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -18,6 +22,8 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 ## Espada Girl { #espada-girl }
 
 ![](../abilities/espada-girl.png){ .ability-icon } *Active · Punch*
+
+![Espada Girl](../forms/espada-girl.png){ .form-picture }
 
 Turns both of the user's arms into sword blades, until toggled off: bare-handed hits cut, and the hands count as a sword.
 
@@ -29,6 +35,8 @@ Turns both of the user's arms into sword blades, until toggled off: bare-handed 
 ## Revolver Girl { #revolver-girl }
 
 ![](../abilities/revolver-girl.png){ .ability-icon } *Active*
+
+![Revolver Girl](../forms/revolver-girl.png){ .form-picture }
 
 Turns the user's arm into a revolver that fires a quick string of bullets where she aims.
 
@@ -43,6 +51,8 @@ Turns the user's arm into a revolver that fires a quick string of bullets where 
 
 ![](../abilities/revolver-leg.png){ .ability-icon } *Active*
 
+![Revolver Leg](../forms/revolver-leg.png){ .form-picture }
+
 Kicks with a leg turned into a gun, which fires point-blank as the kick lands and throws the enemies in front back.
 
 | Stat | Value |
@@ -55,6 +65,8 @@ Kicks with a leg turned into a gun, which fires point-blank as the kick lands an
 ## Gatling Girl { #gatling-girl }
 
 ![](../abilities/gatling-girl.png){ .ability-icon } *Active*
+
+![Gatling Girl](../forms/gatling-girl.png){ .form-picture }
 
 Turns the user's leg into a Gatling gun that sprays a long burst of bullets where she aims. She is slowed while it fires.
 
@@ -75,6 +87,8 @@ Turns the user's leg into a Gatling gun that sprays a long burst of bullets wher
 
 ![](../abilities/sickle-girl.png){ .ability-icon } *Active*
 
+![Sickle Girl](../objects/sickle-girl.png){ .form-picture }
+
 Throws a sickle on a chain from the user's arm: it cuts the first enemy it reaches, and the chain pulls it back to her.
 
 | Stat | Value |
@@ -86,6 +100,8 @@ Throws a sickle on a chain from the user's arm: it cuts the first enemy it reach
 ## Fire Girl { #fire-girl }
 
 ![](../abilities/fire-girl.png){ .ability-icon } *Active*
+
+![Fire Girl](../forms/fire-girl.png){ .form-picture }
 
 Turns the user's upper body into a flamethrower: a cone of fire pours out in front of her and sets enemies burning.
 
@@ -101,6 +117,8 @@ Turns the user's upper body into a flamethrower: a cone of fire pours out in fro
 
 ![](../abilities/missile-girl.png){ .ability-icon } *Active*
 
+![Missile Girl](../forms/missile-girl.png){ .form-picture }
+
 The user becomes a missile that flies where she looks and explodes on the first thing it meets. Use again to explode at once. She is unharmed.
 
 | Stat | Value |
@@ -113,6 +131,8 @@ The user becomes a missile that flies where she looks and explodes on the first 
 ## Flying Disk Girl { #flying-disk-girl }
 
 ![](../abilities/flying-disk-girl.png){ .ability-icon } *Active*
+
+![Flying Disk Girl](../forms/flying-disk-girl.png){ .form-picture }
 
 The user becomes a spinning cutting disk and skims forward, striking and flinging aside every enemy in her way.
 

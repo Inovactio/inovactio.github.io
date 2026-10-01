@@ -10,6 +10,10 @@
 | **Abilities** | 7: 5 active, 2 passive |
 | **Transformations** | [Falcon Assault Point](#falcon-assault-point), [Falcon Fly Point](#falcon-fly-point) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/falcon-assault-point forms/falcon-fly-point"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/falcon-assault-point.png){ .ability-icon } *Active · Transformation*
 
+![Falcon Assault Point](../forms/falcon-assault-point.png){ .form-picture }
+
 Transforms the user into a falcon hybrid that can fly and still holds its weapons.
 
 ## Falcon Fly Point { #falcon-fly-point }
 
 ![](../abilities/falcon-fly-point.png){ .ability-icon } *Active · Transformation*
+
+![Falcon Fly Point](../forms/falcon-fly-point.png){ .form-picture }
 
 Transforms the user into a great falcon that flies fast and can carry a rider.
 

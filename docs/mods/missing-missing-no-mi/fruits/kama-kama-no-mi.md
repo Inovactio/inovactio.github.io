@@ -11,6 +11,10 @@
 | **Abilities** | 4: 4 active, 0 passive |
 | **Transformations** | [Kama Tsume](#kama-tsume) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/kama-tsume"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,6 +23,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Kama Tsume { #kama-tsume }
 
 ![](../abilities/kama-tsume.png){ .ability-icon } *Active · Transformation*
+
+![Kama Tsume](../forms/kama-tsume.png){ .form-picture }
 
 The user draws out their nails into long sickles: bare-handed blows deal more damage while they are out.
 

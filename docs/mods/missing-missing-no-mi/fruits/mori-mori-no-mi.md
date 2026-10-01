@@ -11,6 +11,10 @@
 | **Abilities** | 10: 5 active, 5 passive |
 | **Transformations** | [Kinniku Mori Mori](#kinniku-mori-mori) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/jukon forms/edayari forms/kinniku-mori-mori forms/wakagi forms/hanaguruma"></div>
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -40,6 +44,8 @@ The ground turns green under the user's steps: dirt grows grass, and grass grows
 
 ![](../abilities/jukon.png){ .ability-icon } *Active*
 
+![Jukon](../objects/jukon.png){ .form-picture }
+
 Roots burst out of the ground where the user aims and seize up to six enemies: held where they stand, they can still strike.
 
 Used again while they are held, Kyusui: the roots drink them every second, heal the user and leave them weak.
@@ -55,6 +61,8 @@ Used again while they are held, Kyusui: the roots drink them every second, heal 
 ## Edayari { #edayari }
 
 ![](../abilities/edayari.png){ .ability-icon } *Active*
+
+![Edayari](../forms/edayari.png){ .form-picture }
 
 The user's arm shoots out as a long branch and runs through every enemy in a line: they stay impaled where they stand, still free to strike.
 
@@ -72,6 +80,8 @@ Used again while they are impaled, Kyusui: the branch drinks them every second, 
 ## Kinniku Mori Mori { #kinniku-mori-mori }
 
 ![](../abilities/kinniku-mori-mori.png){ .ability-icon } *Active · Transformation*
+
+![Kinniku Mori Mori](../forms/kinniku-mori-mori.png){ .form-picture }
 
 Standing on natural ground, the user becomes a tree golem: stronger fists with a longer reach, armored and hard to push back, but slower. While a golem, his other techniques strike harder, farther and bigger.
 
@@ -100,6 +110,8 @@ Giant Kinniku Mori Mori
 
 ![](../abilities/wakagi.png){ .ability-icon } *Passive*
 
+![Wakagi](../forms/wakagi.png){ .form-picture }
+
 When a blow would kill the user as a tree golem, the golem falls instead and he grows back from a sapling a few blocks away, with part of his health. Fire kills for good.
 
 | Stat | Value |
@@ -126,6 +138,8 @@ The user's wood fills with water and no longer fears fire, except a blow of fire
 ## Hanaguruma { #hanaguruma }
 
 ![](../abilities/hanaguruma.png){ .ability-icon } *Active*
+
+![Hanaguruma](../forms/hanaguruma.png){ .form-picture }
 
 A giant flower grows out of the user's back and spins like a propeller: he flies while it turns. Fire burns it and stops the flight. Not as a tree golem.
 

@@ -11,6 +11,10 @@
 | **Abilities** | 7: 7 active, 0 passive |
 | **Transformations** | [No Shock Taimo](#no-shock-taimo) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/mucho-neto-net objects/neto-net-hoso-mo objects/mucho-cho-shi-mo objects/mucho-tetsujo-mo objects/mucho-kaji-mo objects/millionet forms/no-shock-taimo"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,6 +23,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Mucho Neto Net { #mucho-neto-net }
 
 ![](../abilities/mucho-neto-net.png){ .ability-icon } *Active*
+
+![Mucho Neto Net](../objects/mucho-neto-net.png){ .form-picture }
 
 Throws a sticky net that wraps the target and holds it in place for 3 seconds.
 
@@ -33,6 +39,8 @@ Throws a sticky net that wraps the target and holds it in place for 3 seconds.
 
 ![](../abilities/neto-net-hoso-mo.png){ .ability-icon } *Active*
 
+![Neto Net Hoso Mo](../objects/neto-net-hoso-mo.png){ .form-picture }
+
 Throws a sticky net that closes as a dome over the aimed spot: enemies caught under it are slowed and cannot leave for 5 seconds.
 
 | Stat | Value |
@@ -45,6 +53,8 @@ Throws a sticky net that closes as a dome over the aimed spot: enemies caught un
 ## Mucho Cho Shi Mo { #mucho-cho-shi-mo }
 
 ![](../abilities/mucho-cho-shi-mo.png){ .ability-icon } *Active*
+
+![Mucho Cho Shi Mo](../objects/mucho-cho-shi-mo.png){ .form-picture }
 
 Swallows an iron ingot and throws a barbed wire net: it holds the target for 2 seconds and cuts it every second.
 
@@ -60,6 +70,8 @@ Swallows an iron ingot and throws a barbed wire net: it holds the target for 2 s
 
 ![](../abilities/mucho-tetsujo-mo.png){ .ability-icon } *Active*
 
+![Mucho Tetsujo Mo](../objects/mucho-tetsujo-mo.png){ .form-picture }
+
 Swallows an iron ingot and raises four iron frames round the enemy in sight: they shut into a cage that holds it and crushes it as it shrinks.
 
 | Stat | Value |
@@ -73,6 +85,8 @@ Swallows an iron ingot and raises four iron frames round the enemy in sight: the
 ## Mucho Kaji Mo { #mucho-kaji-mo }
 
 ![](../abilities/mucho-kaji-mo.png){ .ability-icon } *Active*
+
+![Mucho Kaji Mo](../objects/mucho-kaji-mo.png){ .form-picture }
 
 Swallows a fire charge and throws a burning net: it holds the target for 2 seconds and sets it alight.
 
@@ -88,6 +102,8 @@ Swallows a fire charge and throws a burning net: it holds the target for 2 secon
 
 ![](../abilities/millionet.png){ .ability-icon } *Active*
 
+![Millionet](../objects/millionet.png){ .form-picture }
+
 Drinks a water bottle and throws a net of boiling water: it scalds the target and holds it for 2 seconds.
 
 | Stat | Value |
@@ -101,6 +117,8 @@ Drinks a water bottle and throws a net of boiling water: it scalds the target an
 ## No Shock Taimo { #no-shock-taimo }
 
 ![](../abilities/no-shock-taimo.png){ .ability-icon } *Active · Transformation*
+
+![No Shock Taimo](../forms/no-shock-taimo.png){ .form-picture }
 
 The user's body turns into a net that spreads out blows: melee hits and projectiles deal 70% less damage. Blades, fire and explosions go through.
 

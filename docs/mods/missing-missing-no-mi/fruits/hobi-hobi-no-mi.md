@@ -11,6 +11,10 @@
 | **Abilities** | 5: 4 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/toy.png){ .effect-mini }[Toy](../effects.md#effect-toy) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/omocha objects/little-black-bears objects/atamawari-ningyo"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,6 +23,8 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 ## Omocha { #omocha }
 
 ![](../abilities/omocha.png){ .ability-icon } *Active · Punch*
+
+![Omocha](../forms/omocha.png){ .form-picture }
 
 Applies ![](../effect-icons/toy.png){ .effect-mini }[Toy](../effects.md#effect-toy)
 
@@ -39,6 +45,8 @@ Binds a toy the user made with a contract: a creature follows her and fights for
 
 ![](../abilities/little-black-bears.png){ .ability-icon } *Active*
 
+![Little Black Bears](../objects/little-black-bears.png){ .form-picture }
+
 The user darts round, touching every creature near her: they all turn into little black teddy bears.
 
 | Stat | Value |
@@ -49,6 +57,8 @@ The user darts round, touching every creature near her: they all turn into littl
 ## Atamawari Ningyo { #atamawari-ningyo }
 
 ![](../abilities/atamawari-ningyo.png){ .ability-icon } *Active*
+
+![Atamawari Ningyo](../objects/atamawari-ningyo.png){ .form-picture }
 
 Builds eight of the user's bound toys into a giant nutcracker that fights for her a while, then comes apart into the same toys.
 

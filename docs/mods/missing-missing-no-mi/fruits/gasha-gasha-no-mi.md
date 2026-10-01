@@ -11,6 +11,10 @@
 | **Abilities** | 10: 10 active, 0 passive |
 | **Transformations** | [Unión Armado](#union-armado), [Blindado](#blindado) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/canon-armado objects/torreta objects/soldado forms/union-armado forms/blindado"></div>
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -52,6 +56,8 @@ Raises a wall eleven blocks wide and six high where the user aims, made in the i
 
 ![](../abilities/canon-armado.png){ .ability-icon } *Active*
 
+![Cañón Armado](../forms/canon-armado.png){ .form-picture }
+
 Turns the user's forearm into a cannon. While it is out, holding the use key with an empty hand fires the first ammunition of his inventory: TNT, gunpowder, bullets or cannon balls, arrows.
 
 Used again, puts the cannon away.
@@ -65,6 +71,8 @@ Used again, puts the cannon away.
 
 ![](../abilities/torreta.png){ .ability-icon } *Active*
 
+![Torreta](../objects/torreta.png){ .form-picture }
+
 Builds a turret where the user aims and loads it with up to 32 of his bullets. It shoots the nearest enemy once a second, for a minute or until it is empty or broken.
 
 The bullets it did not shoot come back to the user. One turret at a time.
@@ -77,6 +85,8 @@ The bullets it did not shoot come back to the user. One turret at a time.
 
 ![](../abilities/soldado.png){ .ability-icon } *Active*
 
+![Soldado](../objects/soldado.png){ .form-picture }
+
 Builds a soldier of scrap out of the ground in front of the user. It follows him and fights his enemies for a minute and a half, or until it is broken.
 
 One soldier at a time.
@@ -88,6 +98,8 @@ One soldier at a time.
 ## Unión Armado { #union-armado }
 
 ![](../abilities/union-armado.png){ .ability-icon } *Active · Transformation*
+
+![Unión Armado](../forms/union-armado.png){ .form-picture }
 
 The user assembles a giant mech round himself: stronger fists with a longer reach, armored and hard to push back, but slower.
 
@@ -129,6 +141,8 @@ Stronger with Armament Haki hardening on.
 ## Blindado { #blindado }
 
 ![](../abilities/blindado.png){ .ability-icon } *Active · Transformation*
+
+![Blindado](../forms/blindado.png){ .form-picture }
 
 The user's arms swell with scrap and Armament Haki: stronger fists, armored and faster.
 

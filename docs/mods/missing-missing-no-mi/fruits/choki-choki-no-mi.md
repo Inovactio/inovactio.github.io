@@ -10,6 +10,10 @@
 | **Chance per opening** | wooden **2.92%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 5: 4 active, 1 passive |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/hasami"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -18,6 +22,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Hasami { #hasami }
 
 ![](../abilities/hasami.png){ .ability-icon } *Active · Punch*
+
+![Hasami](../forms/hasami.png){ .form-picture }
 
 Turns the user's hands into giant scissors, until toggled off: bare-handed hits cut, blocks are cut like paper, and the hands count as a sword.
 

@@ -11,6 +11,10 @@
 | **Abilities** | 7: 5 active, 2 passive |
 | **Effects applied** | ![](../effect-icons/launched.png){ .effect-mini }[Launched](../effects.md#effect-launched) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/puropera forms/suketo forms/senpu"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,6 +23,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Puropera { #puropera }
 
 ![](../abilities/puropera.png){ .ability-icon } *Active*
+
+![Puropera](../forms/puropera.png){ .form-picture }
 
 Turns the top of the user's head into a spinning propeller: she flies while it turns. A melee blow stops it.
 
@@ -52,6 +58,8 @@ Seizes the creature in front, whirls it round with the spinning arms and hurls i
 
 ![](../abilities/suketo.png){ .ability-icon } *Active*
 
+![Suketo](../forms/suketo.png){ .form-picture }
+
 The user's legs spin like wheels and she rolls along the ground as on skates, knocking aside anyone in her way.
 
 | Stat | Value |
@@ -69,6 +77,8 @@ The user's legs spin like wheels and she rolls along the ground as on skates, kn
 ## Senpu { #senpu }
 
 ![](../abilities/senpu.png){ .ability-icon } *Active*
+
+![Senpu](../forms/senpu.png){ .form-picture }
 
 The user's arms become rotors that whirl round her, battering everyone close again and again.
 

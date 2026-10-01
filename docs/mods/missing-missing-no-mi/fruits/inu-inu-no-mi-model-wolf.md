@@ -10,6 +10,10 @@
 | **Abilities** | 11: 10 active, 1 passive |
 | **Transformations** | [Wolf Walk Point](#wolf-walk-point), [Wolf Heavy Point](#wolf-heavy-point) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/wolf-walk-point forms/wolf-heavy-point objects/rankyaku-koro"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/wolf-walk-point.png){ .ability-icon } *Active · Transformation*
 
+![Wolf Walk Point](../forms/wolf-walk-point.png){ .form-picture }
+
 Transforms the user into a wolf, which focuses on speed and long jumps.
 
 ## Wolf Heavy Point { #wolf-heavy-point }
 
 ![](../abilities/wolf-heavy-point.png){ .ability-icon } *Active · Transformation*
+
+![Wolf Heavy Point](../forms/wolf-heavy-point.png){ .form-picture }
 
 Transforms the user into a wolf-man hybrid with clawed hands, which focuses on strength.
 
@@ -109,6 +117,8 @@ In the wolf-man form, leaps at the target and drives all ten claws down into it.
 ## Rankyaku: Koro { #rankyaku-koro }
 
 ![](../abilities/rankyaku-koro.png){ .ability-icon } *Active*
+
+![Rankyaku: Koro](../objects/rankyaku-koro.png){ .form-picture }
 
 In the wolf-man form, kicks a blade of air shaped like a wolf.
 
