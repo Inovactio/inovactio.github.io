@@ -47,7 +47,7 @@ The hull is what the boat is built of.
 | Hull | Blows it takes | Speed | Mended with | Special |
 |---|---|---|---|---|
 | ![](icons/reinforced_boat.png){ .item-icon }Reinforced | 3 | normal | any planks | — |
-| ![](icons/kuuigosu_boat.png){ .item-icon }Kuuigosu | 4 | faster (its tooltip says "Buoyant: it rides a quarter faster") | Kuuigosu Planks | — |
+| ![](icons/kuuigosu_boat.png){ .item-icon }Kuuigosu | 4 | a little faster, about 2 % ("Buoyant: it rides a little faster") | Kuuigosu Planks | — |
 | ![](icons/burning_boat.png){ .item-icon }Burning Tree | 6 | normal | Burning Tree Planks | **Fireproof**: fire and lava do not hurt it |
 | ![](icons/adam_boat.png){ .item-icon }Adam | 10 | normal | Adam Planks | — |
 

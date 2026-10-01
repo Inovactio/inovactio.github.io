@@ -75,7 +75,7 @@ In Crew mode, a player of another trade can still catch the level-1 creatures. T
 Two creatures have a rare look, and each comes as its own item:
 
 - ![](../icons/golden_hercules.png){ .item-icon }**Golden Hercules**: 1 Hercules Beetle in 20 is born golden; near a Hunter of level 25 or more, 1 in 10. It also carries more Sweet Sap (2 to 3 instead of 1 to 2).
-- **Invisible Swallowtail**: 1 Swallowtail Butterfly in 20, whatever your level (the level-25 perk does **not** change it).
+- **Invisible Swallowtail**: 1 Swallowtail Butterfly in 20; near a Hunter of level 25 or more, 1 in 10.
 
 A rare variant pays **three times** its species' XP. It shares the first-capture bonus with its normal form, and has its own page in the Bestiary.
 
@@ -259,7 +259,7 @@ What the Tannery's own items do:
 | Level | Perk | What it does |
 |---|---|---|
 | 10 | "Nets and traps wear half as fast" | each net use has a 50 % chance to cost no durability, and half of all single-use traps survive their catch |
-| 25 | "Rare variants twice as common around you" | the Golden Hercules comes 1 in 10 instead of 1 in 20 near you; the Invisible Swallowtail stays at 1 in 20 |
+| 25 | "Rare variants twice as common around you" | the Golden Hercules and the Invisible Swallowtail come 1 in 10 instead of 1 in 20 near you |
 | 40 | "20% chance a catch's drops come twice" | 20 % of the time, a caught creature's drops come twice (never the creature itself) |
 
 ## Advancements
