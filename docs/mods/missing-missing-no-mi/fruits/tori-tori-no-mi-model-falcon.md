@@ -25,7 +25,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![Falcon Assault Point](../forms/falcon-assault-point.png){ .form-picture }
 
-Transforms the user into a falcon hybrid that can fly and still holds its weapons.
+Transforms the user into a falcon hybrid, which can fly and still use weapons.
 
 ## Falcon Fly Point { #falcon-fly-point }
 
@@ -33,7 +33,7 @@ Transforms the user into a falcon hybrid that can fly and still holds its weapon
 
 ![Falcon Fly Point](../forms/falcon-fly-point.png){ .form-picture }
 
-Transforms the user into a great falcon that flies fast and can carry a rider.
+Transforms the user into a big falcon, which flies fast and can carry another player
 
 ## Falcon Flight { #falcon-flight }
 
@@ -53,7 +53,7 @@ Requires Falcon Fly Point to be active.
 
 ![](../abilities/tobizume.png){ .ability-icon } *Active*
 
-From the air, dives on the target and slashes it with the talons.
+While in the air, the user dives at the target and slashes it with their talons
 
 | Stat | Value |
 |---|---|
@@ -66,7 +66,7 @@ From the air, dives on the target and slashes it with the talons.
 
 ![](../abilities/tsukami-otoshi.png){ .ability-icon } *Active*
 
-In the falcon form, seizes the enemy below in the talons and carries it off. Press again to drop it.
+While in the falcon form, the user grabs the enemy under them with their talons and carries it. Use the ability again to drop it.
 
 | Stat | Value |
 |---|---|
@@ -77,7 +77,7 @@ In the falcon form, seizes the enemy below in the talons and carries it off. Pre
 
 ![](../abilities/hane-arashi.png){ .ability-icon } *Active*
 
-Beats the wings: enemies in front are thrown back, and projectiles are blown back the way they came.
+The user flaps their wings pushing back all enemies in front of them, projectiles are also sent back
 
 | Stat | Value |
 |---|---|

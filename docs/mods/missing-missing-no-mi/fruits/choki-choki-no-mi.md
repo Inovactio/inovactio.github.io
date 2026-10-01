@@ -25,7 +25,7 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![Hasami](../forms/hasami.png){ .form-picture }
 
-Turns the user's hands into giant scissors, until toggled off: bare-handed hits cut, blocks are cut like paper, and the hands count as a sword.
+Transforms the user's hands into giant scissors, the punches will cut the enemies and blocks can be cut like paper. The hands are counted as a sword
 
 | Stat | Value |
 |---|---|
@@ -36,7 +36,7 @@ Turns the user's hands into giant scissors, until toggled off: bare-handed hits 
 
 ![](../abilities/o-kanabashi.png){ .ability-icon } *Active*
 
-With the scissors out, the user charges forward, cutting every body and block beside them.
+While the scissors are active, the user dashes forward cutting all enemies and blocks near them.
 
 | Stat | Value |
 |---|---|
@@ -49,7 +49,7 @@ With the scissors out, the user charges forward, cutting every body and block be
 
 ![](../abilities/keep-out.png){ .ability-icon } *Active*
 
-With the scissors out, the user cuts up to 4 slabs of the ground around them and hurls them one after another, each where they aim as it is thrown. Harder blocks hit harder.
+While the scissors are active, the user cuts up to 4 pieces of the ground and throws them one by one where they are looking. Harder blocks deals more damage
 
 | Stat | Value |
 |---|---|
@@ -62,7 +62,7 @@ With the scissors out, the user cuts up to 4 slabs of the ground around them and
 
 ![](../abilities/kirikabe.png){ .ability-icon } *Active*
 
-Cuts the strip of ground under the user and stands it up: a wall 9 wide and 6 tall, surface on top, which lies back down after 10 seconds.
+Cuts the ground under the user and raises it as a wall of 9 blocks wide and 6 blocks tall, which goes back down after 10 seconds
 
 | Stat | Value |
 |---|---|
@@ -73,4 +73,4 @@ Cuts the strip of ground under the user and stands it up: a wall 9 wide and 6 ta
 
 ![](../abilities/kamikiri.png){ .ability-icon } *Passive*
 
-With the scissors out and an empty hand, right-clicking a block snips it out at once.
+While the scissors are active, right clicking a block with an empty hand cuts it instantly.

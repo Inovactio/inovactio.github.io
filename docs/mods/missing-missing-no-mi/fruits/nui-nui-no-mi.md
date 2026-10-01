@@ -25,7 +25,7 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![Nuitsuke](../objects/nuitsuke.png){ .form-picture }
 
-Throws a needle and thread: what it hits is sewn to the ground and cannot move.
+Throws a needle with a thread, the target is sewn to the ground and can't move
 
 | Stat | Value |
 |---|---|
@@ -36,7 +36,7 @@ Throws a needle and thread: what it hits is sewn to the ground and cannot move.
 
 ![](../abilities/nuiawase.png){ .ability-icon } *Active*
 
-Throws a needle and thread: what it hits is sewn to the nearest other enemy, and neither can get away from the other.
+Throws a needle with a thread, the target is sewn to the closest other enemy and they can't get away from each other.
 
 | Stat | Value |
 |---|---|
@@ -47,7 +47,7 @@ Throws a needle and thread: what it hits is sewn to the nearest other enemy, and
 
 ![](../abilities/haute-couture-patchwork.png){ .ability-icon } *Active*
 
-Sews every enemy and every loose item around the target to it, then yanks the thread: they all crash into it at once.
+Sews all the enemies and items around the target to it and then pulls the thread, making them all crash into the target
 
 | Stat | Value |
 |---|---|
@@ -60,7 +60,7 @@ Sews every enemy and every loose item around the target to it, then yanks the th
 
 ![](../abilities/tsukuroi.png){ .ability-icon } *Active*
 
-Sews a wound shut, on an ally in reach or on the user: the bleeding stops and the body regenerates for a while.
+Sews a wound of a nearby ally or of the user, which stops the bleeding and regenerates health for a while.
 
 | Stat | Value |
 |---|---|
@@ -70,7 +70,7 @@ Sews a wound shut, on an ally in reach or on the user: the bleeding stops and th
 
 ![](../abilities/hodoki.png){ .ability-icon } *Active*
 
-Undoes every stitch the user has made, cleanly.
+Removes all the stitches made by the user
 
 | Stat | Value |
 |---|---|

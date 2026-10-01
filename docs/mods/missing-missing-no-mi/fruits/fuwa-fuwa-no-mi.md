@@ -24,15 +24,15 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/fuyu.png){ .ability-icon } *Passive*
 
-The user cancels his own weight and flies freely, faster when not in combat.
+The user makes themselves weightless allowing them to fly, the speed is higher while not in combat
 
 ## Item Kaiten { #item-kaiten }
 
 ![](../abilities/item-kaiten.png){ .ability-icon } *Active*
 
-Rips up to six blocks off the ground around the user: they float and turn round him. Each stops one projectile; a melee blow taken drops them all.
+The user takes up to 6 blocks from the ground that will float and spin around them. Each block stops one projectile, taking a melee hit drops all of them.
 
-Used while crouching, lets them all fall.
+If used while crouching, drops all the blocks
 
 | Stat | Value |
 |---|---|
@@ -42,7 +42,7 @@ Used while crouching, lets them all fall.
 
 ![](../abilities/item-hassha.png){ .ability-icon } *Active*
 
-Fires one of the blocks turning round the user where he aims. It stays where it lands.
+Shoots one of the blocks spinning around the user where they are looking at. The block stays where it lands.
 
 | Stat | Value |
 |---|---|
@@ -56,7 +56,7 @@ Fires one of the blocks turning round the user where he aims. It stays where it 
 
 ![Shishi Odoshi](../objects/shishi-odoshi.png){ .form-picture }
 
-The ground rises into three roaring lion heads that charge along it: each bites the first enemy it meets and throws it back. Works in flight, close above the ground.
+The user shapes the ground into 3 lion heads that charges forward, each one bites the first enemy it hits and sends it flying. Can be used while flying close to the ground
 
 | Stat | Value |
 |---|---|
@@ -73,9 +73,9 @@ The ground rises into three roaring lion heads that charge along it: each bites 
 
 Applies ![](../effect-icons/buried.png){ .effect-mini }[Buried](../effects.md#effect-buried)
 
-Where the user aims, the earth buries up to four enemies and packs round each into a helix: they cannot move, strike or use a technique. On snow, they come out frozen.
+The ground where the user is looking at buries up to 4 enemies into a spiral of earth, they can't move, attack or use abilities. On snow the enemies are also frozen.
 
-Used again while they are held, drops a boulder on each helix.
+Use the ability again to drop a boulder on each buried enemy
 
 | Stat | Value |
 |---|---|
@@ -91,7 +91,7 @@ Used again while they are held, drops a boulder on each helix.
 
 ![Zanpa](../objects/zanpa.png){ .form-picture }
 
-With water nearby or under the rain, shuts the enemy in sight in a floating sphere of water: it is lifted, held and drowns. A Devil Fruit user loses his powers in it and drowns twice as fast.
+Can only be used near water or during rain. Traps the enemy the user is looking at inside a floating sphere of water, where it drowns. Devil Fruit users lose their powers inside and drown 2 times faster.
 
 | Stat | Value |
 |---|---|
@@ -102,7 +102,7 @@ With water nearby or under the rain, shuts the enemy in sight in a floating sphe
 
 ![](../abilities/shishi-funjin.png){ .ability-icon } *Active*
 
-Five shards of rock fly from the user's palms in a fan. Works in flight, close above the ground.
+The user shoots 5 rock shards from their palms in a fan shape. Can be used while flying close to the ground
 
 | Stat | Value |
 |---|---|
@@ -114,7 +114,7 @@ Five shards of rock fly from the user's palms in a fan. Works in flight, close a
 
 ![](../abilities/ryuki.png){ .ability-icon } *Active*
 
-Palm on the ground, the earth erupts around the user: the enemies near him are struck and thrown back, and he is launched high into the air.
+The user puts their palm on the ground making it erupt, damaging and pushing back all nearby enemies while the user is launched into the air.
 
 | Stat | Value |
 |---|---|
@@ -127,7 +127,7 @@ Palm on the ground, the earth erupts around the user: the enemies near him are s
 
 ![](../abilities/tatsumaki.png){ .ability-icon } *Active*
 
-The user spins and rises: the enemies around him are carried up with him, struck five times, then dropped. Blocks turning round him whirl too and make each blow heavier.
+The user spins and rises into the air, taking all nearby enemies with them which are hit 5 times and then dropped. The floating blocks around the user increases the damage
 
 | Stat | Value |
 |---|---|
@@ -141,7 +141,7 @@ The user spins and rises: the enemies around him are carried up with him, struck
 
 ![](../abilities/fusen.png){ .ability-icon } *Active*
 
-The boat the user sits in loses its weight and flies where he looks, with its passengers, until toggled off. It falls if he leaves it or loses his powers.
+The boat the user is sitting in becomes weightless and flies where they are looking, together with its passengers. The boat falls if the user leaves it or loses their powers.
 
 | Stat | Value |
 |---|---|

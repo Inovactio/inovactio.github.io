@@ -26,7 +26,7 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 Allows the user to avoid attacks by instinctively transforming parts of their body into their specific element
 
-Arrows and thrown things that go into the swamp body are swallowed and kept in its store.
+Arrows and thrown items that hits the user's swamp body are absorbed and stored inside it.
 
 ## Numa Numa no Gatling Gun { #numa-numa-no-gatling-gun }
 
@@ -34,7 +34,7 @@ Arrows and thrown things that go into the swamp body are swallowed and kept in i
 
 ![Numa Numa no Gatling Gun](../objects/numa-numa-no-gatling-gun.png){ .form-picture }
 
-Fires a burst of what the swamp has swallowed: its arrows first, then balls of mud.
+Shoots a burst of the things stored inside the swamp, first the arrows and then mud balls
 
 | Stat | Value |
 |---|---|
@@ -45,7 +45,7 @@ Fires a burst of what the swamp has swallowed: its arrows first, then balls of m
 
 ![](../abilities/numachi.png){ .ability-icon } *Active*
 
-Turns the ground around the user into swamp for a while: anyone else sinks into it and wades, slowed.
+Turns the ground around the user into a swamp for a while, everyone else sinks in it and is slowed.
 
 | Stat | Value |
 |---|---|
@@ -59,7 +59,7 @@ Turns the ground around the user into swamp for a while: anyone else sinks into 
 
 ![Numa Kyu](../objects/numa-kyu.png){ .form-picture }
 
-Wraps the enemy in sight in a sphere of mud that holds it, blinds it and smothers it.
+Traps the enemy the user is looking at inside a sphere of mud, which holds it, blinds it and suffocates it
 
 | Stat | Value |
 |---|---|
@@ -74,7 +74,7 @@ Wraps the enemy in sight in a sphere of mud that holds it, blinds it and smother
 
 Applies [In the Swamp](../effects.md#effect-in-the-swamp)
 
-Drags an enemy within reach into the swamp body, where it is held, hidden and smothered, then spits it out. Reaches farther into an enemy standing in the swamp.
+Pulls a nearby enemy inside the user's swamp body, where it is held and suffocates, and then spits it out. The range is bigger if the enemy is standing in the swamp.
 
 | Stat | Value |
 |---|---|
@@ -89,7 +89,7 @@ Drags an enemy within reach into the swamp body, where it is held, hidden and sm
 
 Applies [In the Swamp](../effects.md#effect-in-the-swamp)
 
-Sinks into the ground and moves beneath it, hidden, then comes back up.
+The user sinks into the ground and moves under it while hidden, then comes back up
 
 | Stat | Value |
 |---|---|
@@ -100,7 +100,7 @@ Sinks into the ground and moves beneath it, hidden, then comes back up.
 
 ![](../abilities/numa-kura.png){ .ability-icon } *Active*
 
-Opens the swamp's bottomless store: what it swallows is kept here, and its arrows feed the Gatling Gun.
+Opens the storage of the swamp. Everything the swamp absorbs is kept here, the arrows are used by the Gatling Gun.
 
 | Stat | Value |
 |---|---|

@@ -24,7 +24,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/met-punc.png){ .ability-icon } *Active*
 
-Makes the user's helmet swell and burst into shrapnel all around. Needs something worn on the head.
+Makes the user's helmet inflate and explode into shrapnel all around them. The user needs to wear something on their head
 
 | Stat | Value |
 |---|---|
@@ -38,7 +38,7 @@ Makes the user's helmet swell and burst into shrapnel all around. Needs somethin
 
 ![](../abilities/bracchium.png){ .ability-icon } *Active*
 
-Swells the bands on the user's wrists until they burst at point-blank range, blasting what is in front.
+Inflates the bands on the user's wrists until they explode, damaging the enemies right in front of them.
 
 | Stat | Value |
 |---|---|
@@ -52,7 +52,7 @@ Swells the bands on the user's wrists until they burst at point-blank range, bla
 
 ![](../abilities/jirai-punc.png){ .ability-icon } *Active*
 
-Primes the ground around the user: for a while, the blocks burst under any enemy who steps on them.
+Turns the ground around the user into mines for a while, the blocks explodes when an enemy walks on them
 
 | Stat | Value |
 |---|---|
@@ -68,7 +68,7 @@ Primes the ground around the user: for a while, the blocks burst under any enemy
 
 ![Punc Bala](../objects/punc-bala.png){ .form-picture }
 
-Swells bullets into balloons that float towards where the user aims and burst on whatever they touch.
+Inflates bullets into balloons that floats where the user is looking at and explodes on contact.
 
 | Stat | Value |
 |---|---|
@@ -81,7 +81,7 @@ Swells bullets into balloons that float towards where the user aims and burst on
 
 ![](../abilities/catapult-punc.png){ .ability-icon } *Active*
 
-Fires a volley of bullets from launchers on the user's arms: they swell in flight and burst on impact.
+Shoots multiple bullets from the launchers on the user's arms, that inflates while flying and explodes on impact
 
 | Stat | Value |
 |---|---|
@@ -93,7 +93,7 @@ Fires a volley of bullets from launchers on the user's arms: they swell in fligh
 
 ![](../abilities/punc-rock-fest.png){ .ability-icon } *Active*
 
-Makes the ground around the user swell and burst: enemies in the blasts are hurt and thrown back.
+Makes the ground around the user inflate and explode, damaging and pushing back the enemies.
 
 | Stat | Value |
 |---|---|
@@ -107,7 +107,7 @@ Makes the ground around the user swell and burst: enemies in the blasts are hurt
 
 ![](../abilities/punc-hair.png){ .ability-icon } *Active*
 
-Bursts the user's hair into a spray of needles that paralyse what they hit.
+The user's hair explodes into a lot of needles that paralyzes the enemies they hit.
 
 | Stat | Value |
 |---|---|
@@ -121,7 +121,7 @@ Bursts the user's hair into a spray of needles that paralyse what they hit.
 
 ![Fashion Punc](../forms/fashion-punc.png){ .form-picture }
 
-Swells the user into a giant balloon: the first blow bursts it instead of hurting, blasting and spraying needles all around.
+Inflates the user into a giant balloon, the first hit taken makes it explode instead of damaging the user, launching needles all around
 
 | Stat | Value |
 |---|---|
@@ -133,7 +133,7 @@ Swells the user into a giant balloon: the first blow bursts it instead of hurtin
 
 ![](../abilities/punc-rock-super-arena.png){ .ability-icon } *Active*
 
-Swells the ground far around the user, then bursts it all at once: every enemy in the arena is blasted.
+Inflates the ground in a huge area around the user and then makes it all explode at once, damaging all the enemies inside.
 
 | Stat | Value |
 |---|---|

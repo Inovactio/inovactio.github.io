@@ -25,7 +25,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![Vipera Glaive](../objects/vipera-glaive.png){ .form-picture }
 
-Flattens the blade of the user's sword, which stretches and snakes out to cut the enemy in sight, then draws back.
+Flattens the blade of the user's sword making it stretch like a snake to cut the enemy the user is looking at, after which it comes back
 
 | Stat | Value |
 |---|---|
@@ -41,7 +41,7 @@ Flattens the blade of the user's sword, which stretches and snakes out to cut th
 
 ![Corrida Glaive](../forms/corrida-glaive.png){ .form-picture }
 
-Folds the user's sword into a bull-headed mace: the next blow of the sword lands heavily and throws the enemy back.
+Folds the user's sword into a bull-headed mace, the next sword hit deals more damage and sends the enemy flying.
 
 | Stat | Value |
 |---|---|
@@ -52,7 +52,7 @@ Folds the user's sword into a bull-headed mace: the next blow of the sword lands
 
 ![](../abilities/army-bandera.png){ .ability-icon } *Active*
 
-Makes the ground around the user ripple like a flag: every enemy standing on it loses its footing and staggers.
+Makes the ground around the user wave like a flag, all enemies standing on it lose their balance
 
 | Stat | Value |
 |---|---|
@@ -64,7 +64,7 @@ Makes the ground around the user ripple like a flag: every enemy standing on it 
 
 ![](../abilities/death-enjambre.png){ .ability-icon } *Active*
 
-Fires confetti high over where the user aims. Use again - Hira Release - to turn it back into spiked iron balls that rain down.
+Shoots confetti above where the user is looking at. Use the ability again to turn them back into spiked iron balls that falls on the enemies.
 
 | Stat | Value |
 |---|---|
@@ -80,7 +80,7 @@ Fires confetti high over where the user aims. Use again - Hira Release - to turn
 
 ![Steel Cape](../objects/steel-cape.png){ .form-picture }
 
-Needs a worn cape. Stiffens it into a fluttering sheet of steel in front of the user: blows from the front are stopped and wear down the weapon that struck.
+The user needs to wear a cape. Turns the cape into a steel sheet in front of the user, which blocks the attacks from the front and damages the weapon that hit it
 
 | Stat | Value |
 |---|---|
@@ -98,7 +98,7 @@ Needs a worn cape. Stiffens it into a fluttering sheet of steel in front of the 
 
 ![](../abilities/lock.png){ .ability-icon } *Active*
 
-Locks whatever the user holds into a denser, harder form: it hits harder and does not wear.
+Hardens the item the user is holding, making it deal more damage and not lose durability.
 
 | Stat | Value |
 |---|---|
@@ -110,4 +110,4 @@ Locks whatever the user holds into a denser, harder form: it hits harder and doe
 
 ![](../abilities/flag-body.png){ .ability-icon } *Passive*
 
-When falling, the user's body flattens into a flag and floats down safely. Sneak to fall normally.
+While falling the user's body flattens like a flag and floats down slowly. Crouch to fall normally

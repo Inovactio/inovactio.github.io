@@ -26,13 +26,13 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![Puropera](../forms/puropera.png){ .form-picture }
 
-Turns the top of the user's head into a spinning propeller: she flies while it turns. A melee blow stops it.
+Transforms the top of the user's head into a propeller allowing them to fly while it spins. Taking a melee hit stops it
 
 ## Toppu: Matasaburo { #toppu-matasaburo }
 
 ![](../abilities/toppu-matasaburo.png){ .ability-icon } *Active*
 
-The user spins on himself and raises a gust in front: enemies are blown away, and clouds of gas and smoke are scattered.
+The user spins creating a strong wind in front of them, enemies are blown away and clouds of gas and smoke are removed
 
 | Stat | Value |
 |---|---|
@@ -47,7 +47,7 @@ The user spins on himself and raises a gust in front: enemies are blown away, an
 
 Applies ![](../effect-icons/launched.png){ .effect-mini }[Launched](../effects.md#effect-launched)
 
-Seizes the creature in front, whirls it round with the spinning arms and hurls it where the user looks. An ally flying as Missile Girl is launched far faster.
+Grabs the creature in front of the user, spins it with their arms and throws it where the user is looking at. An ally using Missile Girl is launched much faster.
 
 | Stat | Value |
 |---|---|
@@ -60,7 +60,7 @@ Seizes the creature in front, whirls it round with the spinning arms and hurls i
 
 ![Suketo](../forms/suketo.png){ .form-picture }
 
-The user's legs spin like wheels and she rolls along the ground as on skates, knocking aside anyone in her way.
+The user's legs spins like wheels allowing them to roll on the ground like on skates, pushing away everyone in their path
 
 | Stat | Value |
 |---|---|
@@ -80,7 +80,7 @@ The user's legs spin like wheels and she rolls along the ground as on skates, kn
 
 ![Senpu](../forms/senpu.png){ .form-picture }
 
-The user's arms become rotors that whirl round her, battering everyone close again and again.
+The user's arms becomes rotors that spins around them, hitting all nearby enemies multiple times.
 
 | Stat | Value |
 |---|---|
@@ -94,10 +94,10 @@ The user's arms become rotors that whirl round her, battering everyone close aga
 
 ![](../abilities/hiko.png){ .ability-icon } *Passive*
 
-While the propeller spins on the user's head, she flies, until her stamina runs out.
+While the propeller is spinning the user can fly, until they have no more stamina.
 
 ## Kaiten Ningen { #kaiten-ningen }
 
 ![](../abilities/kaiten-ningen.png){ .ability-icon } *Passive*
 
-A melee blow taken while any part of the user spins stops every rotation at once: in flight, she falls.
+Taking a melee hit while a part of the user is spinning stops all rotations, if the user was flying they will fall

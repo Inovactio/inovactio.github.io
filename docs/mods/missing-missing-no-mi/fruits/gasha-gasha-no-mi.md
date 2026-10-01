@@ -24,7 +24,7 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/desmontar.png){ .ability-icon } *Active*
 
-Takes the crafted block or the dropped item the user aims at apart into the ingredients of its recipe. A worn item gives back less.
+Breaks the crafted block or the dropped item the user is looking at into the ingredients of its recipe. A damaged item gives less ingredients
 
 | Stat | Value |
 |---|---|
@@ -34,9 +34,9 @@ Takes the crafted block or the dropped item the user aims at apart into the ingr
 
 ![](../abilities/taller.png){ .ability-icon } *Active*
 
-Opens a crafting grid anywhere, without a table.
+Opens a crafting table anywhere.
 
-Used while crouching, repairs the item held in the main hand with its material from the inventory, without anvil or experience.
+If used while crouching, repairs the item in the user's hand using its material from the inventory, no anvil or experience needed
 
 | Stat | Value |
 |---|---|
@@ -46,7 +46,7 @@ Used while crouching, repairs the item held in the main hand with its material f
 
 ![](../abilities/muralla.png){ .ability-icon } *Active*
 
-Raises a wall eleven blocks wide and six high where the user aims, made in the image of the ground there, throwing away whoever stands where it rises. It stops bodies and projectiles, and falls to dust after ten seconds.
+The user creates a big wall where they are looking at, made from the ground blocks, which send flying the entities near it. The wall stops enemies and projectiles and disappears after 10 seconds
 
 | Stat | Value |
 |---|---|
@@ -58,9 +58,9 @@ Raises a wall eleven blocks wide and six high where the user aims, made in the i
 
 ![Cañón Armado](../forms/canon-armado.png){ .form-picture }
 
-Turns the user's forearm into a cannon. While it is out, holding the use key with an empty hand fires the first ammunition of his inventory: TNT, gunpowder, bullets or cannon balls, arrows.
+Transforms the user's arm into a cannon. While active, holding right click with an empty hand shoots the first ammo found in the inventory, TNT, gunpowder, bullets, cannon balls or arrows
 
-Used again, puts the cannon away.
+Use the ability again to remove the cannon.
 
 | Stat | Value |
 |---|---|
@@ -73,9 +73,9 @@ Used again, puts the cannon away.
 
 ![Torreta](../objects/torreta.png){ .form-picture }
 
-Builds a turret where the user aims and loads it with up to 32 of his bullets. It shoots the nearest enemy once a second, for a minute or until it is empty or broken.
+Creates a turret where the user is looking at and loads it with up to 32 bullets from the inventory. The turret shoots the closest enemy every second, for 1 minute or until it has no more bullets or is destroyed
 
-The bullets it did not shoot come back to the user. One turret at a time.
+The unused bullets are given back to the user. Only one turret can be active.
 
 | Stat | Value |
 |---|---|
@@ -87,9 +87,9 @@ The bullets it did not shoot come back to the user. One turret at a time.
 
 ![Soldado](../objects/soldado.png){ .form-picture }
 
-Builds a soldier of scrap out of the ground in front of the user. It follows him and fights his enemies for a minute and a half, or until it is broken.
+Creates a soldier made of scrap in front of the user, that follows them and attacks their enemies for 90 seconds or until it is destroyed.
 
-One soldier at a time.
+Only one soldier can be active
 
 | Stat | Value |
 |---|---|
@@ -101,9 +101,9 @@ One soldier at a time.
 
 ![Unión Armado](../forms/union-armado.png){ .form-picture }
 
-The user assembles a giant mech round himself: stronger fists with a longer reach, armored and hard to push back, but slower.
+The user creates a giant mech around them, increasing the damage and the range of their punches and their armor, but making them slower
 
-Its size is chosen beforehand: the colossus takes the look of the ground it rises from, lasts a shorter time, on a longer cooldown.
+The size can be changed before using it, the colossus looks like the ground it was made on, lasts less and has a longer cooldown.
 
 Unión Armado
 
@@ -125,9 +125,9 @@ Unión Armado
 
 ![](../abilities/ultimate-faust.png){ .ability-icon } *Active*
 
-As the colossus, the user draws back its fist, then brings it down where he aims: every enemy round the impact is struck and thrown away.
+While in the colossus form, the user pulls back their fist and then smashes it where they are looking, damaging all enemies around the impact and sending them flying
 
-Stronger with Armament Haki hardening on.
+Deals more damage while Busoshoku Haki is active.
 
 | Stat | Value |
 |---|---|
@@ -144,7 +144,7 @@ Stronger with Armament Haki hardening on.
 
 ![Blindado](../forms/blindado.png){ .form-picture }
 
-The user's arms swell with scrap and Armament Haki: stronger fists, armored and faster.
+The user's arms gets bigger with scrap and Busoshoku Haki, increasing their punch damage, armor and speed
 
 | Stat | Value |
 |---|---|
@@ -156,15 +156,15 @@ The user's arms swell with scrap and Armament Haki: stronger fists, armored and 
 
 | Stat | Value |
 |---|---|
-| Speed | x1.2 |
 | Punch Damage | +12 |
+| Speed | x1.2 |
 | Armor | +8 |
 
 ## Det Sterkeste Strike { #det-sterkeste-strike }
 
 ![](../abilities/det-sterkeste-strike.png){ .ability-icon } *Active*
 
-A storm of eight punches in two seconds, striking every enemy in front of the user. The last one throws them away.
+The user launches 8 fast punches in 2 seconds hitting all enemies in front of them, the last punch sends them flying.
 
 Requires Blindado to be active.
 

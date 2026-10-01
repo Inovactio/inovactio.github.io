@@ -25,7 +25,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![Suzumebachi Heavy Point](../forms/suzumebachi-heavy-point.png){ .form-picture }
 
-Transforms the user into a giant hornet hybrid: four arms that strike fast, wings to fly and a venomous stinger.
+Transforms the user into a giant hornet hybrid, with 4 arms that attacks fast, wings to fly and a poisonous stinger
 
 ## Suzumebachi Walk Point { #suzumebachi-walk-point }
 
@@ -33,7 +33,7 @@ Transforms the user into a giant hornet hybrid: four arms that strike fast, wing
 
 ![Suzumebachi Walk Point](../forms/suzumebachi-walk-point.png){ .form-picture }
 
-Transforms the user into a great giant hornet: light, fast in the air, with a venomous stinger.
+Transforms the user into a giant hornet, which is light, fast in the air and has a poisonous stinger.
 
 ## Suzumebachi Flight { #suzumebachi-flight }
 
@@ -45,7 +45,7 @@ Requires Suzumebachi Heavy Point or Suzumebachi Walk Point to be active.
 
 ![](../abilities/stinger.png){ .ability-icon } *Active*
 
-The hornet's stinger stabs the enemy in front and poisons it with a strong venom.
+The user stabs the enemy in front of them with their stinger, applying a strong poison
 
 | Stat | Value |
 |---|---|
@@ -59,7 +59,7 @@ The hornet's stinger stabs the enemy in front and poisons it with a strong venom
 
 ![Pink Hornets](../objects/pink-hornets.png){ .form-picture }
 
-Calls a swarm of pink hornets that attack the enemy the user looks at, or whoever fights her, and poison it.
+Summons a swarm of pink hornets that attacks the enemy the user is looking at, or the one attacking the user, and poisons it.
 
 | Stat | Value |
 |---|---|

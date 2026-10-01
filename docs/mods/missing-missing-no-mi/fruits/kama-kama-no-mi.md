@@ -26,7 +26,7 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![Kama Tsume](../forms/kama-tsume.png){ .form-picture }
 
-The user draws out their nails into long sickles: bare-handed blows deal more damage while they are out.
+The user extends their nails into long sickles, increasing the damage of their punches while active
 
 | Stat | Value |
 |---|---|
@@ -37,7 +37,7 @@ The user draws out their nails into long sickles: bare-handed blows deal more da
 
 ![](../abilities/kama-kama-no-kamaitachi.png){ .ability-icon } *Active*
 
-A swipe of the nails throws a small, fast blade of air.
+The user swipes their nails launching a small and fast air blade
 
 | Stat | Value |
 |---|---|
@@ -51,9 +51,9 @@ A swipe of the nails throws a small, fast blade of air.
 
 ![](../abilities/kama-kama-no-tsumujikaze.png){ .ability-icon } *Active*
 
-Throws a heavy blade of air that stays on the first body it meets and cuts it three times.
+Launches a big air blade that stays on the first enemy it hits and cuts it 3 times.
 
-While crouching, throws two blades crossed in an X, which cut harder.
+If used while crouching, launches two crossed blades instead which deals more damage
 
 | Stat | Value |
 |---|---|
@@ -67,7 +67,7 @@ While crouching, throws two blades crossed in an X, which cut harder.
 
 ![](../abilities/kama-kama-no-kamaitachi-midareuchi.png){ .ability-icon } *Active*
 
-Slashes the air again and again, throwing a fan of blades, then raises a whirlwind of razor air where the user aimed.
+The user slashes the air multiple times launching a lot of air blades, after which a whirlwind is created where the user was looking at.
 
 | Stat | Value |
 |---|---|

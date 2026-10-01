@@ -33,13 +33,13 @@ Transforms the user into a wolf, which focuses on speed and long jumps.
 
 ![Wolf Heavy Point](../forms/wolf-heavy-point.png){ .form-picture }
 
-Transforms the user into a wolf-man hybrid with clawed hands, which focuses on strength.
+Transforms the user into a wolf-man hybrid with claws, which focuses on strength.
 
 ## Kamitsuki { #kamitsuki }
 
 ![](../abilities/kamitsuki.png){ .ability-icon } *Active*
 
-Springs at the target and bites it, leaving a bleeding wound. The wolf form bites harder.
+The user jumps at the target and bites it, making it bleed. Deals more damage in the wolf form
 
 | Stat | Value |
 |---|---|
@@ -52,7 +52,7 @@ Springs at the target and bites it, leaving a bleeding wound. The wolf form bite
 
 ![](../abilities/shippu.png){ .ability-icon } *Active*
 
-In the wolf form, runs flat out and knocks down every enemy in the way.
+While in the wolf form, the user runs at full speed knocking down all enemies in their path.
 
 | Stat | Value |
 |---|---|
@@ -64,7 +64,7 @@ In the wolf form, runs flat out and knocks down every enemy in the way.
 
 ![](../abilities/toboe.png){ .ability-icon } *Active*
 
-Howls: nearby enemies are weakened and slowed. At night the user also gains strength and speed.
+The user howls, weakening and slowing all nearby enemies. During the night the user also gets strength and speed
 
 | Stat | Value |
 |---|---|
@@ -75,7 +75,7 @@ Howls: nearby enemies are weakened and slowed. At night the user also gains stre
 
 ![](../abilities/kyukaku.png){ .ability-icon } *Active*
 
-Takes the scent of every creature nearby: they glow for 10 seconds, even behind walls.
+The user smells all nearby creatures, making them glow for 10 seconds even through walls.
 
 | Stat | Value |
 |---|---|
@@ -86,13 +86,13 @@ Takes the scent of every creature nearby: they glow for 10 seconds, even behind 
 
 ![](../abilities/yako.png){ .ability-icon } *Passive*
 
-In a wolf form, the user sees in the dark. At night, they also move faster, hit harder and heal.
+While in a wolf form the user can see in the dark. During the night they are also faster, stronger and regenerates health
 
 ## Jusshigan { #jusshigan }
 
 ![](../abilities/jusshigan.png){ .ability-icon } *Active*
 
-In the wolf-man form, stabs the target in front with all ten clawed fingers, one after another.
+While in the hybrid form, the user stabs the enemy in front of them with all their 10 clawed fingers, one after another
 
 | Stat | Value |
 |---|---|
@@ -105,7 +105,7 @@ In the wolf-man form, stabs the target in front with all ten clawed fingers, one
 
 ![](../abilities/gekko-jusshigan.png){ .ability-icon } *Active*
 
-In the wolf-man form, leaps at the target and drives all ten claws down into it. Stronger at night.
+While in the hybrid form, the user jumps at the target and stabs it with all 10 claws. Deals more damage during the night.
 
 | Stat | Value |
 |---|---|
@@ -120,7 +120,7 @@ In the wolf-man form, leaps at the target and drives all ten claws down into it.
 
 ![Rankyaku: Koro](../objects/rankyaku-koro.png){ .form-picture }
 
-In the wolf-man form, kicks a blade of air shaped like a wolf.
+While in the hybrid form, the user kicks the air launching an air blade in the shape of a wolf
 
 | Stat | Value |
 |---|---|
@@ -134,7 +134,7 @@ In the wolf-man form, kicks a blade of air shaped like a wolf.
 
 ![](../abilities/tekkai-kenpo-roga-no-kamae.png){ .ability-icon } *Active*
 
-In the wolf-man form, hardens the body like iron: less damage and no knockback taken, slower steps, and bare-handed blows become Okami Hajiki, a flick that throws the target away.
+While in the hybrid form, the user hardens their body like iron, taking less damage and no knockback but moving slower. The punches becomes Okami Hajiki, which sends the target flying.
 
 | Stat | Value |
 |---|---|

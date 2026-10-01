@@ -25,7 +25,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![Kabutomushi Heavy Point](../forms/kabutomushi-heavy-point.png){ .form-picture }
 
-Transforms the user into a rhinoceros beetle hybrid: a horn, a hard shell, a second pair of arms and wings to fly.
+Transforms the user into a rhinoceros beetle hybrid, with a horn, a hard shell, 4 arms and wings to fly.
 
 ## Kabutomushi Walk Point { #kabutomushi-walk-point }
 
@@ -33,7 +33,7 @@ Transforms the user into a rhinoceros beetle hybrid: a horn, a hard shell, a sec
 
 ![Kabutomushi Walk Point](../forms/kabutomushi-walk-point.png){ .form-picture }
 
-Transforms the user into a great rhinoceros beetle: heavily armoured, it flies and can carry a rider.
+Transforms the user into a big rhinoceros beetle, which has a lot of armor, can fly and can carry another player
 
 ## Kabutomushi Flight { #kabutomushi-flight }
 
@@ -53,7 +53,7 @@ Requires Kabutomushi Walk Point to be active.
 
 ![](../abilities/beetle-upper.png){ .ability-icon } *Active*
 
-In the hybrid form, the user rushes forward at top speed, spinning, and headbutts every enemy in the way high into the air.
+While in the hybrid form, the user dashes forward while spinning and headbutts all enemies in their path, launching them into the air
 
 | Stat | Value |
 |---|---|
@@ -65,7 +65,7 @@ In the hybrid form, the user rushes forward at top speed, spinning, and headbutt
 
 ![](../abilities/horn-toss.png){ .ability-icon } *Active*
 
-The beetle's horn scoops up the enemy in front and flips it over the user's back.
+The user picks up the enemy in front of them with their horn and throws it over their back.
 
 | Stat | Value |
 |---|---|

@@ -28,13 +28,13 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 Applies ![](../effect-icons/toy.png){ .effect-mini }[Toy](../effects.md#effect-toy)
 
-The user's next bare-handed touch turns its target into a toy, for as long as her curse holds. A new toy is harmless until bound with Keiyaku.
+The next punch of the user turns the target into a toy, for as long as the curse lasts. A new toy does nothing until Keiyaku is used on it.
 
 ## Keiyaku { #keiyaku }
 
 ![](../abilities/keiyaku.png){ .ability-icon } *Active*
 
-Binds a toy the user made with a contract: a creature follows her and fights for her, a player can no longer attack her.
+Makes a contract with a toy made by the user, a creature will follow and fight for the user and a player can't attack the user anymore
 
 | Stat | Value |
 |---|---|
@@ -47,7 +47,7 @@ Binds a toy the user made with a contract: a creature follows her and fights for
 
 ![Little Black Bears](../objects/little-black-bears.png){ .form-picture }
 
-The user darts round, touching every creature near her: they all turn into little black teddy bears.
+The user dashes around touching all nearby creatures, turning them into small black teddy bears.
 
 | Stat | Value |
 |---|---|
@@ -60,7 +60,7 @@ The user darts round, touching every creature near her: they all turn into littl
 
 ![Atamawari Ningyo](../objects/atamawari-ningyo.png){ .form-picture }
 
-Builds eight of the user's bound toys into a giant nutcracker that fights for her a while, then comes apart into the same toys.
+Combines 8 of the user's contracted toys into a giant nutcracker that fights for the user for a while, after which it splits back into the toys
 
 | Stat | Value |
 |---|---|
@@ -72,4 +72,4 @@ Builds eight of the user's bound toys into a giant nutcracker that fights for he
 
 ![](../abilities/noroi.png){ .ability-icon } *Passive*
 
-The fruit keeps its user a child: smaller and weaker. Every toy she made turns back at once if she dies, is knocked out, loses her fruit's power (water, seastone...), loses the fruit or leaves.
+The fruit keeps the user as a child, smaller and weaker. All the toys are turned back if the user dies, is knocked out, loses their powers or leaves.

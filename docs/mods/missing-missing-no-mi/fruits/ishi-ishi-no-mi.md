@@ -24,13 +24,13 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/ishi-stone.png){ .ability-icon } *Passive*
 
-Shows the stone the user can move: the stone blocks he carries, in green when the ground round him holds enough stone for his techniques to cost nothing.
+Shows the stone the user can use, the stone blocks they carry are shown in green when there is enough stone around them to use the abilities for free
 
 ## Stone Assimilation { #ishi-travel }
 
 ![](../abilities/ishi-travel.png){ .ability-icon } *Passive*
 
-The user merges with stone: crouch into a stone block to sink in, then move through stone freely.
+The user merges with stone, crouch on a stone block to enter it and then move freely through the stone.
 
 ## Pulpostone { #pulpostone }
 
@@ -38,7 +38,7 @@ The user merges with stone: crouch into a stone block to sink in, then move thro
 
 ![Pulpostone](../objects/pulpostone.png){ .form-picture }
 
-Stone tentacles rise round the spot the user looks at and slam down on it, pinning whoever they strike.
+Creates stone tentacles around the location the user is looking at, that smashes down holding in place the enemies they hit
 
 | Stat | Value |
 |---|---|
@@ -52,7 +52,7 @@ Stone tentacles rise round the spot the user looks at and slam down on it, pinni
 
 ![Charlestone](../objects/charlestone.png){ .form-picture }
 
-A field of stone spikes erupts from the ground round the user, wave after wave, throwing up everyone caught in it.
+Creates multiple waves of stone spikes from the ground around the user, launching into the air all the enemies caught.
 
 | Stat | Value |
 |---|---|
@@ -66,7 +66,7 @@ A field of stone spikes erupts from the ground round the user, wave after wave, 
 
 ![Ishiusu](../objects/ishiusu.png){ .form-picture }
 
-Two spiked stone pillars rise on either side of the enemy the user looks at and slam together on it.
+Creates two spiked stone pillars on each side of the enemy the user is looking at, which crushes it between them
 
 | Stat | Value |
 |---|---|
@@ -80,7 +80,7 @@ Two spiked stone pillars rise on either side of the enemy the user looks at and 
 
 ![Bitestone](../objects/bitestone.png){ .form-picture }
 
-A great stone head rises in front of the enemy the user looks at and bites it.
+Creates a giant stone head in front of the enemy the user is looking at, which bites it.
 
 | Stat | Value |
 |---|---|
@@ -94,7 +94,7 @@ A great stone head rises in front of the enemy the user looks at and bites it.
 
 ![Ishi Kobushi](../objects/ishi-kobushi.png){ .form-picture }
 
-A stone fist punches out of the nearest stone wall or floor next to the enemy the user looks at.
+A stone fist comes out of the closest stone wall or floor near the enemy the user is looking at and punches it
 
 | Stat | Value |
 |---|---|
@@ -108,7 +108,7 @@ A stone fist punches out of the nearest stone wall or floor next to the enemy th
 
 ![Stone Giant](../forms/ishi-giant.png){ .form-picture }
 
-The user builds a giant body of stone round himself: blows break its stone instead of hurting him, and it regrows while he stands on stone. With no stone left, it crumbles. Its size is chosen beforehand; a giant cannot jump, and the bigger it is, the slower.
+The user creates a giant stone body around them, the hits breaks the stone instead of damaging the user and it regenerates while standing on stone. The giant breaks when there is no stone left. The size can be changed before using it, a bigger giant is slower and giants can't jump.
 
 Stone Giant
 

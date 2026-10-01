@@ -26,19 +26,19 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 Allows the user to avoid attacks by instinctively transforming parts of their body into their specific element
 
-A body of living wood: fire always burns it, and half again as hard.
+The user's body is made of living wood, fire always hurts them and deals 50% more damage.
 
 ## Kogosei { #kogosei }
 
 ![](../abilities/kogosei.png){ .ability-icon } *Passive*
 
-In daylight under the open sky, the user no longer grows hungry and slowly heals. Rain, a roof or the night stop it.
+During the day and under the sky, the user does not get hungry and slowly regenerates health. Does not work during rain, night or under a roof
 
 ## Ryokuka { #ryokuka }
 
 ![](../abilities/ryokuka.png){ .ability-icon } *Passive*
 
-The ground turns green under the user's steps: dirt grows grass, and grass grows plants and flowers.
+The ground becomes green where the user walks, dirt turns into grass and plants and flowers grows on grass.
 
 ## Jukon { #jukon }
 
@@ -46,9 +46,9 @@ The ground turns green under the user's steps: dirt grows grass, and grass grows
 
 ![Jukon](../objects/jukon.png){ .form-picture }
 
-Roots burst out of the ground where the user aims and seize up to six enemies: held where they stand, they can still strike.
+Roots comes out of the ground where the user is looking at and grabs up to 6 enemies, they are stuck in place but can still attack.
 
-Used again while they are held, Kyusui: the roots drink them every second, heal the user and leave them weak.
+Use the ability again for Kyusui, the roots drains the enemies every second, healing the user and weakening them
 
 | Stat | Value |
 |---|---|
@@ -64,9 +64,9 @@ Used again while they are held, Kyusui: the roots drink them every second, heal 
 
 ![Edayari](../forms/edayari.png){ .form-picture }
 
-The user's arm shoots out as a long branch and runs through every enemy in a line: they stay impaled where they stand, still free to strike.
+The user's arm extends into a long branch that pierces all enemies in a line, they are stuck in place but can still attack
 
-Used again while they are impaled, Kyusui: the branch drinks them every second, heals the user and leaves them weak.
+Use the ability again for Kyusui, the branch drains the enemies every second, healing the user and weakening them.
 
 | Stat | Value |
 |---|---|
@@ -83,9 +83,9 @@ Used again while they are impaled, Kyusui: the branch drinks them every second, 
 
 ![Kinniku Mori Mori](../forms/kinniku-mori-mori.png){ .form-picture }
 
-Standing on natural ground, the user becomes a tree golem: stronger fists with a longer reach, armored and hard to push back, but slower. While a golem, his other techniques strike harder, farther and bigger.
+While standing on natural ground, the user transforms into a tree golem, increasing the damage and the range of their punches and their armor but making them slower. The other abilities are also stronger and bigger while in this form.
 
-Its size is chosen beforehand: the giant golem lasts a shorter time, on a longer cooldown.
+The size can be changed before using it, the giant golem lasts less and has a longer cooldown
 
 Kinniku Mori Mori
 
@@ -112,7 +112,7 @@ Giant Kinniku Mori Mori
 
 ![Wakagi](../forms/wakagi.png){ .form-picture }
 
-When a blow would kill the user as a tree golem, the golem falls instead and he grows back from a sapling a few blocks away, with part of his health. Fire kills for good.
+If the user would die while in the golem form, the golem falls instead and the user grows back from a sapling a few blocks away with a part of their health. Does not work if killed by fire.
 
 | Stat | Value |
 |---|---|
@@ -122,7 +122,7 @@ When a blow would kill the user as a tree golem, the golem falls instead and he 
 
 ![](../abilities/bokarin.png){ .ability-icon } *Active*
 
-The user's wood fills with water and no longer fears fire, except a blow of fire strong enough to burn it all the same. Heavy with water, he walks and strikes slower. Until toggled off.
+The user fills their wood with water making them immune to fire, except for very strong fire attacks. The user moves and attacks slower while active
 
 | Stat | Value |
 |---|---|
@@ -132,8 +132,8 @@ The user's wood fills with water and no longer fears fire, except a blow of fire
 
 | Stat | Value |
 |---|---|
-| Speed | <span class="stat-malus">x0.8</span> |
 | Attack Speed | <span class="stat-malus">x0.8</span> |
+| Speed | <span class="stat-malus">x0.8</span> |
 
 ## Hanaguruma { #hanaguruma }
 
@@ -141,10 +141,10 @@ The user's wood fills with water and no longer fears fire, except a blow of fire
 
 ![Hanaguruma](../forms/hanaguruma.png){ .form-picture }
 
-A giant flower grows out of the user's back and spins like a propeller: he flies while it turns. Fire burns it and stops the flight. Not as a tree golem.
+A giant flower grows on the user's back and spins like a propeller allowing them to fly. Fire burns the flower and stops the flight. Can't be used in the golem form.
 
 ## Hisho { #hisho }
 
 ![](../abilities/hisho.png){ .ability-icon } *Passive*
 
-While the flower spins on the user's back, he flies, until his stamina runs out.
+While the flower is spinning the user can fly, until they have no more stamina

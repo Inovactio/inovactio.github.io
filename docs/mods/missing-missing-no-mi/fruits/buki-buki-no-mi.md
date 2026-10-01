@@ -25,7 +25,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![Espada Girl](../forms/espada-girl.png){ .form-picture }
 
-Turns both of the user's arms into sword blades, until toggled off: bare-handed hits cut, and the hands count as a sword.
+Transforms the user's arms into sword blades, the punches will cut the enemies and the hands are counted as a sword
 
 | Stat | Value |
 |---|---|
@@ -38,7 +38,7 @@ Turns both of the user's arms into sword blades, until toggled off: bare-handed 
 
 ![Revolver Girl](../forms/revolver-girl.png){ .form-picture }
 
-Turns the user's arm into a revolver that fires a quick string of bullets where she aims.
+Transforms the user's arm into a revolver that shoots multiple bullets where the user is looking at.
 
 | Stat | Value |
 |---|---|
@@ -53,7 +53,7 @@ Turns the user's arm into a revolver that fires a quick string of bullets where 
 
 ![Revolver Leg](../forms/revolver-leg.png){ .form-picture }
 
-Kicks with a leg turned into a gun, which fires point-blank as the kick lands and throws the enemies in front back.
+The user kicks with their leg transformed into a gun, that shoots when the kick lands and pushes back the enemies in front
 
 | Stat | Value |
 |---|---|
@@ -68,7 +68,7 @@ Kicks with a leg turned into a gun, which fires point-blank as the kick lands an
 
 ![Gatling Girl](../forms/gatling-girl.png){ .form-picture }
 
-Turns the user's leg into a Gatling gun that sprays a long burst of bullets where she aims. She is slowed while it fires.
+Transforms the user's leg into a Gatling gun that shoots a lot of bullets where the user is looking at. The user is slowed while shooting.
 
 | Stat | Value |
 |---|---|
@@ -89,7 +89,7 @@ Turns the user's leg into a Gatling gun that sprays a long burst of bullets wher
 
 ![Sickle Girl](../objects/sickle-girl.png){ .form-picture }
 
-Throws a sickle on a chain from the user's arm: it cuts the first enemy it reaches, and the chain pulls it back to her.
+Throws a sickle with a chain from the user's arm, it cuts the first enemy it hits and then the chain pulls it back
 
 | Stat | Value |
 |---|---|
@@ -103,7 +103,7 @@ Throws a sickle on a chain from the user's arm: it cuts the first enemy it reach
 
 ![Fire Girl](../forms/fire-girl.png){ .form-picture }
 
-Turns the user's upper body into a flamethrower: a cone of fire pours out in front of her and sets enemies burning.
+Transforms the user's upper body into a flamethrower, that shoots a cone of fire in front of them setting the enemies on fire.
 
 | Stat | Value |
 |---|---|
@@ -119,7 +119,7 @@ Turns the user's upper body into a flamethrower: a cone of fire pours out in fro
 
 ![Missile Girl](../forms/missile-girl.png){ .form-picture }
 
-The user becomes a missile that flies where she looks and explodes on the first thing it meets. Use again to explode at once. She is unharmed.
+Transforms the user into a missile that flies where they are looking and explodes on the first thing it hits. Use the ability again to explode instantly. The user takes no damage
 
 | Stat | Value |
 |---|---|
@@ -134,7 +134,7 @@ The user becomes a missile that flies where she looks and explodes on the first 
 
 ![Flying Disk Girl](../forms/flying-disk-girl.png){ .form-picture }
 
-The user becomes a spinning cutting disk and skims forward, striking and flinging aside every enemy in her way.
+Transforms the user into a spinning cutting disk that dashes forward, damaging and pushing away all enemies in its path.
 
 | Stat | Value |
 |---|---|

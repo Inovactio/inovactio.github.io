@@ -26,7 +26,7 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![Mucho Neto Net](../objects/mucho-neto-net.png){ .form-picture }
 
-Throws a sticky net that wraps the target and holds it in place for 3 seconds.
+Throws a sticky net that wraps the target, making it unable to move for 3 seconds
 
 | Stat | Value |
 |---|---|
@@ -41,7 +41,7 @@ Throws a sticky net that wraps the target and holds it in place for 3 seconds.
 
 ![Neto Net Hoso Mo](../objects/neto-net-hoso-mo.png){ .form-picture }
 
-Throws a sticky net that closes as a dome over the aimed spot: enemies caught under it are slowed and cannot leave for 5 seconds.
+Throws a sticky net that becomes a dome on the targeted location, all enemies inside are slowed and can't leave it for 5 seconds
 
 | Stat | Value |
 |---|---|
@@ -56,7 +56,7 @@ Throws a sticky net that closes as a dome over the aimed spot: enemies caught un
 
 ![Mucho Cho Shi Mo](../objects/mucho-cho-shi-mo.png){ .form-picture }
 
-Swallows an iron ingot and throws a barbed wire net: it holds the target for 2 seconds and cuts it every second.
+The user eats an iron ingot and throws a barbed wire net, that holds the target for 2 seconds and damages it every second.
 
 | Stat | Value |
 |---|---|
@@ -72,7 +72,7 @@ Swallows an iron ingot and throws a barbed wire net: it holds the target for 2 s
 
 ![Mucho Tetsujo Mo](../objects/mucho-tetsujo-mo.png){ .form-picture }
 
-Swallows an iron ingot and raises four iron frames round the enemy in sight: they shut into a cage that holds it and crushes it as it shrinks.
+The user eats an iron ingot and creates an iron cage around the enemy they are looking at, the cage holds the enemy and deals damage while it shrinks.
 
 | Stat | Value |
 |---|---|
@@ -88,7 +88,7 @@ Swallows an iron ingot and raises four iron frames round the enemy in sight: the
 
 ![Mucho Kaji Mo](../objects/mucho-kaji-mo.png){ .form-picture }
 
-Swallows a fire charge and throws a burning net: it holds the target for 2 seconds and sets it alight.
+The user eats a fire charge and throws a burning net, that holds the target for 2 seconds and sets it on fire
 
 | Stat | Value |
 |---|---|
@@ -104,7 +104,7 @@ Swallows a fire charge and throws a burning net: it holds the target for 2 secon
 
 ![Millionet](../objects/millionet.png){ .form-picture }
 
-Drinks a water bottle and throws a net of boiling water: it scalds the target and holds it for 2 seconds.
+The user drinks a water bottle and throws a net made of boiling water, which burns the target and holds it for 2 seconds.
 
 | Stat | Value |
 |---|---|
@@ -120,7 +120,7 @@ Drinks a water bottle and throws a net of boiling water: it scalds the target an
 
 ![No Shock Taimo](../forms/no-shock-taimo.png){ .form-picture }
 
-The user's body turns into a net that spreads out blows: melee hits and projectiles deal 70% less damage. Blades, fire and explosions go through.
+The user's body becomes a net that absorbs the hits, melee attacks and projectiles deals 70% less damage. Does not work against blades, fire and explosions
 
 | Stat | Value |
 |---|---|

@@ -23,7 +23,7 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 Applies ![](../effect-icons/art.png){ .effect-mini }[Art](../effects.md#effect-art)
 
-Throws a cloud of thought that turns the body it touches into abstract art: slowed, and its weapons, even its fists, stop working.
+Throws a cloud that turns the enemy it touches into abstract art, slowing it and making its weapons and its fists useless
 
 | Stat | Value |
 |---|---|
@@ -36,7 +36,7 @@ Throws a cloud of thought that turns the body it touches into abstract art: slow
 
 Applies ![](../effect-icons/art.png){ .effect-mini }[Art](../effects.md#effect-art)
 
-Flattens the enemy in sight into a mural on the ground, where it is held and slowly dies.
+Flattens the enemy the user is looking at into a painting on the ground, where it can't move and slowly dies.
 
 | Stat | Value |
 |---|---|
@@ -48,7 +48,7 @@ Flattens the enemy in sight into a mural on the ground, where it is held and slo
 
 ![](../abilities/fukugen.png){ .ability-icon } *Active*
 
-Restores everything the user has turned into art. It also all reverts if the user is knocked out.
+Restores everything the user turned into art. Everything is also restored if the user is knocked out
 
 | Stat | Value |
 |---|---|
@@ -58,7 +58,7 @@ Restores everything the user has turned into art. It also all reverts if the use
 
 ![](../abilities/heavens-do-art.png){ .ability-icon } *Active · Transformation*
 
-Steps into a world of the user's art: she grows giant and her body absorbs most of every blow.
+The user enters a world of their art, becoming giant and absorbing most of the damage they take.
 
 | Stat | Value |
 |---|---|

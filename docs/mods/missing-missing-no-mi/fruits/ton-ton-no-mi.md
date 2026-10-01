@@ -19,7 +19,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/float.png){ .ability-icon } *Active*
 
-Sheds the user's weight: rises into the air and floats there, ready to drop a Vise. The landing after it does no harm.
+The user removes their weight and floats into the air, from where a Vise can be used. The user takes no fall damage after it
 
 | Stat | Value |
 |---|---|
@@ -30,7 +30,7 @@ Sheds the user's weight: rises into the air and floats there, ready to drop a Vi
 
 ![](../abilities/jutton-vise.png){ .ability-icon } *Active*
 
-Takes on ten tonnes in the air and drops on what is below: the higher the fall, the harder the hit.
+While in the air, the user becomes 10 tonnes heavy and falls on the enemies below. The damage is higher the bigger the fall is.
 
 | Stat | Value |
 |---|---|
@@ -44,7 +44,7 @@ Takes on ten tonnes in the air and drops on what is below: the higher the fall, 
 
 ![](../abilities/hyakuton-vise.png){ .ability-icon } *Active*
 
-Takes on a hundred tonnes in the air and drops on what is below: the higher the fall, the harder the hit.
+While in the air, the user becomes 100 tonnes heavy and falls on the enemies below. The damage is higher the bigger the fall is
 
 | Stat | Value |
 |---|---|
@@ -58,7 +58,7 @@ Takes on a hundred tonnes in the air and drops on what is below: the higher the 
 
 ![](../abilities/hakai-no-senton-vise.png){ .ability-icon } *Active*
 
-Takes on a thousand tonnes in the air and drops on what is below, cratering the ground: the higher the fall, the harder the hit.
+While in the air, the user becomes 1000 tonnes heavy and falls on the enemies below, creating a crater. The damage is higher the bigger the fall is.
 
 | Stat | Value |
 |---|---|
@@ -72,7 +72,7 @@ Takes on a thousand tonnes in the air and drops on what is below, cratering the 
 
 ![](../abilities/jigoku-no-manton-vise.png){ .ability-icon } *Active*
 
-Takes on ten thousand tonnes in the air and drops on what is below, leaving a great crater: the higher the fall, the harder the hit.
+While in the air, the user becomes 10000 tonnes heavy and falls on the enemies below, creating a huge crater. The damage is higher the bigger the fall is
 
 | Stat | Value |
 |---|---|
@@ -86,7 +86,7 @@ Takes on ten thousand tonnes in the air and drops on what is below, leaving a gr
 
 ![](../abilities/heavy-body.png){ .ability-icon } *Active*
 
-Makes the user tonnes heavy: nothing knocks them back and blows land on iron, but they move slowly and barely jump. Landing on enemies crushes them.
+Makes the user very heavy, they take no knockback and less damage but moves slowly and can barely jump. Landing on enemies damages them.
 
 | Stat | Value |
 |---|---|
@@ -97,8 +97,8 @@ Makes the user tonnes heavy: nothing knocks them back and blows land on iron, bu
 
 | Stat | Value |
 |---|---|
-| Armor Toughness | +4 |
-| Speed | <span class="stat-malus">-0.04</span> |
 | Knockback Resistance | +1 |
+| Armor Toughness | +4 |
 | Jump Height | <span class="stat-malus">-0.6</span> |
+| Speed | <span class="stat-malus">-0.04</span> |
 | Armor | +8 |

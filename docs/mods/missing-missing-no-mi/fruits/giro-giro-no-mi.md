@@ -24,7 +24,7 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/giro-vision.png){ .ability-icon } *Active*
 
-Through her finger-glasses the user sees every creature nearby through walls, with its health. Held long, it makes her hungry.
+The user can see all nearby creatures through walls together with their health. Using it for too long makes the user hungry
 
 | Stat | Value |
 |---|---|
@@ -37,7 +37,7 @@ Through her finger-glasses the user sees every creature nearby through walls, wi
 
 Applies ![](../effect-icons/giro-sight.png){ .effect-mini }[Giro Sight](../effects.md#effect-giro-sight)
 
-Forehead to forehead: reads an enemy's mind - its devil fruit, its abilities and cooldowns - and keeps it in sight through walls. On an ally, sends him her sight instead. A stronger mind can shock her.
+The user reads the mind of an enemy, showing its devil fruit, abilities and cooldowns and keeping it visible through walls. If used on an ally, shares the user's vision with them instead. A stronger enemy can shock the user.
 
 | Stat | Value |
 |---|---|
@@ -47,7 +47,7 @@ Forehead to forehead: reads an enemy's mind - its devil fruit, its abilities and
 
 ![](../abilities/senrigan.png){ .ability-icon } *Active*
 
-The user sends her sight out far round her: every player and boss within 4,000 blocks is marked on her screen a while, with its direction and distance.
+The user extends their vision very far, all players and bosses in 4000 blocks are marked on the screen for a while with their direction and distance
 
 | Stat | Value |
 |---|---|
@@ -60,7 +60,7 @@ The user sends her sight out far round her: every player and boss within 4,000 b
 
 ![Hierro Lagrima: Mekujira](../objects/mekujira.png){ .form-picture }
 
-A tear from each of the user's eyes swells into a whale that rushes at the enemy she looks at.
+A tear from each of the user's eyes turns into a whale that charges at the enemy the user is looking at.
 
 | Stat | Value |
 |---|---|
@@ -72,4 +72,4 @@ A tear from each of the user's eyes swells into a whale that rushes at the enemy
 
 ![](../abilities/giro-insight.png){ .ability-icon } *Passive*
 
-The user sees through everything: invisible creatures near her are not hidden from her.
+The user can see through everything, nearby invisible creatures are visible for them
