@@ -34,6 +34,16 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     [:octicons-arrow-right-24: Read the wiki](mods/inofruits/index.md)
 
+-   ![](assets/icons/missing-missing-no-mi.png){ .card-icon } **Missing Missing no Mi**
+
+    ---
+
+    21 Devil Fruits of One Piece the base mod does not have yet, canon and non-canon, with their techniques.
+
+    **Needs:** Mine Mine no Mi, AkumaLib
+
+    [:octicons-arrow-right-24: Read the wiki](mods/missing-missing-no-mi/index.md)
+
 -   ![](assets/icons/sky-island.png){ .card-icon } **Sky Island**
 
     ---
@@ -70,4 +80,4 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
 These addons are built on **Mine Mine no Mi**, by Wynd and its other authors. They are not affiliated with or endorsed by the Mine Mine no Mi team. *One Piece* belongs to Eiichiro Oda.
 
-The Devil Fruit box icons on the InoFruits pages are Mine Mine no Mi's own textures, shown to identify the boxes. Every other image on this site belongs to Inovactio's mods.
+The Devil Fruit box icons on the InoFruits and Missing Missing no Mi pages are Mine Mine no Mi's own textures, shown to identify the boxes. Every other image on this site belongs to Inovactio's mods.
