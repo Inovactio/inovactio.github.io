@@ -14,7 +14,7 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **2.1.0** |
+| Version documented | **2.2.0** |
 | Mod id | `mineminenomiawakenpath` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-awaken-path) |
 | Changelog | [Every release](changelog.md) |
