@@ -38,6 +38,24 @@ They are **furnished**: a table and chairs, a kitchen whose chimney smokes, beds
 
 The villagers are **sky people of this mod**: eight people, men and women, young and old, with small wings at the shoulders and their hair grown into **antennae**. The **dial merchant** is one of them, in a blue apron behind his counter; he sells the base mod's dials. The White Berets protect them.
 
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Skypiean villager, with wings at the shoulders and antennae of hair](mobs/skypiean.png)
+<figcaption>A Skypiean (one of eight looks)</figcaption>
+</figure>
+
+<figure markdown>
+![The dial merchant, a Skypiean in a blue apron](mobs/skypiean-merchant.png)
+<figcaption>The dial merchant</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom; the buttons change the look.
+
+<div class="model-viewer" data-models="../models/" data-ids="skypiean skypiean-merchant"></div>
+
 Villages generated before 0.3.0 keep the base mod's Skypieans and their old houses.
 
 ### Cloud farmland
@@ -60,16 +78,20 @@ Skypiea's police. Every village has their **post** — a small tower of white st
 <div class="mob-gallery" markdown>
 
 <figure markdown>
-![A White Beret captain](mobs/white-beret-captain.png)
+![A White Beret Captain, in a long coat over the uniform](mobs/white-beret-captain.png)
 <figcaption>The White Beret Captain</figcaption>
 </figure>
 
 <figure markdown>
-![A White Beret recruit](mobs/white-beret-guard.png)
+![A White Beret Guard, in uniform and beret](mobs/white-beret-guard.png)
 <figcaption>A White Beret Guard</figcaption>
 </figure>
 
 </div>
+
+In 3D: drag to turn, scroll or pinch to zoom; the buttons change the look.
+
+<div class="model-viewer" data-models="../models/" data-ids="white-beret-guard white-beret-captain"></div>
 
 ## Angel Beach
 
