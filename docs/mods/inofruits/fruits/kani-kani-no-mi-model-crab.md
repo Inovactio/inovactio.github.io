@@ -9,6 +9,7 @@
 | **Chance per opening** | wooden **2.32%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 4: 4 active, 0 passive |
 | **Transformations** | [Kani Kani Guard Point](#kani-kani-guard-point), [Kani Kani Heavy Point](#kani-kani-heavy-point) |
+| **Amplified by Kani Kani Heavy Point** | [Hasamikomi](#hasamikomi) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -48,6 +49,8 @@ Dashes with a burst of speed and no wind up, sideways when in the shell form
 ## Hasamikomi { #hasamikomi }
 
 ![](../abilities/hasamikomi.png){ .ability-icon } *Active*
+
+While [Kani Kani Heavy Point](#kani-kani-heavy-point) is active, this ability is amplified: it becomes ![](../abilities/hasamikomi-amplified.png){ .ability-mini }**Oo Hasamikomi**.
 
 Grabs whatever is in front of the user with a claw and drags it around.
 

@@ -10,6 +10,8 @@
 | **Chance per opening** | iron **2.26%**, wooden **0.113%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 5: 5 active, 0 passive |
 | **Transformations** | [Suji Suji Upper Point](#suji-suji-upper-point), [Suji Suji Lower Point](#suji-suji-lower-point), [Suji Suji Full Point](#suji-suji-full-point) |
+| **Amplified by Suji Suji Upper Point** | [Hasai](#hasai) |
+| **Amplified by Suji Suji Lower Point** | [Choyaku](#choyaku) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -48,6 +50,8 @@ Muscle fibers grow over the whole body, hitting harder and moving faster but les
 
 ![](../abilities/hasai.png){ .ability-icon } *Active*
 
+While [Suji Suji Upper Point](#suji-suji-upper-point) is active, this ability is amplified: it becomes ![](../abilities/hasai-amplified.png){ .ability-mini }**Gou Hasai**.
+
 Punches forward sending a shockwave that goes through enemies and walls.
 
 With the arm fibers it reaches further and goes through stone.
@@ -64,6 +68,8 @@ With the arm fibers it reaches further and goes through stone.
 ## Choyaku { #choyaku }
 
 ![](../abilities/choyaku.png){ .ability-icon } *Active*
+
+While [Suji Suji Lower Point](#suji-suji-lower-point) is active, this ability is amplified: it becomes ![](../abilities/choyaku-amplified.png){ .ability-mini }**Gou Choyaku**.
 
 The user jumps a long way with their legs, hitting whatever is under them when landing
 

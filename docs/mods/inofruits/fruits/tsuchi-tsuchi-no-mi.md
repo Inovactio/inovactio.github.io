@@ -10,6 +10,7 @@
 | **Chance per opening** | golden **3.65%**, iron **0.183%**, wooden **0.009%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 7 active, 2 passive |
 | **Transformations** | [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) |
+| **Amplified by Tsuchi Tsuchi Golem** | [Jibashiri](#jibashiri), [Kabe](#kabe), [Nomikomi](#nomikomi), [Tsubute](#tsubute), [Ryusa](#ryusa), [Jisuberi](#jisuberi) |
 | **Effects applied** | ![](../effect-icons/nomikomi.png){ .effect-mini }[Nomikomi](../effects.md#effect-nomikomi) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -37,6 +38,8 @@ Allows the user to move through specific blocks based on their element
 
 ![](../abilities/jibashiri.png){ .ability-icon } *Active*
 
+While [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) is active, this ability is amplified: it becomes ![](../abilities/jibashiri-amplified.png){ .ability-mini }**Dai-Jibashiri**.
+
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
@@ -63,6 +66,8 @@ Allows the user to move through specific blocks based on their element
 
 ![](../abilities/kabe.png){ .ability-icon } *Active*
 
+While [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) is active, this ability is amplified: it becomes ![](../abilities/kabe-amplified.png){ .ability-mini }**Dai-Kabe**.
+
 **Modes**
 
 - **Normal Mode**: Raises a wall of packed earth 5 wide and 4 tall, which sinks back down after 12 seconds.
@@ -76,6 +81,8 @@ Allows the user to move through specific blocks based on their element
 ## Nomikomi { #nomikomi }
 
 ![](../abilities/nomikomi.png){ .ability-icon } *Active*
+
+While [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) is active, this ability is amplified: it becomes ![](../abilities/nomikomi-amplified.png){ .ability-mini }**Dai-Nomikomi**.
 
 Applies ![](../effect-icons/nomikomi.png){ .effect-mini }[Nomikomi](../effects.md#effect-nomikomi)
 
@@ -96,6 +103,8 @@ Applies ![](../effect-icons/nomikomi.png){ .effect-mini }[Nomikomi](../effects.m
 ## Tsubute { #tsubute }
 
 ![](../abilities/tsubute.png){ .ability-icon } *Active*
+
+While [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) is active, this ability is amplified: it becomes ![](../abilities/tsubute-amplified.png){ .ability-mini }**Dai-Tsubute**.
 
 | Stat | Value |
 |---|---|
@@ -132,17 +141,19 @@ The user covers themselves in earth, becoming much harder to hurt but much slowe
 
 | Stat | Value |
 |---|---|
-| Toughness | +3 |
-| Max Health | x1.3 |
 | Knockback Resistance | +0.5 |
-| Punch Damage | +6 |
-| Speed | <span class="stat-malus">-0.14</span> |
+| Max Health | x1.3 |
 | Armor | +7 |
 | Attack Speed | <span class="stat-malus">-0.15</span> |
+| Speed | <span class="stat-malus">-0.14</span> |
+| Toughness | +3 |
+| Punch Damage | +6 |
 
 ## Ryusa { #ryusa }
 
 ![](../abilities/ryusa.png){ .ability-icon } *Active*
+
+While [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) is active, this ability is amplified: it becomes ![](../abilities/ryusa-amplified.png){ .ability-mini }**Dai-Ryusa**.
 
 | Stat | Value |
 |---|---|
@@ -171,6 +182,8 @@ The user covers themselves in earth, becoming much harder to hurt but much slowe
 ## Jisuberi { #jisuberi }
 
 ![](../abilities/jisuberi.png){ .ability-icon } *Active*
+
+While [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) is active, this ability is amplified: it becomes ![](../abilities/jisuberi-amplified.png){ .ability-mini }**Dai-Jisuberi**.
 
 | Stat | Value |
 |---|---|

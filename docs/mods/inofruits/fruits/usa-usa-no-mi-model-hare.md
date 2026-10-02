@@ -9,6 +9,7 @@
 | **Chance per opening** | wooden **2.32%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 5: 5 active, 0 passive |
 | **Transformations** | [Usa Usa Walk Point](#usa-usa-walk-point), [Usa Usa Heavy Point](#usa-usa-heavy-point) |
+| **Amplified by Usa Usa Heavy Point** | [Ushiro Geri](#ushiro-geri), [Datto](#datto), [Usagitobi](#usagitobi) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -39,6 +40,8 @@ Transforms the user into a hare hybrid with long ears and hind legs, slower than
 
 ![](../abilities/ushiro-geri.png){ .ability-icon } *Active*
 
+While [Usa Usa Heavy Point](#usa-usa-heavy-point) is active, this ability is amplified: it becomes ![](../abilities/ushiro-geri-amplified.png){ .ability-mini }**Dai Ushiro Geri**.
+
 Kicks the closest target with both hind legs, launching it away and the user the other way
 
 Kicks with a person's legs instead of a hare's, reaching almost twice as far and hitting harder.
@@ -55,6 +58,8 @@ Kicks with a person's legs instead of a hare's, reaching almost twice as far and
 
 ![](../abilities/datto.png){ .ability-icon } *Active*
 
+While [Usa Usa Heavy Point](#usa-usa-heavy-point) is active, this ability is amplified: it becomes ![](../abilities/datto-amplified.png){ .ability-mini }**Dai Datto**.
+
 The hare starts running, outrunning anything on the ground until the ability ends
 
 Longer legs make it last 12 seconds instead of 8.
@@ -67,6 +72,8 @@ Longer legs make it last 12 seconds instead of 8.
 ## Usagitobi { #usagitobi }
 
 ![](../abilities/usagitobi.png){ .ability-icon } *Active*
+
+While [Usa Usa Heavy Point](#usa-usa-heavy-point) is active, this ability is amplified: it becomes ![](../abilities/usagitobi-amplified.png){ .ability-mini }**Dai Usagitobi**.
 
 The hare does a standing jump much higher than the user normally can.
 
