@@ -257,6 +257,7 @@ nav:
       - Getting started: akumalib/getting-started.md
       - Core concepts:
           - akumalib/core-concepts/index.md
+          - The registry: akumalib/core-concepts/registry.md
           - Damage: akumalib/core-concepts/damage.md
           - What the library registers: akumalib/core-concepts/library-registrations.md
           - Morph gates and stats: akumalib/core-concepts/morph-gates-and-stats.md

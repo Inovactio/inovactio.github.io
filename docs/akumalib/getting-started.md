@@ -103,7 +103,7 @@ public class MyMod {
 | `DENSITY_FUNCTION_TYPES`, `BIOME_SOURCES`, `CHUNK_GENERATORS`, `FEATURES`, `PLACEMENT_MODIFIER_TYPES` | terrain of your own: their codecs and types, the instances coming from datagen |
 | `STRUCTURE_TYPES`, `STRUCTURE_PLACEMENT_TYPES`, `STRUCTURE_PIECE_TYPES` | structures; a piece type left unregistered loses its structure on reload |
 
-Put every register you fill on the bus; an empty one on the bus costs nothing.
+Put every register you fill on the bus; an empty one on the bus costs nothing. [The registry](core-concepts/registry.md) lists every `register...` method that fills them.
 
 !!! warning "A deferred register that never reaches the bus fails silently"
     Its entries simply never appear. There is no error and nothing in the log. When your first projectile, effect or sound "does nothing", check this line first.

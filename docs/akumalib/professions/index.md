@@ -196,6 +196,8 @@ A **perk** is a line on the profession's page: what it gives from a level on. De
         .withPerk(1, level -> Component.translatable("mymod.perk.bonus", 20 + level))       // a line that grows
 ```
 
+`getPerks()` gives them back as `Perk(level, text)` records, the text being worked out from the player's level; `getKind()` and `getMaxLevel()` give what the profession was declared with.
+
 The **unlocks** are built on the server and synced to every player when they join and on `/reload` (`ProfessionUnlocks`). The library lists by itself every workstation recipe (at its level), and every `ProfessionSeedsItem` and `ProfessionBlockItem` (at their minimum level: both take one, and refuse a practitioner below it with a message). Add the rest with a provider, registered once:
 
 ```java
