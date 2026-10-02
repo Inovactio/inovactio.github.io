@@ -60,7 +60,7 @@ With every fruit still available, no Luck and only Mine Mine no Mi and Missing M
 - **Fruits already found**: with one fruit per world, a fruit someone already has is skipped and the box looks further down its five rolls, so the remaining fruits come up more often.
 - **Other addons** that add fruits to the boxes share the same odds: each new fruit makes every other one of its box a little rarer.
 
-<small>Figures computed from Mine Mine no Mi 0.11.5's box logic and the boxes as the game loads them with Missing Missing no Mi.</small>
+<small>Figures computed from Mine Mine no Mi 0.11.5's box logic and the boxes as the game loads them with Missing Missing no Mi, then checked against 200,000 simulated openings of each box.</small>
 
 ---
 
