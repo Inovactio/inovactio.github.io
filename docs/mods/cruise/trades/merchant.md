@@ -27,7 +27,7 @@ A Merchant sells to them on better terms:
 
 - from level 1, everything you sell pays **+0.5 % per level**, up to **+25 % at level 50**, where the bonus stops growing;
 - from level 10, the market fills up **half as fast** with what you sell;
-- from level 25, you pay **15 % less** for what you buy from them;
+- from level 25, you pay **15 % less** for what you buy from them (a village cured of its [fever](../village-events.md#a-fever-in-the-village) gives 20 % to those who helped: you keep the better of the two, not both);
 - from level 40, a merchant's purse **no longer limits** what he buys from you (your own Belly cap still does).
 
 Who comes where and when, and what each one buys and for how much: see [Merchants and contracts](../merchants-and-contracts.md).

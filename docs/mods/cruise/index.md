@@ -2,13 +2,13 @@
 
 ![](../../assets/icons/cruise.png){ .mod-icon }
 
-**Cruise Cruise no Mi** brings the professions and the island life of *One Piece: Unlimited Cruise 2* to [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod): fourteen trades to learn, each with its workstation, its perks, its titles and its advancements, and a sea where merchant ships, Sea Kings and wrecks come to you. Fish the seas down to the Sea Kings, net the island's creatures, cook the game's dishes, forge the weapons nobody could make, sew the Straw Hats' outfits, build your crew a boat - and sell it all for Belly. Names, recipes and art follow the game.
+**Cruise Cruise no Mi** brings the professions and the island life of *One Piece: Unlimited Cruise 2* to [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod): fourteen trades to learn, each with its workstation, its perks, its titles and its advancements, villages with their people and their events, and a sea where merchant ships, Sea Kings and wrecks come to you. Fish the seas down to the Sea Kings, net the island's creatures, cook the game's dishes, forge the weapons nobody could make, sew the Straw Hats' outfits, build your crew a boat - and sell it all for Belly. Names, recipes and art follow the game.
 
 | | |
 |---|---|
-| Version documented | **0.2.0** (beta) |
+| Version documented | **0.3.0** (beta) |
 | Mod id | `inocruise` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.2.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/8990337) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.3.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9038114) · [changelog](changelog.md) |
 
 ## Requirements
 
@@ -17,13 +17,13 @@
 | Minecraft | 1.20.1 |
 | Forge | 47 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.5 |
-| [AkumaLib](../../akumalib/index.md) | 2.8.0 or later |
+| [AkumaLib](../../akumalib/index.md) | 4.0.0 or later |
 | JEI or EMI | optional, recommended: every workstation, fish, creature and find shows in them |
 
 Client **and** server.
 
 !!! note "A beta"
-    Everything is playable, but numbers - how often the [events at sea](events-at-sea.md) come, what they carry - may still move with the players' feedback.
+    Everything is playable, but numbers - how often the [village events](village-events.md) and the [events at sea](events-at-sea.md) come, what they carry and pay - may still move with the players' feedback.
 
 ## Solo or Crew
 
@@ -55,7 +55,9 @@ Every trade levels from 1 to 100, with **perks** along the way and a **title** a
 
 ## Across the trades
 
-- **Five [merchants](merchants-and-contracts.md)** come to villages and the wild - the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader - and buy what the trades make, for Belly. Each brings **contracts** that pay above the market.
+- **[Villages](villages.md)**: One Piece villages in the plains and on the coasts, with a market square, a tavern, workshops and a port, people who have their day there, a notice board with five small orders every morning, and Marines. Strike a villager and the village closes to you; kill them all and it dies.
+- **[Village events](village-events.md)**: a concert on the square, a fever to cure with the Chemist's remedies, a swordsmith from Wano who forges the base mod's named blades. Announced in the chat and sold as rumours by the barkeepers.
+- **Five [merchants](merchants-and-contracts.md)** come to the villages' market squares and to the wild - the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader - and buy what the trades make, for Belly. Each brings **contracts** that pay above the market.
 - **The [Auction House](auction-house.md)**: one market for the whole server.
 - **[Treasure hunts](treasure-hunts.md)**: torn maps in chests, in fishing junk and on the merchants' stalls. A Merchant deciphers them; the X leads to a chest, and now and then to a Devil Fruit box.
 - **The [Bestiary and the Log Book](bestiary-and-logbook.md)**: every fish, creature, land and place you find, with rewards as you fill them.

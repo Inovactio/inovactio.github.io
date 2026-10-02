@@ -51,6 +51,8 @@ Open it with the **Log Book** button on the Navigator's page of the professions 
 - **Lands**: every Overworld biome you stand in (+25 Navigator XP for each new one).
 - **Places**: every kind of structure you stand in or come within 8 blocks of, from vanilla, Mine Mine no Mi and other mods, except buried treasure (+50 Navigator XP for each new one).
 
+The book also keeps the **names of the [villages](../villages.md)** you have been to.
+
 Each tenth of a section you complete pays Belly to anyone, and XP to a Navigator: from 500 Belly and 50 XP at 10 % up to 100 000 Belly and 6 000 XP at 100 %. See [Bestiary and Log Book](../bestiary-and-logbook.md).
 
 ## Level 1: the Log Pose
@@ -94,6 +96,7 @@ Where there is no sky (the Nether, the End) the needle does not move. It only fo
 - **Use** it to pick the next kind of place your level opens; use it **crouching** to draw it.
 - It becomes a map ("Sea Chart: Villages") with the nearest such place marked: ocean monuments and woodland mansions with their vanilla icons, the rest with an X. It searches up to 1 600 blocks around.
 - Like a cartographer's map, a chart never leads to a place already charted in the world.
+- The **Villages** kind leads to Cruise's own [villages](../villages.md) first, the nearest not yet charted and still lived in, and to one of Minecraft's villages when there is none in reach. The chart takes a few seconds to draw; the game does not stop meanwhile.
 - Drawing uses one blank chart, gives **20 Navigator XP**, and has a 3-second cooldown.
 - Only a Navigator can draw one; anyone can read, sell or give the drawn map.
 

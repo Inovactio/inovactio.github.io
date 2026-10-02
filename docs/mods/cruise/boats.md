@@ -120,6 +120,7 @@ Only a [Carpenter](trades/carpenter.md) can mend a hull on the water. Anyone els
 
 - Hold a plank of the hull's wood (any planks for a Reinforced hull) and right-click a damaged boat.
 - Each plank restores one timber, or **two** from Carpenter 25. A hull never goes above its full count.
+- Each timber put back pays the Carpenter **2 XP**.
 
 ## Parts
 

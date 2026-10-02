@@ -243,6 +243,8 @@ nav:
           - Navigator: mods/cruise/trades/navigator.md
           - Musician: mods/cruise/trades/musician.md
       - Around the islands:
+          - Villages: mods/cruise/villages.md
+          - Village events: mods/cruise/village-events.md
           - Merchants and contracts: mods/cruise/merchants-and-contracts.md
           - Auction House: mods/cruise/auction-house.md
           - Treasure hunts: mods/cruise/treasure-hunts.md

@@ -48,6 +48,8 @@ Always **at sea**, between **100 and 500 blocks** from a player, on open water d
 2. **off the coast**, with land within 24 blocks;
 3. **out at sea**, anywhere else.
 
+The **merchant ship** goes first to the port of one of Cruise's own [villages](villages.md), when there is one near: it anchors off it, and its arrival names the village. A port on a river is too shallow for it, and it stays away from a dead village.
+
 The chat says which. An event is placed once a player gets near enough for its water to be loaded; until then, only its coordinates exist.
 
 ## The merchant ship
