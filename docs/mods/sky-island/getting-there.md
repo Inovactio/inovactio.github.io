@@ -47,3 +47,5 @@ The height of the fall back is `return_y` in the [configuration](configuration.m
 |---|---|
 | `/geyser` | where the nearest geyser within 64 blocks is, what it is doing and when it erupts |
 | `/geyser now` | makes that geyser erupt at once |
+
+Server builders can also place a geyser of their own: the **Knock-Up Stream block**, on the [Configuration](configuration.md#for-server-builders) page.

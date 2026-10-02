@@ -30,6 +30,18 @@ The dials the sea leaves on the shore of the Angel Islands.
 | `dial_chance` | `2000` | One random tick in this many, on a beach surface, lays a dial. `0` turns it off. |
 | `dial_cap` | `2` | The most dials a stretch of beach (8 blocks around) holds at once. |
 
+## For server builders
+
+### The Knock-Up Stream block
+
+A geyser you place by hand: **creative only** (the Skypiea tab), no recipe, and it cannot be mined or blown up in survival. Placed on the sea floor or on dry land, it follows the geysers' rhythm, answers `/geyser` and `/geyser now`, and sends whatever stands in its column to Skypiea **at its own X and Z**. The arrival is yours to build there.
+
+### `builders`
+
+| Setting | Default | What it does |
+|---|---|---|
+| `empty_skypiea` | `false` | `true` gives a Skypiea with **nothing in it**: no cloud sea, no island, no village, no animal, and no Knock-Up Stream in the overworld. The sky and the fall back to the overworld stay. Only chunks generated after the change follow it: set it before the world is first opened (in `defaultconfigs/inosky-server.toml`), or with the server stopped. |
+
 ## Commands
 
 | Command | Permission | What it does |

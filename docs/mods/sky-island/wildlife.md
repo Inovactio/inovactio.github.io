@@ -1,6 +1,6 @@
 # Wildlife
 
-Skypiea's animals, after the manga: two birds you can ride, a living compass, and two companions. All of them come down on solid ground in the light, never on leaves; nothing spawns on the beach or the cloud sea, and **no monster spawns anywhere in Skypiea**.
+Skypiea's animals, after the manga: two birds you can ride, a living compass, two companions, the fish of the cloud sea, and the three predators of the Upper Yards. **No vanilla monster spawns anywhere in Skypiea.**
 
 | Animal | Where | Tamed with | What it is |
 |---|---|---|---|
@@ -10,7 +10,13 @@ Skypiea's animals, after the manga: two birds you can ride, a living compass, an
 | **Cloud Fox** | Angel Islands | fish | a companion |
 | **Giant Dog** | Upper Yards only, very rare | raw meat | a guard and a mount |
 
-All five have spawn eggs in the **Skypiea** creative tab.
+| **Sky Fish**, **Balloon Sky Fish**, **Giant Sky Fish** | the cloud sea | — | [the fish of the sea](#the-cloud-sea) |
+| **Sky Lobster** | Angel Beaches | — | a lobster on the beach |
+| **Cloud Wolf** | Upper Yards only | cooked meat | [a predator](#the-predators-of-the-upper-yards), and a companion once tamed |
+| **Sky Shark** | Upper Yards only | — | a predator of the air |
+| **Sky Lamprey** | Upper Yards only, rare | — | a giant ambusher |
+
+All of them have spawn eggs in the **Skypiea** creative tab.
 
 ## In 3D
 
@@ -188,6 +194,123 @@ The fox and the dog are born in one of **five coats** and keep it for life; the 
 </figure>
 
 </div>
+
+## The cloud sea
+
+The sea is translucent: its fish are seen from above, swimming close under the surface.
+
+| Creature | Where | How it shows itself | Drops |
+|---|---|---|---|
+| **Sky Fish** | the cloud sea, in shoals of two to four | leaps out of the sea | a cod |
+| **Balloon Sky Fish** | the cloud sea, rare | floats with its back out of the sea | a pufferfish |
+| **Giant Sky Fish** | the cloud sea, far apart | its fan cuts the surface, and it breaches now and then | four to six cod |
+| **Sky Lobster** | the Angel Beaches | walks the beach | a salmon |
+
+<div class="model-viewer" data-models="../models/" data-ids="sky-fish balloon-sky-fish sky-lobster"></div>
+
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Sky Fish](mobs/sky-fish.png)
+<figcaption>The Sky Fish</figcaption>
+</figure>
+
+<figure markdown>
+![A Balloon Sky Fish](mobs/balloon-sky-fish.png)
+<figcaption>The Balloon Sky Fish</figcaption>
+</figure>
+
+<figure markdown>
+![A Sky Lobster](mobs/sky-lobster.png)
+<figcaption>The Sky Lobster</figcaption>
+</figure>
+
+</div>
+
+None of them fights. They are not vanilla fish: the cloud sea is not water, and a vanilla fish would suffocate in it.
+
+**Fishing**: a fishing rod works in the cloud sea — the bobber floats and fish bite. What you catch is the game's own fishing loot, unless another mod changes it.
+
+## The predators of the Upper Yards
+
+Three beasts hunt in the [Upper Yards](upper-yards.md), and nowhere else. They are there with the land, like the birds, and attack nobody in Peaceful.
+
+| Predator | How many | Health | Attack | What it does |
+|---|---|---|---|---|
+| **Cloud Wolf** | packs of two or three | 30 | 4 | hunts on sight; can be tamed |
+| **Sky Shark** | twos and threes, rarer | 24 | 5 | swims the air; goes for the wounded |
+| **Sky Lamprey** | alone, rare | 120 | 8 | lies in wait, bites and holds |
+
+<div class="model-viewer" data-models="../models/" data-ids="cloud-wolf sky-shark sky-lamprey"></div>
+
+### The Cloud Wolf
+
+A wolf that walks on two legs: lilac grey with a great white ruff and tail, narrow yellow eyes. Three coats: **lilac** (the manga's), **storm** and **snow**.
+
+<div class="mob-gallery small" markdown>
+
+<figure markdown>
+![A Cloud Wolf, lilac coat](mobs/cloud-wolf.png)
+<figcaption>lilac</figcaption>
+</figure>
+
+<figure markdown>
+![A Cloud Wolf, storm coat](mobs/cloud-wolf-storm.png)
+<figcaption>storm</figcaption>
+</figure>
+
+<figure markdown>
+![A Cloud Wolf, snow coat](mobs/cloud-wolf-snow.png)
+<figcaption>snow</figcaption>
+</figure>
+
+</div>
+
+- **It hunts.** A wild wolf goes for any player it sees, and a wolf that is struck calls its pack.
+- **It can be tamed** with **cooked meat** (beef, pork, mutton, chicken or rabbit): one try in three. A tamed wolf follows its owner, fights for them, sits when told, and no longer hunts players.
+- Weaker than a Shandia, but faster: one is a nuisance, three are a fight. 2 armor.
+- **Drops**: leather (none to two) and meat (one or two).
+
+### The Sky Shark
+
+A shark that **swims the air** a few blocks over the ground: long and thin, navy blue with pale tiger stripes.
+
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Sky Shark](mobs/sky-shark.png)
+<figcaption>The Sky Shark</figcaption>
+</figure>
+
+</div>
+
+- **It goes for blood.** A player it sees within 12 blocks is prey; a **wounded** one — three quarters of their health or less — draws it from 32 blocks, and it leaves a whole prey for a bleeding one.
+- A wounded Sky Shark is prey to the others too.
+- **Drops**: one or two cod.
+
+### The Sky Lamprey
+
+A giant: a pale tube as thick as a tree, four and a half blocks tall, with a round maroon mouth ringed with teeth.
+
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Sky Lamprey, risen](mobs/sky-lamprey.png)
+<figcaption>Risen</figcaption>
+</figure>
+
+<figure markdown>
+![A Sky Lamprey bent over its prey](mobs/sky-lamprey-striking.png)
+<figcaption>Striking</figcaption>
+</figure>
+
+</div>
+
+- **It lies in wait**, sunk in the ground: only the ring of its teeth shows. It rises when a player comes within 7 blocks, and sinks back after ten seconds alone.
+- **It bites and holds.** Within 4.5 blocks of its foot it bites, lifts its prey off the ground in its mouth and **holds it for three seconds**, biting twice more. The prey cannot climb out.
+- **A blow frees the prey**: a hit of 4 damage or more on the lamprey — from the prey or from a friend — makes it let go at once. After a hold it rests five seconds.
+- It never moves from its spot and cannot be pushed. 4 armor: as tough as a Shandia chief.
+- **Drops**: three to five salmon.
 
 ## Drops
 

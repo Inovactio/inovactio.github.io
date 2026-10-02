@@ -2,6 +2,100 @@
 
 Every Sky Island release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/all).
 
+## 0.3.0 (beta) { #v0-3-0 }
+
+<small>Released @@DATE@@ · [Download](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/@@FILE_ID@@)</small>
+
+<div class="changelog-body" markdown="0">
+<p>The biggest update so far. <strong>Weatheria</strong>, the weather scientists' floating island, with Haredas at home and weather for sale. <strong>Sky people of our own</strong>: Skypieans, White Berets and Shandias with their own faces and wings, and Shandias armed with bows, pistols, rifles and shields. <strong>The waver</strong> and the <strong>Milky Roads</strong> to travel between islands. <strong>A cloud sea you can see into</strong>, with fish in it. <strong>Three predators</strong> in the Upper Yards. <strong>Villages rebuilt</strong>, house by house. And Skypiea generates two to three times faster.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi</strong> 0.11.5 and <strong>AkumaLib 4.0.0</strong> or newer (was 2.6.1). Client and server.</p>
+<p>⚠️ <strong>Still a beta</strong>: worlds are generated from this version's rules. Chunks already explored keep what they have. Everything new that belongs to the land (Weatheria, the Milky Roads, the new houses, the solid island feet) appears only in places you have not been to yet.</p>
+<hr />
+<h3>New: Weatheria</h3>
+<ul>
+<li><strong>A floating island of four cloud tiers</strong> on a great glass bubble, green on top. Rare: about one for ten islands. It hangs over land as well as over the sea, and no geyser leads to it: fly there.</li>
+<li><strong>The scientists' town</strong>: Haredas's tower at the summit, pinwheel windmills, houses, the observatory's glass sphere, the Weather Ball garden and the balloon terminal, joined by white stairs with glass railings.</li>
+<li><strong>Paths and scenery</strong>: white promenades, lamp posts and benches facing the view, trimmed trees and cloud trees, flower beds, a snowy corner with its snowman, a sunny corner of sunflowers, a weather station.</li>
+<li><strong>Its people</strong>: old scientists in wizard robes and pointed hats, twelve looks. They keep to their homes and flee when struck.</li>
+<li><strong>Haredas</strong>, the master of the Art of Weather, as the anime shows him: blue robe, great white beard, floppy hat, small wings pointing down. He still teaches the Art of Weather, on Weatheria and on the climate terrace of the villages that have one (one village in three now).</li>
+<li><strong>Weather for sale</strong>: the Weather Vendor at the balloon terminal sells the weather of the Blue Sea below - clear sky (1,000,000 extol, 15 min), rain (1,500,000, 10 min) or a thunderstorm (3,000,000, 5 min). One sale a day at each booth.</li>
+<li><strong>Weather Cloud</strong>, a new block: it drizzles, snows or blows a breeze. Two cut clouds and a bucket of water make two; click one with a snowball, a feather or a bucket of water to change its weather.</li>
+<li>Cloud foxes and sheep live on the island. Its chests hold a Devil Fruit box now and then.</li>
+</ul>
+<h3>New: sky people of our own</h3>
+<ul>
+<li><strong>Wings of our own</strong>: small round-feathered wings for the Skypieans, long swept-back ones for the Shandias. They fold at rest, open when walking and beat in the air. The Shandias no longer wear the Skypieans' antennae.</li>
+<li><strong>Skypiean villagers</strong>: eight people, men and women, young and old, with their hair grown into antennae. The dial merchant is one of them, behind his counter - and still sells the base mod's dials.</li>
+<li><strong>White Berets</strong>: eight faces under the same uniform, for guards and captains alike.</li>
+</ul>
+<h3>New: armed Shandias</h3>
+<ul>
+<li>A warrior now carries one of six weapons: spear, <strong>bow</strong>, <strong>twin pistols</strong>, <strong>rifle</strong>, <strong>shield and spear</strong>, or bazooka. Each fights its own way: archers and gunmen keep their distance, the rifleman aims before he fires (you see his line of sight), the shield-bearer guards his front, walks ahead of the others and can send projectiles back.</li>
+<li><strong>Shandia Bow</strong> and <strong>Shandia Shield</strong>: two new items, usable by players.</li>
+<li><strong>The Shandia spear has a 3D model</strong> in hand, for players and warriors, and a redrawn icon.</li>
+<li>Shandias never hit each other with their arrows and bullets.</li>
+</ul>
+<h3>New: the waver and the Milky Roads</h3>
+<ul>
+<li><strong>The waver</strong>, Skypiea's cloud-sea scooter: one rider, standing at the handlebars. Faster than a boat (about 13 blocks a second against 8), it glides on cloud as on the sea and climbs one-block steps.<ul>
+<li>Craft it with an iron ingot, planks and a <strong>Breath Dial</strong>, or buy it from the <strong>Waver Dealer</strong> at the seafront's dial workshop.</li>
+</ul>
+</li>
+<li><strong>Milky Roads</strong>: every island is now linked to its nearest neighbour by a road of <strong>milky cloud</strong>, five blocks wide. It follows the sea where there is one and bridges the void where there is none, then climbs onto the island.</li>
+</ul>
+<h3>New: life in the cloud sea</h3>
+<ul>
+<li><strong>The cloud sea is translucent</strong>: you can see what swims in it.</li>
+<li><strong>Sky Fish</strong> in shoals, leaping out of the sea; the rare <strong>Balloon Sky Fish</strong>, floating with its back out; the <strong>Giant Sky Fish</strong>, whose fan cuts the surface; the <strong>Sky Lobster</strong> on the Angel Beaches. They drop fish.</li>
+<li><strong>A fishing rod works in the cloud sea</strong>: the bobber floats and fish bite.</li>
+<li><strong>Sea Cloud Bucket</strong>: an empty bucket takes a block of sea cloud, the full one lays it back, like powder snow. Sea cloud broken by hand no longer drops itself.</li>
+<li><strong>Sea cloud waters cloud farmland.</strong></li>
+</ul>
+<h3>New: the predators of the Upper Yards</h3>
+<ul>
+<li><strong>The Cloud Wolf</strong>: a wolf on two legs, in packs of two or three. It hunts players on sight, and a wolf that is struck calls its pack. It can be <strong>tamed</strong> with cooked meat (one try in three): it then follows you, fights for you and sits when told. Three coats. Weaker than a Shandia, but faster.</li>
+<li><strong>The Sky Shark</strong>: a shark that swims the air, in twos and threes. It goes for blood: a wounded player draws it from far away, and it will even turn on a wounded shark.</li>
+<li><strong>The Sky Lamprey</strong>: a giant that waits sunk in the ground, with only its ring of teeth showing. Come too close and it rises, <strong>bites and holds you in its mouth</strong> for three seconds. Strike it hard - you or a friend - and it lets go. Rare, alone, and as tough as a Shandia chief.</li>
+</ul>
+<h3>New: villages rebuilt</h3>
+<ul>
+<li><strong>Five house shapes</strong> instead of three: the family house, a two-storey house with a balcony, the fisherman's house with its catch drying, a round house under a dome, a house with a gallery. Each draws its roof colour - turquoise, coral, amber or lilac - with shutters and a door painted to match, and its own walls.</li>
+<li><strong>Houses are furnished</strong>: table and chairs, a kitchen with a smoking chimney, beds, shelves, carpets, flowers at the windows.</li>
+<li><strong>The trades have their colours</strong>: an amber inn with a bar and rooms upstairs, a coral dial shop, a White Berets' post like a small white tower, a lilac dial workshop on the seafront.</li>
+<li><strong>Streets show</strong>: an oak border along the paving and lamp posts. Windows look like windows: cloud glass is redrawn with a wooden frame.</li>
+<li><strong>New blocks</strong>, all craftable: Coral, Amber and Lilac <strong>Shell Tiles</strong> and stairs; painted <strong>Shutters</strong> and <strong>Doors</strong> in four colours; Turquoise, Amber and Lilac <strong>Awning Cloth</strong>; <strong>Gilded Stone Bricks</strong>.</li>
+<li>Seafront buildings now stand on their own stretch of beach instead of in the sea.</li>
+</ul>
+<h3>For server builders</h3>
+<ul>
+<li><strong>Knock-Up Stream block</strong> (creative only): placed anywhere, it erupts with the geysers and sends whoever stands on it to Skypiea, at the same place.</li>
+<li><strong>An empty Skypiea</strong>: <code>empty_skypiea = true</code> in <code>inosky-server.toml</code> gives a Skypiea with no sea, no island and no geyser, to build your own. Set it before the world is first opened.</li>
+<li>Public biome tags for other mods and datapacks: <code>inosky:is_skypiea</code>, <code>is_cloud_sea</code>, <code>is_angel_island</code>, <code>is_upper_yard</code>.</li>
+</ul>
+<h3>Changes</h3>
+<ul>
+<li><strong>Skypiea generates two to three times faster.</strong> The land itself is unchanged.</li>
+<li><strong>Shandora gives about half the boxes it gave</strong> (4 a city instead of 8). The Golden Boxes are spared: more of the boxes you find are golden. This also reaches unopened chests in existing worlds.</li>
+<li><strong>Shandora's walls</strong> are inlaid with gilded stone bricks instead of blocks of gold. The crypt keeps its gold.</li>
+<li><strong>More lookouts and camps</strong>: an island gets a White Beret lookout wherever its shore has room, never beside another; an Upper Yard gets several Shandia camps wherever it has the clearings.</li>
+<li><strong>Compatibility checked</strong>: Terralith, and TerraBlender with Biomes O' Plenty - geysers and islands appear as usual. Tectonic is untested.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>An island's foot is solid cloud</strong>: under the waterline an island was made of sea cloud, which you could sink into - and which looked like glass.</li>
+<li><strong>The Shandias' hidden village</strong> no longer sits partly on an island.</li>
+<li><strong>White Beret guards defend the villagers every time</strong>: a guard could ignore an attack that happened while he was stepping down a block.</li>
+<li><strong>Leaves no longer block the Giant Jack's ramp.</strong></li>
+<li>A piece of roof no longer floats in Shandora's great hall, and village counters and tables no longer hover over the floor.</li>
+<li><strong>Valkyrien Skies</strong>: a ship arriving by geyser is never set down across a Milky Road.</li>
+</ul>
+<h3>Known issues</h3>
+<ul>
+<li>Tectonic has not been tested.</li>
+<li>On a slow machine, the translucent cloud sea may cost some frames.</li>
+</ul>
+</div>
+
 ## 0.2.0 (beta) { #v0-2-0 }
 
 <small>Released 2026-09-26 · [Download](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/8975544)</small>
