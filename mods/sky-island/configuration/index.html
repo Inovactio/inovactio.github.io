@@ -4678,6 +4678,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4770,6 +4774,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../getting-around/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting around
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../angel-islands/" class="md-nav__link">
         
   
@@ -4806,6 +4838,34 @@
     
   
     Upper Yards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../weatheria/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weatheria
   
 
     
@@ -4971,6 +5031,45 @@
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#for-server-builders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For server builders
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="For server builders">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-knock-up-stream-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Knock-Up Stream block
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#builders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        builders
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -8735,6 +8834,45 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#for-server-builders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For server builders
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="For server builders">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-knock-up-stream-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Knock-Up Stream block
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#builders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        builders
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#commands" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8881,6 +9019,26 @@
 <td><code>dial_cap</code></td>
 <td><code>2</code></td>
 <td>The most dials a stretch of beach (8 blocks around) holds at once.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="for-server-builders">For server builders<a class="headerlink" href="#for-server-builders" title="Permanent link">&para;</a></h2>
+<h3 id="the-knock-up-stream-block">The Knock-Up Stream block<a class="headerlink" href="#the-knock-up-stream-block" title="Permanent link">&para;</a></h3>
+<p>A geyser you place by hand: <strong>creative only</strong> (the Skypiea tab), no recipe, and it cannot be mined or blown up in survival. Placed on the sea floor or on dry land, it follows the geysers' rhythm, answers <code>/geyser</code> and <code>/geyser now</code>, and sends whatever stands in its column to Skypiea <strong>at its own X and Z</strong>. The arrival is yours to build there.</p>
+<h3 id="builders"><code>builders</code><a class="headerlink" href="#builders" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>empty_skypiea</code></td>
+<td><code>false</code></td>
+<td><code>true</code> gives a Skypiea with <strong>nothing in it</strong>: no cloud sea, no island, no village, no animal, and no Knock-Up Stream in the overworld. The sky and the fall back to the overworld stay. Only chunks generated after the change follow it: set it before the world is first opened (in <code>defaultconfigs/inosky-server.toml</code>), or with the server stopped.</td>
 </tr>
 </tbody>
 </table>
