@@ -4,7 +4,7 @@ Every Sky Island release for Minecraft 1.20.1, newest first, as published on [Cu
 
 ## 0.3.0 (beta) { #v0-3-0 }
 
-<small>Released @@DATE@@ · [Download](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/@@FILE_ID@@)</small>
+<small>Released 2026-10-02 · [Download](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/9038332)</small>
 
 <div class="changelog-body" markdown="0">
 <p>The biggest update so far. <strong>Weatheria</strong>, the weather scientists' floating island, with Haredas at home and weather for sale. <strong>Sky people of our own</strong>: Skypieans, White Berets and Shandias with their own faces and wings, and Shandias armed with bows, pistols, rifles and shields. <strong>The waver</strong> and the <strong>Milky Roads</strong> to travel between islands. <strong>A cloud sea you can see into</strong>, with fish in it. <strong>Three predators</strong> in the Upper Yards. <strong>Villages rebuilt</strong>, house by house. And Skypiea generates two to three times faster.</p>
