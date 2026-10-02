@@ -141,13 +141,13 @@ The user covers themselves in earth, becoming much harder to hurt but much slowe
 
 | Stat | Value |
 |---|---|
-| Knockback Resistance | +0.5 |
+| Toughness | +3 |
 | Max Health | x1.3 |
+| Knockback Resistance | +0.5 |
+| Punch Damage | +6 |
+| Speed | <span class="stat-malus">-0.14</span> |
 | Armor | +7 |
 | Attack Speed | <span class="stat-malus">-0.15</span> |
-| Speed | <span class="stat-malus">-0.14</span> |
-| Toughness | +3 |
-| Punch Damage | +6 |
 
 ## Ryusa { #ryusa }
 
