@@ -24,6 +24,7 @@ Every class here extends a Mine Mine no Mi type and encodes a technique shape th
 | anything that must be used on the ground | `GroundAbility` | [Movement](movement.md) |
 | the flight of a Zoan with two flying forms | `TwoFormFlightAbility` | [Movement](movement.md) |
 | catching a target and holding it | `GrabAbility` | [Grabs](grabs.md) |
+| taking a target along while staying free to move | `CarryAbility` | [Carries](carries.md) |
 | handing the user an item the fruit makes | `ProduceItemAbility` | [Items and blocks](items-and-blocks.md) |
 | turning materials into an item | `CraftingAbility` | [Items and blocks](items-and-blocks.md) |
 | firing a transmutation projectile | `TransmutationAbility` | [Items and blocks](items-and-blocks.md) |

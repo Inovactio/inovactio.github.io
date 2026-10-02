@@ -50,6 +50,24 @@ public class MyAwakenedPointMorphInfo extends MorphInfo
 }
 ```
 
+## Colouring the smoke
+
+The smoke is near-black by default, as on the base mod's awakened Zoans. Its frames are white and the layer tints them, so a form picks its own colour by having its `MorphInfo` implement `IAwakenZoanSmokeLayerColor`:
+
+```java
+public class MyAwakenedPointMorphInfo extends MorphInfo implements IAwakenZoanSmokeLayerColor {
+
+    @Override
+    public int getSmokeLayerColor() {
+        return 0xFFFFFF;    // white clouds
+    }
+
+    // ... the rest of the morph
+}
+```
+
+The value is `0xRRGGBB`. It multiplies the frame like any entity tint, so the world's light still falls on the smoke. A form without the marker gets `IAwakenZoanSmokeLayerColor.DEFAULT_COLOR` (`0x050505`).
+
 !!! tip "Anchor quadrupeds on the head"
     A four-legged model's neck is low and far ahead of the player origin, so placing the smoke with offsets alone means large numbers computed by hand, which break the moment the model moves its head. With `IAwakenZoanSmokeLayerHeadAnchor`, the offsets become small corrections around the neck.
 
