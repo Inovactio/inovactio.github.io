@@ -52,7 +52,7 @@ See the [Musician](trades/musician.md) for the tunes, the instruments and the XP
 
 ## A fever in the village
 
-The people of a village fall ill for a day. **A third of the adults** have it: some keep to their beds, the others drag themselves about. A **doctor** sets up on the square, by the notice board.
+The people of a village fall ill for a day. **A third of the adults** have it: some keep to their beds, the others drag themselves about. A doctor, the **Village Doctor**, sets up on the square, by the notice board.
 
 Right click him to see his list: **three everyday remedies** of the [Chemist](trades/chemist.md)'s, a few of each, among
 
