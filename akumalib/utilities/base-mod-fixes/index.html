@@ -6002,6 +6002,8 @@
       
         
       
+        
+      
     
     
     
@@ -6227,6 +6229,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/held-inputs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Held inputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -6246,6 +6276,8 @@
       
         
           
+        
+      
         
       
         
@@ -6446,6 +6478,34 @@
     
   
     Grabs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/carries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Carries
   
 
     
@@ -8407,6 +8467,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#third-person-camera-inside-a-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Third-person camera inside a block
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#partial-morphs-drawn-at-their-scale-squared" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8632,6 +8703,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#third-person-camera-inside-a-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Third-person camera inside a block
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#partial-morphs-drawn-at-their-scale-squared" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8794,6 +8876,14 @@ up to two blocks aside, without checking where. Mobs often appeared half or full
 spawner (so a spawner in a corridor never puts mobs in the room behind the wall). Which mob, how many and when stay
 the base mod's.</p>
 <p>Turned off, the base mod's own placement runs unchanged.</p>
+<h2 id="third-person-camera-inside-a-block">Third-person camera inside a block<a class="headerlink" href="#third-person-camera-inside-a-block" title="Permanent link">&para;</a></h2>
+<p><em>Since 4.0.0.</em> Always on, client side.</p>
+<p>A Logia travelling through its element, or any <code>LogiaBlockBypassingAbility</code> user inside the blocks it passes
+(Missing Missing no Mi's Ishi Ishi no Mi in stone), saw a close-up of their own skin in third person (F5): the
+vanilla camera stops at the first block behind the head, and that block was the one the player stood in.</p>
+<p>While the player's head is inside a block they may pass through, the camera now ignores the blocks they may pass
+through, and stands at its normal distance. Out of the blocks nothing changes: with their back to a wall, the camera
+still stops at the wall.</p>
 <h2 id="partial-morphs-drawn-at-their-scale-squared">Partial morphs drawn at their scale squared<a class="headerlink" href="#partial-morphs-drawn-at-their-scale-squared" title="Permanent link">&para;</a></h2>
 <p><em>Since 2.11.0.</em> A partial morph (a form drawn over the player, such as a hybrid) that scales itself in its
 <code>preRenderCallback</code> was drawn at the <strong>square</strong> of that scale: a hybrid scaled 1.35 came out at 1.82, well past its box.</p>
