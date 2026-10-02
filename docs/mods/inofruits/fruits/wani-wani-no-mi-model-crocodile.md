@@ -9,6 +9,7 @@
 | **Chance per opening** | iron **2.26%**, wooden **0.113%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 6: 6 active, 0 passive |
 | **Transformations** | [Wani Wani Walk Point](#wani-wani-walk-point), [Wani Wani Heavy Point](#wani-wani-heavy-point) |
+| **Amplified by Wani Wani Walk Point** | [Lunging Bite](#lunging-bite) |
 | **Effects applied** | ![](../effect-icons/belly-crawl.png){ .effect-mini }[Belly Crawl](../effects.md#effect-belly-crawl) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -68,6 +69,8 @@ Requires Wani Wani Heavy Point or Wani Wani Walk Point to be active.
 ## Lunging Bite { #lunging-bite }
 
 ![](../abilities/lunging-bite.png){ .ability-icon } *Active*
+
+While [Wani Wani Walk Point](#wani-wani-walk-point) is active, this ability is amplified: it becomes ![](../abilities/lunging-bite-amplified.png){ .ability-mini }**Crushing Lunge**.
 
 Requires Wani Wani Heavy Point or Wani Wani Walk Point to be active.
 
