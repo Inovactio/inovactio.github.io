@@ -67,8 +67,21 @@ A warrior carries **one of six weapons**; the chief keeps the bazooka.
 | **Shandia shield** and spear | guards its front and walks ahead of the others; bashes with the shield, and can send projectiles back |
 | **Burn bazooka** | the burn bazooka's blast |
 
-The **Shandia spear**, the **Shandia bow**, the **Shandia shield** and the **burn bazooka** are items of this mod; a player can draw the bow and raise the shield. The spear has a 3D model in hand. Warriors never drop their weapons.
+Warriors never drop their weapons. Four of them are items of this mod: see [their weapons in your hands](#the-shandias-weapons-in-your-hands).
 - Few of them at a time: a chief and a warrior on Shandora's square, one in the temple, one in the tower.
+
+## The Shandias' weapons in your hands
+
+The spear and the bazooka have a 3D model of their own: turn them (drag), zoom (scroll or pinch), and change with the buttons.
+
+<div class="model-viewer" data-models="../items/" data-ids="shandia-spear burn-bazooka"></div>
+
+| Weapon | In a player's hands | Where it comes from |
+|---|---|---|
+| **Shandia Spear** | A real weapon: it hits like an iron sword (6 attack damage) but a little slower, lasts as long (250 uses), and takes a sword's enchantments. An anvil mends it with iron ingots. | The chests of the [Shandia camps](#shandia-camps): about one chest in three holds one. |
+| **Burn Bazooka** | A trophy: the jet of fire is the Shandias' own skill, and the item does nothing when used. One per slot. | The same chests, rarely: about one in twelve. |
+| ![](items/shandia-bow.png){ .item-icon }**Shandia Bow** | A bow like any other: draw it and shoot arrows. 384 uses. | Not found in survival in this version: the creative tab only. The camp chests hold an ordinary bow now and then. |
+| **Shandia Shield** | A shield like any other, in the Shandias' red, gold and black: raise it to block, and an axe disables it. 336 uses. | Not found in survival in this version: the creative tab only. |
 
 ## Shandia camps
 
