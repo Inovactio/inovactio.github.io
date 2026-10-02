@@ -23,6 +23,18 @@ the base mod's.
 
 Turned off, the base mod's own placement runs unchanged.
 
+## Third-person camera inside a block
+
+*Since 4.0.0.* Always on, client side.
+
+A Logia travelling through its element, or any `LogiaBlockBypassingAbility` user inside the blocks it passes
+(Missing Missing no Mi's Ishi Ishi no Mi in stone), saw a close-up of their own skin in third person (F5): the
+vanilla camera stops at the first block behind the head, and that block was the one the player stood in.
+
+While the player's head is inside a block they may pass through, the camera now ignores the blocks they may pass
+through, and stands at its normal distance. Out of the blocks nothing changes: with their back to a wall, the camera
+still stops at the wall.
+
 ## Partial morphs drawn at their scale squared
 
 *Since 2.11.0.* A partial morph (a form drawn over the player, such as a hybrid) that scales itself in its

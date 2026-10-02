@@ -263,6 +263,7 @@ nav:
           - Morph gates and stats: akumalib/core-concepts/morph-gates-and-stats.md
           - Amplification: akumalib/core-concepts/amplification.md
           - Charges: akumalib/core-concepts/charges.md
+          - Held inputs: akumalib/core-concepts/held-inputs.md
       - Ability base classes:
           - akumalib/ability-base-classes/index.md
           - Zones: akumalib/ability-base-classes/zones.md
@@ -270,6 +271,7 @@ nav:
           - Passives: akumalib/ability-base-classes/passives.md
           - Movement: akumalib/ability-base-classes/movement.md
           - Grabs: akumalib/ability-base-classes/grabs.md
+          - Carries: akumalib/ability-base-classes/carries.md
           - Items and blocks: akumalib/ability-base-classes/items-and-blocks.md
           - Awakened Zoan: akumalib/ability-base-classes/awakened-zoan.md
       - Animations:
