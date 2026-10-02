@@ -42,16 +42,20 @@ The warriors of Shandora, and their chief, guarding their land. **They attack on
 <div class="mob-gallery" markdown>
 
 <figure markdown>
-![A Shandia warrior with a burn bazooka](mobs/shandia-warrior.png)
+![A Shandia warrior, with wings and skates](mobs/shandia-warrior.png)
 <figcaption>A warrior (one of six looks)</figcaption>
 </figure>
 
 <figure markdown>
-![The Shandia chief](mobs/shandia-chief.png)
+![The Shandia chief, with wings and skates](mobs/shandia-chief.png)
 <figcaption>The chief</figcaption>
 </figure>
 
 </div>
+
+In 3D: drag to turn, scroll or pinch to zoom; the buttons change the look. They are shown without the weapon they carry.
+
+<div class="model-viewer" data-models="../models/" data-ids="shandia-warrior shandia-chief"></div>
 
 - Their skills, from dials: the burn bazooka, impact, a breath dash, a sky step, and the chief's reject.
 - Their arrows and bullets pass through other Shandias: they never hit their own.
