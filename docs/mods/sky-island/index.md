@@ -43,6 +43,7 @@ Client **and** server.
 | **[Angel Islands](angel-islands.md)** | islands of cloud: Skypiean villages, the White Berets, Angel Beach, Heaven's Gate |
 | **[Upper Yards](upper-yards.md)** | the great islands of earth: the Giant Jack, Shandora, the Shandias and their camps |
 | **[Wildlife](wildlife.md)** | the South Bird, two flying mounts, the Cloud Fox and the Giant Dog |
+| **[Blocks](blocks.md)** | the clouds and the village blocks in 3D, with their recipes |
 | **[Configuration](configuration.md)** | the geyser's rhythm, the fall back, the dials; the `/geyser` command |
 
 Skypiea sits **above the overworld's deep oceans** and nowhere else: its islands and its sea of clouds only exist where the overworld below is deep ocean. **The cloud sea** is a sea you swim in and sail on, with a swell; boats float on it.
