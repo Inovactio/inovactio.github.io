@@ -78,7 +78,7 @@ Every Sky Island release for Minecraft 1.20.1, newest first, as published on [Cu
 <li><strong>Shandora gives about half the boxes it gave</strong> (4 a city instead of 8). The Golden Boxes are spared: more of the boxes you find are golden. This also reaches unopened chests in existing worlds.</li>
 <li><strong>Shandora's walls</strong> are inlaid with gilded stone bricks instead of blocks of gold. The crypt keeps its gold.</li>
 <li><strong>More lookouts and camps</strong>: an island gets a White Beret lookout wherever its shore has room, never beside another; an Upper Yard gets several Shandia camps wherever it has the clearings.</li>
-<li><strong>Compatibility checked</strong>: Terralith, and TerraBlender with Biomes O' Plenty - geysers and islands appear as usual. Tectonic is untested.</li>
+<li><strong>Compatibility checked</strong>: Terralith, and TerraBlender with Biomes O' Plenty - geysers and islands appear as usual.</li>
 </ul>
 <h3>Fixes</h3>
 <ul>
@@ -88,11 +88,6 @@ Every Sky Island release for Minecraft 1.20.1, newest first, as published on [Cu
 <li><strong>Leaves no longer block the Giant Jack's ramp.</strong></li>
 <li>A piece of roof no longer floats in Shandora's great hall, and village counters and tables no longer hover over the floor.</li>
 <li><strong>Valkyrien Skies</strong>: a ship arriving by geyser is never set down across a Milky Road.</li>
-</ul>
-<h3>Known issues</h3>
-<ul>
-<li>Tectonic has not been tested.</li>
-<li>On a slow machine, the translucent cloud sea may cost some frames.</li>
 </ul>
 </div>
 

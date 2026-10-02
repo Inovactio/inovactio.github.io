@@ -52,7 +52,7 @@ Skypiea sits **above the overworld's deep oceans** and nowhere else: its islands
 
 ## Compatibility
 
-- **Worldgen mods**: Skypiea reads the overworld's own biomes to find the deep oceans (`minecraft:is_deep_ocean`) and changes nothing in the overworld beyond the geyser. Checked with **Terralith** and with **TerraBlender + Biomes O' Plenty**: geysers and islands appear as usual. Tectonic has not been tested.
+- **Worldgen mods**: Skypiea reads the overworld's own biomes to find the deep oceans (`minecraft:is_deep_ocean`) and changes nothing in the overworld beyond the geyser. Checked with **Terralith** and with **TerraBlender + Biomes O' Plenty**: geysers and islands appear as usual.
 - **Fishing mods**: a fishing rod works in the cloud sea, and what is caught is left to the game's own table or to any mod that listens to the fishing event. The cloud sea is still not water: it does not weaken a Devil Fruit user.
 - **Biome tags**, for other mods and datapacks: `inosky:is_skypiea`, `inosky:is_cloud_sea`, `inosky:is_angel_island`, `inosky:is_upper_yard`.
 - **[Valkyrien Skies 2](https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies)** (optional, 2.4.11 or later): a ship sailed into an erupting Knock-Up Stream rises to Skypiea **with its crew**, lands on open cloud sea and floats on it. A ship that falls out of Skypiea goes back to the overworld with its crew. Anybody seated at the helm arrives standing on the deck. Sky Island never requires Valkyrien Skies.
