@@ -175,3 +175,12 @@
   margin-right: 0.3em;
   image-rendering: pixelated;
 }
+
+/* A block drawn from its model, in front of its name (Sky Island's Blocks page). */
+.md-typeset img.block-icon {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
