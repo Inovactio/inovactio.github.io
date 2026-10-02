@@ -6000,6 +6000,8 @@
       
         
       
+        
+      
     
     
     
@@ -6055,6 +6057,34 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/registry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The registry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -8716,7 +8746,7 @@
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">        </span><span class="p">.</span><span class="na">withTitle</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="w"> </span><span class="s">"mymod.title.cook.25"</span><span class="p">)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">        </span><span class="p">.</span><span class="na">withTitle</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="s">"mymod.title.cook.100"</span><span class="p">)</span>
 </code></pre></div>
-<p>Each is held from its level on, in a profession the player practises, and listed in the <strong>Professions</strong> category, a trade's titles together. Its id is <code>&lt;namespace&gt;:profession/&lt;path&gt;/&lt;level&gt;</code>: <code>AkumaTitles.professionTitleId(profession, level)</code>.</p>
+<p>Each is held from its level on, in a profession the player practises, and listed in the <strong>Professions</strong> category, a trade's titles together. Its id is <code>&lt;namespace&gt;:profession/&lt;path&gt;/&lt;level&gt;</code>: <code>AkumaTitles.professionTitleId(profession, level)</code>. A profession has at most one title per level: <code>getTitles()</code> lists them as <code>LevelTitle(level, translationKey)</code>, and <code>getTitle(level)</code> gives the one granted at exactly that level, or <code>null</code>.</p>
 <h2 id="a-mods-titles">A mod's titles<a class="headerlink" href="#a-mods-titles" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">AkumaTitles</span><span class="p">.</span><span class="na">register</span><span class="p">(</span><span class="n">Title</span><span class="p">.</span><span class="na">builder</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="n">MODID</span><span class="p">,</span><span class="w"> </span><span class="s">"sky_king"</span><span class="p">),</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">                </span><span class="n">Component</span><span class="p">.</span><span class="na">translatable</span><span class="p">(</span><span class="s">"mymod.title.sky_king"</span><span class="p">))</span>
@@ -8787,6 +8817,7 @@
 </tr>
 </tbody>
 </table>
+<p>A <code>Title</code> gives all of it back: <code>getName()</code>, <code>getCategory()</code>, <code>getOrder()</code>, <code>isHidden()</code> and <code>getCondition()</code>.</p>
 <p>Conditions are checked again on every profession progress sync, advancement, login and reload. A condition of your own that changes at another time needs an <code>AkumaTitles.refresh(player)</code>.</p>
 <p>A category's name is the translation of <code>title_category.&lt;namespace&gt;.&lt;path&gt;</code>, or its path, capitalised. <code>akumalib:professions</code> is listed first, <code>akumalib:general</code> (a title's default) last.</p>
 <h2 id="data-pack-titles">Data pack titles<a class="headerlink" href="#data-pack-titles" title="Permanent link">&para;</a></h2>

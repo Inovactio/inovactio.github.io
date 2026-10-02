@@ -6000,6 +6000,8 @@
       
         
       
+        
+      
     
     
     
@@ -6055,6 +6057,34 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/registry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The registry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -7102,6 +7132,17 @@
     <span class="md-ellipsis">
       
         XP from a recipe far below your level
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reading-a-recipes-ingredients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reading a recipe's ingredients
       
     </span>
   </a>
@@ -8672,6 +8713,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#reading-a-recipes-ingredients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reading a recipe's ingredients
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -8900,7 +8952,9 @@
 <p>The profession is not in the recipe: it belongs to the workstation.</p>
 <p>Containers come back: an ingredient with a crafting remainder (a milk bucket gives its bucket back) returns it to the inventory.</p>
 <h3 id="xp-from-a-recipe-far-below-your-level">XP from a recipe far below your level<a class="headerlink" href="#xp-from-a-recipe-far-below-your-level" title="Permanent link">&para;</a></h3>
-<p>A recipe gives its full XP up to <strong>10 levels</strong> above its own. Past that, it loses 10 % of its XP per level, down to a floor of 10 % (and at least 1 XP). A level 5 recipe worth 20 XP gives 20 up to level 15, 18 at level 16, 10 at level 20, and 2 from level 24 on.</p>
+<p>A recipe gives its full XP up to <strong>10 levels</strong> above its own. Past that, it loses 10 % of its XP per level, down to a floor of 10 % (and at least 1 XP). A level 5 recipe worth 20 XP gives 20 up to level 15, 18 at level 16, 10 at level 20, and 2 from level 24 on. <code>recipe.getXpFor(crafterLevel)</code> gives that figure.</p>
+<h3 id="reading-a-recipes-ingredients">Reading a recipe's ingredients<a class="headerlink" href="#reading-a-recipes-ingredients" title="Permanent link">&para;</a></h3>
+<p><code>recipe.getPortions()</code> gives the bill of materials as the screens show it: one <code>Portion(ingredient, count)</code> per different ingredient, in the order it first appears, the same ingredient counted rather than repeated. Five planks are one line, not five slots.</p>
 <h2 id="hooking-the-craft">Hooking the craft<a class="headerlink" href="#hooking-the-craft" title="Permanent link">&para;</a></h2>
 <p><code>ProfessionCraftEvent</code> fires on the Forge bus, server side, once every check passed and before the ingredients are taken. It is cancelable.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nd">@SubscribeEvent</span>
@@ -8970,7 +9024,7 @@
 <h2 id="recipes-to-be-learned">Recipes to be learned<a class="headerlink" href="#recipes-to-be-learned" title="Permanent link">&para;</a></h2>
 <p>A recipe that says <code>"learned": true</code> is not reached by level alone: the player must also have learned it, from a
 <strong>recipe item</strong> found in a chest, bought or given. Until then the workstation does not list it (and refuses it, for a
-client that would ask anyway), and the profession page shows it as "Find its recipe".</p>
+client that would ask anyway), and the profession page shows it as "Find its recipe". In code, <code>recipe.mustBeLearned()</code> tells such a recipe apart.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">{</span><span class="w"> </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mymod:cooking"</span><span class="p">,</span><span class="w"> </span><span class="nt">"level"</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span><span class="w"> </span><span class="nt">"xp"</span><span class="p">:</span><span class="w"> </span><span class="mi">70</span><span class="p">,</span><span class="w"> </span><span class="nt">"learned"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="nt">"ingredients"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="err">...</span><span class="w"> </span><span class="p">],</span><span class="w"> </span><span class="nt">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"item"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mymod:secret_stew"</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">}</span>
 </code></pre></div>
 <p>The item is <code>RecipeItem</code>, or your subclass of it, registered with your own look. A stack carries the recipe's id in

@@ -6,17 +6,17 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A trap is a block set on the ground that, after a while, closes on a creature: the player comes back and collects it. What it can catch is data, so an addon writes a trap block and a few JSON files.">
+        <meta name="description" content="AkumaRegistry is the one object an addon registers everything through: it holds a deferred register for each kind of entry, bound to your mod id, and a register... method for each. Getting started…">
       
       
       
-        <link rel="canonical" href="https://inovactio.github.io/akumalib/entities/traps/">
+        <link rel="canonical" href="https://inovactio.github.io/akumalib/core-concepts/registry/">
       
       
-        <link rel="prev" href="../creatures/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../../professions/">
+        <link rel="next" href="../damage/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Traps - Inovactio's Minecraft Mods</title>
+        <title>The registry - Inovactio's Minecraft Mods</title>
       
     
     
@@ -68,13 +68,13 @@
     
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Inovactio's Minecraft Mods">
-    <meta property="og:title" content="Traps · AkumaLib">
-    <meta property="og:description" content="A trap is a block set on the ground that, after a while, closes on a creature: the player comes back and collects it. What it can catch is data, so an addon writes a trap block and a few JSON files.">
-    <meta property="og:url" content="https://inovactio.github.io/akumalib/entities/traps/">
+    <meta property="og:title" content="The registry · AkumaLib">
+    <meta property="og:description" content="AkumaRegistry is the one object an addon registers everything through: it holds a deferred register for each kind of entry, bound to your mod id, and a register... method for each. Getting started…">
+    <meta property="og:url" content="https://inovactio.github.io/akumalib/core-concepts/registry/">
     <meta property="og:image" content="https://inovactio.github.io/assets/icons/akumalib.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Traps · AkumaLib">
-    <meta name="twitter:description" content="A trap is a block set on the ground that, after a while, closes on a creature: the player comes back and collects it. What it can catch is data, so an addon writes a trap block and a few JSON files.">
+    <meta name="twitter:title" content="The registry · AkumaLib">
+    <meta name="twitter:description" content="AkumaRegistry is the one object an addon registers everything through: it holds a deferred register for each kind of entry, bound to your mod id, and a register... method for each. Getting started…">
     <meta name="twitter:image" content="https://inovactio.github.io/assets/icons/akumalib.png"><meta name="theme-color" content="#7e56c2">
   
 
@@ -97,7 +97,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#traps" class="md-skip">
+        <a href="#the-registry" class="md-skip">
           Skip to content
         </a>
       
@@ -131,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Traps
+              The registry
             
           </span>
         </div>
@@ -5981,8 +5981,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -6014,15 +6016,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../core-concepts/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -6046,7 +6048,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -6063,10 +6065,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../core-concepts/registry/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The registry
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -6082,6 +6111,59 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#names-and-ids" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Names and ids
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-each-method-registers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What each method registers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entity-type-builders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entity type builders
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -6094,7 +6176,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../core-concepts/damage/" class="md-nav__link">
+      <a href="../damage/" class="md-nav__link">
         
   
   
@@ -6122,7 +6204,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../core-concepts/library-registrations/" class="md-nav__link">
+      <a href="../library-registrations/" class="md-nav__link">
         
   
   
@@ -6150,7 +6232,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../core-concepts/morph-gates-and-stats/" class="md-nav__link">
+      <a href="../morph-gates-and-stats/" class="md-nav__link">
         
   
   
@@ -6178,7 +6260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../core-concepts/amplification/" class="md-nav__link">
+      <a href="../amplification/" class="md-nav__link">
         
   
   
@@ -6206,7 +6288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../core-concepts/charges/" class="md-nav__link">
+      <a href="../charges/" class="md-nav__link">
         
   
   
@@ -6755,8 +6837,6 @@
                 
   
   
-    
-  
   
   
     
@@ -6786,15 +6866,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../entities/" class="md-nav__link ">
               
   
   
@@ -6818,7 +6898,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -6838,7 +6918,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../projectiles/" class="md-nav__link">
+      <a href="../../entities/projectiles/" class="md-nav__link">
         
   
   
@@ -6866,7 +6946,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tornadoes/" class="md-nav__link">
+      <a href="../../entities/tornadoes/" class="md-nav__link">
         
   
   
@@ -6894,7 +6974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../creatures/" class="md-nav__link">
+      <a href="../../entities/creatures/" class="md-nav__link">
         
   
   
@@ -6919,37 +6999,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Traps
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../entities/traps/" class="md-nav__link">
         
   
   
@@ -6965,48 +7018,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#declaring-a-trap" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Declaring a trap
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-a-trap-catches" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What a trap catches
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -8586,10 +8597,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#declaring-a-trap" class="md-nav__link">
+  <a href="#names-and-ids" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Declaring a trap
+        Names and ids
       
     </span>
   </a>
@@ -8597,10 +8608,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-a-trap-catches" class="md-nav__link">
+  <a href="#what-each-method-registers" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What a trap catches
+        What each method registers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entity-type-builders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entity type builders
       
     </span>
   </a>
@@ -8671,7 +8693,7 @@
         <a href="../" class="md-path__link">
           
   <span class="md-ellipsis">
-    Entities
+    Core concepts
   </span>
 
         </a>
@@ -8690,68 +8712,241 @@
 
 
 
-<h1 id="traps">Traps<a class="headerlink" href="#traps" title="Permanent link">&para;</a></h1>
-<p>A <strong>trap</strong> is a block set on the ground that, after a while, closes on a creature: the player comes back and collects it. What it can catch is data, so an addon writes a trap block and a few JSON files.</p>
-<h2 id="declaring-a-trap">Declaring a trap<a class="headerlink" href="#declaring-a-trap" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">RegistryObject</span><span class="o">&lt;</span><span class="n">TrapBlock</span><span class="o">&gt;</span><span class="w"> </span><span class="n">TRAPS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MyRegistry</span><span class="p">.</span><span class="na">REGISTRY</span><span class="p">.</span><span class="na">registerBlock</span><span class="p">(</span><span class="s">"Traps"</span><span class="p">,</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">        </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">TrapBlock</span><span class="p">(</span><span class="n">BlockBehaviour</span><span class="p">.</span><span class="na">Properties</span><span class="p">.</span><span class="na">of</span><span class="p">().</span><span class="na">mapColor</span><span class="p">(</span><span class="n">MapColor</span><span class="p">.</span><span class="na">WOOD</span><span class="p">).</span><span class="na">strength</span><span class="p">(</span><span class="mf">0.5F</span><span class="p">).</span><span class="na">noOcclusion</span><span class="p">(),</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">                </span><span class="mi">2400</span><span class="p">,</span><span class="w"> </span><span class="mi">6000</span><span class="p">,</span><span class="w">           </span><span class="c1">// waits 2 to 5 minutes</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">                </span><span class="kc">true</span><span class="p">,</span><span class="w">                 </span><span class="c1">// single use: gone once its catch is collected</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">                </span><span class="n">MyProfessions</span><span class="p">.</span><span class="na">HUNTER</span><span class="w">  </span><span class="c1">// optional: only a Hunter sets and collects it (Solo mode: anyone)</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">        </span><span class="p">));</span>
+<h1 id="the-registry">The registry<a class="headerlink" href="#the-registry" title="Permanent link">&para;</a></h1>
+<p><code>AkumaRegistry</code> is the one object an addon registers everything through: it holds a deferred register for each
+kind of entry, bound to your mod id, and a <code>register...</code> method for each. <a href="../../getting-started/">Getting started</a>
+creates it and puts its registers on the event bus; this page lists what it can register.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">AkumaRegistry</span><span class="w"> </span><span class="n">REGISTRY</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">AkumaRegistry</span><span class="p">(</span><span class="n">MyMod</span><span class="p">.</span><span class="na">MODID</span><span class="p">);</span>
 </code></pre></div>
-<p><code>TrapBlock</code> has a <code>facing</code> and a <code>caught</code> state: give it a model for each (open, and closed on its catch). One AkumaLib block entity type serves every addon's traps.</p>
-<ul>
-<li>Set on sturdy ground, it counts down a random delay in its range, then picks a catch. If nothing lives there, it waits another delay.</li>
-<li>On a catch it switches to <code>caught=true</code> with a sound. A right-click collects it: the creature is made, its variant rolled, and it goes through <code>CatchableCreature.capture</code> with the trap as the tool, so its capture loot table, <code>CreatureCaptureEvent</code> (your XP) and the <code>akumalib:creature_capture</code> advancement trigger all apply.</li>
-<li>Empty: "Nothing in the trap yet." Refused by the creature's <code>canBeCapturedWith</code>: "It got away from the trap." Wrong profession: "Only a %s can use this trap." (placement refused too). Creative players always can.</li>
-</ul>
-<h2 id="what-a-trap-catches">What a trap catches<a class="headerlink" href="#what-a-trap-catches" title="Permanent link">&para;</a></h2>
-<div class="highlight"><span class="filename">data/mymod/trapping/seagull.json</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="nt">"entity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mymod:seagull"</span><span class="p">,</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="nt">"weight"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span><span class="nt">"biomes"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"#minecraft:is_beach"</span><span class="p">,</span><span class="w"> </span><span class="s2">"#minecraft:is_ocean"</span><span class="p">,</span><span class="w"> </span><span class="s2">"minecraft:stony_shore"</span><span class="p">],</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">  </span><span class="nt">"requires_sky"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">  </span><span class="nt">"traps"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"mymod:traps"</span><span class="p">]</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="p">}</span>
-</code></pre></div>
+<h2 id="names-and-ids">Names and ids<a class="headerlink" href="#names-and-ids" title="Permanent link">&para;</a></h2>
+<p>Most methods take a <strong>display name</strong> and derive the registry id from it, the way the base mod does
+(<code>WyHelper.getResourceName</code>): lower case, spaces to <code>_</code>, and <code>, : - ' #</code> dropped. <code>"Ushi Ushi no Mi, Model: Giraffe"</code>
+becomes <code>ushi_ushi_no_mi_model_giraffe</code>.</p>
+<div class="admonition warning">
+<p class="admonition-title">A hyphen disappears from the id</p>
+<p><code>"Knock-Up Core"</code> registers as <code>knockup_core</code>. To keep the two words apart in the id, register <code>"Knock Up Core"</code>
+and write the hyphen in the language file.</p>
+</div>
+<p>The display name is also recorded in <code>getLangMap()</code>, under the translation key the game will look up. Nothing reads
+that map at runtime: it is there for your language data generator, and in a debug environment a key recorded twice
+is reported. Without a generator, write the same keys in <code>en_us.json</code> yourself.</p>
+<h2 id="what-each-method-registers">What each method registers<a class="headerlink" href="#what-each-method-registers" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Field</th>
-<th>Default</th>
-<th>Meaning</th>
+<th>Method</th>
+<th>Registers</th>
+<th>Id</th>
+<th>Translation key recorded</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>entity</code></td>
-<td>required</td>
-<td>a <code>CatchableCreature</code></td>
+<td><code>registerAbility(id, name, core)</code></td>
+<td>an ability core</td>
+<td><code>id</code>, as given</td>
+<td><code>ability.&lt;modid&gt;.&lt;id&gt;</code></td>
 </tr>
 <tr>
-<td><code>weight</code></td>
-<td>10</td>
-<td>against the other catches possible at the same trap</td>
+<td><code>registerAbilityName(key, name)</code></td>
+<td>a name only, for an ability's other names (an <a href="../amplification/">amplified</a> form, a mode)</td>
+<td>none</td>
+<td><code>ability.&lt;modid&gt;.&lt;key&gt;</code>, returned</td>
 </tr>
 <tr>
-<td><code>biomes</code></td>
-<td>anywhere</td>
-<td>ids or <code>#tags</code></td>
+<td><code>registerName(category, key, name)</code></td>
+<td>a name only, in any of the base mod's categories</td>
+<td>none</td>
+<td><code>&lt;category&gt;.&lt;modid&gt;.&lt;key&gt;</code>, returned</td>
 </tr>
 <tr>
-<td><code>requires_sky</code></td>
-<td><code>false</code></td>
-<td>"outside": nothing solid above the trap (leaves allowed: under a tree is outside)</td>
+<td><code>registerFruitItem(name, item)</code></td>
+<td>a Devil Fruit, and its ability group</td>
+<td>from the name</td>
+<td><code>item.&lt;modid&gt;.&lt;id&gt;</code></td>
 </tr>
 <tr>
-<td><code>traps</code></td>
-<td>any trap</td>
-<td>the trap blocks that can make this catch (an enhanced trap for rarer creatures)</td>
+<td><code>registerItem(name, item)</code></td>
+<td>an item</td>
+<td>from the name</td>
+<td><code>item.&lt;modid&gt;.&lt;id&gt;</code></td>
+</tr>
+<tr>
+<td><code>registerSpawnEggItem(entityName, egg)</code></td>
+<td>a spawn egg, <code>&lt;entity&gt;_spawn_egg</code></td>
+<td>from the entity's name</td>
+<td><code>item.&lt;modid&gt;.&lt;id&gt;</code>, as "Spawn <em>entity</em>"</td>
+</tr>
+<tr>
+<td><code>registerBlock(name, block)</code></td>
+<td>a block <strong>and its item</strong></td>
+<td>from the name</td>
+<td><code>block.&lt;modid&gt;.&lt;id&gt;</code></td>
+</tr>
+<tr>
+<td><code>registerBlock(name, block, properties)</code></td>
+<td>the same, with the item's properties</td>
+<td>from the name</td>
+<td><code>block.&lt;modid&gt;.&lt;id&gt;</code></td>
+</tr>
+<tr>
+<td><code>registerBlock(name, block, itemFunction)</code></td>
+<td>the same, with an item of your own class</td>
+<td>from the name</td>
+<td><code>block.&lt;modid&gt;.&lt;id&gt;</code></td>
+</tr>
+<tr>
+<td><code>registerBlockOnly(name, block)</code></td>
+<td>a block with <strong>no item</strong>: nothing can hold it</td>
+<td>from the name</td>
+<td><code>block.&lt;modid&gt;.&lt;id&gt;</code></td>
+</tr>
+<tr>
+<td><code>registerEffect(name, effect)</code></td>
+<td>a status effect</td>
+<td>from the name</td>
+<td><code>effect.&lt;modid&gt;.&lt;id&gt;</code></td>
+</tr>
+<tr>
+<td><code>registerEffect(name, key, effect)</code></td>
+<td>the same, with an id that differs from the name</td>
+<td>from <code>key</code></td>
+<td><code>effect.&lt;modid&gt;.&lt;id&gt;</code></td>
+</tr>
+<tr>
+<td><code>registerEntityType(name, type)</code></td>
+<td>an entity type</td>
+<td>from the name</td>
+<td><code>entity.&lt;modid&gt;.&lt;id&gt;</code></td>
+</tr>
+<tr>
+<td><code>registerEntityType(name, id, type)</code></td>
+<td>the same, with an id of your own</td>
+<td><code>id</code>, as given</td>
+<td><code>entity.&lt;modid&gt;.&lt;id&gt;</code></td>
+</tr>
+<tr>
+<td><code>registerProfession(name, profession)</code></td>
+<td>a <a href="../../professions/">profession</a></td>
+<td>from the name</td>
+<td><code>profession.&lt;modid&gt;.&lt;id&gt;</code></td>
+</tr>
+<tr>
+<td><code>registerAttribute(name, attribute)</code></td>
+<td>an attribute, <code>generic.&lt;id&gt;</code></td>
+<td>from the name</td>
+<td><code>attribute.name.generic.&lt;modid&gt;.&lt;id&gt;</code></td>
+</tr>
+<tr>
+<td><code>registerSound(name)</code></td>
+<td>a sound event of variable range</td>
+<td>from the name</td>
+<td><code>&lt;modid&gt;.subtitle.&lt;id&gt;</code></td>
+</tr>
+<tr>
+<td><code>registerCreativeTab(name, tab)</code></td>
+<td>a creative tab</td>
+<td>from the name</td>
+<td>none: the tab carries its own title</td>
+</tr>
+<tr>
+<td><code>registerMorph(id, morph)</code></td>
+<td>a morph (a Zoan form, a transformation)</td>
+<td><code>id</code>, as given</td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>registerParticleEffect(name, effect)</code></td>
+<td>one of the base mod's particle effects, <code>particle_effect.&lt;modid&gt;.&lt;id&gt;</code></td>
+<td>from the name</td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>registerParticleType(name, type)</code></td>
+<td>a particle type</td>
+<td>from the name</td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>registerMenu(id, menu)</code></td>
+<td>a container menu, for a <a href="../../professions/workstations/">workstation</a> screen</td>
+<td><code>id</code>, as given</td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>registerBlockEntityType(id, type)</code></td>
+<td>a block entity type</td>
+<td><code>id</code>, as given</td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>registerRecipeType(id)</code></td>
+<td>a recipe type, what <code>RecipeManager</code> looks recipes up by</td>
+<td><code>id</code>, as given</td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>registerRecipeSerializer(id, serializer)</code></td>
+<td>a recipe serializer, what a recipe file writes in <code>"type"</code></td>
+<td><code>id</code>, as given</td>
+<td>none</td>
 </tr>
 </tbody>
 </table>
-<p><code>TrapCatches.pick(level, pos, block, random)</code> is what the trap calls, if you need it elsewhere.</p>
+<p>Fluids, structures and the worldgen types have no method of their own: register them on the matching register
+(<code>REGISTRY.FLUIDS.register(...)</code>), listed in <a href="../../getting-started/#3-attach-the-deferred-registers-to-the-event-bus">Getting started</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">A fruit is not an item like the others</p>
+<p>Register a Devil Fruit with <code>registerFruitItem</code>, never <code>registerItem</code>. As a plain item it loads, drops, is eaten
+and grants its abilities, but they are never grouped: the ability menu shows the fruit's moves scattered. Nothing
+logs the difference.</p>
+<p>Its texture goes in <code>assets/&lt;modid&gt;/textures/items/&lt;id&gt;.png</code> (<strong>items</strong>, plural, as the base mod's own), and it
+reaches a Devil Fruit box through a <a href="../../loot-injection/devil-fruit-boxes/">data file</a>: a fruit no box holds is
+named in the log.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">A menu that needs data when it opens</p>
+<p>For a menu that must know something from the server as it opens (the block's position, typically), register
+<code>() -&gt; IForgeMenuType.create(MyMenu::new)</code> and open it with <code>NetworkHooks.openScreen</code>.</p>
+</div>
+<h2 id="entity-type-builders">Entity type builders<a class="headerlink" href="#entity-type-builders" title="Permanent link">&para;</a></h2>
+<p>Three static helpers start an <code>EntityType.Builder</code> with the settings this family of mods uses: tracked from 64
+blocks, velocity sent, updated every tick. They touch no register: pass the built type to <code>registerEntityType</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Helper</th>
+<th>Category</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>AkumaRegistry.createEntityType(factory)</code></td>
+<td><code>MISC</code></td>
+<td>0.6 × 1.8</td>
+</tr>
+<tr>
+<td><code>AkumaRegistry.createEntityType(factory, category)</code></td>
+<td>yours</td>
+<td>0.6 × 1.8</td>
+</tr>
+<tr>
+<td><code>AkumaRegistry.createMobType(factory, category)</code></td>
+<td>yours</td>
+<td>0.6 × 1.8</td>
+</tr>
+<tr>
+<td><code>AkumaRegistry.createProjectileType(factory)</code></td>
+<td><code>MISC</code></td>
+<td>0.75 × 0.75</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">RegistryObject</span><span class="o">&lt;</span><span class="n">EntityType</span><span class="o">&lt;</span><span class="n">MyProjectile</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">MY_PROJECTILE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MyRegistry</span><span class="p">.</span><span class="na">REGISTRY</span><span class="p">.</span><span class="na">registerEntityType</span><span class="p">(</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">        </span><span class="s">"My Projectile"</span><span class="p">,</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">AkumaRegistry</span><span class="p">.</span><span class="na">createProjectileType</span><span class="p">(</span><span class="n">MyProjectile</span><span class="p">::</span><span class="k">new</span><span class="p">).</span><span class="na">build</span><span class="p">(</span><span class="s">"mymod:my_projectile"</span><span class="p">));</span>
+</code></pre></div>
+<p>Change the size with <code>.sized(width, height)</code> on the builder before <code>build</code>.</p>
 
 
 
@@ -8790,7 +8985,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../creatures/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Catchable creatures">
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Core concepts">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -8800,20 +8995,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Catchable creatures
+                Core concepts
               </div>
             </div>
           </a>
         
         
           
-          <a href="../../professions/" class="md-footer__link md-footer__link--next" aria-label="Next: Professions">
+          <a href="../damage/" class="md-footer__link md-footer__link--next" aria-label="Next: Damage">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Professions
+                Damage
               </div>
             </div>
             <div class="md-footer__button md-icon">

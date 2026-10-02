@@ -6000,6 +6000,8 @@
       
         
       
+        
+      
     
     
     
@@ -6055,6 +6057,34 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/registry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The registry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -9338,6 +9368,8 @@ and a recast flushes whatever is left first.</p>
 <h3 id="good-to-know">Good to know<a class="headerlink" href="#good-to-know" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Zones are restored when their holder leaves.</strong> The restore is normally driven by the ability's own ticks, which stop the moment the holder leaves: a disconnect, a dimension change, a server shutdown. The zone registers itself so it can be restored from outside, and the library's <code>SpreadingBlockCleanupHandler</code> does it on <code>PlayerLoggedOutEvent</code>, <code>EntityLeaveLevelEvent</code> and <code>ServerStoppingEvent</code>. You wire nothing. An addon that still ships its own copy of that handler, from before the library had one, can keep it until its next library update: a zone restores once and is found gone the second time.</li>
+<li><strong>Reading the zone from another ability.</strong> <code>getCenterPos()</code> is where the zone was opened (<code>null</code> when it is closed), <code>getCurrentRadius()</code> how far it has spread, <code>getContinuityElapsedTicks()</code> how long it has been open, and <code>getPlacedBlocks()</code> every position it converted and still tracks, as a list that cannot be changed.</li>
+<li><strong>Closing zones from outside.</strong> <code>SpreadingBlockAbility.restoreZonesOf(entity, level)</code> puts back at once every zone that entity holds, and <code>restoreAllZones()</code> every zone of the server. The library calls them itself when a holder leaves and when the server stops; call them from your own code only for a case of your own (an arena that resets, a command).</li>
 <li><strong>Eating your own zone's terrain.</strong> To remove some of the zone's blocks during the zone, call <code>consumePlacedBlocks(entity, positions)</code>. It restores those positions and stops tracking them. Removing the blocks by hand would leave a permanent hole.</li>
 <li><strong>The ragged edge is intentional.</strong> Conversion thins out towards the frontier on purpose, so a zone ends with a scattered rim rather than a clean disc. Genuine holes near the edge, on the other hand, mean the surface window is too small.</li>
 <li><strong>Restoring recomputes the block.</strong> Restoring a block goes through <code>Block.updateFromNeighbourShapes</code>, so connections and properties like <code>snowy</code> are recomputed. Whatever rested on the converted surface (snow layers, flowers, torches) breaks when the block is replaced and does not come back.</li>

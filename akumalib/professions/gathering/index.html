@@ -6000,6 +6000,8 @@
       
         
       
+        
+      
     
     
     
@@ -6055,6 +6057,34 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/registry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The registry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -8733,6 +8763,29 @@
 </tr>
 </tbody>
 </table>
+<p>Three methods answer the same questions from your own code (a tooltip, a harvesting tool, a perk):</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Answers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>isRipe(state)</code></td>
+<td>whether the fruit is at its last stage</td>
+</tr>
+<tr>
+<td><code>picksCleanly(player)</code></td>
+<td>whether this player picks without bruising: no profession set, creative, or practising it</td>
+</tr>
+<tr>
+<td><code>HangingFruitBlock.bonusChance(level)</code></td>
+<td>a practitioner's chance to pick two at that level (0.20 at level 1, 0.75 at most)</td>
+</tr>
+</tbody>
+</table>
 <p>It needs leaves right above it (<code>#minecraft:leaves</code>) and falls with them. What breaking it gives is its block loot table's business.</p>
 <p>To hang fruit in a generated tree, use vanilla's <code>attached_to_leaves</code> decorator in the tree's configured feature, with a randomised <code>age</code> so a new tree carries fruit at every stage:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">"decorators"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
@@ -8781,6 +8834,11 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">MyRegistry</span><span class="p">.</span><span class="na">ITEMS</span><span class="p">.</span><span class="na">register</span><span class="p">(</span><span class="s">"red_fruit_sapling"</span><span class="p">,</span>
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">        </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ProfessionBlockItem</span><span class="p">(</span><span class="n">MyBlocks</span><span class="p">.</span><span class="na">RED_FRUIT_SAPLING</span><span class="p">.</span><span class="na">get</span><span class="p">(),</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Item</span><span class="p">.</span><span class="na">Properties</span><span class="p">(),</span><span class="w"> </span><span class="n">MyProfessions</span><span class="p">.</span><span class="na">FARMER</span><span class="p">));</span>
 </code></pre></div>
+<p>A fourth argument sets the <strong>level</strong> it takes, and <code>or</code> lets a second trade place it at a level of its own: meeting any one requirement is enough.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ProfessionBlockItem</span><span class="p">(</span><span class="n">MyBlocks</span><span class="p">.</span><span class="na">RED_FRUIT_SAPLING</span><span class="p">.</span><span class="na">get</span><span class="p">(),</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Item</span><span class="p">.</span><span class="na">Properties</span><span class="p">(),</span><span class="w"> </span><span class="n">MyProfessions</span><span class="p">.</span><span class="na">FARMER</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">)</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">        </span><span class="p">.</span><span class="na">or</span><span class="p">(</span><span class="n">MyProfessions</span><span class="p">.</span><span class="na">LUMBERJACK</span><span class="p">,</span><span class="w"> </span><span class="mi">20</span><span class="p">)</span>
+</code></pre></div>
+<p><code>canPlace(player)</code> tells whether a player may place it, <code>getProfession()</code> and <code>getMinLevel()</code> give its first requirement, and <code>getRequirements()</code> all of them. A dispenser, which has no player, is let through.</p>
 <p><code>ProfessionSeedsItem</code> does the same for seeds, with a name of their own (vanilla's <code>ItemNameBlockItem</code>, as wheat seeds plant wheat): only the profession sows them.</p>
 <p>The <code>akumalib.fruit.not_ripe</code>, <code>akumalib.fruit.bruised</code>, <code>akumalib.crop.spoiled</code> and <code>akumalib.profession.place_only</code> messages come from AkumaLib's lang.</p>
 <h2 id="what-a-profession-gets-in-jei-and-emi">What a profession gets, in JEI and EMI<a class="headerlink" href="#what-a-profession-gets-in-jei-and-emi" title="Permanent link">&para;</a></h2>
@@ -8791,10 +8849,10 @@
 <li>the level the drop takes above the arrow, and its XP and notes below.</li>
 </ul>
 <p>The drops come from data the client does not have, so they are built on the server. They are sent to every player when they join and on <code>/reload</code>, before the recipes, so the viewers have them when they load. Register the categories and a provider once, at construction:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">ProfessionDrops</span><span class="p">.</span><span class="na">registerCategory</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ProfessionDrops</span><span class="p">.</span><span class="na">Category</span><span class="p">(</span><span class="n">MINING</span><span class="p">,</span><span class="w"> </span><span class="n">MINER_ID</span><span class="p">,</span><span class="w"> </span><span class="s">"mymod.drops.mining"</span><span class="p">,</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">        </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ItemStack</span><span class="p">(</span><span class="n">Items</span><span class="p">.</span><span class="na">IRON_PICKAXE</span><span class="p">),</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ItemStack</span><span class="p">(</span><span class="n">Items</span><span class="p">.</span><span class="na">IRON_PICKAXE</span><span class="p">))));</span>
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">ProfessionDrops</span><span class="p">.</span><span class="na">register</span><span class="p">((</span><span class="n">server</span><span class="p">,</span><span class="w"> </span><span class="n">out</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">MyMiningTable</span><span class="p">.</span><span class="na">entries</span><span class="p">().</span><span class="na">forEach</span><span class="p">(</span><span class="n">entry</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">out</span><span class="p">.</span><span class="na">accept</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ProfessionDrops</span><span class="p">.</span><span class="na">Drop</span><span class="p">(</span>
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">        </span><span class="n">MINING</span><span class="p">,</span><span class="w"> </span><span class="n">entry</span><span class="p">.</span><span class="na">blockStacks</span><span class="p">(),</span><span class="w"> </span><span class="n">entry</span><span class="p">.</span><span class="na">outputs</span><span class="p">(),</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="n">entry</span><span class="p">.</span><span class="na">xp</span><span class="p">(),</span><span class="w"> </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">()))));</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">ProfessionDrops</span><span class="p">.</span><span class="na">registerCategory</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ProfessionDrops</span><span class="p">.</span><span class="na">Category</span><span class="p">(</span><span class="n">MINING</span><span class="p">,</span><span class="w"> </span><span class="n">MINER_ID</span><span class="p">,</span><span class="w"> </span><span class="s">"mymod.drops.mining"</span><span class="p">,</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">        </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ItemStack</span><span class="p">(</span><span class="n">Items</span><span class="p">.</span><span class="na">IRON_PICKAXE</span><span class="p">),</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ItemStack</span><span class="p">(</span><span class="n">Items</span><span class="p">.</span><span class="na">IRON_PICKAXE</span><span class="p">))));</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">ProfessionDrops</span><span class="p">.</span><span class="na">register</span><span class="p">((</span><span class="n">server</span><span class="p">,</span><span class="w"> </span><span class="n">out</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">MyMiningTable</span><span class="p">.</span><span class="na">entries</span><span class="p">().</span><span class="na">forEach</span><span class="p">(</span><span class="n">entry</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">out</span><span class="p">.</span><span class="na">accept</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ProfessionDrops</span><span class="p">.</span><span class="na">Drop</span><span class="p">(</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">        </span><span class="n">MINING</span><span class="p">,</span><span class="w"> </span><span class="n">entry</span><span class="p">.</span><span class="na">blockStacks</span><span class="p">(),</span><span class="w"> </span><span class="n">entry</span><span class="p">.</span><span class="na">outputs</span><span class="p">(),</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="n">entry</span><span class="p">.</span><span class="na">xp</span><span class="p">(),</span><span class="w"> </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">()))));</span>
 </code></pre></div>
 <table>
 <thead>
