@@ -22,6 +22,14 @@ Picking follows the profession, softly:
 | A practitioner (everyone in Solo mode, and creative players) | always the fruit, sometimes two (20 % at level 1, one point more per level, 75 % at most), and the XP |
 | Anyone else | half the time the fruit bruises: nothing drops and the message names the profession; otherwise one fruit, no XP |
 
+Three methods answer the same questions from your own code (a tooltip, a harvesting tool, a perk):
+
+| Method | Answers |
+|---|---|
+| `isRipe(state)` | whether the fruit is at its last stage |
+| `picksCleanly(player)` | whether this player picks without bruising: no profession set, creative, or practising it |
+| `HangingFruitBlock.bonusChance(level)` | a practitioner's chance to pick two at that level (0.20 at level 1, 0.75 at most) |
+
 It needs leaves right above it (`#minecraft:leaves`) and falls with them. What breaking it gives is its block loot table's business.
 
 To hang fruit in a generated tree, use vanilla's `attached_to_leaves` decorator in the tree's configured feature, with a randomised `age` so a new tree carries fruit at every stage:
@@ -69,6 +77,15 @@ A `BlockItem` that only the profession's practitioners can place. Use it for a s
 MyRegistry.ITEMS.register("red_fruit_sapling",
         () -> new ProfessionBlockItem(MyBlocks.RED_FRUIT_SAPLING.get(), new Item.Properties(), MyProfessions.FARMER));
 ```
+
+A fourth argument sets the **level** it takes, and `or` lets a second trade place it at a level of its own: meeting any one requirement is enough.
+
+```java
+() -> new ProfessionBlockItem(MyBlocks.RED_FRUIT_SAPLING.get(), new Item.Properties(), MyProfessions.FARMER, 10)
+        .or(MyProfessions.LUMBERJACK, 20)
+```
+
+`canPlace(player)` tells whether a player may place it, `getProfession()` and `getMinLevel()` give its first requirement, and `getRequirements()` all of them. A dispenser, which has no player, is let through.
 
 `ProfessionSeedsItem` does the same for seeds, with a name of their own (vanilla's `ItemNameBlockItem`, as wheat seeds plant wheat): only the profession sows them.
 

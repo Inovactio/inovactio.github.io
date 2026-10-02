@@ -18,7 +18,7 @@ A player **holds** a title while its condition is met, or once a mod has granted
         .withTitle(100, "mymod.title.cook.100")
 ```
 
-Each is held from its level on, in a profession the player practises, and listed in the **Professions** category, a trade's titles together. Its id is `<namespace>:profession/<path>/<level>`: `AkumaTitles.professionTitleId(profession, level)`.
+Each is held from its level on, in a profession the player practises, and listed in the **Professions** category, a trade's titles together. Its id is `<namespace>:profession/<path>/<level>`: `AkumaTitles.professionTitleId(profession, level)`. A profession has at most one title per level: `getTitles()` lists them as `LevelTitle(level, translationKey)`, and `getTitle(level)` gives the one granted at exactly that level, or `null`.
 
 ## A mod's titles
 
@@ -50,6 +50,8 @@ The builder's other options: `iconTexture` (a square texture of any size, drawn 
 | `TitleCondition.professionLevel(profession, level)` | at that level, practising the profession |
 | `TitleCondition.advancement(id)` | the advancement is done |
 | your own `TitleCondition` | `test(ServerPlayer)` is true |
+
+A `Title` gives all of it back: `getName()`, `getCategory()`, `getOrder()`, `isHidden()` and `getCondition()`.
 
 Conditions are checked again on every profession progress sync, advancement, login and reload. A condition of your own that changes at another time needs an `AkumaTitles.refresh(player)`.
 
