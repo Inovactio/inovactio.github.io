@@ -5551,6 +5551,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -5598,6 +5602,62 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../villages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Villages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../village-events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Village events
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -5896,6 +5956,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v0-3-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        0.3.0: beta
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#v0-2-0" class="md-nav__link">
@@ -8626,6 +8697,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#v0-3-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        0.3.0: beta
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#v0-2-0" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8714,6 +8796,132 @@
 
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
 <p>Every Cruise Cruise no Mi release for Minecraft 1.20.1, newest first, as published on <a href="https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/all">CurseForge</a>.</p>
+<h2 id="v0-3-0">0.3.0: beta<a class="headerlink" href="#v0-3-0" title="Permanent link">&para;</a></h2>
+<p><small>Released 2026-10-02 · <a href="https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9038114">Download</a></small></p>
+<div class="changelog-body" markdown="0">
+<p><strong>The islands are lived in.</strong> One Piece villages rise in the plains and on the coasts: a market square, a tavern,
+workshops, a port, and people who have their day there - civilians and children, Marines, the merchants at their
+stalls. And things happen in them: a concert on the square, a fever to cure, a swordsmith from Wano who forges the
+named blades.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi</strong> 0.11.5 and <strong>AkumaLib 4.0.0</strong> (was 2.8.0). Client
+and server.</p>
+<p>⚠️ <strong>AkumaLib 4.0.0 is needed: an older one is refused at start-up.</strong> AkumaLib 2.8.0 and 2.9.0 made players lose
+their trades' XP or their titles on every death; that is fixed since. AkumaLib 4 also corrects many faults of Mine
+Mine no Mi itself (see its own changelog), and every addon that uses AkumaLib has to be updated with it.</p>
+<p>⚠️ <strong>Update the server and every player together.</strong> The network protocol changed, AkumaLib's and Cruise's: a
+0.3.0 client cannot join a 0.2.0 server, nor the other way round.</p>
+<p>⚠️ <strong>A beta</strong>: everything here is playable, but numbers (how often the events come, what they pay) may still move
+with your feedback. The villages appear in land that has not been explored yet. The concert, the fever and the
+swordsmith can each be turned off, or made to come more or less often, in <code>config/inocruise-common.toml</code>.</p>
+<hr />
+<h3>New: villages</h3>
+<ul>
+<li><strong>One Piece villages.</strong> New villages appear in plains, meadows and on beaches: a market square with a well, a tavern
+  with its barkeeper, four to six trade buildings (restaurant, forge, workshop, laboratory, sewing room, tannery,
+  masonry) and houses. A village by the water has a port, a shipyard and a fisherman's house on stilts, and on
+  the sea a lighthouse; a village inland has a windmill.</li>
+<li><strong>Civilians.</strong> Fishermen, farmers, craftsmen and townspeople live there, one in every house and workshop. They
+  walk about the village by day and go home at night or when danger comes. Right click one to hear what he has to say.</li>
+<li><strong>Children.</strong> Two or three children live in each village. By day they play tag on the market square; they go home
+  before the adults in the evening. Striking a child costs double.</li>
+<li><strong>A day in the village.</strong> The civilians have their day: at work in the morning and the afternoon (the fishermen
+  on the pier, the farmer at the mill, the craftsmen at the workshops), on the market square at noon, at the tavern
+  in the evening, home at night.</li>
+<li><strong>They talk, and they know you.</strong> Two villagers who cross stop for a word. A pirate with a bounty of 100,000 Belly
+  or more is known: people step away from him and have only a wary word. A Marine is welcome.</li>
+<li><strong>Boats at the port.</strong> A fishing boat, and sometimes a dinghy, are moored at the piers of the villages by the
+  sea. You may take one - but the village will call it theft: your bounty rises and the village closes to you for a
+  day.</li>
+<li><strong>A musician at the tavern.</strong> In the evening someone plays at the tavern - a flute, a violin or a guitar, and the
+  Musician's own tunes. Just for the pleasure of it.</li>
+<li><strong>Smoke and a bell.</strong> Smoke rises from the chimneys. A bell on the market square rings at dawn and at dusk: the
+  villagers' day starts and ends with it.</li>
+<li><strong>Every village has a name.</strong> It comes up on your screen as you walk in - Honey Village, Anchor Town, Komura... -
+  and the Navigator's log book keeps the names of the villages you have been to.</li>
+<li><strong>Animals and fields.</strong> The farmhouse keeps animals in its pen, the windmill has its fields of wheat, Bitter Grass
+  and Medicinal Herb, and a cat or a dog hangs about the market square.</li>
+<li><strong>Roads you can walk.</strong> A village on a slope has roads that climb from house to house: every door is joined to the
+  market square, with never more than one block to step up.</li>
+<li><strong>Hands off the villagers.</strong> Striking a civilian raises your bounty, sends the others running home and closes the
+  village to you for a day: its merchants and its notice board will not deal with you. Killing one costs far more,
+  for three days. The Marines nearby come for you.</li>
+<li><strong>The notice board.</strong> On the market square, a board shows five small orders every morning, one for each supplying
+  trade (fishing, hunting, mining, farming, cooking). Bring the goods to be paid in Belly and in XP for the trade;
+  some orders add a small gift. The first to deliver takes the order.</li>
+<li><strong>Marines in the villages.</strong> One village in two has a small Marine post with a few soldiers. A few villages stand
+  next to a large Marine base, with its captains and its prison.</li>
+<li><strong>New inhabitants.</strong> A village does not stay empty after a death. Three days later, at dawn, someone new moves
+  into the house: a fisherman after a fisherman, a child after a child, a musician at the tavern again. They only
+  arrive while nobody is looking. The farm's animals and the cat or dog of the square come back the same way.</li>
+<li><strong>A village can die.</strong> Kill all the people of a village but one, before anyone new has moved in, and the
+  village is dead for good: nobody comes to live there again, the travelling merchants and the merchant ship stay
+  away, its notice board is closed, and its name comes up in grey as an abandoned village. The last inhabitant
+  leaves at dawn. Everyone on the server is told, and the killers share a very large bounty: 25,000 Belly for each
+  inhabitant the village had, split by how many each of them killed.</li>
+<li><strong>Merchants on the market square.</strong> The travelling merchants come to these villages too. They set up at the
+  stalls of the market square, and the Fishmonger on the quay of a village with a port, and they stay there.</li>
+<li><strong>The merchant ship at the port.</strong> The merchant ship now anchors off the port of one of these villages when
+  there is one near, and its arrival names the village. A port on a river is too shallow for it.</li>
+<li><strong>Vanilla villages can be turned off.</strong> A new setting, <code>vanillaVillages</code> in <code>inocruise-common.toml</code>, keeps
+  Minecraft's own villages out of newly explored land, for a world with One Piece villages only. They are kept by
+  default.</li>
+<li><strong>Sea Charts lead to them.</strong> A Navigator's village chart now leads to the nearest of these villages not yet
+  charted. The chart takes a few seconds to draw; the game does not stop meanwhile.</li>
+<li><strong>A concert on the square.</strong> Every five to eight days a small stage goes up on the market square of a village near
+  you, for a day; the chat and the barkeepers' rumours say where. A travelling musician comes with it: he opens the
+  concert and plays between two rests, and the villagers gather before the stage to listen. Step onto the stage and
+  he leaves it to you. A tune played there is for every player within reach, whatever their crew; the villagers count
+  as your audience, up to sixteen listeners, and the tune is worth twice its Musician XP. At his stall he sells two of
+  the lost tunes' score recipes (800 to 9,000 Belly). With a score in your hand, a right click on a villager plays
+  the score instead of starting a chat. How often concerts are held and how long they last are settings (<code>concert</code> in
+  <code>inocruise-common.toml</code>).</li>
+<li><strong>A fever in the village.</strong> Every seven to ten days the people of a village near you fall ill for a day; the chat
+  and the barkeepers' rumours say where. A third of the adults have it: some keep to their beds, the others drag
+  themselves about. A doctor sets up on the square by the notice board. Right click him to see his list: three
+  everyday remedies of the Chemist's (healing candy and tonics, antidote powder), a few of each. Anyone may bring a
+  part; every remedy is paid in Belly and in Chemist XP. When the list is filled the village is cured, and for three
+  days its merchants take 20 % off their stalls for everyone who brought something (a Merchant keeps the better of
+  this and his own Bargain, not both). If nobody helps, the fever passes on its own: nobody dies of it. How often it
+  comes and how long it lasts are settings (<code>fever</code> in <code>inocruise-common.toml</code>).</li>
+<li><strong>A swordsmith from Wano.</strong> Every eight to twelve days a travelling swordsmith stops for two days on the square of
+  a village near you; the chat and the barkeepers' rumours say where. Right click him to see his commissions: four
+  of the base mod's named blades each visit - Sandai Kitetsu, Kikoku, Durandal, and of the Great Grade Wado
+  Ichimonji, Nidai Kitetsu, Shusui, Enma, Ame no Habakiri - which until now only the luck of a trader gave. A
+  commission takes a blade forged by a Blacksmith (a Katana or a Broadsword; a Warabide Sword for a Great Grade
+  blade), Pure Iron Ore, Diamond Fragments (and Dense Kairoseki for the Great Grade), and 10,000 or 20,000 Belly.
+  The blade is ready six in-game hours later; if he has left by then, the next swordsmith hands it over, in any
+  village. What the Blacksmith's own skill had put on his blade passes to the new one. One order at a time. How
+  often he comes and how long he stays are settings (<code>swordsmith</code> in <code>inocruise-common.toml</code>).</li>
+<li><strong>Forged by.</strong> A weapon made at the Forge now carries the name of the Blacksmith who forged it. A blade forged
+  before this version carries no name: the swordsmith does not take it.</li>
+<li>Pirates and bandits no longer appear in the middle of a village.</li>
+</ul>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>The Carpenter can learn his trade.</strong> His first hull, the Reinforced Boat, asked for level 5 and nothing came
+  before it: a Carpenter could not earn any XP at all. It is now his first recipe, at level 1, and mending a hull
+  afloat pays him a little XP too.</li>
+<li><strong>A score recipe bought from a merchant teaches its tune.</strong> Bought on a stall, it came blank and taught nothing.
+  Score recipes are now named after their tune too ("Score Recipe: Binks' Sake").</li>
+<li>
+<p><strong>Merchant ships, whole.</strong> The Amethyst Pearl House's swan has its eyes and its bill again (and no longer drops
+  one on the deck when the ship arrives), every merchant ship has the two lanterns it was missing on its rail, and
+  the wrecks no longer leave a rug floating over a hole.</p>
+</li>
+<li>
+<p><strong>Auction House, safer.</strong> A sale, a listing or a collection is now written to disk at once: a server that stops
+  suddenly no longer brings back a lot that was already sold, or a price that was already collected. A damaged
+  market file no longer empties the whole market. A player in creative mode with a full inventory no longer loses
+  what he collects. A lot can no longer be listed at a price nobody could pay.</p>
+</li>
+<li>
+<p><strong>Treasure chests are buried in the ground again, not in the trees.</strong> A map whose X lay under a tree had its chest
+  stuck in the leaves, above the player's head. The chest now goes into the ground under the tree, as the map says.</p>
+</li>
+</ul>
+</div>
+
 <h2 id="v0-2-0">0.2.0: beta<a class="headerlink" href="#v0-2-0" title="Permanent link">&para;</a></h2>
 <p><small>Released 2026-09-27 · <a href="https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/8990337">Download</a></small></p>
 <div class="changelog-body" markdown="0">

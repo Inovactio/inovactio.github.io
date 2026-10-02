@@ -5551,6 +5551,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -5598,6 +5602,62 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../villages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Villages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../village-events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Village events
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -5881,6 +5941,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#villages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        villages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#merchants" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -5896,6 +5967,17 @@
     <span class="md-ellipsis">
       
         auctionHouse
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#village-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Village events
       
     </span>
   </a>
@@ -8670,6 +8752,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#villages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        villages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#merchants" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8685,6 +8778,17 @@
     <span class="md-ellipsis">
       
         auctionHouse
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#village-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Village events
       
     </span>
   </a>
@@ -8802,6 +8906,23 @@
 </tr>
 </tbody>
 </table>
+<h2 id="villages"><code>villages</code><a class="headerlink" href="#villages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>vanillaVillages</code></td>
+<td><code>true</code></td>
+<td>Whether Minecraft's own villages, with their villagers, still appear beside Cruise's <a href="../villages/">villages</a>. <code>false</code> gives a world with Cruise's villages only: no vanilla village starts in newly explored land. Villages already there stay, and nothing takes their place in the biomes Cruise's villages do not grow in (desert, savanna, taiga, snowy plains). Read when the server or the world starts.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="merchants"><code>merchants</code><a class="headerlink" href="#merchants" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -8875,6 +8996,49 @@
 <td><code>maxListings</code></td>
 <td><code>10</code></td>
 <td>How many lots a player may have up at once.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="village-events">Village events<a class="headerlink" href="#village-events" title="Permanent link">&para;</a></h2>
+<p>One section for each of the <a href="../village-events/">village events</a>, with the same four settings. Days are in-game days (one day = 20 real minutes); the wait between two events of a kind is drawn anew each time, between the two numbers.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th><code>concert</code></th>
+<th><code>fever</code></th>
+<th><code>swordsmith</code></th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td><code>true</code></td>
+<td><code>true</code></td>
+<td>Whether the event comes at all.</td>
+</tr>
+<tr>
+<td><code>leastDaysBetween</code></td>
+<td><code>5</code></td>
+<td><code>7</code></td>
+<td><code>8</code></td>
+<td>The fewest days from one to the next (1 to 365).</td>
+</tr>
+<tr>
+<td><code>mostDaysBetween</code></td>
+<td><code>8</code></td>
+<td><code>10</code></td>
+<td><code>12</code></td>
+<td>The most days from one to the next (1 to 365).</td>
+</tr>
+<tr>
+<td><code>stayHours</code></td>
+<td><code>24</code></td>
+<td><code>24</code></td>
+<td><code>48</code></td>
+<td>How many in-game hours it lasts: the stage stays up, the fever runs if nobody cures it, the swordsmith stays.</td>
 </tr>
 </tbody>
 </table>
