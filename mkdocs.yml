@@ -248,6 +248,7 @@ nav:
           - Treasure hunts: mods/cruise/treasure-hunts.md
           - Bestiary and Log Book: mods/cruise/bestiary-and-logbook.md
           - Boats: mods/cruise/boats.md
+          - Blocks: mods/cruise/blocks.md
           - Events at sea: mods/cruise/events-at-sea.md
       - Configuration: mods/cruise/configuration.md
       - Changelog: mods/cruise/changelog.md
