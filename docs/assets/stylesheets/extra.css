@@ -193,3 +193,15 @@
   vertical-align: middle;
   margin-right: 0.4em;
 }
+
+/* A picture of a place, across the text (Sky Island's places). A click opens it full size. */
+.md-typeset figure.place {
+  margin: 1em 0 1.4em;
+  width: 100%;
+}
+
+.md-typeset figure.place img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
+}

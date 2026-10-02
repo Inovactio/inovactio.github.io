@@ -1,12 +1,27 @@
 # Upper Yards
 
+<figure class="place" markdown>
+[![An Upper Yard seen from above its shore: jungle, a massif, and the Giant Jack on it](places/upper-yard.webp)](places/upper-yard.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>An Upper Yard: jungle, a massif, and the Giant Jack.</figcaption>
+</figure>
+
 One island in three is an **Upper Yard**: rarer and far larger than an Angel Island, made of the Blue Sea's earth — the **Vearth** the Skypieans revere. Jungle **plains** around y 100, and **massifs** of rock rising to about 215.
 
 ## The Giant Jack
 
+<figure class="place" markdown>
+[![The Giant Jack towering over its massif, the Golden Bell at its top](places/giant-jack.webp)](places/giant-jack.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>The Giant Jack, and the Golden Bell at its top.</figcaption>
+</figure>
+
 One Upper Yard in three has the **Giant Jack**: a beanstalk that towers over the island from its highest massif, **climbable all the way up** by a ramp around it. At the top hangs the **Golden Bell**, with a chest beneath it — **one or two boxes**, a **Golden Box** in about two chests in five.
 
 ## Shandora, the City of Gold
+
+<figure class="place" markdown>
+[![The Poneglyph on its stepped base in the ruins of Shandora, overgrown by the jungle](places/shandora.webp)](places/shandora.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>Shandora's square: the Poneglyph, over the crypt.</figcaption>
+</figure>
 
 A little over half of the Upper Yards hold the ruins of **Shandora**, sometimes beside a Giant Jack (never within reach of its stalk): a square, avenues, halls, a broken tower, the stepped temple with its altar, and under the square **the crypt beneath the Poneglyph**.
 
@@ -56,6 +71,11 @@ The **Shandia spear**, the **Shandia bow**, the **Shandia shield** and the **bur
 - Few of them at a time: a chief and a warrior on Shandora's square, one in the temple, one in the tower.
 
 ## Shandia camps
+
+<figure class="place" markdown>
+[![A Shandia war camp seen from above: tipis round a fire, under the jungle's canopy](places/shandia-camp.webp)](places/shandia-camp.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>A war camp: tipis round a fire.</figcaption>
+</figure>
 
 **War camps**: two to four per Upper Yard wherever it has the clearings, in clearings of the plains, away from the city, the Giant Jack and the ruins. Four tipis round a fire, a totem, a weapon rack and a lookout, with two warriors.
 

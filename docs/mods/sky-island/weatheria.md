@@ -10,6 +10,11 @@ tags:
 
 # Weatheria
 
+<figure class="place" markdown>
+[![Weatheria floating on its glass bubble](places/weatheria.webp)](places/weatheria.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>Weatheria, on its glass bubble.</figcaption>
+</figure>
+
 The weather scientists' island. Unlike an Angel Island or an Upper Yard, it does not rise out of the cloud sea: it **floats**, a cake of **four tiers of cloud**, green on top, resting on a great **glass bubble**.
 
 - **Rare**: about one Weatheria for ten islands.
@@ -17,6 +22,11 @@ The weather scientists' island. Unlike an Angel Island or an Upper Yard, it does
 - **No Knock-Up Stream leads to it.** Fly there on a [Sky Dot Bird or a Three-Jo Bird](wildlife.md#the-flying-mounts); a [Milky Road](getting-around.md#the-milky-roads) never crosses it.
 
 ## The scientists' town
+
+<figure class="place" markdown>
+[![The scientists' town on Weatheria: Haredas's tower at the summit, white stairs between the tiers](places/weatheria-town.webp)](places/weatheria-town.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>The scientists' town, and Haredas's tower at the summit.</figcaption>
+</figure>
 
 | Where | What stands there |
 |---|---|
