@@ -40,7 +40,7 @@ The islands are lived in. **One Piece villages** rise in the plains, in the mead
 | **Inland** | a windmill, with its fields of wheat, Bitter Grass and Medicinal Herb. |
 | **The farm** | animals in its pen; a cat or a dog hangs about the square. |
 
-A village on a slope has roads that climb from house to house: every door is joined to the market square, with never more than one block to step up. Smoke rises from the chimneys, and the bell rings at dawn and at dusk.
+A village on a slope has roads that climb from house to house: every door is joined to the market square, with never more than one block to step up. Smoke rises from the chimneys (each wears a **Chimney Cap**, a [block](blocks.md#village-blocks) you can take for your own roof), and the bell rings at dawn and at dusk.
 
 **Every village has a name**: Honey Village, Anchor Town, Komura... It comes up on your screen as you walk in, and the Navigator's [Log Book](bestiary-and-logbook.md) keeps the names of the villages you have been to.
 

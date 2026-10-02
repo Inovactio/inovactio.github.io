@@ -13,7 +13,7 @@ tags:
 
 # Blocks
 
-Cruise's blocks, drawn from the game's own models: the benches of the trades, the lockers, the stone and the nine woods. Each viewer turns (drag), zooms (scroll or pinch) and changes block with its buttons.
+Cruise's blocks, drawn from the game's own models: the benches of the trades, the lockers, the stone and the nine woods, and the villages' own blocks. Each viewer turns (drag), zooms (scroll or pinch) and changes block with its buttons.
 
 ## Workstations
 
@@ -63,6 +63,15 @@ The [Miner](trades/miner.md) turns Marble into building blocks at the Masonry; a
 | ![](block-models/polished-marble.png){ .block-icon } **Polished Marble** | Masonry, from Marble |
 | ![](block-models/polished-marble-slab.png){ .block-icon } **Polished Marble Slab** | Masonry, from Marble |
 | ![](block-models/explosive-rock.png){ .block-icon } **Explosive Rock** | found by the Miner; it goes off in the hands of anyone else |
+
+## Village blocks
+
+Two blocks of the [villages](villages.md) can be taken and put down elsewhere.
+
+| Block | What it is |
+|---|---|
+| ![](block-models/notice-board.png){ .block-icon } **Notice Board** | the board of a village's market square: a right click shows the day's five orders of the village it stands in. Carried out of a village, it shows none. |
+| **Chimney Cap** | the cap of a chimney, a brick slab to the eye, from which smoke rises: steady by day, thin in the dead of night. Every chimney of a village has one; take it and your own house smokes too. |
 
 ## The nine woods
 
