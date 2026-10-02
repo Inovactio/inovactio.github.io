@@ -35,6 +35,11 @@ The Breath Dial is the base mod's: it washes up on [Angel Beach](angel-islands.m
 
 ## The Milky Roads
 
+<figure class="place" markdown>
+[![A Milky Road running across the cloud sea to an island](places/milky-road.webp)](places/milky-road.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>A Milky Road across the cloud sea, reaching an island.</figcaption>
+</figure>
+
 **Every island is linked to its nearest neighbour** by a road of **milky cloud**, five blocks wide, from centre to centre.
 
 - **On the sea**, the road rides the swell, flush with the surface.
