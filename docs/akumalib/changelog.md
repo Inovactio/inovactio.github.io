@@ -13,7 +13,9 @@ server never made, protected areas that were not protected, and a great deal of 
 every frame. Until now AkumaLib changed nothing in your game on its own. From 4.0.0 it does: for the better, and
 each correction can be switched off.</p>
 <p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
-<p><strong>This is a beta.</strong></p>
+<p><strong>This is a beta.</strong> Every correction was tested by itself, most of them in automated game tests, some in a real
+client and on a dedicated server with two players. Very few have been played in a long, normal game yet. If
+something behaves oddly, switch the correction off in the config (see below) and tell us.</p>
 <p>⚠️ <strong>The network protocol is new (6).</strong> A 4.0.0 client cannot join a 3.1.0 or older server, nor the other way
 round. Update the server and every player together.</p>
 <p>⚠️ <strong>Addons must be updated with it.</strong> No signature was removed or changed: an addon made for 3.1.0 works with
