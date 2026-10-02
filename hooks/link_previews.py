@@ -16,6 +16,7 @@ SECTIONS = [
     ("mods/awaken-path/", "Awaken Path", "assets/icons/awaken-path.png"),
     ("mods/inofruits/", "InoFruits", "assets/icons/inofruits.png"),
     ("mods/sky-island/", "Sky Island", "assets/icons/sky-island.png"),
+    ("mods/cruise/", "Cruise Cruise no Mi", "assets/icons/cruise.png"),
     ("akumalib/", "AkumaLib", "assets/icons/akumalib.png"),
     ("", None, "assets/icons/akumalib.png"),
 ]
