@@ -218,8 +218,10 @@ nav:
   - Sky Island:
       - mods/sky-island/index.md
       - Getting there and back: mods/sky-island/getting-there.md
+      - Getting around: mods/sky-island/getting-around.md
       - Angel Islands: mods/sky-island/angel-islands.md
       - Upper Yards: mods/sky-island/upper-yards.md
+      - Weatheria: mods/sky-island/weatheria.md
       - Wildlife: mods/sky-island/wildlife.md
       - Blocks: mods/sky-island/blocks.md
       - Configuration: mods/sky-island/configuration.md

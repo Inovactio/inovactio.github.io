@@ -12,9 +12,11 @@ A little over half of the Upper Yards hold the ruins of **Shandora**, sometimes 
 
 | Where | What it may hold |
 |---|---|
-| The halls | gold, common dials, extols; a box in about two chests in five |
-| The temple's altar | gold, diamonds, emeralds, rare dials; a box in nine chests in ten |
-| **The crypt** | **the treasure**: gold, diamonds, netherite, very rare items, a heavy extol pouch — **one or two boxes** a chest |
+| The halls | gold, common dials, extols; a box in about one chest in seven |
+| The temple's altar | gold, diamonds, emeralds, rare dials; a box in six chests in ten |
+| **The crypt** | **the treasure**: gold, diamonds, netherite, very rare items, a heavy extol pouch — **one box** a chest, golden four times in ten |
+
+A whole city gives about four boxes, one of them golden. The walls are inlaid with **gilded stone bricks**; the gold itself is in the crypt.
 
 **Small ruins of Shandora** lie in the jungle too, one to three per Upper Yard: a forgotten altar, a colonnade, a fallen house, a sacred well.
 
@@ -36,14 +38,31 @@ The warriors of Shandora, and their chief, guarding their land. **They attack on
 
 </div>
 
-- Their weapons: the **Shandia spear** and the **burn bazooka**, both items of this mod.
 - Their skills, from dials: the burn bazooka, impact, a breath dash, a sky step, and the chief's reject.
+- Their arrows and bullets pass through other Shandias: they never hit their own.
+
+A warrior carries **one of six weapons**; the chief keeps the bazooka.
+
+| Weapon | How it fights |
+|---|---|
+| **Shandia spear** (the commonest) | hand to hand, with an impact dial |
+| **Shandia bow** | keeps its distance (16 blocks); flame arrows, volleys |
+| **Twin pistols** | keeps its distance (10 blocks), two bullets at a time; sidesteps |
+| **Rifle** | from far away (24 blocks): **aims for a second and a half** — you see its line of sight — then fires a precise shot |
+| **Shandia shield** and spear | guards its front and walks ahead of the others; bashes with the shield, and can send projectiles back |
+| **Burn bazooka** | the burn bazooka's blast |
+
+The **Shandia spear**, the **Shandia bow**, the **Shandia shield** and the **burn bazooka** are items of this mod; a player can draw the bow and raise the shield. The spear has a 3D model in hand. Warriors never drop their weapons.
 - Few of them at a time: a chief and a warrior on Shandora's square, one in the temple, one in the tower.
 
 ## Shandia camps
 
-**War camps**: two to four per Upper Yard, in clearings of the plains, away from the city, the Giant Jack and the ruins. Four tipis round a fire, a totem, a weapon rack and a lookout, with two warriors.
+**War camps**: two to four per Upper Yard wherever it has the clearings, in clearings of the plains, away from the city, the Giant Jack and the ruins. Four tipis round a fire, a totem, a weapon rack and a lookout, with two warriors.
 
 **The hidden village**: the Shandias' own village, in a **pocket of cloud on the sea at the island's foot**, its only opening facing the sea. Six tipis round a square, the **statue of Kalgara**, totems along the path, and the chief by the fire.
 
 There is **a chest in every tipi**: weapons, war dials, gold and emeralds, an extol pouch, food and arrows — and now and then a Wooden or an Iron Box.
+
+## Predators
+
+The Upper Yards are hunting ground for three beasts: the **Cloud Wolf**, the **Sky Shark** and the **Sky Lamprey**. They are on the [Wildlife](wildlife.md#the-predators-of-the-upper-yards) page.
