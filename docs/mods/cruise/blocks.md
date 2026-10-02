@@ -1,0 +1,83 @@
+---
+# Hidden search keywords: the search weighs them heavily; the page does not show them.
+tags:
+  - block
+  - blocks
+  - workstation
+  - workstations
+  - bench
+  - wood
+  - marble
+  - building
+---
+
+# Blocks
+
+Cruise's blocks, drawn from the game's own models: the benches of the trades, the lockers, the stone and the nine woods. Each viewer turns (drag), zooms (scroll or pinch) and changes block with its buttons.
+
+## Workstations
+
+Each maker works at a bench of their own, and three gatherers have one too. Each trade's page tells what its bench makes.
+
+<div class="model-viewer" data-models="../block-models/" data-ids="kitchen workshop laboratory forge shipyard sewing-table music-stand tannery masonry chart-table upgrade-bench auction-house"></div>
+
+| Bench | What it is for | See |
+|---|---|---|
+| ![](block-models/kitchen.png){ .block-icon } **Kitchen** | the Cook's bench: every dish | [Cook](trades/cook.md) |
+| ![](block-models/workshop.png){ .block-icon } **Workshop** | the Inventor's bench: tools, parts and gadgets | [Inventor](trades/inventor.md) |
+| ![](block-models/laboratory.png){ .block-icon } **Laboratory** | the Chemist's bench: remedies, potions and powders | [Chemist](trades/chemist.md) |
+| ![](block-models/forge.png){ .block-icon } **Forge** | the Blacksmith's bench: weapons and armour | [Blacksmith](trades/blacksmith.md) |
+| ![](block-models/shipyard.png){ .block-icon } **Shipyard** | the Carpenter's bench: boats, lockers and the Auction House | [Carpenter](trades/carpenter.md) |
+| ![](block-models/sewing-table.png){ .block-icon } **Sewing Table** | the Tailor's bench: clothes, capes and sails | [Tailor](trades/tailor.md) |
+| ![](block-models/music-stand.png){ .block-icon } **Music Stand** | the Musician's bench: scores | [Musician](trades/musician.md) |
+| ![](block-models/tannery.png){ .block-icon } **Tannery** | the Hunter's bench: hides and leather | [Hunter](trades/hunter.md) |
+| ![](block-models/masonry.png){ .block-icon } **Masonry** | the Miner's bench: marble, pure ore and fragments | [Miner](trades/miner.md) |
+| ![](block-models/chart-table.png){ .block-icon } **Chart Table** | the Navigator's bench: Sea Charts and poses | [Navigator](trades/navigator.md) |
+| ![](block-models/upgrade-bench.png){ .block-icon } **Upgrade Bench** | fits a part on a tool, a rod, a net or a boat | [Inventor](trades/inventor.md) |
+| ![](block-models/auction-house.png){ .block-icon } **Auction House** | sells to and buys from other players | [Auction House](auction-house.md) |
+
+## Lockers
+
+Storage built by the [Carpenter](trades/carpenter.md), each bigger than a chest and than the one before.
+
+<div class="model-viewer" data-models="../block-models/" data-ids="ships-locker reinforced-locker kuuigosu-locker adam-strongbox"></div>
+
+| Locker | What it is |
+|---|---|
+| ![](block-models/ships-locker.png){ .block-icon } **Ship's Locker** | 36 slots |
+| ![](block-models/reinforced-locker.png){ .block-icon } **Reinforced Locker** | 55 slots |
+| ![](block-models/kuuigosu-locker.png){ .block-icon } **Kuuigosu Locker** | 78 slots |
+| ![](block-models/adam-strongbox.png){ .block-icon } **Adam Strongbox** | 105 slots; broken, it drops as one item with everything inside |
+
+## Stone
+
+The [Miner](trades/miner.md) turns Marble into building blocks at the Masonry; all of them need at least a stone pickaxe to drop.
+
+<div class="model-viewer" data-models="../block-models/" data-ids="marble-block marble-slab marble-stairs polished-marble polished-marble-slab explosive-rock"></div>
+
+| Block | Where it comes from |
+|---|---|
+| ![](block-models/marble-block.png){ .block-icon } **Marble Block** | Masonry, from Marble |
+| ![](block-models/marble-slab.png){ .block-icon } **Marble Slab** | Masonry, from Marble |
+| ![](block-models/marble-stairs.png){ .block-icon } **Marble Stairs** | Masonry, from Marble |
+| ![](block-models/polished-marble.png){ .block-icon } **Polished Marble** | Masonry, from Marble |
+| ![](block-models/polished-marble-slab.png){ .block-icon } **Polished Marble Slab** | Masonry, from Marble |
+| ![](block-models/explosive-rock.png){ .block-icon } **Explosive Rock** | found by the Miner; it goes off in the hands of anyone else |
+
+## The nine woods
+
+Six fruit-tree woods and the [Lumberjack](trades/lumberjack.md)'s three great trees. Every wood also makes a fence, a fence gate, a door, a trapdoor, a button and a pressure plate, with the usual recipes.
+
+| Wood | Log | Stripped log | Planks | Stairs | Slab |
+|---|---|---|---|---|---|
+| **Red Fruit** | ![](block-models/red-fruit-log.png){ .block-icon } | ![](block-models/stripped-red-fruit-log.png){ .block-icon } | ![](block-models/red-fruit-planks.png){ .block-icon } | ![](block-models/red-fruit-stairs.png){ .block-icon } | ![](block-models/red-fruit-slab.png){ .block-icon } |
+| **Blue Fruit** | ![](block-models/blue-fruit-log.png){ .block-icon } | ![](block-models/stripped-blue-fruit-log.png){ .block-icon } | ![](block-models/blue-fruit-planks.png){ .block-icon } | ![](block-models/blue-fruit-stairs.png){ .block-icon } | ![](block-models/blue-fruit-slab.png){ .block-icon } |
+| **Brown Fruit** | ![](block-models/brown-fruit-log.png){ .block-icon } | ![](block-models/stripped-brown-fruit-log.png){ .block-icon } | ![](block-models/brown-fruit-planks.png){ .block-icon } | ![](block-models/brown-fruit-stairs.png){ .block-icon } | ![](block-models/brown-fruit-slab.png){ .block-icon } |
+| **Horrific Pear** | ![](block-models/horrific-pear-log.png){ .block-icon } | ![](block-models/stripped-horrific-pear-log.png){ .block-icon } | ![](block-models/horrific-pear-planks.png){ .block-icon } | ![](block-models/horrific-pear-stairs.png){ .block-icon } | ![](block-models/horrific-pear-slab.png){ .block-icon } |
+| **Golden Fruit** | ![](block-models/golden-fruit-log.png){ .block-icon } | ![](block-models/stripped-golden-fruit-log.png){ .block-icon } | ![](block-models/golden-fruit-planks.png){ .block-icon } | ![](block-models/golden-fruit-stairs.png){ .block-icon } | ![](block-models/golden-fruit-slab.png){ .block-icon } |
+| **Palm** | ![](block-models/palm-log.png){ .block-icon } | ![](block-models/stripped-palm-log.png){ .block-icon } | ![](block-models/palm-planks.png){ .block-icon } | ![](block-models/palm-stairs.png){ .block-icon } | ![](block-models/palm-slab.png){ .block-icon } |
+| **Kuuigosu** | ![](block-models/kuuigosu-log.png){ .block-icon } | ![](block-models/stripped-kuuigosu-log.png){ .block-icon } | ![](block-models/kuuigosu-planks.png){ .block-icon } | ![](block-models/kuuigosu-stairs.png){ .block-icon } | ![](block-models/kuuigosu-slab.png){ .block-icon } |
+| **Burning Tree** | ![](block-models/burning-tree-log.png){ .block-icon } | ![](block-models/stripped-burning-tree-log.png){ .block-icon } | ![](block-models/burning-tree-planks.png){ .block-icon } | ![](block-models/burning-tree-stairs.png){ .block-icon } | ![](block-models/burning-tree-slab.png){ .block-icon } |
+| **Adam** | ![](block-models/adam-log.png){ .block-icon } | ![](block-models/stripped-adam-log.png){ .block-icon } | ![](block-models/adam-planks.png){ .block-icon } | ![](block-models/adam-stairs.png){ .block-icon } | ![](block-models/adam-slab.png){ .block-icon } |
+
+<div class="model-viewer" data-models="../block-models/" data-ids="red-fruit-log blue-fruit-log brown-fruit-log horrific-pear-log golden-fruit-log palm-log kuuigosu-log burning-tree-log adam-log red-fruit-planks blue-fruit-planks brown-fruit-planks horrific-pear-planks golden-fruit-planks palm-planks kuuigosu-planks burning-tree-planks adam-planks"></div>

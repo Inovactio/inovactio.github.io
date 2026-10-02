@@ -60,6 +60,7 @@ Every trade levels from 1 to 100, with **perks** along the way and a **title** a
 - **[Treasure hunts](treasure-hunts.md)**: torn maps in chests, in fishing junk and on the merchants' stalls. A Merchant deciphers them; the X leads to a chest, and now and then to a Devil Fruit box.
 - **The [Bestiary and the Log Book](bestiary-and-logbook.md)**: every fish, creature, land and place you find, with rewards as you fill them.
 - **[Boats](boats.md)** of four hulls and four shapes, built by the Carpenter and rigged by the Tailor.
+- **[Blocks](blocks.md)**: the benches, the lockers, the marble and the nine woods, in 3D.
 - **[Events at sea](events-at-sea.md)**: a merchant ship of one of five houses, guarded by its crew; a Sea King that surfaces off the coast; wrecks adrift, the best of them circled by a Sea King. Announced in the chat and sold as rumours by the barkeepers.
 - **199 advancements**, a tab per trade, and Jack of All Trades for whoever reaches level 5 in all fourteen.
 
