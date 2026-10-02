@@ -14,9 +14,9 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **0.3.0** (beta) |
+| Version documented | **0.3.1** (beta) |
 | Mod id | `inosky` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island) · [0.3.0](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/9038332) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island) · [0.3.1](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/9039026) · [changelog](changelog.md) |
 
 !!! warning "A beta"
     Worlds are generated from this version's rules. A later version may change what stands in chunks that have not been explored yet.
