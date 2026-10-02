@@ -2,6 +2,26 @@
 
 Every Cruise Cruise no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/all).
 
+## 0.3.1: beta { #v0-3-1 }
+
+<small>Released 2026-10-02 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9038562)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>A fix for 0.3.0.</strong> With Cruise Cruise no Mi and Mine Mine no Mi: Sky Island installed together, the game did not
+start. It does now. Nothing else changes: everything 0.3.0 brought is in 0.3.1.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi</strong> 0.11.5 and <strong>AkumaLib 4.0.0</strong>. Client and server.
+The network protocol does not change from 0.3.0.</p>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>The game starts with Sky Island.</strong> With Cruise and Sky Island 0.3.0 both installed, the game stopped while
+  loading. Both mods change how a fishing line floats - Cruise to fish in lava, Sky Island to fish in the sea of
+  clouds - and the game accepted only one of the two. They now work together, lava fishing and cloud fishing both.
+  You do not need to update Sky Island.</li>
+<li>Any other mod that changes how a fishing line floats no longer stops the game for the same reason.</li>
+</ul>
+</div>
+
 ## 0.3.0: beta { #v0-3-0 }
 
 <small>Released 2026-10-02 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9038114)</small>

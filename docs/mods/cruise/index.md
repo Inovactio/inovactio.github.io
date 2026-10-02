@@ -6,9 +6,9 @@
 
 | | |
 |---|---|
-| Version documented | **0.3.0** (beta) |
+| Version documented | **0.3.1** (beta) |
 | Mod id | `inocruise` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.3.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9038114) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.3.1](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9038562) · [changelog](changelog.md) |
 
 ## Requirements
 
