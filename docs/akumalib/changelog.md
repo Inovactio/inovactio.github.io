@@ -2,6 +2,178 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 4.0.0 (beta) { #v4-0-0 }
+
+<small>Released 2026-10-02 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9038031)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>AkumaLib now repairs Mine Mine no Mi itself.</strong> After a full read of the base mod's code, this version corrects
+its faults in some seventy-five places: crashes and freezes, things lost at a relog, items destroyed for nothing, checks the
+server never made, protected areas that were not protected, and a great deal of needless work on every tick and
+every frame. Until now AkumaLib changed nothing in your game on its own. From 4.0.0 it does: for the better, and
+each correction can be switched off.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p><strong>This is a beta.</strong> Every correction was tested by itself, most of them in automated game tests, some in a real
+client and on a dedicated server with two players. Very few have been played in a long, normal game yet. If
+something behaves oddly, switch the correction off in the config (see below) and tell us.</p>
+<p>⚠️ <strong>The network protocol is new (6).</strong> A 4.0.0 client cannot join a 3.1.0 or older server, nor the other way
+round. Update the server and every player together.</p>
+<p>⚠️ <strong>Addons must be updated with it.</strong> No signature was removed or changed: an addon made for 3.1.0 works with
+4.0.0 as it is. But 4.0.0 is a new major number, and an addon that told Forge it accepts "any 3.x" refuses to start
+beside it. Use the versions of the addons released for AkumaLib 4.</p>
+<hr />
+<h2>Switching a correction off</h2>
+<p>Every correction of Mine Mine no Mi has a switch, in the section <code>baseModFixes</code> of <code>akumalib-server.toml</code> (in the
+world's <code>serverconfig</code> folder) or of <code>akumalib-client.toml</code> (in <code>config</code>). All are on, except one that is named
+below. Setting one to <code>false</code> gives the base mod's own behaviour back for that group of corrections.</p>
+<hr />
+<h2>Mine Mine no Mi: crashes, freezes and lost progress</h2>
+<ul>
+<li><strong>Worlds that froze at "Preparing spawn area".</strong> On some seeds a new world never finished loading, because of how
+  Humandrills were created. It now loads.</li>
+<li><strong>Six crashes and freezes.</strong> Among them: a crash with the "In Event" effect, a crash with a tenth combat bar, a
+  freeze when a mod's weighted list was not in the expected order, and players with a flight power who could be
+  kicked when respawning.</li>
+<li><strong>Things that were lost at a relog.</strong> Loyalty was rounded down at every login (a small penalty grew to a full
+  point each time). A second transformation worn over a first was forgotten. The blocks stored by the Yami Yami no Mi
+  came back as other kinds of blocks. A cooldown bar restarted full. Training points of an old save were reset.</li>
+<li><strong>Techniques left running.</strong> A technique in use when you died, or when you left the End, came back half-working:
+  no bonus, still draining, sometimes stuck until you logged out. It is now ended cleanly first.</li>
+<li><strong>Coming back from the End.</strong> Leaving the End healed you completely and gave back a stolen shadow or a taken
+  heart. You now come back as you went in.</li>
+<li><strong>Effects that never end.</strong> An effect given with no end (by a command, another mod, or one of ours) vanished from
+  your screen as soon as your character was drawn: no icon, while the server still applied it. It now stays.</li>
+<li><strong>Hotbar keys.</strong> If you had changed your hotbar keys, leaving combat mode put them back to 1-9, and leaving a server
+  while in combat mode left them unbound. Your keys are now given back in both cases.</li>
+<li><strong>World events.</strong> A caravan or a visit that had already happened could happen a second time after a restart.</li>
+<li><strong>Challenges.</strong> In single player, a second world opened without closing the game used the challenge data of the
+  first one.</li>
+</ul>
+<h2>Mine Mine no Mi: items and blocks</h2>
+<ul>
+<li><strong>Items destroyed for nothing.</strong> The MH5 gas could wipe out everything around it when its area was simply
+  unloaded. A Straw Doll left in a cave took its owner's totems away. A Sake Cup used from the off hand erased the
+  enchantments of the item in the main hand. A Devil Fruit dropped next to a hopper vanished even with "One Fruit
+  per World" off.</li>
+<li><strong>Baku Factory.</strong> Opening the crafting grid while standing on a chest emptied the chest on the ground. It no
+  longer touches the block under you.</li>
+<li><strong>Black Hole.</strong> Blocks turned to darkness stayed in the world for good when their user logged out, died or changed
+  dimension. They are now given back.</li>
+<li><strong>Dyeing in the crafting grid.</strong> The colour layer you pick is now yours: on a server, the layer one player picked
+  was the layer everybody dyed on.</li>
+</ul>
+<h2>Mine Mine no Mi: combat and techniques</h2>
+<ul>
+<li><strong>Launches seen backwards in multiplayer.</strong> A very fast launch (Yutai Ridatsu, Spring Snipe and others) was shown
+  to the other players going the opposite way. They now see it go the right way.</li>
+<li><strong>Explosions at a distance.</strong> Gastanet and Death Wink hurt nobody when the blast was far from the caster. They
+  now hurt what is beside the blast. Dai Enkai's ring of fire burned allies and spared enemies; it is the right way
+  round now.</li>
+<li><strong>Techniques shouted twice.</strong> With "Anime Scream" on, 58 techniques were announced twice in chat.</li>
+<li><strong>Instant shots.</strong> Guns and other instant shots went through walls and could hit the farther of two targets. A shot
+  now stops at the first block and hits the nearest target (server option <code>fixHitScan</code>).</li>
+<li><strong>Imbuing Haki and durability.</strong> With Haki on, nothing you wore or held lost durability: armour, shield, elytra,
+  tools. Haki now protects the item in your hand only (server option <code>fixImbuingDurability</code>).</li>
+<li><strong>Tornadoes.</strong> A tornado tore blocks out of the ground only inside protected areas, the one place it should not.
+  It no longer lifts blocks.</li>
+<li><strong>Changing a transformation's size ended it.</strong> For an addon's transformation that comes in several sizes, pressing
+  the mode key while transformed ended the transformation and put it on cooldown. It is now left running.</li>
+</ul>
+<h2>Mine Mine no Mi: NPCs</h2>
+<ul>
+<li><strong>NPCs after a reload.</strong> A grunt, brute, sniper or captain whose area had been unloaded came back without the
+  techniques of its fighting style: snipers no longer shot, bandit leaders no longer threw knives. They now fight as
+  they did. NPCs were also healed to full every time their chunk was loaded again, and those from a camp or a base
+  no longer went away. Both are fixed.</li>
+<li><strong>NPCs on old servers.</strong> On a server that has run for weeks, NPCs used their techniques in bursts or late: their
+  timers lost precision as the world aged. They now stay exact.</li>
+<li><strong>Barkeeper rumours.</strong> A pirate who paid 1000 belly for a rumour was always told "nothing new", even when there was
+  one. He is now told it.</li>
+<li><strong>White Walkie.</strong> A guest who turned the page of a White Walkie's storage saw nothing change, while the owner had the
+  storage opened on him. The page now changes for the player who turns it.</li>
+</ul>
+<h2>Mine Mine no Mi: servers, rules and protection</h2>
+<ul>
+<li><strong>The server now checks what the screens checked.</strong> Selling to a trader, buying from one, being healed by a
+  doctor, resetting the ability tree, buying rum, equipping an ability and starting a challenge are now verified by
+  the server itself. Buying with a full inventory no longer takes your belly for nothing.</li>
+<li><strong>Crew names.</strong> A crew whose name was the same as an existing one, capitals and spaces aside, was announced to the
+  whole server and never created. The name is now refused, as is a name made of spaces. The server also checks the
+  details of a crew's flag as it checks the rest of it.</li>
+<li><strong>Protected areas.</strong> An explosion that went off just outside a protected area destroyed blocks inside it. It no
+  longer does, and an area set to rebuild itself now rebuilds what such an explosion takes.</li>
+<li><strong>Areas that rebuild themselves.</strong> A block destroyed in such an area gave its drop and came back anyway, and a chest
+  spilled its contents and came back full. A block that will be rebuilt now drops nothing, and a chest waiting to be
+  rebuilt keeps its contents through a restart.</li>
+<li><strong>Griefing protection.</strong> Shima Yurashi, Ryu no Ibuki, the Blue Sword and Ice Age changed blocks where abilities are
+  not allowed to: with griefing off, and inside protected areas. They now follow the same rules as every other
+  ability.</li>
+<li><strong>Claim mods.</strong> New server option <code>abilityBlockEvents</code> (<strong>off by default</strong>): when on, a block changed by an ability
+  is announced to claim and protection mods, which can refuse it.</li>
+<li><strong>One Fruit per World.</strong> Under the extended rule, a shulker box you picked up kept one fruit out of two, and
+  coloured boxes were not checked: every fruit is now removed, whatever the colour of the box. The options that deal
+  with a dropped fruit nobody sees any more only worked for a fruit a single player had seen: they now apply when the
+  last player walks away. A fruit taken out of a container by that rule could come back in it after a restart.</li>
+</ul>
+<h2>Mine Mine no Mi: lighter servers</h2>
+<ul>
+<li><strong>Needless work on every tick.</strong> The base mod did a lot of it for every mob, and sent each of its particles to
+  every player of the dimension, however far. Both are gone: less memory churn, fewer packets, and nothing changes
+  in what you see.</li>
+<li><strong>Fewer packets.</strong> A Devil Fruit user standing in water made the server send about 240 packets a second to
+  everyone around; it is now about 20, and the weakness works the same. A revived Yomi Yomi no Mi user, a player
+  carrying somebody and idle NPCs no longer make the server send an update many times a second, and the splashes of
+  running on water are sent in one go.</li>
+<li><strong>Freezes.</strong> Aiming El Thor, Raigo and a few others at the horizon could freeze the server for seconds while it
+  loaded the land in between. The end of a challenge froze it for a third of a second, sometimes more. Raigo and
+  Ursus Shock carved their whole crater in a single tick, and Liberation threw up to a thousand projectiles at once.
+  None of these freezes the server any more: the large ones are spread over a few ticks (server option
+  <code>fixAbilitySpikes</code>), and the result is the same.</li>
+<li><strong>Nekkai Jigoku.</strong> While it ran, the ability took a fifth of the server's time on its own, for up to thirty seconds.
+  It now takes a fraction of that, and boils the same water.</li>
+<li><strong>Large searches.</strong> Closing a chest under the extended One Fruit rule, a fruit user's death, sea animals looking
+  for kairoseki, Ice Age and other large builds: each walked through tens or hundreds of thousands of blocks it did
+  not need. They now read what they need directly.</li>
+<li><strong>Challenges and server memory.</strong> Each challenge left 99 chunks of its arena loaded for good, and each player's
+  arena stayed in the server's memory after a challenge, a little more for every player who had played one. Both are
+  now let go once nobody is there.</li>
+<li><strong>Pirate NPCs.</strong> Their list grew for as long as the server ran and slowed every pirate down a little more each hour.</li>
+</ul>
+<h2>Mine Mine no Mi: on your screen</h2>
+<ul>
+<li><strong>Deka, Mini, Gomu Gigant and other morphs on wide-armed skins.</strong> These morphs, and the Hana wings, were drawn with
+  the slim-armed body whatever your skin. Each skin now gets its own.</li>
+<li><strong>Third-person view inside a block.</strong> A Logia inside its element, or the Ishi Ishi no Mi's user inside stone, saw
+  a close-up of their own character in third person (F5). The camera now stays at its normal distance while you are
+  inside the blocks you can pass through; against a wall, it still stops at the wall.</li>
+<li><strong>Glowing and teams.</strong> A glowing entity was always outlined in white. It is outlined in its team's colour again.</li>
+<li><strong>Punk Cross and handcuffs.</strong> What was drawn on a body after these two was shifted, by several blocks under Punk
+  Cross. It is drawn in its place.</li>
+<li><strong>Frozen mobs and lightning discharges.</strong> Two frozen mobs of the same kind were drawn facing the same way, and two
+  discharges on screen were drawn with the same bolts. Each now has its own.</li>
+<li><strong>Drums of Liberation.</strong> The sound was silent and never stopped. It can now be heard, and ends.</li>
+<li><strong>Smoother with many mobs on screen.</strong> Ability effects drawn on bodies no longer rebuild their drawing settings on
+  every frame, armour textures are no longer looked up on every frame, and the game no longer works out, for every
+  mob on every frame, fifteen special effects that mob does not have (client option <code>skipIdleLayers</code>).</li>
+</ul>
+<hr />
+<h2>For addon makers</h2>
+<ul>
+<li><strong>Awakened-zoan smoke in any colour.</strong> The scarf of smoke around an awakened form was always black. An addon can
+  now give each form its own colour, such as white clouds. Forms that set nothing keep the black smoke they had.</li>
+<li><strong>Abilities fired with the mouse.</strong> An addon can now make an ability answer to a held right or left click, even
+  with an empty hand aimed at nothing.</li>
+<li><strong>Gauges that show more than a number.</strong> An addon's gauge can now draw its own marks under its icon: one pip
+  per head, a bar, a second line.</li>
+<li><strong>Carrying a target.</strong> A new base for techniques that take a body along while their user stays free to move, with
+  a way out for the one carried (one blow, a total of damage, or none) and a message for each side.</li>
+<li><strong>Grabs that never let go.</strong> A grab technique that caught a target it could not pull in (one pinned to the
+  ground, for example) kept it held for ever and left its user unable to use other techniques. The target is now
+  let go after two seconds.</li>
+</ul>
+<p>All of these are described on the <a href="https://inovactio.github.io/akumalib/">AkumaLib pages</a>.</p>
+</div>
+
 ## 3.1.0 { #v3-1-0 }
 
 <small>Released 2026-09-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9019263)</small>

@@ -1,8 +1,20 @@
 # Fixes to the base mod
 
-AkumaLib corrects a few things in Mine Mine no Mi itself, for every mod that uses it. The structure spawner fix can be
-turned off in the world's `serverconfig/akumalib-server.toml`, section `[baseModFixes]`; the others are plain bugs and
-have no setting.
+AkumaLib corrects faults of Mine Mine no Mi itself, for every mod that uses it and for a game with no addon at all.
+
+!!! info "Since 4.0.0: some seventy-five corrections, each with a switch"
+    After a full read of the base mod's code, 4.0.0 corrects it in some seventy-five places: crashes and freezes,
+    progress lost at a relog, items destroyed for nothing, checks the server never made, protected areas, and a great
+    deal of needless work per tick and per frame. The [4.0.0 changelog](../changelog.md#v4-0-0) lists them for players.
+
+    Every one has a switch, on by default except `abilityBlockEvents`: server-side ones in the world's
+    `serverconfig/akumalib-server.toml`, client-side ones in `config/akumalib-client.toml`, both in the section
+    `[baseModFixes]`. Set one to `false` and the base mod's own behaviour is back for that group. Each switch's comment
+    in the file says what it covers.
+
+    4.0.0 is a beta: the corrections were tested one by one, few of them in a long game yet.
+
+The sections below describe the older fixes in detail.
 
 ## Structure spawner mobs in walls
 
