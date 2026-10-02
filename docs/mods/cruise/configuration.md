@@ -9,6 +9,12 @@ Cruise's own settings are in **`config/inocruise-common.toml`**, created the fir
 | `takeOverBaseRecipes` | `true` | Mine Mine no Mi's own recipes for its weapons, the Clima-Tacts, the Umbrella, the Medic Bag and the Flag are taken off the crafting table and made by the trade that owns them. `false` keeps the base mod's crafting as it was; the trades still make them too. Takes effect on the next `/reload` or world load. |
 | `keepBaseRecipes` | `[]` | Base mod items whose crafting-table recipe is kept even while the takeover is on, one by one, for example `["mineminenomi:bullet", "mineminenomi:clima_tact"]`. |
 
+## `villages`
+
+| Setting | Default | What it does |
+|---|---|---|
+| `vanillaVillages` | `true` | Whether Minecraft's own villages, with their villagers, still appear beside Cruise's [villages](villages.md). `false` gives a world with Cruise's villages only: no vanilla village starts in newly explored land. Villages already there stay, and nothing takes their place in the biomes Cruise's villages do not grow in (desert, savanna, taiga, snowy plains). Read when the server or the world starts. |
+
 ## `merchants`
 
 | Setting | Default | What it does |
@@ -31,6 +37,17 @@ Then one section per merchant - `fishmonger`, `huntingMerchant`, `travellingCook
 | `listingFee` | `0.02` (2 %) | The share of the asking price paid to list a lot, not returned. A Merchant pays less. |
 | `daysUp` | `30` | How many real days a lot stays up before it comes back to its seller. |
 | `maxListings` | `10` | How many lots a player may have up at once. |
+
+## Village events
+
+One section for each of the [village events](village-events.md), with the same four settings. Days are in-game days (one day = 20 real minutes); the wait between two events of a kind is drawn anew each time, between the two numbers.
+
+| Setting | `concert` | `fever` | `swordsmith` | What it does |
+|---|---|---|---|---|
+| `enabled` | `true` | `true` | `true` | Whether the event comes at all. |
+| `leastDaysBetween` | `5` | `7` | `8` | The fewest days from one to the next (1 to 365). |
+| `mostDaysBetween` | `8` | `10` | `12` | The most days from one to the next (1 to 365). |
+| `stayHours` | `24` | `24` | `48` | How many in-game hours it lasts: the stage stays up, the fever runs if nobody cures it, the swordsmith stays. |
 
 ## Events at sea
 

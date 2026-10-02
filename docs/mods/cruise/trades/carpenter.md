@@ -9,7 +9,7 @@ The Carpenter builds **boats** and heavy **storage** at the Shipyard: sixteen bo
 | Materials | Kuuigosu, Burning Tree and Adam Planks from the [Lumberjack](lumberjack.md)'s trees |
 | Levels | 1 to 100; new recipes up to level 50 |
 
-Every Shipyard recipe asks for a Carpenter level and pays Carpenter XP.
+Every Shipyard recipe asks for a Carpenter level and pays Carpenter XP. The first hull, the **Reinforced Boat**, is a level 1 recipe. **Mending** pays too: 2 XP for each timber you put back on a damaged hull afloat (see [Boats](../boats.md)).
 
 ## Boats
 
@@ -46,7 +46,7 @@ These are all the Shipyard's recipes ("planks" means any planks):
 
 | Makes | Level | XP | Ingredients |
 |---|---|---|---|
-| ![](../icons/reinforced_boat.png){ .item-icon }Reinforced Boat | 5 | 20 | 5 × any planks, 2 × Iron Ingot, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap |
+| ![](../icons/reinforced_boat.png){ .item-icon }Reinforced Boat | 1 | 12 | 5 × any planks, 2 × Iron Ingot, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap |
 | ![](../icons/reinforced_fishing_boat.png){ .item-icon }Reinforced Fishing Boat | 8 | 26 | 5 × any planks, 2 × Iron Ingot, ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, Chest |
 | ![](../icons/ships_locker.png){ .item-icon }Ship's Locker | 10 | 30 | 6 × any planks, Chest, 2 × Iron Ingot |
 | ![](../icons/reinforced_cargo_boat.png){ .item-icon }Reinforced Cargo Boat | 12 | 34 | 5 × any planks, 2 × Iron Ingot, 2 × Chest |

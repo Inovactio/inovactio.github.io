@@ -18,7 +18,7 @@ Five **travelling merchants** visit the Overworld, each buying the goods of one 
 
 | | |
 |---|---|
-| Where | the Overworld: villages, and the wild under the open sky |
+| Where | the Overworld: villages, where they set up at the stalls of the market square, and the wild under the open sky |
 | How often | each merchant gets a try every 5 minutes (by default) |
 | Currency | Belly |
 
@@ -75,6 +75,7 @@ All prices on this page are in Belly.
 - If that player is **in a village**, the merchant comes 35 % of the time; if the player is **in the wild under the open sky** (at or above the highest solid block of their column, leaves aside), 15 % of the time. A player underground or in a cave gets nobody.
 - A village gets at most **one of each kind** (none while another of the same kind is within 64 blocks). The wild gets **one merchant at a time** (none while any Cruise merchant is within 64 blocks).
 - He appears on solid ground, 12-31 blocks from the player (on each axis) in a village, 16-32 blocks away in the wild.
+- In one of Cruise's own [villages](villages.md) he sets up **at a stall of the market square** and stays there; the Fishmonger takes the quay when the village has a port, and whoever finds every stall taken stands in the open by the well. He does not come to a dead village, and does not trade with a player the village is closed to.
 
 In the `merchants` section, a server can change how often they try (`tryEveryTicks`) and, for each merchant, whether he comes to villages and to the wild, and how likely (`inVillages`, `villageChance`, `inTheWild`, `wildChance`). See [Configuration](configuration.md).
 

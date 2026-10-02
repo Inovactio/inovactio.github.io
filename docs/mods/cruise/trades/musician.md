@@ -134,6 +134,7 @@ You earn XP two ways:
 
 - **Writing scores** at the Music Stand: each score pays 10 + 2 × its level (see [The recipes](#the-recipes)).
 - **Playing**: each performance pays **10 + the score's level + 10 for each crewmate who heard it** (up to 8 crewmates).
+- **On the stage of a [concert](../village-events.md#a-concert-on-the-square)**: the tune is for every player within reach, the villagers who came to listen count as listeners (up to 16), and the performance pays **twice** that.
 
 ## Level perks
 

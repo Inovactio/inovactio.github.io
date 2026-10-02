@@ -11,6 +11,8 @@ At the **Forge**, the Blacksmith makes Mine Mine no Mi weapons and gear that the
 
 The Forge glows (light level 10) and needs a pickaxe to be picked back up. Every recipe asks for a Blacksmith level and pays Blacksmith XP.
 
+**Forged by.** A weapon made at the Forge carries the name of the Blacksmith who forged it ("Forged by ..."). It is what the [swordsmith from Wano](../village-events.md#a-swordsmith-from-wano) asks for: he turns a forged Katana, Broadsword or Warabide Sword into one of the base mod's named blades, and what your skill had put on the blade passes to the new one.
+
 ## What the Forge makes
 
 - **From level 1**, the plain weapons and ammunition: Axe, Broadsword, Katana, Spear and Bullets, then the Pipe (5), the Mace and Scissors (10) and Handcuffs (14).
