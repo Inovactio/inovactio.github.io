@@ -32,13 +32,26 @@ Now and then something happens in a [village](villages.md) near you. Three **eve
 | [A fever in the village](#a-fever-in-the-village) | every 7 to 10 days | 1 day | remedies to bring, paid in Belly and Chemist XP, and 20 % off the village's stalls |
 | [A swordsmith from Wano](#a-swordsmith-from-wano) | every 8 to 12 days | 2 days | the base mod's named blades, forged on commission |
 
+The three visitors, in 3D (drag to turn, scroll or pinch to zoom):
+
+<div class="model-viewer" data-models="../models/" data-ids="travelling-musician village-doctor wano-swordsmith"></div>
+
 Days are in-game days (one day = 20 real minutes), and the wait between two events of a kind is drawn anew each time. Each event can be turned off, or made to come more or less often, in the [configuration](configuration.md#village-events).
 
 They are told like the [events at sea](events-at-sea.md#how-you-hear-of-them): in the chat, with the village's name and its coordinates, and as rumours sold by Mine Mine no Mi's barkeepers. One square holds one event at a time, and no event comes to a dead village.
 
 ## A concert on the square
 
-A small stage goes up on the market square for a day, and a **travelling musician** comes with it. He opens the concert and plays between two rests; the villagers gather before the stage to listen.
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![The Travelling Musician, in a red beret and braces](pictures/travelling-musician.png)
+<figcaption>The Travelling Musician</figcaption>
+</figure>
+
+</div>
+
+A small stage goes up on the market square for a day, and a **Travelling Musician** comes with it. He opens the concert and plays between two rests; the villagers gather before the stage to listen.
 
 **Step onto the stage and he leaves it to you.** A tune played there:
 
@@ -51,6 +64,15 @@ At his stall the travelling musician sells **two of the lost tunes' score recipe
 See the [Musician](trades/musician.md) for the tunes, the instruments and the XP of a performance.
 
 ## A fever in the village
+
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![The Village Doctor, in a white coat with a head mirror](pictures/village-doctor.png)
+<figcaption>The Village Doctor</figcaption>
+</figure>
+
+</div>
 
 The people of a village fall ill for a day. **A third of the adults** have it: some keep to their beds, the others drag themselves about. A doctor, the **Village Doctor**, sets up on the square, by the notice board.
 
@@ -70,7 +92,16 @@ If nobody helps, the fever passes on its own at the end of the day: nobody dies 
 
 ## A swordsmith from Wano
 
-A travelling swordsmith stops for two days on the square, by the notice board. Right click him to see his **commissions**: four of the base mod's named blades each visit, which until now only the luck of a trader gave.
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![The Swordsmith from Wano, in a headband and an indigo kimono](pictures/wano-swordsmith.png)
+<figcaption>The Swordsmith from Wano</figcaption>
+</figure>
+
+</div>
+
+A travelling swordsmith, the **Swordsmith from Wano**, stops for two days on the square, by the notice board. Right click him to see his **commissions**: four of the base mod's named blades each visit, which until now only the luck of a trader gave.
 
 | Blade | Made from | Materials | Price |
 |---|---|---|---|
