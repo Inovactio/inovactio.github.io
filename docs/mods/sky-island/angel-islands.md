@@ -36,7 +36,7 @@ They are **furnished**: a table and chairs, a kitchen whose chimney smokes, beds
 
 ### The Skypieans
 
-The villagers are **sky people of this mod**: eight people, men and women, young and old, with small wings at the shoulders and their hair grown into **antennae**. The **dial merchant** is one of them, in a blue apron behind his counter; he sells the base mod's dials. The White Berets protect them.
+The villagers are **sky people of this mod**: eight people, men and women, young and old, with small wings at the shoulders and their hair grown into **antennae**. The dial merchant, the **Skypiean Merchant**, is one of them, in a blue apron behind his counter; he sells the base mod's dials. The White Berets protect them.
 
 <div class="mob-gallery" markdown>
 
@@ -47,7 +47,7 @@ The villagers are **sky people of this mod**: eight people, men and women, young
 
 <figure markdown>
 ![The dial merchant, a Skypiean in a blue apron](mobs/skypiean-merchant.png)
-<figcaption>The dial merchant</figcaption>
+<figcaption>The Skypiean Merchant</figcaption>
 </figure>
 
 </div>
