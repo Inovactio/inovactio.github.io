@@ -8,7 +8,7 @@
 | **Theme** | Scissors |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
 | **Chance per opening** | wooden **2.92%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 5: 4 active, 1 passive |
+| **Abilities** | 8: 7 active, 1 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -74,3 +74,42 @@ Cuts the ground under the user and raises it as a wall of 9 blocks wide and 6 bl
 ![](../abilities/kamikiri.png){ .ability-icon } *Passive*
 
 While the scissors are active, right clicking a block with an empty hand cuts it instantly.
+
+## Dai Setsudan { #dai-setsudan }
+
+![](../abilities/dai-setsudan.png){ .ability-icon } *Active*
+
+While the scissors are active, the user closes both blades on the enemy in front of them, dealing heavy damage
+
+| Stat | Value |
+|---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
+| Cooldown | 10 s |
+| Damage | 18 |
+
+## Kirisaki { #kirisaki }
+
+![](../abilities/kirisaki.png){ .ability-icon } *Active*
+
+While the scissors are active, the user cuts open the protections of the enemy in front of them, it loses a big part of its armor for a few seconds
+
+| Stat | Value |
+|---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
+| Cooldown | 12 s |
+| Damage | 7 |
+| Hold | 6 s |
+| Target's Armor | x0.4 |
+
+## Kami Hashi { #kami-hashi }
+
+![](../abilities/kami-hashi.png){ .ability-icon } *Active*
+
+While the scissors are active, the user cuts a strip of the ground and unrolls it like paper towards where they are looking, making a bridge or a ramp that goes back down after 10 seconds
+
+| Stat | Value |
+|---|---|
+| Cooldown | 15 s |
+| Hold | 10 s |

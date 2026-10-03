@@ -8,7 +8,7 @@
 | **Theme** | Toys |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
 | **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 5: 4 active, 1 passive |
+| **Abilities** | 7: 6 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/toy.png){ .effect-mini }[Toy](../effects.md#effect-toy) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -73,3 +73,27 @@ Combines 8 of the user's contracted toys into a giant nutcracker that fights for
 ![](../abilities/noroi.png){ .ability-icon } *Passive*
 
 The fruit keeps the user as a child, smaller and weaker. All the toys are turned back if the user dies, is knocked out, loses their powers or leaves.
+
+## Zettai Meirei { #zettai-meirei }
+
+![](../abilities/zettai-meirei.png){ .ability-icon } *Active*
+
+Gives an absolute order to all the contracted toys near the user, for 10 seconds they hit harder, move faster and are more resistant
+
+| Stat | Value |
+|---|---|
+| Cooldown | 30 s |
+| Hold | 10 s |
+| Range | 24 blocks (area) |
+| Toys' Damage | x1.5 |
+
+## Kaijo { #kaijo }
+
+![](../abilities/kaijo.png){ .ability-icon } *Active*
+
+The user turns the toy they are looking at back to what it was, the other toys stay toys
+
+| Stat | Value |
+|---|---|
+| Cooldown | 5 s |
+| Range | 10 blocks (line) |

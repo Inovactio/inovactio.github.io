@@ -8,7 +8,7 @@
 | **Theme** | Sickle |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
 | **Chance per opening** | wooden **2.92%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 4: 4 active, 0 passive |
+| **Abilities** | 8: 8 active, 0 passive |
 | **Transformations** | [Kama Tsume](#kama-tsume) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -77,3 +77,55 @@ The user slashes the air multiple times launching a lot of air blades, after whi
 | Cooldown | 30 s |
 | Range | 3 blocks (area) |
 | Damage | 4 |
+
+## Kama Kama no Renzan { #kama-kama-no-renzan }
+
+![](../abilities/kama-kama-no-renzan.png){ .ability-icon } *Active*
+
+While the nails are out, the user slashes the enemies in front of them a lot of times very fast, the last slash pushes them back
+
+| Stat | Value |
+|---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
+| Cooldown | 10 s |
+| Damage | 16 |
+| Range | 3 blocks (line) |
+
+## Kama Kama no Tsuji Giri { #kama-kama-no-tsuji-giri }
+
+![](../abilities/kama-kama-no-tsuji-giri.png){ .ability-icon } *Active*
+
+While the nails are out, the user dashes forward in a straight line cutting all enemies in their path
+
+| Stat | Value |
+|---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
+| Cooldown | 10 s |
+| Damage | 10 |
+
+## Kama Kama no Kiri Harai { #kama-kama-no-kiri-harai }
+
+![](../abilities/kama-kama-no-kiri-harai.png){ .ability-icon } *Active*
+
+The user sweeps the air with their nails for a short time, cutting all enemy projectiles that are coming from the front
+
+| Stat | Value |
+|---|---|
+| Cooldown | 12 s |
+| Hold | 2 s |
+
+## Kama Kama no Enbu { #kama-kama-no-enbu }
+
+![](../abilities/kama-kama-no-enbu.png){ .ability-icon } *Active*
+
+The user spins and launches 8 air blades all around them
+
+| Stat | Value |
+|---|---|
+| Damage type | Slash, Projectile |
+| Element | Wind |
+| Haki | Imbuing |
+| Cooldown | 15 s |
+| Damage | 8 |

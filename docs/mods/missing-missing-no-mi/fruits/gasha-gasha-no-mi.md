@@ -156,9 +156,9 @@ The user's arms gets bigger with scrap and Busoshoku Haki, increasing their punc
 
 | Stat | Value |
 |---|---|
-| Punch Damage | +12 |
-| Speed | x1.2 |
 | Armor | +8 |
+| Speed | x1.2 |
+| Punch Damage | +12 |
 
 ## Det Sterkeste Strike { #det-sterkeste-strike }
 

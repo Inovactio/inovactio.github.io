@@ -7,7 +7,7 @@
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
 | **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 7: 5 active, 2 passive |
+| **Abilities** | 11: 9 active, 2 passive |
 | **Transformations** | [Falcon Assault Point](#falcon-assault-point), [Falcon Fly Point](#falcon-fly-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -86,3 +86,56 @@ The user flaps their wings pushing back all enemies in front of them, projectile
 | Cooldown | 10 s |
 | Range | 7 blocks (area) |
 | Damage | 3 |
+
+## Kyukoka { #kyukoka }
+
+![](../abilities/kyukoka.png){ .ability-icon } *Active*
+
+While in the air, the user dives straight down at very high speed, damaging all enemies around the impact and sending them flying. The damage is higher the bigger the dive is
+
+| Stat | Value |
+|---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
+| Cooldown | 15 s |
+| Damage | 10–20 |
+| Range | 4 blocks (area) |
+
+## Kagizume { #kagizume }
+
+![](../abilities/kagizume.png){ .ability-icon } *Active*
+
+While in the hybrid form, the user slashes the enemies in front of them a few times with their talons, the last slash sends them in the air
+
+| Stat | Value |
+|---|---|
+| Damage type | Slash, Physical |
+| Haki | Hardening |
+| Cooldown | 11 s |
+| Damage | 16 |
+| Range | 3 blocks (line) |
+
+## Hayabusa no Me { #hayabusa-no-me }
+
+![](../abilities/hayabusa-no-me.png){ .ability-icon } *Active*
+
+The user looks around with the eyes of a falcon, all living beings around them can be seen through walls for 10 seconds
+
+| Stat | Value |
+|---|---|
+| Cooldown | 30 s |
+| Hold | 10 s |
+| Range | 40 blocks (area) |
+
+## Hane Tsubute { #hane-tsubute }
+
+![](../abilities/hane-tsubute.png){ .ability-icon } *Active*
+
+The user flaps their wings throwing 4 sharp feathers where they are looking
+
+| Stat | Value |
+|---|---|
+| Damage type | Slash, Projectile |
+| Haki | Imbuing |
+| Cooldown | 8 s |
+| Damage | 4 |

@@ -8,7 +8,7 @@
 | **Theme** | Swamp |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
 | **Chance per opening** | golden **3.96%**, iron **0.198%**, wooden **0.010%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 7: 6 active, 1 passive |
+| **Abilities** | 11: 10 active, 1 passive |
 | **Effects applied** | [In the Swamp](../effects.md#effect-in-the-swamp) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -105,3 +105,57 @@ Opens the storage of the swamp. Everything the swamp absorbs is kept here, the a
 | Stat | Value |
 |---|---|
 | Cooldown | 1 s |
+
+## Doro Nami { #doro-nami }
+
+![](../abilities/doro-nami.png){ .ability-icon } *Active*
+
+The user sends a wave of mud in front of them, damaging all enemies in its path, pushing them back and slowing them. The wave leaves a swamp behind it for a while
+
+| Stat | Value |
+|---|---|
+| Damage type | Blunt, Indirect |
+| Cooldown | 12 s |
+| Damage | 16 |
+| Range | 10 blocks (line) |
+
+## Numa no Te { #numa-no-te }
+
+![](../abilities/numa-no-te.png){ .ability-icon } *Active*
+
+Hands of mud come out of the ground and grab the enemy the user is looking at and all enemies standing in the swamp, damaging them and holding them in place
+
+| Stat | Value |
+|---|---|
+| Damage type | Blunt, Indirect |
+| Cooldown | 15 s |
+| Damage | 14 |
+| Hold | 3 s |
+
+## Haki Dashi { #haki-dashi }
+
+![](../abilities/haki-dashi.png){ .ability-icon } *Active*
+
+The swamp spits 3 big volleys of the things stored inside it in front of the user, first the arrows and then mud balls
+
+| Stat | Value |
+|---|---|
+| Damage type | Blunt, Projectile |
+| Cooldown | 14 s |
+| Damage | 6 |
+
+## Sokonashi Numa { #sokonashi-numa }
+
+![](../abilities/sokonashi-numa.png){ .ability-icon } *Active*
+
+Applies [In the Swamp](../effects.md#effect-in-the-swamp)
+
+Turns the ground around the user into a bottomless swamp, all enemies standing in it are swallowed and suffocates for a few seconds, then the swamp spits them out with heavy damage
+
+| Stat | Value |
+|---|---|
+| Damage type | Blunt, Indirect |
+| Cooldown | 45 s |
+| Damage | 30 |
+| Hold | 4 s |
+| Range | 7 blocks (area) |

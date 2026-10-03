@@ -8,7 +8,7 @@
 | **Theme** | Stitch |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
 | **Chance per opening** | wooden **2.92%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 5: 5 active, 0 passive |
+| **Abilities** | 7: 7 active, 0 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -75,3 +75,27 @@ Removes all the stitches made by the user
 | Stat | Value |
 |---|---|
 | Cooldown | 1 s |
+
+## Ude Nui { #ude-nui }
+
+![](../abilities/ude-nui.png){ .ability-icon } *Active*
+
+Sews the arms of the enemy the user is looking at to its body, for 4 seconds it can't punch or shoot arrows but can still move and use abilities
+
+| Stat | Value |
+|---|---|
+| Damage type | Slash, Indirect |
+| Cooldown | 15 s |
+| Damage | 5 |
+| Hold | 4 s |
+
+## Nui Tobi { #nui-tobi }
+
+![](../abilities/nui-tobi.png){ .ability-icon } *Active*
+
+Throws a needle with a thread at the block the user is looking at and sews the user to it, the thread then pulls them to the block
+
+| Stat | Value |
+|---|---|
+| Cooldown | 8 s |
+| Range | 24 blocks (line) |

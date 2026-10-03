@@ -7,7 +7,7 @@
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
 | **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 6: 4 active, 2 passive |
+| **Abilities** | 10: 8 active, 2 passive |
 | **Transformations** | [Kabutomushi Heavy Point](#kabutomushi-heavy-point), [Kabutomushi Walk Point](#kabutomushi-walk-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -72,3 +72,56 @@ The user picks up the enemy in front of them with their horn and throws it over 
 | Damage type | Blunt |
 | Cooldown | 7 s |
 | Damage | 6 |
+
+## Horn Dive { #horn-dive }
+
+![](../abilities/horn-dive.png){ .ability-icon } *Active*
+
+While in the air, the user dives with their horn where they are looking, damaging all enemies around the impact and sending them flying. The damage is higher the bigger the dive is
+
+| Stat | Value |
+|---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
+| Cooldown | 14 s |
+| Damage | 14–26 |
+| Range | 4 blocks (area) |
+
+## Four Arm Rush { #four-arm-rush }
+
+![](../abilities/four-arm-rush.png){ .ability-icon } *Active*
+
+While in the hybrid form, the user launches a lot of fast punches with their four arms at the enemies in front of them, the last punch sends them flying
+
+| Stat | Value |
+|---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
+| Cooldown | 12 s |
+| Damage | 4 |
+| Range | 3 blocks (line) |
+
+## Shell Guard { #shell-guard }
+
+![](../abilities/shell-guard.png){ .ability-icon } *Active*
+
+The user closes their shell for a few seconds, taking much less damage and sending back the enemy projectiles, but they can't attack while it is active
+
+| Stat | Value |
+|---|---|
+| Cooldown | 20 s |
+| Hold | 5 s |
+| Damage Taken | x0.25 |
+
+## Beetle Ram { #beetle-ram }
+
+![](../abilities/beetle-ram.png){ .ability-icon } *Active*
+
+While in the beetle form, the user charges forward with their horn, damaging all enemies in their path and pushing them away. The charge also breaks leaves, glass and wood blocks
+
+| Stat | Value |
+|---|---|
+| Damage type | Blunt, Physical |
+| Haki | Hardening |
+| Cooldown | 16 s |
+| Damage | 22 |
