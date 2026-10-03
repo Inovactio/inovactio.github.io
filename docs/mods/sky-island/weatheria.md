@@ -43,7 +43,7 @@ Between the buildings: trimmed trees and **cloud trees**, blue and white flower 
 ## Its people
 
 - **Haredas**, the master of the **Art of Weather**: a long blue robe, a great white beard, a tall hat whose tip flops over, and a Birkan's small wings pointing down. He teaches the base mod's Art of Weather, and keeps to his tower. He also lives on the **climate terrace** of one Skypiean village in three.
-- **The scientists**: old men in wizard robes and pointed hats, in **twelve looks**. Two in each house, one at the observatory and one in the garden. They never fight: they **flee when struck**, and keep to their homes.
+- **The Weatheria Scientists**: old men in wizard robes and pointed hats, in **twelve looks**. Two in each house, one at the observatory and one in the garden. They never fight: they **flee when struck**, and keep to their homes.
 - **The Weather Vendor**, at the balloon terminal's booth.
 
 ## Weather for sale
