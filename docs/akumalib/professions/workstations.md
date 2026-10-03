@@ -66,7 +66,11 @@ Containers come back: an ingredient with a crafting remainder (a milk bucket giv
 
 ### XP from a recipe far below your level
 
-A recipe gives its full XP up to **10 levels** above its own. Past that, it loses 10 % of its XP per level, down to a floor of 10 % (and at least 1 XP). A level 5 recipe worth 20 XP gives 20 up to level 15, 18 at level 16, 10 at level 20, and 2 from level 24 on.
+A recipe gives its full XP up to **10 levels** above its own. Past that, it loses 10 % of its XP per level, down to a floor of 10 % (and at least 1 XP). A level 5 recipe worth 20 XP gives 20 up to level 15, 18 at level 16, 10 at level 20, and 2 from level 24 on. `recipe.getXpFor(crafterLevel)` gives that figure.
+
+### Reading a recipe's ingredients
+
+`recipe.getPortions()` gives the bill of materials as the screens show it: one `Portion(ingredient, count)` per different ingredient, in the order it first appears, the same ingredient counted rather than repeated. Five planks are one line, not five slots.
 
 ## Hooking the craft
 
@@ -112,7 +116,7 @@ With JEI or EMI installed, every workstation of every addon gets a recipe catego
 
 A recipe that says `"learned": true` is not reached by level alone: the player must also have learned it, from a
 **recipe item** found in a chest, bought or given. Until then the workstation does not list it (and refuses it, for a
-client that would ask anyway), and the profession page shows it as "Find its recipe".
+client that would ask anyway), and the profession page shows it as "Find its recipe". In code, `recipe.mustBeLearned()` tells such a recipe apart.
 
 ```json
 { "type": "mymod:cooking", "level": 30, "xp": 70, "learned": true, "ingredients": [ ... ], "result": { "item": "mymod:secret_stew" } }

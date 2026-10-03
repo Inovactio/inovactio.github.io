@@ -22,8 +22,8 @@ dependencies {
     minecraft "net.minecraftforge:forge:1.20.1-47.4.18"
 
     implementation fg.deobf("maven.modrinth:mine-mine-no-mi:1.20.1-0.11.5")
-    // AkumaLib 3.1.0 on CurseForge: project 1678152, file 9019263
-    implementation fg.deobf("curse.maven:akumalib-1678152:9019263")
+    // AkumaLib 4.0.0 (beta) on CurseForge: project 1678152, file 9038031
+    implementation fg.deobf("curse.maven:akumalib-1678152:9038031")
 }
 ```
 
@@ -41,7 +41,7 @@ Then declare AkumaLib as a required dependency, so Forge shows its missing-mod s
 [[dependencies.yourmodid]]
     modId = "akumalib"
     mandatory = true
-    versionRange = "[3.1.0,4)"
+    versionRange = "[4.0.0,5)"
     ordering = "AFTER"
     side = "BOTH"
 
@@ -103,7 +103,7 @@ public class MyMod {
 | `DENSITY_FUNCTION_TYPES`, `BIOME_SOURCES`, `CHUNK_GENERATORS`, `FEATURES`, `PLACEMENT_MODIFIER_TYPES` | terrain of your own: their codecs and types, the instances coming from datagen |
 | `STRUCTURE_TYPES`, `STRUCTURE_PLACEMENT_TYPES`, `STRUCTURE_PIECE_TYPES` | structures; a piece type left unregistered loses its structure on reload |
 
-Put every register you fill on the bus; an empty one on the bus costs nothing.
+Put every register you fill on the bus; an empty one on the bus costs nothing. [The registry](core-concepts/registry.md) lists every `register...` method that fills them.
 
 !!! warning "A deferred register that never reaches the bus fails silently"
     Its entries simply never appear. There is no error and nothing in the log. When your first projectile, effect or sound "does nothing", check this line first.

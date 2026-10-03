@@ -10,6 +10,7 @@
 | **Chance per opening** | wooden **2.32%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 5: 4 active, 1 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Wata Yoroi](#wata-yoroi) |
+| **Amplified by Wata Yoroi** | [Wataho](#wataho), [Watazumi](#watazumi) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -45,6 +46,8 @@ Creates a cloud of cotton that blinds anyone inside and hides the user
 
 ![Wataho](../objects/wataho.png){ .form-picture }
 
+While [Wata Yoroi](#wata-yoroi) is active, this ability is amplified: it becomes ![](../abilities/wataho-amplified.png){ .ability-mini }**Wata Renpo**.
+
 Throws a packed ball of cotton that picks up whatever it hits and carries it.
 
 | Stat | Value |
@@ -57,6 +60,8 @@ Throws a packed ball of cotton that picks up whatever it hits and carries it.
 ## Watazumi { #watazumi }
 
 ![](../abilities/watazumi.png){ .ability-icon } *Active*
+
+While [Wata Yoroi](#wata-yoroi) is active, this ability is amplified: it becomes ![](../abilities/watazumi-amplified.png){ .ability-mini }**Wata Karitori**.
 
 Pulls some cotton off the user and turns it into white wool.
 

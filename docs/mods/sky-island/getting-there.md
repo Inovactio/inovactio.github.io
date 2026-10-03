@@ -33,6 +33,11 @@ The column lifts **whatever is caught in it**: players, mobs, dropped items, and
 
 ### The arrival
 
+<figure class="place" markdown>
+[![The cloud sea, with an island and its Heaven's Gate in the distance](places/cloud-sea.webp)](places/cloud-sea.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>The cloud sea, and an island with its Heaven's Gate.</figcaption>
+</figure>
+
 You come down on the ground or on the cloud sea, **never inside a block**. On an island with a village, the geyser sets you down in front of its **[Heaven's Gate](angel-islands.md#heavens-gate)**; a boat arrives with its riders still in it.
 
 ## The way back
@@ -47,3 +52,5 @@ The height of the fall back is `return_y` in the [configuration](configuration.m
 |---|---|
 | `/geyser` | where the nearest geyser within 64 blocks is, what it is doing and when it erupts |
 | `/geyser now` | makes that geyser erupt at once |
+
+Server builders can also place a geyser of their own: the **Knock-Up Stream block**, on the [Configuration](configuration.md#for-server-builders) page.

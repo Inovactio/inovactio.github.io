@@ -9,6 +9,7 @@
 | **Chance per opening** | wooden **2.32%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 5 active, 2 passive |
 | **Transformations** | [Fugu Fugu Guard Point](#fugu-fugu-guard-point), [Fugu Fugu Heavy Point](#fugu-fugu-heavy-point) |
+| **Amplified by Fugu Fugu Heavy Point** | [Bocho](#bocho), [Togeuchi](#togeuchi) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -39,6 +40,8 @@ Covers the user's chest, arms and legs in spiky pufferfish skin
 
 ![](../abilities/bocho.png){ .ability-icon } *Active*
 
+While [Fugu Fugu Heavy Point](#fugu-fugu-heavy-point) is active, this ability is amplified: it becomes ![](../abilities/bocho-amplified.png){ .ability-mini }**Dai Bocho**.
+
 The user puffs up into a spiky ball, pushing everything nearby away.
 
 The hybrid's belly is bigger, pushing things away from further
@@ -56,6 +59,8 @@ The hybrid's belly is bigger, pushing things away from further
 ![](../abilities/togeuchi.png){ .ability-icon } *Active*
 
 ![Togeuchi](../objects/togeuchi.png){ .form-picture }
+
+While [Fugu Fugu Heavy Point](#fugu-fugu-heavy-point) is active, this ability is amplified: it becomes ![](../abilities/togeuchi-amplified.png){ .ability-mini }**Dai Togeuchi**.
 
 The user shoots a ring of spines out of their body in every direction.
 

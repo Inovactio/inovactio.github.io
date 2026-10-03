@@ -10,6 +10,7 @@
 | **Chance per opening** | iron **2.26%**, wooden **0.113%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 6: 6 active, 0 passive |
 | **Transformations** | [Hone Hone Point](#hone-hone-point) |
+| **Amplified by Hone Hone Point** | [Bone Throw](#bone-throw), [Bone Blade](#bone-blade), [Bone Shards](#bone-shards), [Bone Mend](#bone-mend), [Spare Bone](#spare-bone) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -34,6 +35,8 @@ The user wears their skeleton on the outside, which makes the other bone techniq
 
 ![Bone Throw](../objects/bone-throw.png){ .form-picture }
 
+While [Hone Hone Point](#hone-hone-point) is active, this ability is amplified: it becomes ![](../abilities/bone-throw-amplified.png){ .ability-mini }**Ossified Bone Throw**.
+
 Throws a bone that comes back to the user, hitting enemies both ways.
 
 | Stat | Value |
@@ -46,6 +49,8 @@ Throws a bone that comes back to the user, hitting enemies both ways.
 ## Bone Blade { #bone-blade }
 
 ![](../abilities/bone-blade.png){ .ability-icon } *Active*
+
+While [Hone Hone Point](#hone-hone-point) is active, this ability is amplified: it becomes ![](../abilities/bone-blade-amplified.png){ .ability-mini }**Ossified Bone Blade**.
 
 Grows a long bone blade out of the user's arm that can be used as a sword.
 
@@ -60,6 +65,8 @@ Grows a long bone blade out of the user's arm that can be used as a sword.
 
 ![Bone Shards](../objects/bone-shards.png){ .form-picture }
 
+While [Hone Hone Point](#hone-hone-point) is active, this ability is amplified: it becomes ![](../abilities/bone-shards-amplified.png){ .ability-mini }**Ossified Bone Shards**.
+
 Shoots a burst of bone splinters in a short cone, which break apart at range
 
 | Stat | Value |
@@ -73,6 +80,8 @@ Shoots a burst of bone splinters in a short cone, which break apart at range
 
 ![](../abilities/bone-mend.png){ .ability-icon } *Active*
 
+While [Hone Hone Point](#hone-hone-point) is active, this ability is amplified: it becomes ![](../abilities/bone-mend-amplified.png){ .ability-mini }**Ossified Bone Mend**.
+
 The user knits their bones back together, healing while the ability is held.
 
 | Stat | Value |
@@ -83,6 +92,8 @@ The user knits their bones back together, healing while the ability is held.
 ## Spare Bone { #spare-bone }
 
 ![](../abilities/spare-bone.png){ .ability-icon } *Active*
+
+While [Hone Hone Point](#hone-hone-point) is active, this ability is amplified: it becomes ![](../abilities/spare-bone-amplified.png){ .ability-mini }**Ossified Spare Bone**.
 
 The user grows a spare bone and drops it in their hand
 

@@ -248,9 +248,12 @@ nav:
   - Sky Island:
       - mods/sky-island/index.md
       - Getting there and back: mods/sky-island/getting-there.md
+      - Getting around: mods/sky-island/getting-around.md
       - Angel Islands: mods/sky-island/angel-islands.md
       - Upper Yards: mods/sky-island/upper-yards.md
+      - Weatheria: mods/sky-island/weatheria.md
       - Wildlife: mods/sky-island/wildlife.md
+      - Blocks: mods/sky-island/blocks.md
       - Configuration: mods/sky-island/configuration.md
       - Changelog: mods/sky-island/changelog.md
   - Cruise Cruise no Mi:
@@ -272,11 +275,14 @@ nav:
           - Navigator: mods/cruise/trades/navigator.md
           - Musician: mods/cruise/trades/musician.md
       - Around the islands:
+          - Villages: mods/cruise/villages.md
+          - Village events: mods/cruise/village-events.md
           - Merchants and contracts: mods/cruise/merchants-and-contracts.md
           - Auction House: mods/cruise/auction-house.md
           - Treasure hunts: mods/cruise/treasure-hunts.md
           - Bestiary and Log Book: mods/cruise/bestiary-and-logbook.md
           - Boats: mods/cruise/boats.md
+          - Blocks: mods/cruise/blocks.md
           - Events at sea: mods/cruise/events-at-sea.md
       - Configuration: mods/cruise/configuration.md
       - Changelog: mods/cruise/changelog.md
@@ -285,11 +291,13 @@ nav:
       - Getting started: akumalib/getting-started.md
       - Core concepts:
           - akumalib/core-concepts/index.md
+          - The registry: akumalib/core-concepts/registry.md
           - Damage: akumalib/core-concepts/damage.md
           - What the library registers: akumalib/core-concepts/library-registrations.md
           - Morph gates and stats: akumalib/core-concepts/morph-gates-and-stats.md
           - Amplification: akumalib/core-concepts/amplification.md
           - Charges: akumalib/core-concepts/charges.md
+          - Held inputs: akumalib/core-concepts/held-inputs.md
       - Ability base classes:
           - akumalib/ability-base-classes/index.md
           - Zones: akumalib/ability-base-classes/zones.md
@@ -297,6 +305,7 @@ nav:
           - Passives: akumalib/ability-base-classes/passives.md
           - Movement: akumalib/ability-base-classes/movement.md
           - Grabs: akumalib/ability-base-classes/grabs.md
+          - Carries: akumalib/ability-base-classes/carries.md
           - Items and blocks: akumalib/ability-base-classes/items-and-blocks.md
           - Awakened Zoan: akumalib/ability-base-classes/awakened-zoan.md
       - Animations:

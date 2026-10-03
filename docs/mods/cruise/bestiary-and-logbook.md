@@ -76,4 +76,6 @@ The Log Book belongs to the [Navigator](trades/navigator.md) and opens from the 
 - **Lands**: every Overworld biome you have stood in.
 - **Places**: every kind of structure you have stood in, or come within 8 blocks of. Buried treasure isn't counted.
 
+The book also keeps the names of the [villages](villages.md) you have been to.
+
 Each section has its own bar and the same ten tiers as the Bestiary: Belly to anyone, plus **Navigator XP** if you practise the trade. Anyone's Log Book fills, but only a Navigator earns XP from it: besides the tiers, 25 XP for each new biome and 50 XP for each new kind of place. The Navigator's page covers it in full.

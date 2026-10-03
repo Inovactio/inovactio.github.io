@@ -9,6 +9,7 @@
 | **Chance per opening** | wooden **2.32%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 6: 5 active, 1 passive |
 | **Transformations** | [Isa Isa Guard Point](#isa-isa-guard-point), [Isa Isa Heavy Point](#isa-isa-heavy-point) |
+| **Amplified by Isa Isa Guard Point** | [Taiatari](#taiatari), [Shiofuki](#shiofuki), [Utagoe](#utagoe) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -39,6 +40,8 @@ Transforms the user into a whale hybrid that can still walk at normal speed.
 
 ![](../abilities/taiatari.png){ .ability-icon } *Active*
 
+While [Isa Isa Guard Point](#isa-isa-guard-point) is active, this ability is amplified: it becomes ![](../abilities/taiatari-amplified.png){ .ability-mini }**Dai-Taiatari**.
+
 Requires Isa Isa Heavy Point or Isa Isa Guard Point to be active.
 
 | Stat | Value |
@@ -66,6 +69,8 @@ Requires Isa Isa Heavy Point or Isa Isa Guard Point to be active.
 
 ![](../abilities/shiofuki.png){ .ability-icon } *Active*
 
+While [Isa Isa Guard Point](#isa-isa-guard-point) is active, this ability is amplified: it becomes ![](../abilities/shiofuki-amplified.png){ .ability-mini }**Dai-Shiofuki**.
+
 Requires Isa Isa Heavy Point or Isa Isa Guard Point to be active.
 
 **Heavy Point**: Makes a column of water burst in front of the user launching enemies up and putting out fires.
@@ -85,6 +90,8 @@ Requires Isa Isa Heavy Point or Isa Isa Guard Point to be active.
 ## Utagoe { #utagoe }
 
 ![](../abilities/utagoe.png){ .ability-icon } *Active*
+
+While [Isa Isa Guard Point](#isa-isa-guard-point) is active, this ability is amplified: it becomes ![](../abilities/utagoe-amplified.png){ .ability-mini }**Dai-Utagoe**.
 
 Requires Isa Isa Heavy Point or Isa Isa Guard Point to be active.
 

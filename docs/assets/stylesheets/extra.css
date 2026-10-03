@@ -167,6 +167,15 @@
   }
 }
 
+/* A block drawn from its model, in front of its name (the Blocks pages). */
+.md-typeset img.block-icon {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
 /* A Cruise item's icon in front of its name, in the trades' tables. */
 .md-typeset img.item-icon {
   width: 20px;
@@ -174,4 +183,25 @@
   vertical-align: middle;
   margin-right: 0.3em;
   image-rendering: pixelated;
+}
+
+/* A block drawn from its model, in front of its name (Sky Island's Blocks page). */
+.md-typeset img.block-icon {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
+/* A picture of a place, across the text (Sky Island's places). A click opens it full size. */
+.md-typeset figure.place {
+  margin: 1em 0 1.4em;
+  width: 100%;
+}
+
+.md-typeset figure.place img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
 }
