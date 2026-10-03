@@ -46,6 +46,24 @@ Between the buildings: trimmed trees and **cloud trees**, blue and white flower 
 - **The Weatheria Scientists**: old men in wizard robes and pointed hats, in **twelve looks**. Two in each house, one at the observatory and one in the garden. They never fight: they **flee when struck**, and keep to their homes.
 - **The Weather Vendor**, at the balloon terminal's booth.
 
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![Haredas, the master of the Art of Weather: a blue robe, a white beard, a tall blue hat](mobs/weather-master.png)
+<figcaption>The Master of the Art of Weather</figcaption>
+</figure>
+
+<figure markdown>
+![A Weatheria Scientist in a purple robe and pointed hat](mobs/weatheria-scientist.png)
+<figcaption>A Weatheria Scientist (one of twelve looks)</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom; the buttons change the look. The Weather Vendor is one of the scientists.
+
+<div class="model-viewer" data-models="../models/" data-ids="weather-master weatheria-scientist"></div>
+
 ## Weather for sale
 
 Talk to the **Weather Vendor** to open his booth. He sells the weather of **the Blue Sea below** — the overworld, not Skypiea, where it never rains:
