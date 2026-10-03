@@ -57,6 +57,56 @@ Fishermen, farmers, craftsmen and townspeople live there, with **two or three ch
 
 The children play tag on the square by day and go home before the adults. Two villagers who cross stop for a word.
 
+The villagers have **eight looks**; the two children stand half as tall as an adult.
+
+<div class="mob-gallery small" markdown>
+
+<figure markdown>
+![A fisherman](pictures/civilian-fisherman.png)
+<figcaption>Fisherman</figcaption>
+</figure>
+
+<figure markdown>
+![A farmer in dungarees](pictures/civilian-farmer.png)
+<figcaption>Farmer</figcaption>
+</figure>
+
+<figure markdown>
+![A craftsman in a leather apron](pictures/civilian-craftsman.png)
+<figcaption>Craftsman</figcaption>
+</figure>
+
+<figure markdown>
+![A townswoman in a green dress](pictures/civilian-townswoman.png)
+<figcaption>Townswoman</figcaption>
+</figure>
+
+<figure markdown>
+![A young woman](pictures/civilian-young-woman.png)
+<figcaption>Young Woman</figcaption>
+</figure>
+
+<figure markdown>
+![An old man with glasses](pictures/civilian-old-man.png)
+<figcaption>Old Man</figcaption>
+</figure>
+
+<figure markdown>
+![A boy, half an adult's size](pictures/civilian-boy.png){ style="height: 64px" }
+<figcaption>Boy</figcaption>
+</figure>
+
+<figure markdown>
+![A girl, half an adult's size](pictures/civilian-girl.png){ style="height: 64px" }
+<figcaption>Girl</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom; the buttons change the look.
+
+<div class="model-viewer" data-models="../models/" data-ids="civilian"></div>
+
 **They know who you are.** A pirate whose bounty has reached **100,000 Belly** is known: people step away from him and have only a wary word. A Marine is welcome.
 
 Pirates and bandits do not appear in the middle of a village.
