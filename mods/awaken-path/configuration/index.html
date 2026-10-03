@@ -3203,6 +3203,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#progress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Progress
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#effects" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8796,6 +8807,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#progress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Progress
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#effects" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8910,6 +8932,11 @@
 <td>Ticks a player must spend <strong>online</strong> with their fruit. <code>-1</code> removes this condition.</td>
 </tr>
 <tr>
+<td><code>"Idle Limit"</code></td>
+<td><code>6000</code></td>
+<td>Ticks without moving or looking around after which the time stops counting, until the player moves again. <code>-1</code> counts all the time online.</td>
+</tr>
+<tr>
 <td><code>"Force Enable Awakenings"</code></td>
 <td><code>true</code></td>
 <td>Forces the base mod's <em>Enable Awakenings</em> option on, whatever its own file says.</td>
@@ -8956,6 +8983,23 @@
 </tr>
 </tbody>
 </table>
+<h2 id="progress">Progress<a class="headerlink" href="#progress" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>"Progress Messages"</code></td>
+<td><code>true</code></td>
+<td>Tell a player in chat when they reach 50%, 75% and 90% of their awakening.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="effects">Effects<a class="headerlink" href="#effects" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -8967,34 +9011,57 @@
 </thead>
 <tbody>
 <tr>
+<td><code>"Awakening Heartbeat"</code></td>
+<td><code>true</code></td>
+<td>Play a heartbeat for three seconds before a fruit awakens. Without it the fruit awakens at once.</td>
+</tr>
+<tr>
 <td><code>"Awakening Sound"</code></td>
 <td><code>true</code></td>
 <td>Play a sound when a fruit awakens.</td>
-</tr>
-<tr>
-<td><code>"Awakening Title"</code></td>
-<td><code>true</code></td>
-<td>Show the <em>Awakening</em> title and subtitle on screen.</td>
 </tr>
 <tr>
 <td><code>"Awakening Particles"</code></td>
 <td><code>true</code></td>
 <td>Spawn particles around the player.</td>
 </tr>
+<tr>
+<td><code>"Awakening Shockwave"</code></td>
+<td><code>true</code></td>
+<td>Push back everything within 6 blocks, without damage.</td>
+</tr>
+<tr>
+<td><code>"Awakening Advancement"</code></td>
+<td><code>true</code></td>
+<td>Give the <em>Awakened</em> advancement.</td>
+</tr>
+<tr>
+<td><code>"Awakening Chat Message"</code></td>
+<td><code>true</code></td>
+<td>Tell the player in chat which awakened abilities their fruit unlocked.</td>
+</tr>
 </tbody>
 </table>
+<p>The <code>"Awakening Title"</code> setting of older versions no longer exists; if it is still in your file, it is ignored.</p>
 <h2 id="the-default-file">The default file<a class="headerlink" href="#the-default-file" title="Permanent link">&para;</a></h2>
 <p>Without its comments, the file the game writes looks like this:</p>
 <div class="highlight"><span class="filename">config/mineminenomiawakenpath-common.toml</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">[Unlock]</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="s2">"Unlock with Doriki"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="s2">"Doriki Threshold"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">-1</span>
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="s2">"Time With Fruit Threshold"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1728000</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="s2">"Force Enable Awakenings"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="k">[Effects]</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="s2">"Awakening Sound"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="s2">"Awakening Title"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span><span class="s2">"Awakening Particles"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="s2">"Idle Limit"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">6000</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="s2">"Force Enable Awakenings"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="k">[Progress]</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="s2">"Progress Messages"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="k">[Effects]</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="s2">"Awakening Heartbeat"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="s2">"Awakening Sound"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">    </span><span class="s2">"Awakening Particles"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">    </span><span class="s2">"Awakening Shockwave"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">    </span><span class="s2">"Awakening Advancement"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="s2">"Awakening Chat Message"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
 </code></pre></div>
 <div class="admonition tip">
 <p class="admonition-title">Keys with spaces</p>

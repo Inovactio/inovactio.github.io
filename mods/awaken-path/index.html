@@ -8721,6 +8721,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#following-your-progress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Following your progress
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-awakening" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8820,7 +8831,7 @@
 <tbody>
 <tr>
 <td>Version documented</td>
-<td><strong>2.2.0</strong></td>
+<td><strong>2.3.0</strong></td>
 </tr>
 <tr>
 <td>Mod id</td>
@@ -8856,11 +8867,15 @@
 </tr>
 <tr>
 <td><a href="https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod">Mine Mine no Mi</a></td>
-<td>0.11.x</td>
+<td>0.11.5</td>
+</tr>
+<tr>
+<td><a href="../../akumalib/">AkumaLib</a></td>
+<td>4.0.0 or later</td>
 </tr>
 </tbody>
 </table>
-<p>AkumaLib is <strong>not</strong> needed.</p>
+<p>Both are needed since 2.3.0, on the client and on the server.</p>
 <h2 id="how-a-fruit-awakens">How a fruit awakens<a class="headerlink" href="#how-a-fruit-awakens" title="Permanent link">&para;</a></h2>
 <p>With the default settings, a player's fruit awakens once <strong>both</strong> conditions hold:</p>
 <table>
@@ -8880,7 +8895,7 @@
 <tr>
 <td><strong>Time with the fruit</strong></td>
 <td><strong>one real day</strong> (1,728,000 ticks)</td>
-<td>Only time spent <strong>online</strong> with the current fruit counts. Time logged out does not.</td>
+<td>Only time spent <strong>online and playing</strong> with the current fruit counts.</td>
 </tr>
 </tbody>
 </table>
@@ -8890,18 +8905,53 @@
 <h3 id="the-time-counter">The time counter<a class="headerlink" href="#the-time-counter" title="Permanent link">&para;</a></h3>
 <ul>
 <li>It starts at <strong>zero when a fruit is eaten</strong>.</li>
-<li>It is <strong>kept through death</strong>.</li>
-<li>It is <strong>cleared when the player loses their fruit</strong>, so a new fruit starts from zero.</li>
+<li>It is <strong>kept through death and through the End</strong>.</li>
+<li>It <strong>stops while the player is idle</strong>: after 5 minutes without moving or looking around, it waits until they move again.</li>
+<li>A new fruit starts from zero.</li>
 <li>A player who already had a fruit before Awaken Path was installed gets a counter at their next login, <strong>starting from zero</strong>.</li>
 </ul>
+<h2 id="following-your-progress">Following your progress<a class="headerlink" href="#following-your-progress" title="Permanent link">&para;</a></h2>
+<p><strong><code>/awakenpath</code></strong> shows a player their Doriki and their time with the fruit against what is asked, in percent. A chat message also tells them when they reach <strong>50%</strong>, <strong>75%</strong> and <strong>90%</strong> of their awakening.</p>
+<p>Operators have five more commands:</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/awakenpath status &lt;player&gt;</code></td>
+<td>Shows a player's progress.</td>
+</tr>
+<tr>
+<td><code>/awakenpath time set &lt;player&gt; &lt;ticks&gt;</code></td>
+<td>Sets a player's time with their fruit.</td>
+</tr>
+<tr>
+<td><code>/awakenpath time add &lt;player&gt; &lt;ticks&gt;</code></td>
+<td>Adds to it, or takes from it with a negative number.</td>
+</tr>
+<tr>
+<td><code>/awakenpath awaken &lt;player&gt;</code></td>
+<td>Awakens a player's fruit now, whatever the conditions.</td>
+</tr>
+<tr>
+<td><code>/awakenpath reset &lt;player&gt;</code></td>
+<td>Removes a player's awakening and puts their time back to zero.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="the-awakening">The awakening<a class="headerlink" href="#the-awakening" title="Permanent link">&para;</a></h2>
-<p>When a fruit awakens, the player gets, each part of which can be turned off:</p>
+<p>When a fruit awakens, each part of which can be turned off:</p>
 <ul>
-<li>a title on screen, <strong>Awakening</strong>, with the subtitle <em>"The fruit's true power stirs within you..."</em> (in French for a French game: <em>Éveil</em>);</li>
-<li>a sound;</li>
-<li>a burst of particles around them.</li>
+<li>a <strong>heartbeat</strong> grows faster for three seconds, then the fruit awakens with a sound and a few particles;</li>
+<li>a <strong>shockwave</strong> pushes back everything within 6 blocks, without hurting anyone;</li>
+<li>the <strong>chat</strong> lists the awakened abilities the player just unlocked, or says that the fruit has none yet;</li>
+<li>the player gets the <strong>Awakened</strong> advancement.</li>
 </ul>
-<p>The base mod then grants the awakened fruit's abilities straight away.</p>
+<p>The base mod grants the awakened fruit's abilities straight away.</p>
 <div class="admonition note">
 <p class="admonition-title">Awakenings are switched on for you</p>
 <p>The base mod has an <em>Enable Awakenings</em> option, <strong>off by default</strong>, in each world's <code>serverconfig/mineminenomi-server.toml</code>. Awaken Path turns it on, whatever that file says, unless you switch off its <strong>Force Enable Awakenings</strong> setting.</p>
