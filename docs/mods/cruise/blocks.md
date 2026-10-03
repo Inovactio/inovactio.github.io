@@ -13,7 +13,7 @@ tags:
 
 # Blocks
 
-Cruise's blocks, drawn from the game's own models: the benches of the trades, the lockers, the stone and the nine woods, and the villages' own blocks. Each viewer turns (drag), zooms (scroll or pinch) and changes block with its buttons.
+Cruise's blocks, drawn from the game's own models: the benches of the trades, the lockers, the stone and the nine woods, the grand pianos, the traps and the villages' own blocks. Each viewer turns (drag), zooms (scroll or pinch) and changes block with its buttons.
 
 ## Workstations
 
@@ -73,20 +73,45 @@ Two blocks of the [villages](villages.md) can be taken and put down elsewhere.
 | ![](block-models/notice-board.png){ .block-icon } **Notice Board** | the board of a village's market square: a right click shows the day's five orders of the village it stands in. Carried out of a village, it shows none. |
 | **Chimney Cap** | the cap of a chimney, a brick slab to the eye, from which smoke rises: steady by day, thin in the dead of night. Every chimney of a village has one; take it and your own house smokes too. |
 
+## Grand pianos
+
+Built by the [Inventor](trades/inventor.md) for the [Musician](trades/musician.md#the-grand-piano): eight blocks, the stool in front. Sit on the stool to play.
+
+<div class="model-viewer" data-models="../block-models/" data-ids="grand-piano fine-grand-piano masters-grand-piano"></div>
+
+| Piano | How far and how long its tunes carry |
+|---|---|
+| ![](block-models/grand-piano.png){ .block-icon } **Grand Piano** | 20 blocks, 35 minutes |
+| ![](block-models/fine-grand-piano.png){ .block-icon } **Fine Grand Piano** | 30 blocks, 45 minutes |
+| ![](block-models/masters-grand-piano.png){ .block-icon } **Master's Grand Piano** | 40 blocks, 60 minutes |
+
+## Traps
+
+The [Hunter](trades/hunter.md#traps)'s traps, made by the Inventor: set one down and come back.
+
+<div class="model-viewer" data-models="../block-models/" data-ids="traps enhanced-traps"></div>
+
+| Trap | When it springs |
+|---|---|
+| ![](block-models/traps.png){ .block-icon } **Traps** | springs after 2 to 5 minutes |
+| ![](block-models/enhanced-traps.png){ .block-icon } **Enhanced Traps** | springs after 1 to 2.5 minutes |
+
 ## The nine woods
 
 Six fruit-tree woods and the [Lumberjack](trades/lumberjack.md)'s three great trees. Every wood also makes a fence, a fence gate, a door, a trapdoor, a button and a pressure plate, with the usual recipes.
 
-| Wood | Log | Stripped log | Planks | Stairs | Slab |
-|---|---|---|---|---|---|
-| **Red Fruit** | ![](block-models/red-fruit-log.png){ .block-icon } | ![](block-models/stripped-red-fruit-log.png){ .block-icon } | ![](block-models/red-fruit-planks.png){ .block-icon } | ![](block-models/red-fruit-stairs.png){ .block-icon } | ![](block-models/red-fruit-slab.png){ .block-icon } |
-| **Blue Fruit** | ![](block-models/blue-fruit-log.png){ .block-icon } | ![](block-models/stripped-blue-fruit-log.png){ .block-icon } | ![](block-models/blue-fruit-planks.png){ .block-icon } | ![](block-models/blue-fruit-stairs.png){ .block-icon } | ![](block-models/blue-fruit-slab.png){ .block-icon } |
-| **Brown Fruit** | ![](block-models/brown-fruit-log.png){ .block-icon } | ![](block-models/stripped-brown-fruit-log.png){ .block-icon } | ![](block-models/brown-fruit-planks.png){ .block-icon } | ![](block-models/brown-fruit-stairs.png){ .block-icon } | ![](block-models/brown-fruit-slab.png){ .block-icon } |
-| **Horrific Pear** | ![](block-models/horrific-pear-log.png){ .block-icon } | ![](block-models/stripped-horrific-pear-log.png){ .block-icon } | ![](block-models/horrific-pear-planks.png){ .block-icon } | ![](block-models/horrific-pear-stairs.png){ .block-icon } | ![](block-models/horrific-pear-slab.png){ .block-icon } |
-| **Golden Fruit** | ![](block-models/golden-fruit-log.png){ .block-icon } | ![](block-models/stripped-golden-fruit-log.png){ .block-icon } | ![](block-models/golden-fruit-planks.png){ .block-icon } | ![](block-models/golden-fruit-stairs.png){ .block-icon } | ![](block-models/golden-fruit-slab.png){ .block-icon } |
-| **Palm** | ![](block-models/palm-log.png){ .block-icon } | ![](block-models/stripped-palm-log.png){ .block-icon } | ![](block-models/palm-planks.png){ .block-icon } | ![](block-models/palm-stairs.png){ .block-icon } | ![](block-models/palm-slab.png){ .block-icon } |
-| **Kuuigosu** | ![](block-models/kuuigosu-log.png){ .block-icon } | ![](block-models/stripped-kuuigosu-log.png){ .block-icon } | ![](block-models/kuuigosu-planks.png){ .block-icon } | ![](block-models/kuuigosu-stairs.png){ .block-icon } | ![](block-models/kuuigosu-slab.png){ .block-icon } |
-| **Burning Tree** | ![](block-models/burning-tree-log.png){ .block-icon } | ![](block-models/stripped-burning-tree-log.png){ .block-icon } | ![](block-models/burning-tree-planks.png){ .block-icon } | ![](block-models/burning-tree-stairs.png){ .block-icon } | ![](block-models/burning-tree-slab.png){ .block-icon } |
-| **Adam** | ![](block-models/adam-log.png){ .block-icon } | ![](block-models/stripped-adam-log.png){ .block-icon } | ![](block-models/adam-planks.png){ .block-icon } | ![](block-models/adam-stairs.png){ .block-icon } | ![](block-models/adam-slab.png){ .block-icon } |
+The leaves are shown in the colour the inventory gives them; in the world, the four fruit trees of the forests and swamps take their biome's green.
+
+| Wood | Log | Stripped log | Planks | Stairs | Slab | Leaves |
+|---|---|---|---|---|---|---|
+| **Red Fruit** | ![](block-models/red-fruit-log.png){ .block-icon } | ![](block-models/stripped-red-fruit-log.png){ .block-icon } | ![](block-models/red-fruit-planks.png){ .block-icon } | ![](block-models/red-fruit-stairs.png){ .block-icon } | ![](block-models/red-fruit-slab.png){ .block-icon } | ![](block-models/red-fruit-leaves.png){ .block-icon } |
+| **Blue Fruit** | ![](block-models/blue-fruit-log.png){ .block-icon } | ![](block-models/stripped-blue-fruit-log.png){ .block-icon } | ![](block-models/blue-fruit-planks.png){ .block-icon } | ![](block-models/blue-fruit-stairs.png){ .block-icon } | ![](block-models/blue-fruit-slab.png){ .block-icon } | ![](block-models/blue-fruit-leaves.png){ .block-icon } |
+| **Brown Fruit** | ![](block-models/brown-fruit-log.png){ .block-icon } | ![](block-models/stripped-brown-fruit-log.png){ .block-icon } | ![](block-models/brown-fruit-planks.png){ .block-icon } | ![](block-models/brown-fruit-stairs.png){ .block-icon } | ![](block-models/brown-fruit-slab.png){ .block-icon } | ![](block-models/brown-fruit-leaves.png){ .block-icon } |
+| **Horrific Pear** | ![](block-models/horrific-pear-log.png){ .block-icon } | ![](block-models/stripped-horrific-pear-log.png){ .block-icon } | ![](block-models/horrific-pear-planks.png){ .block-icon } | ![](block-models/horrific-pear-stairs.png){ .block-icon } | ![](block-models/horrific-pear-slab.png){ .block-icon } | ![](block-models/horrific-pear-leaves.png){ .block-icon } |
+| **Golden Fruit** | ![](block-models/golden-fruit-log.png){ .block-icon } | ![](block-models/stripped-golden-fruit-log.png){ .block-icon } | ![](block-models/golden-fruit-planks.png){ .block-icon } | ![](block-models/golden-fruit-stairs.png){ .block-icon } | ![](block-models/golden-fruit-slab.png){ .block-icon } | ![](block-models/golden-fruit-leaves.png){ .block-icon } |
+| **Palm** | ![](block-models/palm-log.png){ .block-icon } | ![](block-models/stripped-palm-log.png){ .block-icon } | ![](block-models/palm-planks.png){ .block-icon } | ![](block-models/palm-stairs.png){ .block-icon } | ![](block-models/palm-slab.png){ .block-icon } | ![](block-models/palm-leaves.png){ .block-icon } |
+| **Kuuigosu** | ![](block-models/kuuigosu-log.png){ .block-icon } | ![](block-models/stripped-kuuigosu-log.png){ .block-icon } | ![](block-models/kuuigosu-planks.png){ .block-icon } | ![](block-models/kuuigosu-stairs.png){ .block-icon } | ![](block-models/kuuigosu-slab.png){ .block-icon } | ![](block-models/kuuigosu-leaves.png){ .block-icon } |
+| **Burning Tree** | ![](block-models/burning-tree-log.png){ .block-icon } | ![](block-models/stripped-burning-tree-log.png){ .block-icon } | ![](block-models/burning-tree-planks.png){ .block-icon } | ![](block-models/burning-tree-stairs.png){ .block-icon } | ![](block-models/burning-tree-slab.png){ .block-icon } | ![](block-models/burning-tree-leaves.png){ .block-icon } |
+| **Adam** | ![](block-models/adam-log.png){ .block-icon } | ![](block-models/stripped-adam-log.png){ .block-icon } | ![](block-models/adam-planks.png){ .block-icon } | ![](block-models/adam-stairs.png){ .block-icon } | ![](block-models/adam-slab.png){ .block-icon } | ![](block-models/adam-leaves.png){ .block-icon } |
 
 <div class="model-viewer" data-models="../block-models/" data-ids="red-fruit-log blue-fruit-log brown-fruit-log horrific-pear-log golden-fruit-log palm-log kuuigosu-log burning-tree-log adam-log red-fruit-planks blue-fruit-planks brown-fruit-planks horrific-pear-planks golden-fruit-planks palm-planks kuuigosu-planks burning-tree-planks adam-planks"></div>
