@@ -4,7 +4,7 @@ The Chemist compounds the islands' remedies at the **Laboratory**: candies and t
 
 | | |
 |---|---|
-| Workstation | ![](../icons/laboratory.png){ .item-icon }**Laboratory** |
+| Workstation | ![](../block-models/laboratory.png){ .block-mini }**Laboratory** |
 | How it is made | crafting table, no level: a Brewing Stand, a Glass Bottle and planks |
 | Levels | 1 to 100; recipes up to level 50 |
 | XP | every recipe compounded: 10 + 2 × its level; and the remedies brought to a village's doctor during a [fever](../village-events.md#a-fever-in-the-village) |

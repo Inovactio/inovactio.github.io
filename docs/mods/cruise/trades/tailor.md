@@ -4,7 +4,7 @@ The Tailor sews Mine Mine no Mi's clothing at the **Sewing Table**: hats, capes,
 
 | | |
 |---|---|
-| Workstation | ![](../icons/sewing_table.png){ .item-icon }**Sewing Table** |
+| Workstation | ![](../block-models/sewing-table.png){ .block-mini }**Sewing Table** |
 | How it is made | String, any Wool, Shears on top; 3 planks in the middle; plank, empty, plank at the bottom |
 | Recipes | 103 |
 | Levels | 1 to 100; new recipes up to level 50 |

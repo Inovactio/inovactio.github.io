@@ -4,7 +4,7 @@ The Miner earns XP by breaking ore and certain rocks. As the trade grows, the ro
 
 | | |
 |---|---|
-| Workstation | ![](../icons/masonry.png){ .item-icon }**Masonry** |
+| Workstation | ![](../block-models/masonry.png){ .block-mini }**Masonry** |
 | How it is made | 8 Stone around a Crafting Table |
 | Tools | any pickaxe of the right tier; the **Enhanced Pick-axe** is made by the [Inventor](inventor.md) |
 | Levels | 1 to 100; new finds up to level 50 |
@@ -100,11 +100,11 @@ These are the Masonry's recipes:
 
 | Makes | Level | XP | Ingredients |
 |---|---|---|---|
-| ![](../icons/marble_block.png){ .item-icon }Marble Block | 1 | 12 | 4 × ![](../icons/marble.png){ .item-icon }Marble |
-| ![](../icons/marble_slab.png){ .item-icon }Marble Slab ×6 | 5 | 20 | 3 × ![](../icons/marble_block.png){ .item-icon }Marble Block |
-| ![](../icons/marble_stairs.png){ .item-icon }Marble Stairs ×4 | 8 | 26 | 3 × ![](../icons/marble_block.png){ .item-icon }Marble Block |
-| ![](../icons/polished_marble.png){ .item-icon }Polished Marble ×4 | 14 | 38 | 4 × ![](../icons/marble_block.png){ .item-icon }Marble Block |
-| ![](../icons/polished_marble_slab.png){ .item-icon }Polished Marble Slab ×6 | 16 | 42 | 3 × ![](../icons/polished_marble.png){ .item-icon }Polished Marble |
+| ![](../block-models/marble-block.png){ .block-mini }Marble Block | 1 | 12 | 4 × ![](../icons/marble.png){ .item-icon }Marble |
+| ![](../block-models/marble-slab.png){ .block-mini }Marble Slab ×6 | 5 | 20 | 3 × ![](../block-models/marble-block.png){ .block-mini }Marble Block |
+| ![](../block-models/marble-stairs.png){ .block-mini }Marble Stairs ×4 | 8 | 26 | 3 × ![](../block-models/marble-block.png){ .block-mini }Marble Block |
+| ![](../block-models/polished-marble.png){ .block-mini }Polished Marble ×4 | 14 | 38 | 4 × ![](../block-models/marble-block.png){ .block-mini }Marble Block |
+| ![](../block-models/polished-marble-slab.png){ .block-mini }Polished Marble Slab ×6 | 16 | 42 | 3 × ![](../block-models/polished-marble.png){ .block-mini }Polished Marble |
 | Iron Ingot ×2 | 30 | 70 | ![](../icons/pure_iron_ore.png){ .item-icon }Pure Iron Ore |
 | Diamond | 44 | 98 | 9 × ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment |
 

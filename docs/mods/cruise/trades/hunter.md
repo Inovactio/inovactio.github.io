@@ -13,7 +13,7 @@ The Hunter catches the islands' small creatures (beetles, butterflies, frogs, li
 
 | | |
 |---|---|
-| Workstation | ![](../icons/tannery.png){ .item-icon }**Tannery** |
+| Workstation | ![](../block-models/tannery.png){ .block-mini }**Tannery** |
 | Tools | ![](../icons/bug_catcher_net.png){ .item-icon }**Bug Catcher Net** (anyone crafts it); the Enhanced Bug Catcher Net and the traps are made by the [Inventor](inventor.md) |
 | Levels | 1 to 100; new creatures up to level 40, Tannery recipes up to level 46 |
 

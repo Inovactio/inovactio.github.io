@@ -15,7 +15,7 @@ The **Auction House** is where players trade with each other. Every Auction Hous
 | Ingredients | 6 planks, 1 book, 2 gold ingots |
 | Opens | right-click the counter |
 
-![](icons/auction_house.png){ .item-icon }The block is a wooden counter that faces you when placed. Its market has three tabs: **Buy**, **Sell** and **My lots**.
+![](block-models/auction-house.png){ .block-mini }The block is a wooden counter that faces you when placed. Its market has three tabs: **Buy**, **Sell** and **My lots**.
 
 ## Buying
 

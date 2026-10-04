@@ -70,15 +70,15 @@ This table lists the nine woods and their sets:
 
 | Wood | Its set |
 |---|---|
-| ![](../icons/adam_planks.png){ .item-icon }Adam | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
-| ![](../icons/blue_fruit_planks.png){ .item-icon }Blue Fruit | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
-| ![](../icons/brown_fruit_planks.png){ .item-icon }Brown Fruit | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
-| ![](../icons/burning_tree_planks.png){ .item-icon }Burning Tree | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
-| ![](../icons/golden_fruit_planks.png){ .item-icon }Golden Fruit | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
-| ![](../icons/horrific_pear_planks.png){ .item-icon }Horrific Pear | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
-| ![](../icons/kuuigosu_planks.png){ .item-icon }Kuuigosu | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
-| ![](../icons/palm_planks.png){ .item-icon }Palm | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
-| ![](../icons/red_fruit_planks.png){ .item-icon }Red Fruit | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
+| ![](../block-models/adam-planks.png){ .block-mini }Adam | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
+| ![](../block-models/blue-fruit-planks.png){ .block-mini }Blue Fruit | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
+| ![](../block-models/brown-fruit-planks.png){ .block-mini }Brown Fruit | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
+| ![](../block-models/burning-tree-planks.png){ .block-mini }Burning Tree | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
+| ![](../block-models/golden-fruit-planks.png){ .block-mini }Golden Fruit | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
+| ![](../block-models/horrific-pear-planks.png){ .block-mini }Horrific Pear | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
+| ![](../block-models/kuuigosu-planks.png){ .block-mini }Kuuigosu | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
+| ![](../block-models/palm-planks.png){ .block-mini }Palm | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
+| ![](../block-models/red-fruit-planks.png){ .block-mini }Red Fruit | 11 crafting recipes: planks, wood, stripped wood, stairs, slab, fence, fence gate, door, trapdoor, button, pressure plate |
 
 The [Carpenter](carpenter.md) builds hulls and lockers from Kuuigosu, Burning Tree and Adam Planks, and Adam Planks also go into the [Blacksmith](blacksmith.md)'s Kuro Kabuto.
 

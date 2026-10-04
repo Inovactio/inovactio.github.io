@@ -124,7 +124,7 @@ Only a [Carpenter](trades/carpenter.md) can mend a hull on the water. Anyone els
 
 ## Parts
 
-Parts are fitted at the ![](icons/upgrade_bench.png){ .item-icon }**Upgrade Bench**, which anyone can use: the boat item in the left slot, the part in the middle, the fitted boat on the right. Each boat takes one of each part and **only one sail**: fitting a new sail takes the old one down, and it comes back to you. How to build the bench is on the [Carpenter](trades/carpenter.md) page.
+Parts are fitted at the ![](block-models/upgrade-bench.png){ .block-mini }**Upgrade Bench**, which anyone can use: the boat item in the left slot, the part in the middle, the fitted boat on the right. Each boat takes one of each part and **only one sail**: fitting a new sail takes the old one down, and it comes back to you. How to build the bench is on the [Carpenter](trades/carpenter.md) page.
 
 | Part | Made by | Level | From | What it does |
 |---|---|---|---|---|
