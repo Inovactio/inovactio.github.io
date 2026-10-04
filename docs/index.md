@@ -20,7 +20,7 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     A survival progression that awakens a player's Devil Fruit through Doriki and time.
 
-    **Needs:** Mine Mine no Mi
+    **Needs:** Mine Mine no Mi, AkumaLib
 
     [:octicons-arrow-right-24: Read the wiki](mods/awaken-path/index.md)
 
