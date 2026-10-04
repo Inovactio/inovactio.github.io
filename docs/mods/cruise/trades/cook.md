@@ -4,7 +4,7 @@ The Cook turns the other trades' harvest into the islands' dishes at the **Kitch
 
 | | |
 |---|---|
-| Workstation | ![](../icons/kitchen.png){ .item-icon }**Kitchen** |
+| Workstation | ![](../block-models/kitchen.png){ .block-mini }**Kitchen** |
 | How it is made | crafting table, no level: a Cauldron, a Furnace and planks |
 | Levels | 1 to 100; recipes up to level 50 |
 | XP | every dish cooked: 10 + 2 × the recipe's level |

@@ -4,7 +4,7 @@ The Musician writes **scores** at the **Music Stand** and plays them on an instr
 
 | | |
 |---|---|
-| Workstation | ![](../icons/music_stand.png){ .item-icon }**Music Stand** |
+| Workstation | ![](../block-models/music-stand.png){ .block-mini }**Music Stand** |
 | How it is made | crafting table, no level: Paper, a Note Block, Sticks |
 | Instruments | made by the [Inventor](inventor.md) at the Workshop |
 | Levels | 1 to 100; scores up to level 100 |

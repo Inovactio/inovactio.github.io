@@ -15,7 +15,7 @@ The Navigator learns by **discovering places**: every chunk they have never been
 
 | | |
 |---|---|
-| Workstation | ![](../icons/chart_table.png){ .item-icon }**Chart Table** |
+| Workstation | ![](../block-models/chart-table.png){ .block-mini }**Chart Table** |
 | Advancements tab | Navigation |
 | Levels | 1 to 100; new kinds of land and place open up to level 100 |
 

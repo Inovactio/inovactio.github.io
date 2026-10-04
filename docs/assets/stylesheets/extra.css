@@ -176,6 +176,15 @@
   margin-right: 0.4em;
 }
 
+/* A block's 3D picture at an item icon's size, in the trades' tables: what the inventory shows for a block. */
+.md-typeset img.block-mini {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 0.3em;
+}
+
 /* A Cruise item's icon in front of its name, in the trades' tables. */
 .md-typeset img.item-icon {
   width: 20px;

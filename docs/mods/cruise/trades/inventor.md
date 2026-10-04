@@ -4,9 +4,9 @@ The Inventor builds the crew's gear at the **Workshop**: the Fisher's rods and p
 
 | | |
 |---|---|
-| Workstation | ![](../icons/workshop.png){ .item-icon }**Workshop** |
+| Workstation | ![](../block-models/workshop.png){ .block-mini }**Workshop** |
 | How it is made | crafting table, no level: Iron Ingots, a Crafting Table and planks |
-| Second bench | ![](../icons/upgrade_bench.png){ .item-icon }**Upgrade Bench**, to fit parts |
+| Second bench | ![](../block-models/upgrade-bench.png){ .block-mini }**Upgrade Bench**, to fit parts |
 | Levels | 1 to 100; recipes up to level 50 |
 | XP | every recipe built: 10 + 2 × its level |
 
@@ -217,7 +217,7 @@ Every Workshop recipe, with the Inventor level that unlocks it and the XP it pay
 | Flame Dial | 38 | 86 | ![](../icons/mysterious_dial.png){ .item-icon }Mysterious Dial, ![](../icons/spirit_firefly.png){ .item-icon }Spirit Firefly |
 | ![](../icons/guitar.png){ .item-icon }Guitar | 38 | 86 | 4 × any planks, 3 × String, ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, ![](../icons/magnet.png){ .item-icon }Magnet |
 | ![](../icons/steady_grip.png){ .item-icon }Steady Grip | 39 | 88 | 2 × ![](../icons/ice_stag_beetle.png){ .item-icon }Ice Miyama Stag Beetle, 2 × any hides, 3 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts |
-| ![](../icons/grand_piano.png){ .item-icon }Grand Piano | 40 | 90 | 4 × ![](../icons/adam_planks.png){ .item-icon }Adam Planks, 2 × Iron Ingot, Nether Quartz, Ink Sac, Gold Ingot |
+| ![](../icons/grand_piano.png){ .item-icon }Grand Piano | 40 | 90 | 4 × ![](../block-models/adam-planks.png){ .block-mini }Adam Planks, 2 × Iron Ingot, Nether Quartz, Ink Sac, Gold Ingot |
 | ![](../icons/sea_king_rod_upgrade.png){ .item-icon }Sea King Rod Upgrade | 40 | 90 | ![](../icons/mysterious_dial.png){ .item-icon }Mysterious Dial |
 | ![](../icons/thunder_dial.png){ .item-icon }Thunder Dial ×2 | 40 | 90 | ![](../icons/mysterious_dial.png){ .item-icon }Mysterious Dial, ![](../icons/thunder_spider.png){ .item-icon }Thunder Spider |
 | ![](../icons/burst_dial.png){ .item-icon }Burst Dial | 42 | 94 | ![](../icons/jet_dial.png){ .item-icon }Jet Dial, 3 × ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts, 3 × Iron Ingot, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap |
@@ -230,9 +230,9 @@ Every Workshop recipe, with the Inventor level that unlocks it and the XP it pay
 | ![](../icons/blind_spot_cannonball.png){ .item-icon }Blind Spot Cannonball | 48 | 106 | 2 × ![](../icons/missile_manta_ray.png){ .item-icon }Missile Manta Ray, 6 × ![](../icons/enhanced_bombs.png){ .item-icon }Enhanced Bombs |
 | Sorcery Clima Tact | 50 | 110 | Perfect Clima Tact, 8 × Gold Ingot |
 | ![](../icons/fine_guitar.png){ .item-icon }Fine Guitar | 58 | 126 | ![](../icons/guitar.png){ .item-icon }Guitar, Gold Ingot, 2 × ![](../icons/sweet_sap.png){ .item-icon }Sweet Sap |
-| ![](../icons/masters_violin.png){ .item-icon }Master's Violin | 62 | 134 | ![](../icons/fine_violin.png){ .item-icon }Fine Violin, 2 × ![](../icons/adam_planks.png){ .item-icon }Adam Planks, Gold Ingot, Ink Sac |
+| ![](../icons/masters_violin.png){ .item-icon }Master's Violin | 62 | 134 | ![](../icons/fine_violin.png){ .item-icon }Fine Violin, 2 × ![](../block-models/adam-planks.png){ .block-mini }Adam Planks, Gold Ingot, Ink Sac |
 | ![](../icons/fine_grand_piano.png){ .item-icon }Fine Grand Piano | 70 | 150 | ![](../icons/grand_piano.png){ .item-icon }Grand Piano, Gold Ingot, 2 × ![](../icons/sweet_sap.png){ .item-icon }Sweet Sap |
-| ![](../icons/masters_guitar.png){ .item-icon }Master's Guitar | 78 | 166 | ![](../icons/fine_guitar.png){ .item-icon }Fine Guitar, 2 × ![](../icons/adam_planks.png){ .item-icon }Adam Planks, 2 × Gold Ingot, Ink Sac |
+| ![](../icons/masters_guitar.png){ .item-icon }Master's Guitar | 78 | 166 | ![](../icons/fine_guitar.png){ .item-icon }Fine Guitar, 2 × ![](../block-models/adam-planks.png){ .block-mini }Adam Planks, 2 × Gold Ingot, Ink Sac |
 | ![](../icons/masters_grand_piano.png){ .item-icon }Master's Grand Piano | 100 | 210 | ![](../icons/fine_grand_piano.png){ .item-icon }Fine Grand Piano, 2 × Gold Ingot, Ink Sac |
 
 ## Advancements

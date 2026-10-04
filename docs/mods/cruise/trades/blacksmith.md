@@ -4,7 +4,7 @@ At the **Forge**, the Blacksmith makes Mine Mine no Mi weapons and gear that the
 
 | | |
 |---|---|
-| Workstation | ![](../icons/forge.png){ .item-icon }**Forge** |
+| Workstation | ![](../block-models/forge.png){ .block-mini }**Forge** |
 | How it is made | 3 Iron Ingots on top; Stone Bricks, Anvil, Stone Bricks in the middle; 3 Stone Bricks at the bottom |
 | Materials | iron, and the [Miner](miner.md)'s Kairoseki, Dense Kairoseki, Pure Iron Ore and Marble |
 | Levels | 1 to 100; new recipes up to level 50 |
@@ -46,7 +46,7 @@ These are all the Forge's recipes ("planks" means any planks):
 | Jitte | 36 | 82 | Dense Kairoseki, 2 × Iron Ingot |
 | 5t Hammer | 37 | 84 | 5 × Block of Iron, 2 × Dense Kairoseki, 2 × Stick |
 | Kairoseki Handcuffs | 41 | 92 | 2 × Dense Kairoseki, Chain |
-| Kuro Kabuto | 45 | 100 | Kabuto, 4 × ![](../icons/adam_planks.png){ .item-icon }Adam Planks, 2 × ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts, 3 × String |
+| Kuro Kabuto | 45 | 100 | Kabuto, 4 × ![](../block-models/adam-planks.png){ .block-mini }Adam Planks, 2 × ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts, 3 × String |
 | Soul Solid | 50 | 110 | 4 × Iron Ingot, 3 × Dense Kairoseki, 6 × ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment, Bone, Note Block, Diamond |
 
 ## Taking over the base mod's recipes
