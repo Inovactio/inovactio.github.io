@@ -20,6 +20,8 @@ Applies ![](../effect-icons/wax-petrify.png){ .effect-mini .pixelated }[Wax Petr
 
 Turns the area into hot wax that slows and burns enemies, then hardens and traps them
 
+The wax spreads as **Soft Wax** while the ability charges: enemies sink into it, slowed and set alight. When the charge ends it sets into **Hard Wax**, a solid block, for 30 seconds; the ground then comes back as it was.
+
 | Stat | Value |
 |---|---|
 | Cooldown | 120 s |
