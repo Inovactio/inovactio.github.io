@@ -45,8 +45,8 @@ They are told like the [events at sea](events-at-sea.md#how-you-hear-of-them): i
 <div class="mob-gallery" markdown>
 
 <figure markdown>
-![The Travelling Musician, in a red beret and braces](pictures/travelling-musician.png)
-<figcaption>The Travelling Musician</figcaption>
+![The Travelling Musician in a red beret and braces, playing his guitar](pictures/travelling-musician.png)
+<figcaption>The Travelling Musician, at his guitar</figcaption>
 </figure>
 
 </div>

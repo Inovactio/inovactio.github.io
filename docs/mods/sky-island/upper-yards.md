@@ -42,18 +42,18 @@ The warriors of Shandora, and their chief, guarding their land. **They attack on
 <div class="mob-gallery" markdown>
 
 <figure markdown>
-![A Shandia warrior, with wings and skates](mobs/shandia-warrior.png)
-<figcaption>A warrior (one of six looks)</figcaption>
+![A Shandia warrior with wings and skates, a Shandia spear in his hand](mobs/shandia-warrior.png)
+<figcaption>A warrior with his spear (one of six looks)</figcaption>
 </figure>
 
 <figure markdown>
-![The Shandia chief, with wings and skates](mobs/shandia-chief.png)
-<figcaption>The chief</figcaption>
+![The Shandia chief with wings and skates, the burn bazooka in his hand](mobs/shandia-chief.png)
+<figcaption>The chief with the burn bazooka</figcaption>
 </figure>
 
 </div>
 
-In 3D: drag to turn, scroll or pinch to zoom; the buttons change the look. They are shown without the weapon they carry.
+In 3D: drag to turn, scroll or pinch to zoom; the buttons change the look. The warrior is shown with the spear, the commonest of his six weapons.
 
 <div class="model-viewer" data-models="../models/" data-ids="shandia-warrior shandia-chief"></div>
 
