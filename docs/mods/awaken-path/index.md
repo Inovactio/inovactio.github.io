@@ -16,6 +16,7 @@ tags:
 |---|---|
 | Version documented | **2.3.0** |
 | Mod id | `mineminenomiawakenpath` |
+| Languages | English and French, following the game's language |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-awaken-path) |
 | Changelog | [Every release](changelog.md) |
 
