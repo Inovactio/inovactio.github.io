@@ -66,4 +66,5 @@ Without `targets`, it applies to the player running it. It needs the command's p
 | **[All abilities](all-abilities.md)** | every ability in one table you can sort and filter: cooldown, charge, hold, damage, range |
 | **[Status effects](effects.md)** | the effects the awakenings inflict or grant, and what applies each one |
 | **[Items](items.md)** | BakuMetal ingot, tools and armour, with their recipes, and Candy |
+| **[Blocks](blocks.md)** | the wax, threads, scrap and other blocks the abilities lay, in 3D |
 | **[Configuration](configuration.md)** | the server settings of `awakenawakennomi-common.toml` |
