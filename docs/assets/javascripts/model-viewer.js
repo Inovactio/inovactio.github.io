@@ -105,6 +105,8 @@
     gl.linkProgram(prog);
     gl.useProgram(prog);
     gl.enable(gl.DEPTH_TEST);
+    // As the game draws entities: of two faces in one plane (a flat wing's two sides) the later one covers the other.
+    gl.depthFunc(gl.LEQUAL);
     const attr = n => gl.getAttribLocation(prog, n);
     const textures = {};
 
