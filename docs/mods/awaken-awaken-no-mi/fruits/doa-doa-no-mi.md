@@ -17,6 +17,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 Drags everyone in the zone into a sealed pocket dimension until the user lets them out or time runs out.
 
+The pocket dimension is a closed arena, 49 blocks wide and 27 high, on three storeys joined by a round opening in each floor. Its walls (**Indestructible Doa**), corner pillars (**Indestructible Doa Pillar**) and floors (**Indestructible Doa Floor**) cannot be broken, by hand or by explosion.
+
 | Stat | Value |
 |---|---|
 | Cooldown | 240 s |
