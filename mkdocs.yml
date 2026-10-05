@@ -216,6 +216,37 @@ nav:
       - Status effects: mods/inofruits/effects.md
       - Configuration: mods/inofruits/configuration.md
       - Changelog: mods/inofruits/changelog.md
+  - Missing Missing no Mi:
+      - mods/missing-missing-no-mi/index.md
+      - Fruits:
+          - mods/missing-missing-no-mi/fruits/index.md
+          - Paramecia:
+              - "Ami Ami no Mi": mods/missing-missing-no-mi/fruits/ami-ami-no-mi.md
+              - "Ato Ato no Mi": mods/missing-missing-no-mi/fruits/ato-ato-no-mi.md
+              - "Buki Buki no Mi": mods/missing-missing-no-mi/fruits/buki-buki-no-mi.md
+              - "Choki Choki no Mi": mods/missing-missing-no-mi/fruits/choki-choki-no-mi.md
+              - "Fuwa Fuwa no Mi": mods/missing-missing-no-mi/fruits/fuwa-fuwa-no-mi.md
+              - "Gasha Gasha no Mi": mods/missing-missing-no-mi/fruits/gasha-gasha-no-mi.md
+              - "Giro Giro no Mi": mods/missing-missing-no-mi/fruits/giro-giro-no-mi.md
+              - "Guru Guru no Mi": mods/missing-missing-no-mi/fruits/guru-guru-no-mi.md
+              - "Hira Hira no Mi": mods/missing-missing-no-mi/fruits/hira-hira-no-mi.md
+              - "Hobi Hobi no Mi": mods/missing-missing-no-mi/fruits/hobi-hobi-no-mi.md
+              - "Ishi Ishi no Mi": mods/missing-missing-no-mi/fruits/ishi-ishi-no-mi.md
+              - "Kama Kama no Mi": mods/missing-missing-no-mi/fruits/kama-kama-no-mi.md
+              - "Nui Nui no Mi": mods/missing-missing-no-mi/fruits/nui-nui-no-mi.md
+              - "Pamu Pamu no Mi": mods/missing-missing-no-mi/fruits/pamu-pamu-no-mi.md
+              - "Ton Ton no Mi": mods/missing-missing-no-mi/fruits/ton-ton-no-mi.md
+          - Logia:
+              - "Mori Mori no Mi": mods/missing-missing-no-mi/fruits/mori-mori-no-mi.md
+              - "Numa Numa no Mi": mods/missing-missing-no-mi/fruits/numa-numa-no-mi.md
+          - Zoan:
+              - "Inu Inu no Mi, Model: Wolf": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-wolf.md
+              - "Mushi Mushi no Mi, Model: Kabutomushi": mods/missing-missing-no-mi/fruits/mushi-mushi-no-mi-model-kabutomushi.md
+              - "Mushi Mushi no Mi, Model: Suzumebachi": mods/missing-missing-no-mi/fruits/mushi-mushi-no-mi-model-suzumebachi.md
+              - "Tori Tori no Mi, Model: Falcon": mods/missing-missing-no-mi/fruits/tori-tori-no-mi-model-falcon.md
+      - All abilities: mods/missing-missing-no-mi/all-abilities.md
+      - Status effects: mods/missing-missing-no-mi/effects.md
+      - Changelog: mods/missing-missing-no-mi/changelog.md
   - Sky Island:
       - mods/sky-island/index.md
       - Getting there and back: mods/sky-island/getting-there.md
