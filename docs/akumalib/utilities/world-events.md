@@ -96,6 +96,60 @@ In Mine Mine no Mi 0.11.5, a barkeeper answers "nothing new" to any player who i
 whatever it knows. Such a player now hears of the world events near the barkeeper. A Marine hears the base mod's own
 rumour half the time.
 
+## What every event type would write for itself
+
+**Its clock.** Most events come again after so many days, drawn between a fewest and a most, and stay so many hours:
+
+```java
+public long nextStartDelay(RandomSource random) {
+    return EventClock.days(random, MyConfig.LEAST_DAYS.get(), MyConfig.MOST_DAYS.get());
+}
+
+public long duration(RandomSource random) {
+    return EventClock.hours(MyConfig.STAY_HOURS.get());
+}
+```
+
+A "most" set below the "fewest" counts as the fewest. `EventClock.between(random, least, most, unit)` draws in any unit; `EventClock.HOUR` and `DAY` are in ticks.
+
+**A way and a distance.** An event that is to be looked for, not walked to - a school of fish, a fallen star, a storm - is told without coordinates: "to the north-east, about 400 blocks".
+
+```java
+double dx = event.pos().getX() + 0.5D - player.getX();
+double dz = event.pos().getZ() + 0.5D - player.getZ();
+Component told = Component.translatable("mymod.star.fell",
+        Whereabouts.wind(Whereabouts.way(dx, dz)), Whereabouts.about(Math.sqrt(dx * dx + dz * dz)));
+```
+
+`way` gives one of the eight winds, `wind` its name in the reader's language (the library's own texts), `about` the distance to the nearest 50 blocks, `within(player, pos, reach)` whether a player is near enough to be told at all.
+
+**A rumour told from a named place.** A barkeeper has no place of his own to tell an event from. The event keeps one when it starts, and its rumour reads it back:
+
+```java
+public boolean start(ServerLevel level, WorldEvent event) {
+    Whereabouts.rumourFrom(event, villageName, villageSquare);    // a name, and where that place is
+    return true;
+}
+
+public Component rumour(WorldEvent event) {
+    Whereabouts.From from = Whereabouts.rumourOf(event);         // null: no place was kept
+    return from == null ? Component.translatable("mymod.star.rumour.wild")
+            : Component.translatable("mymod.star.rumour", from.far(), from.wind(), from.place());
+}
+```
+
+**Every rumour near a place.** `AkumaWorldEvents.rumoursNear(server, from)` lists the rumours of the running events whose range reaches a place, nearest first, each with its event - for its time left, `event.remaining(now)` - and its distance: what a board of news shows. An event whose `rumour` throws is left out, not the others. `nearestRumour` is its first entry.
+
+**What belongs to an event goes with it.** An entity an event put down - a ship's sailor, a visitor - keeps its event's `id()`, saves it, and asks each tick:
+
+```java
+if (AkumaWorldEvents.hasEnded(this, this.eventId)) {
+    discard();
+}
+```
+
+It looks once a second, on the server. It is what takes away an entity whose chunk was not loaded when its event ended: `end` could not reach it, and it goes by itself when it comes back.
+
 ## For operators
 
 | Command | Does |

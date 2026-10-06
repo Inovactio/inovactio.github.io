@@ -133,3 +133,22 @@ A slam is a flight still fast a tick ago (0.8 blocks a tick or more) that stops 
 - `wantsToAttack(owner, target, sameOwner)`: an enemy of the owner (`AkumaTargeting.isEnemy`), never the owner, never a summon of the same owner;
 - `shouldLeave(owner, lifeLeft)` and `leave(mob)`: time up, or the owner gone or dead, and it vanishes in a puff.
 
+
+## `AkumaAmounts`
+
+`AkumaAmounts.grouped(12500)` gives `12 500`: an amount with its thousands grouped by a space, the way a price is written on a board, the same in every language. For any price, reward or amount of XP a screen or a chat line shows.
+
+## `UnseenSeat`
+
+A seat nobody sees: an entity with no shape, ridden by whoever sits there - a chair, a stool, a bench. The game draws its rider seated, and nothing else. It goes as soon as nobody sits on it.
+
+```java
+public class ChairSeat extends UnseenSeat {
+    public ChairSeat(EntityType<? extends ChairSeat> type, Level level) { super(type, level); }
+    @Override public double getPassengersRidingOffset() { return 0.0D; }
+}
+```
+
+Register the type with a renderer that draws nothing, put the seat where the sitter should be, and have him ride it. Override `stays()` to give it a reason of its own to go (the block it serves is gone).
+
+**It is saved while somebody sits on it, and only then.** A rider is never written to disk on his own: the game saves him inside what he rides. A seat that is never saved - the obvious way to leave no empty seats behind - takes whoever sat on it with it when the world is closed. A seat that knows more than its place writes it in `addAdditionalSaveData`, or it comes back knowing nothing.

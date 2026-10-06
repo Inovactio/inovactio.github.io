@@ -13,9 +13,26 @@ A mod whose dimension is shaped by what the overworld looks like underneath it �
 
 ## Why it is safe
 
-`BiomeSource#getNoiseBiome` is a **pure computation** over the overworld's noise. Given its `Climate.Sampler` it answers "what biome would be here" without reading, generating or loading a single chunk.
+`BiomeSource#getNoiseBiome` is a computation over the overworld's noise. Given its `Climate.Sampler` it answers "what biome would be here" without reading, generating or loading a single chunk.
 
 That is also what makes it compatible with **Terralith, TerraBlender and Tectonic by construction**: it goes through whatever biome source the overworld actually has, not through a copy of vanilla's rules. Any of them whose oceans carry `minecraft:is_ocean` is supported without a line of compatibility code.
+
+## The same answer on every thread
+
+⚠️ **The game's biome search remembers its last answer, per thread, and keeps it where two biomes are equally near.** A column whose climate falls exactly on the line two biomes share — where the ocean ends and the shore begins, where the deep ocean ends and the ocean begins — is whichever of the two the thread answered last. Left alone, such a column is an ocean to one worldgen thread and a shore to another.
+
+It is rare: on one seed, 197 quart columns of 641 601 over a square 3 204 blocks wide, 83 of them for `minecraft:is_ocean` and 27 for `minecraft:is_deep_ocean`. But a terrain shaped by "is the overworld an ocean here" is then not quite a function of the seed.
+
+`OverworldLookup` reads through `SteadyBiomes`, which gives the search the same last answer before each read. Which of the two biomes a tied column gets is still the game's choice; every thread is told the same one.
+
+`SteadyBiomes` is there for your own searches too:
+
+```java
+Holder<Biome> biome = SteadyBiomes.at(level, pos);                             // as the level reads it; server thread
+Holder<Biome> same = SteadyBiomes.at(source, sampler, quartX, quartY, quartZ); // no chunk touched; any thread
+```
+
+Use it wherever a search reads the biomes of columns that are not loaded and something else reads them again afterwards — a place found "at sea" must still be at sea for whoever checks it a line later. It costs one more search per read: keep a cache on a hot path, as `OverworldLookup` does. A loaded column is read off its chunk and needs none of this.
 
 ## What it returns
 

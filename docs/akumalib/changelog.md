@@ -2,7 +2,59 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
-## 4.0.0 (beta) { #v4-0-0 }
+## 4.1.0 { #v4-1-0 }
+
+<small>Released 2026-10-06 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9081758)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Three more corrections of Mine Mine no Mi, and new tools for addon makers.</strong> A Logia can no longer fall out of the
+world for ever, a technique you are refused no longer cuts the one that was running, and opening your own ender
+chest in a faction building is no longer a theft. The corrections of 4.0.0 are all still there, each with its switch.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p>No signature was removed or changed: an addon made for 4.0.0 works with 4.1.0. The network protocol is the same
+(6): 4.0.0 and 4.1.0 play together.</p>
+<hr />
+<h2>Mine Mine no Mi fixes</h2>
+<p>Each has its own switch in <code>akumalib-server.toml</code> (section <code>baseModFixes</code>), on by default.</p>
+<ul>
+<li><strong>A Logia in the void.</strong> A Logia user who fell out of the world kept falling for ever, and an operator could not
+  kill one with <code>/kill</code>. Both now work as for anybody else (<code>fixLogiaAbsoluteDamage</code>).</li>
+<li><strong>A refused technique stopped the one that was running.</strong> Pressing a technique that could not be used (nothing in
+  reach, nothing to give back, no ammunition) ended the lasting technique you had running and started its cooldown.
+  A refused press now changes nothing (<code>fixRefusedPress</code>).</li>
+<li><strong>Thefts that were not thefts.</strong> In a marine or a revolutionary building, opening your own ender chest, or a
+  storage window of another mod, counted as stealing and lowered your loyalty. Only a chest of the place counts now
+  (<code>fixChestTheft</code>).</li>
+</ul>
+<h2>Fixed</h2>
+<ul>
+<li><strong>Coasts read the same way every time.</strong> A dimension shaped by the overworld's seas (Sky Island's islands and
+  sea of clouds) asks AkumaLib where the sea is. On a few columns right on a coastline, the answer could differ
+  from one moment to the next. It is now always the same.</li>
+<li><strong>Messages between the game and the server go one way only.</strong> On a world opened to LAN, a modified game could
+  send the host messages that are meant for players. They are now refused.</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li><code>SteadyBiomes</code>: reads the biome of a column that is not loaded with the same answer every time. Use it in any
+  search that looks for a place by its biome and is checked again afterwards.</li>
+<li>A packet registered on your own channel should be given its direction: without one, Forge accepts it from
+  either side.</li>
+<li>World events: <code>EventClock</code> (so many days between two events, so many hours' stay), <code>Whereabouts</code> (a place told
+  as a way and a distance - "to the north-east, about 400 blocks" - and a rumour told from a named place),
+  <code>AkumaWorldEvents.rumoursNear</code> (every rumour near a place, nearest first: what a board of news lists) and
+  <code>AkumaWorldEvents.hasEnded</code> (for an entity that goes with its event).</li>
+<li><code>AkumaAmounts.grouped</code>: an amount with its thousands grouped, <code>12 500</code>, the same in every language.</li>
+<li><code>UnseenSeat</code>: the base of a seat entity nobody sees, which is saved with whoever sits on it.</li>
+<li><code>BookScreen</code>, <code>NoteScreen</code> and <code>ParchmentNote</code>: Mine Mine no Mi's open book and its parchment note as bases for
+  your own screens - the frame, the arrows and the pages of the one, the sheet, the slots and the inks of the other.</li>
+<li>A use check that refuses is now told before the base mod's own refusals (protected area, pool in use). It is still
+  a refusal, with the check's own words.</li>
+</ul>
+<p>All of these are described on the <a href="https://inovactio.github.io/akumalib/">AkumaLib pages</a>.</p>
+</div>
+
+## 4.0.0 { #v4-0-0 }
 
 <small>Released 2026-10-02 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9038031)</small>
 

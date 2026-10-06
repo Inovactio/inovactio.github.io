@@ -12,7 +12,9 @@ AkumaLib corrects faults of Mine Mine no Mi itself, for every mod that uses it a
     `[baseModFixes]`. Set one to `false` and the base mod's own behaviour is back for that group. Each switch's comment
     in the file says what it covers.
 
-    4.0.0 is a beta: the corrections were tested one by one, few of them in a long game yet.
+    4.1.0 adds three: a Logia in the void and under `/kill` (`fixLogiaAbsoluteDamage`), a refused press that stopped the
+    running technique (`fixRefusedPress`), and chest windows counted as thefts (`fixChestTheft`). See the
+    [4.1.0 changelog](../changelog.md#v4-1-0).
 
 The sections below describe the older fixes in detail.
 
