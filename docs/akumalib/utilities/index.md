@@ -45,6 +45,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 | Page | Helpers |
 |---|---|
 | [World events](world-events.md) | `AkumaWorldEvents`, `WorldEventType`: events that come near players now and then, announced in the chat and told by the base mod's barkeepers |
+| [Screens in the base mod's look](screens.md) | `BookScreen`, `NoteScreen`, `ParchmentNote`, `MmnmGui`: the base mod's open book and its parchment note as bases for a screen |
 | [Fixes to the base mod](base-mod-fixes.md) | what AkumaLib corrects in Mine Mine no Mi itself, and the server config to turn each fix off |
 
 ## Timing and the rest
@@ -52,7 +53,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 | Page | Helpers |
 |---|---|
 | [Deferred work](tick-queue.md) | `AkumaTickQueue`: run something at the end of this server tick, or N ticks from now; `ServerScopedMap`: static state emptied when the server stops; `AbilityLifecycle`: abilities stopped on death, zero gravity and soft landings that clean up after themselves |
-| [Other helpers](other-helpers.md) | `FruitInjectionHelper`, `RandomTeleportHelper`, `InoHelper` |
+| [Other helpers](other-helpers.md) | `FruitInjectionHelper`, `RandomTeleportHelper`, `InoHelper`, `AkumaAmounts`, `UnseenSeat` |
 
 ## Documented elsewhere
 
