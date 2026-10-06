@@ -6,17 +6,17 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="TornadoEntity is a funnel: it pulls everything around it inward and upward, tears blocks loose, and can be walked across the battlefield towards a point.">
+        <meta name="description" content="Mine Mine no Mi draws its windows on two things: an open book and a parchment note. MmnmGui draws them from the base mod's own textures (referenced, never copied), and two base classes hold what…">
       
       
       
-        <link rel="canonical" href="https://inovactio.github.io/akumalib/entities/tornadoes/">
+        <link rel="canonical" href="https://inovactio.github.io/akumalib/utilities/screens/">
       
       
-        <link rel="prev" href="../projectiles/">
+        <link rel="prev" href="../world-events/">
       
       
-        <link rel="next" href="../creatures/">
+        <link rel="next" href="../base-mod-fixes/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Tornadoes - Inovactio's Minecraft Mods</title>
+        <title>Screens - Inovactio's Minecraft Mods</title>
       
     
     
@@ -68,13 +68,13 @@
     
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Inovactio's Minecraft Mods">
-    <meta property="og:title" content="Tornadoes · AkumaLib">
-    <meta property="og:description" content="TornadoEntity is a funnel: it pulls everything around it inward and upward, tears blocks loose, and can be walked across the battlefield towards a point.">
-    <meta property="og:url" content="https://inovactio.github.io/akumalib/entities/tornadoes/">
+    <meta property="og:title" content="Screens · AkumaLib">
+    <meta property="og:description" content="Mine Mine no Mi draws its windows on two things: an open book and a parchment note. MmnmGui draws them from the base mod's own textures (referenced, never copied), and two base classes hold what…">
+    <meta property="og:url" content="https://inovactio.github.io/akumalib/utilities/screens/">
     <meta property="og:image" content="https://inovactio.github.io/assets/icons/akumalib.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Tornadoes · AkumaLib">
-    <meta name="twitter:description" content="TornadoEntity is a funnel: it pulls everything around it inward and upward, tears blocks loose, and can be walked across the battlefield towards a point.">
+    <meta name="twitter:title" content="Screens · AkumaLib">
+    <meta name="twitter:description" content="Mine Mine no Mi draws its windows on two things: an open book and a parchment note. MmnmGui draws them from the base mod's own textures (referenced, never copied), and two base classes hold what…">
     <meta name="twitter:image" content="https://inovactio.github.io/assets/icons/akumalib.png"><meta name="theme-color" content="#7e56c2">
   
 
@@ -97,7 +97,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#tornadoes" class="md-skip">
+        <a href="#screens-in-the-base-mods-look" class="md-skip">
           Skip to content
         </a>
       
@@ -131,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Tornadoes
+              Screens
             
           </span>
         </div>
@@ -8050,8 +8050,6 @@
                 
   
   
-    
-  
   
   
     
@@ -8081,15 +8079,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_6" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../entities/" class="md-nav__link ">
               
   
   
@@ -8113,7 +8111,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_8_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -8133,7 +8131,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../projectiles/" class="md-nav__link">
+      <a href="../../entities/projectiles/" class="md-nav__link">
         
   
   
@@ -8158,37 +8156,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tornadoes
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../entities/tornadoes/" class="md-nav__link">
         
   
   
@@ -8204,81 +8175,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-to-implement" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What to implement
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#spawning-and-steering-it" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Spawning and steering it
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-it-does-each-tick" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What it does each tick
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#water-and-rain" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Water and rain
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#traps" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Traps
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -8291,7 +8187,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../creatures/" class="md-nav__link">
+      <a href="../../entities/creatures/" class="md-nav__link">
         
   
   
@@ -8319,7 +8215,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../traps/" class="md-nav__link">
+      <a href="../../entities/traps/" class="md-nav__link">
         
   
   
@@ -8601,7 +8497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/cells/" class="md-nav__link">
+      <a href="../cells/" class="md-nav__link">
         
   
   
@@ -8629,7 +8525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/overworld-lookup/" class="md-nav__link">
+      <a href="../overworld-lookup/" class="md-nav__link">
         
   
   
@@ -8657,7 +8553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/dimension-travel/" class="md-nav__link">
+      <a href="../dimension-travel/" class="md-nav__link">
         
   
   
@@ -8685,7 +8581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/jigsaw/" class="md-nav__link">
+      <a href="../jigsaw/" class="md-nav__link">
         
   
   
@@ -8856,8 +8752,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -8893,15 +8791,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_10" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_10" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../utilities/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -8925,7 +8823,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_10_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_10_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8_10">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9003,7 +8901,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/targeting/" class="md-nav__link">
+      <a href="../targeting/" class="md-nav__link">
         
   
   
@@ -9031,7 +8929,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/protection/" class="md-nav__link">
+      <a href="../protection/" class="md-nav__link">
         
   
   
@@ -9125,7 +9023,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/effects/" class="md-nav__link">
+      <a href="../effects/" class="md-nav__link">
         
   
   
@@ -9153,7 +9051,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/effect-owners/" class="md-nav__link">
+      <a href="../effect-owners/" class="md-nav__link">
         
   
   
@@ -9247,7 +9145,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/attributes-and-size/" class="md-nav__link">
+      <a href="../attributes-and-size/" class="md-nav__link">
         
   
   
@@ -9275,7 +9173,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/motion/" class="md-nav__link">
+      <a href="../motion/" class="md-nav__link">
         
   
   
@@ -9371,7 +9269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/blocks/" class="md-nav__link">
+      <a href="../blocks/" class="md-nav__link">
         
   
   
@@ -9399,7 +9297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/lines/" class="md-nav__link">
+      <a href="../lines/" class="md-nav__link">
         
   
   
@@ -9427,7 +9325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/tooltips/" class="md-nav__link">
+      <a href="../tooltips/" class="md-nav__link">
         
   
   
@@ -9525,7 +9423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/currency/" class="md-nav__link">
+      <a href="../currency/" class="md-nav__link">
         
   
   
@@ -9553,7 +9451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/doriki/" class="md-nav__link">
+      <a href="../doriki/" class="md-nav__link">
         
   
   
@@ -9581,7 +9479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/devil-fruits/" class="md-nav__link">
+      <a href="../devil-fruits/" class="md-nav__link">
         
   
   
@@ -9609,7 +9507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/titles/" class="md-nav__link">
+      <a href="../titles/" class="md-nav__link">
         
   
   
@@ -9642,8 +9540,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -9662,11 +9562,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_10_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_10_7" checked>
         
           
           <label class="md-nav__link" for="__nav_8_10_7" id="__nav_8_10_7_label" tabindex="0">
@@ -9687,7 +9587,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_10_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_10_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8_10_7">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9705,7 +9605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/world-events/" class="md-nav__link">
+      <a href="../world-events/" class="md-nav__link">
         
   
   
@@ -9730,10 +9630,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../utilities/screens/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Screens
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -9749,6 +9676,48 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-open-book-bookscreen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The open book: BookScreen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-parchment-note-notescreen-and-parchmentnote" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The parchment note: NoteScreen and ParchmentNote
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -9761,7 +9730,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/base-mod-fixes/" class="md-nav__link">
+      <a href="../base-mod-fixes/" class="md-nav__link">
         
   
   
@@ -9797,7 +9766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/tick-queue/" class="md-nav__link">
+      <a href="../tick-queue/" class="md-nav__link">
         
   
   
@@ -9825,7 +9794,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities/other-helpers/" class="md-nav__link">
+      <a href="../other-helpers/" class="md-nav__link">
         
   
   
@@ -9944,10 +9913,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-to-implement" class="md-nav__link">
+  <a href="#the-open-book-bookscreen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What to implement
+        The open book: BookScreen
       
     </span>
   </a>
@@ -9955,43 +9924,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#spawning-and-steering-it" class="md-nav__link">
+  <a href="#the-parchment-note-notescreen-and-parchmentnote" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Spawning and steering it
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-it-does-each-tick" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What it does each tick
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#water-and-rain" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Water and rain
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#traps" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Traps
+        The parchment note: NoteScreen and ParchmentNote
       
     </span>
   </a>
@@ -10062,7 +9998,25 @@
         <a href="../" class="md-path__link">
           
   <span class="md-ellipsis">
-    Entities
+    Utilities
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../world-events/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    The world
   </span>
 
         </a>
@@ -10081,141 +10035,118 @@
 
 
 
-<h1 id="tornadoes">Tornadoes<a class="headerlink" href="#tornadoes" title="Permanent link">&para;</a></h1>
-<p><code>TornadoEntity</code> is a funnel: it pulls everything around it inward and upward, tears blocks loose, and can be walked across the battlefield towards a point.</p>
-<h2 id="what-to-implement">What to implement<a class="headerlink" href="#what-to-implement" title="Permanent link">&para;</a></h2>
-<div class="highlight"><span class="filename">MyTornadoEntity.java</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyTornadoEntity</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">TornadoEntity</span><span class="w"> </span><span class="p">{</span>
+<h1 id="screens-in-the-base-mods-look">Screens in the base mod's look<a class="headerlink" href="#screens-in-the-base-mods-look" title="Permanent link">&para;</a></h1>
+<p>Mine Mine no Mi draws its windows on two things: an <strong>open book</strong> and a <strong>parchment note</strong>. <code>MmnmGui</code> draws them from the base mod's own textures (referenced, never copied), and two base classes hold what every screen built on them would otherwise write for itself.</p>
+<p>Neither base draws anything by itself. A screen keeps its own <code>render</code>, calls the pieces in the order it wants, and stays the only place that says what it looks like.</p>
+<h2 id="the-open-book-bookscreen">The open book: <code>BookScreen</code><a class="headerlink" href="#the-open-book-bookscreen" title="Permanent link">&para;</a></h2>
+<p>Two pages, a wooden arrow at the foot of the left one to go back, and - for a book with more than a page - two arrows and a "2 / 5" at the foot of the right one. The profession pages and the Titles screen are built on it.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyBook</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">BookScreen</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyTornadoEntity</span><span class="p">(</span><span class="n">Level</span><span class="w"> </span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">owner</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">owner</span><span class="p">,</span><span class="w"> </span><span class="n">MyEntities</span><span class="p">.</span><span class="na">TORNADO</span><span class="p">.</span><span class="na">get</span><span class="p">());</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyBook</span><span class="p">(</span><span class="n">Screen</span><span class="w"> </span><span class="n">parent</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">Component</span><span class="p">.</span><span class="na">translatable</span><span class="p">(</span><span class="s">"mymod.book.title"</span><span class="p">),</span><span class="w"> </span><span class="n">parent</span><span class="p">);</span><span class="w">   </span><span class="c1">// the back arrow and Escape go to parent</span>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyTornadoEntity</span><span class="p">(</span><span class="n">EntityType</span><span class="o">&lt;?&gt;</span><span class="w"> </span><span class="n">type</span><span class="p">,</span><span class="w"> </span><span class="n">Level</span><span class="w"> </span><span class="n">level</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">type</span><span class="p">,</span><span class="w"> </span><span class="n">level</span><span class="p">);</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="nd">@Override</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">spawnParticles</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">        </span><span class="c1">// called every 40 ticks, server side</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="p">}</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">pages</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Math</span><span class="p">.</span><span class="na">max</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="n">entries</span><span class="p">().</span><span class="na">size</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">PER_PAGE</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">PER_PAGE</span><span class="p">);</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">mouseClicked</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">mouseX</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">mouseY</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">button</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">button</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">clickArrows</span><span class="p">(</span><span class="n">mouseX</span><span class="p">,</span><span class="w"> </span><span class="n">mouseY</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="kd">super</span><span class="p">.</span><span class="na">mouseClicked</span><span class="p">(</span><span class="n">mouseX</span><span class="p">,</span><span class="w"> </span><span class="n">mouseY</span><span class="p">,</span><span class="w"> </span><span class="n">button</span><span class="p">);</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">render</span><span class="p">(</span><span class="n">GuiGraphics</span><span class="w"> </span><span class="n">g</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">mouseX</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">mouseY</span><span class="p">,</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">partialTick</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">        </span><span class="n">renderBackground</span><span class="p">(</span><span class="n">g</span><span class="p">);</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">        </span><span class="n">drawBook</span><span class="p">(</span><span class="n">g</span><span class="p">);</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">        </span><span class="n">g</span><span class="p">.</span><span class="na">drawString</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">font</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">title</span><span class="p">,</span><span class="w"> </span><span class="n">left</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">LEFT_PAGE</span><span class="p">,</span><span class="w"> </span><span class="n">top</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">PAGE_TOP</span><span class="p">,</span><span class="w"> </span><span class="n">MmnmGui</span><span class="p">.</span><span class="na">INK</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">);</span>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">        </span><span class="n">small</span><span class="p">(</span><span class="n">g</span><span class="p">,</span><span class="w"> </span><span class="n">Component</span><span class="p">.</span><span class="na">translatable</span><span class="p">(</span><span class="s">"mymod.book.note"</span><span class="p">),</span><span class="w"> </span><span class="n">left</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">LEFT_PAGE</span><span class="p">,</span><span class="w"> </span><span class="n">top</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">PAGE_TOP</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="n">MmnmGui</span><span class="p">.</span><span class="na">INK_DIM</span><span class="p">);</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">        </span><span class="c1">// ... this.page tells which entries the right page shows</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">        </span><span class="n">drawBackArrow</span><span class="p">(</span><span class="n">g</span><span class="p">,</span><span class="w"> </span><span class="n">mouseX</span><span class="p">,</span><span class="w"> </span><span class="n">mouseY</span><span class="p">);</span>
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">        </span><span class="n">drawPageArrows</span><span class="p">(</span><span class="n">g</span><span class="p">,</span><span class="w"> </span><span class="n">mouseX</span><span class="p">,</span><span class="w"> </span><span class="n">mouseY</span><span class="p">);</span>
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">        </span><span class="kd">super</span><span class="p">.</span><span class="na">render</span><span class="p">(</span><span class="n">g</span><span class="p">,</span><span class="w"> </span><span class="n">mouseX</span><span class="p">,</span><span class="w"> </span><span class="n">mouseY</span><span class="p">,</span><span class="w"> </span><span class="n">partialTick</span><span class="p">);</span><span class="w">                 </span><span class="c1">// the widgets, if it has any</span>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="p">}</span>
 </code></pre></div>
-<p>Register its entity type, and a renderer and model of your own: the library provides neither. See <a href="../#registering-an-entity">Entities</a>.</p>
-<h2 id="spawning-and-steering-it">Spawning and steering it<a class="headerlink" href="#spawning-and-steering-it" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">MyTornadoEntity</span><span class="w"> </span><span class="n">funnel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">MyTornadoEntity</span><span class="p">(</span><span class="n">entity</span><span class="p">.</span><span class="na">level</span><span class="p">(),</span><span class="w"> </span><span class="n">entity</span><span class="p">);</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">funnel</span><span class="p">.</span><span class="na">setMaxLife</span><span class="p">(</span><span class="mi">200</span><span class="p">);</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">funnel</span><span class="p">.</span><span class="na">setSize</span><span class="p">(</span><span class="mf">8.0F</span><span class="p">);</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="n">funnel</span><span class="p">.</span><span class="na">setSpeed</span><span class="p">(</span><span class="o">-</span><span class="mf">2.0F</span><span class="p">);</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="n">funnel</span><span class="p">.</span><span class="na">setPos</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">);</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="n">entity</span><span class="p">.</span><span class="na">level</span><span class="p">().</span><span class="na">addFreshEntity</span><span class="p">(</span><span class="n">funnel</span><span class="p">);</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="c1">// each tick of the ability, walk it towards where the user is looking</span>
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="n">funnel</span><span class="p">.</span><span class="na">setVector</span><span class="p">(</span><span class="n">aim</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span><span class="w"> </span><span class="mf">10.0</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0</span><span class="p">));</span>
+<table>
+<thead>
+<tr>
+<th>It gives</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>WIDTH</code>, <code>HEIGHT</code>, <code>LEFT_PAGE</code>, <code>RIGHT_PAGE</code>, <code>PAGE_WIDTH</code>, <code>PAGE_TOP</code></td>
+<td>the book is 290 x 182; a page's text begins 22 (left) or 156 (right) from its left edge and 14 from its top, and is 112 wide</td>
+</tr>
+<tr>
+<td><code>left()</code>, <code>top()</code></td>
+<td>the book's corner on the screen</td>
+</tr>
+<tr>
+<td><code>page</code>, <code>pages()</code></td>
+<td>the page it is open at, and how many there are: one, unless the screen says more</td>
+</tr>
+<tr>
+<td><code>clickArrows</code>, the wheel</td>
+<td>the back arrow closes, the two others and the wheel turn the page</td>
+</tr>
+<tr>
+<td><code>drawBook</code>, <code>drawBackArrow</code>, <code>drawPageArrows</code></td>
+<td>the pieces, to call from <code>render</code></td>
+</tr>
+<tr>
+<td><code>small(g, text, x, y, colour)</code></td>
+<td>text at three quarters of the font's size, seven pixels a line; wrap it with <code>font.split(text, (int) (PAGE_WIDTH / SMALL))</code></td>
+</tr>
+<tr>
+<td><code>overArrow</code>, <code>over</code></td>
+<td>where the mouse is</td>
+</tr>
+</tbody>
+</table>
+<p>A book that does not turn pages leaves <code>pages()</code> alone and has only its back arrow. One that turns in its own way - by chapters, with a sound - keeps <code>drawBook</code> and <code>drawBackArrow</code> and draws its own two arrows with <code>MmnmGui.arrow</code> at <code>prevArrowX()</code> and <code>nextArrowX()</code>.</p>
+<p>The inks are <code>MmnmGui.INK</code>, <code>INK_DIM</code> and <code>GAINED</code> (the green of what the player has).</p>
+<h2 id="the-parchment-note-notescreen-and-parchmentnote">The parchment note: <code>NoteScreen</code> and <code>ParchmentNote</code><a class="headerlink" href="#the-parchment-note-notescreen-and-parchmentnote" title="Permanent link">&para;</a></h2>
+<p>A sheet in the middle of the screen, its title on the first line, rows of things in the base mod's slot squares, one or two of its plank buttons (<code>PlankButton</code>). For a list of things asked or offered.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyNote</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">NoteScreen</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">init</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">left</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">width</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">WIDTH</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">top</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">height</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">HEIGHT</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">deliver</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">addRenderableWidget</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">PlankButton</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">left</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">WIDTH</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">MARGIN</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">56</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">top</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">27</span><span class="p">,</span><span class="w"> </span><span class="mi">56</span><span class="p">,</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w"> </span><span class="n">label</span><span class="p">,</span><span class="w"> </span><span class="n">pressed</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">send</span><span class="p">()));</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">        </span><span class="n">refresh</span><span class="p">();</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">refresh</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">                                        </span><span class="c1">// each tick: what he carries may have changed</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">deliver</span><span class="p">.</span><span class="na">active</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">carried</span><span class="p">()</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">render</span><span class="p">(</span><span class="n">GuiGraphics</span><span class="w"> </span><span class="n">graphics</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">mouseX</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">mouseY</span><span class="p">,</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">partialTick</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">        </span><span class="n">renderBackground</span><span class="p">(</span><span class="n">graphics</span><span class="p">);</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">        </span><span class="n">sheet</span><span class="p">(</span><span class="n">graphics</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">left</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">top</span><span class="p">,</span><span class="w"> </span><span class="n">WIDTH</span><span class="p">,</span><span class="w"> </span><span class="n">HEIGHT</span><span class="p">);</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="w">        </span><span class="n">title</span><span class="p">(</span><span class="n">graphics</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">left</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">top</span><span class="p">);</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="w">        </span><span class="n">slot</span><span class="p">(</span><span class="n">graphics</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">wanted</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">left</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">MARGIN</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">top</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">26</span><span class="p">);</span>
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="w">        </span><span class="n">graphics</span><span class="p">.</span><span class="na">drawString</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">font</span><span class="p">,</span><span class="w"> </span><span class="n">fit</span><span class="p">(</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">WIDTH</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">MARGIN</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">SLOT</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">4</span><span class="p">),</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">left</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">MARGIN</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">SLOT</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">top</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">28</span><span class="p">,</span><span class="w"> </span><span class="n">INK</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">);</span>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="w">        </span><span class="n">ItemStack</span><span class="w"> </span><span class="n">hovered</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ParchmentNote</span><span class="p">.</span><span class="na">overSlot</span><span class="p">(</span><span class="n">mouseX</span><span class="p">,</span><span class="w"> </span><span class="n">mouseY</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">left</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">MARGIN</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">top</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">26</span><span class="p">)</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">wanted</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">ItemStack</span><span class="p">.</span><span class="na">EMPTY</span><span class="p">;</span>
+<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="w">        </span><span class="n">renderOver</span><span class="p">(</span><span class="n">graphics</span><span class="p">,</span><span class="w"> </span><span class="n">mouseX</span><span class="p">,</span><span class="w"> </span><span class="n">mouseY</span><span class="p">,</span><span class="w"> </span><span class="n">partialTick</span><span class="p">,</span><span class="w"> </span><span class="n">hovered</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">);</span><span class="w">   </span><span class="c1">// the widgets, then the tooltip</span>
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="p">}</span>
 </code></pre></div>
-<table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Default</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>setMaxLife(ticks)</code></td>
-<td><code>120</code></td>
-<td>lifetime; <code>0</code> or less for no limit</td>
-</tr>
-<tr>
-<td><code>setSize(size)</code></td>
-<td><code>1.0</code></td>
-<td>width and height of the funnel's area of effect. The hitbox is the size declared on the entity type multiplied by <code>size / 2</code>, so a type declared <code>1 x 1</code> is four blocks across at size 8</td>
-</tr>
-<tr>
-<td><code>setSpeed(speed)</code></td>
-<td><code>1.0</code></td>
-<td>synced to the client for your renderer, typically the spin speed. It does not move the entity</td>
-</tr>
-<tr>
-<td><code>setVector(point)</code></td>
-<td>none</td>
-<td>the point the funnel walks towards, easing along rather than teleporting</td>
-</tr>
-</tbody>
-</table>
-<p>Let the ability own the lifetime: discard the funnel from the ability when its channel ends, and keep <code>setMaxLife</code> as a backstop longer than the channel, for the case where the ability stops ticking without reaching its end event.</p>
-<h2 id="what-it-does-each-tick">What it does each tick<a class="headerlink" href="#what-it-does-each-tick" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Effect</th>
-<th>Details</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>pull</strong></td>
-<td>every entity within its box except the owner is drawn towards its centre and upward</td>
-</tr>
-<tr>
-<td><strong>contact damage</strong></td>
-<td>an entity within 2 blocks takes <code>size / 3</code> from a vanilla "fly into wall" source</td>
-</tr>
-<tr>
-<td><strong>blocks torn loose</strong></td>
-<td>when ability griefing is enabled and outside protected areas, a very small random share of exposed blocks the <code>CORE_FOLIAGE_ORE</code> rule allows are lifted as falling blocks, with no item drop</td>
-</tr>
-<tr>
-<td><strong>steering</strong></td>
-<td>moves <strong>horizontally</strong> towards <code>setVector</code>'s point, by about a twentieth of the remaining distance each tick, with no collision. Its height never changes, so spawn it at the height it should travel at</td>
-</tr>
-<tr>
-<td><strong>quench</strong></td>
-<td>checked every 20 ticks: see below</td>
-</tr>
-</tbody>
-</table>
-<p>The block states of falling blocks inside the funnel are collected in <code>getBlocksUsed()</code>, for a renderer that draws debris.</p>
-<div class="admonition danger">
-<p class="admonition-title">The contact damage does not touch Logias</p>
-<p>"Fly into wall" is one of the damage types every Logia is immune to by default. A technique whose funnel must hurt Logias has to deal its damage from the <strong>ability</strong>, through its <code>DealDamageComponent</code>, on a pulse of its own. Remember that it is a pulse: <code>hurtTarget</code>, not <code>hurtBurst</code>. See <a href="../../core-concepts/damage/#which-call-to-use">Damage</a>.</p>
-<p>Then <strong>turn the contact damage off</strong> (<em>since 2.9.0</em>): override <code>hurtsOnContact()</code> to return <code>false</code>. Left on, it still lands on every non-Logia target, which takes the vanilla hit on top of the ability's.</p>
-</div>
+<p>The sheet is as wide and as tall as the screen says: its border keeps its size at any height, so a list of three rows and one of nine have the same torn edge. ⚠️ That is not <code>MmnmGui.parchment</code>, which stretches the whole texture, border and all.</p>
+<p><code>NoteScreen</code> does not pause the game, calls <code>refresh()</code> each tick, and brings the constants within reach: <code>MARGIN</code> (13), <code>TITLE_Y</code> (11), <code>SLOT</code> (22), <code>INSET</code> (3), and the three inks <code>INK</code>, <code>FADED_INK</code> (what is done, or cannot be had) and <code>REWARD_INK</code> (what is paid: green).</p>
+<p><strong>A container screen cannot extend it</strong> - it already extends the game's <code>AbstractContainerScreen</code>. <code>ParchmentNote</code> holds the same pieces as plain functions: <code>sheet</code>, <code>title</code>, <code>slot</code>, <code>overSlot</code>, <code>fit</code>, and the constants. Draw the sheet in <code>renderBg</code>, the title in <code>renderLabels</code>.</p>
 <div class="admonition warning">
-<p class="admonition-title">The pull ignores factions</p>
-<p>Allies, items and loose arrows are pulled like enemies. If the ability deals damage, filter its targets itself, for instance through a <code>RangeComponent</code>.</p>
-</div>
-<h2 id="water-and-rain">Water and rain<a class="headerlink" href="#water-and-rain" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Hook</th>
-<th>Default</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>isQuenchedByWater()</code></td>
-<td><code>true</code></td>
-<td>the funnel disappears when it stands in water</td>
-</tr>
-<tr>
-<td><code>isQuenchedByRain()</code></td>
-<td><code>false</code></td>
-<td>the funnel disappears when it stands in rain</td>
-</tr>
-</tbody>
-</table>
-<p>Water putting a funnel out is the universal Devil Fruit weakness, and returning <code>false</code> from <code>isQuenchedByWater</code> should be a deliberate choice. Rain is off by default because a funnel is not made of anything rain washes away; a funnel of sand, dust or ash should override <code>isQuenchedByRain</code> to return <code>true</code>.</p>
-<details class="note">
-<summary>Why the rain default changed</summary>
-<p>The class began as a copy of the base mod's sandstorm, which rain puts out. A subclass written against that behaviour must now opt back in with <code>isQuenchedByRain()</code>.</p>
-</details>
-<h2 id="traps">Traps<a class="headerlink" href="#traps" title="Permanent link">&para;</a></h2>
-<div class="admonition warning">
-<p class="admonition-title">A funnel loaded from a save disappears at once</p>
-<p>The owner is not saved. A funnel with no owner discards itself on its next tick, so a funnel never survives a chunk reload or a restart. That is usually what a technique wants; do not rely on one outliving its caster's session.</p>
+<p class="admonition-title">Two sets of inks</p>
+<p>The book's inks (<code>MmnmGui.INK</code>) and the note's (<code>ParchmentNote.INK</code>) are not the same brown: each was chosen on its own paper. Use the one of the paper you draw on.</p>
 </div>
 
 
@@ -10255,7 +10186,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../projectiles/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Projectiles">
+          <a href="../world-events/" class="md-footer__link md-footer__link--prev" aria-label="Previous: World events">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -10265,20 +10196,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Projectiles
+                World events
               </div>
             </div>
           </a>
         
         
           
-          <a href="../creatures/" class="md-footer__link md-footer__link--next" aria-label="Next: Catchable creatures">
+          <a href="../base-mod-fixes/" class="md-footer__link md-footer__link--next" aria-label="Next: Fixes to the base mod">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Catchable creatures
+                Fixes to the base mod
               </div>
             </div>
             <div class="md-footer__button md-icon">

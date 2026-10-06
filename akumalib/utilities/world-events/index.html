@@ -16,7 +16,7 @@
         <link rel="prev" href="../titles/">
       
       
-        <link rel="next" href="../base-mod-fixes/">
+        <link rel="next" href="../screens/">
       
       
         
@@ -9551,6 +9551,8 @@
       
         
       
+        
+      
     
     
     
@@ -9696,6 +9698,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#what-every-event-type-would-write-for-itself" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What every event type would write for itself
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#for-operators" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -9710,6 +9723,34 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../screens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Screens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -9931,6 +9972,17 @@
     <span class="md-ellipsis">
       
         Rumours
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-every-event-type-would-write-for-itself" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What every event type would write for itself
       
     </span>
   </a>
@@ -10179,6 +10231,43 @@ base mod answers as before.</p>
 <p>In Mine Mine no Mi 0.11.5, a barkeeper answers "nothing new" to any player who is not a Marine or a Bounty Hunter,
 whatever it knows. Such a player now hears of the world events near the barkeeper. A Marine hears the base mod's own
 rumour half the time.</p>
+<h2 id="what-every-event-type-would-write-for-itself">What every event type would write for itself<a class="headerlink" href="#what-every-event-type-would-write-for-itself" title="Permanent link">&para;</a></h2>
+<p><strong>Its clock.</strong> Most events come again after so many days, drawn between a fewest and a most, and stay so many hours:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">public</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="nf">nextStartDelay</span><span class="p">(</span><span class="n">RandomSource</span><span class="w"> </span><span class="n">random</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">EventClock</span><span class="p">.</span><span class="na">days</span><span class="p">(</span><span class="n">random</span><span class="p">,</span><span class="w"> </span><span class="n">MyConfig</span><span class="p">.</span><span class="na">LEAST_DAYS</span><span class="p">.</span><span class="na">get</span><span class="p">(),</span><span class="w"> </span><span class="n">MyConfig</span><span class="p">.</span><span class="na">MOST_DAYS</span><span class="p">.</span><span class="na">get</span><span class="p">());</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="p">}</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="kd">public</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="nf">duration</span><span class="p">(</span><span class="n">RandomSource</span><span class="w"> </span><span class="n">random</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">EventClock</span><span class="p">.</span><span class="na">hours</span><span class="p">(</span><span class="n">MyConfig</span><span class="p">.</span><span class="na">STAY_HOURS</span><span class="p">.</span><span class="na">get</span><span class="p">());</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="p">}</span>
+</code></pre></div>
+<p>A "most" set below the "fewest" counts as the fewest. <code>EventClock.between(random, least, most, unit)</code> draws in any unit; <code>EventClock.HOUR</code> and <code>DAY</code> are in ticks.</p>
+<p><strong>A way and a distance.</strong> An event that is to be looked for, not walked to - a school of fish, a fallen star, a storm - is told without coordinates: "to the north-east, about 400 blocks".</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kt">double</span><span class="w"> </span><span class="n">dx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">event</span><span class="p">.</span><span class="na">pos</span><span class="p">().</span><span class="na">getX</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">0.5D</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">player</span><span class="p">.</span><span class="na">getX</span><span class="p">();</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="kt">double</span><span class="w"> </span><span class="n">dz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">event</span><span class="p">.</span><span class="na">pos</span><span class="p">().</span><span class="na">getZ</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">0.5D</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">player</span><span class="p">.</span><span class="na">getZ</span><span class="p">();</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">Component</span><span class="w"> </span><span class="n">told</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Component</span><span class="p">.</span><span class="na">translatable</span><span class="p">(</span><span class="s">"mymod.star.fell"</span><span class="p">,</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">        </span><span class="n">Whereabouts</span><span class="p">.</span><span class="na">wind</span><span class="p">(</span><span class="n">Whereabouts</span><span class="p">.</span><span class="na">way</span><span class="p">(</span><span class="n">dx</span><span class="p">,</span><span class="w"> </span><span class="n">dz</span><span class="p">)),</span><span class="w"> </span><span class="n">Whereabouts</span><span class="p">.</span><span class="na">about</span><span class="p">(</span><span class="n">Math</span><span class="p">.</span><span class="na">sqrt</span><span class="p">(</span><span class="n">dx</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">dx</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">dz</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">dz</span><span class="p">)));</span>
+</code></pre></div>
+<p><code>way</code> gives one of the eight winds, <code>wind</code> its name in the reader's language (the library's own texts), <code>about</code> the distance to the nearest 50 blocks, <code>within(player, pos, reach)</code> whether a player is near enough to be told at all.</p>
+<p><strong>A rumour told from a named place.</strong> A barkeeper has no place of his own to tell an event from. The event keeps one when it starts, and its rumour reads it back:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">start</span><span class="p">(</span><span class="n">ServerLevel</span><span class="w"> </span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">WorldEvent</span><span class="w"> </span><span class="n">event</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="n">Whereabouts</span><span class="p">.</span><span class="na">rumourFrom</span><span class="p">(</span><span class="n">event</span><span class="p">,</span><span class="w"> </span><span class="n">villageName</span><span class="p">,</span><span class="w"> </span><span class="n">villageSquare</span><span class="p">);</span><span class="w">    </span><span class="c1">// a name, and where that place is</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="p">}</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="kd">public</span><span class="w"> </span><span class="n">Component</span><span class="w"> </span><span class="nf">rumour</span><span class="p">(</span><span class="n">WorldEvent</span><span class="w"> </span><span class="n">event</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">    </span><span class="n">Whereabouts</span><span class="p">.</span><span class="na">From</span><span class="w"> </span><span class="n">from</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Whereabouts</span><span class="p">.</span><span class="na">rumourOf</span><span class="p">(</span><span class="n">event</span><span class="p">);</span><span class="w">         </span><span class="c1">// null: no place was kept</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">from</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="n">Component</span><span class="p">.</span><span class="na">translatable</span><span class="p">(</span><span class="s">"mymod.star.rumour.wild"</span><span class="p">)</span>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">            </span><span class="p">:</span><span class="w"> </span><span class="n">Component</span><span class="p">.</span><span class="na">translatable</span><span class="p">(</span><span class="s">"mymod.star.rumour"</span><span class="p">,</span><span class="w"> </span><span class="n">from</span><span class="p">.</span><span class="na">far</span><span class="p">(),</span><span class="w"> </span><span class="n">from</span><span class="p">.</span><span class="na">wind</span><span class="p">(),</span><span class="w"> </span><span class="n">from</span><span class="p">.</span><span class="na">place</span><span class="p">());</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="p">}</span>
+</code></pre></div>
+<p><strong>Every rumour near a place.</strong> <code>AkumaWorldEvents.rumoursNear(server, from)</code> lists the rumours of the running events whose range reaches a place, nearest first, each with its event - for its time left, <code>event.remaining(now)</code> - and its distance: what a board of news shows. An event whose <code>rumour</code> throws is left out, not the others. <code>nearestRumour</code> is its first entry.</p>
+<p><strong>What belongs to an event goes with it.</strong> An entity an event put down - a ship's sailor, a visitor - keeps its event's <code>id()</code>, saves it, and asks each tick:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">AkumaWorldEvents</span><span class="p">.</span><span class="na">hasEnded</span><span class="p">(</span><span class="k">this</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">eventId</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="n">discard</span><span class="p">();</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="p">}</span>
+</code></pre></div>
+<p>It looks once a second, on the server. It is what takes away an entity whose chunk was not loaded when its event ended: <code>end</code> could not reach it, and it goes by itself when it comes back.</p>
 <h2 id="for-operators">For operators<a class="headerlink" href="#for-operators" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -10261,13 +10350,13 @@ rumour half the time.</p>
         
         
           
-          <a href="../base-mod-fixes/" class="md-footer__link md-footer__link--next" aria-label="Next: Fixes to the base mod">
+          <a href="../screens/" class="md-footer__link md-footer__link--next" aria-label="Next: Screens">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Fixes to the base mod
+                Screens
               </div>
             </div>
             <div class="md-footer__button md-icon">

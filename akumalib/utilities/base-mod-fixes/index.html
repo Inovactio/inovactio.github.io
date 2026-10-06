@@ -13,7 +13,7 @@
         <link rel="canonical" href="https://inovactio.github.io/akumalib/utilities/base-mod-fixes/">
       
       
-        <link rel="prev" href="../world-events/">
+        <link rel="prev" href="../screens/">
       
       
         <link rel="next" href="../tick-queue/">
@@ -9551,6 +9551,8 @@
       
         
       
+        
+      
     
     
     
@@ -9611,6 +9613,34 @@
     
   
     World events
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../screens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Screens
   
 
     
@@ -10104,7 +10134,9 @@ deal of needless work per tick and per frame. The <a href="../../changelog/#v4-0
 <code>serverconfig/akumalib-server.toml</code>, client-side ones in <code>config/akumalib-client.toml</code>, both in the section
 <code>[baseModFixes]</code>. Set one to <code>false</code> and the base mod's own behaviour is back for that group. Each switch's comment
 in the file says what it covers.</p>
-<p>4.0.0 is a beta: the corrections were tested one by one, few of them in a long game yet.</p>
+<p>4.1.0 adds three: a Logia in the void and under <code>/kill</code> (<code>fixLogiaAbsoluteDamage</code>), a refused press that stopped the
+running technique (<code>fixRefusedPress</code>), and chest windows counted as thefts (<code>fixChestTheft</code>). See the
+<a href="../../changelog/#v4-1-0">4.1.0 changelog</a>.</p>
 </div>
 <p>The sections below describe the older fixes in detail.</p>
 <h2 id="structure-spawner-mobs-in-walls">Structure spawner mobs in walls<a class="headerlink" href="#structure-spawner-mobs-in-walls" title="Permanent link">&para;</a></h2>
@@ -10211,7 +10243,7 @@ abilities to show. One sync is enough now.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../world-events/" class="md-footer__link md-footer__link--prev" aria-label="Previous: World events">
+          <a href="../screens/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Screens">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -10221,7 +10253,7 @@ abilities to show. One sync is enough now.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                World events
+                Screens
               </div>
             </div>
           </a>

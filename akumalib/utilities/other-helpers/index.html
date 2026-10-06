@@ -9549,6 +9549,8 @@
       
         
       
+        
+      
     
     
     
@@ -9609,6 +9611,34 @@
     
   
     World events
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../screens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Screens
   
 
     
@@ -9862,6 +9892,28 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#akumaamounts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AkumaAmounts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unseenseat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UnseenSeat
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -10078,6 +10130,28 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#akumaamounts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AkumaAmounts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unseenseat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UnseenSeat
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -10277,6 +10351,17 @@ arms.</p>
 <li><code>wantsToAttack(owner, target, sameOwner)</code>: an enemy of the owner (<code>AkumaTargeting.isEnemy</code>), never the owner, never a summon of the same owner;</li>
 <li><code>shouldLeave(owner, lifeLeft)</code> and <code>leave(mob)</code>: time up, or the owner gone or dead, and it vanishes in a puff.</li>
 </ul>
+<h2 id="akumaamounts"><code>AkumaAmounts</code><a class="headerlink" href="#akumaamounts" title="Permanent link">&para;</a></h2>
+<p><code>AkumaAmounts.grouped(12500)</code> gives <code>12 500</code>: an amount with its thousands grouped by a space, the way a price is written on a board, the same in every language. For any price, reward or amount of XP a screen or a chat line shows.</p>
+<h2 id="unseenseat"><code>UnseenSeat</code><a class="headerlink" href="#unseenseat" title="Permanent link">&para;</a></h2>
+<p>A seat nobody sees: an entity with no shape, ridden by whoever sits there - a chair, a stool, a bench. The game draws its rider seated, and nothing else. It goes as soon as nobody sits on it.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ChairSeat</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">UnseenSeat</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">ChairSeat</span><span class="p">(</span><span class="n">EntityType</span><span class="o">&lt;?</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">ChairSeat</span><span class="o">&gt;</span><span class="w"> </span><span class="n">type</span><span class="p">,</span><span class="w"> </span><span class="n">Level</span><span class="w"> </span><span class="n">level</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kd">super</span><span class="p">(</span><span class="n">type</span><span class="p">,</span><span class="w"> </span><span class="n">level</span><span class="p">);</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="w">    </span><span class="nd">@Override</span><span class="w"> </span><span class="kd">public</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="nf">getPassengersRidingOffset</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="mf">0.0D</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="p">}</span>
+</code></pre></div>
+<p>Register the type with a renderer that draws nothing, put the seat where the sitter should be, and have him ride it. Override <code>stays()</code> to give it a reason of its own to go (the block it serves is gone).</p>
+<p><strong>It is saved while somebody sits on it, and only then.</strong> A rider is never written to disk on his own: the game saves him inside what he rides. A seat that is never saved - the obvious way to leave no empty seats behind - takes whoever sat on it with it when the world is closed. A seat that knows more than its place writes it in <code>addAdditionalSaveData</code>, or it comes back knowing nothing.</p>
 
 
 
