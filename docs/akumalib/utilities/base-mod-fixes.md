@@ -16,6 +16,10 @@ AkumaLib corrects faults of Mine Mine no Mi itself, for every mod that uses it a
     running technique (`fixRefusedPress`), and chest windows counted as thefts (`fixChestTheft`). See the
     [4.1.0 changelog](../changelog.md#v4-1-0).
 
+    4.2.0 adds four: a rider who leaves the game on a player's back (`fixRiderLeaving`), the travel through blocks of a
+    user whose power is off (`fixBlockTravel`), a throw sent twice to a player (`fixDoubleThrow`), and a form's size
+    under a low ceiling (`fixMorphPoseSize`). See the [4.2.0 changelog](../changelog.md#v4-2-0).
+
 The sections below describe the older fixes in detail.
 
 ## Structure spawner mobs in walls
