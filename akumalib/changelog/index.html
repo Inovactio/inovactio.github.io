@@ -9843,6 +9843,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#v4-2-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#v4-1-0" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10092,6 +10103,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v4-2-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.0
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#v4-1-0" class="md-nav__link">
@@ -10369,6 +10391,52 @@
 
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
 <p>Every AkumaLib release for Minecraft 1.20.1, newest first, as published on <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all">CurseForge</a>.</p>
+<h2 id="v4-2-0">4.2.0<a class="headerlink" href="#v4-2-0" title="Permanent link">&para;</a></h2>
+<p><small>Released 2026-10-07 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9087203">Download</a></small></p>
+<div class="changelog-body" markdown="0">
+<p><strong>Four more corrections of Mine Mine no Mi, and sturdier temporary blocks.</strong> A player carrying another one is no
+longer taken out of the world when his rider leaves, a Logia whose power is off no longer swims through the ground,
+a throw no longer sends a player twice as far now and then, and a transformed player crouched under a low ceiling is
+no longer stood up into it. The corrections of 4.0.0 and 4.1.0 are all still there, each with its switch.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p>No signature was removed or changed: an addon made for 4.0.0 or 4.1.0 works with 4.2.0. The network protocol is the
+same (6): 4.0.0, 4.1.0 and 4.2.0 play together.</p>
+<hr />
+<h2>Mine Mine no Mi fixes</h2>
+<p>Each has its own switch in <code>akumalib-server.toml</code> (section <code>baseModFixes</code>), on by default.</p>
+<ul>
+<li><strong>Riding a player.</strong> When a player sitting on another player's back left the game, the player carrying him was
+  taken out of the world: nobody saw him any more, and he saw nothing, until he logged in again. The rider is now
+  taken off first (<code>fixRiderLeaving</code>).</li>
+<li><strong>A Logia in the ground, its power off.</strong> A Logia merged in the blocks of its element went on crossing them,
+  flying and breathing in them while its abilities were disabled (seastone, a net, handcuffs), in a protected area
+  that refuses abilities, and kept the flight when the fruit was taken away. The blocks now close, the flight ends,
+  and it smothers in a block like anybody (<code>fixBlockTravel</code>).</li>
+<li><strong>Thrown twice.</strong> A technique that hurts a player and then throws him sent that player his throw twice. Now and
+  then he flew nearly twice as far, and higher, than the same technique did the time before. The throw is now sent
+  once (<code>fixDoubleThrow</code>).</li>
+<li><strong>Crouched in a form under a low ceiling.</strong> A transformed player whose form is taller standing than crouching,
+  crouched in a low corridor, was stood up into the ceiling: he smothered and could not crouch again until he left
+  the form. The game is now told the right size, and he stays crouched until there is room (<code>fixMorphPoseSize</code>).</li>
+</ul>
+<h2>Fixed</h2>
+<ul>
+<li><strong>Temporary blocks stay temporary.</strong> The walls and bridges a technique raises for a while could be made permanent:
+  a shovel or a hoe used on them, nylium that turned to netherrack, or their owner leaving by the End's way out.
+  They now all come down when their time is over. A wither that breaks them gets no drop, a wall no longer gets a
+  slit on servers with claim mods, and a real block set where a temporary one stood drops its item again.</li>
+<li><strong>Markers on the screen</strong> are cleared when you change world or dimension: they could stay for hours in another
+  world, or point at the other dimension's places.</li>
+<li><strong>Highlighted creatures</strong> that were already glowing keep their own glow when the highlight ends.</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li><code>ClaimEvents.isAsking()</code>: tells the question asked to the claim mods from a real break, for a listener of
+  <code>BreakEvent</code> that must not act on the question.</li>
+</ul>
+<p>All of these are described on the <a href="https://inovactio.github.io/akumalib/">AkumaLib pages</a>.</p>
+</div>
+
 <h2 id="v4-1-0">4.1.0<a class="headerlink" href="#v4-1-0" title="Permanent link">&para;</a></h2>
 <p><small>Released 2026-10-06 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9081758">Download</a></small></p>
 <div class="changelog-body" markdown="0">
