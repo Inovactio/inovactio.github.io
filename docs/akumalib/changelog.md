@@ -2,6 +2,65 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 4.3.0 { #v4-3-0 }
+
+<small>Released 2026-10-08 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9100417)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Devil Fruit boxes without tiers, a book of the fruits found, and new tools for addon makers.</strong> A server can put
+every Devil Fruit in every box, <code>/fruits</code> shows on a screen what has become of each fruit in your world, and addons
+get decoys, waves, dives, holding spheres and techniques that pass through blocks. The corrections of Mine Mine no Mi
+of 4.0.0 to 4.2.0 are all still there, each with its switch.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p><strong>The network protocol is new (7): update the server and every player together.</strong> A 4.2.0 game cannot join a 4.3.0
+server, nor the other way round. Nothing changes for an addon: no signature was removed or changed, and an addon made
+for 4.0.0 to 4.2.0 works with 4.3.0.</p>
+<hr />
+<h2>Added</h2>
+<ul>
+<li><strong>Devil Fruit boxes without tiers.</strong> A server can now put every Devil Fruit in every box: <code>fruitBoxMode</code> in
+  <code>akumalib-server.toml</code>, <code>NORMAL</code> as before or <code>MIXED</code>. In mixed boxes every fruit has the same chance, unless
+  <code>fruitBoxKeepWeights</code> is on. Every fruit of every installed mod is taken, and a fruit is still found only once in
+  a world where that rule is on. An operator changes it while the server runs with
+  <code>/akumalib fruitboxes mode normal|mixed</code>.</li>
+<li><strong>The fruits found, on a screen.</strong> <code>/fruits</code> opens a book that lists every Devil Fruit and what has become of it in
+  your world: free, on the ground, carried or eaten, and by whom, with a search line and filters. It is open to
+  whoever Mine Mine no Mi's <code>/check_fruits</code> is open to; operators also see where a fruit lies and can go there.
+  It needs one fruit per world to be on.</li>
+</ul>
+<h2>Fixed</h2>
+<ul>
+<li><strong>Temporary blocks of a player who leaves the game</strong> come down as he leaves: they used to stay until the server
+  stopped.</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li><strong>Decoys.</strong> <code>DecoyEntity</code> is a copy of a player that stands in his place: set under his name, it does not move,
+  draws the monsters that are his enemies, and ignores his own blows; how it ends is the addon's.
+  <code>PlayerCopyRenderer</code> draws it with its maker's body and arms, in the skin the addon gives it, with an optional
+  layer over it, and it keeps its maker's look for a player who never saw him. <code>PlayerCopy</code> is what the renderer asks
+  of an entity, so a body of your own can be drawn as a player too. <code>RecolouredSkins</code> gives a player's own skin in
+  another matter, and <code>PlayerSkins</code> a skin from a profile.</li>
+<li><strong>Passing through blocks.</strong> <code>BlockPassageAbility</code> is the base of a technique during which its user passes through
+  blocks - a dive under the ground, a walk through a wall - and is put where he fits at the end. <code>AkumaRoom</code> finds
+  that place: the first room straight above a point, or the nearest one all round it.</li>
+<li><strong>Blocks taken out for a while.</strong> A <code>TemporaryBlocks</code> group now also takes blocks out (<code>cut</code>) and gives them back
+  when it is removed: a pit, a gap. A block somebody set there meanwhile stays, a chest is never taken out, and
+  whoever is in the gap as it closes is set on top.</li>
+<li><strong>A temporary layer goes under bodies too.</strong> A block one can stand in (a pool on the ground, a web) can now be
+  laid with <code>lay</code>, and no longer leaves a hole under everybody caught in it.</li>
+<li><strong>Holding spheres.</strong> <code>HoldingSphereEntity</code>: a sphere that closes over a body, holds it and takes its air, with a
+  hit as it shuts and one every second after. The addon gives the look and the sounds.</li>
+<li><strong>Waves.</strong> <code>WaveAbility</code>: a wave that leaves from its user's feet and runs ahead of him, hitting each body once
+  and carrying it along.</li>
+<li><strong>Dives and gusts.</strong> <code>DiveStrikeAbility</code>: a dive on the enemy in sight that ends in one blow. <code>GustAbility</code>: a
+  blow of air in a cone that throws bodies back and can turn shots back. <code>ServerAim</code> tells a client the point its
+  server aimed at.</li>
+</ul>
+<p>An addon that uses them declares <code>versionRange = "[4.3.0,5)"</code>.</p>
+<p>All of these are described on the <a href="https://inovactio.github.io/akumalib/">AkumaLib pages</a>.</p>
+</div>
+
 ## 4.2.0 { #v4-2-0 }
 
 <small>Released 2026-10-07 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9087203)</small>

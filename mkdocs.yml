@@ -308,6 +308,8 @@ nav:
           - Movement: akumalib/ability-base-classes/movement.md
           - Grabs: akumalib/ability-base-classes/grabs.md
           - Carries: akumalib/ability-base-classes/carries.md
+          - Waves: akumalib/ability-base-classes/waves.md
+          - Dives and gusts: akumalib/ability-base-classes/dives-and-gusts.md
           - Items and blocks: akumalib/ability-base-classes/items-and-blocks.md
           - Awakened Zoan: akumalib/ability-base-classes/awakened-zoan.md
       - Animations:
@@ -323,6 +325,8 @@ nav:
           - Tornadoes: akumalib/entities/tornadoes.md
           - Catchable creatures: akumalib/entities/creatures.md
           - Traps: akumalib/entities/traps.md
+          - Decoys: akumalib/entities/decoys.md
+          - Holding spheres: akumalib/entities/holding-spheres.md
       - Professions:
           - akumalib/professions/index.md
           - Workstations: akumalib/professions/workstations.md

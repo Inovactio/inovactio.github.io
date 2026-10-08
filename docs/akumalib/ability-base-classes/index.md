@@ -23,8 +23,12 @@ Every class here extends a Mine Mine no Mi type and encodes a technique shape th
 | a charged area stomp | `StompAbility` | [Movement](movement.md) |
 | anything that must be used on the ground | `GroundAbility` | [Movement](movement.md) |
 | the flight of a Zoan with two flying forms | `TwoFormFlightAbility` | [Movement](movement.md) |
+| passing through blocks: a dive, a walk through a wall | `BlockPassageAbility` | [Movement](movement.md) |
 | catching a target and holding it | `GrabAbility` | [Grabs](grabs.md) |
 | taking a target along while staying free to move | `CarryAbility` | [Carries](carries.md) |
+| a wave that runs ahead of the user, hitting each body once and carrying it along | `WaveAbility` | [Waves](waves.md) |
+| a dive on a quarry that ends in one blow | `DiveStrikeAbility` | [Dives and gusts](dives-and-gusts.md) |
+| a blow of air in a cone that throws bodies back and can turn shots back | `GustAbility` | [Dives and gusts](dives-and-gusts.md) |
 | handing the user an item the fruit makes | `ProduceItemAbility` | [Items and blocks](items-and-blocks.md) |
 | turning materials into an item | `CraftingAbility` | [Items and blocks](items-and-blocks.md) |
 | firing a transmutation projectile | `TransmutationAbility` | [Items and blocks](items-and-blocks.md) |

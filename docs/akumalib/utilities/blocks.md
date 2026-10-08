@@ -25,13 +25,36 @@ private void onEnd(LivingEntity entity, IAbility ability) {
 What it takes care of, each rule paid for once in an addon:
 
 - **placed through the base mod's own placer** (`NuWorld.setBlockState` with your `BlockProtectionRule`): protected areas per block, griefing rules, restricted blocks;
-- **never over a body**: a block raised through somebody suffocates them, so an occupied square is skipped;
+- **never over a body**: a block raised through somebody suffocates them, so an occupied square is skipped. A block a body can stand in - a layer on the ground, a web - is laid with `lay` instead of `place`, and goes under bodies too: a pool poured with `place` had a hole under everybody it was poured on. `lay` still refuses, where a body stands, a block that has a collision shape;
 - **nothing drops**: a block broken by hand or blown up goes without a drop, and no piston moves one. A temporary wall every few seconds would otherwise be a quarry;
 - **only what is still ours comes down**: a block mined and replaced by somebody is theirs; within the dirt family a change still counts as ours (grass spreads, covered grass turns back to dirt);
 - **plants come back**: what a block replaced (grass, flowers) is put back when the group comes down;
-- **never left behind**: a group whose owner dies comes down (the base mod ends no ability on death), and every group comes down as the server stops.
+- **never left behind**: a group whose owner dies comes down (the base mod ends no ability on death), so does one whose owner leaves the world or the game, and every group comes down as the server stops.
 
 `TemporaryBlocks.isTemporary(level, pos)` tells whether a block is one of them.
+
+### Taking blocks out for a while
+
+A group also takes blocks **out** and gives them back: a pit that opens under somebody, a gap in a wall.
+
+```java
+this.pit = TemporaryBlocks.open(entity);
+for (BlockPos pos : hole) {
+    this.pit.cut(entity, pos, PIT_RULE);
+}
+// later
+this.pit.remove();
+```
+
+- **quietly**: no neighbour is told, going or coming back. Sand over the gap does not fall, a torch on the block does not pop off, water beside it does not run in;
+- **back as it was** when the group is removed, with everything a group comes down by: its owner's death, his leaving the world or the game, the server's stop;
+- **never over a body**: whoever or whatever is in the gap as it closes is set in the first room straight above it ([`AkumaRoom.firstRoomAbove`](other-helpers.md#akumaroom));
+- **never over somebody's block**: a block set in the gap meanwhile stays; water, fire or a plant gives way;
+- **never a chest**: a block with something inside it (a block entity) is refused, and so is a temporary block. No temporary block is raised in a gap either;
+- `cutSize()` counts the blocks still out; `isEmpty()` is true once nothing is placed and nothing is out.
+
+!!! warning "No gap when ability griefing is off"
+    `cut` goes through the base mod's placer, which refuses to remove any block when the server has turned ability griefing off: it then returns false everywhere. Give the technique something to do without its gap.
 
 !!! warning "Your rule decides what may be replaced"
     The group replaces whatever your `BlockProtectionRule` allows. `DefaultProtectionRules.AIR` builds into air only; add foliage to it for a wall that stands in grass and flowers, which then come back.
