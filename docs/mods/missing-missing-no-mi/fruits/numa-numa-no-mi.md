@@ -13,7 +13,7 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="objects/numa-numa-no-gatling-gun objects/numa-kyu objects/doro-nami objects/numa-no-te"></div>
+<div class="model-viewer" data-models="../../" data-ids="objects/numachi objects/numa-numa-no-gatling-gun objects/numa-kyu objects/doro-nami objects/numa-no-te"></div>
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -45,7 +45,11 @@ Shoots a burst of the things stored inside the swamp, first the arrows and then 
 
 ![](../abilities/numachi.png){ .ability-icon } *Active*
 
+![Numachi](../objects/numachi.png){ .form-picture }
+
 Turns the ground around the user into a swamp for a while, everyone else sinks in it and is slowed.
+
+The ground becomes **Numa Swamp**, a block nothing breaks: everyone but a Numa Numa user sinks in it to the waist and wades, slowed. Only plain ground turns (soil, sand, gravel, clay, the common stones), never a chest or a slab. Each block puts back what it replaced when its time is up, and waits while someone still stands in it.
 
 | Stat | Value |
 |---|---|
