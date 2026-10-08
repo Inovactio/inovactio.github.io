@@ -7529,6 +7529,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -7741,6 +7745,62 @@
     
   
     Carries
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/waves/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Waves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/dives-and-gusts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dives and gusts
   
 
     
@@ -8067,6 +8127,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -8223,6 +8287,62 @@
     
   
     Traps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/decoys/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Decoys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/holding-spheres/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Holding spheres
   
 
     
@@ -8757,6 +8877,28 @@
     <span class="md-ellipsis">
       
         Declare them in a data file
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boxes-that-share-their-fruits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Boxes that share their fruits
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-fruits-found-in-a-world" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The fruits found in a world
       
     </span>
   </a>
@@ -9944,6 +10086,28 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#boxes-that-share-their-fruits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Boxes that share their fruits
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-fruits-found-in-a-world" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The fruits found in a world
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#a-fruit-in-no-box" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10128,16 +10292,59 @@
 <p class="admonition-title">Why the files apply once the reload is over</p>
 <p>Loot tables are parsed in parallel with every other data loader, so the files may not be read yet when a table loads. AkumaLib applies them once the whole reload has finished, at server start and on <code>/reload</code> alike. Each reload builds new tables, so nothing is added twice.</p>
 </div>
+<h2 id="boxes-that-share-their-fruits">Boxes that share their fruits<a class="headerlink" href="#boxes-that-share-their-fruits" title="Permanent link">&para;</a></h2>
+<p>A server can do without the tiers. Two settings of the world's <code>serverconfig/akumalib-server.toml</code>, section <code>[devilFruitBoxes]</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Values</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>fruitBoxMode</code></td>
+<td><code>NORMAL</code> (default)</td>
+<td>each box holds its own fruits: the base mod's tiers</td>
+</tr>
+<tr>
+<td></td>
+<td><code>MIXED</code></td>
+<td>every fruit is in every box</td>
+</tr>
+<tr>
+<td><code>fruitBoxKeepWeights</code></td>
+<td><code>false</code> (default)</td>
+<td>with <code>MIXED</code>, every fruit has the same chance</td>
+</tr>
+<tr>
+<td></td>
+<td><code>true</code></td>
+<td>each fruit keeps the weight its mod or a datapack gave it</td>
+</tr>
+</tbody>
+</table>
+<p>Nothing to do in an addon: the mode is laid over the boxes as the data files left them, so every fruit of every installed mod is taken, and a fruit a datapack removed stays out. </p>
+<p>The file is read when the server starts. While it runs, an operator changes the boxes with a command, which writes the file and applies at once:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>/akumalib fruitboxes                              the mode and the weights in force
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>/akumalib fruitboxes mode normal|mixed
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>/akumalib fruitboxes weights equal|kept
+</code></pre></div>
+<p>A file edited by hand while the server runs is not always noticed by Forge: use the command, or restart.</p>
+<p>The fruit shared with another box is the same entry as in its own, with the one-fruit-per-world guard. The tier a fruit shows is unchanged: it no longer says which box the fruit comes from.</p>
+<h2 id="the-fruits-found-in-a-world">The fruits found in a world<a class="headerlink" href="#the-fruits-found-in-a-world" title="Permanent link">&para;</a></h2>
+<p><code>/fruits</code> opens a book that lists every Devil Fruit installed and what has become of it in this world: free, on the ground, carried or eaten, and by whom. It reads the base mod's one-fruit-per-world record, so it needs that rule on, and it is open to whoever the base mod's <code>/check_fruits</code> is open to (its "Public /check_fruits" setting; operators otherwise). Where a fruit lies and since when are shown to operators only, with a "Go there" that takes them to a fruit on the ground. With <code>fruitBoxMode = "MIXED"</code> the tiers are left out of the screen.</p>
 <h2 id="a-fruit-in-no-box">A fruit in no box<a class="headerlink" href="#a-fruit-in-no-box" title="Permanent link">&para;</a></h2>
 <p>Once the data is loaded, every fruit registered with <code>registerFruitItem</code> that no box holds is named in the log:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Devil Fruit mymod:my_my_no_mi is in no Devil Fruit box, so it can never be found in survival: declare it in data/mymod/akumalib/dfboxes/ (or ignore this if it is kept out on purpose)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Devil Fruit mymod:my_my_no_mi is in no Devil Fruit box, so it can never be found in survival: declare it in data/mymod/akumalib/dfboxes/ (or ignore this if it is kept out on purpose)
 </code></pre></div>
 <p>A fruit that is in no box exists, drops from commands, can be eaten and grants its abilities, and can never be found in survival. The warning is how you notice. For a fruit kept out on purpose (a reward handed out by something else, one still being worked on), leave it out of the files and ignore the line.</p>
 <h2 id="why-an-entry-inside-the-pool">Why an entry inside the pool<a class="headerlink" href="#why-an-entry-inside-the-pool" title="Permanent link">&para;</a></h2>
 <p>A box keeps only the <strong>first</strong> available fruit of what it rolled and discards the rest. A Forge loot modifier can only add to the result of a table that has already rolled, so an added fruit is either last in the list, and only wins when all the base mod's rolls are already claimed in the world, or first in the list, where it jumps ahead of everything, including a cascade that had just upgraded the player to a better tier. An entry inside the pool is drawn on weight against its neighbours in the same roll, and the cascade reaches it because it rolls the loaded table.</p>
 <h2 id="checking-that-it-worked">Checking that it worked<a class="headerlink" href="#checking-that-it-worked" title="Permanent link">&para;</a></h2>
 <p>Each reload logs one line:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Devil Fruit boxes: 18 fruit(s) added or re-weighed, 0 removed, from 3 file(s)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Devil Fruit boxes: 18 fruit(s) added or re-weighed, 0 removed, from 3 file(s)
 </code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">When no fruit is available</p>

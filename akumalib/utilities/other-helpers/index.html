@@ -7529,6 +7529,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -7741,6 +7745,62 @@
     
   
     Carries
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/waves/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Waves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/dives-and-gusts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dives and gusts
   
 
     
@@ -8067,6 +8127,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -8223,6 +8287,62 @@
     
   
     Traps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/decoys/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Decoys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/holding-spheres/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Holding spheres
   
 
     
@@ -9914,6 +10034,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#akumaroom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AkumaRoom
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -10152,6 +10283,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#akumaroom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AkumaRoom
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -10362,6 +10504,13 @@ arms.</p>
 </code></pre></div>
 <p>Register the type with a renderer that draws nothing, put the seat where the sitter should be, and have him ride it. Override <code>stays()</code> to give it a reason of its own to go (the block it serves is gone).</p>
 <p><strong>It is saved while somebody sits on it, and only then.</strong> A rider is never written to disk on his own: the game saves him inside what he rides. A seat that is never saved - the obvious way to leave no empty seats behind - takes whoever sat on it with it when the world is closed. A seat that knows more than its place writes it in <code>addAdditionalSaveData</code>, or it comes back knowing nothing.</p>
+<h2 id="akumaroom"><code>AkumaRoom</code><a class="headerlink" href="#akumaroom" title="Permanent link">&para;</a></h2>
+<p>Where a body fits, for a technique that leaves its user - or what it moved - somewhere the world may have filled: the end of a dive, a pit that closes.</p>
+<ul>
+<li><code>fits(level, body, at)</code>: whether the body, set there, would be in no block; <code>fits(level, body, size, place)</code> for a body about to change size;</li>
+<li><code>nearest(level, body, place, far)</code>: <code>place</code> if it fits there, else the nearest place within <code>far</code> blocks where it does, one with a floor and no fire before any other: what "pushed out of the wall" means;</li>
+<li><code>firstRoomAbove(level, body, wanted)</code>: <code>wanted</code> if it fits there, else the first place straight above where it does - a cave on the way, else the ground. <strong>However far</strong>: a search of a few blocks left a body in the rock under a hill, smothered. What nothing passes is not climbed through (the bedrock over the Nether): the first room below is taken instead.</li>
+</ul>
 
 
 

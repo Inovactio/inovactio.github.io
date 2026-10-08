@@ -33,6 +33,10 @@
          <lastmod>2026-10-08</lastmod>
     </url>
     <url>
+         <loc>https://inovactio.github.io/akumalib/ability-base-classes/dives-and-gusts/</loc>
+         <lastmod>2026-10-08</lastmod>
+    </url>
+    <url>
          <loc>https://inovactio.github.io/akumalib/ability-base-classes/grabs/</loc>
          <lastmod>2026-10-08</lastmod>
     </url>
@@ -50,6 +54,10 @@
     </url>
     <url>
          <loc>https://inovactio.github.io/akumalib/ability-base-classes/terrain/</loc>
+         <lastmod>2026-10-08</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/ability-base-classes/waves/</loc>
          <lastmod>2026-10-08</lastmod>
     </url>
     <url>
@@ -118,6 +126,14 @@
     </url>
     <url>
          <loc>https://inovactio.github.io/akumalib/entities/creatures/</loc>
+         <lastmod>2026-10-08</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/entities/decoys/</loc>
+         <lastmod>2026-10-08</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/entities/holding-spheres/</loc>
          <lastmod>2026-10-08</lastmod>
     </url>
     <url>

@@ -7531,6 +7531,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -7804,6 +7808,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#blockpassageability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BlockPassageAbility
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7856,6 +7871,62 @@
     
   
     Carries
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../waves/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Waves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dives-and-gusts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dives and gusts
   
 
     
@@ -8182,6 +8253,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -8338,6 +8413,62 @@
     
   
     Traps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/decoys/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Decoys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/holding-spheres/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Holding spheres
   
 
     
@@ -10020,6 +10151,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#blockpassageability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BlockPassageAbility
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -10288,6 +10430,45 @@
 <div class="admonition warning">
 <p class="admonition-title">The base mod's flight is not vanilla flight</p>
 <p><code>PropelledFlightAbility</code> never sets <code>player.getAbilities().flying</code>: it turns gravity off and drives the velocity itself. Read <code>isNoGravity()</code> if you need to know whether a player is flying, and never enable a flight through a pause (<code>takeOff</code> refuses to) - haki overuse, Seastone and protected areas pause a passive to take flight away.</p>
+</div>
+<h2 id="blockpassageability"><code>BlockPassageAbility</code><a class="headerlink" href="#blockpassageability" title="Permanent link">&para;</a></h2>
+<p>A technique during which its user passes through blocks: a dive under the ground, a walk through a wall. Nothing is dug: the blocks are passed through, as in the base mod's own Free Swimming.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyDiveAbility</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">BlockPassageAbility</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyDiveAbility</span><span class="p">(</span><span class="n">AbilityCore</span><span class="o">&lt;</span><span class="n">MyDiveAbility</span><span class="o">&gt;</span><span class="w"> </span><span class="n">core</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">core</span><span class="p">);</span>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">addUseEvent</span><span class="p">(</span><span class="k">this</span><span class="p">::</span><span class="n">onUse</span><span class="p">);</span>
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onUse</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">IAbility</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">isPassing</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a><span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">endPassage</span><span class="p">(</span><span class="n">entity</span><span class="p">);</span>
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a><span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">startPassage</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="mf">160.0F</span><span class="p">);</span>
+<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>
+<a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="n">Vec3</span><span class="w"> </span><span class="nf">steer</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">walking</span><span class="p">(</span><span class="n">entity</span><span class="p">).</span><span class="na">scale</span><span class="p">(</span><span class="mf">0.22D</span><span class="p">);</span>
+<a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-7-20" name="__codelineno-7-20" href="#__codelineno-7-20"></a>
+<a id="__codelineno-7-21" name="__codelineno-7-21" href="#__codelineno-7-21"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-7-22" name="__codelineno-7-22" href="#__codelineno-7-22"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onPassageEnd</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-23" name="__codelineno-7-23" href="#__codelineno-7-23"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">cooldownComponent</span><span class="p">.</span><span class="na">startCooldown</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="mf">100.0F</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">passedTicks</span><span class="p">()</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mf">2.0F</span><span class="p">);</span>
+<a id="__codelineno-7-24" name="__codelineno-7-24" href="#__codelineno-7-24"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-7-25" name="__codelineno-7-25" href="#__codelineno-7-25"></a><span class="p">}</span>
+</code></pre></div>
+<ul>
+<li><code>steer(entity)</code> gives the velocity of the tick, or null to leave the body its own. <code>walking(entity)</code> is the walking keys as a direction on the ground.</li>
+<li><code>onPassageTick(level, entity)</code> runs on the server every tick: an effect to keep up, particles, a reason to end early.</li>
+<li><code>wayOut(level, entity)</code> says where the body is put at the end. By default the first room straight above it, however far (<a href="../../utilities/other-helpers/#akumaroom"><code>AkumaRoom.firstRoomAbove</code></a>).</li>
+<li><code>onPassageEnd(entity)</code> runs once the body is out: the cooldown.</li>
+<li>The base mod's restricted blocks (bedrock, portals) are never entered: a body found in one is set back where it last was and the passage ends. Do not steer into one: <code>isRestricted(level, pos)</code> looks ahead.</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">The movement is driven where the body is simulated</p>
+<p>A player's own client moves the player: a velocity set by the server alone is overwritten every tick. <code>steer</code> is asked on both sides and its answer used on the client for a player, on the server for anything else. Whatever it reads must be known on both sides: the keys, the look, the blocks around - not a field only the server sets.</p>
 </div>
 
 
