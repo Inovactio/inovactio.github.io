@@ -152,3 +152,11 @@ public class ChairSeat extends UnseenSeat {
 Register the type with a renderer that draws nothing, put the seat where the sitter should be, and have him ride it. Override `stays()` to give it a reason of its own to go (the block it serves is gone).
 
 **It is saved while somebody sits on it, and only then.** A rider is never written to disk on his own: the game saves him inside what he rides. A seat that is never saved - the obvious way to leave no empty seats behind - takes whoever sat on it with it when the world is closed. A seat that knows more than its place writes it in `addAdditionalSaveData`, or it comes back knowing nothing.
+
+## `AkumaRoom`
+
+Where a body fits, for a technique that leaves its user - or what it moved - somewhere the world may have filled: the end of a dive, a pit that closes.
+
+- `fits(level, body, at)`: whether the body, set there, would be in no block; `fits(level, body, size, place)` for a body about to change size;
+- `nearest(level, body, place, far)`: `place` if it fits there, else the nearest place within `far` blocks where it does, one with a floor and no fire before any other: what "pushed out of the wall" means;
+- `firstRoomAbove(level, body, wanted)`: `wanted` if it fits there, else the first place straight above where it does - a cave on the way, else the ground. **However far**: a search of a few blocks left a body in the rock under a hill, smothered. What nothing passes is not climbed through (the bedrock over the Nether): the first room below is taken instead.

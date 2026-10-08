@@ -163,3 +163,44 @@ this.continuousComponent
 
 !!! warning "The base mod's flight is not vanilla flight"
     `PropelledFlightAbility` never sets `player.getAbilities().flying`: it turns gravity off and drives the velocity itself. Read `isNoGravity()` if you need to know whether a player is flying, and never enable a flight through a pause (`takeOff` refuses to) - haki overuse, Seastone and protected areas pause a passive to take flight away.
+
+## `BlockPassageAbility`
+
+A technique during which its user passes through blocks: a dive under the ground, a walk through a wall. Nothing is dug: the blocks are passed through, as in the base mod's own Free Swimming.
+
+```java
+public class MyDiveAbility extends BlockPassageAbility {
+
+    public MyDiveAbility(AbilityCore<MyDiveAbility> core) {
+        super(core);
+        this.addUseEvent(this::onUse);
+    }
+
+    private void onUse(LivingEntity entity, IAbility ability) {
+        if (this.isPassing()) {
+            this.endPassage(entity);
+        } else {
+            this.startPassage(entity, 160.0F);
+        }
+    }
+
+    @Override
+    protected Vec3 steer(LivingEntity entity) {
+        return walking(entity).scale(0.22D);
+    }
+
+    @Override
+    protected void onPassageEnd(LivingEntity entity) {
+        this.cooldownComponent.startCooldown(entity, 100.0F + this.passedTicks() / 2.0F);
+    }
+}
+```
+
+- `steer(entity)` gives the velocity of the tick, or null to leave the body its own. `walking(entity)` is the walking keys as a direction on the ground.
+- `onPassageTick(level, entity)` runs on the server every tick: an effect to keep up, particles, a reason to end early.
+- `wayOut(level, entity)` says where the body is put at the end. By default the first room straight above it, however far ([`AkumaRoom.firstRoomAbove`](../utilities/other-helpers.md#akumaroom)).
+- `onPassageEnd(entity)` runs once the body is out: the cooldown.
+- The base mod's restricted blocks (bedrock, portals) are never entered: a body found in one is set back where it last was and the passage ends. Do not steer into one: `isRestricted(level, pos)` looks ahead.
+
+!!! warning "The movement is driven where the body is simulated"
+    A player's own client moves the player: a velocity set by the server alone is overwritten every tick. `steer` is asked on both sides and its answer used on the client for a player, on the server for anything else. Whatever it reads must be known on both sides: the keys, the look, the blocks around - not a field only the server sets.

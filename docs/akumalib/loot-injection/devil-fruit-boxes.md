@@ -64,6 +64,35 @@ Keep the box of the file and the tier passed to `AkumaNoMiItem` in step: the tie
 !!! warning "Why the files apply once the reload is over"
     Loot tables are parsed in parallel with every other data loader, so the files may not be read yet when a table loads. AkumaLib applies them once the whole reload has finished, at server start and on `/reload` alike. Each reload builds new tables, so nothing is added twice.
 
+## Boxes that share their fruits
+
+A server can do without the tiers. Two settings of the world's `serverconfig/akumalib-server.toml`, section `[devilFruitBoxes]`:
+
+| Setting | Values | What it does |
+|---|---|---|
+| `fruitBoxMode` | `NORMAL` (default) | each box holds its own fruits: the base mod's tiers |
+| | `MIXED` | every fruit is in every box |
+| `fruitBoxKeepWeights` | `false` (default) | with `MIXED`, every fruit has the same chance |
+| | `true` | each fruit keeps the weight its mod or a datapack gave it |
+
+Nothing to do in an addon: the mode is laid over the boxes as the data files left them, so every fruit of every installed mod is taken, and a fruit a datapack removed stays out. 
+
+The file is read when the server starts. While it runs, an operator changes the boxes with a command, which writes the file and applies at once:
+
+```text
+/akumalib fruitboxes                              the mode and the weights in force
+/akumalib fruitboxes mode normal|mixed
+/akumalib fruitboxes weights equal|kept
+```
+
+A file edited by hand while the server runs is not always noticed by Forge: use the command, or restart.
+
+The fruit shared with another box is the same entry as in its own, with the one-fruit-per-world guard. The tier a fruit shows is unchanged: it no longer says which box the fruit comes from.
+
+## The fruits found in a world
+
+`/fruits` opens a book that lists every Devil Fruit installed and what has become of it in this world: free, on the ground, carried or eaten, and by whom. It reads the base mod's one-fruit-per-world record, so it needs that rule on, and it is open to whoever the base mod's `/check_fruits` is open to (its "Public /check_fruits" setting; operators otherwise). Where a fruit lies and since when are shown to operators only, with a "Go there" that takes them to a fruit on the ground. With `fruitBoxMode = "MIXED"` the tiers are left out of the screen.
+
 ## A fruit in no box
 
 Once the data is loaded, every fruit registered with `registerFruitItem` that no box holds is named in the log:

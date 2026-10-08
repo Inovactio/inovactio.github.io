@@ -53,7 +53,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 | Page | Helpers |
 |---|---|
 | [Deferred work](tick-queue.md) | `AkumaTickQueue`: run something at the end of this server tick, or N ticks from now; `ServerScopedMap`: static state emptied when the server stops; `AbilityLifecycle`: abilities stopped on death, zero gravity and soft landings that clean up after themselves |
-| [Other helpers](other-helpers.md) | `FruitInjectionHelper`, `RandomTeleportHelper`, `InoHelper`, `AkumaAmounts`, `UnseenSeat` |
+| [Other helpers](other-helpers.md) | `FruitInjectionHelper`, `RandomTeleportHelper`, `InoHelper`, `AkumaAmounts`, `UnseenSeat`, `AkumaRoom` |
 
 ## Documented elsewhere
 
