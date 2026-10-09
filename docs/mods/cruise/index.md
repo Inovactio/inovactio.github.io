@@ -6,9 +6,10 @@
 
 | | |
 |---|---|
-| Version documented | **0.3.1** (beta) |
+| Latest version | **0.4.0** (beta) |
+| Version documented | **0.3.1** (beta): these pages are being brought up to 0.4.0, whose [changelog](changelog.md#v0-4-0) tells all that is new |
 | Mod id | `inocruise` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.3.1](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9038562) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.4.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9109571) · [changelog](changelog.md) |
 
 ## Requirements
 
@@ -17,7 +18,7 @@
 | Minecraft | 1.20.1 |
 | Forge | 47 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.5 |
-| [AkumaLib](../../akumalib/index.md) | 4.0.0 or later |
+| [AkumaLib](../../akumalib/index.md) | **4.3.0** or later: with an older one the game does not start |
 | JEI or EMI | optional, recommended: every workstation, fish, creature and find shows in them |
 
 Client **and** server.
