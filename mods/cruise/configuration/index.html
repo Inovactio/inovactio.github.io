@@ -6730,6 +6730,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -6793,6 +6797,62 @@
     
   
     Villages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../towns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Towns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../village-flags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A village under your flag
   
 
     
@@ -7016,7 +7076,7 @@
   <span class="md-ellipsis">
     
   
-    Events at sea
+    Events out in the world
   
 
     
@@ -7127,6 +7187,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        guide
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#merchants" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7164,6 +7235,17 @@
     <span class="md-ellipsis">
       
         Events at sea
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#events-on-land" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Events on land
       
     </span>
   </a>
@@ -10088,6 +10170,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        guide
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#merchants" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10125,6 +10218,17 @@
     <span class="md-ellipsis">
       
         Events at sea
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#events-on-land" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Events on land
       
     </span>
   </a>
@@ -10242,9 +10346,35 @@
 </thead>
 <tbody>
 <tr>
-<td><code>vanillaVillages</code></td>
+<td><code>withVanillaVillages</code></td>
+<td><code>false</code></td>
+<td>Whether Minecraft's own villages, with their villagers, also generate beside Cruise's <a href="../villages/">villages</a>. Off by default: a world has Cruise's villages only, which grow in the same lands, each in its land's look, and no vanilla village starts in newly explored land. Villages already generated stay. <code>true</code> gives both kinds: the villagers and their trades, the iron golems, the raids; where a vanilla village starts, Cruise's village nearby gives way to it. Read when the server or the world starts.</td>
+</tr>
+<tr>
+<td><code>villageDamage</code></td>
+<td><code>MEND</code></td>
+<td>What happens to the blocks of a Cruise village. <code>MEND</code>: a village can be damaged, by abilities, explosions, fire or by hand, and puts itself back block by block once it has been left in peace for three minutes; what players build in it is cleared away and handed back to them, and breaking its blocks by hand is a crime after two warnings a day. <code>FORBID</code>: on top of that, nothing can be broken or built in a village by hand, by an explosion or by an ability. <code>NOTHING</code>: villages are not protected at all, and what is broken stays broken. A creative player is outside these rules. What a command changes (<code>/setblock</code>, <code>/fill</code>) is mended too: set it to <code>NOTHING</code> while editing a village by commands.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title"><code>vanillaVillages</code> is no longer read</p>
+<p>Up to 0.3.1 this setting was called <code>vanillaVillages</code> and was <code>true</code> by default. Since 0.4.0 it is <code>withVanillaVillages</code>, <code>false</code> by default. The old line may still be in a file written by an earlier version: it does nothing any more. To keep Minecraft's villages, set <code>withVanillaVillages = true</code>.</p>
+</div>
+<h2 id="guide"><code>guide</code><a class="headerlink" href="#guide" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>givenAtFirstJoin</code></td>
 <td><code>true</code></td>
-<td>Whether Minecraft's own villages, with their villagers, still appear beside Cruise's <a href="../villages/">villages</a>. <code>false</code> gives a world with Cruise's villages only: no vanilla village starts in newly explored land. Villages already there stay, and nothing takes their place in the biomes Cruise's villages do not grow in (desert, savanna, taiga, snowy plains). Read when the server or the world starts.</td>
+<td>Whether every player is handed a Cruise Guide, once: the first time he comes into the world, or the next time in a world begun before the guide existed. With <code>false</code> nobody is handed one; it is still made from a book and paper, and still opens from every trade's page.</td>
 </tr>
 </tbody>
 </table>
@@ -10261,7 +10391,7 @@
 <tr>
 <td><code>tryEveryTicks</code></td>
 <td><code>6000</code> (5 minutes)</td>
-<td>How often each merchant gets one try at coming to a player.</td>
+<td>How often each merchant gets one try at coming to a player (200 to 1,000,000).</td>
 </tr>
 </tbody>
 </table>
@@ -10288,12 +10418,12 @@
 <tr>
 <td><code>inTheWild</code></td>
 <td><code>true</code></td>
-<td>Whether he also wanders the wild, near a player out under the open sky.</td>
+<td>Whether he also wanders the wild, near a player out under the open sky and away from villages. He leaves once nobody is within 200 blocks.</td>
 </tr>
 <tr>
 <td><code>wildChance</code></td>
 <td><code>0.15</code></td>
-<td>The chance he comes, at each try, to a player in the wild.</td>
+<td>The chance he comes, at each try, to a player in the wild. Only one merchant at a time comes to a player in the wild.</td>
 </tr>
 </tbody>
 </table>
@@ -10310,17 +10440,17 @@
 <tr>
 <td><code>listingFee</code></td>
 <td><code>0.02</code> (2 %)</td>
-<td>The share of the asking price paid to list a lot, not returned. A Merchant pays less.</td>
+<td>The share of the asking price paid to list a lot, not returned (0 to 0.5). A Merchant pays less.</td>
 </tr>
 <tr>
 <td><code>daysUp</code></td>
 <td><code>30</code></td>
-<td>How many real days a lot stays up before it comes back to its seller.</td>
+<td>How many real days a lot stays up before it comes back to its seller (1 to 365).</td>
 </tr>
 <tr>
 <td><code>maxListings</code></td>
 <td><code>10</code></td>
-<td>How many lots a player may have up at once.</td>
+<td>How many lots a player may have up at once (1 to 1000).</td>
 </tr>
 </tbody>
 </table>
@@ -10333,12 +10463,14 @@
 <th><code>concert</code></th>
 <th><code>fever</code></th>
 <th><code>swordsmith</code></th>
+<th><code>fishingTournament</code></th>
 <th>What it does</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>enabled</code></td>
+<td><code>true</code></td>
 <td><code>true</code></td>
 <td><code>true</code></td>
 <td><code>true</code></td>
@@ -10349,6 +10481,7 @@
 <td><code>5</code></td>
 <td><code>7</code></td>
 <td><code>8</code></td>
+<td><code>6</code></td>
 <td>The fewest days from one to the next (1 to 365).</td>
 </tr>
 <tr>
@@ -10356,6 +10489,7 @@
 <td><code>8</code></td>
 <td><code>10</code></td>
 <td><code>12</code></td>
+<td><code>9</code></td>
 <td>The most days from one to the next (1 to 365).</td>
 </tr>
 <tr>
@@ -10363,12 +10497,13 @@
 <td><code>24</code></td>
 <td><code>24</code></td>
 <td><code>48</code></td>
-<td>How many in-game hours it lasts: the stage stays up, the fever runs if nobody cures it, the swordsmith stays.</td>
+<td><code>24</code></td>
+<td>How many in-game hours it lasts (1 to 720): the stage stays up, the fever runs if nobody cures it, the swordsmith stays, the judge stays on the quay.</td>
 </tr>
 </tbody>
 </table>
 <h2 id="events-at-sea">Events at sea<a class="headerlink" href="#events-at-sea" title="Permanent link">&para;</a></h2>
-<p>One section for each of the <a href="../events-at-sea/">events at sea</a>. Days are in-game days (one day = 20 real minutes); the wait between two events of a kind is drawn anew each time, between the two numbers.</p>
+<p>One section for each of the <a href="../events-at-sea/#at-sea">events at sea</a>. Days are in-game days (one day = 20 real minutes, one in-game hour = 50 real seconds); the wait between two events of a kind is drawn anew each time, between the two numbers. Everywhere, the days go from 1 to 365 and the hours from 1 to 720.</p>
 <p><code>merchantShip</code>:</p>
 <table>
 <thead>
@@ -10387,12 +10522,12 @@
 <tr>
 <td><code>leastDaysBetween</code></td>
 <td><code>4</code></td>
-<td>The fewest days from one ship to the next (1 to 365).</td>
+<td>The fewest days from one ship to the next.</td>
 </tr>
 <tr>
 <td><code>mostDaysBetween</code></td>
 <td><code>7</code></td>
-<td>The most days from one ship to the next (1 to 365).</td>
+<td>The most days from one ship to the next.</td>
 </tr>
 <tr>
 <td><code>stayHours</code></td>
@@ -10470,6 +10605,258 @@
 </tr>
 </tbody>
 </table>
+<p><code>restaurant</code> - <a href="../events-at-sea/#the-floating-restaurant">the floating restaurant</a>:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether the floating restaurant comes at all.</td>
+</tr>
+<tr>
+<td><code>leastDaysBetween</code></td>
+<td><code>9</code></td>
+<td>The fewest days from one call to the next.</td>
+</tr>
+<tr>
+<td><code>mostDaysBetween</code></td>
+<td><code>13</code></td>
+<td>The most days from one call to the next.</td>
+</tr>
+<tr>
+<td><code>stayHours</code></td>
+<td><code>24</code></td>
+<td>How many in-game hours it stays at anchor (24 = one day).</td>
+</tr>
+</tbody>
+</table>
+<p><code>ghostShip</code> - <a href="../events-at-sea/#the-fog-of-the-florian-triangle">the fog of the Florian Triangle</a>:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether the fog falls at all.</td>
+</tr>
+<tr>
+<td><code>leastDaysBetween</code></td>
+<td><code>7</code></td>
+<td>The fewest days from one fog to the next.</td>
+</tr>
+<tr>
+<td><code>mostDaysBetween</code></td>
+<td><code>10</code></td>
+<td>The most days from one fog to the next.</td>
+</tr>
+<tr>
+<td><code>brutes</code></td>
+<td><code>2</code></td>
+<td>How many of Mine Mine no Mi's pirate brutes guard the ghost ship (0 to 8).</td>
+</tr>
+<tr>
+<td><code>grunts</code></td>
+<td><code>5</code></td>
+<td>How many of Mine Mine no Mi's pirate grunts guard the ghost ship (0 to 16).</td>
+</tr>
+</tbody>
+</table>
+<p>The fog has no <code>stayHours</code>: it falls at nightfall and lifts at dawn.</p>
+<p><code>seaStorm</code> - <a href="../events-at-sea/#a-storm-at-sea">a storm at sea</a>:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether storms break at sea at all.</td>
+</tr>
+<tr>
+<td><code>leastDaysBetween</code></td>
+<td><code>4</code></td>
+<td>The fewest days from one storm to the next.</td>
+</tr>
+<tr>
+<td><code>mostDaysBetween</code></td>
+<td><code>7</code></td>
+<td>The most days from one storm to the next.</td>
+</tr>
+<tr>
+<td><code>leastHours</code></td>
+<td><code>4</code></td>
+<td>The fewest in-game hours a storm rages.</td>
+</tr>
+<tr>
+<td><code>mostHours</code></td>
+<td><code>6</code></td>
+<td>The most in-game hours a storm rages.</td>
+</tr>
+<tr>
+<td><code>barometerHours</code></td>
+<td><code>12</code></td>
+<td>How many in-game hours before it breaks the Barometer knows of it (12 = half a day; 0 to 720).</td>
+</tr>
+</tbody>
+</table>
+<p><code>shipInDistress</code> - <a href="../events-at-sea/#a-ship-in-distress">a ship in distress</a>:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether ships in distress come at all.</td>
+</tr>
+<tr>
+<td><code>leastDaysBetween</code></td>
+<td><code>8</code></td>
+<td>The fewest days from one to the next.</td>
+</tr>
+<tr>
+<td><code>mostDaysBetween</code></td>
+<td><code>12</code></td>
+<td>The most days from one to the next.</td>
+</tr>
+<tr>
+<td><code>stayHours</code></td>
+<td><code>24</code></td>
+<td>How many in-game hours before she sinks (24 = one day).</td>
+</tr>
+</tbody>
+</table>
+<p><code>schoolOfFish</code> - <a href="../events-at-sea/#a-school-of-fish">a school of fish</a>:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether schools of fish pass at all.</td>
+</tr>
+<tr>
+<td><code>leastDaysBetween</code></td>
+<td><code>3</code></td>
+<td>The fewest days from one school to the next.</td>
+</tr>
+<tr>
+<td><code>mostDaysBetween</code></td>
+<td><code>5</code></td>
+<td>The most days from one school to the next.</td>
+</tr>
+<tr>
+<td><code>stayHours</code></td>
+<td><code>12</code></td>
+<td>How many in-game hours a school passes for (12 = half a day, 10 real minutes).</td>
+</tr>
+<tr>
+<td><code>fish</code></td>
+<td><code>40</code></td>
+<td>How many fish a school holds, for everyone who fishes in it: with the last of them it scatters (1 to 10,000).</td>
+</tr>
+</tbody>
+</table>
+<h2 id="events-on-land">Events on land<a class="headerlink" href="#events-on-land" title="Permanent link">&para;</a></h2>
+<p>One section for each of the <a href="../events-at-sea/#on-land">events on land</a>, counted as the events at sea are.</p>
+<p><code>creatureMigration</code> - <a href="../events-at-sea/#a-creature-migration">a creature migration</a>:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether creatures migrate at all.</td>
+</tr>
+<tr>
+<td><code>leastDaysBetween</code></td>
+<td><code>5</code></td>
+<td>The fewest days from one migration to the next.</td>
+</tr>
+<tr>
+<td><code>mostDaysBetween</code></td>
+<td><code>8</code></td>
+<td>The most days from one migration to the next.</td>
+</tr>
+<tr>
+<td><code>stayHours</code></td>
+<td><code>24</code></td>
+<td>How many in-game hours a migration stays (24 = one day).</td>
+</tr>
+<tr>
+<td><code>creatures</code></td>
+<td><code>30</code></td>
+<td>How many creatures a migration holds, for everyone who hunts in it: with the last one caught it is over (1 to 10,000).</td>
+</tr>
+</tbody>
+</table>
+<p><code>fallingStar</code> - <a href="../events-at-sea/#a-falling-star">a falling star</a>:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether stars fall at all.</td>
+</tr>
+<tr>
+<td><code>leastDaysBetween</code></td>
+<td><code>15</code></td>
+<td>The fewest days from one star to the next.</td>
+</tr>
+<tr>
+<td><code>mostDaysBetween</code></td>
+<td><code>20</code></td>
+<td>The most days from one star to the next.</td>
+</tr>
+<tr>
+<td><code>stayHours</code></td>
+<td><code>24</code></td>
+<td>How many in-game hours the meteorite lies there (24 = one day).</td>
+</tr>
+</tbody>
+</table>
 <p>A disabled event that is already running still ends on time. Operators can list, start and stop events with AkumaLib's <code>/akumalib events</code> command: see AkumaLib's <a href="../../../akumalib/utilities/world-events/#for-operators">world events page</a>.</p>
 <h2 id="the-trades-levels-akumalib">The trades' levels (AkumaLib)<a class="headerlink" href="#the-trades-levels-akumalib" title="Permanent link">&para;</a></h2>
 <p>Per world, in <strong><code>&lt;world&gt;/serverconfig/akumalib-server.toml</code></strong>:</p>
@@ -10522,7 +10909,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../events-at-sea/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Events at sea">
+          <a href="../events-at-sea/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Events out in the world">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -10532,7 +10919,7 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Events at sea
+                Events out in the world
               </div>
             </div>
           </a>

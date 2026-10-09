@@ -6307,6 +6307,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#the-cruise-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Cruise Guide
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#solo-or-crew" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6888,6 +6899,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -6951,6 +6966,62 @@
     
   
     Villages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../towns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Towns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../village-flags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A village under your flag
   
 
     
@@ -7174,7 +7245,7 @@
   <span class="md-ellipsis">
     
   
-    Events at sea
+    Events out in the world
   
 
     
@@ -10150,6 +10221,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#the-cruise-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Cruise Guide
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#solo-or-crew" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10342,6 +10424,7 @@
 </tr>
 </tbody>
 </table>
+<p>Every trade climbs at about the same pace: from level 1 to 50, a trade takes about <strong>fifteen hours of work</strong>, whichever it is. What the work of the Fisher, the Hunter, the Miner and the Farmer pays is set for that; the tables on their pages show what is really paid.</p>
 <p>A server can change each trade's curve and set an XP multiplier: see <a href="../configuration/">Configuration</a>.</p>
 <h3 id="where-the-xp-comes-from">Where the XP comes from<a class="headerlink" href="#where-the-xp-comes-from" title="Permanent link">&para;</a></h3>
 <table>
@@ -10362,11 +10445,11 @@
 </tr>
 <tr>
 <td><strong>Hunter</strong></td>
-<td>every creature caught (a rare variant pays more), a bonus for the first of each kind, the Tannery's recipes</td>
+<td>every creature caught (a rare variant pays more), a bonus for the first of each kind, the Tannery's recipes; from level 30, every beast of Mine Mine no Mi hunted with a weapon, with a bonus for the first of each kind</td>
 </tr>
 <tr>
 <td><strong>Farmer</strong></td>
-<td>every ripe crop harvested (5 + the crop's level), every fruit picked (4 + the tree's level)</td>
+<td>every ripe crop harvested (half of 5 + the crop's level), every fruit picked (half of 4 + the tree's level); a Fine or Superb harvest pays more, a plant far under your level pays less</td>
 </tr>
 <tr>
 <td><strong>Miner</strong></td>
@@ -10395,14 +10478,25 @@
 <ul>
 <li>Most Cruise <strong>dishes</strong> give an <em>Appetite</em> for 10 minutes: +15 %, +30 % or +45 % XP in one trade (the harder the dish, the bigger the boost). Only one Appetite at a time. See the <a href="../trades/cook/">Cook</a>.</li>
 <li>The Musician's <strong><em>Craftsman's Song</em></strong> gives +5 %, +10 % or +20 % XP in <strong>every</strong> trade (tiers I, II, III), on top of a meal's Appetite. See the <a href="../trades/musician/">Musician</a>.</li>
+<li>A night in a town's inn leaves you <strong>Rested</strong>: +10 % XP in <strong>every</strong> trade until the next dusk, on top of a meal's Appetite. See <a href="../towns/">Towns</a>.</li>
 </ul>
 <h2 id="the-professions-book">The professions book<a class="headerlink" href="#the-professions-book" title="Permanent link">&para;</a></h2>
 <p>The trades appear in the professions screen, drawn as Mine Mine no Mi's open book. Click a trade to open its page: its <strong>perks</strong>, with the level each one starts at, and everything it <strong>unlocks</strong> level by level, every recipe included. The Fisher's, Hunter's and Miner's pages also list every fish, creature and find in the rock at the level it needs.</p>
 <ul>
 <li>On the Fisher's and Hunter's pages, a <strong>Bestiary</strong> button opens the Bestiary.</li>
 <li>On the Navigator's page, a <strong>Log Book</strong> button opens the Log Book.</li>
+<li>On every trade's page, a <strong>Guide</strong> plank opens the Cruise Guide at that trade's chapter.</li>
 <li>The Farmer's bonus harvest and the Merchant's price and auction bonuses show their <strong>current</strong> values, so they grow as you level.</li>
 </ul>
+<h2 id="the-cruise-guide">The Cruise Guide<a class="headerlink" href="#the-cruise-guide" title="Permanent link">&para;</a></h2>
+<p>The <strong>Cruise Guide</strong> is a book that says where to start. Every player is handed one, once, the next time they come into the world.</p>
+<ul>
+<li>Its first pages list the chapters: one for each of the fourteen trades, and others on getting started, Solo and Crew, trade, the collections, the villages and what happens out in the world.</li>
+<li>Open a chapter and its sections are listed on the left page (for a trade: what it is, how to start, what pays, what comes later). The one you click is told on the right page, with the bench's recipe drawn where there is one.</li>
+<li>It opens again where you closed it.</li>
+<li>If you lose it, a Book and a sheet of Paper make another at a crafting table.</li>
+</ul>
+<p>A server can choose not to hand the guide out (<code>guide</code> in <code>inocruise-common.toml</code>, see <a href="../configuration/">Configuration</a>).</p>
 <h2 id="solo-or-crew">Solo or Crew<a class="headerlink" href="#solo-or-crew" title="Permanent link">&para;</a></h2>
 <p>The mode is a server setting (<a href="../configuration/">Configuration</a>): <strong>Solo</strong> in single player and on LAN, <strong>Crew</strong> on a dedicated server, unless the server says otherwise.</p>
 <ul>
@@ -10582,10 +10676,11 @@
 </tbody>
 </table>
 <p>Reaching level 100 in a trade is also a challenge advancement, named after its title.</p>
+<p>Two more titles are won out in the world: <strong>Golden Ladle</strong>, for taking the gold at the floating restaurant's cooking contest (see the <a href="../trades/cook/#the-cooking-contest">Cook</a>), and <strong>Golden Hook</strong>, for taking the gold at a fishing tournament (see the <a href="../trades/fisher/#schools-storms-and-tournaments">Fisher</a>).</p>
 <h2 id="perks">Perks<a class="headerlink" href="#perks" title="Permanent link">&para;</a></h2>
-<p>Every trade has <strong>three to six perks</strong>, most at <strong>levels 10, 25 and 40</strong> (the Tailor has one more at 30; the Farmer and the Merchant also have perks that grow from level 1). Each trade's page lists them. A perk only works in a trade you practise.</p>
+<p>Every trade has <strong>three to six perks</strong>, most at <strong>levels 10, 25 and 40</strong> (the Tailor and the Farmer have one more at 30; the Farmer and the Merchant also have perks that grow from level 1). Each trade's page lists them. A perk only works in a trade you practise.</p>
 <h2 id="advancements">Advancements<a class="headerlink" href="#advancements" title="Permanent link">&para;</a></h2>
-<p>Cruise has <strong>199 advancements</strong> on <strong>15 tabs</strong>: a main tab and one per trade.</p>
+<p>Cruise has <strong>200 advancements</strong> on <strong>15 tabs</strong>: a main tab and one per trade.</p>
 <ul>
 <li>Each trade's tab opens at <strong>level 1</strong> in that trade and holds one level milestone, <strong>Apprentice</strong> (Apprentice Fisher, Apprentice Cook…) at level 5. Everything else is about doing things: a recipe made, a species caught, a dish eaten, a tree felled.</li>
 <li>Each trade's tab also holds one <strong>challenge for level 100</strong>, named after the trade's top title (Chef of the Baratie, Soul King...).</li>

@@ -6561,6 +6561,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#the-cooking-contest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The cooking contest
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#advancements" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6895,6 +6906,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -6958,6 +6973,62 @@
     
   
     Villages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../towns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Towns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../village-flags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A village under your flag
   
 
     
@@ -7181,7 +7252,7 @@
   <span class="md-ellipsis">
     
   
-    Events at sea
+    Events out in the world
   
 
     
@@ -10212,6 +10283,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#the-cooking-contest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The cooking contest
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#advancements" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10306,7 +10388,7 @@
 
 
 <h1 id="cook">Cook<a class="headerlink" href="#cook" title="Permanent link">&para;</a></h1>
-<p>The Cook turns the other trades' harvest into the islands' dishes at the <strong>Kitchen</strong>. A dish feeds you and also gives buffs: extra XP in one trade, more Doriki from fights, slower hunger, and a little Doriki of its own. The fish in a dish decide its <strong>quality</strong>, and a skilled Cook makes every meal's buffs last longer.</p>
+<p>The Cook turns the other trades' harvest into the islands' dishes at the <strong>Kitchen</strong>. A dish feeds you and also gives buffs: extra XP in one trade, more Doriki from fights, slower hunger, and a little Doriki of its own. The fish and the produce in a dish decide its <strong>quality</strong>, and a skilled Cook makes every meal's buffs last longer.</p>
 <table>
 <thead>
 <tr>
@@ -10357,11 +10439,13 @@
 <p>The ingredients come from the whole crew: the <a href="../fisher/">Fisher</a>'s catch, the <a href="../hunter/">Hunter</a>'s creatures, the <a href="../farmer/">Farmer</a>'s crops and fruit, Crystallised Salt from the <a href="../inventor/">Inventor</a>'s Sieve, and even the <a href="../chemist/">Chemist</a>'s Antidote Powder for the Fried Scorpion.</p>
 <p>The Kitchen makes the game's 28 dishes and one extra, the <img alt="" class="item-icon" src="../../icons/hardtack_ration.png" /><strong>Hardtack Ration</strong> (2 Flour and 1 Crystallised Salt, Cook 1). It goes into the Sandwich, and it feeds a little on its own (4 hunger). <strong>Flour</strong> is made from two Wheat at an ordinary crafting table, by anyone.</p>
 <h2 id="dish-quality-normal-fine-superb">Dish quality: Normal, Fine, Superb<a class="headerlink" href="#dish-quality-normal-fine-superb" title="Permanent link">&para;</a></h2>
-<p>The fish in a dish decide its quality at the moment you cook it:</p>
+<p>The fish and the produce in a dish decide its quality at the moment you cook it:</p>
 <ul>
 <li>Each fish you catch has a size, which sits somewhere in its species' size range, from the smallest (0 %) to the biggest (100 %). The dish takes the average over all the fish in it.</li>
 <li>An average of <strong>50 % or more</strong> makes a <strong>Fine</strong> dish (green in the tooltip). <strong>80 % or more</strong> makes a <strong>Superb</strong> dish (gold). Anything lower is Normal.</li>
-<li>A dish with no measured fish in it (fruit, eggs, crops, creatures) is always <strong>Normal</strong>, unless a Cook perk upgrades it (see <a href="#level-perks">Level perks</a>).</li>
+<li>A dish counts the quality of its <strong>produce</strong> as it counts the size of its fish. The <a href="../farmer/#harvests-of-quality">Farmer</a>'s crops and fruit come out plain, Fine or Superb: in the average, a plain one counts for 25 %, a Fine one for 65 % and a Superb one for 90 %. So a salad can be Superb too, but three plain herbs and one Superb one do not make a Superb salad.</li>
+<li>A dish is <strong>never worse than its fish alone would make it</strong>: plain produce beside a huge fish takes nothing away.</li>
+<li>A dish with no measured fish and no produce in it (eggs, creatures) is always <strong>Normal</strong>, unless a Cook perk upgrades it (see <a href="#level-perks">Level perks</a>).</li>
 </ul>
 <p>What quality changes when you eat the dish:</p>
 <table>
@@ -10753,7 +10837,7 @@
 <tr>
 <td>10</td>
 <td>"10% chance a dish comes out one quality higher"</td>
-<td>at the Kitchen, a dish comes out <strong>one quality higher</strong> 10 % of the time (Normal becomes Fine, Fine becomes Superb); this works on dishes with no fish too</td>
+<td>at the Kitchen, a dish comes out <strong>one quality higher</strong> 10 % of the time (Normal becomes Fine, Fine becomes Superb); this works on dishes with no fish and no produce too</td>
 </tr>
 <tr>
 <td>25</td>
@@ -10957,6 +11041,17 @@
 </table>
 <h2 id="selling">Selling<a class="headerlink" href="#selling" title="Permanent link">&para;</a></h2>
 <p>The <strong>Travelling Cook</strong> buys every cooked dish and sells the basic ones (up to Cook level 15). A Fine dish fetches 25 % more, a Superb one 50 % more. See <a href="../../merchants-and-contracts/">Merchants and contracts</a>.</p>
+<p>The floating restaurant's <strong>head waiter</strong> buys your dishes for a fifth more than the Travelling Cook does.</p>
+<h2 id="the-cooking-contest">The cooking contest<a class="headerlink" href="#the-cooking-contest" title="Permanent link">&para;</a></h2>
+<p>Every nine to thirteen days a restaurant ship drops anchor near a player for a day, and its head chef holds a <strong>cooking contest</strong>. See <a href="../../events-at-sea/#the-floating-restaurant">Events at sea</a> for the restaurant itself.</p>
+<ul>
+<li>Each visit the chef cooks a dish of his own, named in the news: <strong>its recipe's level is the score to beat</strong>.</li>
+<li>Right-click him with your best dish in hand. A dish scores <strong>its recipe's level</strong>, <strong>five more if it is Fine</strong>, <strong>ten more if it is Superb</strong>.</li>
+<li>Reach the chef's score and you take the <strong>gold</strong>; within ten of it the <strong>silver</strong>, within twenty the <strong>bronze</strong>.</li>
+<li>The chef keeps the dish and pays at once: 2.5, 2 or 1.5 times its price in Belly, Cook XP, and four, two or one rare ingredients. A dish that takes no medal is simply paid for.</li>
+<li>One dish each visit, and only a Cook may enter, with a dish of a level they could cook themselves.</li>
+</ul>
+<p>Taking the gold earns the title <strong>Golden Ladle</strong>.</p>
 <h2 id="advancements">Advancements<a class="headerlink" href="#advancements" title="Permanent link">&para;</a></h2>
 <p>The <strong>Cook</strong> tab ("Cook the islands' dishes at the Kitchen") holds:</p>
 <ul>

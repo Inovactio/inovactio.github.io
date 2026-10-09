@@ -6732,6 +6732,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -6795,6 +6799,62 @@
     
   
     Villages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../towns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Towns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../village-flags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A village under your flag
   
 
     
@@ -6921,6 +6981,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="When and where they come">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-a-towns-market-hall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        In a town's market hall
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -7237,7 +7314,7 @@
   <span class="md-ellipsis">
     
   
-    Events at sea
+    Events out in the world
   
 
     
@@ -10182,6 +10259,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="When and where they come">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-a-towns-market-hall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        In a town's market hall
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -10429,7 +10523,7 @@
 <tbody>
 <tr>
 <td>Where</td>
-<td>the Overworld: villages, where they set up at the stalls of the market square, and the wild under the open sky</td>
+<td>the Overworld: villages, where they set up at the stalls of the market square, towns, where they keep the market hall for good, and the wild under the open sky</td>
 </tr>
 <tr>
 <td>How often</td>
@@ -10525,9 +10619,19 @@
 <li>He appears on solid ground, 12-31 blocks from the player (on each axis) in a village, 16-32 blocks away in the wild.</li>
 <li>In one of Cruise's own <a href="../villages/">villages</a> he sets up <strong>at a stall of the market square</strong> and stays there; the Fishmonger takes the quay when the village has a port, and whoever finds every stall taken stands in the open by the well. He does not come to a dead village, and does not trade with a player the village is closed to.</li>
 </ul>
+<h3 id="in-a-towns-market-hall">In a town's market hall<a class="headerlink" href="#in-a-towns-market-hall" title="Permanent link">&para;</a></h3>
+<p>A town (see <a href="../towns/">Towns</a>) has a covered market hall, and there the five merchants do not come and go: the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader each keep a stall under the hall, and are <strong>always there</strong>.</p>
+<ul>
+<li>They carry a purse <strong>twice as heavy</strong> as elsewhere.</li>
+<li>They post <strong>five contracts</strong> where the others post three; the last one is still the one kept for Merchants.</li>
+<li>Their goods, their contracts and their purse are <strong>new each day</strong>.</li>
+<li>An <a href="../auction-house/">Auction House</a> stands by the hall's way in, open to all.</li>
+<li>The hall's clerk lets a stall to any <a href="../trades/merchant/#a-stall-in-a-towns-market-hall">Merchant</a>: 2 000 Belly a week, and the town's people buy off it day after day.</li>
+</ul>
+<p>In a village the merchants come and go as before.</p>
 <p>In the <code>merchants</code> section, a server can change how often they try (<code>tryEveryTicks</code>) and, for each merchant, whether he comes to villages and to the wild, and how likely (<code>inVillages</code>, <code>villageChance</code>, <code>inTheWild</code>, <code>wildChance</code>). See <a href="../configuration/">Configuration</a>.</p>
 <h2 id="his-purse">His purse<a class="headerlink" href="#his-purse" title="Permanent link">&para;</a></h2>
-<p>Each merchant arrives with a purse of <strong>5 000 to 100 000 Belly</strong> (the Travelling Cook <strong>20 000 to 250 000</strong>). He does not buy what he cannot pay for. The purse refills all at once at the start of the next in-game day (sleeping through the night counts), not bit by bit. From Merchant level 40 his purse no longer limits what he buys from you.</p>
+<p>Each merchant arrives with a purse of <strong>5 000 to 100 000 Belly</strong> (the Travelling Cook <strong>20 000 to 250 000</strong>). He does not buy what he cannot pay for. A merchant of a town's market hall carries twice as much. The purse refills all at once at the start of the next in-game day (sleeping through the night counts), not bit by bit. From Merchant level 40 his purse no longer limits what he buys from you.</p>
 <h2 id="selling">Selling<a class="headerlink" href="#selling" title="Permanent link">&para;</a></h2>
 <p>Open the <strong>Sell</strong> window. Its nine slots take only what he buys, and the window shows his offer and what is left in his purse; press <strong>Sell</strong>. You have to stay within 8 blocks of him. Whatever he does not buy goes back to your inventory when you close the window.</p>
 <p>Items are priced one by one: the deal stops at the first one that his purse, or your Belly cap, cannot cover.</p>
@@ -10540,11 +10644,11 @@
 <li>the commonest good is there 85 % of the time, the rarest 4 %, the rest in between;</li>
 <li>a common good comes several at once (up to 8), a rare one alone;</li>
 <li>stall prices are <strong>3 times</strong> what he would pay, give or take 10 %;</li>
-<li>the stall does not restock.</li>
+<li>the stall does not restock, except in a town's market hall, where it is laid out anew each day.</li>
 </ul>
 <p>Something bought from a stall is a plain item: a fish has no size (it sells back at the average price), a dish has no quality.</p>
 <p>Every merchant may also bring <strong>torn treasure maps</strong>: a Torn Rumor Map 35 % of the time (600), a Torn Old Map 12 % (3 000), a Torn Legendary Map 3 % (15 000). See <a href="../treasure-hunts/">Treasure hunts</a>.</p>
-<p>A Merchant of level 25 pays 15 % less for everything they buy from a Cruise merchant (the Buy screen still shows the full price, but they are charged less).</p>
+<p>A Merchant of level 25 pays 15 % less for everything they buy from a Cruise merchant (the Buy screen still shows the full price, but they are charged less). A village under your group's flag gives <strong>10 % off at its stalls</strong> (see <a href="../village-flags/">Village flags</a>). Discounts are never added together: you get the best one alone.</p>
 <h2 id="what-they-pay">What they pay<a class="headerlink" href="#what-they-pay" title="Permanent link">&para;</a></h2>
 <p>These are the prices for <strong>one item</strong>, before the market fills up and before a Merchant's bonus. "On stall" is how often the good is on his stall.</p>
 <h3 id="fishmonger">Fishmonger<a class="headerlink" href="#fishmonger" title="Permanent link">&para;</a></h3>
@@ -10999,7 +11103,9 @@
 </tr>
 </tbody>
 </table>
+<p>He also buys the <strong>Star Fragment</strong>, from the heart of a fallen star, for <strong>15 000</strong>: more than anything else he takes. It is never on his stall and never in a contract. See the <a href="../trades/miner/#the-star-core">Miner</a>.</p>
 <h3 id="materials-trader">Materials Trader<a class="headerlink" href="#materials-trader" title="Permanent link">&para;</a></h3>
+<p>A crop or a fruit reaped <strong>Fine</strong> pays ×1.25, <strong>Superb</strong> ×1.5, as a dish does (see the <a href="../trades/farmer/#harvests-of-quality">Farmer</a>). The table gives the price of plain produce.</p>
 <table>
 <thead>
 <tr>
@@ -11019,7 +11125,7 @@
 <td>crops and fruit (<a href="../trades/farmer/">Farmer</a> level 1)</td>
 </tr>
 <tr>
-<td>Medicinal Herb, Brown Fruit, Horrific Pear</td>
+<td>Medicinal Herb, Brown Fruit</td>
 <td>4</td>
 <td>11-13</td>
 <td>62 %</td>
@@ -11054,20 +11160,6 @@
 <td>fruit</td>
 </tr>
 <tr>
-<td>Cactus Pulp</td>
-<td>14</td>
-<td>38-46</td>
-<td>24 %</td>
-<td>crop</td>
-</tr>
-<tr>
-<td>Lotus Seed</td>
-<td>23</td>
-<td>62-76</td>
-<td>17 %</td>
-<td>crop</td>
-</tr>
-<tr>
 <td>Mystery Mushroom</td>
 <td>38</td>
 <td>103-125</td>
@@ -11075,11 +11167,11 @@
 <td>crop</td>
 </tr>
 <tr>
-<td>Cactus Flower</td>
-<td>47</td>
-<td>127-155</td>
+<td>Horrific Pear</td>
+<td>45</td>
+<td>122-149</td>
 <td>11 %</td>
-<td>rare harvest of Cactus Pulp</td>
+<td>fruit (Farmer level 20)</td>
 </tr>
 <tr>
 <td>Flame Powder</td>
@@ -11094,6 +11186,13 @@
 <td>146-178</td>
 <td>10 %</td>
 <td>crop</td>
+</tr>
+<tr>
+<td>Cactus Pulp</td>
+<td>78</td>
+<td>211-257</td>
+<td>8 %</td>
+<td>crop (Farmer level 22)</td>
 </tr>
 <tr>
 <td>Ice Powder</td>
@@ -11117,11 +11216,25 @@
 <td>capture of a Seagull (1 in 20)</td>
 </tr>
 <tr>
+<td>Lotus Seed</td>
+<td>246</td>
+<td>664-812</td>
+<td>4 %</td>
+<td>crop (Farmer level 28)</td>
+</tr>
+<tr>
 <td>Thunder Powder</td>
 <td>253</td>
 <td>683-835</td>
 <td>4 %</td>
 <td>capture of a Lightning Beetle</td>
+</tr>
+<tr>
+<td>Cactus Flower</td>
+<td>260</td>
+<td>702-858</td>
+<td>4 %</td>
+<td>rare harvest of Cactus Pulp; sown at Farmer level 45</td>
 </tr>
 <tr>
 <td>Golden Fruit</td>
@@ -11132,10 +11245,10 @@
 </tr>
 <tr>
 <td>Golden Matsutake</td>
-<td>380</td>
-<td>1 026-1 254</td>
+<td>300</td>
+<td>810-990</td>
 <td>4 %</td>
-<td>rare harvest of Mystery Mushrooms</td>
+<td>rare harvest of Mystery Mushrooms; sown at Farmer level 35</td>
 </tr>
 </tbody>
 </table>
@@ -11343,9 +11456,9 @@
 </tr>
 <tr>
 <td>Roasted Meat Festival (49)</td>
-<td>104 118</td>
-<td>130 148</td>
-<td>156 177</td>
+<td>103 518</td>
+<td>129 398</td>
+<td>155 277</td>
 <td>-</td>
 </tr>
 <tr>
@@ -11358,16 +11471,16 @@
 </tbody>
 </table>
 <h2 id="contracts">Contracts<a class="headerlink" href="#contracts" title="Permanent link">&para;</a></h2>
-<p>Every merchant arrives with <strong>three contracts</strong>: orders for goods of <strong>his own trade</strong>. The Fishmonger orders fish, the Prospector minerals, the Travelling Cook any dish (feasts included, not only the basic ones). To see them, open his Sell window and press the <strong>Contracts</strong> button at the top right.</p>
+<p>Every merchant arrives with <strong>three contracts</strong> (<strong>five</strong> in a town's market hall): orders for goods of <strong>his own trade</strong>. The Fishmonger orders fish, the Prospector minerals, the Travelling Cook any dish (feasts included, not only the basic ones). To see them, open his Sell window and press the <strong>Contracts</strong> button at the top right.</p>
 <ul>
-<li>Each contract asks for a number of one good ("3 x Fire Hercules"). The rarer the good, the less often it is ordered and the fewer are asked for (up to 8 of a common good). The three contracts are for three different goods.</li>
+<li>Each contract asks for a number of one good ("3 x Fire Hercules"). The rarer the good, the less often it is ordered and the fewer are asked for (up to 8 of a common good). A merchant's contracts are all for different goods.</li>
 <li><strong>Reward</strong>: 1.5 to 1.8 times what he would pay for the goods, paid <strong>in full</strong> and <strong>not out of his purse</strong>, with no drop for a filling market. A Merchant's price bonus raises it (up to +25 %).</li>
 <li><strong>Treasure maps</strong>: a public contract adds a <strong>Torn Rumor Map</strong> to its reward 20 % of the time ("Pays … Belly + a map").</li>
-<li><strong>The third contract is kept for Merchants</strong> of level 10 and up. It always pays the top premium (×1.8), and adds a <strong>Torn Old Map</strong> 50 % of the time. Other players see "One more, kept for Merchants (level 10)".</li>
+<li><strong>The last contract is kept for Merchants</strong> of level 10 and up (the third; the fifth in a market hall). It always pays the top premium (×1.8), and adds a <strong>Torn Old Map</strong> 50 % of the time. Other players see "One more, kept for Merchants (level 10)".</li>
 </ul>
 <h3 id="delivering">Delivering<a class="headerlink" href="#delivering" title="Permanent link">&para;</a></h3>
 <p>The <strong>Deliver</strong> button is active when you carry enough. The goods are taken from anywhere in your inventory, <strong>the least valuable first</strong>: a Superb dish or a record fish is kept when a plain one will do. You are paid first; if you cannot hold that much Belly, the delivery fails and you keep your goods.</p>
-<p><strong>First come, first served</strong>: once a player delivers a contract, it is gone for everyone. A merchant does not post new contracts while he stays; the next merchant brings new ones.</p>
+<p><strong>First come, first served</strong>: once a player delivers a contract, it is gone for everyone. A merchant does not post new contracts while he stays; the next merchant brings new ones. In a town's market hall, the merchants post new contracts each day.</p>
 <p>Delivering pays a Merchant 1 XP per 10 Belly of the reward, and unlocks the <strong>A Deal Is a Deal</strong> advancement.</p>
 <p>What you may be told: "Someone got there first", "That contract is for Merchants", "You do not carry enough", "You cannot hold that much Belly", "The payment was refused".</p>
 
