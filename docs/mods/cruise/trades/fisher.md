@@ -18,7 +18,7 @@ The Fisher lands the islands' own catches (fish, shellfish, crustaceans, even a 
 | Rods | made by the [Inventor](inventor.md) at the Workshop |
 | Levels | 1 to 100; new catches up to level 50 |
 
-Fisher XP comes **only** from Cruise's catches, from Sea Kings and from the Bestiary (see [Bestiary and Log Book](../bestiary-and-logbook.md)). A vanilla cod, salmon or pufferfish, and any junk or treasure, gives none.
+Fisher XP comes **only** from Cruise's catches, from Sea Kings, from a [fishing tournament](../village-events.md#a-fishing-tournament)'s medals and from the Bestiary (see [Bestiary and Log Book](../bestiary-and-logbook.md)). A vanilla cod, salmon or pufferfish, and any junk or treasure, gives none.
 
 ## How a catch is decided
 
@@ -27,7 +27,7 @@ There is **no fishing minigame**: you cast, wait for the bite and pull in exactl
 1. When vanilla's roll gives you **a fish**, Cruise may swap it for one of its own catches. Junk and treasure are never swapped.
 2. Each possible catch is checked against where your bobber is:
     - **Biome**: the biome the bobber is in. The sky fish and the lava fish ignore it.
-    - **Depth**: how many blocks of water (or lava, for the lava fish) lie straight down from the bobber, up to 256. A bobber on a one-block puddle fishes at depth 1: deep-sea catches need a real column of water under the hook, not just a deep-ocean biome.
+    - **Depth**: how many blocks of water (or lava, for the lava fish) lie straight down from the bobber, up to 256. A bobber on a one-block puddle fishes at depth 1: deep-sea catches need a real column of water under the hook, not just a deep-ocean biome. The [Navigator](navigator.md#level-10-the-sounding-lead)'s **Sounding Lead** tells you that depth; anyone can use it.
     - **Height**: a few catches need the bobber above or below a height (the sky fish want y 150 and up; some cave fish want low water).
     - **Your Fisher level**: a catch above your level stays in the water.
 3. Every catch that passes gets its **chance**. If the chances of everything that bites there add up to less than 100 %, each comes up with its own chance and the rest of the time you keep vanilla's fish. If they add up to more, they share the catch in proportion and you never get a vanilla fish there.
@@ -41,7 +41,7 @@ Every Cruise catch comes up with a **size in centimetres**, shown in its tooltip
 
 - **Fisher XP**: a catch pays 75 % of its XP at the smallest size, up to 125 % at the biggest.
 - **Price**: the Fishmonger pays 75 % of the average price for the smallest, up to 150 % for the biggest (see [Merchants and contracts](../merchants-and-contracts.md)).
-- **Cooking**: a dish's quality depends on where its fish sit in their size ranges, on average: halfway up or more gives a **Fine** dish, four fifths up or more a **Superb** one. A fish with no size (bought, or given by command) counts for nothing.
+- **Cooking**: a dish's quality depends on where its fish sit in their size ranges, on average: halfway up or more gives a **Fine** dish, four fifths up or more a **Superb** one. A fish with no size (bought, or given by command) counts for nothing. The quality of the [Farmer](farmer.md#harvests-of-quality)'s produce in the dish counts too, but a dish is never worse than its fish alone would make it.
 
 The bigger-catch bonuses (rods, rod parts, the level-10 perk) pull each catch toward the top of its range: a bonus of 0.35 closes 35 % of the gap between the rolled size and the maximum. Once the bonuses add up to 1, every catch comes up at the maximum size.
 
@@ -100,58 +100,73 @@ The catches open level by level, water by water: rivers and swamps, jungles and 
 How to read the table:
 
 - **Level**: the Fisher level from which it can bite.
-- **Where**: the biomes (or groups: all rivers, all oceans…) where it bites; "anywhere" means it ignores the biome.
+- **Where**: the biomes (or groups: all rivers, all oceans…) where it bites; "anywhere" means it ignores the biome. "is cloud sea" is the sea of clouds of Skypiea, which exists only with the *Mine Mine no Mi: Sky Island* mod: without it, those rows never bite (see [The sky and the sea of clouds](#the-sky-and-the-sea-of-clouds)).
 - **Depth**: the blocks of water under the bobber it needs, and a height when there is one.
 - **Chance**: its share of the bites vanilla would have turned into a fish, before any bonus.
 - **Size**: the range in centimetres it is drawn from.
-- **XP (first catch)**: the Fisher XP for an average-sized catch, and the one-time bonus the first time you land it. A catch that lives in two places (the Lovely Angel: forest waters and the sky) has two rows, and pays its bonus once for each.
+- **XP (first catch)**: the Fisher XP for an average-sized catch, and the one-time bonus the first time you land it. A catch that lives in several places (the Lovely Angel: forest waters, the sky and the sea of clouds) has a row for each, and pays its bonus once for each.
 
 | Catch | Level | Where | Depth | Chance | Size (cm) | XP (first catch) |
 |---|---|---|---|---|---|---|
-| ![](../icons/forkedtail_killifish.png){ .item-icon }Forked-Tail Killifish | 1 | rivers, beaches, oceans, swamps | 1–64 | 35 % | 4–8 | 10 (50) |
-| ![](../icons/striped_clam.png){ .item-icon }Striped Clam | 1 | beaches, oceans | 1–8 | 30 % | 4–9 | 10 (50) |
-| ![](../icons/fist_crayfish.png){ .item-icon }Fist Crayfish | 6 | rivers, swamps | 2–64 | 30 % | 8–16 | 20 (100) |
-| ![](../icons/cutie_piranha.png){ .item-icon }Cutie Piranha | 8 | jungle, sparse jungle, bamboo jungle, lush caves | 1–32 | 28 % | 15–35 | 24 (120) |
-| ![](../icons/glistening_saury.png){ .item-icon }Glistening Saury | 9 | forests, oceans | 2–64 | 30 % | 25–45 | 26 (130) |
-| ![](../icons/scissor_shrimp.png){ .item-icon }Scissor Shrimp | 10 | rivers, beaches, stony shore, windswept hills | 1–24 | 25 % | 10–30 | 28 (140) |
-| ![](../icons/autumn_leaves_salmon.png){ .item-icon }Autumn Leaves Salmon | 11 | river, frozen river, taigas, cherry grove | 2–32 | 18 % | 45–80 | 30 (150) |
-| ![](../icons/butterflyfish.png){ .item-icon }Butterflyfish | 12 | warm ocean, lukewarm ocean, deep lukewarm ocean | 3–48 | 22 % | 10–20 | 32 (160) |
-| ![](../icons/pumpkin_octopus.png){ .item-icon }Pumpkin Octopus | 14 | beaches, warm ocean, lukewarm ocean | 4–32 | 16 % | 35–70 | 36 (180) |
-| ![](../icons/adventure_fish.png){ .item-icon }Adventure Fish | 16 | rivers, beaches, oceans, lush caves, dripstone caves, mountains | 1–64 | 20 % | 40–90 | 40 (200) |
-| ![](../icons/treasure_pargai.png){ .item-icon }Treasure Pargai | 18 | beaches, forests, warm ocean, lukewarm ocean | 2–48 | 14 % | 12–30 | 44 (220) |
-| ![](../icons/bone_fish.png){ .item-icon }Bone Fish | 20 | desert, warm ocean, lukewarm ocean, deep lukewarm ocean | 1–64 | 12 % | 20–40 | 48 (240) |
-| ![](../icons/smiley_jellyfish.png){ .item-icon }Smiley Jellyfish | 20 | oceans | 8–256 | 10 % | 20–40 | 48 (240) |
-| ![](../icons/balloon_catfish.png){ .item-icon }Balloon Catfish | 22 | warm ocean, lukewarm ocean, deep lukewarm ocean, swamp, mangrove swamp | 6–20 | 8 % | 30–60 | 52 (260) |
-| ![](../icons/lantern_trilobite.png){ .item-icon }Lantern Trilobite | 22 | lush caves, dripstone caves | 1–32 (below y 45) | 35 % | 8–18 | 52 (260) |
-| ![](../icons/guidance_monkfish.png){ .item-icon }Guidance Monkfish | 24 | lush caves, dripstone caves, deep dark | 2–64 (below y 30) | 18 % | 40–90 | 56 (280) |
-| ![](../icons/caltrop_starfish.png){ .item-icon }Caltrop Starfish | 25 | warm ocean, lukewarm ocean, beach, desert | 2–256 | 6 % | 15–30 | 58 (290) |
-| ![](../icons/lovely_angel.png){ .item-icon }Lovely Angel | 26 | forests, cherry grove, river | 2+ | 8 % | 15–30 | 60 (300) |
-| ![](../icons/lovely_angel.png){ .item-icon }Lovely Angel | 26 | anywhere | 1+ (above y 150) | 10 % | 15–30 | 60 (300) |
-| ![](../icons/icefish.png){ .item-icon }Icefish | 27 | frozen river, frozen ocean, deep frozen ocean, snowy plains, snowy taiga, snowy slopes, jagged peaks, frozen peaks, ice spikes | 1–64 | 20 % | 25–50 | 62 (310) |
-| ![](../icons/ice_sunfish.png){ .item-icon }Ice Sunfish | 28 | cold ocean, deep cold ocean, frozen ocean, deep frozen ocean | 10–256 | 8 % | 80–180 | 64 (320) |
-| ![](../icons/shark.png){ .item-icon }Shark | 30 | deep oceans | 16–256 | 5 % | 150–400 | 68 (340) |
-| ![](../icons/missile_manta_ray.png){ .item-icon }Missile Manta Ray | 32 | deep oceans | 20–256 | 6 % | 150–400 | 72 (360) |
-| ![](../icons/hydramandrake.png){ .item-icon }Hydramandrake | 34 | swamp, mangrove swamp | 2–256 | 4 % | 80–200 | 76 (380) |
-| ![](../icons/salamandrake.png){ .item-icon }Salamandrake | 36 | desert, badlands, warm ocean, deep lukewarm ocean | 3–256 | 4 % | 40–90 | 80 (400) |
-| ![](../icons/sky_fish.png){ .item-icon }Sky Fish | 38 | anywhere | 3+ (above y 150) | 8 % | 30–70 | 84 (420) |
-| ![](../icons/lava_flounder.png){ .item-icon }Lava Flounder | 40 | lava | 1–64 | 35 % | 30–70 | 88 (440) |
-| ![](../icons/great_terigius.png){ .item-icon }Great Terigius | 42 | deep cold ocean, deep frozen ocean, deep ocean | 24+ | 3 % | 200–500 | 92 (460) |
-| ![](../icons/giant_sky_fish.png){ .item-icon }Giant Sky Fish | 44 | anywhere | 5+ (above y 150) | 3 % | 150–350 | 96 (480) |
-| ![](../icons/sea_king_scale.png){ .item-icon }Sea King Scale — **summons a Sea King** | 44 | deep oceans | 20–256 | 1 % | — | 200 (1000) |
-| ![](../icons/skull_knight.png){ .item-icon }Skull Knight | 45 | stony shore, windswept hills, windswept gravelly hills, river, dripstone caves | 6–64 (below y 60) | 3.5 % | 20–45 | 98 (490) |
-| ![](../icons/beat_alligator.png){ .item-icon }Beat Alligator | 46 | swamp, mangrove swamp | 3+ | 2.5 % | 250–600 | 100 (500) |
-| ![](../icons/burning_dragon.png){ .item-icon }Burning Dragon | 47 | lava | 2–64 | 12 % | 200–420 | 102 (510) |
-| ![](../icons/sea_king_scale.png){ .item-icon }Sea King Scale — **summons a Sea King** | 47 | deep oceans | 24–256 | 0.7 % | — | 300 (1500) |
-| ![](../icons/aurora_sunfish.png){ .item-icon }Aurora Sunfish | 49 | deep frozen ocean, frozen ocean, deep cold ocean | 12–256 | 2.5 % | 180–330 | 106 (530) |
-| ![](../icons/golden_whale.png){ .item-icon }Golden Whale | 50 | deep oceans | 24–256 | 1.5 % | 800–1400 | 108 (540) |
-| ![](../icons/sea_king_scale.png){ .item-icon }Sea King Scale — **summons a Sea King** | 50 | deep oceans | 28–256 | 0.4 % | — | 450 (2250) |
+| ![](../icons/forkedtail_killifish.png){ .item-icon }Forked-Tail Killifish | 1 | rivers, beaches, oceans, swamps | 1–64 | 35 % | 4–8 | 6 (50) |
+| ![](../icons/striped_clam.png){ .item-icon }Striped Clam | 1 | beaches, oceans | 1–8 | 30 % | 4–9 | 6 (50) |
+| ![](../icons/fist_crayfish.png){ .item-icon }Fist Crayfish | 6 | rivers, swamps | 2–64 | 30 % | 8–16 | 12 (100) |
+| ![](../icons/cutie_piranha.png){ .item-icon }Cutie Piranha | 8 | jungle, sparse jungle, bamboo jungle, lush caves | 1–32 | 28 % | 15–35 | 14 (120) |
+| ![](../icons/glistening_saury.png){ .item-icon }Glistening Saury | 9 | forests, oceans | 2–64 | 30 % | 25–45 | 16 (130) |
+| ![](../icons/scissor_shrimp.png){ .item-icon }Scissor Shrimp | 10 | rivers, beaches, stony shore, windswept hills | 1–24 | 25 % | 10–30 | 17 (140) |
+| ![](../icons/autumn_leaves_salmon.png){ .item-icon }Autumn Leaves Salmon | 11 | river, frozen river, taigas, cherry grove | 2–32 | 18 % | 45–80 | 18 (150) |
+| ![](../icons/butterflyfish.png){ .item-icon }Butterflyfish | 12 | warm ocean, lukewarm ocean, deep lukewarm ocean | 3–48 | 22 % | 10–20 | 19 (160) |
+| ![](../icons/pumpkin_octopus.png){ .item-icon }Pumpkin Octopus | 14 | beaches, warm ocean, lukewarm ocean | 4–32 | 16 % | 35–70 | 22 (180) |
+| ![](../icons/adventure_fish.png){ .item-icon }Adventure Fish | 16 | rivers, beaches, oceans, lush caves, dripstone caves, mountains | 1–64 | 20 % | 40–90 | 24 (200) |
+| ![](../icons/treasure_pargai.png){ .item-icon }Treasure Pargai | 18 | beaches, forests, warm ocean, lukewarm ocean | 2–48 | 14 % | 12–30 | 26 (220) |
+| ![](../icons/bone_fish.png){ .item-icon }Bone Fish | 20 | desert, warm ocean, lukewarm ocean, deep lukewarm ocean | 1–64 | 12 % | 20–40 | 29 (240) |
+| ![](../icons/smiley_jellyfish.png){ .item-icon }Smiley Jellyfish | 20 | oceans | 8–256 | 10 % | 20–40 | 29 (240) |
+| ![](../icons/balloon_catfish.png){ .item-icon }Balloon Catfish | 22 | warm ocean, lukewarm ocean, deep lukewarm ocean, swamp, mangrove swamp | 6–20 | 8 % | 30–60 | 31 (260) |
+| ![](../icons/lantern_trilobite.png){ .item-icon }Lantern Trilobite | 22 | lush caves, dripstone caves | 1–32 (below y 45) | 35 % | 8–18 | 31 (260) |
+| ![](../icons/guidance_monkfish.png){ .item-icon }Guidance Monkfish | 24 | lush caves, dripstone caves, deep dark | 2–64 (below y 30) | 18 % | 40–90 | 34 (280) |
+| ![](../icons/caltrop_starfish.png){ .item-icon }Caltrop Starfish | 25 | warm ocean, lukewarm ocean, beach, desert | 2–256 | 6 % | 15–30 | 35 (290) |
+| ![](../icons/lovely_angel.png){ .item-icon }Lovely Angel | 26 | forests, cherry grove, river | 2+ | 8 % | 15–30 | 36 (300) |
+| ![](../icons/lovely_angel.png){ .item-icon }Lovely Angel | 26 | is cloud sea | 1+ | 15 % | 15–30 | 36 (300) |
+| ![](../icons/lovely_angel.png){ .item-icon }Lovely Angel | 26 | anywhere | 1+ (above y 150) | 10 % | 15–30 | 36 (300) |
+| ![](../icons/icefish.png){ .item-icon }Icefish | 27 | frozen river, frozen ocean, deep frozen ocean, snowy plains, snowy taiga, snowy slopes, jagged peaks, frozen peaks, ice spikes | 1–64 | 20 % | 25–50 | 37 (310) |
+| ![](../icons/ice_sunfish.png){ .item-icon }Ice Sunfish | 28 | cold ocean, deep cold ocean, frozen ocean, deep frozen ocean | 10–256 | 8 % | 80–180 | 38 (320) |
+| ![](../icons/shark.png){ .item-icon }Shark | 30 | deep oceans | 16–256 | 5 % | 150–400 | 41 (340) |
+| ![](../icons/missile_manta_ray.png){ .item-icon }Missile Manta Ray | 32 | deep oceans | 20–256 | 6 % | 150–400 | 43 (360) |
+| ![](../icons/hydramandrake.png){ .item-icon }Hydramandrake | 34 | swamp, mangrove swamp | 2–256 | 4 % | 80–200 | 46 (380) |
+| ![](../icons/salamandrake.png){ .item-icon }Salamandrake | 36 | desert, badlands, warm ocean, deep lukewarm ocean | 3–256 | 4 % | 40–90 | 48 (400) |
+| ![](../icons/sky_fish.png){ .item-icon }Sky Fish | 38 | anywhere | 3+ (above y 150) | 8 % | 30–70 | 50 (420) |
+| ![](../icons/sky_fish.png){ .item-icon }Sky Fish | 38 | is cloud sea | 3+ | 12 % | 30–70 | 50 (420) |
+| ![](../icons/lava_flounder.png){ .item-icon }Lava Flounder | 40 | lava | 1–64 | 35 % | 30–70 | 53 (440) |
+| ![](../icons/great_terigius.png){ .item-icon }Great Terigius | 42 | deep cold ocean, deep frozen ocean, deep ocean | 24+ | 3 % | 200–500 | 55 (460) |
+| ![](../icons/giant_sky_fish.png){ .item-icon }Giant Sky Fish | 44 | anywhere | 5+ (above y 150) | 3 % | 150–350 | 58 (480) |
+| ![](../icons/giant_sky_fish.png){ .item-icon }Giant Sky Fish | 44 | is cloud sea | 5+ | 5 % | 150–350 | 58 (480) |
+| ![](../icons/sea_king_scale.png){ .item-icon }Sea King Scale — **summons a Sea King** | 44 | deep oceans | 20–256 | 1 % | — | 120 (1000) |
+| ![](../icons/skull_knight.png){ .item-icon }Skull Knight | 45 | stony shore, windswept hills, windswept gravelly hills, river, dripstone caves | 6–64 (below y 60) | 3.5 % | 20–45 | 59 (490) |
+| ![](../icons/beat_alligator.png){ .item-icon }Beat Alligator | 46 | swamp, mangrove swamp | 3+ | 2.5 % | 250–600 | 60 (500) |
+| ![](../icons/burning_dragon.png){ .item-icon }Burning Dragon | 47 | lava | 2–64 | 12 % | 200–420 | 61 (510) |
+| ![](../icons/sea_king_scale.png){ .item-icon }Sea King Scale — **summons a Sea King** | 47 | deep oceans | 24–256 | 0.7 % | — | 180 (1500) |
+| ![](../icons/aurora_sunfish.png){ .item-icon }Aurora Sunfish | 49 | deep frozen ocean, frozen ocean, deep cold ocean | 12–256 | 2.5 % | 180–330 | 64 (530) |
+| ![](../icons/golden_whale.png){ .item-icon }Golden Whale | 50 | deep oceans | 24–256 | 1.5 % | 800–1400 | 65 (540) |
+| ![](../icons/sea_king_scale.png){ .item-icon }Sea King Scale — **summons a Sea King** | 50 | deep oceans | 28–256 | 0.4 % | — | 270 (2250) |
 
 Every catch is food, like a raw cod, except two you **open**:
 
 - **Adventure Fish** (level 16), "Use it to empty its pocket": one random item, from bone and string to, rarely, a Heart of the Sea.
 - **Treasure Pargai** (level 18), "Use it to take the pearl out": one random item, from a nautilus shell and prismarine to, rarely, a Heart of the Sea.
 
+### The sky and the sea of clouds
+
 The **sky** catches (the Lovely Angel's second home, the Sky Fish, the Giant Sky Fish) bite in **any water at y 150 or higher**, whatever the biome. The natural place is the **sky lakes**: some of Mine Mine no Mi's sky islands now carry a lake, up to seven blocks deep, dug into their cloud ground.
+
+If you also play with *Mine Mine no Mi: Sky Island*, Skypiea's **sea of clouds** is a fishing ground for the same three fish: the Lovely Angel near the shore (1 block deep or more), the Sky Fish further out (3 or more), the Giant Sky Fish over the deep (5 or more). They bite more often there than in water high up in the air, which still works. Any rod will do, and the Sounding Lead reads the depth of the cloud sea too. Without Sky Island, nothing changes.
+
+### Schools, storms and tournaments
+
+- **A school of fish** passes off a coast or out at sea every few days, for half a day. Cast your line in it and nearly every catch is that fish, bigger than usual, and the bite comes about twice as fast.
+- **A storm at sea**: in it, the rare fish of those waters (the ones with a chance of 15 % or less in the table) bite **three times as often**. A storm does not bring more Sea Kings.
+- **A fishing tournament** is held now and then on the quay of a village that has a port. Bring the judge your best catch of the day's fish: gold, silver or bronze pays ten, six or three times its worth, in Belly and in Fisher XP. Taking the gold earns the title **Golden Hook**, and the biggest catch of the day takes the **Fishing Trophy**, the fish itself mounted on a plaque to hang on a wall.
+
+See Events at sea for [the schools](../events-at-sea.md#a-school-of-fish) and [the storms](../events-at-sea.md#a-storm-at-sea), and [Village events](../village-events.md#a-fishing-tournament) for the tournament.
 
 Fishing junk can also bring up **Iron Scrap** (1–2, half the time, on top of the vanilla junk) and now and then a **Torn Rumor Map** for a treasure hunt (see [Treasure hunts](../treasure-hunts.md)). This works for everyone, with any rod.
 
@@ -192,9 +207,9 @@ Sea Kings are **hooked**; the only other way to meet one is when one **surfaces 
 
 | Sea King | Fisher XP on the hook | First hook bonus | On the kill |
 |---|---|---|---|
-| Sea King | 200 | +1 000 | 900 |
-| Extra-Large Sea King | 300 | +1 500 | 1 400 |
-| Goldfish Sea King | 450 | +2 250 | 2 000 |
+| Sea King | 120 | +1 000 | 900 |
+| Extra-Large Sea King | 180 | +1 500 | 1 400 |
+| Goldfish Sea King | 270 | +2 250 | 2 000 |
 
 The kill XP goes to the player who lands the killing blow (arrows count), if they practise Fisher. The kill also drops 60 vanilla experience.
 

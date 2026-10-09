@@ -17,6 +17,7 @@ You only earn Merchant XP if you practise the Merchant trade (in Crew mode, if i
 | Selling goods to a Cruise merchant (the Sell window) | 1 XP per 10 Belly of the sale (at least 1) |
 | Delivering a merchant's contract | 1 XP per 10 Belly of the reward (at least 1) |
 | One of your lots selling at the Auction House | 1 XP per 10 Belly of its price (at least 1); if you are offline, it is given when you log in or collect |
+| Fetching the takings of your stall in a town's market hall | 1 XP per 10 Belly fetched, as a sale gives |
 | Being the first to open a buried treasure chest | Rumor map 100 XP, Old map 400 XP, Legendary map 1 200 XP |
 
 ## Selling to the travelling merchants
@@ -27,16 +28,29 @@ A Merchant sells to them on better terms:
 
 - from level 1, everything you sell pays **+0.5 % per level**, up to **+25 % at level 50**, where the bonus stops growing;
 - from level 10, the market fills up **half as fast** with what you sell;
-- from level 25, you pay **15 % less** for what you buy from them (a village cured of its [fever](../village-events.md#a-fever-in-the-village) gives 20 % to those who helped: you keep the better of the two, not both);
+- from level 25, you pay **15 % less** for what you buy from them (a village cured of its [fever](../village-events.md#a-fever-in-the-village) gives 20 % to those who helped, and a village under your group's [flag](../village-flags.md) 10 %: you keep the best of them, never more than one);
 - from level 40, a merchant's purse **no longer limits** what he buys from you (your own Belly cap still does).
 
 Who comes where and when, and what each one buys and for how much: see [Merchants and contracts](../merchants-and-contracts.md).
 
+## A stall in a town's market hall
+
+In a [town](../towns.md)'s market hall the five merchants are always there, each at his own stall, with a purse twice as heavy and five contracts instead of three. And a Merchant can **rent a stall** of their own there.
+
+- **Renting.** Speak to the hall's **clerk**, by the way in: a stall costs **2 000 Belly a week**, paid ahead. One stall a town, in as many towns as you like. Only a Merchant can rent.
+- **Stocking.** Lay on its **27 squares** what a Cruise merchant buys: fish, creatures, minerals, materials, dishes.
+- **Selling.** The town's people buy off it every day, whether you are there or not: **8 pieces a day, and one more every 5 Merchant levels** (18 a day at level 50, where it stops growing). Each piece sells for **half as much again** as its merchant gives, with your own price bonus on top (up to ×1.875 at level 50). A day's sale is made when the day ends.
+- **The takings.** Come back to the clerk to fetch them. They pay Merchant XP as any sale does.
+- **The lease.** You can pay a week more once a week or less is left. A stall you do not pay for again is given back: what is still on it and what it took in wait for you with the clerk.
+- A town that is closed to you closes your stall for as long: nothing sells, nothing is lost, and the rent runs on.
+
+Two goods that Mine Mine no Mi's own traders sell, Lapis Lazuli and Sea King Meat, never fetch more on a stall than those traders' lowest price.
+
 ## Contracts
 
-Every merchant arrives with three contracts for goods of his own trade. They pay 1.5 to 1.8 times what he would pay over the counter, not out of his purse, and your price bonus raises the reward too.
+Every merchant arrives with three contracts for goods of his own trade (five in a town's market hall, new each day). They pay 1.5 to 1.8 times what he would pay over the counter, not out of his purse, and your price bonus raises the reward too.
 
-From **level 10**, merchants also show you **the third contract**, the one they keep for Merchants: it always pays the top premium (×1.8), and half the time adds a Torn Old Map. See [Merchants and contracts](../merchants-and-contracts.md).
+From **level 10**, merchants also show you **the last contract**, the one they keep for Merchants: it always pays the top premium (×1.8), and half the time adds a Torn Old Map. See [Merchants and contracts](../merchants-and-contracts.md).
 
 ## The Auction House
 

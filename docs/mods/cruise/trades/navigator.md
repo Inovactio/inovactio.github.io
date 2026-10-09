@@ -11,7 +11,7 @@ tags:
 
 # Navigator
 
-The Navigator learns by **discovering places**: every chunk they have never been in, and every new land and new kind of place in their Log Book. At their bench, the **Chart Table**, they make the tools that find the way: the Log Pose, the Barometer, the Sea Chart and the Eternal Pose. At the helm, they make the Carpenter's boats go a little faster.
+The Navigator learns by **discovering places**: every chunk they have never been in, and every new land and new kind of place in their Log Book. At their bench, the **Chart Table**, they make the tools that find the way: the Log Pose, the Sounding Lead, the Barometer, the Sea Chart and the Eternal Pose. At the helm, they make the Carpenter's boats go a little faster.
 
 | | |
 |---|---|
@@ -29,13 +29,14 @@ Made at a crafting table from paper, a compass and planks (any kind):
 | Planks | Planks | Planks |
 | Planks | | Planks |
 
-It faces you when placed and is mined with an axe. The Navigator's four recipes are made there.
+It faces you when placed and is mined with an axe. The Navigator's five recipes are made there.
 
 ## Charting recipes
 
 | Makes | Level | XP | Ingredients |
 |---|---|---|---|
 | ![](../icons/log_pose.png){ .item-icon }Log Pose | 1 | 12 | Compass, Glass Pane, Leather, Gold Nugget |
+| ![](../icons/sounding_lead.png){ .item-icon }Sounding Lead | 10 | 30 | Iron Ingot, 3 × String |
 | ![](../icons/barometer.png){ .item-icon }Barometer | 20 | 50 | Glass Bottle, 2 × Copper Ingot, ![](../icons/tempest_mouse.png){ .item-icon }Tempest Mouse, Redstone Dust |
 | ![](../icons/sea_chart.png){ .item-icon }Sea Chart | 30 | 70 | 2 × Paper, Compass, ![](../icons/pumpkin_octopus.png){ .item-icon }Pumpkin Octopus |
 | ![](../icons/eternal_pose.png){ .item-icon }Eternal Pose | 50 | 110 | ![](../icons/log_pose.png){ .item-icon }Log Pose, ![](../icons/lens.png){ .item-icon }Lens, ![](../icons/magnet.png){ .item-icon }Magnet, 2 × Gold Ingot |
@@ -51,7 +52,7 @@ Open it with the **Log Book** button on the Navigator's page of the professions 
 - **Lands**: every Overworld biome you stand in (+25 Navigator XP for each new one).
 - **Places**: every kind of structure you stand in or come within 8 blocks of, from vanilla, Mine Mine no Mi and other mods, except buried treasure (+50 Navigator XP for each new one).
 
-The book also keeps the **names of the [villages](../villages.md)** you have been to.
+The book also keeps the **names of the [villages](../villages.md)** you have been to, and lists a [town](../towns.md) as one. Minecraft's own villages no longer generate, so they are no longer among the places to find.
 
 Each tenth of a section you complete pays Belly to anyone, and XP to a Navigator: from 500 Belly and 50 XP at 10 % up to 100 000 Belly and 6 000 XP at 100 %. See [Bestiary and Log Book](../bestiary-and-logbook.md).
 
@@ -77,6 +78,16 @@ Each tenth of a section you complete pays Belly to anyone, and XP to a Navigator
 
 Deserts, Swamps, Plains, Snowy lands and Mushroom Fields also include other mods' biomes of the same kind.
 
+## Level 10: the Sounding Lead
+
+The **Sounding Lead** is a lead on its line, made at the Chart Table from an Iron Ingot and three String.
+
+- **Use** it over water, from the shore or from a boat, and it tells you how deep the water is: "The lead sounds N blocks deep".
+- It sounds the water you look at; failing that, the water under you or under your boat.
+- Fish bite by depth, and the lead counts it as the fishing does: the crew's [Fisher](fisher.md) will want one.
+- It reads the depth of Sky Island's sea of clouds too, but not lava.
+- Only a Navigator makes it; **anyone can use it**.
+
 ## Level 20: the Barometer
 
 ![](../icons/barometer.png){ .item-icon }The **Barometer** (does not stack) tells anyone who uses it what the weather will do, in real minutes:
@@ -89,6 +100,14 @@ Deserts, Swamps, Plains, Snowy lands and Mushroom Fields also include other mods
 
 Where there is no sky (the Nether, the End) the needle does not move. It only forecasts the weather; it does not change it.
 
+It also foretells a **storm at sea**. Half a day before one breaks, the Barometer says which way it is brewing, about how far, and in how many minutes it breaks: the Navigator knows before anyone. While it rages, the Barometer says when it will pass:
+
+- "A storm is brewing at sea to the *west*, about N blocks away - it breaks in about N minutes"
+- "A storm rages at sea to the *west*, about N blocks away - it passes in about N minutes"
+- "You are in the storm - it passes in about N minutes"
+
+See [Events at sea](../events-at-sea.md#a-storm-at-sea) for the storm itself.
+
 ## Level 30: the Sea Chart
 
 ![](../icons/sea_chart.png){ .item-icon }The **Sea Chart** (stacks to 16) is a blank chart.
@@ -96,7 +115,7 @@ Where there is no sky (the Nether, the End) the needle does not move. It only fo
 - **Use** it to pick the next kind of place your level opens; use it **crouching** to draw it.
 - It becomes a map ("Sea Chart: Villages") with the nearest such place marked: ocean monuments and woodland mansions with their vanilla icons, the rest with an X. It searches up to 1 600 blocks around.
 - Like a cartographer's map, a chart never leads to a place already charted in the world.
-- The **Villages** kind leads to Cruise's own [villages](../villages.md) first, the nearest not yet charted and still lived in, and to one of Minecraft's villages when there is none in reach. The chart takes a few seconds to draw; the game does not stop meanwhile.
+- The **Villages** kind leads to Cruise's own [villages](../villages.md) first, the nearest not yet charted and still lived in, and to one of Minecraft's villages when there is none in reach (in a world that still has them). A chart drawn to a [town](../towns.md) is named for it: "Sea Chart: Town". The chart takes a few seconds to draw; the game does not stop meanwhile.
 - Drawing uses one blank chart, gives **20 Navigator XP**, and has a 3-second cooldown.
 - Only a Navigator can draw one; anyone can read, sell or give the drawn map.
 
@@ -132,7 +151,7 @@ From level 10, the Carpenter's boats you steer go 1 % faster, on any water; from
 | A new kind of place in the Log Book | 50 |
 | Drawing a Sea Chart | 20 |
 | Calibrating an Eternal Pose | 40 |
-| Chart Table recipes | 12 / 50 / 70 / 110 |
+| Chart Table recipes | 12 / 30 / 50 / 70 / 110 |
 | Each tenth of a Log Book section | 50 up to 6 000 |
 
 ## Level perks
@@ -145,4 +164,4 @@ From level 10, the Carpenter's boats you steer go 1 % faster, on any water; from
 
 ## Advancements
 
-The **Navigation** tab opens at Navigator level 1: **Navigation** (become a Navigator), **Apprentice Navigator** (level 5), **Which Way?** (make a Log Pose), **Storm Warning** (make a Barometer), **Charting the Seas** (make a Sea Chart), **A Way Home** (make an Eternal Pose), **The Whole World** (every land in the Log Book) and **Every Port of Call** (every kind of place in the Log Book).
+The **Navigation** tab opens at Navigator level 1: **Navigation** (become a Navigator), **Apprentice Navigator** (level 5), **Which Way?** (make a Log Pose), **By the Mark** (make a Sounding Lead), **Storm Warning** (make a Barometer), **Charting the Seas** (make a Sea Chart), **A Way Home** (make an Eternal Pose), **The Whole World** (every land in the Log Book) and **Every Port of Call** (every kind of place in the Log Book).

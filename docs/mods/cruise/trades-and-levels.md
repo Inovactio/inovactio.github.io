@@ -43,6 +43,8 @@ Every trade uses the same curve: going from one level to the next costs **20 × 
 | 75 | 4 341 | 144 942 |
 | 100 | 6 246 | 277 937 |
 
+Every trade climbs at about the same pace: from level 1 to 50, a trade takes about **fifteen hours of work**, whichever it is. What the work of the Fisher, the Hunter, the Miner and the Farmer pays is set for that; the tables on their pages show what is really paid.
+
 A server can change each trade's curve and set an XP multiplier: see [Configuration](configuration.md).
 
 ### Where the XP comes from
@@ -51,8 +53,8 @@ A server can change each trade's curve and set an XP multiplier: see [Configurat
 |---|---|
 | **Makers** (every workstation) | every recipe: **10 + 2 × its level** (12 XP for a level-1 recipe, 70 at level 30, 110 at level 50); the one exception is the Carpenter's Auction House (level 15, 36 XP) |
 | **Fisher** | every Cruise catch (more for a bigger one), a bonus for the first of each kind, every Sea King hooked and every Sea King killed |
-| **Hunter** | every creature caught (a rare variant pays more), a bonus for the first of each kind, the Tannery's recipes |
-| **Farmer** | every ripe crop harvested (5 + the crop's level), every fruit picked (4 + the tree's level) |
+| **Hunter** | every creature caught (a rare variant pays more), a bonus for the first of each kind, the Tannery's recipes; from level 30, every beast of Mine Mine no Mi hunted with a weapon, with a bonus for the first of each kind |
+| **Farmer** | every ripe crop harvested (half of 5 + the crop's level), every fruit picked (half of 4 + the tree's level); a Fine or Superb harvest pays more, a plant far under your level pays less |
 | **Miner** | breaking ores with the right pickaxe, every find that turns up in the rock, the Masonry's recipes |
 | **Lumberjack** | every log felled from a standing, naturally grown tree (1 for ordinary wood, 2 for a fruit tree, 3 Kuuigosu, 4 Burning Tree, 6 Adam), 1 for planting a sapling; placed logs pay nothing |
 | **Merchant** | 1 XP for every 10 Belly of sales to Cruise's merchants or at the Auction House; every treasure dug up (100, 400 or 1 200 by the map's grade) |
@@ -65,6 +67,7 @@ The [Bestiary and Log Book](bestiary-and-logbook.md) also pay each time you comp
 
 - Most Cruise **dishes** give an *Appetite* for 10 minutes: +15 %, +30 % or +45 % XP in one trade (the harder the dish, the bigger the boost). Only one Appetite at a time. See the [Cook](trades/cook.md).
 - The Musician's ***Craftsman's Song*** gives +5 %, +10 % or +20 % XP in **every** trade (tiers I, II, III), on top of a meal's Appetite. See the [Musician](trades/musician.md).
+- A night in a town's inn leaves you **Rested**: +10 % XP in **every** trade until the next dusk, on top of a meal's Appetite. See [Towns](towns.md).
 
 ## The professions book
 
@@ -72,7 +75,19 @@ The trades appear in the professions screen, drawn as Mine Mine no Mi's open boo
 
 - On the Fisher's and Hunter's pages, a **Bestiary** button opens the Bestiary.
 - On the Navigator's page, a **Log Book** button opens the Log Book.
+- On every trade's page, a **Guide** plank opens the Cruise Guide at that trade's chapter.
 - The Farmer's bonus harvest and the Merchant's price and auction bonuses show their **current** values, so they grow as you level.
+
+## The Cruise Guide
+
+The **Cruise Guide** is a book that says where to start. Every player is handed one, once, the next time they come into the world.
+
+- Its first pages list the chapters: one for each of the fourteen trades, and others on getting started, Solo and Crew, trade, the collections, the villages and what happens out in the world.
+- Open a chapter and its sections are listed on the left page (for a trade: what it is, how to start, what pays, what comes later). The one you click is told on the right page, with the bench's recipe drawn where there is one.
+- It opens again where you closed it.
+- If you lose it, a Book and a sheet of Paper make another at a crafting table.
+
+A server can choose not to hand the guide out (`guide` in `inocruise-common.toml`, see [Configuration](configuration.md)).
 
 ## Solo or Crew
 
@@ -128,13 +143,15 @@ Every trade gives a **title** at levels **25, 50, 75 and 100**, the last one a n
 
 Reaching level 100 in a trade is also a challenge advancement, named after its title.
 
+Two more titles are won out in the world: **Golden Ladle**, for taking the gold at the floating restaurant's cooking contest (see the [Cook](trades/cook.md#the-cooking-contest)), and **Golden Hook**, for taking the gold at a fishing tournament (see the [Fisher](trades/fisher.md#schools-storms-and-tournaments)).
+
 ## Perks
 
-Every trade has **three to six perks**, most at **levels 10, 25 and 40** (the Tailor has one more at 30; the Farmer and the Merchant also have perks that grow from level 1). Each trade's page lists them. A perk only works in a trade you practise.
+Every trade has **three to six perks**, most at **levels 10, 25 and 40** (the Tailor and the Farmer have one more at 30; the Farmer and the Merchant also have perks that grow from level 1). Each trade's page lists them. A perk only works in a trade you practise.
 
 ## Advancements
 
-Cruise has **199 advancements** on **15 tabs**: a main tab and one per trade.
+Cruise has **200 advancements** on **15 tabs**: a main tab and one per trade.
 
 - Each trade's tab opens at **level 1** in that trade and holds one level milestone, **Apprentice** (Apprentice Fisher, Apprentice Cook…) at level 5. Everything else is about doing things: a recipe made, a species caught, a dish eaten, a tree felled.
 - Each trade's tab also holds one **challenge for level 100**, named after the trade's top title (Chef of the Baratie, Soul King...).

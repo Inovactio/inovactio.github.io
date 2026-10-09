@@ -1,6 +1,6 @@
 # Cook
 
-The Cook turns the other trades' harvest into the islands' dishes at the **Kitchen**. A dish feeds you and also gives buffs: extra XP in one trade, more Doriki from fights, slower hunger, and a little Doriki of its own. The fish in a dish decide its **quality**, and a skilled Cook makes every meal's buffs last longer.
+The Cook turns the other trades' harvest into the islands' dishes at the **Kitchen**. A dish feeds you and also gives buffs: extra XP in one trade, more Doriki from fights, slower hunger, and a little Doriki of its own. The fish and the produce in a dish decide its **quality**, and a skilled Cook makes every meal's buffs last longer.
 
 | | |
 |---|---|
@@ -29,11 +29,13 @@ The Kitchen makes the game's 28 dishes and one extra, the ![](../icons/hardtack_
 
 ## Dish quality: Normal, Fine, Superb
 
-The fish in a dish decide its quality at the moment you cook it:
+The fish and the produce in a dish decide its quality at the moment you cook it:
 
 - Each fish you catch has a size, which sits somewhere in its species' size range, from the smallest (0 %) to the biggest (100 %). The dish takes the average over all the fish in it.
 - An average of **50 % or more** makes a **Fine** dish (green in the tooltip). **80 % or more** makes a **Superb** dish (gold). Anything lower is Normal.
-- A dish with no measured fish in it (fruit, eggs, crops, creatures) is always **Normal**, unless a Cook perk upgrades it (see [Level perks](#level-perks)).
+- A dish counts the quality of its **produce** as it counts the size of its fish. The [Farmer](farmer.md#harvests-of-quality)'s crops and fruit come out plain, Fine or Superb: in the average, a plain one counts for 25 %, a Fine one for 65 % and a Superb one for 90 %. So a salad can be Superb too, but three plain herbs and one Superb one do not make a Superb salad.
+- A dish is **never worse than its fish alone would make it**: plain produce beside a huge fish takes nothing away.
+- A dish with no measured fish and no produce in it (eggs, creatures) is always **Normal**, unless a Cook perk upgrades it (see [Level perks](#level-perks)).
 
 What quality changes when you eat the dish:
 
@@ -115,7 +117,7 @@ Hunger and durations are for a Normal dish without Chef's touch; every buff last
 
 | Level | Perk | What it does |
 |---|---|---|
-| 10 | "10% chance a dish comes out one quality higher" | at the Kitchen, a dish comes out **one quality higher** 10 % of the time (Normal becomes Fine, Fine becomes Superb); this works on dishes with no fish too |
+| 10 | "10% chance a dish comes out one quality higher" | at the Kitchen, a dish comes out **one quality higher** 10 % of the time (Normal becomes Fine, Fine becomes Superb); this works on dishes with no fish and no produce too |
 | 25 | "Your dishes' buffs last 25% longer" | every dish you cook at the Kitchen keeps its buffs **25 % longer**; its tooltip says "Chef's touch: buffs last 25% longer". This stacks with quality: a Superb dish with Chef's touch gives buffs for 10 minutes × 1.5 × 1.25 = 18:45 |
 | 40 | "25% chance a dish comes out one quality higher" | the quality upgrade chance becomes **25 %** (it replaces the level 10 perk's 10 %) |
 
@@ -158,6 +160,20 @@ Every Kitchen recipe, with the Cook level that unlocks it and the XP it pays:
 ## Selling
 
 The **Travelling Cook** buys every cooked dish and sells the basic ones (up to Cook level 15). A Fine dish fetches 25 % more, a Superb one 50 % more. See [Merchants and contracts](../merchants-and-contracts.md).
+
+The floating restaurant's **head waiter** buys your dishes for a fifth more than the Travelling Cook does.
+
+## The cooking contest
+
+Every nine to thirteen days a restaurant ship drops anchor near a player for a day, and its head chef holds a **cooking contest**. See [Events at sea](../events-at-sea.md#the-floating-restaurant) for the restaurant itself.
+
+- Each visit the chef cooks a dish of his own, named in the news: **its recipe's level is the score to beat**.
+- Right-click him with your best dish in hand. A dish scores **its recipe's level**, **five more if it is Fine**, **ten more if it is Superb**.
+- Reach the chef's score and you take the **gold**; within ten of it the **silver**, within twenty the **bronze**.
+- The chef keeps the dish and pays at once: 2.5, 2 or 1.5 times its price in Belly, Cook XP, and four, two or one rare ingredients. A dish that takes no medal is simply paid for.
+- One dish each visit, and only a Cook may enter, with a dish of a level they could cook themselves.
+
+Taking the gold earns the title **Golden Ladle**.
 
 ## Advancements
 

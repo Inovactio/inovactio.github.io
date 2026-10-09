@@ -23,17 +23,17 @@ This table gives the XP each block pays when broken:
 
 | Breaking | XP |
 |---|---|
-| any coal ores | 2 |
-| any copper ores | 2 |
-| Nether Quartz Ore | 2 |
-| any iron ores | 4 |
-| any redstone ores | 4 |
-| any gold ores | 6 |
-| any lapis ores | 6 |
-| Kairoseki Ore, Deepslate Kairoseki Ore | 10 |
-| any diamond ores | 12 |
-| any emerald ores | 12 |
-| Ancient Debris | 20 |
+| any coal ores | 7 |
+| any copper ores | 7 |
+| Nether Quartz Ore | 7 |
+| any iron ores | 14 |
+| any redstone ores | 14 |
+| any gold ores | 21 |
+| any lapis ores | 21 |
+| Kairoseki Ore, Deepslate Kairoseki Ore | 35 |
+| any diamond ores | 42 |
+| any emerald ores | 42 |
+| Ancient Debris | 70 |
 
 ## Finds in the rock
 
@@ -47,21 +47,22 @@ This table lists every find, the block it comes from, its chance, the Miner leve
 
 | Breaking | Can turn up | Chance | Level | XP |
 |---|---|---|---|---|
-| Explosive Rock | ![](../icons/explosive_rock_fragment.png){ .item-icon }Explosive Rock Fragment | 100 % | 5 | 6 |
-| any diamond ores | ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment | 30 % | 5 | 4 |
-| Axe Dial, Breath Dial, Eisen Dial, Flame Dial, Flash Dial, Impact Dial, Milky Dial, Reject Dial | ![](../icons/dial_fragment.png){ .item-icon }Dial Fragment | 100 % | 10 | 10 |
-| Calcite | ![](../icons/marble.png){ .item-icon }Marble | 8 % | 10 | 6 |
-| Diorite | ![](../icons/marble.png){ .item-icon }Marble | 4 % | 10 | 6 |
-| Kairoseki Ore, Deepslate Kairoseki Ore | Kairoseki | 25 % | 15 | 4 |
-| any iron ores | ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap | 12 % | 18 | 8 |
-| any iron ores | ![](../icons/pure_iron_ore.png){ .item-icon }Pure Iron Ore | 10 % | 25 | 8 |
-| any coal ores | ![](../icons/explosive_rock_fragment.png){ .item-icon }Explosive Rock Fragment | 8 % | 28 | 10 |
-| Deepslate | ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment | 0.4 % | 35 | 15 |
-| Deepslate, Tuff | ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts | 0.3 % | 38 | 16 |
-| Kairoseki Ore, Deepslate Kairoseki Ore | Dense Kairoseki | 10 % | 42 | 20 |
-| any iron ores | ![](../icons/pure_iron_ore.png){ .item-icon }Pure Iron Ore | 15 % | 45 | 8 |
-| Ancient Debris | Netherite Scrap | 25 % | 46 | 25 |
-| Deepslate, Tuff | Kairoseki | 0.15 % | 50 | 30 |
+| Explosive Rock | ![](../icons/explosive_rock_fragment.png){ .item-icon }Explosive Rock Fragment | 100 % | 5 | 21 |
+| any diamond ores | ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment | 30 % | 5 | 14 |
+| Axe Dial, Breath Dial, Eisen Dial, Flame Dial, Flash Dial, Impact Dial, Milky Dial, Reject Dial | ![](../icons/dial_fragment.png){ .item-icon }Dial Fragment | 100 % | 10 | 35 |
+| Calcite | ![](../icons/marble.png){ .item-icon }Marble | 8 % | 10 | 21 |
+| Diorite | ![](../icons/marble.png){ .item-icon }Marble | 4 % | 10 | 21 |
+| Kairoseki Ore, Deepslate Kairoseki Ore | Kairoseki | 25 % | 15 | 14 |
+| any iron ores | ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap | 12 % | 18 | 28 |
+| any iron ores | ![](../icons/pure_iron_ore.png){ .item-icon }Pure Iron Ore | 10 % | 25 | 28 |
+| any coal ores | ![](../icons/explosive_rock_fragment.png){ .item-icon }Explosive Rock Fragment | 8 % | 28 | 35 |
+| Deepslate | ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment | 0.4 % | 35 | 53 |
+| Deepslate, Tuff | ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts | 0.3 % | 38 | 56 |
+| Kairoseki Ore, Deepslate Kairoseki Ore | Dense Kairoseki | 10 % | 42 | 70 |
+| any iron ores | ![](../icons/pure_iron_ore.png){ .item-icon }Pure Iron Ore | 15 % | 45 | 28 |
+| Ancient Debris | Netherite Scrap | 25 % | 46 | 88 |
+| Deepslate, Tuff | Kairoseki | 0.15 % | 50 | 105 |
+| Star Core | ![](../icons/star_fragment.png){ .item-icon }Star Fragment | 100 % | 50 | 210 |
 
 Two finds are worth a closer look:
 
@@ -82,6 +83,14 @@ From **Miner 10**, breaking one of Mine Mine no Mi's dials (Axe, Breath, Eisen, 
 ### Marble
 
 There is no marble ore: **Marble** only comes from breaking **Calcite** (8 %) and **Diorite** (4 %), from Miner 10.
+
+### The Star Core
+
+Now and then a star falls in the wild and lies on the ground for one day: a shell of dark rock around a core of Kairoseki ore, with a few diamond, gold and emerald ores and a **Star Core** at its heart. A Miner gets the usual XP and finds from its ores. See [Events at sea](../events-at-sea.md#a-falling-star).
+
+- The Star Core holds one **Star Fragment**, found nowhere else.
+- Only a **Miner of level 50** can take it, with a **diamond pickaxe or better**. Nobody else can break the Star Core, so nobody can waste it.
+- The Star Fragment is kept for the master crafts of the highest levels, which are still to come. Until then the Prospector buys it for **15 000 Belly**, more than anything else he takes (see [Merchants and contracts](../merchants-and-contracts.md)).
 
 ## The Enhanced Pick-axe
 

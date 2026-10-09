@@ -9,15 +9,15 @@ tags:
 
 # Hunter
 
-The Hunter catches the islands' small creatures (beetles, butterflies, frogs, lizards, fireflies, even a phoenix) with a bug net or a trap, keeps them as items along with whatever they carry, and turns them into leather, bait, lures and trophies at the **Tannery**.
+The Hunter catches the islands' small creatures (beetles, butterflies, frogs, lizards, fireflies, even a phoenix) with a bug net or a trap, keeps them as items along with whatever they carry, and turns them into leather, bait, lures and trophies at the **Tannery**. From level 30 the Hunter also hunts the beasts of Mine Mine no Mi, with a weapon.
 
 | | |
 |---|---|
 | Workstation | ![](../block-models/tannery.png){ .block-mini }**Tannery** |
 | Tools | ![](../icons/bug_catcher_net.png){ .item-icon }**Bug Catcher Net** (anyone crafts it); the Enhanced Bug Catcher Net and the traps are made by the [Inventor](inventor.md) |
-| Levels | 1 to 100; new creatures up to level 40, Tannery recipes up to level 46 |
+| Levels | 1 to 100; new creatures up to level 40, Tannery recipes up to level 46, big game from level 30 to 50 |
 
-Hunter XP comes from every creature caught, a bonus for the first of each species, the Tannery's recipes and the Bestiary (see [Bestiary and Log Book](../bestiary-and-logbook.md)).
+Hunter XP comes from every creature caught, a bonus for the first of each species, every beast hunted from level 30, the Tannery's recipes and the Bestiary (see [Bestiary and Log Book](../bestiary-and-logbook.md)).
 
 ## Your first net
 
@@ -66,7 +66,7 @@ The Enhanced Bug Catcher Net is made by the [Inventor](inventor.md) at the Works
 
 ## Hunter XP and first captures
 
-Only a Hunter earns Hunter XP (in Solo mode, that is everyone). Each species pays a fixed amount of XP per catch, and **the first time you catch a species you get a bonus of four times its XP**. A first Hercules Beetle gives 14 + 56 XP; after that, 14 per catch.
+Only a Hunter earns Hunter XP (in Solo mode, that is everyone). Each species pays a fixed amount of XP per catch, and **the first time you catch a species you get a one-time bonus**, about five times what a catch pays. A first Hercules Beetle gives 11 + 56 XP; after that, 11 per catch.
 
 In Crew mode, a player of another trade can still catch the level-1 creatures. They earn no XP, and their first-capture bonus is kept for the day they take up the trade. Their catches still fill the Bestiary.
 
@@ -77,7 +77,7 @@ Two creatures have a rare look, and each comes as its own item:
 - ![](../icons/golden_hercules.png){ .item-icon }**Golden Hercules**: 1 Hercules Beetle in 20 is born golden; near a Hunter of level 25 or more, 1 in 10. It also carries more Sweet Sap (2 to 3 instead of 1 to 2).
 - **Invisible Swallowtail**: 1 Swallowtail Butterfly in 20; near a Hunter of level 25 or more, 1 in 10.
 
-A rare variant pays **three times** its species' XP. It shares the first-capture bonus with its normal form, and has its own page in the Bestiary.
+A rare variant pays **three times** its species' XP (34 for a Golden Hercules, where a Hercules Beetle pays 11). It shares the first-capture bonus with its normal form, and has its own page in the Bestiary.
 
 ## Releasing a creature
 
@@ -196,41 +196,74 @@ How to read the table:
 - **Level**: the Hunter level you need to catch it, by net or by trap. The Hunter's page in the professions book lists each creature under "Catch" at that level.
 - **Where**: the biome groups it lives in (all swamps, all forests…), with any condition such as outside, at night, underground or a height. For a creature that comes from traps, a "(traps)" part says where the trap must stand.
 - **How**: net, trap or both.
-- **XP (first catch)**: the Hunter XP per catch, and the one-time bonus the first time you catch the species (always four times the XP).
+- **XP (first catch)**: the Hunter XP per catch, and the one-time bonus the first time you catch the species (about five times what a catch pays).
 
 | Creature | Level | Where | How | XP (first catch) |
 |---|---|---|---|---|
-| ![](../icons/doctor_hornet.png){ .item-icon }Doctor Hornet | 1 | flowery biomes | net | 14 (56) |
-| ![](../icons/hercules_beetle.png){ .item-icon }Hercules Beetle | 1 | jungles, forests | net | 14 (56) |
-| ![](../icons/mole.png){ .item-icon }Mole | 1 | burrowing grounds | net | 14 (56) |
-| ![](../icons/seagull.png){ .item-icon }Seagull | 1 | beaches, stony shore (below y 100); beaches, oceans, rivers, stony shore (traps) | net, trap | 14 (56) |
-| ![](../icons/swallowtail_butterfly.png){ .item-icon }Swallowtail Butterfly | 1 | plains, sunflower plains, meadow, flower forest, cherry grove, forest, birch forest (traps) | trap | 14 (56) |
-| ![](../icons/tempest_mouse.png){ .item-icon }Tempest Mouse | 1 | plains, sunflower plains, meadow, forests, taigas, savannas (traps) | trap | 14 (56) |
-| ![](../icons/tree_frog.png){ .item-icon }Tree Frog | 6 | forests, rivers | net | 24 (96) |
-| ![](../icons/clawed_scorpion.png){ .item-icon }Clawed Scorpion | 8 | desert, badlands | net | 28 (112) |
-| ![](../icons/rock_lizard.png){ .item-icon }Rock Lizard | 8 | desert, badlands | net | 28 (112) |
-| ![](../icons/umbrella_frog.png){ .item-icon }Umbrella Frog | 8 | jungles, rivers | net | 28 (112) |
-| ![](../icons/jungle_lizard.png){ .item-icon }Jungle Lizard | 10 | jungles | net | 32 (128) |
-| ![](../icons/lantern_firefly.png){ .item-icon }Lantern Firefly | 10 | rivers, swamps, forests (at night) | net | 32 (128) |
-| ![](../icons/oil_stain_frog.png){ .item-icon }Oil Stain Frog | 12 | anywhere (underground, below y 45) | net | 36 (144) |
-| ![](../icons/red_eyed_spotted_frog.png){ .item-icon }Red-Eyed Spotted Frog | 12 | swamps | net | 36 (144) |
-| ![](../icons/hidden_forest_bee.png){ .item-icon }Hidden Forest Bee | 14 | jungles | net | 40 (160) |
-| ![](../icons/horned_icicle_lizard.png){ .item-icon }Horned Icicle Lizard | 14 | snowy biomes, frozen peaks, jagged peaks, snowy slopes | net | 40 (160) |
-| ![](../icons/lightbulb_firefly.png){ .item-icon }Lightbulb Firefly | 14 | anywhere (underground, below y 45) | net | 40 (160) |
-| ![](../icons/fire_hercules.png){ .item-icon }Fire Hercules | 15 | desert, badlands | net | 42 (168) |
-| ![](../icons/atlas_beetle.png){ .item-icon }Atlas Beetle | 16 | forests | net | 44 (176) |
-| ![](../icons/ice_stag_beetle.png){ .item-icon }Ice Miyama Stag Beetle | 16 | snowy taiga, grove, old growth pine taiga | net | 44 (176) |
-| ![](../icons/purple_poison_frog.png){ .item-icon }Purple Poison Frog | 16 | anywhere (underground, below y 45) | net | 44 (176) |
-| ![](../icons/crossbone_butterfly.png){ .item-icon }Crossbone Butterfly | 18 | swamps | net | 48 (192) |
-| ![](../icons/doze_evil_eye_butterfly.png){ .item-icon }Doze Evil Eye Butterfly | 18 | anywhere (underground, below y 45) | net | 48 (192) |
-| ![](../icons/flying_penguin.png){ .item-icon }Flying Penguin | 20 | frozen ocean, deep frozen ocean, snowy beach, ice spikes (below y 120) | net | 52 (208) |
-| ![](../icons/giant_devil_hand_moth.png){ .item-icon }Giant Devil Hand Moth | 20 | swamps | net | 52 (208) |
-| ![](../icons/a_class_toad.png){ .item-icon }A Class Toad | 22 | snowy biomes, frozen peaks, jagged peaks, snowy slopes | net | 56 (224) |
-| ![](../icons/thunder_spider.png){ .item-icon }Thunder Spider | 22 | mountains (above y 130) | Enhanced Bug Catcher Net | 56 (224) |
-| ![](../icons/antlion_lacewing.png){ .item-icon }Antlion Lacewing | 24 | desert, badlands (traps) | trap (enhanced) | 60 (240) |
-| ![](../icons/lightning_beetle.png){ .item-icon }Lightning Beetle | 25 | forests | Enhanced Bug Catcher Net | 62 (248) |
-| ![](../icons/spirit_firefly.png){ .item-icon }Spirit Firefly | 30 | swamps (at night) | Enhanced Bug Catcher Net | 72 (288) |
-| ![](../icons/rainbow_phoenix.png){ .item-icon }Rainbow Phoenix | 40 | meadow, cherry grove | net | 92 (368) |
+| ![](../icons/doctor_hornet.png){ .item-icon }Doctor Hornet | 1 | flowery biomes | net | 11 (56) |
+| ![](../icons/hercules_beetle.png){ .item-icon }Hercules Beetle | 1 | jungles, forests | net | 11 (56) |
+| ![](../icons/mole.png){ .item-icon }Mole | 1 | burrowing grounds | net | 11 (56) |
+| ![](../icons/seagull.png){ .item-icon }Seagull | 1 | beaches, stony shore (below y 100); beaches, oceans, rivers, stony shore (traps) | net, trap | 11 (56) |
+| ![](../icons/swallowtail_butterfly.png){ .item-icon }Swallowtail Butterfly | 1 | plains, sunflower plains, meadow, flower forest, cherry grove, forest, birch forest (traps) | trap | 11 (56) |
+| ![](../icons/tempest_mouse.png){ .item-icon }Tempest Mouse | 1 | plains, sunflower plains, meadow, forests, taigas, savannas (traps) | trap | 11 (56) |
+| ![](../icons/tree_frog.png){ .item-icon }Tree Frog | 6 | forests, rivers | net | 19 (96) |
+| ![](../icons/clawed_scorpion.png){ .item-icon }Clawed Scorpion | 8 | desert, badlands | net | 22 (112) |
+| ![](../icons/rock_lizard.png){ .item-icon }Rock Lizard | 8 | desert, badlands | net | 22 (112) |
+| ![](../icons/umbrella_frog.png){ .item-icon }Umbrella Frog | 8 | jungles, rivers | net | 22 (112) |
+| ![](../icons/jungle_lizard.png){ .item-icon }Jungle Lizard | 10 | jungles | net | 26 (128) |
+| ![](../icons/lantern_firefly.png){ .item-icon }Lantern Firefly | 10 | rivers, swamps, forests (at night) | net | 26 (128) |
+| ![](../icons/oil_stain_frog.png){ .item-icon }Oil Stain Frog | 12 | anywhere (underground, below y 45) | net | 29 (144) |
+| ![](../icons/red_eyed_spotted_frog.png){ .item-icon }Red-Eyed Spotted Frog | 12 | swamps | net | 29 (144) |
+| ![](../icons/hidden_forest_bee.png){ .item-icon }Hidden Forest Bee | 14 | jungles | net | 32 (160) |
+| ![](../icons/horned_icicle_lizard.png){ .item-icon }Horned Icicle Lizard | 14 | snowy biomes, frozen peaks, jagged peaks, snowy slopes | net | 32 (160) |
+| ![](../icons/lightbulb_firefly.png){ .item-icon }Lightbulb Firefly | 14 | anywhere (underground, below y 45) | net | 32 (160) |
+| ![](../icons/fire_hercules.png){ .item-icon }Fire Hercules | 15 | desert, badlands | net | 34 (168) |
+| ![](../icons/atlas_beetle.png){ .item-icon }Atlas Beetle | 16 | forests | net | 35 (176) |
+| ![](../icons/ice_stag_beetle.png){ .item-icon }Ice Miyama Stag Beetle | 16 | snowy taiga, grove, old growth pine taiga | net | 35 (176) |
+| ![](../icons/purple_poison_frog.png){ .item-icon }Purple Poison Frog | 16 | anywhere (underground, below y 45) | net | 35 (176) |
+| ![](../icons/crossbone_butterfly.png){ .item-icon }Crossbone Butterfly | 18 | swamps | net | 38 (192) |
+| ![](../icons/doze_evil_eye_butterfly.png){ .item-icon }Doze Evil Eye Butterfly | 18 | anywhere (underground, below y 45) | net | 38 (192) |
+| ![](../icons/flying_penguin.png){ .item-icon }Flying Penguin | 20 | frozen ocean, deep frozen ocean, snowy beach, ice spikes (below y 120) | net | 42 (208) |
+| ![](../icons/giant_devil_hand_moth.png){ .item-icon }Giant Devil Hand Moth | 20 | swamps | net | 42 (208) |
+| ![](../icons/a_class_toad.png){ .item-icon }A Class Toad | 22 | snowy biomes, frozen peaks, jagged peaks, snowy slopes | net | 45 (224) |
+| ![](../icons/thunder_spider.png){ .item-icon }Thunder Spider | 22 | mountains (above y 130) | Enhanced Bug Catcher Net | 45 (224) |
+| ![](../icons/antlion_lacewing.png){ .item-icon }Antlion Lacewing | 24 | desert, badlands (traps) | trap (enhanced) | 48 (240) |
+| ![](../icons/lightning_beetle.png){ .item-icon }Lightning Beetle | 25 | forests | Enhanced Bug Catcher Net | 50 (248) |
+| ![](../icons/spirit_firefly.png){ .item-icon }Spirit Firefly | 30 | swamps (at night) | Enhanced Bug Catcher Net | 58 (288) |
+| ![](../icons/rainbow_phoenix.png){ .item-icon }Rainbow Phoenix | 40 | meadow, cherry grove | net | 74 (368) |
+
+### Migrations
+
+Every few days, one of the creatures that have a rare variant settles in numbers where it lives, for one day: the Hercules Beetle, the Atlas Beetle, the Ice Miyama Stag Beetle, the Lightning Beetle, the Fire Hercules or the Swallowtail Butterfly, which is otherwise only ever met in a trap. One in five of them is the rare one, instead of one in twenty. See [Events at sea](../events-at-sea.md#a-creature-migration).
+
+## Big game
+
+From **Hunter 30**, a Hunter hunts the beasts of Mine Mine no Mi **with a weapon**: fourteen of them, one or two new ones every few levels up to 50.
+
+- The **killing blow** pays Hunter XP, with a large one-time bonus the first time you hunt each beast.
+- The beast is written in the **Beasts** tab of the Bestiary, which says where each one lives and has its own rewards (see [Bestiary and Log Book](../bestiary-and-logbook.md)).
+- A **tamed** beast, a **young** one or one out of a **spawner** does not count.
+- A Hunter under the beast's level earns nothing from the kill and is told the level it takes. A player of another trade earns nothing either.
+- The beasts drop nothing more than they do in Mine Mine no Mi.
+
+| Beast | Hunter level | XP (first hunt) |
+|---|---|---|
+| Den Den Mushi | 30 | 24 (120) |
+| Super Spot-Billed Duck | 30 | 40 (200) |
+| Flying Fish | 32 | 48 (240) |
+| White Walkie | 33 | 56 (280) |
+| Boxing Dugong | 35 | 72 (360) |
+| Wrestling Dugong | 36 | 72 (360) |
+| Kung Fu Dugong | 37 | 80 (400) |
+| Bananawani | 38 | 88 (440) |
+| Fighting Fish | 40 | 96 (480) |
+| Blugori | 41 | 96 (480) |
+| Lapahn | 42 | 104 (520) |
+| Blagori | 44 | 112 (560) |
+| Humandrill | 47 | 136 (680) |
+| Legendary Master Dugong | 50 | 176 (880) |
+
+As in the creatures' table, the first number is what each hunt pays and the one in brackets is the one-time bonus.
 
 ## The Tannery
 
