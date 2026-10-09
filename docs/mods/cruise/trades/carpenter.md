@@ -15,12 +15,14 @@ Every Shipyard recipe asks for a Carpenter level and pays Carpenter XP. The firs
 
 There are **16 boats**: four hulls (Reinforced, Kuuigosu, Burning Tree, Adam) in four shapes (Boat, Longboat, Cargo Boat, Fishing Boat).
 
-- **Reinforced** hulls (Carpenter 5 to 15) are built from any planks and iron.
+- **Reinforced** hulls (Carpenter 1 to 13) are built from any planks and iron: the Boat at level 1, the Fishing Boat at 4, the Cargo Boat at 7 and the Longboat at 13.
 - **Kuuigosu** hulls (Carpenter 20 to 30) are the quick ones.
 - **Burning Tree** hulls (Carpenter 36 to 40) are fireproof.
 - **Adam** hulls (Carpenter 50) take the most blows.
 
 How the hulls and shapes behave, and how to ride, mend and salvage the boats: see [Boats](../boats.md).
+
+**In a storm at sea** a Carpenter's boat is slower, and a weak hull takes a blow from the waves now and then. The Burning Tree and the Adam hulls take none, and **Iron Plating** shields the others; a plain boat ends up breaking. See [Events at sea](../events-at-sea.md#a-storm-at-sea).
 
 ## Lockers
 
@@ -47,11 +49,11 @@ These are all the Shipyard's recipes ("planks" means any planks):
 | Makes | Level | XP | Ingredients |
 |---|---|---|---|
 | ![](../icons/reinforced_boat.png){ .item-icon }Reinforced Boat | 1 | 12 | 5 × any planks, 2 × Iron Ingot, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap |
-| ![](../icons/reinforced_fishing_boat.png){ .item-icon }Reinforced Fishing Boat | 8 | 26 | 5 × any planks, 2 × Iron Ingot, ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, Chest |
+| ![](../icons/reinforced_fishing_boat.png){ .item-icon }Reinforced Fishing Boat | 4 | 18 | 5 × any planks, 2 × Iron Ingot, ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, Chest |
+| ![](../icons/reinforced_cargo_boat.png){ .item-icon }Reinforced Cargo Boat | 7 | 24 | 5 × any planks, 2 × Iron Ingot, 2 × Chest |
 | ![](../block-models/ships-locker.png){ .block-mini }Ship's Locker | 10 | 30 | 6 × any planks, Chest, 2 × Iron Ingot |
-| ![](../icons/reinforced_cargo_boat.png){ .item-icon }Reinforced Cargo Boat | 12 | 34 | 5 × any planks, 2 × Iron Ingot, 2 × Chest |
+| ![](../icons/reinforced_longboat.png){ .item-icon }Reinforced Longboat | 13 | 36 | 7 × any planks, 2 × Iron Ingot |
 | ![](../block-models/auction-house.png){ .block-mini }Auction House | 15 | 36 | 6 × any planks, Book, 2 × Gold Ingot |
-| ![](../icons/reinforced_longboat.png){ .item-icon }Reinforced Longboat | 15 | 40 | 7 × any planks, 2 × Iron Ingot |
 | ![](../icons/kuuigosu_boat.png){ .item-icon }Kuuigosu Boat | 20 | 50 | 6 × ![](../block-models/kuuigosu-planks.png){ .block-mini }Kuuigosu Planks, 3 × Iron Ingot |
 | ![](../block-models/reinforced-locker.png){ .block-mini }Reinforced Locker | 22 | 54 | 6 × any planks, Chest, 4 × Iron Ingot, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap |
 | ![](../icons/kuuigosu_fishing_boat.png){ .item-icon }Kuuigosu Fishing Boat | 23 | 56 | 6 × ![](../block-models/kuuigosu-planks.png){ .block-mini }Kuuigosu Planks, 2 × Iron Ingot, Chest |

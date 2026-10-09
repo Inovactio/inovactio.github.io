@@ -6,8 +6,7 @@
 
 | | |
 |---|---|
-| Latest version | **0.4.0** (beta) |
-| Version documented | **0.3.1** (beta): these pages are being brought up to 0.4.0, whose [changelog](changelog.md#v0-4-0) tells all that is new |
+| Version documented | **0.4.0** (beta) |
 | Mod id | `inocruise` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.4.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9109571) · [changelog](changelog.md) |
 
@@ -24,7 +23,7 @@
 Client **and** server.
 
 !!! note "A beta"
-    Everything is playable, but numbers - how often the [village events](village-events.md) and the [events at sea](events-at-sea.md) come, what they carry and pay - may still move with the players' feedback.
+    Everything is playable, but numbers - how often the [village events](village-events.md) and the [events out in the world](events-at-sea.md) come, what they carry and pay - may still move with the players' feedback.
 
 ## Solo or Crew
 
@@ -38,8 +37,8 @@ The mode is AkumaLib's setting, in the world's `serverconfig/akumalib-server.tom
 | Trade | Workstation | What it does |
 |---|---|---|
 | **[Fisher](trades/fisher.md)** | - | 37 fish with their sizes, by biome and depth, down to the lava. Better rods. The **Sea Kings**. |
-| **[Hunter](trades/hunter.md)** | Tannery | Some thirty creatures, caught with the net or in traps. Leather, bait, lures. |
-| **[Farmer](trades/farmer.md)** | - | Seven fruit trees, plantations, golden orchards in the sky. |
+| **[Hunter](trades/hunter.md)** | Tannery | Some thirty creatures, caught with the net or in traps, and from level 30 the base mod's big game. Leather, bait, lures. |
+| **[Farmer](trades/farmer.md)** | - | Seven fruit trees, plantations, golden orchards in the sky, harvests of quality. |
 | **[Cook](trades/cook.md)** | Kitchen | The game's 29 dishes, in three qualities, each with a meal buff. |
 | **[Inventor](trades/inventor.md)** | Workshop | Reels, sieves, nets, traps and their parts, dials, the Clima-Tacts, instruments. |
 | **[Chemist](trades/chemist.md)** | Laboratory | Remedies, powders and battle balls, up to the Rumble Ball. |
@@ -48,24 +47,26 @@ The mode is AkumaLib's setting, in the world's `serverconfig/akumalib-server.tom
 | **[Carpenter](trades/carpenter.md)** | Shipyard | Boats of four hulls and four shapes, hull parts, lockers, the Auction House. |
 | **[Blacksmith](trades/blacksmith.md)** | Forge | The base mod's weapons nobody could make, up to Brook's Soul Solid. |
 | **[Tailor](trades/tailor.md)** | Sewing Table | A hundred hats, capes and masks, every character outfit, the boats' sails. |
-| **[Merchant](trades/merchant.md)** | - | Better prices, contracts, the Auction House, treasure hunts. |
-| **[Navigator](trades/navigator.md)** | Chart Table | Log Pose, Barometer, Sea Charts, the Eternal Pose, a log book of the world. |
+| **[Merchant](trades/merchant.md)** | - | Better prices, contracts, the Auction House, treasure hunts, a stall in a town's market hall. |
+| **[Navigator](trades/navigator.md)** | Chart Table | Log Pose, Barometer, Sounding Lead, Sea Charts, the Eternal Pose, a log book of the world. |
 | **[Musician](trades/musician.md)** | Music Stand | Scores played on a flute, a violin, a guitar or a grand piano, to buff the whole crew. |
 
-Every trade levels from 1 to 100, with **perks** along the way and a **title** at levels 25, 50, 75 and 100. Its page in the profession book (**K**) shows what each level unlocks. How levels, XP, Solo and Crew work: [Trades and levels](trades-and-levels.md). A server can make any trade level faster or slower: see [Configuration](configuration.md).
+A **Cruise Guide**, a book handed to every player, says where to start and has a chapter for each trade. Every trade levels from 1 to 100, with **perks** along the way and a **title** at levels 25, 50, 75 and 100. Its page in the profession book (**K**) shows what each level unlocks. How levels, XP, Solo and Crew work: [Trades and levels](trades-and-levels.md). A server can make any trade level faster or slower: see [Configuration](configuration.md).
 
 ## Across the trades
 
-- **[Villages](villages.md)**: One Piece villages in the plains and on the coasts, with a market square, a tavern, workshops and a port, people who have their day there, a notice board with five small orders every morning, and Marines. Strike a villager and the village closes to you; kill them all and it dies.
-- **[Village events](village-events.md)**: a concert on the square, a fever to cure with the Chemist's remedies, a swordsmith from Wano who forges the base mod's named blades. Announced in the chat and sold as rumours by the barkeepers.
-- **Five [merchants](merchants-and-contracts.md)** come to the villages' market squares and to the wild - the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader - and buy what the trades make, for Belly. Each brings **contracts** that pay above the market.
+- **[Villages](villages.md)**: One Piece villages in five lands - plains, desert, snowy plains, savanna and taiga - each in its land's look, with a market square, a tavern, workshops, a town hall and a port, people who have their day there, and a notice board with five small orders every morning and the news. Marines, a pirate crew or the Revolutionaries keep some of them. Strike a villager and the village closes to you; break it and it mends itself; kill its people and it dies.
+- **[Towns](towns.md)**: one place in four is a walled town, with its guards, a market hall where the merchants always are, an inn that lets rooms and a warehouse that buys in bulk.
+- **[A village under your flag](village-flags.md)**: a crew, the Marines or the Revolutionaries win a village by trust, by fear or by force, collect its rent, and keep it against raids - and, on a server, against other players.
+- **[Village events](village-events.md)**: a concert on the square, a fever to cure with the Chemist's remedies, a swordsmith from Wano who forges the base mod's named blades, a fishing tournament on the quay. Announced in the chat, told on the notice boards and sold as rumours by the barkeepers.
+- **Five [merchants](merchants-and-contracts.md)** come to the villages' market squares, keep the towns' market halls and roam the wild - the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader - and buy what the trades make, for Belly. Each brings **contracts** that pay above the market.
 - **The [Auction House](auction-house.md)**: one market for the whole server.
 - **[Treasure hunts](treasure-hunts.md)**: torn maps in chests, in fishing junk and on the merchants' stalls. A Merchant deciphers them; the X leads to a chest, and now and then to a Devil Fruit box.
 - **The [Bestiary and the Log Book](bestiary-and-logbook.md)**: every fish, creature, land and place you find, with rewards as you fill them.
 - **[Boats](boats.md)** of four hulls and four shapes, built by the Carpenter and rigged by the Tailor.
 - **[Blocks](blocks.md)**: the benches, the lockers, the marble and the nine woods, in 3D.
-- **[Events at sea](events-at-sea.md)**: a merchant ship of one of five houses, guarded by its crew; a Sea King that surfaces off the coast; wrecks adrift, the best of them circled by a Sea King. Announced in the chat and sold as rumours by the barkeepers.
-- **199 advancements**, a tab per trade, and Jack of All Trades for whoever reaches level 5 in all fourteen.
+- **[Events out in the world](events-at-sea.md)**: at sea, a merchant ship of one of five houses, a floating restaurant and its cooking contest, a Sea King that surfaces off the coast, wrecks adrift, a ship in distress to rebuild, a ghost ship in the fog, storms, schools of fish; on land, creature migrations and falling stars. Announced in the chat, told on the notice boards and sold as rumours by the barkeepers.
+- **200 advancements**, a tab per trade, and Jack of All Trades for whoever reaches level 5 in all fourteen.
 
 !!! note "Some of the base mod's recipes move to the trades"
     Its weapons (Jitte, Mace, Pipe, Scissors, Cannon, bullets, handcuffs) are made by the **Blacksmith**, the Clima-Tacts by the **Inventor**, the Umbrella, Medic Bag and Flag by the **Tailor**. A server can put them back on the crafting table: see [Configuration](configuration.md).

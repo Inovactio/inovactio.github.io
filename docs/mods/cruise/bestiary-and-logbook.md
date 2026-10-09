@@ -1,10 +1,10 @@
 # Bestiary and Log Book
 
-Cruise keeps two records of what you have found: the **Bestiary**, with every fish and creature you have caught, and the Navigator's **Log Book**, with every land and place you have visited. Both pay Belly, and trade XP, each time you fill a further tenth of them.
+Cruise keeps two records of what you have found: the **Bestiary**, with every fish and creature you have caught and every beast you have hunted, and the Navigator's **Log Book**, with every land and place you have visited. Both pay Belly, and trade XP, each time you fill a further tenth of them.
 
 | | |
 |---|---|
-| Bestiary | two tabs, **Fish** and **Creatures**; opened from the [Fisher](trades/fisher.md)'s or the [Hunter](trades/hunter.md)'s page |
+| Bestiary | three tabs, **Fish**, **Creatures** and **Beasts**; opened from the [Fisher](trades/fisher.md)'s or the [Hunter](trades/hunter.md)'s page |
 | Log Book | two sections, **Lands** and **Places**; opened from the [Navigator](trades/navigator.md)'s page |
 | Rewards | ten tiers per tab or section, up to 100 000 Belly and 6 000 XP |
 
@@ -14,11 +14,11 @@ There is no Bestiary item and no key of its own. Open your professions book (the
 
 ## The Bestiary
 
-The Bestiary is an open book with two tabs, **Fish** and **Creatures**.
+The Bestiary is an open book with three tabs: **Fish**, **Creatures** and **Beasts**, the big game a [Hunter](trades/hunter.md#big-game) hunts with a weapon from level 30.
 
 ### The left page
 
-- "N / M caught" for the current tab.
+- "N / M caught" for the current tab ("N / M hunted" for the Beasts).
 - A completion bar with a notch at each of its ten tiers. A notch turns gold once its tier is paid.
 - Hover the bar to see every tier and its reward: paid ones in green, the next in white, the rest in grey.
 - Below the bar, a grid of every species of that kind, 36 to a page (scroll or use the arrows):
@@ -34,7 +34,7 @@ Click a species to show it here:
 - its picture, drawn larger;
 - its name ("???" if not caught yet);
 - the level it takes, e.g. "Hunter level 22";
-- "Caught: N", or "Not caught yet". A species caught before the Bestiary existed in your world says "Caught before the bestiary";
+- "Caught: N", or "Not caught yet" ("Hunted: N" and "Not hunted yet" for a beast). A species caught before the Bestiary existed in your world says "Caught before the bestiary";
 - for a fish, its **record size**, the biggest you have landed: "Record: 42.0 cm";
 - **Where it lives**: its habitats. A creature that needs the Enhanced Bug Catcher Net says "Only with: Enhanced Bug Catcher Net". The habitats show even for a shadow, so the book tells you where to go looking.
 
@@ -45,12 +45,13 @@ Click a species to show it here:
 - Each rare variant has its own page: the **Golden Hercules** and the **Invisible Swallowtail**.
 - A released creature caught again doesn't count.
 - The **Creatures** tab has **33 pages**: the 31 species plus the 2 rare variants. The **Fish** tab lists every fish the Fishmonger buys; the Sea Kings are not in it.
+- The **Beasts** tab has **14 pages**, one for each beast of Mine Mine no Mi a Hunter hunts. A page fills when a Hunter of the beast's level deals it the killing blow; a tamed beast, a young one or one out of a spawner does not count. Each page says where the beast lives.
 
 The Bestiary is kept with your character and survives death.
 
 ## Completion rewards
 
-Every tenth of a tab caught pays **Belly** to anyone, plus **XP in that tab's trade** if you practise it: Fisher XP for fish, Hunter XP for creatures.
+Every tenth of a tab caught pays **Belly** to anyone, plus **XP in that tab's trade** if you practise it: Fisher XP for fish, Hunter XP for creatures and for beasts. Each tab has its own ten tiers; the 14 beasts fill theirs at 2, 3, 5, 6, 7, 9, 10, 12, 13 and 14 hunted.
 
 | Tier | Belly | Trade XP | Creatures needed (of 33) |
 |---|---|---|---|
@@ -74,8 +75,8 @@ See [Trades and levels](trades-and-levels.md) for what the XP is worth.
 The Log Book belongs to the [Navigator](trades/navigator.md) and opens from the Navigator's page. It has two sections, **Lands** and **Places**:
 
 - **Lands**: every Overworld biome you have stood in.
-- **Places**: every kind of structure you have stood in, or come within 8 blocks of. Buried treasure isn't counted.
+- **Places**: every kind of structure you have stood in, or come within 8 blocks of. Buried treasure isn't counted. Minecraft's own villages no longer generate, so they are no longer among the places to find, unless the server brings them back (`withVanillaVillages`, see [Configuration](configuration.md)).
 
-The book also keeps the names of the [villages](villages.md) you have been to.
+The book also keeps the names of the [villages](villages.md) you have been to; a [town](towns.md) is listed as one, "*name* (town)".
 
 Each section has its own bar and the same ten tiers as the Bestiary: Belly to anyone, plus **Navigator XP** if you practise the trade. Anyone's Log Book fills, but only a Navigator earns XP from it: besides the tiers, 25 XP for each new biome and 50 XP for each new kind of place. The Navigator's page covers it in full.

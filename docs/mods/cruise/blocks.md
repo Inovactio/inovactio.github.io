@@ -70,8 +70,16 @@ Two blocks of the [villages](villages.md) can be taken and put down elsewhere.
 
 | Block | What it is |
 |---|---|
-| ![](block-models/notice-board.png){ .block-icon } **Notice Board** | the board of a village's market square: a right click shows the day's five orders of the village it stands in. Carried out of a village, it shows none. |
-| **Chimney Cap** | the cap of a chimney, a brick slab to the eye, from which smoke rises: steady by day, thin in the dead of night. Every chimney of a village has one; take it and your own house smokes too. |
+| ![](block-models/notice-board.png){ .block-icon } **Notice Board** | the board of a village's market square: a right click shows the day's five orders of the village it stands in, and the news of what is happening nearby. Carried out of a village, it shows none. |
+| **Chimney Cap** | the cap of a chimney, a brick slab to the eye, from which smoke rises: steady by day, thin in the dead of night. Every chimney of a village has one, of brick, stone, sandstone or terracotta by the land it stands in; take it and your own house smokes too. |
+
+## Out in the world
+
+What a [falling star](events-at-sea.md#a-falling-star) leaves behind.
+
+| Block | What it is |
+|---|---|
+| ![](block-models/star-core.png){ .block-icon } **Star Core** | the heart of a fallen star: a Miner of level 50 breaks it, with a diamond pickaxe or better, for its Star Fragment. Nobody else can break it. |
 
 ## Grand pianos
 

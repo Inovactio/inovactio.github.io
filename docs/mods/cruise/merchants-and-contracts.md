@@ -18,7 +18,7 @@ Five **travelling merchants** visit the Overworld, each buying the goods of one 
 
 | | |
 |---|---|
-| Where | the Overworld: villages, where they set up at the stalls of the market square, and the wild under the open sky |
+| Where | the Overworld: villages, where they set up at the stalls of the market square, towns, where they keep the market hall for good, and the wild under the open sky |
 | How often | each merchant gets a try every 5 minutes (by default) |
 | Currency | Belly |
 
@@ -77,11 +77,23 @@ All prices on this page are in Belly.
 - He appears on solid ground, 12-31 blocks from the player (on each axis) in a village, 16-32 blocks away in the wild.
 - In one of Cruise's own [villages](villages.md) he sets up **at a stall of the market square** and stays there; the Fishmonger takes the quay when the village has a port, and whoever finds every stall taken stands in the open by the well. He does not come to a dead village, and does not trade with a player the village is closed to.
 
+### In a town's market hall
+
+A town (see [Towns](towns.md)) has a covered market hall, and there the five merchants do not come and go: the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader each keep a stall under the hall, and are **always there**.
+
+- They carry a purse **twice as heavy** as elsewhere.
+- They post **five contracts** where the others post three; the last one is still the one kept for Merchants.
+- Their goods, their contracts and their purse are **new each day**.
+- An [Auction House](auction-house.md) stands by the hall's way in, open to all.
+- The hall's clerk lets a stall to any [Merchant](trades/merchant.md#a-stall-in-a-towns-market-hall): 2 000 Belly a week, and the town's people buy off it day after day.
+
+In a village the merchants come and go as before.
+
 In the `merchants` section, a server can change how often they try (`tryEveryTicks`) and, for each merchant, whether he comes to villages and to the wild, and how likely (`inVillages`, `villageChance`, `inTheWild`, `wildChance`). See [Configuration](configuration.md).
 
 ## His purse
 
-Each merchant arrives with a purse of **5 000 to 100 000 Belly** (the Travelling Cook **20 000 to 250 000**). He does not buy what he cannot pay for. The purse refills all at once at the start of the next in-game day (sleeping through the night counts), not bit by bit. From Merchant level 40 his purse no longer limits what he buys from you.
+Each merchant arrives with a purse of **5 000 to 100 000 Belly** (the Travelling Cook **20 000 to 250 000**). He does not buy what he cannot pay for. A merchant of a town's market hall carries twice as much. The purse refills all at once at the start of the next in-game day (sleeping through the night counts), not bit by bit. From Merchant level 40 his purse no longer limits what he buys from you.
 
 ## Selling
 
@@ -102,13 +114,13 @@ Besides his fixed goods, each merchant brings a **stall** of his trade's goods, 
 - the commonest good is there 85 % of the time, the rarest 4 %, the rest in between;
 - a common good comes several at once (up to 8), a rare one alone;
 - stall prices are **3 times** what he would pay, give or take 10 %;
-- the stall does not restock.
+- the stall does not restock, except in a town's market hall, where it is laid out anew each day.
 
 Something bought from a stall is a plain item: a fish has no size (it sells back at the average price), a dish has no quality.
 
 Every merchant may also bring **torn treasure maps**: a Torn Rumor Map 35 % of the time (600), a Torn Old Map 12 % (3 000), a Torn Legendary Map 3 % (15 000). See [Treasure hunts](treasure-hunts.md).
 
-A Merchant of level 25 pays 15 % less for everything they buy from a Cruise merchant (the Buy screen still shows the full price, but they are charged less).
+A Merchant of level 25 pays 15 % less for everything they buy from a Cruise merchant (the Buy screen still shows the full price, but they are charged less). A village under your group's flag gives **10 % off at its stalls** (see [Village flags](village-flags.md)). Discounts are never added together: you get the best one alone.
 
 ## What they pay
 
@@ -192,28 +204,33 @@ A creature bought and released gives no Hunter XP or capture loot when caught ag
 | Mysterious Parts | 226 | 610-746 | 13 % |
 | Netherite Scrap | 6 000 | 16 200-19 800 | 4 % |
 
+He also buys the **Star Fragment**, from the heart of a fallen star, for **15 000**: more than anything else he takes. It is never on his stall and never in a contract. See the [Miner](trades/miner.md#the-star-core).
+
 ### Materials Trader
+
+A crop or a fruit reaped **Fine** pays ×1.25, **Superb** ×1.5, as a dish does (see the [Farmer](trades/farmer.md#harvests-of-quality)). The table gives the price of plain produce.
 
 | Good | Pays | Stall price | On stall | Where it comes from |
 |---|---|---|---|---|
 | Bitter Grass, Red Fruit, Blue Fruit | 3 | 8-10 | 85 % | crops and fruit ([Farmer](trades/farmer.md) level 1) |
-| Medicinal Herb, Brown Fruit, Horrific Pear | 4 | 11-13 | 62 % | crops and fruit |
+| Medicinal Herb, Brown Fruit | 4 | 11-13 | 62 % | crops and fruit |
 | Ancient Rice | 5 | 14-17 | 50 % | crop |
 | Coconut | 7 | 19-23 | 41 % | palm fruit |
 | Mystery Egg, Sweet Sap, Nectar | 10 | 27-33 | 30 % | capture of a Seagull, a Hercules Beetle, a Doctor Hornet (in that order) |
 | Rubber Fruit | 12 | 32-40 | 27 % | fruit |
-| Cactus Pulp | 14 | 38-46 | 24 % | crop |
-| Lotus Seed | 23 | 62-76 | 17 % | crop |
 | Mystery Mushroom | 38 | 103-125 | 13 % | crop |
-| Cactus Flower | 47 | 127-155 | 11 % | rare harvest of Cactus Pulp |
+| Horrific Pear | 45 | 122-149 | 11 % | fruit (Farmer level 20) |
 | Flame Powder | 52 | 140-172 | 10 % | capture of a Fire Hercules |
 | Wilted Carrot | 54 | 146-178 | 10 % | crop |
+| Cactus Pulp | 78 | 211-257 | 8 % | crop (Farmer level 22) |
 | Ice Powder | 121 | 327-399 | 7 % | capture of an Ice Miyama Stag Beetle |
 | Sleep Honey | 128 | 346-422 | 6 % | capture of a Hidden Forest Bee |
 | Golden Egg | 200 | 540-660 | 5 % | capture of a Seagull (1 in 20) |
+| Lotus Seed | 246 | 664-812 | 4 % | crop (Farmer level 28) |
 | Thunder Powder | 253 | 683-835 | 4 % | capture of a Lightning Beetle |
+| Cactus Flower | 260 | 702-858 | 4 % | rare harvest of Cactus Pulp; sown at Farmer level 45 |
 | Golden Fruit | 300 | 810-990 | 4 % | fruit (Farmer level 30) |
-| Golden Matsutake | 380 | 1 026-1 254 | 4 % | rare harvest of Mystery Mushrooms |
+| Golden Matsutake | 300 | 810-990 | 4 % | rare harvest of Mystery Mushrooms; sown at Farmer level 35 |
 
 ### Travelling Cook
 
@@ -248,23 +265,23 @@ A dish is worth the higher of two prices: its place on the Cook's scale (from 20
 | Sky Island Lunch (46) | 34 880 | 43 600 | 52 320 | - |
 | Meat-Lover's Delight (47) | 38 909 | 48 636 | 58 364 | - |
 | Dinosaur Steak (48) | 44 918 | 56 148 | 67 377 | - |
-| Roasted Meat Festival (49) | 104 118 | 130 148 | 156 177 | - |
+| Roasted Meat Festival (49) | 103 518 | 129 398 | 155 277 | - |
 | Pirate's Lunch (50) | 60 000 | 75 000 | 90 000 | - |
 
 ## Contracts
 
-Every merchant arrives with **three contracts**: orders for goods of **his own trade**. The Fishmonger orders fish, the Prospector minerals, the Travelling Cook any dish (feasts included, not only the basic ones). To see them, open his Sell window and press the **Contracts** button at the top right.
+Every merchant arrives with **three contracts** (**five** in a town's market hall): orders for goods of **his own trade**. The Fishmonger orders fish, the Prospector minerals, the Travelling Cook any dish (feasts included, not only the basic ones). To see them, open his Sell window and press the **Contracts** button at the top right.
 
-- Each contract asks for a number of one good ("3 x Fire Hercules"). The rarer the good, the less often it is ordered and the fewer are asked for (up to 8 of a common good). The three contracts are for three different goods.
+- Each contract asks for a number of one good ("3 x Fire Hercules"). The rarer the good, the less often it is ordered and the fewer are asked for (up to 8 of a common good). A merchant's contracts are all for different goods.
 - **Reward**: 1.5 to 1.8 times what he would pay for the goods, paid **in full** and **not out of his purse**, with no drop for a filling market. A Merchant's price bonus raises it (up to +25 %).
 - **Treasure maps**: a public contract adds a **Torn Rumor Map** to its reward 20 % of the time ("Pays … Belly + a map").
-- **The third contract is kept for Merchants** of level 10 and up. It always pays the top premium (×1.8), and adds a **Torn Old Map** 50 % of the time. Other players see "One more, kept for Merchants (level 10)".
+- **The last contract is kept for Merchants** of level 10 and up (the third; the fifth in a market hall). It always pays the top premium (×1.8), and adds a **Torn Old Map** 50 % of the time. Other players see "One more, kept for Merchants (level 10)".
 
 ### Delivering
 
 The **Deliver** button is active when you carry enough. The goods are taken from anywhere in your inventory, **the least valuable first**: a Superb dish or a record fish is kept when a plain one will do. You are paid first; if you cannot hold that much Belly, the delivery fails and you keep your goods.
 
-**First come, first served**: once a player delivers a contract, it is gone for everyone. A merchant does not post new contracts while he stays; the next merchant brings new ones.
+**First come, first served**: once a player delivers a contract, it is gone for everyone. A merchant does not post new contracts while he stays; the next merchant brings new ones. In a town's market hall, the merchants post new contracts each day.
 
 Delivering pays a Merchant 1 XP per 10 Belly of the reward, and unlocks the **A Deal Is a Deal** advancement.
 
