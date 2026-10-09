@@ -4,7 +4,7 @@ Every Sky Island release for Minecraft 1.20.1, newest first, as published on [Cu
 
 ## 0.4.0 (beta) { #v0-4-0 }
 
-<small>Released 2026-10-09 · [Download](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/all)</small>
+<small>Released 2026-10-09 · [Download](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/9109508)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>Enel's world.</strong> The Upper Yards get their altars and the great Sacrificial Altar on its lake, the four Ordeals of God's priests and the Sanctuary of God with its divine soldiers; and a third kind of island appears in the sky, <strong>Birka</strong>, Enel's homeland - in ruins round its crater, or, rarely, a whole town with its people, its merchant and its craftsman of dials. Finds are rarer on the Upper Yards, and a slowdown of the whole server is fixed.</p>
