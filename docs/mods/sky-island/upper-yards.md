@@ -27,11 +27,11 @@ A little over half of the Upper Yards hold the ruins of **Shandora**, sometimes 
 
 | Where | What it may hold |
 |---|---|
-| The halls | gold, common dials, extols; a box in about one chest in seven |
-| The temple's altar | gold, diamonds, emeralds, rare dials; a box in six chests in ten |
-| **The crypt** | **the treasure**: gold, diamonds, netherite, very rare items, a heavy extol pouch — **one box** a chest, golden four times in ten |
+| The halls | gold, common dials, extols; a box in one chest of fifty, never a golden one |
+| The temple's altar | gold, diamonds, emeralds, rare dials; a box in one chest of ten |
+| **The crypt** | **the treasure**: gold, diamonds, netherite, very rare items, a heavy extol pouch — a box in four chests of ten, golden one time in five |
 
-A whole city gives about four boxes, one of them golden. The walls are inlaid with **gilded stone bricks**; the gold itself is in the crypt.
+A whole city gives about one box, and a golden one in about one city of six. The walls are inlaid with **gilded stone bricks**; the gold itself is in the crypt.
 
 **Small ruins of Shandora** lie in the jungle too, one to three per Upper Yard: a forgotten altar, a colonnade, a fallen house, a sacred well.
 
@@ -99,6 +99,35 @@ The spear and the bazooka have a 3D model of their own: turn them (drag), zoom (
 **The hidden village**: the Shandias' own village, in a **pocket of cloud on the sea at the island's foot**, its only opening facing the sea. Six tipis round a square, the **statue of Kalgara**, totems along the path, and the chief by the fire.
 
 There is **a chest in every tipi**: weapons, war dials, gold and emeralds, an extol pouch, food and arrows — and now and then a Wooden or an Iron Box.
+
+## Sacrificial altars
+
+**Two or three altars** stand in clearings of an Upper Yard's jungle: a small court of stone, a table of offerings between two urns of Vearth, two braziers and a gate. A few gilded slabs leave each altar towards the next: **a trail** that ends at the City of Gold — or at the Giant Jack, or at the great altar, on an island with no city.
+
+The offerings are modest: Vearth, gold nuggets, fruit, now and then a pouch of extol, never a box. They belong to the Shandias: take them with warriors nearby, and they turn on you.
+
+**The great Sacrificial Altar** stands on about one Upper Yard in three, in the middle of **a lake of cloud with no bridge**. Sky sharks guard the lake. A great stair rises to the offerings on top: gold, extol, fruit, and a box in about one chest in two.
+
+## The Sanctuary of God
+
+On the summit of an Upper Yard that has neither a Giant Jack nor the City of Gold — a little over one island in four — stands **Enel's residence**: a great stair of cloud up the flank, an esplanade, the hall with the red roof, the throne and its ring of **Thunder Drums**.
+
+- **Four divine soldiers** keep it, and their **commander**, a mountain of a man with three announced attacks. They fight empty-handed with their dials — the Axe Dial's blade, the Flash Dial that blinds whoever looks at it, the Breath Dial's gust, skates under their feet — and **attack on sight**.
+- **The treasure** lies at the foot of the throne, as rich as the chest under the Golden Bell: one or two boxes every time, gold, a heavy pouch of extol, dials.
+- Now and then **a patrol** of two or three divine soldiers walks the jungle.
+
+## The Ordeals of God's priests
+
+Four challenges of Mine Mine no Mi's **challenges menu**, under a category of their own, each in a Standard and a Hard version. An Ordeal is **learnt in Skypiea only, from its stele**: a paved enclosure of stone on the plains, four pillars that bear the Ordeal's mark, and a great poneglyph at its middle to rub with paper.
+
+**An Upper Yard has the steles of two of the four Ordeals**: the others are on other islands.
+
+| Ordeal | Its stele | The fight |
+|---|---|---|
+| **Balls** — Satori | a ball of cloud on each pillar | a forest of **Surprise Clouds**; Satori keeps away and sends his clouds at you, then calls the **Ball Dragon** |
+| **String** — Shura | chains from pillar to pillar | a forest strung with **String Cloud** that slows, then binds; Shura dives on his bird Fuza with his **Heat Javelin** |
+| **Swamp** — Gedatsu | puddles of lilac cloud at the pillars' feet | an arena pitted with **Swamp Cloud** you sink in; his **Jet Punch** from afar |
+| **Iron** — Ohm | crowns of barbed wire on the pillars | the **Iron Cloud**, and his giant dog **Holy** |
 
 ## Predators
 

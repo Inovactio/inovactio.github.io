@@ -14,9 +14,9 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **0.3.1** (beta) |
+| Version documented | **0.4.0** (beta) |
 | Mod id | `inosky` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island) · [0.3.1](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/9039026) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island) · [0.4.0](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/all) · [changelog](changelog.md) |
 
 !!! warning "A beta"
     Worlds are generated from this version's rules. A later version may change what stands in chunks that have not been explored yet.
@@ -28,7 +28,7 @@ tags:
 | Minecraft | 1.20.1 |
 | Forge | 47 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.5 |
-| [AkumaLib](../../akumalib/index.md) | 4.0.0 or later |
+| [AkumaLib](../../akumalib/index.md) | 4.3.0 or later |
 
 Client **and** server.
 
@@ -42,7 +42,8 @@ Client **and** server.
 | **[Getting there and back](getting-there.md)** | the Knock-Up Stream, the arrival, falling back to the overworld |
 | **[Getting around](getting-around.md)** | the waver, the Milky Roads between the islands |
 | **[Angel Islands](angel-islands.md)** | islands of cloud: Skypiean villages, the White Berets, Angel Beach, Heaven's Gate |
-| **[Upper Yards](upper-yards.md)** | the great islands of earth: the Giant Jack, Shandora, the Shandias and their camps |
+| **[Upper Yards](upper-yards.md)** | the great islands of earth: the Giant Jack, Shandora, the Shandias and their camps, the altars, the Sanctuary of God, the Ordeals |
+| **[Birka](birka.md)** | Enel's homeland: scorched islands in ruins round their crater, and the few towns the lightning spared |
 | **[Weatheria](weatheria.md)** | the weather scientists' floating island: Haredas, the scientists, weather for sale |
 | **[Wildlife](wildlife.md)** | the South Bird, two flying mounts, the Cloud Fox and the Giant Dog; the fish of the cloud sea; the three predators of the Upper Yards |
 | **[Blocks](blocks.md)** | the clouds, the village blocks and the weather cloud in 3D, with their recipes |
