@@ -7,13 +7,13 @@
 | **Type** | Logia |
 | **Theme** | Swamp |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.96%**, iron **0.198%**, wooden **0.010%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **3.06%**, iron **0.153%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 10 active, 1 passive |
 | **Effects applied** | [In the Swamp](../effects.md#effect-in-the-swamp) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="objects/numachi objects/numa-numa-no-gatling-gun objects/numa-kyu objects/doro-nami objects/numa-no-te"></div>
+<div class="model-viewer" data-models="../../" data-ids="objects/numa-numa-no-gatling-gun objects/numachi objects/numa-kyu objects/doro-nami objects/numa-no-te"></div>
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -39,7 +39,7 @@ Shoots a burst of the things stored inside the swamp, first the arrows and then 
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Projectile |
-| Damage | 3 |
+| Haki | Special |
 
 ## Numachi { #numachi }
 
@@ -68,6 +68,7 @@ Traps the enemy the user is looking at inside a sphere of mud, which holds it, b
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
+| Haki | Special |
 | Cooldown | 15 s |
 | Damage | 9 |
 | Hold | 3 s |
@@ -83,6 +84,7 @@ Pulls a nearby enemy inside the user's swamp body, where it is held and suffocat
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
+| Haki | Special |
 | Cooldown | 18 s |
 | Damage | 14 |
 | Hold | 5 s |
@@ -121,8 +123,9 @@ The user sends a wave of mud in front of them, damaging all enemies in its path,
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
+| Haki | Special |
 | Cooldown | 12 s |
-| Damage | 16 |
+| Damage | 20 |
 | Range | 10 blocks (line) |
 
 ## Numa no Te { #numa-no-te }
@@ -136,8 +139,9 @@ Hands of mud come out of the ground and grab the enemy the user is looking at an
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
+| Haki | Special |
 | Cooldown | 15 s |
-| Damage | 14 |
+| Damage | 18 |
 | Hold | 3 s |
 
 ## Haki Dashi { #haki-dashi }
@@ -149,6 +153,7 @@ The swamp spits 3 big volleys of the things stored inside it in front of the use
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Projectile |
+| Haki | Special |
 | Cooldown | 14 s |
 | Damage | 6 |
 
@@ -163,7 +168,8 @@ Turns the ground around the user into a bottomless swamp, all enemies standing i
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
+| Haki | Special |
 | Cooldown | 45 s |
-| Damage | 30 |
+| Damage | 40 |
 | Hold | 4 s |
 | Range | 7 blocks (area) |

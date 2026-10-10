@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.71%**, wooden **0.085%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 10 active, 1 passive |
 | **Transformations** | [Wolf Walk Point](#wolf-walk-point), [Wolf Heavy Point](#wolf-heavy-point) |
 
@@ -46,7 +46,7 @@ The user jumps at the target and bites it, making it bleed. Deals more damage in
 | Damage type | Slash, Physical |
 | Haki | Hardening |
 | Cooldown | 6 s |
-| Damage | 5 |
+| Damage | 9 |
 
 ## Shippu { #shippu }
 
@@ -57,19 +57,23 @@ While in the wolf form, the user runs at full speed knocking down all enemies in
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Physical |
+| Haki | Hardening |
 | Cooldown | 8 s |
-| Damage | 5 |
+| Damage | 9 |
 
 ## Toboe { #toboe }
 
 ![](../abilities/toboe.png){ .ability-icon } *Active*
 
-The user howls, weakening and slowing all nearby enemies. During the night the user also gets strength and speed
+The user howls, weakening and slowing all nearby enemies. During the night the user also hits harder and runs faster for a while
 
 | Stat | Value |
 |---|---|
 | Cooldown | 20 s |
 | Range | 12 blocks (area) |
+| Attack Damage at Night | +3 |
+| Speed at Night | +20 % |
+| Hunt at Night | 30 s |
 
 ## Kyukaku { #kyukaku }
 
@@ -87,6 +91,12 @@ The user smells all nearby creatures, making them glow for 10 seconds even throu
 ![](../abilities/yako.png){ .ability-icon } *Passive*
 
 While in a wolf form the user can see in the dark. During the night they are also faster, stronger and regenerates health
+
+| Stat | Value |
+|---|---|
+| Speed at Night | +20 % |
+| Attack Damage at Night | +3 |
+| Healing at Night | +0.4 /s |
 
 ## Jusshigan { #jusshigan }
 
@@ -112,7 +122,8 @@ While in the hybrid form, the user jumps at the target and stabs it with all 10 
 | Damage type | Slash, Physical |
 | Haki | Hardening |
 | Cooldown | 15 s |
-| Damage | 10 |
+| Damage | 18 |
+| Damage at Night | x1.3 |
 
 ## Rankyaku: Koro { #rankyaku-koro }
 
@@ -128,7 +139,7 @@ While in the hybrid form, the user kicks the air launching an air blade in the s
 | Element | Wind |
 | Haki | Imbuing |
 | Cooldown | 7 s |
-| Damage | 7 |
+| Damage | 12 |
 
 ## Tekkai Kenpo: Roga no Kamae { #tekkai-kenpo-roga-no-kamae }
 

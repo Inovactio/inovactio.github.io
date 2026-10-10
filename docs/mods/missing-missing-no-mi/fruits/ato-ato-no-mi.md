@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Art |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.92%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **2.21%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 | **Transformations** | [Heaven's Do Art](#heavens-do-art) |
 | **Effects applied** | ![](../effect-icons/art.png){ .effect-mini }[Art](../effects.md#effect-art) |
@@ -44,6 +44,7 @@ Flattens the enemy the user is looking at into a painting on the ground, where i
 
 | Stat | Value |
 |---|---|
+| Haki | Special |
 | Cooldown | 20 s |
 | Damage | 9 |
 | Hold | 6 s |
@@ -68,7 +69,6 @@ The user enters a world of their art, becoming giant and absorbing most of the d
 |---|---|
 | Damage Taken | -60 % |
 | Size | x2 |
-| Range | 6 blocks (area) |
 
 ## Panorama Art { #panorama-art }
 

@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Glare |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.92%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **2.21%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 5: 4 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/giro-sight.png){ .effect-mini }[Giro Sight](../effects.md#effect-giro-sight) |
 
@@ -47,7 +47,7 @@ The user reads the mind of an enemy, showing its devil fruit, abilities and cool
 
 ![](../abilities/senrigan.png){ .ability-icon } *Active*
 
-The user extends their vision very far, all players and bosses in 4000 blocks are marked on the screen for a while with their direction and distance
+The user extends their vision very far, all players in 4000 blocks and the bosses nearby are marked on the screen for a while with their direction and distance
 
 | Stat | Value |
 |---|---|
@@ -65,8 +65,9 @@ A tear from each of the user's eyes turns into a whale that charges at the enemy
 | Stat | Value |
 |---|---|
 | Element | Water |
+| Haki | Special |
 | Cooldown | 10 s |
-| Damage | 7 |
+| Damage | 7–14 |
 
 ## Insight { #giro-insight }
 

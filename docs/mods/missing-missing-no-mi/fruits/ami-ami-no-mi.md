@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Net |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.92%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **2.21%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 7 active, 0 passive |
 | **Transformations** | [No Shock Taimo](#no-shock-taimo) |
 
@@ -31,6 +31,7 @@ Throws a sticky net that wraps the target, making it unable to move for 3 second
 | Stat | Value |
 |---|---|
 | Damage type | Projectile, Indirect |
+| Haki | Special |
 | Cooldown | 8 s |
 | Damage | 2 |
 | Hold | 3 s |
@@ -62,6 +63,7 @@ The user eats an iron ingot and throws a barbed wire net, that holds the target 
 |---|---|
 | Damage type | Projectile, Indirect |
 | Element | Metal |
+| Haki | Special |
 | Cooldown | 10 s |
 | Damage | 3 |
 | Hold | 2 s |
@@ -78,6 +80,7 @@ The user eats an iron ingot and creates an iron cage around the enemy they are l
 |---|---|
 | Damage type | Blunt, Indirect |
 | Element | Metal |
+| Haki | Special |
 | Cooldown | 15 s |
 | Damage | 8 |
 | Hold | 3 s |
@@ -94,6 +97,7 @@ The user eats a fire charge and throws a burning net, that holds the target for 
 |---|---|
 | Damage type | Projectile, Indirect |
 | Element | Fire |
+| Haki | Special |
 | Cooldown | 10 s |
 | Damage | 4 |
 | Hold | 2 s |
@@ -110,6 +114,7 @@ The user drinks a water bottle and throws a net made of boiling water, which bur
 |---|---|
 | Damage type | Projectile, Indirect |
 | Element | Water |
+| Haki | Special |
 | Cooldown | 10 s |
 | Damage | 6 |
 | Hold | 2 s |
@@ -121,7 +126,3 @@ The user drinks a water bottle and throws a net made of boiling water, which bur
 ![No Shock Taimo](../forms/no-shock-taimo.png){ .form-picture }
 
 The user's body becomes a net that absorbs the hits, melee attacks and projectiles deals 70% less damage. Does not work against blades, fire and explosions
-
-| Stat | Value |
-|---|---|
-| Hold | 30 s |

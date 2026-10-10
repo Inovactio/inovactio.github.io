@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Spin |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.92%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **2.21%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 5 active, 2 passive |
 | **Effects applied** | ![](../effect-icons/launched.png){ .effect-mini }[Launched](../effects.md#effect-launched) |
 
@@ -37,8 +37,9 @@ The user spins creating a strong wind in front of them, enemies are blown away a
 | Stat | Value |
 |---|---|
 | Element | Wind |
+| Haki | Special |
 | Cooldown | 10 s |
-| Damage | 3 |
+| Damage | 6 |
 | Range | 10 blocks (cone) |
 
 ## Guru Guru Toshaho { #guru-guru-toshaho }
@@ -51,6 +52,7 @@ Grabs the creature in front of the user, spins it with their arms and throws it 
 
 | Stat | Value |
 |---|---|
+| Haki | Special |
 | Cooldown | 13 s |
 | Damage | 8 |
 
@@ -64,9 +66,10 @@ The user's legs spins like wheels allowing them to roll on the ground like on sk
 
 | Stat | Value |
 |---|---|
+| Haki | Hardening |
 | Cooldown | 10 s |
 | Hold | 5 s |
-| Damage | 4 |
+| Damage | 7 |
 
 **Stats while active**
 
@@ -85,9 +88,10 @@ The user's arms becomes rotors that spins around them, hitting all nearby enemie
 | Stat | Value |
 |---|---|
 | Damage type | Blunt |
+| Haki | Hardening |
 | Cooldown | 12 s |
 | Hold | 3 s |
-| Damage | 5 |
+| Damage | 8 |
 | Range | 2.6 blocks (area) |
 
 ## Hiko { #hiko }

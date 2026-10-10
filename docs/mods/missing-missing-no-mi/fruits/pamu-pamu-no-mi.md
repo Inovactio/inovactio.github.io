@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Burst |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.71%**, wooden **0.085%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 9 active, 0 passive |
 | **Transformations** | [Fashion Punc](#fashion-punc) |
 
@@ -30,8 +30,9 @@ Makes the user's helmet inflate and explode into shrapnel all around them. The u
 |---|---|
 | Damage type | Indirect |
 | Element | Explosion |
+| Haki | Special |
 | Cooldown | 10 s |
-| Damage | 10 |
+| Damage | 14 |
 | Range | 3.5 blocks (area) |
 
 ## Bracchium { #bracchium }
@@ -44,8 +45,9 @@ Inflates the bands on the user's wrists until they explode, damaging the enemies
 |---|---|
 | Damage type | Indirect |
 | Element | Explosion |
+| Haki | Special |
 | Cooldown | 8 s |
-| Damage | 11 |
+| Damage | 15 |
 | Range | 3 blocks (cone) |
 
 ## Jirai Punc { #jirai-punc }
@@ -58,6 +60,7 @@ Turns the ground around the user into mines for a while, the blocks explodes whe
 |---|---|
 | Damage type | Indirect |
 | Element | Explosion |
+| Haki | Special |
 | Cooldown | 20 s |
 | Hold | 30 s |
 | Damage | 10 |
@@ -74,6 +77,7 @@ Inflates bullets into balloons that floats where the user is looking at and expl
 |---|---|
 | Damage type | Indirect, Projectile |
 | Element | Explosion |
+| Haki | Special |
 | Cooldown | 12 s |
 | Damage | 7 |
 
@@ -87,6 +91,7 @@ Shoots multiple bullets from the launchers on the user's arms, that inflates whi
 |---|---|
 | Damage type | Indirect, Projectile |
 | Element | Explosion |
+| Haki | Special |
 | Damage | 6 |
 
 ## Punc Rock Fest { #punc-rock-fest }
@@ -99,8 +104,9 @@ Makes the ground around the user inflate and explode, damaging and pushing back 
 |---|---|
 | Damage type | Indirect |
 | Element | Explosion |
+| Haki | Special |
 | Cooldown | 15 s |
-| Damage | 12 |
+| Damage | 16 |
 | Range | 5 blocks (area) |
 
 ## Punc Hair { #punc-hair }
@@ -112,6 +118,7 @@ The user's hair explodes into a lot of needles that paralyzes the enemies they h
 | Stat | Value |
 |---|---|
 | Damage type | Slash, Projectile |
+| Haki | Special |
 | Cooldown | 12 s |
 | Damage | 2.5 |
 
@@ -127,6 +134,7 @@ Inflates the user into a giant balloon, the first hit taken makes it explode ins
 |---|---|
 | Damage type | Indirect |
 | Element | Explosion |
+| Haki | Special |
 | Damage | 12 |
 
 ## Punc Rock Super Arena { #punc-rock-super-arena }
@@ -139,6 +147,7 @@ Inflates the ground in a huge area around the user and then makes it all explode
 |---|---|
 | Damage type | Indirect |
 | Element | Explosion |
+| Haki | Special |
 | Cooldown | 60 s |
-| Damage | 19 |
+| Damage | 28 |
 | Range | 10 blocks (area) |

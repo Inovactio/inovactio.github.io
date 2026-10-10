@@ -7,7 +7,7 @@
 | **Type** | Logia |
 | **Theme** | Forest |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.96%**, iron **0.198%**, wooden **0.010%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **3.06%**, iron **0.153%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 10: 5 active, 5 passive |
 | **Transformations** | [Kinniku Mori Mori](#kinniku-mori-mori) |
 
@@ -53,9 +53,10 @@ Use the ability again for Kyusui, the roots drains the enemies every second, hea
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
+| Haki | Special |
 | Cooldown | 20 s |
 | Hold | 5 s |
-| Damage | 8 |
+| Damage | 14 |
 | Range | 5 blocks (area) |
 
 ## Edayari { #edayari }
@@ -98,13 +99,13 @@ Giant Kinniku Mori Mori
 | Size | x3 |
 | Fist Damage | +10 |
 | Armor | +6 |
-| Other Techniques | x1.5 |
+| Other Abilities | x1.5 |
 | Cooldown | 18–90 s |
 | Hold | 30 s |
 | Size | x8 |
 | Fist Damage | +22 |
 | Armor | +12 |
-| Other Techniques | x3 |
+| Other Abilities | x3 |
 
 ## Wakagi { #wakagi }
 
@@ -122,7 +123,7 @@ If the user would die while in the golem form, the golem falls instead and the u
 
 ![](../abilities/bokarin.png){ .ability-icon } *Active*
 
-The user fills their wood with water making them immune to fire, except for very strong fire attacks. The user moves and attacks slower while active
+The user fills their wood with water so fire doesn't deal extra damage to them anymore, except for very strong fire attacks. The user moves and attacks slower while active
 
 | Stat | Value |
 |---|---|

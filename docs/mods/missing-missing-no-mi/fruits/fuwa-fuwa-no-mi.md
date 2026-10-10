@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Float |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.96%**, iron **0.198%**, wooden **0.010%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **3.06%**, iron **0.153%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 10: 9 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/buried.png){ .effect-mini }[Buried](../effects.md#effect-buried) |
 
@@ -47,8 +47,9 @@ Shoots one of the blocks spinning around the user where they are looking at. The
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
-| Cooldown | 1 s |
-| Damage | 12 |
+| Haki | Imbuing |
+| Cooldown | 2 s |
+| Damage | 8 |
 
 ## Shishi Odoshi { #shishi-odoshi }
 
@@ -61,6 +62,7 @@ The user shapes the ground into 3 lion heads that charges forward, each one bite
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
+| Haki | Special |
 | Cooldown | 10 s |
 | Damage | 18 |
 | Range | 20 blocks (line) |
@@ -80,9 +82,10 @@ Use the ability again to drop a boulder on each buried enemy
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
+| Haki | Special |
 | Cooldown | 20 s |
 | Hold | 5 s |
-| Damage | 10 |
+| Damage | 10–30 |
 | Range | 4 blocks (area) |
 
 ## Zanpa { #zanpa }
@@ -95,8 +98,9 @@ Can only be used near water or during rain. Traps the enemy the user is looking 
 
 | Stat | Value |
 |---|---|
+| Haki | Special |
 | Cooldown | 25 s |
-| Damage | 2.4 |
+| Damage | 6 |
 
 ## Shishi Funjin { #shishi-funjin }
 
@@ -107,6 +111,7 @@ The user shoots 5 rock shards from their palms in a fan shape. Can be used while
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Projectile |
+| Haki | Special |
 | Cooldown | 8 s |
 | Damage | 9 |
 
@@ -119,6 +124,7 @@ The user puts their palm on the ground making it erupt, damaging and pushing bac
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
+| Haki | Special |
 | Cooldown | 12 s |
 | Damage | 18 |
 | Range | 5 blocks (area) |
@@ -132,6 +138,7 @@ The user spins and rises into the air, taking all nearby enemies with them which
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
+| Haki | Special |
 | Cooldown | 14 s |
 | Hold | 2 s |
 | Damage | 5 |

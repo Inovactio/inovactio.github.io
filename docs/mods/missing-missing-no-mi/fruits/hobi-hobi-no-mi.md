@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Toys |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.71%**, wooden **0.085%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 6 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/toy.png){ .effect-mini }[Toy](../effects.md#effect-toy) |
 
@@ -28,7 +28,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 Applies ![](../effect-icons/toy.png){ .effect-mini }[Toy](../effects.md#effect-toy)
 
-The next punch of the user turns the target into a toy, for as long as the curse lasts. A new toy does nothing until Keiyaku is used on it.
+The next punch of the user turns the target into a toy, for as long as the curse lasts. A new toy only defends itself until Keiyaku is used on it.
 
 ## Keiyaku { #keiyaku }
 

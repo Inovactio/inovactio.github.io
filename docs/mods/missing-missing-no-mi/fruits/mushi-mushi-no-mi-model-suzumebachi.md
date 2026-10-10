@@ -6,8 +6,8 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 9: 8 active, 1 passive |
+| **Chance per opening** | iron **1.71%**, wooden **0.085%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 9: 8 active, 1 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Suzumebachi Heavy Point](#suzumebachi-heavy-point), [Suzumebachi Walk Point](#suzumebachi-walk-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -39,6 +39,9 @@ Transforms the user into a giant hornet, which is light, fast in the air and has
 
 *Passive*
 
+!!! info "Hidden ability"
+    It does not appear in the ability menu.
+
 Requires Suzumebachi Heavy Point or Suzumebachi Walk Point to be active.
 
 ## Stinger { #stinger }
@@ -50,6 +53,7 @@ The user stabs the enemy in front of them with their stinger, applying a strong 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
+| Haki | Hardening |
 | Cooldown | 6 s |
 | Damage | 7 |
 
@@ -89,6 +93,7 @@ The user sprays their venom at the eyes of all enemies in front of them, blindin
 | Stat | Value |
 |---|---|
 | Damage type | Internal |
+| Haki | Special |
 | Cooldown | 15 s |
 | Damage | 5 |
 | Range | 7 blocks (line) |
@@ -102,6 +107,7 @@ The user stabs the enemy in front of them with their stinger, the venom paralyse
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
+| Haki | Hardening |
 | Cooldown | 18 s |
 | Damage | 9 |
 
@@ -113,7 +119,7 @@ While in the hybrid form, the user bites the enemy in front of them with their m
 
 | Stat | Value |
 |---|---|
-| Damage type | Slash, Physical |
+| Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 14 s |
 | Damage | 22 |
