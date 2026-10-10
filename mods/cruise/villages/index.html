@@ -6950,6 +6950,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#no-monsters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        No monsters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#life-and-death-of-a-village" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10288,6 +10299,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#no-monsters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        No monsters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#life-and-death-of-a-village" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10606,12 +10628,14 @@
 <li>Where the land will not do for the large base, the village has the post instead. Where the land around a village is too rough or too wet for a camp, the village is nobody's.</li>
 <li>Villages already made keep whoever they had.</li>
 </ul>
+<p><strong>Those who keep a village walk about in it</strong> (since 0.4.1). Their captain and the first man of each post keep their place; the others are on the square by day, at the tavern in the evening, and go back to their post at night. The Revolutionaries all stay in their camp. Each of them has a <strong>name</strong>, shown with his rank when you look at him: "Dorn, Marine Captain". One who falls is relieved three days later. Ask the one at the village's head <strong>where they are</strong>: he says how many are left, and you see them through the walls for a minute (see <a href="../village-flags/#by-force">By force</a>).</p>
 <p><strong>The Marines</strong> come for whoever commits a crime in the village. Every Marine player has the friend's price at the stalls of a Marine village: 10 % off.</p>
 <p><strong>A pirate crew's men</strong> are no friends of the Marines or the Bounty Hunters, whom they strike on sight. Anyone else they leave alone, unless struck first; they remember a blow for five minutes.</p>
 <p><strong>The Revolutionaries.</strong> Eight of them keep the camp, soldiers, brutes and a captain: fighters of their own, in capes, goggles and hooded cloaks. Like a crew's men they strike the Marines and the Bounty Hunters on sight and leave everyone else alone, unless struck first. Every Revolutionary player has the friend's price in such a village. The camp is no part of the village: nothing mends it, and breaking it is nobody's crime.</p>
 <p>A village that someone keeps is not won by good turns or by a great bounty: it is taken from them by force. A village that nobody holds can pass under your flag. Both are told in <a href="../village-flags/">A village under your flag</a>.</p>
 <h2 id="the-people">The people<a class="headerlink" href="#the-people" title="Permanent link">&para;</a></h2>
 <p>Fishermen, farmers, craftsmen and townspeople live there, with <strong>two or three children</strong> in each village. Right click one to hear what he has to say.</p>
+<p><strong>Everyone has a name</strong> (since 0.4.1): a name of his land, shown with his trade when you look at him - "Marlo, Farmer", "Sena, Innkeeper". The villagers, the children, a town's guards and keepers and the one at the village's head all have one; the people of villages already made get theirs as you come near. Now and then one tells you who he is, or speaks of a neighbour by name. The tavern's barkeeper, the merchants and the people of the events keep their title.</p>
 <table>
 <thead>
 <tr>
@@ -10760,12 +10784,21 @@
 <li>It pays <strong>XP in the trade</strong> too, if you practise it: half of what producing the goods gave.</li>
 <li>One order in four adds a small gift.</li>
 <li>The first player to deliver takes the order.</li>
+<li>Each order is one of the village's people's: the pointer on it says who asks.</li>
 <li>An order delivered is a good turn done to the village: after twenty good turns it will take <a href="../village-flags/#by-trust">your flag</a>.</li>
 </ul>
 <p>The bigger orders are the merchants' <a href="../merchants-and-contracts/">contracts</a>, and a town's <a href="../towns/#the-warehouse">warehouse</a> buys in bulk.</p>
 <p><strong>The news.</strong> The second note tells every event running within 2,000 blocks, as a barkeeper would tell it, with how long it still lasts. A ship at anchor gives its coordinates; a school of fish, a fallen star, a migration, a storm or the fog give a way and a distance. It costs nothing: you only have to come and read. The events themselves are told in <a href="../village-events/">Village events</a> and <a href="../events-at-sea/">Events at sea</a>.</p>
 <h2 id="marines">Marines<a class="headerlink" href="#marines" title="Permanent link">&para;</a></h2>
 <p>Three new villages in eight are the Marines': two have a small <strong>Marine post</strong> with a few soldiers, and one stands next to a large <strong>Marine base</strong>, with its captains and its prison. The others are a pirate crew's, the Revolutionaries' or nobody's: see <a href="#whose-village">Whose village</a>.</p>
+<h2 id="no-monsters">No monsters<a class="headerlink" href="#no-monsters" title="Permanent link">&para;</a></h2>
+<p>Since 0.4.1 <strong>no monster spawns in a living village or town</strong>: by night or in a dark corner, no hostile creature appears on its ground, from its foundations up, and no phantom comes for whoever stands in one.</p>
+<ul>
+<li>Monsters still <strong>walk in from outside</strong>: a town's <a href="../towns/#the-guards">guards</a> keep their work.</li>
+<li>Spawners, eggs and commands work as anywhere; the fighters of a raid or an assault and the creatures of the events are untouched.</li>
+<li>A village whose people are all dead has its monsters back.</li>
+<li>A server can turn this off: <code>monstersInVillages</code>, see <a href="../configuration/">Configuration</a>. A data pack can let some monsters through, with the entity tag <code>inocruise:spawns_in_villages</code>.</li>
+</ul>
 <h2 id="life-and-death-of-a-village">Life and death of a village<a class="headerlink" href="#life-and-death-of-a-village" title="Permanent link">&para;</a></h2>
 <p><strong>New inhabitants.</strong> A village does not stay empty after a death. Three days later, at dawn, someone new moves into the house: a fisherman after a fisherman, a child after a child, a musician at the tavern again, a new head at the hall. They only arrive while nobody is looking. The farm's animals and the cat or dog of the square come back the same way.</p>
 <p><strong>A village can die.</strong> Kill all the people of a village but one, before anyone new has moved in, and the village is dead for good:</p>

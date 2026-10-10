@@ -10351,6 +10351,11 @@
 <td>Whether Minecraft's own villages, with their villagers, also generate beside Cruise's <a href="../villages/">villages</a>. Off by default: a world has Cruise's villages only, which grow in the same lands, each in its land's look, and no vanilla village starts in newly explored land. Villages already generated stay. <code>true</code> gives both kinds: the villagers and their trades, the iron golems, the raids; where a vanilla village starts, Cruise's village nearby gives way to it. Read when the server or the world starts.</td>
 </tr>
 <tr>
+<td><code>monstersInVillages</code></td>
+<td><code>false</code></td>
+<td>Whether monsters spawn in Cruise's <a href="../villages/#no-monsters">villages and towns</a>. Off by default: no hostile mob appears naturally on the ground of a living village or town, and no phantom comes for a player who stands in one. Monsters still walk in from outside. Set it to <code>true</code> and villages are as any other ground. (Since 0.4.1.)</td>
+</tr>
+<tr>
 <td><code>villageDamage</code></td>
 <td><code>MEND</code></td>
 <td>What happens to the blocks of a Cruise village. <code>MEND</code>: a village can be damaged, by abilities, explosions, fire or by hand, and puts itself back block by block once it has been left in peace for three minutes; what players build in it is cleared away and handed back to them, and breaking its blocks by hand is a crime after two warnings a day. <code>FORBID</code>: on top of that, nothing can be broken or built in a village by hand, by an explosion or by an ability. <code>NOTHING</code>: villages are not protected at all, and what is broken stays broken. A creative player is outside these rules. What a command changes (<code>/setblock</code>, <code>/fill</code>) is mended too: set it to <code>NOTHING</code> while editing a village by commands.</td>
