@@ -106,3 +106,28 @@ for (LivingEntity target : this.rangeComponent.getTargetsInArea(entity, 6.0F)) {
 The angle is **half** the opening: `45` is a 90 degree fan. A target standing exactly on the user counts as inside, so a cone never refuses point-blank contact.
 
 **When a press finds nothing.** A technique that finds no target should still cost something, or a held key becomes a free scanner: `AkumaAbilityHelper.FAILED_PRESS_COOLDOWN` (10 ticks), not zero and not the full cooldown. A refusal, such as a protected area or a creative target, costs the same. And give the player a cue that nothing was hit, such as a whiff sound.
+
+## `AkumaAim`: whom an ability may reach, and the sweeps of a body
+
+`isEnemy` is the faction test alone. Two rules sit on top of it, for every kit:
+
+- `AkumaAim.canStrike(user, other, core)`: a blow may land. Not himself, not a dead or invulnerable body, not a player in creative or watching, not a player he cannot hurt (PvP off, same team), an enemy by faction, and a place where the ability may be used.
+- `AkumaAim.mayFight(user, other, core)`: the same, and not a stand of armour, and not another player's animal unless its master is there and may be fought. Use it for whatever an ability holds, throws, burns, marks or pulls, and for area sweeps: the faction test calls a player's cat an enemy where no player fights another.
+
+The sweeps (`ahead`, `alongLook`, `around`, `within`, `groundUnder`) are measured from the body, not from the eyes, and ask `mayFight`.
+
+
+## `Quarry`: making a creature lose the one it is after
+
+For a power that hides its user, sends a body away or blinds. A creature keeps its quarry in its target field or, when it thinks with a brain (piglins, wardens), in its `ATTACK_TARGET` memory: clearing the field alone leaves those hunting. `Quarry` clears both, and asks the brain with `hasMemoryValue` first because the game throws on a memory a brain was never given.
+
+| Call | What it does |
+| --- | --- |
+| `Quarry.isAfter(mob, quarry)` | whether it is after him, by target or by memory |
+| `Quarry.forget(mob)` | it is after nobody and stops where it is |
+| `Quarry.forget(mob, quarry)` | it loses him only, anger at him included, and keeps any other quarry |
+| `Quarry.dropPursuers(quarry, range)` | every creature in range that is after him loses him |
+| `Quarry.dropPursuers(quarry, range, which)` | the same, for those `which` takes |
+| `Quarry.blind(mob, ticks)` | it loses its quarry and can take none for that long |
+
+The Blindness effect alone stops no creature. `blind` is what makes a blinded creature harmless: the library cancels its target changes until the time is up, and a longer blinding already there is kept.

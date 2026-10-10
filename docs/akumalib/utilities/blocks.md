@@ -151,3 +151,10 @@ Marks and providers add up; only what AkumaLib lit is ever put out. It is vanill
 !!! warning "Both sides need 3.1.0"
     `mark` is a packet: the network protocol went to 5 with it.
 
+## Counting and finding blocks of a kind
+
+For a power that feeds on what is under its user (stone, gold, plants):
+
+- `BlockScan.countAround(entity, tag, radius, enough)` counts the blocks of a tag round and under his feet and stops at `enough`.
+- `BlockScan.nearest(level, point, radius, tag)` gives the centre of the nearest one, or null.
+

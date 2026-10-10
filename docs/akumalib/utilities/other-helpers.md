@@ -160,3 +160,42 @@ Where a body fits, for a technique that leaves its user - or what it moved - som
 - `fits(level, body, at)`: whether the body, set there, would be in no block; `fits(level, body, size, place)` for a body about to change size;
 - `nearest(level, body, place, far)`: `place` if it fits there, else the nearest place within `far` blocks where it does, one with a floor and no fire before any other: what "pushed out of the wall" means;
 - `firstRoomAbove(level, body, wanted)`: `wanted` if it fits there, else the first place straight above where it does - a cave on the way, else the ground. **However far**: a search of a few blocks left a body in the rock under a hill, smothered. What nothing passes is not climbed through (the bedrock over the Nether): the first room below is taken instead.
+
+## Small helpers moved from Missing Missing no Mi (4.4.0)
+
+| Class | What it is for |
+|---|---|
+| `TechniqueSource` | a damage source of an ability that leaves out the fist, cut and blunt types, so the base mod adds neither the punch nor the held weapon to it |
+| `Techniques` | `isRunning(entity, core)` and `endDash` |
+| `Smash` | breaking through blocks by the base mod's own pipeline |
+| `Holds` | carrying a held body beside its holder, never into blocks |
+| `SparedFalls` | `spare(entity, ticks)`: the next fall within that time does not hurt |
+| `PanelWalls` | raising a wall of panel entities in front of a body |
+| `GroundLayers` | laying a temporary layer on the ground of each column of an area |
+| `CooldownFamily` | abilities that share one cooldown and cannot run together |
+
+## Strong bodies, turned shots, a flyer who left in the air
+
+- `StrongBodies.is(body)`: a player, the game's two bosses, and whatever the `akumalib:bosses` entity tag lists (the base mod's captains and officers by default). For a hold that lasts less on them. A hold still works on a boss: shorten it, do not refuse it.
+- `Shots.atRest(shot)`: whether a projectile is planted and no longer flies, told by its place (an arrow in the ground keeps the speed it struck with).
+- `Shots.turnBack(shot, by)`: sends it back the way it came as `by`'s own, fireballs included. A pearl, a fishing hook and the thrown weapons of the `akumalib:thrown_weapons` entity tag stay their thrower's.
+- `LeftInTheAir`: nothing to call. A player with a `TwoFormFlightAbility` passive who leaves the game in the air finds his first fall free when he comes back: the base mod ends his form before he is saved.
+
+An addon that had tags of its own for these can keep them alive by listing them in its own `data/akumalib/tags/entity_types/bosses.json` (`{"id": "#myaddon:bosses", "required": false}`).
+
+
+## `PlayerStore`: items a player keeps with him
+
+A store that belongs to a player and follows him over a death: a swamp he puts things in, a scroll. Make it once, as a constant, and open it with any chest screen of the game.
+
+```java
+public static final PlayerStore SWAMP = new PlayerStore("myaddon:swamp_store", 54)
+        .refusing(stack -> stack.getItem() instanceof AkumaNoMiItem);
+
+player.openMenu(new SimpleMenuProvider((id, inventory, p) -> ChestMenu.sixRows(id, inventory, SWAMP.of(player)), TITLE));
+```
+
+- `of(player)` is the live container, written back to his data on every change. `keeps(player)` says whether anything is in it without loading it. `spill(player)` drops it all at his feet.
+- `refusing(...)` names what it does not keep: put in, it is handed back at once. Refuse Devil Fruits: the base mod keeps them out of every chest so that it knows where each one is, and counts as lost one it cannot find.
+- The key is where it is written. Put the id of the addon in it and never change it once shipped.
+- A player gets a new body when he dies and when he comes back from the End. The store is read again for the new body, so do not keep the container: ask `of(player)` each time.

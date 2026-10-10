@@ -95,3 +95,21 @@ Pass `null` to go back to unconditional stats.
 
 !!! note "One modifier per attribute"
     A `ChangeStatsComponent` holds a single modifier per attribute. Two techniques that want different bonuses on the same attribute at the same time need separate components or separate forms, not two `movementSpeed` calls.
+
+## A body in another matter
+
+A full morph that is the user's own model in a skin worked out from his own, bigger or not: a giant of stone, a coat of metal. `MatterBodyMorphInfo` carries the one scale to the render, the box, the eyes, the shadow and the camera, and takes its name from the ability it belongs to.
+
+```java
+public static final RegistryObject<MorphInfo> STONE_GIANT = registerMorph("stone_giant",
+        () -> new MatterBodyMorphInfo(2.5F, entity -> StoneSkins.of(entity), StoneGiantAbility.INSTANCE));
+```
+
+- Give the skin as a lambda, not as `StoneSkins::of`: the skin class is a client class, and a method reference is resolved where the morph is registered, on a dedicated server too.
+- A body bigger than a man takes no seat. `.mountsAtAnySize()` lets it.
+- Register it with `MatterMorphRenderer(context, morph, model, slim, overlay)`: the base mod's `PlayerMorphRenderer` draws the first-person arm in the player's own skin, this one draws it in the morph's texture and its overlay (null for none).
+
+### Eyes of a form with its own box
+
+The base mod gives a form's eye height for every pose while the box follows the pose: eyes named for standing end up in the ceiling for a body that sleeps, swims or glides. `MorphEyes.of(entity, standing, crouching)` answers the form's eyes for those two poses and `MorphEyes.OWN` for the others. Use it in every `getEyeHeight` of a form that names its own sizes.
+
