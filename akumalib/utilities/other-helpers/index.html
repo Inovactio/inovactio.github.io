@@ -7623,6 +7623,8 @@
       
         
       
+        
+      
     
     
     
@@ -7919,6 +7921,34 @@
     
   
     Items and blocks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/giants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Giants of matter
   
 
     
@@ -10135,6 +10165,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#small-helpers-moved-from-missing-missing-no-mi-440" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Small helpers moved from Missing Missing no Mi (4.4.0)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strong-bodies-turned-shots-a-flyer-who-left-in-the-air" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Strong bodies, turned shots, a flyer who left in the air
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#playerstore-items-a-player-keeps-with-him" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PlayerStore: items a player keeps with him
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -10384,6 +10447,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#small-helpers-moved-from-missing-missing-no-mi-440" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Small helpers moved from Missing Missing no Mi (4.4.0)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strong-bodies-turned-shots-a-flyer-who-left-in-the-air" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Strong bodies, turned shots, a flyer who left in the air
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#playerstore-items-a-player-keeps-with-him" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PlayerStore: items a player keeps with him
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -10600,6 +10696,70 @@ arms.</p>
 <li><code>fits(level, body, at)</code>: whether the body, set there, would be in no block; <code>fits(level, body, size, place)</code> for a body about to change size;</li>
 <li><code>nearest(level, body, place, far)</code>: <code>place</code> if it fits there, else the nearest place within <code>far</code> blocks where it does, one with a floor and no fire before any other: what "pushed out of the wall" means;</li>
 <li><code>firstRoomAbove(level, body, wanted)</code>: <code>wanted</code> if it fits there, else the first place straight above where it does - a cave on the way, else the ground. <strong>However far</strong>: a search of a few blocks left a body in the rock under a hill, smothered. What nothing passes is not climbed through (the bedrock over the Nether): the first room below is taken instead.</li>
+</ul>
+<h2 id="small-helpers-moved-from-missing-missing-no-mi-440">Small helpers moved from Missing Missing no Mi (4.4.0)<a class="headerlink" href="#small-helpers-moved-from-missing-missing-no-mi-440" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>What it is for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>TechniqueSource</code></td>
+<td>a damage source of an ability that leaves out the fist, cut and blunt types, so the base mod adds neither the punch nor the held weapon to it</td>
+</tr>
+<tr>
+<td><code>Techniques</code></td>
+<td><code>isRunning(entity, core)</code> and <code>endDash</code></td>
+</tr>
+<tr>
+<td><code>Smash</code></td>
+<td>breaking through blocks by the base mod's own pipeline</td>
+</tr>
+<tr>
+<td><code>Holds</code></td>
+<td>carrying a held body beside its holder, never into blocks</td>
+</tr>
+<tr>
+<td><code>SparedFalls</code></td>
+<td><code>spare(entity, ticks)</code>: the next fall within that time does not hurt</td>
+</tr>
+<tr>
+<td><code>PanelWalls</code></td>
+<td>raising a wall of panel entities in front of a body</td>
+</tr>
+<tr>
+<td><code>GroundLayers</code></td>
+<td>laying a temporary layer on the ground of each column of an area</td>
+</tr>
+<tr>
+<td><code>CooldownFamily</code></td>
+<td>abilities that share one cooldown and cannot run together</td>
+</tr>
+</tbody>
+</table>
+<h2 id="strong-bodies-turned-shots-a-flyer-who-left-in-the-air">Strong bodies, turned shots, a flyer who left in the air<a class="headerlink" href="#strong-bodies-turned-shots-a-flyer-who-left-in-the-air" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>StrongBodies.is(body)</code>: a player, the game's two bosses, and whatever the <code>akumalib:bosses</code> entity tag lists (the base mod's captains and officers by default). For a hold that lasts less on them. A hold still works on a boss: shorten it, do not refuse it.</li>
+<li><code>Shots.atRest(shot)</code>: whether a projectile is planted and no longer flies, told by its place (an arrow in the ground keeps the speed it struck with).</li>
+<li><code>Shots.turnBack(shot, by)</code>: sends it back the way it came as <code>by</code>'s own, fireballs included. A pearl, a fishing hook and the thrown weapons of the <code>akumalib:thrown_weapons</code> entity tag stay their thrower's.</li>
+<li><code>LeftInTheAir</code>: nothing to call. A player with a <code>TwoFormFlightAbility</code> passive who leaves the game in the air finds his first fall free when he comes back: the base mod ends his form before he is saved.</li>
+</ul>
+<p>An addon that had tags of its own for these can keep them alive by listing them in its own <code>data/akumalib/tags/entity_types/bosses.json</code> (<code>{"id": "#myaddon:bosses", "required": false}</code>).</p>
+<h2 id="playerstore-items-a-player-keeps-with-him"><code>PlayerStore</code>: items a player keeps with him<a class="headerlink" href="#playerstore-items-a-player-keeps-with-him" title="Permanent link">&para;</a></h2>
+<p>A store that belongs to a player and follows him over a death: a swamp he puts things in, a scroll. Make it once, as a constant, and open it with any chest screen of the game.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">PlayerStore</span><span class="w"> </span><span class="n">SWAMP</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">PlayerStore</span><span class="p">(</span><span class="s">"myaddon:swamp_store"</span><span class="p">,</span><span class="w"> </span><span class="mi">54</span><span class="p">)</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="w">        </span><span class="p">.</span><span class="na">refusing</span><span class="p">(</span><span class="n">stack</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">stack</span><span class="p">.</span><span class="na">getItem</span><span class="p">()</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">AkumaNoMiItem</span><span class="p">);</span>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="n">player</span><span class="p">.</span><span class="na">openMenu</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">SimpleMenuProvider</span><span class="p">((</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">inventory</span><span class="p">,</span><span class="w"> </span><span class="n">p</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">ChestMenu</span><span class="p">.</span><span class="na">sixRows</span><span class="p">(</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">inventory</span><span class="p">,</span><span class="w"> </span><span class="n">SWAMP</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">player</span><span class="p">)),</span><span class="w"> </span><span class="n">TITLE</span><span class="p">));</span>
+</code></pre></div>
+<ul>
+<li><code>of(player)</code> is the live container, written back to his data on every change. <code>keeps(player)</code> says whether anything is in it without loading it. <code>spill(player)</code> drops it all at his feet.</li>
+<li><code>refusing(...)</code> names what it does not keep: put in, it is handed back at once. Refuse Devil Fruits: the base mod keeps them out of every chest so that it knows where each one is, and counts as lost one it cannot find.</li>
+<li>The key is where it is written. Put the id of the addon in it and never change it once shipped.</li>
+<li>A player gets a new body when he dies and when he comes back from the End. The store is read again for the new body, so do not keep the container: ask <code>of(player)</code> each time.</li>
 </ul>
 
 

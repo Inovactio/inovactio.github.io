@@ -7599,6 +7599,34 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#a-body-in-another-matter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A body in another matter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A body in another matter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eyes-of-a-form-with-its-own-box" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eyes of a form with its own box
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7711,6 +7739,8 @@
       
         
           
+        
+      
         
       
         
@@ -8029,6 +8059,34 @@
     
   
     Items and blocks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/giants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Giants of matter
   
 
     
@@ -10220,6 +10278,34 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#a-body-in-another-matter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A body in another matter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A body in another matter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eyes-of-a-form-with-its-own-box" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eyes of a form with its own box
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -10391,6 +10477,18 @@
 <p class="admonition-title">One modifier per attribute</p>
 <p>A <code>ChangeStatsComponent</code> holds a single modifier per attribute. Two techniques that want different bonuses on the same attribute at the same time need separate components or separate forms, not two <code>movementSpeed</code> calls.</p>
 </div>
+<h2 id="a-body-in-another-matter">A body in another matter<a class="headerlink" href="#a-body-in-another-matter" title="Permanent link">&para;</a></h2>
+<p>A full morph that is the user's own model in a skin worked out from his own, bigger or not: a giant of stone, a coat of metal. <code>MatterBodyMorphInfo</code> carries the one scale to the render, the box, the eyes, the shadow and the camera, and takes its name from the ability it belongs to.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">RegistryObject</span><span class="o">&lt;</span><span class="n">MorphInfo</span><span class="o">&gt;</span><span class="w"> </span><span class="n">STONE_GIANT</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">registerMorph</span><span class="p">(</span><span class="s">"stone_giant"</span><span class="p">,</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">        </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">MatterBodyMorphInfo</span><span class="p">(</span><span class="mf">2.5F</span><span class="p">,</span><span class="w"> </span><span class="n">entity</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">StoneSkins</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">entity</span><span class="p">),</span><span class="w"> </span><span class="n">StoneGiantAbility</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">));</span>
+</code></pre></div>
+<ul>
+<li>Give the skin as a lambda, not as <code>StoneSkins::of</code>: the skin class is a client class, and a method reference is resolved where the morph is registered, on a dedicated server too.</li>
+<li>A body bigger than a man takes no seat. <code>.mountsAtAnySize()</code> lets it.</li>
+<li>Register it with <code>MatterMorphRenderer(context, morph, model, slim, overlay)</code>: the base mod's <code>PlayerMorphRenderer</code> draws the first-person arm in the player's own skin, this one draws it in the morph's texture and its overlay (null for none).</li>
+</ul>
+<h3 id="eyes-of-a-form-with-its-own-box">Eyes of a form with its own box<a class="headerlink" href="#eyes-of-a-form-with-its-own-box" title="Permanent link">&para;</a></h3>
+<p>The base mod gives a form's eye height for every pose while the box follows the pose: eyes named for standing end up in the ceiling for a body that sleeps, swims or glides. <code>MorphEyes.of(entity, standing, crouching)</code> answers the form's eyes for those two poses and <code>MorphEyes.OWN</code> for the others. Use it in every <code>getEyeHeight</code> of a form that names its own sizes.</p>
 
 
 

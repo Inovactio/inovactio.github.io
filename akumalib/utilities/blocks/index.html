@@ -7623,6 +7623,8 @@
       
         
       
+        
+      
     
     
     
@@ -7919,6 +7921,34 @@
     
   
     Items and blocks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/giants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Giants of matter
   
 
     
@@ -9623,6 +9653,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#counting-and-finding-blocks-of-a-kind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Counting and finding blocks of a kind
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -10266,6 +10307,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#counting-and-finding-blocks-of-a-kind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Counting and finding blocks of a kind
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -10515,6 +10567,12 @@
 <p class="admonition-title">Both sides need 3.1.0</p>
 <p><code>mark</code> is a packet: the network protocol went to 5 with it.</p>
 </div>
+<h2 id="counting-and-finding-blocks-of-a-kind">Counting and finding blocks of a kind<a class="headerlink" href="#counting-and-finding-blocks-of-a-kind" title="Permanent link">&para;</a></h2>
+<p>For a power that feeds on what is under its user (stone, gold, plants):</p>
+<ul>
+<li><code>BlockScan.countAround(entity, tag, radius, enough)</code> counts the blocks of a tag round and under his feet and stops at <code>enough</code>.</li>
+<li><code>BlockScan.nearest(level, point, radius, tag)</code> gives the centre of the nearest one, or null.</li>
+</ul>
 
 
 
