@@ -6,9 +6,10 @@
 
 | | |
 |---|---|
-| Version documented | **0.4.0** (beta) |
+| Latest version | **0.4.1** (beta) |
+| Version documented | **0.4.0** (beta): what 0.4.1 adds - names, keepers who walk about, no monsters in villages - is in the [changelog](changelog.md#v0-4-1) |
 | Mod id | `inocruise` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.4.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9109571) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.4.1](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9117175) · [changelog](changelog.md) |
 
 ## Requirements
 
