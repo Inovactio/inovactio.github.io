@@ -2,6 +2,79 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 4.4.0 { #v4-4-0 }
+
+<small>Released 2026-10-10 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9118223)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>One more damage type icon, a softer landing for flying forms, and a large set of shared pieces for addon makers.</strong>
+Abilities whose damage is indirect now show it as an icon like the other damage types, a player in a flying form who
+leaves the game in the air no longer pays the fall when coming back, and addons get the pieces that several fruit kits
+had each written for themselves. The corrections of Mine Mine no Mi of 4.0.0 to 4.3.0 are all still there, each with
+its switch.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi</strong> 0.11.5. JEI and EMI are optional.</p>
+<p><strong>The network protocol is unchanged (7):</strong> 4.4.0 and 4.3.0 play together. Nothing changes for an addon: no signature
+was removed or changed, and an addon made for 4.0.0 to 4.3.0 works with 4.4.0.</p>
+<hr />
+<h2>Added</h2>
+<ul>
+<li>
+<p><strong>An icon for indirect damage.</strong> In an ability's tooltip the damage type "indirect" was written as a line of text
+  while every other type had its icon. It has one now, beside the others.</p>
+</li>
+<li>
+<p><strong>Flying forms and a lost connection.</strong> A player in a flying form who leaves the game in the air came back as a
+  man in the sky and paid the whole fall. The first fall after coming back is now free, for every addon whose flight
+  is built on AkumaLib.</p>
+</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li>
+<p><strong>Whom an ability may reach.</strong> <code>AkumaAim</code> gathers the rules every sweep, hold and projectile should follow:
+  <code>canStrike</code> and <code>mayFight</code> (never a player in creative, never the animal of another player unless its master is
+  there and may be fought, never an armour stand), and the usual shapes: <code>within</code>, <code>ahead</code>, <code>alongLook</code>, <code>around</code>.</p>
+</li>
+<li>
+<p><strong>Small helpers moved in from a fruit addon:</strong> <code>TechniqueSource</code>, <code>Techniques</code>, <code>Smash</code>, <code>Holds</code>, <code>SparedFalls</code>,
+  <code>PanelWalls</code>, <code>GroundLayers</code>, <code>CooldownFamily</code>.</p>
+</li>
+<li>
+<p><strong>A creature that loses its quarry.</strong> <code>Quarry</code> makes a creature forget the one it is after, in its target and in
+  its memory (piglins and wardens keep it there): <code>forget</code>, <code>dropPursuers</code>, and <code>blind</code>, which stops a creature from
+  taking any quarry for a while.</p>
+</li>
+<li>
+<p><strong>A body in another matter.</strong> <code>MatterBodyMorphInfo</code> is a form that is the player's own model in a skin worked out
+  from his own, at any size: a giant of stone, a coat of metal. <code>MatterMorphRenderer</code> draws its first-person arm in
+  that matter. <code>MorphEyes</code> gives a form's eyes for the poses it names its box for.</p>
+</li>
+<li>
+<p><strong>Giants of matter.</strong> <code>MatterGiantAbility</code>: a giant body at several sizes, chosen before it is raised, whose
+  matter takes the blows, grows back on the right ground and falls apart when none is left.</p>
+</li>
+<li>
+<p><strong>Forms that last a time.</strong> <code>TimedSizeFormAbility</code>: a form with a time limit in several sizes, whose cooldown is
+  paid for the share of the time it was held.</p>
+</li>
+<li>
+<p><strong>Items a player keeps with him.</strong> <code>PlayerStore</code>: a store that follows a player over a death, opened with any
+  chest screen of the game, and that hands back what it refuses.</p>
+</li>
+<li>
+<p><strong>Strong bodies and turned shots.</strong> <code>StrongBodies</code> (players, bosses and the <code>akumalib:bosses</code> entity tag) for a
+  hold that lasts less on them, and <code>Shots</code> to send a projectile back the way it came (the
+  <code>akumalib:thrown_weapons</code> entity tag stays with its thrower).</p>
+</li>
+<li>
+<p><strong>Counting blocks.</strong> <code>BlockScan.countAround</code> and <code>BlockScan.nearest</code>, for a power that feeds on the stone, the
+  gold or the plants around its user.</p>
+</li>
+</ul>
+<p>An addon that uses them declares <code>versionRange = "[4.4.0,5)"</code>.</p>
+<p>All of these are described on the <a href="https://inovactio.github.io/akumalib/">AkumaLib pages</a>.</p>
+</div>
+
 ## 4.3.0 { #v4-3-0 }
 
 <small>Released 2026-10-08 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9100417)</small>

@@ -23,6 +23,8 @@ Every class here extends a Mine Mine no Mi type and encodes a technique shape th
 | a charged area stomp | `StompAbility` | [Movement](movement.md) |
 | anything that must be used on the ground | `GroundAbility` | [Movement](movement.md) |
 | the flight of a Zoan with two flying forms | `TwoFormFlightAbility` | [Movement](movement.md) |
+| a giant body of stone, gold or another matter that takes the blows | `MatterGiantAbility` | [Giants of matter](giants.md) |
+| a form with a time limit that comes in several sizes | `TimedSizeFormAbility` | [Giants of matter](giants.md) |
 | passing through blocks: a dive, a walk through a wall | `BlockPassageAbility` | [Movement](movement.md) |
 | catching a target and holding it | `GrabAbility` | [Grabs](grabs.md) |
 | taking a target along while staying free to move | `CarryAbility` | [Carries](carries.md) |
