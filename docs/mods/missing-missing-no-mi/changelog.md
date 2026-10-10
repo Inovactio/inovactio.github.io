@@ -8,7 +8,7 @@ Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as publi
 
 <div class="changelog-body" markdown="0">
 <p>The big one: <strong>33 new Devil Fruits and 264 new abilities</strong>. The addon now has <strong>54 fruits and 442 abilities</strong>: the fruits of Wano, and non-canon fruits from the films, the anime arcs and the video games.</p>
-<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi</strong> 0.11.5 and <strong>AkumaLib TO-FILL</strong> or newer. Client and server.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi</strong> 0.11.5 and <strong>AkumaLib 4.4.0</strong> or newer. Client and server.</p>
 <p>⚠️ <strong>Servers: set <code>allow-flight=true</code></strong> in <code>server.properties</code>. More fruits fly now (the Eagle, the Vampire, the Triceratops, the Pasa Pasa, the Uta Uta in its world, and the six of 1.0.0); without it the server kicks their users.</p>
 <hr />
 <h3>Logia</h3>

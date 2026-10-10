@@ -40,7 +40,7 @@ Nothing here replaces or rebalances the base mod, and a fruit Mine Mine no Mi ha
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.5 |
-| [AkumaLib](../../akumalib/index.md) | **TO-FILL or later** |
+| [AkumaLib](../../akumalib/index.md) | **4.4.0 or later** |
 
 ## Getting started
 
