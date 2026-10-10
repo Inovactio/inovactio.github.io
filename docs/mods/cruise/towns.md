@@ -90,7 +90,7 @@ Each land has its own names for them; the one at the town's head says them.
 
 ## The guards
 
-Guards live at the barracks and keep the town. Each is as strong as one of Mine Mine no Mi's brutes, and carries one of Mine Mine no Mi's plain weapons.
+Guards live at the barracks and keep the town. Each is as strong as one of Mine Mine no Mi's brutes, and carries one of Mine Mine no Mi's plain weapons. Like everyone in a town, each has a name. No monster spawns within a town; the guards deal with those that walk in, and go round a wall to one they only hear.
 
 | Land | How its guards dress |
 |---|---|

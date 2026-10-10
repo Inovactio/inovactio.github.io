@@ -122,6 +122,8 @@ Of eight new villages:
 - Where the land will not do for the large base, the village has the post instead. Where the land around a village is too rough or too wet for a camp, the village is nobody's.
 - Villages already made keep whoever they had.
 
+**Those who keep a village walk about in it** (since 0.4.1). Their captain and the first man of each post keep their place; the others are on the square by day, at the tavern in the evening, and go back to their post at night. The Revolutionaries all stay in their camp. Each of them has a **name**, shown with his rank when you look at him: "Dorn, Marine Captain". One who falls is relieved three days later. Ask the one at the village's head **where they are**: he says how many are left, and you see them through the walls for a minute (see [By force](village-flags.md#by-force)).
+
 **The Marines** come for whoever commits a crime in the village. Every Marine player has the friend's price at the stalls of a Marine village: 10 % off.
 
 **A pirate crew's men** are no friends of the Marines or the Bounty Hunters, whom they strike on sight. Anyone else they leave alone, unless struck first; they remember a blow for five minutes.
@@ -133,6 +135,8 @@ A village that someone keeps is not won by good turns or by a great bounty: it i
 ## The people
 
 Fishermen, farmers, craftsmen and townspeople live there, with **two or three children** in each village. Right click one to hear what he has to say.
+
+**Everyone has a name** (since 0.4.1): a name of his land, shown with his trade when you look at him - "Marlo, Farmer", "Sena, Innkeeper". The villagers, the children, a town's guards and keepers and the one at the village's head all have one; the people of villages already made get theirs as you come near. Now and then one tells you who he is, or speaks of a neighbour by name. The tavern's barkeeper, the merchants and the people of the events keep their title.
 
 | Time of day | Where they are |
 |---|---|
@@ -248,6 +252,7 @@ On the market square, a board has two notes: the day's orders, and the news.
 - It pays **XP in the trade** too, if you practise it: half of what producing the goods gave.
 - One order in four adds a small gift.
 - The first player to deliver takes the order.
+- Each order is one of the village's people's: the pointer on it says who asks.
 - An order delivered is a good turn done to the village: after twenty good turns it will take [your flag](village-flags.md#by-trust).
 
 The bigger orders are the merchants' [contracts](merchants-and-contracts.md), and a town's [warehouse](towns.md#the-warehouse) buys in bulk.
@@ -257,6 +262,15 @@ The bigger orders are the merchants' [contracts](merchants-and-contracts.md), an
 ## Marines
 
 Three new villages in eight are the Marines': two have a small **Marine post** with a few soldiers, and one stands next to a large **Marine base**, with its captains and its prison. The others are a pirate crew's, the Revolutionaries' or nobody's: see [Whose village](#whose-village).
+
+## No monsters
+
+Since 0.4.1 **no monster spawns in a living village or town**: by night or in a dark corner, no hostile creature appears on its ground, from its foundations up, and no phantom comes for whoever stands in one.
+
+- Monsters still **walk in from outside**: a town's [guards](towns.md#the-guards) keep their work.
+- Spawners, eggs and commands work as anywhere; the fighters of a raid or an assault and the creatures of the events are untouched.
+- A village whose people are all dead has its monsters back.
+- A server can turn this off: `monstersInVillages`, see [Configuration](configuration.md). A data pack can let some monsters through, with the entity tag `inocruise:spawns_in_villages`.
 
 ## Life and death of a village
 

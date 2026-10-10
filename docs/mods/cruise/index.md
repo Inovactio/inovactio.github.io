@@ -6,8 +6,7 @@
 
 | | |
 |---|---|
-| Latest version | **0.4.1** (beta) |
-| Version documented | **0.4.0** (beta): what 0.4.1 adds - names, keepers who walk about, no monsters in villages - is in the [changelog](changelog.md#v0-4-1) |
+| Version documented | **0.4.1** (beta) |
 | Mod id | `inocruise` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.4.1](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9117175) · [changelog](changelog.md) |
 
@@ -56,7 +55,7 @@ A **Cruise Guide**, a book handed to every player, says where to start and has a
 
 ## Across the trades
 
-- **[Villages](villages.md)**: One Piece villages in five lands - plains, desert, snowy plains, savanna and taiga - each in its land's look, with a market square, a tavern, workshops, a town hall and a port, people who have their day there, and a notice board with five small orders every morning and the news. Marines, a pirate crew or the Revolutionaries keep some of them. Strike a villager and the village closes to you; break it and it mends itself; kill its people and it dies.
+- **[Villages](villages.md)**: One Piece villages in five lands - plains, desert, snowy plains, savanna and taiga - each in its land's look, with a market square, a tavern, workshops, a town hall and a port, people who have their day there, each with a name, and a notice board with five small orders every morning and the news. No monster spawns in one. Marines, a pirate crew or the Revolutionaries keep some of them, and their men walk the square by day. Strike a villager and the village closes to you; break it and it mends itself; kill its people and it dies.
 - **[Towns](towns.md)**: one place in four is a walled town, with its guards, a market hall where the merchants always are, an inn that lets rooms and a warehouse that buys in bulk.
 - **[A village under your flag](village-flags.md)**: a crew, the Marines or the Revolutionaries win a village by trust, by fear or by force, collect its rent, and keep it against raids - and, on a server, against other players.
 - **[Village events](village-events.md)**: a concert on the square, a fever to cure with the Chemist's remedies, a swordsmith from Wano who forges the base mod's named blades, a fishing tournament on the quay. Announced in the chat, told on the notice boards and sold as rumours by the barkeepers.
