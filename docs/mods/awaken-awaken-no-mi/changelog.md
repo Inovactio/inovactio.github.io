@@ -2,6 +2,80 @@
 
 Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/all). The Minecraft 1.16.5 releases (0.2.1 to 0.7.2) are listed there too.
 
+## 2.2.0 { #v2-2-0 }
+
+<small>Released 2026-10-10 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9117962)</small>
+
+<div class="changelog-body" markdown="0">
+<blockquote>
+<h4>⚠️ AkumaLib update required: 4.3.0</h4>
+<p>This version needs <strong><a href="https://www.curseforge.com/minecraft/mc-mods/akumalib">AkumaLib</a> 4.3.0</strong> or newer. With an older AkumaLib the game will stop on Forge's missing-dependency screen.</p>
+<p>Just replace the AkumaLib jar in your <code>mods</code> folder with the new one. On a server every player needs it too.</p>
+</blockquote>
+<p><strong>Two awakenings rebuilt from the manga.</strong> The Gomu Gomu no Mi gets its own Gear Fifth with 10 abilities around it. The Leopard gets the awakened Six Powers it uses in the manga.</p>
+<hr />
+<h3>Gomu Gomu no Mi</h3>
+<p>The addon now has its own Gear Fifth. It replaces the 3 awakened abilities of the base mod (Gear Fifth, Gigant and Dawn Whip). If you had them they are taken off when you log in and you unlock the new ones like any other awakening.</p>
+<ul>
+<li><strong>Gear Fifth</strong> lasts up to 3 minutes. Your skin and clothes turn white, clouds float around your neck and the Drums of Liberation play for everyone nearby<ul>
+<li>Every blow you take is halved, but blades still cut</li>
+<li>You run through the air for 3 seconds after each jump while sprinting</li>
+<li>It takes the place of Gear Second, Third and Fourth</li>
+<li>The cooldown is a third of the time you spent in the form, between 10 and 60 seconds</li>
+</ul>
+</li>
+<li>4 abilities of the base mod change while Gear Fifth is on<ul>
+<li><strong>Pistol</strong> becomes <strong>Dawn Pistol</strong></li>
+<li><strong>Gatling</strong> becomes <strong>Dawn Gatling</strong>, 12 salvos of giant fists</li>
+<li><strong>Bazooka</strong> becomes <strong>Dawn Cymbal</strong>. Two giant hands clap the targets flat for 3 seconds and throw them</li>
+<li><strong>Rocket</strong> becomes <strong>Dawn Rocket</strong>. The arm also catches enemies and you slam into the first enemy on your way</li>
+</ul>
+</li>
+<li>6 new abilities that only work in Gear Fifth<ul>
+<li><strong>Gomu Gomu no Sekai</strong> turns the surroundings to rubber for 30 seconds. You and your allies bounce instead of taking fall damage and enemy projectiles fly back at whoever fired them</li>
+<li><strong>Gomu Gomu no Mogura Pistol</strong> punches into the ground and comes out beside the enemy you look at. Walls do not stop it</li>
+<li><strong>Gomu Gomu no Gigant</strong> makes you a giant on top of Gear Fifth, with a longer reach, heavier blows and no knockback</li>
+<li><strong>Gomu Gomu no Kaminari</strong> catches a lightning bolt and throws it where you look</li>
+<li><strong>Gomu Gomu no Bajrang Gun</strong> raises a fist that swells for 3 seconds then comes down where you look</li>
+<li><strong>Gomu Gomu no Dawn Whip</strong> twists your body then whips a kick all round you</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3>Neko Neko no Mi, Model Leopard</h3>
+<p>The awakened Leopard now fights with its own Six Powers. Each one needs the Six Power it comes from (Shigan, Rankyaku, Tekkai or Rokuogan) and shares its cooldown with it.</p>
+<ul>
+<li><strong>Shugan</strong> is rebuilt. You throw yourself at the enemy in front and drive the whole clawed hand through them. Armour does not stop it</li>
+<li><strong>Shugan: Madara</strong> throws both clawed hands in turn, 10 stabs in a second and a half, at every enemy within reach in front</li>
+<li><strong>Tobu Shigan "Bachi"</strong> flicks 3 bullets of compressed air, each one along your look when it leaves</li>
+<li><strong>Rankyaku "Gaicho"</strong> kicks out a blade of air shaped like a great bird. It cuts every enemy in its path and bursts against the first wall</li>
+<li><strong>Rankyaku "Hyobi"</strong> throws a curled blade of air all round you with the tail and throws enemies back</li>
+<li><strong>Tekkai "Utsugi"</strong> hardens your body for an instant. Blows that land are stopped and an enemy who struck from close takes the force of the blow back</li>
+<li><strong>Sai Dai Rin: Rokuogan</strong> is the heaviest blow of the kit. Both fists against the enemy, a 2 second charge, then a shockwave that armour does not stop</li>
+<li><strong>Mauling</strong> needs the awakened Walk Point. The leopard leaps on the enemy in front, pins it down, bites it 5 times and throws it aside</li>
+<li><strong>Tail Hold</strong> needs the awakened Heavy Point. The tail wraps round the nearest enemy in front and holds it for 3 seconds while your hands stay free. Sai Dai Rin: Rokuogan lets go of it as it strikes</li>
+<li><strong>Hyozan: Kyousou</strong> is removed. If you had it, it leaves your bar when you log in</li>
+</ul>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li>The game no longer crashes when one of these abilities hits something. It happened in the downloaded mod since 2.0.0<ul>
+<li><strong>Bubble Cage</strong>, <strong>Piercing Blast</strong>, <strong>Titan Smash</strong>, <strong>Ethereal Whisper</strong>, <strong>Brilliant Meteor</strong>, <strong>Heart Rebound</strong>, <strong>Iron Tether</strong>, <strong>Bara Bara Parade</strong> and <strong>Compound Hydra</strong></li>
+<li><strong>Phantom Payload</strong>, <strong>Ghost Legion</strong> and every Negative Hollow thrown while <strong>Hollow Shroud</strong> is on</li>
+</ul>
+</li>
+<li><strong>Chuwa</strong> now clears poison, wither, nausea, blindness and smoke from you and your allies as its description says. It did nothing before</li>
+</ul>
+<hr />
+<h3>Requirements</h3>
+<ul>
+<li>Minecraft <strong>1.20.1</strong></li>
+<li>Forge <strong>47.4.18+</strong></li>
+<li><strong>Mine Mine no Mi</strong> <code>1.20.1-0.11.5</code></li>
+<li><strong>AkumaLib</strong> <code>4.3.0+</code></li>
+</ul>
+</div>
+
 ## 2.1.0 { #v2-1-0 }
 
 <small>Released 2026-09-28 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/8997899)</small>

@@ -1,6 +1,6 @@
 # All abilities
 
-Every ability of the 70 fruits in one table: **click a column** to sort it, **type in the box** to keep only the rows that match. Values are those of the ability's tooltip in game; an ability with several modes shows each mode's value, separated by `/`. Hidden abilities are left out.
+Every ability of the 71 fruits in one table: **click a column** to sort it, **type in the box** to keep only the rows that match. Values are those of the ability's tooltip in game; an ability with several modes shows each mode's value, separated by `/`. Hidden abilities are left out.
 
 <input class="table-filter" type="search" placeholder="Filter by ability, fruit or type" aria-label="Filter the abilities">
 
@@ -50,6 +50,13 @@ Every ability of the 70 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/high-frequency-wall.png){ .ability-mini }[High-Frequency Wall](fruits/goe-goe-no-mi.md#high-frequency-wall) | [Goe Goe no Mi](fruits/goe-goe-no-mi.md) | Active | 15–125 s |  | 30 s |  |  |
 | ![](abilities/resonating-world.png){ .ability-mini }[Resonating World](fruits/goe-goe-no-mi.md#resonating-world) | [Goe Goe no Mi](fruits/goe-goe-no-mi.md) | Active · Zone | 120 s | 3–12 s |  | 6–17 | 128 blocks (zone) |
 | ![](abilities/broken-focus.png){ .ability-mini }[Broken Focus](fruits/goe-goe-no-mi.md#broken-focus) | [Goe Goe no Mi](fruits/goe-goe-no-mi.md) | Passive |  |  |  |  |  |
+| ![](abilities/gear-fifth.png){ .ability-mini }[Gear Fifth](fruits/gomu-gomu-no-mi.md#gear-fifth) | [Gomu Gomu no Mi](fruits/gomu-gomu-no-mi.md) | Active · Transformation | 10–60 s |  | 180 s |  |  |
+| ![](abilities/gomu-gomu-no-sekai.png){ .ability-mini }[Gomu Gomu no Sekai](fruits/gomu-gomu-no-mi.md#gomu-gomu-no-sekai) | [Gomu Gomu no Mi](fruits/gomu-gomu-no-mi.md) | Active · Zone | 20–60 s | 1–2 s |  |  | 24 blocks (zone) |
+| ![](abilities/gomu-gomu-no-mogura-pistol.png){ .ability-mini }[Gomu Gomu no Mogura Pistol](fruits/gomu-gomu-no-mi.md#gomu-gomu-no-mogura-pistol) | [Gomu Gomu no Mi](fruits/gomu-gomu-no-mi.md) | Active | 12 s |  |  | 14 |  |
+| ![](abilities/gomu-gomu-no-gigant.png){ .ability-mini }[Gomu Gomu no Gigant](fruits/gomu-gomu-no-mi.md#gomu-gomu-no-gigant) | [Gomu Gomu no Mi](fruits/gomu-gomu-no-mi.md) | Active · Transformation | 10–30 s |  | 30 s |  |  |
+| ![](abilities/gomu-gomu-no-kaminari.png){ .ability-mini }[Gomu Gomu no Kaminari](fruits/gomu-gomu-no-mi.md#gomu-gomu-no-kaminari) | [Gomu Gomu no Mi](fruits/gomu-gomu-no-mi.md) | Active | 12 s | 1 s |  | 36 |  |
+| ![](abilities/gomu-gomu-no-bajrang-gun.png){ .ability-mini }[Gomu Gomu no Bajrang Gun](fruits/gomu-gomu-no-mi.md#gomu-gomu-no-bajrang-gun) | [Gomu Gomu no Mi](fruits/gomu-gomu-no-mi.md) | Active | 40 s | 3 s |  | 90 |  |
+| ![](abilities/gomu-gomu-no-dawn-whip.png){ .ability-mini }[Gomu Gomu no Dawn Whip](fruits/gomu-gomu-no-mi.md#gomu-gomu-no-dawn-whip) | [Gomu Gomu no Mi](fruits/gomu-gomu-no-mi.md) | Active | 15 s | 1 s |  | 24 |  |
 | ![](abilities/kami-no-kuni.png){ .ability-mini }[Godland](fruits/goro-goro-no-mi.md#kami-no-kuni) | [Goro Goro no Mi](fruits/goro-goro-no-mi.md) | Active · Zone | 90 s | 3–12 s |  | 20–65 | 128 blocks (zone) |
 | ![](abilities/stormstep.png){ .ability-mini }[Stormstep](fruits/goro-goro-no-mi.md#stormstep) | [Goro Goro no Mi](fruits/goro-goro-no-mi.md) | Active | 25 s | 2 s |  | 90–144 |  |
 | ![](abilities/storm-sovereign.png){ .ability-mini }[Storm Sovereign](fruits/goro-goro-no-mi.md#storm-sovereign) | [Goro Goro no Mi](fruits/goro-goro-no-mi.md) | Passive |  |  |  |  |  |
@@ -130,8 +137,15 @@ Every ability of the 70 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/dead-air.png){ .ability-mini }[Dead Air](fruits/nagi-nagi-no-mi.md#dead-air) | [Nagi Nagi no Mi](fruits/nagi-nagi-no-mi.md) | Passive |  |  |  |  | 30 blocks (area) |
 | ![](abilities/awaken-leopard-heavy-point.png){ .ability-mini }[Awaken Leopard Heavy Point](fruits/neko-neko-no-mi-model-leopard.md#awaken-leopard-heavy-point) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active · Transformation | 1 s |  | ∞ s |  |  |
 | ![](abilities/awaken-leopard-walk-point.png){ .ability-mini }[Awaken Leopard Walk Point](fruits/neko-neko-no-mi-model-leopard.md#awaken-leopard-walk-point) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active · Transformation | 1 s |  | ∞ s |  |  |
-| ![](abilities/shugan.png){ .ability-mini }[Shugan](fruits/neko-neko-no-mi-model-leopard.md#shugan) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active · Punch |  |  |  |  |  |
-| ![](abilities/hyozan-kyousou.png){ .ability-mini }[Hyozan: Kyousou](fruits/neko-neko-no-mi-model-leopard.md#hyozan-kyousou) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active | 30 s | 2 s |  | 40 | 40 blocks (line) |
+| ![](abilities/shugan.png){ .ability-mini }[Shugan](fruits/neko-neko-no-mi-model-leopard.md#shugan) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active | 25 s |  |  | 55 | 8 blocks |
+| ![](abilities/shugan-madara.png){ .ability-mini }[Shugan: Madara](fruits/neko-neko-no-mi-model-leopard.md#shugan-madara) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active | 30 s |  |  | 9 | 3.5 blocks |
+| ![](abilities/tobu-shigan-bachi.png){ .ability-mini }[Tobu Shigan "Bachi"](fruits/neko-neko-no-mi-model-leopard.md#tobu-shigan-bachi) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active | 12 s |  |  | 12 | 32 blocks |
+| ![](abilities/rankyaku-gaicho.png){ .ability-mini }[Rankyaku "Gaicho"](fruits/neko-neko-no-mi-model-leopard.md#rankyaku-gaicho) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active | 18 s |  |  | 54 | 40 blocks |
+| ![](abilities/rankyaku-hyobi.png){ .ability-mini }[Rankyaku "Hyobi"](fruits/neko-neko-no-mi-model-leopard.md#rankyaku-hyobi) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active | 12 s |  |  | 36 | 6.5 blocks |
+| ![](abilities/tekkai-utsugi.png){ .ability-mini }[Tekkai "Utsugi"](fruits/neko-neko-no-mi-model-leopard.md#tekkai-utsugi) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active | 4–15 s |  | 1 s | 45 | 5 blocks |
+| ![](abilities/sai-dai-rin-rokuogan.png){ .ability-mini }[Sai Dai Rin: Rokuogan](fruits/neko-neko-no-mi-model-leopard.md#sai-dai-rin-rokuogan) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active | 40 s | 2 s |  | 100 | 2.5 blocks |
+| ![](abilities/mauling.png){ .ability-mini }[Mauling](fruits/neko-neko-no-mi-model-leopard.md#mauling) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active | 3–27 s |  |  | 10 | 8 blocks |
+| ![](abilities/tail-hold.png){ .ability-mini }[Tail Hold](fruits/neko-neko-no-mi-model-leopard.md#tail-hold) | [Neko Neko no Mi, Model: Leopard](fruits/neko-neko-no-mi-model-leopard.md) | Active | 3–20 s |  | 3 s |  | 4 blocks |
 | ![](abilities/netto-jigoku.png){ .ability-mini }[Netto Jigoku](fruits/netsu-netsu-no-mi.md#netto-jigoku) | [Netsu Netsu no Mi](fruits/netsu-netsu-no-mi.md) | Active · Zone | 120 s | 3–12 s |  |  | 128 blocks (zone) |
 | ![](abilities/melting-point.png){ .ability-mini }[Melting Point](fruits/netsu-netsu-no-mi.md#melting-point) | [Netsu Netsu no Mi](fruits/netsu-netsu-no-mi.md) | Active | 60 s |  |  | 0–16 | 24 blocks (area) |
 | ![](abilities/scorching-fist.png){ .ability-mini }[Scorching Fist](fruits/netsu-netsu-no-mi.md#scorching-fist) | [Netsu Netsu no Mi](fruits/netsu-netsu-no-mi.md) | Active · Punch |  |  |  | 40–90 |  |

@@ -1,6 +1,6 @@
 # Status effects
 
-The **35 status effects** Awaken Awaken no Mi adds, and what applies them.
+The **36 status effects** Awaken Awaken no Mi adds, and what applies them.
 
 | Effect | Kind | Applied by |
 |---|---|---|
@@ -16,6 +16,7 @@ The **35 status effects** Awaken Awaken no Mi adds, and what applies them.
 | ![](effect-icons/deafened.png){ .effect-icon .pixel-art } **Deafened**{ #effect-deafened } | Harmful | [High-Frequency Wall](fruits/goe-goe-no-mi.md#high-frequency-wall), [Resonating World](fruits/goe-goe-no-mi.md#resonating-world) |
 | ![](effect-icons/downdraft-pinned.png){ .effect-icon .pixel-art } **Downdraft Pinned**{ #effect-downdraft-pinned } | Harmful | [Downdraft](fruits/ryu-ryu-no-mi-model-pteranodon.md#downdraft) |
 | ![](effect-icons/enthralled.png){ .effect-icon .pixel-art } **Enthralled**{ #effect-enthralled } | Harmful | [Enthralling Gaze](fruits/mero-mero-no-mi.md#enthralling-gaze) |
+| ![](effect-icons/flattened.png){ .effect-icon .pixel-art } **Flattened**{ #effect-flattened } | Harmful | [Gear Fifth](fruits/gomu-gomu-no-mi.md#gear-fifth) |
 | ![](effect-icons/friction.png){ .effect-icon .pixel-art } **Friction**{ #effect-friction } | Harmful | [Aura of Friction](fruits/kachi-kachi-no-mi.md#aura-of-friction), [Friction Burn](fruits/kachi-kachi-no-mi.md#friction-burn), [Scalding Steam](fruits/kachi-kachi-no-mi.md#scalding-steam) |
 | ![](effect-icons/ground-drown.png){ .effect-icon .pixel-art } **Ground Drown**{ #effect-ground-drown } | Harmful | [Waterpool Domain](fruits/sui-sui-no-mi.md#waterpool-domain) |
 | ![](effect-icons/gullivers-shrink.png){ .effect-icon .pixel-art } **Gulliver's Shrink**{ #effect-gullivers-shrink } | Harmful | [Gulliver's Nightmare](fruits/mini-mini-no-mi.md#gullivers-nightmare) |
