@@ -17,13 +17,13 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **1.0.0** |
+| Version documented | **2.0.0** |
 | Mod id | `inomissing` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [1.0.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9069580) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [2.0.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9118748) · [changelog](changelog.md) |
 
 ## What it adds
 
-**21 Devil Fruits**: 15 Paramecia, 2 Logia and 4 Zoan, with their abilities, transformations, summoned creatures and status effects.
+**54 Devil Fruits**: 35 Paramecia, 5 Logia and 14 Zoan (5 of them ancient, 3 mythical), with their abilities, transformations, summoned creatures and status effects.
 
 The fruits behave like the base mod's own:
 
@@ -40,7 +40,7 @@ Nothing here replaces or rebalances the base mod, and a fruit Mine Mine no Mi ha
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.5 |
-| [AkumaLib](../../akumalib/index.md) | **4.0.0 or later** |
+| [AkumaLib](../../akumalib/index.md) | **4.4.0 or later** |
 
 ## Getting started
 
@@ -52,7 +52,7 @@ Nothing here replaces or rebalances the base mod, and a fruit Mine Mine no Mi ha
 
 | Page | What you'll find |
 |---|---|
-| **[Fruits](fruits/index.md)** | the 21 fruits, one page each, with every ability's description and values, and the odds of each box |
+| **[Fruits](fruits/index.md)** | the 54 fruits, one page each, with every ability's description and values, and the odds of each box |
 | **[All abilities](all-abilities.md)** | every ability in one table you can sort and filter: cooldown, charge, hold, damage, range |
 | **[Status effects](effects.md)** | the effects the fruits inflict or grant, and what applies each one |
 | **[Changelog](changelog.md)** | what each release brought |

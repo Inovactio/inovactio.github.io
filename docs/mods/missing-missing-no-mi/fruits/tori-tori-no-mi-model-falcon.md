@@ -6,8 +6,8 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 11: 9 active, 2 passive |
+| **Chance per opening** | iron **1.71%**, wooden **0.085%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 11: 9 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Falcon Assault Point](#falcon-assault-point), [Falcon Fly Point](#falcon-fly-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -39,6 +39,9 @@ Transforms the user into a big falcon, which flies fast and can carry another pl
 
 *Passive*
 
+!!! info "Hidden ability"
+    It does not appear in the ability menu.
+
 Requires Falcon Assault Point or Falcon Fly Point to be active.
 
 ## Falcon Rideable { #falcon-rideable }
@@ -60,7 +63,7 @@ While in the air, the user dives at the target and slashes it with their talons
 | Damage type | Slash, Physical |
 | Haki | Hardening |
 | Cooldown | 8 s |
-| Damage | 9 |
+| Damage | 12 |
 
 ## Tsukami Otoshi { #tsukami-otoshi }
 
@@ -83,6 +86,7 @@ The user flaps their wings pushing back all enemies in front of them, projectile
 |---|---|
 | Damage type | Indirect |
 | Element | Wind |
+| Haki | Special |
 | Cooldown | 10 s |
 | Range | 7 blocks (area) |
 | Damage | 3 |

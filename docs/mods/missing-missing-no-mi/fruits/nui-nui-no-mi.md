@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Stitch |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.92%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **2.21%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 7 active, 0 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -52,9 +52,11 @@ Sews all the enemies and items around the target to it and then pulls the thread
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
+| Haki | Special |
 | Cooldown | 18 s |
 | Damage | 4–20 |
 | Range | 8 blocks (area) |
+| Damage When Yanked | 3 |
 
 ## Tsukuroi { #tsukuroi }
 
@@ -65,6 +67,7 @@ Sews a wound of a nearby ally or of the user, which stops the bleeding and regen
 | Stat | Value |
 |---|---|
 | Cooldown | 20 s |
+| Regeneration | 5 s |
 
 ## Hodoki { #hodoki }
 
@@ -85,6 +88,7 @@ Sews the arms of the enemy the user is looking at to its body, for 4 seconds it 
 | Stat | Value |
 |---|---|
 | Damage type | Slash, Indirect |
+| Haki | Special |
 | Cooldown | 15 s |
 | Damage | 5 |
 | Hold | 4 s |

@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Assembly |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.96%**, iron **0.198%**, wooden **0.010%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **3.06%**, iron **0.153%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 10: 10 active, 0 passive |
 | **Transformations** | [Unión Armado](#union-armado), [Blindado](#blindado) |
 
@@ -24,7 +24,9 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/desmontar.png){ .ability-icon } *Active*
 
-Breaks the crafted block or the dropped item the user is looking at into the ingredients of its recipe. A damaged item gives less ingredients
+Breaks the crafted block or the dropped item the user is looking at into half the ingredients of its recipe, rounded down. A damaged item gives less ingredients
+
+A thing that can be made in more than one way does not come apart
 
 | Stat | Value |
 |---|---|
@@ -46,7 +48,7 @@ If used while crouching, repairs the item in the user's hand using its material 
 
 ![](../abilities/muralla.png){ .ability-icon } *Active*
 
-The user creates a big wall where they are looking at, made from the ground blocks, which send flying the entities near it. The wall stops enemies and projectiles and disappears after 10 seconds
+The user creates a big wall where they are looking at, made from the ground blocks, which sends flying the enemies near it. The wall stops enemies and projectiles and disappears after 10 seconds
 
 | Stat | Value |
 |---|---|
@@ -149,16 +151,6 @@ The user's arms gets bigger with scrap and Busoshoku Haki, increasing their punc
 | Stat | Value |
 |---|---|
 | Requires Busoshoku Haki | Full Body Hardening to be active. |
-| Cooldown | 60 s |
-| Hold | 40 s |
-
-**Stats while active**
-
-| Stat | Value |
-|---|---|
-| Armor | +8 |
-| Speed | x1.2 |
-| Punch Damage | +12 |
 
 ## Det Sterkeste Strike { #det-sterkeste-strike }
 

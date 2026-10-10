@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Weapons |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.71%**, wooden **0.085%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -43,6 +43,7 @@ Transforms the user's arm into a revolver that shoots multiple bullets where the
 | Stat | Value |
 |---|---|
 | Damage type | Projectile, Bullet |
+| Haki | Imbuing |
 | Cooldown | 10 s |
 | Hold | 2 s |
 | Damage | 2.5 |
@@ -58,6 +59,7 @@ The user kicks with their leg transformed into a gun, that shoots when the kick 
 | Stat | Value |
 |---|---|
 | Damage type | Bullet |
+| Haki | Imbuing |
 | Cooldown | 7 s |
 | Damage | 10 |
 | Range | 3.5 blocks (cone) |
@@ -73,6 +75,7 @@ Transforms the user's leg into a Gatling gun that shoots a lot of bullets where 
 | Stat | Value |
 |---|---|
 | Damage type | Projectile, Bullet |
+| Haki | Imbuing |
 | Cooldown | 25 s |
 | Hold | 4 s |
 | Damage | 1.2 |
@@ -94,6 +97,7 @@ Throws a sickle with a chain from the user's arm, it cuts the first enemy it hit
 | Stat | Value |
 |---|---|
 | Damage type | Slash, Projectile |
+| Haki | Imbuing |
 | Cooldown | 9 s |
 | Damage | 5 |
 
@@ -108,6 +112,7 @@ Transforms the user's upper body into a flamethrower, that shoots a cone of fire
 | Stat | Value |
 |---|---|
 | Element | Fire |
+| Haki | Special |
 | Cooldown | 16 s |
 | Hold | 3 s |
 | Damage | 3 |
@@ -124,9 +129,10 @@ Transforms the user into a missile that flies where they are looking and explode
 | Stat | Value |
 |---|---|
 | Element | Explosion |
+| Haki | Imbuing |
 | Cooldown | 30 s |
 | Hold | 5 s |
-| Damage | 14 |
+| Damage | 20 |
 
 ## Flying Disk Girl { #flying-disk-girl }
 
@@ -139,6 +145,7 @@ Transforms the user into a spinning cutting disk that dashes forward, damaging a
 | Stat | Value |
 |---|---|
 | Damage type | Slash, Physical |
+| Haki | Hardening |
 | Cooldown | 12 s |
 | Hold | 2 s |
 | Damage | 7 |

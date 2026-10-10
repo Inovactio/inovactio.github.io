@@ -6,8 +6,8 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 10: 8 active, 2 passive |
+| **Chance per opening** | iron **1.71%**, wooden **0.085%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 10: 8 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Kabutomushi Heavy Point](#kabutomushi-heavy-point), [Kabutomushi Walk Point](#kabutomushi-walk-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -39,6 +39,9 @@ Transforms the user into a big rhinoceros beetle, which has a lot of armor, can 
 
 *Passive*
 
+!!! info "Hidden ability"
+    It does not appear in the ability menu.
+
 Requires Kabutomushi Heavy Point or Kabutomushi Walk Point to be active.
 
 ## Kabutomushi Rideable { #kabutomushi-rideable }
@@ -58,6 +61,7 @@ While in the hybrid form, the user dashes forward while spinning and headbutts a
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Physical |
+| Haki | Hardening |
 | Cooldown | 11 s |
 | Damage | 10 |
 
@@ -70,6 +74,7 @@ The user picks up the enemy in front of them with their horn and throws it over 
 | Stat | Value |
 |---|---|
 | Damage type | Blunt |
+| Haki | Hardening |
 | Cooldown | 7 s |
 | Damage | 6 |
 
@@ -98,7 +103,7 @@ While in the hybrid form, the user launches a lot of fast punches with their fou
 | Damage type | Blunt, Physical |
 | Haki | Hardening |
 | Cooldown | 12 s |
-| Damage | 4 |
+| Damage | 4–24 |
 | Range | 3 blocks (line) |
 
 ## Shell Guard { #shell-guard }

@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Stone |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.96%**, iron **0.198%**, wooden **0.010%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **3.06%**, iron **0.153%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 6 active, 2 passive |
 | **Transformations** | [Stone Giant](#ishi-giant) |
 
@@ -43,6 +43,7 @@ Creates stone tentacles around the location the user is looking at, that smashes
 | Stat | Value |
 |---|---|
 | Damage type | Blunt |
+| Haki | Special |
 | Cooldown | 10 s |
 | Damage | 12 |
 
@@ -57,6 +58,7 @@ Creates multiple waves of stone spikes from the ground around the user, launchin
 | Stat | Value |
 |---|---|
 | Damage type | Blunt |
+| Haki | Special |
 | Cooldown | 25 s |
 | Damage | 14 |
 
@@ -71,8 +73,9 @@ Creates two spiked stone pillars on each side of the enemy the user is looking a
 | Stat | Value |
 |---|---|
 | Damage type | Blunt |
+| Haki | Special |
 | Cooldown | 15 s |
-| Damage | 20 |
+| Damage | 26 |
 
 ## Bitestone { #bitestone }
 
@@ -85,6 +88,7 @@ Creates a giant stone head in front of the enemy the user is looking at, which b
 | Stat | Value |
 |---|---|
 | Damage type | Blunt |
+| Haki | Special |
 | Cooldown | 12 s |
 | Damage | 15 |
 
@@ -99,6 +103,7 @@ A stone fist comes out of the closest stone wall or floor near the enemy the use
 | Stat | Value |
 |---|---|
 | Damage type | Blunt |
+| Haki | Hardening |
 | Cooldown | 3 s |
 | Damage | 6 |
 
@@ -120,28 +125,27 @@ Stone Colossus
 
 | Stat | Value |
 |---|---|
-| Cooldown | 60 s |
 | Size | x2.5 |
 | Stone to Raise | <span class="stat-malus">64 blocks</span> |
 | Stone Body | 128 blocks |
 | Fist Damage | +20 |
 | Movement Speed | <span class="stat-malus">-25 %</span> |
-| Other Techniques' Damage | x1.5 |
+| Other Abilities' Damage | x1.5 |
 | Size | x5 |
 | Stone to Raise | <span class="stat-malus">128 blocks</span> |
 | Stone Body | 256 blocks |
 | Fist Damage | +35 |
 | Movement Speed | <span class="stat-malus">-50 %</span> |
-| Other Techniques' Damage | x2 |
+| Other Abilities' Damage | x2 |
 | Size | x8 |
 | Stone to Raise | <span class="stat-malus">256 blocks</span> |
 | Stone Body | 512 blocks |
 | Fist Damage | +50 |
 | Movement Speed | <span class="stat-malus">-75 %</span> |
-| Other Techniques' Damage | x3 |
+| Other Abilities' Damage | x3 |
 | Size | x12 |
 | Stone to Raise | <span class="stat-malus">512 blocks</span> |
 | Stone Body | 1,024 blocks |
 | Fist Damage | +70 |
 | Movement Speed | <span class="stat-malus">-100 %</span> |
-| Other Techniques' Damage | x4 |
+| Other Abilities' Damage | x4 |

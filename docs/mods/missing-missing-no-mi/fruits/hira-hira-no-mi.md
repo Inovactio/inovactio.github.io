@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Ripple |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **2.45%**, wooden **0.122%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.71%**, wooden **0.085%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 6 active, 1 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -56,6 +56,7 @@ Makes the ground around the user wave like a flag, all enemies standing on it lo
 
 | Stat | Value |
 |---|---|
+| Haki | Special |
 | Cooldown | 15 s |
 | Damage | 4 |
 | Range | 9 blocks (area) |
@@ -69,6 +70,7 @@ Shoots confetti above where the user is looking at. Use the ability again to tur
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Projectile |
+| Haki | Imbuing |
 | Cooldown | 30 s |
 | Hold | 5 s |
 | Damage | 7 |

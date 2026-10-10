@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Sickle |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.92%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **2.21%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 | **Transformations** | [Kama Tsume](#kama-tsume) |
 
@@ -76,7 +76,7 @@ The user slashes the air multiple times launching a lot of air blades, after whi
 | Haki | Imbuing |
 | Cooldown | 30 s |
 | Range | 3 blocks (area) |
-| Damage | 4 |
+| Damage | 3–4 |
 
 ## Kama Kama no Renzan { #kama-kama-no-renzan }
 
