@@ -154,7 +154,7 @@ A village that someone keeps is not won by good turns or by a great bounty: it i
 
 Three steps:
 
-1. **Empty their place** of its men: the post or the base, the den or the ship, the camp.
+1. **Beat every one of their men**: those of the post or the base, of the den or the ship, of the camp. Since 0.4.1 most of them walk about the village by day, and one who falls is **relieved three days later**: they are all to be down within the same three days. Ask the one at the village's head **"Where are they"**: he says how many are left, and you see them through the walls for a minute.
 2. **Declare your assault** at the hall. For a crew, its captain alone.
 3. **Beat their reinforcements within five minutes.** They land at once, as many as the village is large, a captain among them. Where the Marines' large base stands they are twice as many, with a vice admiral at their head.
 
