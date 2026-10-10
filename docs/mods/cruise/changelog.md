@@ -2,6 +2,52 @@
 
 Every Cruise Cruise no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/all).
 
+## 0.4.1: beta { #v0-4-1 }
+
+<small>Released 2026-10-10 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9117175)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>The villages have faces.</strong> Everyone who lives in a village or a town now has a name, and so have the Marines and
+the pirates who keep it - who no longer stay shut in their post: they walk the square by day and go back at night.
+No monster spawns in a village any more. And the stairs of the mod's woods and of marble, which were drawn the
+wrong way when set upside down or at a corner, are fixed.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi</strong> 0.11.5 and <strong>AkumaLib 4.3.0</strong> - the latest one, as
+0.4.0 did. Client and server.</p>
+<p>⚠️ <strong>Update the server and every player together.</strong> The network protocol changed: a 0.4.1 client cannot join a
+0.4.0 server, nor the other way round.</p>
+<p>⚠️ <strong>Your worlds.</strong> A world played with 0.4.0 opens as it is. The people of villages already made get their names
+as you come near, and their keepers come out of their post the same way.</p>
+<p>⚠️ <strong>A beta</strong>: everything here is playable, but numbers may still move with your feedback.</p>
+<hr />
+<h3>New</h3>
+<ul>
+<li><strong>Those who keep a village walk about in it.</strong> The Marines of a post or a base and the pirates of a den or a ship
+  no longer stay shut in their place: their captain and a man or two keep it, the others are on the square by day,
+  at the tavern in the evening, and go back at night. The Revolutionaries stay in their camp. Each has a name,
+  shown with his rank when you look at him.</li>
+<li><strong>"Where are they?"</strong> Ask the one at the head of a village somebody keeps: he says how many of them are left, and
+  you see them through the walls for a minute. To take a village by force, they are all to be beaten within three
+  days: one who falls is relieved three days later.</li>
+<li><strong>The people of villages and towns have names.</strong> Every inhabitant - villagers, children, guards, the innkeeper,
+  the storekeeper, the clerk, the one at the village's head - has a name of his land, shown with his trade when
+  you look at him. Now and then one tells you who he is, or speaks of a neighbour. The head's window names him
+  and, in a town, those who keep its inn, its warehouse and its hall; and each order of the notice board says who
+  asks. The people of villages already made get their names too.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><strong>No monster spawns in a village or a town.</strong> By night or in a dark corner, no hostile creature appears on the
+  ground of a village or a town any more, and no phantom comes for whoever stands in one. Monsters still walk in
+  from outside - a town's guards keep their work - and a village whose people are all dead has its monsters back.
+  A server can turn this off (<code>monstersInVillages</code> under <code>villages</code> in <code>inocruise-common.toml</code>).</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><strong>Stairs.</strong> The stairs of the nine woods and of marble were turned the wrong way at the corners and when set
+  upside down, and one could see through the ground behind them. They are drawn as any stairs now.</li>
+</ul>
+</div>
+
 ## 0.4.0: beta { #v0-4-0 }
 
 <small>Released 2026-10-09 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9109571)</small>
