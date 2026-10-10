@@ -126,6 +126,8 @@ Only as a pool. The pool leaves a trail of liquid on the ground it slides over, 
 
 The trail stays until the ability ends, even after the user takes shape again. Use the ability again to remove it
 
+The ground is covered with **Liquid Trail**.
+
 | Stat | Value |
 |---|---|
 | Cooldown | 20 s |

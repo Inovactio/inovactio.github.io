@@ -33,6 +33,8 @@ Creatures in range fall asleep, all but bosses become the user's puppets. A hit 
 
 A player defeated in the dream wakes up and takes heavy damage, and so does the user. While alone in the dream, the user can use this again to end it
 
+Uta World is built of its own blocks, which nothing breaks: Dream Stage, Dream Floor, Dream Wall, Dream Frame, Dream Curtain and Dream Light.
+
 | Stat | Value |
 |---|---|
 | Cooldown | 30–120 s |

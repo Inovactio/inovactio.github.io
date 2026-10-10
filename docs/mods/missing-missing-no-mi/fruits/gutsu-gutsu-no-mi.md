@@ -47,6 +47,8 @@ The user pulls a glowing weapon out of their body, it can be a blade, a maul, a 
 
 Forged weapons are made of the best metal in the furnace, set what they strike on fire, and melt after 90 seconds or when dropped
 
+The weapon is a **Forged Blade**, a **Forged Maul**, a **Forged Spear** or a **Forged Gun**, in the metal the furnace holds (iron, gold or copper). What it strikes burns. It takes no wear and no enchantment, melts after 90 seconds, and at once if it is dropped. The gun fires 6 balls of molten metal, then it is spent.
+
 | Stat | Value |
 |---|---|
 | Cooldown | 10 s |

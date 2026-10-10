@@ -123,6 +123,8 @@ The user draws a weapon of ink in their hand, for 60 seconds at most. It can be 
 
 The weapon dissolves if it leaves the user's hands, or in water
 
+The weapon is an **Ink Sabre** or an **Ink Spear**, chosen with the mode key before it is drawn. It stays for 60 seconds at most and is gone as soon as it leaves the user's hand.
+
 | Stat | Value |
 |---|---|
 | Damage type | Slash |
@@ -135,6 +137,8 @@ The weapon dissolves if it leaves the user's hands, or in water
 ![](../abilities/ink-food.png){ .ability-icon } *Active*
 
 The user draws 3 dango of ink. They feed whoever eats them but taste bad, and dissolve after 3 minutes.
+
+Gives 3 **Ink Dango**: each feeds like bread and gives a short nausea, anybody can eat them, and they are gone after 3 minutes if not eaten.
 
 | Stat | Value |
 |---|---|

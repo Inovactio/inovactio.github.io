@@ -31,6 +31,8 @@ Used again with the same outfit on, it takes the outfit off
 
 The ability mode key opens the wardrobe, where the outfit is chosen
 
+The wardrobe holds seven outfits, four pieces each, worn in place of the armour: **Samurai Armor** (Samurai Helmet, Samurai Cuirass, Samurai Hakama, Samurai Shin Guards: protects like an iron armor), **Warm Clothes** (Fur Hat, the base mod's winter coat, Padded Trousers, Fur Boots: no freezing, frostbite lasts half as long), **Marine Uniform** and **Pirate Outfit** (the base mod's own clothes), **Bandit Garb** (the base mod's hat, Bandit Vest, Bandit Trousers, Bandit Boots), **Revolutionary Cape** (the base mod's top hat, Revolutionary Cape, Revolutionary Trousers, Revolutionary Boots) and **Shishi Costume** (Shishi Head, Shishi Coat, Shishi Trousers, Shishi Tabi). In a faction's clothes that faction leaves the wearer alone until he strikes one of them, in the Shishi Costume monsters do, and his name is hidden.
+
 | Stat | Value |
 |---|---|
 | Cooldown | 10 s |

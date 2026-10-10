@@ -83,6 +83,8 @@ While in the spider hybrid form, the user pulls apart the arms of the enemy boun
 
 While in the spider hybrid form, the user weaves a wall of net in front of them that stops enemies and projectiles. The wall disappears after a while, burns easily and shatters in the cold
 
+The wall is made of **Gum Wall** blocks.
+
 | Stat | Value |
 |---|---|
 | Cooldown | 15 s |
