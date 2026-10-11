@@ -130,6 +130,8 @@ A town has its guards, a village has none. Since 0.4.2 the coffer of a **village
 - **Where they stand**: the first before the hall's door, the others round the square. They keep their post and walk no round.
 - When your flag falls or changes hands, **they leave**. One who dies is paid no more, and his place is free to hire again.
 
+![A hired guard at his post before the hall's door](pictures/hired-guard.png)
+
 ## Raids
 
 Every **twenty to thirty days** a village you hold is raided by your enemies.
