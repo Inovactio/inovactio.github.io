@@ -33,7 +33,12 @@ tags:
   - mending
   - pirate village
   - revolutionary camp
-  - locate
+  - locate  - errand
+  - exclamation mark
+  - parcel
+  - remarkable catch
+  - wanted notice
+  - standing
 ---
 
 # Villages
@@ -258,6 +263,39 @@ On the market square, a board has two notes: the day's orders, and the news.
 The bigger orders are the merchants' [contracts](merchants-and-contracts.md), and a town's [warehouse](towns.md#the-warehouse) buys in bulk.
 
 **The news.** The second note tells every event running within 2,000 blocks, as a barkeeper would tell it, with how long it still lasts. A ship at anchor gives its coordinates; a school of fish, a fallen star, a migration, a storm or the fog give a way and a distance. It costs nothing: you only have to come and read. The events themselves are told in [Village events](village-events.md) and [Events at sea](events-at-sea.md).
+
+**Wanted notices** (since 0.4.2). At the head of its news a board may post one man: the captain who leads the Marines or the pirates **holding a village nearby**, by his name and rank, with the village he holds and where it lies.
+
+- A village the Marines keep, or nobody, posts a pirate captain; one a pirate crew or the Revolutionaries keep posts a Marine officer. It is the nearest such leader within 3,000 blocks.
+- Whoever strikes the last blow is paid **5,000 Belly by every village that posted him**, and has done each of them a good turn.
+- Nothing is paid for a man of your own side: a Marine who beats a Marine captain gets nothing, and the notice comes down.
+- A notice stays **a week**, or until its man falls or is relieved. The board is then bare for three days before the next.
+
+## Errands
+
+Since 0.4.2 the people ask things for themselves. Now and then **one inhabitant of a village, two in a town**, has an **exclamation mark** over his head, seen from 24 blocks. Speak to him: he says what he wants, what he gives for it and how long he waits, and a button hands it over once you carry it all.
+
+He waits **3 days**, then somebody else asks. The first player to bring it has it. Guards, children and the keepers of the inn, the warehouse and the hall ask nothing, and a village with nobody at its head has no errands.
+
+| What he asks | Who asks | What it pays |
+|---|---|---|
+| **Goods of a trade** | a fisherman: fish, now and then Bait or a Scent Lure; a farmer: crops; a craftsman: ores; the women: a Cook's dishes; an old man: a Hunter's catches | 1.5 to 1.7 times what the goods are worth (the board pays 1.3 to 1.5), XP in the trade, a Merchant's bonus |
+| **A parcel to carry** (one time in four) | anyone who asks, for somebody he names in another living village within 4,000 blocks | paid on arrival by the one it is for: 200 Belly and 1 more for every 2 blocks of the way, 2,000 at most |
+| **A remarkable catch** (one time in four) | a fisherman: one fish of a given size, bigger than most of its kind; an old man: one creature of the rarer half of the Hunter's | 1.8 to 2 times what such a catch is worth, XP in the trade |
+
+- **The Parcel** is an item: whom it is for, where he lives and what he pays are written on it. The one who waits for it shows the mark too, for 7 days; if he is not about, the one at his village's head takes it for him. He pays however late it comes.
+- A fish too small is not taken. Of several big enough, the smallest goes.
+- Every errand done is **a good turn** for the village that asked: after twenty it will take [your flag](village-flags.md#by-trust). For a parcel, it is the village that sent it.
+
+## Where you stand
+
+The window of the one at a village's head has a part named **Your standing** (since 0.4.2):
+
+- the **good turns** you did the village, and how many are left before it would take your flag;
+- what its **stalls take off** for you, and why: a Merchant's bargain, a fever you helped with, your flag or your side;
+- for one of the group that holds it, its **loyalty**.
+
+A village closed to you does not open that window: its head says **for how long** it stays closed, in hours under a day, in days from there.
 
 ## Marines
 

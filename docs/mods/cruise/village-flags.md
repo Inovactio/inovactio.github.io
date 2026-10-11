@@ -19,7 +19,8 @@ tags:
   - captain
   - marines
   - revolutionaries
-  - pirate village
+  - pirate village  - hired guards
+  - hire a guard
 ---
 
 # A village under your flag
@@ -117,6 +118,17 @@ The rent is kept in the hall's coffer.
 Collect it at the hall: the crew's captain, or for the Marines and the Revolutionaries whoever raised the flag. Striking your own flag hands you what the coffer holds.
 
 **Your flag flies on the hall's mast** (for a crew, its own Jolly Roger), and your group is told what becomes of its villages.
+
+## Hired guards
+
+A town has its guards, a village has none. Since 0.4.2 the coffer of a **village under your flag** can pay for some.
+
+- **Up to 4**, hired one by one at the village's head by whoever collects its coffer: two buttons in the flag's part of his window, "Hire a guard" and "Send a guard away". Not in a town, which has its own.
+- **Each is paid the rent of 5 villagers a day** out of the coffer, once the day's rent came in: 200 Belly in a village that trusts you, 100 in one that fears you.
+- A coffer that cannot pay them all loses the last one hired, one a day, and your group is told.
+- **What they do**: they dress and fight as a [town's guards](towns.md#the-guards), against monsters, raiders and whoever the village is closed to, and beside you in a raid or an assault whether the village trusts or fears you. They never go for one of your group.
+- **Where they stand**: the first before the hall's door, the others round the square. They keep their post and walk no round.
+- When your flag falls or changes hands, **they leave**. One who dies is paid no more, and his place is free to hire again.
 
 ## Raids
 

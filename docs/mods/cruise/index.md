@@ -6,8 +6,7 @@
 
 | | |
 |---|---|
-| Latest version | **0.4.2** (beta) |
-| Version documented | **0.4.1** (beta): what 0.4.2 adds - errands, wanted notices, hired guards, town plots, feast days - is in the [changelog](changelog.md#v0-4-2) |
+| Version documented | **0.4.2** (beta) |
 | Mod id | `inocruise` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.4.2](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9129051) · [changelog](changelog.md) |
 

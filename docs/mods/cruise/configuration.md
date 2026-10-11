@@ -60,6 +60,15 @@ One section for each of the [village events](village-events.md), with the same f
 | `mostDaysBetween` | `8` | `10` | `12` | `9` | The most days from one to the next (1 to 365). |
 | `stayHours` | `24` | `24` | `48` | `24` | How many in-game hours it lasts (1 to 720): the stage stays up, the fever runs if nobody cures it, the swordsmith stays, the judge stays on the quay. |
 
+### Feast days
+
+`feast`, for the [feast day](village-events.md#a-feast-day):
+
+| Setting | Default | What it does |
+|---|---|---|
+| `enabled` | `true` | Whether feast days are held at all. |
+| `daysBetween` | `30` | How many in-game days from one feast to the next (5 to 365). |
+
 ## Events at sea
 
 One section for each of the [events at sea](events-at-sea.md#at-sea). Days are in-game days (one day = 20 real minutes, one in-game hour = 50 real seconds); the wait between two events of a kind is drawn anew each time, between the two numbers. Everywhere, the days go from 1 to 365 and the hours from 1 to 720.
@@ -167,6 +176,15 @@ One section for each of the [events on land](events-at-sea.md#on-land), counted 
 | `stayHours` | `24` | How many in-game hours the meteorite lies there (24 = one day). |
 
 A disabled event that is already running still ends on time. Operators can list, start and stop events with AkumaLib's `/akumalib events` command: see AkumaLib's [world events page](../../akumalib/utilities/world-events.md#for-operators).
+
+## `performance`
+
+Nothing here changes a world: only when the work is done. Both came with 0.4.2 and are there to be turned off if they ever give trouble.
+
+| Setting | Default | What it does |
+|---|---|---|
+| `villageSitesAhead` | `true` | The sites of the villages about a player are worked out ahead, on a background thread, before the world gets to them. Off, each is worked out while the land is made, with a pause. |
+| `seaSearchesAhead` | `true` | The sea in which a ship's, a wreck's or a Sea King's place is looked for is read on a background thread; the event begins a second or two later. Off, the server stops while it reads, up to a second. |
 
 ## The trades' levels (AkumaLib)
 

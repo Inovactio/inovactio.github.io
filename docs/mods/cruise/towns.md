@@ -19,7 +19,9 @@ tags:
   - stall
   - market clerk
   - caravanserai
-  - mead hall
+  - mead hall  - plot
+  - plot for sale
+  - build in a town
 ---
 
 # Towns
@@ -181,3 +183,15 @@ The Storekeeper stands by his table, dressed as his land dresses. Speak to him t
 - **A filled order is replaced the next day**; one nobody fills is replaced after a week.
 - **Whoever fills an order has done the town a good turn**: it counts toward the town's [trust](village-flags.md#by-trust).
 - A town that is closed to you takes nothing from you.
+
+## Plots for sale
+
+Since 0.4.2 every **new town** has **3 plots for sale**: bare ground of 9 by 9 in the place of a house, a low post at each corner and a sign on the street side that says "For sale".
+
+- **Buy one from the head of the town**: his window has a part named "Its plots", with each plot, where it lies and whether it is still for sale. A plot costs **50,000 Belly**, paid once. One plot a player in a town, and none while the town is closed to you.
+- **It is yours for good**, from the bedrock to the sky, whatever becomes of the town. Its sign then bears your name.
+- **You and your crew build there**: break, place, open chests. Nobody else can, no explosion takes a block of it and no ability changes one.
+- **The town leaves it alone**: nothing you do there is a crime, and the [mending](villages.md#villages-mend-themselves) neither clears what you built nor puts anything back.
+- A bed there is a bed: you can set your spawn in your town.
+
+Towns made before 0.4.2 keep their houses and have no plot to sell; their head says so. A village has none.

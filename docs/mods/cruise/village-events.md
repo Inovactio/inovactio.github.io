@@ -31,6 +31,9 @@ tags:
   - golden hook
   - notice board
   - news
+  - feast
+  - feast day
+  - cooking contest
 ---
 
 # Village events
@@ -43,6 +46,7 @@ Now and then something happens in a [village](villages.md) near you. Three **eve
 | [A fever in the village](#a-fever-in-the-village) | every 7 to 10 days | 1 day | remedies to bring, paid in Belly and Chemist XP, and 20 % off the village's stalls |
 | [A swordsmith from Wano](#a-swordsmith-from-wano) | every 8 to 12 days | 2 days | the base mod's named blades, forged on commission |
 | [A fishing tournament](#a-fishing-tournament) | every 6 to 9 days | 1 day | medals for the biggest catch of the day, paid in Belly and Fisher XP, and a trophy |
+| [A feast day](#a-feast-day) | every 30 days | told 3 days ahead, 1 day of feast | everyone on the square, the five merchants, a concert, a contest, better prices and more XP |
 
 The three visitors of the square, in 3D (drag to turn, scroll or pinch to zoom):
 
@@ -163,6 +167,21 @@ Fish where you like while the tournament runs, then bring your best one to the j
 When the day ends, **the biggest catch measured** takes the trophy, if it reached **silver at least**; of two as big, the first measured. The **Fishing Trophy** is the fish itself mounted on a plaque, with its size, your name, the village and the day.
 
 It is handed to you wherever you are, at your next coming if you are away. Hang it on a wall.
+
+## A feast day
+
+Since 0.4.2, **every 30 days** a living village or town within 1,500 blocks of a player holds its feast. It is told **3 days ahead**: in the chat when it is announced and again when its day begins, and the notice boards and the barkeepers count the days.
+
+On the day:
+
+- **Its people are all out on the square**, at every hour of the day. Nobody is at work.
+- **The five merchants are at their stalls** (in a town, at their stands of the market hall), each with **twice a day's goods, three times in a town**.
+- **A concert plays on the square**: the stage and the travelling musician of [a concert](#a-concert-on-the-square), for the whole day.
+- **Feast prices**: the village's stalls sell 10 % cheaper and its merchants buy 10 % dearer, on top of what you already have there.
+- **Feast Day**: while you stand on the village's ground you have this effect, 10 % more XP in every trade, on top of a night at the [inn](towns.md#the-inn).
+- **A contest**: a place with a port holds the [fishing tournament](#a-fishing-tournament) on its quay; an inland one has a head chef on its square for a **cooking contest**, with the rules and prizes of the [floating restaurant](events-at-sea.md)'s: Cooks only, one dish each.
+
+A square that already holds a concert or a fever of its own has no feast that day. `feast` in the [configuration](configuration.md#feast-days) turns feasts off or sets the days between two.
 
 ## The news on the notice board
 
