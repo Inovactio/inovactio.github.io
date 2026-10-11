@@ -271,9 +271,15 @@ The bigger orders are the merchants' [contracts](merchants-and-contracts.md), an
 - Nothing is paid for a man of your own side: a Marine who beats a Marine captain gets nothing, and the notice comes down.
 - A notice stays **a week**, or until its man falls or is relieved. The board is then bare for three days before the next.
 
+![A wanted notice at the head of a board's news: Barlo, Pirate Captain, 5 000 Belly](pictures/wanted-notice.png)
+
 ## Errands
 
 Since 0.4.2 the people ask things for themselves. Now and then **one inhabitant of a village, two in a town**, has an **exclamation mark** over his head, seen from 24 blocks. Speak to him: he says what he wants, what he gives for it and how long he waits, and a button hands it over once you carry it all.
+
+![A villager with the exclamation mark over his head](pictures/errand-mark.png)
+
+![Spoken to, he says what he wants, what he gives and how long he waits](pictures/errand-asked.png)
 
 He waits **3 days**, then somebody else asks. The first player to bring it has it. Guards, children and the keepers of the inn, the warehouse and the hall ask nothing, and a village with nobody at its head has no errands.
 
@@ -284,6 +290,9 @@ He waits **3 days**, then somebody else asks. The first player to bring it has i
 | **A remarkable catch** (one time in four) | a fisherman: one fish of a given size, bigger than most of its kind; an old man: one creature of the rarer half of the Hunter's | 1.8 to 2 times what such a catch is worth, XP in the trade |
 
 - **The Parcel** is an item: whom it is for, where he lives and what he pays are written on it. The one who waits for it shows the mark too, for 7 days; if he is not about, the one at his village's head takes it for him. He pays however late it comes.
+
+![The Parcel's tooltip: whom it is for, his village and what he pays](pictures/parcel.png)
+
 - A fish too small is not taken. Of several big enough, the smallest goes.
 - Every errand done is **a good turn** for the village that asked: after twenty it will take [your flag](village-flags.md#by-trust). For a parcel, it is the village that sent it.
 
@@ -294,6 +303,8 @@ The window of the one at a village's head has a part named **Your standing** (si
 - the **good turns** you did the village, and how many are left before it would take your flag;
 - what its **stalls take off** for you, and why: a Merchant's bargain, a fever you helped with, your flag or your side;
 - for one of the group that holds it, its **loyalty**.
+
+![The part named Your standing in the head's window](pictures/your-standing.png)
 
 A village closed to you does not open that window: its head says **for how long** it stays closed, in hours under a day, in days from there.
 

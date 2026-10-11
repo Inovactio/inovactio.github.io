@@ -188,10 +188,14 @@ The Storekeeper stands by his table, dressed as his land dresses. Speak to him t
 
 Since 0.4.2 every **new town** has **3 plots for sale**: bare ground of 9 by 9 in the place of a house, a low post at each corner and a sign on the street side that says "For sale".
 
+![A plot for sale in a town: bare ground between four posts, a sign on the street side](pictures/town-plot.png)
+
 - **Buy one from the head of the town**: his window has a part named "Its plots", with each plot, where it lies and whether it is still for sale. A plot costs **50,000 Belly**, paid once. One plot a player in a town, and none while the town is closed to you.
 - **It is yours for good**, from the bedrock to the sky, whatever becomes of the town. Its sign then bears your name.
 - **You and your crew build there**: break, place, open chests. Nobody else can, no explosion takes a block of it and no ability changes one.
 - **The town leaves it alone**: nothing you do there is a crime, and the [mending](villages.md#villages-mend-themselves) neither clears what you built nor puts anything back.
 - A bed there is a bed: you can set your spawn in your town.
+
+![The part named Its plots in the window of a town's head](pictures/town-plots-window.png)
 
 Towns made before 0.4.2 keep their houses and have no plot to sell; their head says so. A village has none.

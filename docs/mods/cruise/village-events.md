@@ -181,6 +181,8 @@ On the day:
 - **Feast Day**: while you stand on the village's ground you have this effect, 10 % more XP in every trade, on top of a night at the [inn](towns.md#the-inn).
 - **A contest**: a place with a port holds the [fishing tournament](#a-fishing-tournament) on its quay; an inland one has a head chef on its square for a **cooking contest**, with the rules and prizes of the [floating restaurant](events-at-sea.md)'s: Cooks only, one dish each.
 
+![A desert village's square on its feast day: the five merchants at their stalls](pictures/feast-square.png)
+
 A square that already holds a concert or a fever of its own has no feast that day. `feast` in the [configuration](configuration.md#feast-days) turns feasts off or sets the days between two.
 
 ## The news on the notice board
