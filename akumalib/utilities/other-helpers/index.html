@@ -9523,6 +9523,8 @@
       
         
       
+        
+      
     
     
     
@@ -9651,6 +9653,34 @@
     
   
     Gathering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../professions/talent-webs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talent webs
   
 
     
@@ -11218,6 +11248,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#a-head-that-stays-turned-to-one-side" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A head that stays turned to one side
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11494,6 +11535,17 @@
     <span class="md-ellipsis">
       
         PlayerStore: items a player keeps with him
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-head-that-stays-turned-to-one-side" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A head that stays turned to one side
       
     </span>
   </a>
@@ -11781,6 +11833,11 @@ arms.</p>
 <li>The key is where it is written. Put the id of the addon in it and never change it once shipped.</li>
 <li>A player gets a new body when he dies and when he comes back from the End. The store is read again for the new body, so do not keep the container: ask <code>of(player)</code> each time.</li>
 </ul>
+<h2 id="a-head-that-stays-turned-to-one-side">A head that stays turned to one side<a class="headerlink" href="#a-head-that-stays-turned-to-one-side" title="Permanent link">&para;</a></h2>
+<p>Nothing to call: the library corrects it on every client.</p>
+<p>The game never wraps a player's look: a camera turned twice round reads 720 degrees, and the body's angle winds up with it. The server keeps the look wrapped, so the first time it sets the player's position (a teleport, an ability that moves him) the look comes back wrapped and the body stays wound, a whole number of turns away. A model is then handed 360 or 720 as "head minus body". The game's own models do not show it. A model that shares that angle between a neck and a skull, clamps it or scales it does: its head stayed turned to one side for good.</p>
+<p><code>LookWinding.unwind(entity)</code> brings a body's angle back within half a turn of its look by adding whole turns only, so nothing moves. The library calls it for every player, once a tick. Call it yourself for a creature of your own that is drawn with such a model and whose look you set by hand.</p>
+<p>In a model, still wrap what you are given before you clamp or scale it (<code>Mth.wrapDegrees(netHeadYaw)</code>): the library covers players, not every entity.</p>
 
 
 

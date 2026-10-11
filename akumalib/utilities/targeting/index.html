@@ -9523,6 +9523,8 @@
       
         
       
+        
+      
     
     
     
@@ -9651,6 +9653,34 @@
     
   
     Gathering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../professions/talent-webs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talent webs
   
 
     
@@ -10304,6 +10334,17 @@
     <span class="md-ellipsis">
       
         Quarry: making a creature lose the one it is after
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#masters-whose-a-creature-is" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masters: whose a creature is
       
     </span>
   </a>
@@ -11326,6 +11367,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#masters-whose-a-creature-is" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masters: whose a creature is
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11547,6 +11599,42 @@ on the caster: that radius is already measured from the body rather than from th
 </tbody>
 </table>
 <p>The Blindness effect alone stops no creature. <code>blind</code> is what makes a blinded creature harmless: the library cancels its target changes until the time is up, and a longer blinding already there is kept.</p>
+<h2 id="masters-whose-a-creature-is"><code>Masters</code>: whose a creature is<a class="headerlink" href="#masters-whose-a-creature-is" title="Permanent link">&para;</a></h2>
+<p>Several powers take a creature for their user: a dango, a collar, a contract, a song. Each must see what the others took. <code>Masters</code> is the one answer.</p>
+<p>A power that takes creatures says once how it knows its own:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">Masters</span><span class="p">.</span><span class="na">claim</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="s">"mymod"</span><span class="p">,</span><span class="w"> </span><span class="s">"leash"</span><span class="p">),</span><span class="w"> </span><span class="n">mob</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">MyLeash</span><span class="p">.</span><span class="na">holderOf</span><span class="p">(</span><span class="n">mob</span><span class="p">));</span><span class="w"> </span><span class="c1">// the master's UUID, or null</span>
+</code></pre></div>
+<p>and every power asks before it takes one:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">Masters</span><span class="p">.</span><span class="na">isTaken</span><span class="p">(</span><span class="n">mob</span><span class="p">,</span><span class="w"> </span><span class="n">user</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="w">    </span><span class="k">return</span><span class="p">;</span><span class="w"> </span><span class="c1">// somebody else's</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="p">}</span>
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>Call</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Masters.of(mob)</code></td>
+<td>the UUID it is held for, or null</td>
+</tr>
+<tr>
+<td><code>Masters.isTaken(mob, by)</code></td>
+<td>held for somebody else than <code>by</code></td>
+</tr>
+<tr>
+<td><code>Masters.serves(mob, by)</code></td>
+<td>held for <code>by</code> himself</td>
+</tr>
+</tbody>
+</table>
+<p>Two holds need no claim: the game's own pets (<code>OwnableEntity</code>: wolf, cat, horse) and the base mod's (<code>MobsHelper.getTamer</code>, whoever it last took an order from). The base mod's answer alone does not do: it is a body, null once the master has left, and it knows nothing of a hold that gives no orders.</p>
+<p>The library keeps the game's taming to it as well: a creature held for one player cannot be tamed by another.</p>
+<p>Players are held the same way, apart: <code>Masters.claimPlayer(id, player -&gt; holderUuidOrNull)</code>, <code>Masters.holderOf(player)</code> and <code>Masters.isHeld(player, by)</code>. The first hold keeps the player: a power asks <code>isHeld</code> before it takes one and is refused while another's hold lasts. A power that is no such hold, a song that carries off everybody who hears it, neither claims nor asks.</p>
+<p>The claim is asked often, of any creature. Keep it to reading what is already on the creature.</p>
 
 
 

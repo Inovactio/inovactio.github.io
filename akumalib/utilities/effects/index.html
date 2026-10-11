@@ -9523,6 +9523,8 @@
       
         
       
+        
+      
     
     
     
@@ -9651,6 +9653,34 @@
     
   
     Gathering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../professions/talent-webs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talent webs
   
 
     
@@ -10393,6 +10423,39 @@
     <span class="md-ellipsis">
       
         Slower hunger: SatietyEffect
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shared-states-akumastates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shared states: AkumaStates
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elements-meet-states-akumareactions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elements meet states: AkumaReactions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wind-blows-clouds-away-winds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wind blows clouds away: Winds
       
     </span>
   </a>
@@ -11260,6 +11323,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#shared-states-akumastates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shared states: AkumaStates
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elements-meet-states-akumareactions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elements meet states: AkumaReactions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wind-blows-clouds-away-winds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wind blows clouds away: Winds
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11463,6 +11559,108 @@
 <p>While the effect is on a player, the exhaustion they build up by running, jumping, fighting or mining is cut by its share. Several such effects add up, to at most -90 % (<code>SatietyEffect.MAX_REDUCTION</code>).</p>
 <p>Vanilla caps what a single meal can give: a full hunger bar, and as much saturation as there is hunger. Past that cap, a hearty meal can only last longer by slowing the drain, which this effect does.</p>
 <p>Vanilla has no event for exhaustion. <code>SatietyEvents</code> works around it: at the end of each player tick, on the server, it compares the exhaustion with the previous tick's and takes back the effect's share of the growth. If the exhaustion passed 4 in between, the food data has already spent 4 of it on hunger, and that 4 still counts as growth. <code>SatietyEvents.reduction(player)</code> reads the summed share, and <code>settle(player)</code> runs the step by hand, for a test.</p>
+<h2 id="shared-states-akumastates">Shared states: <code>AkumaStates</code><a class="headerlink" href="#shared-states-akumastates" title="Permanent link">&para;</a></h2>
+<p>Some powers answer to what another power did, without the two knowing each other. A silence stops a song. The one who silences gives an effect, the one who sings asks a question: is this body in a silence?</p>
+<p><code>AkumaStates</code> holds those questions. A state is a mob effect tag: the list of the effects that put a body in it. The list is data, so an addon adds its own effect to the state from its own files, and every power that asks the state answers to it at once.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c1">// a song, a shout, anything that has to be heard</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">AkumaStates</span><span class="p">.</span><span class="na">silenced</span><span class="p">(</span><span class="n">target</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">    </span><span class="k">return</span><span class="p">;</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="p">}</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c1">// data/akumalib/tags/mob_effect/silenced.json, in the addon whose effect silences</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="p">{</span><span class="w"> </span><span class="nt">"replace"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> </span><span class="nt">"values"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="s2">"mymod:deaf"</span><span class="w"> </span><span class="p">]</span><span class="w"> </span><span class="p">}</span>
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>State</th>
+<th>Tag</th>
+<th>Holds</th>
+<th>Ask it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>In a silence</td>
+<td><code>akumalib:silenced</code></td>
+<td>the base mod's Silent (Nagi Nagi no Mi)</td>
+<td>before anything that works by being heard, of the one who makes the sound and of the one it is for</td>
+</tr>
+<tr>
+<td>Soaked</td>
+<td><code>akumalib:soaked</code></td>
+<td>the base mod's Wet and Washed (Awa Awa no Mi). A body in water or in bubbles is soaked without any effect. Rain is not counted</td>
+<td><code>AkumaStates.soaked(entity)</code>, before keeping up what water washes off: ink, paint</td>
+</tr>
+<tr>
+<td>Metal</td>
+<td><code>akumalib:metal</code></td>
+<td>the library's <code>akumalib:metal_body</code> and <code>akumalib:gold_body</code>, laid by a power that makes its user steel or gold</td>
+<td><code>AkumaStates.metal(entity)</code>; <code>AkumaStates.rusts(entity)</code> is metal that is not in <code>akumalib:rustproof</code> (gold)</td>
+</tr>
+</tbody>
+</table>
+<p>A power that turns its user to metal lays the state itself, for as long as it holds: <code>AkumaStates.hold(entity, AkumaEffects.METAL_BODY.get(), 10)</code> in its tick. The effect is hidden and does nothing, it only answers the question. An effect of your own that already means "made of metal" can be listed in the tag instead.</p>
+<p>A power that works by being heard hands <code>AkumaStates::canBeHeard</code> to <code>addCanUseCheck</code>: it is refused while its user is in a silence, with the library's message. Ask <code>AkumaStates.silenced(target)</code> of each target besides.</p>
+<p>The library lays the states the base mod's own fruits put a body in. So far: the Supa Supa no Mi's user is of metal while Spider hardens his body.</p>
+<p><code>AkumaStates.in(entity, state)</code> reads any state, and <code>AkumaStates.state(id)</code> makes the key of a state of your own.</p>
+<p>The folder is <code>tags/mob_effect</code>, singular. A plural folder loads an empty tag without a word.</p>
+<p>Only the question lives in the library. What your power does with the answer is yours. A state is added when a power needs it, so ask for one in an issue when two of your powers, or yours and another addon's, should meet.</p>
+<h2 id="elements-meet-states-akumareactions">Elements meet states: <code>AkumaReactions</code><a class="headerlink" href="#elements-meet-states-akumareactions" title="Permanent link">&para;</a></h2>
+<p>The base mod names the element of every blow (<code>SourceElement</code>: fire, ice, lightning, metal, air...). <code>AkumaStates</code> names what a body is in. A reaction ties one to the other, once, for every power there is.</p>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>State</th>
+<th>What happens</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lightning</td>
+<td>soaked</td>
+<td>the blow deals 25 % more (<code>AkumaReactions.SOAKED_LIGHTNING</code>). Any lightning: the Goro Goro no Mi, Electro, a weather tempo, a bolt from the sky</td>
+</tr>
+<tr>
+<td>Ice</td>
+<td>soaked</td>
+<td>the base mod's Frozen, if the blow leaves one, holds 40 ticks longer (<code>SOAKED_FREEZE</code>). Once per 100 ticks for one body</td>
+</tr>
+<tr>
+<td>Lightning</td>
+<td>metal</td>
+<td>the blow deals 25 % more (<code>METAL_LIGHTNING</code>). On a body both soaked and of metal the two add up</td>
+</tr>
+<tr>
+<td>Rust: the rust element, and the Sabi Sabi no Mi's Rust Touch</td>
+<td>metal that rusts</td>
+<td>the blow deals 25 % more (<code>METAL_RUST</code>). Not on gold</td>
+</tr>
+<tr>
+<td>Fire, magma</td>
+<td>soaked</td>
+<td>the blow deals 20 % less (<code>SOAKED_FIRE</code>) and the body is dry: the effects of <code>akumalib:soaked</code> come off it</td>
+</tr>
+</tbody>
+</table>
+<p>Each reaction of the library shows on the body: a puff of particles and a short sound. <code>AkumaReactions.show(target, particle, sound, pitch)</code> does the same for yours, ten ticks apart at most for one body.</p>
+<p>The library runs the reactions on every blow dealt, on the server, before armour. Nothing to call.</p>
+<p>Declare one of your own once, from a static initialiser or your mod's constructor:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">AkumaReactions</span><span class="p">.</span><span class="na">on</span><span class="p">(</span><span class="n">SourceElement</span><span class="p">.</span><span class="na">FIRE</span><span class="p">,</span><span class="w"> </span><span class="n">MyStates</span><span class="p">::</span><span class="n">oiled</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="n">target</span><span class="p">,</span><span class="w"> </span><span class="n">source</span><span class="p">,</span><span class="w"> </span><span class="n">amount</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">amount</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">1.5F</span><span class="p">);</span>
+</code></pre></div>
+<p>A technique the base mod gave no element is named by itself: <code>AkumaReactions.on(AkumaReactions.by(RustTouchAbility.INSTANCE), state, reaction)</code>.</p>
+<p>A technique that is of an element in name only is spared the reactions to it: <code>AkumaReactions.spare(SourceElement.FIRE, ScaldingJetAbility.INSTANCE)</code>. Steam and boiling water are fire by the base mod's list, and the water on a body does not put them out.</p>
+<p>The reaction gives back the amount the blow deals, and may do more to the body on the way (take an effect off it, set it alight). <code>AkumaReactions.carries(source, element)</code> reads a blow's element the way the library does: the base mod's own reading, and for fire and lightning the game's damage tags as well. The burn a body keeps after it was set alight is not counted: it is what a blow left, not a blow.</p>
+<p>The base mod has a few such answers written inside one fruit (rubber against lightning, the sand against water). Look there first: a reaction belongs here when no single fruit owns it.</p>
+<h2 id="wind-blows-clouds-away-winds">Wind blows clouds away: <code>Winds</code><a class="headerlink" href="#wind-blows-clouds-away-winds" title="Permanent link">&para;</a></h2>
+<p>Whoever uses a technique of the base mod's air element blows away the clouds in front of him: within 12 blocks in the cone he faces, or within 3 blocks of him. The library does it for every air technique of any mod. Nothing to call.</p>
+<p>What counts as a cloud is the entity type tag <code>akumalib:blown_away</code>. It holds the base mod's smoke star and chloro ball clouds. List your own from your own data:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="c1">// data/akumalib/tags/entity_types/blown_away.json</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="p">{</span><span class="w"> </span><span class="nt">"replace"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> </span><span class="nt">"values"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="s2">"mymod:spore_cloud"</span><span class="w"> </span><span class="p">]</span><span class="w"> </span><span class="p">}</span>
+</code></pre></div>
+<p>A listed cloud is taken out of the world. One that has an end of its own to play implements <code>Winds.Blown</code>. A wind technique that is not of the air element calls <code>Winds.blow(user)</code> itself.</p>
+<p>The clouds are blown as the technique is used, in front of its user, not along the flight of what it throws.</p>
 
 
 
