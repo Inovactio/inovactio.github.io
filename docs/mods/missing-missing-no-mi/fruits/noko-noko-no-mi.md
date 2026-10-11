@@ -101,7 +101,7 @@ Use the ability again to release the enemy
 
 ![](../abilities/snow-spore.png){ .ability-icon } *Active*
 
-The user releases a cloud of spores in front of them, everyone inside is poisoned and paralyzed for a moment. Fire burns the cloud away
+The user releases a cloud of spores in front of them, everyone inside is poisoned and paralyzed for a moment. Fire burns the cloud away and wind blows it away
 
 | Stat | Value |
 |---|---|

@@ -131,3 +131,35 @@ For a power that hides its user, sends a body away or blinds. A creature keeps i
 | `Quarry.blind(mob, ticks)` | it loses its quarry and can take none for that long |
 
 The Blindness effect alone stops no creature. `blind` is what makes a blinded creature harmless: the library cancels its target changes until the time is up, and a longer blinding already there is kept.
+
+## `Masters`: whose a creature is
+
+Several powers take a creature for their user: a dango, a collar, a contract, a song. Each must see what the others took. `Masters` is the one answer.
+
+A power that takes creatures says once how it knows its own:
+
+```java
+Masters.claim(new ResourceLocation("mymod", "leash"), mob -> MyLeash.holderOf(mob)); // the master's UUID, or null
+```
+
+and every power asks before it takes one:
+
+```java
+if (Masters.isTaken(mob, user)) {
+    return; // somebody else's
+}
+```
+
+| Call | Answer |
+|---|---|
+| `Masters.of(mob)` | the UUID it is held for, or null |
+| `Masters.isTaken(mob, by)` | held for somebody else than `by` |
+| `Masters.serves(mob, by)` | held for `by` himself |
+
+Two holds need no claim: the game's own pets (`OwnableEntity`: wolf, cat, horse) and the base mod's (`MobsHelper.getTamer`, whoever it last took an order from). The base mod's answer alone does not do: it is a body, null once the master has left, and it knows nothing of a hold that gives no orders.
+
+The library keeps the game's taming to it as well: a creature held for one player cannot be tamed by another.
+
+Players are held the same way, apart: `Masters.claimPlayer(id, player -> holderUuidOrNull)`, `Masters.holderOf(player)` and `Masters.isHeld(player, by)`. The first hold keeps the player: a power asks `isHeld` before it takes one and is refused while another's hold lasts. A power that is no such hold, a song that carries off everybody who hears it, neither claims nor asks.
+
+The claim is asked often, of any creature. Keep it to reading what is already on the creature.

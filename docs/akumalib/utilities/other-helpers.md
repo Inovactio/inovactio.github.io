@@ -199,3 +199,13 @@ player.openMenu(new SimpleMenuProvider((id, inventory, p) -> ChestMenu.sixRows(i
 - `refusing(...)` names what it does not keep: put in, it is handed back at once. Refuse Devil Fruits: the base mod keeps them out of every chest so that it knows where each one is, and counts as lost one it cannot find.
 - The key is where it is written. Put the id of the addon in it and never change it once shipped.
 - A player gets a new body when he dies and when he comes back from the End. The store is read again for the new body, so do not keep the container: ask `of(player)` each time.
+
+## A head that stays turned to one side
+
+Nothing to call: the library corrects it on every client.
+
+The game never wraps a player's look: a camera turned twice round reads 720 degrees, and the body's angle winds up with it. The server keeps the look wrapped, so the first time it sets the player's position (a teleport, an ability that moves him) the look comes back wrapped and the body stays wound, a whole number of turns away. A model is then handed 360 or 720 as "head minus body". The game's own models do not show it. A model that shares that angle between a neck and a skull, clamps it or scales it does: its head stayed turned to one side for good.
+
+`LookWinding.unwind(entity)` brings a body's angle back within half a turn of its look by adding whole turns only, so nothing moves. The library calls it for every player, once a tick. Call it yourself for a creature of your own that is drawn with such a model and whose look you set by hand.
+
+In a model, still wrap what you are given before you clamp or scale it (`Mth.wrapDegrees(netHeadYaw)`): the library covers players, not every entity.

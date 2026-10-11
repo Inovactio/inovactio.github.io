@@ -27,9 +27,9 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 Applies ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/just-woken.png){ .effect-mini }[Just Woken](../effects.md#effect-just-woken), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet), ![](../effect-icons/wide-awake.png){ .effect-mini }[Wide Awake](../effects.md#effect-wide-awake)
 
-The user sings for a few seconds. Every player still in range at the end is sent to Uta World with the user, their bodies stay asleep where they stood. A hit interrupts the song
+The user sings for a few seconds. Every player still in range at the end is sent to Uta World with the user, their bodies stay asleep where they stood. A hit interrupts the song. Nobody under a silence hears it
 
-Creatures in range fall asleep, all but bosses become the user's puppets. A hit on a sleeping body wakes its player, a hit on the user's body ends the dream for everyone
+Creatures in range fall asleep, all but bosses become the user's puppets. A hit on a sleeping body wakes its player, a hit on the user's body ends the dream for everyone. A silence that falls on a sleeping body wakes its player too
 
 A player defeated in the dream wakes up and takes heavy damage, and so does the user. While alone in the dream, the user can use this again to end it
 

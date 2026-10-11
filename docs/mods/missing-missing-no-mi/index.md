@@ -17,9 +17,9 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **2.0.0** |
+| Version documented | **2.1.0** |
 | Mod id | `inomissing` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [2.0.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9118748) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [2.1.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9130599) · [changelog](changelog.md) |
 
 ## What it adds
 
@@ -39,8 +39,8 @@ Nothing here replaces or rebalances the base mod, and a fruit Mine Mine no Mi ha
 |---|---|
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
-| [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.5 |
-| [AkumaLib](../../akumalib/index.md) | **4.4.0 or later** |
+| [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 |
+| [AkumaLib](../../akumalib/index.md) | **4.5.0 or later** |
 
 ## Getting started
 

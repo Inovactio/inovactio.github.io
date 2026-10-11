@@ -370,6 +370,7 @@ nav:
           - Workstations: akumalib/professions/workstations.md
           - Advancements: akumalib/professions/advancements.md
           - Gathering: akumalib/professions/gathering.md
+          - Talent webs: akumalib/professions/talent-webs.md
       - Worldgen and dimensions:
           - akumalib/worldgen/index.md
           - Cell grids: akumalib/utilities/cells.md
