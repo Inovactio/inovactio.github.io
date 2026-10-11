@@ -21,9 +21,9 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:1.20.1-47.4.18"
 
-    implementation fg.deobf("maven.modrinth:mine-mine-no-mi:1.20.1-0.11.5")
-    // AkumaLib 4.4.0 on CurseForge: project 1678152, file 9118223
-    implementation fg.deobf("curse.maven:akumalib-1678152:9118223")
+    implementation fg.deobf("maven.modrinth:mine-mine-no-mi:1.20.1-0.11.6")
+    // AkumaLib 4.5.0 on CurseForge: project 1678152, file 9130597
+    implementation fg.deobf("curse.maven:akumalib-1678152:9130597")
 }
 ```
 
@@ -48,7 +48,7 @@ Then declare AkumaLib as a required dependency, so Forge shows its missing-mod s
 [[dependencies.yourmodid]]
     modId = "mineminenomi"
     mandatory = true
-    versionRange = "[0.11,)"
+    versionRange = "[0.11.6,)"
     ordering = "AFTER"
     side = "BOTH"
 ```

@@ -2,6 +2,70 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 4.5.0 { #v4-5-0 }
+
+<small>Released 2026-10-11 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9130597)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Powers now meet each other.</strong> Lightning hurts a soaked target more, fire dries it, ice holds it longer, rust bites
+steel, wind blows clouds away, and a creature or a player held by one power can no longer be taken by another. All of
+it works between the fruits of Mine Mine no Mi and those of every addon, without any of them knowing the others. A
+Zoan's head that stayed turned to one side is straight again. The corrections of Mine Mine no Mi of 4.0.0 to 4.4.0 are
+all still there, each with its switch.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are optional.</p>
+<p>⚠️ <strong>Mine Mine no Mi 0.11.6 is now the minimum.</strong> A game still on 0.11.5 must update the base mod first.</p>
+<p>⚠️ <strong>The network protocol is now 8:</strong> a client and a server must both have 4.5.0. 4.5.0 and 4.4.0 refuse each other.</p>
+<p>Nothing changes for an addon: no signature was removed or changed, and an addon made for 4.0.0 to 4.4.0 works with
+4.5.0.</p>
+<hr />
+<h2>Added</h2>
+<ul>
+<li><strong>Lightning and water.</strong> Lightning hurts a soaked target 25 % more. Any lightning counts (Goro Goro no Mi, Electro,
+  the weather tempos, a thunderstorm) and any way of being soaked: standing in water, the bubbles of the Awa Awa no Mi,
+  a thrown bottle of water.</li>
+<li><strong>Ice and water.</strong> Ice holds a soaked target frozen 2 seconds longer.</li>
+<li><strong>Fire and water.</strong> Fire and magma deal 20 % less to a soaked target, and dry it. The burn a target keeps afterwards
+  does not count.</li>
+<li><strong>Metal.</strong> Lightning hurts a body made of metal 25 % more, and the rust of the Sabi Sabi no Mi hurts steel 25 % more.
+  Gold does not rust. A Supa Supa no Mi user is made of metal while Spider hardens their body.</li>
+<li><strong>Wind.</strong> Using an air technique (Rankyaku, the pound cannons, wind blades) blows away the smoke star and chloro ball
+  clouds in front of the user.</li>
+<li><strong>A sign when it happens.</strong> A short burst of particles and a sound show each of these reactions.</li>
+<li><strong>One master at a time.</strong> A creature that already belongs to a player through a Devil Fruit power can no longer be
+  tamed by another player.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>A Zoan's head stayed turned to one side.</strong> After you had turned your camera a whole turn and the server had set
+  your position (a teleport, an ability that moves you), the head or the neck of a form stayed turned to one side for
+  good, walking or not. It is straight again. Every addon's forms are covered.</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li><strong>Shared states</strong> (<code>api.effects.AkumaStates</code>): what a body is in, as mob effect tags that any addon fills from its own
+  data. <code>silenced</code> (<code>akumalib:silenced</code>, the base mod's Silent), <code>soaked</code> (<code>akumalib:soaked</code>: in water or bubbles, or the
+  base mod's Wet or Washed; rain is not counted), <code>metal</code> and <code>rusts</code> (<code>akumalib:metal</code>, <code>akumalib:rustproof</code>, with two
+  hidden effects to lay through <code>AkumaStates.hold</code> while a power makes its user steel or gold). <code>canBeHeard</code> is a ready
+  can-use check for a power that has to be heard.</li>
+<li><strong>Reactions</strong> (<code>api.effects.AkumaReactions</code>): <code>on(element, state, reaction)</code> says once what a blow of an element of
+  the base mod does to a body in a state. <code>by(technique)</code> names a technique the base mod gave no element, <code>spare</code>
+  takes a technique that is of an element in name only (steam, boiling water) out of the reactions to it, and <code>show</code>
+  plays the particles and the sound.</li>
+<li><strong>Wind</strong> (<code>util.Winds</code>): the entity type tag <code>akumalib:blown_away</code> lists what an air technique blows away.
+  <code>Winds.blow(user)</code> for a wind technique of another element.</li>
+<li><strong>Whose a creature is</strong> (<code>util.Masters</code>): a power that takes creatures declares its hold with <code>claim</code> and asks
+  <code>isTaken</code> before taking one. The same for players with <code>claimPlayer</code> and <code>isHeld</code>: the first hold keeps him.</li>
+<li><strong><code>LookWinding.unwind(entity)</code></strong> for a creature of your own drawn with a model that shares the head's angle between
+  several parts.</li>
+<li><strong>Talent webs</strong> (<code>api.professions.talents</code>): a profession can have a web of talents, one file per profession at
+  <code>data/&lt;namespace&gt;/talent_webs/&lt;path&gt;.json</code>, read with <code>AkumaTalents.total(player, profession, bonus)</code> and <code>has(...)</code>;
+  <code>TalentEvent.Taken</code> and <code>Reset</code>. A player earns 1 point every 5 levels and spends it from a Talents button on the
+  profession's page or with the Talents key (J). Nothing shows for a profession that has no web. See the Talent webs
+  page of the docs.</li>
+<li>Built against Mine Mine no Mi 0.11.6.</li>
+</ul>
+</div>
+
 ## 4.4.0 { #v4-4-0 }
 
 <small>Released 2026-10-10 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9118223)</small>

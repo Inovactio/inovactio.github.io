@@ -53,7 +53,7 @@ Flattens the enemy the user is looking at into a painting on the ground, where i
 
 ![](../abilities/fukugen.png){ .ability-icon } *Active*
 
-Restores everything the user turned into art. Everything is also restored if the user is knocked out
+Restores everything the user turned into art. Everything is also restored if the user is knocked out. Water washes the art off a body
 
 | Stat | Value |
 |---|---|

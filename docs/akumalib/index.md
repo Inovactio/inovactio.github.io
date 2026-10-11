@@ -123,8 +123,8 @@ You get all of that by extending the class. Departing from one is fine, but read
 |---|---|
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
-| Mine Mine no Mi | 0.11.x (built against `1.20.1-0.11.5`) |
-| AkumaLib | 4.4.0 |
+| Mine Mine no Mi | 0.11.6 or newer (built against `1.20.1-0.11.6`) |
+| AkumaLib | 4.5.0 |
 
 What each version added or changed, and what it requires: the [changelog](changelog.md).
 
