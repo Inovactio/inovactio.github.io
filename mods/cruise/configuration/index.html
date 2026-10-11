@@ -8248,6 +8248,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Village events">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#feast-days" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feast days
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -8266,6 +8283,17 @@
     <span class="md-ellipsis">
       
         Events on land
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        performance
       
     </span>
   </a>
@@ -11261,6 +11289,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Village events">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#feast-days" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feast days
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -11279,6 +11324,17 @@
     <span class="md-ellipsis">
       
         Events on land
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        performance
       
     </span>
   </a>
@@ -11554,6 +11610,29 @@
 <td><code>48</code></td>
 <td><code>24</code></td>
 <td>How many in-game hours it lasts (1 to 720): the stage stays up, the fever runs if nobody cures it, the swordsmith stays, the judge stays on the quay.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="feast-days">Feast days<a class="headerlink" href="#feast-days" title="Permanent link">&para;</a></h3>
+<p><code>feast</code>, for the <a href="../village-events/#a-feast-day">feast day</a>:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether feast days are held at all.</td>
+</tr>
+<tr>
+<td><code>daysBetween</code></td>
+<td><code>30</code></td>
+<td>How many in-game days from one feast to the next (5 to 365).</td>
 </tr>
 </tbody>
 </table>
@@ -11913,6 +11992,29 @@
 </tbody>
 </table>
 <p>A disabled event that is already running still ends on time. Operators can list, start and stop events with AkumaLib's <code>/akumalib events</code> command: see AkumaLib's <a href="../../../akumalib/utilities/world-events/#for-operators">world events page</a>.</p>
+<h2 id="performance"><code>performance</code><a class="headerlink" href="#performance" title="Permanent link">&para;</a></h2>
+<p>Nothing here changes a world: only when the work is done. Both came with 0.4.2 and are there to be turned off if they ever give trouble.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>villageSitesAhead</code></td>
+<td><code>true</code></td>
+<td>The sites of the villages about a player are worked out ahead, on a background thread, before the world gets to them. Off, each is worked out while the land is made, with a pause.</td>
+</tr>
+<tr>
+<td><code>seaSearchesAhead</code></td>
+<td><code>true</code></td>
+<td>The sea in which a ship's, a wreck's or a Sea King's place is looked for is read on a background thread; the event begins a second or two later. Off, the server stops while it reads, up to a second.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="the-trades-levels-akumalib">The trades' levels (AkumaLib)<a class="headerlink" href="#the-trades-levels-akumalib" title="Permanent link">&para;</a></h2>
 <p>Per world, in <strong><code>&lt;world&gt;/serverconfig/akumalib-server.toml</code></strong>:</p>
 <ul>
