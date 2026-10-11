@@ -2,6 +2,64 @@
 
 Every Cruise Cruise no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/all).
 
+## 0.4.2: beta { #v0-4-2 }
+
+<small>Released 2026-10-11 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9129051)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>The villages have a life of their own.</strong> Their people now ask things for themselves, their boards post wanted
+notices, and every 30 days a village holds its feast. The one who holds a village can hire guards for it, a town
+sells plots to build on, and the head of a village tells you where you stand with it. And the game pauses less
+when new land is made.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi</strong> 0.11.6 (0.11.5 is still accepted) and
+<strong>AkumaLib 4.3.0</strong> or newer - the latest one is best. Client and server.</p>
+<p>⚠️ <strong>Update the server and every player together.</strong> The network protocol changed: a 0.4.2 client cannot join a
+0.4.1 server, nor the other way round.</p>
+<p>⚠️ <strong>Your worlds.</strong> A world played with 0.4.1 opens as it is. Villages already made get their notices, their
+errands and their feasts. Only the plots for sale are missing in towns made before this update.</p>
+<p>⚠️ <strong>A beta</strong>: everything here is playable, but numbers may still move with your feedback.</p>
+<hr />
+<h3>New</h3>
+<ul>
+<li><strong>Your standing with a village.</strong> The window of the one at a village's head has a new part: the good turns you
+  did the village and how many are left before it would take your flag, what its stalls take off for you and why,
+  and its loyalty to your flag. And when a village is closed to you, its head says for how long.</li>
+<li><strong>Wanted notices.</strong> A village's board now posts the captain of the pirates or Marines who hold a village nearby,
+  by his name, with where to find him. Beat him and every village that posted him pays you 5 000 Belly and
+  counts it as a good turn. A notice stays a week, and you are paid nothing for a man of your own side.</li>
+<li><strong>The people ask things for themselves.</strong> Now and then one inhabitant of a village, two in a town, has an
+  exclamation mark over his head. Speak to him and he says what he wants, goods of the trade he lives by. Bring
+  it within 3 days and he pays a little more than the notice board, with XP in the trade, and the village
+  counts it as a good turn.</li>
+<li><strong>Parcels.</strong> Sometimes the one with the exclamation mark wants a parcel carried to somebody in another
+  village. The parcel says who it is for and where. Hand it to them and they pay you, more for a longer way.
+  The one who waits for it has the mark too.</li>
+<li><strong>Remarkable catches.</strong> A fisherman with the exclamation mark may want one fish of a given size, bigger than
+  most of its kind. An old man may want one rare creature. Both pay well for it.</li>
+<li><strong>Guards for a village under your flag.</strong> The one who holds a village can hire up to 4 guards at its head.
+  Each is paid from the coffer every day, as much as the rent of 5 villagers. They stand at the hall's door and
+  round the square, fight monsters and raiders, and leave if the coffer can not pay them or the flag changes.</li>
+<li><strong>A plot of your own in a town.</strong> Every new town has 3 plots for sale, 9 by 9, marked by 4 posts and a sign.
+  Buy one from the head of the town for 50 000 Belly and it is yours for good. You and your crew build there,
+  nobody else can touch it, and the town does not clear it away. Towns made before this update have none.</li>
+<li><strong>Feast days.</strong> Every 30 days a village or a town near you holds its feast. The notice boards and the
+  barkeepers tell it 3 days ahead. That day its people are all on the square, its stalls sell cheaper and buy
+  dearer, and while you are there you learn every trade a little faster. The five merchants are all
+  at their stalls with twice their goods, 3 times in a town, and a concert plays on the square. There is a
+  contest too. A fishing tournament if the place has a port, a cooking contest if it does not.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><strong>Fewer pauses when new land is made near a village.</strong> The game now gets the village ready in the background,
+  and finds where it goes a third faster.</li>
+<li><strong>No more pause when something appears at sea.</strong> A merchant ship, a wreck, a ship in distress, a Sea King, the
+  floating restaurant or the ghost ship could stop the game for up to a second while their place was looked for.</li>
+<li>Built against Mine Mine no Mi 0.11.6.</li>
+<li>Two new settings in <code>config/inocruise-common.toml</code>, under <code>performance</code>, turn the background work off if it
+  ever gives trouble: <code>villageSitesAhead</code> and <code>seaSearchesAhead</code>.</li>
+</ul>
+</div>
+
 ## 0.4.1: beta { #v0-4-1 }
 
 <small>Released 2026-10-10 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9117175)</small>

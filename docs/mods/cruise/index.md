@@ -6,9 +6,10 @@
 
 | | |
 |---|---|
-| Version documented | **0.4.1** (beta) |
+| Latest version | **0.4.2** (beta) |
+| Version documented | **0.4.1** (beta): what 0.4.2 adds - errands, wanted notices, hired guards, town plots, feast days - is in the [changelog](changelog.md#v0-4-2) |
 | Mod id | `inocruise` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.4.1](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9117175) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.4.2](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9129051) · [changelog](changelog.md) |
 
 ## Requirements
 
@@ -16,7 +17,7 @@
 |---|---|
 | Minecraft | 1.20.1 |
 | Forge | 47 or later |
-| [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.5 |
+| [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 (0.11.5 is still accepted) |
 | [AkumaLib](../../akumalib/index.md) | **4.3.0** or later: with an older one the game does not start |
 | JEI or EMI | optional, recommended: every workstation, fish, creature and find shows in them |
 
