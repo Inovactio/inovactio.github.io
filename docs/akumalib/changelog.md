@@ -2,6 +2,46 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 4.6.0 { #v4-6-0 }
+
+<small>Released 2026-10-12 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9147855)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>A crash at launch is gone, and powers can now have a world of their own.</strong> With several fruit mods installed the
+game could stop before the title screen, on one launch and not on the next: it no longer does. Addons get what a
+power needs to take players into its own world and bring them back, and a world that mends itself. The corrections of
+Mine Mine no Mi of 4.0.0 to 4.5.0 are all still there, each with its switch.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are optional.</p>
+<p>Nothing changes for a player's setup: the network protocol is the same (8), so 4.5.0 and 4.6.0 play together. Nothing
+changes for an addon either: no signature was removed or changed, and an addon made for 4.0.0 to 4.5.0 works with 4.6.0.</p>
+<hr />
+<h2>Mine Mine no Mi fixes</h2>
+<ul>
+<li><strong>The game stopped before the title screen, now and then.</strong> With Mine Mine no Mi and one or more mods that add
+  fruits, a launch could end on an error before the title screen, or a fruit could lose its place in the ability
+  menu, and the next launch be fine. Every launch now goes through.</li>
+</ul>
+<h2>Improved</h2>
+<ul>
+<li><strong>Skypiea generates faster.</strong> New chunks of a world built on AkumaLib's cells (Sky Island's islands) take about
+  13 % less time to generate. The worlds are the same.</li>
+<li><strong>Talent webs.</strong> A node that gives an ability shows that ability's own picture, and a web that grows to one side
+  (a tree from its foot) fills its window when it opens.</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li><strong>Pocket worlds.</strong> For a power that has a world of its own: <code>PocketGuests</code> keeps who was taken in, by whom and
+  where each stood, saved with the world, and brings them back, a player who left the game included;
+  <code>AkumaDimensionTravel.place</code> sets a body down standing still at the nearest free place, never inside another body
+  or a wall; <code>WorldMending</code> makes a dimension come back as it was some time after it was dug or built in.</li>
+<li><strong>Block writes.</strong> <code>BlockWrites</code>: a mod watches a dimension and is told of every block that changes there, whoever
+  changed it.</li>
+<li><strong>Catchable creatures.</strong> <code>CatchableCreature.addQuietStep</code> and <code>addLinger</code>: an addon says how much closer a player
+  may come before a creature reacts, and how much longer a creature waits before it takes off.</li>
+</ul>
+<p>An addon that uses them declares <code>versionRange = "[4.6.0,5)"</code>.</p>
+</div>
+
 ## 4.5.0 { #v4-5-0 }
 
 <small>Released 2026-10-11 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9130597)</small>
