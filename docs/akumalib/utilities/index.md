@@ -27,7 +27,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 
 | Page | Helpers |
 |---|---|
-| [Blocks](blocks.md) | `TemporaryBlocks`, `PropagationHelper`, `BlockPlacingHelper`, `BlockHighlightManager`, `BlockOverlayManager`, `EntityHighlights` |
+| [Blocks](blocks.md) | `TemporaryBlocks`, `PropagationHelper`, `BlockPlacingHelper`, `BlockHighlightManager`, `BlockOverlayManager`, `EntityHighlights`, `BlockWrites` |
 | [Lines](lines.md) | `AkumaLines`, `LineAnchor`, `LineStyle`: a rope or thread between two anchors, rendered on the client |
 | [Tooltips](tooltips.md) | `ToolTipHelper`, `AwakenTooltipHelper`, `AkumaSourceTooltip`, `AkumaI18n` |
 

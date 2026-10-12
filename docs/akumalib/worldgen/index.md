@@ -34,6 +34,12 @@ Your `AkumaRegistry` carries a deferred register for each of these, like every o
 
     `AkumaDimensionTravel`: send a body, its vehicle and its riders to another dimension with a velocity that survives.
 
+-   :material-door-open:{ .lg .middle } **[Pocket worlds](../utilities/pocket-worlds.md)**
+
+    ---
+
+    `PocketGuests`, `AkumaDimensionTravel.place`, `WorldMending`: a power's own world, its guests and their way back.
+
 -   :material-puzzle-outline:{ .lg .middle } **[Jigsaw pools](../utilities/jigsaw.md)**
 
     ---

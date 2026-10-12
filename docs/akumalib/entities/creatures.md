@@ -39,6 +39,21 @@ While it takes off, `isTakingOff()` is true on both sides (synced), so the model
 
 A flying creature flees **up into the air** (`FlyAwayGoal`): vanilla's flee aims at the ground, which is the sea floor for a bird at sea.
 
+## A player's quiet step
+
+*Since 4.6.0.* Who scares a creature, and from how far, is the creature's own. An addon can still let some players come closer - a hunter's light step - without touching any creature:
+
+```java
+// once, at mod construction
+CatchableCreature.addQuietStep(player -> isHunter(player) ? 2.0D : 0.0D);   // blocks closer before it reacts
+CatchableCreature.addLinger(player -> isHunter(player) ? 20 : 0);           // ticks more before it takes off
+```
+
+The answers of all addons add up, and never go under 0. A creature reacts to a player when `notices(player)` is true: he scares it, and stands within its flee distance less his quiet step. The flee, attack, fly-away and take-off goals all ask it; with no addon's say nothing changes.
+
+!!! note
+    A creature still looks at its nearest player only: one who comes quietly between it and another hides him.
+
 ## Perches
 
 A creature can wait **still**, on a flower or a trunk, until something disturbs it. Give it a `CreaturePerch`:
