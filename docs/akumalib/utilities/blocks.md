@@ -59,6 +59,25 @@ this.pit.remove();
 !!! warning "Your rule decides what may be replaced"
     The group replaces whatever your `BlockProtectionRule` allows. `DefaultProtectionRules.AIR` builds into air only; add foliage to it for a wall that stands in grass and flowers, which then come back.
 
+## `BlockWrites`
+
+*Since 4.6.0.* A mod watches a dimension and is told of every block that changes there, whoever changed it: a hand, a blast, a command, a creature, an ability of any mod.
+
+```java
+// once, at mod construction
+BlockWrites.watch(MY_WORLD, (level, pos, before, now) -> changed.add(pos));
+```
+
+Forge has no event for a block written without a neighbour update, and the base mod only knows the blocks its own abilities write. Here the word comes from the place where every change of a block in a loaded chunk ends, on the server, once the change is made.
+
+- One watcher a dimension: the last one set.
+- A dimension nobody watches costs one look in an empty map per write.
+
+!!! warning "Note the place, act later"
+    The watcher is called in the middle of the write. It writes no block itself: it notes the position and does its work on a later tick.
+
+[`WorldMending`](pocket-worlds.md#worldmending-a-world-that-comes-back-as-it-was) is built on it.
+
 ## `PropagationHelper`
 
 Spreads a block operation over several ticks, outward from a centre, instead of doing it all in one tick.

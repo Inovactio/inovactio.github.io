@@ -376,6 +376,7 @@ nav:
           - Cell grids: akumalib/utilities/cells.md
           - Asking the overworld: akumalib/utilities/overworld-lookup.md
           - Dimension travel: akumalib/utilities/dimension-travel.md
+          - Pocket worlds: akumalib/utilities/pocket-worlds.md
           - Jigsaw pools: akumalib/utilities/jigsaw.md
       - Loot injection:
           - akumalib/loot-injection/index.md
