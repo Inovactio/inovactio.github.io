@@ -32,7 +32,7 @@ One file per profession, at `data/<namespace>/talent_webs/<path>.json` for the p
 | `value` | `1` | How much of the bonus this node gives: `0.03` for 3 %. |
 | `x`, `y` | required | Where it is drawn, in GUI pixels from the web's middle, `y` downwards. |
 | `icon` | none | An item drawn on a major or an ability node. |
-| `ability` | none | For an ability node, the id your addon gives an ability by. The library only carries it. |
+| `ability` | none | For an ability node, the id of the ability your addon gives with it. The node is drawn with that ability's own picture, when the base mod knows the id; giving the ability is your addon's. |
 
 `links` are pairs of node ids, read both ways. A link, a start or a legacy entry that names a node the file has not makes the **whole file** refused, with a line in the log: the profession then has no web.
 

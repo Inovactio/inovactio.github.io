@@ -11,7 +11,7 @@ AkumaCells.Cell cell = ISLANDS.cellAt(worldSeed, x, z);   // which cell, and whe
 
 The constructor takes the grid's pitch in blocks, the share of cells that hold anything, and the smallest and largest feature radius.
 
-Everything is a pure computation — no world, no registries, no state — so it is safe on a worldgen thread and gives the same answer every time for a given seed.
+Everything is a pure computation — no world, no registries — so it is safe on a worldgen thread and gives the same answer every time for a given seed. The only thing a grid holds is, for each thread, the last cells that thread rolled: see [the nine-cell scan](#the-nine-cell-scan).
 
 ## Why it exists
 
@@ -62,6 +62,8 @@ The grid applies it consistently, so a rejected cell is absent from `mask`, `fea
 A centre is jittered by up to a quarter of the cell, and then carries a radius on top, so a feature routinely spills into its neighbours: with a pitch of 768 and radii up to 220, by as much as 28 blocks. Reading only the containing cell slices every such feature off flat along the cell border — in a landscape, a cliff in a perfectly straight line — and no test that samples a centre will ever show it.
 
 Where two features overlap, the stronger wins rather than the two adding up. A sum would exceed 1 and raise a ridge exactly where they meet.
+
+**The nine cells are kept.** Generation asks `mask`, `featureAt` and `blend` for every column of a chunk, and a chunk's columns all share their nine cells. Each thread keeps the last 64 cells it rolled, for each grid, so a cell is rolled once and read thereafter: on a profile of Sky Island's generation, rolling them again for every column was 6 to 12 % of a chunk's time, and keeping them took 13 % off it. Nothing to do on the caller's side — and one more reason a [radius rule](#features-of-different-sizes) must be a pure function of the cell: its answer is kept with the cell.
 
 ## The cell seed
 
