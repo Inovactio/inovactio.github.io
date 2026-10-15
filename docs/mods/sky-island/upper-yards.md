@@ -112,7 +112,7 @@ The offerings are modest: Vearth, gold nuggets, fruit, now and then a pouch of e
 
 On the summit of an Upper Yard that has neither a Giant Jack nor the City of Gold — a little over one island in four — stands **Enel's residence**: a great stair of cloud up the flank, an esplanade, the hall with the red roof, the throne and its ring of **Thunder Drums**.
 
-- **Four divine soldiers** keep it, and their **commander**, a mountain of a man with three announced attacks. They fight empty-handed with their dials — the Axe Dial's blade, the Flash Dial that blinds whoever looks at it, the Breath Dial's gust, skates under their feet — and **attack on sight**.
+- **Four divine soldiers** keep it, and their commander, the **Divine Soldier Commander**, a mountain of a man with three announced attacks. They fight empty-handed with their dials — the Axe Dial's blade, the Flash Dial that blinds whoever looks at it, the Breath Dial's gust, skates under their feet — and **attack on sight**.
 - **The treasure** lies at the foot of the throne, as rich as the chest under the Golden Bell: one or two boxes every time, gold, a heavy pouch of extol, dials.
 - Now and then **a patrol** of two or three divine soldiers walks the jungle.
 
