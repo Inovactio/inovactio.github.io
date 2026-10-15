@@ -19,7 +19,7 @@ tags:
 |---|---|
 | Version documented | **3.0.0** (beta) |
 | Mod id | `inomissing` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [3.0.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/TO-FILL) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [3.0.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9195525) · [changelog](changelog.md) |
 
 ## What it adds
 

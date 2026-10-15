@@ -4,7 +4,7 @@ Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as publi
 
 ## 3.0.0 (beta) { #v3-0-0 }
 
-<small>Released TO-FILL · Beta · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/TO-FILL)</small>
+<small>Released 2026-10-15 · Beta · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9195525)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>Wave 7: the fruits of Whole Cake Island.</strong> Eleven new Devil Fruits: Mira Mira, Kuri Kuri, Bata Bata, Buku Buku, Bisu Bisu, Hoya Hoya, Tama Tama, Tori Tori Model Albatross, Memo Memo, Gocha Gocha, and Mochi Mochi with its awakening, the first awakening of this addon. Wall abilities now stay up while you hold them, the birds really beat their wings, the Fuwa boat turns where you look, and the Gasha Gasha no Mi builds from real metal.</p>
