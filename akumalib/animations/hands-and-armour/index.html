@@ -8349,6 +8349,8 @@
       
         
       
+        
+      
     
     
     
@@ -8561,6 +8563,34 @@
     
   
     Charges
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/awakenings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Awakening abilities
   
 
     
@@ -9266,6 +9296,17 @@
     <span class="md-ellipsis">
       
         Hiding the armour: AnimationRenderTracker
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hiding-one-piece-hiddenarmour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hiding one piece: HiddenArmour
       
     </span>
   </a>
@@ -11252,6 +11293,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#hiding-one-piece-hiddenarmour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hiding one piece: HiddenArmour
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11372,6 +11424,11 @@
 <p>Because the mark is cleared after every render, a single call only hides the armour for one frame. Call <code>markNoArmor</code> from the animation hook, which runs each frame for as long as the animation plays; the armour comes back on its own when the animation stops.</p>
 </div>
 <p>This is how a technique that tucks the whole body away, a shell spin for instance, keeps armour pieces from floating in the air around it.</p>
+<h2 id="hiding-one-piece-hiddenarmour">Hiding one piece: <code>HiddenArmour</code><a class="headerlink" href="#hiding-one-piece-hiddenarmour" title="Permanent link">&para;</a></h2>
+<p>To hide one slot only, a chestplate over a chest drawn open for instance, register a rule once at client setup:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">HiddenArmour</span><span class="p">.</span><span class="na">register</span><span class="p">((</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">slot</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">slot</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">EquipmentSlot</span><span class="p">.</span><span class="na">CHEST</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">MyAbility</span><span class="p">.</span><span class="na">isOpen</span><span class="p">(</span><span class="n">entity</span><span class="p">));</span>
+</code></pre></div>
+<p>The armour layer asks every rule for each piece it draws, every frame: the piece comes back as soon as the rule says no.</p>
 
 
 

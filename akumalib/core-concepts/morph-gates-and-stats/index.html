@@ -8351,6 +8351,8 @@
       
         
       
+        
+      
     
     
     
@@ -8567,6 +8569,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Locking a technique to a form: MorphGates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#greyed-on-the-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Greyed on the bar
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -8699,6 +8718,34 @@
     
   
     Charges
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../awakenings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Awakening abilities
   
 
     
@@ -11306,6 +11353,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Locking a technique to a form: MorphGates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#greyed-on-the-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Greyed on the bar
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -11498,17 +11562,26 @@
 </code></pre></div>
 </div>
 <p><code>requiring()</code> with no morph, or with a <code>null</code> one, throws immediately. An empty gate would otherwise only surface as an ability nobody can use.</p>
+<h3 id="greyed-on-the-bar">Greyed on the bar<a class="headerlink" href="#greyed-on-the-bar" title="Permanent link">&para;</a></h3>
+<p>A technique given a form gate is greyed on the ability bar while its form is not on. There is nothing to write: <code>addCanUseCheck</code> sees the gate.</p>
+<p>For any other condition (another technique that must be on, a summoned creature that must be out), hand the same check to <code>GreyedSlots</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">Ability</span><span class="p">.</span><span class="na">ICanUseEvent</span><span class="w"> </span><span class="n">needsGiant</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">isGiant</span><span class="p">(</span><span class="n">entity</span><span class="p">)</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="n">Result</span><span class="p">.</span><span class="na">success</span><span class="p">()</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Result</span><span class="p">.</span><span class="na">fail</span><span class="p">(</span><span class="n">MESSAGE</span><span class="p">);</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="k">this</span><span class="p">.</span><span class="na">addCanUseCheck</span><span class="p">(</span><span class="n">needsGiant</span><span class="p">);</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">GreyedSlots</span><span class="p">.</span><span class="na">unless</span><span class="p">(</span><span class="k">this</span><span class="p">,</span><span class="w"> </span><span class="n">needsGiant</span><span class="p">);</span>
+</code></pre></div>
+<p>The check is asked on the client, every frame the bar is drawn. It must answer from what the client knows (a morph, an effect, a synced ability, an entity it can see) and change nothing. A cooldown or a disabling is still drawn over the grey.</p>
+<p>A gate combined with <code>.and(...)</code> or <code>.or(...)</code> is a new check and is not greyed by itself: hand the combined check to <code>GreyedSlots.unless</code>.</p>
 <h2 id="declaring-a-forms-attributes-morphstats">Declaring a form's attributes: <code>MorphStats</code><a class="headerlink" href="#declaring-a-forms-attributes-morphstats" title="Permanent link">&para;</a></h2>
 <p>A morph ability's stats used to take three declarations per attribute: a field, a line wiring it into the <code>ChangeStatsComponent</code>, and the modifier itself. <code>MorphStats</code> knows the UUID, attribute and default operation of each stat, so only the number is left:</p>
-<div class="highlight"><span class="filename">MyWalkPointAbility.java</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">public</span><span class="w"> </span><span class="nf">MyWalkPointAbility</span><span class="p">(</span><span class="n">AbilityCore</span><span class="o">&lt;</span><span class="n">MyWalkPointAbility</span><span class="o">&gt;</span><span class="w"> </span><span class="n">core</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="kd">super</span><span class="p">(</span><span class="n">core</span><span class="p">);</span>
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="n">MorphStats</span><span class="p">.</span><span class="na">on</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">statsComponent</span><span class="p">,</span><span class="w"> </span><span class="n">INSTANCE</span><span class="p">,</span><span class="w"> </span><span class="s">"My Walk Point"</span><span class="p">)</span>
-<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">            </span><span class="p">.</span><span class="na">movementSpeed</span><span class="p">(</span><span class="mf">0.55</span><span class="p">)</span>
-<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">            </span><span class="p">.</span><span class="na">punch</span><span class="p">(</span><span class="mf">4.0</span><span class="p">)</span>
-<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">            </span><span class="p">.</span><span class="na">armor</span><span class="p">(</span><span class="mf">3.0</span><span class="p">)</span>
-<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">            </span><span class="p">.</span><span class="na">jump</span><span class="p">(</span><span class="mf">1.8</span><span class="p">)</span>
-<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">            </span><span class="p">.</span><span class="na">fallResistance</span><span class="p">(</span><span class="mf">2.5</span><span class="p">);</span>
-<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="p">}</span>
+<div class="highlight"><span class="filename">MyWalkPointAbility.java</span><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">public</span><span class="w"> </span><span class="nf">MyWalkPointAbility</span><span class="p">(</span><span class="n">AbilityCore</span><span class="o">&lt;</span><span class="n">MyWalkPointAbility</span><span class="o">&gt;</span><span class="w"> </span><span class="n">core</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="kd">super</span><span class="p">(</span><span class="n">core</span><span class="p">);</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="n">MorphStats</span><span class="p">.</span><span class="na">on</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">statsComponent</span><span class="p">,</span><span class="w"> </span><span class="n">INSTANCE</span><span class="p">,</span><span class="w"> </span><span class="s">"My Walk Point"</span><span class="p">)</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">            </span><span class="p">.</span><span class="na">movementSpeed</span><span class="p">(</span><span class="mf">0.55</span><span class="p">)</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">            </span><span class="p">.</span><span class="na">punch</span><span class="p">(</span><span class="mf">4.0</span><span class="p">)</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">            </span><span class="p">.</span><span class="na">armor</span><span class="p">(</span><span class="mf">3.0</span><span class="p">)</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">            </span><span class="p">.</span><span class="na">jump</span><span class="p">(</span><span class="mf">1.8</span><span class="p">)</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">            </span><span class="p">.</span><span class="na">fallResistance</span><span class="p">(</span><span class="mf">2.5</span><span class="p">);</span>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="p">}</span>
 </code></pre></div>
 <p>Call it from the constructor. Each method applies its modifier immediately, so there is no final call to forget.</p>
 <h3 id="available-stats">Available stats<a class="headerlink" href="#available-stats" title="Permanent link">&para;</a></h3>
@@ -11538,7 +11611,7 @@
 </tbody>
 </table>
 <p>Every stat also has a two-argument form taking the operation explicitly:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">.</span><span class="na">movementSpeed</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span><span class="w"> </span><span class="n">Operation</span><span class="p">.</span><span class="na">MULTIPLY_TOTAL</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="p">.</span><span class="na">movementSpeed</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span><span class="w"> </span><span class="n">Operation</span><span class="p">.</span><span class="na">MULTIPLY_TOTAL</span><span class="p">)</span>
 </code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">Check the operation when migrating an existing form</p>
@@ -11546,11 +11619,11 @@
 </div>
 <h3 id="stats-that-only-apply-some-of-the-time">Stats that only apply some of the time<a class="headerlink" href="#stats-that-only-apply-some-of-the-time" title="Permanent link">&para;</a></h3>
 <p><code>onlyWhile</code> makes every stat set <strong>after it</strong> conditional:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">MorphStats</span><span class="p">.</span><span class="na">on</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">statsComponent</span><span class="p">,</span><span class="w"> </span><span class="n">INSTANCE</span><span class="p">,</span><span class="w"> </span><span class="s">"My Heavy Point"</span><span class="p">)</span>
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">        </span><span class="p">.</span><span class="na">armor</span><span class="p">(</span><span class="mf">3.0</span><span class="p">)</span><span class="w">                       </span><span class="c1">// always</span>
-<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">        </span><span class="p">.</span><span class="na">onlyWhile</span><span class="p">(</span><span class="k">this</span><span class="p">::</span><span class="n">isDigging</span><span class="p">)</span>
-<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">        </span><span class="p">.</span><span class="na">movementSpeed</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span><span class="w">               </span><span class="c1">// only while digging</span>
-<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">        </span><span class="p">.</span><span class="na">jump</span><span class="p">(</span><span class="mf">3.0</span><span class="p">);</span><span class="w">                       </span><span class="c1">// only while digging</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">MorphStats</span><span class="p">.</span><span class="na">on</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">statsComponent</span><span class="p">,</span><span class="w"> </span><span class="n">INSTANCE</span><span class="p">,</span><span class="w"> </span><span class="s">"My Heavy Point"</span><span class="p">)</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">        </span><span class="p">.</span><span class="na">armor</span><span class="p">(</span><span class="mf">3.0</span><span class="p">)</span><span class="w">                       </span><span class="c1">// always</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">        </span><span class="p">.</span><span class="na">onlyWhile</span><span class="p">(</span><span class="k">this</span><span class="p">::</span><span class="n">isDigging</span><span class="p">)</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="w">        </span><span class="p">.</span><span class="na">movementSpeed</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span><span class="w">               </span><span class="c1">// only while digging</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="w">        </span><span class="p">.</span><span class="na">jump</span><span class="p">(</span><span class="mf">3.0</span><span class="p">);</span><span class="w">                       </span><span class="c1">// only while digging</span>
 </code></pre></div>
 <p>Pass <code>null</code> to go back to unconditional stats.</p>
 <div class="admonition note">
@@ -11559,8 +11632,8 @@
 </div>
 <h2 id="a-body-in-another-matter">A body in another matter<a class="headerlink" href="#a-body-in-another-matter" title="Permanent link">&para;</a></h2>
 <p>A full morph that is the user's own model in a skin worked out from his own, bigger or not: a giant of stone, a coat of metal. <code>MatterBodyMorphInfo</code> carries the one scale to the render, the box, the eyes, the shadow and the camera, and takes its name from the ability it belongs to.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">RegistryObject</span><span class="o">&lt;</span><span class="n">MorphInfo</span><span class="o">&gt;</span><span class="w"> </span><span class="n">STONE_GIANT</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">registerMorph</span><span class="p">(</span><span class="s">"stone_giant"</span><span class="p">,</span>
-<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">        </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">MatterBodyMorphInfo</span><span class="p">(</span><span class="mf">2.5F</span><span class="p">,</span><span class="w"> </span><span class="n">entity</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">StoneSkins</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">entity</span><span class="p">),</span><span class="w"> </span><span class="n">StoneGiantAbility</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">));</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">RegistryObject</span><span class="o">&lt;</span><span class="n">MorphInfo</span><span class="o">&gt;</span><span class="w"> </span><span class="n">STONE_GIANT</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">registerMorph</span><span class="p">(</span><span class="s">"stone_giant"</span><span class="p">,</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">        </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">MatterBodyMorphInfo</span><span class="p">(</span><span class="mf">2.5F</span><span class="p">,</span><span class="w"> </span><span class="n">entity</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">StoneSkins</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">entity</span><span class="p">),</span><span class="w"> </span><span class="n">StoneGiantAbility</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">));</span>
 </code></pre></div>
 <ul>
 <li>Give the skin as a lambda, not as <code>StoneSkins::of</code>: the skin class is a client class, and a method reference is resolved where the morph is registered, on a dedicated server too.</li>
