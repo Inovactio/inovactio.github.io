@@ -17,7 +17,7 @@ Sky Island adds the clouds Skypiea is made of, the blocks its villages are built
 
 Turn a block round (drag), zoom (scroll or pinch), and pick another with the buttons:
 
-<div class="model-viewer" data-models="../block-models/" data-ids="island-cloud sea-cloud cloud-farmland cloud-brick cut-cloud cut-cloud-slab cloud-pillar cloud-pillar-wall shell-tile shell-tile-stairs cloud-glass awning-cloth conch-lantern vearth-urn coral-shell-tile amber-shell-tile lilac-shell-tile coral-shell-tile-stairs amber-shell-tile-stairs lilac-shell-tile-stairs turquoise-awning-cloth amber-awning-cloth lilac-awning-cloth gilded-stone-bricks weather-cloud milky-cloud milky-curb"></div>
+<div class="model-viewer" data-models="../block-models/" data-ids="island-cloud sea-cloud scorched-cloud ashen-cloud birkan-plaster birkan-brick birkan-brick-stairs birkan-chevron-frieze birkan-diamond-frieze birkan-cross-frieze birkan-rose-window cloud-farmland cloud-brick cut-cloud cut-cloud-slab cloud-pillar cloud-pillar-wall shell-tile shell-tile-stairs cloud-glass awning-cloth conch-lantern vearth-urn coral-shell-tile amber-shell-tile lilac-shell-tile coral-shell-tile-stairs amber-shell-tile-stairs lilac-shell-tile-stairs turquoise-awning-cloth amber-awning-cloth lilac-awning-cloth gilded-stone-bricks weather-cloud milky-cloud milky-curb"></div>
 
 ## The clouds
 
@@ -73,6 +73,24 @@ A roof is turquoise, coral, amber or lilac, and the shutters, the door and the a
 | ![](block-models/coral-shutter.png){ .block-icon } **Coral Shutter** | ![](block-models/coral-door.png){ .block-icon } **Coral Door** | any wooden trapdoor, or any wooden door, with 1 Red Dye |
 | ![](block-models/amber-shutter.png){ .block-icon } **Amber Shutter** | ![](block-models/amber-door.png){ .block-icon } **Amber Door** | any wooden trapdoor, or any wooden door, with 1 Yellow Dye |
 | ![](block-models/lilac-shutter.png){ .block-icon } **Lilac Shutter** | ![](block-models/lilac-door.png){ .block-icon } **Lilac Door** | any wooden trapdoor, or any wooden door, with 1 Purple Dye |
+
+## Birka's blocks
+
+The ground of a ruined [Birkan island](birka.md) is burnt cloud, and it fires into Birka's pale masonry. The [Birkan merchant](birka.md) sells the masonry and buys the burnt cloud.
+
+| Block | What it is | How to get it | Stonecutter |
+|---|---|---|---|
+| ![](block-models/scorched-cloud.png){ .block-icon } **Scorched Cloud** | The black cloud where the lightning struck, in plates, craters and cracks. Dense and opaque: nothing roots in it and no hoe tills it. | Dig it on a ruined Birkan island. | — |
+| ![](block-models/ashen-cloud.png){ .block-icon } **Ashen Cloud** | The grey, ashen cloud around it, as barren. | Dig it on a ruined Birkan island. | — |
+| ![](block-models/birkan-plaster.png){ .block-icon } **Birkan Plaster** | Birka's pale masonry: the walls of its towns. | Smelt Ashen or Scorched Cloud in a furnace. | — |
+| ![](block-models/birkan-plaster-slab.png){ .block-icon } **Birkan Plaster Slab** | The half block of plaster. | 3 Birkan Plaster in a row → 6 | Birkan Plaster → 2 |
+| ![](block-models/birkan-brick.png){ .block-icon } **Birkan Brick** | The plaster laid in bricks. | 4 Birkan Plaster in a square → 4 | Birkan Plaster |
+| ![](block-models/birkan-brick-slab.png){ .block-icon } **Birkan Brick Slab** | The half block of brick. | 3 Birkan Brick in a row → 6 | Birkan Brick → 2 |
+| ![](block-models/birkan-brick-stairs.png){ .block-icon } **Birkan Brick Stairs** | Stairs of brick. | 6 Birkan Brick in a staircase → 4 | Birkan Brick |
+| ![](block-models/birkan-chevron-frieze.png){ .block-icon } **Birkan Chevron Frieze** | A band of red chevrons painted on the plaster. | 8 Birkan Plaster around 1 Red Dye → 8 | — |
+| ![](block-models/birkan-diamond-frieze.png){ .block-icon } **Birkan Diamond Frieze** | A band of blue diamonds. | 8 Birkan Plaster around 1 Blue Dye → 8 | — |
+| ![](block-models/birkan-cross-frieze.png){ .block-icon } **Birkan Cross Frieze** | A band of orange crosses. | 8 Birkan Plaster around 1 Orange Dye → 8 | — |
+| ![](block-models/birkan-rose-window.png){ .block-icon } **Birkan Rose Window** | A round window set in plaster: plaster above and below, the rose on its sides. | 4 Birkan Plaster around 1 Cloud Glass, in a cross → 4 | — |
 
 ## More blocks
 
