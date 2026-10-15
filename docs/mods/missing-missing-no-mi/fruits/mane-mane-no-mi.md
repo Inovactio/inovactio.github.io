@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Imitation |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.21%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 2: 2 active, 0 passive |
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.

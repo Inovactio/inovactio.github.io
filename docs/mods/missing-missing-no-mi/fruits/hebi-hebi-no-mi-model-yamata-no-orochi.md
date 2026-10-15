@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.06%**, iron **0.153%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.97%**, iron **0.148%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 10: 9 active, 1 passive |
 | **Transformations** | [Orochi Heavy Point](#orochi-heavy-point), [Orochi Guard Point](#orochi-guard-point) |
 

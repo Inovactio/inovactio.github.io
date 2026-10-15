@@ -7,7 +7,7 @@
 | **Type** | Logia |
 | **Theme** | Paper |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.06%**, iron **0.153%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.97%**, iron **0.148%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 14: 12 active, 2 passive (1 hidden, not in the ability menu) |
 | **Effects applied** | ![](../effect-icons/buried.png){ .effect-mini }[Buried](../effects.md#effect-buried), ![](../effect-icons/scattered.png){ .effect-mini }[Scattered](../effects.md#effect-scattered), ![](../effect-icons/warded.png){ .effect-mini }[Warded](../effects.md#effect-warded) |
 
@@ -98,7 +98,7 @@ Sheets of paper wrap the enemy the user is looking at like a mummy, they can't m
 
 ![Paper Wall](../objects/paper-wall.png){ .form-picture }
 
-Sheets of paper gather into a wall in front of the user that stops enemies and projectiles for a while. Fire burns the wall
+Sheets of paper gather into a wall in front of the user that stops enemies and projectiles for a while. Fire burns the wall. Using the ability again brings the wall down
 
 | Stat | Value |
 |---|---|

@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Spin |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.21%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 5 active, 2 passive |
 | **Effects applied** | ![](../effect-icons/launched.png){ .effect-mini }[Launched](../effects.md#effect-launched) |
 

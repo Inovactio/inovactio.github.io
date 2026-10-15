@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Art |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.21%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 | **Transformations** | [Heaven's Do Art](#heavens-do-art) |
 | **Effects applied** | ![](../effect-icons/art.png){ .effect-mini }[Art](../effects.md#effect-art) |
@@ -53,7 +53,7 @@ Flattens the enemy the user is looking at into a painting on the ground, where i
 
 ![](../abilities/fukugen.png){ .ability-icon } *Active*
 
-Restores everything the user turned into art. Everything is also restored if the user is knocked out. Water washes the art off a body
+Restores everything the user turned into art. Everything is also restored if the user is knocked out
 
 | Stat | Value |
 |---|---|
