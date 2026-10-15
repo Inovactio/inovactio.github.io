@@ -44,3 +44,13 @@ The library's armour layer mixin skips every armour piece of a marked entity, an
     Because the mark is cleared after every render, a single call only hides the armour for one frame. Call `markNoArmor` from the animation hook, which runs each frame for as long as the animation plays; the armour comes back on its own when the animation stops.
 
 This is how a technique that tucks the whole body away, a shell spin for instance, keeps armour pieces from floating in the air around it.
+
+## Hiding one piece: `HiddenArmour`
+
+To hide one slot only, a chestplate over a chest drawn open for instance, register a rule once at client setup:
+
+```java
+HiddenArmour.register((entity, slot) -> slot == EquipmentSlot.CHEST && MyAbility.isOpen(entity));
+```
+
+The armour layer asks every rule for each piece it draws, every frame: the piece comes back as soon as the rule says no.

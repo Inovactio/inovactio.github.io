@@ -22,6 +22,7 @@ Every class here extends a Mine Mine no Mi type and encodes a technique shape th
 | a charged teleport that hits along its path | `InstantDashAbility` | [Movement](movement.md) |
 | a charged area stomp | `StompAbility` | [Movement](movement.md) |
 | anything that must be used on the ground | `GroundAbility` | [Movement](movement.md) |
+| a wall that stands while the ability goes on and comes down on a second use | `WallAbility` | its Javadoc |
 | the flight of a Zoan with two flying forms | `TwoFormFlightAbility` | [Movement](movement.md) |
 | a giant body of stone, gold or another matter that takes the blows | `MatterGiantAbility` | [Giants of matter](giants.md) |
 | a form with a time limit that comes in several sizes | `TimedSizeFormAbility` | [Giants of matter](giants.md) |
