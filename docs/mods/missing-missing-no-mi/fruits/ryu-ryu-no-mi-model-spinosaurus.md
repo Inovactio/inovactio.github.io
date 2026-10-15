@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Ancient Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.71%**, wooden **0.085%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.59%**, wooden **0.079%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 8 active, 1 passive |
 | **Transformations** | [Spinosaurus Heavy Point](#spinosaurus-heavy-point), [Spinosaurus Walk Point](#spinosaurus-walk-point) |
 

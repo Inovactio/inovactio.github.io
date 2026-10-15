@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Growth |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.21%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 7 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/buried.png){ .effect-mini }[Buried](../effects.md#effect-buried) |
 
@@ -78,12 +78,12 @@ Use the ability again to release the enemy
 
 ![Green Wall](../objects/green-wall.png){ .form-picture }
 
-The plants in front of the user rise into a wall that stops enemies and projectiles for a while
+The plants in front of the user rise into a wall that stops enemies and projectiles for a while. Using the ability again brings the wall down
 
 | Stat | Value |
 |---|---|
 | Cooldown | 20 s |
-| Wall Lasts | 8 s |
+| Hold | 8 s |
 
 ## Devouring Plant { #devouring-plant }
 

@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Millet dango |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **2.21%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 2: 2 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/devoted.png){ .effect-mini }[Devoted](../effects.md#effect-devoted) |
 

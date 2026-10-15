@@ -2,6 +2,186 @@
 
 Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/all).
 
+## 3.0.0 (beta) { #v3-0-0 }
+
+<small>Released 2026-10-15 · Beta · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9195525)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Wave 7: the fruits of Whole Cake Island.</strong> Eleven new Devil Fruits: Mira Mira, Kuri Kuri, Bata Bata, Buku Buku, Bisu Bisu, Hoya Hoya, Tama Tama, Tori Tori Model Albatross, Memo Memo, Gocha Gocha, and Mochi Mochi with its awakening, the first awakening of this addon. Wall abilities now stay up while you hold them, the birds really beat their wings, the Fuwa boat turns where you look, and the Gasha Gasha no Mi builds from real metal.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 4.7.0</strong> or newer. Client and server.</p>
+<p>⚠️ <strong>AkumaLib 4.7.0 is now the minimum.</strong> Update it before this version.</p>
+<p>⚠️ <strong>Servers: set <code>allow-flight=true</code></strong> in <code>server.properties</code>, as before. Several fruits fly (now the Albatross and the Flying Book of the Buku Buku no Mi too), and without it the server kicks their users.</p>
+<hr />
+<h2>Paramecia</h2>
+<h3>Mira Mira no Mi</h3>
+<p><em>Wooden box · 6 abilities</em></p>
+<p>Mirrors that turn shots back, that copy a look, and that open into Mirro-World, a world of endless mirror halls.</p>
+<ul>
+<li><strong>Reflection</strong>: a mirror raised in front of you for 4 s. Shots from the front go back, blows from the front are stopped.</li>
+<li><strong>Mirror</strong>: lays a standing mirror, a door into Mirro-World.</li>
+<li><strong>Mirro-World</strong>: your next punch raises a mirror behind the target and pushes it in. A player pushed in finds every door shut for a minute, unless he follows you out or you fall.</li>
+<li><strong>Mirror Image</strong>: you take the look of whoever you look at.</li>
+<li><strong>Decoys</strong>: the animals around you take the look of whoever you look at.</li>
+<li><strong>Ask the Mirrors</strong>: every mirror tells you which players passed in front of it, latest first.</li>
+<li><strong>Mirro-World</strong> is a world of its own: curved galleries, a crimson checkered floor, glowing mirrors in gold frames. You can build and break there, and every place mends itself 30 s after it last changed.</li>
+<li><strong>Anyone can craft a mirror</strong> (three glass panes between two columns of iron) and lay it. Only the fruit's user opens mirrors, others go in only right behind the user. The mirror is in the Misc tab and is held in 3D.</li>
+</ul>
+<h3>Kuri Kuri no Mi</h3>
+<p><em>Iron box · 7 abilities</em></p>
+<p>Cream without end, and its sugar burns. <strong>Cream Burn</strong> bites every second, lasts longer with each touch and washes off in water.</p>
+<ul>
+<li><strong>Cream Ball</strong>: a ball of cream that hits, burns and slows the legs.</li>
+<li><strong>Cream Grab</strong>: a tentacle springs at the enemy you look at, burns it and pulls it to you.</li>
+<li><strong>Cream Wave</strong>: a wave that hits everything in its path, pushes it back and burns it.</li>
+<li><strong>Cream Flood</strong>: cream on the ground around you, 8 blocks wide. It slows and burns enemies who wade in, never you or your side. A second use takes it back.</li>
+<li><strong>Cream Monster</strong>: a puddle of cream spreads under you and follows you. Four tentacles wait in it and spring out at any enemy who comes near, to strike, burn and hold.</li>
+<li><strong>Cream Shell</strong>: a full shelter. You take almost no damage but cannot move, strike or use anything else. It has a health of its own.</li>
+<li><strong>Cream Body</strong> (passive): you are always covered in cream, and a bare fist that hits you gets burnt. A weapon does not.</li>
+</ul>
+<h3>Bata Bata no Mi</h3>
+<p><em>Wooden box · 6 abilities</em></p>
+<p>Butter: soft it holds, melted it makes everyone slide, heated it burns.</p>
+<ul>
+<li><strong>Butter Lump</strong>: a thrown lump that hits and slows the legs.</li>
+<li><strong>Butter Cuffs</strong>: butter wraps the hands of the enemy you look at. It cannot strike or use what it holds.</li>
+<li><strong>Butter Wrap</strong>: the same on the whole body. It cannot move or strike.</li>
+<li><strong>Slippery Sheet</strong>: melted butter on the ground where you look. Everyone slides on it, friend and foe, but you.</li>
+<li><strong>Butter Slide</strong>: a mode. You move faster and leave a slippery trail.</li>
+<li><strong>Burning Butter</strong>: heats all your butter at once. Whoever is in your cuffs or wrap, and enemies on your butter, get burnt, then it all melts away.</li>
+<li>A target gets free with time (sooner for a player), when someone else hits it, or in fire.</li>
+</ul>
+<h3>Buku Buku no Mi</h3>
+<p><em>Iron box · 7 abilities</em></p>
+<p>Books that fly, blind and imprison.</p>
+<ul>
+<li><strong>Cutting Page</strong>: a torn page thrown edge on. It cuts and makes the target bleed.</li>
+<li><strong>Book Barrage</strong>: a volley of eight heavy books in three covers.</li>
+<li><strong>Book Wall</strong>: a row of great books standing. Bodies and shots stop on them, fire burns them down.</li>
+<li><strong>Swallowing Book</strong>: an open book swallows shots from the front. Use it again to throw them all back.</li>
+<li><strong>Flying Book</strong>: a mode. You stand on a book and fly freely, on the stamina gauge.</li>
+<li><strong>Hon no Sekai</strong>: a book opens over the enemy you look at for as long as you hold it. A player sees only pages, a creature forgets who it was after. It shuts when you get hit.</li>
+<li><strong>Imprison</strong>: a creature under half its health (never a boss) becomes a book in your bag, and comes out whole where you use the book. A player is shut in a book for 4 s, out of the fight.</li>
+</ul>
+<h3>Bisu Bisu no Mi</h3>
+<p><em>Iron box · 8 abilities</em></p>
+<p>Biscuit hard as hardtack: soldiers, shields, a wall and an armour that grows arms. Water and rain make it soft, and soft biscuit is eaten.</p>
+<ul>
+<li><strong>Biscuit Hei</strong>: a mode. Three biscuit soldiers follow you and fight. A broken one forms again after 10 s.</li>
+<li><strong>Hard Biscuit</strong>: a pile of shields falls on the enemy you look at. It hits and pins it for a moment.</li>
+<li><strong>Biscuit Wall</strong>: five panels of biscuit. Bodies and shots stop on them.</li>
+<li><strong>Biscuit Armour</strong>: a large armour four blocks high that takes the blows. Each new use adds a pair of arms and swords (2, 4, 6) and more damage. What it has left shows on screen. Broken, it lets you out unharmed.</li>
+<li><strong>Double Roll Pretzel</strong>: in the armour only. A thrust forward with two spinning swords.</li>
+<li><strong>Crush Biscuit</strong>: shapes a biscuit sword in your hand for up to 60 s. It crumbles in water or rain.</li>
+<li><strong>Crumb Burst</strong>: a fan of hard crumbs at every enemy in front of you.</li>
+<li><strong>Biscuit Rations</strong>: four hard biscuits, too hard to eat. Use one on water and it becomes a soaked biscuit you can eat.</li>
+<li><strong>Soft biscuit</strong>: in water or rain, soldiers and the armour take twice the damage and the wall lasts half as long. Anyone, an enemy too, eats a soft soldier with a right click.</li>
+</ul>
+<h3>Hoya Hoya no Mi</h3>
+<p><em>Iron box · 8 abilities</em></p>
+<p>Rub your belly and a huge genie with a halberd comes out, tied to you by a trail of smoke. It fights by itself, but while it is out you walk slowly, strike nothing and use no item.</p>
+<ul>
+<li><strong>Genie</strong>: a mode. The genie hunts whoever you hit or who hit you, then the nearest monster, within 24 blocks. It draws creatures onto itself, climbs over walls, and one blow in three is a wide sweep. Use it again to call it back.</li>
+<li><strong>Genie Command</strong>: sends the genie after the enemy you look at.</li>
+<li><strong>Maji Giren</strong>: the halberd slams on the genie's target and sweeps everyone around it.</li>
+<li><strong>Majin Saidan</strong>: a flying slash from the genie through every enemy in its way.</li>
+<li><strong>Maji Karu</strong>: the heaviest blow. The target is driven into the ground and held a moment.</li>
+<li><strong>Genie Shield</strong>: the genie comes back in front of you and takes blows from the front on its own life.</li>
+<li><strong>Smoke</strong>: the genie turns to smoke for 3 s. Nothing touches it.</li>
+<li><strong>Great Genie</strong>: the genie grows three times bigger for a while, with a longer reach and harder blows.</li>
+<li><strong>The genie's life</strong> is a gauge on your screen. It heals slowly while the genie is in your belly. A heavy blow on you or any hold sends it back.</li>
+<li><strong>Your Armament Haki shows on its halberd</strong>, and its blows then reach a Logia.</li>
+</ul>
+<h3>Memo Memo no Mi</h3>
+<p><em>Wooden box · 4 abilities</em></p>
+<p>Pulls memories out of a head as a strip of film, cuts frames out and pastes others in. Cut, Paste and Forgotten Skill need shears in your bag.</p>
+<ul>
+<li><strong>Memories Fil Flashback</strong>: threads go to the enemies in front of you. For 3 s they stand lost in old memories: no step, no blow, no ability. A player sees the world as an old film.</li>
+<li><strong>Cut</strong>: the creature you look at forgets its quarrel for 10 s, or until something hits it. The cut frames are kept as a <strong>Memory Reel</strong> that names who it was after.</li>
+<li><strong>Paste</strong>: with empty hands, the creature takes you for a friend and fights for you for 30 s. With a Memory Reel in hand, it takes the kept anger and goes after the one named on the reel. Never on a boss.</li>
+<li><strong>Forgotten Skill</strong>: the enemy you look at forgets 3 to 6 random abilities of his bar for 15 s.</li>
+</ul>
+<h3>Gocha Gocha no Mi</h3>
+<p><em>Wooden box · 2 abilities</em></p>
+<p>Merge with your allies into one giant, bigger and stronger with each member. Alone, the fruit gives nothing.</p>
+<ul>
+<li><strong>Gattai</strong>: your own creatures within 6 blocks merge at once. Allied players merge by right clicking you while it is open. Four members at most, one for each limb, and each limb takes the look of its member. Use it again to split.</li>
+<li><strong>Great Weapon</strong>: the giant sweeps what is in front of it, harder with each merged weapon.</li>
+<li><strong>Never by force</strong>: a player merges only by his own click and gets out when he likes, like getting off a mount. Inside, he sees from the giant's eyes, uses his own abilities from there, and nothing reaches him.</li>
+<li><strong>The giant's life</strong> is shared. Split, everyone comes out with the same share of health lost. If the giant falls, nobody dies: everyone comes out with one heart and a short stun.</li>
+</ul>
+<h3>Mochi Mochi no Mi</h3>
+<p><em>Golden box · 14 abilities, and 9 awakened</em></p>
+<p>Mochi, sticky and stretchy, soft to hold and hardened into fists. Whoever is stuck in mochi cannot step or strike. Water and rain free them, and a stuck player can eat his way out by holding the use key.</p>
+<ul>
+<li><strong>Mochi Body</strong> (passive): blows without Haki pass through you, as through a Logia. Unlocked once you have the future sight of Observation Haki.</li>
+<li><strong>Stretching Arm</strong>: a soft arm shoots at the enemy you look at and holds it.</li>
+<li><strong>Mochi Lump</strong>: a thrown lump of soft mochi that sticks the first enemy it meets.</li>
+<li><strong>Flowing Body</strong>: you melt and flow a few blocks the way you look, your chest open in a ring of mochi. Nothing reaches you for a moment.</li>
+<li><strong>Extra Arms</strong>: for 12 s, two mochi arms out of your back follow each of your blows with two more.</li>
+<li><strong>Yanagi Mochi</strong>: many legs of mochi stamp a place in front of you.</li>
+<li><strong>Tori Mochi</strong>: a whip seizes the enemy you look at and throws it where you look.</li>
+<li><strong>Mochi Tsuki</strong>: your arm twists and drives your weapon in a long stab. Needs a weapon in hand.</li>
+<li><strong>Mochi Wall</strong>: five panels of soft mochi. An enemy who touches it is stuck.</li>
+<li><strong>Hardened mochi</strong> comes once you have Armament hardening:</li>
+<li><strong>Kaku Mochi</strong>: both forearms pressed into square blocks, for harder fists.</li>
+<li><strong>Naguri Mochi</strong>: a barrage of square fists.</li>
+<li><strong>Yaki Mochi</strong>: one great fist shot at range that sets on fire everything in its way.</li>
+<li><strong>Mochi Hadan</strong>: one bullet, and while you hold the use key with an empty hand, your forearm fires as a Gatling gun.</li>
+<li><strong>Zan Giri Mochi</strong>: you roll forward as a ring, seize the first enemy met, go up with it and smash it down.</li>
+</ul>
+<h4>The awakening</h4>
+<p>Nine awakened techniques, unlocked once the fruit is awakened. They have their own <strong>Awakening</strong> tab in the abilities screen.</p>
+<ul>
+<li><strong>Muso Donuts</strong>: four rings of mochi swell in the air around you, each turned its own way. They stand while you hold the ability, up to 25 s. Use it again and they go. The five techniques below come out of the rings.</li>
+<li><strong>Chikara Mochi</strong>: a giant arm from a ring punches the enemy you look at and sends it flying.</li>
+<li><strong>Mochi Ginchaku</strong>: for 4 s every ring keeps punching the enemy nearest to it.</li>
+<li><strong>Kuzu Mochi</strong>: nine arms, one after the other, on the place you look at.</li>
+<li><strong>Kashiwa Mochi</strong>: two giant hands clap on the enemy you look at and stick it. Hold the use key and they clap again, four claps in all.</li>
+<li><strong>Kuri Mochi</strong>: a ring bristles with spikes and shoots them where you look.</li>
+<li><strong>Nagare Mochi</strong>: the ground around the enemy you look at turns to mochi and seizes him. It slows whoever walks in it.</li>
+<li><strong>Kagami Mochi</strong>: mochi falls on the enemy you look at and shuts it in a shell.</li>
+<li><strong>Amadare Mochi</strong>: arms rise from the ground under every enemy around you and stick them.</li>
+<li><strong>The world is never damaged</strong>: the mochi laid on the ground or in the air goes away by itself.</li>
+</ul>
+<h2>Zoan</h2>
+<h3>Tama Tama no Mi</h3>
+<p><em>Wooden box · 5 abilities</em></p>
+<p>You never choose a form. You are an egg, and a killing blow cracks you open: a yolk comes out, then you are born again stronger, a chick, then a rooster.</p>
+<ul>
+<li><strong>Three Lives</strong> (passive): each killing blow costs a life. You become a yolk for 5 s, then the next form. As a yolk you cannot move, strike or use abilities, but nothing hurts you. Killed as a rooster, you die for real. Lost lives come back after 10 minutes, and the gauge shows the time left.</li>
+<li><strong>The egg</strong> has no technique. Its shell gives armour and cracks as your health goes down.</li>
+<li><strong>Peck</strong>: a quick beak blow on the enemy in front. Chick and rooster.</li>
+<li><strong>Dash</strong>: run much faster for 5 s. Chick and rooster.</li>
+<li><strong>Wing Flurry</strong>: the rooster beats its wings and throws back enemies in front.</li>
+<li><strong>Crow</strong>: the rooster shakes every enemy around, slowed and weakened.</li>
+</ul>
+<h3>Tori Tori no Mi, Model: Albatross</h3>
+<p><em>Wooden box · 6 abilities</em></p>
+<p>The third bird of the addon. The falcon is fast, the eagle hits hard, the albatross lasts.</p>
+<ul>
+<li><strong>Albatross Assault Point</strong>: the hybrid. Flies and keeps its hands.</li>
+<li><strong>Albatross Fly Point</strong>: the whole bird, the longest wings of the addon.</li>
+<li><strong>Albatross Flight</strong>: flies like the other birds. When it flies hurt, its flight gauge lasts three times as long, and it flies 30 % faster over water or in the rain.</li>
+<li><strong>Albatross Rideable</strong>: another player can ride on the whole bird's back.</li>
+<li><strong>Beak Strike</strong>: throws itself at the one it looks at, from the air or the ground, and strikes with its beak.</li>
+<li><strong>Wing Wall</strong>: a held guard with crossed wings. Blows from the front are cut to 30 %, shots from the front are stopped.</li>
+</ul>
+<hr />
+<h2>Changes</h2>
+<ul>
+<li><strong>Walls stay up while their ability goes on.</strong> Green Wall, Paper Wall, Muralla and the new walls keep their ability on while the wall stands, and a second use brings the wall down. The cooldown starts when the wall goes. Muralla shows how long it lasts.</li>
+<li><strong>Gasha Gasha no Mi builds from real metal.</strong> Torreta takes 4 iron ingots and 2 gunpowder, Soldado 6 iron and 2 copper ingots, Cañón Armado 2 iron, Blindado 3 iron, Unión Armado 8 iron and 2 copper. Six metal blocks within three blocks of you (iron or copper blocks, anvils, rails, iron bars, chains, cauldrons, hoppers, lanterns...) give it all for free. Putting things away costs nothing.</li>
+<li><strong>Birds beat their wings.</strong> The Falcon, the Eagle and the Albatross take their flight pose only in real flight, never on a jump or a fall. Their wings always beat in flight, harder while climbing, and the hybrids spread their arms.</li>
+<li><strong>Vampire forms redrawn.</strong> Both forms of the Batto Batto no Mi, Model: Vampire have a new look, day and night, and both eyes now match. Their wings open in real flight only.</li>
+<li><strong>Greyed techniques.</strong> A technique that needs a form, a giant, a genie, an armour or a ring is greyed on the bar until it can be used.</li>
+<li><strong>Redrawn icons.</strong> The Ink Sabre, Ink Spear, Ink Dango, Kibi Dango and the three still lifes of the Ato Ato no Mi, in the style of Mine Mine no Mi. The 17 clothes (bandit, fur, padded, revolutionary, samurai and shishi sets) are redrawn bigger, on the same shapes as the base mod's clothes.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>The Fuwa boat did not turn.</strong> A boat flown by Fusen kept its heading and pulled your view back when you looked around. It now turns towards where its rider looks.</li>
+</ul>
+</div>
+
 ## 2.1.0 { #v2-1-0 }
 
 <small>Released 2026-10-11 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9130599)</small>

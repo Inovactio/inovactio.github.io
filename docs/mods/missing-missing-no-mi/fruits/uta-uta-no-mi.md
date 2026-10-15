@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Song |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.06%**, iron **0.153%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.97%**, iron **0.148%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 6 active, 1 passive |
 | **Transformations** | [Knight Form](#knight-form) |
 | **Effects applied** | ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/just-woken.png){ .effect-mini }[Just Woken](../effects.md#effect-just-woken), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet), ![](../effect-icons/wide-awake.png){ .effect-mini }[Wide Awake](../effects.md#effect-wide-awake) |
@@ -27,9 +27,9 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 Applies ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/just-woken.png){ .effect-mini }[Just Woken](../effects.md#effect-just-woken), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet), ![](../effect-icons/wide-awake.png){ .effect-mini }[Wide Awake](../effects.md#effect-wide-awake)
 
-The user sings for a few seconds. Every player still in range at the end is sent to Uta World with the user, their bodies stay asleep where they stood. A hit interrupts the song. Nobody under a silence hears it
+The user sings for a few seconds. Every player still in range at the end is sent to Uta World with the user, their bodies stay asleep where they stood. A hit interrupts the song
 
-Creatures in range fall asleep, all but bosses become the user's puppets. A hit on a sleeping body wakes its player, a hit on the user's body ends the dream for everyone. A silence that falls on a sleeping body wakes its player too
+Creatures in range fall asleep, all but bosses become the user's puppets. A hit on a sleeping body wakes its player, a hit on the user's body ends the dream for everyone
 
 A player defeated in the dream wakes up and takes heavy damage, and so does the user. While alone in the dream, the user can use this again to end it
 

@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Mushroom |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.71%**, wooden **0.085%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.59%**, wooden **0.079%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 7 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/spores.png){ .effect-mini }[Spores](../effects.md#effect-spores) |
 
@@ -101,7 +101,7 @@ Use the ability again to release the enemy
 
 ![](../abilities/snow-spore.png){ .ability-icon } *Active*
 
-The user releases a cloud of spores in front of them, everyone inside is poisoned and paralyzed for a moment. Fire burns the cloud away and wind blows it away
+The user releases a cloud of spores in front of them, everyone inside is poisoned and paralyzed for a moment. Fire burns the cloud away
 
 | Stat | Value |
 |---|---|

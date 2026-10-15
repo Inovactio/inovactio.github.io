@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Assembly |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.06%**, iron **0.153%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.97%**, iron **0.148%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 10: 10 active, 0 passive |
 | **Transformations** | [Unión Armado](#union-armado), [Blindado](#blindado) |
 
@@ -48,11 +48,12 @@ If used while crouching, repairs the item in the user's hand using its material 
 
 ![](../abilities/muralla.png){ .ability-icon } *Active*
 
-The user creates a big wall where they are looking at, made from the ground blocks, which sends flying the enemies near it. The wall stops enemies and projectiles and disappears after 10 seconds
+The user creates a big wall where they are looking at, made from the ground blocks, which sends flying the enemies near it. The wall stops enemies and projectiles and disappears after 10 seconds. Using the ability again brings the wall down
 
 | Stat | Value |
 |---|---|
 | Cooldown | 12 s |
+| Hold | 10 s |
 
 ## Cañón Armado { #canon-armado }
 
@@ -63,6 +64,8 @@ The user creates a big wall where they are looking at, made from the ground bloc
 Transforms the user's arm into a cannon. While active, holding right click with an empty hand shoots the first ammo found in the inventory, TNT, gunpowder, bullets, cannon balls or arrows
 
 Use the ability again to remove the cannon.
+
+Making the cannon takes metal blocks near the user, or 2 iron ingots from the inventory
 
 | Stat | Value |
 |---|---|
@@ -79,6 +82,8 @@ Creates a turret where the user is looking at and loads it with up to 32 bullets
 
 The unused bullets are given back to the user. Only one turret can be active.
 
+Building the turret takes metal blocks near the user, or 4 iron ingots and 2 gunpowder from the inventory
+
 | Stat | Value |
 |---|---|
 | Cooldown | 30 s |
@@ -93,6 +98,8 @@ Creates a soldier made of scrap in front of the user, that follows them and atta
 
 Only one soldier can be active
 
+Building the soldier takes metal blocks near the user, or 6 iron ingots and 2 copper ingots from the inventory
+
 | Stat | Value |
 |---|---|
 | Cooldown | 60 s |
@@ -106,6 +113,8 @@ Only one soldier can be active
 The user creates a giant mech around them, increasing the damage and the range of their punches and their armor, but making them slower
 
 The size can be changed before using it, the colossus looks like the ground it was made on, lasts less and has a longer cooldown.
+
+Building the mech takes metal blocks near the user, or 8 iron ingots and 2 copper ingots from the inventory
 
 Unión Armado
 
@@ -147,6 +156,8 @@ Deals more damage while Busoshoku Haki is active.
 ![Blindado](../forms/blindado.png){ .form-picture }
 
 The user's arms gets bigger with scrap and Busoshoku Haki, increasing their punch damage, armor and speed
+
+Growing the arms takes metal blocks near the user, or 3 iron ingots from the inventory
 
 | Stat | Value |
 |---|---|
