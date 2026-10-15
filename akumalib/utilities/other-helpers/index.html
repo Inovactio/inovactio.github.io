@@ -11268,6 +11268,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#long-rays-heavy-work-the-fruits-taken" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Long rays, heavy work, the fruits taken
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#playerstore-items-a-player-keeps-with-him" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11554,6 +11565,17 @@
     <span class="md-ellipsis">
       
         Strong bodies, turned shots, a flyer who left in the air
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#long-rays-heavy-work-the-fruits-taken" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Long rays, heavy work, the fruits taken
       
     </span>
   </a>
@@ -11850,12 +11872,51 @@ arms.</p>
 <li><code>LeftInTheAir</code>: nothing to call. A player with a <code>TwoFormFlightAbility</code> passive who leaves the game in the air finds his first fall free when he comes back: the base mod ends his form before he is saved.</li>
 </ul>
 <p>An addon that had tags of its own for these can keep them alive by listing them in its own <code>data/akumalib/tags/entity_types/bosses.json</code> (<code>{"id": "#myaddon:bosses", "required": false}</code>).</p>
+<h2 id="long-rays-heavy-work-the-fruits-taken">Long rays, heavy work, the fruits taken<a class="headerlink" href="#long-rays-heavy-work-the-fruits-taken" title="Permanent link">&para;</a></h2>
+<p>Four helpers that AkumaLib's own <a href="../base-mod-fixes/">fixes to the base mod</a> use, and an addon can call.</p>
+<p><strong>The base mod's own aiming, corrected.</strong> With their switches on, two of <code>WyHelper</code>'s calls are already corrected for
+every addon that uses them, with nothing to call:</p>
+<ul>
+<li><code>WyHelper.rayTraceEntities</code> (guns and instant shots) stops at the first wall and hits the nearest target crossed,
+  one at arm's length included (<code>fixHitScan</code>, through <code>HitScan.nearest</code>). For an addon's own aiming,
+  <a href="../targeting/"><code>AkumaTargeting</code></a> remains the helper to use.</li>
+<li><code>WyHelper.rayTraceBlocksAndEntities</code> no longer loads or generates chunks along a long ray (<code>fixAbilityWorldWork</code>,
+  through <code>LoadedRay.clip</code>).</li>
+</ul>
+<p><strong><code>LoadedRay</code>: a long ray that stays in the loaded world.</strong> <code>Level.clip</code> reads every block along the ray, and reading
+a block of a chunk that is not loaded loads it, or generates it, on the server thread: a 1024-block ray over the sea
+crosses some 64 chunks.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="n">BlockHitResult</span><span class="w"> </span><span class="n">hit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">LoadedRay</span><span class="p">.</span><span class="na">clip</span><span class="p">(</span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ClipContext</span><span class="p">(</span><span class="n">from</span><span class="p">,</span><span class="w"> </span><span class="kd">to</span><span class="p">,</span><span class="w"> </span><span class="n">ClipContext</span><span class="p">.</span><span class="na">Block</span><span class="p">.</span><span class="na">COLLIDER</span><span class="p">,</span><span class="w"> </span><span class="n">ClipContext</span><span class="p">.</span><span class="na">Fluid</span><span class="p">.</span><span class="na">NONE</span><span class="p">,</span><span class="w"> </span><span class="n">user</span><span class="p">),</span><span class="w"> </span><span class="n">user</span><span class="p">);</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="kt">double</span><span class="w"> </span><span class="n">loaded</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">LoadedRay</span><span class="p">.</span><span class="na">loadedShare</span><span class="p">(</span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">from</span><span class="p">,</span><span class="w"> </span><span class="kd">to</span><span class="p">);</span><span class="w">   </span><span class="c1">// 0 to 1: how much of the segment runs through loaded chunks</span>
+</code></pre></div>
+<p>What the ray meets before the first chunk that is not loaded is a hit as with <code>clip</code>; past it, a miss at the end asked
+for.</p>
+<p><strong><code>SpreadWork</code>: very large work spread over a few ticks.</strong> For a sphere of hundreds of thousands of block writes, or a
+volley of hundreds of entities, in one tick:</p>
+<ul>
+<li><code>SpreadWork.carve(level, placer, origin)</code> queues a whole sphere of the base mod's <code>SimpleBlockPlacer</code> around
+  <code>origin</code>. Each tick gives the level's spheres 15 ms; blocks that are air already are passed over, the others go
+  through the placer and its rule.</li>
+<li><code>SpreadWork.add(level, entity)</code> queues an entity to enter the level, 64 per tick in the order they came; it answers
+  what <code>addFreshEntity</code> would for a new entity.</li>
+</ul>
+<p>The end result is the same, it arrives over a few ticks. Neither looks at a switch: call them where you want the work
+spread.</p>
+<p><strong><code>FruitRegister</code>: the Devil Fruits that are not free.</strong> What the <code>/fruits</code> screen shows, read from the base mod's
+one-fruit-per-world record:</p>
+<ul>
+<li><code>FruitRegister.ruleOn()</code>: whether the base mod keeps one fruit of each kind per world. Without it nothing is
+  recorded.</li>
+<li><code>FruitRegister.taken(server, operator)</code>: one <code>Entry</code> per fruit that is lying in the world, held, or eaten (its
+  <code>State</code>), with who has it. Where it lies and when it last changed hands are filled for an operator only, as with
+  the base mod's <code>/check_fruits</code>. A fruit the record calls lost is free again and left out.</li>
+</ul>
 <h2 id="playerstore-items-a-player-keeps-with-him"><code>PlayerStore</code>: items a player keeps with him<a class="headerlink" href="#playerstore-items-a-player-keeps-with-him" title="Permanent link">&para;</a></h2>
 <p>A store that belongs to a player and follows him over a death: a swamp he puts things in, a scroll. Make it once, as a constant, and open it with any chest screen of the game.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">PlayerStore</span><span class="w"> </span><span class="n">SWAMP</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">PlayerStore</span><span class="p">(</span><span class="s">"myaddon:swamp_store"</span><span class="p">,</span><span class="w"> </span><span class="mi">54</span><span class="p">)</span>
-<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="w">        </span><span class="p">.</span><span class="na">refusing</span><span class="p">(</span><span class="n">stack</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">stack</span><span class="p">.</span><span class="na">getItem</span><span class="p">()</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">AkumaNoMiItem</span><span class="p">);</span>
-<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
-<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="n">player</span><span class="p">.</span><span class="na">openMenu</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">SimpleMenuProvider</span><span class="p">((</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">inventory</span><span class="p">,</span><span class="w"> </span><span class="n">p</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">ChestMenu</span><span class="p">.</span><span class="na">sixRows</span><span class="p">(</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">inventory</span><span class="p">,</span><span class="w"> </span><span class="n">SWAMP</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">player</span><span class="p">)),</span><span class="w"> </span><span class="n">TITLE</span><span class="p">));</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">PlayerStore</span><span class="w"> </span><span class="n">SWAMP</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">PlayerStore</span><span class="p">(</span><span class="s">"myaddon:swamp_store"</span><span class="p">,</span><span class="w"> </span><span class="mi">54</span><span class="p">)</span>
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="w">        </span><span class="p">.</span><span class="na">refusing</span><span class="p">(</span><span class="n">stack</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">stack</span><span class="p">.</span><span class="na">getItem</span><span class="p">()</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">AkumaNoMiItem</span><span class="p">);</span>
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="n">player</span><span class="p">.</span><span class="na">openMenu</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">SimpleMenuProvider</span><span class="p">((</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">inventory</span><span class="p">,</span><span class="w"> </span><span class="n">p</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">ChestMenu</span><span class="p">.</span><span class="na">sixRows</span><span class="p">(</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">inventory</span><span class="p">,</span><span class="w"> </span><span class="n">SWAMP</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">player</span><span class="p">)),</span><span class="w"> </span><span class="n">TITLE</span><span class="p">));</span>
 </code></pre></div>
 <ul>
 <li><code>of(player)</code> is the live container, written back to his data on every change. <code>keeps(player)</code> says whether anything is in it without loading it. <code>spill(player)</code> drops it all at his feet.</li>
