@@ -2,6 +2,48 @@
 
 Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/all). The Minecraft 1.16.5 releases (0.2.1 to 0.7.2) are listed there too.
 
+## 2.3.0 { #v2-3-0 }
+
+<small>Released 2026-10-15 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9193485)</small>
+
+<div class="changelog-body" markdown="0">
+<blockquote>
+<h4>⚠️ AkumaLib update required: 4.7.0</h4>
+<p>This version needs <strong><a href="https://www.curseforge.com/minecraft/mc-mods/akumalib">AkumaLib</a> 4.7.0</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. With an older one the game will stop on Forge's missing-dependency screen.</p>
+<p>Just replace the AkumaLib jar in your <code>mods</code> folder with the new one. On a server every player needs it too.</p>
+</blockquote>
+<p><strong>Awakenings get a tab of their own, and the powers answer to each other.</strong> The awakened abilities leave the Devil Fruit tab for an Awakening tab. Sound powers obey silence, water cools fire in more ways, and a creature held by one power cannot be taken by another.</p>
+<hr />
+<h3>Awakening tab</h3>
+<ul>
+<li>The awakened abilities of your fruit now have their own tab in the abilities screen, right after Devil Fruit. Its picture is your fruit outlined in gold</li>
+<li>The Devil Fruit tab keeps the base abilities only</li>
+<li>The tooltip of a fruit lists only its base abilities. The tooltip of an awakened ability says <strong>Awakening</strong> under its name</li>
+</ul>
+<hr />
+<h3>Powers that meet</h3>
+<ul>
+<li><strong>Sound powers obey silence.</strong> Under the Silent of the Nagi Nagi no Mi or Total Isolation, the sound awakenings (Goe Goe, Hiso Hiso, Oto Oto, the rally of the Kobu Kobu) cannot be used, and a silenced target is not reached by them</li>
+<li><strong>Water cools Friction, Inferno and Magma Burn in more ways.</strong> The bubbles of the Awa Awa no Mi and a thrown bottle of water now count, not only standing in water</li>
+<li><strong>The rust of the Sabi Sabi awakening bites harder on a body made of steel.</strong> Gold does not rust</li>
+<li><strong>Steel Riposte</strong> makes its user a body of steel for a moment. Lightning and rust hurt more during it</li>
+<li><strong>Shadow Marionette</strong> can no longer take a creature or a player that another power already holds</li>
+</ul>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>Hide and Seek</strong> remembers where everyone was taken from even if the server stops in the middle of a hunt. A captured player who comes back later still returns to where he stood</li>
+</ul>
+<hr />
+<h3>Requirements</h3>
+<ul>
+<li>Minecraft <strong>1.20.1</strong></li>
+<li>Forge <strong>47.4.18+</strong></li>
+<li><strong>Mine Mine no Mi</strong> <code>1.20.1-0.11.6</code></li>
+<li><strong>AkumaLib</strong> <code>4.7.0+</code></li>
+</ul>
+</div>
+
 ## 2.2.0 { #v2-2-0 }
 
 <small>Released 2026-10-10 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9117962)</small>

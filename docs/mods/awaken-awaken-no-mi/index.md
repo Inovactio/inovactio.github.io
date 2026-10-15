@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| Version documented | **2.2.0** |
+| Version documented | **2.3.0** |
 | Mod id | `awakenawakennomi` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) |
 | Changelog | [Every release](changelog.md) |
@@ -27,17 +27,17 @@ It adds **no new Devil Fruit**: every ability here belongs to a fruit the base m
 |---|---|
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
-| [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.x (built against `1.20.1-0.11.5`) |
-| [AkumaLib](../../akumalib/index.md) | **4.3.0 or later** |
+| [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 or newer (built against `1.20.1-0.11.6`) |
+| [AkumaLib](../../akumalib/index.md) | **4.7.0 or later** |
 
 !!! warning "AkumaLib is required"
-    AkumaLib is a library: it adds nothing you can see, but this mod is built on it. Without it, Forge stops on its missing-dependency screen. Since 2.2.0, Awaken Awaken no Mi needs AkumaLib **4.3.0 or newer**.
+    AkumaLib is a library: it adds nothing you can see, but this mod is built on it. Without it, Forge stops on its missing-dependency screen. Since 2.3.0, Awaken Awaken no Mi needs AkumaLib **4.7.0 or newer**.
 
 ## Getting started
 
 1. Install Forge for Minecraft 1.20.1, then put **Mine Mine no Mi**, **AkumaLib** and **Awaken Awaken no Mi** in your `mods` folder.
 2. Eat one of the [supported fruits](fruits/index.md). Its awakened abilities are added to the fruit's kit, but stay **locked**.
-3. **Awaken the fruit.** The awakened abilities unlock once the base mod considers your fruit awakened.
+3. **Awaken the fruit.** The awakened abilities unlock once the base mod considers your fruit awakened. They have their own tab in the abilities screen, **Awakening**, right after Devil Fruit.
 
 !!! info "This mod does not decide when a fruit awakens"
     Awaken Awaken no Mi contains the awakened forms and abilities only. The progression that awakens a fruit lives elsewhere:

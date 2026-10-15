@@ -2,6 +2,59 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 4.7.0 { #v4-7-0 }
+
+<small>Released 2026-10-15 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9193477)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Awakenings and trades get their own tabs.</strong> In the abilities screen a fruit's awakened abilities now sit in an
+Awakening tab of their own, and a trade's abilities in a Profession tab. A technique that waits for a form is greyed
+on the bar until the form is on. Creative flight climbs again after a fruit flight. The corrections of Mine Mine no Mi
+of 4.0.0 to 4.6.0 are all still there, each with its switch.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are optional.</p>
+<p>Nothing changes for a player's setup: the network protocol is the same (8), so 4.5.0, 4.6.0 and 4.7.0 play together.
+Nothing changes for an addon either: no signature was removed or changed, and an addon made for 4.0.0 to 4.6.0 works
+with 4.7.0.</p>
+<hr />
+<h3>Mine Mine no Mi fixes</h3>
+<ul>
+<li><strong>Creative flight that would not climb.</strong> A player who went into creative mode while a Devil Fruit flight was on
+  could switch creative flight on but never rise. Creative flight climbs again.</li>
+</ul>
+<h3>New</h3>
+<ul>
+<li><strong>An Awakening tab.</strong> The awakened abilities of a fruit get a tab of their own in the abilities screen, right after
+  Devil Fruit. Its picture is your fruit outlined in gold. The fruit's tooltip lists only its base abilities, and the
+  tooltip of an awakened ability says "Awakening" under its name. For the addons that mark their awakenings: Awaken
+  Awaken no Mi 2.3.0 does.</li>
+<li><strong>A Profession tab.</strong> The abilities of a trade get a tab of their own too. Its picture is your trade's icon.</li>
+<li><strong>Greyed techniques.</strong> In the addons built on AkumaLib, a technique that needs a form you are not in is greyed on the
+  ability bar. It lights up as soon as the form is on. A cooldown is still drawn over it.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li><strong>Talent webs follow the GUI Scale.</strong> The talent web screen is the size of the game's other screens: GUI Scale makes
+  it and its words larger or smaller. It fits the web again when the window is resized.</li>
+</ul>
+<h3>For addon makers</h3>
+<ul>
+<li><strong>Awakenings.</strong> <code>Awakenings.mark(...)</code> sets abilities apart as a fruit's awakening: the Awakening tab and the
+  tooltips above come from it. <code>Awakenings.canUnlock(user, fruit)</code> is the shared unlock check (the fruit eaten and
+  awakened). The abilities keep the Devil Fruit category, which Seastone, water and <code>/remove_df</code> read. Mark them on both
+  sides, at mod construction or in the common setup.</li>
+<li><strong>Profession tab.</strong> <code>ProfessionAbilities.CATEGORY</code> for a trade's abilities.</li>
+<li><strong>Greyed slots.</strong> A <code>MorphGates</code> gate is greyed by itself. <code>GreyedSlots.unless(ability, check)</code> greys a technique for
+  any other condition.</li>
+<li><strong>Walls.</strong> <code>WallAbility</code>: an ability that goes on while its wall stands, ends when the wall goes, and brings it down
+  when used again.</li>
+<li><strong>Armour.</strong> <code>HiddenArmour</code> hides one armour piece at a time during a technique.</li>
+<li><strong>Wings and antennae.</strong> <code>client.race</code>: the wings of the Skypieans, the Shandia and the Birkans (<code>WingsLayer</code>) and the
+  Skypieans' antennae (<code>AntennaeLayer</code>), for a mod that puts a race on players, with a filter for who wears them.</li>
+<li><strong>Claims.</strong> <code>ClaimEvents.allowed(level, entity, pos, state)</code> asks for a block of another world than the entity's.</li>
+</ul>
+<p>An addon that uses them declares <code>versionRange = "[4.7.0,5)"</code>.</p>
+</div>
+
 ## 4.6.0 { #v4-6-0 }
 
 <small>Released 2026-10-12 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9147855)</small>

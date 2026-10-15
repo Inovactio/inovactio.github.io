@@ -336,6 +336,7 @@ nav:
           - Morph gates and stats: akumalib/core-concepts/morph-gates-and-stats.md
           - Amplification: akumalib/core-concepts/amplification.md
           - Charges: akumalib/core-concepts/charges.md
+          - Awakening abilities: akumalib/core-concepts/awakenings.md
           - Held inputs: akumalib/core-concepts/held-inputs.md
       - Ability base classes:
           - akumalib/ability-base-classes/index.md

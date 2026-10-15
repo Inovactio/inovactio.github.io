@@ -170,7 +170,7 @@ Where a body fits, for a technique that leaves its user - or what it moved - som
 | `Smash` | breaking through blocks by the base mod's own pipeline |
 | `Holds` | carrying a held body beside its holder, never into blocks |
 | `SparedFalls` | `spare(entity, ticks)`: the next fall within that time does not hurt |
-| `PanelWalls` | raising a wall of panel entities in front of a body |
+| `PanelWalls` | raising a wall of panel entities in front of a body (the ability around it: `WallAbility`) |
 | `GroundLayers` | laying a temporary layer on the ground of each column of an area |
 | `CooldownFamily` | abilities that share one cooldown and cannot run together |
 

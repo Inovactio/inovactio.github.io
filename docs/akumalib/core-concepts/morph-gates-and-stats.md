@@ -38,6 +38,22 @@ The gate passes while the user is in **any one** of the morphs given. Pass the r
 
 `requiring()` with no morph, or with a `null` one, throws immediately. An empty gate would otherwise only surface as an ability nobody can use.
 
+### Greyed on the bar
+
+A technique given a form gate is greyed on the ability bar while its form is not on. There is nothing to write: `addCanUseCheck` sees the gate.
+
+For any other condition (another technique that must be on, a summoned creature that must be out), hand the same check to `GreyedSlots`:
+
+```java
+Ability.ICanUseEvent needsGiant = (entity, ability) -> isGiant(entity) ? Result.success() : Result.fail(MESSAGE);
+this.addCanUseCheck(needsGiant);
+GreyedSlots.unless(this, needsGiant);
+```
+
+The check is asked on the client, every frame the bar is drawn. It must answer from what the client knows (a morph, an effect, a synced ability, an entity it can see) and change nothing. A cooldown or a disabling is still drawn over the grey.
+
+A gate combined with `.and(...)` or `.or(...)` is a new check and is not greyed by itself: hand the combined check to `GreyedSlots.unless`.
+
 ## Declaring a form's attributes: `MorphStats`
 
 A morph ability's stats used to take three declarations per attribute: a field, a line wiring it into the `ChangeStatsComponent`, and the modifier itself. `MorphStats` knows the UUID, attribute and default operation of each stat, so only the number is left:
