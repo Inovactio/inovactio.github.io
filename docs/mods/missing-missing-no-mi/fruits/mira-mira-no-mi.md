@@ -10,6 +10,10 @@
 | **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 6: 6 active, 0 passive |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/mira-reflection"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -18,6 +22,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Reflection { #mira-reflection }
 
 ![](../abilities/mira-reflection.png){ .ability-icon } *Active*
+
+![Reflection](../objects/mira-reflection.png){ .form-picture }
 
 The user raises a mirror in front of them for a few seconds. Projectiles coming from the front are sent back, and melee hits from the front are stopped. Nothing is stopped from behind
 

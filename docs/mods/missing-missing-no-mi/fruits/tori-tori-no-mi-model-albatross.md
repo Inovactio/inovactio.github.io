@@ -10,6 +10,10 @@
 | **Abilities** | 6: 4 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Albatross Assault Point](#albatross-assault-point), [Albatross Fly Point](#albatross-fly-point) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/albatross-assault-point forms/albatross-fly-point"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/albatross-assault-point.png){ .ability-icon } *Active · Transformation*
 
+![Albatross Assault Point](../forms/albatross-assault-point.png){ .form-picture }
+
 Transforms the user into an albatross hybrid, which can fly for a very long time and still use weapons
 
 ## Albatross Fly Point { #albatross-fly-point }
 
 ![](../abilities/albatross-fly-point.png){ .ability-icon } *Active · Transformation*
+
+![Albatross Fly Point](../forms/albatross-fly-point.png){ .form-picture }
 
 Transforms the user into a great albatross, which flies for a very long time, faster over water and in the rain, and can carry another player on its back
 

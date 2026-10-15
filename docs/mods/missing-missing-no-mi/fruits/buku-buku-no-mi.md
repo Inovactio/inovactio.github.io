@@ -11,6 +11,10 @@
 | **Abilities** | 8: 7 active, 1 passive (1 hidden, not in the ability menu) |
 | **Effects applied** | ![](../effect-icons/shut-in-a-book.png){ .effect-mini }[Shut in a Book](../effects.md#effect-shut-in-a-book), ![](../effect-icons/world-of-books.png){ .effect-mini }[World of Books](../effects.md#effect-world-of-books) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/buku-page objects/buku-barrage objects/buku-flying-book"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,6 +23,8 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 ## Cutting Page { #buku-page }
 
 ![](../abilities/buku-page.png){ .ability-icon } *Active*
+
+![Cutting Page](../objects/buku-page.png){ .form-picture }
 
 The user throws a torn page as sharp as a blade where they look. It cuts the first enemy in its way and makes it bleed
 
@@ -32,6 +38,8 @@ The user throws a torn page as sharp as a blade where they look. It cuts the fir
 ## Book Barrage { #buku-barrage }
 
 ![](../abilities/buku-barrage.png){ .ability-icon } *Active*
+
+![Book Barrage](../objects/buku-barrage.png){ .form-picture }
 
 The user throws a volley of heavy books where they are looking
 
@@ -68,6 +76,8 @@ Using it again throws them all back where the user looks. If the book closes by 
 ## Flying Book { #buku-flying-book }
 
 ![](../abilities/buku-flying-book.png){ .ability-icon } *Active*
+
+![Flying Book](../objects/buku-flying-book.png){ .form-picture }
 
 A book floats under the feet of the user and carries them. The user can fly until they have no more stamina
 

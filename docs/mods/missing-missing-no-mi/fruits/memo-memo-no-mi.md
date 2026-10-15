@@ -11,6 +11,10 @@
 | **Abilities** | 4: 4 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/flashback.png){ .effect-mini }[Flashback](../effects.md#effect-flashback), ![](../effect-icons/forgotten-quarrel.png){ .effect-mini }[Forgotten Quarrel](../effects.md#effect-forgotten-quarrel) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/memo-cut objects/memo-paste objects/memo-forgotten-skill"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -34,6 +38,8 @@ The user sends threads from their palms to the enemies in front. The touched ene
 
 ![](../abilities/memo-cut.png){ .ability-icon } *Active*
 
+![Cut](../objects/memo-cut.png){ .form-picture }
+
 Applies ![](../effect-icons/forgotten-quarrel.png){ .effect-mini }[Forgotten Quarrel](../effects.md#effect-forgotten-quarrel)
 
 The user pulls the memories of the creature they look at as a film and cuts its quarrel out. The creature drops its target and its anger until something hits it. Needs shears in the bag
@@ -50,6 +56,8 @@ The cut frames are kept as a reel that remembers who the creature was angry at
 
 ![](../abilities/memo-paste.png){ .ability-icon } *Active*
 
+![Paste](../objects/memo-paste.png){ .form-picture }
+
 The user pastes a false memory in the film of the creature they look at. The creature takes the user for a friend and fights for them for a while. Bosses can't be fooled. Needs shears in the bag
 
 With a reel in a hand the creature gets the anger kept on it and goes for whoever that anger was for. The reel is used up
@@ -63,6 +71,8 @@ With a reel in a hand the creature gets the anger kept on it and goes for whoeve
 ## Forgotten Skill { #memo-forgotten-skill }
 
 ![](../abilities/memo-forgotten-skill.png){ .ability-icon } *Active*
+
+![Forgotten Skill](../objects/memo-forgotten-skill.png){ .form-picture }
 
 The user pulls the memories of the enemy they look at as a film and cuts frames out. The enemy forgets 3 to 6 random abilities of their current bar and can't use them for a while. Needs shears in the bag
 

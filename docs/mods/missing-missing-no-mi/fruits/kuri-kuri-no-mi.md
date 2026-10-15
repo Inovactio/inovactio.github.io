@@ -11,6 +11,10 @@
 | **Abilities** | 7: 6 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn), [Spared by the Cream](../effects.md#effect-spared-by-the-cream) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/cream-ball objects/cream-grab objects/cream-monster objects/cream-shell"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,6 +23,8 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 ## Cream Ball { #cream-ball }
 
 ![](../abilities/cream-ball.png){ .ability-icon } *Active*
+
+![Cream Ball](../objects/cream-ball.png){ .form-picture }
 
 Applies ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn)
 
@@ -34,6 +40,8 @@ The user throws a ball of cream where they look. It hits the first enemy in its 
 ## Cream Grab { #cream-grab }
 
 ![](../abilities/cream-grab.png){ .ability-icon } *Active*
+
+![Cream Grab](../objects/cream-grab.png){ .form-picture }
 
 Applies ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn)
 
@@ -83,6 +91,8 @@ Using it again takes the cream back
 
 ![](../abilities/cream-monster.png){ .ability-icon } *Active*
 
+![Cream Monster](../objects/cream-monster.png){ .form-picture }
+
 Applies ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn)
 
 A puddle of cream spreads around the user and follows them. Tentacles spring out of it at the enemies that come close, burn them and hold them for a moment
@@ -101,6 +111,8 @@ The user keeps moving and using other abilities while it lasts
 ## Cream Shell { #cream-shell }
 
 ![](../abilities/cream-shell.png){ .ability-icon } *Active*
+
+![Cream Shell](../objects/cream-shell.png){ .form-picture }
 
 Applies ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn)
 

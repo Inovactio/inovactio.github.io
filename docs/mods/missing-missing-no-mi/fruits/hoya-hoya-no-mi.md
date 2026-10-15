@@ -11,6 +11,10 @@
 | **Abilities** | 9: 8 active, 1 passive (1 hidden, not in the ability menu) |
 | **Effects applied** | ![](../effect-icons/genie-master.png){ .effect-mini }[Genie Master](../effects.md#effect-genie-master) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/hoya-genie objects/hoya-majin-saidan"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,6 +23,8 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 ## Genie { #hoya-genie }
 
 ![](../abilities/hoya-genie.png){ .ability-icon } *Active*
+
+![Genie](../objects/hoya-genie.png){ .form-picture }
 
 Applies ![](../effect-icons/genie-master.png){ .effect-mini }[Genie Master](../effects.md#effect-genie-master)
 
@@ -64,6 +70,8 @@ The genie slams its halberd down where the user looks. It hits the enemies aroun
 ## Majin Saidan { #hoya-majin-saidan }
 
 ![](../abilities/hoya-majin-saidan.png){ .ability-icon } *Active*
+
+![Majin Saidan](../objects/hoya-majin-saidan.png){ .form-picture }
 
 The genie swings its halberd and sends a great flying slash where the user looks. It goes through every enemy in its way
 

@@ -10,6 +10,10 @@
 | **Abilities** | 5: 4 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/yolk.png){ .effect-mini }[Yolk](../effects.md#effect-yolk) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/tama-lives"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -70,6 +74,8 @@ As a rooster the user crows so loud that all enemies around them are shaken, slo
 ## Three Lives { #tama-lives }
 
 ![](../abilities/tama-lives.png){ .ability-icon } *Passive*
+
+![Three Lives](../forms/tama-lives.png){ .form-picture }
 
 Applies ![](../effect-icons/yolk.png){ .effect-mini }[Yolk](../effects.md#effect-yolk)
 

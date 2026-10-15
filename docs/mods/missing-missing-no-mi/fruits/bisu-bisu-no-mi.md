@@ -10,6 +10,10 @@
 | **Chance per opening** | iron **1.59%**, wooden **0.079%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/bisu-hei objects/bisu-hard-biscuit objects/bisu-wall forms/bisu-armour"></div>
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -18,6 +22,8 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 ## Biscuit Hei { #bisu-hei }
 
 ![](../abilities/bisu-hei.png){ .ability-icon } *Active*
+
+![Biscuit Hei](../objects/bisu-hei.png){ .form-picture }
 
 The user makes 3 biscuit soldiers that follow them and attack their enemies. A broken soldier comes back after 10 seconds as long as the ability is active
 
@@ -31,6 +37,8 @@ In water or rain the biscuit gets soft. A soft soldier takes double damage and a
 ## Hard Biscuit { #bisu-hard-biscuit }
 
 ![](../abilities/bisu-hard-biscuit.png){ .ability-icon } *Active*
+
+![Hard Biscuit](../objects/bisu-hard-biscuit.png){ .form-picture }
 
 A pile of hardened biscuit shields falls on the enemy the user looks at. It hurts the enemy and pins them to the ground for a moment
 
@@ -46,6 +54,8 @@ A pile of hardened biscuit shields falls on the enemy the user looks at. It hurt
 
 ![](../abilities/bisu-wall.png){ .ability-icon } *Active*
 
+![Biscuit Wall](../objects/bisu-wall.png){ .form-picture }
+
 A wall of hard biscuit rises in front of the user and stops enemies and projectiles for a while. In water or rain it lasts half as long. Using the ability again brings the wall down
 
 | Stat | Value |
@@ -56,6 +66,8 @@ A wall of hard biscuit rises in front of the user and stops enemies and projecti
 ## Biscuit Armour { #bisu-armour }
 
 ![](../abilities/bisu-armour.png){ .ability-icon } *Active*
+
+![Biscuit Armour](../forms/bisu-armour.png){ .form-picture }
 
 The user wears a giant biscuit soldier that takes the damage for them. When the armour breaks the user comes out unharmed
 

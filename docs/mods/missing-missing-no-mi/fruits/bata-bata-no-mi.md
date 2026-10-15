@@ -10,6 +10,10 @@
 | **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 6: 6 active, 0 passive |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/bata-lump objects/bata-cuffs objects/bata-wrap"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -18,6 +22,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Butter Lump { #bata-lump }
 
 ![](../abilities/bata-lump.png){ .ability-icon } *Active*
+
+![Butter Lump](../objects/bata-lump.png){ .form-picture }
 
 The user throws a lump of butter where they look. It hits the first enemy in its way and slows it for a moment
 
@@ -32,6 +38,8 @@ The user throws a lump of butter where they look. It hits the first enemy in its
 
 ![](../abilities/bata-cuffs.png){ .ability-icon } *Active*
 
+![Butter Cuffs](../objects/bata-cuffs.png){ .form-picture }
+
 A lump of butter flies to the enemy the user looks at and wraps its hands. It can't hit and can't use what it holds
 
 The butter lasts less on a player. Hits from someone else break it sooner and fire melts it
@@ -44,6 +52,8 @@ The butter lasts less on a player. Hits from someone else break it sooner and fi
 ## Butter Wrap { #bata-wrap }
 
 ![](../abilities/bata-wrap.png){ .ability-icon } *Active*
+
+![Butter Wrap](../objects/bata-wrap.png){ .form-picture }
 
 A lump of butter flies to the enemy the user looks at and wraps its whole body. It can't move and can't hit
 
