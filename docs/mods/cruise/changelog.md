@@ -4,7 +4,7 @@ Every Cruise Cruise no Mi release for Minecraft 1.20.1, newest first, as publish
 
 ## 0.5.0: beta { #v0-5-0 }
 
-<small>Released TO-FILL · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/TO-FILL)</small>
+<small>Released 2026-10-16 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9205797)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>Every trade has its talents.</strong> The perks by level are gone. Each of the fourteen trades earns talent points and
