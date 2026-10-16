@@ -7908,13 +7908,41 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#level-perks" class="md-nav__link">
+  <a href="#talents" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Level perks
+        Talents
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Talents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#combat-abilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat abilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-you-had-the-trade-before-050" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If you had the trade before 0.5.0
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -11750,13 +11778,41 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#level-perks" class="md-nav__link">
+  <a href="#talents" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Level perks
+        Talents
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Talents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#combat-abilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat abilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-you-had-the-trade-before-050" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If you had the trade before 0.5.0
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -11945,7 +12001,7 @@
 <li>An average of <strong>50 % or more</strong> makes a <strong>Fine</strong> dish (green in the tooltip). <strong>80 % or more</strong> makes a <strong>Superb</strong> dish (gold). Anything lower is Normal.</li>
 <li>A dish counts the quality of its <strong>produce</strong> as it counts the size of its fish. The <a href="../farmer/#harvests-of-quality">Farmer</a>'s crops and fruit come out plain, Fine or Superb: in the average, a plain one counts for 25 %, a Fine one for 65 % and a Superb one for 90 %. So a salad can be Superb too, but three plain herbs and one Superb one do not make a Superb salad.</li>
 <li>A dish is <strong>never worse than its fish alone would make it</strong>: plain produce beside a huge fish takes nothing away.</li>
-<li>A dish with no measured fish and no produce in it (eggs, creatures) is always <strong>Normal</strong>, unless a Cook perk upgrades it (see <a href="#level-perks">Level perks</a>).</li>
+<li>A dish with no measured fish and no produce in it (eggs, creatures) is always <strong>Normal</strong>, unless a Cook talent upgrades it (see <a href="#talents">Talents</a>).</li>
 </ul>
 <p>What quality changes when you eat the dish:</p>
 <table>
@@ -12040,7 +12096,7 @@
 <ul>
 <li>Dishes are ordinary food: you eat them when you are hungry. The two drinks (Special Drink, Special Pirate Soda) are drunk.</li>
 <li><strong>One Appetite at a time</strong>: the next dish's Appetite replaces the last. Fighting Spirit and Well Fed stay alongside it, and so does a <a href="../musician/">Musician</a>'s tune.</li>
-<li>Quality and Chef's touch lengthen every buff the meal gives, Well Fed and the Cotton Candy's Speed included.</li>
+<li>Quality and Chef's touch (the Chef's Touch talent and its small talents; the dish's tooltip shows it) lengthen every buff the meal gives, Well Fed and the Cotton Candy's Speed included.</li>
 </ul>
 <h2 id="every-dish">Every dish<a class="headerlink" href="#every-dish" title="Permanent link">&para;</a></h2>
 <p>Hunger and durations are for a Normal dish without Chef's touch; every buff lasts 10 minutes unless noted. Doriki reads "per dish / cap / first taste".</p>
@@ -12324,30 +12380,262 @@
 <p class="admonition-title">Five dishes without Doriki</p>
 <p>The Fried Scorpion, the Cotton Candy, the Delicacy Assortment, the Meat-Lover's Delight and the Roasted Meat Festival give no Doriki and no first-taste bonus, which is why the first-taste counter stops at 23. The <strong>Cotton Candy</strong> and the <strong>Fried Scorpion</strong> also lack the Cook's lines (hunger, Doriki, buffs) in their tooltips, and they do not count toward the Gourmet advancement.</p>
 </div>
-<h2 id="level-perks">Level perks<a class="headerlink" href="#level-perks" title="Permanent link">&para;</a></h2>
+<h2 id="talents">Talents<a class="headerlink" href="#talents" title="Permanent link">&para;</a></h2>
+<p>Every 5 Cook levels give you a <strong>talent point</strong> (10 at level 50, 20 at level 100). Spend them in the Cook's web of talents, opened by the <strong>Talents</strong> button on the trade's page of the trades book or with the <strong>Talents</strong> key (<strong>J</strong> by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a <a href="../chemist/#the-potion-of-second-thoughts">Potion of Second Thoughts</a> gives them back. See <a href="../../trades-and-levels/#talents">Talents</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Talent</th>
+<th>Kind</th>
+<th>What it gives</th>
+<th>Linked to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fine palate 1</td>
+<td>small, start</td>
+<td>2% more chance that a dish you cook comes out one quality higher</td>
+<td>Good Taste, Kitchen hand 1, Big pot 1</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/angel_omelette.png" />Good Taste</td>
+<td><strong>major</strong></td>
+<td>10% chance that a dish you cook comes out one quality higher</td>
+<td>Fine palate 1, Fine palate 2</td>
+</tr>
+<tr>
+<td>Kitchen hand 1</td>
+<td>small</td>
+<td>You earn 5% more Cook XP</td>
+<td>Fine palate 1, Cook's Notes</td>
+</tr>
+<tr>
+<td>Big pot 1</td>
+<td>small</td>
+<td>2% more chance that a recipe gives one more dish</td>
+<td>Fine palate 1, Hearty Meals</td>
+</tr>
+<tr>
+<td>Fine palate 2</td>
+<td>small</td>
+<td>2% more chance that a dish you cook comes out one quality higher</td>
+<td>Good Taste, Chef's Touch</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/score_recipe.png" />Cook's Notes</td>
+<td><strong>major</strong></td>
+<td>You earn 15% more Cook XP</td>
+<td>Kitchen hand 1, Kitchen hand 2</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/dinosaur_steak.png" />Hearty Meals</td>
+<td><strong>major</strong></td>
+<td>Your dishes feed 2 more</td>
+<td>Slow fire 1, Slow fire 2, Big pot 1, Kitchen hand 3</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/stamina_stew.png" />Chef's Touch</td>
+<td><strong>major</strong></td>
+<td>The buffs of your dishes last 25% longer</td>
+<td>Fine palate 2, Slow fire 3, Slow fire 1, Big pot 2</td>
+</tr>
+<tr>
+<td>Kitchen hand 2</td>
+<td>small</td>
+<td>You earn 5% more Cook XP</td>
+<td>Cook's Notes, Thrifty Kitchen, Slow fire 2, Fine palate 3</td>
+</tr>
+<tr>
+<td>Slow fire 1</td>
+<td>small</td>
+<td>The buffs of your dishes last 5% longer</td>
+<td>Chef's Touch, Hearty Meals</td>
+</tr>
+<tr>
+<td>Slow fire 2</td>
+<td>small</td>
+<td>The buffs of your dishes last 5% longer</td>
+<td>Hearty Meals, Kitchen hand 2</td>
+</tr>
+<tr>
+<td>Kitchen hand 3</td>
+<td>small</td>
+<td>You earn 5% more Cook XP</td>
+<td>Hearty Meals, Second Serving</td>
+</tr>
+<tr>
+<td>Slow fire 3</td>
+<td>small</td>
+<td>The buffs of your dishes last 5% longer</td>
+<td>Chef's Touch, Master Chef</td>
+</tr>
+<tr>
+<td>Big pot 2</td>
+<td>small</td>
+<td>2% more chance that a recipe gives one more dish</td>
+<td>Chef's Touch</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/flour.png" />Thrifty Kitchen</td>
+<td><strong>major</strong></td>
+<td>10% chance that a dish gives back one of its ingredients</td>
+<td>Kitchen hand 2, Big pot 3</td>
+</tr>
+<tr>
+<td>Fine palate 3</td>
+<td>small</td>
+<td>2% more chance that a dish you cook comes out one quality higher</td>
+<td>Kitchen hand 2</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/pirates_lunch.png" />Second Serving</td>
+<td><strong>major</strong></td>
+<td>10% chance that a recipe gives one more dish</td>
+<td>Master Chef, Big pot 3, Kitchen hand 3, Fighting Cook 1</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/roasted_meat_festival.png" />Master Chef</td>
+<td><strong>major</strong></td>
+<td>15% more chance that a dish you cook comes out one quality higher</td>
+<td>Slow fire 3, Second Serving, Fighting Cook 2</td>
+</tr>
+<tr>
+<td>Big pot 3</td>
+<td>small</td>
+<td>2% more chance that a recipe gives one more dish</td>
+<td>Thrifty Kitchen, Second Serving, Fighting Cook 3</td>
+</tr>
+<tr>
+<td>Fighting Cook 1</td>
+<td>small</td>
+<td>Your Cook abilities hit 5% harder</td>
+<td>Second Serving, Nourishing</td>
+</tr>
+<tr>
+<td>Fighting Cook 2</td>
+<td>small</td>
+<td>Your Cook abilities hit 5% harder</td>
+<td>Master Chef, Flambe</td>
+</tr>
+<tr>
+<td>Fighting Cook 3</td>
+<td>small</td>
+<td>Your Cook abilities hit 5% harder</td>
+<td>Big pot 3, Spice Cloud</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/seagull_bone_soup.png" />Nourishing</td>
+<td><strong>major</strong></td>
+<td>Your dishes give 20% more Doriki. The cap of their tier stays</td>
+<td>Fighting Cook 1, Crew Meal, Fine palate 4, Slow fire 4</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/flame_powder.png" />Flambe</td>
+<td><strong>ability</strong></td>
+<td>A jet of flame before you. It burns the foes in front of you and sets them alight. Gives the ability <strong>Flambe</strong></td>
+<td>Fighting Cook 2, Fighting Cook 4, Fine palate 4</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/flame_powder.png" />Spice Cloud</td>
+<td><strong>ability</strong></td>
+<td>Throw a pouch of spice. It hurts and blinds and slows the foes where it lands. Gives the ability <strong>Spice Cloud</strong></td>
+<td>Fighting Cook 3, Fighting Cook 5, Slow fire 4</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/sky_island_lunch.png" />Crew Meal</td>
+<td><strong>ability</strong></td>
+<td>You and your crewmates and your animals round you get 8 health back. Gives the ability <strong>Crew Meal</strong></td>
+<td>Nourishing</td>
+</tr>
+<tr>
+<td>Fine palate 4</td>
+<td>small</td>
+<td>2% more chance that a dish you cook comes out one quality higher</td>
+<td>Flambe, Nourishing</td>
+</tr>
+<tr>
+<td>Slow fire 4</td>
+<td>small</td>
+<td>The buffs of your dishes last 5% longer</td>
+<td>Nourishing, Spice Cloud</td>
+</tr>
+<tr>
+<td>Fighting Cook 4</td>
+<td>small</td>
+<td>Your Cook abilities hit 5% harder</td>
+<td>Flambe</td>
+</tr>
+<tr>
+<td>Fighting Cook 5</td>
+<td>small</td>
+<td>Your Cook abilities hit 5% harder</td>
+<td>Spice Cloud</td>
+</tr>
+</tbody>
+</table>
+<p>The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.</p>
+<h3 id="combat-abilities">Combat abilities<a class="headerlink" href="#combat-abilities" title="Permanent link">&para;</a></h3>
+<p>Taking an ability talent puts its ability in the <strong>Profession</strong> tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Cook" talents make the Cook's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.</p>
+<table>
+<thead>
+<tr>
+<th>Ability</th>
+<th>What it does</th>
+<th>Needs</th>
+<th>Cooldown</th>
+<th>Damage</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Flambe</strong></td>
+<td>Throw a jet of flame before you. Every enemy in front of you within 4 blocks is burnt and set alight for 3 seconds</td>
+<td>—</td>
+<td>10 s</td>
+<td>30</td>
+<td>4 blocks</td>
+</tr>
+<tr>
+<td><strong>Spice Cloud</strong></td>
+<td>Throw a pouch of spice. It bursts where it lands. Every enemy within 3 blocks is hurt and blinded and slowed for 3 seconds. A player or a boss half as long</td>
+<td>—</td>
+<td>12 s</td>
+<td>20</td>
+<td>3 blocks</td>
+</tr>
+<tr>
+<td><strong>Crew Meal</strong></td>
+<td>Hand a quick meal round. You and your crewmates and your animals within 6 blocks get 8 health back</td>
+<td>—</td>
+<td>30 s</td>
+<td>—</td>
+<td>6 blocks</td>
+</tr>
+</tbody>
+</table>
+<h3 id="if-you-had-the-trade-before-050">If you had the trade before 0.5.0<a class="headerlink" href="#if-you-had-the-trade-before-050" title="Permanent link">&para;</a></h3>
+<p>The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:</p>
 <table>
 <thead>
 <tr>
 <th>Level</th>
-<th>Perk</th>
-<th>What it does</th>
+<th>Points first put on</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>10</td>
-<td>"10% chance a dish comes out one quality higher"</td>
-<td>at the Kitchen, a dish comes out <strong>one quality higher</strong> 10 % of the time (Normal becomes Fine, Fine becomes Superb); this works on dishes with no fish and no produce too</td>
+<td>Fine palate 1, Good Taste</td>
 </tr>
 <tr>
 <td>25</td>
-<td>"Your dishes' buffs last 25% longer"</td>
-<td>every dish you cook at the Kitchen keeps its buffs <strong>25 % longer</strong>; its tooltip says "Chef's touch: buffs last 25% longer". This stacks with quality: a Superb dish with Chef's touch gives buffs for 10 minutes × 1.5 × 1.25 = 18:45</td>
+<td>Fine palate 2, Chef's Touch</td>
 </tr>
 <tr>
 <td>40</td>
-<td>"25% chance a dish comes out one quality higher"</td>
-<td>the quality upgrade chance becomes <strong>25 %</strong> (it replaces the level 10 perk's 10 %)</td>
+<td>Slow fire 3, Master Chef</td>
 </tr>
 </tbody>
 </table>

@@ -8036,13 +8036,41 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#level-perks" class="md-nav__link">
+  <a href="#talents" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Level perks
+        Talents
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Talents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#combat-abilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat abilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-you-had-the-trade-before-050" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If you had the trade before 0.5.0
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -11805,13 +11833,41 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#level-perks" class="md-nav__link">
+  <a href="#talents" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Level perks
+        Talents
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Talents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#combat-abilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat abilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-you-had-the-trade-before-050" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If you had the trade before 0.5.0
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -12159,7 +12215,7 @@
 <p><img alt="" class="item-icon" src="../../icons/enhanced_pickaxe.png" />The <strong>Enhanced Pick-axe</strong> is made by the <a href="../inventor/">Inventor</a> at the Workshop (Inventor 25: 5 Diamond Fragments, 3 Mysterious Parts, 1 log).</p>
 <ul>
 <li>Diamond's mining tier, 1 800 uses, repaired with Diamond Fragments.</li>
-<li>Its tooltip reads "A Miner's finds turn up 25% more often". This adds up with the level-10 perk, for ×1.875 in all.</li>
+<li>Its tooltip reads "A Miner's finds turn up 25% more often". It multiplies what your talents give: with Keen Pick (×1.5), ×1.875 in all.</li>
 </ul>
 <h2 id="the-masonry">The Masonry<a class="headerlink" href="#the-masonry" title="Permanent link">&para;</a></h2>
 <p>The Masonry is the Miner's workstation; it needs a pickaxe to be picked back up. Every recipe asks for a Miner level and pays Miner XP.</p>
@@ -12226,30 +12282,262 @@
 <li><strong>Pure Iron Ore</strong> goes into the Inventor's Magnet, Woodsman's Axe, Felling Saw and Hull Ram, the <a href="../carpenter/">Carpenter</a>'s Adam boats, the <a href="../blacksmith/">Blacksmith</a>'s Warabide Sword and several <a href="../tailor/">Tailor</a> pieces.</li>
 <li><strong>Kairoseki</strong> and <strong>Dense Kairoseki</strong> feed the Blacksmith's sea-stone weapons and handcuffs.</li>
 </ul>
-<h2 id="level-perks">Level perks<a class="headerlink" href="#level-perks" title="Permanent link">&para;</a></h2>
+<h2 id="talents">Talents<a class="headerlink" href="#talents" title="Permanent link">&para;</a></h2>
+<p>Every 5 Miner levels give you a <strong>talent point</strong> (10 at level 50, 20 at level 100). Spend them in the Miner's web of talents, opened by the <strong>Talents</strong> button on the trade's page of the trades book or with the <strong>Talents</strong> key (<strong>J</strong> by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a <a href="../chemist/#the-potion-of-second-thoughts">Potion of Second Thoughts</a> gives them back. See <a href="../../trades-and-levels/#talents">Talents</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Talent</th>
+<th>Kind</th>
+<th>What it gives</th>
+<th>Linked to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sharp eye 1</td>
+<td>small, start</td>
+<td>Your finds in the rock turn up 5% more often</td>
+<td>Keen Pick</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/enhanced_pickaxe.png" />Keen Pick</td>
+<td><strong>major</strong></td>
+<td>Your finds in the rock turn up 50% more often</td>
+<td>Sharp eye 1, Good arm 1, Clean strike 1, Ore sense 1</td>
+</tr>
+<tr>
+<td>Good arm 1</td>
+<td>small</td>
+<td>Rock and ore give 5% faster under your pickaxe</td>
+<td>Keen Pick, Stone Breaker</td>
+</tr>
+<tr>
+<td>Clean strike 1</td>
+<td>small</td>
+<td>2% more chance that an ore gives its drops twice</td>
+<td>Keen Pick, Double Strike</td>
+</tr>
+<tr>
+<td>Ore sense 1</td>
+<td>small</td>
+<td>An ore gives 5% more Miner XP</td>
+<td>Keen Pick, Prospector</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/marble.png" />Stone Breaker</td>
+<td><strong>major</strong></td>
+<td>Rock and ore give 25% faster under your pickaxe</td>
+<td>Good arm 1, Sharp eye 2, Good arm 2, Kept point</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/pure_iron_ore.png" />Double Strike</td>
+<td><strong>major</strong></td>
+<td>10% chance that an ore gives its drops twice</td>
+<td>Clean strike 1, Clean strike 2</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/iron_scrap.png" />Prospector</td>
+<td><strong>major</strong></td>
+<td>An ore gives 25% more Miner XP</td>
+<td>Ore sense 1, Ore sense 2</td>
+</tr>
+<tr>
+<td>Sharp eye 2</td>
+<td>small</td>
+<td>Your finds in the rock turn up 5% more often</td>
+<td>Stone Breaker, Deep Digger</td>
+</tr>
+<tr>
+<td>Good arm 2</td>
+<td>small</td>
+<td>Rock and ore give 5% faster under your pickaxe</td>
+<td>Stone Breaker, Fighting Miner 1</td>
+</tr>
+<tr>
+<td>Kept point</td>
+<td>small</td>
+<td>8% chance that an ore does not wear your tool</td>
+<td>Stone Breaker, Sharp eye 3</td>
+</tr>
+<tr>
+<td>Clean strike 2</td>
+<td>small</td>
+<td>2% more chance that an ore gives its drops twice</td>
+<td>Double Strike, Rich Vein, Ground Breaker</td>
+</tr>
+<tr>
+<td>Ore sense 2</td>
+<td>small</td>
+<td>An ore gives 5% more Miner XP</td>
+<td>Prospector, Pick Strike, Gem Cutter</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/mysterious_parts.png" />Deep Digger</td>
+<td><strong>major</strong></td>
+<td>Your finds in deepslate and tuff turn up twice as often</td>
+<td>Sharp eye 2, Ore sense 3, Sharp eye 4, Fighting Miner 2</td>
+</tr>
+<tr>
+<td>Fighting Miner 1</td>
+<td>small</td>
+<td>Your Miner abilities hit 5% harder</td>
+<td>Good arm 2, Ground Breaker, Seastone Sense</td>
+</tr>
+<tr>
+<td>Sharp eye 3</td>
+<td>small</td>
+<td>Your finds in the rock turn up 5% more often</td>
+<td>Kept point, Gem Cutter, Blast Rock</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/star_fragment.png" />Rich Vein</td>
+<td><strong>major</strong></td>
+<td>10% more chance that an ore gives its drops twice</td>
+<td>Clean strike 2, Good arm 3</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/enhanced_pickaxe.png" />Ground Breaker</td>
+<td><strong>ability</strong></td>
+<td>Needs a pickaxe. A shock wave runs 8 blocks ahead. Foes on its way are thrown up. Gives the ability <strong>Ground Breaker</strong></td>
+<td>Fighting Miner 1, Good arm 3, Clean strike 2</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/enhanced_pickaxe.png" />Pick Strike</td>
+<td><strong>ability</strong></td>
+<td>Needs a pickaxe. A blow on a foe. It holds him for 1 second. Gives the ability <strong>Pick Strike</strong></td>
+<td>Ore sense 2, Ore sense 4</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/diamond_fragment.png" />Gem Cutter</td>
+<td><strong>major</strong></td>
+<td>20% chance that a find comes with one more</td>
+<td>Sharp eye 3, Ore sense 4, Ore sense 2</td>
+</tr>
+<tr>
+<td>Ore sense 3</td>
+<td>small</td>
+<td>An ore gives 5% more Miner XP</td>
+<td>Deep Digger, Fighting Miner 3</td>
+</tr>
+<tr>
+<td>Sharp eye 4</td>
+<td>small</td>
+<td>Your finds in the rock turn up 5% more often</td>
+<td>Deep Digger, Seastone Sense</td>
+</tr>
+<tr>
+<td>Fighting Miner 2</td>
+<td>small</td>
+<td>Your Miner abilities hit 5% harder</td>
+<td>Deep Digger, Blast Rock</td>
+</tr>
+<tr>
+<td>Seastone Sense</td>
+<td><strong>major</strong></td>
+<td>Your finds in Kairoseki ore turn up twice as often</td>
+<td>Sharp eye 4, Fighting Miner 4, Fighting Miner 1</td>
+</tr>
+<tr>
+<td><img alt="" class="block-mini" src="../../block-models/explosive-rock.png" />Blast Rock</td>
+<td><strong>ability</strong></td>
+<td>Needs a pickaxe. Throw an Explosive Rock. It bursts on 3 blocks and breaks no block. Gives the ability <strong>Blast Rock</strong></td>
+<td>Fighting Miner 2, Fighting Miner 5, Sharp eye 3</td>
+</tr>
+<tr>
+<td>Good arm 3</td>
+<td>small</td>
+<td>Rock and ore give 5% faster under your pickaxe</td>
+<td>Ground Breaker, Rich Vein</td>
+</tr>
+<tr>
+<td>Ore sense 4</td>
+<td>small</td>
+<td>An ore gives 5% more Miner XP</td>
+<td>Gem Cutter, Pick Strike</td>
+</tr>
+<tr>
+<td>Fighting Miner 3</td>
+<td>small</td>
+<td>Your Miner abilities hit 5% harder</td>
+<td>Ore sense 3</td>
+</tr>
+<tr>
+<td>Fighting Miner 4</td>
+<td>small</td>
+<td>Your Miner abilities hit 5% harder</td>
+<td>Seastone Sense</td>
+</tr>
+<tr>
+<td>Fighting Miner 5</td>
+<td>small</td>
+<td>Your Miner abilities hit 5% harder</td>
+<td>Blast Rock</td>
+</tr>
+</tbody>
+</table>
+<p>The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.</p>
+<h3 id="combat-abilities">Combat abilities<a class="headerlink" href="#combat-abilities" title="Permanent link">&para;</a></h3>
+<p>Taking an ability talent puts its ability in the <strong>Profession</strong> tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Miner" talents make the Miner's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.</p>
+<table>
+<thead>
+<tr>
+<th>Ability</th>
+<th>What it does</th>
+<th>Needs</th>
+<th>Cooldown</th>
+<th>Damage</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ground Breaker</strong></td>
+<td>With a pickaxe in hand strike the ground. A shock wave runs 8 blocks straight ahead. Every enemy on its way is hit and thrown up</td>
+<td>a pickaxe in hand</td>
+<td>12 s</td>
+<td>35</td>
+<td>8 blocks</td>
+</tr>
+<tr>
+<td><strong>Pick Strike</strong></td>
+<td>With a pickaxe in hand strike the enemy you look at. It hurts them a lot and holds them for 1 second. A player or a boss is held half as long</td>
+<td>a pickaxe in hand</td>
+<td>9 s</td>
+<td>55</td>
+<td>4 blocks</td>
+</tr>
+<tr>
+<td><strong>Blast Rock</strong></td>
+<td>With a pickaxe in hand throw an Explosive Rock. It bursts where it lands and hurts every enemy within 3 blocks. It breaks no block</td>
+<td>a pickaxe in hand</td>
+<td>12 s</td>
+<td>40</td>
+<td>3 blocks</td>
+</tr>
+</tbody>
+</table>
+<h3 id="if-you-had-the-trade-before-050">If you had the trade before 0.5.0<a class="headerlink" href="#if-you-had-the-trade-before-050" title="Permanent link">&para;</a></h3>
+<p>The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:</p>
 <table>
 <thead>
 <tr>
 <th>Level</th>
-<th>Perk</th>
-<th>What it does</th>
+<th>Points first put on</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>10</td>
-<td>"Finds in the rock turn up 50% more often"</td>
-<td>every find's chance ×1.5 (never above 100 %)</td>
+<td>Sharp eye 1, Keen Pick</td>
 </tr>
 <tr>
 <td>25</td>
-<td>"10% chance an ore gives its drops twice"</td>
-<td>one ore in ten gives its normal drops a second time</td>
+<td>Clean strike 1, Double Strike</td>
 </tr>
 <tr>
 <td>40</td>
-<td>"20% chance an ore gives its drops twice"</td>
-<td>replaces the 10 %</td>
+<td>Clean strike 2, Rich Vein</td>
 </tr>
 </tbody>
 </table>

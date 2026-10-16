@@ -8026,13 +8026,41 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#level-perks" class="md-nav__link">
+  <a href="#talents" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Level perks
+        Talents
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Talents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#combat-abilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat abilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-you-had-the-trade-before-050" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If you had the trade before 0.5.0
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -11617,13 +11645,41 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#level-perks" class="md-nav__link">
+  <a href="#talents" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Level perks
+        Talents
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Talents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#combat-abilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat abilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-you-had-the-trade-before-050" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If you had the trade before 0.5.0
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -11912,30 +11968,262 @@
 <li><strong><a href="../inventor/">Inventor</a></strong> (Workshop): Clima Tact, Perfect Clima Tact, Sorcery Clima Tact.</li>
 </ul>
 <p>Turning the <strong>takeOverBaseRecipes</strong> setting off gives all sixteen recipes back to the crafting table, exactly as the base mod shipped them; the trades still make these items too. A second setting keeps chosen items on the crafting table while the takeover stays on. The recipe-book unlocks follow the same settings. Changes apply at the next <code>/reload</code> or world load, and on a server, the server's settings decide. See <a href="../../configuration/">Configuration</a>.</p>
-<h2 id="level-perks">Level perks<a class="headerlink" href="#level-perks" title="Permanent link">&para;</a></h2>
+<h2 id="talents">Talents<a class="headerlink" href="#talents" title="Permanent link">&para;</a></h2>
+<p>Every 5 Blacksmith levels give you a <strong>talent point</strong> (10 at level 50, 20 at level 100). Spend them in the Blacksmith's web of talents, opened by the <strong>Talents</strong> button on the trade's page of the trades book or with the <strong>Talents</strong> key (<strong>J</strong> by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a <a href="../chemist/#the-potion-of-second-thoughts">Potion of Second Thoughts</a> gives them back. See <a href="../../trades-and-levels/#talents">Talents</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Talent</th>
+<th>Kind</th>
+<th>What it gives</th>
+<th>Linked to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bellows boy 1</td>
+<td>small, start</td>
+<td>You earn 5% more Blacksmith XP</td>
+<td>Tempering</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/iron_plating.png" />Tempering</td>
+<td><strong>major</strong></td>
+<td>What you forge comes with Unbreaking I</td>
+<td>Bellows boy 1, Bellows boy 2</td>
+</tr>
+<tr>
+<td>Bellows boy 2</td>
+<td>small</td>
+<td>You earn 5% more Blacksmith XP</td>
+<td>Tempering, Keen Edge</td>
+</tr>
+<tr>
+<td>Keen Edge</td>
+<td><strong>major</strong></td>
+<td>A weapon you forge comes with Sharpness I and an armour with Protection I</td>
+<td>Bellows boy 2, Scrap heap 1, Bellows boy 3, Wide mould 1, Scrap heap 2, Scrap heap 3</td>
+</tr>
+<tr>
+<td>Scrap heap 1</td>
+<td>small</td>
+<td>2% more of your forgings give an ingredient back</td>
+<td>Keen Edge, Scrap</td>
+</tr>
+<tr>
+<td>Bellows boy 3</td>
+<td>small</td>
+<td>You earn 5% more Blacksmith XP</td>
+<td>Keen Edge, Smith's Notes</td>
+</tr>
+<tr>
+<td>Wide mould 1</td>
+<td>small</td>
+<td>3% more chance that a forging of bullets or balls gives twice as many</td>
+<td>Keen Edge, Fine Temper</td>
+</tr>
+<tr>
+<td>Scrap heap 2</td>
+<td>small</td>
+<td>2% more of your forgings give an ingredient back</td>
+<td>Keen Edge, Full Mould</td>
+</tr>
+<tr>
+<td>Scrap heap 3</td>
+<td>small</td>
+<td>2% more of your forgings give an ingredient back</td>
+<td>Keen Edge, Honed Edge</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/iron_scrap.png" />Scrap</td>
+<td><strong>major</strong></td>
+<td>25% of your forgings give an ingredient back</td>
+<td>Scrap heap 1, Scrap heap 4</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/craftsmans_song_score.png" />Smith's Notes</td>
+<td><strong>major</strong></td>
+<td>You earn 15% more Blacksmith XP</td>
+<td>Bellows boy 3, Bellows boy 4</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/reinforced_frame.png" />Fine Temper</td>
+<td><strong>major</strong></td>
+<td>What you forge comes with Unbreaking II</td>
+<td>Wide mould 1, Wide mould 2, Full Mould</td>
+</tr>
+<tr>
+<td>Full Mould</td>
+<td><strong>major</strong></td>
+<td>20% chance that a forging of bullets or balls gives twice as many</td>
+<td>Scrap heap 2, Wide mould 3, Fine Temper, Honed Edge</td>
+</tr>
+<tr>
+<td>Honed Edge</td>
+<td><strong>major</strong></td>
+<td>A weapon you forge comes with Sharpness II and an armour with Protection II</td>
+<td>Scrap heap 3, Wide mould 4, Full Mould</td>
+</tr>
+<tr>
+<td>Scrap heap 4</td>
+<td>small</td>
+<td>2% more of your forgings give an ingredient back</td>
+<td>Scrap, Scrap heap 5</td>
+</tr>
+<tr>
+<td>Bellows boy 4</td>
+<td>small</td>
+<td>You earn 5% more Blacksmith XP</td>
+<td>Smith's Notes, Bellows boy 5</td>
+</tr>
+<tr>
+<td>Wide mould 2</td>
+<td>small</td>
+<td>3% more chance that a forging of bullets or balls gives twice as many</td>
+<td>Fine Temper, Hammer Blow</td>
+</tr>
+<tr>
+<td>Wide mould 3</td>
+<td>small</td>
+<td>3% more chance that a forging of bullets or balls gives twice as many</td>
+<td>Full Mould, Hot Iron</td>
+</tr>
+<tr>
+<td>Wide mould 4</td>
+<td>small</td>
+<td>3% more chance that a forging of bullets or balls gives twice as many</td>
+<td>Honed Edge, Sunder</td>
+</tr>
+<tr>
+<td>Scrap heap 5</td>
+<td>small</td>
+<td>2% more of your forgings give an ingredient back</td>
+<td>Scrap heap 4</td>
+</tr>
+<tr>
+<td>Bellows boy 5</td>
+<td>small</td>
+<td>You earn 5% more Blacksmith XP</td>
+<td>Bellows boy 4</td>
+</tr>
+<tr>
+<td>Hammer Blow</td>
+<td><strong>ability</strong></td>
+<td>Needs a forged weapon. A great blow that throws a foe back. Gives the ability <strong>Hammer Blow</strong></td>
+<td>Wide mould 2, Fighting Blacksmith 1, Hot Iron</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/flame_powder.png" />Hot Iron</td>
+<td><strong>major</strong></td>
+<td>A weapon you forge comes with Fire Aspect I</td>
+<td>Wide mould 3, Fighting Blacksmith 2, Hammer Blow, Sunder</td>
+</tr>
+<tr>
+<td>Sunder</td>
+<td><strong>ability</strong></td>
+<td>Needs a forged weapon. A blow that takes 30% of a foe's armour for 6 seconds. Gives the ability <strong>Sunder</strong></td>
+<td>Wide mould 4, Fighting Blacksmith 3, Hot Iron</td>
+</tr>
+<tr>
+<td>Fighting Blacksmith 1</td>
+<td>small</td>
+<td>Your Blacksmith abilities hit 5% harder</td>
+<td>Hammer Blow, Fighting Blacksmith 4</td>
+</tr>
+<tr>
+<td>Fighting Blacksmith 2</td>
+<td>small</td>
+<td>Your Blacksmith abilities hit 5% harder</td>
+<td>Hot Iron, Tempered Guard</td>
+</tr>
+<tr>
+<td>Fighting Blacksmith 3</td>
+<td>small</td>
+<td>Your Blacksmith abilities hit 5% harder</td>
+<td>Sunder, Fighting Blacksmith 5</td>
+</tr>
+<tr>
+<td>Fighting Blacksmith 4</td>
+<td>small</td>
+<td>Your Blacksmith abilities hit 5% harder</td>
+<td>Fighting Blacksmith 1, Tempered Guard</td>
+</tr>
+<tr>
+<td><img alt="" class="item-icon" src="../../icons/iron_plating.png" />Tempered Guard</td>
+<td><strong>ability</strong></td>
+<td>Needs a forged weapon. For 6 seconds you take 30% less damage. Gives the ability <strong>Tempered Guard</strong></td>
+<td>Fighting Blacksmith 4, Fighting Blacksmith 5, Fighting Blacksmith 2</td>
+</tr>
+<tr>
+<td>Fighting Blacksmith 5</td>
+<td>small</td>
+<td>Your Blacksmith abilities hit 5% harder</td>
+<td>Fighting Blacksmith 3, Tempered Guard</td>
+</tr>
+</tbody>
+</table>
+<p>The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.</p>
+<h3 id="combat-abilities">Combat abilities<a class="headerlink" href="#combat-abilities" title="Permanent link">&para;</a></h3>
+<p>Taking an ability talent puts its ability in the <strong>Profession</strong> tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Blacksmith" talents make the Blacksmith's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.</p>
+<table>
+<thead>
+<tr>
+<th>Ability</th>
+<th>What it does</th>
+<th>Needs</th>
+<th>Cooldown</th>
+<th>Damage</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hammer Blow</strong></td>
+<td>With a forged weapon in hand strike the enemy you look at with all your weight. It hurts them a lot and throws them back</td>
+<td>a weapon forged by a Blacksmith in hand</td>
+<td>10 s</td>
+<td>60</td>
+<td>4 blocks</td>
+</tr>
+<tr>
+<td><strong>Sunder</strong></td>
+<td>With a forged weapon in hand strike the enemy you look at where his armour is weak. He is hurt and loses 30% of his armour for 6 seconds. A player or a boss half as long</td>
+<td>a weapon forged by a Blacksmith in hand</td>
+<td>14 s</td>
+<td>35</td>
+<td>4 blocks</td>
+</tr>
+<tr>
+<td><strong>Tempered Guard</strong></td>
+<td>With a forged weapon in hand brace yourself. For 6 seconds you take 30% less damage</td>
+<td>a weapon forged by a Blacksmith in hand</td>
+<td>20 s</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3 id="if-you-had-the-trade-before-050">If you had the trade before 0.5.0<a class="headerlink" href="#if-you-had-the-trade-before-050" title="Permanent link">&para;</a></h3>
+<p>The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:</p>
 <table>
 <thead>
 <tr>
 <th>Level</th>
-<th>Perk</th>
-<th>What it does</th>
+<th>Points first put on</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>10</td>
-<td>"Tempering: what you forge comes with Unbreaking I"</td>
-<td>added if the item can take it and does not have it already</td>
+<td>Bellows boy 1, Tempering</td>
 </tr>
 <tr>
 <td>25</td>
-<td>"Keen edge: a forged weapon comes with Sharpness I, armour with Protection I"</td>
-<td>same rule; items with no durability (bullets, cannon balls…) get nothing</td>
+<td>Bellows boy 2, Keen Edge</td>
 </tr>
 <tr>
 <td>40</td>
-<td>"Scrap: a quarter of your forgings give an ingredient back"</td>
-<td>25 % chance one ingredient (never a tool) comes back: "Saved from the scrap: …"</td>
+<td>Scrap heap 1, Scrap</td>
 </tr>
 </tbody>
 </table>
