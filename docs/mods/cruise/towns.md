@@ -22,6 +22,10 @@ tags:
   - mead hall  - plot
   - plot for sale
   - build in a town
+  - noble quarter
+  - nobles
+  - manor
+  - antiquarian
 ---
 
 # Towns
@@ -89,6 +93,20 @@ Each land has its own names for them; the one at the town's head says them.
 | **Barracks** | barracks | garrison | guardhouse | warriors' lodge | shield hall |
 | **Warehouse** | warehouse | granary | storehouse | harvest house | winter stores |
 | **Inn** | inn | caravanserai | lodge | rest house | mead hall |
+
+## The noble quarter
+
+**One town in three** has a noble quarter, in place of some of its houses: a **manor** of 33 by 23 blocks, with its wings round a court of honour, and a **garden** with its fountain. Both are drawn in each land's look; in the desert the garden is an oasis. Only towns made since 0.5.0 have one.
+
+| | Plains | Desert | Snowy plains | Savanna | Taiga |
+|---|---|---|---|---|---|
+| **Manor** | manor | villa | manor house | estate house | lord's hall |
+| **Garden** | garden | oasis garden | winter garden | shade garden | walled garden |
+
+- **The nobles** live there: noblemen, noblewomen, old noblemen and young noblewomen, dressed as the floating restaurant's noble guests. A noble who dies is followed by another noble.
+- **They have their likes.** A Marine is welcome. A pirate with **any bounty at all** gets only a wary word and they step away from him, where the other townspeople wait for a bounty of 100 000 Belly. Anyone the town fears gets the same.
+- **The town hall** says it: the window of the one at the town's head has a line on its nobles and where they live.
+- **The Antiquarian**, a merchant found nowhere else, keeps the manor's library. He buys only Fine and Superb dishes and harvests, dearer than anyone, and sells rarities of the trades: see [Merchants and contracts](merchants-and-contracts.md#the-antiquarian).
 
 ## The guards
 

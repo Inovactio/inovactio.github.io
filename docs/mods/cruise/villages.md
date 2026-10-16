@@ -137,6 +137,15 @@ Of eight new villages:
 
 A village that someone keeps is not won by good turns or by a great bounty: it is taken from them by force. A village that nobody holds can pass under your flag. Both are told in [A village under your flag](village-flags.md).
 
+## Playing a civilian
+
+Since 0.5.0 (with AkumaLib 4.8.0), **Civilian** is a choice in the character creator's book, beside the Pirates, the Marines, the Bounty Hunters and the Revolutionaries, with its own flag, wood brown.
+
+- **No bounty, no loyalty.** The Marines, the World Government, the Bounty Hunters and the Revolutionaries leave you alone. Pirates and bandits do not.
+- **Striking the law.** The first and the second Marine or man of the World Government you strike in one game day are warned of: "You struck a man of the law". Strike a **third** that day and you are a **pirate**. The count starts again each new day.
+- **They strike back.** A Bounty Hunter or a Revolutionary you strike may strike you back for **30 seconds** after your last blow.
+- **Raids.** A civilian holds no village, but he can help one. When a [raid](village-flags.md#raids) is beaten off, the village pays each civilian who fought it **50 Belly for every raider he beat**, from its coffer as far as it holds, and counts **a good turn** for each raider.
+
 ## The people
 
 Fishermen, farmers, craftsmen and townspeople live there, with **two or three children** in each village. Right click one to hear what he has to say.
@@ -204,7 +213,7 @@ In 3D: drag to turn, scroll or pinch to zoom; the buttons change the look.
 
 These are the people of the plains. In the four other lands they dress for the place: see the [table](#five-lands-five-looks).
 
-**They know who you are.** A pirate whose bounty has reached **100,000 Belly** is known: people step away from him and have only a wary word. A Marine is welcome. The people of a village that your group rules by fear step away from you too.
+**They know who you are.** A pirate whose bounty has reached **100,000 Belly** is known: people step away from him and have only a wary word. A Marine is welcome. The people of a village that your group rules by fear step away from you too. The nobles of a town's [noble quarter](towns.md#the-noble-quarter) are warier still: for them any pirate with a bounty is one too many.
 
 Pirates and bandits do not appear in the middle of a village.
 

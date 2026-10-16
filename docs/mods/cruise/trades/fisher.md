@@ -43,7 +43,7 @@ Every Cruise catch comes up with a **size in centimetres**, shown in its tooltip
 - **Price**: the Fishmonger pays 75 % of the average price for the smallest, up to 150 % for the biggest (see [Merchants and contracts](../merchants-and-contracts.md)).
 - **Cooking**: a dish's quality depends on where its fish sit in their size ranges, on average: halfway up or more gives a **Fine** dish, four fifths up or more a **Superb** one. A fish with no size (bought, or given by command) counts for nothing. The quality of the [Farmer](farmer.md#harvests-of-quality)'s produce in the dish counts too, but a dish is never worse than its fish alone would make it.
 
-The bigger-catch bonuses (rods, rod parts, the level-10 perk) pull each catch toward the top of its range: a bonus of 0.35 closes 35 % of the gap between the rolled size and the maximum. Once the bonuses add up to 1, every catch comes up at the maximum size.
+The bigger-catch bonuses (rods, rod parts, the Bigger catch and Whopper talents) pull each catch toward the top of its range: a bonus of 0.35 closes 35 % of the gap between the rolled size and the maximum. Once the bonuses add up to 1, every catch comes up at the maximum size.
 
 ## The rods
 
@@ -70,7 +70,7 @@ Every part fits every rod, but works best on the rod it was made for ("bigger" a
 | **Whopper Rod Upgrade** (18) | bigger +0.10 | bigger +0.25 | bigger +0.15 |
 | **Sea King Rod Upgrade** (40) | bigger +0.10, chance ×1.10 | bigger +0.20, chance ×1.15 | bigger +0.30, chance ×1.25 |
 
-With all four parts, the Whopper reaches bigger +0.90, and +1.00 with the level-10 perk. The Sea King rod reaches +1.00 on its own. At +1.00, **every catch comes up at its maximum size**.
+With all four parts, the Whopper reaches bigger +0.90, and +1.00 with the Whopper talent (+0.10). The Sea King rod reaches +1.00 on its own. At +1.00, **every catch comes up at its maximum size**.
 
 ## Better odds
 
@@ -79,19 +79,71 @@ All of these multiply together and apply to every Cruise catch at once:
 | Source | Effect |
 |---|---|
 | Fishing Line Upgrade, Sea King Rod Upgrade | see the parts table |
-| **Fisher level 25** | ×1.20 |
+| The Fisher's **talents**: Good Waters (+20 %), More bites (+4 % each), Deep bites over 20 blocks of water or more and Shore bites over less than 8 (+5 % each) | added together into one factor: ×1.20 with Good Waters alone |
 | **Bait** (made by the [Hunter](hunter.md) at the Tannery) | ×1.35 for 2 minutes |
 | Riding a **Fishing Boat** (made by the [Carpenter](carpenter.md)) | ×1.25 |
 
 Luck of the Sea and the Musician's Lucky Tune still work on vanilla's own fish, junk and treasure, but do not change Cruise's catch chances.
 
-## Level perks
+## Talents
 
-| Level | Perk | What it does |
-|---|---|---|
-| 10 | "Catches run 10% bigger" | adds 0.10 to the bigger-catch bonus: each catch moves 10 % of the way from its rolled size toward the maximum (it does not make every catch 10 % bigger) |
-| 25 | "This addon's fish bite 20% more often" | every Cruise catch's chance ×1.20, common ones included |
-| 40 | "10% chance of a second fish on the line" | one catch in ten brings up a second fish of the same kind, with its own size (XP paid once; never a Sea King) |
+Every 5 Fisher levels give you a **talent point** (10 at level 50, 20 at level 100). Spend them in the Fisher's web of talents, opened by the **Talents** button on the trade's page of the trades book or with the **Talents** key (**J** by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a [Potion of Second Thoughts](chemist.md#the-potion-of-second-thoughts) gives them back. See [Talents](../trades-and-levels.md#talents).
+
+| Talent | Kind | What it gives | Linked to |
+|---|---|---|---|
+| Bigger catch 1 | small, start | Your catches run 3% bigger | Whopper |
+| More bites 1 | small, start | Cruise fish bite 4% more often | Good Waters |
+| Deep bites 1 | small, start | Fish bite 5% more often over 20 blocks of water or more | Long Line |
+| Shore bites 1 | small, start | Fish bite 5% more often over less than 8 blocks of water | Low Tide |
+| ![](../icons/whopper_fishing_rod.png){ .item-icon }Whopper | **major** | Your catches run 10% bigger | Bigger catch 1, Bigger catch 2, Bigger catch 3, Hook Shot, Big Catch |
+| ![](../icons/forkedtail_killifish.png){ .item-icon }Good Waters | **major** | Cruise fish bite 20% more often | More bites 1, Second fish 1, More bites 2, Hook Shot, Line Snare |
+| ![](../icons/sounding_lead.png){ .item-icon }Long Line | **major** | The water under your hook counts 50% deeper | Deep bites 1, Sea King slayer 1, Deep bites 2, Line Snare, Harpoon Throw |
+| ![](../icons/striped_clam.png){ .item-icon }Low Tide | **major** | 25% of your shellfish come with a second | Shore bites 1, Lasting bait 1, Shore bites 2, Harpoon Throw, Big Catch |
+| Bigger catch 2 | small | Your catches run 3% bigger | Whopper, Trophy Fish |
+| Bigger catch 3 | small | Your catches run 3% bigger | Whopper, Good eye |
+| ![](../icons/whopper_fishing_rod.png){ .item-icon }Hook Shot | **ability** | Needs a fishing rod. Cast the hook at a foe up to 16 blocks away. It hurts him and pulls him to you. Gives the ability **Hook Shot** | Whopper, Good Waters, Fighting Fisher 1 |
+| ![](../icons/sea_king_fishing_rod.png){ .item-icon }Big Catch | **ability** | Needs a fishing rod. Lift a hooked foe and slam him down. It hits those around. Gives the ability **Big Catch** | Low Tide, Whopper |
+| Second fish 1 | small | 2% more chance of a second fish on the line | Good Waters, Double Hook |
+| More bites 2 | small | Cruise fish bite 4% more often | Good Waters, Second fish 2 |
+| ![](../icons/reel.png){ .item-icon }Line Snare | **ability** | Needs a fishing rod. Your line binds a foe where he stands for 3 seconds. Gives the ability **Line Snare** | Good Waters, Long Line |
+| Sea King slayer 1 | small | You hit Sea Kings 5% harder | Long Line, Sea King Hunter |
+| Deep bites 2 | small | Fish bite 5% more often over 20 blocks of water or more | Long Line, Sea King slayer 2 |
+| ![](../icons/sea_king_fin.png){ .item-icon }Harpoon Throw | **ability** | Throw a heavy harpoon. It hits harder a foe who is in water. Gives the ability **Harpoon Throw** | Long Line, Low Tide, Fighting Fisher 2 |
+| Lasting bait 1 | small | Your bait lasts 15% longer | Low Tide, Patient Angler |
+| Shore bites 2 | small | Fish bite 5% more often over less than 8 blocks of water | Low Tide, Lasting bait 2 |
+| ![](../icons/golden_whale.png){ .item-icon }Trophy Fish | **major** | A catch at its top size sells 25% dearer | Bigger catch 2, Good eye |
+| Good eye | small | A catch gives 5% more Fisher XP | Bigger catch 3, Trophy Fish |
+| Fighting Fisher 1 | small | Your Fisher abilities hit 5% harder | Hook Shot |
+| ![](../icons/fishing_line_upgrade.png){ .item-icon }Double Hook | **major** | 10% chance of a second fish on the line | Second fish 1, Second fish 2 |
+| Second fish 2 | small | 2% more chance of a second fish on the line | More bites 2, Double Hook |
+| ![](../icons/sea_king_head_crest.png){ .item-icon }Sea King Hunter | **major** | Sea Kings bite 2 times as often for you | Sea King slayer 1, Sea King slayer 2 |
+| Sea King slayer 2 | small | You hit Sea Kings 5% harder | Deep bites 2, Sea King Hunter |
+| Fighting Fisher 2 | small | Your Fisher abilities hit 5% harder | Harpoon Throw |
+| ![](../icons/bait.png){ .item-icon }Patient Angler | **major** | The bite comes 15% sooner | Lasting bait 1, Lasting bait 2 |
+| Lasting bait 2 | small | Your bait lasts 15% longer | Shore bites 2, Patient Angler |
+
+The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
+
+### Combat abilities
+
+Taking an ability talent puts its ability in the **Profession** tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Fisher" talents make the Fisher's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.
+
+| Ability | What it does | Needs | Cooldown | Damage | Range |
+|---|---|---|---|---|---|
+| **Hook Shot** | With a fishing rod in hand cast the hook at the enemy you look at. It hurts them and pulls them to you. One too big to be pulled pulls you to them | a fishing rod in hand | 8 s | 20 | 16 blocks |
+| **Big Catch** | With a fishing rod in hand swing the enemy you look at up on your line and slam them down. Enemies around them are hit too | a fishing rod in hand | 15 s | 50 / 25 | 6 blocks |
+| **Line Snare** | With a fishing rod in hand bind the enemy you look at with your line. They can not move for 3 seconds. A player or a boss is held half as long | a fishing rod in hand | 14 s | 10 | 12 blocks |
+| **Harpoon Throw** | Throw a heavy harpoon straight ahead. It hits half as hard again an enemy who is in water | — | 10 s | 45 / 67.5 | — |
+
+### If you had the trade before 0.5.0
+
+The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
+
+| Level | Points first put on |
+|---|---|
+| 10 | Bigger catch 1, Whopper |
+| 25 | More bites 1, Good Waters |
+| 40 | Second fish 1, Double Hook |
 
 ## The catches
 

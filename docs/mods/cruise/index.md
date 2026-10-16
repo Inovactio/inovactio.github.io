@@ -2,13 +2,13 @@
 
 ![](../../assets/icons/cruise.png){ .mod-icon }
 
-**Cruise Cruise no Mi** brings the professions and the island life of *One Piece: Unlimited Cruise 2* to [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod): fourteen trades to learn, each with its workstation, its perks, its titles and its advancements, villages with their people and their events, and a sea where merchant ships, Sea Kings and wrecks come to you. Fish the seas down to the Sea Kings, net the island's creatures, cook the game's dishes, forge the weapons nobody could make, sew the Straw Hats' outfits, build your crew a boat - and sell it all for Belly. Names, recipes and art follow the game.
+**Cruise Cruise no Mi** brings the professions and the island life of *One Piece: Unlimited Cruise 2* to [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod): fourteen trades to learn, each with its workstation, its talents and combat abilities, its titles and its advancements, villages with their people and their events, and a sea where merchant ships, Sea Kings and wrecks come to you. Fish the seas down to the Sea Kings, net the island's creatures, cook the game's dishes, forge the weapons nobody could make, sew the Straw Hats' outfits, build your crew a boat - and sell it all for Belly. Names, recipes and art follow the game.
 
 | | |
 |---|---|
-| Version documented | **0.4.2** (beta) |
+| Version documented | **0.5.0** (beta) |
 | Mod id | `inocruise` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.4.2](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9129051) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.5.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9205797) · [changelog](changelog.md) |
 
 ## Requirements
 
@@ -17,8 +17,9 @@
 | Minecraft | 1.20.1 |
 | Forge | 47 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 (0.11.5 is still accepted) |
-| [AkumaLib](../../akumalib/index.md) | **4.3.0** or later: with an older one the game does not start |
+| [AkumaLib](../../akumalib/index.md) | **4.8.0** or later: with an older one the game does not start |
 | JEI or EMI | optional, recommended: every workstation, fish, creature and find shows in them |
+| Valkyrien Skies 2 | optional: the Carpenter builds and mends its ships (see [Boats](boats.md#ships-of-valkyrien-skies-optional)) |
 
 Client **and** server.
 
@@ -51,12 +52,13 @@ The mode is AkumaLib's setting, in the world's `serverconfig/akumalib-server.tom
 | **[Navigator](trades/navigator.md)** | Chart Table | Log Pose, Barometer, Sounding Lead, Sea Charts, the Eternal Pose, a log book of the world. |
 | **[Musician](trades/musician.md)** | Music Stand | Scores played on a flute, a violin, a guitar or a grand piano, to buff the whole crew. |
 
-A **Cruise Guide**, a book handed to every player, says where to start and has a chapter for each trade. Every trade levels from 1 to 100, with **perks** along the way and a **title** at levels 25, 50, 75 and 100. Its page in the profession book (**K**) shows what each level unlocks. How levels, XP, Solo and Crew work: [Trades and levels](trades-and-levels.md). A server can make any trade level faster or slower: see [Configuration](configuration.md).
+A **Cruise Guide**, a book handed to every player, says where to start and has a chapter for each trade. Every trade levels from 1 to 100, with a **talent point** every 5 levels to spend in its web of talents, combat abilities among them, and a **title** at levels 25, 50, 75 and 100. Its page in the profession book (**K**) shows what each level unlocks. How levels, XP, Solo and Crew work: [Trades and levels](trades-and-levels.md). A server can make any trade level faster or slower: see [Configuration](configuration.md).
 
 ## Across the trades
 
 - **[Villages](villages.md)**: One Piece villages in five lands - plains, desert, snowy plains, savanna and taiga - each in its land's look, with a market square, a tavern, workshops, a town hall and a port, people who have their day there, each with a name, and a notice board with five small orders every morning and the news. No monster spawns in one. Marines, a pirate crew or the Revolutionaries keep some of them, and their men walk the square by day. Strike a villager and the village closes to you; break it and it mends itself; kill its people and it dies.
-- **[Towns](towns.md)**: one place in four is a walled town, with its guards, a market hall where the merchants always are, an inn that lets rooms and a warehouse that buys in bulk.
+- **[Towns](towns.md)**: one place in four is a walled town, with its guards, a market hall where the merchants always are, an inn that lets rooms and a warehouse that buys in bulk. One town in three has a noble quarter, with its manor, its nobles and the Antiquarian.
+- **[Playing a civilian](villages.md#playing-a-civilian)**: no bounty, no side, left alone by the law as long as you leave it alone.
 - **[A village under your flag](village-flags.md)**: a crew, the Marines or the Revolutionaries win a village by trust, by fear or by force, collect its rent, and keep it against raids - and, on a server, against other players.
 - **[Village events](village-events.md)**: a concert on the square, a fever to cure with the Chemist's remedies, a swordsmith from Wano who forges the base mod's named blades, a fishing tournament on the quay. Announced in the chat, told on the notice boards and sold as rumours by the barkeepers.
 - **Five [merchants](merchants-and-contracts.md)** come to the villages' market squares, keep the towns' market halls and roam the wild - the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader - and buy what the trades make, for Belly. Each brings **contracts** that pay above the market.

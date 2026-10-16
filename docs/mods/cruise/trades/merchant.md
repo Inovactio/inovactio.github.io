@@ -27,9 +27,9 @@ Five travelling merchants visit the Overworld: the **Fishmonger**, the **Hunting
 A Merchant sells to them on better terms:
 
 - from level 1, everything you sell pays **+0.5 % per level**, up to **+25 % at level 50**, where the bonus stops growing;
-- from level 10, the market fills up **half as fast** with what you sell;
-- from level 25, you pay **15 % less** for what you buy from them (a village cured of its [fever](../village-events.md#a-fever-in-the-village) gives 20 % to those who helped, and a village under your group's [flag](../village-flags.md) 10 %: you keep the best of them, never more than one);
-- from level 40, a merchant's purse **no longer limits** what he buys from you (your own Belly cap still does).
+- with the **Trade Network** talent, the market fills up **half as fast** with what you sell (slower again with Wide Network and the Contacts talents);
+- with **Bargain**, you pay **15 % less** for what you buy from them (a village cured of its [fever](../village-events.md#a-fever-in-the-village) gives 20 % to those who helped, and a village under your group's [flag](../village-flags.md) 10 %: you keep the best of them, never more than one);
+- with **Credit**, a merchant's purse **no longer limits** what he buys from you (your own Belly cap still does).
 
 Who comes where and when, and what each one buys and for how much: see [Merchants and contracts](../merchants-and-contracts.md).
 
@@ -50,7 +50,7 @@ Two goods that Mine Mine no Mi's own traders sell, Lapis Lazuli and Sea King Mea
 
 Every merchant arrives with three contracts for goods of his own trade (five in a town's market hall, new each day). They pay 1.5 to 1.8 times what he would pay over the counter, not out of his purse, and your price bonus raises the reward too.
 
-From **level 10**, merchants also show you **the last contract**, the one they keep for Merchants: it always pays the top premium (×1.8), and half the time adds a Torn Old Map. See [Merchants and contracts](../merchants-and-contracts.md).
+With the **Trade Network** talent, merchants also show you **the last contract**, the one they keep for Merchants: it always pays the top premium (×1.8), and half the time adds a Torn Old Map. See [Merchants and contracts](../merchants-and-contracts.md).
 
 ## The Auction House
 
@@ -67,18 +67,73 @@ The fee stops falling at level 50; the extra lots and days keep growing up to le
 
 Only a Merchant can decipher a torn treasure map: a **Torn Rumor Map** from level 1, a **Torn Old Map** from level 20, a **Torn Legendary Map** from level 75. The map then leads to a buried chest, and the first player to open it earns the grade's Merchant XP. See [Treasure hunts](../treasure-hunts.md).
 
-## Level perks
+## What grows with your level
 
-| Level | Perk | What it does |
+Two bonuses are no talents: they grow with your Merchant level, and the trades book shows them with their **current** values.
+
+| From level | Bonus | What it does |
 |---|---|---|
-| 1+ | "Sales and contracts with Cruise's merchants: +…%" | +0.5 % per level on everything you sell to a Cruise merchant and on every contract reward, up to +25 % at level 50 (no more after that) |
-| 1+ | "Auction House: fee -…%, +… lots up, +… days up, the prices' history" | a lower listing fee (down to a quarter at level 50), +1 lot every 5 levels, +1 day every 2 levels, and the average recent price of each kind of good |
-| 10 | "The market fills half as fast with what you sell" | you can sell twice as many of one kind (32 instead of 16) before its price halves |
-| 10 | "Merchants show you the contract they keep for Merchants" | you see, and can deliver, each merchant's third contract |
-| 25 | "15% off Cruise merchants' stalls" | 15 % off everything you buy from a Cruise merchant; the Buy screen still shows the full price, but you are charged less. Not on Mine Mine no Mi's own traders |
-| 40 | "A merchant's purse no longer limits what he buys from you" | a merchant buys everything you bring, whatever is left in his purse (your own Belly cap still applies) |
+| 1 | "Sales and contracts with Cruise's merchants: +…%" | +0.5 % per level on everything you sell to a Cruise merchant and on every contract reward, up to +25 % at level 50 (no more after that) |
+| 1 | "Auction House: fee -…%, +… lots up, +… days up, the prices' history" | a lower listing fee (down to a quarter at level 50), +1 lot every 5 levels, +1 day every 2 levels, and the average recent price of each kind of good |
 
-The professions book shows the two level-1 perks with their **current** values, so they grow as you level.
+## Talents
+
+Every 5 Merchant levels give you a **talent point** (10 at level 50, 20 at level 100). Spend them in the Merchant's web of talents, opened by the **Talents** button on the trade's page of the trades book or with the **Talents** key (**J** by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a [Potion of Second Thoughts](chemist.md#the-potion-of-second-thoughts) gives them back. See [Talents](../trades-and-levels.md#talents).
+
+| Talent | Kind | What it gives | Linked to |
+|---|---|---|---|
+| Apprentice 1 | small, start | You earn 5% more Merchant XP | Contacts 1, Contacts 2, Trade Network |
+| Contacts 1 | small | The market fills 10% slower with what you sell | Apprentice 1 |
+| Contacts 2 | small | The market fills 10% slower with what you sell | Apprentice 1 |
+| Trade Network | **major** | The market fills half as fast with what you sell, and merchants show you the contract they keep for Merchants | Apprentice 1, Sharp deal 1 |
+| Sharp deal 1 | small | 3% less fee at the Auction House | Trade Network, Bargain |
+| Bargain | **major** | 15% off Cruise merchants' stalls | Sharp deal 1, Apprentice 2 |
+| Apprentice 2 | small | You earn 5% more Merchant XP | Bargain, Credit |
+| Credit | **major** | A merchant's purse no longer limits what he buys from you | Apprentice 2, Apprentice 3, Apprentice 4, Contacts 3 |
+| Apprentice 3 | small | You earn 5% more Merchant XP | Credit, Golden Bulwark |
+| Apprentice 4 | small | You earn 5% more Merchant XP | Credit, Merchant's Notes |
+| Contacts 3 | small | The market fills 10% slower with what you sell | Credit, Wide Network |
+| Golden Bulwark | **ability** | A shield of gold for you and your crew. Gives the ability **Golden Bulwark** | Apprentice 3 |
+| ![](../icons/sea_chart.png){ .item-icon }Merchant's Notes | **major** | You earn 15% more Merchant XP | Apprentice 4, Fighting Merchant 1 |
+| Wide Network | **major** | The market fills slower again with what you sell | Contacts 3, Fighting Merchant 2 |
+| Fighting Merchant 1 | small | Your Merchant abilities hit 5% harder | Merchant's Notes, Sharp deal 2, Market stall 1, Contacts 4 |
+| Fighting Merchant 2 | small | Your Merchant abilities hit 5% harder | Wide Network, Sharp deal 3, Market stall 2, Fighting Merchant 3 |
+| Sharp deal 2 | small | 3% less fee at the Auction House | Fighting Merchant 1, Auctioneer |
+| Market stall 1 | small | 1 more lot up at the Auction House | Fighting Merchant 1, Treasure Sense |
+| Contacts 4 | small | The market fills 10% slower with what you sell | Fighting Merchant 1, Auctioneer, Treasure Sense, Fighting Merchant 4 |
+| Sharp deal 3 | small | 3% less fee at the Auction House | Fighting Merchant 2, Bulk Dealer |
+| Market stall 2 | small | 1 more lot up at the Auction House | Fighting Merchant 2, Apprentice 5 |
+| Fighting Merchant 3 | small | Your Merchant abilities hit 5% harder | Fighting Merchant 2, Bulk Dealer, Apprentice 5, Fighting Merchant 5 |
+| Auctioneer | **major** | 3 more lots up and 10% less fee at the Auction House | Sharp deal 2, Contacts 4 |
+| ![](../icons/treasure_pargai.png){ .item-icon }Treasure Sense | **major** | A treasure hunt pays twice the XP | Market stall 1, Contacts 4 |
+| Fighting Merchant 4 | small | Your Merchant abilities hit 5% harder | Contacts 4, Coin Toss |
+| Bulk Dealer | **major** | A warehouse order pays 50% more Merchant XP | Sharp deal 3, Fighting Merchant 3 |
+| Apprentice 5 | small | You earn 5% more Merchant XP | Market stall 2, Fighting Merchant 3 |
+| Fighting Merchant 5 | small | Your Merchant abilities hit 5% harder | Fighting Merchant 3, Bribe |
+| Coin Toss | **ability** | A fistful of coins at the foe you look at. Gives the ability **Coin Toss** | Fighting Merchant 4 |
+| Bribe | **ability** | The foe you look at stops fighting you for a while. Gives the ability **Bribe** | Fighting Merchant 5 |
+
+The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
+
+### Combat abilities
+
+Taking an ability talent puts its ability in the **Profession** tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Merchant" talents make the Merchant's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.
+
+| Ability | What it does | Needs | Cooldown | Damage | Range |
+|---|---|---|---|---|---|
+| **Golden Bulwark** | A shield of gold of 6 health for you and your crew within 8 blocks | — | 45 s | — | 8 blocks |
+| **Coin Toss** | Throw a fistful of coins at the enemy you look at within 14 blocks. They cost you nothing | — | 8 s | 25 | 14 blocks |
+| **Bribe** | Pay off the enemy you look at within 8 blocks. For 10 seconds it stops fighting you and will not pick you again. Not a player or a boss | — | 20 s | — | 8 blocks |
+
+### If you had the trade before 0.5.0
+
+The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
+
+| Level | Points first put on |
+|---|---|
+| 10 | Apprentice 1, Trade Network |
+| 25 | Sharp deal 1, Bargain |
+| 40 | Apprentice 2, Credit |
 
 ## Advancements
 

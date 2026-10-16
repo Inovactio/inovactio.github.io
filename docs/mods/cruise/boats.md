@@ -94,7 +94,7 @@ The item's tooltip lists its blows, seats and hold, the fishing bonus, "Buoyant"
 ## Placing and riding
 
 - Use the boat item on water (or on a block) to place it, as with a vanilla boat. Any parts fitted on the item go onto the boat.
-- If the player who places it is a **Carpenter of level 10** or more, the hull gets one more blow than normal. Iron Plating adds 2 more on top.
+- If the player who places it is a **Carpenter** with the **Stout Hull** talent, the hull gets one more blow than normal, and one more again with **Ironwood**. Iron Plating adds 2 more on top.
 - Right-click to board.
 - A **Cargo** or **Fishing** boat opens its hold if you right-click while sneaking, or when all its seats are taken.
 
@@ -119,8 +119,18 @@ The item's tooltip lists its blows, seats and hold, the fishing bonus, "Buoyant"
 Only a [Carpenter](trades/carpenter.md) can mend a hull on the water. Anyone else sees "Only a Carpenter can mend a hull afloat."
 
 - Hold a plank of the hull's wood (any planks for a Reinforced hull) and right-click a damaged boat.
-- Each plank restores one timber, or **two** from Carpenter 25. A hull never goes above its full count.
-- Each timber put back pays the Carpenter **2 XP**.
+- Each plank restores one timber, or **two** with the Carpenter's **Quick Mending** talent. A hull never goes above its full count.
+- Each timber put back pays the Carpenter **2 XP**, twice that with **Mender's Pride**. With **Sound Timber** (and its Good plank small talents) the plank is sometimes not used up.
+- The Carpenter's **Quick Repair** ability gives the hull you ride, or the one you look at, 2 timbers back with no plank, for no XP.
+
+## Ships of Valkyrien Skies (optional)
+
+Cruise needs no other mod for its boats. But with [Valkyrien Skies 2](https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies) installed, the [Carpenter](trades/carpenter.md) also works on its ships of blocks, put together with Eureka's helm or any of Valkyrien Skies' own tools. Without Valkyrien Skies none of this is there.
+
+- **A plan of the ship.** When a ship is assembled, Cruise keeps the plan of its blocks, where each one stands.
+- **XP for building it.** The player who assembles it (the one with Eureka's helm open, or Valkyrien Skies' assembling tool in hand, within 32 blocks) earns **1 Carpenter XP a block, 200 at most**, once for a ship. A ship taken apart and put together again, the same blocks in the same places, pays nothing more.
+- **Mending.** A Carpenter **crouching with a plank** on the ship puts back its missing blocks, the nearest first: 1 block for a plank, 2 with **Quick Mending**. Each block put back is **taken from your bag**, so carry the blocks the ship is made of; nothing is made from nothing. Each pays **2 Carpenter XP**, twice that with Mender's Pride, and Sound Timber may spare the plank. "Nothing missing that you carry" means you have none of the blocks it lacks. The **Quick Repair** ability does the same with no plank, for no XP.
+- **Spare blocks.** A ship assembled by a Carpenter with **Stout Hull** holds **1 spare block**, 2 with **Ironwood** too. When an explosion would take a block of its plan, the block stands instead and a spare is spent. A spent spare comes back **one every 2 minutes**.
 
 ## Parts
 

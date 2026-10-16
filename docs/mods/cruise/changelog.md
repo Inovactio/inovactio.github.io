@@ -2,6 +2,84 @@
 
 Every Cruise Cruise no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/all).
 
+## 0.5.0: beta { #v0-5-0 }
+
+<small>Released 2026-10-16 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9205797)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Every trade has its talents.</strong> The perks by level are gone. Each of the fourteen trades earns talent points and
+spends them in a web of its own, and each web holds combat abilities to fight with your trade. You can also play a
+civilian now, some towns have a noble quarter with a merchant found nowhere else, and the Carpenter builds and mends
+the ships of Valkyrien Skies.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi</strong> 0.11.6 and <strong>AkumaLib 4.8.0</strong> or newer. Client and
+server. Valkyrien Skies is never required.</p>
+<p>⚠️ <strong>Update the server and every player together.</strong> The network protocol changed: a 0.5.0 client cannot join a
+0.4.2 server, nor the other way round.</p>
+<p>⚠️ <strong>Your worlds.</strong> A world played with 0.4.2 opens as it is. If you had a trade already, your talent points are placed
+for you on the perks you had. Noble quarters only come in towns made after this update.</p>
+<p>⚠️ <strong>A beta</strong>: everything here is playable, but numbers may still move with your feedback.</p>
+<hr />
+<h3>New</h3>
+<ul>
+<li><strong>Talents for every trade.</strong> No trade gets the same 3 perks as everyone else any more. You earn 1 talent point
+  every 5 levels and spend it in your trade's web of talents, from the Talents button on its page of the trades book
+  or with the Talents key (J). You choose your own way. The screen follows the game's GUI Scale.</li>
+<li><strong>Fisher</strong>: bigger catches, more bites, deep water or the shore, Sea Kings, trophies that
+    sell dearer.</li>
+<li><strong>Hunter</strong>, a net: quieter steps, creatures that wait longer before they take off, rarer creatures, tools that
+    last.</li>
+<li><strong>Lumberjack</strong>, a tree: faster felling, a second log, more saplings, more XP from the great trees, a Felling Saw
+    that brings down 96 logs, Sweet Sap from the logs.</li>
+<li><strong>Miner</strong>, a mine: more finds in the rock, ores that give twice, faster digging, more from deepslate and Kairoseki.</li>
+<li><strong>Farmer</strong>, a ploughed field: rare harvests, Fine and Superb harvests, fuller baskets, crops that sow themselves
+    again, fruits that grow back sooner. If you were a Farmer already you keep your Fine and Superb harvests.</li>
+<li><strong>Cook</strong>, a pot on the fire: better dishes, buffs that last longer, a second dish now and then, an ingredient saved.</li>
+<li><strong>Blacksmith</strong>, a sword: better tempering, sharper edges, a burning blade, more bullets and balls out of a forging.</li>
+<li><strong>Chemist</strong>, a molecule: more out of a brew, stronger remedies, balls that reach further and last longer.</li>
+<li><strong>Inventor</strong>, a light bulb: sturdier and faster tools, twice as many out of a making now and then.</li>
+<li><strong>Carpenter</strong>, a ship: stouter hulls, planks that mend more, more planks out of a wreck.</li>
+<li><strong>Tailor</strong>, a shirt: sturdier seams, a master's work that can be made better still, more scraps.</li>
+<li><strong>Musician</strong>, two notes: tunes that carry further and last longer, scores not always used up, listeners who pay
+    more.</li>
+<li><strong>Navigator</strong>, a compass rose: a Log Pose that looks further, charts not always used up, more XP for new ground.</li>
+<li><strong>Merchant</strong>, a pair of scales: the market fills slower with what you sell, more lots and less fee at the Auction
+    House. Your prices stay as they were.</li>
+<li><strong>Fighting with your trade.</strong> Each web holds combat abilities, found in the abilities list once their talent is
+  taken. They cost nothing from your bag. The Fisher fights with his rod, the Hunter with his nets and traps, the
+  Lumberjack with his axe, the Miner with his pickaxe, the Farmer with his hoe, the Cook with his bare hands, the
+  Blacksmith with a weapon out of a Forge, the Chemist with his Experiment Equipment, the Inventor with his gadgets,
+  the Carpenter with his mallet and nails, the Tailor with his needles, the Musician with an instrument, the Navigator
+  with a Barometer and the Merchant with empty hands. 44 abilities in all, in a <strong>Profession</strong> tab of their own in the
+  abilities screen.</li>
+<li><strong>Potion of Second Thoughts.</strong> A new potion of the Chemist, at level 20. Drink it, pick one of your trades, and every
+  talent point you spent in it comes back to you.</li>
+<li><strong>Play a civilian.</strong> The Civilian is a choice in the character creator's book, with its own flag. No bounty, no
+  loyalty. Marines and the World Government leave you alone, pirates and bandits do not. Strike three men of the law
+  in one day and you are a pirate. A Bounty Hunter or a Revolutionary you strike may strike you back. Help a village
+  beat a raid and it thanks you with 50 Belly and a good turn for every raider you beat.</li>
+<li><strong>The noble quarter.</strong> One town in three has a manor round a court of honour and a garden with its fountain, drawn
+  for each land (an oasis garden in the desert). Nobles live there. They have no love for any pirate with a bounty and
+  every welcome for the Marines.</li>
+<li><strong>The Antiquarian.</strong> The noble quarter's own merchant, in the manor's library. He buys only Fine and Superb dishes
+  and harvests, at one and a half times their price, and sells a few rarities of the trades each day, very dear.</li>
+<li><strong>The Carpenter and Valkyrien Skies.</strong> With Valkyrien Skies and Eureka installed, the Carpenter earns XP for a ship
+  he assembles, mends it by crouching with a plank (each block put back comes from his bag), and his Stout Hull and
+  Ironwood talents give it spare blocks that take a blast in its stead.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>The trades book's guide has a section on talents, and no longer speaks of perks by level.</li>
+<li>Each trade's abilities form a group for Mine Mine no Mi's <code>/ability unlock_group</code> (<code>inocruise:fisher</code> to
+  <code>inocruise:merchant</code>). An ability given by a command now stays.</li>
+<li>Tempered Guard no longer holds the Blacksmith's arms crossed.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>The walk along a town's wall and the roofs over its gates and lookouts now rest on their posts. Half a block of
+  void stood over every post.</li>
+</ul>
+</div>
+
 ## 0.4.2: beta { #v0-4-2 }
 
 <small>Released 2026-10-11 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9129051)</small>

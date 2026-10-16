@@ -82,13 +82,64 @@ Boats are fitted with sails, plating, a ram or a Burst Dial at the ![](../block-
 
 The sails are sewn by the [Tailor](tailor.md); the other parts are made by the [Inventor](inventor.md). The full list is on the [Boats](../boats.md) page. The same bench also fits the Inventor's fishing-rod parts and the [Hunter](hunter.md)'s net and trap gear.
 
-## Level perks
+## Talents
 
-| Level | Perk | What it does |
-|---|---|---|
-| 10 | "The hulls you launch carry one more blow" | +1 blow on any hull boat **you** place on the water, whoever built it |
-| 25 | "One plank mends two timbers" | each plank you use to mend a hull restores two blows instead of one |
-| 40 | "25% chance an ingredient is saved" | after a Shipyard craft, one ingredient (never a tool) may come back to you |
+Every 5 Carpenter levels give you a **talent point** (10 at level 50, 20 at level 100). Spend them in the Carpenter's web of talents, opened by the **Talents** button on the trade's page of the trades book or with the **Talents** key (**J** by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a [Potion of Second Thoughts](chemist.md#the-potion-of-second-thoughts) gives them back. See [Talents](../trades-and-levels.md#talents).
+
+| Talent | Kind | What it gives | Linked to |
+|---|---|---|---|
+| Offcuts 1 | small, start | 2% more of what you build gives an ingredient back | Stout Hull, Good plank 1 |
+| ![](../icons/reinforced_boat.png){ .item-icon }Stout Hull | **major** | The hulls you launch carry 1 more blow | Offcuts 1, Shipyard hand 1 |
+| Good plank 1 | small | 3% more chance that a plank you mend with is not used up | Sound Timber, Offcuts 1, Salvager, Fighting Carpenter 1 |
+| Shipyard hand 1 | small | You earn 5% more Carpenter XP | Stout Hull, Quick Mending, Ironwood |
+| ![](../block-models/kuuigosu-planks.png){ .block-mini }Sound Timber | **major** | 25% chance that a plank you mend with is not used up | Good plank 1, Shipyard hand 2, Fighting Carpenter 2 |
+| ![](../icons/burning_boat.png){ .item-icon }Salvager | **major** | A wreck you salvage gives 2 more planks | Good plank 1 |
+| Fighting Carpenter 1 | small | Your Carpenter abilities hit 5% harder | Fighting Carpenter 3, Good plank 1 |
+| ![](../block-models/adam-planks.png){ .block-mini }Quick Mending | **major** | One plank of yours mends 2 timbers | Shipyard hand 1, Offcuts 2 |
+| ![](../icons/adam_boat.png){ .item-icon }Ironwood | **major** | The hulls you launch carry 1 more blow again | Shipyard hand 2, Offcuts 3, Shipyard hand 1, Shipyard hand 3 |
+| Shipyard hand 2 | small | You earn 5% more Carpenter XP | Sound Timber, Ironwood |
+| Fighting Carpenter 2 | small | Your Carpenter abilities hit 5% harder | Sound Timber, Fighting Carpenter 3 |
+| Fighting Carpenter 3 | small | Your Carpenter abilities hit 5% harder | Fighting Carpenter 2, Mallet Swing, Fighting Carpenter 1 |
+| Offcuts 2 | small | 2% more of what you build gives an ingredient back | Quick Mending, Thrift |
+| Offcuts 3 | small | 2% more of what you build gives an ingredient back | Ironwood, Offcuts 4 |
+| Shipyard hand 3 | small | You earn 5% more Carpenter XP | Ironwood, Shipwright's Notes |
+| ![](../icons/woodsmans_axe.png){ .item-icon }Mallet Swing | **ability** | A wide blow that hits the foes in front of you and throws them back. Gives the ability **Mallet Swing** | Fighting Carpenter 3 |
+| ![](../icons/iron_scrap.png){ .item-icon }Thrift | **major** | 25% of what you build gives an ingredient back | Offcuts 4, Offcuts 2, Nail Shot |
+| Offcuts 4 | small | 2% more of what you build gives an ingredient back | Offcuts 3, Thrift |
+| ![](../icons/sea_chart.png){ .item-icon }Shipwright's Notes | **major** | You earn 15% more Carpenter XP | Shipyard hand 3, Shipyard hand 4, Good plank 2, Good plank 3 |
+| Nail Shot | **ability** | Throw a fistful of nails that hurts and slows a foe. Gives the ability **Nail Shot** | Thrift, Fighting Carpenter 4 |
+| Shipyard hand 4 | small | You earn 5% more Carpenter XP | Fighting Carpenter 4, Shipwright's Notes, Mender's Pride |
+| Good plank 2 | small | 3% more chance that a plank you mend with is not used up | Shipyard hand 5, Shipwright's Notes |
+| Good plank 3 | small | 3% more chance that a plank you mend with is not used up | Shipyard hand 6, Shipwright's Notes |
+| Fighting Carpenter 4 | small | Your Carpenter abilities hit 5% harder | Nail Shot, Shipyard hand 4 |
+| ![](../icons/felling_saw.png){ .item-icon }Mender's Pride | **major** | Each timber you mend pays twice the Carpenter XP | Shipyard hand 4, Good plank 4, Shipyard hand 5, Shipyard hand 6 |
+| Shipyard hand 5 | small | You earn 5% more Carpenter XP | Mender's Pride, Good plank 2 |
+| Shipyard hand 6 | small | You earn 5% more Carpenter XP | Mender's Pride, Good plank 3 |
+| Good plank 4 | small | 3% more chance that a plank you mend with is not used up | Mender's Pride, Fighting Carpenter 5 |
+| Fighting Carpenter 5 | small | Your Carpenter abilities hit 5% harder | Good plank 4, Quick Repair |
+| ![](../icons/reinforced_frame.png){ .item-icon }Quick Repair | **ability** | The hull you ride or look at gets 2 timbers back. No plank is used. Gives the ability **Quick Repair** | Fighting Carpenter 5 |
+
+The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
+
+### Combat abilities
+
+Taking an ability talent puts its ability in the **Profession** tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Carpenter" talents make the Carpenter's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.
+
+| Ability | What it does | Needs | Cooldown | Damage | Range |
+|---|---|---|---|---|---|
+| **Mallet Swing** | Swing wide before you. Every enemy in front of you within 4 blocks is hit and thrown back | — | 10 s | 35 | 4 blocks |
+| **Nail Shot** | Throw a fistful of nails straight ahead. The enemy they hit is hurt and slowed for 3 seconds. A player or a boss half as long | — | 8 s | 30 | — |
+| **Quick Repair** | Patch the hull you ride or the one you look at within 5 blocks. It gets 2 timbers back. No plank is used | — | 30 s | — | — |
+
+### If you had the trade before 0.5.0
+
+The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
+
+| Level | Points first put on |
+|---|---|
+| 10 | Offcuts 1, Stout Hull |
+| 25 | Shipyard hand 1, Quick Mending |
+| 40 | Offcuts 2, Thrift |
 
 ## Advancements
 

@@ -62,7 +62,7 @@ Each tenth of a section you complete pays Belly to anyone, and XP to a Navigator
 
 - **Use** it to switch to the next kind of land your Navigator level opens: it searches and points to the nearest one ("Log Pose set on Forests: N blocks").
 - Use it **crouching** to search again for the same kind from where you stand.
-- It searches **2 400 blocks** around (**4 800** from Navigator level 25), with a 3-second cooldown.
+- It searches **2 400 blocks** around (**4 800** with the Long Sight talent, 10 % more for each Keen eye small talent), with a 3-second cooldown.
 - Only a Navigator can set it; anyone can follow the needle.
 
 | Kind of land | Navigator level |
@@ -140,7 +140,7 @@ See [Events at sea](../events-at-sea.md#a-storm-at-sea) for the storm itself.
 
 ## At the helm
 
-From level 10, the Carpenter's boats you steer go 1 % faster, on any water; from level 40, 2 % faster (replacing the 1 %). The boat's total speed boost (hull, shape, sail and helmsman together) is capped at ×1.075, so a Navigator makes an ordinary boat faster but adds little to the fastest one. See [Boats](../boats.md) and the [Carpenter](carpenter.md).
+With the Fair Wind talent, the Carpenter's boats you steer go 1 % faster, on any water; with Trade Winds too, 2 % faster. The boat's total speed boost (hull, shape, sail and helmsman together) is capped at ×1.075, so a Navigator makes an ordinary boat faster but adds little to the fastest one. See [Boats](../boats.md) and the [Carpenter](carpenter.md).
 
 ## Where the XP comes from
 
@@ -154,13 +154,64 @@ From level 10, the Carpenter's boats you steer go 1 % faster, on any water; from
 | Chart Table recipes | 12 / 30 / 50 / 70 / 110 |
 | Each tenth of a Log Book section | 50 up to 6 000 |
 
-## Level perks
+## Talents
 
-| Level | Perk | What it does |
-|---|---|---|
-| 10 | "Fair wind: the Carpenter's boats you steer make a little more way, on any water" | the Carpenter's boats you steer go 1 % faster |
-| 25 | "Long sight: your Log Pose reaches twice as far" | your Log Pose searches 4 800 blocks instead of 2 400 |
-| 40 | "Trade winds: the boats you steer make more way again" | the boats you steer go 2 % faster (replacing the 1 %), within the ×1.075 cap |
+Every 5 Navigator levels give you a **talent point** (10 at level 50, 20 at level 100). Spend them in the Navigator's web of talents, opened by the **Talents** button on the trade's page of the trades book or with the **Talents** key (**J** by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a [Potion of Second Thoughts](chemist.md#the-potion-of-second-thoughts) gives them back. See [Talents](../trades-and-levels.md#talents).
+
+| Talent | Kind | What it gives | Linked to |
+|---|---|---|---|
+| Keen eye 1 | small, start | Your Log Pose looks 10% further | Keen eye 2, Thrifty pen 2, Long Sight |
+| Apprentice 1 | small, start | You earn 5% more Navigator XP | Keen eye 2, Tidy table 1, Navigator's Notes |
+| Apprentice 2 | small, start | You earn 5% more Navigator XP | Tidy table 1, Tidy table 2, Fair Wind |
+| Thrifty pen 1 | small, start | 3% more of the Sea Charts you draw are not used up | Tidy table 2, Thrifty pen 2, Pathfinder |
+| Keen eye 2 | small | Your Log Pose looks 10% further | Keen eye 1, Apprentice 1, Quick Bearings |
+| Thrifty pen 2 | small | 3% more of the Sea Charts you draw are not used up | Thrifty pen 1, Keen eye 1, Spare Paper |
+| ![](../icons/log_pose.png){ .item-icon }Long Sight | **major** | Your Log Pose looks twice as far | Keen eye 1, Keen eye 3, Fighting Navigator 1, Thunder Call |
+| Tidy table 1 | small | 2% more of your work at the Chart Table gives an ingredient back | Apprentice 1, Apprentice 2, Trade Winds |
+| ![](../icons/sea_chart.png){ .item-icon }Navigator's Notes | **major** | You earn 15% more Navigator XP | Apprentice 1, Apprentice 3, Tidy table 3, Fighting Navigator 2 |
+| Tidy table 2 | small | 2% more of your work at the Chart Table gives an ingredient back | Apprentice 2, Thrifty pen 1, Fighting Navigator 3 |
+| ![](../icons/boat_sail.png){ .item-icon }Fair Wind | **major** | The boats you steer make a little more way | Apprentice 2, Apprentice 4, Fighting Navigator 4, Careful Hands |
+| ![](../icons/eternal_pose.png){ .item-icon }Pathfinder | **major** | A chunk you never set foot in pays twice the XP | Thrifty pen 1, Thrifty pen 3, Thrifty pen 4, Fighting Navigator 5 |
+| ![](../icons/barometer.png){ .item-icon }Quick Bearings | **major** | Your Log Pose and Sea Charts wait half as long | Keen eye 2, Keen eye 3, Apprentice 3 |
+| Spare Paper | **major** | 25% of the Sea Charts you draw are not used up | Thrifty pen 2, Thrifty pen 4, Fighting Navigator 1 |
+| Keen eye 3 | small | Your Log Pose looks 10% further | Long Sight, Quick Bearings |
+| Fighting Navigator 1 | small | Your Navigator abilities hit 5% harder | Spare Paper, Long Sight |
+| Thunder Call | **ability** | Lightning on the foe you look at. Gives the ability **Thunder Call** | Long Sight |
+| ![](../icons/masters_sail.png){ .item-icon }Trade Winds | **major** | The boats you steer make a little more way again | Tidy table 1, Tidy table 3, Apprentice 4 |
+| Apprentice 3 | small | You earn 5% more Navigator XP | Quick Bearings, Navigator's Notes |
+| Tidy table 3 | small | 2% more of your work at the Chart Table gives an ingredient back | Navigator's Notes, Trade Winds |
+| Fighting Navigator 2 | small | Your Navigator abilities hit 5% harder | Navigator's Notes, Gust |
+| Fighting Navigator 3 | small | Your Navigator abilities hit 5% harder | Tidy table 2, Fighting Navigator 4, Thrifty pen 3 |
+| Apprentice 4 | small | You earn 5% more Navigator XP | Trade Winds, Fair Wind |
+| Fighting Navigator 4 | small | Your Navigator abilities hit 5% harder | Fair Wind, Fighting Navigator 3 |
+| ![](../icons/sounding_lead.png){ .item-icon }Careful Hands | **major** | 25% of your work at the Chart Table gives an ingredient back | Fair Wind |
+| Thrifty pen 3 | small | 3% more of the Sea Charts you draw are not used up | Fighting Navigator 3, Pathfinder |
+| Thrifty pen 4 | small | 3% more of the Sea Charts you draw are not used up | Pathfinder, Spare Paper |
+| Fighting Navigator 5 | small | Your Navigator abilities hit 5% harder | Pathfinder, Mirage |
+| Gust | **ability** | A gust that hurts and blows back the foes in front of you. Gives the ability **Gust** | Fighting Navigator 2 |
+| Mirage | **ability** | You vanish and the foes after you lose you. Gives the ability **Mirage** | Fighting Navigator 5 |
+
+The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
+
+### Combat abilities
+
+Taking an ability talent puts its ability in the **Profession** tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Navigator" talents make the Navigator's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.
+
+| Ability | What it does | Needs | Cooldown | Damage | Range |
+|---|---|---|---|---|---|
+| **Thunder Call** | Call lightning on the enemy you look at within 16 blocks. It starts no fire | a Barometer in your bag | 15 s | 30 | 16 blocks |
+| **Gust** | Blow a gust before you. Every enemy in front of you within 8 blocks is hit and blown far back | a Barometer in your bag | 10 s | 20 | 8 blocks |
+| **Mirage** | Vanish for 5 seconds. The creatures after you lose you | a Barometer in your bag | 30 s | — | — |
+
+### If you had the trade before 0.5.0
+
+The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
+
+| Level | Points first put on |
+|---|---|
+| 10 | Apprentice 2, Fair Wind |
+| 25 | Keen eye 1, Long Sight |
+| 40 | Apprentice 4, Trade Winds |
 
 ## Advancements
 
