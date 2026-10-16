@@ -42,7 +42,7 @@ There is no limit to the villages a group holds. Everything on this page but the
 | **The Marines** | any Marine player | whoever raised the flag |
 | **The Revolutionaries** | any Revolutionary player | whoever raised the flag |
 
-- A pirate without a crew, a Bounty Hunter or a player of no side holds no village.
+- A pirate without a crew, a Bounty Hunter, a [civilian](villages.md#playing-a-civilian) or a player of no side holds no village.
 - If the Marine or the Revolutionary who raised the flag leaves his side, the village stays his side's: the first comrade who speaks to its head answers for it from then on.
 - A crew that is no more loses its villages.
 - A village that is closed to you because of a crime will not take your flag.
@@ -153,6 +153,8 @@ Every **twenty to thirty days** a village you hold is raided by your enemies.
 |---|---|---|
 | repelled | 10 more loyalty, and 100 Belly for each villager into the coffer | as it was |
 | lost | 30 less loyalty | lost at once: the flag comes down |
+
+A civilian who fights the raiders is thanked when the raid is beaten off: 50 Belly a raider he beat, from the coffer as far as it holds, and a good turn each (see [Playing a civilian](villages.md#playing-a-civilian)).
 
 A Peaceful world has no raids.
 

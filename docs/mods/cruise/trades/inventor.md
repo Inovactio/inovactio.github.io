@@ -173,13 +173,64 @@ The smithing table asks for no Inventor level: anyone holding a Mysterious Dial 
 - ![](../icons/enhanced_bombs.png){ .item-icon }**Enhanced Bombs** (Inventor 42; 6 Gunpowder, 2 Iron Scrap, 1 Coal; **four per craft**): thrown like a [Chemist](chemist.md)'s ball, a bomb explodes where it lands (power 2). The world's mobGriefing game rule decides whether it breaks blocks. Cooldown 1 second.
 - ![](../icons/blind_spot_cannonball.png){ .item-icon }**Blind Spot Cannonball** (Inventor 48; 2 Missile Manta Ray, 6 Enhanced Bombs; stacks to 16): a heavier blast (power 3.5). Its smoke **blinds everything within about 5 blocks for 0:06**, except the thrower.
 
-## Level perks
+## Talents
 
-| Level | Perk | What it does |
-|---|---|---|
-| 10 | "10% chance to save an ingredient" | at the Workshop, one ingredient comes back to you 10 % of the time ("Saved: ...") |
-| 25 | "The tools you make come with Unbreaking I" | the tools you make (anything with durability) come with **Unbreaking I**; a tool that already has Unbreaking keeps its own |
-| 40 | "25% chance to save an ingredient" | the chance to save an ingredient becomes **25 %** (it replaces the 10 %); a tool is never among the saved ingredients |
+Every 5 Inventor levels give you a **talent point** (10 at level 50, 20 at level 100). Spend them in the Inventor's web of talents, opened by the **Talents** button on the trade's page of the trades book or with the **Talents** key (**J** by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a [Potion of Second Thoughts](chemist.md#the-potion-of-second-thoughts) gives them back. See [Talents](../trades-and-levels.md#talents).
+
+| Talent | Kind | What it gives | Linked to |
+|---|---|---|---|
+| Tidy bench 1 | small, start | 2% more of what you make gives an ingredient back | Spare Parts |
+| ![](../icons/mysterious_parts.png){ .item-icon }Spare Parts | **major** | 10% of what you make gives an ingredient back | Tidy bench 1, Apprentice 1 |
+| Apprentice 1 | small | You earn 5% more Inventor XP | Spare Parts, Sturdy Work |
+| ![](../icons/enhanced_pickaxe.png){ .item-icon }Sturdy Work | **major** | The tools you make come with Unbreaking I | Apprentice 1, Tidy bench 2, Tidy bench 3, Big batch 1 |
+| Tidy bench 2 | small | 2% more of what you make gives an ingredient back | Sturdy Work, Thrift |
+| Tidy bench 3 | small | 2% more of what you make gives an ingredient back | Second Batch, Sturdy Work |
+| Big batch 1 | small | 3% more chance that a making of what stacks gives twice as many | Sturdy Work, Fighting Inventor 1, Fighting Inventor 2 |
+| ![](../icons/iron_scrap.png){ .item-icon }Thrift | **major** | 15% more of what you make gives an ingredient back | Tidy bench 2, Tidy bench 4 |
+| ![](../icons/iron_plating.png){ .item-icon }Second Batch | **major** | 20% chance that a making of what stacks gives twice as many | Apprentice 2, Tidy bench 3 |
+| Fighting Inventor 1 | small | Your Inventor abilities hit 5% harder | Big batch 1, Quick Tools |
+| Fighting Inventor 2 | small | Your Inventor abilities hit 5% harder | Big batch 1, Quick Tools |
+| Tidy bench 4 | small | 2% more of what you make gives an ingredient back | Thrift, Fine Work |
+| Apprentice 2 | small | You earn 5% more Inventor XP | Inventor's Notes, Second Batch |
+| ![](../icons/felling_saw.png){ .item-icon }Quick Tools | **major** | The tools you make come with Efficiency I if they can take it | Fighting Inventor 1, Fighting Inventor 2, Shock Prod |
+| ![](../icons/reinforced_frame.png){ .item-icon }Fine Work | **major** | The tools you make come with Unbreaking II | Tidy bench 4, Big batch 2, Fighting Inventor 3 |
+| ![](../icons/lens.png){ .item-icon }Inventor's Notes | **major** | You earn 15% more Inventor XP | Apprentice 3, Apprentice 2, Fighting Inventor 4 |
+| ![](../icons/thunder_powder.png){ .item-icon }Shock Prod | **ability** | A jolt that hurts and stuns the foe you look at. Gives the ability **Shock Prod** | Quick Tools, Tidy bench 5 |
+| Big batch 2 | small | 3% more chance that a making of what stacks gives twice as many | Fine Work, Tidy bench 5, Big batch 3 |
+| Fighting Inventor 3 | small | Your Inventor abilities hit 5% harder | Fine Work, Magnet Pull |
+| Apprentice 3 | small | You earn 5% more Inventor XP | Tidy bench 5, Inventor's Notes, Apprentice 4 |
+| Fighting Inventor 4 | small | Your Inventor abilities hit 5% harder | Inventor's Notes, Jet Dash |
+| Tidy bench 5 | small | 2% more of what you make gives an ingredient back | Big batch 2, Apprentice 3, Shock Prod, Fighting Inventor 5 |
+| Big batch 3 | small | 3% more chance that a making of what stacks gives twice as many | Big batch 2, Big batch 4 |
+| ![](../icons/magnet.png){ .item-icon }Magnet Pull | **ability** | The foes round you are pulled to you and slowed. Gives the ability **Magnet Pull** | Fighting Inventor 3 |
+| Apprentice 4 | small | You earn 5% more Inventor XP | Apprentice 3, Apprentice 5 |
+| ![](../icons/flame_powder.png){ .item-icon }Jet Dash | **ability** | Your boots throw you some 8 blocks where you look. Gives the ability **Jet Dash** | Fighting Inventor 4 |
+| Fighting Inventor 5 | small | Your Inventor abilities hit 5% harder | Tidy bench 5, Spare Fuse |
+| Big batch 4 | small | 3% more chance that a making of what stacks gives twice as many | Big batch 3 |
+| Apprentice 5 | small | You earn 5% more Inventor XP | Apprentice 4 |
+| ![](../icons/enhanced_bombs.png){ .item-icon }Spare Fuse | **major** | 20% of the bombs you throw are not used up | Fighting Inventor 5 |
+
+The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
+
+### Combat abilities
+
+Taking an ability talent puts its ability in the **Profession** tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Inventor" talents make the Inventor's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.
+
+| Ability | What it does | Needs | Cooldown | Damage | Range |
+|---|---|---|---|---|---|
+| **Shock Prod** | Jolt the enemy you look at. It hurts them a lot and stuns them for 1 and a half seconds. A player or a boss half as long | — | 10 s | 40 | 4 blocks |
+| **Magnet Pull** | Switch your magnet on. Every enemy within 6 blocks is pulled to you and slowed for 2 seconds | — | 14 s | — | 6 blocks |
+| **Jet Dash** | Fire your boots. You are thrown some 8 blocks where you look | — | 12 s | — | — |
+
+### If you had the trade before 0.5.0
+
+The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
+
+| Level | Points first put on |
+|---|---|
+| 10 | Tidy bench 1, Spare Parts |
+| 25 | Apprentice 1, Sturdy Work |
+| 40 | Tidy bench 2, Thrift |
 
 ## The recipes
 

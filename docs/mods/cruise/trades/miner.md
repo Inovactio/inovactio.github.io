@@ -97,7 +97,7 @@ Now and then a star falls in the wild and lies on the ground for one day: a shel
 ![](../icons/enhanced_pickaxe.png){ .item-icon }The **Enhanced Pick-axe** is made by the [Inventor](inventor.md) at the Workshop (Inventor 25: 5 Diamond Fragments, 3 Mysterious Parts, 1 log).
 
 - Diamond's mining tier, 1 800 uses, repaired with Diamond Fragments.
-- Its tooltip reads "A Miner's finds turn up 25% more often". This adds up with the level-10 perk, for ×1.875 in all.
+- Its tooltip reads "A Miner's finds turn up 25% more often". It multiplies what your talents give: with Keen Pick (×1.5), ×1.875 in all.
 
 ## The Masonry
 
@@ -124,13 +124,64 @@ These are the Masonry's recipes:
 - **Pure Iron Ore** goes into the Inventor's Magnet, Woodsman's Axe, Felling Saw and Hull Ram, the [Carpenter](carpenter.md)'s Adam boats, the [Blacksmith](blacksmith.md)'s Warabide Sword and several [Tailor](tailor.md) pieces.
 - **Kairoseki** and **Dense Kairoseki** feed the Blacksmith's sea-stone weapons and handcuffs.
 
-## Level perks
+## Talents
 
-| Level | Perk | What it does |
-|---|---|---|
-| 10 | "Finds in the rock turn up 50% more often" | every find's chance ×1.5 (never above 100 %) |
-| 25 | "10% chance an ore gives its drops twice" | one ore in ten gives its normal drops a second time |
-| 40 | "20% chance an ore gives its drops twice" | replaces the 10 % |
+Every 5 Miner levels give you a **talent point** (10 at level 50, 20 at level 100). Spend them in the Miner's web of talents, opened by the **Talents** button on the trade's page of the trades book or with the **Talents** key (**J** by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a [Potion of Second Thoughts](chemist.md#the-potion-of-second-thoughts) gives them back. See [Talents](../trades-and-levels.md#talents).
+
+| Talent | Kind | What it gives | Linked to |
+|---|---|---|---|
+| Sharp eye 1 | small, start | Your finds in the rock turn up 5% more often | Keen Pick |
+| ![](../icons/enhanced_pickaxe.png){ .item-icon }Keen Pick | **major** | Your finds in the rock turn up 50% more often | Sharp eye 1, Good arm 1, Clean strike 1, Ore sense 1 |
+| Good arm 1 | small | Rock and ore give 5% faster under your pickaxe | Keen Pick, Stone Breaker |
+| Clean strike 1 | small | 2% more chance that an ore gives its drops twice | Keen Pick, Double Strike |
+| Ore sense 1 | small | An ore gives 5% more Miner XP | Keen Pick, Prospector |
+| ![](../icons/marble.png){ .item-icon }Stone Breaker | **major** | Rock and ore give 25% faster under your pickaxe | Good arm 1, Sharp eye 2, Good arm 2, Kept point |
+| ![](../icons/pure_iron_ore.png){ .item-icon }Double Strike | **major** | 10% chance that an ore gives its drops twice | Clean strike 1, Clean strike 2 |
+| ![](../icons/iron_scrap.png){ .item-icon }Prospector | **major** | An ore gives 25% more Miner XP | Ore sense 1, Ore sense 2 |
+| Sharp eye 2 | small | Your finds in the rock turn up 5% more often | Stone Breaker, Deep Digger |
+| Good arm 2 | small | Rock and ore give 5% faster under your pickaxe | Stone Breaker, Fighting Miner 1 |
+| Kept point | small | 8% chance that an ore does not wear your tool | Stone Breaker, Sharp eye 3 |
+| Clean strike 2 | small | 2% more chance that an ore gives its drops twice | Double Strike, Rich Vein, Ground Breaker |
+| Ore sense 2 | small | An ore gives 5% more Miner XP | Prospector, Pick Strike, Gem Cutter |
+| ![](../icons/mysterious_parts.png){ .item-icon }Deep Digger | **major** | Your finds in deepslate and tuff turn up twice as often | Sharp eye 2, Ore sense 3, Sharp eye 4, Fighting Miner 2 |
+| Fighting Miner 1 | small | Your Miner abilities hit 5% harder | Good arm 2, Ground Breaker, Seastone Sense |
+| Sharp eye 3 | small | Your finds in the rock turn up 5% more often | Kept point, Gem Cutter, Blast Rock |
+| ![](../icons/star_fragment.png){ .item-icon }Rich Vein | **major** | 10% more chance that an ore gives its drops twice | Clean strike 2, Good arm 3 |
+| ![](../icons/enhanced_pickaxe.png){ .item-icon }Ground Breaker | **ability** | Needs a pickaxe. A shock wave runs 8 blocks ahead. Foes on its way are thrown up. Gives the ability **Ground Breaker** | Fighting Miner 1, Good arm 3, Clean strike 2 |
+| ![](../icons/enhanced_pickaxe.png){ .item-icon }Pick Strike | **ability** | Needs a pickaxe. A blow on a foe. It holds him for 1 second. Gives the ability **Pick Strike** | Ore sense 2, Ore sense 4 |
+| ![](../icons/diamond_fragment.png){ .item-icon }Gem Cutter | **major** | 20% chance that a find comes with one more | Sharp eye 3, Ore sense 4, Ore sense 2 |
+| Ore sense 3 | small | An ore gives 5% more Miner XP | Deep Digger, Fighting Miner 3 |
+| Sharp eye 4 | small | Your finds in the rock turn up 5% more often | Deep Digger, Seastone Sense |
+| Fighting Miner 2 | small | Your Miner abilities hit 5% harder | Deep Digger, Blast Rock |
+| Seastone Sense | **major** | Your finds in Kairoseki ore turn up twice as often | Sharp eye 4, Fighting Miner 4, Fighting Miner 1 |
+| ![](../block-models/explosive-rock.png){ .block-mini }Blast Rock | **ability** | Needs a pickaxe. Throw an Explosive Rock. It bursts on 3 blocks and breaks no block. Gives the ability **Blast Rock** | Fighting Miner 2, Fighting Miner 5, Sharp eye 3 |
+| Good arm 3 | small | Rock and ore give 5% faster under your pickaxe | Ground Breaker, Rich Vein |
+| Ore sense 4 | small | An ore gives 5% more Miner XP | Gem Cutter, Pick Strike |
+| Fighting Miner 3 | small | Your Miner abilities hit 5% harder | Ore sense 3 |
+| Fighting Miner 4 | small | Your Miner abilities hit 5% harder | Seastone Sense |
+| Fighting Miner 5 | small | Your Miner abilities hit 5% harder | Blast Rock |
+
+The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
+
+### Combat abilities
+
+Taking an ability talent puts its ability in the **Profession** tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Miner" talents make the Miner's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.
+
+| Ability | What it does | Needs | Cooldown | Damage | Range |
+|---|---|---|---|---|---|
+| **Ground Breaker** | With a pickaxe in hand strike the ground. A shock wave runs 8 blocks straight ahead. Every enemy on its way is hit and thrown up | a pickaxe in hand | 12 s | 35 | 8 blocks |
+| **Pick Strike** | With a pickaxe in hand strike the enemy you look at. It hurts them a lot and holds them for 1 second. A player or a boss is held half as long | a pickaxe in hand | 9 s | 55 | 4 blocks |
+| **Blast Rock** | With a pickaxe in hand throw an Explosive Rock. It bursts where it lands and hurts every enemy within 3 blocks. It breaks no block | a pickaxe in hand | 12 s | 40 | 3 blocks |
+
+### If you had the trade before 0.5.0
+
+The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
+
+| Level | Points first put on |
+|---|---|
+| 10 | Sharp eye 1, Keen Pick |
+| 25 | Clean strike 1, Double Strike |
+| 40 | Clean strike 2, Rich Vein |
 
 ## Advancements
 

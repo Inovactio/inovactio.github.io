@@ -33,12 +33,12 @@ Both are made by the [Inventor](inventor.md) at the Workshop.
 
 - ![](../icons/woodsmans_axe.png){ .item-icon }**Woodsman's Axe** (Inventor 20: 2 Pure Iron Ore, 3 Diamond Fragments, 2 Mysterious Parts, 2 logs)
     - Diamond tier, 1 800 uses, repaired with Diamond Fragments.
-    - Its tooltip reads "A Lumberjack's second log turns up 25% more often": the level-25 perk's 15 % becomes 18.75 %.
+    - Its tooltip reads "A Lumberjack's second log turns up 25% more often": the second-log chance your talents give is multiplied by 1.25, so Second Log's 15 % becomes 18.75 %.
     - It hits for less than a diamond axe, on purpose.
 - ![](../icons/felling_saw.png){ .item-icon }**Felling Saw** (Inventor 35: 4 Pure Iron Ore, 3 Mysterious Parts, 2 logs)
     - Iron tier, 1 200 uses, repaired with Pure Iron Ore.
     - Its tooltip reads "One cut brings down the trunk, up to 64 logs". It follows the logs of the same wood that are joined to the cut, diagonals included, upward and outward but never below the cut, and it skips logs a player placed.
-    - Each log costs one use, pays its XP, and can be doubled by the level-25 perk.
+    - Each log costs one use, pays its XP, and can be doubled by the Second Log talent and its small talents.
 
 ## The three great trees
 
@@ -82,15 +82,64 @@ This table lists the nine woods and their sets:
 
 The [Carpenter](carpenter.md) builds hulls and lockers from Kuuigosu, Burning Tree and Adam Planks, and Adam Planks also go into the [Blacksmith](blacksmith.md)'s Kuro Kabuto.
 
-## Level perks
+## Talents
 
-| Level | Perk | What it does |
-|---|---|---|
-| 10 | "Logs give 50% faster under your axe" | ×1.5 breaking speed on logs |
-| 25 | "15% chance a felled log gives two" | a log from a natural tree drops twice (18.75 % with the Woodsman's Axe) |
-| 40 | "Leaves you break drop saplings twice as often" | the leaves roll their drops a second time, and only the saplings are kept |
+Every 5 Lumberjack levels give you a **talent point** (10 at level 50, 20 at level 100). Spend them in the Lumberjack's web of talents, opened by the **Talents** button on the trade's page of the trades book or with the **Talents** key (**J** by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a [Potion of Second Thoughts](chemist.md#the-potion-of-second-thoughts) gives them back. See [Talents](../trades-and-levels.md#talents).
 
-Level 50 brings no perk but a lock: only a Lumberjack of level 50 can fell the Treasure Tree Adam.
+| Talent | Kind | What it gives | Linked to |
+|---|---|---|---|
+| Good swing 1 | small, start | Logs give 5% faster under your axe | Strong Arm |
+| ![](../icons/woodsmans_axe.png){ .item-icon }Strong Arm | **major** | Logs give 50% faster under your axe | Good swing 1, Good swing 2, Clean cut 1, Green hand 1 |
+| Good swing 2 | small | Logs give 5% faster under your axe | Strong Arm, Woodcraft 1 |
+| Clean cut 1 | small | 2% more chance that a log you fell gives two | Strong Arm, Second Log |
+| Green hand 1 | small | Leaves you break drop saplings 10% more often | Strong Arm, Green Thumb |
+| Woodcraft 1 | small | A log you fell gives 5% more Lumberjack XP | Good swing 2, Heartwood |
+| ![](../block-models/kuuigosu-log.png){ .block-mini }Second Log | **major** | 15% chance that a log you fell gives two | Clean cut 1, Clean cut 2, Kept edge |
+| ![](../icons/kuuigosu_sapling.png){ .item-icon }Green Thumb | **major** | Leaves you break drop saplings twice as often | Green hand 1, Green hand 2, Planter |
+| ![](../block-models/adam-log.png){ .block-mini }Heartwood | **major** | Logs of the Kuuigosu the Burning Tree and the Adam give 25% more Lumberjack XP | Woodcraft 1, Woodcraft 2, Fighting Lumberjack 1, Fighting Lumberjack 2 |
+| Clean cut 2 | small | 2% more chance that a log you fell gives two | Second Log, Sharp Teeth |
+| Kept edge | small | 8% chance that a log does not wear your tool | Second Log, Sharp Teeth |
+| Green hand 2 | small | Leaves you break drop saplings 10% more often | Green Thumb, Forester |
+| Planter | small | A sapling you plant gives 1 more Lumberjack XP | Green Thumb, Forester |
+| Woodcraft 2 | small | A log you fell gives 5% more Lumberjack XP | Heartwood, Good swing 3, Clean cut 3 |
+| Fighting Lumberjack 1 | small | Your Lumberjack abilities hit 5% harder | Heartwood, Timber |
+| Fighting Lumberjack 2 | small | Your Lumberjack abilities hit 5% harder | Heartwood, Whirling Axe |
+| ![](../icons/felling_saw.png){ .item-icon }Sharp Teeth | **major** | Your Felling Saw brings down 96 logs in one cut instead of 64 | Clean cut 2, Kept edge, Fighting Lumberjack 3 |
+| ![](../icons/adam_sapling.png){ .item-icon }Forester | **major** | 10% of the saplings you plant are not used up | Green hand 2, Planter, Fighting Lumberjack 4 |
+| Good swing 3 | small | Logs give 5% faster under your axe | Woodcraft 2, Woodsman's Luck |
+| Clean cut 3 | small | 2% more chance that a log you fell gives two | Woodcraft 2, Old Growth |
+| ![](../icons/woodsmans_axe.png){ .item-icon }Timber | **ability** | Needs an axe. A great blow from above on a foe. It fells him for 2 seconds. Gives the ability **Timber** | Fighting Lumberjack 1, Fighting Lumberjack 3 |
+| ![](../icons/woodsmans_axe.png){ .item-icon }Whirling Axe | **ability** | Needs an axe. Spin and hit every foe around you. They are thrown back. Gives the ability **Whirling Axe** | Fighting Lumberjack 2, Fighting Lumberjack 4 |
+| Fighting Lumberjack 3 | small | Your Lumberjack abilities hit 5% harder | Timber, Sharp Teeth |
+| Fighting Lumberjack 4 | small | Your Lumberjack abilities hit 5% harder | Whirling Axe, Forester |
+| ![](../icons/sweet_sap.png){ .item-icon }Woodsman's Luck | **major** | 5% of the logs you fell give a Sweet Sap | Good swing 3, Woodcraft 3 |
+| ![](../block-models/burning-tree-log.png){ .block-mini }Old Growth | **major** | Logs of a trunk taller than 12 give 50% more Lumberjack XP | Clean cut 3, Woodcraft 4 |
+| Woodcraft 3 | small | A log you fell gives 5% more Lumberjack XP | Woodsman's Luck, Axe Throw |
+| Woodcraft 4 | small | A log you fell gives 5% more Lumberjack XP | Old Growth, Axe Throw |
+| ![](../icons/woodsmans_axe.png){ .item-icon }Axe Throw | **ability** | Needs an axe. Throw it straight ahead. You keep your axe. Gives the ability **Axe Throw** | Woodcraft 3, Woodcraft 4, Fighting Lumberjack 5 |
+| Fighting Lumberjack 5 | small | Your Lumberjack abilities hit 5% harder | Axe Throw |
+
+The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
+
+### Combat abilities
+
+Taking an ability talent puts its ability in the **Profession** tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Lumberjack" talents make the Lumberjack's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.
+
+| Ability | What it does | Needs | Cooldown | Damage | Range |
+|---|---|---|---|---|---|
+| **Timber** | With an axe in hand bring it down on the enemy you look at. It hurts them a lot and fells them for 2 seconds. A player or a boss is felled half as long | an axe in hand | 12 s | 60 | 4 blocks |
+| **Whirling Axe** | With an axe in hand spin on yourself. Every enemy around you is hit and thrown back | an axe in hand | 10 s | 30 | 3.5 blocks |
+| **Axe Throw** | With an axe in hand throw it straight ahead. You keep your axe | an axe in hand | 8 s | 35 | — |
+
+### If you had the trade before 0.5.0
+
+The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
+
+| Level | Points first put on |
+|---|---|
+| 10 | Good swing 1, Strong Arm |
+| 25 | Clean cut 1, Second Log |
+| 40 | Green hand 1, Green Thumb |
 
 ## Advancements
 

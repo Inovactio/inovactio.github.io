@@ -74,8 +74,8 @@ In Crew mode, a player of another trade can still catch the level-1 creatures. T
 
 Two creatures have a rare look, and each comes as its own item:
 
-- ![](../icons/golden_hercules.png){ .item-icon }**Golden Hercules**: 1 Hercules Beetle in 20 is born golden; near a Hunter of level 25 or more, 1 in 10. It also carries more Sweet Sap (2 to 3 instead of 1 to 2).
-- **Invisible Swallowtail**: 1 Swallowtail Butterfly in 20; near a Hunter of level 25 or more, 1 in 10.
+- ![](../icons/golden_hercules.png){ .item-icon }**Golden Hercules**: 1 Hercules Beetle in 20 is born golden; near a Hunter with the Keen Eye talent, 1 in 10. It also carries more Sweet Sap (2 to 3 instead of 1 to 2).
+- **Invisible Swallowtail**: 1 Swallowtail Butterfly in 20; near a Hunter with the Keen Eye talent, 1 in 10.
 
 A rare variant pays **three times** its species' XP (34 for a Golden Hercules, where a Hercules Beetle pays 11). It shares the first-capture bonus with its normal form, and has its own page in the Bestiary.
 
@@ -105,7 +105,7 @@ There are two traps, both made by the [Inventor](inventor.md) at the Workshop:
 - The catch follows the same rules as the net: if your Hunter level is too low, "It got away from the trap."
 - Rare variants come out of traps too, at the same odds: a trapped Swallowtail can be an Invisible Swallowtail.
 
-**Single use.** A trap is spent once you collect its catch, unless something spares it: the Hunter's level-10 perk and a fitted Reinforced Frame each spare it half the time.
+**Single use.** A trap is spent once you collect its catch, unless something spares it: the Hunter's Careful Hands talent and a fitted Reinforced Frame each spare it half the time, the Careful catch small talents 8 % more each, and Master Trapper keeps 25 % of the traps that caught.
 
 **Moving a trap.** Break it to pick it up again. It comes back as the same item, with any parts still fitted.
 
@@ -287,13 +287,65 @@ What the Tannery's own items do:
 - ![](../icons/scent_lure.png){ .item-icon }**Scent Lure**: right-click to uncork it. It runs a minute's worth of creature spawning at once, but only brings creatures that would have come to that place anyway (same biome, time of day, height and nearby limits). In the wrong place it says "Nothing here answers it"; when it works, "Something moves nearby." You must wait 10 seconds before opening another.
 - ![](../icons/specimen_case.png){ .item-icon }**Specimen Case**: a glass trophy case. Right-click it with any caught creature and the creature stands inside, turning slowly. An empty hand takes it back out, and breaking the case drops it. The creature is kept, never used up.
 
-## Level perks
+## Talents
 
-| Level | Perk | What it does |
-|---|---|---|
-| 10 | "Nets and traps wear half as fast" | each net use has a 50 % chance to cost no durability, and half of all single-use traps survive their catch |
-| 25 | "Rare variants twice as common around you" | the Golden Hercules and the Invisible Swallowtail come 1 in 10 instead of 1 in 20 near you |
-| 40 | "20% chance a catch's drops come twice" | 20 % of the time, a caught creature's drops come twice (never the creature itself) |
+Every 5 Hunter levels give you a **talent point** (10 at level 50, 20 at level 100). Spend them in the Hunter's web of talents, opened by the **Talents** button on the trade's page of the trades book or with the **Talents** key (**J** by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a [Potion of Second Thoughts](chemist.md#the-potion-of-second-thoughts) gives them back. See [Talents](../trades-and-levels.md#talents).
+
+| Talent | Kind | What it gives | Linked to |
+|---|---|---|---|
+| Careful catch 1 | small, start | 8% more chance that a net or a trap is not worn by a catch | Careful Hands |
+| Fighting Hunter 1 | small, start | Your Hunter abilities hit 5% harder | Net Throw |
+| Sharp eye 1 | small, start | Rare variants are 10% more common around you | Keen Eye |
+| Heavy net 1 | small, start | 3% more chance that a catch's drops come twice | Full Bag |
+| Fighting Hunter 2 | small, start | Your Hunter abilities hit 5% harder | Hunter's Mark |
+| Soft step 1 | small, start | Creatures notice you half a block later | Light Step |
+| ![](../icons/bug_catcher_net.png){ .item-icon }Careful Hands | **major** | Your nets and traps wear half as fast | Careful catch 1, Long handle, Net Throw, Light Step |
+| ![](../icons/enhanced_bug_catcher_net.png){ .item-icon }Net Throw | **ability** | Needs a bug net. Throw a net at a foe. It wraps him 3 seconds and slows those by him. Gives the ability **Net Throw** | Careful Hands, Fighting Hunter 1, Tight knots, Keen Eye |
+| ![](../icons/golden_hercules.png){ .item-icon }Keen Eye | **major** | Rare variants are twice as common around you | Net Throw, Sharp eye 1, New page, Full Bag |
+| ![](../icons/mystery_egg.png){ .item-icon }Full Bag | **major** | 20% chance that a catch's drops come twice | Keen Eye, Heavy net 1, Beast slayer 1, Hunter's Mark |
+| ![](../icons/scent_lure.png){ .item-icon }Hunter's Mark | **ability** | Mark a foe for 20 seconds. You see him through walls and your blows do 15% more to him. Gives the ability **Hunter's Mark** | Full Bag, Fighting Hunter 2, Long trail, Light Step |
+| ![](../icons/swallowtail_butterfly.png){ .item-icon }Light Step | **major** | Creatures notice you 2 blocks later | Hunter's Mark, Soft step 1, Good hand 1, Careful Hands |
+| Long handle | small | Your net reaches half a block further | Careful Hands, Master Trapper |
+| Tight knots | small | Your net and your trap hold 10% longer | Net Throw, Snap Trap |
+| New page | small | The first catch of a kind gives 10% more Hunter XP | Keen Eye, Collector |
+| Beast slayer 1 | small | You hit big game 5% harder | Full Bag, Big Game Hunter |
+| Long trail | small | Your mark lasts 10% longer | Hunter's Mark, Hornet Swarm |
+| Good hand 1 | small | A catch gives 5% more Hunter XP | Light Step, Still Air |
+| ![](../icons/enhanced_traps.png){ .item-icon }Master Trapper | **major** | 25% of your traps that catch are not used up | Long handle, Good hand 2, Careful catch 2 |
+| ![](../icons/traps.png){ .item-icon }Snap Trap | **ability** | Lay a trap for 30 seconds. The first foe on it is hurt and held 4 seconds. Gives the ability **Snap Trap** | Good hand 2, Tight knots, Sharp eye 2 |
+| ![](../icons/golden_egg.png){ .item-icon }Collector | **major** | A rare variant pays 5 times its XP instead of 3 | Sharp eye 2, New page, Heavy net 2 |
+| ![](../icons/thunder_spider.png){ .item-icon }Big Game Hunter | **major** | A beast you hunt gives 50% more Hunter XP | Heavy net 2, Beast slayer 1, Beast slayer 2 |
+| ![](../icons/doctor_hornet.png){ .item-icon }Hornet Swarm | **ability** | Send a swarm at a foe. It stings him 6 seconds and poisons those by him. Gives the ability **Hornet Swarm** | Beast slayer 2, Long trail, Soft step 2 |
+| ![](../icons/invisible_swallowtail.png){ .item-icon }Still Air | **major** | A creature that takes off waits 1 second more before it leaves | Soft step 2, Good hand 1, Careful catch 2 |
+| Good hand 2 | small | A catch gives 5% more Hunter XP | Master Trapper, Snap Trap |
+| Careful catch 2 | small | 8% more chance that a net or a trap is not worn by a catch | Still Air, Master Trapper |
+| Sharp eye 2 | small | Rare variants are 10% more common around you | Snap Trap, Collector |
+| Heavy net 2 | small | 3% more chance that a catch's drops come twice | Collector, Big Game Hunter |
+| Beast slayer 2 | small | You hit big game 5% harder | Big Game Hunter, Hornet Swarm |
+| Soft step 2 | small | Creatures notice you half a block later | Hornet Swarm, Still Air |
+
+The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
+
+### Combat abilities
+
+Taking an ability talent puts its ability in the **Profession** tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Hunter" talents make the Hunter's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.
+
+| Ability | What it does | Needs | Cooldown | Damage | Range |
+|---|---|---|---|---|---|
+| **Net Throw** | With a bug net in hand throw a net at an enemy. It wraps them for 3 seconds and slows the enemies by them. A player or a boss is held half as long | a bug net in hand | 14 s | 10 | 14 blocks |
+| **Hunter's Mark** | Mark the enemy you look at for 20 seconds. You see them through walls and your blows do 15 percent more to them | — | 30 s | — | 24 blocks |
+| **Snap Trap** | Lay a trap at your feet for 30 seconds. The first enemy to step on it is hurt and held for 4 seconds | — | 20 s | 30 | — |
+| **Hornet Swarm** | Send a swarm of hornets at the enemy you look at. It stings them for 6 seconds and poisons the enemies by them | — | 25 s | 45 | 16 blocks |
+
+### If you had the trade before 0.5.0
+
+The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
+
+| Level | Points first put on |
+|---|---|
+| 10 | Careful catch 1, Careful Hands |
+| 25 | Sharp eye 1, Keen Eye |
+| 40 | Heavy net 1, Full Bag |
 
 ## Advancements
 

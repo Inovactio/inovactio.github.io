@@ -144,14 +144,65 @@ These are all the Sewing Table's recipes:
 | Mihawk's Hat | 48 | 106 | 4 × Black Wool, 2 × Feather, any wings, Gold Ingot, ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment |
 | Fleet Admiral's Hat | 50 | 110 | 4 × White Wool, ![](../icons/seagull.png){ .item-icon }Seagull, 2 × Gold Ingot, Diamond, Blue Wool |
 
-## Level perks
+## Talents
 
-| Level | Perk | What it does |
-|---|---|---|
-| 10 | "Double stitch: 10% of your work comes off the table twice" | 10 % chance a piece comes out twice: "A second piece off the table: …" |
-| 25 | "Sturdy seams: what you sew comes with Unbreaking I" | for items that have durability and no Unbreaking yet |
-| 30 | "Master's cut: what you sew is a master's work, signed: +1 Armor, +0.5 Armor Toughness" | applies to armour pieces, when worn; they read "Master's work: +1 Armor, +0.5 Armor Toughness" and "Sewn by" your name |
-| 40 | "Offcuts: a quarter of your work gives an ingredient back" | 25 % chance one ingredient (never a tool) comes back: "Saved from the offcuts: …" |
+Every 5 Tailor levels give you a **talent point** (10 at level 50, 20 at level 100). Spend them in the Tailor's web of talents, opened by the **Talents** button on the trade's page of the trades book or with the **Talents** key (**J** by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a [Potion of Second Thoughts](chemist.md#the-potion-of-second-thoughts) gives them back. See [Talents](../trades-and-levels.md#talents).
+
+| Talent | Kind | What it gives | Linked to |
+|---|---|---|---|
+| Quick needle 1 | small, start | 2% more of your work comes off the table twice | Quick needle 2, Quick needle 3, Double Stitch |
+| Quick needle 2 | small | 2% more of your work comes off the table twice | Bolt of Cloth, Quick needle 1 |
+| Quick needle 3 | small | 2% more of your work comes off the table twice | Quick needle 1, Saved scraps 1, Apprentice 1 |
+| ![](../icons/scrap_of_cloak.png){ .item-icon }Double Stitch | **major** | 10% of your work comes off the table twice | Quick needle 1, Quick needle 4 |
+| ![](../icons/boat_sail.png){ .item-icon }Bolt of Cloth | **major** | 20% chance that a working of your own materials gives twice as many | Quick needle 2, Apprentice 2 |
+| Saved scraps 1 | small | 2% more of your work gives an ingredient back | Quick needle 3, Saved scraps 2, Wide cloth 1 |
+| Apprentice 1 | small | You earn 5% more Tailor XP | Saved scraps 3, Quick needle 3 |
+| Quick needle 4 | small | 2% more of your work comes off the table twice | Double Stitch, Sturdy Seams, Saved scraps 3 |
+| Apprentice 2 | small | You earn 5% more Tailor XP | Bolt of Cloth, Fine Seams |
+| Saved scraps 2 | small | 2% more of your work gives an ingredient back | Saved scraps 1, Tailor's Notes |
+| Wide cloth 1 | small | 3% more chance that a working of your own materials gives twice as many | Saved scraps 1, Fighting Tailor 1 |
+| Saved scraps 3 | small | 2% more of your work gives an ingredient back | Quick needle 4, Apprentice 1 |
+| ![](../icons/reinforced_frame.png){ .item-icon }Sturdy Seams | **major** | What you sew comes with Unbreaking I | Quick needle 4, Apprentice 3, Saved scraps 4, Wide cloth 2, Wide cloth 3 |
+| ![](../icons/fine_sail.png){ .item-icon }Fine Seams | **major** | What you sew comes with Unbreaking II | Apprentice 2, Master's Cut |
+| ![](../icons/sea_chart.png){ .item-icon }Tailor's Notes | **major** | You earn 15% more Tailor XP | Saved scraps 2, Offcuts |
+| Fighting Tailor 1 | small | Your Tailor abilities hit 5% harder | Wide cloth 1, Patch Up |
+| Apprentice 3 | small | You earn 5% more Tailor XP | Master's Cut, Sturdy Seams |
+| Saved scraps 4 | small | 2% more of your work gives an ingredient back | Sturdy Seams, Offcuts |
+| Wide cloth 2 | small | 3% more chance that a working of your own materials gives twice as many | Sturdy Seams, Royal Cut |
+| Wide cloth 3 | small | 3% more chance that a working of your own materials gives twice as many | Sturdy Seams, Royal Cut |
+| ![](../icons/masters_sail.png){ .item-icon }Master's Cut | **major** | A garment you sew is a master's work. It is signed and adds 1 Armor and half an Armor Toughness | Fine Seams, Apprentice 3, Fighting Tailor 2 |
+| ![](../icons/mask_fragment.png){ .item-icon }Offcuts | **major** | 25% of your work gives an ingredient back | Tailor's Notes, Saved scraps 4, Fighting Tailor 3 |
+| Patch Up | **ability** | Each piece of armour you wear gets 15% of its wear back. Gives the ability **Patch Up** | Fighting Tailor 1 |
+| Royal Cut | **major** | A master's work of yours adds 1 more Armor and half an Armor Toughness more. Needs Master's Cut | Wide cloth 2, Wide cloth 3 |
+| Fighting Tailor 2 | small | Your Tailor abilities hit 5% harder | Master's Cut, Fighting Tailor 4 |
+| Fighting Tailor 3 | small | Your Tailor abilities hit 5% harder | Offcuts, Fighting Tailor 5 |
+| Fighting Tailor 4 | small | Your Tailor abilities hit 5% harder | Fighting Tailor 2, Thread Bind |
+| Fighting Tailor 5 | small | Your Tailor abilities hit 5% harder | Fighting Tailor 3, Needle Rain |
+| Thread Bind | **ability** | A thread that hurts and holds the foe you look at. Gives the ability **Thread Bind** | Fighting Tailor 4 |
+| Needle Rain | **ability** | A fan of needles that hits the foes in front of you. Gives the ability **Needle Rain** | Fighting Tailor 5 |
+
+The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
+
+### Combat abilities
+
+Taking an ability talent puts its ability in the **Profession** tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Tailor" talents make the Tailor's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.
+
+| Ability | What it does | Needs | Cooldown | Damage | Range |
+|---|---|---|---|---|---|
+| **Patch Up** | Mend what you wear on the spot. Each piece of armour on you gets 15% of its wear back | — | 30 s | — | — |
+| **Thread Bind** | Throw a thread round the enemy you look at within 10 blocks. He is hurt and held for 2 seconds. A player or a boss half as long | — | 12 s | 20 | 10 blocks |
+| **Needle Rain** | Throw a fan of needles before you. Every enemy in front of you within 6 blocks is hit | — | 9 s | 25 | 6 blocks |
+
+### If you had the trade before 0.5.0
+
+The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
+
+| Level | Points first put on |
+|---|---|
+| 10 | Quick needle 1, Double Stitch |
+| 25 | Quick needle 4, Sturdy Seams |
+| 30 | Apprentice 3, Master's Cut |
+| 40 | Saved scraps 4, Offcuts |
 
 ## Advancements
 

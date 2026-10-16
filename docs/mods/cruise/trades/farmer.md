@@ -31,7 +31,7 @@ There are seven fruit trees. Each has its own wood, leaves and sapling, and its 
 
 ### Saplings
 
-**Getting them.** Break the leaves of a fruit tree. As with an oak, each leaf block has an 8 % chance to drop a sapling, up to 15 % with Fortune. Shears or Silk Touch take the leaves themselves instead. A [Lumberjack](lumberjack.md) of level 40 gets saplings from leaves twice as often.
+**Getting them.** Break the leaves of a fruit tree. As with an oak, each leaf block has an 8 % chance to drop a sapling, up to 15 % with Fortune. Shears or Silk Touch take the leaves themselves instead. A [Lumberjack](lumberjack.md) with the Green Thumb talent gets saplings from leaves twice as often.
 
 **Planting them.** A **Farmer or a Lumberjack** can plant a fruit sapling, at the level in the table. Anyone else is told "Only a Farmer or a Lumberjack can plant this." Saplings grow on dirt like vanilla ones, and bone meal works on them. Two of them take other ground too:
 
@@ -44,7 +44,7 @@ There are seven fruit trees. Each has its own wood, leaves and sapling, and its 
 
 A fruit goes through three stages before it is ripe, and is back about ten minutes after being picked. Bone meal hurries it along one stage per use. **Right-click** a ripe fruit to pick it; an unripe one says "Not ripe yet." Picking puts a new bud in its place, so a tree keeps giving.
 
-- A **Farmer** always picks cleanly and earns Farmer XP. Sometimes a Farmer picks **two** fruits, and earns the XP for both: see [Level perks](#level-perks).
+- A **Farmer** always picks cleanly and earns Farmer XP. Sometimes a Farmer picks **two** fruits, and earns the XP for both: see [The bonus harvest](#the-bonus-harvest).
 - **Anyone else** bruises the fruit half the time: nothing drops and the bud starts again, with "The fruit bruised in your hands: only a Farmer picks it cleanly."
 - In Solo mode everyone is a Farmer.
 
@@ -104,14 +104,14 @@ They have no wild plant, and they grow **half as fast** as the other crops. You 
 
 Crops grow like wheat and take bone meal. When you break a **ripe** crop:
 
-- a **Farmer** reaps it cleanly and earns XP, and sometimes gets one extra produce (see [Level perks](#level-perks));
+- a **Farmer** reaps it cleanly and earns XP, and sometimes gets one extra produce (see [The bonus harvest](#the-bonus-harvest));
 - **anyone else** spoils the harvest half the time and gets only one produce back to replant: "The harvest spoiled in your hands: only a Farmer reaps it cleanly."
 
 An unripe crop, or one broken by water or a piston, just drops its normal loot.
 
 ## Harvests of quality
 
-From **Farmer 30**, a ripe harvest comes out **Fine** one time in four. From **Farmer 40**, it comes out **Superb** one time in ten, and still Fine one time in four. This goes for crops and fruit alike, and everything that harvest gives of its plant carries the quality: the bonus harvest and the second fruit too.
+With the **Fine Harvest** talent, a ripe harvest comes out **Fine** one time in four, and each of its two small talents adds 2 %. With **Superb Harvest**, it comes out **Superb** one time in ten. Without them, everything you reap is plain (see [Talents](#talents)). This goes for crops and fruit alike, and everything that harvest gives of its plant carries the quality: the bonus harvest and the second fruit too.
 
 | Quality | Farmer XP | Price at the Materials Trader | In a dish |
 |---|---|---|---|
@@ -148,15 +148,68 @@ Three plants came later in 0.4.0: Cactus Pulp (level 22, it was 12), the Lotus S
 
 The [Lumberjack](lumberjack.md)'s own three trees (the Kuuigosu at Lumberjack 15, the Burning Tree at 25 and the Adam at 50) are covered on the Lumberjack's page; a Farmer can't plant those.
 
-## Level perks
+## The bonus harvest
 
-| Level | Perk | What it does |
-|---|---|---|
-| 1 | "Bonus harvest" | a chance to pick a second fruit, or to reap one more produce from a ripe crop: 20 % at level 1, +1 % per level, up to 75 %. The Farmer's page shows your current chance |
-| 10 | "Rare harvests half again as common" | the Cactus Flower and the Golden Matsutake come half again as often from the crops you reap |
-| 30 | "A harvest in four comes out Fine: more XP, a better price, better dishes" | see [Harvests of quality](#harvests-of-quality) |
-| 40 | "Rare harvests twice as common" | the Cactus Flower and the Golden Matsutake come twice as often (replaces the level-10 perk) |
-| 40 | "A harvest in ten comes out Superb" | see [Harvests of quality](#harvests-of-quality) |
+This one is no talent: it grows with your level. A Farmer has a chance to pick a second fruit, or to reap one more produce from a ripe crop: **20 % at level 1, +1 % per level, up to 75 %**. The Farmer's page in the trades book shows your current chance. The Full Basket talent and its small talents add their own chance of one more on top.
+
+## Talents
+
+Every 5 Farmer levels give you a **talent point** (10 at level 50, 20 at level 100). Spend them in the Farmer's web of talents, opened by the **Talents** button on the trade's page of the trades book or with the **Talents** key (**J** by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a [Potion of Second Thoughts](chemist.md#the-potion-of-second-thoughts) gives them back. See [Talents](../trades-and-levels.md#talents).
+
+| Talent | Kind | What it gives | Linked to |
+|---|---|---|---|
+| Good soil 1 | small, start | The rare harvest of a crop gets a second chance worth 5% of its own | Rare Harvest |
+| ![](../icons/mystery_mushroom.png){ .item-icon }Rare Harvest | **major** | The rare harvest of a crop gets a second chance worth 50% of its own | Good soil 1, Good soil 2, Careful hand 1 |
+| Good soil 2 | small | The rare harvest of a crop gets a second chance worth 5% of its own | Rare Harvest, Rich Soil |
+| Careful hand 1 | small | 2% more chance that a ripe harvest comes out Fine | Field sense 1, Fine Harvest, Rare Harvest |
+| ![](../icons/golden_matsutake.png){ .item-icon }Rich Soil | **major** | The second chance of a rare harvest is worth 50% more of its own | Good soil 2, Field sense 2 |
+| Field sense 1 | small | A harvest gives 5% more Farmer XP | Careful hand 1, Fighting Farmer 1 |
+| ![](../icons/ancient_rice.png){ .item-icon }Fine Harvest | **major** | 25% chance that a ripe harvest comes out Fine. A Fine harvest gives more XP and sells dearer and makes better dishes | Careful hand 1, Careful hand 2 |
+| Field sense 2 | small | A harvest gives 5% more Farmer XP | Rich Soil, Heavy ears 1 |
+| Fighting Farmer 1 | small | Your Farmer abilities hit 5% harder | Reap, Field sense 1 |
+| Careful hand 2 | small | 2% more chance that a ripe harvest comes out Fine | Fine Harvest, Superb Harvest, Heavy ears 2 |
+| Heavy ears 1 | small | 2% chance of one more of what you harvest | Field sense 2, Heavy ears 3 |
+| Reap | **ability** | Needs a hoe. A wide sweep that hits every foe in front of you. Gives the ability **Reap** | Fighting Farmer 1, Full Basket |
+| ![](../icons/golden_fruit.png){ .item-icon }Superb Harvest | **major** | 10% chance that a ripe harvest comes out Superb | Careful hand 2, Heavy ears 3 |
+| Heavy ears 2 | small | 2% chance of one more of what you harvest | Full Basket, Thorn Patch, Careful hand 2 |
+| Heavy ears 3 | small | 2% chance of one more of what you harvest | Superb Harvest, Heavy ears 1 |
+| ![](../icons/red_fruit.png){ .item-icon }Full Basket | **major** | 10% chance of one more of what you harvest | Reap, Heavy ears 2, Fighting Farmer 2 |
+| Thorn Patch | **ability** | Needs a hoe. Thorns hurt and hold for 2 seconds the foe you look at and those round him. Gives the ability **Thorn Patch** | Heavy ears 2, Fighting Farmer 3 |
+| Fighting Farmer 2 | small | Your Farmer abilities hit 5% harder | Second Sowing, Field sense 3, Full Basket |
+| Fighting Farmer 3 | small | Your Farmer abilities hit 5% harder | Thorn Patch, Field sense 4 |
+| ![](../icons/lotus_seed.png){ .item-icon }Second Sowing | **major** | 15% of the crops you reap ripe are sown again at once | Good soil 3, Fighting Farmer 2 |
+| Field sense 3 | small | A harvest gives 5% more Farmer XP | Fighting Farmer 2, Old Hands |
+| Field sense 4 | small | A harvest gives 5% more Farmer XP | Old Hands, Fighting Farmer 3 |
+| Good soil 3 | small | The rare harvest of a crop gets a second chance worth 5% of its own | Second Sowing, Fighting Farmer 4 |
+| ![](../icons/bitter_grass.png){ .item-icon }Old Hands | **major** | A plant far under your level never pays less than 50% of its XP | Field sense 3, Field sense 4, Heavy ears 4 |
+| Fighting Farmer 4 | small | Your Farmer abilities hit 5% harder | Hay Maker, Good soil 3 |
+| Heavy ears 4 | small | 2% chance of one more of what you harvest | Orchard Keeper, Field sense 5, Old Hands |
+| Hay Maker | **ability** | Needs a hoe. A blow from below that throws a foe up in the air. Gives the ability **Hay Maker** | Fighting Farmer 4, Fighting Farmer 5 |
+| ![](../icons/coconut.png){ .item-icon }Orchard Keeper | **major** | 20% of the fruits you pick leave one half grown behind | Fighting Farmer 5, Heavy ears 4 |
+| Field sense 5 | small | A harvest gives 5% more Farmer XP | Heavy ears 4 |
+| Fighting Farmer 5 | small | Your Farmer abilities hit 5% harder | Hay Maker, Orchard Keeper |
+
+The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
+
+### Combat abilities
+
+Taking an ability talent puts its ability in the **Profession** tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Farmer" talents make the Farmer's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.
+
+| Ability | What it does | Needs | Cooldown | Damage | Range |
+|---|---|---|---|---|---|
+| **Reap** | With a hoe in hand sweep wide before you. Every enemy in front of you within 4 blocks is hit | a hoe in hand | 9 s | 35 | 4 blocks |
+| **Thorn Patch** | With a hoe in hand make thorns grow under the enemy you look at. He and every enemy within 3 blocks of him are hurt and held for 2 seconds. A player or a boss is held half as long | a hoe in hand | 12 s | 25 | 3 blocks |
+| **Hay Maker** | With a hoe in hand strike the enemy you look at from below. It hurts them a lot and throws them up in the air | a hoe in hand | 10 s | 50 | 4 blocks |
+
+### If you had the trade before 0.5.0
+
+The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
+
+| Level | Points first put on |
+|---|---|
+| 10 | Good soil 1, Rare Harvest |
+| 30 | Careful hand 1, Fine Harvest |
+| 40 | Good soil 2, Rich Soil, Careful hand 2, Superb Harvest |
 
 ## Advancements
 

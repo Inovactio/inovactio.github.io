@@ -136,13 +136,64 @@ You earn XP two ways:
 - **Playing**: each performance pays **10 + the score's level + 10 for each crewmate who heard it** (up to 8 crewmates).
 - **On the stage of a [concert](../village-events.md#a-concert-on-the-square)**: the tune is for every player within reach, the villagers who came to listen count as listeners (up to 16), and the performance pays **twice** that.
 
-## Level perks
+## Talents
 
-| Level | Perk | What it does |
-|---|---|---|
-| 10 | "Encore: a score is not always used up when you play it" | 20 % of the time, the score is **not used up** |
-| 25 | "Resonance: your tunes carry half as far again" | your tunes **reach 1.5× as far** (Flute 12, Violin 18, Guitar 24 blocks) |
-| 40 | "Long notes: your tunes last half as long again" | your tunes **last 1.5× as long** (Flute 30 minutes, Violin 37:30, Guitar 45 minutes) |
+Every 5 Musician levels give you a **talent point** (10 at level 50, 20 at level 100). Spend them in the Musician's web of talents, opened by the **Talents** button on the trade's page of the trades book or with the **Talents** key (**J** by default). Each talent costs one point. You can take a talent that starts the web, or one linked to a talent you already have. Small talents of one kind add up. A point stays spent until a [Potion of Second Thoughts](chemist.md#the-potion-of-second-thoughts) gives them back. See [Talents](../trades-and-levels.md#talents).
+
+| Talent | Kind | What it gives | Linked to |
+|---|---|---|---|
+| Steady hand 1 | small, start | 2% more of the scores you play are not used up | Steady hand 2, Encore |
+| Steady hand 2 | small | 2% more of the scores you play are not used up | Steady hand 1, Clear voice 1, Fighting Musician 1 |
+| ![](../icons/score_recipe.png){ .item-icon }Encore | **major** | 20% of the scores you play are not used up | Steady hand 1, Clear voice 1, Clear voice 2 |
+| Clear voice 1 | small | Your tunes carry 5% further | Steady hand 2, Encore |
+| Fighting Musician 1 | small | Your Musician abilities hit 5% harder | Steady hand 2, Fighting Musician 2 |
+| Clear voice 2 | small | Your tunes carry 5% further | Encore, Resonance |
+| Fighting Musician 2 | small | Your Musician abilities hit 5% harder | Fighting Musician 1, Sour Note |
+| ![](../icons/guitar.png){ .item-icon }Resonance | **major** | Your tunes carry 50% further | Clear voice 2, Long breath 1 |
+| Sour Note | **ability** | A wave of sound that hurts and throws back the foes in front of you. Gives the ability **Sour Note** | Fighting Musician 2 |
+| Long breath 1 | small | Your tunes last 5% longer | Resonance, Long Notes, Long breath 2 |
+| ![](../icons/bamboo_flute.png){ .item-icon }Long Notes | **major** | Your tunes last 50% longer | Long breath 1, Apprentice 1, Fighting Musician 3 |
+| Long breath 2 | small | Your tunes last 5% longer | Long breath 1, Quick Fingers |
+| Apprentice 1 | small | You earn 5% more Musician XP | Long Notes, Musician's Notes |
+| Fighting Musician 3 | small | Your Musician abilities hit 5% harder | Long Notes, Reprise |
+| ![](../icons/violin.png){ .item-icon }Quick Fingers | **major** | You play a tune in 2 seconds and not 3 | Long breath 2, Long breath 3 |
+| ![](../icons/sea_chart.png){ .item-icon }Musician's Notes | **major** | You earn 15% more Musician XP | Apprentice 1, Apprentice 2 |
+| Reprise | **ability** | The tune on you starts again for you and your crew with no score. Gives the ability **Reprise** | Fighting Musician 3 |
+| Long breath 3 | small | Your tunes last 5% longer | Quick Fingers, Apprentice 3 |
+| Apprentice 2 | small | You earn 5% more Musician XP | Musician's Notes, Crowd Pleaser |
+| Apprentice 3 | small | You earn 5% more Musician XP | Long breath 3, Crowd Pleaser, Light Touch |
+| ![](../icons/tone_dial.png){ .item-icon }Crowd Pleaser | **major** | Each listener pays you twice the XP | Apprentice 2, Apprentice 3, Fighting Musician 4 |
+| ![](../icons/masters_guitar.png){ .item-icon }Light Touch | **major** | 50% of the tunes you play do not wear your instrument | Apprentice 3, Steady hand 3 |
+| Fighting Musician 4 | small | Your Musician abilities hit 5% harder | Crowd Pleaser, Fighting Musician 5 |
+| Steady hand 3 | small | 2% more of the scores you play are not used up | Light Touch, Fair Copy |
+| Fighting Musician 5 | small | Your Musician abilities hit 5% harder | Fighting Musician 4, Dissonance |
+| Fair Copy | **major** | 20% of the scores you write come out twice | Steady hand 3, Apprentice 4, Clear voice 3 |
+| Dissonance | **ability** | A chord that hurts and weakens every foe around you. Gives the ability **Dissonance** | Fighting Musician 5 |
+| Apprentice 4 | small | You earn 5% more Musician XP | Fair Copy, Steady hand 4 |
+| Clear voice 3 | small | Your tunes carry 5% further | Fair Copy, Steady hand 4 |
+| Steady hand 4 | small | 2% more of the scores you play are not used up | Apprentice 4, Clear voice 3 |
+
+The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
+
+### Combat abilities
+
+Taking an ability talent puts its ability in the **Profession** tab of the abilities screen, and you place it on your bar yourself. It costs nothing from your bag. Its small "Fighting Musician" talents make the Musician's abilities hit harder. Damage is on the base mod's scale, as in the ability screen.
+
+| Ability | What it does | Needs | Cooldown | Damage | Range |
+|---|---|---|---|---|---|
+| **Sour Note** | Play a note so wrong it hurts. Every enemy in front of you within 7 blocks is hit and thrown back | an instrument | 9 s | 25 | 7 blocks |
+| **Reprise** | The tune that is on you starts again at its full length for you and your crew in reach of your instrument. No score is used | an instrument | 60 s | — | — |
+| **Dissonance** | Play a chord that grates. Every enemy within 5 blocks is hurt and weakened for 5 seconds. A player or a boss half as long | an instrument | 14 s | 20 | 5 blocks |
+
+### If you had the trade before 0.5.0
+
+The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
+
+| Level | Points first put on |
+|---|---|
+| 10 | Steady hand 1, Encore |
+| 25 | Clear voice 2, Resonance |
+| 40 | Long breath 1, Long Notes |
 
 ## The recipes
 

@@ -69,6 +69,14 @@ All prices on this page are in Belly.
 
 <div class="model-viewer" data-models="../models/" data-ids="fishmonger hunting-merchant travelling-cook prospector materials-trader"></div>
 
+## The Antiquarian
+
+A sixth merchant is found nowhere but in the [noble quarter](towns.md#the-noble-quarter) of a town: the **Antiquarian**, an elderly scholar with a book in hand. He stays for good in the manor's library, behind its reading table.
+
+- **He buys only fine pieces**: Fine and Superb **dishes** and **harvests** (the Farmer's crops and fruit), at **one and a half times** what the trades' own merchants pay for them, their quality counted. He turns away anything Normal. His purse holds at least 40 000 Belly.
+- **He sells rarities**: each day **3 or 4** of these 11, one of each: Aurora Sunfish, Sea King Head Crest, Rainbow Phoenix, Golden Hercules, Star Fragment, Golden Fruit, Golden Matsutake, Golden Egg, Master's Violin, Eternal Pose and Tone Dial. Each costs **three times** the best price a merchant pays for it, and **never less than 20 000 Belly**.
+- He posts no contracts and brings no treasure maps.
+
 ## When and where they come
 
 - Every 5 minutes (by default), each of the five merchants gets **one try**. For each, a random player in the Overworld is picked.
@@ -105,7 +113,7 @@ Items are priced one by one: the deal stops at the first one that his purse, or 
 
 Every item of one kind you sell lowers the price of the next one of that kind: after 16 sold it fetches **half**, after 48 a **quarter**. This is counted **on you**, not on the merchant, so neither finding another merchant nor dying resets it. It fades by half every in-game day.
 
-A Merchant of level 10 fills the market half as fast (32 sold before the price halves), and a Merchant's price bonus (+0.5 % per level, up to +25 % at level 50) applies on top.
+A Merchant with the **Trade Network** talent fills the market half as fast (32 sold before the price halves; 48 with Wide Network too, more with the Contacts talents), and a Merchant's price bonus (+0.5 % per level, up to +25 % at level 50) applies on top.
 
 ## The stall
 
@@ -120,7 +128,7 @@ Something bought from a stall is a plain item: a fish has no size (it sells back
 
 Every merchant may also bring **torn treasure maps**: a Torn Rumor Map 35 % of the time (600), a Torn Old Map 12 % (3 000), a Torn Legendary Map 3 % (15 000). See [Treasure hunts](treasure-hunts.md).
 
-A Merchant of level 25 pays 15 % less for everything they buy from a Cruise merchant (the Buy screen still shows the full price, but they are charged less). A village under your group's flag gives **10 % off at its stalls** (see [Village flags](village-flags.md)). Discounts are never added together: you get the best one alone.
+A Merchant with the **Bargain** talent pays 15 % less for everything they buy from a Cruise merchant (the Buy screen still shows the full price, but they are charged less). A village under your group's flag gives **10 % off at its stalls** (see [Village flags](village-flags.md)). Discounts are never added together: you get the best one alone.
 
 ## What they pay
 
@@ -275,7 +283,7 @@ Every merchant arrives with **three contracts** (**five** in a town's market hal
 - Each contract asks for a number of one good ("3 x Fire Hercules"). The rarer the good, the less often it is ordered and the fewer are asked for (up to 8 of a common good). A merchant's contracts are all for different goods.
 - **Reward**: 1.5 to 1.8 times what he would pay for the goods, paid **in full** and **not out of his purse**, with no drop for a filling market. A Merchant's price bonus raises it (up to +25 %).
 - **Treasure maps**: a public contract adds a **Torn Rumor Map** to its reward 20 % of the time ("Pays … Belly + a map").
-- **The last contract is kept for Merchants** of level 10 and up (the third; the fifth in a market hall). It always pays the top premium (×1.8), and adds a **Torn Old Map** 50 % of the time. Other players see "One more, kept for Merchants (level 10)".
+- **The last contract is kept for Merchants** with the **Trade Network** talent (the third; the fifth in a market hall). It always pays the top premium (×1.8), and adds a **Torn Old Map** 50 % of the time. Other players see "One more, kept for Merchants with Trade Network".
 
 ### Delivering
 
