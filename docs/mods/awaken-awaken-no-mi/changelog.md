@@ -2,6 +2,33 @@
 
 Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/all). The Minecraft 1.16.5 releases (0.2.1 to 0.7.2) are listed there too.
 
+## 2.3.1 { #v2-3-1 }
+
+<small>Released 2026-10-16 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9205286)</small>
+
+<div class="changelog-body" markdown="0">
+<blockquote>
+<h4>⚠️ AkumaLib update required: 4.8.0</h4>
+<p>This version needs <strong><a href="https://www.curseforge.com/minecraft/mc-mods/akumalib">AkumaLib</a> 4.8.0</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. With an older one the game will stop on Forge's missing-dependency screen.</p>
+<p>Just replace the AkumaLib jar in your <code>mods</code> folder with the new one. On a server every player needs it too.</p>
+</blockquote>
+<p><strong>Haki shows in Gear Fifth.</strong></p>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>Armament Haki in Gear Fifth.</strong> Full-body Haki did not show at all, and the Haki of a punching arm stayed beside the body while the arm moved. Both now show over the white skin, as they do without the form</li>
+<li>With AkumaLib 4.8.0 the character creator no longer crashes when you scroll the races</li>
+</ul>
+<hr />
+<h3>Requirements</h3>
+<ul>
+<li>Minecraft <strong>1.20.1</strong></li>
+<li>Forge <strong>47.4.18+</strong></li>
+<li><strong>Mine Mine no Mi</strong> <code>1.20.1-0.11.6</code></li>
+<li><strong>AkumaLib</strong> <code>4.8.0+</code></li>
+</ul>
+</div>
+
 ## 2.3.0 { #v2-3-0 }
 
 <small>Released 2026-10-15 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9193485)</small>
