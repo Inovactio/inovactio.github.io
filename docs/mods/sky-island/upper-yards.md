@@ -42,8 +42,8 @@ A whole city gives about one box, and a golden one in about one city of six. The
 ### The golden Shandora
 
 <figure class="place" markdown>
-[![The square of the golden Shandora: pillars of gilded stone, whole](places/golden-shandora.webp)](places/golden-shandora.webp){ target="_blank" title="Open the picture full size" }
-<figcaption>The golden Shandora's square: its gilded pillars, whole.</figcaption>
+[![The golden Shandora from above the jungle: its square, its avenue, its houses and its gate, whole and gilded](places/golden-shandora.webp)](places/golden-shandora.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>The golden Shandora, whole: the square, the avenue and its houses.</figcaption>
 </figure>
 
 **One Shandora in twenty stands whole, all in gold**, as it was before it was lost: the same city, but every hall, tower and avenue standing, gilded, with no moss, no crack and no tree inside. It is guarded by more Shandias than the ruins, the square most of all.
@@ -154,8 +154,8 @@ Four challenges of Mine Mine no Mi's **challenges menu**, under a category of th
 </figure>
 
 <figure class="place" markdown>
-[![Shura's Ordeal of String: a forest strung with String Cloud](places/ordeal-string.webp)](places/ordeal-string.webp){ target="_blank" title="Open the picture full size" }
-<figcaption>String: Shura's forest of String Cloud.</figcaption>
+[![Shura's Ordeal of String: Shura dives on his bird Fuza through a forest strung with String Cloud](places/ordeal-string.webp)](places/ordeal-string.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>String: Shura dives on Fuza, over his forest of String Cloud.</figcaption>
 </figure>
 
 <figure class="place" markdown>
