@@ -15,8 +15,11 @@ Skypiea's animals, after the manga: two birds you can ride, a living compass, tw
 | **Cloud Wolf** | Upper Yards only | cooked meat | [a predator](#the-predators-of-the-upper-yards), and a companion once tamed |
 | **Sky Shark** | Upper Yards only | — | a predator of the air |
 | **Sky Lamprey** | Upper Yards only, rare | — | a giant ambusher |
+| **Great Serpent** | its lair, on one Upper Yard in four | — | [the guardian of a treasure](upper-yards.md#the-great-serpent), one of a kind |
+| **Express Shrimp** | Heaven's Gate | — | [carries boats](getting-there.md#the-express-shrimp) through the Gate |
+| **Balloon Octopus** | sold by the waver dealer | — | [brings a boat down](getting-there.md#the-balloon-octopus) out of the sky |
 
-All of them have spawn eggs in the **Skypiea** creative tab.
+The spawn eggs are in the game's own **Spawn Eggs** tab, with every other egg.
 
 ## In 3D
 

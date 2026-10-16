@@ -46,8 +46,8 @@ Everything starts from **Island Cloud**. A **stonecutter** makes each block one 
 | ![](block-models/shell-tile-stairs.png){ .block-icon } **Shell Tile Stairs** | The slope of the roofs. | 6 Shell Tile in a staircase → 4 | Shell Tile |
 | ![](block-models/cloud-glass.png){ .block-icon } **Cloud Glass** | The windows: milky and barely see-through, but daylight passes. | Smelt Island Cloud in a furnace | — |
 | ![](block-models/awning-cloth.png){ .block-icon } **Awning Cloth** | The striped cloth over the market stalls: a slab, laid on posts. No creature spawns on it. | Red Wool, White Wool, Red Wool in a row → 6 | — |
-| ![](block-models/conch-lantern.png){ .block-icon } **Conch Lantern** | The village light. It **stands on a block or hangs under one**, and gives a little less light than a lantern (12 instead of 15). | 8 Cut Cloud around 1 Torch → 1 | — |
-| ![](block-models/vearth-urn.png){ .block-icon } **Vearth Urn** | A pot of Vearth, the earth Skypieans treasure: a decoration set by the doors. | 3 Brick (the item) in a V, 1 Dirt between the top two → 1 | — |
+| ![](block-models/conch-lantern.png){ .block-icon } **Conch Lantern** | The village light: a conch lit by a Lamp Dial. It **stands on a block or hangs under one**, and gives a little less light than a lantern (12 instead of 15). **Dye it** in the crafting grid, in any of the sixteen colours. | 1 Conch and 1 [Lamp Dial](dials.md) → 1 | — |
+| ![](block-models/vearth-urn.png){ .block-icon } **Vearth Urn** | A pot of Vearth, the earth Skypieans treasure: a decoration set by the doors. Its four sides can bear [Skypiea's sherds](#the-vearth-urn-and-its-sherds). | 4 Brick or sherds of Skypiea round 1 Dirt, as the decorated pot → 1 | — |
 
 ### The other colours
 
@@ -91,6 +91,19 @@ The ground of a ruined [Birkan island](birka.md) is burnt cloud, and it fires in
 | ![](block-models/birkan-diamond-frieze.png){ .block-icon } **Birkan Diamond Frieze** | A band of blue diamonds. | 8 Birkan Plaster around 1 Blue Dye → 8 | — |
 | ![](block-models/birkan-cross-frieze.png){ .block-icon } **Birkan Cross Frieze** | A band of orange crosses. | 8 Birkan Plaster around 1 Orange Dye → 8 | — |
 | ![](block-models/birkan-rose-window.png){ .block-icon } **Birkan Rose Window** | A round window set in plaster: plaster above and below, the rose on its sides. | 4 Birkan Plaster around 1 Cloud Glass, in a cross → 4 | — |
+
+## The Vearth urn and its sherds
+
+The **Vearth Urn** is made as vanilla's decorated pot is — four sides round a block of Dirt, the Vearth — and **each side shows a sherd of Skypiea**, or plain brick. Vanilla's sherds do not fit it: it takes the ten of this mod.
+
+| Sherd | Where it is found |
+|---|---|
+| **Shandia**, **Bell**, **Serpent**, **Beanstalk** | the chests of Shandora, ruined or golden; brushing the gravel of its small ruins |
+| **Serpent** | the great serpent's lair, one chest in two; the Shandia camps |
+| **Thunder**, **Ark** | the sacrificial altars, the great altar and the Sanctuary of God |
+| **Cloud**, **Conch**, **Bird**, **Geyser** | sold by the Skypiean merchants, and nowhere else |
+
+The **Conch** itself washes up on [Angel Beach](angel-islands.md#angel-beach) with the dials. Set down, it is a plain shell; with a Lamp Dial it becomes a Conch Lantern.
 
 ## More blocks
 
