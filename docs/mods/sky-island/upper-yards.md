@@ -16,6 +16,10 @@ One island in three is an **Upper Yard**: rarer and far larger than an Angel Isl
 
 One Upper Yard in three has the **Giant Jack**: a beanstalk that towers over the island from its highest massif, **climbable all the way up** by a ramp around it. At the top hangs the **Golden Bell**, with a chest beneath it — **one or two boxes**, a **Golden Box** in about two chests in five.
 
+### Ringing the Golden Bell
+
+**Right-click the bell** to ring it: the whole island hears it. The first time you ring it, **the Shandias of that island make peace with you, for good** — whatever you looted before, and whatever you loot after. They no longer hunt you, but they still defend themselves if you strike them. The peace holds on that island only: every Upper Yard has its own bell.
+
 ## Shandora, the City of Gold
 
 <figure class="place" markdown>
@@ -33,7 +37,24 @@ A little over half of the Upper Yards hold the ruins of **Shandora**, sometimes 
 
 A whole city gives about one box, and a golden one in about one city of six. The walls are inlaid with **gilded stone bricks**; the gold itself is in the crypt.
 
-**Small ruins of Shandora** lie in the jungle too, one to three per Upper Yard: a forgotten altar, a colonnade, a fallen house, a sacred well.
+**Small ruins of Shandora** lie in the jungle too, one to three per Upper Yard: a forgotten altar, a colonnade, a fallen house, a sacred well. Brush the gravel between their paving stones: it may hide a **pottery sherd** of Shandora, or gold.
+
+### The golden Shandora
+
+<figure class="place" markdown>
+[![The golden Shandora from above the jungle: its square, its avenue, its houses and its gate, whole and gilded](places/golden-shandora.webp)](places/golden-shandora.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>The golden Shandora, whole: the square, the avenue and its houses.</figcaption>
+</figure>
+
+**One Shandora in twenty stands whole, all in gold**, as it was before it was lost: the same city, but every hall, tower and avenue standing, gilded, with no moss, no crack and no tree inside. It is guarded by more Shandias than the ruins, the square most of all.
+
+Its chests are another matter:
+
+| Where | What it may hold |
+|---|---|
+| **The golden halls** | gold ingots and blocks, diamonds, emeralds, a dial, a pouch of extol every time; **a box in one chest in two** |
+| **The temple's altar** | a box every time — golden in two chests in five — gold, diamonds, netherite scrap, a rare dial or an enchanted golden apple now and then |
+| **The crypt** | **two boxes every time**, a golden one in one chest in two; a hoard of gold, diamonds and netherite; always one very rare thing (an enchanted golden apple, a totem, a Flame, Impact or Reject Dial); 2 to 5 million extols |
 
 ## The Shandias
 
@@ -76,16 +97,16 @@ Warriors never drop their weapons. Four of them are items of this mod: see [thei
 
 ## The Shandias' weapons in your hands
 
-The spear and the bazooka have a 3D model of their own: turn them (drag), zoom (scroll or pinch), and change with the buttons.
+The spear, the bazooka and the shield have a 3D model of their own: turn them (drag), zoom (scroll or pinch), and change with the buttons.
 
-<div class="model-viewer" data-models="../items/" data-ids="shandia-spear burn-bazooka"></div>
+<div class="model-viewer" data-models="../items/" data-ids="shandia-spear burn-bazooka shandia-shield"></div>
 
 | Weapon | In a player's hands | Where it comes from |
 |---|---|---|
-| **Shandia Spear** | A real weapon: it hits like an iron sword (6 attack damage) but a little slower, lasts as long (250 uses), and takes a sword's enchantments. An anvil mends it with iron ingots. | The chests of the [Shandia camps](#shandia-camps): about one chest in three holds one. |
-| **Burn Bazooka** | A trophy: the jet of fire is the Shandias' own skill, and the item does nothing when used. One per slot. | The same chests, rarely: about one in twelve. |
+| ![](items/shandia-spear-icon.png){ .item-icon }**Shandia Spear** | A real weapon: it hits like an iron sword (6 attack damage) but a little slower, lasts as long (250 uses), and takes a sword's enchantments. An anvil mends it with iron ingots. | The chests of the [Shandia camps](#shandia-camps): about one chest in three holds one. |
+| ![](items/burn-bazooka-icon.png){ .item-icon }**Burn Bazooka** | A trophy: the jet of fire is the Shandias' own skill, and the item does nothing when used. Held up in both hands. One per slot. | The same chests, rarely: about one in twelve. |
 | ![](items/shandia-bow.png){ .item-icon }**Shandia Bow** | A bow like any other: draw it and shoot arrows. 384 uses. | Not found in survival in this version: the creative tab only. The camp chests hold an ordinary bow now and then. |
-| **Shandia Shield** | A shield like any other, in the Shandias' red, gold and black: raise it to block, and an axe disables it. 336 uses. | Not found in survival in this version: the creative tab only. |
+| ![](items/shandia-shield-icon.png){ .item-icon }**Shandia Shield** | A round shield in the Shandias' red, gold and black: raise it to block, and an axe disables it, as any shield. 336 uses. | Not found in survival in this version: the creative tab only. |
 
 ## Shandia camps
 
@@ -110,6 +131,11 @@ The offerings are modest: Vearth, gold nuggets, fruit, now and then a pouch of e
 
 ## The Sanctuary of God
 
+<figure class="place" markdown>
+[![The Sanctuary of God on its summit: the hall with the red roof, the throne and its ring of Thunder Drums](places/sanctuary.webp)](places/sanctuary.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>The Sanctuary of God.</figcaption>
+</figure>
+
 On the summit of an Upper Yard that has neither a Giant Jack nor the City of Gold — a little over one island in four — stands **Enel's residence**: a great stair of cloud up the flank, an esplanade, the hall with the red roof, the throne and its ring of **Thunder Drums**.
 
 - **Four divine soldiers** keep it, and their commander, the **Divine Soldier Commander**, a mountain of a man with three announced attacks. They fight empty-handed with their dials — the Axe Dial's blade, the Flash Dial that blinds whoever looks at it, the Breath Dial's gust, skates under their feet — and **attack on sight**.
@@ -118,9 +144,29 @@ On the summit of an Upper Yard that has neither a Giant Jack nor the City of Gol
 
 ## The Ordeals of God's priests
 
-Four challenges of Mine Mine no Mi's **challenges menu**, under a category of their own, each in a Standard and a Hard version. An Ordeal is **learnt in Skypiea only, from its stele**: a paved enclosure of stone on the plains, four pillars that bear the Ordeal's mark, and a great poneglyph at its middle to rub with paper.
+Four challenges of Mine Mine no Mi's **challenges menu**, under a category of their own, **God's Priests**, each in a Standard and a Hard version. An Ordeal is **learnt in Skypiea only, from its stele**: a paved enclosure of stone on the plains, four pillars that bear the Ordeal's mark, and a great poneglyph at its middle to rub with paper.
 
 **An Upper Yard has the steles of two of the four Ordeals**: the others are on other islands.
+
+<figure class="place" markdown>
+[![Satori's Ordeal of Balls: a forest of Surprise Clouds](places/ordeal-balls.webp)](places/ordeal-balls.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>Balls: Satori's forest of Surprise Clouds.</figcaption>
+</figure>
+
+<figure class="place" markdown>
+[![Shura's Ordeal of String: Shura dives on his bird Fuza through a forest strung with String Cloud](places/ordeal-string.webp)](places/ordeal-string.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>String: Shura dives on Fuza, over his forest of String Cloud.</figcaption>
+</figure>
+
+<figure class="place" markdown>
+[![Gedatsu's Ordeal of Swamp: an arena pitted with Swamp Cloud](places/ordeal-swamp.webp)](places/ordeal-swamp.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>Swamp: Gedatsu's arena of Swamp Cloud.</figcaption>
+</figure>
+
+<figure class="place" markdown>
+[![Ohm's Ordeal of Iron: the Iron Cloud and Holy](places/ordeal-iron.webp)](places/ordeal-iron.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>Iron: Ohm's Iron Cloud.</figcaption>
+</figure>
 
 | Ordeal | Its stele | The fight |
 |---|---|---|
@@ -128,6 +174,45 @@ Four challenges of Mine Mine no Mi's **challenges menu**, under a category of th
 | **String** — Shura | chains from pillar to pillar | a forest strung with **String Cloud** that slows, then binds; Shura dives on his bird Fuza with his **Heat Javelin** |
 | **Swamp** — Gedatsu | puddles of lilac cloud at the pillars' feet | an arena pitted with **Swamp Cloud** you sink in; his **Jet Punch** from afar |
 | **Iron** — Ohm | crowns of barbed wire on the pillars | the **Iron Cloud**, and his giant dog **Holy** |
+
+A win pays as the base mod's challenges do, and now and then a dial: Impact, Breath or Flame from Satori, Axe, Breath or Flame from Shura, Milky or Breath from Gedatsu, Eisen or Milky from Ohm — more often in Hard, where an **ancient manual** may come too. The first Standard win opens the Hard version.
+
+The priests' own weapons, Shura's **Heat Javelin** and Ohm's **Eisen Whip**, are never dropped: they are in the creative tab only.
+
+| Weapon | In a player's hands |
+|---|---|
+| ![](items/heat-javelin-icon.png){ .item-icon }**Heat Javelin** | A lance that hits harder than an iron sword (7) but slower, and **sets what it strikes on fire** for four seconds. It does not burn. |
+| ![](items/eisen-whip-icon.png){ .item-icon }**Eisen Whip** | A sword like an iron one (6), a little quicker. The blade of Iron Cloud that runs out a dozen blocks is Ohm's own. |
+
+### Enel's Ordeal
+
+<figure class="place" markdown>
+[![Enel on the deck of the Ark Maxim, the golden face at its bow behind him](places/ordeal-enel.webp)](places/ordeal-enel.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>Enel, on the deck of the Ark Maxim.</figcaption>
+</figure>
+
+**Beat the four priests** — their Standard Ordeals — and **God himself** waits for you: the last Ordeal opens in the challenges menu, with no stele to find. You fight him on **the deck of the Ark Maxim**, his flying ark, among its bars and plates of gold, his golden throne at the bow.
+
+- **His body is lightning: a blow goes through him.** It reaches him only with **Busoshoku Haki** (imbued or hardened), a **seastone** weapon, rubber, or what passes through a Logia — or **when he glows**: after each of his great attacks he is solid for a few seconds, and anything hits.
+- **Every attack shows where it will land** before it falls: El Thor's pillar of lightning, Sango's line, the gold he lights under your feet. From two thirds of his health he beats his drums: **Hino**, **Kiten** that hunts you, and **Julungul**.
+- **In his last third, Raigo** gathers over the Ark: a countdown, ninety seconds in Standard, sixty in Hard. Beat him before it falls — **it destroys everything on the deck**.
+- **In Hard** he is twice as tough and hits harder, and in his last third he takes the form of **Amaru**, the giant.
+
+His first defeat gives you his golden staff, the **Nonosama Bo**, beside a challenge's own payout, four times a priest's.
+
+## The great serpent
+
+<figure class="place" markdown>
+[![The great serpent coiled in its lair, a pit in the jungle with a carcass of its kind at the bottom](places/serpent-lair.webp)](places/serpent-lair.webp){ target="_blank" title="Open the picture full size" }
+<figcaption>The great serpent in its lair.</figcaption>
+</figure>
+
+About **one Upper Yard in four** hides the lair of **the great serpent**: a stepped pit in the jungle, thirty blocks across, a carcass of one of its kind at the bottom — and the treasure under its ribs. The serpent lies coiled round it, and never strays far.
+
+- **400 health**, armoured, and long: hit any part of its body. Touching its coils crushes and slows you.
+- **It swallows you whole.** Inside, you lose health every second; **strike it** — from inside, or have a friend strike it from outside — and it spits you out. It does so on its own after eight seconds, and cannot swallow again for a while.
+- **It never comes back**: there is one in each lair, and once killed it is gone. It drops **two Great Serpent Fangs**, a trophy.
+- **The lair's chest**: a Golden Box every time and another box, gold, diamonds, netherite scrap, always one very rare thing, 1 to 3 million extols, and a sherd now and then.
 
 ## Predators
 

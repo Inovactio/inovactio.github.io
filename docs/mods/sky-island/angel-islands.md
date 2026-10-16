@@ -36,7 +36,7 @@ They are **furnished**: a table and chairs, a kitchen whose chimney smokes, beds
 
 ### The Skypieans
 
-The villagers are **sky people of this mod**: eight people, men and women, young and old, with small wings at the shoulders and their hair grown into **antennae**. The dial merchant, the **Skypiean Merchant**, is one of them, in a blue apron behind his counter; he sells the base mod's dials. The White Berets protect them.
+The villagers are **sky people of this mod**: eight people, men and women, young and old, with small wings at the shoulders and their hair grown into **antennae**. The dial merchant, the **Skypiean Merchant**, is one of them, in a blue apron behind his counter; he sells the base mod's dials, [Sky Island's own](dials.md), and the **pottery sherds** of Skypiea for the [Vearth urn](blocks.md#the-vearth-urn-and-its-sherds). The White Berets protect them.
 
 <div class="mob-gallery" markdown>
 
@@ -102,8 +102,8 @@ In 3D: drag to turn, scroll or pinch to zoom; the buttons change the look.
 
 The flat shore at the foot of an Angel Island's cliffs.
 
-- **Dials wash up on the beach over time**, a few at a time, and are picked up like any item. How often, and how many a stretch of beach holds, is in the [configuration](configuration.md).
-- **A seafront**, once per village island, facing the island's geyser: the **dial workshop** under its lilac awning, a promenade along the shore, a pier, deck chairs, and sometimes a castle of cloud. Behind the workshop's counter stands the **Waver Dealer**, who sells the [waver](getting-around.md#the-waver).
+- **Dials wash up on the beach over time**, a few at a time — the base mod's and [Sky Island's own](dials.md) — with **conches**, and are picked up like any item. How often, and how many a stretch of beach holds, is in the [configuration](configuration.md).
+- **A seafront**, once per village island, facing the island's geyser: the **dial workshop** under its lilac awning, a promenade along the shore, a pier, deck chairs, and sometimes a castle of cloud. Behind the workshop's counter stands the **Waver Dealer**, who sells the [waver](getting-around.md#the-waver), [dials](dials.md), and the [balloon octopus](getting-there.md#the-balloon-octopus) that brings a boat home.
 - **White Beret lookouts** along the shore wherever it has room, never within 64 blocks of the seafront or of another lookout, each with its guard.
 - **Sky Lobsters** walk the beach (see [Wildlife](wildlife.md#the-cloud-sea)).
 
@@ -114,4 +114,4 @@ The flat shore at the foot of an Angel Island's cliffs.
 <figcaption>Heaven's Gate, from the cloud sea.</figcaption>
 </figure>
 
-The way into Skypiea, on every village island: the **gate**, its **tunnel** through the bank of cloud, and a **causeway** from the tunnel to the promenade. The geyser sets you down right in front of it.
+The way into Skypiea, on every village island: the **gate**, its **tunnel** through the bank of cloud, and a **causeway** from the tunnel to the promenade. The geyser sets you down right in front of it, and **the express shrimp** carries a boat with its crew through it to the seafront: see [the express shrimp](getting-there.md#the-express-shrimp).

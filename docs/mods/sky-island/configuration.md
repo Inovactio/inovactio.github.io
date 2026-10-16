@@ -23,12 +23,13 @@ The Knock-Up Stream's rhythm. 20 ticks make a second.
 
 ## `angel_beach`
 
-The dials the sea leaves on the shore of the Angel Islands.
+The dials the sea leaves on the shore of the Angel Islands, and the Vision Dial's photos.
 
 | Setting | Default | What it does |
 |---|---|---|
 | `dial_chance` | `2000` | One random tick in this many, on a beach surface, lays a dial. `0` turns it off. |
 | `dial_cap` | `2` | The most dials a stretch of beach (8 blocks around) holds at once. |
+| `vision_pictures` | `true` | A [Vision Photo](dials.md#the-vision-photo) shows what its taker saw: a 128×128 picture sent by the taker's game once and kept by the world, one small file a photo. `false` turns the pictures off, for big servers: a photo keeps the place only, and nothing is sent or kept. Photos taken before keep their picture. |
 
 ## For server builders
 
