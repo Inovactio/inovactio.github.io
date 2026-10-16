@@ -11523,6 +11523,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#v4-8-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.8.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#v4-7-0" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11838,6 +11849,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v4-8-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.8.0
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#v4-7-0" class="md-nav__link">
@@ -12181,6 +12203,44 @@
 
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
 <p>Every AkumaLib release for Minecraft 1.20.1, newest first, as published on <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all">CurseForge</a>.</p>
+<h2 id="v4-8-0">4.8.0<a class="headerlink" href="#v4-8-0" title="Permanent link">&para;</a></h2>
+<p><small>Released 2026-10-16 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9205279">Download</a></small></p>
+<div class="changelog-body" markdown="0">
+<p><strong>The character creator crash of 4.7.0 is fixed, Haki shows in Gear Fifth, and civilians get their place in the book.</strong>
+4.7.0 could stop the game in the character creator: it no longer does. Armament Haki now shows on a body in a form
+like Gear Fifth. The Civilian faction gets its page, and a civilian who attacks the law becomes a pirate. The
+corrections of Mine Mine no Mi of 4.0.0 to 4.7.0 are all still there, each with its switch.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are optional.</p>
+<p>Nothing changes for a player's setup: the network protocol is the same (8), so 4.5.0 to 4.8.0 play together. Nothing
+changes for an addon either: no signature was removed or changed, and an addon made for 4.0.0 to 4.7.0 works with 4.8.0.</p>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>The character creator crashed.</strong> In 4.7.0, scrolling the races in Mine Mine no Mi's character creator stopped the
+  game. It no longer does.</li>
+</ul>
+<h3>Mine Mine no Mi fixes</h3>
+<ul>
+<li><strong>Haki in a form that keeps your body.</strong> In Gear Fifth, and in the other forms that keep the player's own body and
+  add to it, the Armament Haki of a punching arm stayed beside the body while the arm moved, and full-body Haki did
+  not show at all. Both now show as they do without the form.</li>
+</ul>
+<h3>New</h3>
+<ul>
+<li><strong>Civilians.</strong> The Civilian faction has its page in the faction book, after the Revolutionaries, with its own icon
+  and flag.</li>
+<li><strong>A civilian who attacks the law becomes a pirate.</strong> A civilian who strikes 3 different Marines or World Government
+  men in one day becomes a pirate. He is warned after the 1st and the 2nd, and the count starts again each day.</li>
+<li><strong>Struck back.</strong> A Bounty Hunter or a Revolutionary that a civilian struck may strike him back for 30 seconds after
+  his last blow.</li>
+</ul>
+<h3>For addon makers</h3>
+<ul>
+<li><strong><code>CivilianFaction</code></strong>: the Civilian's page, icon, flag and rules above.</li>
+</ul>
+<p>An addon that uses it declares <code>versionRange = "[4.8.0,5)"</code>.</p>
+</div>
+
 <h2 id="v4-7-0">4.7.0<a class="headerlink" href="#v4-7-0" title="Permanent link">&para;</a></h2>
 <p><small>Released 2026-10-15 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9193477">Download</a></small></p>
 <div class="changelog-body" markdown="0">
