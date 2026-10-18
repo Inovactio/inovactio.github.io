@@ -8739,6 +8739,8 @@
       
         
       
+        
+      
     
     
     
@@ -9007,6 +9009,34 @@
     
   
     Held inputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../core-concepts/civilian-faction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The civilian faction
   
 
     
@@ -11583,6 +11613,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#v5-0-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.0.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#v4-8-0" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11909,6 +11950,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v5-0-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.0.0
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#v4-8-0" class="md-nav__link">
@@ -12263,6 +12315,88 @@
 
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
 <p>Every AkumaLib release for Minecraft 1.20.1, newest first, as published on <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all">CurseForge</a>.</p>
+<h2 id="v5-0-0">5.0.0<a class="headerlink" href="#v5-0-0" title="Permanent link">&para;</a></h2>
+<p><small>Released 2026-10-18 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9247090">Download</a></small></p>
+<div class="changelog-body" markdown="0">
+<p><strong>Mine Mine no Mi's NPCs get better at using Devil Fruits, and servers can turn professions off.</strong> Grunts, brutes and
+snipers can now get a fruit, flying Zoans fly on NPCs, NPCs no longer wreck the terrain or set fires, and a Logia is a
+rare boss. A notorious NPC keeps its fruit after a reload, and under One Fruit per World NPCs no longer draw a fruit
+somebody already has. A server can turn off any profession, and a civilian who robs the Marines turns pirate. The
+corrections of Mine Mine no Mi of 4.0.0 to 4.8.0 are all still there, each with its switch.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are optional.</p>
+<p>⚠️ <strong>Network protocol 9.</strong> The list of turned-off professions is now sent to the players, so 5.0.0 does not play
+with 4.5.0 to 4.8.0: update the server and every client together.</p>
+<p>⚠️ <strong>Why a 5.</strong> Nothing an addon uses was taken out. Two inner pieces changed, both for the turned-off professions:
+the message that sends players their professions, and the client side that reads it, now carry that list. No published
+addon used them. But an addon that asked for "AkumaLib 4" only refuses to start beside 5.0.0, so take these versions
+or newer with it: <strong>Cruise Cruise no Mi 0.5.1</strong>, <strong>Awaken Path 2.3.1</strong> and <strong>Missing Missing no Mi
+4.0.0</strong>. InoFruits, Awaken Awaken no Mi and Sky Island accept 5.0.0 as they are.</p>
+<hr />
+<h3>Mine Mine no Mi fixes</h3>
+<ul>
+<li><strong>A notorious NPC lost its fruit's techniques.</strong> After a reload, a vice admiral or another notorious NPC kept its
+  fruit but no longer used any of its techniques, or used those of another fruit. It now uses its own fruit's again.</li>
+<li><strong>One Fruit per World and NPCs.</strong> With NPC fruit users on, captains and notorious NPCs could draw a fruit a player
+  already had. Under One Fruit per World they now draw only fruits nobody has, and an NPC's fruit takes nobody's
+  place. With no fruit left, the NPC has none.</li>
+<li><strong>The Marines circled a civilian for ever.</strong> A civilian who opened a chest in a Marine building had every Marine
+  around set on them, though they could not hurt them. They now leave them alone, unless they steal (see below).</li>
+</ul>
+<h3>New</h3>
+<ul>
+<li><strong>Grunts, brutes and snipers with Devil Fruits.</strong> Two new settings in <code>akumalib-server.toml</code>, section
+  <code>npcFruitUsers</code>, <code>troopFruitGruntChance</code> and <code>troopFruitBruteSniperChance</code> (0 to 100 %, decimals allowed, off by
+  default), give the common troops of the pirates, the Marines and the bandits a Devil Fruit whose techniques they
+  use. Troops spawn about 25 times as often as captains: 0.5 % for grunts and 2 % for brutes and snipers keep fruit
+  users rare. A grunt only gets a fruit of the wooden box, a brute or a sniper one of the wooden or iron box, even
+  when every fruit is in every box. Under One Fruit per World they never get a taken fruit, and they keep theirs
+  after a reload. Captains and notorious NPCs keep Mine Mine no Mi's own setting.</li>
+<li><strong>NPCs no longer wreck the terrain.</strong> With the new <code>npcAbilityGriefing</code> setting (same section, <code>false</code> by default),
+  the abilities of NPCs break and replace no block: no crater, no broken wall. Their techniques still hit, knock back
+  and apply their effects. Blocks they lay into air and walls that are taken down again still appear. NPCs light no
+  fire either. Players are not concerned: Mine Mine no Mi's "Ability Griefing" alone decides for them. Set it to
+  <code>true</code> to let NPCs break blocks as before.</li>
+<li><strong>Logia NPCs are rarer.</strong> A captain, bandit leader, vice admiral or notorious NPC draws a Logia four times less
+  often than another fruit: a player without Haki cannot touch one, so it stays a rare boss. Troops never get one.</li>
+<li><strong>Flying NPCs.</strong> An NPC with a flying Zoan form now takes off: it circles above its target, comes down for a low
+  pass every 5 s, lands after 20 s and rests 10 s. A player with a sword reaches it on each low pass.</li>
+<li><strong><code>/akumalib npcfruit &lt;targets&gt; &lt;fruit&gt;</code></strong> (operators): gives any Devil Fruit to an NPC, an addon's included, with
+  its techniques. <code>clear</code> takes it off. The NPC keeps it after a reload.</li>
+<li><strong>Turn off a profession.</strong> The new <code>disabledProfessions</code> setting in <code>akumalib-server.toml</code> lists professions the
+  server turns off. A profession turned off gives no XP and no talents, its workstation does not open, and it is
+  hidden from the Professions screen and the character creator. Its XP and talents are taken back at the next login;
+  in Crew mode a player whose profession is off chooses again. Items already made stay and work.</li>
+<li><strong>A civilian who steals turns pirate.</strong> Taking a weapon (swords, axes, guns, the cannon, bullets, cannonballs,
+  arrows...) or a Devil Fruit box from a chest in a Marine building makes a civilian a pirate at once. Anything else
+  is one strike per chest opened, counted with their blows on the law: three in a game day and they are a pirate. Breaking
+  the chest counts too. Once they are a pirate, the Marines go for them.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Spreading zones and chests.</strong> A zone that turns the ground around its user (Awaken's Candle World, Sabaku no
+  Okoku and the others) took furnaces, chests and barrels with the rest: they came back empty, and a buried chest
+  spilled its items. It now leaves them alone, and protected areas too.</li>
+</ul>
+<h3>For addon makers</h3>
+<ul>
+<li><strong>NPCs:</strong> <code>FlightAbilityWrapperGoal</code> and <code>AboveTargetAbilityWrapperGoal</code> (an NPC flies with a flight passive and
+  strikes from above), <code>AkumaProtection.canBreakBlocksAt(entity, pos)</code> (a lasting break an NPC may not make),
+  <code>NpcStyles.giveFruit</code> / <code>takeFruit</code>.</li>
+<li><strong>Shared kit helpers</strong>, moved out of Missing Missing no Mi so every addon has one copy: <code>SquadAbility</code> (a squad
+  that fights for its user, a player or an NPC), <code>ExtraLivesAbility</code>, <code>GroundLayerBlock</code> and <code>SparedEffect</code> with
+  <code>GroundLayers.spareAround</code>, <code>ZoanMounts</code>, <code>ArmCoating.coat</code>, <code>AkumaAim.inSight</code> / <code>inPath</code> / <code>fromFront</code>,
+  <code>ParticleBursts.burst</code>, <code>BigFormsStand</code>, <code>MatterSource</code>, <code>Shots.hostile</code>.</li>
+<li><strong>Opt-in hooks:</strong> <code>HoldingSphereEntity</code> (<code>slack</code>, <code>releases</code>, <code>opensFrames</code>, <code>getHeld</code>), <code>MoveAbility.strikesInPath()</code>.
+  <code>GustAbility.turnBack</code> now defaults to <code>Shots.turnBack</code>.</li>
+<li><strong>Civilians:</strong> <code>CivilianFaction.stole(player, stack)</code> reports a theft from a chest of your own; the item tag
+  <code>#akumalib:turns_civilian_pirate</code> lists what turns a civilian at once.</li>
+<li><strong><code>SpreadingBlockAbility</code></strong> now refuses blocks with a block entity and protected areas in its base
+  <code>canReplaceBlock</code>: a subclass that returns <code>super</code> gets it for free.</li>
+</ul>
+<p>An addon that uses any of these declares <code>versionRange = "[5.0.0,)"</code>. Leave the top of the range open: a range that stops
+at the next major refuses it, as <code>[4.x,5)</code> refuses 5.0.0.</p>
+</div>
+
 <h2 id="v4-8-0">4.8.0<a class="headerlink" href="#v4-8-0" title="Permanent link">&para;</a></h2>
 <p><small>Released 2026-10-16 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9205279">Download</a></small></p>
 <div class="changelog-body" markdown="0">

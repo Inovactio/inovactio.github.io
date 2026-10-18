@@ -8741,6 +8741,8 @@
       
         
       
+        
+      
     
     
     
@@ -9009,6 +9011,34 @@
     
   
     Held inputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/civilian-faction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The civilian faction
   
 
     
@@ -9337,6 +9367,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="TwoFormFlightAbility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#npcs-that-fly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NPCs that fly
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -11769,6 +11816,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="TwoFormFlightAbility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#npcs-that-fly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NPCs that fly
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -12051,33 +12115,45 @@
 <p class="admonition-title">The base mod's flight is not vanilla flight</p>
 <p><code>PropelledFlightAbility</code> never sets <code>player.getAbilities().flying</code>: it turns gravity off and drives the velocity itself. Read <code>isNoGravity()</code> if you need to know whether a player is flying, and never enable a flight through a pause (<code>takeOff</code> refuses to) - haki overuse, Seastone and protected areas pause a passive to take flight away.</p>
 </div>
+<h3 id="npcs-that-fly">NPCs that fly<a class="headerlink" href="#npcs-that-fly" title="Permanent link">&para;</a></h3>
+<p><em>Since 5.0.0.</em> The base mod's flight works for players only: an NPC that draws the fruit takes the forms and stays on the ground. Give the flight passive a goal wrapper, <code>FlightAbilityWrapperGoal</code>, and the NPC flies from the server, with no input:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">new</span><span class="w"> </span><span class="n">AbilityCore</span><span class="p">.</span><span class="na">Builder</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">AbilityCategory</span><span class="p">.</span><span class="na">DEVIL_FRUITS</span><span class="p">,</span><span class="w"> </span><span class="n">AbilityType</span><span class="p">.</span><span class="na">PASSIVE</span><span class="p">,</span><span class="w"> </span><span class="n">MyFlight</span><span class="p">::</span><span class="k">new</span><span class="p">)</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">        </span><span class="p">.</span><span class="na">addGoalWrapper</span><span class="p">((</span><span class="n">mob</span><span class="p">,</span><span class="w"> </span><span class="n">core</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">FlightAbilityWrapperGoal</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">mob</span><span class="p">,</span><span class="w"> </span><span class="n">core</span><span class="p">).</span><span class="na">yieldTo</span><span class="p">(</span><span class="n">MyStoopAbility</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">))</span>
+</code></pre></div>
+<ul>
+<li>Any flight passive takes it: a <code>PropelledFlightAbility</code> flies at its own top speed, any other one (the base mod's <code>FlyAbility</code>, players only too) at <code>setSpeed</code> blocks a tick (0.5).</li>
+<li>It takes off while the flight may be used (a flying form held: the same gate as a player's) and the target is seen, then circles the target 8 blocks above and 6 out (<code>setHeight</code>, <code>setRadius</code>), and every 5 seconds makes a low pass for 1.5 seconds, a block and a half beside its head (<code>setPassEvery(100, 30)</code>).</li>
+<li>After 20 seconds in the air it comes down and rests 10 seconds on the ground (<code>setFlyTicks(400)</code>, <code>setRestTicks(200)</code>): a player with no bow gets his chance. It also comes down when the target is gone, and falls when the form ends, as a player does.</li>
+<li>While a dive (<code>DiveStrikeAbility</code>) runs, or a technique named in <code>yieldTo</code> (a stoop that drives the body itself), the goal lets it move the body. It flies through every other one: a hold carried off, a haki or a buff that lasts the whole fight.</li>
+<li>A technique used from right over the target (a stoop, a talon that seizes) goes on <code>AboveTargetAbilityWrapperGoal</code>: it starts in the air within <code>setReach</code> blocks of the target side to side (3) and <code>setMinDrop</code> above it (2), where the low passes take the NPC, and ends with its continuity. A dive from the circle (<code>DiveStrikeAbility</code>) goes on the base mod's <code>Repeater</code>, which turns the NPC to its target first.</li>
+</ul>
 <h2 id="blockpassageability"><code>BlockPassageAbility</code><a class="headerlink" href="#blockpassageability" title="Permanent link">&para;</a></h2>
 <p>A technique during which its user passes through blocks: a dive under the ground, a walk through a wall. Nothing is dug: the blocks are passed through, as in the base mod's own Free Swimming.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyDiveAbility</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">BlockPassageAbility</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
-<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyDiveAbility</span><span class="p">(</span><span class="n">AbilityCore</span><span class="o">&lt;</span><span class="n">MyDiveAbility</span><span class="o">&gt;</span><span class="w"> </span><span class="n">core</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">core</span><span class="p">);</span>
-<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">addUseEvent</span><span class="p">(</span><span class="k">this</span><span class="p">::</span><span class="n">onUse</span><span class="p">);</span>
-<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>
-<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onUse</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">IAbility</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">isPassing</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a><span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">endPassage</span><span class="p">(</span><span class="n">entity</span><span class="p">);</span>
-<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a><span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">startPassage</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="mf">160.0F</span><span class="p">);</span>
-<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a><span class="w">        </span><span class="p">}</span>
-<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>
-<a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a><span class="w">    </span><span class="nd">@Override</span>
-<a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="n">Vec3</span><span class="w"> </span><span class="nf">steer</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">walking</span><span class="p">(</span><span class="n">entity</span><span class="p">).</span><span class="na">scale</span><span class="p">(</span><span class="mf">0.22D</span><span class="p">);</span>
-<a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-7-20" name="__codelineno-7-20" href="#__codelineno-7-20"></a>
-<a id="__codelineno-7-21" name="__codelineno-7-21" href="#__codelineno-7-21"></a><span class="w">    </span><span class="nd">@Override</span>
-<a id="__codelineno-7-22" name="__codelineno-7-22" href="#__codelineno-7-22"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onPassageEnd</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-7-23" name="__codelineno-7-23" href="#__codelineno-7-23"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">cooldownComponent</span><span class="p">.</span><span class="na">startCooldown</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="mf">100.0F</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">passedTicks</span><span class="p">()</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mf">2.0F</span><span class="p">);</span>
-<a id="__codelineno-7-24" name="__codelineno-7-24" href="#__codelineno-7-24"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-7-25" name="__codelineno-7-25" href="#__codelineno-7-25"></a><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MyDiveAbility</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">BlockPassageAbility</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">MyDiveAbility</span><span class="p">(</span><span class="n">AbilityCore</span><span class="o">&lt;</span><span class="n">MyDiveAbility</span><span class="o">&gt;</span><span class="w"> </span><span class="n">core</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">core</span><span class="p">);</span>
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">addUseEvent</span><span class="p">(</span><span class="k">this</span><span class="p">::</span><span class="n">onUse</span><span class="p">);</span>
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onUse</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">IAbility</span><span class="w"> </span><span class="n">ability</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">isPassing</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a><span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">endPassage</span><span class="p">(</span><span class="n">entity</span><span class="p">);</span>
+<a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a><span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">startPassage</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="mf">160.0F</span><span class="p">);</span>
+<a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a>
+<a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="n">Vec3</span><span class="w"> </span><span class="nf">steer</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-18" name="__codelineno-8-18" href="#__codelineno-8-18"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">walking</span><span class="p">(</span><span class="n">entity</span><span class="p">).</span><span class="na">scale</span><span class="p">(</span><span class="mf">0.22D</span><span class="p">);</span>
+<a id="__codelineno-8-19" name="__codelineno-8-19" href="#__codelineno-8-19"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-8-20" name="__codelineno-8-20" href="#__codelineno-8-20"></a>
+<a id="__codelineno-8-21" name="__codelineno-8-21" href="#__codelineno-8-21"></a><span class="w">    </span><span class="nd">@Override</span>
+<a id="__codelineno-8-22" name="__codelineno-8-22" href="#__codelineno-8-22"></a><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onPassageEnd</span><span class="p">(</span><span class="n">LivingEntity</span><span class="w"> </span><span class="n">entity</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-23" name="__codelineno-8-23" href="#__codelineno-8-23"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">cooldownComponent</span><span class="p">.</span><span class="na">startCooldown</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="mf">100.0F</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">passedTicks</span><span class="p">()</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mf">2.0F</span><span class="p">);</span>
+<a id="__codelineno-8-24" name="__codelineno-8-24" href="#__codelineno-8-24"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-8-25" name="__codelineno-8-25" href="#__codelineno-8-25"></a><span class="p">}</span>
 </code></pre></div>
 <ul>
 <li><code>steer(entity)</code> gives the velocity of the tick, or null to leave the body its own. <code>walking(entity)</code> is the walking keys as a direction on the ground.</li>

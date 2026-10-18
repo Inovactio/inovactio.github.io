@@ -8741,6 +8741,8 @@
       
         
       
+        
+      
     
     
     
@@ -9009,6 +9011,34 @@
     
   
     Held inputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/civilian-faction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The civilian faction
   
 
     
@@ -11291,6 +11321,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#akumalib-npcfruit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        /akumalib npcfruit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troops-with-devil-fruits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troops with Devil Fruits
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#npcs-break-no-terrain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NPCs break no terrain
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11652,6 +11715,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#akumalib-npcfruit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        /akumalib npcfruit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troops-with-devil-fruits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troops with Devil Fruits
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#npcs-break-no-terrain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NPCs break no terrain
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11812,6 +11908,83 @@
 <p class="admonition-title">Both sides need 3.1.0</p>
 <p>It is a packet: network protocol 5.</p>
 </div>
+<h2 id="akumalib-npcfruit"><code>/akumalib npcfruit</code><a class="headerlink" href="#akumalib-npcfruit" title="Permanent link">&para;</a></h2>
+<p><em>Since 5.0.0.</em> An operator command (level 2) to test fruit-using NPCs: it gives a Devil Fruit to an NPC the way the base mod gives one to its captains.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>/akumalib npcfruit &lt;targets&gt; &lt;fruit&gt;    the fruit, and an AI goal for each of its abilities that has one
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>/akumalib npcfruit &lt;targets&gt; clear      the fruit and its goals taken off
+</code></pre></div>
+<ul>
+<li>Every registered fruit is offered, an addon's as well: an addon has nothing to add for its fruits to appear.</li>
+<li>The goals are those of <code>MobsHelper.getDevilFruitAbilities</code>, at priority 2: one per ability given a goal wrapper (<code>addGoalWrapper</code>). The answer lists those abilities, or says there is none: then the NPC never uses the fruit.</li>
+<li>The goals of the fruit the NPC had are taken off first.</li>
+<li>Players and entities without an AI are refused.</li>
+<li>Under "One Fruit per World" the command still gives any fruit, a taken one included: a test tool for operators. It does not write the fruit in the One Fruit list either. The base mod's own random draw for its NPCs skips the taken fruits (<code>fixProtectionRules</code>).</li>
+<li>After a save and a reload the goals come back (<code>NpcStyles</code>, with <code>fixSaveLoad</code> on), on any NPC: the base mod's own captains and notorious NPCs, and any other mob given its fruit by the command.</li>
+</ul>
+<p>The same from code: <code>NpcStyles.giveFruit(mob, fruit)</code> and <code>NpcStyles.takeFruit(mob)</code>.</p>
+<h2 id="troops-with-devil-fruits">Troops with Devil Fruits<a class="headerlink" href="#troops-with-devil-fruits" title="Permanent link">&para;</a></h2>
+<p><em>Since 5.0.0.</em> Grunts, brutes and snipers of every faction (pirates, Marines, bandits) may spawn with a Devil Fruit, as the base mod's captains do. Off by default: two chances in <code>akumalib-server.toml</code>, 0.0 to 100.0 %, decimals allowed.</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>NPC</th>
+<th>Tiers it may draw</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>troopFruitGruntChance</code></td>
+<td>Grunt</td>
+<td>1 (wooden box)</td>
+</tr>
+<tr>
+<td><code>troopFruitBruteSniperChance</code></td>
+<td>Brute, sniper</td>
+<td>1-2 (wooden, iron box)</td>
+</tr>
+<tr>
+<td>Mine Mine no Mi's "Open World Fruit Users Chance"</td>
+<td>Captain, bandit leader, vice admiral, notorious captain</td>
+<td>1-3: the base mod's own draw, unchanged</td>
+</tr>
+</tbody>
+</table>
+<p>Troops are many: in a new world (a pirate ship, a Marine base, a bandit camp and twelve stops), 127 grunts and 24 brutes or snipers spawned for 6 captains. The same chance as the captains would give troops about 25 times as many fruit users. Values to start from: grunts 0.5 %, brutes and snipers 2 %, about one fruit-using troop for every 6 captains.</p>
+<ul>
+<li>The tier is the fruit's own, <code>AkumaNoMiItem.getTier()</code>: the caps hold with <code>fruitBoxMode = MIXED</code> too.</li>
+<li>A fruit is drawn among those with at least one ability given a goal wrapper (<code>addGoalWrapper</code>), as for the captains: an addon has nothing else to do for its fruits to reach the troops of their tier.</li>
+<li>Drawn once, at the end of the troop's <code>finalizeSpawn</code>: natural spawns, spawners, <code>/summon</code>, spawn eggs. A troop read from its save keeps its fruit and its techniques (<code>NpcStyles.giveFruit</code>) and never draws again.</li>
+<li>Under "One Fruit per World" the taken fruits are skipped, and the troop's fruit reserves nothing. With no fruit left in its tiers, the troop has none: it never draws from a higher tier.</li>
+<li>No fruit is dropped on death.</li>
+</ul>
+<p><strong>Logia are rarer on NPCs.</strong> <em>Since 5.0.0.</em> A Logia counts a quarter of another fruit in every NPC draw: captains, bandit leaders, vice admirals and notorious NPCs ("Open World Fruit Users Chance"), with or without "One Fruit per World". A player without haki cannot touch a Logia, so a Logia NPC stays a rare boss. The base mod's Logia are all tier 3: troops never draw one. With <code>fixProtectionRules</code> false the base mod's own draw is used, Logia as often as any fruit.</p>
+<p>The draw from code: <code>ProtectionRules.freeFruitDraw(mob, maxTier)</code>; the weight is <code>ProtectionRules.LOGIA_DRAW_WEIGHT</code>.</p>
+<h2 id="npcs-break-no-terrain">NPCs break no terrain<a class="headerlink" href="#npcs-break-no-terrain" title="Permanent link">&para;</a></h2>
+<p><em>Since 5.0.0.</em> An NPC's abilities break or replace no block: captains, troops, notorious NPCs, any mob given a fruit. The ability still fires: it hurts, knocks back and applies its effects, and stays in the NPC's kit. One key in <code>akumalib-server.toml</code>, section <code>npcFruitUsers</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Default</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>npcAbilityGriefing</code></td>
+<td><code>false</code></td>
+<td><code>true</code>: NPCs break blocks as players do</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Players are not concerned</strong>: they stay under Mine Mine no Mi's own "Ability Griefing" alone. A projectile or a tamed creature acts for its owner: a player's projectile is a player's.</li>
+<li><strong>Only lasting destruction is cut.</strong> A block laid into air is still laid, fire excepted: an NPC lights no fire, neither by its explosions (<code>setFireAfterExplosion</code>) nor laid into air, since fire spreads and burns for good. A <code>TemporaryBlocks</code> group still raises its walls (over flowers too) and cuts its gaps: they come back. <code>SpreadingBlockAbility</code> zones, which give their blocks back, still spread. The base mod's own temporary blocks (Barrier, Room, string walls) are laid into air.</li>
+<li>What is refused for an NPC: a block broken or replaced through <code>NuWorld.setBlockState</code> (both forms) and the base mod's block placers and queues, an <code>AbilityExplosion</code>'s blocks and fires, <code>Smash.through</code>, falling blocks and fire or ice through <code>ProtectionRules</code>, Takt's lifted blocks, AkumaLib's tornado and the base mod's (which lifts nothing anyway while <code>fixCombatChecks</code> is on).</li>
+<li>Not in a challenge arena: the base mod restores it.</li>
+</ul>
+<p>Who acts is the entity a block call names, else the entity the server is ticking: the base mod's placers and queues are handed only the level, and an NPC's abilities run in its own tick, its projectiles in theirs. A block queued by an NPC is checked when it lands. The base mod's tornado is the one ability entity with no traceable owner that breaks blocks: its caster is read from it. An addon that breaks blocks with its own calls asks <code>AkumaProtection.canBreakBlocksAt(entity, pos)</code> for a change that lasts (a block melted, carried off, turned to another for good), and keeps <code>canAlterBlocksAt</code> for one given back or that breaks nothing. An addon's own temporary change made through <code>NuWorld.setBlockState</code> on an NPC's behalf goes in <code>NpcGriefing.temporarily(() -&gt; ...)</code>.</p>
 
 
 

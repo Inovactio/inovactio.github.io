@@ -8741,6 +8741,8 @@
       
         
       
+        
+      
     
     
     
@@ -9009,6 +9011,34 @@
     
   
     Held inputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../core-concepts/civilian-faction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The civilian faction
   
 
     
@@ -11945,11 +11975,11 @@
 <p>An injection into a hot path is paid by every addon, including those that never use the feature. That cost is weighed before any mixin is added.</p>
 </div>
 <h2 id="versioning">Versioning<a class="headerlink" href="#versioning" title="Permanent link">&para;</a></h2>
-<p><strong>Publishing freezes the API.</strong> A breaking change to the shared surface is a <strong>major</strong> version bump and forces a synchronised release of the library and its addons. In your <code>mods.toml</code>, give AkumaLib a version range that excludes the next major:</p>
+<p><strong>Publishing freezes the API.</strong> A breaking change to the shared surface is a <strong>major</strong> version bump and forces a synchronised release of the library and its addons. In your <code>mods.toml</code>, give AkumaLib a version range that names the lowest version you need and leaves the top open, so a player can run any newer AkumaLib. A range that stops at the next major (<code>[4.0.0,5)</code>) refuses it and forces a new release of your addon:</p>
 <div class="highlight"><span class="filename">META-INF/mods.toml</span><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">[[dependencies.yourmodid]]</span>
 <a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">    </span><span class="n">modId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"akumalib"</span>
 <a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">    </span><span class="n">mandatory</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
-<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">    </span><span class="n">versionRange</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"[4.0.0,5)"</span>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">    </span><span class="n">versionRange</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"[5.0.0,)"</span>
 <a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">    </span><span class="n">ordering</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"AFTER"</span>
 <a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="w">    </span><span class="n">side</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"BOTH"</span>
 </code></pre></div>
