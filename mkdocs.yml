@@ -351,6 +351,7 @@ nav:
           - Charges: akumalib/core-concepts/charges.md
           - Awakening abilities: akumalib/core-concepts/awakenings.md
           - Held inputs: akumalib/core-concepts/held-inputs.md
+          - The civilian faction: akumalib/core-concepts/civilian-faction.md
       - Ability base classes:
           - akumalib/ability-base-classes/index.md
           - Zones: akumalib/ability-base-classes/zones.md

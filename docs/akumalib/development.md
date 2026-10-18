@@ -96,13 +96,13 @@ The library ships its own mixin configuration, `mixins.akumalib.json`:
 
 ## Versioning
 
-**Publishing freezes the API.** A breaking change to the shared surface is a **major** version bump and forces a synchronised release of the library and its addons. In your `mods.toml`, give AkumaLib a version range that excludes the next major:
+**Publishing freezes the API.** A breaking change to the shared surface is a **major** version bump and forces a synchronised release of the library and its addons. In your `mods.toml`, give AkumaLib a version range that names the lowest version you need and leaves the top open, so a player can run any newer AkumaLib. A range that stops at the next major (`[4.0.0,5)`) refuses it and forces a new release of your addon:
 
 ```toml title="META-INF/mods.toml"
 [[dependencies.yourmodid]]
     modId = "akumalib"
     mandatory = true
-    versionRange = "[4.0.0,5)"
+    versionRange = "[5.0.0,)"
     ordering = "AFTER"
     side = "BOTH"
 ```
