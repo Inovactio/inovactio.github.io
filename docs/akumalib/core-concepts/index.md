@@ -12,3 +12,4 @@ These pages cover the rules that apply across the whole library, whatever base c
 | [Charges](charges.md) | Why an interrupted charge delivers its full effect, and the one line that stops it |
 | [Awakening abilities](awakenings.md) | Marking a fruit's awakening: its own tab in the abilities screen, off the fruit's tooltip |
 | [Held inputs](held-inputs.md) | Why a right click in the open air never reaches the server, and how an ability learns that a key is held |
+| [The civilian faction](civilian-faction.md) | What turns a civilian pirate: blows on the law, thefts, and how an addon reports one |

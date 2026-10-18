@@ -164,6 +164,21 @@ this.continuousComponent
 !!! warning "The base mod's flight is not vanilla flight"
     `PropelledFlightAbility` never sets `player.getAbilities().flying`: it turns gravity off and drives the velocity itself. Read `isNoGravity()` if you need to know whether a player is flying, and never enable a flight through a pause (`takeOff` refuses to) - haki overuse, Seastone and protected areas pause a passive to take flight away.
 
+### NPCs that fly
+
+*Since 5.0.0.* The base mod's flight works for players only: an NPC that draws the fruit takes the forms and stays on the ground. Give the flight passive a goal wrapper, `FlightAbilityWrapperGoal`, and the NPC flies from the server, with no input:
+
+```java
+new AbilityCore.Builder<>(id, name, AbilityCategory.DEVIL_FRUITS, AbilityType.PASSIVE, MyFlight::new)
+        .addGoalWrapper((mob, core) -> new FlightAbilityWrapperGoal<>(mob, core).yieldTo(MyStoopAbility.INSTANCE))
+```
+
+- Any flight passive takes it: a `PropelledFlightAbility` flies at its own top speed, any other one (the base mod's `FlyAbility`, players only too) at `setSpeed` blocks a tick (0.5).
+- It takes off while the flight may be used (a flying form held: the same gate as a player's) and the target is seen, then circles the target 8 blocks above and 6 out (`setHeight`, `setRadius`), and every 5 seconds makes a low pass for 1.5 seconds, a block and a half beside its head (`setPassEvery(100, 30)`).
+- After 20 seconds in the air it comes down and rests 10 seconds on the ground (`setFlyTicks(400)`, `setRestTicks(200)`): a player with no bow gets his chance. It also comes down when the target is gone, and falls when the form ends, as a player does.
+- While a dive (`DiveStrikeAbility`) runs, or a technique named in `yieldTo` (a stoop that drives the body itself), the goal lets it move the body. It flies through every other one: a hold carried off, a haki or a buff that lasts the whole fight.
+- A technique used from right over the target (a stoop, a talon that seizes) goes on `AboveTargetAbilityWrapperGoal`: it starts in the air within `setReach` blocks of the target side to side (3) and `setMinDrop` above it (2), where the low passes take the NPC, and ends with its continuity. A dive from the circle (`DiveStrikeAbility`) goes on the base mod's `Repeater`, which turns the NPC to its target first.
+
 ## `BlockPassageAbility`
 
 A technique during which its user passes through blocks: a dive under the ground, a walk through a wall. Nothing is dug: the blocks are passed through, as in the base mod's own Free Swimming.
