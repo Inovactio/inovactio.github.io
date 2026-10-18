@@ -6,10 +6,10 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.97%**, iron **0.148%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.71%**, iron **0.136%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 10 active, 1 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Vampire Assault Point](#vampire-assault-point), [Vampire Fly Point](#vampire-fly-point) |
-| **Effects applied** | ![](../effect-icons/aged.png){ .effect-mini }[Aged](../effects.md#effect-aged), ![](../effect-icons/in-his-darkness.png){ .effect-mini }[In His Darkness](../effects.md#effect-in-his-darkness), ![](../effect-icons/stolen-youth.png){ .effect-mini }[Stolen Youth](../effects.md#effect-stolen-youth), ![](../effect-icons/swarm-of-bats.png){ .effect-mini }[Swarm of Bats](../effects.md#effect-swarm-of-bats) |
+| **Effects applied** | ![](../effect-icons/aged.png){ .effect-mini }[Aged](../effects.md#effect-aged), ![](../effect-icons/in-his-darkness.png){ .effect-mini }[In His Darkness](../effects.md#effect-in-his-darkness), ![](../effect-icons/swarm-of-bats.png){ .effect-mini }[Swarm of Bats](../effects.md#effect-swarm-of-bats) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -65,7 +65,7 @@ At night or in the dark, the cut makes them bleed
 
 ![](../abilities/draining-bite.png){ .ability-icon } *Active*
 
-Applies ![](../effect-icons/aged.png){ .effect-mini }[Aged](../effects.md#effect-aged), ![](../effect-icons/stolen-youth.png){ .effect-mini }[Stolen Youth](../effects.md#effect-stolen-youth)
+Applies ![](../effect-icons/aged.png){ .effect-mini }[Aged](../effects.md#effect-aged)
 
 The user bites the enemy in front of them and drains their youth, the enemy grows old, slower and weaker while the user is healed and becomes stronger and faster. Each bite makes the user stronger
 
@@ -78,6 +78,10 @@ At night or in the dark, the bite deals more damage and heals more
 | Cooldown | 12 s |
 | Damage | 10–15 |
 | Range | 3.5 blocks (line) |
+| Attack Damage per Bite | +10 % |
+| Movement Speed per Bite | +5 % |
+| Bites at Most | 5 |
+| Duration | 60 s |
 
 ## Give Back { #give-back }
 

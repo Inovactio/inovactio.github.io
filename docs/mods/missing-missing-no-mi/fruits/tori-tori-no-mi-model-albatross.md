@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.88%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 6: 4 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Albatross Assault Point](#albatross-assault-point), [Albatross Fly Point](#albatross-fly-point) |
 

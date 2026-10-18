@@ -7,9 +7,9 @@
 | **Type** | Paramecia |
 | **Theme** | Cream |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.59%**, wooden **0.079%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.46%**, wooden **0.073%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 6 active, 1 passive |
-| **Effects applied** | ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn), [Spared by the Cream](../effects.md#effect-spared-by-the-cream) |
+| **Effects applied** | ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -74,8 +74,6 @@ The user sends a wave of cream in front of them, which hits all enemies in its p
 ## Cream Flood { #cream-flood }
 
 ![](../abilities/cream-flood.png){ .ability-icon } *Active*
-
-Applies [Spared by the Cream](../effects.md#effect-spared-by-the-cream)
 
 The user spreads cream on the ground around them. Enemies that walk in it are slowed and burnt by the cream
 

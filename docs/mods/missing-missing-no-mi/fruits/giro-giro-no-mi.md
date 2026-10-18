@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Glare |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.88%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 5: 4 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/giro-sight.png){ .effect-mini }[Giro Sight](../effects.md#effect-giro-sight) |
 

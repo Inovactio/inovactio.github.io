@@ -233,10 +233,12 @@ nav:
               - "Fude Fude no Mi": mods/missing-missing-no-mi/fruits/fude-fude-no-mi.md
               - "Fuku Fuku no Mi": mods/missing-missing-no-mi/fruits/fuku-fuku-no-mi.md
               - "Fuwa Fuwa no Mi": mods/missing-missing-no-mi/fruits/fuwa-fuwa-no-mi.md
+              - "Gabu Gabu no Mi": mods/missing-missing-no-mi/fruits/gabu-gabu-no-mi.md
               - "Gasha Gasha no Mi": mods/missing-missing-no-mi/fruits/gasha-gasha-no-mi.md
               - "Giro Giro no Mi": mods/missing-missing-no-mi/fruits/giro-giro-no-mi.md
               - "Gocha Gocha no Mi": mods/missing-missing-no-mi/fruits/gocha-gocha-no-mi.md
               - "Goru Goru no Mi": mods/missing-missing-no-mi/fruits/goru-goru-no-mi.md
+              - "Gunyo Gunyo no Mi": mods/missing-missing-no-mi/fruits/gunyo-gunyo-no-mi.md
               - "Guru Guru no Mi": mods/missing-missing-no-mi/fruits/guru-guru-no-mi.md
               - "Gutsu Gutsu no Mi": mods/missing-missing-no-mi/fruits/gutsu-gutsu-no-mi.md
               - "Hira Hira no Mi": mods/missing-missing-no-mi/fruits/hira-hira-no-mi.md
@@ -258,14 +260,19 @@ nav:
               - "Mochi Mochi no Mi": mods/missing-missing-no-mi/fruits/mochi-mochi-no-mi.md
               - "Modo Modo no Mi": mods/missing-missing-no-mi/fruits/modo-modo-no-mi.md
               - "Mosa Mosa no Mi": mods/missing-missing-no-mi/fruits/mosa-mosa-no-mi.md
+              - "Muchi Muchi no Mi": mods/missing-missing-no-mi/fruits/muchi-muchi-no-mi.md
               - "Noko Noko no Mi": mods/missing-missing-no-mi/fruits/noko-noko-no-mi.md
               - "Nui Nui no Mi": mods/missing-missing-no-mi/fruits/nui-nui-no-mi.md
               - "Nuke Nuke no Mi": mods/missing-missing-no-mi/fruits/nuke-nuke-no-mi.md
               - "Pamu Pamu no Mi": mods/missing-missing-no-mi/fruits/pamu-pamu-no-mi.md
               - "Peto Peto no Mi": mods/missing-missing-no-mi/fruits/peto-peto-no-mi.md
+              - "Riki Riki no Mi": mods/missing-missing-no-mi/fruits/riki-riki-no-mi.md
+              - "Shiku Shiku no Mi": mods/missing-missing-no-mi/fruits/shiku-shiku-no-mi.md
+              - "Shima Shima no Mi": mods/missing-missing-no-mi/fruits/shima-shima-no-mi.md
               - "Toki Toki no Mi": mods/missing-missing-no-mi/fruits/toki-toki-no-mi.md
               - "Ton Ton no Mi": mods/missing-missing-no-mi/fruits/ton-ton-no-mi.md
               - "Uta Uta no Mi": mods/missing-missing-no-mi/fruits/uta-uta-no-mi.md
+              - "Wapu Wapu no Mi": mods/missing-missing-no-mi/fruits/wapu-wapu-no-mi.md
           - Logia:
               - "Ame Ame no Mi": mods/missing-missing-no-mi/fruits/ame-ame-no-mi.md
               - "Mori Mori no Mi": mods/missing-missing-no-mi/fruits/mori-mori-no-mi.md
@@ -276,6 +283,7 @@ nav:
               - "Batto Batto no Mi, Model: Vampire": mods/missing-missing-no-mi/fruits/batto-batto-no-mi-model-vampire.md
               - "Hebi Hebi no Mi, Model: Yamata no Orochi": mods/missing-missing-no-mi/fruits/hebi-hebi-no-mi-model-yamata-no-orochi.md
               - "Hito Hito no Mi, Model: Onyudo": mods/missing-missing-no-mi/fruits/hito-hito-no-mi-model-onyudo.md
+              - "Inu Inu no Mi, Model: Kyubi no Kitsune": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-kyubi-no-kitsune.md
               - "Inu Inu no Mi, Model: Tanuki": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-tanuki.md
               - "Inu Inu no Mi, Model: Wolf": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-wolf.md
               - "Kumo Kumo no Mi, Model: Rosamygale Grauvogeli": mods/missing-missing-no-mi/fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md
@@ -289,6 +297,7 @@ nav:
               - "Tori Tori no Mi, Model: Albatross": mods/missing-missing-no-mi/fruits/tori-tori-no-mi-model-albatross.md
               - "Tori Tori no Mi, Model: Eagle": mods/missing-missing-no-mi/fruits/tori-tori-no-mi-model-eagle.md
               - "Tori Tori no Mi, Model: Falcon": mods/missing-missing-no-mi/fruits/tori-tori-no-mi-model-falcon.md
+              - "Uma Uma no Mi, Model: Pegasus": mods/missing-missing-no-mi/fruits/uma-uma-no-mi-model-pegasus.md
       - All abilities: mods/missing-missing-no-mi/all-abilities.md
       - Status effects: mods/missing-missing-no-mi/effects.md
       - Changelog: mods/missing-missing-no-mi/changelog.md

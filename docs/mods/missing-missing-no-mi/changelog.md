@@ -2,6 +2,195 @@
 
 Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/all).
 
+## 4.0.0 (beta) { #v4-0-0 }
+
+<small>Released TO-FILL · Beta · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/TO-FILL)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Wave 8: the Blackbeard Pirates, and two Marines.</strong> Nine new Devil Fruits: Shiku Shiku, Wapu Wapu, Riki Riki, Gabu Gabu, Muchi Muchi, Shima Shima, Gunyo Gunyo, Inu Inu no Mi, Model: Kyubi no Kitsune and Uma Uma no Mi, Model: Pegasus. Mine Mine no Mi's captains, notorious NPCs and troops can now eat this addon's fruits and fight with them, the flying Zoans in the air. Many older fruits get their own particles and redrawn icons, and bonuses now show as stats instead of potion effects.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 5.0.0</strong> or newer. Client and server.</p>
+<p>⚠️ <strong>AkumaLib 5.0.0 is now the minimum.</strong> Update it before this version.</p>
+<p>⚠️ <strong>Servers: set <code>allow-flight=true</code></strong> in <code>server.properties</code>, as before. Several fruits fly (now the Pegasus too), and without it the server kicks their users.</p>
+<hr />
+<h2>Paramecia</h2>
+<h3>Shiku Shiku no Mi</h3>
+<p><em>Iron box · 5 abilities</em></p>
+<p>Diseases that pass from the sick to everyone near them, but never back to you.</p>
+<ul>
+<li><strong>Fever</strong>: the enemy you look at moves slower and every blow it deals, techniques too, is 30 % weaker.</li>
+<li><strong>Wasting</strong>: the sick one loses 1 health every 2 s and nothing heals it. A death by Wasting is yours, even when the disease passed on from another body: the loot, the bounty and the kill count go to you.</li>
+<li><strong>Coughing Fit</strong>: now and then one of the sick one's ready abilities fails and has to wait 5 s.</li>
+<li><strong>Feminization Disease</strong>: lasts 2 minutes and passes the furthest. A player is drawn with the other skin build, and anyone who catches it is dazed for 3 s.</li>
+<li><strong>Epidemic</strong>: a cloud of the last disease you gave, laid where you look. Everyone in it catches the disease, but never you. It only reaches those in sight of its heart.</li>
+<li><strong>Contagion</strong>: a sick body passes each disease to everyone close to it, friend or foe. The four diseases hold one another back for 6 s after a cast.</li>
+<li><strong>Antibodies</strong>: a strong Haki breaks the diseases and cures the sick around. Each cured body is then immune for 30 s to the diseases it had, not to the others.</li>
+</ul>
+<h3>Wapu Wapu no Mi</h3>
+<p><em>Iron box · 8 abilities</em></p>
+<p>Warps for you, your allies, your foes and your shots.</p>
+<ul>
+<li><strong>Warp</strong>: you are in an instant where you look, up to 40 blocks, on the ground your sight meets or in the air at its end. Never through a wall, never into water or lava. A warp does not save you from a fall.</li>
+<li><strong>Warp Other</strong>: touch the enemy in front of you and it is warped 24 blocks where you look. Bosses are too strong for it, and it never drops a body over the void.</li>
+<li><strong>Group Warp</strong>: you warp with your own creatures around you. A player comes along only if he crouches.</li>
+<li><strong>Catch</strong>: the ally you look at, up to 64 blocks, is warped to your side, and its fall is forgotten. A player must crouch to be caught.</li>
+<li><strong>Warp Shot</strong>: for 10 s every projectile you fire comes out behind the enemy you look at, flying at its back.</li>
+<li><strong>Reflex Warp</strong>: for 5 s you are on guard. The first blow or shot that hurts misses you and you come out behind the one who dealt it.</li>
+<li><strong>Behind the Back</strong>: you warp behind the enemy you look at, up to 24 blocks, facing its back. Your first blow on it within 2 s deals 1.5 times the damage.</li>
+<li><strong>Scatter</strong>: every enemy and flying projectile within 6 blocks is warped 4 to 8 blocks away, each its own way. Your pets and crouching allies stay.</li>
+</ul>
+<h3>Riki Riki no Mi</h3>
+<p><em>Iron box · 9 abilities</em></p>
+<p>An abnormal strength: you tear a mountain out of the ground and throw it. The ground you tear out always closes again.</p>
+<ul>
+<li><strong>Strength</strong> (passive): +4 punch damage, every blow throws further, and your bare hands break blocks twice as fast.</li>
+<li><strong>Mountain Throw</strong>: a mass of ground is torn out in front of you and carried over your head. Use it again to throw it where you look. It bursts for 30 on what it hits. Natural ground only.</li>
+<li><strong>Lift</strong>: the enemy in front of you is held over your head. Use it again to throw it, and it takes 12 when it slams into something. Shorter on players and bosses.</li>
+<li><strong>Ground Slam</strong>: both fists on the ground. The enemies around take 14 and are thrown up and away.</li>
+<li><strong>Charged Punch</strong>: drawn back up to 3 s, let go by a second press. From 8 to 40 damage, harder and further the longer it is drawn.</li>
+<li><strong>Leap</strong>: hold the key up to 4 s and you crouch to gather strength. A tap is a short leap, a full charge goes about 60 blocks high. You take no fall damage, and where you land a shock deals 4 to 24 to the enemies around, with an explosion, more from higher. Cooldown 8 to 20 s.</li>
+<li><strong>Pillar Sweep</strong>: tears out the tree trunk you look at, or a pillar of ground, and holds it as a club. Each further press sweeps a half circle in front for 14. 3 sweeps or 10 s, then it crumbles.</li>
+<li><strong>Rock Volley</strong>: tears up the ground in front of you and hurls it as 7 chunks in a fan, 5 each.</li>
+<li><strong>Clap</strong>: a shock in front of you. 6 damage, the enemies are thrown back and stunned 1.5 s.</li>
+<li>Leap and Ground Slam work from the ground only. Mountain Throw, Lift and the club take your hands, so only one at a time.</li>
+</ul>
+<h3>Gabu Gabu no Mi</h3>
+<p><em>Wooden box · 6 abilities</em></p>
+<p>Your body makes the liquor, and your liquor makes everyone else drunk.</p>
+<ul>
+<li><strong>Suiken</strong> (passive): every bare-hand blow that lands makes the enemy a little drunk.</li>
+<li><strong>Shugo Roppu</strong>: after a great gulp, a stream of burning liquor 8 blocks ahead for 2 s, 28 damage in all. It stops at walls.</li>
+<li><strong>Sake Shibuki</strong>: liquor spat in a cone in front of you. No damage, but the enemies get very drunk.</li>
+<li><strong>Shuki</strong>: a cloud of fumes where you look, up to 16 blocks. Enemies in it get more drunk every second they stay.</li>
+<li><strong>Sakedeppo</strong>: a jet of liquor at the enemy you look at, up to 24 blocks. 6 damage, it pushes it back and makes it very drunk.</li>
+<li><strong>Tokkuri</strong>: fills up to 4 empty glass bottles of your bag with liquor.</li>
+<li><strong>Drunkenness</strong>: a drunk body sways and its walk drifts. Very drunk, one blow in four misses and one shot in four goes astray. Too drunk, it falls asleep for 4 s, until a blow wakes it. When the drunkenness wears off, a hangover makes it weaker and slower for a while. A Gabu user is never drunk.</li>
+<li><strong>Liquor Bottle</strong>: anyone can use it. Thrown, it shatters and makes everyone around drunk, but the thrower's allies. Drunk while crouching, it heals 4.</li>
+</ul>
+<h3>Muchi Muchi no Mi</h3>
+<p><em>Iron box · 9 abilities</em></p>
+<p>A whip, and whatever it lashes obeys. Every order is one stroke that reaches 12 blocks and needs the whip in hand.</p>
+<ul>
+<li><strong>Whip</strong>: takes the whip out into your empty hand, with a long reach. Use it again to put it away. It vanishes if it leaves your hands.</li>
+<li><strong>Lash</strong>: a player lashed obeys a short order: stop, step back or drop what he holds.</li>
+<li><strong>Obey</strong>: the creature you lash fights for you for 30 s. Three at most, never a boss.</li>
+<li><strong>Move!</strong>: the ground you lash tears itself out, flies at the nearest enemy and bursts for 18. Never under someone you may not fight. The hole closes after a while.</li>
+<li><strong>Close in!</strong>: the ground closes round the enemy you lash, a cage that holds it for 4 s, 2 s on players and bosses.</li>
+<li><strong>Back!</strong>: the projectile you lash turns back on the one who sent it.</li>
+<li><strong>Stand!</strong>: the ground you lash rises as a wall that stops bodies and shots. Use it again to bring it down.</li>
+<li><strong>Halt!</strong>: the one you lash cannot move, 3 s for a player and 5 s for a creature. It can still fight back.</li>
+<li><strong>Kneel!</strong>: the one you lash cannot jump nor sprint and walks slower, 6 s for a player and 10 s for a creature. Halt! and Kneel! hold each other back for 4 s.</li>
+</ul>
+<h3>Shima Shima no Mi</h3>
+<p><em>Golden box · 8 abilities</em></p>
+<p>You merge with the island and move it as your own body. The more solid ground around you, the bigger the island, from x1 to x6, and everything grows with it: size, reach, damage and cooldowns.</p>
+<ul>
+<li><strong>Merge</strong>: you sink into the ground in 2 s (a blow stops it) and become the spirit of the island. Unseen and out of reach, you fly through everything around the place you sank. Use it again to come out where you aim. Only your arms and face can be hurt, and half of each blow on them reaches you. While merged, only the island's techniques answer you. The other ones are greyed on the bar while you are not merged.</li>
+<li><strong>Island Arm</strong>: a giant arm of ground rises beside where you aim and strikes down on it, 26 damage at x1 up to 156 at x6.</li>
+<li><strong>Island Hand</strong>: a giant hand seizes the one you aim at and holds it up. Use it again to throw it where you look. Half as long on players and bosses.</li>
+<li><strong>Arm Swarm</strong>: 12 small arms rise in a field where you aim and strike every creature there once.</li>
+<li><strong>Island Face</strong>: a huge face of rock rises where you sank, and it is your own head, at giant size, made of ground. It speaks when you talk in the chat, and used again it rises where you aim.</li>
+<li><strong>Face Bite</strong>: the face turns to the nearest enemy, opens its jaw and bites everything in front of its mouth.</li>
+<li><strong>Rising Ground</strong>: spikes in a line that throw enemies up, or a wall that stops bodies and shots (the ability mode key changes it).</li>
+<li><strong>Itch</strong> (passive): merged, you feel every creature standing on your land, and those around your face.</li>
+<li>No block of the world is touched: the arms, the face and the spikes take the colour of the ground they rise from.</li>
+</ul>
+<h3>Gunyo Gunyo no Mi</h3>
+<p><em>Iron box · 9 abilities</em></p>
+<p>Clay out of your body, soft or hardened. Your golems always form again, and the clay never stays in the world.</p>
+<ul>
+<li><strong>Golems</strong>: three clay golems rise and fight for you, 80 health and 10 a blow, slow and heavy. A broken golem melts and forms again after 10 s, 20 s if the blow had Haki or it stood in water. Use it again to melt them all.</li>
+<li><strong>Giant Golem</strong>: your golems merge into one giant twice their size, 240 health and 22 a blow. Use it again to split it. Broken, it melts and the three form again after 20 s.</li>
+<li><strong>Nyudo Gunyo</strong>: a bed of soft clay where you aim. Nobody takes fall damage on it, and enemies sink in, very slow and unable to jump. Use it again to take it away.</li>
+<li><strong>Gunyo no Su</strong>: a standing clay web where you aim, bigger the longer you hold the key, up to 3 s. It stops every projectile and holds the enemies that touch it for 3 s.</li>
+<li><strong>Clay Weapon</strong>: a hardened spiked morning star in your hand, 9 damage a blow.</li>
+<li><strong>Clay Wall</strong>: five panels of clay across your sight, soft then hard. Bodies and shots stop on them.</li>
+<li><strong>Bury</strong>: soft clay climbs the enemy you look at and holds it for 3 s. It cannot move nor hit.</li>
+<li><strong>Clay Armour</strong>: a heavy armour of hardened clay plates and a closed helm, worn until you take it off. +12 armour, +4 armour toughness, +4 punch, resistance to knockback, 15 % slower. Cooldown 40 s once it is off.</li>
+<li><strong>Clay Bridge</strong>: a path of mud bricks 3 wide from your feet to where you aim, up to 16 blocks, flat or as stairs. It only fills empty space and goes after 20 s.</li>
+</ul>
+<h2>Zoan</h2>
+<h3>Inu Inu no Mi, Model: Kyubi no Kitsune</h3>
+<p><em>Golden box · 9 abilities</em></p>
+<p>The nine-tailed fox spirit, who takes the look of whoever she touched. Every technique needs one of her two forms, but Face Touch and Disguise.</p>
+<ul>
+<li><strong>Kyubi Heavy Point</strong>: a fox-woman with nine tails, quick and strong.</li>
+<li><strong>Kyubi Walk Point</strong>: a great nine-tailed vixen, fast with long jumps. She sits while crouching, her tails curled round her.</li>
+<li><strong>Face Touch</strong>: you touch whoever you look at and remember their look. The Mane Mane no Mi's own, shared.</li>
+<li><strong>Disguise</strong>: you take a look you remember, until you use it again or take a blow. A look taken ends the fox forms, and a form taken ends the look.</li>
+<li><strong>Tail Sweep</strong>: the nine tails sweep all round you, 20 as the hybrid and 24 as the vixen. Enemies are thrown away.</li>
+<li><strong>Nine Tails</strong>: the tails strike in front of you one after the other, nine times.</li>
+<li><strong>Fox Fire</strong>: three pale flames follow the enemy you look at and set it on fire, 9 each. With no one in sight they go for the nearest monster first, never a tamed animal.</li>
+<li><strong>Fox Fire Ring</strong>: 5 pale flames turn round you for 10 s. A flame that touches an enemy burns it and is spent. Use it again to throw the flames left at the enemy you look at.</li>
+<li><strong>Vanish</strong>: you are unseen for 4 s and leave a false image where you stood, in your form, your armour and your held item. Monsters go for the image, which goes at the first blow. Striking a blow shows you again.</li>
+</ul>
+<h3>Uma Uma no Mi, Model: Pegasus</h3>
+<p><em>Golden box · 11 abilities</em></p>
+<p>The war mount of the addon. It flies in both forms and carries two players on its back, who keep fighting.</p>
+<ul>
+<li><strong>Pegasus Assault Point</strong>: the winged horse-man. It flies and fights with hooves and wings.</li>
+<li><strong>Pegasus Fly Point</strong>: the whole winged war horse. It stands on the ground until a double jump takes it up.</li>
+<li><strong>Pegasus Flight</strong>: flies in both forms, never slowed nor tired by its riders.</li>
+<li><strong>Pegasus Rideable</strong>: two other players ride on its back. Only those it may not fight get a seat, their falls are spared, and their blows never reach it.</li>
+<li><strong>Charge</strong>: a gallop on the ground or in the air, 22 to every enemy in its path, thrown aside.</li>
+<li><strong>Hoof Kick</strong>: it bucks and kicks behind it, 24 and a hard throw back.</li>
+<li><strong>Wing Gust</strong>: the wings beat forward, 8 and a strong push to every enemy in front.</li>
+<li><strong>Dive</strong>: a leap if on the ground, then a dive on the enemy you look at. 34 to everyone around the landing.</li>
+<li><strong>Rearing</strong>: it rears and crashes its forehooves, 18 to every enemy in front, thrown up.</li>
+<li><strong>Tailwind</strong>: for 10 s, +40 % movement speed to you, your riders, your pets and the players around who crouch.</li>
+<li><strong>Feather Volley</strong>: 9 white feathers in a fan where you look, 4 each.</li>
+<li>Its blows never reach its own riders.</li>
+</ul>
+<hr />
+<h2>Changes</h2>
+<ul>
+<li><strong>NPCs use this addon's fruits.</strong> Mine Mine no Mi's captains, notorious NPCs and troops can now draw the fruits of every wave, from Ami Ami to Shiku Shiku, and fight with most of their techniques. The weakest troops get the wooden box fruits. Only the Uta Uta no Mi and the Hobi Hobi no Mi stay out.</li>
+<li><strong>Zoans</strong> take their fighting form up close and the other form further off.</li>
+<li><strong>Flying fruits fly on an NPC</strong>: the Falcon, the Eagle, the Albatross, the Kabutomushi, the Suzumebachi, the Triceratops, the Vampire and the Pegasus, the Guru propeller, the Mori flower, the Fuwa float and the Buku book. They circle over you, dive on you and come down to rest.</li>
+<li>Giants take their big form only where they fit. A Tama NPC must be killed as an egg, a chick and a rooster, an Orochi NPC eight times.</li>
+<li>Each NPC aims at its own target, its summons fight for it, and what it leaves behind (servants, caught shots, a worn look) is let go when it dies or leaves.</li>
+<li>An NPC's gold, metal and turret bullets never run out, and nothing of it can be farmed: a Fuku NPC keeps its own armour, an NPC's turret drops nothing.</li>
+<li><strong>NPCs with this addon's fruits break no blocks</strong>, as for the base mod's fruits, unless the server sets <code>npcAbilityGriefing</code> to true in <code>akumalib-server.toml</code> (off by default): no ice melted by the Atsu Atsu no Mi, no blocks carried off by Item Kaiten, Gauntlet Grab, Desmontar or Cubreak, no ground changed by Back to Lava or Entomb. Players are not affected.</li>
+<li><strong>Bonuses are stats, not potion effects.</strong> They now show in the tooltip, with the same numbers:</li>
+<li><strong>Draining Bite</strong> (Vampire): each bite gives +10 % attack damage and +5 % movement speed, 5 bites at most, for 60 s. Give Back takes them all off. The Stolen Youth effect is gone.</li>
+<li><strong>Sefer Briah</strong> (Pasa) and <strong>Tsukuroi</strong> (Nui): their own heal over 5 s instead of Regeneration.</li>
+<li><strong>Grande</strong> (Kote): the dome cuts the damage taken inside by 20 % for you and those who are not your enemies.</li>
+<li><strong>Coiled Guard</strong> (Orochi) and <strong>Monk's Guard</strong> (Onyudo): the stance's slowness is a speed stat while it holds.</li>
+<li>Kibi Dango, Kibi Dan-boshi and Full Strength still give effects, and now write them in their tooltips.</li>
+<li><strong>Their own particles.</strong> Ink for the Fude Fude, molten metal for the Gutsu Gutsu, gold flakes for the Goru Goru, steam for the Atsu Atsu, violet spores for the Noko Noko, leaves for the Mosa Mosa, venom for the Rosamygale and the Suzumebachi, mirror shards for the Mira Mira, a dial of time for the Toki Toki, pink notes for the Uta Uta, cyan lightning for the Kote Kote, paint for the Ato Ato, rot for the Juku Juku and blood for the Vampire. Every new fruit of this wave has its own too.</li>
+<li><strong>Redrawn icons</strong>, in the style of Mine Mine no Mi, one colour for each fruit: Gocha, Buku, Vampire, Mochi, Bisu, Hoya, Memo, Uta, Eagle, Pasa, Nuke, Maki, Kote, Mira, Moa, Koro, Gutsu, Kuri, Fude, Fuku, Onyudo, Rosamygale, Spinosaurus, Toki, Albatross, Mosa, Noko, Tama and Orochi, with the status effect icons that go with them. Venom Bite and Cling are redrawn to read on the bar.</li>
+<li><strong>Mochi Mochi no Mi.</strong></li>
+<li><strong>Zan Giri Mochi</strong> is now a sweep: one second of twisting, then a giant mochi arm sweeps round you, 8 blocks out, and throws every enemy it crosses.</li>
+<li><strong>Yaki Mochi</strong> is readied for 5 s, and each swing throws a burning fist, 3 at most.</li>
+<li><strong>Naguri Mochi</strong> and <strong>Mochi Ginchaku</strong> punch in a fast rush pose.</li>
+<li>The rings of <strong>Muso Donuts</strong> are lumpy and hand-shaped, and float over your head at different heights.</li>
+<li><strong>Cooldowns.</strong> Chikara Mochi 25 s (was 12 s), Peck 5 s (was 3 s).</li>
+<li><strong>Riders.</strong> The Albatross, the Falcon and the Kabutomushi take the Pegasus's rules: no seat for an enemy, a rider's fall is spared, riders' blows never hit the mount, no choking in a wall, and a rider who leaves in flight comes back on the ground. Beak Strike no longer hits its own rider.</li>
+<li><strong>Charges in their path.</strong> Double Roll Pretzel (Bisu) and Spiked Charge (Ame) strike only what they run through in front, once a dash.</li>
+<li><strong>Biscuit Hei</strong>: a lost soldier comes back 10 s after its loss, beside the others.</li>
+<li><strong>Totem Cube</strong> can be used right after another technique.</li>
+<li><strong>A failed press costs a short wait</strong> on many techniques, instead of nothing: Torreta, Soldado, Entomb, Order, Levitation, Jusshigan, Cling, Marianette, Oshizumaria, Cocoon, Hard Gum, Ikidomaria, Web Trap, Magnumceratops, Eightfold Strike, Jaw Grab, Sinkhole, Send Ahead and Postpone.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>The Vampire was missing from the creative tab.</strong> With another addon that adds items after this one, the Batto Batto no Mi, Model: Vampire was pushed out of the Devil Fruits tab and the search tab. It now stays.</li>
+<li><strong>Toboe</strong> kept its night bonus of +3 damage and speed for good after a logout mid-hunt. A player who still has it loses it at login.</li>
+<li><strong>Magnumceratops</strong> hurt bodies it could not see from where it landed, under a roof.</li>
+<li><strong>Crawling, swimming and sleeping in a form</strong> now use the form's own eyes. The Ame spear no longer suffocates crawling in a one-block gap.</li>
+<li><strong>Creative players, players with PvP off and other players' pets</strong> are no longer hit or aimed at by Keep Out, Death Enjambre, Vipera Glaive, Kare-San-Sui, the Atsu heat ball, the Vampire dark shot, the Gutsu molten shot, the Numa mud ball, the Pasa sheet, the Toro blast and iron ball. The Ame syrup spares them too.</li>
+<li><strong>Bisu</strong>: a soldier lost far away and found again no longer makes a fourth one.</li>
+<li><strong>Piglins and other creatures that hunt by memory</strong> now forget their quarry after Levitation, Order, Toki Ahead and the Uta dream.</li>
+<li><strong>Gekitsui</strong> no longer sets a body inside a wall.</li>
+<li><strong>Arm the Crew</strong> (Gutsu) arms every creature that is yours: toys, puppets and pets.</li>
+<li><strong>Kyukoka</strong> (Falcon) now shows the dive pose.</li>
+<li><strong>Cream Body</strong> (Kuri) burns only a bare-handed blow, not a sonic boom or an explosion.</li>
+<li><strong>Fire weakness</strong> of the Mori Mori and the Pasa Pasa now counts fire techniques too, not only fire in the world.</li>
+<li><strong>The Ami cage and net</strong> let go of a player who died and came back.</li>
+<li><strong>A body held under water</strong> by Vise or Paper Wrap can drown again.</li>
+<li><strong>Creatures lent</strong> by the Kote Kote's Solmente no longer breed young that stay yours.</li>
+<li><strong>Muso Donuts</strong> was missing the second line of its description.</li>
+</ul>
+</div>
+
 ## 3.0.0 (beta) { #v3-0-0 }
 
 <small>Released 2026-10-15 · Beta · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9195525)</small>

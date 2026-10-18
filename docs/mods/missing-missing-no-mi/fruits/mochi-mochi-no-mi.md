@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Mochi |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.97%**, iron **0.148%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.71%**, iron **0.136%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 23: 22 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/stuck-in-mochi.png){ .effect-mini }[Stuck in Mochi](../effects.md#effect-stuck-in-mochi) |
 
@@ -126,7 +126,9 @@ The user's forearm swells and shoots its fist far away, so fast that it catches 
 | Damage type | Fist, Projectile, Physical |
 | Haki | Hardening |
 | Cooldown | 11 s |
+| Hold | 5 s |
 | Damage | 18 |
+| Fists | 3 |
 
 ## Yanagi Mochi { #mochi-yanagi }
 
@@ -207,11 +209,12 @@ The user turns into a ring of mochi and rolls forward. The first enemy it meets 
 
 | Stat | Value |
 |---|---|
-| Damage type | Physical |
+| Damage type | Fist, Physical |
 | Haki | Hardening |
-| Cooldown | 20 s |
-| Damage | 6 |
-| Smash Damage | 22 |
+| Cooldown | 15 s |
+| Charge | 1 s |
+| Damage | 24 |
+| Range | 8 blocks (area) |
 
 ## Mochi Wall { #mochi-wall }
 
@@ -309,7 +312,7 @@ Awakened. A giant arm of hardened mochi shoots out of the nearest ring and punch
 |---|---|
 | Damage type | Fist, Indirect, Physical |
 | Haki | Hardening |
-| Cooldown | 12 s |
+| Cooldown | 25 s |
 | Damage | 70 |
 | Range | 28 blocks (line) |
 
@@ -326,7 +329,7 @@ Awakened. Every ring of Muso Donuts throws its giant arm again and again at the 
 | Damage type | Fist, Indirect, Physical |
 | Haki | Hardening |
 | Cooldown | 25 s |
-| Hold | 4 s |
+| Hold | 3 s |
 | Damage per Punch | 4 |
 | Range | 14 blocks (area) |
 

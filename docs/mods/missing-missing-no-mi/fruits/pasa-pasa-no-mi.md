@@ -7,7 +7,7 @@
 | **Type** | Logia |
 | **Theme** | Paper |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.97%**, iron **0.148%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.71%**, iron **0.136%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 14: 12 active, 2 passive (1 hidden, not in the ability menu) |
 | **Effects applied** | ![](../effect-icons/buried.png){ .effect-mini }[Buried](../effects.md#effect-buried), ![](../effect-icons/scattered.png){ .effect-mini }[Scattered](../effects.md#effect-scattered), ![](../effect-icons/warded.png){ .effect-mini }[Warded](../effects.md#effect-warded) |
 
@@ -187,7 +187,8 @@ Using it puts the other Sefer on a 10 seconds cooldown
 |---|---|
 | Cooldown | 45 s |
 | Heal | +12 |
-| Regeneration | 5 s |
+| Regeneration | +4 |
+| Duration | 5 s |
 
 ## Sefer Yetzirah { #sefer-yetzirah }
 

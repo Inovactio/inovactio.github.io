@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.97%**, iron **0.148%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.71%**, iron **0.136%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 | **Transformations** | [Onyudo Heavy Point](#onyudo-heavy-point), [Onyudo Guard Point](#onyudo-guard-point) |
 
@@ -74,6 +74,12 @@ The user takes a guard stance that greatly reduces the damage coming from in fro
 | Cooldown | 15 s |
 | Hold | 5 s |
 | Frontal Damage Blocked | 70 % |
+
+**Stats while active**
+
+| Stat | Value |
+|---|---|
+| Speed | <span class="stat-malus">x0.55</span> |
 
 ## Giant's Stomp { #giants-stomp }
 

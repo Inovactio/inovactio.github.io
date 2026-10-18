@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Stone |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.97%**, iron **0.148%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.71%**, iron **0.136%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 6 active, 2 passive |
 | **Transformations** | [Stone Giant](#ishi-giant) |
 
