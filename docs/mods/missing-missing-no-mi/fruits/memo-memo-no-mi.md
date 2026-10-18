@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Memory |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.88%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 4: 4 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/flashback.png){ .effect-mini }[Flashback](../effects.md#effect-flashback), ![](../effect-icons/forgotten-quarrel.png){ .effect-mini }[Forgotten Quarrel](../effects.md#effect-forgotten-quarrel) |
 

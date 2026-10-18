@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.88%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 5: 4 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/yolk.png){ .effect-mini }[Yolk](../effects.md#effect-yolk) |
 
@@ -29,7 +29,7 @@ As a chick or a rooster the user pecks the enemy in front of them with their bea
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
-| Cooldown | 3 s |
+| Cooldown | 5 s |
 | Damage | 8–10 |
 | Range | 3.5 blocks (line) |
 

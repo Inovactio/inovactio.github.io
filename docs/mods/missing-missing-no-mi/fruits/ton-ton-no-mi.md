@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Weight |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.59%**, wooden **0.079%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.46%**, wooden **0.073%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 7 active, 0 passive |
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
@@ -78,11 +78,11 @@ Makes the user very heavy, they take no knockback and less damage but moves slow
 
 | Stat | Value |
 |---|---|
-| Knockback Resistance | +1 |
 | Armor Toughness | +4 |
 | Jump Height | <span class="stat-malus">-0.6</span> |
-| Speed | <span class="stat-malus">-0.04</span> |
 | Armor | +8 |
+| Knockback Resistance | +1 |
+| Speed | <span class="stat-malus">-0.04</span> |
 
 ## Senton Knuckle { #senton-knuckle }
 

@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Pet |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.59%**, wooden **0.079%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.46%**, wooden **0.073%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 7 active, 0 passive |
 | **Transformations** | [Red Collar](#red-collar) |
 | **Effects applied** | ![](../effect-icons/collared.png){ .effect-mini }[Collared](../effects.md#effect-collared), ![](../effect-icons/lowered.png){ .effect-mini }[Lowered](../effects.md#effect-lowered) |
@@ -64,6 +64,9 @@ The user orders the collared creature they are looking at to its full strength, 
 | Cooldown | 35 s |
 | Hold | 20 s |
 | Range | 20 blocks (line) |
+| Creature Attack Damage | +6 |
+| Creature Movement Speed | +40 % |
+| Creature Damage Taken | -20 % |
 
 ## Red Collar { #red-collar }
 

@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.97%**, iron **0.148%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.71%**, iron **0.136%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 10: 9 active, 1 passive |
 | **Transformations** | [Orochi Heavy Point](#orochi-heavy-point), [Orochi Guard Point](#orochi-guard-point) |
 
@@ -110,6 +110,12 @@ The user's necks close around them like a shield, reducing the damage they take.
 | Cooldown | 15 s |
 | Hold | 5 s |
 | Damage Blocked per Head | 8 % |
+
+**Stats while active**
+
+| Stat | Value |
+|---|---|
+| Speed | <span class="stat-malus">x0.55</span> |
 
 ## Jaw Grab { #jaw-grab }
 

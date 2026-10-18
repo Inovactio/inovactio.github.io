@@ -38,7 +38,7 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     ---
 
-    65 Devil Fruits of One Piece the base mod does not have yet, canon and non-canon, with their techniques.
+    74 Devil Fruits of One Piece the base mod does not have yet, canon and non-canon, with their techniques.
 
     **Needs:** Mine Mine no Mi, AkumaLib
 

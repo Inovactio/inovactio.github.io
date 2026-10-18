@@ -7,9 +7,9 @@
 | **Type** | Logia |
 | **Theme** | Candy syrup |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.59%**, wooden **0.079%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.46%**, wooden **0.073%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 6: 5 active, 1 passive |
-| **Effects applied** | ![](../effect-icons/floured.png){ .effect-mini }[Floured](../effects.md#effect-floured), ![](../effect-icons/spared-by-the-syrup.png){ .effect-mini }[Spared by the Syrup](../effects.md#effect-spared-by-the-syrup) |
+| **Effects applied** | ![](../effect-icons/floured.png){ .effect-mini }[Floured](../effects.md#effect-floured) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -91,8 +91,6 @@ The user's syrup body stretches back and snaps forward, launching the user far w
 ## Syrup Pool { #syrup-pool }
 
 ![](../abilities/syrup-pool.png){ .ability-icon } *Active*
-
-Applies ![](../effect-icons/spared-by-the-syrup.png){ .effect-mini }[Spared by the Syrup](../effects.md#effect-spared-by-the-syrup)
 
 The user spreads a pool of syrup on the ground where the user is looking, whoever steps in it is stuck
 

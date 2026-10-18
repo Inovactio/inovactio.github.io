@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Stitch |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.88%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 7 active, 0 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -67,7 +67,8 @@ Sews a wound of a nearby ally or of the user, which stops the bleeding and regen
 | Stat | Value |
 |---|---|
 | Cooldown | 20 s |
-| Regeneration | 5 s |
+| Regeneration | +4 |
+| Duration | 5 s |
 
 ## Hodoki { #hodoki }
 

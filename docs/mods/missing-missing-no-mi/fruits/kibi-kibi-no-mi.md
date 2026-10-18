@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Millet dango |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.93%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.88%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 2: 2 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/devoted.png){ .effect-mini }[Devoted](../effects.md#effect-devoted) |
 
@@ -39,6 +39,10 @@ A player who ate a Zoan fruit and is given a dango can no longer harm the user
 | Stat | Value |
 |---|---|
 | Cooldown | 2 s |
+| Fed Servant Attack Damage | +6 |
+| Fed Servant Damage Taken | -20 % |
+| Fed Servant Heal | +10 |
+| Duration | 60 s |
 
 ## Kibi Dan-boshi { #kibi-dan-boshi }
 
@@ -53,3 +57,7 @@ Each throw costs the hunger of a dango
 | Stat | Value |
 |---|---|
 | Cooldown | 3 s |
+| Fed Servant Attack Damage | +6 |
+| Fed Servant Damage Taken | -20 % |
+| Fed Servant Heal | +10 |
+| Duration | 60 s |
