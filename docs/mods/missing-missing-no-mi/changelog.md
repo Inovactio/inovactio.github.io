@@ -4,7 +4,7 @@ Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as publi
 
 ## 4.0.0 (beta) { #v4-0-0 }
 
-<small>Released TO-FILL · Beta · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/TO-FILL)</small>
+<small>Released 2026-10-18 · Beta · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9247445)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>Wave 8: the Blackbeard Pirates, and two Marines.</strong> Nine new Devil Fruits: Shiku Shiku, Wapu Wapu, Riki Riki, Gabu Gabu, Muchi Muchi, Shima Shima, Gunyo Gunyo, Inu Inu no Mi, Model: Kyubi no Kitsune and Uma Uma no Mi, Model: Pegasus. Mine Mine no Mi's captains, notorious NPCs and troops can now eat this addon's fruits and fight with them, the flying Zoans in the air. Many older fruits get their own particles and redrawn icons, and bonuses now show as stats instead of potion effects.</p>
@@ -31,7 +31,7 @@ Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as publi
 <ul>
 <li><strong>Warp</strong>: you are in an instant where you look, up to 40 blocks, on the ground your sight meets or in the air at its end. Never through a wall, never into water or lava. A warp does not save you from a fall.</li>
 <li><strong>Warp Other</strong>: touch the enemy in front of you and it is warped 24 blocks where you look. Bosses are too strong for it, and it never drops a body over the void.</li>
-<li><strong>Group Warp</strong>: you warp with your own creatures around you. A player comes along only if he crouches.</li>
+<li><strong>Group Warp</strong>: you warp with your own creatures around you. A player comes along only if they crouch.</li>
 <li><strong>Catch</strong>: the ally you look at, up to 64 blocks, is warped to your side, and its fall is forgotten. A player must crouch to be caught.</li>
 <li><strong>Warp Shot</strong>: for 10 s every projectile you fire comes out behind the enemy you look at, flying at its back.</li>
 <li><strong>Reflex Warp</strong>: for 5 s you are on guard. The first blow or shot that hurts misses you and you come out behind the one who dealt it.</li>
@@ -71,7 +71,7 @@ Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as publi
 <p>A whip, and whatever it lashes obeys. Every order is one stroke that reaches 12 blocks and needs the whip in hand.</p>
 <ul>
 <li><strong>Whip</strong>: takes the whip out into your empty hand, with a long reach. Use it again to put it away. It vanishes if it leaves your hands.</li>
-<li><strong>Lash</strong>: a player lashed obeys a short order: stop, step back or drop what he holds.</li>
+<li><strong>Lash</strong>: a player lashed obeys a short order: stop, step back or drop what they hold.</li>
 <li><strong>Obey</strong>: the creature you lash fights for you for 30 s. Three at most, never a boss.</li>
 <li><strong>Move!</strong>: the ground you lash tears itself out, flies at the nearest enemy and bursts for 18. Never under someone you may not fight. The hole closes after a while.</li>
 <li><strong>Close in!</strong>: the ground closes round the enemy you lash, a cage that holds it for 4 s, 2 s on players and bosses.</li>
