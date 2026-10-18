@@ -4,7 +4,7 @@ Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [Curs
 
 ## 5.0.0 { #v5-0-0 }
 
-<small>Released TO-FILL · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/TO-FILL)</small>
+<small>Released 2026-10-18 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9247090)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>Mine Mine no Mi's NPCs get better at using Devil Fruits, and servers can turn professions off.</strong> Grunts, brutes and
@@ -16,7 +16,7 @@ corrections of Mine Mine no Mi of 4.0.0 to 4.8.0 are all still there, each with 
 <p>⚠️ <strong>Network protocol 9.</strong> The list of turned-off professions is now sent to the players, so 5.0.0 does not play
 with 4.5.0 to 4.8.0: update the server and every client together.</p>
 <p>⚠️ <strong>Why a 5.</strong> Nothing an addon uses was taken out. Two inner pieces changed, both for the turned-off professions:
-the message that sends a player his professions, and the client side that reads it, now carry that list. No published
+the message that sends players their professions, and the client side that reads it, now carry that list. No published
 addon used them. But an addon that asked for "AkumaLib 4" only refuses to start beside 5.0.0, so take these versions
 or newer with it: <strong>Cruise Cruise no Mi 0.5.1</strong>, <strong>Awaken Path 2.3.1</strong> and <strong>Missing Missing no Mi
 4.0.0</strong>. InoFruits, Awaken Awaken no Mi and Sky Island accept 5.0.0 as they are.</p>
@@ -29,7 +29,7 @@ or newer with it: <strong>Cruise Cruise no Mi 0.5.1</strong>, <strong>Awaken Pat
   already had. Under One Fruit per World they now draw only fruits nobody has, and an NPC's fruit takes nobody's
   place. With no fruit left, the NPC has none.</li>
 <li><strong>The Marines circled a civilian for ever.</strong> A civilian who opened a chest in a Marine building had every Marine
-  around set on him, though they could not hurt him. They now leave him alone, unless he steals (see below).</li>
+  around set on them, though they could not hurt them. They now leave them alone, unless they steal (see below).</li>
 </ul>
 <h3>New</h3>
 <ul>
@@ -57,8 +57,8 @@ or newer with it: <strong>Cruise Cruise no Mi 0.5.1</strong>, <strong>Awaken Pat
   in Crew mode a player whose profession is off chooses again. Items already made stay and work.</li>
 <li><strong>A civilian who steals turns pirate.</strong> Taking a weapon (swords, axes, guns, the cannon, bullets, cannonballs,
   arrows...) or a Devil Fruit box from a chest in a Marine building makes a civilian a pirate at once. Anything else
-  is one strike per chest opened, counted with his blows on the law: three in a game day and he is a pirate. Breaking
-  the chest counts too. Once he is a pirate, the Marines go for him.</li>
+  is one strike per chest opened, counted with their blows on the law: three in a game day and they are a pirate. Breaking
+  the chest counts too. Once they are a pirate, the Marines go for them.</li>
 </ul>
 <h3>Fixes</h3>
 <ul>
