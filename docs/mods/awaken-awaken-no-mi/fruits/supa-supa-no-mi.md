@@ -19,9 +19,9 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/kenzan-world.png){ .ability-icon } *Active · Zone*
 
-Turns the ground into blades that cut enemies walking on it, and every cut makes them bleed deeper.
+Turns the ground into blades that cut enemies walking on it, and every cut makes them bleed more.
 
-Sprinting doubles the damage and crouching halves it without deepening the wound; only flying clear of the ground escapes it.
+Sprinting doubles the damage, crouching halves it and does not make the bleeding worse, only flying off the ground gets away from it.
 
 | Stat | Value |
 |---|---|
@@ -37,9 +37,9 @@ Sprinting doubles the damage and crouching halves it without deepening the wound
 
 ![Razor Cyclone](../objects/razor-cyclone.png){ .form-picture }
 
-The user becomes a whirlwind of blades that glides forward, cutting every enemy it passes and making them bleed.
+The user turns into a whirlwind of blades that moves forward, cutting every enemy it goes through and making them bleed.
 
-Inside the user's Kenzan World the whirlwind grows wider and cuts deeper.
+Inside the user's Kenzan World the whirlwind is bigger and hits harder.
 
 | Stat | Value |
 |---|---|
@@ -52,9 +52,9 @@ Inside the user's Kenzan World the whirlwind grows wider and cuts deeper.
 
 ![](../abilities/steel-riposte.png){ .ability-icon } *Active*
 
-The user braces their steel body for an instant: the first blow that lands in that window is stopped completely.
+The user hardens their steel body for a moment and the first hit that lands in that time is fully blocked.
 
-The user then appears behind the attacker and cuts them down, leaving them bleeding.
+Then the user appears behind the attacker and cuts them, making them bleed.
 
 | Stat | Value |
 |---|---|

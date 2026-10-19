@@ -32,7 +32,7 @@ Melts the ground in a huge wave around the user, leaving burning magma and basal
 
 Applies ![](../effect-icons/magma-burn.png){ .effect-mini .pixelated }[Magma Burn](../effects.md#effect-magma-burn)
 
-Coats the user's fists in overheated magma, every punch lands like an eruption.
+Coats the user's fists in overheated magma, making their punches way stronger.
 
 Each hit burns a quarter of the Netsuryo gauge so the first punch hits the hardest.
 

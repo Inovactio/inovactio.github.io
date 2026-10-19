@@ -27,7 +27,7 @@ Enemies that get too close fall in love and slowly turn to stone.
 
 Applies ![](../effect-icons/enthralled.png){ .effect-mini .pixelated }[Enthralled](../effects.md#effect-enthralled)
 
-Every enemy nearby who is looking at the user falls under her charm and cannot bring themselves to hurt her for a while.
+Every enemy nearby that is looking at the user gets charmed and can't hurt her for a while.
 
 The charmed can still move, use their abilities and attack anyone else.
 
@@ -40,7 +40,7 @@ The charmed can still move, use their abilities and attack anyone else.
 
 ![](../abilities/heart-rebound.png){ .ability-icon } *Active*
 
-Throws a great heart that flies through everything in its way and comes back to the user, striking each enemy it passes both ways.
+Throws a big heart that goes through everything in its way and comes back to the user, hitting each enemy it passes on the way there and back.
 
 On its way back it drags the enemies it strikes toward the user.
 

@@ -31,7 +31,7 @@ Every Negative the user inflicts lasts twice as long.
 
 Releases a legion of hollows, one for each enemy nearby, that fly through walls to hunt their target down.
 
-Each hollow that reaches its target drains its will, leaving it unable to move or fight for a while.
+Each hollow that reaches its target makes it lose the will to fight, it can't move or attack for a while.
 
 | Stat | Value |
 |---|---|
@@ -46,10 +46,10 @@ Each hollow that reaches its target drains its will, leaving it unable to move o
 
 Summons a huge hollow the user steers with their gaze, exploding when it touches anything or when the ability is used again.
 
-Everyone caught in the blast is left without the will to move or fight.
+Everyone caught in the blast loses the will to move or fight.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 50 s |
 | Range | 7 blocks (area) |
-| Damage | 100 |
+| Damage | 160 |

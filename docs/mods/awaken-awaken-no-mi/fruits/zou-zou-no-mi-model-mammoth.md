@@ -26,18 +26,19 @@ Transforms the user into an awakened mammoth hybrid, which focuses on strength.
 
 | Stat | Value |
 |---|---|
-| Attack Speed | x1.1 |
-| Step Height | +1 |
 | Armor | +25 |
-| Max Health | x1.25 |
 | Block Reach | +2.5 |
 | Knockback Resistance | +3 |
-| Toughness | +8 |
-| Jump Height | +2 |
-| Punch Damage | +18 |
-| Entity Reach | +2.5 |
-| Speed | +0.28 |
+| Step Height | +1 |
+| Regen Rate | +0.5 |
 | Fall Resistance | +10 |
+| Attack Speed | x1.1 |
+| Speed | +0.28 |
+| Punch Damage | +18 |
+| Toughness | +8 |
+| Entity Reach | +2.5 |
+| Jump Height | +2 |
+| Max Health | x1.25 |
 
 ## Awaken Mammoth Guard Point { #awaken-mammoth-guard-point }
 
@@ -54,18 +55,19 @@ Transforms the user into an awakened mammoth, which focuses on defense.
 
 | Stat | Value |
 |---|---|
-| Attack Speed | +0.1 |
-| Step Height | +1 |
 | Armor | +40 |
-| Max Health | x1.4 |
 | Block Reach | +2.7 |
 | Knockback Resistance | +3 |
-| Toughness | +10 |
-| Jump Height | +1.5 |
-| Punch Damage | +15 |
-| Entity Reach | +2.7 |
-| Speed | +0.14 |
+| Step Height | +1 |
+| Regen Rate | +0.5 |
 | Fall Resistance | +20 |
+| Attack Speed | +0.1 |
+| Speed | +0.14 |
+| Punch Damage | +15 |
+| Toughness | +10 |
+| Entity Reach | +2.7 |
+| Jump Height | +1.5 |
+| Max Health | x1.4 |
 
 ## Drought Calamity { #drought-calamity }
 
@@ -84,9 +86,9 @@ Stomps the ground so hard all the water in the area dries up, leaving a wastelan
 
 ![](../abilities/drought-siphon.png){ .ability-icon } *Active*
 
-The mammoth raises its trunk and draws the water out of every enemy around it, healing by what they lose.
+The mammoth raises its trunk and sucks the water out of every enemy around it, healing as much as they lose.
 
-Enemies soaked by water or rain have twice as much to give, and are left parched and slowed.
+Enemies that are wet from water or rain lose twice as much and are left dried out and slowed.
 
 | Stat | Value |
 |---|---|
@@ -101,9 +103,9 @@ Enemies soaked by water or rain have twice as much to give, and are left parched
 
 ![](../abilities/ancient-hide.png){ .ability-icon } *Passive*
 
-In an awakened form, the mammoth's ancient hide never lets a single blow take more than a small part of its health.
+In an awakened form a single hit can never take more than a small part of the mammoth's health.
 
-Its wool keeps out the cold: it cannot be frozen or frostbitten.
+Its wool keeps it warm so it can't be frozen or get frostbite.
 
 | Stat | Value |
 |---|---|

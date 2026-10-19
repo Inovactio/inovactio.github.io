@@ -17,7 +17,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 Creates a slippery zone around the user where enemies lose their footing and slide around.
 
-Enemies inside can't jump, hit half as hard and fly further when struck; sliding fast into a wall or another enemy hurts them.
+Enemies inside can't jump, hit half as hard and fly further when hit, and sliding fast into a wall or another enemy hurts them.
 
 | Stat | Value |
 |---|---|
@@ -37,6 +37,6 @@ Punches the target with slippery fists, making them drop whatever they hold in b
 
 ![](../abilities/frictionless.png){ .ability-icon } *Passive*
 
-Nothing can keep hold of the user: grabs, binds, nets, glue, candy, wax and every other restraint slide right off.
+Nothing can hold on to the user, grabs, binds, nets, glue, candy, wax and every other restraint just slide off them.
 
 Water and Seastone take the slickness away.

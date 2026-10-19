@@ -41,7 +41,7 @@ Using it again pulls the chain tight, slamming them together.
 
 ![](../abilities/bound-hands.png){ .ability-icon } *Passive*
 
-Enemies near the user whose hands are bound can't use items: no eating, no potions, no shields and no bows.
+Enemies near the user whose hands are bound can't use items, so no eating, no potions, no shields and no bows.
 
 | Stat | Value |
 |---|---|

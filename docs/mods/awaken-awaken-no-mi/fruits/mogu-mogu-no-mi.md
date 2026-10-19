@@ -26,16 +26,17 @@ Transforms the user into an awakened mole hybrid, which focuses on strength and 
 
 | Stat | Value |
 |---|---|
-| Step Height | +1 |
-| Attack Speed | +0.3 |
 | Armor | +10 |
-| Mining Speed | +10 |
+| Speed | +1.05 |
 | Block Reach | <span class="stat-malus">-0.5</span> |
+| Step Height | +1 |
+| Punch Damage | +12 |
+| Regen Rate | +0.25 |
 | Toughness | +4 |
 | Jump Height | +3.5 |
-| Punch Damage | +12 |
 | Entity Reach | <span class="stat-malus">-0.5</span> |
-| Speed | +1.05 |
+| Mining Speed | +10 |
+| Attack Speed | +0.3 |
 
 ## Mogu Dig { #mogu-dig }
 

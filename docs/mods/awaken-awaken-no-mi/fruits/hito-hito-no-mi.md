@@ -15,23 +15,24 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/awaken-human-form.png){ .ability-icon } *Active · Transformation*
 
-Transforms the user into an awakened human, which focuses on strength.
+Transforms the user into an awakened human, which focuses on speed and strength.
 
 **Stats while active**
 
 | Stat | Value |
 |---|---|
-| Attack Speed | +1.2 |
-| Step Height | +1 |
 | Armor | +15 |
-| Max Health | x1.25 |
-| Armor Toughness | +10 |
-| Knockback Resistance | +1 |
-| Toughness | +3 |
-| Jump Height | +8 |
-| Punch Damage | +10 |
 | Speed | +2.1 |
+| Knockback Resistance | +1 |
+| Step Height | +1 |
+| Punch Damage | +10 |
+| Regen Rate | +0.25 |
+| Toughness | +3 |
 | Fall Resistance | +10 |
+| Jump Height | +8 |
+| Armor Toughness | +10 |
+| Attack Speed | +1.2 |
+| Max Health | x1.25 |
 
 ## Insight { #insight }
 

@@ -27,19 +27,20 @@ Transforms the user into an awakened golden Buddha, which focuses on raw power.
 
 | Stat | Value |
 |---|---|
-| Attack Speed | <span class="stat-malus">-0.8</span> |
-| Armor | +20 |
+| Armor | +32 |
 | Block Reach | +14 |
-| Armor Toughness | +12 |
+| Knockback Resistance | +7 |
+| Step Height | +2 |
+| Regen Rate | +1 |
+| Fall Resistance | +35 |
+| Attack Speed | <span class="stat-malus">-0.8</span> |
+| Speed | +0.7 |
+| Punch Damage | +25 |
 | Toughness | +8 |
 | Jump Height | +7 |
-| Punch Damage | +25 |
 | Entity Reach | +14 |
-| Fall Resistance | +35 |
-| Step Height | +2 |
+| Armor Toughness | +12 |
 | Max Health | x1.4 |
-| Knockback Resistance | +7 |
-| Speed | +0.7 |
 
 ## Nyorai Shinshō { #nyorai-shinsho }
 
@@ -62,9 +63,9 @@ Anything it lands on is pinned to the ground for 40 seconds, unable to walk, swi
 
 ![](../abilities/sanctuary.png){ .ability-icon } *Active*
 
-The Buddha stands over its own: every blow aimed at an ally nearby lands on the user instead.
+Every hit aimed at an ally nearby hits the user instead.
 
-The blow keeps its nature, so the user's armour is what decides the price. The vow breaks once they have taken enough.
+The hit stays the same kind so the user's armour still protects them. It breaks after the user took enough damage.
 
 | Stat | Value |
 |---|---|

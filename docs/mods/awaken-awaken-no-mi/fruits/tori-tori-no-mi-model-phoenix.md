@@ -26,14 +26,15 @@ Transforms the user into an awakened phoenix hybrid, which focuses on attacking
 
 | Stat | Value |
 |---|---|
-| Attack Speed | +0.3 |
-| Step Height | +1 |
-| Armor | +8 |
-| Toughness | +5 |
-| Jump Height | +2 |
-| Punch Damage | +7 |
+| Armor | +20 |
 | Speed | +0.7 |
+| Step Height | +1 |
+| Punch Damage | +18 |
+| Regen Rate | +1 |
+| Toughness | +8 |
 | Fall Resistance | +10 |
+| Jump Height | +2 |
+| Attack Speed | +0.3 |
 
 ## Awaken Phoenix Fly Point { #awaken-phoenix-fly-point }
 
@@ -51,8 +52,8 @@ Transforms the user into an awakened phoenix, which focuses on flying
 | Stat | Value |
 |---|---|
 | Armor | +6 |
-| Regen Rate | +1 |
 | Toughness | +2 |
+| Regen Rate | +2 |
 | Fall Resistance | +500 |
 
 ## Ao no Rakka { #ao-no-rakka }
@@ -72,9 +73,9 @@ The user dives wrapped in blue flames hitting all enemies in the way, healing wi
 
 ![](../abilities/rebirth-blaze.png){ .ability-icon } *Active*
 
-The phoenix bursts into blue flames and hovers, untouchable, until it is reborn at full health.
+The phoenix bursts into blue flames and floats in the air, nothing can hurt it until it comes back at full health.
 
-Every bit of health it takes back erupts as a nova that burns enemies around it and mends its allies.
+All the health it gets back explodes out as a nova that burns enemies around and heals allies.
 
 | Stat | Value |
 |---|---|

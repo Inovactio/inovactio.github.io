@@ -38,7 +38,7 @@ Applies ![](../effect-icons/heavy-weight.png){ .effect-mini .pixelated }[Heavy W
 
 Punches with infinite weight, dealing massive damage and launching the target really far away.
 
-The target turns heavy in flight and slams back down once past the top of its arc.
+The target gets heavy in the air and slams back down after it reaches the top.
 
 **Stats while active**
 
@@ -50,9 +50,9 @@ The target turns heavy in flight and slams back down once past the top of its ar
 
 ![](../abilities/weight-shift.png){ .ability-icon } *Passive*
 
-In the air the user is light as a feather: blows hurt far less but send them flying, and falls deal no damage.
+In the air the user is really light, hits do a lot less damage but send them flying and they take no fall damage.
 
-Crouched on the ground the user weighs ten thousand kilos and cannot be knocked back or launched.
+Crouching on the ground makes the user weigh 10000 kilos so they cannot be knocked back or launched.
 
 | Stat | Value |
 |---|---|

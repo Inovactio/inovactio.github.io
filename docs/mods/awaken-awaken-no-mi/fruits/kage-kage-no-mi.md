@@ -18,7 +18,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 Applies ![](../effect-icons/shadow-boost.png){ .effect-mini .pixelated }[Shadow Boost](../effects.md#effect-shadow-boost)
 
-Spreads the user's shadow over a huge area, stealing the shadow of every weaker enemy caught in it
+Spreads the user's shadow over a huge area and steals the shadow of the enemies caught in it, the stronger they are the longer it takes
 
 | Stat | Value |
 |---|---|

@@ -32,9 +32,9 @@ When the zone ends everyone falls back down, the higher they floated the harder 
 
 ![](../abilities/deadweight.png){ .ability-icon } *Active*
 
-The user fixes one enemy in their sight and piles the weight of the sky onto it alone.
+The user looks at one enemy and crushes it under the weight of the sky.
 
-The pressure builds with every moment, driving the target into the ground and ignoring armor.
+The pressure keeps going up, pushing the target into the ground and ignoring armor.
 
 Looking away lets the weight go.
 

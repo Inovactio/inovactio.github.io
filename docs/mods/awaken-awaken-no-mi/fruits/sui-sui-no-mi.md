@@ -18,7 +18,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 Applies ![](../effect-icons/ground-drown.png){ .effect-mini .pixelated }[Ground Drown](../effects.md#effect-ground-drown)
 
-Turns the ground into liquid: the user and their allies swim through it, while enemies sink and drown in it.
+Turns the ground into liquid, the user and their allies can swim in it while enemies sink and drown.
 
 Inside it the user counts as swimming for Nekomimi Punch and the Nyan Nyan Suplexes.
 
@@ -50,9 +50,9 @@ Using it again, or holding on too long, throws them back out of the ground where
 
 ![](../abilities/breach.png){ .ability-icon } *Active*
 
-Sends the user's presence swimming through the ground toward the targeted enemy, then breaches beneath them in a violent burst.
+Sends a fin swimming through the ground toward the targeted enemy, then it bursts out from under them.
 
-Enemies close to the target are caught in the eruption too.
+Enemies close to the target get hit too.
 
 | Stat | Value |
 |---|---|

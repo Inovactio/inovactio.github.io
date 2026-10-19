@@ -27,14 +27,15 @@ Transforms the user into an awakened pteranodon hybrid, which focuses on attacki
 
 | Stat | Value |
 |---|---|
-| Attack Speed | +0.3 |
-| Step Height | +1 |
-| Armor | +6 |
-| Toughness | +4 |
-| Jump Height | +2 |
-| Punch Damage | +6 |
+| Armor | +16 |
 | Speed | +0.7 |
+| Step Height | +1 |
+| Punch Damage | +14 |
+| Regen Rate | +0.5 |
+| Toughness | +4 |
 | Fall Resistance | +8 |
+| Jump Height | +2 |
+| Attack Speed | +0.3 |
 
 ## Awaken Pteranodon Fly Point { #awaken-pteranodon-fly-point }
 
@@ -51,11 +52,12 @@ Transforms the user into an awakened pteranodon, which focuses on flying.
 
 | Stat | Value |
 |---|---|
-| Attack Speed | +1.5 |
 | Armor | +4 |
-| Toughness | +4 |
 | Punch Damage | +30 |
+| Regen Rate | +0.5 |
+| Toughness | +4 |
 | Fall Resistance | +8 |
+| Attack Speed | +1.5 |
 
 ## Tei-Kasané { #tei-kasane }
 
@@ -74,9 +76,9 @@ The user vibrates their wings so fast the edges turn jagged and sharp.
 
 Applies ![](../effect-icons/downdraft-pinned.png){ .effect-mini .pixelated }[Downdraft Pinned](../effects.md#effect-downdraft-pinned)
 
-One beat of the awakened wings drives a column of air straight down, slamming everything flying below into the ground.
+The user flaps their awakened wings once and sends a blast of air straight down, slamming everything flying below into the ground.
 
-Whatever it catches in the air cannot fly again for a while; whatever was already standing is blown off its feet.
+Anything it catches in the air can't fly again for a while, and anything already on the ground gets knocked off its feet.
 
 | Stat | Value |
 |---|---|

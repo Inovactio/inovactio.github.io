@@ -29,7 +29,7 @@ For a minute, enemies standing in the venom are dosed again every second.
 
 ![](../abilities/compound-hydra.png){ .ability-icon } *Active*
 
-Fires a bunch of venom hydras one after another from different spots, poisoning the whole area.
+Fires a bunch of venom hydras one after another from different spots, poisoning every enemy they hit.
 
 | Stat | Value |
 |---|---|
@@ -39,9 +39,9 @@ Fires a bunch of venom hydras one after another from different spots, poisoning 
 
 ![](../abilities/virulence.png){ .ability-icon } *Passive*
 
-The user's venom builds on itself: every new dose of poison on an already poisoned enemy raises the poison by one level.
+Every new dose of poison on an enemy that is already poisoned raises the poison by one level.
 
-It climbs up to the deadliest poison there is.
+It can go up to the max poison level.
 
 | Stat | Value |
 |---|---|

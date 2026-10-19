@@ -29,16 +29,16 @@ The user pushes past their limits for a short time, becoming a one-man army.
 
 | Stat | Value |
 |---|---|
-| Attack Speed | +2 |
-| Step Height | +1 |
 | Armor | +10 |
-| Armor Toughness | +5 |
-| Knockback Resistance | +6 |
-| Toughness | +5 |
-| Jump Height | +15 |
-| Punch Damage | +20 |
 | Speed | x3.5 |
+| Knockback Resistance | +6 |
+| Step Height | +1 |
+| Punch Damage | +20 |
+| Toughness | +5 |
 | Fall Resistance | +30 |
+| Jump Height | +15 |
+| Armor Toughness | +5 |
+| Attack Speed | +2 |
 
 ## Battlefield Resonance { #battlefield-resonance }
 
@@ -48,7 +48,7 @@ Applies ![](../effect-icons/battlefield-resonance.png){ .effect-mini .pixelated 
 
 Creates a zone that gives the user and every ally inside it Speed I and Resistance I.
 
-When an ally hits an enemy inside the zone, every ally inside gets Battlefield Resonance for 5 seconds: +50% damage, speed and jump, +25% attack speed.
+When an ally hits an enemy inside the zone every ally inside gets Battlefield Resonance for 5 seconds, giving 50% more damage, speed and jump and 25% more attack speed.
 
 | Stat | Value |
 |---|---|
@@ -61,7 +61,7 @@ When an ally hits an enemy inside the zone, every ally inside gets Battlefield R
 
 ![](../abilities/never-surrender.png){ .ability-icon } *Passive*
 
-When the user or an ally nearby is about to fall, the user's voice rallies them back to their feet.
+When the user or an ally nearby gets really low on health the user yells at them to keep fighting.
 
 They gain a burst of absorption, Strength II and Resistance II, and shake off Negative and Unconscious.
 

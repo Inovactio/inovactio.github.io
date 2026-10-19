@@ -49,9 +49,9 @@ Targets hit slowly turn into cake.
 
 ![](../abilities/gourmet-metabolism.png){ .ability-icon } *Passive*
 
-Everything the user eats heals them at once, and the extra nourishment hardens into absorption.
+Everything the user eats heals them right away and the extra food turns into absorption hearts.
 
-Under Gourmetamorphosis even items that aren't food count, turning the whole inventory into a larder.
+While Gourmetamorphosis is active even items that are not food count as food.
 
 | Stat | Value |
 |---|---|

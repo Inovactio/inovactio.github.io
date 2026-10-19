@@ -21,7 +21,7 @@ Tears the ground apart over a huge area, throwing it into the air and knocking o
 | Cooldown | 240 s |
 | Charge | 12 s |
 | Range | 80 blocks (area) |
-| Damage | 24–80 |
+| Damage | 60–200 |
 
 ## Funshin { #funshin }
 
@@ -44,7 +44,7 @@ Landing sends a second quake through the enemies around the user.
 
 ![](../abilities/aftershock.png){ .ability-icon } *Passive*
 
-The user's quakes do not stop when the blow does: every enemy hit by a Gura ability is shaken again a moment later.
+The user's quakes keep going after the hit, every enemy hit by a Gura ability gets shaken again a moment later.
 
 The aftershock passes through Logia bodies and leaves the target dizzy.
 

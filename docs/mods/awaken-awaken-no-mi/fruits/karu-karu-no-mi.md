@@ -42,7 +42,7 @@ Damage and size go up with the Karma stored.
 
 ![](../abilities/karmic-return.png){ .ability-icon } *Passive*
 
-Harm returns to its cause: every harmful effect inflicted on the user is inflicted on whoever caused it too.
+Every bad effect put on the user is also put on whoever caused it.
 
 The user only keeps half of it.
 
