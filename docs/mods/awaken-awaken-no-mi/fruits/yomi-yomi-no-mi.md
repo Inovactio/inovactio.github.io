@@ -17,7 +17,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 The cold of the underworld surrounds the user, chilling the souls of every enemy nearby and slowing them.
 
-A soul that is weaker than the user's, or already failing, freezes solid.
+Enemies with a weaker soul than the user or low on health get frozen solid.
 
 | Stat | Value |
 |---|---|
@@ -30,16 +30,16 @@ A soul that is weaker than the user's, or already failing, freezes solid.
 
 Applies ![](../effect-icons/soul-severed.png){ .effect-mini .pixelated }[Soul Severed](../effects.md#effect-soul-severed)
 
-The user's spirit rushes forward through every enemy in its path, cutting their souls rather than their bodies.
+The user's soul dashes forward through every enemy in its way, cutting their souls and not their bodies.
 
-Armour does nothing against it, and a severed soul leaves its body with far less health for a while.
+Armour does nothing against it and enemies with a cut soul have a lot less max health for a while.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 25 s |
 | Charge | 1 s |
 | Range | 30 blocks (line) |
-| Damage | 45 |
+| Damage | 75 |
 
 ## Undying Soul { #undying-soul }
 
@@ -47,9 +47,9 @@ Armour does nothing against it, and a severed soul leaves its body with far less
 
 Applies ![](../effect-icons/soul-unbound.png){ .effect-mini .pixelated }[Soul Unbound](../effects.md#effect-soul-unbound)
 
-When a blow would kill the user, their soul holds the skeleton together: they stand back up with part of their health and cannot be hurt for a moment.
+When a hit would kill the user their soul keeps the skeleton together, they get back up with some health and can't be hurt for a moment.
 
-For a while afterwards every blow they land freezes its target.
+For a while after that every hit they land freezes the target.
 
 | Stat | Value |
 |---|---|

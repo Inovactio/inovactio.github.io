@@ -28,9 +28,9 @@ The user turns into a prism and fires 7 rainbow beams one after another.
 
 | Stat | Value |
 |---|---|
-| Cooldown | 15 s |
+| Cooldown | 60 s |
 | Charge | 1 s |
-| Damage | 25–85 |
+| Damage | 12.5–42.5 |
 
 ## Unseen { #unseen }
 
@@ -38,7 +38,7 @@ The user turns into a prism and fires 7 rainbow beams one after another.
 
 While invisible, swings and projectiles from anyone who can't see the user often pass straight through them.
 
-Observation Haki sees through it, and explosions, shockwaves, fire and magic still land.
+Observation Haki sees through it and explosions, shockwaves, fire and magic still hit them.
 
 | Stat | Value |
 |---|---|

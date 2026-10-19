@@ -33,11 +33,11 @@ Devil Fruits stay silenced for a moment after leaving the void
 
 Collapses every block the user has swallowed onto a single point, dragging everything nearby into it.
 
-The more darkness was hoarded, the heavier the collapse - and it spends all of it.
+The more blocks were swallowed the stronger the collapse, and it uses all of them.
 
 | Stat | Value |
 |---|---|
-| Collapse Damage | 60–180 |
+| Collapse Damage | 90–270 |
 | Collapse Radius (blocks) | 12 |
 | Blocks For A Full Collapse | 22,000 |
 | Charge | 3 s |

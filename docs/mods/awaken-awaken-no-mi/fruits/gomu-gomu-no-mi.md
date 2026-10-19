@@ -19,9 +19,9 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 Applies ![](../effect-icons/flattened.png){ .effect-mini .pixelated }[Flattened](../effects.md#effect-flattened)
 
-The user's heart takes up the Drums of Liberation and their body becomes as free as a drawing.
+The user's heart plays the Drums of Liberation and their body moves freely like a cartoon.
 
-Blows squash them instead of breaking them, though blades still cut, and they can run through the air.
+Hits only squash the user and do less damage, blades still cut normally, and the user can run in the air.
 
 Takes the place of the other Gears.
 
@@ -40,14 +40,14 @@ The base mod's own awakened abilities of this fruit (its Gear Fifth, Gigant and 
 
 | Stat | Value |
 |---|---|
-| Punch Damage | +20 |
-| Speed | +0.7 |
 | Armor | +12 |
+| Speed | +0.7 |
+| Gravity | <span class="stat-malus">-0.04</span> |
+| Step Height | +1 |
+| Punch Damage | +20 |
+| Toughness | +3 |
 | Jump Height | +6 |
 | Armor Toughness | +8 |
-| Step Height | +1 |
-| Gravity | <span class="stat-malus">-0.04</span> |
-| Toughness | +3 |
 
 ## Gomu Gomu no Sekai { #gomu-gomu-no-sekai }
 
@@ -55,7 +55,7 @@ The base mod's own awakened abilities of this fruit (its Gear Fifth, Gigant and 
 
 Turns the surroundings to rubber for a while.
 
-A fall bounces instead of landing, without harm for the user and their allies, and the ground throws enemy projectiles back at whoever fired them.
+Falls bounce instead of landing and the user and their allies take no damage from it, the ground also throws enemy projectiles back at whoever fired them.
 
 Can only be used in Gear Fifth.
 
@@ -69,9 +69,9 @@ Can only be used in Gear Fifth.
 
 ![](../abilities/gomu-gomu-no-mogura-pistol.png){ .ability-icon } *Active*
 
-The user punches into the ground, which stretches under it and comes out beside the enemy they are looking toward, striking from the side.
+The user punches into the ground, the arm stretches under it and comes out next to the enemy they look at, hitting them from the side.
 
-Needs the ground under the user, but no line of sight: walls do not stop it.
+Needs the ground under the user but not a line of sight so walls do not stop it.
 
 Can only be used in Gear Fifth.
 
@@ -84,7 +84,7 @@ Can only be used in Gear Fifth.
 
 ![](../abilities/gomu-gomu-no-gigant.png){ .ability-icon } *Active · Transformation*
 
-The user's whole body grows to the size of a giant: a longer reach, heavier blows, and nothing knocks them back.
+The user's whole body grows giant, giving them a longer reach and stronger hits and nothing can knock them back.
 
 Can only be used in Gear Fifth, and ends with it.
 
@@ -97,13 +97,13 @@ Can only be used in Gear Fifth, and ends with it.
 
 | Stat | Value |
 |---|---|
-| Entity Reach | +6 |
-| Punch Damage | +10 |
 | Armor | +8 |
-| Knockback Resistance | +1 |
 | Block Reach | +6 |
+| Knockback Resistance | +1 |
 | Step Height | +1.5 |
+| Punch Damage | +10 |
 | Toughness | +2 |
+| Entity Reach | +6 |
 
 ## Gomu Gomu no Kaminari { #gomu-gomu-no-kaminari }
 
@@ -123,7 +123,7 @@ Can only be used in Gear Fifth.
 
 ![](../abilities/gomu-gomu-no-bajrang-gun.png){ .ability-icon } *Active*
 
-The user raises a fist that swells to a colossal size, then brings it down where they look, driving away everything it meets.
+The user raises a fist that grows huge, then brings it down where they look and blows away everything it hits.
 
 Can only be used in Gear Fifth.
 
@@ -137,7 +137,7 @@ Can only be used in Gear Fifth.
 
 ![](../abilities/gomu-gomu-no-dawn-whip.png){ .ability-icon } *Active*
 
-The user twists their body like a spring, then lets it unwind into a kick that whips round them, striking every enemy within reach.
+The user twists their body like a spring and then spins into a kick all around them, hitting every enemy in reach.
 
 Can only be used in Gear Fifth.
 

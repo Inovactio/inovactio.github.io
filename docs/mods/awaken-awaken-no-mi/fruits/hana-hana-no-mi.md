@@ -40,7 +40,7 @@ The Diosa Fleur clone joins the crush, and while Mil Fleur is active every enemy
 
 ![](../abilities/clutch-lock.png){ .ability-icon } *Passive*
 
-The user's sprouted hands grip much harder: every Clutch, Slap and Twist deals extra damage and pins the enemy in place for a while.
+The user's sprouted hands grip way harder, every Clutch, Slap and Twist deals more damage and pins the enemy in place for a while.
 
 | Stat | Value |
 |---|---|

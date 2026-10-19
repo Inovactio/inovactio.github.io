@@ -35,7 +35,7 @@ Applies ![](../effect-icons/molten-armor.png){ .effect-mini .pixelated }[Molten 
 
 Releases a wave of heat that turns the metal worn by nearby enemies red-hot, burning them every second for a while.
 
-The more metal they carry, the worse it burns; taking it off or wearing diamond stops it.
+The more metal they carry the worse it burns, taking it off or wearing diamond stops it.
 
 | Stat | Value |
 |---|---|

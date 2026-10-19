@@ -26,14 +26,15 @@ Transforms the user into an awakened leopard hybrid, which focuses on strength a
 
 | Stat | Value |
 |---|---|
-| Punch Damage | +20 |
-| Speed | x2.5 |
 | Armor | +10 |
-| Jump Height | +5 |
-| Fall Resistance | +8 |
+| Speed | x2.5 |
 | Step Height | +1 |
-| Attack Speed | <span class="stat-malus">0</span> |
+| Punch Damage | +20 |
+| Regen Rate | +0.5 |
 | Toughness | +4 |
+| Fall Resistance | +8 |
+| Jump Height | +5 |
+| Attack Speed | <span class="stat-malus">0</span> |
 
 ## Awaken Leopard Walk Point { #awaken-leopard-walk-point }
 
@@ -50,19 +51,20 @@ Transforms the user into an awakened leopard, which focuses on speed.
 
 | Stat | Value |
 |---|---|
-| Punch Damage | +15 |
 | Speed | +1.47 |
-| Jump Height | +3.5 |
-| Fall Resistance | +9.5 |
 | Step Height | +1 |
-| Attack Speed | +0.75 |
+| Punch Damage | +15 |
+| Regen Rate | +0.5 |
 | Toughness | +2 |
+| Fall Resistance | +9.5 |
+| Jump Height | +3.5 |
+| Attack Speed | +0.75 |
 
 ## Shugan { #shugan }
 
 ![](../abilities/shugan.png){ .ability-icon } *Active*
 
-The user draws back a hand with all five claws out, throws themselves at the enemy in front and drives the whole hand through them. Armour does not stop it.
+The user pulls back a hand with all 5 claws out, jumps at the enemy in front and stabs the whole hand through them. Armour does not stop it.
 
 Requires the awakened Heavy Point. Shares its cooldown with Shigan.
 
@@ -76,7 +78,7 @@ Requires the awakened Heavy Point. Shares its cooldown with Shigan.
 
 ![](../abilities/shugan-madara.png){ .ability-icon } *Active*
 
-The user throws both clawed hands in turn, ten stabs in a second and a half, at every enemy within reach in front. Armour does not stop them, and the last one throws its victims back.
+The user stabs with both clawed hands one after the other, 10 stabs in 1.5 seconds, at every enemy in reach in front. Armour does not stop them and the last stab knocks the enemies back.
 
 Requires the awakened Heavy Point. Shares its cooldown with Shigan.
 
@@ -91,7 +93,7 @@ Requires the awakened Heavy Point. Shares its cooldown with Shigan.
 
 ![](../abilities/tobu-shigan-bachi.png){ .ability-icon } *Active*
 
-The user flicks three bullets of compressed air off their claws, one after the other, each along the look at the moment it leaves.
+The user flicks 3 bullets of compressed air from their claws one after the other, each one goes where the user is looking when it is fired.
 
 Requires the awakened Heavy Point. Shares its cooldown with Shigan.
 
@@ -106,7 +108,7 @@ Requires the awakened Heavy Point. Shares its cooldown with Shigan.
 
 ![](../abilities/rankyaku-gaicho.png){ .ability-icon } *Active*
 
-The user kicks out a blade of air shaped like a great bird with its wings spread. It cuts every enemy in its path and bursts against the first wall.
+The user kicks a blade of air shaped like a big bird with open wings. It cuts every enemy in its way and breaks on the first wall it hits.
 
 Requires the awakened Heavy Point. Shares its cooldown with Rankyaku.
 
@@ -120,7 +122,7 @@ Requires the awakened Heavy Point. Shares its cooldown with Rankyaku.
 
 ![](../abilities/rankyaku-hyobi.png){ .ability-icon } *Active*
 
-The user turns on themselves and their tail throws a blade of air curled like the tail itself. It opens all round the user, cutting every enemy it reaches and throwing them back.
+The user spins around and their tail throws a curved blade of air all around them, cutting every enemy it reaches and knocking them back.
 
 Requires the awakened Heavy Point. Shares its cooldown with Rankyaku.
 
@@ -134,7 +136,7 @@ Requires the awakened Heavy Point. Shares its cooldown with Rankyaku.
 
 ![](../abilities/tekkai-utsugi.png){ .ability-icon } *Active*
 
-The user hardens their body for an instant. Every blow that lands in that time is stopped, and an enemy who struck from close by takes the force of their own blow back and is thrown off.
+The user hardens their body for a moment. Every hit that lands in that time is blocked and an enemy that hit from up close takes their own hit back and gets knocked away.
 
 Requires the awakened Heavy Point. Shares its cooldown with Tekkai.
 
@@ -149,7 +151,7 @@ Requires the awakened Heavy Point. Shares its cooldown with Tekkai.
 
 ![](../abilities/sai-dai-rin-rokuogan.png){ .ability-icon } *Active*
 
-The user sets both fists against the enemy in front of them, gathers all their strength, and lets it go as one shockwave through the enemy's body. Armour does not stop it. The enemy has to be within reach when it is let go.
+The user puts both fists on the enemy in front of them, charges up all their strength and releases it as a shockwave through the enemy's body. Armour does not stop it. The enemy has to be in reach when it is released.
 
 Requires the awakened Heavy Point. Shares its cooldown with Rokuogan.
 
@@ -164,7 +166,7 @@ Requires the awakened Heavy Point. Shares its cooldown with Rokuogan.
 
 ![](../abilities/mauling.png){ .ability-icon } *Active*
 
-The leopard leaps on the enemy in front of it, pins it down and tears at it with its fangs, then throws it aside with a last bite. Neither of them moves until it is over.
+The leopard jumps on the enemy in front of it, pins it down and bites it many times, then throws it away with a last bite. Neither of them can move until it is over.
 
 Requires the awakened Walk Point.
 
@@ -180,9 +182,9 @@ Requires the awakened Walk Point.
 
 ![](../abilities/tail-hold.png){ .ability-icon } *Active*
 
-The user's tail lashes out, wraps round the nearest enemy in front and holds them there, unable to move. The user keeps both hands free, and can walk and strike while the tail holds.
+The user's tail wraps around the closest enemy in front and holds them so they can't move. The user still has both hands free and can walk and attack while holding them.
 
-Requires the awakened Heavy Point. Sai Dai Rin: Rokuogan lets go of the enemy as it strikes.
+Requires the awakened Heavy Point. Using Sai Dai Rin: Rokuogan lets go of the enemy when it hits.
 
 | Stat | Value |
 |---|---|

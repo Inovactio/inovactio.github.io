@@ -19,8 +19,8 @@ Applies ![](../effect-icons/anesthesia.png){ .effect-mini .pixelated }[Anesthesi
 
 **Modes**
 
-- **Arm Mode**: Coats the arm in a tiny Room. Awakened, the coating is what Anesthesia rides on.
-- **Weapon Mode**: Coats the held weapon in a tiny Room. Awakened, the coating is what Anesthesia rides on.
+- **Arm Mode**: Coats the arm in a tiny Room. When awakened Anesthesia works through this coating.
+- **Weapon Mode**: Coats the held weapon in a tiny Room. When awakened Anesthesia works through this coating.
 
 | Stat | Value |
 |---|---|
@@ -36,7 +36,7 @@ Sends an electric shock through the K-Room so the next hit deals massive damage 
 
 | Stat | Value |
 |---|---|
-| Damage | 110 |
+| Damage | 180 |
 | Hold | 10 s |
 | Cooldown | 60 s |
 
@@ -44,7 +44,7 @@ Sends an electric shock through the K-Room so the next hit deals massive damage 
 
 ![](../abilities/puncture-wille.png){ .ability-icon } *Active*
 
-The user plants the coated hand and a colossal spire of Room erupts where they are aiming.
+The user plants the coated hand and a huge spike of Room comes out of the ground where they are aiming.
 
 Everything around it is run through, ignoring armor, and thrown into the air.
 
@@ -62,9 +62,9 @@ Everything around it is run through, ignoring armor, and thrown into the air.
 
 Applies ![](../effect-icons/anesthesia.png){ .effect-mini .pixelated }[Anesthesia](../effects.md#effect-anesthesia)
 
-While K-Room is active, every blow the user lands cuts with the Room and puts its target under.
+While K-Room is active every hit the user lands puts the target under Anesthesia.
 
-A numbed body no longer flinches: the user and their allies ignore the invulnerability frames of anyone they have anaesthetised, so every hit lands in full.
+The user and their allies ignore the invulnerability frames of anyone under Anesthesia so every hit does full damage.
 
 | Stat | Value |
 |---|---|

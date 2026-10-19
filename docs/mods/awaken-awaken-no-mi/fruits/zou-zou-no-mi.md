@@ -26,18 +26,19 @@ Transforms the user into an awakened elephant hybrid, which focuses on strength.
 
 | Stat | Value |
 |---|---|
-| Attack Speed | x1.1 |
-| Step Height | +1 |
 | Armor | +12 |
-| Max Health | x1.15 |
 | Block Reach | +0.75 |
 | Knockback Resistance | +1.5 |
-| Toughness | +6 |
-| Jump Height | +4 |
-| Punch Damage | +18 |
-| Entity Reach | +0.75 |
-| Speed | +0.56 |
+| Step Height | +1 |
+| Regen Rate | +0.5 |
 | Fall Resistance | +12 |
+| Attack Speed | x1.1 |
+| Speed | +0.56 |
+| Punch Damage | +18 |
+| Toughness | +6 |
+| Entity Reach | +0.75 |
+| Jump Height | +4 |
+| Max Health | x1.15 |
 
 ## Awaken Zou Guard Point { #awaken-zou-guard-point }
 
@@ -54,18 +55,19 @@ Transforms the user into an awakened elephant, which focuses on defense.
 
 | Stat | Value |
 |---|---|
-| Attack Speed | +0.1 |
-| Step Height | +1 |
 | Armor | +14 |
-| Max Health | x1.25 |
 | Block Reach | +1.2 |
 | Knockback Resistance | +3 |
-| Toughness | +8 |
-| Jump Height | +1.5 |
-| Punch Damage | +12.5 |
-| Entity Reach | +1.2 |
-| Speed | +0.14 |
+| Step Height | +1 |
+| Regen Rate | +0.5 |
 | Fall Resistance | +20 |
+| Attack Speed | +0.1 |
+| Speed | +0.14 |
+| Punch Damage | +12.5 |
+| Toughness | +8 |
+| Entity Reach | +1.2 |
+| Jump Height | +1.5 |
+| Max Health | x1.25 |
 
 ## Ivory Catastrophe { #ivory-catastrophe }
 
@@ -83,9 +85,9 @@ Charges forward spinning with huge tusks, impaling everything in the way.
 
 ![](../abilities/trunk-geyser.png){ .ability-icon } *Active*
 
-The elephant raises its trunk and blasts a jet of seawater, driving back everything in its path and putting out fire.
+The elephant raises its trunk and shoots a jet of seawater that pushes back everything in its way and puts out fire.
 
-A Devil Fruit user soaked by it loses their powers for a moment, as if they had fallen into the sea.
+Devil Fruit users hit by it lose their powers for a moment like if they fell in the sea.
 
 | Stat | Value |
 |---|---|

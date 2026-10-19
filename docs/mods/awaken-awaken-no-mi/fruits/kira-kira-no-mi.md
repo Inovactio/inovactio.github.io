@@ -32,9 +32,9 @@ Creates a tornado of diamond shards the user can steer, wrecking everything in i
 
 ![](../abilities/brilliant-meteor.png){ .ability-icon } *Active*
 
-The user tears a huge block of diamond out of the ground and hurls it, shattering it into a burst of shards where it lands.
+The user rips a huge diamond block out of the ground and throws it, it shatters into shards where it lands.
 
-Thrown with Diamond Body active, it hits half again as hard.
+If Diamond Body is active it deals 50% more damage.
 
 | Stat | Value |
 |---|---|
@@ -47,7 +47,7 @@ Thrown with Diamond Body active, it hits half again as hard.
 
 ![](../abilities/unscratchable.png){ .ability-icon } *Passive*
 
-While Diamond Body is active, blows too weak to scratch diamond do not hurt the user at all.
+While Diamond Body is active hits too weak to scratch diamond don't hurt the user at all.
 
 Armament Haki still breaks through.
 

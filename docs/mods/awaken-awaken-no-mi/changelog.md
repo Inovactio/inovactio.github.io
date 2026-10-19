@@ -2,6 +2,47 @@
 
 Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/all). The Minecraft 1.16.5 releases (0.2.1 to 0.7.2) are listed there too.
 
+## 2.4.0 { #v2-4-0 }
+
+<small>Released 2026-10-19 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9253422)</small>
+
+<div class="changelog-body" markdown="0">
+<blockquote>
+<h4>⚠️ AkumaLib update required: 5.0.0</h4>
+<p>This version needs <strong><a href="https://www.curseforge.com/minecraft/mc-mods/akumalib">AkumaLib</a> 5.0.0</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. With an older one the game will stop on Forge's missing-dependency screen.</p>
+<p>Just replace the AkumaLib jar in your <code>mods</code> folder with the new one. On a server every player needs it too.</p>
+</blockquote>
+<p><strong>Zoan awakenings heal, ten abilities rebalanced, and the Nika mod gets the Gomu Gomu no Mi.</strong></p>
+<hr />
+<h3>Changes</h3>
+<ul>
+<li>Every awakened Zoan form now regenerates faster, the stronger the fruit the more it heals (Phoenix the most)</li>
+<li>Awakened Pteranodon and Phoenix hybrid forms hit harder and take hits better, the awakened Daibutsu has more armor</li>
+<li>Nightmare Banquet now also takes the shadow of enemies as strong as you or stronger, they just need to stay in it longer</li>
+<li>Anesthesia only adds its extra Room damage on fully charged hits, spam clicking no longer stacks it</li>
+<li>Damage tuned so each awakening ability hits about as hard as its cooldown is long<ul>
+<li>Stronger: Shock Wille, Singularity, Tenchi Hokai, Beta Beta Surge, Juggernaut, Soul Reap, Phantom Payload</li>
+<li>Longer cooldown: Diffraction (also half the damage), Titan Smash, awakened Longneck Ram</li>
+</ul>
+</li>
+<li>With the <strong>Hito Hito no Mi Model Nika</strong> mod installed, Awaken leaves the Gomu Gomu no Mi to it and turns off its own Gomu awakening</li>
+<li>About 100 ability descriptions were rewritten in simpler words, nothing changed in how the abilities work</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Meigo no Jidai and Tenchi Hokai no longer destroy chests, furnaces, spawners and what is inside them, and Meigo no Jidai now respects protected areas</li>
+<li>With AkumaLib 5.0.0 the ground domains (Candle World, Ever White, Assign World, Sabaku no Okoku, Yukiro) leave chests, furnaces and protected areas alone too</li>
+</ul>
+<hr />
+<h3>Requirements</h3>
+<ul>
+<li>Minecraft <strong>1.20.1</strong></li>
+<li>Forge <strong>47.4.18+</strong></li>
+<li><strong>Mine Mine no Mi</strong> <code>1.20.1-0.11.6</code></li>
+<li><strong>AkumaLib</strong> <code>5.0.0+</code></li>
+</ul>
+</div>
+
 ## 2.3.1 { #v2-3-1 }
 
 <small>Released 2026-10-16 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9205286)</small>

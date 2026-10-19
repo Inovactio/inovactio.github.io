@@ -26,17 +26,18 @@ Transforms the user into an awakened bison hybrid, which focuses on strength and
 
 | Stat | Value |
 |---|---|
-| Attack Speed | x1.1 |
-| Step Height | +1 |
 | Armor | +12 |
-| Max Health | x1.15 |
-| Block Reach | +0.5 |
-| Toughness | +5 |
-| Jump Height | +6 |
-| Punch Damage | +12 |
-| Entity Reach | +0.5 |
 | Speed | x2.1 |
+| Block Reach | +0.5 |
+| Step Height | +1 |
+| Punch Damage | +12 |
+| Regen Rate | +0.5 |
+| Toughness | +5 |
 | Fall Resistance | +10 |
+| Jump Height | +6 |
+| Entity Reach | +0.5 |
+| Max Health | x1.15 |
+| Attack Speed | x1.1 |
 
 ## Awaken Bison Walk Point { #awaken-bison-walk-point }
 
@@ -53,14 +54,15 @@ Transforms the user into an awakened bison, which focuses on speed
 
 | Stat | Value |
 |---|---|
-| Attack Speed | +0.1 |
-| Step Height | +1 |
 | Armor | +24 |
-| Toughness | +4 |
-| Jump Height | +1.2 |
-| Punch Damage | +7.5 |
 | Speed | +1.26 |
+| Step Height | +1 |
+| Punch Damage | +7.5 |
+| Regen Rate | +0.5 |
+| Toughness | +4 |
 | Fall Resistance | +1.1 |
+| Jump Height | +1.2 |
+| Attack Speed | +0.1 |
 
 ## Fiddle Overdrive { #fiddle-overdrive }
 
@@ -80,9 +82,9 @@ The user pumps their Zoan heart way too fast, going into a steaming frenzy of po
 
 ![](../abilities/thundering-herd.png){ .ability-icon } *Active*
 
-The bison breaks into a wild run, and the ground remembers every step.
+The bison runs wild and leaves a trail behind it.
 
-When the run ends, or on a second use, a stampede of phantom hooves thunders down the whole trail, trampling and throwing everything near it.
+When the run ends or when used again, a ghost stampede runs down the whole trail, trampling and knocking away everything near it.
 
 | Stat | Value |
 |---|---|

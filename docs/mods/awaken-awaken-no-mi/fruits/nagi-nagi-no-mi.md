@@ -23,15 +23,15 @@ Traps a target in a soundproof bubble that cuts off all sounds and chat for them
 
 ![](../abilities/soundless-step.png){ .ability-icon } *Active · Punch*
 
-The user moves without making a single sound: monsters lose track of them and can't find them again.
+The user moves without making any sound so monsters lose track of them and can't find them again.
 
-The first blow breaks the silence and lands with crushing force.
+The first hit breaks the silence and deals a lot more damage.
 
 ## Dead Air { #dead-air }
 
 ![](../abilities/dead-air.png){ .ability-icon } *Passive*
 
-While Silent is active, enemies around the user can't use Observation Haki: no aura can see them and no future sight can dodge them.
+While Silent is active enemies around the user can't use Observation Haki so they can't see auras or dodge with future sight.
 
 | Stat | Value |
 |---|---|

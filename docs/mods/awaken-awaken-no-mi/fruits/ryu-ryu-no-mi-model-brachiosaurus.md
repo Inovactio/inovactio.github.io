@@ -26,17 +26,18 @@ Transforms the user into an awakened brachiosaurus hybrid, which focuses on stre
 
 | Stat | Value |
 |---|---|
-| Max Health | +100 |
 | Armor | +25 |
-| Jump Height | +2 |
-| Fall Resistance | +5 |
-| Attack Speed | <span class="stat-malus">0</span> |
-| Knockback Resistance | +2 |
-| Punch Damage | +16 |
-| Step Height | +1.5 |
-| Toughness | +8 |
 | Speed | +0.7 |
+| Knockback Resistance | +2 |
+| Step Height | +1.5 |
+| Punch Damage | +16 |
+| Regen Rate | +0.5 |
+| Toughness | +8 |
+| Fall Resistance | +5 |
 | Entity Reach | +1 |
+| Jump Height | +2 |
+| Max Health | +100 |
+| Attack Speed | <span class="stat-malus">0</span> |
 
 ## Awaken Brachiosaurus Guard Point { #awaken-brachiosaurus-guard-point }
 
@@ -53,18 +54,19 @@ Transforms the user into an awakened brachiosaurus, which focuses on defense.
 
 | Stat | Value |
 |---|---|
-| Max Health | x1.5 |
 | Armor | +30 |
-| Jump Height | +1.5 |
 | Block Reach | +8.25 |
+| Knockback Resistance | +3 |
+| Step Height | +1.5 |
+| Regen Rate | +0.5 |
 | Fall Resistance | +10 |
 | Attack Speed | +0.1 |
-| Knockback Resistance | +3 |
-| Punch Damage | +10 |
-| Step Height | +1.5 |
-| Toughness | +30 |
 | Speed | +0.14 |
+| Punch Damage | +10 |
+| Toughness | +30 |
 | Entity Reach | +8.25 |
+| Jump Height | +1.5 |
+| Max Health | x1.5 |
 
 ## Brachio Stomp { #brachio-stomp }
 
@@ -82,9 +84,9 @@ The user stomps the ground a bunch of times, damaging everyone around them with 
 
 ![](../abilities/neck-catapult.png){ .ability-icon } *Active*
 
-The brachiosaurus dips its neck, scoops up whoever stands in front of it and hurls them across the field.
+The brachiosaurus lowers its neck, picks up whoever is in front of it and throws them really far.
 
-An enemy is smashed apart where they land; an ally is carried safely and lands running.
+Enemies take big damage when they land, allies land safely and get a speed boost.
 
 | Stat | Value |
 |---|---|

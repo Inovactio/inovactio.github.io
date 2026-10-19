@@ -26,16 +26,17 @@ Transforms the user into an awakened giraffe hybrid, which focuses on strength a
 
 | Stat | Value |
 |---|---|
-| Attack Speed | +0.3 |
-| Step Height | +1 |
 | Armor | +15 |
-| Block Reach | +2.5 |
-| Toughness | +7.5 |
-| Jump Height | +5 |
-| Punch Damage | +8 |
-| Entity Reach | +2.5 |
 | Speed | +0.7 |
+| Block Reach | +2.5 |
+| Step Height | +1 |
+| Punch Damage | +8 |
+| Regen Rate | +0.25 |
+| Toughness | +7.5 |
 | Fall Resistance | +4 |
+| Jump Height | +5 |
+| Entity Reach | +2.5 |
+| Attack Speed | +0.3 |
 
 ## Awaken Giraffe Walk Point { #awaken-giraffe-walk-point }
 
@@ -52,16 +53,17 @@ Transforms the user into an awakened giraffe, which focuses on speed and reach.
 
 | Stat | Value |
 |---|---|
-| Step Height | +1 |
-| Attack Speed | +0.25 |
 | Armor | +14 |
-| Block Reach | +1.65 |
-| Toughness | +4 |
-| Jump Height | +0.75 |
-| Punch Damage | +2.5 |
-| Entity Reach | +1.65 |
 | Speed | +0.84 |
+| Block Reach | +1.65 |
+| Step Height | +1 |
+| Punch Damage | +2.5 |
+| Regen Rate | +0.25 |
+| Toughness | +4 |
 | Fall Resistance | +0.5 |
+| Jump Height | +0.75 |
+| Entity Reach | +1.65 |
+| Attack Speed | +0.25 |
 
 ## Longneck Ram { #longneck-ram }
 
@@ -78,16 +80,16 @@ Transforms the user into an awakened giraffe, which focuses on speed and reach.
 
 | Stat | Value |
 |---|---|
-| Cooldown | 15 s |
+| Cooldown | 26 s |
 | Damage | 80 |
 
 ## Neck Hammer { #neck-hammer }
 
 ![](../abilities/neck-hammer.png){ .ability-icon } *Active*
 
-Rears the long neck back and brings the head down on the enemy in front, from high above.
+Pulls the long neck back and slams the head down on the enemy in front from high above.
 
-A guard it lands on breaks: it drops, and every guard the target holds stays locked for a while. Shields are knocked aside too.
+If the target is guarding the guard breaks and they can't guard again for a while, shields get knocked aside too.
 
 | Stat | Value |
 |---|---|

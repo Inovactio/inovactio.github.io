@@ -47,7 +47,7 @@ Landing from high up sends a shockwave, attacks inside echo back at the attacker
 
 ![](../abilities/broken-focus.png){ .ability-icon } *Passive*
 
-Every sound the user makes breaks their enemies' concentration: an ability being charged is cut off and locked for a while.
+Every sound the user makes breaks their enemies' focus, so an ability being charged is cut off and locked for a while.
 
 Todoroki, Dragon's Roar, Resonating World and High-Frequency Wall all count.
 

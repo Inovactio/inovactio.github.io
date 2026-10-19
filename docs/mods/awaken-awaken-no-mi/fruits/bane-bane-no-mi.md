@@ -15,7 +15,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/spring-domain.png){ .ability-icon } *Active · Zone*
 
-Turns the floor into springs: allies bounce freely and take no fall damage, while enemies are flung around and take the fall.
+Turns the floor into springs, allies bounce around freely and take no fall damage while enemies get thrown around and take fall damage.
 
 | Stat | Value |
 |---|---|
@@ -40,7 +40,7 @@ The user charges up spring energy and launches forward at extreme speed, sending
 
 ![](../abilities/ricochet.png){ .ability-icon } *Passive*
 
-The user's dashes bounce: a wall sends them flying back off it, and a target hit launches the user at the next enemy nearby.
+The user's dashes bounce, hitting a wall sends them flying back and hitting a target launches the user at the next enemy nearby.
 
 Works with Spring Snipe and Spring Fajin.
 

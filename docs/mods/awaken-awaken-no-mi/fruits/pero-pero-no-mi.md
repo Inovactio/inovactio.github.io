@@ -55,7 +55,7 @@ Applies ![](../effect-icons/sugar-coffin.png){ .effect-mini .pixelated }[Sugar C
 
 Shuts the targeted enemy inside a coffin of hard candy that no blow can break, crushing them every second.
 
-Trapped, they cannot move, turn or attack, and can still be hit by anyone.
+While trapped they can't move, turn or attack and anyone can still hit them.
 
 | Stat | Value |
 |---|---|

@@ -36,7 +36,7 @@ The wave leaves a trail of Mucus behind it.
 |---|---|
 | Cooldown | 45 s |
 | Range | 24 blocks (line) |
-| Damage | 40 |
+| Damage | 120 |
 
 ## Slick Passage { #slick-passage }
 

@@ -26,14 +26,15 @@ Transforms the user into an awakened allosaurus hybrid, which focuses on strengt
 
 | Stat | Value |
 |---|---|
-| Step Height | +1 |
 | Armor | +20 |
-| Toughness | +5 |
-| Jump Height | +4 |
-| Punch Damage | +18 |
-| Entity Reach | +0.2 |
 | Speed | +1.4 |
+| Step Height | +1 |
+| Punch Damage | +18 |
+| Regen Rate | +0.5 |
+| Toughness | +5 |
 | Fall Resistance | +5 |
+| Entity Reach | +0.2 |
+| Jump Height | +4 |
 
 ## Awaken Allosaurus Walk Point { #awaken-allosaurus-walk-point }
 
@@ -50,17 +51,18 @@ Transforms the user into an awakened allosaurus, which focuses on speed
 
 | Stat | Value |
 |---|---|
-| Attack Speed | +0.1 |
-| Step Height | +2 |
 | Armor | +30 |
+| Speed | +0.21 |
 | Block Reach | +0.75 |
 | Knockback Resistance | +3 |
-| Toughness | +6 |
-| Jump Height | +2.4 |
+| Step Height | +2 |
 | Punch Damage | +35 |
-| Entity Reach | +0.75 |
-| Speed | +0.21 |
+| Regen Rate | +0.5 |
+| Toughness | +6 |
 | Fall Resistance | +4.5 |
+| Entity Reach | +0.75 |
+| Jump Height | +2.4 |
+| Attack Speed | +0.1 |
 
 ## Ancient Spine Saw { #ancient-spine-saw }
 
@@ -78,9 +80,9 @@ The user rolls forward along its spined back, cutting everything in its path.
 
 ![](../abilities/apex-pursuit.png){ .ability-icon } *Active*
 
-Marks the prey the allosaurus is looking at and runs it down, far faster than it can flee.
+Marks the target the allosaurus is looking at and chases it down way faster than it can run.
 
-Once the prey is within reach of the jaws, the allosaurus drives its upper jaw down like a hatchet and leaves it bleeding.
+When the target is close enough the allosaurus slams its upper jaw down on it and makes it bleed.
 
 | Stat | Value |
 |---|---|
