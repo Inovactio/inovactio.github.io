@@ -2,6 +2,42 @@
 
 Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/all).
 
+## 4.1.0 { #v4-1-0 }
+
+<small>Released 2026-10-19 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9256142)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>NPCs fight better with this addon's fruits.</strong> The Uta Uta no Mi and the Hobi Hobi no Mi now have their NPC version, so every fruit of the addon can be drawn by Mine Mine no Mi's captains, notorious NPCs and troops. NPCs use more techniques, Zoan NPCs switch form for their attacks, and each flying fruit has its own time in the air. Creatures now go for the Shima Shima's island face instead of following its user's spirit.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 5.0.0</strong> or newer. Client and server.</p>
+<p>⚠️ <strong>Servers: set <code>allow-flight=true</code></strong> in <code>server.properties</code>, as before. Several fruits fly, and without it the server kicks their users.</p>
+<hr />
+<h2>NPCs</h2>
+<ul>
+<li><strong>Uta Uta no Mi.</strong> An NPC singer takes the players who hear it into its Uta World stage, as a player singer does. The NPC sleeps where it sang, guarded by its puppets, and a double of it fights on the stage with Note Soldiers, Staff and Knight Form. The dream lasts as long as its voice. Beat the double and the NPC loses 60 % of its health. Players always come back to their body: when the double is beaten, when someone strikes the sleeping NPC, when it dies or leaves, or when its voice is spent.</li>
+<li><strong>Hobi Hobi no Mi.</strong> An NPC with it is a child, smaller and weaker. Its touch makes a player or a creature a toy, and its Little Black Bears turn nearby animals into bears. A toy made by an NPC is free after 2 minutes at most, or as soon as the NPC dies, is knocked out, gets wet, leaves or loses the fruit.</li>
+<li><strong>More techniques for NPCs.</strong></li>
+<li><strong>Biscuit Hei</strong> (Bisu): 3 biscuit soldiers fight for the NPC and crumble when it dies.</li>
+<li><strong>Pink Hornets</strong> (Suzumebachi): 4 hornets go for its target and leave when it dies.</li>
+<li><strong>Hana Jet</strong> (Atsu): a steam jet at its target, and its head butt hits harder in the jet.</li>
+<li><strong>Gauntlet Grab</strong> (Kote): rips a block from the ground and throws it. With NPC block breaking off, the ground stays whole and a crumbling copy flies.</li>
+<li><strong>Numa Sensui</strong> (Numa), <strong>Thread Pull</strong> (Rosamygale) and <strong>Nui Tobi</strong> (Nui): to reach a target more than 6 blocks away.</li>
+<li><strong>Paper Swarm</strong> and <strong>Paper Flight</strong> (Pasa): the NPC scatters into sheets for 30 s and casts its paper techniques from the air.</li>
+<li><strong>Float</strong> and <strong>Vise</strong> (Ton): the NPC floats over its target and drops a Vise on it.</li>
+<li><strong>Zoan NPCs switch form for their attacks.</strong> A Zoan NPC no longer stays in one form up close. After 5 s in a form it takes the other one when a technique of that form is ready, then comes back. Wolf, Saber Tiger, Tanuki, Triceratops, Kabutomushi, Eagle, Falcon and Pachycephalosaurus. So you now see their Shippu, Pounce, Scurry, Horn Charge, Beetle Ram, Carry Off, Tsukami Otoshi and Skull Smash.</li>
+<li><strong>Each flight its own time in the air.</strong> The flying fruits (Falcon, Eagle, Albatross, Pegasus, Vampire, Kabutomushi, Suzumebachi and the Fuwa Fuwa) fly about 12 s, then rest 10 s on the ground. The others (Triceratops, Guru, Buku, Mori, Pasa and Ton) only hop up 3 s for an attack from the air, then fight 20 s on the ground. A Triceratops NPC no longer stays in the air far too long.</li>
+<li><strong>Ato, Mane and Gasha NPCs use their kit better.</strong> An Ato NPC lays its Mosaic Art under its target. A Mane NPC touches faces even in a busy fight, so it really copies them. A Gasha NPC takes its Blindado armour first and calls its mech only while the armour cools down.</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li>Another addon can now make any creature fight as one of this addon's Zoans in full form, with the real techniques. See the page <a href="../developers/">for addon developers</a>.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Shima Shima no Mi: creatures followed the invisible spirit.</strong> After a Merge, the creatures that were after you went on chasing your spirit. Now they go for the island's face, and the hostile monsters within 32 blocks that see the face come to it too. Their blows on the face pass half on to you, as before. With the face broken, they lose interest. Shima NPCs work the same way.</li>
+<li><strong>Uta Uta no Mi: a player could stay stuck on the stage.</strong> A player who logged in at the very moment a dream took them was left on the stage with no dream.</li>
+</ul>
+</div>
+
 ## 4.0.0 (beta) { #v4-0-0 }
 
 <small>Released 2026-10-18 · Beta · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9247445)</small>
