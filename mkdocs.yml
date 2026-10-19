@@ -300,6 +300,7 @@ nav:
               - "Uma Uma no Mi, Model: Pegasus": mods/missing-missing-no-mi/fruits/uma-uma-no-mi-model-pegasus.md
       - All abilities: mods/missing-missing-no-mi/all-abilities.md
       - Status effects: mods/missing-missing-no-mi/effects.md
+      - For addon developers: mods/missing-missing-no-mi/developers.md
       - Changelog: mods/missing-missing-no-mi/changelog.md
   - Sky Island:
       - mods/sky-island/index.md
