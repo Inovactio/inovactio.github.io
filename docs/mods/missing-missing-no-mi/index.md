@@ -17,9 +17,9 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **4.0.0** (beta) |
+| Version documented | **4.1.0** (beta) |
 | Mod id | `inomissing` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [4.0.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9247445) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [4.1.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/TO-FILL) · [changelog](changelog.md) |
 
 ## What it adds
 
@@ -35,10 +35,11 @@ Nothing here replaces or rebalances the base mod, and a fruit Mine Mine no Mi ha
 
 ## NPCs with these fruits
 
-Mine Mine no Mi's **captains, notorious NPCs and troops** can draw this addon's fruits and fight with most of their techniques, as they do with the base mod's own fruits. Only the Uta Uta no Mi and the Hobi Hobi no Mi stay out.
+Mine Mine no Mi's **captains, notorious NPCs and troops** can draw every fruit of this addon and fight with most of their techniques, as they do with the base mod's own fruits.
 
 - The weakest troops get the wooden box fruits.
-- A Zoan takes its fighting form up close and its other form further off. The flying fruits fly on an NPC: it circles over you, dives on you and comes down to rest.
+- A Zoan takes its fighting form up close and its other form further off, and switches form when a technique of the other form is ready. The flying fruits fly on an NPC: it circles over you, dives on you and comes down to rest. The other flights are a short hop for an attack from the air.
+- An Uta Uta NPC sings players into its dream, where its double fights them on the stage. A Hobi Hobi NPC makes toys that are free again after 2 minutes at most, or when it dies or leaves.
 - An NPC's summons fight for it, and what it leaves behind (servants, caught shots, a borrowed look) is let go when it dies or leaves.
 - Nothing of an NPC's fruit can be farmed: its gold, metal and turret bullets never run out, and its turret drops nothing.
 - NPCs with these fruits break no blocks, unless the server turns on `npcAbilityGriefing` in `akumalib-server.toml` (off by default). Players are not affected.
@@ -65,4 +66,5 @@ Mine Mine no Mi's **captains, notorious NPCs and troops** can draw this addon's 
 | **[Fruits](fruits/index.md)** | the 74 fruits, one page each, with every ability's description and values, and the odds of each box |
 | **[All abilities](all-abilities.md)** | every ability in one table you can sort and filter: cooldown, charge, hold, damage, range |
 | **[Status effects](effects.md)** | the effects the fruits inflict or grant, and what applies each one |
+| **[For addon developers](developers.md)** | make another addon's creatures fight as this addon's Zoans |
 | **[Changelog](changelog.md)** | what each release brought |
