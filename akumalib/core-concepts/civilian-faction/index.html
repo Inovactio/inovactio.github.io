@@ -9436,6 +9436,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#the-marine-recruiter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Marine recruiter
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#back-to-civilian-life" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Back to civilian life
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-to-a-pirates-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding to a pirate's window
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -12046,6 +12079,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#the-marine-recruiter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Marine recruiter
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#back-to-civilian-life" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Back to civilian life
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-to-a-pirates-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding to a pirate's window
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -12167,6 +12233,50 @@ and circled him for ever: now they leave a civilian alone. The theft that turns 
 </code></pre></div>
 <p>Call it once for each weapon taken, and once per window opened for the rest, as AkumaLib does for Marine
 chests. <code>CivilianFaction.isCivilian(entity)</code> tells whether a player or an NPC is a civilian.</p>
+<h2 id="the-marine-recruiter">The Marine recruiter<a class="headerlink" href="#the-marine-recruiter" title="Permanent link">&para;</a></h2>
+<p><em>Since 5.1.0.</em> A recruiter stands at the front desk of Mine Mine no Mi's small and large Marine bases, old
+worlds included: he appears when a player walks into the base. He does not move, fight or get hurt. His window
+(<code>MarineRecruiter</code>) offers what applies to the player now:</p>
+<ul>
+<li><strong>Join the Marines</strong>: a civilian or a bounty hunter with no bounty and in no crew becomes a Marine Chore Boy at
+  loyalty 0, given the base mod's Marine hat, shirt, trousers and boots;</li>
+<li><strong>Resign</strong>: a Marine becomes a civilian again, loyalty 0. The base mod's own desertion (a Marine whose loyalty
+  falls to -5 turns pirate) is left as it is;</li>
+<li>anyone else is told why not (<code>MarineRecruiter.Refusal</code>): already a Marine, a pirate, a bounty, a crew.</li>
+</ul>
+<p>The server decides everything: a button pressed is judged again on the server, and only from within 6 blocks of
+the recruiter (<code>MarineRecruiter.REACH</code>). The window adds two messages: 5.1.0 is network protocol 10.</p>
+<h2 id="back-to-civilian-life">Back to civilian life<a class="headerlink" href="#back-to-civilian-life" title="Permanent link">&para;</a></h2>
+<p><em>Since 5.1.0.</em> A pirate whose bounty <strong>never went over 500 000</strong> (<code>CivilianReturn.CAP</code>; dying to lower it changes
+nothing) can stop being one at the same desk. They must leave their crew first. <code>CivilianReturn</code> gives the pirate's
+window two buttons:</p>
+<ul>
+<li><strong>Amnesty</strong>: they pay half their bounty in Belly. Their bounty goes to 0, their wanted poster is gone and they are a
+  civilian.</li>
+<li><strong>Give yourself up</strong>: they serve a sentence of 2 minutes, plus 1 per 5 000 of bounty, 30 at most, counted only
+  while they are online, in a cell of a new prison, in Kairoseki handcuffs, abilities off. Their weapons and fruit
+  boxes are kept and given back at the end, where they surrendered, as a civilian.</li>
+</ul>
+<p>Two more rules help them get there:</p>
+<ul>
+<li><strong>A fading bounty</strong>: after 3 game days online with no new bounty, it loses a fifth of what it was every game day.
+  At 0 they are still a pirate, but the amnesty is free.</li>
+<li><strong>Truce</strong>: inside a Marine base, a pirate who could go back, with no weapon in hand and no Marine struck or robbed
+  in the last minute, is left alone by the Marines, so they can reach the desk.</li>
+</ul>
+<h2 id="adding-to-a-pirates-window">Adding to a pirate's window<a class="headerlink" href="#adding-to-a-pirates-window" title="Permanent link">&para;</a></h2>
+<p>An addon offers its own choices to a pirate at the recruiter's desk. Register them once, at set up:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// Called on the server each time a pirate opens the window: return only what applies to them now.</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">MarineRecruiter</span><span class="p">.</span><span class="na">addPirateOptions</span><span class="p">(</span><span class="n">pirate</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">        </span><span class="k">new</span><span class="w"> </span><span class="n">MarineRecruiter</span><span class="p">.</span><span class="na">Option</span><span class="p">(</span><span class="s">"yourmodid:pardon"</span><span class="p">,</span><span class="w"> </span><span class="n">label</span><span class="p">,</span><span class="w"> </span><span class="n">tooltip</span><span class="p">,</span><span class="w"> </span><span class="kd">open</span><span class="p">,</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">                </span><span class="n">asked</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">reply</span><span class="p">)));</span>
+</code></pre></div>
+<p>An <code>Option</code> is a button: its id, its label, its tooltip, and whether it may be pressed. One that may not is greyed,
+its tooltip saying why. <code>choose</code> (the last argument) does what the button says, on the server, and returns what the
+recruiter answers. <code>MarineRecruiter.removePirateOptions</code> takes back what was added. AkumaLib's own amnesty and
+surrender come in this way.</p>
+<p>A desk of your own uses <code>CivilianReturn</code> directly, on the server: <code>refusal(player)</code> (why a pirate cannot go back
+now, or <code>NONE</code>), <code>price(player)</code> (the amnesty in Belly), <code>pardon(player)</code> and <code>sentence(player)</code>.</p>
 
 
 

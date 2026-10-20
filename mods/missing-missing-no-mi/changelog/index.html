@@ -7454,6 +7454,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#v4-2-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#v4-1-0" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -12002,6 +12013,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#v4-2-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#v4-1-0" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -12134,6 +12156,36 @@
 
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
 <p>Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as published on <a href="https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/all">CurseForge</a>.</p>
+<h2 id="v4-2-0">4.2.0<a class="headerlink" href="#v4-2-0" title="Permanent link">&para;</a></h2>
+<p><small>Released 2026-10-20 · <a href="https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9268172">Download</a></small></p>
+<div class="changelog-body" markdown="0">
+<p><strong>Forms look right, and NPCs use more of their kit.</strong> Capes, coats and armour now fit the forms, or stay off where they would look wrong. Weapons sit right in every form: the whole animals carry them in the mouth, flat and at their real size, and the giants draw a bow or raise a shield. NPC captains in a form keep their own look, use their close-range blows and answer your arrows. Ame Ame and Toro Toro move to tier 3, four Logias get their return effect, and Ishi Ishi hits less hard. Several crashes are gone.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 5.1.0</strong> or newer. Client and server. Curios is optional.</p>
+<p>⚠️ <strong>Servers: set <code>allow-flight=true</code></strong> in <code>server.properties</code>, as before. Several fruits fly, and without it the server kicks their users.</p>
+<hr />
+<h2>Changes</h2>
+<ul>
+<li><strong>Ame Ame no Mi and Toro Toro no Mi are tier 3 now</strong>, in the golden box like every other Logia. Troops (grunts, brutes, snipers) never get a Logia anymore.</li>
+<li><strong>Logia return effects for Mori, Numa, Pasa and Toro.</strong> With Mine Mine no Mi's server option for Logia return effects turned on, a bare fist that goes through the body now gets something back. Mori holds the attacker in place 1 s, Numa gives Slowness III for 2 s, Pasa cuts for 3 damage, Toro pushes the attacker back about a block. The option is off by default.</li>
+<li><strong>Ishi Ishi no Mi hits less hard.</strong> Ishiusu now deals 14 damage (was 26), Bitestone 10 (was 15), Charlestone 9 (was 14) and Pulpostone 8 (was 12). An NPC captain with this fruit could kill a fresh player in one hit. Ishi Kobushi and the Stone Giant's power are unchanged.</li>
+<li><strong>All the fruits of the addon are in Mine Mine no Mi's fruit item tags</strong> (devil fruit, Paramecia, Logia, Zoan). Data packs, other mods and JEI tag search see them now.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Fruit users among the NPCs draw their forms right.</strong> A captain in Stone Giant, Golden Armour, Golden Tesoro, Kinniku Mori Mori, Metal Coat, Netsuryo Up or Flat Hiding was drawn black, and in Fashion Punc, Heaven's Do Art, Gattai, Overfed, Own Youth or Red Collar it had a black or missing arm and leg. Each form now shows the NPC's own look in stone, gold, wood, metal and so on, like a player's. Players are not changed.</li>
+<li><strong>Kote Kote no Mi: the left gauntlet glows like the right one.</strong> In the dark only the right hand had its glowing lines, the left one stayed plain.</li>
+<li><strong>Hybrid forms keep their claws and fur on your arms and head.</strong> The Batto Vampire hybrid's claws floated in front of the chest during Draining Bite, and its mask stayed upright during Echolocation, while the arms and head moved. In the Tanuki, Kyubi and Onyudo hybrids the bite, Fox Fire and Great Sweep moved the claws or sleeves twice as far as the arm (Goru Goru's gauntlet too, in Gon Bomba and Gon Tempesta). Together with AkumaLib 5.1.0, the claws and sleeves of every hybrid, of this addon and of Mine Mine no Mi, also follow the arm on a punch and with an item in hand.</li>
+<li><strong>No more crash when a fighter in a full form has arrows stuck in it.</strong> A Buki Buki captain hit by arrows crashed the game of every player nearby as it turned into Missile Girl, and a Zoan captain could do the same as it switched to its run form (Saber Tiger, Tanuki, Wolf, Kabutomushi...). Players in those forms could crash too. Fixed together with AkumaLib 5.1.0.</li>
+<li><strong>Mira Mira no Mi: no more server crash when Mirro-World lets you out.</strong> When a Mira captain's area unloaded while you were in Mirro-World, the server could crash as you came back out. You now come out on the next moment, safely.</li>
+<li><strong>NPC fruit users now use their close-range techniques.</strong> A captain with one of this addon's fruits often never used its close blows, even with you right in front of it. It now uses Kagizume (Falcon), Four Arm Rush (Kabutomushi), Mandible Bite (Suzumebachi), Senton Knuckle and Senton Press (Ton), Revolver Leg (Buki), Jaw Grab and Thrash (Orochi), Dai Setsudan and Kirisaki (Choki), Kama Kama no Renzan and Enbu (Kama) and Met Punc (Pamu). Ude Nui (Nui) and Dying Art (Ato) also no longer wait for the captain to happen to look straight at you.</li>
+<li><strong>Hoya Hoya no Mi NPCs give their genie orders.</strong> A Hoya captain called its genie and then never ordered Great Genie, Maji Giren, Majin Saidan, Maji Karu or Genie Shield. It does now, while the genie is out. Its own fists still hit nothing while the genie is out, as for a player.</li>
+<li><strong>Ami Ami no Mi NPCs throw all four nets.</strong> A captain only ever threw Mucho Neto Net. It now throws Mucho Neto Net, Mucho Cho Shi Mo, Mucho Kaji Mo and Millionet in turn.</li>
+<li><strong>NPCs answer your arrows.</strong> Techniques used against shots (Toki Toki's Postpone, Kote Kote's Lightning Barrier, Nuke Nuke's Untouched, Pasa Pasa's Sefer Yetzirah, Gunyo Gunyo's Clay Wall, Muchi Muchi's Back!, Wapu Wapu's Scatter, Hane Arashi and Wing Gust) almost never came against a real bow. An NPC now uses them when an arrow flies at it.</li>
+<li><strong>Capes, coats and armour fit the forms.</strong> A captain's cape or a Marine coat used to vanish on Biscuit Armour, Clay Armour and the Gasha mech, and sat human-sized inside the big torso of the hybrid forms. It now hangs behind the hybrid's own torso and wing roots and covers the armours' plates; a cape worn in a Curios slot does the same. Where it would look wrong it is left off: every full animal form (wolf, birds, insects, dinosaurs...), Toro's pool, Buki's missile and disk, Tama's yolk, Mori's sapling, Orochi's hybrid and the Rosamygale and Kyubi hybrids; the Spinosaurus hybrid folds its sail under a cape. On the Zoan hybrids, worn armour now takes the size of the hybrid's torso, arms and legs instead of floating inside them; a piece that would have to grow more than twice is left off (birds' wing-arms), and the Rosamygale hybrid keeps only its helmet.</li>
+<li><strong>Weapons sit right in every form.</strong> In a whole form (Gocha's giant, the Stone Giant...) your arms now take the pose of what you do with your weapon: bow drawn, shield raised, gun or bazooka aimed, crossbow held, trident raised. In a hybrid or partial form, an NPC's weapon is in its own hand again (it used to float where yours was). The whole animals (Wolf, Tanuki, Kyubi, Saber Tiger, the birds, the bat, Pegasus, the dinosaurs, the insects, the spider, the Orochi) carry your main-hand item in the mouth: a weapon lies flat across it, gripped by the handle and at its real size (a spear or staff by the middle of its shaft; a gun or bazooka by its grip, pointing ahead), anything else small, like a fox; the rooster keeps it in its wing, and the off-hand item is no longer drawn on top of it. Forms with no real hands draw no weapon: Buki's spinning disk and missile, Toro's pool, Tama's yolk, Mori's sapling, Fude's flat drawing and the Gasha mech and colossus. An arm turned into a weapon (Ame's spear, Noko's drill, Mochi's arms, Mori's branch, Buki's Espada, revolver and gatling, Gasha's cannon and power arms, Goru's gauntlet, Choki's scissors, Kama Tsume) no longer holds your main-hand item; your other hand keeps its own. Fixed together with AkumaLib 5.1.0.</li>
+</ul>
+</div>
+
 <h2 id="v4-1-0">4.1.0<a class="headerlink" href="#v4-1-0" title="Permanent link">&para;</a></h2>
 <p><small>Released 2026-10-19 · <a href="https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9256142">Download</a></small></p>
 <div class="changelog-body" markdown="0">
