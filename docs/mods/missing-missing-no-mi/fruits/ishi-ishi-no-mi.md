@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Stone |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.71%**, iron **0.136%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 6 active, 2 passive |
 | **Transformations** | [Stone Giant](#ishi-giant) |
 
@@ -45,7 +45,7 @@ Creates stone tentacles around the location the user is looking at, that smashes
 | Damage type | Blunt |
 | Haki | Special |
 | Cooldown | 10 s |
-| Damage | 12 |
+| Damage | 8 |
 
 ## Charlestone { #charlestone }
 
@@ -60,7 +60,7 @@ Creates multiple waves of stone spikes from the ground around the user, launchin
 | Damage type | Blunt |
 | Haki | Special |
 | Cooldown | 25 s |
-| Damage | 14 |
+| Damage | 9 |
 
 ## Ishiusu { #ishiusu }
 
@@ -75,7 +75,7 @@ Creates two spiked stone pillars on each side of the enemy the user is looking a
 | Damage type | Blunt |
 | Haki | Special |
 | Cooldown | 15 s |
-| Damage | 26 |
+| Damage | 14 |
 
 ## Bitestone { #bitestone }
 
@@ -90,7 +90,7 @@ Creates a giant stone head in front of the enemy the user is looking at, which b
 | Damage type | Blunt |
 | Haki | Special |
 | Cooldown | 12 s |
-| Damage | 15 |
+| Damage | 10 |
 
 ## Ishi Kobushi { #ishi-kobushi }
 

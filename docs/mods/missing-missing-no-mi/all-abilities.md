@@ -245,10 +245,10 @@ Every ability of the 74 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/tekkai-kenpo-roga-no-kamae.png){ .ability-mini }[Tekkai Kenpo: Roga no Kamae](fruits/inu-inu-no-mi-model-wolf.md#tekkai-kenpo-roga-no-kamae) | [Inu Inu no Mi, Model: Wolf](fruits/inu-inu-no-mi-model-wolf.md) | Active |  |  | 15 s |  |  |
 | ![](abilities/ishi-stone.png){ .ability-mini }[Stone Mass](fruits/ishi-ishi-no-mi.md#ishi-stone) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Passive |  |  |  |  |  |
 | ![](abilities/ishi-travel.png){ .ability-mini }[Stone Assimilation](fruits/ishi-ishi-no-mi.md#ishi-travel) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Passive |  |  |  |  |  |
-| ![](abilities/pulpostone.png){ .ability-mini }[Pulpostone](fruits/ishi-ishi-no-mi.md#pulpostone) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active | 10 s |  |  | 12 |  |
-| ![](abilities/charlestone.png){ .ability-mini }[Charlestone](fruits/ishi-ishi-no-mi.md#charlestone) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active | 25 s |  |  | 14 |  |
-| ![](abilities/ishiusu.png){ .ability-mini }[Ishiusu](fruits/ishi-ishi-no-mi.md#ishiusu) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active | 15 s |  |  | 26 |  |
-| ![](abilities/bitestone.png){ .ability-mini }[Bitestone](fruits/ishi-ishi-no-mi.md#bitestone) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active | 12 s |  |  | 15 |  |
+| ![](abilities/pulpostone.png){ .ability-mini }[Pulpostone](fruits/ishi-ishi-no-mi.md#pulpostone) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active | 10 s |  |  | 8 |  |
+| ![](abilities/charlestone.png){ .ability-mini }[Charlestone](fruits/ishi-ishi-no-mi.md#charlestone) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active | 25 s |  |  | 9 |  |
+| ![](abilities/ishiusu.png){ .ability-mini }[Ishiusu](fruits/ishi-ishi-no-mi.md#ishiusu) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active | 15 s |  |  | 14 |  |
+| ![](abilities/bitestone.png){ .ability-mini }[Bitestone](fruits/ishi-ishi-no-mi.md#bitestone) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active | 12 s |  |  | 10 |  |
 | ![](abilities/ishi-kobushi.png){ .ability-mini }[Ishi Kobushi](fruits/ishi-ishi-no-mi.md#ishi-kobushi) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active | 3 s |  |  | 6 |  |
 | ![](abilities/ishi-giant.png){ .ability-mini }[Stone Giant](fruits/ishi-ishi-no-mi.md#ishi-giant) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/decaying-touch.png){ .ability-mini }[Decaying Touch](fruits/juku-juku-no-mi.md#decaying-touch) | [Juku Juku no Mi](fruits/juku-juku-no-mi.md) | Active | 6 s |  |  |  | 5 blocks (line) |
