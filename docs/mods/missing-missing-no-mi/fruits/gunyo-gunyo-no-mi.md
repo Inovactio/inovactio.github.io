@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Clay |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.46%**, wooden **0.073%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 9 active, 0 passive |
 | **Transformations** | [Clay Armour](#gunyo-clay-armour) |
 | **Effects applied** | ![](../effect-icons/buried-in-clay.png){ .effect-mini }[Buried in Clay](../effects.md#effect-buried-in-clay) |

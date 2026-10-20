@@ -2,6 +2,76 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 5.1.0 { #v5-1-0 }
+
+<small>Released 2026-10-20 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9268171)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Join the Marines, and come back from piracy.</strong> A Marine recruiter now sits at the front desk of Mine Mine no
+Mi's Marine bases: a civilian can sign up there, a Marine can resign, and a pirate can buy an amnesty or give
+themselves up and serve a sentence in a new prison. Captains and notorious NPCs blink around with Soru far less. The
+forms are drawn better: NPCs are no longer missing a torso or limbs, arrows stuck in a full form no longer crash the
+game, hybrid claws follow the arm, and weapons take their pose in whole forms. AkumaLib is now in French too. No
+signature was removed or changed.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are optional.</p>
+<p>⚠️ <strong>Network protocol 10.</strong> The recruiter's window adds two messages, so 5.1.0 does not play with 5.0.0: update the
+server and every client together.</p>
+<hr />
+<h3>Mine Mine no Mi fixes</h3>
+<ul>
+<li><strong>Marine captains without a torso.</strong> Once an NPC fruit user took a form that hides part of the body (Mochi's
+  Flowing Body, Onyudo's hybrid...), every NPC of its kind was drawn with that part missing, new ones too, until the
+  game restarted. Each NPC is now drawn whole again after the one in its form.</li>
+<li><strong>Crash with arrows stuck in a full form.</strong> A player or an NPC in a full form whose body is partly hidden (a
+  missile, a beast's run form) crashed the game of everyone who saw it as soon as an arrow was stuck in it. It no
+  longer does.</li>
+<li><strong>Hybrid claws and fur follow the arm.</strong> On every punch, the claws, fur and sleeves of a hybrid form ran ahead of
+  the arm they sit on, and sat a little off it with an item in hand. They now move with the arm, in Mine Mine no Mi's
+  forms and the addons' alike.</li>
+<li><strong>Weapons in whole forms.</strong> In a whole humanoid form (a giant, a stone body...) the arms hung down while you drew a
+  bow, raised a shield, aimed a gun or a bazooka, or held a crossbow. They now take the pose, for players and NPCs.</li>
+<li><strong>Weapons in hybrid forms on NPCs.</strong> An NPC in a hybrid or partial form held its weapon where somebody else's hand
+  was (a captain's sword floated where you drew your bow). It is now in its own hand.</li>
+</ul>
+<h3>New</h3>
+<ul>
+<li><strong>The Marine recruiter.</strong> A recruiter now stands at the front desk of Mine Mine no Mi's small and large Marine
+  bases, in old worlds too (he appears when a player walks into the base). He does not move, fight or get hurt.
+  <ul>
+  <li><strong>Join the Marines:</strong> a civilian or a bounty hunter with no bounty and no crew becomes a Marine Chore Boy, with the
+    Marine hat, shirt, trousers and boots.</li>
+  <li><strong>Resign:</strong> a Marine becomes a civilian again.</li>
+  <li>Each refusal says why: already a Marine, a pirate, a bounty, a crew.</li>
+  </ul></li>
+<li><strong>Back to civilian life.</strong> A pirate whose bounty never went over 500 000 can stop being one, at the same desk. They
+  must leave their crew first.
+  <ul>
+  <li><strong>Amnesty:</strong> pay half your bounty in Belly. Your bounty goes to 0, your wanted poster is gone and you are a
+    civilian.</li>
+  <li><strong>Give yourself up:</strong> serve a sentence of 2 minutes, plus 1 per 5 000 of bounty, 30 at most, counted only while
+    you are online. You serve it in a cell of a new prison, in Kairoseki handcuffs, abilities off. Your weapons and
+    fruit boxes are kept and given back at the end, where you surrendered, as a civilian.</li>
+  <li><strong>A fading bounty:</strong> after 3 game days online with no new bounty, it loses a fifth of its start every game day.
+    At 0 you are still a pirate, but the amnesty is free.</li>
+  <li><strong>Truce:</strong> inside a Marine base, a pirate who could go back, with no weapon in hand and no Marine struck or
+    robbed in the last minute, is left alone by the Marines.</li>
+  </ul></li>
+<li><strong>Fewer Rokushiki for captains and notorious NPCs.</strong> Fights are easier to read: a captain (pirate, Marine, bandit
+  leader) or a notorious NPC (vice admiral, notorious captain) no longer blinks around with Soru all the time. Most
+  know one Rokushiki technique, some none, a few two or three (a notorious NPC two at most), and Soru is no more
+  likely than Shigan. Their Rokushiki wait twice as long as a player's, and 15 s at least between two Soru. They keep
+  the same techniques after a reload. Named bosses (Morgan, Kuro, Mr. 1...) are unchanged. New section
+  <code>npcRokushiki</code> in <code>akumalib-server.toml</code>: the split, the Soru wait, the multiplier, and <code>npcRokushiki = false</code> for
+  Mine Mine no Mi's own draw and cooldowns.</li>
+<li><strong>French translation.</strong></li>
+</ul>
+<h3>For addon makers</h3>
+<ul>
+<li><strong><code>MarineRecruiter.addPirateOptions</code></strong>: add your own choices to a pirate's window at the recruiter's desk.</li>
+</ul>
+<p>An addon that uses any of these declares <code>versionRange = "[5.1.0,)"</code>. Leave the top of the range open.</p>
+</div>
+
 ## 5.0.0 { #v5-0-0 }
 
 <small>Released 2026-10-18 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9247090)</small>

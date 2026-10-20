@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.71%**, iron **0.136%**, wooden **0.007%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 9 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Pegasus Assault Point](#pegasus-assault-point), [Pegasus Fly Point](#pegasus-fly-point) |
 

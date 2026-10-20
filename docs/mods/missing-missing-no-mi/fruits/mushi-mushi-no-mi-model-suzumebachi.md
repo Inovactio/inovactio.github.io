@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.46%**, wooden **0.073%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 8 active, 1 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Suzumebachi Heavy Point](#suzumebachi-heavy-point), [Suzumebachi Walk Point](#suzumebachi-walk-point) |
 
