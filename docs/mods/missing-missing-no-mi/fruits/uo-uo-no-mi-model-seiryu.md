@@ -67,6 +67,8 @@ Transforms the user into a dragon hybrid with scales, claws and a long tail. Jum
 
 ![](../abilities/seiryu-fly-point.png){ .ability-icon } *Active · Transformation*
 
+![Seiryu Fly Point](../animations/seiryu-fly-point.webp){ .form-picture }
+
 Transforms the user into the azure dragon, a huge flying serpent 30 blocks long with scales that take most blows. It needs room to transform
 
 | Stat | Value |
