@@ -6,13 +6,36 @@
 |---|---|
 | **Type** | Ancient Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 8 active, 1 passive |
 | **Transformations** | [Spinosaurus Heavy Point](#spinosaurus-heavy-point), [Spinosaurus Walk Point](#spinosaurus-walk-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/spinosaurus-heavy-point forms/spinosaurus-walk-point"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: claw swipe](../animations/ryu-ryu-spinosaurus-heavy-swipe.webp){ loading=lazy }
+      <figcaption>Hybrid: claw swipe</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: jaws](../animations/ryu-ryu-spinosaurus-heavy-jaw.webp){ loading=lazy }
+      <figcaption>Hybrid: jaws</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Dinosaur: swim](../animations/ryu-ryu-spinosaurus-walk-swim.webp){ loading=lazy }
+      <figcaption>Dinosaur: swim</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Dinosaur: tail sweep](../animations/ryu-ryu-spinosaurus-walk-tail-sweep.webp){ loading=lazy }
+      <figcaption>Dinosaur: tail sweep</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

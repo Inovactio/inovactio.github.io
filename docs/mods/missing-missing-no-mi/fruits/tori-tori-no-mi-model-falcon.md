@@ -6,13 +6,36 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 9 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Falcon Assault Point](#falcon-assault-point), [Falcon Fly Point](#falcon-fly-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/falcon-assault-point forms/falcon-fly-point objects/hane-tsubute"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: attack](../animations/tori-tori-falcon-assault-attack.webp){ loading=lazy }
+      <figcaption>Hybrid: attack</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: glide](../animations/tori-tori-falcon-assault-plane.webp){ loading=lazy }
+      <figcaption>Hybrid: glide</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Falcon: flight](../animations/tori-tori-falcon-fly-vol.webp){ loading=lazy }
+      <figcaption>Falcon: flight</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Falcon: dive](../animations/tori-tori-falcon-fly-pique.webp){ loading=lazy }
+      <figcaption>Falcon: dive</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

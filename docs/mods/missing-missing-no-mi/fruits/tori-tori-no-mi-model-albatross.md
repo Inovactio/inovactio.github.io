@@ -6,13 +6,36 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.88%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.81%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 6: 4 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Albatross Assault Point](#albatross-assault-point), [Albatross Fly Point](#albatross-fly-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/albatross-assault-point forms/albatross-fly-point"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: wing wall](../animations/tori-tori-albatross-assault-mur-ailes.webp){ loading=lazy }
+      <figcaption>Hybrid: wing wall</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Albatross: glide](../animations/tori-tori-albatross-fly-glide.webp){ loading=lazy }
+      <figcaption>Albatross: glide</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Albatross: flight](../animations/tori-tori-albatross-fly-vol.webp){ loading=lazy }
+      <figcaption>Albatross: flight</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Albatross: dive](../animations/tori-tori-albatross-fly-pique.webp){ loading=lazy }
+      <figcaption>Albatross: dive</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

@@ -6,13 +6,40 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 9 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Pegasus Assault Point](#pegasus-assault-point), [Pegasus Fly Point](#pegasus-fly-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/pegasus-assault-point forms/pegasus-fly-point objects/pegasus-feather-volley"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Pegasus: gallop](../animations/uma-uma-pegasus-noble-galop.webp){ loading=lazy }
+      <figcaption>Pegasus: gallop</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Pegasus: flight](../animations/uma-uma-pegasus-noble-vol.webp){ loading=lazy }
+      <figcaption>Pegasus: flight</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Pegasus: kick](../animations/uma-uma-pegasus-noble-ruade.webp){ loading=lazy }
+      <figcaption>Pegasus: kick</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Pegasus: ridden](../animations/uma-uma-pegasus-noble-monture.webp){ loading=lazy }
+      <figcaption>Pegasus: ridden</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: wing blow](../animations/uma-uma-pegasus-assault-coup-ailes.webp){ loading=lazy }
+      <figcaption>Hybrid: wing blow</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

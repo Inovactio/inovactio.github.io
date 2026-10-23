@@ -6,13 +6,36 @@
 |---|---|
 | **Type** | Ancient Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 10 active, 1 passive |
 | **Transformations** | [Rosamygale Heavy Point](#rosamygale-heavy-point), [Rosamygale Walk Point](#rosamygale-walk-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/rosamygale-heavy-point forms/rosamygale-walk-point"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: attack](../animations/kumo-kumo-rosamygale-heavy-attaque.webp){ loading=lazy }
+      <figcaption>Hybrid: attack</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: walk](../animations/kumo-kumo-rosamygale-heavy-marche.webp){ loading=lazy }
+      <figcaption>Hybrid: walk</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Spider: bite](../animations/kumo-kumo-rosamygale-walk-morsure.webp){ loading=lazy }
+      <figcaption>Spider: bite</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Spider: threat](../animations/kumo-kumo-rosamygale-walk-menace-marche.webp){ loading=lazy }
+      <figcaption>Spider: threat</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

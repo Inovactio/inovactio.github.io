@@ -6,13 +6,40 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 10 active, 1 passive |
 | **Transformations** | [Wolf Walk Point](#wolf-walk-point), [Wolf Heavy Point](#wolf-heavy-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/wolf-walk-point forms/wolf-heavy-point objects/rankyaku-koro"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: attack](../animations/inu-inu-wolf-heavy-attack.webp){ loading=lazy }
+      <figcaption>Hybrid: attack</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: walk](../animations/inu-inu-wolf-heavy-walk.webp){ loading=lazy }
+      <figcaption>Hybrid: walk</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Wolf: sprint](../animations/inu-inu-wolf-walk-sprint.webp){ loading=lazy }
+      <figcaption>Wolf: sprint</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Wolf: leap](../animations/inu-inu-wolf-walk-leap.webp){ loading=lazy }
+      <figcaption>Wolf: leap</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Wolf: bite](../animations/inu-inu-wolf-walk-bite.webp){ loading=lazy }
+      <figcaption>Wolf: bite</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

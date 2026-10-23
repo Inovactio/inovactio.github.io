@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 9 active, 0 passive |
 | **Transformations** | [Kyubi Heavy Point](#kyubi-heavy-point), [Kyubi Walk Point](#kyubi-walk-point) |
 | **Effects applied** | ![](../effect-icons/vanished.png){ .effect-mini }[Vanished](../effects.md#effect-vanished) |
@@ -14,6 +14,33 @@
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/kyubi-heavy-point forms/kyubi-walk-point objects/kyubi-fox-fire objects/kyubi-fox-fire-ring"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: nine tails](../animations/inu-inu-kyubi-heavy-neuf-coups.webp){ loading=lazy }
+      <figcaption>Hybrid: nine tails</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Fox: trot](../animations/inu-inu-kyubi-walk-trot.webp){ loading=lazy }
+      <figcaption>Fox: trot</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Fox: bite](../animations/inu-inu-kyubi-walk-morsure.webp){ loading=lazy }
+      <figcaption>Fox: bite</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Fox: tail sweep](../animations/inu-inu-kyubi-walk-balayage.webp){ loading=lazy }
+      <figcaption>Fox: tail sweep</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Fox Fire](../animations/kyubi-fox-fire.webp){ loading=lazy }
+      <figcaption>Fox Fire</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

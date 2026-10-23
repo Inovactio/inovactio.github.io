@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Song |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 6 active, 1 passive |
 | **Transformations** | [Knight Form](#knight-form) |
 | **Effects applied** | ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/just-woken.png){ .effect-mini }[Just Woken](../effects.md#effect-just-woken), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet), ![](../effect-icons/wide-awake.png){ .effect-mini }[Wide Awake](../effects.md#effect-wide-awake) |
@@ -90,7 +90,7 @@ In Uta World, the user rides a giant musical note that rams forward where the us
 
 ![Knight Form](../forms/knight-form.png){ .form-picture }
 
-Applies ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet)
+Applies ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/just-woken.png){ .effect-mini }[Just Woken](../effects.md#effect-just-woken), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet), ![](../effect-icons/wide-awake.png){ .effect-mini }[Wide Awake](../effects.md#effect-wide-awake)
 
 In Uta World, the user puts on golden armour with a lance and a shield, becoming tougher and hitting harder and from further away
 
@@ -100,7 +100,7 @@ In Uta World, the user puts on golden armour with a lance and a shield, becoming
 
 ![Tot Musica](../objects/tot-musica.png){ .form-picture }
 
-Applies ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet)
+Applies ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/just-woken.png){ .effect-mini }[Just Woken](../effects.md#effect-just-woken), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet), ![](../effect-icons/wide-awake.png){ .effect-mini }[Wide Awake](../effects.md#effect-wide-awake)
 
 In Uta World, the user sings the forbidden song. Tot Musica appears, absorbs the user and attacks everyone in the dream. The user can do nothing more and the voice gauge empties twice as fast
 
@@ -109,8 +109,6 @@ If Tot Musica is defeated, the dream ends and the user is defeated with it. It m
 ## Voice { #uta-voice }
 
 ![](../abilities/uta-voice.png){ .ability-icon } *Passive*
-
-Applies ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet)
 
 The user's dream lasts as long as the user's voice. The dream empties the gauge and ends when it is empty, the gauge fills again over time
 

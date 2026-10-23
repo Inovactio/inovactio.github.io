@@ -7,12 +7,39 @@
 | **Type** | Paramecia |
 | **Theme** | Scissors |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.88%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.81%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 7 active, 1 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/hasami"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hasami](../animations/choki-hasami.webp){ loading=lazy }
+      <figcaption>Hasami</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Dai Setsudan](../animations/choki-daisetsudan.webp){ loading=lazy }
+      <figcaption>Dai Setsudan</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Kirikabe](../animations/choki-kirikabe.webp){ loading=lazy }
+      <figcaption>Kirikabe</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Kamikiri](../animations/choki-kamikiri.webp){ loading=lazy }
+      <figcaption>Kamikiri</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![O-Kanabashi](../animations/choki-okanabashi.webp){ loading=lazy }
+      <figcaption>O-Kanabashi</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -62,7 +89,7 @@ While the scissors are active, the user cuts up to 4 pieces of the ground and th
 
 ![](../abilities/kirikabe.png){ .ability-icon } *Active*
 
-Cuts the ground under the user and raises it as a wall of 9 blocks wide and 6 blocks tall, which goes back down after 10 seconds
+While the scissors are active, cuts the ground under the user and raises it as a wall of 9 blocks wide and 6 blocks tall, which goes back down after 10 seconds
 
 | Stat | Value |
 |---|---|

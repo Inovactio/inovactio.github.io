@@ -6,13 +6,36 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.88%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.81%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 9 active, 0 passive |
 | **Transformations** | [Tanuki Heavy Point](#tanuki-heavy-point), [Tanuki Walk Point](#tanuki-walk-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/tanuki-heavy-point forms/tanuki-walk-point"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: belly drum](../animations/inu-inu-tanuki-heavy-tambour.webp){ loading=lazy }
+      <figcaption>Hybrid: belly drum</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: punch](../animations/inu-inu-tanuki-heavy-coup.webp){ loading=lazy }
+      <figcaption>Hybrid: punch</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Tanuki: trot](../animations/inu-inu-tanuki-walk-trot.webp){ loading=lazy }
+      <figcaption>Tanuki: trot</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Tanuki: playing dead](../animations/inu-inu-tanuki-walk-fait-le-mort.webp){ loading=lazy }
+      <figcaption>Tanuki: playing dead</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

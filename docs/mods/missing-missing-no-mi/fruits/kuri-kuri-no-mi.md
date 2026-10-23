@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Cream |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 6 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn) |
 

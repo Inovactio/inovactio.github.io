@@ -6,13 +6,36 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 6 active, 1 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Eagle Assault Point](#eagle-assault-point), [Eagle Fly Point](#eagle-fly-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/eagle-assault-point forms/eagle-fly-point"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: gust](../animations/tori-tori-eagle-assault-gust.webp){ loading=lazy }
+      <figcaption>Hybrid: gust</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: wing blow](../animations/tori-tori-eagle-assault-coup-ailes.webp){ loading=lazy }
+      <figcaption>Hybrid: wing blow</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Eagle: flight](../animations/tori-tori-eagle-fly-vol.webp){ loading=lazy }
+      <figcaption>Eagle: flight</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Eagle: dive](../animations/tori-tori-eagle-fly-pique.webp){ loading=lazy }
+      <figcaption>Eagle: dive</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

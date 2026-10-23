@@ -124,3 +124,18 @@ user.swing(InteractionHand.MAIN_HAND, true);
 ```
 
 It is a good fit for a grab closing on its target, or any technique whose moment is the model's attack. Models commonly skip the gesture while the user holds an item, so check that the technique is used empty-handed.
+
+## A pose held for the whole form: `PlayerPoses`
+
+An animation plays for a technique; one entity plays one at a time. A partial morph that changes the player's own body for as long as it is worn (a torso stretched upwards, the head risen with it) registers a `PlayerPoses.Pose` from its client setup instead. It runs after every `setupAnim` and animation pass, for every model and entity, so it checks both and sets absolute values:
+
+```java
+PlayerPoses.register((entity, model) -> {
+    if (model instanceof HumanoidModel<?> humanoid && !(model instanceof MyHybridModel<?>)
+            && MyMorphs.HYBRID.get().isActive(entity)) {
+        MyHybridModel.posePlayer(humanoid);
+    }
+});
+```
+
+The base mod puts the parts back to rest, scales included, before each `setupAnim`: nothing set here leaks into the next frame or onto another entity.

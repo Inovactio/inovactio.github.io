@@ -7,13 +7,40 @@
 | **Type** | Paramecia |
 | **Theme** | Burst |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 9 active, 0 passive |
 | **Transformations** | [Fashion Punc](#fashion-punc) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="objects/punc-bala forms/fashion-punc"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Punc Bala](../animations/pamu-anim-punc-bala.webp){ loading=lazy }
+      <figcaption>Punc Bala</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Met Punc](../animations/pamu-anim-met-punc.webp){ loading=lazy }
+      <figcaption>Met Punc</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Catapult Punc](../animations/pamu-anim-catapult-punc.webp){ loading=lazy }
+      <figcaption>Catapult Punc</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Jirai Punc](../animations/pamu-anim-jirai-punc.webp){ loading=lazy }
+      <figcaption>Jirai Punc</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Fashion Punc](../animations/pamu-fashion-punc-swell.webp){ loading=lazy }
+      <figcaption>Fashion Punc</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -71,15 +98,16 @@ Turns the ground around the user into mines for a while, the blocks explodes whe
 
 ![Punc Bala](../objects/punc-bala.png){ .form-picture }
 
-Inflates bullets into balloons that floats where the user is looking at and explodes on contact.
+Swells the next projectile the user shoots, an arrow, a bullet, a cannonball or a trident. It bursts where it lands and hurts every enemy around
 
 | Stat | Value |
 |---|---|
 | Damage type | Indirect, Projectile |
 | Element | Explosion |
 | Haki | Special |
-| Cooldown | 12 s |
-| Damage | 7 |
+| Cooldown | 15 s |
+| Damage | 8 |
+| Burst Radius | 3 |
 
 ## Catapult Punc { #catapult-punc }
 

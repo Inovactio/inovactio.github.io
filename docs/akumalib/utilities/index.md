@@ -15,6 +15,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 |---|---|
 | [Effects](effects.md) | `MarkerEffect`, `OverlayEffect`, `EffectsHelper`, `AkumaEffectGroups` |
 | [Effect owners](effect-owners.md) | `EffectOwners`: who applied an effect to whom, which a `MobEffectInstance` cannot say |
+| [Haki techniques](haki-cost.md) | `HakiCost`: a technique made with Armament Haki that pays the Haki gauge instead of needing the Haki on, and lands on a Logia |
 
 ## Bodies and movement
 
