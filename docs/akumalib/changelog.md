@@ -4,13 +4,14 @@ Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [Curs
 
 ## 5.2.0 { #v5-2-0 }
 
-<small>Released TO-FILL · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/TO-FILL)</small>
+<small>Released 2026-10-23 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9300971)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>Haki techniques that cost Haki, and a crash on new worlds gone.</strong> Addons can now make techniques that pay from
 your Haki gauge instead of needing your Haki switched on: once the gauge is spent they are greyed until it comes
 back. Bows, guns and cannons can take their ammunition from an addon's own storage. A new world could crash the
-server at its very first start on Windows: it no longer does. No signature was removed or changed.</p>
+server at its very first start on Windows, and saved captains could lose their
+Rokushiki: both are fixed. No signature was removed or changed.</p>
 <p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are optional.</p>
 <p>Same network protocol as 5.1.0 (10): a 5.2.0 game plays with a 5.1.0 server and the other way round.</p>
 <hr />
@@ -19,6 +20,11 @@ server at its very first start on Windows: it no longer does. No signature was r
 <li><strong>Crash on the first start of a new world.</strong> On Windows, a new world (single player or server) could stop in its
   very first moment while Mine Mine no Mi set up its server settings file. The settings are now written again
   until they go through, and the world starts.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Captains lost their Rokushiki after a reload.</strong> A Marine captain (or another NPC with Rokushiki) saved in the
+  world could come back without its Rokushiki techniques once the world was loaded again. It keeps them now.</li>
 </ul>
 <h3>New</h3>
 <ul>

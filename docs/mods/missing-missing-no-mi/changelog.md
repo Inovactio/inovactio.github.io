@@ -4,7 +4,7 @@ Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as publi
 
 ## 5.0.0 { #v5-0-0 }
 
-<small>Released TO-FILL · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/TO-FILL)</small>
+<small>Released 2026-10-23 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9301383)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>Seven new fruits, reworked kits and redrawn Zoans.</strong> Soru Soru, Shiro Shiro, Shibo Shibo, Susu Susu, Poke Poke, the Uo Uo no Mi, Model: Seiryu and the Inu Inu no Mi, Model: Dachshund join the addon. Mori, Hira, Fuwa, Gasha, Pamu, Choki and Guru get new techniques, modes and looks, and the techniques made with Armament Haki now pay the Haki gauge. Seventeen Zoans are redrawn with their ability icons, many fruits get a gesture for each technique, and NPCs hold their forms longer.</p>
@@ -40,7 +40,7 @@ Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as publi
 <li><strong>Guru Guru no Mi.</strong> The spinning parts are made of your own body: your hair for Puropera, your arms for Senpu and Toshaho, blades on your calves for Suketo. With Puropera you fly lying face forward, and an ally can ride on your back. Toshaho swings the held body round you at arm's length, and Matasaburo spins your arms.</li>
 <li><strong>Kote Kote no Mi redrawn.</strong> The giant gauntlet, the Lightning Barrier and Grande's dome have new models: rounded gauntlets with glowing lines and a halo, a barrier of thin branching bolts, and a milky, cloudy dome crossed by lightning with a bright ring on the ground.</li>
 <li><strong>Haki techniques pay the Haki gauge</strong> instead of needing Armament Haki on. They unlock with the Haki mastery and cost: Blindado, Kaku Mochi, Yaki Mochi and Mochi Hadan 20 a second, Naguri Mochi 60, Zan Giri Mochi 100, Det Sterkeste Strike 200, Ultimate Faust 400 (it now needs full-body hardening mastered). An empty gauge greys them until it fills back. They cost nothing while your own Armament Haki is on, and their hits reach a Logia.</li>
-<li><strong>NPCs hold their forms.</strong> Once transformed, an NPC keeps its form a least time: 40 s for the Seiryu dragon, Union Armado, Kinniku Mori Mori and the Stone Giant; 30 s for Golden Tesoro, Gattai and the Orochi and Onyudo giants; 20 s for the Zoan hybrids and the armours; 10 to 15 s for the short forms. Big Father and Juicy Giant last their whole NPC time.</li>
+<li><strong>NPCs hold their forms.</strong> Once transformed, an NPC keeps its form for a minimum time: 40 s for the Seiryu dragon, Union Armado, Kinniku Mori Mori and the Stone Giant; 30 s for Golden Tesoro, Gattai and the Orochi and Onyudo giants; 20 s for the Zoan hybrids and the armours; 10 to 15 s for the short forms. Big Father and Juicy Giant last their whole NPC time.</li>
 <li><strong>Seventeen Zoans redrawn</strong>, hybrid and whole form, more detailed and in the anime's colours: Kyubi no Kitsune, Pachycephalosaurus, Spinosaurus, Triceratops, Yamata no Orochi, Wolf, Rosamygale, Vampire, Pegasus (now a noble pegasus), Tanuki, Kabutomushi, Suzumebachi, Saber Tiger, Onyudo, Falcon, Eagle and Albatross. The hybrids keep your own torso, broadened, with their own arms and hands that hold your item. The Wolf and Saber Tiger hybrids are 1.5 times your size.</li>
 <li><strong>Their ability icons are redrawn</strong> to match, for all seventeen.</li>
 <li><strong>A gesture for each technique</strong> instead of the generic raised arms: Pamu, Fuwa, Hira, Choki, Mochi, Numa, Atsu, Riki, Noko, Goru, Kote and the Saber Tiger. On Pamu, Hira, Riki and Noko the effect comes at the gesture's strike, a few ticks after the press. Zan Giri Mochi now always sweeps from your right to your left.</li>
@@ -51,6 +51,7 @@ Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as publi
 <ul>
 <li><strong>Choki Choki no Mi: Kirikabe</strong> could be used without the scissors. It now needs them, like the rest of the kit.</li>
 <li><strong>Vampire</strong>: white bits no longer float off the wings, and the wings no longer go through the body.</li>
+<li><strong>Falcon, Eagle and Albatross: the wings stay on the body in flight.</strong> While the wings beat, a gap opened between them and the body. They now stay joined, and the falcon's body is slimmer.</li>
 <li><strong>NPC captains keep their Rokushiki after a reload</strong> (with AkumaLib 5.2.0).</li>
 </ul>
 </div>
