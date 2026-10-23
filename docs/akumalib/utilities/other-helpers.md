@@ -37,6 +37,24 @@ FruitInjectionHelper.removeAbilities(fruit, SomeAbility.INSTANCE.get());
 !!! warning "Call it once the fruit exists, and test it in game"
     The fruit is an item instance, so it has to be registered before you can pass it, and the abilities you add have to be registered too. Neither addon built on AkumaLib uses this helper today, so check in game how players who already ate the fruit are affected before relying on it.
 
+## `AmmoSources`
+
+Other places than the inventory a player's weapons take their ammunition from: a pocket in the body, a swamp. Once the inventory has none, the game and the base mod look in every registered source:
+
+- bows, crossbows and the base mod's guns (anything `ProjectileWeaponItem`), through Forge's `LivingGetProjectileEvent`, on both sides;
+- the base mod's gun powder, cannon balls and Gun Array bullets, which read the inventory themselves, through three mixins (`ModGunItemMixin`, `CannonEntityMixin`, `GunArrayAbilityMixin`).
+
+```java
+AmmoSources.register(new AmmoSources.Source() {
+    public List<ItemStack> stacks(Player player) { return /* his live stacks */; }
+    public void changed(Player player) { /* write them down */ }
+});
+```
+
+- A source hands out its **live** stacks: the weapon shrinks the stack itself. `changed` is called on the server the tick after, so the source can save.
+- The client asks too before it lets a bow be drawn: a client source answers with what the server last told it of the stacks (send them to the owner when they change).
+- The inventory, and another mod's quiver, always go first.
+
 ## `RandomTeleportHelper`
 
 Teleports a living entity to a random safe spot on the surface, within a ring around a point, **without freezing the server** to load chunks:

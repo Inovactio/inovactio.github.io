@@ -124,7 +124,7 @@ You get all of that by extending the class. Departing from one is fine, but read
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
 | Mine Mine no Mi | 0.11.6 or newer (built against `1.20.1-0.11.6`) |
-| AkumaLib | 5.1.0 (network protocol 10: the server and every client update together) |
+| AkumaLib | 5.2.0 (network protocol 10, as 5.1.0: a 5.2.0 game plays with a 5.1.0 server and the other way round) |
 
 What each version added or changed, and what it requires: the [changelog](changelog.md).
 

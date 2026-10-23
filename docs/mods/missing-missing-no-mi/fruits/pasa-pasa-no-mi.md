@@ -7,7 +7,7 @@
 | **Type** | Logia |
 | **Theme** | Paper |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 14: 12 active, 2 passive (1 hidden, not in the ability menu) |
 | **Effects applied** | ![](../effect-icons/buried.png){ .effect-mini }[Buried](../effects.md#effect-buried), ![](../effect-icons/scattered.png){ .effect-mini }[Scattered](../effects.md#effect-scattered), ![](../effect-icons/warded.png){ .effect-mini }[Warded](../effects.md#effect-warded) |
 
@@ -27,6 +27,10 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 Allows the user to avoid attacks by instinctively transforming parts of their body into their specific element
 
 The user's body is made of sheets of paper, fire always hurts them and deals 50% more damage.
+
+| Stat | Value |
+|---|---|
+| Haki | Special |
 
 ## Paper Swarm { #paper-swarm }
 

@@ -7,13 +7,44 @@
 | **Type** | Paramecia |
 | **Theme** | Float |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 10: 9 active, 1 passive |
+| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 9: 8 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/buried.png){ .effect-mini }[Buried](../effects.md#effect-buried) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="objects/shishi-odoshi objects/chimaki objects/zanpa"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Colossal Shishi Odoshi](../animations/fuwa-giant-lion-charge.webp){ loading=lazy }
+      <figcaption>Colossal Shishi Odoshi</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Shishi Odoshi](../animations/fuwa-anim-shishi-odoshi.webp){ loading=lazy }
+      <figcaption>Shishi Odoshi</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Item Kaiten](../animations/fuwa-anim-item-kaiten.webp){ loading=lazy }
+      <figcaption>Item Kaiten</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Item Hassha](../animations/fuwa-anim-item-hassha.webp){ loading=lazy }
+      <figcaption>Item Hassha</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Shishi Funjin](../animations/fuwa-anim-shishi-funjin.webp){ loading=lazy }
+      <figcaption>Shishi Funjin</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Fuyu](../animations/fuwa-fuyu-avance.webp){ loading=lazy }
+      <figcaption>Fuyu</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -32,24 +63,18 @@ The user makes themselves weightless allowing them to fly, the speed is higher w
 
 The user takes up to 6 blocks from the ground that will float and spin around them. Each block stops one projectile, taking a melee hit drops all of them.
 
-If used while crouching, drops all the blocks
+Use it again to shoot one of the blocks where the user is looking at. The block stays where it lands.
 
-| Stat | Value |
-|---|---|
-| Cooldown | 5 s |
-
-## Item Hassha { #item-hassha }
-
-![](../abilities/item-hassha.png){ .ability-icon } *Active*
-
-Shoots one of the blocks spinning around the user where they are looking at. The block stays where it lands.
+If used while crouching, drops all the blocks. The cooldown starts once no block is left.
 
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
 | Haki | Imbuing |
-| Cooldown | 2 s |
+| Cooldown | 5 s |
 | Damage | 8 |
+| Blocks | 6 |
+| Time Between Throws | 0.75 s |
 
 ## Shishi Odoshi { #shishi-odoshi }
 
@@ -57,7 +82,15 @@ Shoots one of the blocks spinning around the user where they are looking at. The
 
 ![Shishi Odoshi](../objects/shishi-odoshi.png){ .form-picture }
 
-The user shapes the ground into 3 lion heads that charges forward, each one bites the first enemy it hits and sends it flying. Can be used while flying close to the ground
+The user shapes the ground into lion heads that charges forward, press the Alt key to switch between the two. Can be used while flying close to the ground
+
+Shishi Odoshi makes 3 lion heads, each one bites the first enemy it hits and sends it flying
+
+Colossal Shishi Odoshi takes a long time to call up one giant lion head out of the ground, the user can barely move meanwhile. It goes through everything in its way and crush every enemy it runs over
+
+Shishi Odoshi
+
+Colossal Shishi Odoshi
 
 | Stat | Value |
 |---|---|
@@ -66,6 +99,11 @@ The user shapes the ground into 3 lion heads that charges forward, each one bite
 | Cooldown | 10 s |
 | Damage | 18 |
 | Range | 20 blocks (line) |
+| Cooldown | 45 s |
+| Charge | 2.5 s |
+| Damage | 50 |
+| Range | 40 blocks (line) |
+| Width | 12 blocks |
 
 ## Shishi Odoshi: Chimaki { #chimaki }
 

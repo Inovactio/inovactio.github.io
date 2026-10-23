@@ -7,13 +7,44 @@
 | **Type** | Paramecia |
 | **Theme** | Assembly |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 10: 10 active, 0 passive |
+| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 11: 10 active, 1 passive |
 | **Transformations** | [Unión Armado](#union-armado), [Blindado](#blindado) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/canon-armado objects/torreta objects/soldado forms/union-armado forms/blindado"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Union Armado](../animations/gasha-anim-union-armado.webp){ loading=lazy }
+      <figcaption>Union Armado</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Ultimate Faust](../animations/gasha-anim-ultimate-faust.webp){ loading=lazy }
+      <figcaption>Ultimate Faust</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Det Sterkeste Strike](../animations/gasha-anim-det-sterkeste-strike.webp){ loading=lazy }
+      <figcaption>Det Sterkeste Strike</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Torreta](../animations/gasha-anim-torreta.webp){ loading=lazy }
+      <figcaption>Torreta</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Cañón Armado](../animations/gasha-anim-canon-armado.webp){ loading=lazy }
+      <figcaption>Cañón Armado</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Mech](../animations/gasha-mech-walk.webp){ loading=lazy }
+      <figcaption>Mech</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -94,15 +125,16 @@ Building the turret takes metal blocks near the user, or 4 iron ingots and 2 gun
 
 ![Soldado](../objects/soldado.png){ .form-picture }
 
-Creates a soldier made of scrap in front of the user, that follows them and attacks their enemies for 90 seconds or until it is destroyed.
+Creates a soldier made of scrap in front of the user, that follows them and attacks their enemies for 90 seconds. A broken soldier comes back after 10 seconds as long as the ability is active
 
 Only one soldier can be active
 
-Building the soldier takes metal blocks near the user, or 6 iron ingots and 2 copper ingots from the inventory
+Building the soldier takes metal blocks near the user, or 6 iron ingots and 2 copper ingots from the inventory, each time it comes back too
 
 | Stat | Value |
 |---|---|
 | Cooldown | 60 s |
+| Hold | 90 s |
 
 ## Unión Armado { #union-armado }
 
@@ -140,11 +172,14 @@ While in the colossus form, the user pulls back their fist and then smashes it w
 
 Deals more damage while Busoshoku Haki is active.
 
+Needs Armament Haki mastery
+
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 40 s |
+| Haki Cost | 400 |
 | Charge | 2 s |
 | Range | 6 blocks (area) |
 | Damage | 80 |
@@ -159,9 +194,11 @@ The user's arms gets bigger with scrap and Busoshoku Haki, increasing their punc
 
 Growing the arms takes metal blocks near the user, or 3 iron ingots from the inventory
 
+Needs Armament Haki mastery
+
 | Stat | Value |
 |---|---|
-| Requires Busoshoku Haki | Full Body Hardening to be active. |
+| Haki Cost | 20 per second |
 
 ## Det Sterkeste Strike { #det-sterkeste-strike }
 
@@ -171,10 +208,21 @@ The user launches 8 fast punches in 2 seconds hitting all enemies in front of th
 
 Requires Blindado to be active.
 
+Needs Armament Haki mastery
+
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 20 s |
+| Haki Cost | 200 |
 | Range | 4 blocks (line) |
 | Damage | 10 |
+
+## Scrap Parts { #gasha-parts }
+
+![](../abilities/gasha-parts.png){ .ability-icon } *Passive*
+
+Shows the iron ingots, copper ingots and gunpowder the user carries, in green when there are enough metal blocks around them to build for free
+
+Soldado: 6 iron, 2 copper. Torreta: 4 iron, 2 gunpowder. Cañón Armado: 2 iron. Blindado: 3 iron. Unión Armado, the mech or the colossus: 8 iron, 2 copper. Muralla is free

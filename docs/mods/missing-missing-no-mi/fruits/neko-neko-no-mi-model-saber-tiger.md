@@ -6,13 +6,44 @@
 |---|---|
 | **Type** | Ancient Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 11 active, 0 passive |
 | **Transformations** | [Saber Tiger Heavy Point](#saber-tiger-heavy-point), [Saber Tiger Walk Point](#saber-tiger-walk-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/saber-tiger-heavy-point forms/saber-tiger-walk-point"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: Gagan](../animations/neko-neko-saber-tiger-heavy-gagan.webp){ loading=lazy }
+      <figcaption>Hybrid: Gagan</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: Saber Bite](../animations/neko-neko-saber-tiger-heavy-saberbite.webp){ loading=lazy }
+      <figcaption>Hybrid: Saber Bite</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: Shigan Madara](../animations/neko-neko-saber-tiger-heavy-shiganmadara.webp){ loading=lazy }
+      <figcaption>Hybrid: Shigan Madara</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Tiger: pounce](../animations/neko-neko-saber-tiger-walk-pounce.webp){ loading=lazy }
+      <figcaption>Tiger: pounce</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Tiger: run](../animations/neko-neko-saber-tiger-walk-run.webp){ loading=lazy }
+      <figcaption>Tiger: run</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Tiger: roar](../animations/neko-neko-saber-tiger-walk-roar.webp){ loading=lazy }
+      <figcaption>Tiger: roar</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

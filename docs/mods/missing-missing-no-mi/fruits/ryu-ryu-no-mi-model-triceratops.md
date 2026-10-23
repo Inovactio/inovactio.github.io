@@ -6,13 +6,36 @@
 |---|---|
 | **Type** | Ancient Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 9 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Triceratops Heavy Point](#triceratops-heavy-point), [Triceratops Guard Point](#triceratops-guard-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/triceratops-heavy-point forms/triceratops-guard-point"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: spin](../animations/ryu-ryu-triceratops-heavy-spin.webp){ loading=lazy }
+      <figcaption>Hybrid: spin</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: charge](../animations/ryu-ryu-triceratops-heavy-charge.webp){ loading=lazy }
+      <figcaption>Hybrid: charge</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Dinosaur: charge](../animations/ryu-ryu-triceratops-guard-charge.webp){ loading=lazy }
+      <figcaption>Dinosaur: charge</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Dinosaur: headbutt](../animations/ryu-ryu-triceratops-guard-headbutt.webp){ loading=lazy }
+      <figcaption>Dinosaur: headbutt</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

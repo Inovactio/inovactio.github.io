@@ -7,13 +7,44 @@
 | **Type** | Paramecia |
 | **Theme** | Mochi |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 23: 22 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/stuck-in-mochi.png){ .effect-mini }[Stuck in Mochi](../effects.md#effect-stuck-in-mochi) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="objects/mochi-stretching-arm objects/mochi-lump objects/mochi-extra-arms forms/mochi-kaku objects/mochi-naguri objects/mochi-yaki objects/mochi-yanagi objects/mochi-tori forms/mochi-tsuki forms/mochi-hadan forms/mochi-zan-giri objects/mochi-wall objects/mochi-muso-donuts objects/mochi-chikara objects/mochi-ginchaku objects/mochi-kuzu objects/mochi-kashiwa objects/mochi-kuri"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Zan Giri Mochi](../animations/mochi-anim-zan-giri-mochi.webp){ loading=lazy }
+      <figcaption>Zan Giri Mochi</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Naguri Mochi](../animations/mochi-anim-naguri-mochi.webp){ loading=lazy }
+      <figcaption>Naguri Mochi</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Yaki Mochi](../animations/mochi-anim-yaki-mochi.webp){ loading=lazy }
+      <figcaption>Yaki Mochi</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Kaku Mochi](../animations/mochi-anim-kaku-mochi.webp){ loading=lazy }
+      <figcaption>Kaku Mochi</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Mochi Hadan](../animations/mochi-anim-mochi-hadan.webp){ loading=lazy }
+      <figcaption>Mochi Hadan</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Chikara Mochi](../animations/mochi-anim-chikara-mochi.webp){ loading=lazy }
+      <figcaption>Chikara Mochi</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -96,6 +127,7 @@ The user presses their forearms into square blocks of hardened mochi. Their punc
 | Stat | Value |
 |---|---|
 | Cooldown | 20 s |
+| Haki Cost | 20 per second |
 | Hold | 15 s |
 | Fist Damage | +8 |
 
@@ -111,6 +143,7 @@ The user throws a barrage of square fists of hardened mochi where they are looki
 |---|---|
 | Damage type | Fist, Projectile, Physical |
 | Haki | Hardening |
+| Haki Cost | 60 |
 | Damage | 40 |
 
 ## Yaki Mochi { #mochi-yaki }
@@ -126,6 +159,7 @@ The user's forearm swells and shoots its fist far away, so fast that it catches 
 | Damage type | Fist, Projectile, Physical |
 | Haki | Hardening |
 | Cooldown | 11 s |
+| Haki Cost | 20 per second |
 | Hold | 5 s |
 | Damage | 18 |
 | Fists | 3 |
@@ -194,6 +228,7 @@ Use the ability again to put the Gatling gun away
 | Damage type | Blunt, Projectile |
 | Haki | Hardening |
 | Cooldown | 15 s |
+| Haki Cost | 20 per second |
 | Hold | 12 s |
 | Damage | 6 |
 | Bullets | 20 |
@@ -212,6 +247,7 @@ The user turns into a ring of mochi and rolls forward. The first enemy it meets 
 | Damage type | Fist, Physical |
 | Haki | Hardening |
 | Cooldown | 15 s |
+| Haki Cost | 100 |
 | Charge | 1 s |
 | Damage | 24 |
 | Range | 8 blocks (area) |

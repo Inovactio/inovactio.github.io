@@ -7,13 +7,36 @@
 | **Type** | Paramecia |
 | **Theme** | Spin |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.88%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.81%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 5 active, 2 passive |
 | **Effects applied** | ![](../effect-icons/launched.png){ .effect-mini }[Launched](../effects.md#effect-launched) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/puropera forms/suketo forms/senpu"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Puropera: flight](../animations/guru-flight.webp){ loading=lazy }
+      <figcaption>Puropera: flight</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Puropera](../animations/guru-propeller-spin.webp){ loading=lazy }
+      <figcaption>Puropera</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Senpu](../animations/guru-arms-spin.webp){ loading=lazy }
+      <figcaption>Senpu</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Suketo](../animations/guru-legs-spin.webp){ loading=lazy }
+      <figcaption>Suketo</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -26,13 +49,13 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![Puropera](../forms/puropera.png){ .form-picture }
 
-Transforms the top of the user's head into a propeller allowing them to fly while it spins. Taking a melee hit stops it
+Transforms the top of the user's head into a propeller allowing them to fly while it spins, their legs spins too. An ally can ride on their back. Taking a melee hit stops it
 
 ## Toppu: Matasaburo { #toppu-matasaburo }
 
 ![](../abilities/toppu-matasaburo.png){ .ability-icon } *Active*
 
-The user spins creating a strong wind in front of them, enemies are blown away and clouds of gas and smoke are removed
+The user spins with their arms spinning around them like a rotor, creating a strong wind in front of them, enemies are blown away and clouds of gas and smoke are removed
 
 | Stat | Value |
 |---|---|
@@ -48,7 +71,7 @@ The user spins creating a strong wind in front of them, enemies are blown away a
 
 Applies ![](../effect-icons/launched.png){ .effect-mini }[Launched](../effects.md#effect-launched)
 
-Grabs the creature in front of the user, spins it with their arms and throws it where the user is looking at. An ally using Missile Girl is launched much faster.
+Grabs the creature in front of the user, spins it around them at the end of their arms and throws it where the user is looking at. An ally using Missile Girl is launched much faster.
 
 | Stat | Value |
 |---|---|

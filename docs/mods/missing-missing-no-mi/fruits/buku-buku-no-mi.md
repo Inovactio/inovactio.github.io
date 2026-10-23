@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Book |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 7 active, 1 passive (1 hidden, not in the ability menu) |
 | **Effects applied** | ![](../effect-icons/shut-in-a-book.png){ .effect-mini }[Shut in a Book](../effects.md#effect-shut-in-a-book), ![](../effect-icons/world-of-books.png){ .effect-mini }[World of Books](../effects.md#effect-world-of-books) |
 

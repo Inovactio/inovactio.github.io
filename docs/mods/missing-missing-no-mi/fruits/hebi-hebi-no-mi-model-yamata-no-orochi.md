@@ -6,13 +6,32 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 10: 9 active, 1 passive |
 | **Transformations** | [Orochi Heavy Point](#orochi-heavy-point), [Orochi Guard Point](#orochi-guard-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/orochi-heavy-point forms/orochi-guard-point"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Orochi: bite](../animations/hebi-hebi-orochi-guard-bite.webp){ loading=lazy }
+      <figcaption>Orochi: bite</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Orochi: sweep](../animations/hebi-hebi-orochi-guard-sweep.webp){ loading=lazy }
+      <figcaption>Orochi: sweep</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: bite](../animations/hebi-hebi-orochi-heavy-bite.webp){ loading=lazy }
+      <figcaption>Hybrid: bite</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

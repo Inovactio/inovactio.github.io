@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Art |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.88%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.81%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 | **Transformations** | [Heaven's Do Art](#heavens-do-art) |
 | **Effects applied** | ![](../effect-icons/art.png){ .effect-mini }[Art](../effects.md#effect-art) |

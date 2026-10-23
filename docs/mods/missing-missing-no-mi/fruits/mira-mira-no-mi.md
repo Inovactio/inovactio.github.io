@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Mirror |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.88%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.81%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 6: 6 active, 0 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.

@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Warp |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.51%**, wooden **0.075%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.

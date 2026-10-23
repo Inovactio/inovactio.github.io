@@ -6,13 +6,36 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 | **Transformations** | [Onyudo Heavy Point](#onyudo-heavy-point), [Onyudo Guard Point](#onyudo-guard-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/onyudo-heavy-point forms/onyudo-guard-point"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Giant: blow](../animations/hito-hito-onyudo-guard-frappe.webp){ loading=lazy }
+      <figcaption>Giant: blow</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Giant: sweep](../animations/hito-hito-onyudo-guard-balayage.webp){ loading=lazy }
+      <figcaption>Giant: sweep</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Giant: thrust](../animations/hito-hito-onyudo-guard-estoc.webp){ loading=lazy }
+      <figcaption>Giant: thrust</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: thrust](../animations/hito-hito-onyudo-heavy-estoc.webp){ loading=lazy }
+      <figcaption>Hybrid: thrust</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

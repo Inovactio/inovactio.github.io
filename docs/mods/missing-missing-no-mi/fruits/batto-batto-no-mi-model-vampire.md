@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 10 active, 1 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Vampire Assault Point](#vampire-assault-point), [Vampire Fly Point](#vampire-fly-point) |
 | **Effects applied** | ![](../effect-icons/aged.png){ .effect-mini }[Aged](../effects.md#effect-aged), ![](../effect-icons/in-his-darkness.png){ .effect-mini }[In His Darkness](../effects.md#effect-in-his-darkness), ![](../effect-icons/swarm-of-bats.png){ .effect-mini }[Swarm of Bats](../effects.md#effect-swarm-of-bats) |
@@ -14,6 +14,25 @@
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/vampire-assault-point forms/vampire-fly-point objects/dark-shot"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: slash](../animations/batto-batto-vampire-assault-slash.webp){ loading=lazy }
+      <figcaption>Hybrid: slash</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: flight](../animations/batto-batto-vampire-assault-fly.webp){ loading=lazy }
+      <figcaption>Hybrid: flight</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Bat: flight](../animations/batto-batto-vampire-fly-flap.webp){ loading=lazy }
+      <figcaption>Bat: flight</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 

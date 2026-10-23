@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Island |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.57%**, iron **0.128%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 7 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/island-spirit.png){ .effect-mini }[Island Spirit](../effects.md#effect-island-spirit) |
 

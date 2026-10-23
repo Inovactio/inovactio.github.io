@@ -2,6 +2,46 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 5.2.0 { #v5-2-0 }
+
+<small>Released TO-FILL · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/TO-FILL)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Haki techniques that cost Haki, and a crash on new worlds gone.</strong> Addons can now make techniques that pay from
+your Haki gauge instead of needing your Haki switched on: once the gauge is spent they are greyed until it comes
+back. Bows, guns and cannons can take their ammunition from an addon's own storage. A new world could crash the
+server at its very first start on Windows: it no longer does. No signature was removed or changed.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are optional.</p>
+<p>Same network protocol as 5.1.0 (10): a 5.2.0 game plays with a 5.1.0 server and the other way round.</p>
+<hr />
+<h3>Mine Mine no Mi fixes</h3>
+<ul>
+<li><strong>Crash on the first start of a new world.</strong> On Windows, a new world (single player or server) could stop in its
+  very first moment while Mine Mine no Mi set up its server settings file. The settings are now written again
+  until they go through, and the world starts.</li>
+</ul>
+<h3>New</h3>
+<ul>
+<li><strong>Haki techniques pay the Haki gauge.</strong> A technique made with Armament Haki (in an addon such as Missing Missing
+  no Mi) unlocks with your Haki mastery and no longer needs your Haki switched on. It pays from the Haki gauge
+  instead: once per use, or every second while a form stays on. When the gauge is spent the technique is refused and
+  greyed on the bar, and comes back once the gauge has rested a little. The tooltip gives the cost. These techniques
+  hit a Logia's body, as Haki does. NPCs pay nothing.</li>
+<li><strong>Ammunition from other places.</strong> Bows, crossbows, Mine Mine no Mi's guns, cannons and Gun Array can take their
+  arrows, bullets, gun powder and cannon balls from a place an addon gives you (Missing Missing no Mi's Poke Poke
+  pocket), once your inventory has none.</li>
+<li><strong>Forms that reshape your own body.</strong> An addon's form can now stretch or lift your own body for as long as it is
+  on (Missing Missing no Mi's Pachycephalosaurus hybrid).</li>
+</ul>
+<h3>For addon makers</h3>
+<ul>
+<li><strong><code>HakiCost</code></strong>: <code>afterMastery</code>, <code>perUse</code>, <code>perTick</code>, <code>canPay</code> / <code>pay</code>, <code>carriesHaki</code>. See <a href="../utilities/haki-cost/">Haki techniques</a>.</li>
+<li><strong><code>AmmoSources</code></strong>: register a place a player keeps ammunition in.</li>
+<li><strong><code>PlayerPoses</code></strong>: a pose held on the player's model while a form is on.</li>
+</ul>
+<p>An addon that uses any of these declares <code>versionRange = "[5.2.0,)"</code>. Leave the top of the range open.</p>
+</div>
+
 ## 5.1.0 { #v5-1-0 }
 
 <small>Released 2026-10-20 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9268171)</small>

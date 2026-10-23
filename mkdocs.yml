@@ -266,9 +266,13 @@ nav:
               - "Nuke Nuke no Mi": mods/missing-missing-no-mi/fruits/nuke-nuke-no-mi.md
               - "Pamu Pamu no Mi": mods/missing-missing-no-mi/fruits/pamu-pamu-no-mi.md
               - "Peto Peto no Mi": mods/missing-missing-no-mi/fruits/peto-peto-no-mi.md
+              - "Poke Poke no Mi": mods/missing-missing-no-mi/fruits/poke-poke-no-mi.md
               - "Riki Riki no Mi": mods/missing-missing-no-mi/fruits/riki-riki-no-mi.md
+              - "Shibo Shibo no Mi": mods/missing-missing-no-mi/fruits/shibo-shibo-no-mi.md
               - "Shiku Shiku no Mi": mods/missing-missing-no-mi/fruits/shiku-shiku-no-mi.md
               - "Shima Shima no Mi": mods/missing-missing-no-mi/fruits/shima-shima-no-mi.md
+              - "Shiro Shiro no Mi": mods/missing-missing-no-mi/fruits/shiro-shiro-no-mi.md
+              - "Soru Soru no Mi": mods/missing-missing-no-mi/fruits/soru-soru-no-mi.md
               - "Toki Toki no Mi": mods/missing-missing-no-mi/fruits/toki-toki-no-mi.md
               - "Ton Ton no Mi": mods/missing-missing-no-mi/fruits/ton-ton-no-mi.md
               - "Uta Uta no Mi": mods/missing-missing-no-mi/fruits/uta-uta-no-mi.md
@@ -278,11 +282,13 @@ nav:
               - "Mori Mori no Mi": mods/missing-missing-no-mi/fruits/mori-mori-no-mi.md
               - "Numa Numa no Mi": mods/missing-missing-no-mi/fruits/numa-numa-no-mi.md
               - "Pasa Pasa no Mi": mods/missing-missing-no-mi/fruits/pasa-pasa-no-mi.md
+              - "Susu Susu no Mi": mods/missing-missing-no-mi/fruits/susu-susu-no-mi.md
               - "Toro Toro no Mi": mods/missing-missing-no-mi/fruits/toro-toro-no-mi.md
           - Zoan:
               - "Batto Batto no Mi, Model: Vampire": mods/missing-missing-no-mi/fruits/batto-batto-no-mi-model-vampire.md
               - "Hebi Hebi no Mi, Model: Yamata no Orochi": mods/missing-missing-no-mi/fruits/hebi-hebi-no-mi-model-yamata-no-orochi.md
               - "Hito Hito no Mi, Model: Onyudo": mods/missing-missing-no-mi/fruits/hito-hito-no-mi-model-onyudo.md
+              - "Inu Inu no Mi, Model: Dachshund": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-dachshund.md
               - "Inu Inu no Mi, Model: Kyubi no Kitsune": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-kyubi-no-kitsune.md
               - "Inu Inu no Mi, Model: Tanuki": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-tanuki.md
               - "Inu Inu no Mi, Model: Wolf": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-wolf.md
@@ -298,6 +304,7 @@ nav:
               - "Tori Tori no Mi, Model: Eagle": mods/missing-missing-no-mi/fruits/tori-tori-no-mi-model-eagle.md
               - "Tori Tori no Mi, Model: Falcon": mods/missing-missing-no-mi/fruits/tori-tori-no-mi-model-falcon.md
               - "Uma Uma no Mi, Model: Pegasus": mods/missing-missing-no-mi/fruits/uma-uma-no-mi-model-pegasus.md
+              - "Uo Uo no Mi, Model: Seiryu": mods/missing-missing-no-mi/fruits/uo-uo-no-mi-model-seiryu.md
       - All abilities: mods/missing-missing-no-mi/all-abilities.md
       - Status effects: mods/missing-missing-no-mi/effects.md
       - For addon developers: mods/missing-missing-no-mi/developers.md
@@ -415,6 +422,7 @@ nav:
           - Effects:
               - Effects: akumalib/utilities/effects.md
               - Effect owners: akumalib/utilities/effect-owners.md
+              - Haki techniques: akumalib/utilities/haki-cost.md
           - Bodies and movement:
               - Attributes and size: akumalib/utilities/attributes-and-size.md
               - Pulls: akumalib/utilities/motion.md
