@@ -4,7 +4,7 @@ Every Race Race no Mi release for Minecraft 1.20.1, newest first, as published o
 
 ## 0.1.0 (beta) { #v0-1-0 }
 
-<small>Released TODO (date of the upload) · [Download](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/TODO)</small>
+<small>Released 2026-10-29 · [Download](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/9362166)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>The first beta: play the sky people, the fishmen, the humans and the giants of One Piece.</strong> Pick your race and
