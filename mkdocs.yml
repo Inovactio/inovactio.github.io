@@ -318,6 +318,10 @@ nav:
       - Changelog: mods/missing-missing-no-mi/changelog.md
   - Race Race no Mi:
       - mods/race-race-no-mi/index.md
+      - Sky People: mods/race-race-no-mi/sky-people.md
+      - Fishmen: mods/race-race-no-mi/fishmen.md
+      - Humans: mods/race-race-no-mi/humans.md
+      - Giants: mods/race-race-no-mi/giants.md
       - Configuration: mods/race-race-no-mi/configuration.md
       - Changelog: mods/race-race-no-mi/changelog.md
   - Sky Island:
