@@ -1,6 +1,6 @@
 # Holding spheres
 
-*Since the next release.* `HoldingSphereEntity` is a sphere that closes over a body and holds it while its air runs out: a ball of mud, of water, of sand - whatever the fruit is made of.
+*Since 4.3.0.* `HoldingSphereEntity` is a sphere that closes over a body and holds it while its air runs out: a ball of mud, of water, of sand - whatever the fruit is made of.
 
 It has two stages, timed from the entity's age so the client draws them from its own clock:
 

@@ -1,6 +1,6 @@
 # Dives and gusts
 
-*Since the next release.* Two gestures of a flying or leaping body, each written once.
+*Since 4.3.0.* Two gestures of a flying or leaping body, each written once.
 
 ## `DiveStrikeAbility`
 

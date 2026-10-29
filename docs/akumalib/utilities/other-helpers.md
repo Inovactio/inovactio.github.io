@@ -176,7 +176,7 @@ Register the type with a renderer that draws nothing, put the seat where the sit
 Where a body fits, for a technique that leaves its user - or what it moved - somewhere the world may have filled: the end of a dive, a pit that closes.
 
 - `fits(level, body, at)`: whether the body, set there, would be in no block; `fits(level, body, size, place)` for a body about to change size;
-- `nearest(level, body, place, far)`: `place` if it fits there, else the nearest place within `far` blocks where it does, one with a floor and no fire before any other: what "pushed out of the wall" means;
+- `nearest(level, body, place, far)`: `place` if it fits there, else the nearest place within `far` blocks where it does, one with a floor and no fire before any other, and only one a line from the body's middle reaches (no wall is gone through, #703): what "pushed out of the wall" means;
 - `firstRoomAbove(level, body, wanted)`: `wanted` if it fits there, else the first place straight above where it does - a cave on the way, else the ground. **However far**: a search of a few blocks left a body in the rock under a hill, smothered. What nothing passes is not climbed through (the bedrock over the Nether): the first room below is taken instead.
 
 ## Small helpers moved from Missing Missing no Mi (4.4.0)
@@ -188,7 +188,7 @@ Where a body fits, for a technique that leaves its user - or what it moved - som
 | `Smash` | breaking through blocks by the base mod's own pipeline |
 | `Holds` | carrying a held body beside its holder, never into blocks |
 | `SparedFalls` | `spare(entity, ticks)`: the next fall within that time does not hurt |
-| `PanelWalls` | raising a wall of panel entities in front of a body (the ability around it: `WallAbility`) |
+| `PanelWalls` | raising a wall of panel entities in front of a body (the ability around it: `WallAbility`); a body of another size raises a man's wall grown by its size around its feet, 48 blocks wide at most |
 | `GroundLayers` | laying a temporary layer on the ground of each column of an area |
 | `CooldownFamily` | abilities that share one cooldown and cannot run together |
 

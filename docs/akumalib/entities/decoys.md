@@ -93,6 +93,21 @@ A tint multiplies colours: a red shirt in "stone" stays a dark red. `RecolouredS
 
 `name` is the folder the textures are kept under: start it with your mod id (`"mymod/stone"`), so that two addons never share one. Call it on the render thread; it answers null for anything that is not a client player.
 
+### A colour laid on the skin: `tinted`
+
+`RecolouredSkins.tinted(player, name, tint)` lays a colour on the skin instead, keeping its light and shade: a race's skin colour, a hybrid's scales. Draw the texture it gives over the player's own model from a render layer, and register the same for the first-person arm with `ArmSkins` (see First-person limbs).
+
+```java
+// every skin-coloured pixel in a sea green; hair, eyes, mouth and clothes keep theirs
+RecolouredSkins.tinted(player, "mymod/fishman", RecolouredSkins.SkinTint.skin(0x8CBAA2));
+
+// through a mask laid out as a player skin: red = how much of the colour, green = a scale line in 0x96782E
+RecolouredSkins.tinted(player, "mymod/king_cobra",
+        new RecolouredSkins.SkinTint(0xECD678, new ResourceLocation("mymod", "textures/skin_mask.png"), 0x96782E, true));
+```
+
+`skinOnly` keeps the colour to the pixels close to the face's own (the cheeks and forehead are sampled); the lines stay everywhere. The copy is 256 px, room for a mask finer than the skin. A legacy 64 x 32 skin cannot be tinted: it answers null, and is not read back again.
+
 ## A body that is not a decoy
 
 `PlayerCopyRenderer` draws any `Mob` that implements `PlayerCopy`, not only a decoy: a body its player left behind, a double that stays when he leaves the game. Give it the two answers the interface asks, synced and saved:

@@ -397,6 +397,7 @@ nav:
           - Traps: akumalib/entities/traps.md
           - Decoys: akumalib/entities/decoys.md
           - Holding spheres: akumalib/entities/holding-spheres.md
+          - Torn ground: akumalib/entities/torn-ground.md
       - Professions:
           - akumalib/professions/index.md
           - Workstations: akumalib/professions/workstations.md
@@ -425,6 +426,7 @@ nav:
               - Haki techniques: akumalib/utilities/haki-cost.md
           - Bodies and movement:
               - Attributes and size: akumalib/utilities/attributes-and-size.md
+              - Size defects register: akumalib/utilities/size-defects.md
               - Pulls: akumalib/utilities/motion.md
           - Blocks and visuals:
               - Blocks: akumalib/utilities/blocks.md
@@ -435,6 +437,8 @@ nav:
               - Doriki and Cola: akumalib/utilities/doriki.md
               - Devil Fruits: akumalib/utilities/devil-fruits.md
               - Titles: akumalib/utilities/titles.md
+              - Races: akumalib/utilities/races.md
+              - Character creator: akumalib/utilities/character-creator.md
           - The world:
               - World events: akumalib/utilities/world-events.md
               - Screens: akumalib/utilities/screens.md
