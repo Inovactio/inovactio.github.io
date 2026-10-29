@@ -4,7 +4,7 @@ Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [Curs
 
 ## 6.0.0 { #v6-0-0 }
 
-<small>Released TODO (date of the upload) · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/TODO)</small>
+<small>Released 2026-10-29 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9362766)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>Bodies of every size.</strong> A player can now be bigger or smaller than a man, and everything follows: his reach, his
