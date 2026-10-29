@@ -11,6 +11,45 @@
 | **Transformations** | [King Cobra Heavy Point](#king-cobra-heavy-point), [King Cobra Walk Point](#king-cobra-walk-point) |
 | **Effects applied** | ![](../effect-icons/coiled.png){ .effect-mini }[Coiled](../effects.md#effect-coiled), ![](../effect-icons/corroded.png){ .effect-mini }[Corroded](../effects.md#effect-corroded), ![](../effect-icons/frightened.png){ .effect-mini }[Frightened](../effects.md#effect-frightened) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/modoku objects/hebigami-tsuki-salamander"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: crawl](../animations/king-cobra-heavy-marches.webp){ loading=lazy }
+      <figcaption>Hybrid: crawl</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Heavy Stick](../animations/king-cobra-heavy-stick.webp){ loading=lazy }
+      <figcaption>Heavy Stick</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hebigami-Tsuki: Salamander](../animations/king-cobra-salamander.webp){ loading=lazy }
+      <figcaption>Hebigami-Tsuki: Salamander</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Cobra: crawl](../animations/king-cobra-walk-reptation.webp){ loading=lazy }
+      <figcaption>Cobra: crawl</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Ikaku](../animations/king-cobra-walk-ikaku.webp){ loading=lazy }
+      <figcaption>Ikaku</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Modoku](../animations/king-cobra-walk-modoku.webp){ loading=lazy }
+      <figcaption>Modoku</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Makitsuki](../animations/king-cobra-walk-makitsuki.webp){ loading=lazy }
+      <figcaption>Makitsuki</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -20,17 +59,23 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/king-cobra-heavy-point.png){ .ability-icon } *Active · Transformation*
 
+![King Cobra Heavy Point](../animations/king-cobra-heavy-point.webp){ .form-picture }
+
 Transforms the user into a half-snake, their upper body on a long king cobra tail that gives their blows reach.
 
 ## King Cobra Walk Point { #king-cobra-walk-point }
 
 ![](../abilities/king-cobra-walk-point.png){ .ability-icon } *Active · Transformation*
 
+![King Cobra Walk Point](../animations/king-cobra-walk-point.webp){ .form-picture }
+
 Transforms the user into a huge king cobra, ten blocks long, its hood raised.
 
 ## Modoku { #modoku }
 
 ![](../abilities/modoku.png){ .ability-icon } *Active*
+
+![Modoku](../objects/modoku.png){ .form-picture }
 
 Applies ![](../effect-icons/corroded.png){ .effect-mini }[Corroded](../effects.md#effect-corroded)
 
@@ -98,6 +143,8 @@ The user spreads their hood and hisses. Nearby enemies are frightened. Small cre
 ## Hebigami-Tsuki: Salamander { #hebigami-tsuki-salamander }
 
 ![](../abilities/hebigami-tsuki-salamander.png){ .ability-icon } *Active*
+
+![Hebigami-Tsuki: Salamander](../objects/hebigami-tsuki-salamander.png){ .form-picture }
 
 Two cobras of flames rise out of the ground beside the user and bite the nearby enemies in turn from both sides, setting them on fire
 
