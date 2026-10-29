@@ -77,7 +77,7 @@ Missing Missing no Mi and Sky Island.</p>
   <code>setBodySize</code>, <code>addFactorScale</code>), <code>SizeScale</code>, <code>AbilityContext</code>, <code>AkumaShapes</code>, <code>BlockShapeSize</code>, <code>AkumaSpawnSize</code>,
   <code>RaySize</code>, <code>SizeGrabs</code>, <code>SizeTooltips</code>. Areas and lines through the base mod's <code>RangeComponent</code> and AkumaLib's bases
   follow the size by themselves. Tags <code>akumalib:size_exempt</code> (a technique that must not grow), <code>size_form_made</code>,
-  <code>form_keeps_reach</code>, <code>size_followers</code>. See <a href="../utilities/attributes-and-size/">Attributes and size</a> and the <a href="../utilities/size-defects/">size defects register</a>.</li>
+  <code>form_keeps_reach</code>, <code>size_followers</code>. See <a href="../size/">Attributes and size</a> and the <a href="../utilities/size-defects/">size defects register</a>.</li>
 <li><strong><code>FormSizes.declare(form, size[, mode])</code></strong>: a form that makes its user bigger, as a modifier of the size.</li>
 <li><strong>Races</strong>: <code>AkumaRaces.countAs</code> (a race that counts as a base race for its techniques and prices),
   <code>setCategoryIcon</code>, <code>setSize</code> (a race's base size and slider). <code>AkumaCreator.describe</code> fills the creator book.</li>

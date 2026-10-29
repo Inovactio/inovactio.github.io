@@ -1,0 +1,11 @@
+# What `SIZE` does to a body
+
+For players and every living entity, with or without a form: a full form or a hybrid is its own box grown by `SIZE` (a 12-block giant in a full form 1.7 high is 11.3 high). For abilities, a hybrid still counts as no form (see [Abilities](abilities.md)): the body follows the hybrid, the reach and damage do not.
+
+- **Box**: the standing, crouching and swimming boxes are grown by `SIZE`. A player's own box too (`PlayerSizeMixin`): before 6.0.0, `SIZE` grew a player's abilities and drawing but not his box.
+- **Eyes**: at the real height of the grown body (a player at `SIZE` 4 sees from 6.48, not 1.62).
+- **Third-person camera**: pulled back by `SIZE` (16 blocks at `SIZE` 4), still kept out of walls by the base mod.
+- **Model**: drawn at the grown size, a full form too (the base mod draws a full form with its own renderer, grown in `MorphRendererSizeMixin`; a player in a form that is the player's own body, Deka, Mini, the Titan..., is drawn by the player's renderer since #651, grown like any body).
+- **Shadow**: grown by `SIZE`, both ways (a shrunk body casts a smaller one). A hybrid (a partial form with a box of its own) also grows it by its height against a man's, as its box.
+- **Hearing** (`[sizeSystem]` `hearing`, `hearingMargin`): a body taller than a man listens from the middle of its body, in first and third person alike, and hears at full volume up to its melee reach plus `hearingMargin` (4), then a sound fades over its usual distance: a 12-block giant hears at full volume up to 17 blocks, nothing after 33. The server sends sounds that much further to such a player. A man hears as the game does.
+- **Particles and sounds of its abilities** (`[sizeSystem]` `visuals`): a particle effect of the base mod made for a big body grows by its reach factor (square root, up to x3): spread around its origin, speed and particle size; a 12-block giant's fire pillar x2.6. The sounds played while it uses or ticks an ability are heard further (volume x the same factor; the game hears a sound up to 16 blocks x its volume) and lower (pitch divided by the cube root of the size, never under 0.5: a 12-block giant, about half). A man looks and sounds as before. Particles the server sends as plain Minecraft particles, and sounds played after the ability's own tick (a projectile's impact), do not move.

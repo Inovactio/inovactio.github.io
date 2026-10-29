@@ -17,7 +17,7 @@ Finishing sends the base mod's own `CFinishCCPacket` with the numbers its own sc
 
 On the Race tab, under the preview, a slider sets the body's size around the race's base (#746): "Size x1.25 (2.25 blocks)", then a notch a place. The preview follows it. A race declares its base and its slider with `AkumaRaces.setSize` ([Races](races.md#size)); one that declares nothing has base 1 and the default slider, -0.25 to +0.75 by 0.25 (5 places, 0 at the start). Choosing another race or sub-race puts its start back. Random shows none: the drawn race gets its start.
 
-The book sends the slider (`ChooseSizePacket`) just before the finish; the server brings it within the race's bounds and steps and puts it as a permanent `SIZE` modifier, base x (1 + slider), kept over death. It changes afterwards only as the race does: the book again, or the command (a new race puts its start). The base mod's own screen (`gridBook = false`) has no slider: its race's start. See [Attributes and size](attributes-and-size.md#the-races-base-size-and-the-creators-slider-746).
+The book sends the slider (`ChooseSizePacket`) just before the finish; the server brings it within the race's bounds and steps and puts it as a permanent `SIZE` modifier, base x (1 + slider), kept over death. It changes afterwards only as the race does: the book again, or the command (a new race puts its start). The base mod's own screen (`gridBook = false`) has no slider: its race's start. See [Attributes and size](../size/race-size.md#the-races-base-size-and-the-creators-slider-746).
 
 The server decides (`[sizeSystem]` in `akumalib-server.toml`, maintainer 2026-10-29) and tells the book at login and at each config reload:
 

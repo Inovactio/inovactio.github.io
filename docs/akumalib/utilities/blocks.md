@@ -48,7 +48,7 @@ this.pit.remove();
 
 - **quietly**: no neighbour is told, going or coming back. Sand over the gap does not fall, a torch on the block does not pop off, water beside it does not run in;
 - **back as it was** when the group is removed, with everything a group comes down by: its owner's death, his leaving the world or the game, the server's stop;
-- **never over a body**: whoever or whatever is in the gap as it closes is set in the first room straight above it ([`AkumaRoom.firstRoomAbove`](other-helpers.md#akumaroom));
+- **never over a body**: whoever or whatever is in the gap as it closes is set in the first room straight above it ([`AkumaRoom.firstRoomAbove`](bodies-and-places.md#akumaroom));
 - **never over somebody's block**: a block set in the gap meanwhile stays; water, fire or a plant gives way;
 - **never a chest**: a block with something inside it (a block entity) is refused, and so is a temporary block. No temporary block is raised in a gap either;
 - `cutSize()` counts the blocks still out; `isEmpty()` is true once nothing is placed and nothing is out.

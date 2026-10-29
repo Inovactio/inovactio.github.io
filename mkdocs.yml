@@ -372,7 +372,9 @@ nav:
       - Changelog: mods/cruise/changelog.md
   - AkumaLib:
       - akumalib/index.md
-      - Getting started: akumalib/getting-started.md
+      - Start:
+          - Getting started: akumalib/getting-started.md
+          - Development: akumalib/development.md
       - Core concepts:
           - akumalib/core-concepts/index.md
           - The registry: akumalib/core-concepts/registry.md
@@ -384,9 +386,31 @@ nav:
           - Awakening abilities: akumalib/core-concepts/awakenings.md
           - Held inputs: akumalib/core-concepts/held-inputs.md
           - The civilian faction: akumalib/core-concepts/civilian-faction.md
+      - Size system:
+          - akumalib/size/index.md
+          - Reading a size: akumalib/size/reading-size.md
+          - What SIZE does to a body: akumalib/size/body.md
+          - Bodies taller than a man: akumalib/size/big-bodies.md
+          - Race size and slider: akumalib/size/race-size.md
+          - Forms that grow their user: akumalib/size/forms.md
+          - Melee: akumalib/size/melee.md
+          - Abilities that follow the size: akumalib/size/abilities.md
+          - Hits and sizes written by hand: akumalib/size/written-sizes.md
+          - The ability context: akumalib/size/ability-context.md
+          - Settings and tests: akumalib/size/settings-and-tests.md
+          - Size defects register: akumalib/utilities/size-defects.md
+      - Players and races:
+          - Races: akumalib/utilities/races.md
+          - Character creator: akumalib/utilities/character-creator.md
+          - Titles: akumalib/utilities/titles.md
+          - Doriki and Cola: akumalib/utilities/doriki.md
+          - Currency: akumalib/utilities/currency.md
+          - Devil Fruits: akumalib/utilities/devil-fruits.md
+          - Devil Fruits on NPCs: akumalib/utilities/npc-fruits.md
       - Ability base classes:
           - akumalib/ability-base-classes/index.md
           - Zones: akumalib/ability-base-classes/zones.md
+          - Spreading blocks: akumalib/ability-base-classes/spreading-blocks.md
           - Terrain: akumalib/ability-base-classes/terrain.md
           - Passives: akumalib/ability-base-classes/passives.md
           - Movement: akumalib/ability-base-classes/movement.md
@@ -397,6 +421,22 @@ nav:
           - Items and blocks: akumalib/ability-base-classes/items-and-blocks.md
           - Giants of matter: akumalib/ability-base-classes/giants.md
           - Awakened Zoan: akumalib/ability-base-classes/awakened-zoan.md
+      - Utilities:
+          - akumalib/utilities/index.md
+          - Targeting: akumalib/utilities/targeting.md
+          - Protected areas: akumalib/utilities/protection.md
+          - Effects: akumalib/utilities/effects.md
+          - Effect owners: akumalib/utilities/effect-owners.md
+          - Haki techniques: akumalib/utilities/haki-cost.md
+          - Attribute bonuses: akumalib/utilities/attribute-bonuses.md
+          - Pulls: akumalib/utilities/motion.md
+          - Deferred work: akumalib/utilities/tick-queue.md
+          - Other helpers:
+              - akumalib/utilities/other-helpers.md
+              - For abilities: akumalib/utilities/ability-helpers.md
+              - Bodies, seats and places: akumalib/utilities/bodies-and-places.md
+              - Ammo, stores and markers: akumalib/utilities/ammo-stores-and-markers.md
+              - Long rays and heavy work: akumalib/utilities/rays-and-heavy-work.md
       - Animations:
           - akumalib/animations/index.md
           - Choosing a pose: akumalib/animations/choosing-a-pose.md
@@ -409,56 +449,37 @@ nav:
           - Projectiles: akumalib/entities/projectiles.md
           - Tornadoes: akumalib/entities/tornadoes.md
           - Catchable creatures: akumalib/entities/creatures.md
+          - Writing a catchable creature: akumalib/entities/writing-a-creature.md
           - Traps: akumalib/entities/traps.md
           - Decoys: akumalib/entities/decoys.md
           - Holding spheres: akumalib/entities/holding-spheres.md
           - Torn ground: akumalib/entities/torn-ground.md
       - Professions:
           - akumalib/professions/index.md
+          - Levels and XP: akumalib/professions/levels-and-xp.md
+          - Screen, perks and boosts: akumalib/professions/screen-perks-and-boosts.md
+          - Solo and Crew modes: akumalib/professions/solo-and-crew.md
+          - Command and saved data: akumalib/professions/command-and-saves.md
           - Workstations: akumalib/professions/workstations.md
           - Advancements: akumalib/professions/advancements.md
           - Gathering: akumalib/professions/gathering.md
           - Talent webs: akumalib/professions/talent-webs.md
-      - Worldgen and dimensions:
+      - The world:
           - akumalib/worldgen/index.md
           - Cell grids: akumalib/utilities/cells.md
           - Asking the overworld: akumalib/utilities/overworld-lookup.md
           - Dimension travel: akumalib/utilities/dimension-travel.md
           - Pocket worlds: akumalib/utilities/pocket-worlds.md
           - Jigsaw pools: akumalib/utilities/jigsaw.md
-      - Loot injection:
-          - akumalib/loot-injection/index.md
-          - Devil Fruit boxes: akumalib/loot-injection/devil-fruit-boxes.md
-          - Chests: akumalib/loot-injection/chests.md
-      - Utilities:
-          - akumalib/utilities/index.md
-          - Targeting and protection:
-              - Targeting: akumalib/utilities/targeting.md
-              - Protected areas: akumalib/utilities/protection.md
-          - Effects:
-              - Effects: akumalib/utilities/effects.md
-              - Effect owners: akumalib/utilities/effect-owners.md
-              - Haki techniques: akumalib/utilities/haki-cost.md
-          - Bodies and movement:
-              - Attributes and size: akumalib/utilities/attributes-and-size.md
-              - Size defects register: akumalib/utilities/size-defects.md
-              - Pulls: akumalib/utilities/motion.md
-          - Blocks and visuals:
-              - Blocks: akumalib/utilities/blocks.md
-              - Lines: akumalib/utilities/lines.md
-              - Tooltips: akumalib/utilities/tooltips.md
-          - Player data:
-              - Currency: akumalib/utilities/currency.md
-              - Doriki and Cola: akumalib/utilities/doriki.md
-              - Devil Fruits: akumalib/utilities/devil-fruits.md
-              - Titles: akumalib/utilities/titles.md
-              - Races: akumalib/utilities/races.md
-              - Character creator: akumalib/utilities/character-creator.md
-          - The world:
-              - World events: akumalib/utilities/world-events.md
-              - Screens: akumalib/utilities/screens.md
-              - Fixes to the base mod: akumalib/utilities/base-mod-fixes.md
-          - Deferred work: akumalib/utilities/tick-queue.md
-          - Other helpers: akumalib/utilities/other-helpers.md
-      - Development: akumalib/development.md
+          - World events: akumalib/utilities/world-events.md
+          - Loot injection:
+              - akumalib/loot-injection/index.md
+              - Devil Fruit boxes: akumalib/loot-injection/devil-fruit-boxes.md
+              - Chests: akumalib/loot-injection/chests.md
+      - Blocks, visuals and screens:
+          - Blocks: akumalib/utilities/blocks.md
+          - Lines: akumalib/utilities/lines.md
+          - Tooltips: akumalib/utilities/tooltips.md
+          - Screens: akumalib/utilities/screens.md
+      - Fixes to the base mod: akumalib/utilities/base-mod-fixes.md
       - Changelog: akumalib/changelog.md

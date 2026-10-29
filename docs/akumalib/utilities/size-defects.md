@@ -74,7 +74,7 @@ The rules behind every row:
 
 Not defects: the giant's figures chosen by the maintainer on 2026-10-27 (the giant is SIZE 4, "x2 at SIZE 4"). Each is a
 square root of the size up to x3, none under SIZE 1. Settings in `[sizeSystem]`, details in
-[Attributes and size](attributes-and-size.md).
+[the size system](../size/index.md) (settings: [Size settings and tests](../size/settings-and-tests.md)).
 
 | What | At SIZE 4 | Where |
 |---|---|---|
