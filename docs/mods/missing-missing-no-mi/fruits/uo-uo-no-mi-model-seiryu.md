@@ -7,7 +7,7 @@
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
 | **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 12: 11 active, 1 passive (1 hidden, not in the ability menu) |
+| **Abilities** | 13: 11 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Seiryu Heavy Point](#seiryu-heavy-point), [Seiryu Fly Point](#seiryu-fly-point) |
 | **Effects applied** | [Kaen Daiko](../effects.md#effect-kaen-daiko) |
 
@@ -69,11 +69,19 @@ Transforms the user into a dragon hybrid with scales, claws and a long tail. Jum
 
 ![Seiryu Fly Point](../animations/seiryu-fly-point.webp){ .form-picture }
 
-Transforms the user into the azure dragon, a huge flying serpent 30 blocks long with scales that take most blows. It needs room to transform
+Transforms the user into the azure dragon, a huge flying serpent 45 blocks long with scales that take most blows. It needs room to transform
 
 | Stat | Value |
 |---|---|
 | Max Health in Dragon Form | +50 % |
+
+## Seiryu Scales { #seiryu-scales }
+
+![](../abilities/seiryu-scales.png){ .ability-icon } *Passive*
+
+While in a dragon form the user's scales take no damage from fire or lava, and the user never stays on fire
+
+Requires Seiryu Heavy Point or Seiryu Fly Point to be active.
 
 ## Flame Clouds { #seiryu-flight }
 
@@ -98,7 +106,7 @@ The user breathes a great beam of fire that burns every enemy in it and blows up
 | Cooldown | 18–40 s |
 | Hold | 2 s |
 | Damage | 32–72 |
-| Range | 18–48 blocks (line) |
+| Range | 18–72 blocks (line) |
 | Fireballs of the Dragon | 6 |
 
 ## Kaifu { #seiryu-kaifu }
@@ -129,7 +137,7 @@ The user wraps their tail around the enemy they look at and squeezes it. As the 
 | Cooldown | 15 s |
 | Hold | 3 s |
 | Damage | 26–22 |
-| Range | 6–12 blocks (line) |
+| Range | 6–18 blocks (line) |
 
 ## Seiryu Bite { #seiryu-bite }
 
@@ -143,7 +151,7 @@ The user bites the enemies right in front of the mouth. As the dragon it is Drag
 | Haki | Hardening |
 | Cooldown | 7 s |
 | Damage | 22–36 |
-| Range | 6–10 blocks (line) |
+| Range | 6–15 blocks (line) |
 
 ## Seiryu Claws { #seiryu-claws }
 
@@ -157,7 +165,7 @@ The user rakes their claws across the enemies in front of them and pushes them a
 | Haki | Hardening |
 | Cooldown | 6 s |
 | Damage | 18–28 |
-| Range | 6–10 blocks (area) |
+| Range | 6–15 blocks (area) |
 
 ## Dragon Tail Sweep { #seiryu-tail-sweep }
 
@@ -171,7 +179,7 @@ While in the dragon form, the user swings their tail round in front of them and 
 | Haki | Hardening |
 | Cooldown | 10 s |
 | Damage | 28 |
-| Range | 13 blocks (area) |
+| Range | 19.5 blocks (area) |
 
 ## Tatsumaki { #seiryu-tatsumaki }
 
@@ -191,7 +199,7 @@ Tatsumaki Kaifu is a great tornado where the user looks that pulls the enemies r
 | Cooldown | 25–30 s |
 | Hold | 4–5 s |
 | Damage | 40–48 |
-| Range | 17–40 blocks (area) |
+| Range | 25.5–60 blocks (area) |
 
 ## Dragon Storm { #seiryu-storm }
 
@@ -210,7 +218,7 @@ With Hail Storm a storm cloud gathers where the user looks and hail beats down o
 | Haki | Special |
 | Cooldown | 25 s |
 | Damage | 32–48 |
-| Range | 32 blocks (area) |
+| Range | 48 blocks (area) |
 | Bolts | 6 |
 
 ## Kaen Daiko { #seiryu-kaen-daiko }

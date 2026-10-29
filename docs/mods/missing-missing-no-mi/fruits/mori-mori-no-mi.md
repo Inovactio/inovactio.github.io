@@ -197,13 +197,11 @@ Giant Kinniku Mori Mori
 | Size | x3 |
 | Fist Damage | +14 |
 | Armor | +8 |
-| Other Abilities | x1.5 |
 | Cooldown | 18–90 s |
 | Hold | 30 s |
 | Size | x8 |
 | Fist Damage | +30 |
 | Armor | +14 |
-| Other Abilities | x3 |
 
 ## Wakagi { #wakagi }
 

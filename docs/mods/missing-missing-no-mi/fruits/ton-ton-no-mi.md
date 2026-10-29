@@ -78,9 +78,9 @@ Makes the user very heavy, they take no knockback and less damage but moves slow
 
 | Stat | Value |
 |---|---|
-| Jump Height | <span class="stat-malus">-0.6</span> |
-| Armor | +8 |
 | Armor Toughness | +4 |
+| Armor | +8 |
+| Jump Height | <span class="stat-malus">-0.6</span> |
 | Speed | <span class="stat-malus">-0.04</span> |
 | Knockback Resistance | +1 |
 

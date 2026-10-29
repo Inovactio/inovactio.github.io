@@ -152,11 +152,9 @@ Use it again to stop. The less is left of the fortress the longer the cooldown, 
 |---|---|
 | Step Height | +1.5 |
 | Punch Damage | +10 |
-| Fall Resistance | +20 |
 | Speed | <span class="stat-malus">x0.35</span> |
+| Fall Resistance | +20 |
 | Knockback Resistance | +1 |
-| Entity Reach | +6.52 |
-| Block Reach | +9.78 |
 
 ## Big Volley { #shiro-big-volley }
 

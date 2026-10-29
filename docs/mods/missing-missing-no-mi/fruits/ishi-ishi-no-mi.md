@@ -130,22 +130,18 @@ Stone Colossus
 | Stone Body | 128 blocks |
 | Fist Damage | +20 |
 | Movement Speed | <span class="stat-malus">-25 %</span> |
-| Other Abilities' Damage | x1.5 |
 | Size | x5 |
 | Stone to Raise | <span class="stat-malus">128 blocks</span> |
 | Stone Body | 256 blocks |
 | Fist Damage | +35 |
 | Movement Speed | <span class="stat-malus">-50 %</span> |
-| Other Abilities' Damage | x2 |
 | Size | x8 |
 | Stone to Raise | <span class="stat-malus">256 blocks</span> |
 | Stone Body | 512 blocks |
 | Fist Damage | +50 |
 | Movement Speed | <span class="stat-malus">-75 %</span> |
-| Other Abilities' Damage | x3 |
 | Size | x12 |
 | Stone to Raise | <span class="stat-malus">512 blocks</span> |
 | Stone Body | 1,024 blocks |
 | Fist Damage | +70 |
 | Movement Speed | <span class="stat-malus">-100 %</span> |
-| Other Abilities' Damage | x4 |

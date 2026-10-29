@@ -193,19 +193,16 @@ Huge Golden Tesoro
 | Gold Body | 288 |
 | Fist Damage | +20 |
 | Movement Speed | <span class="stat-malus">-25 %</span> |
-| Golem Abilities' Damage | x1 |
 | Size | x5 |
 | Gold Held | <span class="stat-malus">288</span> |
 | Gold Body | 576 |
 | Fist Damage | +35 |
 | Movement Speed | <span class="stat-malus">-50 %</span> |
-| Golem Abilities' Damage | x1.5 |
 | Size | x8 |
 | Gold Held | <span class="stat-malus">576</span> |
 | Gold Body | 1,152 |
 | Fist Damage | +50 |
 | Movement Speed | <span class="stat-malus">-75 %</span> |
-| Golem Abilities' Damage | x2 |
 
 ## Gon Inferno { #gon-inferno }
 
