@@ -44,6 +44,16 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     [:octicons-arrow-right-24: Read the wiki](mods/missing-missing-no-mi/index.md)
 
+-   ![](assets/icons/race-race-no-mi.png){ .card-icon } **Race Race no Mi**
+
+    ---
+
+    The races of One Piece: sky people, fishmen, humans and giants, each with its own body, passive and techniques.
+
+    **Needs:** Mine Mine no Mi, AkumaLib
+
+    [:octicons-arrow-right-24: Read the wiki](mods/race-race-no-mi/index.md)
+
 -   ![](assets/icons/sky-island.png){ .card-icon } **Sky Island**
 
     ---
