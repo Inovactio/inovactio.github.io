@@ -309,6 +309,10 @@ nav:
       - Status effects: mods/missing-missing-no-mi/effects.md
       - For addon developers: mods/missing-missing-no-mi/developers.md
       - Changelog: mods/missing-missing-no-mi/changelog.md
+  - Race Race no Mi:
+      - mods/race-race-no-mi/index.md
+      - Configuration: mods/race-race-no-mi/configuration.md
+      - Changelog: mods/race-race-no-mi/changelog.md
   - Sky Island:
       - mods/sky-island/index.md
       - Getting there and back: mods/sky-island/getting-there.md
