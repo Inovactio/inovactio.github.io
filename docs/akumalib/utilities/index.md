@@ -48,6 +48,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 | [World events](world-events.md) | `AkumaWorldEvents`, `WorldEventType`: events that come near players now and then, announced in the chat and told by the base mod's barkeepers |
 | [Screens in the base mod's look](screens.md) | `BookScreen`, `NoteScreen`, `ParchmentNote`, `MmnmGui`: the base mod's open book and its parchment note as bases for a screen |
 | [Fixes to the base mod](base-mod-fixes.md) | what AkumaLib corrects in Mine Mine no Mi itself, and the server config to turn each fix off |
+| [Size defects register](size-defects.md) | every size defect found so far, its cause and the shared fix to reuse |
 
 ## Timing and the rest
 

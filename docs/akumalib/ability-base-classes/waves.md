@@ -1,6 +1,6 @@
 # Waves
 
-*Since the next release.* `WaveAbility` is a wave that rises in front of its user and runs ahead of him: mud, water, sand.
+*Since 4.3.0.* `WaveAbility` is a wave that rises in front of its user and runs ahead of him: mud, water, sand.
 
 It leaves from his feet along where he looks, flat, `waveSpeed()` blocks a tick (1 by default) for `runTicks()` ticks, `halfWidth()` blocks to each side. Every body it reaches is hit `waveDamage()` real HP, **once**, and carried along with it. The direction is taken as it leaves: turning afterwards does not steer it. The cooldown starts when it has run.
 

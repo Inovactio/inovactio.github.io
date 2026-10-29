@@ -106,3 +106,17 @@ equipped in another slot. A slot that keeps its ability keeps the same instance,
     Before 2.12.0, an addon had to send `SSyncAbilityDataPacket` twice after changing a player's fruit for the new
     abilities to show. One sync is enough now.
 
+
+## Large pirate ships and Marine battleships never generate
+
+*Since 6.0.0.* Always on, data only.
+
+Mine Mine no Mi's large pirate ship (`mineminenomi:pirate/large_ship`) and Marine battleship
+(`mineminenomi:marine/battleship`) may only generate in the biomes of the tag `#mineminenomi:has_structure/large_ship`,
+but the base mod ships that tag under another name (`has_structure/big_ship`). With an empty tag, neither ship ever
+appeared in a world.
+
+AkumaLib ships `data/mineminenomi/tags/worldgen/biome/has_structure/large_ship.json`, which points at the base mod's
+`big_ship` tag: the deep oceans. Spacing, frequency and the ships themselves stay the base mod's. The tag uses
+`"replace": false`, so a data pack that adds biomes to it (a player's own fix, for example) adds to it rather than
+fighting it. Chunks already generated keep what they have: the ships appear in ocean explored after the update.

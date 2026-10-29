@@ -13,6 +13,12 @@ AkumaLib provides five entity base classes a technique can spawn, and one for cr
 
 The library ships **no entity type, model or renderer** for them: each addon registers its own subclass and draws it the way its fruit looks.
 
+One entity is ready to spawn as it is, registered and drawn by the library:
+
+| Class | For | Page |
+|---|---|---|
+| `TornGroundEntity` | a mass of real ground torn out, carried over its owner's head, thrown, burst on what it meets | [Torn ground](torn-ground.md) |
+
 ## Registering an entity
 
 Every entity your addon spawns needs four things. Forgetting one fails in a different way each time.

@@ -68,7 +68,7 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     ---
 
-    The shared ability framework the addons are built on. A library for mod developers: it adds nothing a player can see.
+    The shared ability framework the addons are built on. A library for mod developers; for players, it corrects Mine Mine no Mi and gives every body its size.
 
     **Needs:** Mine Mine no Mi
 

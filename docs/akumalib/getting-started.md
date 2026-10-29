@@ -6,6 +6,7 @@ This page takes an empty Forge 1.20.1 mod to a registered ability built on Akuma
 
 AkumaLib is published on CurseForge, and its base classes all extend Mine Mine no Mi types, so your addon needs **both** mods on its classpath.
 
+
 ```groovy title="build.gradle"
 repositories {
     maven {
@@ -22,8 +23,8 @@ dependencies {
     minecraft "net.minecraftforge:forge:1.20.1-47.4.18"
 
     implementation fg.deobf("maven.modrinth:mine-mine-no-mi:1.20.1-0.11.6")
-    // AkumaLib 5.2.0 on CurseForge: project 1678152, file 9300971
-    implementation fg.deobf("curse.maven:akumalib-1678152:9300971")
+    // AkumaLib 6.0.0 on CurseForge: project 1678152, file 9362766
+    implementation fg.deobf("curse.maven:akumalib-1678152:9362766")
 }
 ```
 
@@ -41,7 +42,7 @@ Then declare AkumaLib as a required dependency, so Forge shows its missing-mod s
 [[dependencies.yourmodid]]
     modId = "akumalib"
     mandatory = true
-    versionRange = "[5.2.0,)"
+    versionRange = "[6.0.0,)"
     ordering = "AFTER"
     side = "BOTH"
 

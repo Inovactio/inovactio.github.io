@@ -70,6 +70,10 @@ Whatever the line of sight meets - a block or an entity - is the impact point. B
 
 It is measured from the eyes, so a crouching user does not aim from their feet.
 
+## A big body's aim
+
+`firstInSight` and `aimPoint` (and `AkumaAim.inSight`) lengthen their ray by the user's reach factor (`AkumaSize.factor(user, REACH)`: square root of the size, up to x3), once, in `AkumaTargeting.aimRange(caster, range)` (#657). A giant's eyes are high above his feet: a 12-block giant's are 10.8 up, so a target 3 blocks before his feet is 11 blocks from them. A man and a smaller body keep `range` as written. A grown aim stops at 48 blocks, like a search, and an aim already 48 or longer stays as written (Ichi Ichi keeps 128, not 384). A kit with a ray of its own reads `aimRange` for the same answer.
+
 ## `sizedRange`
 
 A range given for a player's body, grown to fit whatever the caster is morphed into:

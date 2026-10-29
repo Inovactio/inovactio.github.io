@@ -61,6 +61,15 @@ What it covers, each a fault of the base mod (0.11.5):
 
 The same from code: `NpcStyles.giveFruit(mob, fruit)` and `NpcStyles.takeFruit(mob)`.
 
+### Zoans on mobs that are not humanoid
+
+*Since 6.0.0.* A Zoan's hybrid and partial forms are drawn over a human body. A mob without one (a creeper, a spider, a wolf) may only take the **full form** of a Zoan (the whole animal).
+
+- Humanoid means a Mine Mine no Mi NPC, or a mob in the entity type tag `akumalib:humanoid_fruit_users` (zombies, skeletons, piglins, illagers by default). A data pack can add more.
+- A Zoan given to any other mob goes to the addon that knows its full form: it registers a `NpcStyles.BeastFruits` at its set-up (`NpcStyles.registerBeastFruits`). `give` returns the abilities the mob will use, or null for a fruit it does not know; `take` takes it all off again (`clear`).
+- A Zoan no addon knows (the base mod's, for now) is refused on such a mob, with a message: `giveFruit` returns null and gives nothing.
+- Fruits that are no Zoan are given as before.
+
 
 ## Troops with Devil Fruits
 
@@ -84,6 +93,44 @@ Troops are many: in a new world (a pirate ship, a Marine base, a bandit camp and
 
 The draw from code: `ProtectionRules.freeFruitDraw(mob, maxTier)`; the weight is `ProtectionRules.LOGIA_DRAW_WEIGHT`.
 
+
+## Any mob with a Devil Fruit
+
+*Since 6.0.0.* Any mob that spawns naturally may have eaten a Devil Fruit: zombies, skeletons, creepers, spiders, endermen, but also cows, pigs, chickens, and other mods' mobs. One key in `akumalib-server.toml`, section `npcFruitUsers`:
+
+| Key | Default | |
+|---|---|---|
+| `mobFruitChance` | `0.01` | chance in %, 0.0 to 100.0, per mob spawned; 0: off |
+
+Mobs spawn by the thousands: 0.01 % is about one fruit user for 10,000 mobs, a real rarity.
+
+- **Natural spawns only**: the world's spawning and a new chunk's animals. Spawners, spawn eggs, `/summon`, breeding, jockeys, raids, patrols and structures give none.
+- **Never**: a boss (`forge:bosses`), a mob that spawns in water (fish, squids, drowned, guardians, axolotls: a fruit user cannot swim), or one of Mine Mine no Mi's NPCs, which have their own chances.
+- **Tier 1 fruits only**, as a grunt's (`ProtectionRules.freeFruitDraw`): under "One Fruit per World" taken fruits are skipped and the mob's fruit reserves nothing; Logia are rarer.
+- **Zoans**: a mob that is no humanoid takes a Zoan only as the whole animal, through an addon's `NpcStyles.BeastFruits` (#623). A Zoan it is refused is left out of its draw and another fruit drawn; with none left, the mob has no fruit.
+- **A peaceful mob** (a cow, a pig) stays calm and flees no more: whoever hits it, it turns on them with its fruit, and lets go once they are out of its follow range. Monsters and mobs that already strike back (wolves, golems) keep their own targeting.
+- Kept after a reload: the fruit and its techniques (`NpcStyles.giveFruit`), and a peaceful mob's fight-back (mark `MobFruitUsers.MOB_FRUIT` in its persistent data).
+- No fruit is dropped on death, and nothing shows the fruit before the fight (#589).
+
+From code: `MobFruitUsers.draw(mob)` gives a mob a fruit by the same draw; `MobFruitUsers.mayTakeFruit(mob)` says whether one may have it at all.
+
+
+## Fewer Rokushiki for captains and notorious NPCs
+
+*Since 5.1.0.* The base mod gives every human captain 3 Rokushiki (2 for a bandit leader), Soru first, and a notorious NPC 3 to 5: fights with them are hard to read. Now a captain (pirate, Marine, bandit leader) or a human notorious NPC (vice admiral, notorious captain) draws how many it knows, and uses them from time to time. Section `npcRokushiki` of `akumalib-server.toml`:
+
+| Key | Default | |
+|---|---|---|
+| `npcRokushiki` | `true` | `false`: Mine Mine no Mi's own draw and cooldowns, all the keys below ignored |
+| `npcRokushikiNone` / `One` / `Two` / `Three` | 25 / 55 / 15 / 5 | weights of knowing 0, 1, 2 or 3 techniques; a notorious NPC knows 2 at most (the weight of 3 goes to 2) |
+| `npcSoruCooldown` | 15.0 | least seconds between two Soru (a player's Soru has 5 dashes in a row) |
+| `npcRokushikiCooldownMultiplier` | 2.0 | their Rokushiki cooldowns against a player's |
+
+- The techniques are the base mod's, with its AI wrappers: a captain draws from Soru, Shigan, Tekkai (7 each), Rankyaku (4, below 90 % health) and Kami-e (1); a notorious NPC from Soru, Shigan, Tekkai (5 each), Rankyaku, Geppo and Kami-e (4 each).
+- Kept after a reload: the ids drawn are in the NPC's persistent data (`NpcRokushiki.KEY`). The base mod draws again at a reload (a captain through `NpcStyles`, with `fixSaveLoad` on; a notorious NPC in its constructor): the saved ones are given back instead.
+- Only `CaptainEntity` and `NotoriousEntity` themselves: named bosses (Higuma, Morgan, Kuro, Jango, Sham, Buchi, Gin, Pearl, Don Krieg, Alvida, Cabaji, Miss Valentine, Mr. 0, 1, 3, 5) keep their kit and cooldowns, as do players and an addon's subclasses.
+
+From code: `NpcRokushiki.known(npc)`, `NpcRokushiki.cooldown(entity, ability, cooldown)`.
 
 ## NPCs break no terrain
 

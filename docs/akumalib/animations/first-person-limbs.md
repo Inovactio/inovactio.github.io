@@ -61,3 +61,14 @@ public class ScissorsModel<T extends LivingEntity> extends HumanoidMorphModel<T>
 ```
 
 `ArmCoating` answers which overlay the base mod shows on a limb: `onMainArm(entity)`, `onNailedLimb(entity)` (the main arm, or the main leg of a Black Leg user) and `isCoated(entity, side)`.
+
+## A skin on the arm: `ArmSkins`
+
+A race's skin colour or a hybrid's scales, drawn over the whole body by a render layer, would stop at the first-person arm: no layer draws it. `ArmSkins` lays a texture over that arm and its sleeve, in the pose vanilla has just given them, with or without a morph's graft (under the graft, under Armament Haki):
+
+```java
+// client setup: the same texture the addon's layer draws over the body, or null for none
+ArmSkins.register(player -> MySkinTint.texture(player));
+```
+
+The texture is a whole player skin: the arm and the sleeve are read at their usual places in it, cut out where it is transparent.

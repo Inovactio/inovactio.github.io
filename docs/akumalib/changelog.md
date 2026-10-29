@@ -2,6 +2,98 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 6.0.0 { #v6-0-0 }
+
+<small>Released 2026-10-29 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9362766)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Bodies of every size.</strong> A player can now be bigger or smaller than a man, and everything follows: his reach, his
+blows, his techniques, his walk, his jump, his health, the camera, the sounds and what he summons. A man at normal
+size plays exactly as before. The character creator becomes a book with a size slider for every race, and addons can
+now bring races of their own, giants included (Race Race no Mi). Large pirate ships and Marine battleships generate
+again, and wild mobs may now have eaten a Devil Fruit.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are optional.</p>
+<p>⚠️ <strong>Network protocol 16.</strong> The sizes are now sent to the players, so 6.0.0 does not play with 5.2.0 or older:
+update the server and every client together.</p>
+<p>⚠️ <strong>Why a 6.</strong> One method an addon could call changed what it gives back (<code>NpcStyles.giveFruit</code>, see the end), and
+the size system changes how far and how hard the techniques of a big or small body reach. Nothing else was taken out.
+Every published addon accepts 6.0.0 as it is: Awaken Awaken no Mi, Awaken Path, Cruise Cruise no Mi, InoFruits,
+Missing Missing no Mi and Sky Island.</p>
+<hr />
+<h3>New</h3>
+<ul>
+<li><strong>Your size.</strong> Mine Mine no Mi's character creator gets a size slider, from 0.75 to 1.25 times a man in small
+  steps, a man in the middle. A race brought by an addon can be bigger by nature (Race Race no Mi's fishmen and
+  giants) and have its own slider. The size stays with you through death, a relog and a change of dimension.</li>
+<li><strong>Everything follows the body.</strong> A big body reaches farther, hits harder, walks with bigger strides, jumps higher,
+  falls from higher, has more health and takes knockback less. Its techniques grow with it: areas, beams, projectiles,
+  explosions, dashes, grabs (a giant can grab several at once), walls, cages, zones, the creatures it summons, the
+  particles and the sounds. A small body is the other way round.
+  The tooltips give the range a technique has at your size.</li>
+<li><strong>The limits of a big body.</strong> It is slower in the air and sinks faster in water when it does not swim up, cannot
+  ride a horse or a boat past twice a man's size, and its cooldowns are a little longer. Under a roof too low for it,
+  it gets out instead of choking in the blocks. Chests and wandering traders open as far as its arm reaches.</li>
+<li><strong>The camera, the box and the eyes</strong> follow the size: first person at the body's real eye height, third person
+  backs off with the size, steps up higher blocks, casts a bigger shadow, hears from its middle.</li>
+<li><strong>Forms that make you bigger</strong> add to your own size: a giant in a form that doubles a man is bigger still.
+  Above four times a man, what a form adds grows less and less, and nothing goes past sixteen. Mine Mine no Mi's Deka, Gomu Gigant, Brachio Guard and Daibutsu count in that total: the Daibutsu of a man is about 11 blocks
+  high instead of 13.</li>
+<li><strong>A new character creator.</strong> The choices of each step (faction, race, style, profession) are laid out in a grid,
+  with the chosen one's sub-races, a 3D preview of the race you can turn, its bonuses, its description and its
+  techniques with their full tooltips. Locked choices say why. <code>characterCreator.gridBook = false</code> in
+  <code>akumalib-client.toml</code> gives back Mine Mine no Mi's own screen.</li>
+<li><strong>Wild mobs with Devil Fruits.</strong> Any mob that spawns on its own may have eaten a Devil Fruit of the wooden box and
+  use it (<code>mobFruitChance</code> in <code>akumalib-server.toml</code>, section <code>npcFruitUsers</code>, 0.01 % by default). A peaceful animal
+  that has one no longer flees: it turns on whoever hits it. Bosses, water mobs and Mine Mine no Mi's NPCs are left
+  out. A Zoan given to a mob that is not built like a man takes its full form only.</li>
+<li><strong>Server switches</strong> in <code>akumalib-server.toml</code>, section <code>sizeSystem</code>, all on by default: <code>sizeSlider</code> (the
+  creator's slider), <code>raceBaseSizes</code> (races bigger than a man), <code>sizeSliderUnderOne</code> (when off, a body the slider
+  made smaller keeps a man's strength), <code>sizeInPvp</code> (when off, damage and knockback between two players as two men's)
+  and <code>bodyReachMenus</code> (when off, chests and traders at a man's distance). The same section holds every figure of the size system. A change is applied to the players online
+  within a second.</li>
+</ul>
+<h3>Mine Mine no Mi fixes</h3>
+<ul>
+<li><strong>Large pirate ships and Marine battleships never appeared.</strong> They looked for a list of oceans that Mine Mine no
+  Mi 0.11.6 does not have. They now generate in the deep oceans of new chunks.</li>
+<li><strong>Ice Age froze the server for a moment</strong> each time it was cast. Its start is now light.</li>
+<li><strong>Explosions beside a giant tornado</strong> (Awaken's Glittering Storm) froze the server for up to two seconds. They no
+  longer do.</li>
+<li><strong>The forms that are your own body</strong> (Deka, Gomu Gigant, Hito Daibutsu, Mini, Inga Zarashi, Volt Amaru, and Awaken's
+  Titan and Daibutsu) hid your cape, your hat, your parrot and everything addons draw on a player. They are shown now.</li>
+<li><strong>A second body inside the Mammoth hybrid.</strong> What is drawn over a player in a hybrid (Haki, a race's wings or fins)
+  stayed on a man at rest inside the hybrid. It now follows the hybrid's body.</li>
+<li><strong>Wide forms crawled beside a block.</strong> A wide form such as Mammoth Guard Point dropped to the crawling pose against
+  a wall. It now stands, lifted onto the block.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>A drawing cancelled by a vanishing effect (Missing Missing no Mi's Shima Merge) could crash the game at a size other
+  than a man's. It no longer does.</li>
+</ul>
+<h3>For addon makers</h3>
+<ul>
+<li><strong>The size system</strong>: the <code>akumalib:size</code> attribute and <code>AkumaSize</code> (<code>factor</code>, <code>factorFor</code>, <code>hurt</code>, <code>damage</code>,
+  <code>setBodySize</code>, <code>addFactorScale</code>), <code>SizeScale</code>, <code>AbilityContext</code>, <code>AkumaShapes</code>, <code>BlockShapeSize</code>, <code>AkumaSpawnSize</code>,
+  <code>RaySize</code>, <code>SizeGrabs</code>, <code>SizeTooltips</code>. Areas and lines through the base mod's <code>RangeComponent</code> and AkumaLib's bases
+  follow the size by themselves. Tags <code>akumalib:size_exempt</code> (a technique that must not grow), <code>size_form_made</code>,
+  <code>form_keeps_reach</code>, <code>size_followers</code>. See <a href="../utilities/attributes-and-size/">Attributes and size</a> and the <a href="../utilities/size-defects/">size defects register</a>.</li>
+<li><strong><code>FormSizes.declare(form, size[, mode])</code></strong>: a form that makes its user bigger, as a modifier of the size.</li>
+<li><strong>Races</strong>: <code>AkumaRaces.countAs</code> (a race that counts as a base race for its techniques and prices),
+  <code>setCategoryIcon</code>, <code>setSize</code> (a race's base size and slider). <code>AkumaCreator.describe</code> fills the creator book.</li>
+<li><strong>Looks</strong>: <code>ArmSkins</code> (a skin over the first-person arm), <code>RecolouredSkins.tinted</code> (a colour laid on a player's skin)
+  and <code>RecolouredSkins.hair</code>, race wings an ability can move.</li>
+<li><strong><code>TornGroundEntity</code></strong>: ground torn out, carried and thrown, bursting where it lands.</li>
+<li><strong>Mobs with fruits</strong>: the entity tag <code>akumalib:humanoid_fruit_users</code>, <code>NpcStyles.isHumanoid</code>,
+  <code>NpcStyles.registerBeastFruits</code> (the full form of a Zoan for a mob that is no humanoid).</li>
+<li><strong>Changed</strong>: <code>NpcStyles.giveFruit</code> now returns the abilities given (<code>List&lt;AbilityCore&lt;?&gt;&gt;</code>), or null when the fruit
+  is refused, where it returned the goals. The compiled call is the same: an addon built against 5.x keeps running; one
+  that stored the result as a list of goals needs a change to compile. <code>AkumaAim.ahead</code> takes a man's reach and grows it
+  by the user's size itself. No other signature was removed or changed.</li>
+</ul>
+<p>An addon that uses any of these declares <code>versionRange = "[6.0.0,)"</code>. Leave the top of the range open.</p>
+</div>
+
 ## 5.2.0 { #v5-2-0 }
 
 <small>Released 2026-10-23 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9300971)</small>
