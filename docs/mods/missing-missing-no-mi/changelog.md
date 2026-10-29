@@ -4,7 +4,7 @@ Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as publi
 
 ## 6.0.0 { #v6-0-0 }
 
-<small>Released TO-FILL · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/TO-FILL)</small>
+<small>Released 2026-10-29 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9362909)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>Every fruit follows your size, and seven new fruits.</strong> With AkumaLib 6.0.0 a player can be bigger or smaller than a man, and every ability of this addon now follows the size of its user: reach, areas, damage, walls, summons, holds and the bodies they make. A player of a man's size keeps the numbers he had. The Inu Inu no Mi, Model: Jackal, the Uma Uma no Mi, the Inu Inu no Mi, Model: Dalmatian, the Hebi Hebi no Mi, Model: King Cobra and Model: Anaconda, the Beri Beri no Mi and the Toge Toge no Mi join the addon. The Seiryu's dragon is half as big again and fire no longer hurts it.</p>
