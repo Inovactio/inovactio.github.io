@@ -11,6 +11,37 @@
 | **Abilities** | 5: 5 active, 0 passive |
 | **Transformations** | [Grape](#beri-grape) |
 
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Grape](../animations/beri-grape-separation.webp){ loading=lazy }
+      <figcaption>Grape</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Grape: moving](../animations/beri-grape-deplacement.webp){ loading=lazy }
+      <figcaption>Grape: moving</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Swarm](../animations/beri-essaim.webp){ loading=lazy }
+      <figcaption>Swarm</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Cannonball](../animations/beri-boulet.webp){ loading=lazy }
+      <figcaption>Cannonball</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Bounce](../animations/beri-rebonds.webp){ loading=lazy }
+      <figcaption>Bounce</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Berry Rain](../animations/beri-pluie.webp){ loading=lazy }
+      <figcaption>Berry Rain</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"

@@ -11,6 +11,41 @@
 | **Transformations** | [Anaconda Heavy Point](#anaconda-heavy-point), [Anaconda Walk Point](#anaconda-walk-point) |
 | **Effects applied** | ![](../effect-icons/anaconda-digesting.png){ .effect-mini }[Anaconda Digesting](../effects.md#effect-anaconda-digesting), ![](../effect-icons/anaconda-dodge.png){ .effect-mini }[Anaconda Dodge](../effects.md#effect-anaconda-dodge), ![](../effect-icons/coiled.png){ .effect-mini }[Coiled](../effects.md#effect-coiled) |
 
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: crawl](../animations/anaconda-heavy-marches.webp){ loading=lazy }
+      <figcaption>Hybrid: crawl</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Anaconda: crawl](../animations/anaconda-walk-reptation.webp){ loading=lazy }
+      <figcaption>Anaconda: crawl</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Heavy Slam](../animations/anaconda-walk-slam.webp){ loading=lazy }
+      <figcaption>Heavy Slam</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Snake Dance](../animations/anaconda-walk-dance.webp){ loading=lazy }
+      <figcaption>Snake Dance</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Shimetsuke](../animations/anaconda-walk-choke.webp){ loading=lazy }
+      <figcaption>Shimetsuke</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Kamiyose](../animations/anaconda-walk-swallow.webp){ loading=lazy }
+      <figcaption>Kamiyose</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Daija Shime](../animations/anaconda-walk-vise.webp){ loading=lazy }
+      <figcaption>Daija Shime</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -20,11 +55,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/anaconda-heavy-point.png){ .ability-icon } *Active · Transformation*
 
+![Anaconda Heavy Point](../animations/anaconda-heavy-point.webp){ .form-picture }
+
 Transforms the user into a half-snake, their upper body on a long and heavy anaconda tail that gives their blows reach.
 
 ## Anaconda Walk Point { #anaconda-walk-point }
 
 ![](../abilities/anaconda-walk-point.png){ .ability-icon } *Active · Transformation*
+
+![Anaconda Walk Point](../animations/anaconda-walk-point.webp){ .form-picture }
 
 Transforms the user into a huge anaconda, fourteen blocks long and very heavy.
 

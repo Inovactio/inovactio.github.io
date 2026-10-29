@@ -10,6 +10,37 @@
 | **Abilities** | 5: 4 active, 1 passive |
 | **Transformations** | [Uma Heavy Point](#uma-heavy-point), [Uma Walk Point](#uma-walk-point) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/uma-heavy-point forms/uma-walk-point"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: walk](../animations/uma-horse-heavy-anim-marche.webp){ loading=lazy }
+      <figcaption>Hybrid: walk</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: Uma Kamitsuki](../animations/uma-horse-heavy-anim-morsure.webp){ loading=lazy }
+      <figcaption>Hybrid: Uma Kamitsuki</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Kakeashi](../animations/uma-horse-anim-galop.webp){ loading=lazy }
+      <figcaption>Kakeashi</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Kakeashi: trampling](../animations/uma-horse-anim-pietinement.webp){ loading=lazy }
+      <figcaption>Kakeashi: trampling</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Uma Kamitsuki](../animations/uma-horse-anim-morsure.webp){ loading=lazy }
+      <figcaption>Uma Kamitsuki</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +50,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/uma-heavy-point.png){ .ability-icon } *Active · Transformation*
 
+![Uma Heavy Point](../forms/uma-heavy-point.png){ .form-picture }
+
 Transforms the user into a horse hybrid, a strong horse man with hooves and a mane.
 
 ## Uma Walk Point { #uma-walk-point }
 
 ![](../abilities/uma-walk-point.png){ .ability-icon } *Active · Transformation*
+
+![Uma Walk Point](../forms/uma-walk-point.png){ .form-picture }
 
 Transforms the user into a big horse that runs fast and can carry another player on its back
 

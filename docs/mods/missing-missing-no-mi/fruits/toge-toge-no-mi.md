@@ -11,6 +11,45 @@
 | **Abilities** | 8: 8 active, 0 passive |
 | **Transformations** | [Stinger Hedgehog](#toge-stinger-hedgehog) |
 
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Stinger Finger](../animations/toge-anim-stinger-finger.webp){ loading=lazy }
+      <figcaption>Stinger Finger</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Stinger Hedgehog](../animations/toge-anim-stinger-hedgehog.webp){ loading=lazy }
+      <figcaption>Stinger Hedgehog</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Sewing Stinger](../animations/toge-anim-sewing-stinger.webp){ loading=lazy }
+      <figcaption>Sewing Stinger</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Stinger Step](../animations/toge-anim-stinger-step.webp){ loading=lazy }
+      <figcaption>Stinger Step</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Sea Urchin Stinger](../animations/toge-anim-sea-urchin-stinger.webp){ loading=lazy }
+      <figcaption>Sea Urchin Stinger</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Toge Toge Doping](../animations/toge-anim-toge-doping.webp){ loading=lazy }
+      <figcaption>Toge Toge Doping</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Stinger Flail](../animations/toge-anim-stinger-flail.webp){ loading=lazy }
+      <figcaption>Stinger Flail</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Toge Grip](../animations/toge-anim-toge-grip.webp){ loading=lazy }
+      <figcaption>Toge Grip</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"

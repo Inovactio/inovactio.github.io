@@ -11,6 +11,41 @@
 | **Transformations** | [Jackal Heavy Point](#jackal-heavy-point), [Jackal Walk Point](#jackal-walk-point) |
 | **Effects applied** | ![](../effect-icons/hamstrung.png){ .effect-mini }[Hamstrung](../effects.md#effect-hamstrung) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/jackal-heavy-point forms/jackal-walk-point"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Hybrid: claws](../animations/inu-inu-jackal-heavy-griffes.webp){ loading=lazy }
+      <figcaption>Hybrid: claws</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Jackal: trot](../animations/inu-inu-jackal-walk-trot.webp){ loading=lazy }
+      <figcaption>Jackal: trot</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Choyaku](../animations/inu-inu-jackal-walk-bond.webp){ loading=lazy }
+      <figcaption>Choyaku</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Narikiba](../animations/inu-inu-jackal-walk-narikiba.webp){ loading=lazy }
+      <figcaption>Narikiba</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hikagami Gari](../animations/inu-inu-jackal-walk-jarret.webp){ loading=lazy }
+      <figcaption>Hikagami Gari</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Anubisu no Shinpan](../animations/inu-inu-jackal-walk-anubis.webp){ loading=lazy }
+      <figcaption>Anubisu no Shinpan</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -20,11 +55,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/jackal-heavy-point.png){ .ability-icon } *Active · Transformation*
 
+![Jackal Heavy Point](../forms/jackal-heavy-point.png){ .form-picture }
+
 Transforms the user into a jackal hybrid, a tall black dog man with long legs and big ears.
 
 ## Jackal Walk Point { #jackal-walk-point }
 
 ![](../abilities/jackal-walk-point.png){ .ability-icon } *Active · Transformation*
+
+![Jackal Walk Point](../forms/jackal-walk-point.png){ .form-picture }
 
 Transforms the user into a big black jackal that runs very fast.
 

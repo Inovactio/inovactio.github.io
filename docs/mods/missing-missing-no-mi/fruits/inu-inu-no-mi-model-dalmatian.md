@@ -10,6 +10,41 @@
 | **Abilities** | 12: 12 active, 0 passive |
 | **Transformations** | [Dalmatian Heavy Point](#dalmatian-heavy-point), [Dalmatian Walk Point](#dalmatian-walk-point) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/dalmatian-heavy-point forms/dalmatian-walk-point"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Tekkai: Kaeshi Kiba](../animations/inu-inu-dalmatian-heavy-kaeshi-kiba.webp){ loading=lazy }
+      <figcaption>Tekkai: Kaeshi Kiba</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Soru: Inazuma](../animations/inu-inu-dalmatian-heavy-inazuma.webp){ loading=lazy }
+      <figcaption>Soru: Inazuma</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![O Rankyaku](../animations/inu-inu-dalmatian-heavy-rankyaku.webp){ loading=lazy }
+      <figcaption>O Rankyaku</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Dog: run](../animations/inu-inu-dalmatian-walk-course.webp){ loading=lazy }
+      <figcaption>Dog: run</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Kamikudaki](../animations/inu-inu-dalmatian-walk-morsure.webp){ loading=lazy }
+      <figcaption>Kamikudaki</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Kyoken](../animations/inu-inu-dalmatian-walk-frenesie.webp){ loading=lazy }
+      <figcaption>Kyoken</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +54,15 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/dalmatian-heavy-point.png){ .ability-icon } *Active · Transformation*
 
+![Dalmatian Heavy Point](../forms/dalmatian-heavy-point.png){ .form-picture }
+
 Transforms the user into a dalmatian hybrid, a tall spotted dog man that runs fast and guards its friends.
 
 ## Dalmatian Walk Point { #dalmatian-walk-point }
 
 ![](../abilities/dalmatian-walk-point.png){ .ability-icon } *Active · Transformation*
+
+![Dalmatian Walk Point](../forms/dalmatian-walk-point.png){ .form-picture }
 
 Transforms the user into a big dalmatian, a fast running dog with black spots.
 
