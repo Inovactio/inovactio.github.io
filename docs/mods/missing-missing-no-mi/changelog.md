@@ -2,6 +2,61 @@
 
 Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/all).
 
+## 6.0.0 { #v6-0-0 }
+
+<small>Released TO-FILL · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/TO-FILL)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Every fruit follows your size, and seven new fruits.</strong> With AkumaLib 6.0.0 a player can be bigger or smaller than a man, and every ability of this addon now follows the size of its user: reach, areas, damage, walls, summons, holds and the bodies they make. A player of a man's size keeps the numbers he had. The Inu Inu no Mi, Model: Jackal, the Uma Uma no Mi, the Inu Inu no Mi, Model: Dalmatian, the Hebi Hebi no Mi, Model: King Cobra and Model: Anaconda, the Beri Beri no Mi and the Toge Toge no Mi join the addon. The Seiryu's dragon is half as big again and fire no longer hurts it.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 6.0.0</strong> or newer. Client and server. Curios is optional.</p>
+<p>⚠️ <strong>Servers: set <code>allow-flight=true</code></strong> in <code>server.properties</code>, as before. Several fruits fly or hover (now the Beri Beri Grape too), and without it the server kicks their users.</p>
+<hr />
+<h3>Size</h3>
+<ul>
+<li><strong>Your size counts.</strong> A bigger body reaches farther, strikes harder and covers more ground with every technique of the addon; a smaller one less. At a man's size nothing changes. At a giant's size (4 times a man) the areas and reaches are about twice a man's, and the melee techniques (bites, claws, punches, grabs, sweeps) reach by the giant's arm, about 2.5 times.</li>
+<li><strong>Everything a technique makes is your size</strong>: walls (Muralla, Stand! and Jurin Heki grow with the body, 48 blocks wide at most), rings, pits, swamps, clouds, nets, books, mirrors, doors, cubes, balls and drawn creatures.</li>
+<li><strong>Summons and followers stand round a big user, not inside him</strong>, and keep their distance by his size: Biscuit soldiers, Gasha soldier, Gunyo golems, Hobi toys and Nutcracker, Uta note soldiers, Pink Hornets, the Hoya genie and the Soru homies. A big master's genie comes out with its whole health.</li>
+<li><strong>Holds take more than one body for a big user</strong>: Makitsuki, Shimetsuke, Tail Grab and Jaw Grab hold 2 bodies for a giant, 3 for a bigger one. Riki's Lift also takes the body beside a giant's sight.</li>
+<li><strong>A giant hits what is before his feet.</strong> Techniques that aim at a block or a point (Pillar Sweep and more than thirty others), Suzumebachi's stings and the Pegasus's Feather Volley no longer stop in the air over it.</li>
+<li><strong>Steps follow the body</strong>: Koro's Wheels, Atsu's Net Tire, Moa Soku, Castle Tank, the Toge stilts and urchin, Kakeashi and the snakes climb as high as the body is big.</li>
+<li><strong>Forms that make a body of their own now give it a size</strong>, a man's too: the golems (Golden Tesoro, Stone Giant, Kinniku Mori Mori), Gasha's mecha and colossus, Big Father, Biscuit Armour, Gocha's merged giant, Fashion Punc and the Stinger Hedgehog. Inside them reach, damage and health grow with the form, cooldowns are a bit longer and you walk a bit slower. For example Gon Bomba in Golden Tesoro goes from 22 to about 35, and a man in the colossus has about 50 health. The colossus is smaller (11 blocks high for a man, 12.6 for a giant instead of 57.6), and the old "power" lines are gone from the tooltips.</li>
+<li><strong>Techniques that grow you count as size too</strong>: Heaven's Do Art (x2), Overfed (x1.6), Red Collar (x1.25) and Juicy Giant (x1.5 to x3). The bigger body brings its reach, damage and health. Own Youth and the Hobi child shrink you, but a man keeps a man's numbers in them.</li>
+<li><strong>Whole Zoans, Onyudo's giant and the Seiryu's dragon</strong> keep their technique numbers for a man. Their punch reaches by the body's size, their old flat reach bonus is gone.</li>
+<li><strong>Mountain Throw</strong> tears out a mass as big as its thrower: 5 x 5 x 3 for a man, 7 x 7 x 4 at twice his size, 9 x 9 x 6 for a giant.</li>
+<li><strong>The Haki techniques do not grow</strong> (Heavy Stick, Heavy Slam, Snake Dance), nor Anubisu no Shinpan, which takes a share of its target's health.</li>
+<li><strong>NPCs</strong>: a big mob's techniques reach as far as its body is big.</li>
+</ul>
+<h3>New fruits</h3>
+<ul>
+<li><strong>Inu Inu no Mi, Model: Jackal</strong> (iron box, Zoan). <strong>Jackal Heavy Point</strong>, the hybrid, and <strong>Jackal Walk Point</strong>, a dark jackal, +65 % speed. <strong>Narikiba</strong>: the whole jackal takes your sword in its mouth and dashes about 14 blocks, cutting everything on its line for the sword's damage + 10; greyed without a sword. <strong>Choyaku</strong> bounds about 10 blocks up and 14 along, no fall damage. <strong>Hikagami Gari</strong> springs up to 7 blocks and bites the back of the legs: 4 damage and <strong>Hamstrung</strong> for 5 s (60 % slower, no jump). <strong>Anubisu no Shinpan</strong> weighs its target, then bites for 3, or 30 on a target at 20 % of its health or less. Passives: <strong>Sabaku Bashiri</strong> (+20 % speed in deserts and badlands, never slowed by soul sand) and <strong>Shiniku Gui</strong> (rotten flesh does not give Hunger, a kill gives back 3 health).</li>
+<li><strong>Uma Uma no Mi</strong> (iron box, Zoan). The ground horse: <strong>Uma Heavy Point</strong> and <strong>Uma Walk Point</strong>, a bay horse one ally can ride with a click. <strong>Uma Kamitsuki</strong> bites for 20, or 30 on whoever struck your rider or a friend in the last 5 s. <strong>Kakeashi</strong> gallops at +60 % speed and climbs 1.5-block steps on a stamina gauge; its mode <strong>Fumitsubushi</strong> tramples every body under 2 blocks high for 10 and knocks it down.</li>
+<li><strong>Inu Inu no Mi, Model: Dalmatian</strong> (wooden box, Zoan). A hybrid and a whole dalmatian. <strong>Kamikudaki</strong> (bite), <strong>Tobikakari</strong> (springs up to 8 blocks, 8 damage, pins 1.5 s), <strong>Hoegoe</strong> (a bark that pushes back 2 blocks and cuts what they charge or hold), <strong>Banken</strong> (takes half the blows on the ally you look at, enemies near deal 25 % less), <strong>Miburui</strong> (shakes off Slowness, wet and fire) and <strong>Kyoken</strong> (10 blows faster and faster, 18 in all). In the hybrid, four Six Powers bites unlock with the Rokushiki you know: <strong>Kiba Shigan</strong>, <strong>O Rankyaku</strong>, <strong>Tekkai: Kaeshi Kiba</strong> and <strong>Soru: Inazuma</strong>.</li>
+<li><strong>Hebi Hebi no Mi, Model: King Cobra</strong> (iron box, Zoan). The half-snake stands on a king cobra tail, the whole cobra crawls low through holes and rears up for its techniques. <strong>Modoku</strong> spits venom (10, Poison II, <strong>Corroded</strong>: armour -20 %), a miss leaves a poison cloud. <strong>Heavy Stick</strong> thrusts the tail for 22 (pays the Haki gauge). <strong>Makitsuki</strong> holds an enemy 4 s. <strong>Ikaku</strong> frightens small creatures away and weakens the others. <strong>Hebigami-Tsuki: Salamander</strong> raises two flame cobras that bite 3 times each.</li>
+<li><strong>Hebi Hebi no Mi, Model: Anaconda</strong> (iron box, Zoan). The half-snake and a whole anaconda about 12 blocks long. <strong>Heavy Slam</strong> (pays the Haki gauge, lands on a Logia), <strong>Snake Dance</strong> (slips blows and shots for 4 s, needs Observation Haki), <strong>Shimetsuke</strong> (an 8 s hold, only a blow of 8 or more frees the prey), <strong>Kamiyose</strong> (bite and pull) and its mode <strong>Marunomi</strong> (the whole anaconda swallows small creatures, heals, and gives back their loot and XP), and <strong>Daija Shime</strong>, a narrowing ring that crushes for 30. None works in water.</li>
+<li><strong>Beri Beri no Mi</strong> (wooden box, Paramecia). Your body is made of balls, and every attack throws some of them: an attack is greyed until its balls are back, no arms means no blows and no item, no legs means you float at half speed. <strong>Grape</strong> splits you into a bunch for up to 20 s: it dodges every blow, rises up to 5 blocks while you hold jump, and its mode scatters you (slower, shots go through, no blows of yours). <strong>Swarm</strong> (6 balls, 18 in all), <strong>Cannonball</strong> (10 a throw, one charge per arm), <strong>Bounce</strong> (5 balls that bounce 4 times) and <strong>Berry Rain</strong> (you rise as balls, untouchable, and 12 cannonballs fall within 6 blocks, 30 at the centre, no block broken).</li>
+<li><strong>Toge Toge no Mi</strong> (wooden box, Paramecia). <strong>Stinger Finger</strong> slashes the 3 nearest enemies twice and digs into a wall; its mode <strong>Double Stinger</strong> stabs 5 times. <strong>Stinger Hedgehog</strong> rolls you into an urchin (+60 % speed, 6 on contact, 12 falling on a body). <strong>Sewing Stinger</strong>: spiked soles, or stilts in its mode. <strong>Stinger Step</strong> makes spikes burst out of the ground round your foot, in the ground's colour. <strong>Sea Urchin Stinger</strong> charges 12 blocks head first through stone. <strong>Toge Toge Doping</strong> (+5 punch, +20 % speed for 30 s) and <strong>Stinger Flail</strong>, a 180° sweep under Doping. <strong>Toge Grip</strong> hangs from ceilings and climbs walls. Wool, carpets and leather armour catch the spikes and stick you 2 s.</li>
+</ul>
+<h3>Changes</h3>
+<ul>
+<li><strong>Uo Uo no Mi, Model: Seiryu.</strong></li>
+<li>The whole dragon is <strong>half as big again</strong>: 45 blocks long, and its reach, Bolo Breath (72 blocks), Tatsumaki, Kaifu, Dragon Storm, Kaen Daiko and the flame clouds grow with it. Damage is unchanged.</li>
+<li>New passive <strong>Seiryu Scales</strong>: no fire hurts the dragon or the hybrid, and you are put out at once.</li>
+<li>The hybrid's hands get three black claws and a clawed thumb, and Armament Haki now shows on its arm.</li>
+<li><strong>The long bodies follow the head</strong>: the Seiryu, the King Cobra and the Anaconda turn their neck with the head, keep up at a sprint and sway in an S. The dragon is no longer seen as a long rigid bar, after a teleport either.</li>
+<li><strong>Zan Giri Mochi</strong> starts with a spiked mochi donut charge (8 blocks, 6 on the first enemy met) before the giant arm sweep.</li>
+<li><strong>Batto Batto no Mi, Model: Vampire</strong>: the hybrid is smaller, about 2.9 blocks tall.</li>
+<li><strong>Bisu Bisu no Mi</strong>: the biscuit soldiers are a man's height and keep 4 blocks from you, so they no longer crowd you.</li>
+<li><strong>NPCs</strong>: a mob that is not humanoid given one of our Zoans takes only the whole animal form.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Maki Maki no Mi: Katon</strong> burns what you aim at.</li>
+<li><strong>Uo Uo no Mi, Model: Seiryu: Tail Grab</strong> reaches what its tooltip says, 6 blocks in the hybrid and 18 as the dragon. It caught bodies farther than that.</li>
+<li><strong>Atsu Atsu no Mi</strong>: in the 10,000 degrees form, your body no longer shows inside Net Tire's wheel.</li>
+<li><strong>Fude Fude no Mi</strong>: drawn creatures can be called on a plain's grass and snow.</li>
+</ul>
+</div>
+
 ## 5.0.0 { #v5-0-0 }
 
 <small>Released 2026-10-23 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9301383)</small>

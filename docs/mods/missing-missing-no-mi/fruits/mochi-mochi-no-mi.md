@@ -240,7 +240,7 @@ Use the ability again to put the Gatling gun away
 
 ![Zan Giri Mochi](../forms/mochi-zan-giri.png){ .form-picture }
 
-The user turns into a ring of mochi and rolls forward. The first enemy it meets is slammed by a huge spiked arm, stays stuck to it, is swung up in the air and smashed into the ground. Needs Armament Haki hardening unlocked
+The user rolls forward as a spiked ring of mochi, the first enemy it meets gets hurt and stops it. Then their arm swells into spiked mochi, they twist their body like a spring and let it go. A giant arm whips round them, hits every enemy in reach and throws them away. Needs Armament Haki hardening unlocked
 
 | Stat | Value |
 |---|---|
@@ -249,7 +249,7 @@ The user turns into a ring of mochi and rolls forward. The first enemy it meets 
 | Cooldown | 15 s |
 | Haki Cost | 100 |
 | Charge | 1 s |
-| Damage | 24 |
+| Damage | 6–24 |
 | Range | 8 blocks (area) |
 
 ## Mochi Wall { #mochi-wall }

@@ -1,11 +1,13 @@
 # Status effects
 
-The **65 status effects** Missing Missing no Mi adds, and what applies them.
+The **71 status effects** Missing Missing no Mi adds, and what applies them.
 
 | Effect | Kind | Applied by |
 |---|---|---|
 | ![](effect-icons/absorbed.png){ .effect-icon } **Absorbed**{ #effect-absorbed } | Neutral | — |
 | ![](effect-icons/aged.png){ .effect-icon } **Aged**{ #effect-aged } | Harmful | [Aging Touch](fruits/juku-juku-no-mi.md#aging-touch), [Draining Bite](fruits/batto-batto-no-mi-model-vampire.md#draining-bite) |
+| ![](effect-icons/anaconda-digesting.png){ .effect-icon } **Anaconda Digesting**{ #effect-anaconda-digesting } | Neutral | [Kamiyose](fruits/hebi-hebi-no-mi-model-anaconda.md#kamiyose) |
+| ![](effect-icons/anaconda-dodge.png){ .effect-icon } **Anaconda Dodge**{ #effect-anaconda-dodge } | Neutral | [Snake Dance](fruits/hebi-hebi-no-mi-model-anaconda.md#snake-dance) |
 | ![](effect-icons/antibodies.png){ .effect-icon } **Antibodies**{ #effect-antibodies } | Beneficial | — |
 | ![](effect-icons/art.png){ .effect-icon } **Art**{ #effect-art } | Harmful | [Broken-Fu Art](fruits/ato-ato-no-mi.md#broken-fu-art), [Dying Art](fruits/ato-ato-no-mi.md#dying-art), [Panorama Art](fruits/ato-ato-no-mi.md#panorama-art) |
 | ![](effect-icons/buried.png){ .effect-icon } **Buried**{ #effect-buried } | Harmful | [Shishi Odoshi: Chimaki](fruits/fuwa-fuwa-no-mi.md#chimaki), [Devouring Plant](fruits/mosa-mosa-no-mi.md#devouring-plant), [Paper Mummy](fruits/pasa-pasa-no-mi.md#paper-mummy) |
@@ -13,7 +15,9 @@ The **65 status effects** Missing Missing no Mi adds, and what applies them.
 | ![](effect-icons/butter-cuffs.png){ .effect-icon } **Butter Cuffs**{ #effect-butter-cuffs } | Harmful | — |
 | ![](effect-icons/butter-wrap.png){ .effect-icon } **Butter Wrap**{ #effect-butter-wrap } | Harmful | — |
 | ![](effect-icons/cased-in-metal.png){ .effect-icon } **Cased in Metal**{ #effect-cased-in-metal } | Harmful | [Metal Casing](fruits/gutsu-gutsu-no-mi.md#metal-casing) |
+| ![](effect-icons/coiled.png){ .effect-icon } **Coiled**{ #effect-coiled } | Harmful | [Daija Shime](fruits/hebi-hebi-no-mi-model-anaconda.md#daija-shime), [Heavy Slam](fruits/hebi-hebi-no-mi-model-anaconda.md#heavy-slam), [Makitsuki](fruits/hebi-hebi-no-mi-model-king-cobra.md#makitsuki), [Shimetsuke](fruits/hebi-hebi-no-mi-model-anaconda.md#shimetsuke) |
 | ![](effect-icons/collared.png){ .effect-icon } **Collared**{ #effect-collared } | Harmful | [Collar](fruits/peto-peto-no-mi.md#collar) |
+| ![](effect-icons/corroded.png){ .effect-icon } **Corroded**{ #effect-corroded } | Harmful | [Modoku](fruits/hebi-hebi-no-mi-model-king-cobra.md#modoku) |
 | ![](effect-icons/coughing-fit.png){ .effect-icon } **Coughing Fit**{ #effect-coughing-fit } | Harmful | — |
 | ![](effect-icons/cream-burn.png){ .effect-icon } **Cream Burn**{ #effect-cream-burn } | Harmful | [Cream Ball](fruits/kuri-kuri-no-mi.md#cream-ball), [Cream Grab](fruits/kuri-kuri-no-mi.md#cream-grab), [Cream Monster](fruits/kuri-kuri-no-mi.md#cream-monster), [Cream Shell](fruits/kuri-kuri-no-mi.md#cream-shell), [Cream Wave](fruits/kuri-kuri-no-mi.md#cream-wave) |
 | ![](effect-icons/cubed.png){ .effect-icon } **Cubed**{ #effect-cubed } | Harmful | [Living Cube](fruits/kyubu-kyubu-no-mi.md#living-cube) |
@@ -26,11 +30,13 @@ The **65 status effects** Missing Missing no Mi adds, and what applies them.
 | ![](effect-icons/flashback.png){ .effect-icon } **Flashback**{ #effect-flashback } | Harmful | [Memories Fil Flashback](fruits/memo-memo-no-mi.md#memo-flashback) |
 | ![](effect-icons/floured.png){ .effect-icon } **Floured**{ #effect-floured } | Harmful | [Logia Invulnerability Ame](fruits/ame-ame-no-mi.md#logia-invulnerability-ame) |
 | ![](effect-icons/forgotten-quarrel.png){ .effect-icon } **Forgotten Quarrel**{ #effect-forgotten-quarrel } | Neutral | [Cut](fruits/memo-memo-no-mi.md#memo-cut) |
+| ![](effect-icons/frightened.png){ .effect-icon } **Frightened**{ #effect-frightened } | Harmful | [Ikaku](fruits/hebi-hebi-no-mi-model-king-cobra.md#ikaku) |
 | ![](effect-icons/frozen-stiff.png){ .effect-icon } **Frozen Stiff**{ #effect-frozen-stiff } | Harmful | — |
 | ![](effect-icons/genie-master.png){ .effect-icon } **Genie Master**{ #effect-genie-master } | Neutral | [Genie](fruits/hoya-hoya-no-mi.md#hoya-genie) |
 | ![](effect-icons/giro-sight.png){ .effect-icon } **Giro Sight**{ #effect-giro-sight } | Beneficial | [Peeping Mind](fruits/giro-giro-no-mi.md#peeping-mind) |
 | ![](effect-icons/gold-dust.png){ .effect-icon } **Gold Dust**{ #effect-gold-dust } | Neutral | [Gold Dust](fruits/goru-goru-no-mi.md#gold-dust) |
 | ![](effect-icons/golden-statue.png){ .effect-icon } **Golden Statue**{ #effect-golden-statue } | Harmful | [Golden Statue](fruits/goru-goru-no-mi.md#golden-statue) |
+| ![](effect-icons/hamstrung.png){ .effect-icon } **Hamstrung**{ #effect-hamstrung } | Harmful | [Hikagami Gari](fruits/inu-inu-no-mi-model-jackal.md#hikagami-gari) |
 | ![](effect-icons/hangover.png){ .effect-icon } **Hangover**{ #effect-hangover } | Harmful | [Sake Shibuki](fruits/gabu-gabu-no-mi.md#gabu-sake-shibuki), [Sakedeppo](fruits/gabu-gabu-no-mi.md#gabu-sakedeppo), [Shuki](fruits/gabu-gabu-no-mi.md#gabu-shuki) |
 | ![](effect-icons/in-his-darkness.png){ .effect-icon } **In His Darkness**{ #effect-in-his-darkness } | Beneficial | [Darkness](fruits/batto-batto-no-mi-model-vampire.md#vampire-darkness) |
 | **In the Swamp**{ #effect-in-the-swamp } | Neutral | [Hikizuri Komi](fruits/numa-numa-no-mi.md#hikizuri-komi), [Numa Sensui](fruits/numa-numa-no-mi.md#numa-sensui), [Sokonashi Numa](fruits/numa-numa-no-mi.md#sokonashi-numa) |

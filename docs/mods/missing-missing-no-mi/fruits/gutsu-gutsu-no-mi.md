@@ -140,4 +140,4 @@ The furnace burns its metal for as long as the form lasts, and the form ends whe
 |---|---|
 | Haki | Special |
 | Damage | 2 |
-| Range | 5.6 blocks (area) |
+| Range | 3.5 blocks (area) |
