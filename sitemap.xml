@@ -57,6 +57,10 @@
          <lastmod>2026-10-29</lastmod>
     </url>
     <url>
+         <loc>https://inovactio.github.io/akumalib/ability-base-classes/spreading-blocks/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
          <loc>https://inovactio.github.io/akumalib/ability-base-classes/terrain/</loc>
          <lastmod>2026-10-29</lastmod>
     </url>
@@ -165,6 +169,10 @@
          <lastmod>2026-10-29</lastmod>
     </url>
     <url>
+         <loc>https://inovactio.github.io/akumalib/entities/writing-a-creature/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
          <loc>https://inovactio.github.io/akumalib/loot-injection/</loc>
          <lastmod>2026-10-29</lastmod>
     </url>
@@ -185,7 +193,23 @@
          <lastmod>2026-10-29</lastmod>
     </url>
     <url>
+         <loc>https://inovactio.github.io/akumalib/professions/command-and-saves/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
          <loc>https://inovactio.github.io/akumalib/professions/gathering/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/professions/levels-and-xp/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/professions/screen-perks-and-boosts/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/professions/solo-and-crew/</loc>
          <lastmod>2026-10-29</lastmod>
     </url>
     <url>
@@ -197,7 +221,63 @@
          <lastmod>2026-10-29</lastmod>
     </url>
     <url>
+         <loc>https://inovactio.github.io/akumalib/size/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/size/abilities/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/size/ability-context/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/size/big-bodies/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/size/body/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/size/forms/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/size/melee/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/size/race-size/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/size/reading-size/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/size/settings-and-tests/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/size/written-sizes/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
          <loc>https://inovactio.github.io/akumalib/utilities/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/ability-helpers/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/ammo-stores-and-markers/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/attribute-bonuses/</loc>
          <lastmod>2026-10-29</lastmod>
     </url>
     <url>
@@ -210,6 +290,10 @@
     </url>
     <url>
          <loc>https://inovactio.github.io/akumalib/utilities/blocks/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/bodies-and-places/</loc>
          <lastmod>2026-10-29</lastmod>
     </url>
     <url>
@@ -261,6 +345,10 @@
          <lastmod>2026-10-29</lastmod>
     </url>
     <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/npc-fruits/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
          <loc>https://inovactio.github.io/akumalib/utilities/other-helpers/</loc>
          <lastmod>2026-10-29</lastmod>
     </url>
@@ -278,6 +366,10 @@
     </url>
     <url>
          <loc>https://inovactio.github.io/akumalib/utilities/races/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://inovactio.github.io/akumalib/utilities/rays-and-heavy-work/</loc>
          <lastmod>2026-10-29</lastmod>
     </url>
     <url>
