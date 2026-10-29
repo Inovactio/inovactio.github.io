@@ -21,7 +21,8 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 
 | Page | Helpers |
 |---|---|
-| [Attributes and size](attributes-and-size.md) | `AttributeBonusHelper`, `SizeScale` |
+| [Attribute bonuses](attribute-bonuses.md) | `AttributeBonusHelper`: a bonus on any attribute, held safely |
+| [The size system](../size/index.md) | `SizeScale`, `AkumaSize`, `FormSizes`: a section of its own |
 | [Pulls and pushes](motion.md) | `AkumaMotion`, `PullProfile`: moving a body toward a point with a tunable speed curve, or along a direction |
 
 ## Blocks and visuals
@@ -39,6 +40,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 | [Currency](currency.md) | `AkumaCurrency`: read, give and take Belly and Extol, synced, never below zero |
 | [Doriki and Cola](doriki.md) | `AkumaStats`: read and grant Doriki, refill a cyborg's Cola; `DorikiGainEffect`: more Doriki from fights |
 | [Devil Fruits](devil-fruits.md) | `AkumaDevilFruits`: a living entity's Devil Fruit as the base mod keeps it |
+| [Devil Fruits on NPCs](npc-fruits.md) | `/akumalib npcfruit`, troops and any mob with a Devil Fruit, fewer Rokushiki, NPCs that break no terrain |
 | [Titles](titles.md) | `AkumaTitles`: titles players earn and wear after their name, from code, professions or data packs |
 
 ## The world
@@ -55,7 +57,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 | Page | Helpers |
 |---|---|
 | [Deferred work](tick-queue.md) | `AkumaTickQueue`: run something at the end of this server tick, or N ticks from now; `ServerScopedMap`: static state emptied when the server stops; `AbilityLifecycle`: abilities stopped on death, zero gravity and soft landings that clean up after themselves |
-| [Other helpers](other-helpers.md) | `FruitInjectionHelper`, `RandomTeleportHelper`, `InoHelper`, `AkumaAmounts`, `UnseenSeat`, `AkumaRoom`, `LoadedRay`, `SpreadWork`, `FruitRegister` |
+| [Other helpers](other-helpers.md) | four short pages: [for abilities](ability-helpers.md), [bodies, seats and places](bodies-and-places.md), [ammunition, stores, amounts and markers](ammo-stores-and-markers.md), [long rays and heavy work](rays-and-heavy-work.md): `FruitInjectionHelper`, `RandomTeleportHelper`, `InoHelper`, `AkumaAmounts`, `UnseenSeat`, `AkumaRoom`, `LoadedRay`, `SpreadWork`, `FruitRegister` and more |
 
 ## Documented elsewhere
 

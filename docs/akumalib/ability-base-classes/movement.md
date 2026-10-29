@@ -213,7 +213,7 @@ public class MyDiveAbility extends BlockPassageAbility {
 
 - `steer(entity)` gives the velocity of the tick, or null to leave the body its own. `walking(entity)` is the walking keys as a direction on the ground.
 - `onPassageTick(level, entity)` runs on the server every tick: an effect to keep up, particles, a reason to end early.
-- `wayOut(level, entity)` says where the body is put at the end. By default the first room straight above it, however far ([`AkumaRoom.firstRoomAbove`](../utilities/other-helpers.md#akumaroom)).
+- `wayOut(level, entity)` says where the body is put at the end. By default the first room straight above it, however far ([`AkumaRoom.firstRoomAbove`](../utilities/bodies-and-places.md#akumaroom)).
 - `onPassageEnd(entity)` runs once the body is out: the cooldown.
 - The base mod's restricted blocks (bedrock, portals) are never entered: a body found in one is set back where it last was and the passage ends. Do not steer into one: `isRestricted(level, pos)` looks ahead.
 

@@ -2,6 +2,8 @@
 
 What an addon needs to shape terrain of its own, or a whole dimension: the registers for its codecs and types, and four tools for the questions worldgen code keeps running into.
 
+The world events and the loot injection are in this section too: [World events](../utilities/world-events.md), [Loot injection](../loot-injection/index.md).
+
 ## The registers
 
 Your `AkumaRegistry` carries a deferred register for each of these, like every other kind of entry. Put every one you fill on the mod event bus, as in [Getting started](../getting-started.md#3-attach-the-deferred-registers-to-the-event-bus).

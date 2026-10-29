@@ -39,7 +39,7 @@ public class SwoopAbility extends DiveStrikeAbility {
 | `isDiving()` | either side: a model draws its dive pose by it |
 
 !!! warning "The dive is driven where the body is simulated"
-    A player's own client moves the player. Steered from the server, the dive was a velocity packet every tick and stuttered under latency. The target and the point are the server's, told to the player's client before the dive starts ([`ServerAim`](../utilities/other-helpers.md)); the client flies him there, and the strike and the end stay the server's.
+    A player's own client moves the player. Steered from the server, the dive was a velocity packet every tick and stuttered under latency. The target and the point are the server's, told to the player's client before the dive starts ([`ServerAim`](#serveraim)); the client flies him there, and the strike and the end stay the server's.
 
 ## `GustAbility`
 

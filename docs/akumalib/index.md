@@ -63,6 +63,18 @@ The base mod gives an addon `Ability` and a set of components. Everything above 
 
     `MorphGates` to lock an ability to a form, `MorphStats` for form attributes, and the [amplification](core-concepts/amplification.md) bus that lets a form upgrade the rest of a kit.
 
+-   :material-resize:{ .lg .middle } **[Size system](size/index.md)**
+
+    ---
+
+    `SIZE`, one attribute for a body's size: its box, eyes, model, walk, health, blows and abilities follow it, with forms, races and the creator's slider.
+
+-   :material-account-group:{ .lg .middle } **[Players and races](utilities/races.md)**
+
+    ---
+
+    Races, the character creator, titles, Doriki and Cola, Belly and Extol, Devil Fruits on players and NPCs.
+
 -   :material-run-fast:{ .lg .middle } **[Animations](animations/index.md)**
 
     ---
