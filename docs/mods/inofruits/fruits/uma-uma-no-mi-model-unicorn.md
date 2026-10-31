@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.65%**, iron **0.183%**, wooden **0.009%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **3.39%**, iron **0.170%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 13: 10 active, 3 passive |
 | **Transformations** | [Uma Uma Walk Point](#uma-uma-walk-point), [Uma Uma Heavy Point](#uma-uma-heavy-point) |
 | **Effects applied** | ![](../effect-icons/purified.png){ .effect-mini }[Purified](../effects.md#effect-purified) |
@@ -40,7 +40,7 @@ Transforms the user into a unicorn hybrid, which focuses on strength and the hor
 
 ![](../abilities/horn-thrust.png){ .ability-icon } *Active*
 
-Drives the horn into the target, through armour, absorption and even a Logia's intangibility. In the Heavy Point it impales and lifts the target.
+Stabs the target with the horn, ignoring armor, absorption and Logia intangibility. In the Heavy Point it also lifts the target.
 
 | Stat | Value |
 |---|---|
@@ -55,7 +55,7 @@ Drives the horn into the target, through armour, absorption and even a Logia's i
 
 ![](../abilities/unicorn-charge.png){ .ability-icon } *Active*
 
-Gallops forward horn first, running through everyone in the way and throwing them aside.
+The user gallops forward with the horn first, hitting everyone in the way and pushing them aside
 
 | Stat | Value |
 |---|---|
@@ -69,7 +69,7 @@ Gallops forward horn first, running through everyone in the way and throwing the
 
 ![](../abilities/prism-lance.png){ .ability-icon } *Active*
 
-Fires a beam of light from the horn that runs through every enemy in line, through armour, absorption and even a Logia's intangibility.
+Fires a beam of light from the horn that goes through every enemy in a line, ignoring armor, absorption and Logia intangibility.
 
 | Stat | Value |
 |---|---|
@@ -85,7 +85,7 @@ Fires a beam of light from the horn that runs through every enemy in line, throu
 
 ![](../abilities/starfall.png){ .ability-icon } *Active*
 
-Calls down five lances of light on the spot the user looks at, each hurting the enemies where it lands.
+Makes 5 lances of light fall on the spot the user is looking at, damaging the enemies where they land.
 
 | Stat | Value |
 |---|---|
@@ -102,7 +102,7 @@ Calls down five lances of light on the spot the user looks at, each hurting the 
 
 Applies ![](../effect-icons/purified.png){ .effect-mini }[Purified](../effects.md#effect-purified)
 
-Washes the user and nearby allies in the horn's light: harmful effects are removed except hard control, some health comes back, and for a few seconds nothing harmful can land on them.
+The light of the horn removes harmful effects except stuns from the user and nearby allies, heals them a bit and makes them immune to harmful effects for a few seconds
 
 | Stat | Value |
 |---|---|
@@ -115,7 +115,7 @@ Washes the user and nearby allies in the horn's light: harmful effects are remov
 
 Applies ![](../effect-icons/purified.png){ .effect-mini }[Purified](../effects.md#effect-purified)
 
-Lays a circle of light where the user stands. Allies inside regenerate and nothing harmful can land on them; enemies inside are burned and weakened.
+Creates a circle of light where the user stands. Allies inside regenerate and are immune to harmful effects, enemies inside are burned and weakened.
 
 | Stat | Value |
 |---|---|
@@ -131,7 +131,7 @@ Lays a circle of light where the user stands. Allies inside regenerate and nothi
 
 ![](../abilities/guiding-light.png){ .ability-icon } *Active*
 
-A thread of light from the horn draws the target to the user: an ally pulled out of danger, or an enemy brought within reach.
+A thread of light from the horn pulls the target to the user, it works on allies and on enemies.
 
 | Stat | Value |
 |---|---|
@@ -142,7 +142,7 @@ A thread of light from the horn draws the target to the user: an ally pulled out
 
 ![](../abilities/moonlight-burst.png){ .ability-icon } *Active*
 
-The unicorn rears up and releases the moon's light: enemies around are blasted away, allies are purified and healed, and the horn's light is filled.
+The unicorn rears up and releases a burst of light, enemies around are pushed away, allies lose their harmful effects and are healed and the light of the horn is refilled
 
 | Stat | Value |
 |---|---|
@@ -157,7 +157,7 @@ The unicorn rears up and releases the moon's light: enemies around are blasted a
 
 ![](../abilities/alicorn.png){ .ability-icon } *Passive*
 
-The horn's light burns away every harmful effect that touches the user, except hard control, and heals the user while transformed. Both spend light, which refills over time and with every horn blow.
+The light of the horn removes every harmful effect on the user except stuns and heals the user while transformed. Both use light, which comes back over time and with every horn hit.
 
 ## Unicorn Rideable { #unicorn-rideable }
 
@@ -169,6 +169,6 @@ Allows other players to ride on the unicorn's back.
 
 ![](../abilities/unicorn-flight.png){ .ability-icon } *Passive*
 
-The unicorn flies, leaving a rainbow in its wake.
+Allows the user to fly while transformed, leaving a rainbow behind them
 
 Requires Uma Uma Walk Point or Uma Uma Heavy Point to be active.

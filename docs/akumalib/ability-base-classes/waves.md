@@ -44,4 +44,4 @@ public class MudWaveAbility extends WaveAbility {
 
 `wavePush()` and `waveLift()` set how hard a struck body is carried along (1.3 and 0.4 by default). `crest()` and `heading()` give where it is and the way it runs.
 
-The wave is not drawn by the library: your entity, spawned in `onWaveStart`, runs at the same speed for the same time.
+The wave is not drawn by the library: your entity, spawned in `onWaveStart`, runs at the same speed for the same time. For a big user that speed is `waveSpeed() * waveScale()`: since 6.1.0 the wave runs further as well as wider, twice as far at four times a man's size.

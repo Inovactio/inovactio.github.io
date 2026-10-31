@@ -25,7 +25,7 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![Water Soles](../objects/water-soles.png){ .form-picture }
 
-The user's soles walk on water and lava as on solid ground. Crouch to sink.
+The user can walk on water and lava like on solid ground. Crouching makes the user sink.
 
 | Stat | Value |
 |---|---|
@@ -38,7 +38,7 @@ The user's soles walk on water and lava as on solid ground. Crouch to sink.
 
 ![Wall Soles](../objects/wall-soles.png){ .form-picture }
 
-The user's soles grip any surface: walk into a wall to climb it, stay put against it, hang from ceilings. Crouch to let go.
+The user can climb walls by walking into them, stay on them and hang from ceilings. Crouching makes the user let go
 
 | Stat | Value |
 |---|---|
@@ -51,7 +51,7 @@ The user's soles grip any surface: walk into a wall to climb it, stay put agains
 
 ![Silent Soles](../objects/silent-soles.png){ .form-picture }
 
-The user's soles make no sound: no footsteps, no vibrations, and mobs only notice the user at a quarter of the usual distance.
+The user makes no footsteps and no vibrations, mobs only notice the user from a quarter of the normal distance.
 
 | Stat | Value |
 |---|---|
@@ -64,7 +64,7 @@ The user's soles make no sound: no footsteps, no vibrations, and mobs only notic
 
 ![Weighted Soles](../objects/weighted-soles.png){ .form-picture }
 
-The user's soles weigh a ton: nothing can knock the user back, but they walk slower. Stomp hits harder and wider.
+The user becomes very heavy, they take no knockback but walk slower. Stomp hits harder and wider while this is active.
 
 | Stat | Value |
 |---|---|
@@ -77,7 +77,7 @@ The user's soles weigh a ton: nothing can knock the user back, but they walk slo
 
 ![Spring Soles](../objects/spring-soles.png){ .form-picture }
 
-The user's soles are springs: jumps about seven blocks high, and no fall damage. Crouch to jump normally.
+The user jumps about 7 blocks high and takes no fall damage. Crouching makes the user jump normally
 
 | Stat | Value |
 |---|---|
@@ -90,7 +90,7 @@ The user's soles are springs: jumps about seven blocks high, and no fall damage.
 
 ![Skate Soles](../objects/skate-soles.png){ .form-picture }
 
-The user's soles are blades: the user skates fast on every ground, gliding far before stopping.
+The user skates fast on any ground and slides for a while before stopping.
 
 | Stat | Value |
 |---|---|
@@ -101,7 +101,7 @@ The user's soles are blades: the user skates fast on every ground, gliding far b
 
 ![](../abilities/stomp.png){ .ability-icon } *Active*
 
-The user stomps the ground, hurting and throwing up everyone around. Hits harder and wider with Weighted Soles on.
+The user stomps the ground, damaging everyone nearby and launching them up. Hits harder and wider while Weighted Soles is active.
 
 | Stat | Value |
 |---|---|

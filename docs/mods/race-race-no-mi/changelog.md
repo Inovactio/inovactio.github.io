@@ -2,6 +2,31 @@
 
 Every Race Race no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/all).
 
+## 0.1.1 (beta) { #v0-1-1 }
+
+<small>Released 2026-10-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/9376688)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Fishmen that look better and giants that bend in a hybrid.</strong> The fishmen's fins have some thickness and their skins more detail, and the flickering on their arms is gone. A hunched giant's hybrid form now bends with him. No number of the races has changed.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 6.1.0</strong> or newer.
+<a href="https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island">Mine Mine no Mi: Sky Island</a> is optional.
+Needed on both the client and the server.</p>
+<hr />
+<h3>Fishmen</h3>
+<ul>
+<li><strong>No more flicker</strong>: the grey patch that flickered on the Saw-shark's and the Garfish's arm is gone, and so is the flicker of the skin colour.</li>
+<li><strong>Fins with some thickness</strong>: fins, lobes, crest and tail are real slabs now, no longer flat. The saw has its teeth on both sides, and the gills are small ridges on the neck.</li>
+<li><strong>The Ray's arm fin</strong> no longer floats behind the arm.</li>
+<li><strong>Finer skins</strong>: lit rims and rays on the fins, the Ray's pale spots, the Garfish's scales.</li>
+<li><strong>Your skin colour in other mods' forms</strong>: in a form that has its own skin, such as Missing Missing no Mi's King Cobra hybrid, you wear the form's skin, then your fishman colour again when you leave it.</li>
+</ul>
+<h3>Giants</h3>
+<ul>
+<li><strong>Hunched in a hybrid</strong>: the form bends with your body. Your bent body no longer comes out of it.</li>
+<li><strong>Tails</strong> lie as they do when you stand, hunched or on all fours, instead of pointing at the sky.</li>
+</ul>
+</div>
+
 ## 0.1.0 (beta) { #v0-1-0 }
 
 <small>Released 2026-10-29 · [Download](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/9362166)</small>

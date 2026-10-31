@@ -64,7 +64,7 @@ The user is always lucky and Devil Fruit boxes upgrade three times as often.
 
 ![](../abilities/zeni-nage.png){ .ability-icon } *Active*
 
-Flicks a coin hardened into gold at the target, for 1 berry a throw. The luckier the user, the harder it hits.
+Throws a gold coin at the target, each throw costs 1 berry. It hits harder the luckier the user is
 
 | Stat | Value |
 |---|---|

@@ -1,6 +1,6 @@
 # Status effects
 
-The **33 status effects** InoFruits adds, and what applies them.
+The **34 status effects** InoFruits adds, and what applies them.
 
 | Effect | Kind | Applied by |
 |---|---|---|
@@ -9,6 +9,7 @@ The **33 status effects** InoFruits adds, and what applies them.
 | ![](effect-icons/blood-shell.png){ .effect-icon } **Blood Shell**{ #effect-blood-shell } | Beneficial | [Blood Shell](fruits/chi-chi-no-mi.md#blood-shell) |
 | ![](effect-icons/chibukure.png){ .effect-icon } **Chibukure**{ #effect-chibukure } | Beneficial | [Chibukure](fruits/mushi-mushi-no-mi-model-mosquito.md#chibukure) |
 | ![](effect-icons/ekibyo.png){ .effect-icon } **Ekibyo**{ #effect-ekibyo } | Harmful | [Ekibyo](fruits/nezu-nezu-no-mi-model-rat.md#ekibyo) |
+| ![](effect-icons/hydra-blood.png){ .effect-icon } **Hydra's Blood**{ #effect-hydra-blood } | Harmful | — |
 | ![](effect-icons/joki.png){ .effect-icon } **Joki**{ #effect-joki } | Harmful | [Kumori](fruits/yuge-yuge-no-mi.md#kumori), [Logia Invulnerability Yuge](fruits/yuge-yuge-no-mi.md#logia-invulnerability-yuge), [Suijoki Funshin](fruits/yuge-yuge-no-mi.md#suijoki-funshin) |
 | ![](effect-icons/kiza.png){ .effect-icon } **Kiza**{ #effect-kiza } | Harmful | [Kiza Dashi](fruits/kiza-kiza-no-mi.md#kiza-dashi), [Kiza Maki](fruits/kiza-kiza-no-mi.md#kiza-maki) |
 | ![](effect-icons/kohaku.png){ .effect-icon } **Kohaku**{ #effect-kohaku } | Harmful | [Kohaku](fruits/mitsu-mitsu-no-mi.md#kohaku) |

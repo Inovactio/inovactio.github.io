@@ -7,7 +7,7 @@
 | **Type** | Logia |
 | **Theme** | Wind |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.65%**, iron **0.183%**, wooden **0.009%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **3.39%**, iron **0.170%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 10: 8 active, 2 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -144,7 +144,7 @@ Creates a tornado where the user is looking, which moves wherever they look next
 
 ![](../abilities/kyuin.png){ .ability-icon } *Active*
 
-The user reverses the air in front of them: for a moment, every enemy in a wide cone is dragged towards the user.
+The user reverses the air in front of them, dragging every enemy in a wide cone towards the user for a moment.
 
 | Stat | Value |
 |---|---|

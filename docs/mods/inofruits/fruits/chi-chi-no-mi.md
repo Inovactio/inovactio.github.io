@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Blood |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.65%**, iron **0.183%**, wooden **0.009%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **3.39%**, iron **0.170%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 8 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/blood-shell.png){ .effect-mini }[Blood Shell](../effects.md#effect-blood-shell) |
 
@@ -62,7 +62,7 @@ Pulls a bleeding enemy to the user by its own blood, or drags a crewmate out of 
 
 ![](../abilities/blood-drain.png){ .ability-icon } *Active*
 
-Takes back the blood of every bleeding enemy nearby at once: the bleeding stops, they take what it had left, and the user is healed by twice as much.
+Takes back the blood of every bleeding enemy nearby at once, the bleeding stops and deals all its remaining damage and the user is healed by twice as much
 
 | Stat | Value |
 |---|---|
@@ -90,7 +90,7 @@ Clots the user's blood into a thick shell that absorbs a lot of damage for 8 sec
 
 ![](../abilities/blood-bond.png){ .ability-icon } *Active*
 
-For 10 seconds, half the damage the user's crewmates take nearby is taken by the user instead, filling the Blood Reserve gauge.
+For 10 seconds half the damage taken by nearby crewmates is taken by the user instead, which fills the Blood Reserve gauge.
 
 | Stat | Value |
 |---|---|
@@ -101,7 +101,7 @@ For 10 seconds, half the damage the user's crewmates take nearby is taken by the
 
 ![](../abilities/blood-pool.png){ .ability-icon } *Active*
 
-Spills the user's blood across the ground for 10 seconds: enemies in the pool bleed and are slowed, and Blood Drain reaches further from inside it. Costs blood.
+Spills the user's blood on the ground for 10 seconds, enemies in the pool bleed and are slowed and Blood Drain reaches further from inside it. Costs blood.
 
 | Stat | Value |
 |---|---|
@@ -115,7 +115,7 @@ Spills the user's blood across the ground for 10 seconds: enemies in the pool bl
 
 ![](../abilities/blood-festival.png){ .ability-icon } *Active*
 
-Spends the whole Blood Reserve gauge (half full at least): blood spikes burst around the user, hitting harder the lower the user's health.
+Uses the whole Blood Reserve gauge which must be at least half full, blood spikes come out around the user and hit harder the lower the user's health is.
 
 | Stat | Value |
 |---|---|
@@ -129,4 +129,4 @@ Spends the whole Blood Reserve gauge (half full at least): blood spikes burst ar
 
 ![](../abilities/blood-reserve.png){ .ability-icon } *Passive*
 
-Blood the user loses fills a gauge; the fruit's techniques spend it before they spend health.
+The blood the user loses fills a gauge, the abilities of the fruit use it before using health

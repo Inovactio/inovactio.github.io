@@ -49,6 +49,17 @@ CivilianFaction.stole(player, stack);
 Call it once for each weapon taken, and once per window opened for the rest, as AkumaLib does for Marine
 chests. `CivilianFaction.isCivilian(entity)` tells whether a player or an NPC is a civilian.
 
+## A sanctioned fight
+
+*Since 6.1.0.* A blow on the law in a fight an addon sanctions, a colosseum's bout for one, is no crime: no strike toward turning pirate, and no end of a pirate's [truce](#back-to-civilian-life). Declare those fights once, at set up:
+
+```java
+// The player striking, the one struck. True: this blow is part of a sanctioned fight.
+CivilianFaction.exempt((player, target) -> MyArena.inBout(player, target));
+```
+
+`CivilianFaction.exempt(player, target)` tells whether a given blow is one.
+
 ## The Marine recruiter
 
 *Since 5.1.0.* A recruiter stands at the front desk of Mine Mine no Mi's small and large Marine bases, old

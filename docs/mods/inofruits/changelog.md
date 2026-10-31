@@ -2,6 +2,104 @@
 
 Every InoFruits release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/inofruits/files/all).
 
+## 4.0.0 { #v4-0-0 }
+
+<small>Released 2026-10-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/inofruits/files/9376690)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Two new Mythical Zoans, the Hydra and the Griffon, and every fruit now follows the size of its user.</strong> A giant's
+techniques reach further, hit harder and throw further. A man at normal size plays as before, apart from the forms
+listed under "Forms that change for everyone".</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 6.1.0</strong> or newer.</p>
+<p>⚠️ <strong>Update AkumaLib to 6.1.0 first.</strong> With an older AkumaLib the game refuses to start and says which version it
+needs. AkumaLib 6 does not play with 5.2.0 or older: update the server and every client together.</p>
+<p>⚠️ <strong>This is a beta.</strong> The new size rules have been checked by automated tests, not by playing. Numbers may change.</p>
+<hr />
+<h3>New fruits</h3>
+<ul>
+<li>
+<p><strong>Hebi Hebi no Mi, Model: Hydra</strong> - a Mythical Zoan, found in golden boxes. Suggested by <strong>Gecko1017</strong>.</p>
+<ul>
+<li><strong>Cut off one head and two grow back.</strong> The hydra starts with three heads and can have up to nine. A heavy
+blow severs one, which takes part of the blow, and a few seconds later two grow in its place. Every technique
+is stronger with more heads.</li>
+<li><strong>Fire is its weakness.</strong> A head lost to fire, or while burning, leaves a charred stump that does not grow
+back for 30 seconds.</li>
+<li><strong>Two forms</strong>: the Heavy Point, a fast hybrid with the necks rising from its shoulders, and the Guard Point,
+the whole hydra, slow and very hard to bring down.</li>
+<li><strong>Twelve techniques</strong>: King Cobra Strike (every head bites its own enemy), Python Coil (the necks seize and
+crush), Severed Head (throw one of your own heads - it grows back double), Diamondback Guard (a wall of
+necks against blows from the front), Hydra's Blood and Taipan Geyser (a venom that stops all healing),
+Boomslang Blitz (the hybrid's lunge), Anaconda Press (the beast's crushing leap), Kingsnake's Feast (bite to
+heal), Molt (shed your skin to shake off effects and holds), Frenzy (every head bites on its own) and the
+ultimate, Nine Heads.</li>
+<li>The hydra is immune to poison.</li>
+</ul>
+</li>
+<li>
+<p><strong>Tori Tori no Mi, Model: Griffon</strong> - a Mythical Zoan, found in golden boxes. The flying Zoan that carries its
+  prey away.</p>
+<ul>
+<li><strong>Two forms that both fly</strong>: the Fly Point, the whole griffon, which an ally can ride, and the Assault Point,
+a hybrid with talons, wings and a lion's legs. It sheds feathers in its wake.</li>
+<li><strong>Talon Grab and Skydrop</strong>: seize an enemy in the talons, carry it up for a few seconds and let it fall. The
+prey breaks free by striking the griffon. The talons close a moment after the cry: a prey that steps away or
+raises its guard in time is missed. A griffon flies slower while it carries. An ally who sneaks under the
+griffon is lifted instead, unharmed, for up to 10 seconds, and set down gently.</li>
+<li><strong>Diving Strike</strong>: dive on a spot and crash down, harder from higher.</li>
+<li><strong>Wing Gale</strong>: one beat of the wings throws enemies back and sends arrows and other projectiles back where
+they came from. In the air it also pushes the griffon the other way: look down to leap upward.</li>
+<li><strong>Lion's Roar</strong>: enemies close by are slowed and weakened, and stay outlined for you for 10 seconds, even
+behind walls.</li>
+<li><strong>Rending Talons</strong>: three rakes of the talons, and the last one leaves the target bleeding.</li>
+<li><strong>Hoard Guard</strong>: mark up to three chests as your hoards. Whoever opens or breaks one is slowed, and shown to
+you through walls for a minute.</li>
+<li><strong>Keen Eyes</strong>: enemies in view are outlined from very far away.</li>
+</ul>
+</li>
+</ul>
+<h3>Every fruit follows your size</h3>
+<p>AkumaLib 6 lets a player be bigger or smaller than a man. Every InoFruits technique now takes that into account.</p>
+<ul>
+<li><strong>Reach, areas and damage grow</strong> with your body: at four times a man's height, about twice the reach and twice the
+  damage. A blow of arm's reach grows a little more.</li>
+<li><strong>Pushes, leaps and dashes carry further</strong>, and your steps climb higher.</li>
+<li><strong>What you summon or leave behind grows too</strong>: Bai Bai's clones, the bubbles of the Gamu Gamu no Mi, the Hydra's
+  shed skin.</li>
+<li><strong>The laws of the Oki Oki no Mi and the senses of the Kane Kane no Mi reach further.</strong></li>
+<li><strong>Kugi Yoroi and the bear's fur answer a blow from wherever a giant can strike you.</strong> Their reach used to stop at a
+  man's arm.</li>
+<li><strong>What is sent back stays what it was.</strong> Blows returned by Toge, Kugi Yoroi and the Kaze Kaze no Mi do not grow with
+  the size of the one returning them.</li>
+</ul>
+<h3>Forms that change for everyone</h3>
+<p>These four change even at normal size. The numbers are first drafts.</p>
+<ul>
+<li><strong>Isa Isa Guard Point, Hydra Guard Point and Griffon Fly Point</strong> count as big bodies: your walk, jump, fall and
+  melee reach follow the form's size. Their techniques keep a man's numbers, and a bigger player's grow from their
+  own size alone.</li>
+<li><strong>The golem of the Tsuchi Tsuchi no Mi</strong> counts as a big body too, and here the techniques also grow, on top of what
+  the golem already gave them.</li>
+</ul>
+<h3>Powers that meet</h3>
+<ul>
+<li><strong>Sound obeys silence.</strong> The whale's song, the bear's roar and the griffon's roar cannot be used under the Silent of
+  the Nagi Nagi no Mi, and a silenced target is not reached by them.</li>
+<li><strong>Water washes off</strong> the paint of the Some Some no Mi and the salt of the Shio Shio no Mi. Standing in water, the
+  bubbles of the Awa Awa no Mi or a thrown bottle of water all work.</li>
+<li><strong>The steam of the Yuge Yuge no Mi counts as being wet for every power.</strong> Lightning hurts a steamed target more, and
+  its own combos also work on a target that is wet for another reason.</li>
+<li><strong>The nail armour of the Kugi Kugi no Mi is made of steel.</strong> Lightning and rust hurt its user 25 % more while it is
+  on.</li>
+</ul>
+<h3>Other</h3>
+<ul>
+<li><strong>Fruit icons corrected</strong>, among them the Kugi Kugi and Neji Neji no Mi.</li>
+<li><strong>Technique descriptions are plainer</strong>, and their tooltips show the numbers for your size.</li>
+<li>Built against Mine Mine no Mi 0.11.6.</li>
+</ul>
+</div>
+
 ## 3.3.0 { #v3-3-0 }
 
 <small>Released 2026-09-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/inofruits/files/9016786)</small>

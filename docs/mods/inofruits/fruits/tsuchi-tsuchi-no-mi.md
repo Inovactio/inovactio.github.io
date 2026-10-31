@@ -7,7 +7,7 @@
 | **Type** | Logia |
 | **Theme** | Earth |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.65%**, iron **0.183%**, wooden **0.009%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **3.39%**, iron **0.170%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 7 active, 2 passive |
 | **Transformations** | [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) |
 | **Amplified by Tsuchi Tsuchi Golem** | [Jibashiri](#jibashiri), [Kabe](#kabe), [Nomikomi](#nomikomi), [Tsubute](#tsubute), [Ryusa](#ryusa), [Jisuberi](#jisuberi) |
@@ -52,7 +52,6 @@ While [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) is active, this ability is amp
 | Cooldown | 9 s |
 | Damage | 12 |
 | Range | 16 blocks (line) |
-| Source | Indirect |
 
 **Golem Mode**: The ridge goes 24 blocks instead of 16, hits harder and is wider.
 
@@ -160,7 +159,7 @@ While [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) is active, this ability is amp
 | Damage type | Indirect |
 | Haki | Special |
 
-**Normal Mode**: Turns the ground where the user looks into quicksand: enemies caught in it are dragged towards its centre, bogged down and worn away.
+**Normal Mode**: Turns the ground where the user looks into quicksand, enemies caught in it are slowed, damaged and dragged towards the middle.
 
 | Stat | Value |
 |---|---|
@@ -168,7 +167,6 @@ While [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) is active, this ability is amp
 | Hold | 8 s |
 | Damage | 2 |
 | Range | 5 blocks (area) |
-| Source | Indirect |
 
 **Golem Mode**: The quicksand is wider, lasts longer, grinds harder and swallows faster.
 
@@ -190,14 +188,13 @@ While [Tsuchi Tsuchi Golem](#tsuchi-tsuchi-golem) is active, this ability is amp
 | Damage type | Blunt, Indirect |
 | Haki | Special |
 
-**Normal Mode**: The ground in front of the user gives way in a landslide: every enemy in a wide cone is hurt, knocked away and buried for a moment.
+**Normal Mode**: The ground in front of the user slides away, every enemy in a wide cone is damaged, knocked away and buried for a moment
 
 | Stat | Value |
 |---|---|
 | Cooldown | 30 s |
 | Damage | 22 |
 | Range | 12 blocks (cone) |
-| Source | Indirect |
 
 **Golem Mode**: The landslide reaches 18 blocks instead of 12, spreads wider, hits harder and buries longer.
 

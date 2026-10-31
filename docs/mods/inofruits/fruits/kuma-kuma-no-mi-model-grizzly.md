@@ -99,10 +99,19 @@ Requires Kuma Kuma Walk Point or Kuma Kuma Heavy Point to be active.
 
 ![](../abilities/fury.png){ .ability-icon } *Passive*
 
-While in a form, the user deals more damage the more they are hurt: more below half health, even more below a quarter.
+While in a form, the user deals more damage when below half health and even more when below a quarter.
+
+| Stat | Value |
+|---|---|
+| Damage Below Half Health | x1.2 |
+| Damage Below a Quarter | x1.4 |
 
 ## Thick Fur { #thick-fur }
 
 ![](../abilities/thick-fur.png){ .ability-icon } *Passive*
 
 While in a form, the user's thick fur softens melee blows, resists knockback and keeps the cold out.
+
+| Stat | Value |
+|---|---|
+| Melee Damage Taken | x0.85 |

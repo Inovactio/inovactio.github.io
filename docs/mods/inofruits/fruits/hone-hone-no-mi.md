@@ -27,7 +27,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![Hone Hone Point](../forms/hone-hone-point.png){ .form-picture }
 
-The user wears their skeleton on the outside, which makes the other bone techniques stronger while active
+The user wears their skeleton on the outside, which makes the other bone abilities stronger while active
 
 ## Bone Throw { #bone-throw }
 

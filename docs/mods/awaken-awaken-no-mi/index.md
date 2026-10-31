@@ -6,10 +6,13 @@
 
 | | |
 |---|---|
-| Version documented | **2.4.0** |
+| Version documented | **3.0.1** (beta) |
 | Mod id | `awakenawakennomi` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) · [3.0.1](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9380938) |
 | Changelog | [Every release](changelog.md) |
+
+!!! danger "Do not use 3.0.0"
+    Awaken 3.0.0 crashes the game while it loads, in every launcher, with a mixin error (`@Shadow field model was not located`). Replace that jar with **[3.0.1](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9380938)**: nothing else changes. See the [changelog](changelog.md#v3-0-1).
 
 ## What it adds
 
@@ -28,10 +31,21 @@ It adds **no new Devil Fruit**: every ability here belongs to a fruit the base m
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 or newer (built against `1.20.1-0.11.6`) |
-| [AkumaLib](../../akumalib/index.md) | **5.0.0 or later** |
+| [AkumaLib](../../akumalib/index.md) | **6.1.0 or later** |
 
 !!! warning "AkumaLib is required"
-    AkumaLib is a library: it adds nothing you can see, but this mod is built on it. Without it, Forge stops on its missing-dependency screen. Since 2.4.0, Awaken Awaken no Mi needs AkumaLib **5.0.0 or newer**.
+    AkumaLib is a library: it adds nothing you can see, but this mod is built on it. Without it, Forge stops on its missing-dependency screen. Since 3.0.0, Awaken Awaken no Mi needs AkumaLib **6.1.0 or newer**.
+
+## Your size
+
+Since 3.0.0 awakened abilities follow your size, through [AkumaLib](../../akumalib/size/index.md): a bigger player reaches further, hits harder and throws further. At size 4 that is twice the reach and twice the damage. The figures on these pages are for a body of size 1.
+
+- **At size 1 nothing changes**, and being smaller than a man takes nothing away: you keep a man's numbers.
+- **A man in a big form** keeps the 2.4.0 numbers on the awakened abilities of that form: only your own size makes them grow, not the form. Your plain punches and your body (hit reach, strength, attack speed) do follow the size rules of AkumaLib, so they can feel different from 2.4.0.
+- **Zones made to cover a whole area keep their size**, whoever uses them: Ice Epoch, Meigo no Jidai, Tenchi Hokai, Sabaku no Okoku, Ever White, Gravity Zone, Smooth World, Inga Samsara, Battlefield Resonance, Resonating World and White Night. The radius written on a zone ability tells the radius at your size.
+- **Some blasts grow only up to a limit**: Blast Jump, Funshin, Inga Impact and Bomu Airburst.
+- **The tornado of Glittering Storm grows with its user**, and so does the range of Eavesdrop, Iron Constitution, Overflow and Bound Hands.
+- **What does not grow**: blocks and effects left behind, and the damage shared by Iron Tether and Sanctuary.
 
 ## Getting started
 

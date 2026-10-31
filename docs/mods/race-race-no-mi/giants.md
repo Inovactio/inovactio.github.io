@@ -33,6 +33,7 @@ A giant is the player's own body at four times the size: reach, blows, health, s
 
 - Under a roof too low for him, he **hunches**: half his height (3.6 blocks), walking at 0.6 of his speed, and his techniques reach and hit only half as much (a man's again). **Shift** hunches him too.
 - Lower still, he goes **on all fours**: a third of his height (2.4 blocks), at 0.3 of his speed, and he uses **no technique** (his passive goes on).
+- In a hybrid form of a Devil Fruit, the form bends with his hunched body, and tails lie as they do when he stands.
 
 ### Blocks: zones and precision (G)
 

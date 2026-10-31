@@ -1,6 +1,6 @@
 # Fruits
 
-InoFruits adds **34 Devil Fruits**. Pick one to see its abilities.
+InoFruits adds **36 Devil Fruits**. Pick one to see its abilities.
 
 ## Paramecia
 
@@ -54,6 +54,8 @@ InoFruits adds **34 Devil Fruits**. Pick one to see its abilities.
 
 | Fruit | Box | Abilities |
 |---|---|---|
+| ![](../fruit-icons/hebi-hebi-no-mi-model-hydra.png){ .fruit-icon } [**Hebi Hebi no Mi, Model: Hydra**](hebi-hebi-no-mi-model-hydra.md) | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden | [Hydra Heavy Point](hebi-hebi-no-mi-model-hydra.md#hydra-heavy-point), [Hydra Guard Point](hebi-hebi-no-mi-model-hydra.md#hydra-guard-point), [King Cobra Strike](hebi-hebi-no-mi-model-hydra.md#king-cobra-strike), [Python Coil](hebi-hebi-no-mi-model-hydra.md#python-coil), [Severed Head](hebi-hebi-no-mi-model-hydra.md#severed-head), [Diamondback Guard](hebi-hebi-no-mi-model-hydra.md#diamondback-guard), [Hydra's Blood](hebi-hebi-no-mi-model-hydra.md#hydras-blood), [Taipan Geyser](hebi-hebi-no-mi-model-hydra.md#taipan-geyser), [Boomslang Blitz](hebi-hebi-no-mi-model-hydra.md#boomslang-blitz), [Anaconda Press](hebi-hebi-no-mi-model-hydra.md#anaconda-press), [Molt](hebi-hebi-no-mi-model-hydra.md#molt), [Kingsnake's Feast](hebi-hebi-no-mi-model-hydra.md#kingsnakes-feast), [Frenzy](hebi-hebi-no-mi-model-hydra.md#frenzy), [Nine Heads](hebi-hebi-no-mi-model-hydra.md#nine-heads), [Lernaean Heads](hebi-hebi-no-mi-model-hydra.md#lernaean-heads), [Poison Immunity](hebi-hebi-no-mi-model-hydra.md#hydra-poison-immunity) |
+| ![](../fruit-icons/tori-tori-no-mi-model-griffon.png){ .fruit-icon } [**Tori Tori no Mi, Model: Griffon**](tori-tori-no-mi-model-griffon.md) | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden | [Griffon Fly Point](tori-tori-no-mi-model-griffon.md#griffon-fly-point), [Griffon Assault Point](tori-tori-no-mi-model-griffon.md#griffon-assault-point), [Talon Grab](tori-tori-no-mi-model-griffon.md#talon-grab), [Skydrop](tori-tori-no-mi-model-griffon.md#skydrop), [Diving Strike](tori-tori-no-mi-model-griffon.md#diving-strike), [Wing Gale](tori-tori-no-mi-model-griffon.md#wing-gale), [Lion's Roar](tori-tori-no-mi-model-griffon.md#lions-roar), [Rending Talons](tori-tori-no-mi-model-griffon.md#rending-talons), [Hoard Guard](tori-tori-no-mi-model-griffon.md#hoard-guard), [Keen Eyes](tori-tori-no-mi-model-griffon.md#keen-eyes), [Griffon Rideable](tori-tori-no-mi-model-griffon.md#griffon-rideable), [Griffon Flight](tori-tori-no-mi-model-griffon.md#griffon-flight) |
 | ![](../fruit-icons/uma-uma-no-mi-model-unicorn.png){ .fruit-icon } [**Uma Uma no Mi, Model: Unicorn**](uma-uma-no-mi-model-unicorn.md) | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden | [Uma Uma Walk Point](uma-uma-no-mi-model-unicorn.md#uma-uma-walk-point), [Uma Uma Heavy Point](uma-uma-no-mi-model-unicorn.md#uma-uma-heavy-point), [Horn Thrust](uma-uma-no-mi-model-unicorn.md#horn-thrust), [Unicorn Charge](uma-uma-no-mi-model-unicorn.md#unicorn-charge), [Prism Lance](uma-uma-no-mi-model-unicorn.md#prism-lance), [Starfall](uma-uma-no-mi-model-unicorn.md#starfall), [Purify](uma-uma-no-mi-model-unicorn.md#purify), [Sanctuary](uma-uma-no-mi-model-unicorn.md#sanctuary), [Guiding Light](uma-uma-no-mi-model-unicorn.md#guiding-light), [Moonlight Burst](uma-uma-no-mi-model-unicorn.md#moonlight-burst), [Alicorn](uma-uma-no-mi-model-unicorn.md#alicorn), [Unicorn Rideable](uma-uma-no-mi-model-unicorn.md#unicorn-rideable), [Unicorn Flight](uma-uma-no-mi-model-unicorn.md#unicorn-flight) |
 
 ## Box odds
@@ -70,7 +72,7 @@ With every fruit still available, no Luck and only Mine Mine no Mi and InoFruits
 |---|---|---|---|---|
 | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden | 39 (15 from InoFruits) | **2.32%** | iron 4.52%, golden 0.238% | 4.76% |
 | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron | 40 (12 from InoFruits) | **2.26%** | golden 4.75% | 4.76% |
-| ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden | 26 (7 from InoFruits) | **3.65%** | — | 5.00% |
+| ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden | 28 (9 from InoFruits) | **3.39%** | — | 5.00% |
 
 ### What changes the odds
 

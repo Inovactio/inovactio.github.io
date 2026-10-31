@@ -66,7 +66,6 @@ Suppresses a soaked Devil Fruit user for 3.0s
 | Charge | 1 s |
 | Damage | 6 |
 | Range | 7 blocks (area) |
-| Source | Indirect |
 
 **Soaked Target**: Deals more than double the damage to targets that are already soaked.
 
@@ -125,7 +124,6 @@ Blasts steam under the user, launching them 10 blocks up and burning anything be
 | Damage | 3 |
 | Range | 20 blocks |
 | Area radius | 4 blocks |
-| Source | Indirect |
 
 **Soaked Target**: On a soaked target the water turns back into steam all at once, using up the soak
 

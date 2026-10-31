@@ -7,7 +7,7 @@
 | **Type** | Logia |
 | **Theme** | Salt |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **3.65%**, iron **0.183%**, wooden **0.009%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **3.39%**, iron **0.170%**, wooden **0.008%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 8 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/shio-form.png){ .effect-mini }[Shio Form](../effects.md#effect-shio-form), ![](../effect-icons/shiozuke.png){ .effect-mini }[Shiozuke](../effects.md#effect-shiozuke) |
 
@@ -123,7 +123,7 @@ Pours a ring of salt on the ground that pushes the undead out and salts enemies 
 
 Applies ![](../effect-icons/shiozuke.png){ .effect-mini }[Shiozuke](../effects.md#effect-shiozuke)
 
-Draws the water out of every enemy around the user: they are hurt, slowed, salted, and pulled slightly towards the user.
+Draws the water out of every enemy around the user, hurting, slowing and salting them and pulling them slightly towards the user.
 
 | Stat | Value |
 |---|---|
@@ -139,7 +139,7 @@ Draws the water out of every enemy around the user: they are hurt, slowed, salte
 
 Applies ![](../effect-icons/shiozuke.png){ .effect-mini }[Shiozuke](../effects.md#effect-shiozuke)
 
-Crusts the target in a pillar of salt: it is hurt, cannot move for 3 seconds and cannot heal for 10.
+Covers the target in a pillar of salt, hurting it and making it unable to move for 3 seconds and unable to heal for 10 seconds
 
 | Stat | Value |
 |---|---|

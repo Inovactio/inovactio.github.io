@@ -45,7 +45,7 @@ Charges the next punch with all the stored force, emptying the battery on hit.
 |---|---|
 | Damage type | Fist, Physical |
 | Haki | Hardening |
-| Cooldown | 3–13 s |
+| Long Cooldown | 13 s |
 | Damage | 0–32 |
 
 ## Kaiho { #kaiho }

@@ -23,3 +23,7 @@ A form is a `SIZE` modifier (maintainer, 2026-10-28): while a declared form is o
 2. Take out the form's own factor: no share taken back out of a hit or a reach (`FormSize`), no plain form (`SizeTooltips.plainForms`) for it, no `x size` written by hand for what AkumaLib grows (reach, damage, areas, the body's own bonuses to walk, jump, fall and health).
 3. Where the kit grows something AkumaLib does not (where the hand is, a construct's size) by the form's own scale times `SIZE`, read `SizeScale.outsideForm` for the `SIZE`: `get` holds the form already, and the form's scale x `outsideForm` is the size worn.
 4. A man's numbers in the form change (they follow the curves of the declared size): a balance pass per form.
+
+## A form that keeps a man's figures: `KeptForms`
+
+*Since 6.1.0.* A full Zoan is a bigger body, not a stronger technique. Declare it, then name it once, at setup: `KeptForms.keep(form -> form == MyMorphs.BEAST.get())`. The body follows the form's size; a technique hits and reaches as the kit says at SIZE 1, and by `SIZE` alone above it. Hits lose the form's share in `LivingHurtEvent`, components carry its inverse, `AkumaSize.reach` and the aim read it, and tooltips, searches and spawns count the form as no bigger body (`SizeTooltips.plainForms`). A declared form still reaches by its size in melee; its fist and its health do not grow by it.

@@ -62,13 +62,13 @@ public class ScissorsModel<T extends LivingEntity> extends HumanoidMorphModel<T>
 
 `ArmCoating` answers which overlay the base mod shows on a limb: `onMainArm(entity)`, `onNailedLimb(entity)` (the main arm, or the main leg of a Black Leg user) and `isCoated(entity, side)`.
 
-## A skin on the arm: `ArmSkins`
+## A skin on the arm: `SkinSwaps`
 
-A race's skin colour or a hybrid's scales, drawn over the whole body by a render layer, would stop at the first-person arm: no layer draws it. `ArmSkins` lays a texture over that arm and its sleeve, in the pose vanilla has just given them, with or without a morph's graft (under the graft, under Armament Haki):
+A race's skin colour or a hybrid's scales would stop at the first-person arm: no layer draws it. The skin given through `SkinSwaps` (see [Decoys](../entities/decoys.md)) is the one the whole player is drawn in, and the first-person arm too: vanilla draws that arm and its sleeve in it instead of the player's skin, with or without a morph's graft (under the graft, under Armament Haki). *Since 6.1.0;* `ArmSkins` is deprecated and still works, what it registers counting as a race's skin.
 
 ```java
-// client setup: the same texture the addon's layer draws over the body, or null for none
-ArmSkins.register(player -> MySkinTint.texture(player));
+// client setup: the skin the player is drawn in, or null for none
+SkinSwaps.register(SkinSwaps.FORM, player -> MySkinTint.texture(player));
 ```
 
-The texture is a whole player skin: the arm and the sleeve are read at their usual places in it, cut out where it is transparent.
+The texture is a whole player skin: the arm and the sleeve are read at their usual places in it. It REPLACES the skin, never goes over it: the same faces drawn twice flicker (z-fighting).
