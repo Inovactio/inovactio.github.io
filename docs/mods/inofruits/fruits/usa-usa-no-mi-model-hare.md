@@ -68,6 +68,8 @@ Longer legs make it last 12 seconds instead of 8.
 |---|---|
 | Cooldown | 6–18 s |
 | Hold | 8–12 s |
+| Speed | +0.6 |
+| Jump Height | +1.5 |
 
 ## Usagitobi { #usagitobi }
 

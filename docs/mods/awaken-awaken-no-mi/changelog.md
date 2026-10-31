@@ -2,6 +2,71 @@
 
 Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/all). The Minecraft 1.16.5 releases (0.2.1 to 0.7.2) are listed there too.
 
+## 3.0.1 { #v3-0-1 }
+
+<small>Released 2026-10-31 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9380938)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Fixes the crash of 3.0.0 in every launcher game. Replace the 3.0.0 jar with this one.</strong></p>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>The game crashed while loading with Awaken 3.0.0.</strong> A build step had left one name out of the published jar, so the game stopped with a mixin error (<code>@Shadow field model was not located</code>) as soon as it needed the entity renderer. Nothing else changes from 3.0.0</li>
+</ul>
+<hr />
+<h3>Requirements</h3>
+<ul>
+<li>Minecraft <strong>1.20.1</strong></li>
+<li>Forge <strong>47.4.18+</strong></li>
+<li><strong>Mine Mine no Mi</strong> <code>1.20.1-0.11.6</code></li>
+<li><strong>AkumaLib</strong> <code>6.1.0+</code></li>
+</ul>
+</div>
+
+## 3.0.0 { #v3-0-0 }
+
+<small>Released 2026-10-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9376689)</small>
+
+!!! danger "Do not use 3.0.0"
+    This jar crashes the game while it loads, in every launcher. It stays online for this changelog only: [3.0.1](#v3-0-1) replaces it and changes nothing else.
+
+<div class="changelog-body" markdown="0">
+<blockquote>
+<h4>⚠️ AkumaLib update required: 6.1.0</h4>
+<p>This version needs <strong><a href="https://www.curseforge.com/minecraft/mc-mods/akumalib">AkumaLib</a> 6.1.0</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. With an older one the game will stop on Forge's missing-dependency screen.</p>
+<p>Just replace the AkumaLib jar in your <code>mods</code> folder with the new one. On a server every player needs it too.</p>
+</blockquote>
+<p><strong>Awakened abilities follow the size of their user, and they no longer throw you off a server.</strong></p>
+<hr />
+<h3>Changes</h3>
+<ul>
+<li>Awakened abilities now follow your size. A bigger player reaches further, hits harder and throws further, a player of size 4 has 2 times the reach and the damage<ul>
+<li>Being smaller than a man takes nothing away, you keep the numbers of a man</li>
+<li>The zones made to cover a whole area keep their size whoever uses them. Ice Epoch, Meigo no Jidai, Tenchi Hokai, Sabaku no Okoku, Ever White, Gravity Zone, Smooth World, Inga Samsara, Battlefield Resonance, Resonating World and White Night</li>
+<li>The blasts of Blast Jump, Funshin, Inga Impact and Bomu Airburst grow only up to a limit</li>
+<li>The tornado of Glittering Storm grows with its user. Blocks and effects left behind stay as they are, and so does the damage shared by Iron Tether and Sanctuary</li>
+<li>The range of Eavesdrop, Iron Constitution, Overflow and Bound Hands grows with whoever has them</li>
+</ul>
+</li>
+<li><strong>At normal size nothing changes.</strong> A man of size 1 keeps every number of his awakened abilities</li>
+<li>A man in a big form also keeps the numbers of 2.4.0 on the awakened abilities of that form. Only your own size makes them grow, the form does not</li>
+<li>In a big form your plain punches and your body (hit reach, strength, attack speed) now follow the size rules of AkumaLib like the other addons, so they can feel different from 2.4.0. Your abilities do not</li>
+<li>The radius written on a zone ability now tells the radius at your size</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Playing on a server.</strong> Using an awakened ability that plays its own animation, such as Spring Fajin or Brachio Stomp, kicked you from the server. They now work as they do in singleplayer</li>
+</ul>
+<hr />
+<h3>Requirements</h3>
+<ul>
+<li>Minecraft <strong>1.20.1</strong></li>
+<li>Forge <strong>47.4.18+</strong></li>
+<li><strong>Mine Mine no Mi</strong> <code>1.20.1-0.11.6</code></li>
+<li><strong>AkumaLib</strong> <code>6.1.0+</code></li>
+</ul>
+</div>
+
 ## 2.4.0 { #v2-4-0 }
 
 <small>Released 2026-10-19 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9253422)</small>

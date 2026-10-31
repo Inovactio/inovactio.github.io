@@ -324,7 +324,7 @@ Awakened. The ground around the user grows blunt arms of mochi that close on eve
 
 ![Muso Donuts](../objects/mochi-muso-donuts.png){ .form-picture }
 
-Awakened. Rings of mochi swell in the air around the user, each one turned its own way, and stay for a while. The giant arms and the spikes of the awakening come out of the rings that stand, without a ring they can't be used
+Awakened. Rings of mochi swell in the air around the user and stay with them for a while, facing where they look. The giant arms and the spikes of the awakening come out of the rings that stand, without a ring they can't be used
 
 Used again the rings go. The longer they stood the longer the cooldown
 

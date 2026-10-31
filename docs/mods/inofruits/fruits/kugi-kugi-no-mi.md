@@ -47,7 +47,7 @@ Throws a big nail that pins the target to the ground where it stands.
 
 Applies ![](../effect-icons/nailed.png){ .effect-mini }[Nailed](../effects.md#effect-nailed)
 
-Throws a spread of small nails; each one slows the target more, and three of them pin it down.
+Throws a few small nails, each one slows the target more and 3 nails pin it to the ground.
 
 | Stat | Value |
 |---|---|
@@ -65,7 +65,7 @@ Throws a spread of small nails; each one slows the target more, and three of the
 
 Applies ![](../effect-icons/nailed.png){ .effect-mini }[Nailed](../effects.md#effect-nailed)
 
-Marks the targeted spot, then rains small nails down on it; each one slows, and three of them pin a target down.
+Marks a spot and then rains small nails on it, each one slows the target more and 3 nails pin it to the ground
 
 | Stat | Value |
 |---|---|
@@ -84,22 +84,22 @@ Marks the targeted spot, then rains small nails down on it; each one slows, and 
 
 Applies ![](../effect-icons/nailed.png){ .effect-mini }[Nailed](../effects.md#effect-nailed)
 
-Nails stand out of the user's whole body: melee attackers are hurt and keep a nail, and anything pressed against the user is hurt every second.
+Nails come out of the user's whole body, enemies hitting the user in melee are damaged and get a nail and anything touching the user is damaged every second.
 
 | Stat | Value |
 |---|---|
+| Cooldown | 16 s |
+| Hold | 10 s |
 | Damage type | Slash, Physical |
 | Element | Metal |
 | Haki | Hardening |
-| Cooldown | 16 s |
-| Hold | 10 s |
 | Damage | 2.5 |
 
 ## Kugi Dome { #kugi-dome }
 
 ![](../abilities/kugi-dome.png){ .ability-icon } *Active*
 
-The user nails their own feet to the ground: they cannot move, take no knockback and take less damage until they stop.
+The user nails their own feet to the ground, they cannot move but take no knockback and less damage until the ability ends.
 
 | Stat | Value |
 |---|---|
@@ -110,7 +110,7 @@ The user nails their own feet to the ground: they cannot move, take no knockback
 
 ![](../abilities/kuginuki.png){ .ability-icon } *Active*
 
-Rips out every nail in every body nearby at once, dealing more damage the more nails there were.
+Pulls out every nail from every nearby target at once, dealing more damage the more nails they had
 
 | Stat | Value |
 |---|---|

@@ -79,7 +79,7 @@ With the leg fibers the jump goes further and higher, and the landing hits a wid
 |---|---|
 | Damage type | Blunt, Physical |
 | Haki | Hardening |
-| Charge | 0 s |
+| Charge | 0.4 s |
 | Cooldown | 25 s |
 | Damage | 13–28 |
 | Range | 3–5 blocks (area) |

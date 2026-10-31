@@ -67,7 +67,7 @@ Puts a slider on every enemy in a wide cone in front of the user, for 10 seconds
 
 ![](../abilities/oshiage.png){ .ability-icon } *Active*
 
-Pushes up the slider on a marked ally by pulling down the user's own: the user loses speed or strength and the ally gains it.
+Pushes up the slider on a marked ally by pulling down the user's own, the user loses speed or strength and the ally gains it
 
 | Stat | Value |
 |---|---|
@@ -78,7 +78,7 @@ Pushes up the slider on a marked ally by pulling down the user's own: the user l
 
 ![](../abilities/zen-hikisage.png){ .ability-icon } *Active*
 
-Pulls the master down: every marked body around the user loses both speed and strength at once, and the user takes a share of each.
+Pulls down the sliders of every marked target around the user at once, they lose both speed and strength and the user gets a part of each.
 
 | Stat | Value |
 |---|---|

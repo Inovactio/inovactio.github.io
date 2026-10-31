@@ -2,6 +2,50 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 6.1.0 { #v6-1-0 }
+
+<small>Released 2026-10-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9375870)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>No more techniques lost at launch.</strong> On some launches, a game with several addons could quietly lose
+techniques while starting. A server then refused that player with "The following mod versions do not match", even
+with the same versions on both sides, and the next launch could be fine. It no longer happens in our tests: if a
+server still refuses you with 6.1.0, please send us your log. Skins given by addons no longer flicker, and
+a big body's waves now run as far as they are wide. No signature was removed or changed.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are optional.</p>
+<p>Same network protocol as 6.0.0 (16): a 6.1.0 game plays with a 6.0.0 server and the other way round. Update AkumaLib
+on the server and on every client all the same: the fix for refused joins works on the game that has it.</p>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>Refused by a server with the same mods on both sides.</strong> While the game starts, mods load at the same time, and an
+  addon that builds on another addon (Infusion no Mi on Missing Missing no Mi, for one) could make the game lose
+  techniques, from one to hundreds, of an addon or of Mine Mine no Mi itself. It only happened on some launches, with
+  no error. The game now keeps them all, whichever mods you have.</li>
+<li><strong>Skins that flickered.</strong> A skin an addon puts on a player (a fishman's colour, a form's skin) was drawn over yours
+  and flickered. It is now drawn instead of yours, on the body and on the first-person arm.</li>
+<li><strong>Race wings</strong> are no longer flat: they have a little thickness and stop flickering.</li>
+<li><strong>Race colours</strong> look the same on every skin. The colour is read from your cheeks and hands, whatever your
+  complexion, and dark hair is no longer taken for skin.</li>
+</ul>
+<h3>Bodies of every size</h3>
+<ul>
+<li><strong>A big body's wave runs further</strong>, not only wider. At four times a man's size, a wave runs twice as far.</li>
+<li><strong>A zone's tooltip</strong> gives the radius the zone really has at your size.</li>
+<li><strong>Techniques made for a form</strong> wait their normal cooldown and spawn at a man's size for a man in that form, as their
+  reach and damage already did.</li>
+</ul>
+<h3>For addon makers</h3>
+<ul>
+<li><strong><code>SkinSwaps</code></strong>: one skin for a player, by priority, on the body and the first-person arm. <code>ArmSkins</code> is deprecated
+  and still works.</li>
+<li><strong><code>KeptForms</code></strong>: a big form whose techniques keep a man's figures.</li>
+<li><strong><code>SizedStep</code></strong>: a step height that follows the body.</li>
+<li><strong><code>CivilianFaction.exempt</code></strong>: a sanctioned fight, where a blow on the law is no civilian's strike and ends no truce.</li>
+</ul>
+<p>An addon that uses any of these declares <code>versionRange = "[6.1.0,)"</code>. Leave the top of the range open.</p>
+</div>
+
 ## 6.0.0 { #v6-0-0 }
 
 <small>Released 2026-10-29 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9362766)</small>

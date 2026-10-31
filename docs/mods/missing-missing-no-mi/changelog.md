@@ -2,6 +2,38 @@
 
 Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/all).
 
+## 6.0.1 { #v6-0-1 }
+
+<small>Released 2026-10-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9376687)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>The Fude Fude no Mi draws with a brush, and its drawings come to life.</strong> Its dragon and its snakes now have long bodies, every drawing is painted in more detail and rises off a picture in ink on the ground. The Mochi Mochi no Mi is fixed in first person, the rings of its awakening stay with you, and the Uma, Jackal and snake hybrids no longer flicker or colour your clothes. A player of a man's size keeps the numbers he had.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 6.1.0</strong> or newer. Client and server. Curios is optional.</p>
+<p>⚠️ <strong>Servers: set <code>allow-flight=true</code></strong> in <code>server.properties</code>, as before. Several fruits fly or hover, and without it the server kicks their users.</p>
+<hr />
+<h3>Fude Fude no Mi</h3>
+<ul>
+<li><strong>You need a brush to draw.</strong> Hold the game's brush in either hand. The off hand is the good one: it leaves your main hand free for the ink weapon, which asks you to change hands when the brush is in the main hand. Without a brush the ability refuses, with a message. Dissolving a creature or putting the weapon away needs no brush. NPCs draw as before. A server can turn this off with <code>fudeFudeNeedsBrush</code> in <code>inomissing-server.toml</code>, and each tooltip says how your server is set.</li>
+<li><strong>Nobori Ryu runs on a long body.</strong> The ink dragon's ten segments follow its head down the path it took. Up a wall the body hangs down it, then comes over the top by itself. Each segment can be struck: a blow on one is a blow on the dragon.</li>
+<li><strong>The ink snakes slither to their prey</strong> and wind up round it on long bodies. They squeeze the coils in, then their heads turn to the face and lunge. Their damage has not changed.</li>
+<li><strong>Ideyo</strong>: each drawing is first traced as a picture in ink on the ground, from the head down, then rises off it while the picture fades. It used to be a dark smear.</li>
+<li><strong>More detail in the ink</strong>: scales on the dragon and the snakes, feathers on the crane, smoke and embers on the Kazenbo, washes on the cloud, strokes on the double. The ink weapon and the dango are redrawn in ink.</li>
+</ul>
+<h3>Mochi Mochi no Mi</h3>
+<ul>
+<li><strong>Mochi Hadan</strong>: the Gatling turns in first person too.</li>
+<li><strong>Mochi Tsuki</strong>: in first person you now see the twisted arm and your weapon stretch out towards the crosshair.</li>
+<li><strong>Zan Giri Mochi</strong>: the roll goes its whole 8 blocks even on a slow connection, so it reaches the enemy before the sweep. In first person your hand is hidden during the roll and the spiked arm is smaller, so you can see.</li>
+<li><strong>Muso Donuts</strong>: the rings of the awakening go where you go and face where you look. They used to stay where they rose, turned every which way.</li>
+</ul>
+<h3>Hybrids</h3>
+<ul>
+<li><strong>King Cobra, Anaconda, Uma and Jackal</strong>: the skin no longer flickers.</li>
+<li><strong>Uma and Jackal</strong>: only your skin takes the colour. Your clothes and hair keep theirs.</li>
+<li>A fishman of Race Race no Mi in a King Cobra or Anaconda hybrid wears the snake's skin, then his own colour again when he leaves the form.</li>
+</ul>
+</div>
+
 ## 6.0.0 { #v6-0-0 }
 
 <small>Released 2026-10-29 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9362909)</small>

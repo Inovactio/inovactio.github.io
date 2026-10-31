@@ -15,7 +15,7 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **0.1.0** (beta) |
+| Version documented | **0.1.1** (beta) |
 | Mod id | `racenomi` |
 | Configuration | [Server settings](configuration.md) |
 | Changelog | [Every release](changelog.md) |
@@ -52,7 +52,7 @@ The sky people's and the giants' techniques sit in a branch of their own in the 
 | Minecraft | 1.20.1 |
 | Forge | 47.4.18 or later |
 | Mine Mine no Mi | 0.11.6 |
-| [AkumaLib](../../akumalib/index.md) | 6.0.0 or later |
+| [AkumaLib](../../akumalib/index.md) | 6.1.0 or later |
 | [Sky Island](../sky-island/index.md) | optional: the sky people are at their strongest in Skypiea |
 
 Needed on both the client and the server.

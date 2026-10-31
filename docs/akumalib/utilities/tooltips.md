@@ -23,7 +23,7 @@ Adds an "Explosion" heading followed by power, size and damage lines. Each line 
 
 | Method | Shows |
 |---|---|
-| `getZoneRadiusTooltip(maxRadius)` | the largest radius the zone reaches, in blocks |
+| `getZoneRadiusTooltip(maxRadius)` | the largest radius the zone reaches, in blocks; since 6.1.0, at the size of the body reading it (a giant sees the 128 a written 64 becomes), a man's line untouched |
 | `getEffectTickTooltip(ticks)` | how often the zone applies its effect, in seconds |
 
 Both lines are skipped for a value of `0` or less.

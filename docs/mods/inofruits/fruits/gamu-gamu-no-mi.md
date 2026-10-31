@@ -77,7 +77,7 @@ Sticky gum on the feet lets the user climb walls and hang from ceilings.
 
 ![](../abilities/hanekaeshi.png){ .ability-icon } *Active*
 
-Stretches a sheet of gum in the air in front of the user: every projectile that hits it bounces back at whoever threw it.
+Stretches a sheet of gum in front of the user, every projectile that hits it bounces back at whoever threw it.
 
 | Stat | Value |
 |---|---|

@@ -48,9 +48,11 @@ A fishman player wears their sub-race's features over their own skin, and the sk
 
 | Sub-race | Skin | Features |
 |---|---|---|
-| Saw-shark (Arlong's) | pale steel blue | a muzzle with a long drooping rostrum and its saw of teeth, gill slits, a dorsal fin in two parts curving back, small fins on the forearms |
+| Saw-shark (Arlong's) | pale steel blue | a muzzle with a long drooping rostrum and its saw of teeth on both sides, gills, a dorsal fin in two parts curving back, small fins on the forearms |
 | Ray (Kuroobi's) | slate | broad fins along the arms that ripple as he runs, lobes at the temples, a crest, a ray's tail with its barb, swaying |
-| Garfish | sea green | two long thin jaws, gill slits, a dorsal fin in two parts, small fins on the forearms |
+| Garfish | sea green | two long thin jaws, gills, a dorsal fin in two parts, small fins on the forearms |
+
+Fins, lobes, crest and tail are slabs with some thickness, and the gills small ridges on the neck. In another mod's form that has its own skin, such as Missing Missing no Mi's King Cobra hybrid, a fishman wears the form's skin, then their fishman colour again on leaving it.
 
 The features take the skin colour picked in the character creator, if any. A slim (Alex) skin gets its arm fins moved onto its narrower arms. The pictures above are drawn on Steve's skin.
 

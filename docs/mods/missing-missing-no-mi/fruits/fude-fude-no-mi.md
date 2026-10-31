@@ -20,11 +20,14 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 !!! note "About the values"
     The values are those of the ability's tooltip in game, with the base mod's default settings. Damage is shown on the base mod's scale, as in the ability screen.
 
+!!! info "You need a brush to draw"
+    Hold the game's brush in either hand, or the ability refuses, with a message. The off hand is the good one: it leaves your main hand free for the Ink Weapon, which asks you to change hands when the brush is in the main hand. Dissolving a creature or putting the weapon away needs no brush, and NPCs draw without one. A server can turn the rule off with `fudeFudeNeedsBrush` in `inomissing-server.toml`, and each tooltip says how your server is set.
+
 ## Ink { #ink }
 
 ![](../abilities/ink.png){ .ability-icon } *Passive*
 
-The user's body makes ink, and what they draw with it becomes real. Every drawing is first traced flat on the ground, then comes to life after a short moment.
+The user's body makes ink, and what they draw with it becomes real. Every drawing is first traced flat on the ground as a picture in ink, from the head down, then rises off it after a short moment while the picture fades.
 
 A living drawing holds a part of the user's ink until it dissolves. Drawings dissolve in water
 
@@ -52,6 +55,8 @@ Using the ability again dissolves the crane. It also dissolves in water
 The user draws a long dragon of ink on the ground in front of them. After a short moment it comes to life with the user on its back, for 60 seconds at most. It can't fly, but it climbs any wall it is ridden against.
 
 Using the ability again dissolves the dragon. It also dissolves in water
+
+The dragon runs on a long body: its ten segments follow the head down the path it took. Up a wall the body hangs down it, then comes over the top by itself. Each segment can be struck, and a blow on one is a blow on the dragon.
 
 | Stat | Value |
 |---|---|
@@ -153,6 +158,8 @@ Gives 3 **Ink Dango**: each feeds like bread and gives a short nausea, anybody c
 The user draws 2 snakes of ink on the ground under the enemy they are looking at. After a short moment the snakes come to life and coil around the nearest enemy, it can't move and is squeezed 4 times.
 
 The snakes let go in water
+
+They slither to their prey and wind up round it on long bodies, squeeze the coils in, then turn their heads to its face and lunge.
 
 | Stat | Value |
 |---|---|

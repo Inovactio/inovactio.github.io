@@ -99,3 +99,4 @@ The user slides on honey under their feet, leaving a sticky trail behind
 | Cooldown | 10 s |
 | Hold | 1 s |
 | Damage | 6 |
+| Step Height | +1.5 |

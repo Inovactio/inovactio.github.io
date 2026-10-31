@@ -61,37 +61,37 @@ Applies ![](../effect-icons/war-paint.png){ .effect-mini }[War Paint](../effects
 
 Paints the user for battle, giving a different bonus for each of the 16 colors.
 
-White: +2 toughness.
+White gives +2 toughness
 
-Orange: immune to fire.
+Orange makes the user immune to fire
 
-Magenta: +0.3 knockback resistance.
+Magenta gives +0.3 knockback resistance
 
-Light Blue: +30% jump height.
+Light Blue gives +30% jump height
 
-Yellow: +4 armour.
+Yellow gives +4 armour
 
-Lime: never hungry.
+Lime stops the user from getting hungry
 
-Pink: +4 max health.
+Pink gives +4 max health
 
-Gray: +8 fall resistance.
+Gray gives +8 fall resistance
 
-Light Gray: haste.
+Light Gray gives haste
 
-Cyan: +20% attack speed.
+Cyan gives +20% attack speed
 
-Purple: +2 luck.
+Purple gives +2 luck
 
-Blue: +15% movement speed.
+Blue gives +15% movement speed
 
-Brown: +0.3 friction.
+Brown gives +0.3 friction
 
-Green: double natural regeneration.
+Green doubles the natural regeneration
 
-Red: +2 punch damage.
+Red gives +2 punch damage
 
-Black: night vision.
+Black gives night vision
 
 | Stat | Value |
 |---|---|

@@ -22,6 +22,10 @@ AkumaLib corrects faults of Mine Mine no Mi itself, for every mod that uses it a
 
 The sections below describe the older fixes in detail.
 
+## Registrations lost while mods load
+
+*Since 6.1.0.* Always on: it runs before any config is read. Forge keeps a deferred register's entries in a plain `LinkedHashMap`, and a class that registers an ability can load on any mod's thread while Forge builds the mods. Two puts together cut its links, and every entry behind the cut never reaches the game, with no error, on about one launch in twenty or thirty. The client is then refused by any server ("The following mod versions do not match"). `DeferredRegisterMixin` makes it one put at a time.
+
 ## Structure spawner mobs in walls
 
 *Since 2.8.0.* `fixStructureSpawnerPlacement`, on by default.

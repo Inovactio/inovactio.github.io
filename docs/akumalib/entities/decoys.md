@@ -95,7 +95,14 @@ A tint multiplies colours: a red shirt in "stone" stays a dark red. `RecolouredS
 
 ### A colour laid on the skin: `tinted`
 
-`RecolouredSkins.tinted(player, name, tint)` lays a colour on the skin instead, keeping its light and shade: a race's skin colour, a hybrid's scales. Draw the texture it gives over the player's own model from a render layer, and register the same for the first-person arm with `ArmSkins` (see First-person limbs).
+`RecolouredSkins.tinted(player, name, tint)` lays a colour on the skin instead, keeping its light and shade: a race's skin colour, a hybrid's scales. Draw the player in the texture it gives INSTEAD of the skin, never with a layer drawing the model a second time over the first (the two copies flicker): register it with `SkinSwaps`, and AkumaLib draws the player's model and his first-person arm in it (see First-person limbs).
+
+```java
+// client setup; null = the player's own skin
+SkinSwaps.register(SkinSwaps.RACE, player -> isFishman(player) ? RecolouredSkins.tinted(player, "mymod/fishman", FISHMAN) : null);
+```
+
+One skin wins: the first non-null answer of the highest priority. `SkinSwaps.FORM` (a hybrid's scales, while the form lasts) is above `SkinSwaps.RACE` (a race's colour, all the time): a fishman in a half-snake's hybrid is drawn in the snake's scales, laid on his own skin, and in his fishman's colour again when he leaves the form. Same priority: the first registered.
 
 ```java
 // every skin-coloured pixel in a sea green; hair, eyes, mouth and clothes keep theirs
@@ -106,7 +113,9 @@ RecolouredSkins.tinted(player, "mymod/king_cobra",
         new RecolouredSkins.SkinTint(0xECD678, new ResourceLocation("mymod", "textures/skin_mask.png"), 0x96782E, true));
 ```
 
-`skinOnly` keeps the colour to the pixels close to the face's own (the cheeks and forehead are sampled); the lines stay everywhere. The copy is 256 px, room for a mask finer than the skin. A legacy 64 x 32 skin cannot be tinted: it answers null, and is not read back again.
+The skin's own tone is found on the cheeks and under both hands, where eyes, mouths, beards and hair never are: the commonest colour there, a colourless one (an eye, black hair, white paint) counting half. Each pixel then takes the colour times its own light against that tone, so the tone itself becomes exactly the colour asked, and its shades stay as much darker or lighter as they were: a sea green comes out the same sea green on a pale skin and on a dark one.
+
+`skinOnly` keeps the colour to the pixels close to that tone; the bounds of "close" shrink with a dark tone, whose hair is only a few steps from it. The lines stay everywhere. The copy is 256 px, room for a mask finer than the skin. A legacy 64 x 32 skin cannot be tinted: it answers null, and is not read back again.
 
 ## A body that is not a decoy
 
