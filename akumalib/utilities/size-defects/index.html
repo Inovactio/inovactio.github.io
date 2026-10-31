@@ -4237,6 +4237,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4297,6 +4301,34 @@
     
   
     Fugu Fugu no Mi, Model: Pufferfish
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/hebi-hebi-no-mi-model-hydra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hebi Hebi no Mi, Model: Hydra
   
 
     
@@ -4493,6 +4525,34 @@
     
   
     Nezu Nezu no Mi, Model: Rat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/tori-tori-no-mi-model-griffon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tori Tori no Mi, Model: Griffon
   
 
     
@@ -13630,7 +13690,7 @@ of these symptoms, use the shared fix named here instead of writing a new one.</
 <td>6</td>
 <td>A technique climbs only one block for a big body (Koro Koro's Wheels)</td>
 <td>a fixed <code>STEP_HEIGHT_ADDITION</code></td>
-<td><code>SizedStep</code> (Missing): the step x SIZE</td>
+<td><code>SizedStep</code>: the step x SIZE</td>
 <td>Missing #906, 7 abilities</td>
 </tr>
 <tr>
@@ -13882,7 +13942,7 @@ of these symptoms, use the shared fix named here instead of writing a new one.</
 <td>54</td>
 <td>A big body in a form climbs only a man's step (Hebi Hebi's Anaconda, King Cobra and Orochi forms)</td>
 <td>a form's <code>MorphStats.stepHeight</code> is not grown by the size; only AkumaLib's floor for big bodies (a quarter of the height) applies, far under a long low form's need</td>
-<td>the form's step x SIZE as a technique's (row 6): <code>SizedStep.follow</code> (Missing) puts what it adds past the form's figure on a modifier of its own, set each tick while the form stands</td>
+<td>the form's step x SIZE as a technique's (row 6): <code>SizedStep.follow</code> puts what it adds past the form's figure on a modifier of its own, set each tick while the form stands</td>
 <td>Missing #1000</td>
 </tr>
 <tr>
@@ -13933,6 +13993,34 @@ of these symptoms, use the shared fix named here instead of writing a new one.</
 <td>the lowered box (<code>EntityEvent.Size</code>) wrote a fixed height and eyes; only the width came from the grown box</td>
 <td>a lowered box's height and eyes x what the raised box grew by (its width over a man's); the room to raise itself is its own raised box</td>
 <td>Missing #1020</td>
+</tr>
+<tr>
+<td>62</td>
+<td>A man in a big form waits longer for an ability made for that form, and its shots come out grown (Awaken's Titan Smash: x1.5 cooldown, its projectile x2.57 for a man in Titan), while its reach and damage stay his</td>
+<td><code>cooldownFactor</code> and <code>AkumaSpawnSize</code> read the whole body, the form's share in it, where <code>size_form_made</code> takes it out everywhere else</td>
+<td>both read <code>playSize(entity, core)</code>: SIZE alone for an ability made for its form</td>
+<td>AkumaLib (this fix); Awaken #594</td>
+</tr>
+<tr>
+<td>63</td>
+<td>A zone's tooltip shows a man's radius to a giant (Awaken's zones: 64 written, 128 in play)</td>
+<td><code>AwakenTooltipHelper.getZoneRadiusTooltip</code> printed its figure, while <code>ZoneAbility</code> and <code>SpreadingBlockAbility</code> grow it</td>
+<td>the line goes through <code>SizeTooltips.range</code> and <code>line</code> as soon as the body grows; a man's line is untouched</td>
+<td>AkumaLib (this fix); Awaken #594</td>
+</tr>
+<tr>
+<td>64</td>
+<td>A man in a big full Zoan hits and reaches further than the kit says (InoFruits' Isa Guard, Hydra Guard, Griffon Fly)</td>
+<td>a full form's height counts in the size, so every technique grows by it, already at SIZE 1</td>
+<td><code>KeptForms.keep</code>: the body follows the form, the form's share is taken out of hits, reaches and melee (moved from Missing's <code>FormSize</code>)</td>
+<td></td>
+</tr>
+<tr>
+<td>65</td>
+<td>A giant's wave stops as a man's does (InoFruits' Jibashiri; Missing's Net Surfing, Cream Wave, Doro Nami, Great Wave)</td>
+<td><code>WaveAbility</code> grew the wave's width, not the crest's speed</td>
+<td>the crest's step grows by the same factor as the width</td>
+<td></td>
 </tr>
 </tbody>
 </table>

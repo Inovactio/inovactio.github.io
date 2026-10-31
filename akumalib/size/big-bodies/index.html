@@ -4237,6 +4237,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4297,6 +4301,34 @@
     
   
     Fugu Fugu no Mi, Model: Pufferfish
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/hebi-hebi-no-mi-model-hydra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hebi Hebi no Mi, Model: Hydra
   
 
     
@@ -4493,6 +4525,34 @@
     
   
     Nezu Nezu no Mi, Model: Rat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/tori-tori-no-mi-model-griffon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tori Tori no Mi, Model: Griffon
   
 
     
@@ -13433,7 +13493,7 @@
 <h1 id="bodies-taller-than-a-man">Bodies taller than a man<a class="headerlink" href="#bodies-taller-than-a-man" title="Permanent link">&para;</a></h1>
 <p>For players and the creatures of <code>akumalib:size_followers</code>, once the body is taller than a man (<code>BigBodies</code>):</p>
 <ul>
-<li><strong>Step height</strong>: a quarter of the standing height, never under what the body steps already and never over 6 blocks (a 12-block giant: 3; a body x50, 90 high: 6). <code>sizeSystem.stepHeight</code>. Walking speed and jump: below.</li>
+<li><strong>Step height</strong>: a quarter of the standing height, never under what the body steps already and never over 6 blocks (a 12-block giant: 3; a body x50, 90 high: 6). <code>sizeSystem.stepHeight</code>. Walking speed and jump: below. <em>Since 6.1.0,</em> a step a kit adds to its user follows the body through <code>SizedStep</code>: <code>SizedStep.of(entity, stepUp)</code> for a technique's <code>STEP_HEIGHT_ADDITION</code> ((a man's own 0.6 + stepUp) x <code>SizeScale.outsideForm</code>, less 0.6: as written at SIZE 1), <code>SizedStep.follow(continuity, formStep, id, name)</code> for a form's <code>MorphStats.stepHeight</code> while it stands.</li>
 <li><strong>Walk, jump, fall and health</strong> (<code>[sizeSystem]</code> <code>body</code>, #673 / #674, figures chosen by the maintainer 2026-10-26; <code>SizeBodyStats</code>): by the <code>SIZE</code> attribute alone (a race, an effect, a form declared in <a href="../forms/"><code>FormSizes</code></a>), not the height of a form, since the base mod's forms declare their own and those add. Walking and running speed divided by size^(1/12), by 1.25 at most, and the same off the ground: the steering of a jump or a flight (<code>LivingEntityAirSpeedSizeMixin</code>), and the base mod's push forward of a sprint jump higher than a man's lifts only for the share the size gives (<code>AttributesHandlerJumpSizeMixin</code>; a form's own jump still pushes, / the same factor): a giant x4 sprint-jumped at 11.2 blocks a second, 2.5 times his sprint, now 5.7 for a 5.0 sprint (maintainer 2026-10-28: a big body is slower than a man; it replaces / size^(1/6) up to / 1.5, ground only, and before it x size^⅓ up to x2); jump 1.25 blocks x size up to 10 (the base mod's <code>JUMP_HEIGHT</code>); fall without harm 3 blocks x size up to 30 (<code>FALL_RESISTANCE</code>); max health x √size up to x3, Doriki and forms included. SIZE 1 / 2 / 4 / 6.667 / 10: walk 4.3 / 4.1 / 3.8 / 3.7 / 3.5 blocks a second (run x1.3 of it), jump 1.25 / 2.5 / 5 / 10, safe fall 3 / 6 / 12 / 30, health x1 / 1.41 / 2 / 3. Health keeps its share when the size changes (15/20 grown x2 is 30/40: no heal by growing, no death by shrinking) and is saved with the player. Each curve in the config (<code>walkSlowExponent</code>, <code>walkSlowCeiling</code>, <code>jumpExponent</code>, ...). The walk's divisor takes the whole speed (<code>MULTIPLY_TOTAL</code>): the run, a form's own speed and the effects with it. The movements of abilities (dashes, leaps, charges, <code>akumalib:size_moves</code>) keep their own curve, and swimming is not touched. A man and a smaller body as before. Bane Bane's springs bounce as a man's at every size (maintainer, 2026-10-28): while Spring Hopper's spring is on the jump (<code>SizeBodyStats.OWN_JUMP</code>), the size adds no jump and divides neither the jump's push forward nor the steering in the air; its body and damage still grow.</li>
 <li><strong>Regeneration and sturdiness</strong> (<code>[sizeSystem]</code> <code>body</code>, maintainer 2026-10-27, the giant at SIZE 4 is "x2"): by the <code>SIZE</code> attribute alone, as the health. Each heal of the natural regeneration (a full stomach every 4 s, saturation every half second; <code>SizeRegen</code>) x √size up to x3 (<code>regenExponent</code>, <code>regenCeiling</code>), at the same rhythm and for the same hunger: potions and abilities heal as before. Every push the body takes (the knockback of a blow or a hit, and the pushes of <code>akumalib:size_pushes</code>; <code>SizeKnockback</code>) divided by √size up to 3 (<code>sturdinessExponent</code>, <code>sturdinessCeiling</code>): a giant x4 flies half as far. A division, not the knockback resistance attribute, which adds up to 1 and would cancel every push. A giant x4 hitting a giant x4 pushes x2 / 2: as a man pushes a man. SIZE 1 / 2 / 4 / 6.667 / 10: heal and sturdiness x1 / 1.41 / 2 / 2.58 / 3.</li>
 <li><strong>Spotted from farther</strong> (<code>[sizeSystem]</code> <code>spotted</code>, <code>spottedExponent</code>, <code>spottedCeiling</code>; <code>SizeSpotted</code>): by the <code>SIZE</code> attribute alone, √size up to x3. Its visibility to mobs is multiplied by the factor (a mob spots a target within its follow range x the target's visibility: a zombie, 35 blocks, spots a giant x4 at 70), and a mob that takes it as its target gets its follow range x the factor while it keeps it, so it does not drop it at once nor stop its path short. Sneaking and invisibility still divide it.</li>

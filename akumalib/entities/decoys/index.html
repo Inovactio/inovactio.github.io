@@ -4237,6 +4237,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4297,6 +4301,34 @@
     
   
     Fugu Fugu no Mi, Model: Pufferfish
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/hebi-hebi-no-mi-model-hydra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hebi Hebi no Mi, Model: Hydra
   
 
     
@@ -4493,6 +4525,34 @@
     
   
     Nezu Nezu no Mi, Model: Rat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/tori-tori-no-mi-model-griffon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tori Tori no Mi, Model: Griffon
   
 
     
@@ -13719,25 +13779,30 @@
 <p>A tint multiplies colours: a red shirt in "stone" stays a dark red. <code>RecolouredSkins.of(player, name, matter)</code> reads the skin back once, gives every pixel to <code>matter</code> and keeps the result as a texture of its own, so a red shirt becomes a pale one of the new matter.</p>
 <p><code>name</code> is the folder the textures are kept under: start it with your mod id (<code>"mymod/stone"</code>), so that two addons never share one. Call it on the render thread; it answers null for anything that is not a client player.</p>
 <h3 id="a-colour-laid-on-the-skin-tinted">A colour laid on the skin: <code>tinted</code><a class="headerlink" href="#a-colour-laid-on-the-skin-tinted" title="Permanent link">&para;</a></h3>
-<p><code>RecolouredSkins.tinted(player, name, tint)</code> lays a colour on the skin instead, keeping its light and shade: a race's skin colour, a hybrid's scales. Draw the texture it gives over the player's own model from a render layer, and register the same for the first-person arm with <code>ArmSkins</code> (see First-person limbs).</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1">// every skin-coloured pixel in a sea green; hair, eyes, mouth and clothes keep theirs</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">RecolouredSkins</span><span class="p">.</span><span class="na">tinted</span><span class="p">(</span><span class="n">player</span><span class="p">,</span><span class="w"> </span><span class="s">"mymod/fishman"</span><span class="p">,</span><span class="w"> </span><span class="n">RecolouredSkins</span><span class="p">.</span><span class="na">SkinTint</span><span class="p">.</span><span class="na">skin</span><span class="p">(</span><span class="mh">0x8CBAA2</span><span class="p">));</span>
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
-<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1">// through a mask laid out as a player skin: red = how much of the colour, green = a scale line in 0x96782E</span>
-<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">RecolouredSkins</span><span class="p">.</span><span class="na">tinted</span><span class="p">(</span><span class="n">player</span><span class="p">,</span><span class="w"> </span><span class="s">"mymod/king_cobra"</span><span class="p">,</span>
-<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">        </span><span class="k">new</span><span class="w"> </span><span class="n">RecolouredSkins</span><span class="p">.</span><span class="na">SkinTint</span><span class="p">(</span><span class="mh">0xECD678</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="s">"mymod"</span><span class="p">,</span><span class="w"> </span><span class="s">"textures/skin_mask.png"</span><span class="p">),</span><span class="w"> </span><span class="mh">0x96782E</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">));</span>
+<p><code>RecolouredSkins.tinted(player, name, tint)</code> lays a colour on the skin instead, keeping its light and shade: a race's skin colour, a hybrid's scales. Draw the player in the texture it gives INSTEAD of the skin, never with a layer drawing the model a second time over the first (the two copies flicker): register it with <code>SkinSwaps</code>, and AkumaLib draws the player's model and his first-person arm in it (see First-person limbs).</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1">// client setup; null = the player's own skin</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">SkinSwaps</span><span class="p">.</span><span class="na">register</span><span class="p">(</span><span class="n">SkinSwaps</span><span class="p">.</span><span class="na">RACE</span><span class="p">,</span><span class="w"> </span><span class="n">player</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">isFishman</span><span class="p">(</span><span class="n">player</span><span class="p">)</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="n">RecolouredSkins</span><span class="p">.</span><span class="na">tinted</span><span class="p">(</span><span class="n">player</span><span class="p">,</span><span class="w"> </span><span class="s">"mymod/fishman"</span><span class="p">,</span><span class="w"> </span><span class="n">FISHMAN</span><span class="p">)</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">);</span>
 </code></pre></div>
-<p><code>skinOnly</code> keeps the colour to the pixels close to the face's own (the cheeks and forehead are sampled); the lines stay everywhere. The copy is 256 px, room for a mask finer than the skin. A legacy 64 x 32 skin cannot be tinted: it answers null, and is not read back again.</p>
+<p>One skin wins: the first non-null answer of the highest priority. <code>SkinSwaps.FORM</code> (a hybrid's scales, while the form lasts) is above <code>SkinSwaps.RACE</code> (a race's colour, all the time): a fishman in a half-snake's hybrid is drawn in the snake's scales, laid on his own skin, and in his fishman's colour again when he leaves the form. Same priority: the first registered.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1">// every skin-coloured pixel in a sea green; hair, eyes, mouth and clothes keep theirs</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">RecolouredSkins</span><span class="p">.</span><span class="na">tinted</span><span class="p">(</span><span class="n">player</span><span class="p">,</span><span class="w"> </span><span class="s">"mymod/fishman"</span><span class="p">,</span><span class="w"> </span><span class="n">RecolouredSkins</span><span class="p">.</span><span class="na">SkinTint</span><span class="p">.</span><span class="na">skin</span><span class="p">(</span><span class="mh">0x8CBAA2</span><span class="p">));</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c1">// through a mask laid out as a player skin: red = how much of the colour, green = a scale line in 0x96782E</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="n">RecolouredSkins</span><span class="p">.</span><span class="na">tinted</span><span class="p">(</span><span class="n">player</span><span class="p">,</span><span class="w"> </span><span class="s">"mymod/king_cobra"</span><span class="p">,</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">        </span><span class="k">new</span><span class="w"> </span><span class="n">RecolouredSkins</span><span class="p">.</span><span class="na">SkinTint</span><span class="p">(</span><span class="mh">0xECD678</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="s">"mymod"</span><span class="p">,</span><span class="w"> </span><span class="s">"textures/skin_mask.png"</span><span class="p">),</span><span class="w"> </span><span class="mh">0x96782E</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">));</span>
+</code></pre></div>
+<p>The skin's own tone is found on the cheeks and under both hands, where eyes, mouths, beards and hair never are: the commonest colour there, a colourless one (an eye, black hair, white paint) counting half. Each pixel then takes the colour times its own light against that tone, so the tone itself becomes exactly the colour asked, and its shades stay as much darker or lighter as they were: a sea green comes out the same sea green on a pale skin and on a dark one.</p>
+<p><code>skinOnly</code> keeps the colour to the pixels close to that tone; the bounds of "close" shrink with a dark tone, whose hair is only a few steps from it. The lines stay everywhere. The copy is 256 px, room for a mask finer than the skin. A legacy 64 x 32 skin cannot be tinted: it answers null, and is not read back again.</p>
 <h2 id="a-body-that-is-not-a-decoy">A body that is not a decoy<a class="headerlink" href="#a-body-that-is-not-a-decoy" title="Permanent link">&para;</a></h2>
 <p><code>PlayerCopyRenderer</code> draws any <code>Mob</code> that implements <code>PlayerCopy</code>, not only a decoy: a body its player left behind, a double that stays when he leaves the game. Give it the two answers the interface asks, synced and saved:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">LeftBody</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">Mob</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">PlayerCopy</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">EntityDataAccessor</span><span class="o">&lt;</span><span class="n">Optional</span><span class="o">&lt;</span><span class="n">UUID</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">OWNER</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">...;</span>
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">EntityDataAccessor</span><span class="o">&lt;</span><span class="n">CompoundTag</span><span class="o">&gt;</span><span class="w"> </span><span class="n">PROFILE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">...;</span><span class="w">   </span><span class="c1">// PlayerCopy.write(player.getGameProfile())</span>
-<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
-<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">    </span><span class="nd">@Override</span><span class="w"> </span><span class="kd">public</span><span class="w"> </span><span class="n">UUID</span><span class="w"> </span><span class="nf">getMaker</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">entityData</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">OWNER</span><span class="p">).</span><span class="na">orElse</span><span class="p">(</span><span class="kc">null</span><span class="p">);</span><span class="w"> </span><span class="p">}</span>
-<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">    </span><span class="nd">@Override</span><span class="w"> </span><span class="kd">public</span><span class="w"> </span><span class="n">GameProfile</span><span class="w"> </span><span class="nf">getMakerProfile</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">PlayerCopy</span><span class="p">.</span><span class="na">read</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">entityData</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">PROFILE</span><span class="p">));</span><span class="w"> </span><span class="p">}</span>
-<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">LeftBody</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">Mob</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">PlayerCopy</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">EntityDataAccessor</span><span class="o">&lt;</span><span class="n">Optional</span><span class="o">&lt;</span><span class="n">UUID</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">OWNER</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">...;</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">EntityDataAccessor</span><span class="o">&lt;</span><span class="n">CompoundTag</span><span class="o">&gt;</span><span class="w"> </span><span class="n">PROFILE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">...;</span><span class="w">   </span><span class="c1">// PlayerCopy.write(player.getGameProfile())</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">    </span><span class="nd">@Override</span><span class="w"> </span><span class="kd">public</span><span class="w"> </span><span class="n">UUID</span><span class="w"> </span><span class="nf">getMaker</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">entityData</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">OWNER</span><span class="p">).</span><span class="na">orElse</span><span class="p">(</span><span class="kc">null</span><span class="p">);</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">    </span><span class="nd">@Override</span><span class="w"> </span><span class="kd">public</span><span class="w"> </span><span class="n">GameProfile</span><span class="w"> </span><span class="nf">getMakerProfile</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">PlayerCopy</span><span class="p">.</span><span class="na">read</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">entityData</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">PROFILE</span><span class="p">));</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="p">}</span>
 </code></pre></div>
 <p>The skin is found in that order: the player himself when this client sees him, the list of players in the game (everyone online, wherever they are), the skin written in the carried profile (a player who has left; only a server that checks accounts knows it), then the default skin of his id. <code>PlayerSkins.skin(profile, id)</code> and <code>PlayerSkins.slim(profile, id)</code> give the last three to a renderer of your own.</p>
 

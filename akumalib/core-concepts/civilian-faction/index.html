@@ -4237,6 +4237,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4297,6 +4301,34 @@
     
   
     Fugu Fugu no Mi, Model: Pufferfish
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/hebi-hebi-no-mi-model-hydra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hebi Hebi no Mi, Model: Hydra
   
 
     
@@ -4493,6 +4525,34 @@
     
   
     Nezu Nezu no Mi, Model: Rat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/tori-tori-no-mi-model-griffon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tori Tori no Mi, Model: Griffon
   
 
     
@@ -10234,6 +10294,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#a-sanctioned-fight" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A sanctioned fight
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-marine-recruiter" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -13514,6 +13585,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#a-sanctioned-fight" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A sanctioned fight
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-marine-recruiter" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -13667,6 +13749,12 @@ and circled him for ever: now they leave a civilian alone. The theft that turns 
 </code></pre></div>
 <p>Call it once for each weapon taken, and once per window opened for the rest, as AkumaLib does for Marine
 chests. <code>CivilianFaction.isCivilian(entity)</code> tells whether a player or an NPC is a civilian.</p>
+<h2 id="a-sanctioned-fight">A sanctioned fight<a class="headerlink" href="#a-sanctioned-fight" title="Permanent link">&para;</a></h2>
+<p><em>Since 6.1.0.</em> A blow on the law in a fight an addon sanctions, a colosseum's bout for one, is no crime: no strike toward turning pirate, and no end of a pirate's <a href="#back-to-civilian-life">truce</a>. Declare those fights once, at set up:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// The player striking, the one struck. True: this blow is part of a sanctioned fight.</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">CivilianFaction</span><span class="p">.</span><span class="na">exempt</span><span class="p">((</span><span class="n">player</span><span class="p">,</span><span class="w"> </span><span class="n">target</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">MyArena</span><span class="p">.</span><span class="na">inBout</span><span class="p">(</span><span class="n">player</span><span class="p">,</span><span class="w"> </span><span class="n">target</span><span class="p">));</span>
+</code></pre></div>
+<p><code>CivilianFaction.exempt(player, target)</code> tells whether a given blow is one.</p>
 <h2 id="the-marine-recruiter">The Marine recruiter<a class="headerlink" href="#the-marine-recruiter" title="Permanent link">&para;</a></h2>
 <p><em>Since 5.1.0.</em> A recruiter stands at the front desk of Mine Mine no Mi's small and large Marine bases, old
 worlds included: he appears when a player walks into the base. He does not move, fight or get hurt. His window
@@ -13700,10 +13788,10 @@ window two buttons:</p>
 </ul>
 <h2 id="adding-to-a-pirates-window">Adding to a pirate's window<a class="headerlink" href="#adding-to-a-pirates-window" title="Permanent link">&para;</a></h2>
 <p>An addon offers its own choices to a pirate at the recruiter's desk. Register them once, at set up:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// Called on the server each time a pirate opens the window: return only what applies to them now.</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">MarineRecruiter</span><span class="p">.</span><span class="na">addPirateOptions</span><span class="p">(</span><span class="n">pirate</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">        </span><span class="k">new</span><span class="w"> </span><span class="n">MarineRecruiter</span><span class="p">.</span><span class="na">Option</span><span class="p">(</span><span class="s">"yourmodid:pardon"</span><span class="p">,</span><span class="w"> </span><span class="n">label</span><span class="p">,</span><span class="w"> </span><span class="n">tooltip</span><span class="p">,</span><span class="w"> </span><span class="kd">open</span><span class="p">,</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">                </span><span class="n">asked</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">reply</span><span class="p">)));</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">// Called on the server each time a pirate opens the window: return only what applies to them now.</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">MarineRecruiter</span><span class="p">.</span><span class="na">addPirateOptions</span><span class="p">(</span><span class="n">pirate</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">        </span><span class="k">new</span><span class="w"> </span><span class="n">MarineRecruiter</span><span class="p">.</span><span class="na">Option</span><span class="p">(</span><span class="s">"yourmodid:pardon"</span><span class="p">,</span><span class="w"> </span><span class="n">label</span><span class="p">,</span><span class="w"> </span><span class="n">tooltip</span><span class="p">,</span><span class="w"> </span><span class="kd">open</span><span class="p">,</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">                </span><span class="n">asked</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">reply</span><span class="p">)));</span>
 </code></pre></div>
 <p>An <code>Option</code> is a button: its id, its label, its tooltip, and whether it may be pressed. One that may not is greyed,
 its tooltip saying why. <code>choose</code> (the last argument) does what the button says, on the server, and returns what the

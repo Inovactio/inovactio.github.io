@@ -4237,6 +4237,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4297,6 +4301,34 @@
     
   
     Fugu Fugu no Mi, Model: Pufferfish
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/hebi-hebi-no-mi-model-hydra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hebi Hebi no Mi, Model: Hydra
   
 
     
@@ -4493,6 +4525,34 @@
     
   
     Nezu Nezu no Mi, Model: Rat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/tori-tori-no-mi-model-griffon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tori Tori no Mi, Model: Griffon
   
 
     
@@ -12093,10 +12153,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#a-skin-on-the-arm-armskins" class="md-nav__link">
+  <a href="#a-skin-on-the-arm-skinswaps" class="md-nav__link">
     <span class="md-ellipsis">
       
-        A skin on the arm: ArmSkins
+        A skin on the arm: SkinSwaps
       
     </span>
   </a>
@@ -13448,10 +13508,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#a-skin-on-the-arm-armskins" class="md-nav__link">
+  <a href="#a-skin-on-the-arm-skinswaps" class="md-nav__link">
     <span class="md-ellipsis">
       
-        A skin on the arm: ArmSkins
+        A skin on the arm: SkinSwaps
       
     </span>
   </a>
@@ -13612,12 +13672,12 @@
 <a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="p">}</span>
 </code></pre></div>
 <p><code>ArmCoating</code> answers which overlay the base mod shows on a limb: <code>onMainArm(entity)</code>, <code>onNailedLimb(entity)</code> (the main arm, or the main leg of a Black Leg user) and <code>isCoated(entity, side)</code>.</p>
-<h2 id="a-skin-on-the-arm-armskins">A skin on the arm: <code>ArmSkins</code><a class="headerlink" href="#a-skin-on-the-arm-armskins" title="Permanent link">&para;</a></h2>
-<p>A race's skin colour or a hybrid's scales, drawn over the whole body by a render layer, would stop at the first-person arm: no layer draws it. <code>ArmSkins</code> lays a texture over that arm and its sleeve, in the pose vanilla has just given them, with or without a morph's graft (under the graft, under Armament Haki):</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">// client setup: the same texture the addon's layer draws over the body, or null for none</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">ArmSkins</span><span class="p">.</span><span class="na">register</span><span class="p">(</span><span class="n">player</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">MySkinTint</span><span class="p">.</span><span class="na">texture</span><span class="p">(</span><span class="n">player</span><span class="p">));</span>
+<h2 id="a-skin-on-the-arm-skinswaps">A skin on the arm: <code>SkinSwaps</code><a class="headerlink" href="#a-skin-on-the-arm-skinswaps" title="Permanent link">&para;</a></h2>
+<p>A race's skin colour or a hybrid's scales would stop at the first-person arm: no layer draws it. The skin given through <code>SkinSwaps</code> (see <a href="../../entities/decoys/">Decoys</a>) is the one the whole player is drawn in, and the first-person arm too: vanilla draws that arm and its sleeve in it instead of the player's skin, with or without a morph's graft (under the graft, under Armament Haki). <em>Since 6.1.0;</em> <code>ArmSkins</code> is deprecated and still works, what it registers counting as a race's skin.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">// client setup: the skin the player is drawn in, or null for none</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">SkinSwaps</span><span class="p">.</span><span class="na">register</span><span class="p">(</span><span class="n">SkinSwaps</span><span class="p">.</span><span class="na">FORM</span><span class="p">,</span><span class="w"> </span><span class="n">player</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">MySkinTint</span><span class="p">.</span><span class="na">texture</span><span class="p">(</span><span class="n">player</span><span class="p">));</span>
 </code></pre></div>
-<p>The texture is a whole player skin: the arm and the sleeve are read at their usual places in it, cut out where it is transparent.</p>
+<p>The texture is a whole player skin: the arm and the sleeve are read at their usual places in it. It REPLACES the skin, never goes over it: the same faces drawn twice flicker (z-fighting).</p>
 
 
 

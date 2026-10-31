@@ -4237,6 +4237,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4297,6 +4301,34 @@
     
   
     Fugu Fugu no Mi, Model: Pufferfish
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/hebi-hebi-no-mi-model-hydra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hebi Hebi no Mi, Model: Hydra
   
 
     
@@ -4493,6 +4525,34 @@
     
   
     Nezu Nezu no Mi, Model: Rat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/tori-tori-no-mi-model-griffon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tori Tori no Mi, Model: Griffon
   
 
     
@@ -10379,6 +10439,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Forms that grow their user
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -10395,6 +10473,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a-form-that-keeps-a-mans-figures-keptforms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A form that keeps a man's figures: KeptForms
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -13349,6 +13457,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a-form-that-keeps-a-mans-figures-keptforms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A form that keeps a man's figures: KeptForms
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -13477,6 +13604,8 @@
 2. Take out the form's own factor: no share taken back out of a hit or a reach (<code>FormSize</code>), no plain form (<code>SizeTooltips.plainForms</code>) for it, no <code>x size</code> written by hand for what AkumaLib grows (reach, damage, areas, the body's own bonuses to walk, jump, fall and health).
 3. Where the kit grows something AkumaLib does not (where the hand is, a construct's size) by the form's own scale times <code>SIZE</code>, read <code>SizeScale.outsideForm</code> for the <code>SIZE</code>: <code>get</code> holds the form already, and the form's scale x <code>outsideForm</code> is the size worn.
 4. A man's numbers in the form change (they follow the curves of the declared size): a balance pass per form.</p>
+<h2 id="a-form-that-keeps-a-mans-figures-keptforms">A form that keeps a man's figures: <code>KeptForms</code><a class="headerlink" href="#a-form-that-keeps-a-mans-figures-keptforms" title="Permanent link">&para;</a></h2>
+<p><em>Since 6.1.0.</em> A full Zoan is a bigger body, not a stronger technique. Declare it, then name it once, at setup: <code>KeptForms.keep(form -&gt; form == MyMorphs.BEAST.get())</code>. The body follows the form's size; a technique hits and reaches as the kit says at SIZE 1, and by <code>SIZE</code> alone above it. Hits lose the form's share in <code>LivingHurtEvent</code>, components carry its inverse, <code>AkumaSize.reach</code> and the aim read it, and tooltips, searches and spawns count the form as no bigger body (<code>SizeTooltips.plainForms</code>). A declared form still reaches by its size in melee; its fist and its health do not grow by it.</p>
 
 
 

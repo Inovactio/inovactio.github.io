@@ -4237,6 +4237,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4297,6 +4301,34 @@
     
   
     Fugu Fugu no Mi, Model: Pufferfish
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/hebi-hebi-no-mi-model-hydra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hebi Hebi no Mi, Model: Hydra
   
 
     
@@ -4493,6 +4525,34 @@
     
   
     Nezu Nezu no Mi, Model: Rat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/tori-tori-no-mi-model-griffon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tori Tori no Mi, Model: Griffon
   
 
     
@@ -13321,6 +13381,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#registrations-lost-while-mods-load" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registrations lost while mods load
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#structure-spawner-mobs-in-walls" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -13466,6 +13537,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#registrations-lost-while-mods-load" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registrations lost while mods load
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#structure-spawner-mobs-in-walls" class="md-nav__link">
@@ -13628,6 +13710,8 @@ user whose power is off (<code>fixBlockTravel</code>), a throw sent twice to a p
 under a low ceiling (<code>fixMorphPoseSize</code>). See the <a href="../../changelog/#v4-2-0">4.2.0 changelog</a>.</p>
 </div>
 <p>The sections below describe the older fixes in detail.</p>
+<h2 id="registrations-lost-while-mods-load">Registrations lost while mods load<a class="headerlink" href="#registrations-lost-while-mods-load" title="Permanent link">&para;</a></h2>
+<p><em>Since 6.1.0.</em> Always on: it runs before any config is read. Forge keeps a deferred register's entries in a plain <code>LinkedHashMap</code>, and a class that registers an ability can load on any mod's thread while Forge builds the mods. Two puts together cut its links, and every entry behind the cut never reaches the game, with no error, on about one launch in twenty or thirty. The client is then refused by any server ("The following mod versions do not match"). <code>DeferredRegisterMixin</code> makes it one put at a time.</p>
 <h2 id="structure-spawner-mobs-in-walls">Structure spawner mobs in walls<a class="headerlink" href="#structure-spawner-mobs-in-walls" title="Permanent link">&para;</a></h2>
 <p><em>Since 2.8.0.</em> <code>fixStructureSpawnerPlacement</code>, on by default.</p>
 <p>Mine Mine no Mi's structure spawner (in its camps, bases, sky island houses and trainers' houses) moves each new mob

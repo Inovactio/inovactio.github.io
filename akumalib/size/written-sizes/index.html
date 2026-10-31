@@ -4237,6 +4237,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4297,6 +4301,34 @@
     
   
     Fugu Fugu no Mi, Model: Pufferfish
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/hebi-hebi-no-mi-model-hydra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hebi Hebi no Mi, Model: Hydra
   
 
     
@@ -4493,6 +4525,34 @@
     
   
     Nezu Nezu no Mi, Model: Rat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/tori-tori-no-mi-model-griffon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tori Tori no Mi, Model: Griffon
   
 
     
@@ -13599,7 +13659,7 @@
 <li><strong>A living summon is as big as its user</strong> (#707, maintainer 2026-10-27): its body is its user's size (<code>SIZE</code> x the user's size, a small user's too: a Doru clone of a SIZE 6.667 player is 6.667 high, of a SIZE 0.5 one 0.5), so its box, drawing and eyes are those of a player of that size. The rest follows from that body once, as for that player: blows (<code>ATTACK_DAMAGE</code>) by the melee damage curve, walk and max health by <code>SizeBodyStats</code>, its own abilities through <code>AkumaSize.factor</code>, which reads its master's size. A summon of <code>akumalib:size_followers</code> gets its blows from the size rule itself, not twice. Saved once: read back from a save it does not grow again. Its own numbers keep the reach factor (below).</li>
 <li>Never grown: the entity types of <code>akumalib:size_exempt</code> (markers, item and XP drops, vanilla pets and mounts, what lives in a dimension of its own). A pack adds to it.</li>
 <li>The spawn's own numbers (a pull distance, a search box, a radius) read its factor, one line each: <code>AkumaSpawnSize.reach(this, base)</code>, <code>AkumaSpawnSize.factor(this, Family.DAMAGE)</code>. AkumaLib does it for its own bases (tornado's funnel and touch, a hold's slack and smothering hits, a decoy's call, a boomerang's catch) and for the base mod's Raigo (crater, shockwave), Ursus Shock (crater, blast, push), Dai Enkai Entei (boiled water) and MH5 (gas).</li>
-<li><code>WaveAbility</code> takes the factor as its wave leaves: <code>waveScale()</code>, and <code>sizedHalfWidth()</code> for what the subclass draws or lays across the wave in <code>onWaveTick</code>. Give the entity it spawns in <code>onWaveStart</code> the same with <code>AkumaSpawnSize.sized(wave, user, this)</code>.</li>
+<li><code>WaveAbility</code> takes the factor as its wave leaves: the wave is wider and, since 6.1.0, runs further by it (the crest's step x <code>waveScale()</code>). <code>sizedHalfWidth()</code> is for what the subclass draws or lays across the wave in <code>onWaveTick</code>. Give the entity it spawns in <code>onWaveStart</code> the same with <code>AkumaSpawnSize.sized(wave, user, this)</code>.</li>
 <li>An area that already uses a <code>RangeComponent</code> needs nothing: its range carries the size bonus.</li>
 <li><strong>A big body's grab holds several</strong> (#658, <code>SizeGrabs</code>): as many bodies as the reach factor, rounded (<code>SizeGrabs.count</code>: 1 up to SIZE 2.25, 3 for a giant at 6.667 and at the cap, 1 for an exempt ability), the others nearest the user's line of sight and no further along it than the first (<code>SizeGrabs.more</code>), each taking the full blows (maintainer, 2026-10-26). <code>HoldingSphereEntity</code> closes a copy of itself on each by itself (a subclass with plain fields copies them in <code>copyTo</code>); a technique that already closes on several at once (an area) is not grown again. <code>GrabAbility</code> and <code>CarryAbility</code> hold the others beside the first and pass them every blow the user lands on it; their hooks only see the first. A grab of a kit's own takes <code>count</code> / <code>more</code> for its pick and a <code>SizeGrabs.Held</code> (<code>take</code>, <code>tick</code>, <code>release</code>) for its hold. A big user holds the grabbed body at the edge of his own, not inside his box (#705, <code>SizeGrabs.heldOutward</code>, on every <code>GrabEntityComponent</code>): out along his facing by the half-width his SIZE added. A man unchanged. A forwarded blow opens the others' frames when the first's are open (a <code>hurtBurst</code> bite lands on each). A hold that stops ticking (death, logout, unequip) forwards nothing more. A grab's first body: <code>SizeGrabs.firstInSight</code> / <code>SizeGrabs.inSight</code> (in place of <code>AkumaTargeting.firstInSight</code> / <code>AkumaAim.inSight</code>) take the body the sight meets, and for a bigger body that meets none, the one nearest his line of sight within the same lane, as far as his sight reaches (maintainer, 2026-10-27: from a giant's eyes a body at his feet is a small mark). A man, a smaller body or an exempt ability: the sight alone.</li>
 </ul>

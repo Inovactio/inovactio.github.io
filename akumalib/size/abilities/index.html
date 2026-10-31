@@ -4237,6 +4237,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4297,6 +4301,34 @@
     
   
     Fugu Fugu no Mi, Model: Pufferfish
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/hebi-hebi-no-mi-model-hydra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hebi Hebi no Mi, Model: Hydra
   
 
     
@@ -4493,6 +4525,34 @@
     
   
     Nezu Nezu no Mi, Model: Rat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/inofruits/fruits/tori-tori-no-mi-model-griffon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tori Tori no Mi, Model: Griffon
   
 
     
@@ -13502,7 +13562,7 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kt">float</span><span class="w"> </span><span class="n">reach</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">AkumaSize</span><span class="p">.</span><span class="na">factor</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">ability</span><span class="p">,</span><span class="w"> </span><span class="n">AkumaSize</span><span class="p">.</span><span class="na">Family</span><span class="p">.</span><span class="na">REACH</span><span class="p">);</span><span class="w">   </span><span class="c1">// 1 for a man, 2 for a body x4</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kt">float</span><span class="w"> </span><span class="n">damage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">AkumaSize</span><span class="p">.</span><span class="na">factor</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">ability</span><span class="p">,</span><span class="w"> </span><span class="n">AkumaSize</span><span class="p">.</span><span class="na">Family</span><span class="p">.</span><span class="na">DAMAGE</span><span class="p">);</span><span class="w"> </span><span class="c1">// 1 for a man, 2 for a body x4, 3 at most</span>
 </code></pre></div>
-<p><strong>An ability made for its form grows once</strong> (<code>akumalib:size_form_made</code>, <code>data/&lt;namespace&gt;/tags/abilities/size_form_made.json</code>; maintainer, 2026-10-28). The base mod sized some abilities for the big form they need: Deka Trample's 5-block area and 7-block cube are a Deka giant's (8.5 high), Mammoth Trample's 3.5 and 5 a mammoth's. Counting the form again grew them twice (a man in the Deka form trampled 10.9 blocks out and ran x2.17; a fishman at SIZE 2.19 hit the x3 ceiling, 15 blocks). For the abilities listed there the form's share is taken out: they grow by <code>SIZE</code> alone (as a plain form, <code>SizeTooltips.plainForms</code>), in their reach, damage, searches (their frame), blocks scanned, pushes, run and tooltips. A man in the Deka form tramples as the base mod wrote it; a giant x4 in it, x2 (10 blocks). AkumaLib lists the two tramples; a kit adds an ability made for its own big form. The list goes to the clients with <code>akumalib:size_moves</code> (a player's game moves his own body).</p>
+<p><strong>An ability made for its form grows once</strong> (<code>akumalib:size_form_made</code>, <code>data/&lt;namespace&gt;/tags/abilities/size_form_made.json</code>; maintainer, 2026-10-28). The base mod sized some abilities for the big form they need: Deka Trample's 5-block area and 7-block cube are a Deka giant's (8.5 high), Mammoth Trample's 3.5 and 5 a mammoth's. Counting the form again grew them twice (a man in the Deka form trampled 10.9 blocks out and ran x2.17; a fishman at SIZE 2.19 hit the x3 ceiling, 15 blocks). For the abilities listed there the form's share is taken out: they grow by <code>SIZE</code> alone (as a plain form, <code>SizeTooltips.plainForms</code>), in their reach, damage, searches (their frame), blocks scanned, pushes, run, cooldown, what it spawns (its projectiles' box, drawing and flight) and tooltips. A man in the Deka form tramples as the base mod wrote it; a giant x4 in it, x2 (10 blocks). AkumaLib lists the two tramples; a kit adds an ability made for its own big form. The list goes to the clients with <code>akumalib:size_moves</code> (a player's game moves his own body).</p>
 <p>Nothing has to be called for most abilities:</p>
 <ul>
 <li>the range of a <code>RangeComponent</code> (area range, line distance and width) and the damage of a <code>ProjectileComponent</code> carry a size bonus on their own bonus managers, put on every ability of a big body each tick (<code>SizeBonuses</code>), so tooltips show it;</li>
