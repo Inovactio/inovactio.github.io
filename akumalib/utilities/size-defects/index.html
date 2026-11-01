@@ -11462,6 +11462,8 @@
       
         
       
+        
+      
     
     
     
@@ -11749,6 +11751,34 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../mixin-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mixins and new versions of the base mod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
     
       
@@ -11775,10 +11805,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_7_10" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_7_11" >
         
           
-          <label class="md-nav__link" for="__nav_9_7_10" id="__nav_9_7_10_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9_7_11" id="__nav_9_7_11_label" tabindex="0">
             
   
   
@@ -11796,8 +11826,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_7_10_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9_7_10">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_7_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_7_11">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -14021,6 +14051,20 @@ of these symptoms, use the shared fix named here instead of writing a new one.</
 <td><code>WaveAbility</code> grew the wave's width, not the crest's speed</td>
 <td>the crest's step grows by the same factor as the width</td>
 <td></td>
+</tr>
+<tr>
+<td>66</td>
+<td>After a relog, a chunk reload or a portal, a big body's box and eyes on the server are a man's until its next pose change: mobs and projectiles miss, abilities aim from a man's eyes</td>
+<td>the entity is rebuilt at a man's dimensions, and its saved size equals its saved last size, so <code>SizeEvents</code> sees no change</td>
+<td><code>SizeEvents.onJoin</code> refreshes the dimensions of a body that is not a man when it joins a level</td>
+<td>AkumaLib #802 (M4)</td>
+</tr>
+<tr>
+<td>67</td>
+<td>With ModernFix, the game crashes when a body whose SIZE is not 1 vanishes (Soru, any <code>IVanishEffect</code>, a look that cancels its drawing): <code>NoSuchElementException</code> in the shadow pass of a shader, even in first person; "Pose stack not empty" or the same exception in third person, no shader needed</td>
+<td>ModernFix's <code>entity_pose_stack</code> pops what a cancelled <code>RenderLivingEvent.Pre</code> left, then #16's give-back popped the same push again</td>
+<td><code>SizeRenderEvents</code> remembers the entry it pushed and pops only while it is on top</td>
+<td>AkumaLib #818</td>
 </tr>
 </tbody>
 </table>

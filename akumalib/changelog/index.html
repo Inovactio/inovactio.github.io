@@ -11367,6 +11367,8 @@
       
         
       
+        
+      
     
     
     
@@ -11654,6 +11656,34 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../utilities/mixin-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mixins and new versions of the base mod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
     
       
@@ -11680,10 +11710,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_7_10" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_7_11" >
         
           
-          <label class="md-nav__link" for="__nav_9_7_10" id="__nav_9_7_10_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9_7_11" id="__nav_9_7_11_label" tabindex="0">
             
   
   
@@ -11701,8 +11731,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_7_10_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9_7_10">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_7_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_7_11">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -13407,6 +13437,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#v6-2-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#v6-1-0" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -13788,6 +13829,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v6-2-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2.0
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#v6-1-0" class="md-nav__link">
@@ -14197,6 +14249,69 @@
 
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
 <p>Every AkumaLib release for Minecraft 1.20.1, newest first, as published on <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all">CurseForge</a>.</p>
+<h2 id="v6-2-0">6.2.0<a class="headerlink" href="#v6-2-0" title="Permanent link">&para;</a></h2>
+<p><small>Released 2026-11-01 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9395490">Download</a></small></p>
+<div class="changelog-body" markdown="0">
+<p><strong>No more "Connection Lost" on Seiryu, Anaconda and King Cobra, and no more crash with Soru.</strong> Asking for one of these
+three forms threw the player out of the game. Soru crashed the game for anyone whose size is not a man's, as soon as
+ModernFix was installed. Both are fixed, along with a memory leak in zones and worlds that stayed in memory, and a newer
+Mine Mine no Mi can no longer stop the game over a small change AkumaLib did not expect. No signature was removed or
+changed.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are optional.</p>
+<p>Same network protocol as 6.1.0 (16): a 6.2.0 game plays with a 6.1.0 server and the other way round. Update AkumaLib
+on the server and on every client all the same: the fix for the three forms works on the server, the fix for Soru on
+the client.</p>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>Seiryu, Anaconda and King Cobra.</strong> Asking for the full form made the hybrid go away, then "Connection Lost". The
+  three forms now work, solo and on a server, at every size.</li>
+<li><strong>Soru with ModernFix.</strong> A body whose size is not a man's crashed the game when it vanished: Soru, or anything that
+  hides you the same way. With shaders it happened in first person too. A man in the Deka form was hit as well.</li>
+<li><strong>Back from a save.</strong> After a relog, a portal or a chunk loading again, a big body was a man's size on the server until
+  its next change of pose: mobs and projectiles missed it, and its techniques aimed from a man's eyes.</li>
+<li><strong>Blocks that stayed.</strong> In singleplayer, a block laid by a technique could be forgotten and stay for good.</li>
+<li><strong>The Marine recruiter</strong> hands out the uniform once. Joining, resigning and joining again gave four new pieces each
+  time. If you already had a uniform before this version, you get one more, once.</li>
+<li><strong>Titles.</strong> You can change the title you wear once every half second, so a click too soon changes nothing.</li>
+<li><strong>Race colours</strong> take more of your skin and less of your hair. A fishman's colour used to leave part of the skin
+  bare on many skins, and could colour the hair instead. Clothes in the very colour of your skin take it too.</li>
+<li><strong>Race wings</strong> stop flickering and can no longer be seen through from some angles.</li>
+<li><strong>Dye layers</strong> no longer risk going wrong when a recipe viewer reads them in singleplayer.</li>
+</ul>
+<h3>A newer Mine Mine no Mi</h3>
+<ul>
+<li><strong>A small change in the base mod no longer stops the game.</strong> Where AkumaLib hooks a spot that can move from one version
+  to the next, it now carries on without that hook if the spot is gone. You lose that one fix, and the game's log names
+  it when loading ends, louder if the fix was a protection against cheating. This is about AkumaLib's own hooks: Cruise
+  Cruise no Mi 0.5.1 still has three that can stop the game.</li>
+<li><strong>Three hooks another mod may want too</strong> (sounds, drawing what a technique spawns, Forge's registers) give way the same
+  way, and are named in the log.</li>
+</ul>
+<h3>Less memory, fewer hitches</h3>
+<ul>
+<li><strong>Zones that show their blocks</strong> no longer eat memory for as long as they last, and rebuild only when a block changes
+  or you move. Going through a portal no longer leaves the other dimension's zones behind, and a player who arrives
+  sees the zones already open there.</li>
+<li><strong>Save and Quit</strong> no longer keeps the old world in memory. Two players who fought each other are let go too.</li>
+</ul>
+<h3>For addon makers</h3>
+<ul>
+<li><strong><code>PoseTracks</code></strong>: the helpers every technique's pose copied (<code>track</code>, <code>lean</code>, <code>scale</code>, <code>copyLayers</code>).</li>
+<li><strong><code>AkumaFishmen</code></strong>: the base mod's three fishman looks, on players or on your own humanoid NPCs. <code>declareSubRace</code> gives
+  a look to a sub-race of any main race, and <code>Look.WOTAN</code> is an orange dorsal fin alone.</li>
+<li><strong><code>AkumaHorns</code></strong>: curved horns on the players of a race you declare, shape and colour from the UUID.</li>
+<li><strong><code>AkumaSize.sizeRatio</code></strong>: how big a target is next to a user. A creature counts by its height.</li>
+<li><strong><code>AkumaTitles.wearAsked</code></strong>: <code>wear</code> for what a client asks, at most once in half a second.</li>
+<li><strong><code>MixinReport</code></strong>: set it as the <code>plugin</code> of your mixin config, and every optional injection of yours that did not
+  apply is named when the game has loaded. <strong><code>@Protection</code></strong> on one makes that an error block.</li>
+<li><strong><code>gradlew checkMixinTargets -PbaseModJar=&lt;jar&gt; [-PmodJar=&lt;jar&gt;]</code></strong> in AkumaLib's repository compares every mixin target
+  of a jar with a Mine Mine no Mi jar, without a game. See the docs, "Mixins and new versions of the base mod".</li>
+<li>A recruiter button whose id is too long for the network is left out, instead of breaking the whole desk.</li>
+</ul>
+<p>An addon that uses any of these declares <code>versionRange = "[6.2.0,)"</code>. Leave the top of the range open.</p>
+</div>
+
 <h2 id="v6-1-0">6.1.0<a class="headerlink" href="#v6-1-0" title="Permanent link">&para;</a></h2>
 <p><small>Released 2026-10-30 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9375870">Download</a></small></p>
 <div class="changelog-body" markdown="0">

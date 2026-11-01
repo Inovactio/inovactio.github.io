@@ -10775,6 +10775,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#fishman-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fishman features
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#horns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Horns
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measuring-a-races-layers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Measuring a race's layers
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -11429,6 +11462,8 @@
       
         
       
+        
+      
     
     
     
@@ -11716,6 +11751,34 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../mixin-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mixins and new versions of the base mod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
     
       
@@ -11742,10 +11805,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_7_10" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_7_11" >
         
           
-          <label class="md-nav__link" for="__nav_9_7_10" id="__nav_9_7_10_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9_7_11" id="__nav_9_7_11_label" tabindex="0">
             
   
   
@@ -11763,8 +11826,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_7_10_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9_7_10">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_7_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_7_11">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -13474,6 +13537,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#fishman-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fishman features
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#horns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Horns
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measuring-a-races-layers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Measuring a race's layers
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -13573,6 +13669,26 @@
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">AkumaRaces</span><span class="p">.</span><span class="na">setSize</span><span class="p">(</span><span class="n">giant</span><span class="p">,</span><span class="w"> </span><span class="mf">4.0D</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0D</span><span class="p">,</span><span class="w"> </span><span class="mf">0.2D</span><span class="p">,</span><span class="w"> </span><span class="mf">0.1D</span><span class="p">);</span><span class="w">     </span><span class="c1">// its own: min, max, step</span>
 </code></pre></div>
 <p>A race that declares nothing takes base 1 and the default slider. A sub-race's declaration wins over its race's. The start is 0, or the bound nearest to it. <code>AkumaRaces.size(race, subRace)</code> reads it; <code>forgetSize</code> takes it back. AkumaLib puts the size on the players itself, kept over death; see <a href="../../size/race-size/#the-races-base-size-and-the-creators-slider-746">Attributes and size</a>.</p>
+<h2 id="fishman-features">Fishman features<a class="headerlink" href="#fishman-features" title="Permanent link">&para;</a></h2>
+<p>The features of the base mod's three fishman sub-races (the Saw-shark's muzzle and saw, the Ray's arm fins, crest and tail, the Garfish's jaws, dorsal fins, gills) belong to AkumaLib: models, textures and layer. A mod only says who wears them, in its constructor or common setup, on both sides:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">AkumaFishmen</span><span class="p">.</span><span class="na">players</span><span class="p">();</span><span class="w">                                                    </span><span class="c1">// players, by their sub-race</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">AkumaFishmen</span><span class="p">.</span><span class="na">declare</span><span class="p">(</span><span class="n">MyEntities</span><span class="p">.</span><span class="na">SHARK_PIRATE</span><span class="p">);</span><span class="w">                             </span><span class="c1">// an NPC, by its sub-race, none without one</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="n">AkumaFishmen</span><span class="p">.</span><span class="na">declare</span><span class="p">(</span><span class="n">MyEntities</span><span class="p">.</span><span class="na">SHARK_GUARD</span><span class="p">,</span><span class="w"> </span><span class="n">AkumaFishmen</span><span class="p">.</span><span class="na">Look</span><span class="p">.</span><span class="na">SAWSHARK</span><span class="p">);</span><span class="w">  </span><span class="c1">// an NPC: its sub-race's look, or this one</span>
+</code></pre></div>
+<p>An addon's sub-race of any main race gets a look with <code>AkumaFishmen.declareSubRace(id, look)</code>; <code>Look.WOTAN</code> is an orange dorsal fin and nothing else, for a fishman-giant hybrid.</p>
+<p>AkumaLib adds the layer to the renderers. A declared entity's renderer must have a humanoid model; one that has not is logged and left alone. The features take the skin colour the wearer chose. The base mod's own fishmen (Arlong, Chew, Kuroobi, its fishman pirates) keep the features the base mod draws: declaring them would draw both. The skin itself stays the mod's: <code>SkinSwaps</code>, see <a href="../../entities/decoys/">decoys</a>.</p>
+<h2 id="horns">Horns<a class="headerlink" href="#horns" title="Permanent link">&para;</a></h2>
+<p>Curved horns on a player's head (<code>HornsModel</code>, <code>HornsLayer</code>), three shapes drawn from the pictures: Kaido's, Yamato's and the young Kaido's. A mod names the races that wear them, main race or sub-race, in its constructor or common setup, on both sides:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">AkumaHorns</span><span class="p">.</span><span class="na">declare</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="n">MODID</span><span class="p">,</span><span class="w"> </span><span class="s">"horned_folk"</span><span class="p">));</span>
+</code></pre></div>
+<p>The shape and the colour come from the player's UUID (<code>AkumaHorns.shape</code>, <code>AkumaHorns.colour</code>, <code>AkumaHorns.PALETTE</code>): stable, nothing to save, the same on every client. Each colour goes from the root to the tip; the skin stays the player's. A helmet does not hide the horns: they come out through it.</p>
+<h2 id="measuring-a-races-layers">Measuring a race's layers<a class="headerlink" href="#measuring-a-races-layers" title="Permanent link">&para;</a></h2>
+<p><code>gradlew checkLayers</code> (<code>gametest/LayerAudit</code>, no game, a few seconds) measures the fishman features, the wings, the antennae and the horns from their baked cubes and real textures, on a classic and a slim player, through the animation's poses, and fails on a defect:</p>
+<ul>
+<li><strong>Coplanar</strong>: two faces looking the same way in one plane, both opaque there, against the other parts and the player's own model. They flicker. Move one a tenth of a pixel off the other.</li>
+<li><strong>Open</strong>: a slab cut out of its texture with no wall along the cut, a transparent edge where the slab is solid, or a texel solid on one side only. From some angles one looks through it. A box in <code>client.race</code> gets its walls from <code>SlabWalls</code>, which reads the texture.</li>
+</ul>
+<p>Volumes that cross without sharing a plane are listed, not failed: a part's root sunk in the body is how it holds. The horns are also measured against a helmet. A new layer goes in <code>LayerAudit.main</code>.</p>
 
 
 

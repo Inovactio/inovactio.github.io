@@ -11369,6 +11369,8 @@
       
         
       
+        
+      
     
     
     
@@ -11656,6 +11658,34 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../mixin-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mixins and new versions of the base mod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
     
       
@@ -11682,10 +11712,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_7_10" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_7_11" >
         
           
-          <label class="md-nav__link" for="__nav_9_7_10" id="__nav_9_7_10_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9_7_11" id="__nav_9_7_11_label" tabindex="0">
             
   
   
@@ -11703,8 +11733,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_7_10_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9_7_10">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_7_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_7_11">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -13891,7 +13921,7 @@
 <p>Particles are hidden by terrain, which defeats a detection technique. Glowing marker entities show through walls, but a scan of any useful radius would mean hundreds of real entities per player to clean up.</p>
 </div>
 <h2 id="blockoverlaymanager"><code>BlockOverlayManager</code><a class="headerlink" href="#blockoverlaymanager" title="Permanent link">&para;</a></h2>
-<p>The client-side store behind <code>ZoneAbility</code>'s block overlay, which shades the blocks inside a zone. You do not normally call it: set <code>enableBlockOverlay = true</code> and <code>overlayArgb</code> on a <a href="../../ability-base-classes/zones/">zone</a>, and the library sends, renders and clears the overlay, including on disconnect. Players can turn the overlay off with <code>overlayEnabled</code> in <code>akumalib-client.toml</code>.</p>
+<p>The client-side store behind <code>ZoneAbility</code>'s block overlay, which shades the blocks inside a zone. You do not normally call it: set <code>enableBlockOverlay = true</code> and <code>overlayArgb</code> on a <a href="../../ability-base-classes/zones/">zone</a>, and the library sends, renders and clears the overlay, including on disconnect and on a change of dimension; a player who logs in or arrives while the zone stands is told of it. Players can turn the overlay off with <code>overlayEnabled</code> in <code>akumalib-client.toml</code>.</p>
 <p>It also exposes <code>isSolidForOverlay</code> and <code>isFullSolidForCulling</code>, the block tests the overlay renderer uses.</p>
 <h2 id="entityhighlights"><code>EntityHighlights</code><a class="headerlink" href="#entityhighlights" title="Permanent link">&para;</a></h2>
 <p><em>Since 3.1.0.</em> An entity outlined through walls for one player only - a mind read, a scent followed - where vanilla's glowing effect shows it to everybody.</p>
