@@ -13,7 +13,7 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="objects/modoku objects/hebigami-tsuki-salamander"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/king-cobra-heavy-point forms/king-cobra-walk-point objects/modoku objects/hebigami-tsuki-salamander"></div>
 
 <!-- animations -->
 ??? example "Animations"
@@ -59,7 +59,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/king-cobra-heavy-point.png){ .ability-icon } *Active · Transformation*
 
-![King Cobra Heavy Point](../animations/king-cobra-heavy-point.webp){ .form-picture }
+![King Cobra Heavy Point](../forms/king-cobra-heavy-point.png){ .form-picture }
 
 Transforms the user into a half-snake, their upper body on a long king cobra tail that gives their blows reach.
 
@@ -67,7 +67,7 @@ Transforms the user into a half-snake, their upper body on a long king cobra tai
 
 ![](../abilities/king-cobra-walk-point.png){ .ability-icon } *Active · Transformation*
 
-![King Cobra Walk Point](../animations/king-cobra-walk-point.webp){ .form-picture }
+![King Cobra Walk Point](../forms/king-cobra-walk-point.png){ .form-picture }
 
 Transforms the user into a huge king cobra, ten blocks long, its hood raised.
 

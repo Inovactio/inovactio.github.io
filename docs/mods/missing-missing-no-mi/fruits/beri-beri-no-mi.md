@@ -11,6 +11,10 @@
 | **Abilities** | 5: 5 active, 0 passive |
 | **Transformations** | [Grape](#beri-grape) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/beri-grape objects/beri-cannonball"></div>
+
 <!-- animations -->
 ??? example "Animations"
 
@@ -50,6 +54,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Grape { #beri-grape }
 
 ![](../abilities/beri-grape.png){ .ability-icon } *Active · Transformation*
+
+![Grape](../forms/beri-grape.png){ .form-picture }
 
 The user splits their body into lots of berry balls, the balls move aside from every hit by hand or with a weapon, even blades and Armament Haki, but each dodge makes the split end sooner
 
@@ -92,6 +98,8 @@ The balls are both arms and both legs, they fly back to the user after and must 
 ## Cannonball { #beri-cannonball }
 
 ![](../abilities/beri-cannonball.png){ .ability-icon } *Active*
+
+![Cannonball](../objects/beri-cannonball.png){ .form-picture }
 
 The user throws one arm as a berry ball like a cannonball, it flies back to them after, nobody can catch it
 
