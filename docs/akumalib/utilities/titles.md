@@ -38,6 +38,7 @@ Register once, before the server starts (common setup). Then, on the server:
 | `AkumaTitles.grant(player, id)` | Gives the title for good, whatever its condition. The id need not be loaded yet. |
 | `AkumaTitles.revoke(player, id)` | Takes a granted title back. |
 | `AkumaTitles.wear(player, id)` | Wears it, or none with `null`; refused if the player does not hold it. |
+| `AkumaTitles.wearAsked(player, id)` | `wear` for what a client asks: at most once in half a second, since each change tells every online player. A click too soon changes nothing and answers `false`. |
 | `AkumaTitles.getWorn(player)` | The title worn, if still held. |
 | `AkumaTitles.held(player)` | Every title held. |
 | `AkumaTitles.refresh(player)` | Checks the conditions again and tells the client and the player list. |

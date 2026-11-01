@@ -125,6 +125,20 @@ user.swing(InteractionHand.MAIN_HAND, true);
 
 It is a good fit for a grab closing on its target, or any technique whose moment is the model's attack. Models commonly skip the gesture while the user holds an item, so check that the technique is used empty-handed.
 
+## A technique's pose: `PoseTracks`
+
+A pose written as keyed tracks takes `t`, the animation's completion from 0 to 1. `PoseTracks` holds what such a pose calls: `track` (eased from key to key; one value is a constant), `lean` (the upper body bent from the hips, the whole body lowered), `scale` and `copyLayers` (the outer layer follows its base). Client side, except `track`.
+
+```java
+import static com.inovactio.akumalib.api.animations.PoseTracks.*;
+
+public static void wave(HumanoidModel<?> model, float t) {
+    lean(model, track(t, WAVE_T, 0.0F, 8.0F, 0.0F) * Mth.DEG_TO_RAD, 0.0F);
+    model.rightArm.xRot = track(t, WAVE_T, 0.0F, -90.0F, 0.0F) * Mth.DEG_TO_RAD;
+    copyLayers(model);
+}
+```
+
 ## A pose held for the whole form: `PlayerPoses`
 
 An animation plays for a technique; one entity plays one at a time. A partial morph that changes the player's own body for as long as it is worn (a torso stretched upwards, the head risen with it) registers a `PlayerPoses.Pose` from its client setup instead. It runs after every `setupAnim` and animation pass, for every model and entity, so it checks both and sets absolute values:

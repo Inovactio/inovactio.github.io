@@ -22,4 +22,6 @@ The value is clamped between `SizeScale.MIN_SCALE` (`0.05`) and `SizeScale.MAX_S
 - Nothing changes up to a total of 4.
 - A softness of 0 takes the curve off; a limit of 0 takes the limit off.
 
+**Comparing two bodies:** `AkumaSize.sizeRatio(target, user)` is 2 when the target is twice the user's size, for an ability that reacts to it (Missing #1046). Whole bodies, every form counted, a plain one too; a creature counts by its box's height / 1.8. Two players on the creator's slider (0.75 to 1.25) never reach 2: 1.25 / 0.75 = 1.67.
+
 To stop the library resizing an entity while something else drives its dimensions, set `SizeScale.SUSPEND_FLAG` in its persistent data; `SizeScale.isSuspended(entity)` reads it. See [What the library registers](../core-concepts/library-registrations.md#driving-an-entitys-size-yourself).

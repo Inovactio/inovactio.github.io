@@ -102,7 +102,20 @@ The library ships its own mixin configuration, `mixins.akumalib.json`:
 [[dependencies.yourmodid]]
     modId = "akumalib"
     mandatory = true
-    versionRange = "[6.1.0,)"
+    versionRange = "[6.2.0,)"
     ordering = "AFTER"
     side = "BOTH"
 ```
+
+## Known mixin incompatibilities
+
+AkumaLib changes a few of Minecraft's most shared methods. Another mod that changes the same ones may clash with it. None of this has been tried against a modpack: it comes from reading the mixins (audit #802).
+
+| AkumaLib mixin | Minecraft method | How | What can clash |
+|---|---|---|---|
+| `Vec3DistanceMixin` | `Vec3.distanceTo`, `distanceToSqr` (both forms) | `@Overwrite`, so a distance allocates nothing | another mod's `@Overwrite`: one of the two loses, with a warning in the log |
+| `EntityDistanceMixin` | `Entity.distanceTo`, `distanceToSqr` (both forms) | `@Overwrite`, same reason | same |
+| `EntityPushSizeMixin` | the two `push(DDD)` calls in `Entity.push(Entity)`, by `ordinal` | `@Redirect` | another `@Redirect` on the same call |
+| `LivingEntityKnockbackSizeMixin` | the `setDeltaMovement` call in `LivingEntity.knockback` | `@Redirect` | another `@Redirect` on the same call |
+
+The mixin config sets `defaultRequire = 1`, so an injection that finds nothing to work on stops the game at startup instead of doing nothing. Physics and combat mods are the likely ones. If a modpack meets one of these, the crash report names the mixin, and the fix is to move that mixin to MixinExtras' `@WrapOperation`, which chains with other mods. AkumaLib does not bundle MixinExtras today, and nothing has been changed for a clash no one has measured.

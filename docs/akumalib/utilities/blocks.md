@@ -143,7 +143,7 @@ BlockHighlightManager.show(player, group, positions, 0xA0FFD700, 160);   // 8 se
 
 ## `BlockOverlayManager`
 
-The client-side store behind `ZoneAbility`'s block overlay, which shades the blocks inside a zone. You do not normally call it: set `enableBlockOverlay = true` and `overlayArgb` on a [zone](../ability-base-classes/zones.md), and the library sends, renders and clears the overlay, including on disconnect. Players can turn the overlay off with `overlayEnabled` in `akumalib-client.toml`.
+The client-side store behind `ZoneAbility`'s block overlay, which shades the blocks inside a zone. You do not normally call it: set `enableBlockOverlay = true` and `overlayArgb` on a [zone](../ability-base-classes/zones.md), and the library sends, renders and clears the overlay, including on disconnect and on a change of dimension; a player who logs in or arrives while the zone stands is told of it. Players can turn the overlay off with `overlayEnabled` in `akumalib-client.toml`.
 
 It also exposes `isSolidForOverlay` and `isFullSolidForCulling`, the block tests the overlay renderer uses.
 

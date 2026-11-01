@@ -433,6 +433,7 @@ nav:
           - Attribute bonuses: akumalib/utilities/attribute-bonuses.md
           - Pulls: akumalib/utilities/motion.md
           - Deferred work: akumalib/utilities/tick-queue.md
+          - Mixins and new versions of the base mod: akumalib/utilities/mixin-report.md
           - Other helpers:
               - akumalib/utilities/other-helpers.md
               - For abilities: akumalib/utilities/ability-helpers.md
