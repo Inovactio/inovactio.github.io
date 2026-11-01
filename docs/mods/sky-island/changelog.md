@@ -2,6 +2,21 @@
 
 Every Sky Island release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/all).
 
+## 1.0.1 { #v1-0-1 }
+
+<small>Released 2026-11-01 · [Download](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/9394457)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>A crash fix for players of Survival Island.</strong> Nothing else moves: same islands, same content, same save.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi</strong> 0.11.6 and <strong>AkumaLib 4.7.0</strong> or newer. Client and server.</p>
+<p>Worlds are kept.</p>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>With the Survival Island mod, the game could crash while Skypiea was being generated</strong>, again and again, with no way out but to remove a mod the world depends on. It no longer does, and exploring your Survival Island overworld is safer too. Without that mod, nothing changes for you.</li>
+</ul>
+</div>
+
 ## 1.0.0 (beta) { #v1-0-0 }
 
 <small>Released 2026-10-16 · [Download](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/9205670)</small>

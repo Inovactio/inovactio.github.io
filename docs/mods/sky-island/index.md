@@ -14,7 +14,7 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **1.0.0** |
+| Version documented | **1.0.1** |
 | Mod id | `inosky` |
 | Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island) · [changelog](changelog.md) |
 | Languages | English, French |
