@@ -11,6 +11,10 @@
 | **Abilities** | 8: 8 active, 0 passive |
 | **Transformations** | [Stinger Hedgehog](#toge-stinger-hedgehog) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/toge-stinger-hedgehog"></div>
+
 <!-- animations -->
 ??? example "Animations"
 
@@ -85,6 +89,8 @@ Double Stinger
 ## Stinger Hedgehog { #toge-stinger-hedgehog }
 
 ![](../abilities/toge-stinger-hedgehog.png){ .ability-icon } *Active · Transformation*
+
+![Stinger Hedgehog](../forms/toge-stinger-hedgehog.png){ .form-picture }
 
 The user rolls up into a ball of spikes like a sea urchin and rolls over the enemies, the ones who hit it by hand get spiked back
 

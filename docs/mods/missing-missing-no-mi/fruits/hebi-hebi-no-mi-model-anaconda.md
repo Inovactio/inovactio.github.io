@@ -11,6 +11,10 @@
 | **Transformations** | [Anaconda Heavy Point](#anaconda-heavy-point), [Anaconda Walk Point](#anaconda-walk-point) |
 | **Effects applied** | ![](../effect-icons/anaconda-digesting.png){ .effect-mini }[Anaconda Digesting](../effects.md#effect-anaconda-digesting), ![](../effect-icons/anaconda-dodge.png){ .effect-mini }[Anaconda Dodge](../effects.md#effect-anaconda-dodge), ![](../effect-icons/coiled.png){ .effect-mini }[Coiled](../effects.md#effect-coiled) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/anaconda-heavy-point forms/anaconda-walk-point"></div>
+
 <!-- animations -->
 ??? example "Animations"
 
@@ -55,7 +59,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/anaconda-heavy-point.png){ .ability-icon } *Active · Transformation*
 
-![Anaconda Heavy Point](../animations/anaconda-heavy-point.webp){ .form-picture }
+![Anaconda Heavy Point](../forms/anaconda-heavy-point.png){ .form-picture }
 
 Transforms the user into a half-snake, their upper body on a long and heavy anaconda tail that gives their blows reach.
 
@@ -63,7 +67,7 @@ Transforms the user into a half-snake, their upper body on a long and heavy anac
 
 ![](../abilities/anaconda-walk-point.png){ .ability-icon } *Active · Transformation*
 
-![Anaconda Walk Point](../animations/anaconda-walk-point.webp){ .form-picture }
+![Anaconda Walk Point](../forms/anaconda-walk-point.png){ .form-picture }
 
 Transforms the user into a huge anaconda, fourteen blocks long and very heavy.
 
