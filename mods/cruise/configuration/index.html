@@ -8629,6 +8629,8 @@
       
         
       
+        
+      
     
     
     
@@ -8720,6 +8722,34 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../traits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Traits
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
     
       
@@ -8767,10 +8797,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" >
         
           
-          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="">
             
   
   
@@ -8788,8 +8818,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -9246,10 +9276,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5" >
         
           
-          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="">
             
   
   
@@ -9267,8 +9297,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8_4">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -9683,10 +9713,32 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#traits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        traits
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#guide" class="md-nav__link">
     <span class="md-ellipsis">
       
         guide
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inocruise-servertoml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        inocruise-server.toml
       
     </span>
   </a>
@@ -13603,10 +13655,32 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#traits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        traits
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#guide" class="md-nav__link">
     <span class="md-ellipsis">
       
         guide
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inocruise-servertoml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        inocruise-server.toml
       
     </span>
   </a>
@@ -13827,6 +13901,23 @@
 <p class="admonition-title"><code>vanillaVillages</code> is no longer read</p>
 <p>Up to 0.3.1 this setting was called <code>vanillaVillages</code> and was <code>true</code> by default. Since 0.4.0 it is <code>withVanillaVillages</code>, <code>false</code> by default. The old line may still be in a file written by an earlier version: it does nothing any more. To keep Minecraft's villages, set <code>withVanillaVillages = true</code>.</p>
 </div>
+<h2 id="traits"><code>traits</code><a class="headerlink" href="#traits" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>disabledTraits</code></td>
+<td><code>[]</code></td>
+<td><a href="../traits/">Traits</a> turned off, by id, for example <code>["inocruise:blind"]</code>. A trait turned off is never drawn for a new character, and does nothing on one who has it. They keep it: it works again once turned back on. (Since 0.6.0.)</td>
+</tr>
+</tbody>
+</table>
 <h2 id="guide"><code>guide</code><a class="headerlink" href="#guide" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -13844,6 +13935,39 @@
 </tr>
 </tbody>
 </table>
+<h2 id="inocruise-servertoml"><code>inocruise-server.toml</code><a class="headerlink" href="#inocruise-servertoml" title="Permanent link">&para;</a></h2>
+<p>Since 0.6.0 Cruise also has a file per world, <strong><code>serverconfig/inocruise-server.toml</code></strong> in the world's folder.</p>
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>factions</code></td>
+<td><code>civilianStart</code></td>
+<td><code>true</code></td>
+<td>Every new player starts as a <a href="../villages/#playing-a-civilian">civilian</a> and earns a side by what they do; the character creator offers no side. <code>false</code> gives the choice of a side back to the character creator.</td>
+</tr>
+<tr>
+<td><code>villages</code></td>
+<td><code>spacing</code></td>
+<td><code>24</code></td>
+<td>How many chunks apart <a href="../villages/#finding-one">villages and towns</a> stand (12 to 100). Saved with the world when it is made: changing it later does nothing to that world. A world made before 0.6.0 keeps 34.</td>
+</tr>
+<tr>
+<td><code>villages</code></td>
+<td><code>townShare</code></td>
+<td><code>33</code></td>
+<td>Of every hundred places, how many are <a href="../towns/">towns</a> (0 to 100). Saved with the world when it is made, like <code>spacing</code>. A world made before 0.6.0 keeps 25.</td>
+</tr>
+</tbody>
+</table>
+<p>To turn off a whole trade, see AkumaLib's <code>disabledProfessions</code>: <a href="../trades-and-levels/#a-trade-turned-off">A trade turned off</a>.</p>
 <h2 id="merchants"><code>merchants</code><a class="headerlink" href="#merchants" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
