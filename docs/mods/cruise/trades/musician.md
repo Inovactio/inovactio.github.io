@@ -185,6 +185,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Reprise** | The tune that is on you starts again at its full length for you and your crew in reach of your instrument. No score is used | an instrument | 60 s | — | — |
 | **Dissonance** | Play a chord that grates. Every enemy within 5 blocks is hurt and weakened for 5 seconds. A player or a boss half as long | an instrument | 14 s | 20 | 5 blocks |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Sour Note** | ![Sour Note, seen from the side](../moves/sour_note.gif){ width="360" loading="lazy" } |
+| **Dissonance** | ![Dissonance, seen from the side](../moves/dissonance.gif){ width="360" loading="lazy" } |
+| **Reprise** | ![Reprise, seen from the side](../moves/reprise.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

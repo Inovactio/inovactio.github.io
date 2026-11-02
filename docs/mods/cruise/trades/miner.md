@@ -173,6 +173,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Pick Strike** | With a pickaxe in hand strike the enemy you look at. It hurts them a lot and holds them for 1 second. A player or a boss is held half as long | a pickaxe in hand | 9 s | 55 | 4 blocks |
 | **Blast Rock** | With a pickaxe in hand throw an Explosive Rock. It bursts where it lands and hurts every enemy within 3 blocks. It breaks no block | a pickaxe in hand | 12 s | 40 | 3 blocks |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Pick Strike** | ![Pick Strike, seen from the side](../moves/pick_strike.gif){ width="360" loading="lazy" } |
+| **Ground Breaker** | ![Ground Breaker, seen from the side](../moves/ground_breaker.gif){ width="360" loading="lazy" } |
+| **Blast Rock** | ![Blast Rock, seen from the side](../moves/blast_rock.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

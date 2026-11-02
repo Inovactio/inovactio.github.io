@@ -131,6 +131,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Whirling Axe** | With an axe in hand spin on yourself. Every enemy around you is hit and thrown back | an axe in hand | 10 s | 30 | 3.5 blocks |
 | **Axe Throw** | With an axe in hand throw it straight ahead. You keep your axe | an axe in hand | 8 s | 35 | — |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Axe Throw** | ![Axe Throw, seen from the side](../moves/axe_throw.gif){ width="360" loading="lazy" } |
+| **Timber** | ![Timber, seen from the side](../moves/timber.gif){ width="360" loading="lazy" } |
+| **Whirling Axe** | ![Whirling Axe, seen from the side](../moves/whirling_axe.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

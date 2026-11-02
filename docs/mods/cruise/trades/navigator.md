@@ -40,6 +40,7 @@ It faces you when placed and is mined with an axe. The Navigator's five recipes 
 | ![](../icons/barometer.png){ .item-icon }Barometer | 20 | 50 | Glass Bottle, 2 × Copper Ingot, ![](../icons/tempest_mouse.png){ .item-icon }Tempest Mouse, Redstone Dust |
 | ![](../icons/sea_chart.png){ .item-icon }Sea Chart | 30 | 70 | 2 × Paper, Compass, ![](../icons/pumpkin_octopus.png){ .item-icon }Pumpkin Octopus |
 | ![](../icons/eternal_pose.png){ .item-icon }Eternal Pose | 50 | 110 | ![](../icons/log_pose.png){ .item-icon }Log Pose, ![](../icons/lens.png){ .item-icon }Lens, ![](../icons/magnet.png){ .item-icon }Magnet, 2 × Gold Ingot |
+| ![](../icons/poneglyph_compass.png){ .item-icon }Poneglyph Compass | 50 | 120 | ![](../icons/log_pose.png){ .item-icon }Log Pose, ![](../icons/magnet.png){ .item-icon }Magnet, 2 × Lapis Lazuli, Diamond |
 
 ## Exploring
 
@@ -138,6 +139,14 @@ See [Events at sea](../events-at-sea.md#a-storm-at-sea) for the storm itself.
 - It is named after the place: the structure they stood in (within 8 blocks), otherwise the biome, or whatever name an anvil gave it.
 - Anyone can use a calibrated one to see how far away the place is ("It points to X: N blocks away", or "in another world").
 
+## Level 50: the Poneglyph Compass
+
+![](../icons/poneglyph_compass.png){ .item-icon }The **Poneglyph Compass** (since 0.6.0) is made at the Chart Table at level 50, from a Log Pose, a Magnet, 2 Lapis Lazuli and a Diamond.
+
+- Its needle points to the **nearest poneglyph you have not read yet**.
+- Read that poneglyph with a sheet of paper in hand, and the compass turns to the next one.
+- It learns of the poneglyphs as the land around you loads, in worlds made before 0.6.0 too.
+
 ## At the helm
 
 With the Fair Wind talent, the Carpenter's boats you steer go 1 % faster, on any water; with Trade Winds too, 2 % faster. The boat's total speed boost (hull, shape, sail and helmsman together) is capped at ×1.075, so a Navigator makes an ordinary boat faster but adds little to the fastest one. See [Boats](../boats.md) and the [Carpenter](carpenter.md).
@@ -202,6 +211,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Thunder Call** | Call lightning on the enemy you look at within 16 blocks. It starts no fire | a Barometer in your bag | 15 s | 30 | 16 blocks |
 | **Gust** | Blow a gust before you. Every enemy in front of you within 8 blocks is hit and blown far back | a Barometer in your bag | 10 s | 20 | 8 blocks |
 | **Mirage** | Vanish for 5 seconds. The creatures after you lose you | a Barometer in your bag | 30 s | — | — |
+
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Gust** | ![Gust, seen from the side](../moves/gust.gif){ width="360" loading="lazy" } |
+| **Mirage** | ![Mirage, seen from the side](../moves/mirage.gif){ width="360" loading="lazy" } |
+| **Thunder Call** | ![Thunder Call, seen from the side](../moves/thunder_call.gif){ width="360" loading="lazy" } |
 
 ### If you had the trade before 0.5.0
 

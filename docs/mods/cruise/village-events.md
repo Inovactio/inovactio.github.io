@@ -123,7 +123,7 @@ A travelling swordsmith, the **Swordsmith from Wano**, stops for two days on the
 |---|---|---|---|
 | Sandai Kitetsu, Kikoku | a **Katana** forged by a Blacksmith | 4 Pure Iron Ore, 2 Diamond Fragments | 10,000 Belly |
 | Durandal | a **Broadsword** forged by a Blacksmith | 4 Pure Iron Ore, 2 Diamond Fragments | 10,000 Belly |
-| Wado Ichimonji, Nidai Kitetsu, Shusui, Enma, Ame no Habakiri (Great Grade) | a **Warabide Sword** forged by a Blacksmith | 6 Pure Iron Ore, 4 Diamond Fragments, 2 Dense Kairoseki | 20,000 Belly |
+| Wado Ichimonji, Nidai Kitetsu, Shusui, Enma, Ame no Habakiri (Great Grade) | a **Katana** forged by a Blacksmith (a Warabide Sword before 0.6.0) | 6 Pure Iron Ore, 4 Diamond Fragments, 2 Dense Kairoseki | 20,000 Belly |
 
 Each visit he offers two of the first three and two of the Great Grade.
 

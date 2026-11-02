@@ -193,6 +193,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Thread Bind** | Throw a thread round the enemy you look at within 10 blocks. He is hurt and held for 2 seconds. A player or a boss half as long | — | 12 s | 20 | 10 blocks |
 | **Needle Rain** | Throw a fan of needles before you. Every enemy in front of you within 6 blocks is hit | — | 9 s | 25 | 6 blocks |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Needle Rain** | ![Needle Rain, seen from the side](../moves/needle_rain.gif){ width="360" loading="lazy" } |
+| **Thread Bind** | ![Thread Bind, seen from the side](../moves/thread_bind.gif){ width="360" loading="lazy" } |
+| **Patch Up** | ![Patch Up, seen from the side](../moves/patch_up.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

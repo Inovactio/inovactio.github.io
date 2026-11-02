@@ -135,6 +135,17 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Line Snare** | With a fishing rod in hand bind the enemy you look at with your line. They can not move for 3 seconds. A player or a boss is held half as long | a fishing rod in hand | 14 s | 10 | 12 blocks |
 | **Harpoon Throw** | Throw a heavy harpoon straight ahead. It hits half as hard again an enemy who is in water | — | 10 s | 45 / 67.5 | — |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Harpoon Throw** | ![Harpoon Throw, seen from the side](../moves/harpoon_throw.gif){ width="360" loading="lazy" } |
+| **Hook Shot** | ![Hook Shot, seen from the side](../moves/hook_shot.gif){ width="360" loading="lazy" } |
+| **Big Catch** | ![Big Catch, seen from the side](../moves/big_catch.gif){ width="360" loading="lazy" } |
+| **Line Snare** | ![Line Snare, seen from the side](../moves/line_snare.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
@@ -217,6 +228,14 @@ If you also play with *Mine Mine no Mi: Sky Island*, Skypiea's **sea of clouds**
 - **A school of fish** passes off a coast or out at sea every few days, for half a day. Cast your line in it and nearly every catch is that fish, bigger than usual, and the bite comes about twice as fast.
 - **A storm at sea**: in it, the rare fish of those waters (the ones with a chance of 15 % or less in the table) bite **three times as often**. A storm does not bring more Sea Kings.
 - **A fishing tournament** is held now and then on the quay of a village that has a port. Bring the judge your best catch of the day's fish: gold, silver or bronze pays ten, six or three times its worth, in Belly and in Fisher XP. Taking the gold earns the title **Golden Hook**, and the biggest catch of the day takes the **Fishing Trophy**, the fish itself mounted on a plaque to hang on a wall.
+
+### The board of records
+
+Since 0.6.0 every new port has a **board of records** on its quay: the biggest catch of each kind landed in its waters, and the server's biggest of each kind. Only a fish you landed yourself counts.
+
+- Everyone is told when a record falls.
+- Whoever holds the most of the server's records wears the title **Record Holder**.
+- The [Carpenter](carpenter.md) makes a ![](../icons/record_board.png){ .item-icon }**Record Board** for your own base (level 17).
 
 See Events at sea for [the schools](../events-at-sea.md#a-school-of-fish) and [the storms](../events-at-sea.md#a-storm-at-sea), and [Village events](../village-events.md#a-fishing-tournament) for the tournament.
 

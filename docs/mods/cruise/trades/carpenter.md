@@ -42,6 +42,12 @@ Four chests of the Carpenter's own. Each is one block and **never pairs** into a
 
 The ![](../block-models/auction-house.png){ .block-mini }**Auction House** (Carpenter 15) is a block anyone can use. Every Auction House opens the same server-wide market, with Buy, Sell and My lots tabs. See [Auction House](../auction-house.md).
 
+## House plans and the Record Board
+
+Since 0.6.0 the Shipyard also draws **house plans** for a plot you own in a town: small (level 15), medium (level 30) and large (level 45). Lay one on your plot, pay for the site, and the house rises over a day in the look of its land. See [House plans](../towns.md#house-plans).
+
+It also makes the **Record Board** (level 17), the board of the biggest catches that stands on every new quay: see the [Fisher](fisher.md#the-board-of-records).
+
 ## Shipyard recipes
 
 These are all the Shipyard's recipes ("planks" means any planks):
@@ -54,17 +60,21 @@ These are all the Shipyard's recipes ("planks" means any planks):
 | ![](../block-models/ships-locker.png){ .block-mini }Ship's Locker | 10 | 30 | 6 × any planks, Chest, 2 × Iron Ingot |
 | ![](../icons/reinforced_longboat.png){ .item-icon }Reinforced Longboat | 13 | 36 | 7 × any planks, 2 × Iron Ingot |
 | ![](../block-models/auction-house.png){ .block-mini }Auction House | 15 | 36 | 6 × any planks, Book, 2 × Gold Ingot |
+| ![](../icons/small_house_plan.png){ .item-icon }Small House Plan | 15 | 40 | 3 × Paper, Ink Sac, 4 × any planks |
+| ![](../icons/record_board.png){ .item-icon }Record Board | 17 | 44 | 4 × any planks, Book, Gold Ingot |
 | ![](../icons/kuuigosu_boat.png){ .item-icon }Kuuigosu Boat | 20 | 50 | 6 × ![](../block-models/kuuigosu-planks.png){ .block-mini }Kuuigosu Planks, 3 × Iron Ingot |
 | ![](../block-models/reinforced-locker.png){ .block-mini }Reinforced Locker | 22 | 54 | 6 × any planks, Chest, 4 × Iron Ingot, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap |
 | ![](../icons/kuuigosu_fishing_boat.png){ .item-icon }Kuuigosu Fishing Boat | 23 | 56 | 6 × ![](../block-models/kuuigosu-planks.png){ .block-mini }Kuuigosu Planks, 2 × Iron Ingot, Chest |
 | ![](../icons/kuuigosu_cargo_boat.png){ .item-icon }Kuuigosu Cargo Boat | 27 | 64 | 6 × ![](../block-models/kuuigosu-planks.png){ .block-mini }Kuuigosu Planks, Iron Ingot, 2 × Chest |
 | ![](../icons/kuuigosu_longboat.png){ .item-icon }Kuuigosu Longboat | 30 | 70 | 6 × ![](../block-models/kuuigosu-planks.png){ .block-mini }Kuuigosu Planks, Iron Ingot, 2 × any planks |
+| ![](../icons/medium_house_plan.png){ .item-icon }Medium House Plan | 30 | 70 | 6 × Paper, 2 × Ink Sac, 4 × any planks, 2 × Bricks |
 | ![](../block-models/kuuigosu-locker.png){ .block-mini }Kuuigosu Locker | 34 | 78 | 6 × ![](../block-models/kuuigosu-planks.png){ .block-mini }Kuuigosu Planks, Chest, 2 × Block of Iron |
 | ![](../icons/burning_boat.png){ .item-icon }Burning Tree Boat | 36 | 82 | 5 × ![](../block-models/burning-tree-planks.png){ .block-mini }Burning Tree Planks |
 | ![](../icons/burning_fishing_boat.png){ .item-icon }Burning Tree Fishing Boat | 37 | 84 | 6 × ![](../block-models/burning-tree-planks.png){ .block-mini }Burning Tree Planks, String, ![](../icons/reel.png){ .item-icon }Reel |
 | ![](../icons/burning_cargo_boat.png){ .item-icon }Burning Tree Cargo Boat | 38 | 86 | 6 × ![](../block-models/burning-tree-planks.png){ .block-mini }Burning Tree Planks, Chest, ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap |
 | ![](../icons/burning_longboat.png){ .item-icon }Burning Tree Longboat | 40 | 90 | 7 × ![](../block-models/burning-tree-planks.png){ .block-mini }Burning Tree Planks, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap |
 | ![](../block-models/adam-strongbox.png){ .block-mini }Adam Strongbox | 45 | 100 | 6 × ![](../block-models/adam-planks.png){ .block-mini }Adam Planks, Chest, 4 × Block of Iron, 2 × ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts |
+| ![](../icons/large_house_plan.png){ .item-icon }Large House Plan | 45 | 100 | 9 × Paper, 3 × Ink Sac, Book, 2 × Gold Ingot |
 | ![](../icons/adam_boat.png){ .item-icon }Adam Boat | 50 | 110 | 6 × ![](../block-models/adam-planks.png){ .block-mini }Adam Planks, 2 × ![](../icons/pure_iron_ore.png){ .item-icon }Pure Iron Ore, Iron Ingot |
 | ![](../icons/adam_cargo_boat.png){ .item-icon }Adam Cargo Boat | 50 | 110 | 6 × ![](../block-models/adam-planks.png){ .block-mini }Adam Planks, ![](../icons/pure_iron_ore.png){ .item-icon }Pure Iron Ore, 2 × Chest |
 | ![](../icons/adam_fishing_boat.png){ .item-icon }Adam Fishing Boat | 50 | 110 | 6 × ![](../block-models/adam-planks.png){ .block-mini }Adam Planks, 2 × ![](../icons/pure_iron_ore.png){ .item-icon }Pure Iron Ore, Chest |
@@ -130,6 +140,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Mallet Swing** | Swing wide before you. Every enemy in front of you within 4 blocks is hit and thrown back | — | 10 s | 35 | 4 blocks |
 | **Nail Shot** | Throw a fistful of nails straight ahead. The enemy they hit is hurt and slowed for 3 seconds. A player or a boss half as long | — | 8 s | 30 | — |
 | **Quick Repair** | Patch the hull you ride or the one you look at within 5 blocks. It gets 2 timbers back. No plank is used | — | 30 s | — | — |
+
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Mallet Swing** | ![Mallet Swing, seen from the side](../moves/mallet_swing.gif){ width="360" loading="lazy" } |
+| **Nail Shot** | ![Nail Shot, seen from the side](../moves/nail_shot.gif){ width="360" loading="lazy" } |
+| **Quick Repair** | ![Quick Repair, seen from the side](../moves/quick_repair.gif){ width="360" loading="lazy" } |
 
 ### If you had the trade before 0.5.0
 

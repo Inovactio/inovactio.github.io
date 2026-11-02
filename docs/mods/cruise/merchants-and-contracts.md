@@ -115,6 +115,28 @@ Every item of one kind you sell lowers the price of the next one of that kind: a
 
 A Merchant with the **Trade Network** talent fills the market half as fast (32 sold before the price halves; 48 with Wide Network too, more with the Contacts talents), and a Merchant's price bonus (+0.5 % per level, up to +25 % at level 50) applies on top.
 
+## Regional prices and trade routes
+
+Since 0.6.0 each land has its own tastes, the same in all its villages. A merchant outside a village goes by the land he stands on; the merchant ship has none.
+
+- **Local goods** are bought and sold at **0.7 times** their price there: cheap to buy, poor to sell.
+- **Wanted goods** are paid **1.5 times** their price there.
+- **The good of the week.** Each in-game week every land wants one more good, drawn among the other lands' local goods, so there is always a village it comes cheap from.
+- **A village gets glutted.** After 32 of a kind sold in a village, by anyone, it fetches half there, and a quarter after three times as many. It recovers by half every day. This comes on top of [the market filling up](#the-market-fills-up) on you.
+- **Where to go.** The Sell window, the barkeeper and the notice board tell what a land wants.
+
+| Land | Local (cheap) | Wanted (dear) |
+|---|---|---|
+| Plains | Bitter Grass, Red Fruit, Blue Fruit, Nectar, Wild Grass Pasta | Coconut, Cactus Pulp, Autumn Leaves Salmon, Mystery Egg, Stamina Stew |
+| Desert | Cactus Pulp, Coconut, Bone Fish, Flame Powder, Cactus Steak | Autumn Leaves Salmon, Adam Log, Bitter Grass, Wild Grass Pasta, Packed Ice |
+| Snowy plains | Icefish, Horned Icicle Lizard, A Class Toad, Mystery Egg, Packed Ice | Bitter Grass, Red Fruit, Flame Powder, Cactus Steak, Burning Tree Log |
+| Savanna | Wilted Carrot, Bitter Grass, Burning Tree Log, Tempest Mouse, Stamina Stew | Icefish, Mystery Mushroom, Blue Fruit, Ice Powder, Nectar |
+| Taiga | Adam Log, Mystery Mushroom, Autumn Leaves Salmon, Ice Powder, Large Mushroom Salad | Red Fruit, Wilted Carrot, Coconut, Flame Powder, Bone Fish |
+
+The lists are item tags, `inocruise:regional/local/<land>` and `inocruise:regional/wanted/<land>` (`plains`, `desert`, `snowy`, `savanna`, `taiga`): a data pack can change them.
+
+What else moves a price: your [name in the village](villages.md#your-name-in-a-village) (5 to 15 % off for one it likes, 10 to 25 % more for one it distrusts), a [noble town](towns.md#the-noble-quarter) (25 % dearer) and a trader's traits.
+
 ## The stall
 
 Besides his fixed goods, each merchant brings a **stall** of his trade's goods, drawn once when he arrives:
@@ -128,7 +150,7 @@ Something bought from a stall is a plain item: a fish has no size (it sells back
 
 Every merchant may also bring **torn treasure maps**: a Torn Rumor Map 35 % of the time (600), a Torn Old Map 12 % (3 000), a Torn Legendary Map 3 % (15 000). See [Treasure hunts](treasure-hunts.md).
 
-A Merchant with the **Bargain** talent pays 15 % less for everything they buy from a Cruise merchant (the Buy screen still shows the full price, but they are charged less). A village under your group's flag gives **10 % off at its stalls** (see [Village flags](village-flags.md)). Discounts are never added together: you get the best one alone.
+A Merchant with the **Bargain** talent pays 15 % less for everything they buy from a Cruise merchant (since 0.6.0 the Buy screen shows the price you really pay: the listed one struck through, yours beside it in green when cheaper, in red when dearer). A village under your group's flag gives **10 % off at its stalls** (see [Village flags](village-flags.md)). Discounts are never added together: you get the best one alone.
 
 ## What they pay
 
@@ -239,6 +261,8 @@ A crop or a fruit reaped **Fine** pays ×1.25, **Superb** ×1.5, as a dish does 
 | Cactus Flower | 260 | 702-858 | 4 % | rare harvest of Cactus Pulp; sown at Farmer level 45 |
 | Golden Fruit | 300 | 810-990 | 4 % | fruit (Farmer level 30) |
 | Golden Matsutake | 300 | 810-990 | 4 % | rare harvest of Mystery Mushrooms; sown at Farmer level 35 |
+
+Since 0.6.0 he also buys **Burning Tree Log** (4), **Adam Log** (5) and Minecraft's **Packed Ice** (27), the woods and the ice some lands want.
 
 ### Travelling Cook
 

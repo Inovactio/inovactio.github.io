@@ -337,6 +337,17 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Snap Trap** | Lay a trap at your feet for 30 seconds. The first enemy to step on it is hurt and held for 4 seconds | — | 20 s | 30 | — |
 | **Hornet Swarm** | Send a swarm of hornets at the enemy you look at. It stings them for 6 seconds and poisons the enemies by them | — | 25 s | 45 | 16 blocks |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Net Throw** | ![Net Throw, seen from the side](../moves/net_throw.gif){ width="360" loading="lazy" } |
+| **Snap Trap** | ![Snap Trap, seen from the side](../moves/snap_trap.gif){ width="360" loading="lazy" } |
+| **Hunter's Mark** | ![Hunter's Mark, seen from the side](../moves/hunters_mark.gif){ width="360" loading="lazy" } |
+| **Hornet Swarm** | ![Hornet Swarm, seen from the side](../moves/hornet_swarm.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

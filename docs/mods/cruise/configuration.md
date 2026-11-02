@@ -20,11 +20,29 @@ Cruise's own settings are in **`config/inocruise-common.toml`**, created the fir
 !!! note "`vanillaVillages` is no longer read"
     Up to 0.3.1 this setting was called `vanillaVillages` and was `true` by default. Since 0.4.0 it is `withVanillaVillages`, `false` by default. The old line may still be in a file written by an earlier version: it does nothing any more. To keep Minecraft's villages, set `withVanillaVillages = true`.
 
+## `traits`
+
+| Setting | Default | What it does |
+|---|---|---|
+| `disabledTraits` | `[]` | [Traits](traits.md) turned off, by id, for example `["inocruise:blind"]`. A trait turned off is never drawn for a new character, and does nothing on one who has it. They keep it: it works again once turned back on. (Since 0.6.0.) |
+
 ## `guide`
 
 | Setting | Default | What it does |
 |---|---|---|
 | `givenAtFirstJoin` | `true` | Whether every player is handed a Cruise Guide, once: the first time he comes into the world, or the next time in a world begun before the guide existed. With `false` nobody is handed one; it is still made from a book and paper, and still opens from every trade's page. |
+
+## `inocruise-server.toml`
+
+Since 0.6.0 Cruise also has a file per world, **`serverconfig/inocruise-server.toml`** in the world's folder.
+
+| Section | Setting | Default | What it does |
+|---|---|---|---|
+| `factions` | `civilianStart` | `true` | Every new player starts as a [civilian](villages.md#playing-a-civilian) and earns a side by what they do; the character creator offers no side. `false` gives the choice of a side back to the character creator. |
+| `villages` | `spacing` | `24` | How many chunks apart [villages and towns](villages.md#finding-one) stand (12 to 100). Saved with the world when it is made: changing it later does nothing to that world. A world made before 0.6.0 keeps 34. |
+| `villages` | `townShare` | `33` | Of every hundred places, how many are [towns](towns.md) (0 to 100). Saved with the world when it is made, like `spacing`. A world made before 0.6.0 keeps 25. |
+
+To turn off a whole trade, see AkumaLib's `disabledProfessions`: [A trade turned off](trades-and-levels.md#a-trade-turned-off).
 
 ## `merchants`
 

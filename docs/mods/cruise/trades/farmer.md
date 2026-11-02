@@ -201,6 +201,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Thorn Patch** | With a hoe in hand make thorns grow under the enemy you look at. He and every enemy within 3 blocks of him are hurt and held for 2 seconds. A player or a boss is held half as long | a hoe in hand | 12 s | 25 | 3 blocks |
 | **Hay Maker** | With a hoe in hand strike the enemy you look at from below. It hurts them a lot and throws them up in the air | a hoe in hand | 10 s | 50 | 4 blocks |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Reap** | ![Reap, seen from the side](../moves/reap.gif){ width="360" loading="lazy" } |
+| **Thorn Patch** | ![Thorn Patch, seen from the side](../moves/thorn_patch.gif){ width="360" loading="lazy" } |
+| **Hay Maker** | ![Hay Maker, seen from the side](../moves/hay_maker.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

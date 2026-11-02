@@ -70,6 +70,22 @@ When a tier is reached, the chat says so ("Bestiary: 10% of the Creatures caught
 
 See [Trades and levels](trades-and-levels.md) for what the XP is worth.
 
+## The trade collections
+
+Since 0.6.0 five more trades keep a book of their own, opened like the Bestiary with a button on the trade's page:
+
+| Book | Trade | What it collects |
+|---|---|---|
+| **Herbarium** | [Farmer](trades/farmer.md) | every crop, sown harvest and tree fruit of Cruise's |
+| **Minerals** | [Miner](trades/miner.md) | the Prospector's goods: the ores and the rock's finds |
+| **Woods** | [Lumberjack](trades/lumberjack.md) | Cruise's woods |
+| **Dishes** | [Cook](trades/cook.md) | the dishes you have tasted |
+| **Tunes** | [Musician](trades/musician.md) | the tunes you have played, one page a tune whatever its tier |
+
+- A page you have not found yet shows a shadow, and where to look for it.
+- Each tenth of a book pays Belly, and XP in its trade if you practise it, on the scale above, in proportion to the book's size: a book of 60 pages pays the full scale, one of 30 half of it.
+- The dishes you tasted before 0.6.0 are in the Dishes from the start.
+
 ## The Log Book
 
 The Log Book belongs to the [Navigator](trades/navigator.md) and opens from the Navigator's page. It has two sections, **Lands** and **Places**:
