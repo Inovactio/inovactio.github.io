@@ -2,6 +2,62 @@
 
 Every Race Race no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/all).
 
+## 0.2.0 (beta) { #v0-2-0 }
+
+<small>Released 2026-11-02 · [Download](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/9405200)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Three new races and three peoples of giants.</strong> The Oni, the Tontatta and the Lunarians join the sky people, the
+fishmen, the humans and the giants, each with their own body and their own techniques. The giants now come as Elbaf
+Giants, Wotan and Ancient Giants, and get two new techniques. Every icon of the sky people and the giants is redrawn.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 6.3.0</strong> or newer.
+<a href="https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island">Mine Mine no Mi: Sky Island</a> is optional.
+Needed on both the client and the server.</p>
+<hr />
+<h3>The Oni (new)</h3>
+<ul>
+<li><strong>Nearly twice a man's height</strong> (size 1.75), with horns whose shape and colour are your own. Counts as a human for
+  Rokushiki. Hold sneak to bend through a door.</li>
+<li><strong>Oni Blood</strong>: harder bare hands and a tougher body. Drunk makes you stronger instead of sick: more damage and less
+  damage taken for each level, up to level 5.</li>
+<li><strong>Five techniques</strong>, bare-handed, stronger with a blunt weapon: Guard Breaker (breaks a raised shield), Horn Toss,
+  Shock Fist (a shock wave in a line), Demon Skin (less damage taken, your blows push harder) and Demon Leap (a leap onto
+  the enemy in sight, with a shock wave where you land).</li>
+</ul>
+<h3>The Tontatta (new)</h3>
+<ul>
+<li><strong>About 45 cm</strong> (size 0.25), with a round bushy tail in your hair's colour and, for some, a pointed nose. You go
+  through slits a man cannot, and enemies have a hard time seeing and hitting you.</li>
+<li><strong>Tontatta Strength</strong>: a man's blows and push, and you reach blocks as far as a man.</li>
+<li><strong>Five techniques</strong>: Tonta Uppercut sends a man flying up, Underfoot Dash runs between legs, Tonta Barrage is twelve
+  quick blows, Tail Hammer leaps onto an enemy, and Head Climb runs up a big body to strike its head.</li>
+</ul>
+<h3>The Lunarians (new)</h3>
+<ul>
+<li><strong>One and a half times a man</strong> (size 1.5), brown skin, white hair and long black wings. Fire and lava do not burn you.</li>
+<li><strong>The flame on your back</strong>: lit, you take half the damage and every technique works. Out, you are a quick fighter:
+  faster on foot and with your blows, harder bare hands, a higher jump, but only Flame Switch works. Water puts it out.</li>
+<li><strong>Techniques</strong>: Flame Switch, Black Wings (8 s of flight, then you fall), Flame Blast, Flaming Blow and Flame Shroud.</li>
+</ul>
+<h3>Giants</h3>
+<ul>
+<li><strong>Three peoples to choose from</strong>: the Elbaf Giant (size 4, as before), the Wotan (size 2.5, an orange fin, swims and
+  sees under water, takes less from blunt blows) and the Ancient Giant (size 6, horns and red or green skin, tougher and
+  never pushed back, with Continent Puller). A giant made before this version stays an Elbaf-sized giant.</li>
+<li><strong>Elbaf Charge</strong>: a charge straight ahead that throws small enemies aside.</li>
+<li><strong>Roar of Elbaf</strong>: small enemies around you are slowed and weakened, you and your allies get stronger.</li>
+<li><strong>Giant's Stomp</strong> reaches from the edge of your body, and hits what stood just beside a big giant.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>A technique of your old race</strong> no longer comes back after you change race. Its points are given back, as the base
+  mod does.</li>
+<li><strong>Sky dials</strong> keep their bonus every time in singleplayer.</li>
+<li><strong>The race faces</strong> in the character creator no longer have their horns and hats cut off.</li>
+<li><strong>Icons</strong>: every icon of the sky people and the giants is redrawn.</li>
+</ul>
+</div>
+
 ## 0.1.1 (beta) { #v0-1-1 }
 
 <small>Released 2026-10-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/9376688)</small>

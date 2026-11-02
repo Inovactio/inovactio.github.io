@@ -2,6 +2,75 @@
 
 Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/all).
 
+## 6.1.0 { #v6-1-0 }
+
+<small>Released 2026-11-02 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9405201)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Big against small.</strong> Five techniques now treat a body twice your size, or twice smaller, the way the story does: Nui
+sews a giant all over, Muchi brings it to its knees, Moa hits it harder, Poke swallows a small one whole and Onyudo pins
+it flat. Onyudo reaches further and recharges sooner, an Oni keeps the horns in every Zoan form, the Seiryu looks
+right in a real game, and six Gasha poses play in full. A player of a man's size keeps the same numbers.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 6.3.0</strong> or newer. Client and
+server. Curios is optional, 5.2.0 or newer.</p>
+<p>⚠️ <strong>Servers: set <code>allow-flight=true</code></strong> in <code>server.properties</code>, as before. Several fruits fly or hover, and without it
+the server kicks their users.</p>
+<hr />
+<h3>Big against small</h3>
+<p>A body counts as twice your size (or twice smaller) by its height: a player or a creature, forms included.</p>
+<ul>
+<li><strong>Nuitsuke</strong> (Nui Nui no Mi): on a body twice your size it holds 10 s instead of 6, with rings of thread round the
+  whole body tied to the ground. Its plain blows and body techniques do not land while it is sewn. Still harmless, and
+  Hodoki undoes it at once.</li>
+<li><strong>Kneel!</strong> (Muchi Muchi no Mi): a body twice your size really kneels, hands on the ground, its head at your height.
+  It cannot walk, for 8 s on a player and 12 s on a creature, and the cooldown is longer on such a target.</li>
+<li><strong>Gekitsui</strong> (Moa Moa no Mi): on a body twice your size it comes down harder, 39 damage instead of 26, with a wider
+  blast and a ring of earth and dust.</li>
+<li><strong>Swallowing Pocket</strong> (Poke Poke no Mi): a body twice smaller than you that stands in the open pocket is drawn in and
+  carried. It comes out unhurt after 5 s or at a second press, and always comes back out: if you die, leave, change
+  world or the server stops. A swallowed player sees black and can do nothing, and nothing can hurt them.</li>
+<li><strong>Giant's Stomp</strong> (Hito Hito no Mi, Model: Onyudo): a body twice smaller is pinned flat on its face for 2.5 s instead
+  of 1. In the giant form that is anyone of a man's size.</li>
+</ul>
+<h3>Oni horns on the Zoans</h3>
+<ul>
+<li><strong>An Oni of Race Race no Mi keeps the horns</strong> in every Zoan form that has a head, in the shape and colour of your
+  own: wolf, jackal, dalmatian, dachshund, tanuki, kyubi, falcon, eagle, albatross, vampire bat, pegasus, horse,
+  beetle, triceratops, pachycephalosaurus, spinosaurus, saber tiger, rosamygale, Orochi (on each of its eight heads),
+  Onyudo, Suzumebachi, King Cobra, Anaconda and Seiryu. They follow the head when it turns and bites.</li>
+<li><strong>King Cobra and Anaconda</strong>: the body no longer flickers.</li>
+</ul>
+<h3>Hito Hito no Mi, Model: Onyudo</h3>
+<ul>
+<li><strong>Further and sooner.</strong> Earth Splitter, Long Thrust, Great Sweep, Giant's Stomp and Dread Gaze reach about half as far
+  again and recharge sooner. Their damage does not change. NPC users of the fruit use the new reach too.</li>
+</ul>
+<h3>Uo Uo no Mi, Model: Seiryu</h3>
+<ul>
+<li><strong>The hybrid's arms</strong> stay on its broad chest in a real game. They used to stand apart from a narrow torso.</li>
+<li><strong>The claws</strong> of the left paws no longer turn inward and cross.</li>
+<li><strong>The top of the dragon's body</strong> no longer flickers.</li>
+</ul>
+<h3>Gasha Gasha no Mi</h3>
+<ul>
+<li><strong>Six poses play in full</strong>: Blindado, Canon Armado, Desmontar, Soldado, Torreta and Det Sterkeste Strike stopped at
+  their first frame.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Fude Fude no Mi</strong>: a rider smaller than a man sits right on the ink dragon and the ink crane, instead of a
+  little above them.</li>
+<li><strong>Magnumceratops</strong> stops short of its target by your size, as Horn Dive already did.</li>
+<li><strong>Imprison</strong> refuses a creature from another mod that it cannot hold, instead of throwing you out of the server.</li>
+<li><strong>Giro Giro no Mi</strong>: Viola's sight still shows the vanished, but no longer undoes a hiding of another mod or of this
+  one's own forms (Kyubu, Gocha, Zan Giri Mochi's roll).</li>
+<li><strong>Shiro's castle and Mira's mirrors</strong>: one damaged entry in the save no longer empties the whole list.</li>
+<li><strong>Warp</strong>: an NPC right next to its target no longer warps away backwards.</li>
+<li><strong>Nui and Poke</strong> in singleplayer no longer risk a rare error when you strike a blow.</li>
+<li><strong>Curios</strong> older than 5.2.0 now gets the game's dependency screen.</li>
+</ul>
+</div>
+
 ## 6.0.1 { #v6-0-1 }
 
 <small>Released 2026-10-30 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9376687)</small>
