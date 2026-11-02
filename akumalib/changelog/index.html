@@ -13437,6 +13437,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#v6-3-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#v6-2-0" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -13829,6 +13840,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v6-3-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3.0
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#v6-2-0" class="md-nav__link">
@@ -14249,6 +14271,54 @@
 
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
 <p>Every AkumaLib release for Minecraft 1.20.1, newest first, as published on <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all">CurseForge</a>.</p>
+<h2 id="v6-3-0">6.3.0<a class="headerlink" href="#v6-3-0" title="Permanent link">&para;</a></h2>
+<p><small>Released 2026-11-02 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9405199">Download</a></small></p>
+<div class="changelog-body" markdown="0">
+<p><strong>Small bodies get their due, and tooltips tell the truth at every size.</strong> A body smaller than a man (the size slider,
+or a race brought by an addon) no longer loses damage, falls as safely as a man, sits right on a mount and stays drawn
+as far as anyone. A technique's tooltip now gives the cooldown, range and damage you really get at your size. A man at
+normal size plays exactly as before. No signature was removed or changed.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong> and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are optional.</p>
+<p>Same network protocol as 6.0.0 to 6.2.0 (16): a 6.3.0 game plays with a 6.2.0 server and the other way round. Update
+AkumaLib on the server and on every client all the same: damage and falls are counted on the server, the camera, the
+drawing and the tooltips on the client.</p>
+<hr />
+<h3>Bodies smaller than a man</h3>
+<ul>
+<li><strong>No damage penalty.</strong> Under size 1 a body keeps a man's damage and a man's swing. Its lower health is the price of
+  being hard to hit.</li>
+<li><strong>Falls.</strong> A small body takes no harm from a fall of 3 blocks, like a man, where it used to be hurt sooner the smaller
+  it was. It never takes more damage than a man from the same height.</li>
+<li><strong>Camera.</strong> The third-person camera comes closer to a small body, as it backs off from a big one.</li>
+<li><strong>Mounts.</strong> A small rider sits on its mount or in its boat, instead of having its eyes under the floor.</li>
+<li><strong>Sneaking.</strong> A very small body no longer goes under the floor when it sneaks (a man in Mini Mini's form, and smaller).</li>
+<li><strong>Seen from afar.</strong> Other players see a small body as far away as a man's.</li>
+</ul>
+<h3>Tooltips</h3>
+<ul>
+<li><strong>The real figures.</strong> Cooldown, range and damage read the figure at your size, alone: 24 damage at size 4 where it
+  read "12 (+12)". The cooldown follows the size too, to a tenth of a second when the size changes it. A man at normal
+  size reads the same lines as before.</li>
+</ul>
+<h3>Giants</h3>
+<ul>
+<li><strong>A race over size 4</strong> is its full size in its own game too, not a bit smaller than the server sees it.</li>
+</ul>
+<h3>For addon makers</h3>
+<ul>
+<li><strong><code>AkumaBody</code></strong>: a race, a sub-race or an NPC type declares a longer neck, longer arms with elbows, longer legs or a
+  broader chest. Real parts of the model: armour, held items and every layer follow them.</li>
+<li><strong><code>AkumaDwarves</code></strong>: a round bushy tail in the hair's colour and a pointed nose, from the UUID, for a race, a sub-race
+  or an NPC type.</li>
+<li><strong><code>RecolouredSkins.hairColour</code></strong> reads the hair's colour of any skin; <strong><code>SkinTint.skinAndHair</code></strong> tints a skin and its
+  hair. The four-argument <code>SkinTint</code> constructor stays.</li>
+<li><strong><code>WingsLayer.Kind.LUNARIAN</code></strong>: long black wings, with their own slow flight beat (<code>WingsModel.Stroke.FLIGHT</code>).</li>
+<li><strong><code>SizeTooltips.cooldownLine</code></strong> and <strong><code>rangeLine</code></strong>, and <strong><code>AkumaSize.factorAt</code></strong>: the factor really applied.
+  <code>SizeTooltips.line</code> keeps its signature and now gives the figure at the size.</li>
+</ul>
+<p>An addon that uses any of these declares <code>versionRange = "[6.3.0,)"</code>. Leave the top of the range open.</p>
+</div>
+
 <h2 id="v6-2-0">6.2.0<a class="headerlink" href="#v6-2-0" title="Permanent link">&para;</a></h2>
 <p><small>Released 2026-11-01 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9395490">Download</a></small></p>
 <div class="changelog-body" markdown="0">

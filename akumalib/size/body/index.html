@@ -13525,7 +13525,8 @@
 <ul>
 <li><strong>Box</strong>: the standing, crouching and swimming boxes are grown by <code>SIZE</code>. A player's own box too (<code>PlayerSizeMixin</code>): before 6.0.0, <code>SIZE</code> grew a player's abilities and drawing but not his box.</li>
 <li><strong>Eyes</strong>: at the real height of the grown body (a player at <code>SIZE</code> 4 sees from 6.48, not 1.62).</li>
-<li><strong>Third-person camera</strong>: pulled back by <code>SIZE</code> (16 blocks at <code>SIZE</code> 4), still kept out of walls by the base mod.</li>
+<li><strong>Third-person camera</strong>: follows <code>SIZE</code> both ways (16 blocks at <code>SIZE</code> 4, 1 at 0.25), still kept out of walls by the base mod.</li>
+<li><strong>Seat on a mount</strong>: under 1, it sinks by the size.</li>
 <li><strong>Model</strong>: drawn at the grown size, a full form too (the base mod draws a full form with its own renderer, grown in <code>MorphRendererSizeMixin</code>; a player in a form that is the player's own body, Deka, Mini, the Titan..., is drawn by the player's renderer since #651, grown like any body).</li>
 <li><strong>Shadow</strong>: grown by <code>SIZE</code>, both ways (a shrunk body casts a smaller one). A hybrid (a partial form with a box of its own) also grows it by its height against a man's, as its box.</li>
 <li><strong>Hearing</strong> (<code>[sizeSystem]</code> <code>hearing</code>, <code>hearingMargin</code>): a body taller than a man listens from the middle of its body, in first and third person alike, and hears at full volume up to its melee reach plus <code>hearingMargin</code> (4), then a sound fades over its usual distance: a 12-block giant hears at full volume up to 17 blocks, nothing after 33. The server sends sounds that much further to such a player. A man hears as the game does.</li>

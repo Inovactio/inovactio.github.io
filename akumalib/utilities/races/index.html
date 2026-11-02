@@ -10798,6 +10798,50 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#body-shape" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Body shape
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dwarves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dwarves
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-peoples-skin-and-hair" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A people's skin and hair
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lunarian-wings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lunarian wings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#measuring-a-races-layers" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -13560,6 +13604,50 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#body-shape" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Body shape
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dwarves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dwarves
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-peoples-skin-and-hair" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A people's skin and hair
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lunarian-wings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lunarian wings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#measuring-a-races-layers" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -13682,8 +13770,34 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">AkumaHorns</span><span class="p">.</span><span class="na">declare</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="n">MODID</span><span class="p">,</span><span class="w"> </span><span class="s">"horned_folk"</span><span class="p">));</span>
 </code></pre></div>
 <p>The shape and the colour come from the player's UUID (<code>AkumaHorns.shape</code>, <code>AkumaHorns.colour</code>, <code>AkumaHorns.PALETTE</code>): stable, nothing to save, the same on every client. Each colour goes from the root to the tip; the skin stays the player's. A helmet does not hide the horns: they come out through it.</p>
+<h2 id="body-shape">Body shape<a class="headerlink" href="#body-shape" title="Permanent link">&para;</a></h2>
+<p>A body with a longer neck, longer arms with elbows, longer legs or a broader chest, in real parts of the model (Race #12): no layer over a man, the man's parts are not drawn. A mod names who has it, a race or sub-race or an NPC type, in its constructor or common setup, on both sides:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">AkumaBody</span><span class="p">.</span><span class="na">Shape</span><span class="w"> </span><span class="n">tenaga</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">AkumaBody</span><span class="p">.</span><span class="na">Shape</span><span class="p">.</span><span class="na">MAN</span><span class="p">.</span><span class="na">arms</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">);</span><span class="w">      </span><span class="c1">// arm 20 pixels (a man's 12), two elbows</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">AkumaBody</span><span class="p">.</span><span class="na">declare</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="n">MODID</span><span class="p">,</span><span class="w"> </span><span class="s">"tenaga"</span><span class="p">),</span><span class="w"> </span><span class="n">tenaga</span><span class="p">);</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">AkumaBody</span><span class="p">.</span><span class="na">declare</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="n">MODID</span><span class="p">,</span><span class="w"> </span><span class="s">"kubinaga"</span><span class="p">),</span><span class="w"> </span><span class="n">AkumaBody</span><span class="p">.</span><span class="na">Shape</span><span class="p">.</span><span class="na">MAN</span><span class="p">.</span><span class="na">neck</span><span class="p">(</span><span class="mi">6</span><span class="p">));</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="n">AkumaBody</span><span class="p">.</span><span class="na">declare</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="n">MODID</span><span class="p">,</span><span class="w"> </span><span class="s">"ashinaga"</span><span class="p">),</span><span class="w"> </span><span class="n">AkumaBody</span><span class="p">.</span><span class="na">Shape</span><span class="p">.</span><span class="na">MAN</span><span class="p">.</span><span class="na">legs</span><span class="p">(</span><span class="mi">28</span><span class="p">));</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="n">AkumaBody</span><span class="p">.</span><span class="na">declare</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="n">MODID</span><span class="p">,</span><span class="w"> </span><span class="s">"buccaneer"</span><span class="p">),</span><span class="w"> </span><span class="n">AkumaBody</span><span class="p">.</span><span class="na">Shape</span><span class="p">.</span><span class="na">MAN</span><span class="p">.</span><span class="na">chest</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">));</span><span class="w">   </span><span class="c1">// 2 more on each side, 1 more before and behind: 12 x 6</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="n">AkumaBody</span><span class="p">.</span><span class="na">declare</span><span class="p">(</span><span class="n">MyEntities</span><span class="p">.</span><span class="na">TENAGA_PIRATE</span><span class="p">,</span><span class="w"> </span><span class="n">tenaga</span><span class="p">);</span><span class="w">           </span><span class="c1">// an NPC type: its renderer must have a plain humanoid or player model</span>
+</code></pre></div>
+<p>An NPC's type wins over its sub-race's shape, a sub-race's over its race's; <code>forget</code> takes a declaration back. Who declares nothing is drawn by the game's own model, and nothing below runs for them.</p>
+<p><strong>The size stays the master.</strong> The box and the eyes do not move: they are the size system's (<code>AkumaRaces.setSize</code>). The drawing fits them: 32 pixels high in all, whatever the neck and legs add (<code>Shape.fit</code>). A neck of 6 at size 1.2 or legs of 28 at size 1.5 keep a man's head and chest; at size 1 they would make them smaller.</p>
+<p><strong>What follows the parts.</strong> The second skin layer, Alex's thin arms, the held items (at the end of the arm), the game's armour (on the same segments, elbows included) and the Haki overlays. An armour item with a model of its own (<code>getHumanoidArmorModel</code>) is stretched to the body for its drawing, and stays straight when the elbows bend. Layers that hold on a part (the head's horns, antennae, a fishman's features) go with their part, at their old distance from the shoulder.</p>
+<p><strong>Elbows.</strong> Each elbow bends a little at rest, more with the arm's swing forward and in a blow; an arm the game or an animation raises (a bow, a technique's aim) is straight. The neck's texture is the skin's wrist rows.</p>
+<p><strong>First person.</strong> The real arm, straight, with the hand where the game puts a hand: the added length goes towards the shoulder, off screen. A Black Leg's first-person leg stays a man's.</p>
+<p><strong>Forms.</strong> Any full form or hybrid gives back a man's body at the entity's size until it ends: their models are made for a man's limbs (maintainer, 2026-11-01).</p>
+<p><code>gradlew checkLayers</code> measures these bodies too: no two faces of a body or of its armour in one plane, the held item's point at the end of the arm, and the arm's two ends reading the skin where a man's do.</p>
+<h2 id="dwarves">Dwarves<a class="headerlink" href="#dwarves" title="Permanent link">&para;</a></h2>
+<p>A dwarf's bushy tail and pointed nose on a humanoid (<code>DwarfFeaturesModel</code>, <code>DwarfFeaturesLayer</code>), drawn from the anime's concept art (Wicca, Flapper, Leo). A mod names the races that wear them, main race or sub-race, and any NPC types, in its constructor or common setup, on both sides:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">AkumaDwarves</span><span class="p">.</span><span class="na">declare</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="n">MODID</span><span class="p">,</span><span class="w"> </span><span class="s">"tontatta"</span><span class="p">));</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">AkumaDwarves</span><span class="p">.</span><span class="na">declare</span><span class="p">(</span><span class="n">MyEntities</span><span class="p">.</span><span class="na">DWARF_GUARD</span><span class="p">);</span><span class="w">   </span><span class="c1">// whatever its race; a humanoid renderer</span>
+</code></pre></div>
+<p>The shape and the nose come from the wearer's UUID (<code>AkumaDwarves.tail</code>, <code>pointedNose</code>): stable, nothing to save, the same on every client. The tail is a big round mass off the small of the back, in three shapes (a ball, a cloud of three, a ball whose tip curls up), in the colour of the hair of the wearer's skin (<code>RecolouredSkins.hairColour(entity, fallback)</code>, on plain pixels <code>SkinTones.hairColour</code>: the main colour of the head's top, back and sides, the skin's own left out, so a hat on top does not fool it; Leo's brown for a bald head). One wearer in two has the pointed nose: not every dwarf does. It reads the skin between the eyes.</p>
+<h2 id="a-peoples-skin-and-hair">A people's skin and hair<a class="headerlink" href="#a-peoples-skin-and-hair" title="Permanent link">&para;</a></h2>
+<p><code>RecolouredSkins.SkinTint.skinAndHair(skin, hair)</code> lays a colour on the bare skin, as <code>SkinTint.skin</code>, and another on the hair: on the head's and its overlay's top, back, upper sides and fringe every pixel but the skin's own, elsewhere on the head those near <code>SkinTones.hairColour</code>, each keeping a share of its light. A bald head stays bald; a hat painted there takes the colour. Draw it instead of the skin with <code>SkinSwaps</code>.</p>
+<h2 id="lunarian-wings">Lunarian wings<a class="headerlink" href="#lunarian-wings" title="Permanent link">&para;</a></h2>
+<p><code>WingsLayer.Kind.LUNARIAN</code>: King's wings, the arch up to the top of the head, the long primaries past the hips, black with a violet shade, on a texture twice as fine as the sky people's. A race mod adds the layer and picks its wearers, as for the other wings.</p>
 <h2 id="measuring-a-races-layers">Measuring a race's layers<a class="headerlink" href="#measuring-a-races-layers" title="Permanent link">&para;</a></h2>
-<p><code>gradlew checkLayers</code> (<code>gametest/LayerAudit</code>, no game, a few seconds) measures the fishman features, the wings, the antennae and the horns from their baked cubes and real textures, on a classic and a slim player, through the animation's poses, and fails on a defect:</p>
+<p><code>gradlew checkLayers</code> (<code>gametest/LayerAudit</code>, no game, a few seconds) measures the fishman features, the wings, the antennae, the horns and the dwarves' tail and nose from their baked cubes and real textures, on a classic and a slim player, through the animation's poses, and fails on a defect:</p>
 <ul>
 <li><strong>Coplanar</strong>: two faces looking the same way in one plane, both opaque there, against the other parts and the player's own model. They flicker. Move one a tenth of a pixel off the other.</li>
 <li><strong>Open</strong>: a slab cut out of its texture with no wall along the cut, a transparent edge where the slab is solid, or a texel solid on one side only. From some angles one looks through it. A box in <code>client.race</code> gets its walls from <code>SlabWalls</code>, which reads the texture.</li>
