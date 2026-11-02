@@ -111,6 +111,22 @@ What that means for someone who does not practise a trade:
 | Musician | "Only a Musician can play a score." |
 | The makers | Each workstation belongs to its trade, and its recipes open level by level. |
 
+### Crew synergies
+
+Since 0.6.0, in **Crew** mode, five pairs of trades help each other when two crewmates practise them **within 16 blocks** of each other. Each bonus is worth 15 %.
+
+| Pair | What it gives |
+|---|---|
+| Fisher and Cook | dishes last longer |
+| Farmer and Cook | more Cook XP |
+| Miner and Blacksmith | more scrap back |
+| Hunter and Chemist | remedies last longer |
+| Carpenter and Navigator | the ship sails faster |
+
+### A trade turned off
+
+Since 0.6.0 a server can turn off any trade: list it in `disabledProfessions`, under `professions` in AkumaLib's `serverconfig/akumalib-server.toml` (for example `["inocruise:musician"]`). Nobody can practise it any more and its workstation stays shut. Nobody orders its goods, and the base mod's recipes Cruise had given it are back on the crafting table. Players lose its XP and talents, and in Crew mode those who had chosen it choose again. Items already made keep working.
+
 ### Changing trade: the Potion of Forgetting
 
 In **Crew** mode, a player can start over in another trade.
@@ -166,6 +182,10 @@ Each trade's page lists every talent of its web, what it gives and what it is li
 The webs hold **44 combat abilities**, three or four a trade. Taking an ability talent puts its ability in the **Profession** tab of Mine Mine no Mi's abilities screen: place it on your bar yourself. A trade's abilities cost nothing from your bag, but most ask for the trade's tool in hand or in your bag. Each trade's small "Fighting" talents make its abilities hit harder. Giving the talent back (with the potion) takes the ability off your list and your bar.
 
 For operators, each trade's abilities are a group of Mine Mine no Mi's `/ability unlock_group`: `inocruise:fisher`, `inocruise:hunter`, `inocruise:farmer`, `inocruise:cook`, `inocruise:inventor`, `inocruise:chemist`, `inocruise:miner`, `inocruise:lumberjack`, `inocruise:carpenter`, `inocruise:blacksmith`, `inocruise:merchant`, `inocruise:tailor`, `inocruise:navigator` and `inocruise:musician`. An ability given by a command stays, whatever the player's talents.
+
+**Each has its own move** (since 0.6.0): all 44 are played with a gesture of their own, seen by the other players and in first person. The Fisher throws his harpoon, the Cook tosses the pan, the Musician plays his instrument, or conducts when another player's game does not know it.
+
+**They follow your size** (since 0.6.0, with AkumaLib's size system): a giant's areas, reach, throws and dashes grow with his body, his crew buffs carry further, and what he throws (a flask, a net, a pouch) is as big as he is. A body of normal size plays as before.
 
 Damage is on the base mod's scale, as in the ability screen. The trade's page has each ability's range.
 

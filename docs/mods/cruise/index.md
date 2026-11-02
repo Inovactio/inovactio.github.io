@@ -6,9 +6,9 @@
 
 | | |
 |---|---|
-| Version documented | **0.5.0** (beta) |
+| Version documented | **0.6.0** (beta) |
 | Mod id | `inocruise` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.5.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9205797) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.6.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9408052) · [changelog](changelog.md) |
 
 ## Requirements
 
@@ -16,8 +16,8 @@
 |---|---|
 | Minecraft | 1.20.1 |
 | Forge | 47 or later |
-| [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 (0.11.5 is still accepted) |
-| [AkumaLib](../../akumalib/index.md) | **4.8.0** or later: with an older one the game does not start |
+| [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 |
+| [AkumaLib](../../akumalib/index.md) | **6.2.0** or later: with an older one, 6.1.0 included, the game does not start |
 | JEI or EMI | optional, recommended: every workstation, fish, creature and find shows in them |
 | Valkyrien Skies 2 | optional: the Carpenter builds and mends its ships (see [Boats](boats.md#ships-of-valkyrien-skies-optional)) |
 
@@ -52,19 +52,21 @@ The mode is AkumaLib's setting, in the world's `serverconfig/akumalib-server.tom
 | **[Navigator](trades/navigator.md)** | Chart Table | Log Pose, Barometer, Sounding Lead, Sea Charts, the Eternal Pose, a log book of the world. |
 | **[Musician](trades/musician.md)** | Music Stand | Scores played on a flute, a violin, a guitar or a grand piano, to buff the whole crew. |
 
-A **Cruise Guide**, a book handed to every player, says where to start and has a chapter for each trade. Every trade levels from 1 to 100, with a **talent point** every 5 levels to spend in its web of talents, combat abilities among them, and a **title** at levels 25, 50, 75 and 100. Its page in the profession book (**K**) shows what each level unlocks. How levels, XP, Solo and Crew work: [Trades and levels](trades-and-levels.md). A server can make any trade level faster or slower: see [Configuration](configuration.md).
+Every trade's combat technique has its own gesture since 0.6.0, and follows the size of a giant. A **Cruise Guide**, a book handed to every player, says where to start and has a chapter for each trade. Every trade levels from 1 to 100, with a **talent point** every 5 levels to spend in its web of talents, combat abilities among them, and a **title** at levels 25, 50, 75 and 100. Its page in the profession book (**K**) shows what each level unlocks. How levels, XP, Solo and Crew work: [Trades and levels](trades-and-levels.md). A server can make any trade level faster or slower: see [Configuration](configuration.md).
 
 ## Across the trades
 
 - **[Villages](villages.md)**: One Piece villages in five lands - plains, desert, snowy plains, savanna and taiga - each in its land's look, with a market square, a tavern, workshops, a town hall and a port, people who have their day there, each with a name, and a notice board with five small orders every morning and the news. No monster spawns in one. Marines, a pirate crew or the Revolutionaries keep some of them, and their men walk the square by day. Strike a villager and the village closes to you; break it and it mends itself; kill its people and it dies.
-- **[Towns](towns.md)**: one place in four is a walled town, with its guards, a market hall where the merchants always are, an inn that lets rooms and a warehouse that buys in bulk. One town in three has a noble quarter, with its manor, its nobles and the Antiquarian.
-- **[Playing a civilian](villages.md#playing-a-civilian)**: no bounty, no side, left alone by the law as long as you leave it alone.
+- **[Towns](towns.md)**: one place in three is a walled town, with its guards, a market hall where the merchants always are, an inn that lets rooms and a warehouse that buys in bulk; and since 0.6.0 a **bank** with accounts, loans and deposit boxes, a **colosseum** with its ladder of ten tiers and its bets, a **black market** under the tavern, a **bounty office**, and a quarter of **plots** from 9 by 9 to 25 by 25, where the Carpenter's **house plans** raise a house. One town in three has a noble quarter, with its manor, its nobles, their orders and the Antiquarian.
+- **[Playing a civilian](villages.md#playing-a-civilian)**: everyone starts as one since 0.6.0, with no bounty and no side, and earns a side by what they do: a pirate by their crimes, a Bounty Hunter at a town's bounty office, a Revolutionary through a hooded contact.
+- **[Your name in a village](villages.md#your-name-in-a-village)**: seven steps from Sworn Enemy to Hero, for each village and each player; prices, loans and doors follow it.
+- **[Traits](traits.md)**: every player is born with 2 to 5 qualities and flaws, out of 58.
 - **[A village under your flag](village-flags.md)**: a crew, the Marines or the Revolutionaries win a village by trust, by fear or by force, collect its rent, and keep it against raids - and, on a server, against other players.
 - **[Village events](village-events.md)**: a concert on the square, a fever to cure with the Chemist's remedies, a swordsmith from Wano who forges the base mod's named blades, a fishing tournament on the quay. Announced in the chat, told on the notice boards and sold as rumours by the barkeepers.
-- **Five [merchants](merchants-and-contracts.md)** come to the villages' market squares, keep the towns' market halls and roam the wild - the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader - and buy what the trades make, for Belly. Each brings **contracts** that pay above the market.
+- **Five [merchants](merchants-and-contracts.md)** come to the villages' market squares, keep the towns' market halls and roam the wild - the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader - and buy what the trades make, for Belly. Each brings **contracts** that pay above the market. Each land has its [local and wanted goods](merchants-and-contracts.md#regional-prices-and-trade-routes), cheap here and dear there.
 - **The [Auction House](auction-house.md)**: one market for the whole server.
 - **[Treasure hunts](treasure-hunts.md)**: torn maps in chests, in fishing junk and on the merchants' stalls. A Merchant deciphers them; the X leads to a chest, and now and then to a Devil Fruit box.
-- **The [Bestiary and the Log Book](bestiary-and-logbook.md)**: every fish, creature, land and place you find, with rewards as you fill them.
+- **The [Bestiary and the Log Book](bestiary-and-logbook.md)**: every fish, creature, land and place you find, and five trade collections (Herbarium, Minerals, Woods, Dishes, Tunes), with rewards as you fill them.
 - **[Boats](boats.md)** of four hulls and four shapes, built by the Carpenter and rigged by the Tailor.
 - **[Blocks](blocks.md)**: the benches, the lockers, the marble and the nine woods, in 3D.
 - **[Events out in the world](events-at-sea.md)**: at sea, a merchant ship of one of five houses, a floating restaurant and its cooking contest, a Sea King that surfaces off the coast, wrecks adrift, a ship in distress to rebuild, a ghost ship in the fog, storms, schools of fish; on land, creature migrations and falling stars. Announced in the chat, told on the notice boards and sold as rumours by the barkeepers.

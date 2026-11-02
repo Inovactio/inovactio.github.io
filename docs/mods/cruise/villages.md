@@ -39,11 +39,20 @@ tags:
   - remarkable catch
   - wanted notice
   - standing
+  - reputation
+  - sworn enemy
+  - hero
+  - bounty hunter
+  - bounty clerk
+  - revolutionary
+  - hooded stranger
+  - civilian start
+  - theft
 ---
 
 # Villages
 
-The islands are lived in. **One Piece villages** rise in five lands, each in its land's own look, each with its own name, its people and their day. They are where the [merchants](merchants-and-contracts.md) set up their stalls, where the merchant ship anchors, and where the [village events](village-events.md) happen. One place in four is larger: a walled [town](towns.md).
+The islands are lived in. **One Piece villages** rise in five lands, each in its land's own look, each with its own name, its people and their day. They are where the [merchants](merchants-and-contracts.md) set up their stalls, where the merchant ship anchors, and where the [village events](village-events.md) happen. One place in three is larger: a walled [town](towns.md).
 
 !!! note "Only in new land"
     Villages are part of the world's generation: they appear in land that has not been explored yet. **Villages already made keep their shape**: what 0.4.0 brings (the four new looks, the halls, the towns, the pirates' and the Revolutionaries' villages) is found in new land only. A village made before has no hall, and never passes under a flag.
@@ -139,12 +148,30 @@ A village that someone keeps is not won by good turns or by a great bounty: it i
 
 ## Playing a civilian
 
-Since 0.5.0 (with AkumaLib 4.8.0), **Civilian** is a choice in the character creator's book, beside the Pirates, the Marines, the Bounty Hunters and the Revolutionaries, with its own flag, wood brown.
+**Everyone starts as a civilian** (since 0.6.0). The character creator's book no longer offers a side: you earn one by what you do. A player who already had a side keeps it. A server can give the choice back with `civilianStart = false`, under `factions` in `serverconfig/inocruise-server.toml` (see [Configuration](configuration.md#inocruise-servertoml)).
+
+The Civilian has its own flag, wood brown.
 
 - **No bounty, no loyalty.** The Marines, the World Government, the Bounty Hunters and the Revolutionaries leave you alone. Pirates and bandits do not.
 - **Striking the law.** The first and the second Marine or man of the World Government you strike in one game day are warned of: "You struck a man of the law". Strike a **third** that day and you are a **pirate**. The count starts again each new day.
 - **They strike back.** A Bounty Hunter or a Revolutionary you strike may strike you back for **30 seconds** after your last blow.
 - **Raids.** A civilian holds no village, but he can help one. When a [raid](village-flags.md#raids) is beaten off, the village pays each civilian who fought it **50 Belly for every raider he beat**, from its coffer as far as it holds, and counts **a good turn** for each raider.
+- **Taking from a village's chests** is a civilian's crime (since 0.6.0), as it is in a Marine base. A weapon or a Devil Fruit box makes you a **pirate** at once; anything else counts as one strike. It also costs the village's [reputation](#your-name-in-a-village).
+
+### Becoming a Bounty Hunter
+
+A town's notice board has a **Bounty Clerk** beside it (in towns made since 0.6.0). A civilian with no bounty, whom the town counts as a **Friend**, can sign up with him.
+
+- He names the hunt: the nearest pirate den or pirate ship within 3,000 blocks that no player holds.
+- He pays for each of its men you bring down: **500 Belly** for a grunt, **1,500** for a brute, **5,000** for a captain, and each one raises your name in the town that gave the hunt.
+- You leave the Bounty Hunters at any clerk, for nothing.
+
+### Joining the Revolutionary Army
+
+A **Hooded Stranger** hides in the cache of a town's [black market](towns.md#the-black-market). The barkeeper tells a civilian of him once the town counts them as a **Friend**; never a Marine, a man of the World Government, a Bounty Hunter or a pirate.
+
+- He takes only a civilian with no bounty, a Friend of the town, and gives a task first: help beat off a [raid](village-flags.md#raids), or bring down the man of a [wanted notice](#the-notice-board).
+- You can leave through any contact: with no bounty you are a civilian again, with one a pirate.
 
 ## The people
 
@@ -317,6 +344,26 @@ The window of the one at a village's head has a part named **Your standing** (si
 
 A village closed to you does not open that window: its head says **for how long** it stays closed, in hours under a day, in days from there.
 
+## Your name in a village
+
+Since 0.6.0 every village and town keeps a **reputation** for each player, in seven steps:
+
+| Step | Points | What it means |
+|---|---|---|
+| **Sworn Enemy** | -300 and below | no errands, the hall is shut to you |
+| **Hated** | -299 to -200 | no errands, the hall is shut to you, stalls 25 % dearer |
+| **Distrusted** | -199 to -100 | stalls 10 % dearer |
+| **Unknown** | -99 to 99 | |
+| **Liked** | 100 to 199 | stalls 5 % cheaper, a loan at the [bank](towns.md#the-bank) |
+| **Friend** | 200 to 299 | stalls 10 % cheaper, errands pay 10 % more, a larger loan, the [Bounty Clerk](#becoming-a-bounty-hunter) and the barkeeper's secrets |
+| **Hero** | 300 and above | stalls 15 % cheaper, errands pay 20 % more, the largest loan |
+
+- **Where you start.** A civilian, a Marine, a Bounty Hunter or a Revolutionary starts every village at **Liked** (100); a pirate at **Distrusted** (-100).
+- **What raises it.** An errand +10, an order +5, a raid beaten off +40, a plot bought +15, each man of a bounty hunt +10, and +1 for every 1,000 Belly you sell there.
+- **What lowers it.** Taking from a chest -20, a blow on one of its people -15, a death -60, a guard's death -100.
+- **Hero** of a village earns the title **Village Hero**.
+- **It spreads.** Your crew gets a quarter of each change, and the villages within 1,000 blocks a tenth. A bad name fades by one step every 30 days.
+
 ## Marines
 
 Three new villages in eight are the Marines': two have a small **Marine post** with a few soldiers, and one stands next to a large **Marine base**, with its captains and its prison. The others are a pirate crew's, the Revolutionaries' or nobody's: see [Whose village](#whose-village).
@@ -344,6 +391,7 @@ Since 0.4.1 **no monster spawns in a living village or town**: by night or in a 
 
 ## Finding one
 
+- **How many.** In a world made since 0.6.0 there is a place every **24 chunks**, and one in three is a [town](towns.md). Both are options of the world, set when it is made (`spacing` and `townShare` in `serverconfig/inocruise-server.toml`, see [Configuration](configuration.md#inocruise-servertoml)). A world made before keeps its old spacing, 34 chunks, and one town in four.
 - A Navigator's [Sea Chart](trades/navigator.md) of the village kind leads to the nearest of these villages not yet charted, and to one of Minecraft's villages when there is none in reach. A chart drawn to a town is named for it.
 - The arrival of the [merchant ship](events-at-sea.md#the-merchant-ship) names the village it anchors off, when there is one with a port near. A port on a river is too shallow for it.
 - The [village events](village-events.md) are announced with the name of their village and its coordinates.

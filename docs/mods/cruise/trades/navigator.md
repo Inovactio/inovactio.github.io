@@ -40,6 +40,7 @@ It faces you when placed and is mined with an axe. The Navigator's five recipes 
 | ![](../icons/barometer.png){ .item-icon }Barometer | 20 | 50 | Glass Bottle, 2 × Copper Ingot, ![](../icons/tempest_mouse.png){ .item-icon }Tempest Mouse, Redstone Dust |
 | ![](../icons/sea_chart.png){ .item-icon }Sea Chart | 30 | 70 | 2 × Paper, Compass, ![](../icons/pumpkin_octopus.png){ .item-icon }Pumpkin Octopus |
 | ![](../icons/eternal_pose.png){ .item-icon }Eternal Pose | 50 | 110 | ![](../icons/log_pose.png){ .item-icon }Log Pose, ![](../icons/lens.png){ .item-icon }Lens, ![](../icons/magnet.png){ .item-icon }Magnet, 2 × Gold Ingot |
+| ![](../icons/poneglyph_compass.png){ .item-icon }Poneglyph Compass | 50 | 120 | ![](../icons/log_pose.png){ .item-icon }Log Pose, ![](../icons/magnet.png){ .item-icon }Magnet, 2 × Lapis Lazuli, Diamond |
 
 ## Exploring
 
@@ -137,6 +138,14 @@ See [Events at sea](../events-at-sea.md#a-storm-at-sea) for the storm itself.
 - A Navigator uses a blank one to **calibrate it where they stand** (it takes one from the stack; **+40 Navigator XP**). From then on it points there and cannot be set again.
 - It is named after the place: the structure they stood in (within 8 blocks), otherwise the biome, or whatever name an anvil gave it.
 - Anyone can use a calibrated one to see how far away the place is ("It points to X: N blocks away", or "in another world").
+
+## Level 50: the Poneglyph Compass
+
+![](../icons/poneglyph_compass.png){ .item-icon }The **Poneglyph Compass** (since 0.6.0) is made at the Chart Table at level 50, from a Log Pose, a Magnet, 2 Lapis Lazuli and a Diamond.
+
+- Its needle points to the **nearest poneglyph you have not read yet**.
+- Read that poneglyph with a sheet of paper in hand, and the compass turns to the next one.
+- It learns of the poneglyphs as the land around you loads, in worlds made before 0.6.0 too.
 
 ## At the helm
 

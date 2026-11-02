@@ -343,6 +343,7 @@ nav:
   - Cruise Cruise no Mi:
       - mods/cruise/index.md
       - Trades and levels: mods/cruise/trades-and-levels.md
+      - Traits: mods/cruise/traits.md
       - Trades:
           - Fisher: mods/cruise/trades/fisher.md
           - Hunter: mods/cruise/trades/hunter.md

@@ -1,6 +1,6 @@
 # Blacksmith
 
-At the **Forge**, the Blacksmith makes Mine Mine no Mi weapons and gear that the base mod ships but never lets players craft, from the Blue Sword to the Soul Solid. The trade also takes over a few that the base mod did let players craft, such as bullets, cannons and handcuffs.
+At the **Forge**, the Blacksmith makes Mine Mine no Mi weapons and gear that the base mod ships but never lets players craft, up to Brook's Soul Solid. The trade also takes over a few that the base mod did let players craft, such as bullets, cannons and handcuffs.
 
 | | |
 |---|---|
@@ -11,13 +11,13 @@ At the **Forge**, the Blacksmith makes Mine Mine no Mi weapons and gear that the
 
 The Forge glows (light level 10) and needs a pickaxe to be picked back up. Every recipe asks for a Blacksmith level and pays Blacksmith XP.
 
-**Forged by.** A weapon made at the Forge carries the name of the Blacksmith who forged it ("Forged by ..."). It is what the [swordsmith from Wano](../village-events.md#a-swordsmith-from-wano) asks for: he turns a forged Katana, Broadsword or Warabide Sword into one of the base mod's named blades, and what your skill had put on the blade passes to the new one.
+**Forged by.** A weapon made at the Forge carries the name of the Blacksmith who forged it ("Forged by ..."). It is what the [swordsmith from Wano](../village-events.md#a-swordsmith-from-wano) asks for: he turns a forged Katana or Broadsword into one of the base mod's named blades, and what your skill had put on the blade passes to the new one.
 
 ## What the Forge makes
 
 - **From level 1**, the plain weapons and ammunition: Axe, Broadsword, Katana, Spear and Bullets, then the Pipe (5), the Mace and Scissors (10) and Handcuffs (14).
 - **Levels 17 to 28**: the Kabuto (with Iron Scrap and Mysterious Parts), Pop Greens (with Gunpowder), Cannon Balls, the Kairoseki Net and the Cannon.
-- **Levels 29 to 41**, sea-stone and fine blades: the Blue Sword, Kairoseki Bullets and the Warabide Sword, then Dense Kairoseki for the Jitte, the 5t Hammer and Kairoseki Handcuffs.
+- **Levels 29 to 41**, sea-stone: Kairoseki Bullets, then Dense Kairoseki for the Jitte, the 5t Hammer and Kairoseki Handcuffs.
 - **The top of the trade**: the Kuro Kabuto (45), forged from a Kabuto and Adam Planks, and the **Soul Solid** (50).
 
 The item names are Mine Mine no Mi's own, and so are their combat stats.
@@ -40,14 +40,15 @@ These are all the Forge's recipes ("planks" means any planks):
 | Cannon Ball ×4 | 24 | 58 | 4 × Cobblestone |
 | Kairoseki Net | 25 | 60 | 4 × Kairoseki, 5 × String |
 | Cannon | 28 | 66 | 3 × Block of Iron, 3 × Cobblestone, String |
-| Blue Sword | 29 | 68 | 4 × Iron Ingot, 2 × Kairoseki, 3 × Lapis Lazuli, Diamond |
 | Kairoseki Bullet ×8 | 32 | 74 | 2 × Kairoseki, 2 × Cobblestone |
-| Warabide Sword | 33 | 76 | 4 × Iron Ingot, 2 × ![](../icons/pure_iron_ore.png){ .item-icon }Pure Iron Ore, 2 × ![](../icons/marble.png){ .item-icon }Marble, Diamond |
 | Jitte | 36 | 82 | Dense Kairoseki, 2 × Iron Ingot |
 | 5t Hammer | 37 | 84 | 5 × Block of Iron, 2 × Dense Kairoseki, 2 × Stick |
 | Kairoseki Handcuffs | 41 | 92 | 2 × Dense Kairoseki, Chain |
 | Kuro Kabuto | 45 | 100 | Kabuto, 4 × ![](../block-models/adam-planks.png){ .block-mini }Adam Planks, 2 × ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts, 3 × String |
 | Soul Solid | 50 | 110 | 4 × Iron Ingot, 3 × Dense Kairoseki, 6 × ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment, Bone, Note Block, Diamond |
+
+!!! note "No more Warabide Sword or Blue Sword"
+    Since 0.6.0 the Forge no longer makes the Warabide Sword and the Blue Sword: they belong to Devil Fruits.
 
 ## Taking over the base mod's recipes
 

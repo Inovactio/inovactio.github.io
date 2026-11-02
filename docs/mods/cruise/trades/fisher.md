@@ -218,6 +218,14 @@ If you also play with *Mine Mine no Mi: Sky Island*, Skypiea's **sea of clouds**
 - **A storm at sea**: in it, the rare fish of those waters (the ones with a chance of 15 % or less in the table) bite **three times as often**. A storm does not bring more Sea Kings.
 - **A fishing tournament** is held now and then on the quay of a village that has a port. Bring the judge your best catch of the day's fish: gold, silver or bronze pays ten, six or three times its worth, in Belly and in Fisher XP. Taking the gold earns the title **Golden Hook**, and the biggest catch of the day takes the **Fishing Trophy**, the fish itself mounted on a plaque to hang on a wall.
 
+### The board of records
+
+Since 0.6.0 every new port has a **board of records** on its quay: the biggest catch of each kind landed in its waters, and the server's biggest of each kind. Only a fish you landed yourself counts.
+
+- Everyone is told when a record falls.
+- Whoever holds the most of the server's records wears the title **Record Holder**.
+- The [Carpenter](carpenter.md) makes a ![](../icons/record_board.png){ .item-icon }**Record Board** for your own base (level 17).
+
 See Events at sea for [the schools](../events-at-sea.md#a-school-of-fish) and [the storms](../events-at-sea.md#a-storm-at-sea), and [Village events](../village-events.md#a-fishing-tournament) for the tournament.
 
 Fishing junk can also bring up **Iron Scrap** (1–2, half the time, on top of the vanilla junk) and now and then a **Torn Rumor Map** for a treasure hunt (see [Treasure hunts](../treasure-hunts.md)). This works for everyone, with any rod.
