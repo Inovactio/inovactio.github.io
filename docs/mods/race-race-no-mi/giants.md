@@ -2,6 +2,8 @@
 tags:
   - giant
   - elbaf
+  - wotan
+  - ancient-giant
   - hakoku
 ---
 
@@ -13,9 +15,9 @@ tags:
 
 | | |
 |---|---|
-| **Size** | 4: about 7.2 blocks high and 2.4 wide (slider 3.75 to 4.25) |
-| **Passive** | Pride of Elbaf |
-| **Techniques** | 4 |
+| **Size** | 4 for an Elbaf giant: about 7.2 blocks high and 2.4 wide (slider 3.75 to 4.25). Wotan 2.5, Ancient giants 6: see [the three peoples](#sub-races) |
+| **Passive** | Pride of Elbaf, and one more for the Wotan and the Ancient giants |
+| **Techniques** | 6, and a 7th for the Ancient giants |
 | **In the abilities menu** | ![](icons/giant-abilities.png){ .fruit-icon } their own category |
 | **Rokushiki** | giants do not count as humans |
 
@@ -27,11 +29,29 @@ In 3D: drag to turn, scroll or pinch to zoom.
 
 A giant is the player's own body at four times the size: reach, blows, health, strides and techniques all grow with it, through [AkumaLib](../../akumalib/index.md)'s size system. He steps over relief up to about a quarter of his height. Server owners can take the giants out of the character creator ([configuration](configuration.md)).
 
+## The three peoples { #sub-races }
+
+The character creator offers the giants in three peoples. All three are giants: they keep the postures, the terrain rules, the hands and the techniques below. A player who was a giant before the peoples existed has none, and stays a giant of size 4.
+
+| | Elbaf Giant | Wotan | Ancient Giant |
+|---|---|---|---|
+| Size | 4 | 2.5 | 6 |
+| Height and width | 7.2 x 2.4 blocks | 4.5 x 1.5 blocks | 10.8 x 3.6 blocks |
+| Slider | 3.75 to 4.25 | 2.34 to 2.66 | 5.63 to 6.38 |
+| Passives | Pride of Elbaf | Pride of Elbaf, [Wotan Body](#wotan-body) | Pride of Elbaf, [Ancient Blood](#ancient-blood) |
+| Techniques | the 6 below | the 6 below | the 6 below and [Continent Puller](#continent-puller) |
+
+- **Elbaf Giant**: the giant as he was, proud warriors who never give way.
+- **Wotan**: half giant and half fishman, smaller than a true giant, at home under water, with a fishman's dorsal fin.
+- **Ancient Giant**: Oars's bloodline, horned, with skin of red or green, far bigger than any other giant. The horns' shape and colour are picked from the player's identity, so they never change.
+
+The slider is the same for all three: 6.25 % either way, by steps of 3.125 %. The figures below are for an Elbaf giant at size 4 unless they say otherwise: reach, damage and cooldowns follow each body's size.
+
 ## A giant in a human world
 
 ### Low roofs: hunched and on all fours
 
-- Under a roof too low for him, he **hunches**: half his height (3.6 blocks), walking at 0.6 of his speed, and his techniques reach and hit only half as much (a man's again). **Shift** hunches him too.
+- Under a roof too low for him, he **hunches**: half his height (3.6 blocks), walking at 0.6 of his speed, and his techniques reach and hit only as much as a man's (half as much, for a giant of size 4). **Shift** hunches him too.
 - Lower still, he goes **on all fours**: a third of his height (2.4 blocks), at 0.3 of his speed, and he uses **no technique** (his passive goes on).
 - In a hybrid form of a Devil Fruit, the form bends with his hunched body, and tails lie as they do when he stands.
 
@@ -71,9 +91,36 @@ The user never gives way: weakness and despair do not take hold of them, and the
 | Refuses | Weakness, and the base mod's Negative |
 | Damage under 30 % health | +25 % |
 
+## Wotan Body { #wotan-body }
+
+![](abilities/wotan-body.png){ .ability-icon } *Passive, Wotan*
+
+Half a fishman: the user swims fast, breathes and sees under water, and their slippery skin takes less from fists and blunt blows.
+
+| Stat | Value |
+|---|---|
+| Swim speed | +200 % |
+| Eyes under water | air always full, Night Vision, Haste I |
+| Blunt damage taken | -30 % |
+
+Blunt means a fist or an empty hand, a blunt weapon or a blunt technique. As with [Fishman Body](fishmen.md#fishman-body), a Devil Fruit user loses the swimming in water, unless a Bubbly Coral keeps them dry.
+
+## Ancient Blood { #ancient-blood }
+
+![](abilities/ancient-blood.png){ .ability-icon } *Passive, Ancient giants*
+
+The blood of the first conquerors of the New World: the user keeps going, and blows do not push them back.
+
+| Stat | Value |
+|---|---|
+| Toughness | +3 |
+| Knockback | none: blows do not push them |
+
+Nothing is added to the damage: the size gives it.
+
 ## Techniques
 
-In the abilities tree, a branch only giants see: Stomp first, then Giant's Grip and Boulder Throw, then Hakoku.
+In the abilities tree, a branch only giants see: Stomp first, then Giant's Grip, Boulder Throw and Elbaf Charge, then Hakoku, then Roar of Elbaf. Continent Puller sits after Boulder Throw and only the Ancient giants see it.
 
 !!! note "About the values"
     Damage is what the target really loses, in health points (2 = one heart), and ranges are in blocks, for a body of size 1: a giant's grow with his size. Cooldowns and times are in seconds.
@@ -84,6 +131,9 @@ In the abilities tree, a branch only giants see: Stomp first, then Giant's Grip 
 | ![](abilities/giant-grip.png){ .fruit-icon } [Giant's Grip](#giants-grip) | 1,500 Doriki, 3 martial arts points | Stomp |
 | ![](abilities/boulder-throw.png){ .fruit-icon } [Boulder Throw](#boulder-throw) | 2,500 Doriki, 4 martial arts points | Stomp |
 | ![](abilities/hakoku.png){ .fruit-icon } [Hakoku](#hakoku) | 4,000 Doriki, 6 martial arts points | Giant's Grip |
+| ![](abilities/elbaf-charge.png){ .fruit-icon } [Elbaf Charge](#elbaf-charge) | 1,000 Doriki, 2 martial arts points | Stomp |
+| ![](abilities/elbaf-roar.png){ .fruit-icon } [Roar of Elbaf](#elbaf-roar) | 5,000 Doriki, 8 martial arts points | Hakoku |
+| ![](abilities/continent-puller.png){ .fruit-icon } [Continent Puller](#continent-puller), Ancient giants only | 4,000 Doriki, 6 martial arts points | Boulder Throw |
 
 ### Stomp { #stomp }
 
@@ -139,3 +189,40 @@ The strike of Elbaf's warriors: with a weapon in hand, the user swings a cut tha
 | Damage | 20 |
 | Range | 32 blocks (line) |
 | Needs | a weapon in the main hand |
+
+### Elbaf Charge { #elbaf-charge }
+
+![](abilities/elbaf-charge.png){ .ability-icon } *Active, giants*
+
+The user charges straight ahead, along the way they faced when they started, whatever they look at after, and stops at a wall. Every enemy met is hit once, and those half his size or less are thrown aside; a body as big as his takes the blow without moving. Blocks are not broken. It works only standing up, not hunched.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 12 s, at size 4 |
+| Damage | 8 |
+| Range | 16 blocks in 0.8 s at size 4 (a man's body would run 8) |
+
+### Roar of Elbaf { #elbaf-roar }
+
+![](abilities/elbaf-roar.png){ .ability-icon } *Active, giants*
+
+The user roars. Enemies half his size or less around them are slowed and weakened, and the user and their allies (players of their team, or of their faction and not enemies) hit harder for a while.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 30 s, at size 4 |
+| Range | 6 blocks around for a man, 12 at size 4 |
+| Enemies | Slowness II and Weakness for 4 s |
+| User and allies | Strength I for 10 s |
+
+### Continent Puller { #continent-puller }
+
+![](abilities/continent-puller.png){ .ability-icon } *Active, Ancient giants*
+
+After Oars's epithet. The user sinks their hands into the ground and hauls it toward them: every enemy on a wide line ahead is hit and dragged to their feet. It breaks no block.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 14 s |
+| Damage | 8 |
+| Range | 12 blocks (a wide line) |
