@@ -135,6 +135,17 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Line Snare** | With a fishing rod in hand bind the enemy you look at with your line. They can not move for 3 seconds. A player or a boss is held half as long | a fishing rod in hand | 14 s | 10 | 12 blocks |
 | **Harpoon Throw** | Throw a heavy harpoon straight ahead. It hits half as hard again an enemy who is in water | — | 10 s | 45 / 67.5 | — |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Harpoon Throw** | ![Harpoon Throw, seen from the side](../moves/harpoon_throw.gif){ width="360" loading="lazy" } |
+| **Hook Shot** | ![Hook Shot, seen from the side](../moves/hook_shot.gif){ width="360" loading="lazy" } |
+| **Big Catch** | ![Big Catch, seen from the side](../moves/big_catch.gif){ width="360" loading="lazy" } |
+| **Line Snare** | ![Line Snare, seen from the side](../moves/line_snare.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

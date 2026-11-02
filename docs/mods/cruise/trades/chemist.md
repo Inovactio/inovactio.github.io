@@ -162,6 +162,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Field Dressing** | With your Experiment Equipment in your bag dress your wounds. You get 10 health back and are cured of poison and wither | Experiment Equipment in your bag | 25 s | — | — |
 | **Smoke Screen** | With your Experiment Equipment in your bag break a smoke flask at your feet. Every enemy within 4 blocks is blinded and slowed for 4 seconds. A player or a boss half as long | Experiment Equipment in your bag | 15 s | — | 4 blocks |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Acid Flask** | ![Acid Flask, seen from the side](../moves/acid_flask.gif){ width="360" loading="lazy" } |
+| **Field Dressing** | ![Field Dressing, seen from the side](../moves/field_dressing.gif){ width="360" loading="lazy" } |
+| **Smoke Screen** | ![Smoke Screen, seen from the side](../moves/smoke_screen.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

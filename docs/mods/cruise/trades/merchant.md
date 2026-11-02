@@ -125,6 +125,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Coin Toss** | Throw a fistful of coins at the enemy you look at within 14 blocks. They cost you nothing | — | 8 s | 25 | 14 blocks |
 | **Bribe** | Pay off the enemy you look at within 8 blocks. For 10 seconds it stops fighting you and will not pick you again. Not a player or a boss | — | 20 s | — | 8 blocks |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Coin Toss** | ![Coin Toss, seen from the side](../moves/coin_toss.gif){ width="360" loading="lazy" } |
+| **Bribe** | ![Bribe, seen from the side](../moves/bribe.gif){ width="360" loading="lazy" } |
+| **Golden Bulwark** | ![Golden Bulwark, seen from the side](../moves/golden_bulwark.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

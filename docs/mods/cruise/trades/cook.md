@@ -162,6 +162,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Spice Cloud** | Throw a pouch of spice. It bursts where it lands. Every enemy within 3 blocks is hurt and blinded and slowed for 3 seconds. A player or a boss half as long | — | 12 s | 20 | 3 blocks |
 | **Crew Meal** | Hand a quick meal round. You and your crewmates and your animals within 6 blocks get 8 health back | — | 30 s | — | 6 blocks |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Flambe** | ![Flambe, seen from the side](../moves/flambe.gif){ width="360" loading="lazy" } |
+| **Spice Cloud** | ![Spice Cloud, seen from the side](../moves/spice_cloud.gif){ width="360" loading="lazy" } |
+| **Crew Meal** | ![Crew Meal, seen from the side](../moves/crew_meal.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

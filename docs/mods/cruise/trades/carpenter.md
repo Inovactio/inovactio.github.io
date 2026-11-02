@@ -141,6 +141,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Nail Shot** | Throw a fistful of nails straight ahead. The enemy they hit is hurt and slowed for 3 seconds. A player or a boss half as long | — | 8 s | 30 | — |
 | **Quick Repair** | Patch the hull you ride or the one you look at within 5 blocks. It gets 2 timbers back. No plank is used | — | 30 s | — | — |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Mallet Swing** | ![Mallet Swing, seen from the side](../moves/mallet_swing.gif){ width="360" loading="lazy" } |
+| **Nail Shot** | ![Nail Shot, seen from the side](../moves/nail_shot.gif){ width="360" loading="lazy" } |
+| **Quick Repair** | ![Quick Repair, seen from the side](../moves/quick_repair.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

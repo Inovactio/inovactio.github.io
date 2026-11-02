@@ -222,6 +222,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Magnet Pull** | Switch your magnet on. Every enemy within 6 blocks is pulled to you and slowed for 2 seconds | — | 14 s | — | 6 blocks |
 | **Jet Dash** | Fire your boots. You are thrown some 8 blocks where you look | — | 12 s | — | — |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Shock Prod** | ![Shock Prod, seen from the side](../moves/shock_prod.gif){ width="360" loading="lazy" } |
+| **Magnet Pull** | ![Magnet Pull, seen from the side](../moves/magnet_pull.gif){ width="360" loading="lazy" } |
+| **Jet Dash** | ![Jet Dash, seen from the side](../moves/jet_dash.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

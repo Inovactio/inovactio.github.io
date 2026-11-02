@@ -212,6 +212,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Gust** | Blow a gust before you. Every enemy in front of you within 8 blocks is hit and blown far back | a Barometer in your bag | 10 s | 20 | 8 blocks |
 | **Mirage** | Vanish for 5 seconds. The creatures after you lose you | a Barometer in your bag | 30 s | — | — |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Gust** | ![Gust, seen from the side](../moves/gust.gif){ width="360" loading="lazy" } |
+| **Mirage** | ![Mirage, seen from the side](../moves/mirage.gif){ width="360" loading="lazy" } |
+| **Thunder Call** | ![Thunder Call, seen from the side](../moves/thunder_call.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:

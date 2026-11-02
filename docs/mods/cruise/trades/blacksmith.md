@@ -109,6 +109,16 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | **Sunder** | With a forged weapon in hand strike the enemy you look at where his armour is weak. He is hurt and loses 30% of his armour for 6 seconds. A player or a boss half as long | a weapon forged by a Blacksmith in hand | 14 s | 35 | 4 blocks |
 | **Tempered Guard** | With a forged weapon in hand brace yourself. For 6 seconds you take 30% less damage | a weapon forged by a Blacksmith in hand | 20 s | — | — |
 
+#### Their moves
+
+Since 0.6.0 each technique has a gesture of its own, seen by the other players and in first person. Here at a man's size, from the side:
+
+| Technique | Its move |
+|---|---|
+| **Hammer Blow** | ![Hammer Blow, seen from the side](../moves/hammer_blow.gif){ width="360" loading="lazy" } |
+| **Sunder** | ![Sunder, seen from the side](../moves/sunder.gif){ width="360" loading="lazy" } |
+| **Tempered Guard** | ![Tempered Guard, seen from the side](../moves/tempered_guard.gif){ width="360" loading="lazy" } |
+
 ### If you had the trade before 0.5.0
 
 The perks by level are gone. The first time you play 0.5.0, your points are put for you on the talents that took their place, level by level, as long as you have points:
