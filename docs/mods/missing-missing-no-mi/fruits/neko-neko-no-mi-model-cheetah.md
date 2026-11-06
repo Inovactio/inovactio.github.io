@@ -10,6 +10,10 @@
 | **Abilities** | 7: 7 active, 0 passive |
 | **Transformations** | [Cheetah Heavy Point](#cheetah-heavy-point), [Cheetah Walk Point](#cheetah-walk-point) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/cheetah-heavy-point forms/cheetah-walk-point"></div>
+
 <!-- animations -->
 ??? example "Animations"
 
@@ -56,11 +60,15 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/cheetah-heavy-point.png){ .ability-icon } *Active · Transformation*
 
+![Cheetah Heavy Point](../forms/cheetah-heavy-point.png){ .form-picture }
+
 Transforms the user into a cheetah hybrid, very fast and light with sharp claws.
 
 ## Cheetah Walk Point { #cheetah-walk-point }
 
 ![](../abilities/cheetah-walk-point.png){ .ability-icon } *Active · Transformation*
+
+![Cheetah Walk Point](../forms/cheetah-walk-point.png){ .form-picture }
 
 Transforms the user into a cheetah, the fastest runner of all with a keen nose.
 

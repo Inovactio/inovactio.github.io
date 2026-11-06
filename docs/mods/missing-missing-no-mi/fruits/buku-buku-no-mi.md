@@ -13,7 +13,7 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="objects/buku-page objects/buku-barrage objects/buku-flying-book"></div>
+<div class="model-viewer" data-models="../../" data-ids="objects/buku-page objects/buku-barrage objects/buku-flying-book objects/buku-wall"></div>
 
 <!-- animations -->
 ??? example "Animations"
@@ -98,6 +98,8 @@ The user throws a volley of heavy books where they are looking
 ## Book Wall { #buku-wall }
 
 ![](../abilities/buku-wall.png){ .ability-icon } *Active*
+
+![Book Wall](../objects/buku-wall.png){ .form-picture }
 
 Great books stand in a row in front of the user and stop enemies and projectiles for a while. Fire burns them. Using the ability again brings the wall down
 

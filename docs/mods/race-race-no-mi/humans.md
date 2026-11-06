@@ -15,6 +15,21 @@ The base mod's humans, with a passive of their own. Humans have no body bonus as
 | **Passive** | Human Will |
 | **Techniques** | none added by this mod |
 
+<!-- models -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A human on Steve's skin](models/race-human.png)
+<figcaption>Human, size 1</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../models/" data-ids="humans"></div>
+<!-- /models -->
+
 ## Human Will { #human-will }
 
 ![](abilities/human-will.png){ .ability-icon } *Passive, humans*

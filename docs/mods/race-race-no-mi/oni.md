@@ -21,6 +21,21 @@ tags:
 
 An Oni is the player's own body at 1.75 times the size: reach, blows, health, strides and techniques all grow with it, through [AkumaLib](../../akumalib/index.md)'s size system. The horns are drawn over the player's own skin, and their shape and colour are picked from the player's identity, so they never change and every player sees the same horns. There are five shapes since 0.3.0 (Harald's, long and almost straight, and Oars', from the temples, were added): some players who already had horns got another shape, once.
 
+<!-- models -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![An Oni on Steve's skin, horned](models/race-oni.png)
+<figcaption>Oni, size 1.75</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../models/" data-ids="oni"></div>
+<!-- /models -->
+
 ## In a man's house
 
 An Oni is too wide and too tall for a door a block wide. **Hold sneak** and they hunch, with narrow shoulders: 0.98 wide and a man's height (1.8 blocks, a little more at the top of the slider), which fits a 1 x 2 door. A roof too low for them keeps the hunch on. The crawl is the game's own, with the same narrow shoulders.

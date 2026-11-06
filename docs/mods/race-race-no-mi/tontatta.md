@@ -21,6 +21,21 @@ tags:
 
 A Tontatta is the player's own body at a quarter of the size, with a bushy tail and a pointed nose drawn over their skin: the tail takes the colour of the player's hair, and its shape and the nose are picked from the player's identity, so they never change. Everything else is what [AkumaLib](../../akumalib/index.md)'s size system gives a body this small: a short reach, and a body that goes where a man cannot.
 
+<!-- models -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Tontatta on Steve's skin, with its tail](models/race-tontatta.png)
+<figcaption>Tontatta, size 0.25</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../models/" data-ids="tontatta"></div>
+<!-- /models -->
+
 ## Tontatta Strength { #tontatta-strength }
 
 ![](abilities/tontatta-strength.png){ .ability-icon } *Passive, Tontatta*
