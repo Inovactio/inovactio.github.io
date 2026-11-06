@@ -8,7 +8,7 @@ Players who prefer the base mod's screen set `characterCreator.gridBook = false`
 
 The book reads its entries where they already live; nothing is registered with AkumaLib to appear in it:
 
-- **Factions, races, sub-races, fighting styles**: Mine Mine no Mi's `FACTIONS`, `RACES` and `FIGHTING_STYLES` registries, those with book details (`setBookDetails`), in the base book's order. The picture, the top abilities (techniques) and the bottom abilities (passives) come from the book details. A sub-race's top abilities follow its race's; its bottom abilities, when it has some, replace them.
+- **Factions, races, sub-races, fighting styles**: Mine Mine no Mi's `FACTIONS`, `RACES` and `FIGHTING_STYLES` registries, those with book details (`setBookDetails`), in the base book's order. The picture, the top abilities (techniques) and the bottom abilities (passives) come from the book details. A sub-race's top abilities come first, its race's after them while the row has room (seven fit); its bottom abilities, when it has some, replace them. Its name is shown without the race's ("Mink Bunny" is "Bunny" under "Mink"), the space left before a comma taken out.
 - **Professions**: AkumaLib's profession registry, in Crew mode only. Their icons and perks ("Lv 10 ...") are shown.
 
 Finishing sends the base mod's own `CFinishCCPacket` with the numbers its own screen would send, so its checks run as before.

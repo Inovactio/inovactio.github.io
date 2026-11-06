@@ -42,7 +42,7 @@ AkumaLib adds the layer to the renderers. A declared entity's renderer must have
 
 ## Horns
 
-Curved horns on a player's head (`HornsModel`, `HornsLayer`), three shapes drawn from the pictures: Kaido's, Yamato's and the young Kaido's. A mod names the races that wear them, main race or sub-race, in its constructor or common setup, on both sides:
+Curved horns on a player's head (`HornsModel`, `HornsLayer`), five shapes drawn from the pictures: Kaido's, Yamato's, the young Kaido's, Harald's and Loki's, and Oars'. A mod names the races that wear them, main race or sub-race, in its constructor or common setup, on both sides:
 
 ```java
 AkumaHorns.declare(new ResourceLocation(MODID, "horned_folk"));
@@ -52,7 +52,7 @@ The shape and the colour come from the player's UUID (`AkumaHorns.shape`, `Akuma
 
 ## Body shape
 
-A body with a longer neck, longer arms with elbows, longer legs or a broader chest, in real parts of the model (Race #12): no layer over a man, the man's parts are not drawn. A mod names who has it, a race or sub-race or an NPC type, in its constructor or common setup, on both sides:
+A body with a longer neck, longer arms with elbows, longer legs, a broader chest or one that flares, in real parts of the model (Race #12): no layer over a man, the man's parts are not drawn. A mod names who has it, a race or sub-race or an NPC type, in its constructor or common setup, on both sides:
 
 ```java
 AkumaBody.Shape tenaga = AkumaBody.Shape.MAN.arms(20, 2);      // arm 20 pixels (a man's 12), two elbows
@@ -60,6 +60,7 @@ AkumaBody.declare(new ResourceLocation(MODID, "tenaga"), tenaga);
 AkumaBody.declare(new ResourceLocation(MODID, "kubinaga"), AkumaBody.Shape.MAN.neck(6));
 AkumaBody.declare(new ResourceLocation(MODID, "ashinaga"), AkumaBody.Shape.MAN.legs(28));
 AkumaBody.declare(new ResourceLocation(MODID, "buccaneer"), AkumaBody.Shape.MAN.chest(2, 1));   // 2 more on each side, 1 more before and behind: 12 x 6
+AkumaBody.declare(new ResourceLocation(MODID, "broad_buccaneer"), AkumaBody.Shape.MAN.chest(3, 1.5F).waist(1, 1));   // 14 x 7 above, 10 x 6 below
 AkumaBody.declare(MyEntities.TENAGA_PIRATE, tenaga);           // an NPC type: its renderer must have a plain humanoid or player model
 ```
 
@@ -68,6 +69,8 @@ An NPC's type wins over its sub-race's shape, a sub-race's over its race's; `for
 **The size stays the master.** The box and the eyes do not move: they are the size system's (`AkumaRaces.setSize`). The drawing fits them: 32 pixels high in all, whatever the neck and legs add (`Shape.fit`). A neck of 6 at size 1.2 or legs of 28 at size 1.5 keep a man's head and chest; at size 1 they would make them smaller.
 
 **What follows the parts.** The second skin layer, Alex's thin arms, the held items (at the end of the arm), the game's armour (on the same segments, elbows included) and the Haki overlays. An armour item with a model of its own (`getHumanoidArmorModel`) is stretched to the body for its drawing, and stays straight when the elbows bend. Layers that hold on a part (the head's horns, antennae, a fishman's features) go with their part, at their old distance from the shoulder.
+
+**A chest that flares.** `waist(wide, deep)` after `chest` gives the chest's bottom its own width and depth: the chest is drawn in three bands of four rows (the top's, between, the bottom's), each ledge closed with the skin's own top or bottom. Broad above (shoulders over a narrow waist) or broad below (a belly and hips under a smaller chest), one way for both width and depth. Arms over a waist wider than the shoulders hang out a little, clear of it. An armour item with a model of its own takes the widest band's box. A chest as wide at both ends stays one box, as before.
 
 **Elbows.** Each elbow bends a little at rest, more with the arm's swing forward and in a blow; an arm the game or an animation raises (a bow, a technique's aim) is straight. The neck's texture is the skin's wrist rows.
 
@@ -86,6 +89,16 @@ AkumaDwarves.declare(MyEntities.DWARF_GUARD);   // whatever its race; a humanoid
 ```
 
 The shape and the nose come from the wearer's UUID (`AkumaDwarves.tail`, `pointedNose`): stable, nothing to save, the same on every client. The tail is a big round mass off the small of the back, in three shapes (a ball, a cloud of three, a ball whose tip curls up), in the colour of the hair of the wearer's skin (`RecolouredSkins.hairColour(entity, fallback)`, on plain pixels `SkinTones.hairColour`: the main colour of the head's top, back and sides, the skin's own left out, so a hat on top does not fool it; Leo's brown for a bald head). One wearer in two has the pointed nose: not every dwarf does. It reads the skin between the eyes.
+
+## Merfolk: a tail in the water, legs on land
+
+`AkumaMerfolk.declare(raceOrSubRace, 0xRRGGBB)` gives a race's players a fish tail in that colour in the water (Race #70): four segments narrowing from the hips and a fluke of two lobes, grey scales tinted by the colour, waving faster as they swim.
+
+```java
+AkumaMerfolk.declare(new ResourceLocation(MODID, "mermaid"), 0xF08A8A);
+```
+
+The tail is out while `AkumaMerfolk.inTail(entity)`: in the water and swimming, off the bottom or under; standing in a shallow, the legs stay. It comes out over 8 ticks, the legs shrinking up into the hips, with a burst of bubbles; back on land it goes the same way, drops falling from the hips. Leggings and boots are not drawn while the tail is out. Players only; a whole form of the base mod has its own renderer and no tail. Swimming, breathing and the rest are the race mod's.
 
 ## A people's skin and hair
 

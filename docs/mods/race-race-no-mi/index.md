@@ -18,7 +18,7 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **0.2.0** (beta) |
+| Version documented | **0.3.0** (beta) |
 | Mod id | `racenomi` |
 | Configuration | [Server settings](configuration.md) |
 | Changelog | [Every release](changelog.md) |
@@ -61,9 +61,9 @@ The techniques of the sky people, the giants, the Oni, the Tontatta and the Luna
 | Mod | Version |
 |---|---|
 | Minecraft | 1.20.1 |
-| Forge | 47.4.18 or later |
+| Forge | 47.4.2 or later (an older Forge crashes when a chest is opened) |
 | Mine Mine no Mi | 0.11.6 |
-| [AkumaLib](../../akumalib/index.md) | 6.3.0 or later |
+| [AkumaLib](../../akumalib/index.md) | 6.4.0 or later |
 | [Sky Island](../sky-island/index.md) | optional: the sky people are at their strongest in Skypiea |
 
 Needed on both the client and the server.

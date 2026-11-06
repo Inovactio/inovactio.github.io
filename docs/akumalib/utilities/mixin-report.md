@@ -42,6 +42,10 @@ An addon gets the same report from its mixin config, with nothing to list:
 The report loads the target classes of optional injections, without initialising them, because a mixin applies only
 when its target loads. It reads what really happened, another mod's mixin included.
 
+An addon's MixinExtras injectors are read the same way (#825): a `@WrapOperation`, applied after every other injector,
+and any injector with `@Local`, whose annotation MixinExtras rewrites. The report reads the handlers from the mixin's
+own class file, and the target only once its class is defined.
+
 The other injections stay required: they name methods the base mod chose, Minecraft or Forge, and moving one is a real
 change that the check below shows before anyone plays it.
 
@@ -62,7 +66,7 @@ new call placed before an ordinal: those still look fine, so read the base mod's
 ## Other mods on the same calls
 
 Forge 47 does not ship MixinExtras (checked on 47.4.18 and 47.4.28), and AkumaLib does not carry it, so its mixins use
-plain Mixin injectors. A call takes one `@Redirect` among all mods, so three of AkumaLib's hooks can meet another mod.
+plain Mixin injectors. Only its own game test server loads MixinExtras, for the report's test. A call takes one `@Redirect` among all mods, so three of AkumaLib's hooks can meet another mod.
 They are optional: whichever of the two mods is skipped loses only that hook, and AkumaLib's is named in the report.
 
 | Mixin | Call | Who may hook it | Without it |
@@ -73,3 +77,14 @@ They are optional: whichever of the two mods is skipped loses only that hook, an
 
 If the other mod's hook is the required one and AkumaLib's applied first, that mod is the one to fail: its `@Redirect`
 meets a call that is already redirected. That is a known incompatibility, to be solved case by case.
+
+### A mod that replaces a whole method
+
+Mixin stops the game rather than inject into a method another mixin replaced with `@Overwrite` (`require = 0` does
+not help: the target is there). A mixin of AkumaLib that meets one is left out while that mod is loaded: `LEFT_TO` in
+`MixinReport` maps the mixin to the mod id, `shouldApplyMixin` skips it and the log says so in one line. That mod then
+owns the method, our check with it.
+
+| Mixin | Left to | Why | Without it |
+| --- | --- | --- | --- |
+| `CEquipAbilityPacketMixin` | Mine Mine Extra Slots (`minemineextraslots`, #841) | it rewrites `CEquipAbilityPacket.handle` for its 160 slots | a passive can be put into a slot; a slot past the last is still refused by `fixCrashGuards` (#350) |

@@ -2,6 +2,186 @@
 
 Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/all).
 
+## 7.0.0 { #v7-0-0 }
+
+<small>Released 2026-11-06 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/TO-FILL)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Four new fruits and the old ones made new.</strong> The Inu Inu no Mi, Model: Okuchi no Makami, the Neko Neko no Mi,
+Model: Cheetah, the Nemu Nemu no Mi and the Shari Shari no Mi join the addon. Seventeen older fruits get new models,
+gestures in third and first person and their own particles, and many of them new techniques or fairer numbers. Uta's
+dream is now the stadium of the film Red.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 6.4.0</strong> or newer.
+Client and server. Curios is optional, 5.2.0 or newer. On an older Forge the server crashes as soon as a chest is opened.</p>
+<p>AkumaLib 6.4.0 has a new network protocol: <strong>update the server and every player at the same time.</strong></p>
+<p>⚠️ <strong>Servers: set <code>allow-flight=true</code></strong> in <code>server.properties</code>, as before. Several fruits fly or hover, and without it
+the server kicks their users.</p>
+<hr />
+<h2>Inu Inu no Mi, Model: Okuchi no Makami (golden box, Zoan)</h2>
+<ul>
+<li><strong>Okuchi Heavy Point</strong>, the white hybrid, and <strong>Okuchi Walk Point</strong>, the wolf god, 3 blocks high, +30 health.</li>
+<li><strong>Namuji Hyoga</strong>: after a 1 s charge, a wave of ice runs about 20 blocks dead straight and stops on the first body: 24
+  (30 from the wolf), frozen 3 s. Cooldown 30 s.</li>
+<li><strong>Kagamiyama</strong>: a coat of ice takes 30 of the harm others deal you, then breaks for 8 and slowness within 4 blocks.
+  While it holds, your other techniques hit x1.25 and freeze x1.5. 20 s, cooldown 50 s.</li>
+<li><strong>Himorogiri</strong> (hybrid): leap up to 8 blocks, spin, strike down for 26 in 3 blocks, frozen 2 s. Your weapon counts.</li>
+<li><strong>Frost Weapon</strong> (+5 a blow and slowness 2 s, 45 s) or its mode <strong>Mahoroba</strong> (a charged strike for 22, frozen 3 s),
+  the only ice out of a form. Weapon or bare hand, same numbers.</li>
+<li><strong>Ice Wall</strong>: packed ice 5 wide and 4 high for 12 s.</li>
+<li><strong>Freezes</strong>: a body is not frozen again until 3 s after it thawed. An Oni keeps its horns on the wolf god.</li>
+</ul>
+<h2>Neko Neko no Mi, Model: Cheetah (iron box, Zoan)</h2>
+<ul>
+<li><strong>Cheetah Heavy Point</strong> (+60 % speed) and <strong>Cheetah Walk Point</strong> (+150 %): the fastest and frailest cat, no health added.</li>
+<li><strong>Sanbai-soku Rocket Dash</strong>: a 4 s run at +120 % speed, every creature met hit once for 10 and thrown aside. Press
+  again to stop. Cooldown 15 s.</li>
+<li><strong>Kagitsuke</strong>: smell the creature you look at, through walls, up to 48 blocks. It glows 30 s and you alone see its trail.</li>
+<li><strong>Hayatobi</strong>: leap on the creature in sight (10 blocks) for 14, or 21 on the run.</li>
+<li><strong>Tsumekake</strong>: hook the legs for 12. It falls (1.5 s still), then is slowed 3 s.</li>
+<li><strong>Zebra Rush</strong>: six zigzag passes through the enemies in sight within 12 blocks, 5 each, your view kept on the enemy.
+  It never goes through a wall nor ends in water. A held sword adds nothing to the claws.</li>
+</ul>
+<h2>Nemu Nemu no Mi (wooden box, Paramecia)</h2>
+<ul>
+<li><strong>Komoriuta</strong>: a lullaby puts enemies within 6 blocks to sleep, 8 s (players 4 s, bosses half). A blow wakes them.</li>
+<li><strong>Yume Kui</strong>: take a memory from a sleeper within 4 blocks: you +10 % damage and +5 % resistance, it -10 % damage,
+  60 s, 5 at most. Each blow you take gives one back. Cooldown 3 s.</li>
+<li><strong>Saimin</strong>: a sleeper within 12 blocks becomes your puppet: a creature fights for you 15 s, a player wakes slowed 50 %
+  for 6 s. Never a boss.</li>
+<li><strong>Omokage</strong>: violet smoke of 5 blocks for 6 s, with three images of the past that monsters attack.</li>
+<li><strong>Yume no Sekai</strong>: a 12-block wave puts all to sleep 6 s and takes a memory from each enemy, 4 at most. You swell,
+  fall slowly and take no fall damage. Press again to end it early, for a shorter cooldown.</li>
+<li><strong>Memories go back</strong> to their owners if you lose the fruit.</li>
+</ul>
+<h2>Shari Shari no Mi (wooden box, Paramecia)</h2>
+<ul>
+<li><strong>Wheel Arms</strong> (20 s): each bare-hand punch grinds 2 more times for 2, 1 against iron armour or better.</li>
+<li><strong>Wheel Feet</strong> (15 s): +60 % speed, higher steps, a kick while gliding does +4.</li>
+<li><strong>Wheel Roll</strong>: a hoop that rolls 14 blocks in 1 s where you look, through every enemy (10 each). Only a wall stops it.</li>
+<li><strong>Spinning Top</strong> (held up to 3 s): 3 every 0.5 s within 2.5 blocks, and shots go back to their shooter.</li>
+<li><strong>Great Wheel</strong>: a 4-block wheel rolls 24 blocks out and back, 14 to each enemy each way. Breaks nothing.</li>
+</ul>
+<h2>New models</h2>
+<ul>
+<li><strong>New models, gestures and particles</strong> for Uta, Buku, Wapu, Bisu, Gasha, Moa, Choki, Buki, Giro, Bata, Ami, Kama,
+  Ishi, Numa, Inu Inu Model: Wolf, Tori Tori Model: Falcon and the Soru homies (sabre, sword, suns, clouds, Misery).</li>
+<li><strong>Techniques wait for their gesture</strong>: the blow, the shot or the form comes when the hand, foot or blade gets there,
+  a few ticks after the press, in third and first person.</li>
+<li><strong>New icons</strong>: the fruits Bata, Buki, Ishi, Numa, Ami and Kama, and the techniques of Ishi, Falcon, Choki, Giro, Wapu,
+  Buku and Uta.</li>
+<li><strong>The thrown Soul Sword</strong> is drawn with the item's model, so a resource pack changes it too.</li>
+</ul>
+<h2>Uta Uta no Mi</h2>
+<ul>
+<li><strong>Uta World</strong> is the stadium of the film Red, with the Animal Band, two dancers and 28 fans. They are only decor:
+  shots and blows go through.</li>
+<li><strong>Creatures that hear the song</strong> come into the dream as your puppets (the 16 nearest) and fight the dreamers. They
+  come back where they stood. One beaten in the dream loses 60 % of its health. Bosses and others' creatures sleep.</li>
+<li><strong>The stage grows</strong> with its biggest dreamer, up to 4 times, and Tot Musica with it.</li>
+<li><strong>Toy</strong> (mode of Staff): the enemy you look at is a stuffed toy for 4 s. A blow undoes it.</li>
+<li><strong>Parade Float</strong>: a flying float you steer for 20 s, up to 3 allies on board. Press again to land everyone safely.</li>
+<li><strong>Dream Healing</strong>: 30 % of full health to an ally or yourself. Cooldown 20 s.</li>
+<li><strong>A longer dream</strong>: a full voice now lasts 5 minutes of dream (it was 1 minute), 2 min 30 with Tot Musica. The voice
+  still refills in 100 s. The Voice tooltip and the book say it.</li>
+</ul>
+<h2>Buku Buku no Mi</h2>
+<ul>
+<li><strong>Bookmark</strong> (mode of Imprison): shut yourself in your own book for up to 4 s, untouchable. Cooldown 20 s.</li>
+<li><strong>A burnt book</strong> lets its prisoner out on fire for 3 s. <strong>"Hon" no Sekai</strong>'s book is as big as its target.</li>
+</ul>
+<h2>Wapu Wapu no Mi</h2>
+<ul>
+<li><strong>Warp</strong> just past its range lands near its end, no longer halfway.</li>
+<li><strong>Warp Other</strong> takes the nearest enemy in front (3 blocks) and sends it where you look, never over lava.</li>
+<li><strong>Scatter</strong> sends every foe farther away. <strong>Reflex Warp</strong> has no distance limit.</li>
+</ul>
+<h2>Mochi Mochi no Mi</h2>
+<ul>
+<li><strong>Mochi Wall</strong> is 7 wide and 4 high. <strong>Tori Mochi</strong> throws much farther, about 20 blocks.</li>
+<li><strong>Extra Arms is a passive</strong>: arms follow your close blows, once a second on one enemy, hard with Armament Haki.</li>
+<li><strong>Awakening</strong>: Chikara, Kashiwa, Kuzu Mochi and Mochi Ginchaku swell their own donut, no Muso Donuts needed.</li>
+<li><strong>Kuri Mochi</strong> swells its own donut: aimed, or on its mode a <strong>Sentry</strong> that shoots the nearest enemy, 24 spikes in 6 s.</li>
+</ul>
+<h2>Ishi Ishi no Mi</h2>
+<ul>
+<li><strong>Ishi Ude</strong> (new): a stone arm strikes a line of 8 blocks for 12. Cooldown 10 s, 6 stone.</li>
+<li><strong>Stone Giant</strong> rises out of the stones around you. Its step and reach follow its body, its fists hit +20 / 27.7 /
+  31.5 / 34, and its hands stay stone in first person.</li>
+<li><strong>Charlestone</strong>: more spikes on a wider ring, cooldown 15 s instead of 25. <strong>Bitestone</strong> bites 3 blocks out.</li>
+</ul>
+<h2>Kama Kama no Mi</h2>
+<ul>
+<li><strong>The nails alone</strong>: a held sword no longer adds to the cuts.</li>
+<li><strong>Renzan and Tsuji Giri are greyed</strong> on your bar until Kama Tsume is on, as they need the nails out.</li>
+<li><strong>Midareuchi</strong>: every blade lands, 3 each (30 with the whirlwind), and no longer throws the target out.</li>
+<li><strong>Kamaitachi</strong> cuts through 3 blocks of rock, <strong>Tsumujikaze</strong> 4. Never obsidian.</li>
+<li><strong>Hits no longer lost</strong> between players: the whirlwind and Tsumujikaze strike 11 ticks apart.</li>
+</ul>
+<h2>Ami Ami no Mi</h2>
+<ul>
+<li><strong>x1.5 damage</strong>: sticky net 3, barbed 6.5, fire 6, boiling water 9, iron cage 12.</li>
+<li><strong>Mucho-Mucho Zenshin Taimo</strong> (mode of No Shock Taimo): in the net body, fall on an enemy within 8 blocks and hold it 3 s.</li>
+<li><strong>Armament Haki</strong> goes through the net body. In the net body you wear your own skin cut into meshes.</li>
+</ul>
+<h2>Numa Numa no Mi</h2>
+<ul>
+<li><strong>Gatling Gun</strong>: every mud ball lands, 1.5 each (24 a burst), without throwing the target away.</li>
+<li><strong>Hikizuri Komi</strong> hides an ally unharmed. Crouch to come out. <strong>Doro Nami</strong> deals 14 instead of 20.</li>
+<li><strong>Numa Sensui</strong>: you sink into the mud and see only mud, never through rock, and never come up in water.</li>
+<li><strong>Numa no Te</strong> never stops a boss. Water no longer flows into the swamp.</li>
+</ul>
+<h2>Bata Bata no Mi</h2>
+<ul>
+<li><strong>The butter sticks</strong>: friend and foe in it cannot jump. Slippery Sheet is now <strong>Sticky Sheet</strong>.</li>
+<li><strong>Butter Cuffs and Butter Wrap</strong> throw a ball (12 blocks) that takes the first enemy it meets and can be dodged.</li>
+</ul>
+<h2>Bisu Bisu no Mi</h2>
+<ul>
+<li><strong>A giant can wear the Biscuit Armour</strong>, and its toughness follows your health (80 for a man).</li>
+<li><strong>Soldiers</strong> of a big user rise beside him. One formed again costs a hunger point.</li>
+<li><strong>Hard Biscuit</strong> aims past your own soldiers. <strong>Crush Biscuit</strong> is refused in water and rain.</li>
+</ul>
+<h2>Inu Inu no Mi, Model: Wolf</h2>
+<ul>
+<li><strong>Rankyaku</strong>: <strong>Koro</strong> skips a blade over the ground (12), its mode <strong>Lupus Fall</strong> fires 4 wolves of air (4 x 5).</li>
+<li><strong>Tekkai Kenpo</strong> (new, hybrid): <strong>Don Poro</strong> punches for 10 and winds 2 s, its mode <strong>Matenro</strong> kicks the target up.</li>
+<li><strong>Rokaru Area Network</strong> (new, hybrid): a Soru rush (10 blocks), then 8 claw slashes, 12 in all.</li>
+<li><strong>Jusshigan</strong> is one thrust of 9. <strong>Gekko Jusshigan</strong> needs Shigan and Geppo: rise, then plunge.</li>
+<li><strong>A held sword</strong> no longer adds to claws and fangs. <strong>Kyukaku</strong> smells farther for a big body.</li>
+</ul>
+<h2>Tori Tori no Mi, Model: Falcon</h2>
+<ul>
+<li><strong>A held sword</strong> no longer adds to Kagizume, Tobizume and Hane Tsubute.</li>
+<li><strong>Tobizume</strong> dives faster. <strong>Hayabusa no Me</strong> sees farther for a big body.</li>
+</ul>
+<h2>Buki Buki no Mi</h2>
+<ul>
+<li><strong>Espada Girl</strong> has seven weapons, picked on the mode key: blades, sickles, axe, cleaver, sai, cannon, musket.</li>
+<li><strong>A giant's guns hit</strong>. Flying Disk Girl and Sickle Girl no longer add the held sword.</li>
+</ul>
+<h2>Other fruits</h2>
+<ul>
+<li><strong>Choki Choki no Mi</strong>: <strong>Kamikiri picks locks</strong>, an empty hand opens iron doors and trapdoors. Keep Out loses no slab
+  for a big user.</li>
+<li><strong>Gasha Gasha no Mi</strong>: Cañón Armado fires bullets and arrows once a second, shells every 2 s.</li>
+<li><strong>Moa Moa no Mi</strong>: <strong>Hyakubai Ho</strong>, Hyakubai Gan on a cannon's ball, 39 and a burst of 15. Gekitsui swings a big body
+  over you.</li>
+<li><strong>Giro Giro no Mi</strong>: only a player's or a pirate's, marine's or bandit's stronger mind shocks Peeping Mind.</li>
+<li><strong>Soru Soru no Mi</strong>: a name tag names your homie, and the next homie of that kind keeps it, after death too.
+  <strong>Soul Pocus</strong> takes a soul within 9 blocks, not 6.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Techniques no longer miss on a slow server</strong>: Narikiba, Choyaku, Kyoken, Tobikakari, Kaeshi Kiba, Hoegoe, Miburui,
+  O Rankyaku, O Kanabashi, Ultimate Faust, Daija Shime, Kamiyose, Ishi Ude, Mochi Tsuki, Omokage, Yume no Sekai, Seiryu
+  Storm, Biscuit Hei, Biscuit Armour, Biscuit Wall, Juice Drain and Soru: Inazuma.</li>
+<li><strong>Weapons count</strong>: the Soul Sword and Gutsu's Forged Blade as swords, the Forged Maul and Clay Morning Star as blunt
+  weapons, the Forged Spear and Ink Spear as spears, for the base mod's techniques.</li>
+<li><strong>Mekujira</strong> of a big NPC no longer misses.</li>
+<li><strong>Fuku Fuku no Mi</strong>: dragging in the wardrobe turns the pictures round.</li>
+</ul>
+</div>
+
 ## 6.1.0 { #v6-1-0 }
 
 <small>Released 2026-11-02 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9405201)</small>

@@ -97,3 +97,40 @@ The sheet is as wide and as tall as the screen says: its border keeps its size a
 
 !!! warning "Two sets of inks"
     The book's inks (`MmnmGui.INK`) and the note's (`ParchmentNote.INK`) are not the same brown: each was chosen on its own paper. Use the one of the paper you draw on.
+
+## A choice screen: `ChoiceScreens`
+
+A ready-made window for "pick one of these": the player drawn once per choice, side by side, each picture in the look
+of that choice. The pointer turns their heads; dragging turns them all round. Under the pictures, the name (in the
+choice's colour), a line about it, and the abilities it gives with their icons and names. A click chooses. Missing's
+Fuku Fuku wardrobe and Race's Raid Suits are built on it.
+
+The server owns the choice. It registers what a choice does, then opens the screen for a player:
+
+```java
+public static final ResourceLocation SCREEN = new ResourceLocation("mymod", "outfits");
+
+ChoiceScreens.register(SCREEN, (player, index) -> {      // before the first opening
+    if (!canChoose(player)) return false;                  // judged again here: the client is never trusted
+    wear(player, Outfit.values()[index]);
+    return true;
+});
+
+ChoiceScreens.open(player, SCREEN, Component.translatable("gui.mymod.outfits"), current.ordinal(),
+        List.of(new ChoiceScreens.Choice(name, Component.empty(), 0xC8282E, List.of(abilityId, ...)), ...));
+```
+
+A click is taken only for the screen last opened for that player, only for an index it offered, once per opening,
+and only when the chooser returns true. The client draws each picture with the dresser the addon registered at client
+setup; it puts the look on the player for one drawing and gives back what undoes it:
+
+```java
+ChoiceScreen.dresser(SCREEN, (player, index) -> {
+    Outfit before = Looks.shown(player);
+    Looks.show(player, Outfit.values()[index]);
+    return () -> Looks.show(player, before);
+});
+```
+
+A screen with no dresser draws the player as they are. At most 16 choices, 12 abilities a choice. The two packets
+(`ShowChoicesPacket`, `ChooseChoicePacket`) came with network protocol 17.
