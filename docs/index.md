@@ -2,6 +2,9 @@
 
 Player wikis and developer documentation for Inovactio's Minecraft mods. All of them are addons for [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod), on **Minecraft 1.20.1** with **Forge**.
 
+!!! tip "New on 2026-11-06"
+    Missing Missing no Mi 7.0.0 (four new fruits, seventeen with new models), Race Race no Mi 0.3.0 (Buccaneers, merfolk, modified humans) and AkumaLib 6.4.0: [what's new](whats-new.md).
+
 <div class="grid cards" markdown>
 
 -   ![](assets/icons/awaken-awaken-no-mi.png){ .card-icon } **Awaken Awaken no Mi**

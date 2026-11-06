@@ -89,7 +89,7 @@ Nobody warms to the user. Villagers, wandering traders and the base mod's trader
 
 ## The Germa 66 ration box { #ration-box }
 
-![](icons/ration-box-sparking-red.png){ .fruit-icon } ![](icons/ration-box-dengeki-blue.png){ .fruit-icon } ![](icons/ration-box-winch-green.png){ .fruit-icon } ![](icons/ration-box-stealth-black.png){ .fruit-icon } ![](icons/ration-box-poison-pink.png){ .fruit-icon }
+![](icons/ration-box-sparking-red.png){ .fruit-icon .pixelated } ![](icons/ration-box-dengeki-blue.png){ .fruit-icon .pixelated } ![](icons/ration-box-winch-green.png){ .fruit-icon .pixelated } ![](icons/ration-box-stealth-black.png){ .fruit-icon .pixelated } ![](icons/ration-box-poison-pink.png){ .fruit-icon .pixelated }
 
 The box is given once, the first time the player is a modified human. Only a modified human can use it.
 
