@@ -12,7 +12,7 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="forms/okuchi-heavy-point forms/okuchi-walk-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/okuchi-heavy-point forms/okuchi-walk-point objects/namuji-hyoga"></div>
 
 <!-- animations -->
 ??? example "Animations"
@@ -79,6 +79,8 @@ Transforms the user into the great white wolf god, which focuses on speed, weigh
 ## Namuji Hyoga { #namuji-hyoga }
 
 ![](../abilities/namuji-hyoga.png){ .ability-icon } *Active*
+
+![Namuji Hyoga](../objects/namuji-hyoga.png){ .form-picture }
 
 The user rears back and breathes out a blast of cold air that throws a wave of ice straight ahead, freezing the first enemy it hits
 

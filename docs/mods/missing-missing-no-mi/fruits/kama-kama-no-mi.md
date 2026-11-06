@@ -13,7 +13,7 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="forms/kama-tsume"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/kama-tsume objects/kama-kama-no-kamaitachi objects/kama-kama-no-tsumujikaze"></div>
 
 <!-- animations -->
 ??? example "Animations"
@@ -60,6 +60,8 @@ The user extends their nails into long sickles, increasing the damage of their p
 
 ![](../abilities/kama-kama-no-kamaitachi.png){ .ability-icon } *Active*
 
+![Kama Kama no Kamaitachi](../objects/kama-kama-no-kamaitachi.png){ .form-picture }
+
 The user swipes their nails launching a small and fast air blade that cuts through a few blocks, rock too
 
 | Stat | Value |
@@ -73,6 +75,8 @@ The user swipes their nails launching a small and fast air blade that cuts throu
 ## Kama Kama no Tsumujikaze { #kama-kama-no-tsumujikaze }
 
 ![](../abilities/kama-kama-no-tsumujikaze.png){ .ability-icon } *Active*
+
+![Kama Kama no Tsumujikaze](../objects/kama-kama-no-tsumujikaze.png){ .form-picture }
 
 Launches a big air blade that cuts through a few blocks, rock too, stays on the first enemy it hits and cuts it 3 times.
 

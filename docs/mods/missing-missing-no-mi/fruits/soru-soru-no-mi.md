@@ -12,7 +12,7 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="objects/soru-thundercloud objects/soru-sun objects/soru-misery"></div>
+<div class="model-viewer" data-models="../../" data-ids="objects/soru-thundercloud objects/soru-sun objects/soru-misery objects/soru-soul-sword"></div>
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -97,6 +97,8 @@ The sun holds one soul while it is out, taken from the stolen souls first and fr
 ## Soul Sword { #soru-soul-sword }
 
 ![](../abilities/soru-soul-sword.png){ .ability-icon } *Active*
+
+![Soul Sword](../objects/soru-soul-sword.png){ .form-picture }
 
 The user puts a piece of their soul into a sword that appears in their hand. Using the sword lets it go and it fights by itself, using it on the flying sword takes it back in hand
 
