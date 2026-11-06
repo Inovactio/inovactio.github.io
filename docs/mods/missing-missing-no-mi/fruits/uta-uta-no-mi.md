@@ -14,7 +14,7 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="objects/note-soldiers objects/uta-staff forms/knight-form objects/tot-musica"></div>
+<div class="model-viewer" data-models="../../" data-ids="objects/note-soldiers objects/uta-staff forms/knight-form objects/tot-musica objects/parade-float"></div>
 
 <!-- animations -->
 ??? example "Animations"
@@ -140,6 +140,8 @@ In Uta World, the user rides a giant musical note that rams forward where the us
 ## Parade Float { #parade-float }
 
 ![](../abilities/parade-float.png){ .ability-icon } *Active*
+
+![Parade Float](../objects/parade-float.png){ .form-picture }
 
 In Uta World, the user calls a flying parade float and rides it where the user is looking. Allies can get on it with a right click
 

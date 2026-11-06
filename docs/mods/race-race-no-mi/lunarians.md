@@ -23,6 +23,21 @@ A Lunarian is the player's own body at one and a half times the size: reach, blo
 
 **Hold sneak** and they hunch to a man's height (1.8 blocks), which takes them through a door: at 0.9 wide they need no narrowing of the shoulders. Hunched, a Lunarian walks at half their speed, and their techniques reach and hit only as much as a man's.
 
+<!-- models -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Lunarian on Steve's skin, black wings and white hair](models/race-lunarian.png)
+<figcaption>Lunarian, size 1.5</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../models/" data-ids="lunarians"></div>
+<!-- /models -->
+
 ## The flame
 
 The flame on a Lunarian's back is **lit** or **out**. It starts **out** at every login and in every new life, and goes out in water. Lunarian Blood holds the figures:

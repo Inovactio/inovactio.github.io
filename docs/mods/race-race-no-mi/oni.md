@@ -21,6 +21,41 @@ tags:
 
 An Oni is the player's own body at 1.75 times the size: reach, blows, health, strides and techniques all grow with it, through [AkumaLib](../../akumalib/index.md)'s size system. The horns are drawn over the player's own skin, and their shape and colour are picked from the player's identity, so they never change and every player sees the same horns. There are five shapes since 0.3.0 (Harald's, long and almost straight, and Oars', from the temples, were added): some players who already had horns got another shape, once.
 
+<!-- models -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![An Oni on Steve's skin, with Kaido's horns](models/oni.png)
+<figcaption>Kaido's horns</figcaption>
+</figure>
+
+<figure markdown>
+![An Oni on Steve's skin, with Yamato's horns](models/oni-2.png)
+<figcaption>Yamato's horns</figcaption>
+</figure>
+
+<figure markdown>
+![An Oni on Steve's skin, with the young Kaido's horns](models/oni-3.png)
+<figcaption>the young Kaido's horns</figcaption>
+</figure>
+
+<figure markdown>
+![An Oni on Steve's skin, with Harald's horns](models/oni-4.png)
+<figcaption>Harald's horns</figcaption>
+</figure>
+
+<figure markdown>
+![An Oni on Steve's skin, with Oars' horns](models/oni-5.png)
+<figcaption>Oars' horns</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom. The five horn shapes; a player gets one shape and one colour from their identity.
+
+<div class="model-viewer" data-models="../models/" data-ids="oni"></div>
+<!-- /models -->
+
 ## In a man's house
 
 An Oni is too wide and too tall for a door a block wide. **Hold sneak** and they hunch, with narrow shoulders: 0.98 wide and a man's height (1.8 blocks, a little more at the top of the slider), which fits a 1 x 2 door. A roof too low for them keeps the hunch on. The crawl is the game's own, with the same narrow shoulders.

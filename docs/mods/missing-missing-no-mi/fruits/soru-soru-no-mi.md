@@ -10,6 +10,10 @@
 | **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 7 active, 1 passive |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/soru-thundercloud objects/soru-sun objects/soru-misery objects/soru-soul-sword"></div>
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -47,6 +51,8 @@ The ability mode key switches between Soul Pocus, the mode it starts in, and Giv
 
 ![](../abilities/soru-thundercloud.png){ .ability-icon } *Active*
 
+![Thundercloud](../objects/soru-thundercloud.png){ .form-picture }
+
 The user puts a piece of their soul into a storm cloud that comes alive. It guards the user and strikes with lightning by itself whoever hits them or whoever they hit, Indra on one enemy and Tenman Daijizai Tenjin all around it
 
 The user rides the cloud to fly by using it or by jumping twice while it is out. With the sun out too the sun shoots Heavenly Feuer Blitz, and with the sun and the sword out the cloud fires Maser
@@ -67,6 +73,8 @@ The cloud holds one soul while it is out, taken from the stolen souls first and 
 ## Sun { #soru-sun }
 
 ![](../abilities/soru-sun.png){ .ability-icon } *Active*
+
+![Sun](../objects/soru-sun.png){ .form-picture }
 
 The user puts a piece of their soul into a ball of fire that comes alive. It guards the user and burns by itself whoever hits them or whoever they hit, Heavenly Feuer on one enemy and Heavenly Bonbon that bursts around it
 
@@ -89,6 +97,8 @@ The sun holds one soul while it is out, taken from the stolen souls first and fr
 ## Soul Sword { #soru-soul-sword }
 
 ![](../abilities/soru-soul-sword.png){ .ability-icon } *Active*
+
+![Soul Sword](../objects/soru-soul-sword.png){ .form-picture }
 
 The user puts a piece of their soul into a sword that appears in their hand. Using the sword lets it go and it fights by itself, using it on the flying sword takes it back in hand
 
@@ -113,6 +123,8 @@ The sword holds one soul while it is out, taken from the stolen souls first and 
 ## Misery { #soru-misery }
 
 ![](../abilities/soru-misery.png){ .ability-icon } *Active*
+
+![Misery](../objects/soru-misery.png){ .form-picture }
 
 The user fuses the thundercloud, the sun and the sword into Misery, a giant of fire and lightning that runs down their enemies and burns everything around her, for up to 60 seconds. It only works with the three out and costs no soul, the three keep theirs inside her
 

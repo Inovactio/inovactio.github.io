@@ -11,6 +11,10 @@
 | **Abilities** | 5: 5 active, 0 passive |
 | **Effects applied** | [Shari Wheels](../effects.md#effect-shari-wheels) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/shari-wheel-arms forms/shari-wheel-feet forms/shari-wheel-roll forms/shari-spinning-top objects/shari-great-wheel"></div>
+
 <!-- animations -->
 ??? example "Animations"
 
@@ -49,6 +53,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/shari-wheel-arms.png){ .ability-icon } *Active*
 
+![Wheel Arms](../forms/shari-wheel-arms.png){ .form-picture }
+
 Applies [Shari Wheels](../effects.md#effect-shari-wheels)
 
 The user's arms spin like grinding wheels for a while. Each punch with a bare hand keeps grinding and hits a few more times, and the armour of a player wears out twice as fast
@@ -69,6 +75,8 @@ Iron armour or better holds against the wheels, the extra hits barely scratch it
 
 ![](../abilities/shari-wheel-feet.png){ .ability-icon } *Active*
 
+![Wheel Feet](../forms/shari-wheel-feet.png){ .form-picture }
+
 Applies [Shari Wheels](../effects.md#effect-shari-wheels)
 
 The user's feet spin like wheels and they glide fast over the ground for a while, up the steps of a block. Their kicks grind and hit harder
@@ -84,6 +92,8 @@ The user's feet spin like wheels and they glide fast over the ground for a while
 
 ![](../abilities/shari-wheel-roll.png){ .ability-icon } *Active*
 
+![Wheel Roll](../forms/shari-wheel-roll.png){ .form-picture }
+
 The user curls up into a whole grinding wheel and rolls fast where they look. They go through every enemy on the way, each one gets hurt and thrown aside. A wall stops the roll
 
 | Stat | Value |
@@ -97,6 +107,8 @@ The user curls up into a whole grinding wheel and rolls fast where they look. Th
 ## Spinning Top { #shari-spinning-top }
 
 ![](../abilities/shari-spinning-top.png){ .ability-icon } *Active*
+
+![Spinning Top](../forms/shari-spinning-top.png){ .form-picture }
 
 Applies [Shari Wheels](../effects.md#effect-shari-wheels)
 
@@ -115,6 +127,8 @@ The user's upper body spins like a top for a few seconds. The enemies around get
 ## Great Wheel { #shari-great-wheel }
 
 ![](../abilities/shari-great-wheel.png){ .ability-icon } *Active*
+
+![Great Wheel](../objects/shari-great-wheel.png){ .form-picture }
 
 A giant grinding wheel leaves the user's arm and rolls far ahead, up the small steps, grinding every enemy on the way. At the end or on a wall it rolls back to the user and grinds the enemies again on the way. It breaks no block
 

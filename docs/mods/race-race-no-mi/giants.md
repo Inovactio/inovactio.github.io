@@ -21,11 +21,55 @@ tags:
 | **In the abilities menu** | ![](icons/giant-abilities.png){ .fruit-icon } their own category |
 | **Rokushiki** | giants do not count as humans |
 
-![A giant beside a man, both on Steve's skin](models/giant-and-man.png){ .form-picture }
+<!-- models -->
+<div class="mob-gallery" markdown>
 
-In 3D: drag to turn, scroll or pinch to zoom.
+<figure markdown>
+![An Elbaf Giant on Steve's skin](models/race-elbaf-giant.png)
+<figcaption>Elbaf Giant, size 4</figcaption>
+</figure>
 
-<div class="model-viewer" data-models="../models/" data-ids="giant-and-man"></div>
+<figure markdown>
+![A Wotan on Steve's skin](models/race-wotan.png)
+<figcaption>Wotan, size 2.5</figcaption>
+</figure>
+
+<figure markdown>
+![An Ancient Giant on Steve's skin, horned](models/race-ancient-giant.png)
+<figcaption>Ancient Giant, size 6</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom. The buttons switch between the three peoples.
+
+<div class="model-viewer" data-models="../models/" data-ids="giants"></div>
+<!-- /models -->
+
+<!-- models2 -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![An Ancient Giant with red skin](models/ancient-giants.png)
+<figcaption>Ancient Giant, red</figcaption>
+</figure>
+
+<figure markdown>
+![An Ancient Giant with green skin](models/ancient-giants-2.png)
+<figcaption>Ancient Giant, green</figcaption>
+</figure>
+
+<figure markdown>
+![An Ancient Giant in the player's own skin](models/ancient-giants-3.png)
+<figcaption>Ancient Giant, own skin</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom. The Ancient Giant's skins: red, green or the player's own, a third each, and the horns.
+
+<div class="model-viewer" data-models="../models/" data-ids="ancient-giants"></div>
+<!-- /models2 -->
 
 A giant is the player's own body at four times the size: reach, blows, health, strides and techniques all grow with it, through [AkumaLib](../../akumalib/index.md)'s size system. He steps over relief up to about a quarter of his height. Server owners can take the giants out of the character creator ([configuration](configuration.md)).
 

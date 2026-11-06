@@ -10,6 +10,10 @@
 | **Abilities** | 7: 7 active, 0 passive |
 | **Transformations** | [Okuchi Heavy Point](#okuchi-heavy-point), [Okuchi Walk Point](#okuchi-walk-point) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/okuchi-heavy-point forms/okuchi-walk-point objects/namuji-hyoga"></div>
+
 <!-- animations -->
 ??? example "Animations"
 
@@ -60,17 +64,23 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/okuchi-heavy-point.png){ .ability-icon } *Active · Transformation*
 
+![Okuchi Heavy Point](../forms/okuchi-heavy-point.png){ .form-picture }
+
 Transforms the user into the hybrid of the wolf god, which focuses on strength and its weapons of ice.
 
 ## Okuchi Walk Point { #okuchi-walk-point }
 
 ![](../abilities/okuchi-walk-point.png){ .ability-icon } *Active · Transformation*
 
+![Okuchi Walk Point](../forms/okuchi-walk-point.png){ .form-picture }
+
 Transforms the user into the great white wolf god, which focuses on speed, weight and its breath of ice.
 
 ## Namuji Hyoga { #namuji-hyoga }
 
 ![](../abilities/namuji-hyoga.png){ .ability-icon } *Active*
+
+![Namuji Hyoga](../objects/namuji-hyoga.png){ .form-picture }
 
 The user rears back and breathes out a blast of cold air that throws a wave of ice straight ahead, freezing the first enemy it hits
 
