@@ -4,7 +4,7 @@ Every Race Race no Mi release for Minecraft 1.20.1, newest first, as published o
 
 ## 0.3.0 (beta) { #v0-3-0 }
 
-<small>Released 2026-11-06 · [Download](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/TO-FILL)</small>
+<small>Released 2026-11-06 · [Download](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/9480844)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>Three new races and the Raid Suits of Germa 66.</strong> The Buccaneers, the merfolk and the modified humans join the

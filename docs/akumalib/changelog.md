@@ -4,7 +4,7 @@ Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [Curs
 
 ## 6.4.0 { #v6-4-0 }
 
-<small>Released 2026-11-06 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/TO-FILL)</small>
+<small>Released 2026-11-06 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9480836)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>A choice screen, fish tails, and small bodies that see and breathe right.</strong> Addons can now show a screen with one

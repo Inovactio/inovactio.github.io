@@ -4,7 +4,7 @@ Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as publi
 
 ## 7.0.0 { #v7-0-0 }
 
-<small>Released 2026-11-06 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/TO-FILL)</small>
+<small>Released 2026-11-06 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9480842)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>Four new fruits and the old ones made new.</strong> The Inu Inu no Mi, Model: Okuchi no Makami, the Neko Neko no Mi,
