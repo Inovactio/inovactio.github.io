@@ -23,7 +23,7 @@ tags:
 
 ## What it adds
 
-**88 Devil Fruits**: 57 Paramecia, 6 Logia and 25 Zoan (5 of them ancient, 6 mythical), with their abilities, transformations, summoned creatures and status effects.
+**92 Devil Fruits**: 59 Paramecia, 6 Logia and 27 Zoan (5 of them ancient, 7 mythical), with their abilities, transformations, summoned creatures and status effects.
 
 The fruits behave like the base mod's own:
 
@@ -63,7 +63,7 @@ Mine Mine no Mi's **captains, notorious NPCs and troops** can draw every fruit o
 
 | Page | What you'll find |
 |---|---|
-| **[Fruits](fruits/index.md)** | the 88 fruits, one page each, with every ability's description and values, and the odds of each box |
+| **[Fruits](fruits/index.md)** | the 92 fruits, one page each, with every ability's description and values, and the odds of each box |
 | **[All abilities](all-abilities.md)** | every ability in one table you can sort and filter: cooldown, charge, hold, damage, range |
 | **[Status effects](effects.md)** | the effects the fruits inflict or grant, and what applies each one |
 | **[For addon developers](developers.md)** | make another addon's creatures fight as this addon's Zoans |

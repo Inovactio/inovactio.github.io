@@ -38,7 +38,7 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     ---
 
-    88 Devil Fruits of One Piece the base mod does not have yet, canon and non-canon, with their techniques.
+    92 Devil Fruits of One Piece the base mod does not have yet, canon and non-canon, with their techniques.
 
     **Needs:** Mine Mine no Mi, AkumaLib
 
@@ -48,7 +48,7 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     ---
 
-    The races of One Piece: sky people, fishmen, humans and giants, each with its own body, passive and techniques.
+    The races of One Piece: sky people, fishmen, humans, giants, Oni, Tontatta, Lunarians, Buccaneers, merfolk and modified humans, each with its own body, passive and techniques.
 
     **Needs:** Mine Mine no Mi, AkumaLib
 

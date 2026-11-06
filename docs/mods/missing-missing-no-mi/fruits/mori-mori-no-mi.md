@@ -7,7 +7,7 @@
 | **Type** | Logia |
 | **Theme** | Forest |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 13: 9 active, 4 passive |
 | **Transformations** | [Kinniku Mori Mori](#kinniku-mori-mori) |
 
@@ -229,8 +229,8 @@ The user fills their wood with water so fire doesn't deal extra damage to them a
 
 | Stat | Value |
 |---|---|
-| Attack Speed | <span class="stat-malus">x0.8</span> |
 | Speed | <span class="stat-malus">x0.8</span> |
+| Attack Speed | <span class="stat-malus">x0.8</span> |
 
 ## Hanaguruma { #hanaguruma }
 

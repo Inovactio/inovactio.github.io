@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Brush |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.37%**, wooden **0.069%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 10: 9 active, 1 passive |
 | **Transformations** | [Flat Hiding](#flat-hiding) |
 
@@ -27,9 +27,11 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![](../abilities/ink.png){ .ability-icon } *Passive*
 
-The user's body makes ink, and what they draw with it becomes real. Every drawing is first traced flat on the ground as a picture in ink, from the head down, then rises off it after a short moment while the picture fades.
+The user's body makes ink, and what they draw with it becomes real. Every drawing is first traced flat on the ground, then comes to life after a short moment.
 
 A living drawing holds a part of the user's ink until it dissolves. Drawings dissolve in water
+
+Needs a brush in one hand
 
 ## Nuke Suzume { #nuke-suzume }
 
@@ -40,6 +42,8 @@ A living drawing holds a part of the user's ink until it dissolves. Drawings dis
 The user draws a great crane of ink on the ground in front of them. After a short moment it comes to life with the user on its back and flies where they look, for 60 seconds at most.
 
 Using the ability again dissolves the crane. It also dissolves in water
+
+Needs a brush in one hand
 
 | Stat | Value |
 |---|---|
@@ -55,6 +59,8 @@ Using the ability again dissolves the crane. It also dissolves in water
 The user draws a long dragon of ink on the ground in front of them. After a short moment it comes to life with the user on its back, for 60 seconds at most. It can't fly, but it climbs any wall it is ridden against.
 
 Using the ability again dissolves the dragon. It also dissolves in water
+
+Needs a brush in one hand
 
 The dragon runs on a long body: its ten segments follow the head down the path it took. Up a wall the body hangs down it, then comes over the top by itself. Each segment can be struck, and a blow on one is a blow on the dragon.
 
@@ -73,6 +79,8 @@ The user draws a huge ghost of ink wreathed in flames on the ground in front of 
 
 Using the ability again dissolves the ghost. It also dissolves in water
 
+Needs a brush in one hand
+
 | Stat | Value |
 |---|---|
 | Damage type | Indirect |
@@ -90,6 +98,8 @@ The user draws a copy of themselves in ink on the ground in front of them. After
 
 Using the ability again dissolves the copy. It also dissolves in water
 
+Needs a brush in one hand
+
 | Stat | Value |
 |---|---|
 | Cooldown | 20 s |
@@ -102,6 +112,8 @@ Using the ability again dissolves the copy. It also dissolves in water
 The user draws a cloud of ink on the ground where they are looking. After a short moment it rises and spreads above that place for 15 seconds, the enemies under it are blinded and monsters lose track of their targets.
 
 Using the ability again is Ukiyo Yudachi Ezu, for 3 seconds the cloud rains arrows of ink on every enemy under it, then it dissolves
+
+Needs a brush in one hand
 
 | Stat | Value |
 |---|---|
@@ -120,6 +132,8 @@ The user flattens against the wall beside them and becomes a drawing on it, for 
 
 Moving, attacking, being hit or using another ability ends it
 
+Needs a brush in one hand
+
 ## Ink Weapon { #ink-weapon }
 
 ![](../abilities/ink-weapon.png){ .ability-icon } *Active*
@@ -127,6 +141,8 @@ Moving, attacking, being hit or using another ability ends it
 The user draws a weapon of ink in their hand, for 60 seconds at most. It can be a sabre, or a spear that is slower and reaches further. The weapon is chosen before it is drawn.
 
 The weapon dissolves if it leaves the user's hands, or in water
+
+Needs a brush in one hand
 
 The weapon is an **Ink Sabre** or an **Ink Spear**, chosen with the mode key before it is drawn. It stays for 60 seconds at most and is gone as soon as it leaves the user's hand.
 
@@ -142,6 +158,8 @@ The weapon is an **Ink Sabre** or an **Ink Spear**, chosen with the mode key bef
 ![](../abilities/ink-food.png){ .ability-icon } *Active*
 
 The user draws 3 dango of ink. They feed whoever eats them but taste bad, and dissolve after 3 minutes.
+
+Needs a brush in one hand
 
 Gives 3 **Ink Dango**: each feeds like bread and gives a short nausea, anybody can eat them, and they are gone after 3 minutes if not eaten.
 
@@ -160,6 +178,8 @@ The user draws 2 snakes of ink on the ground under the enemy they are looking at
 The snakes let go in water
 
 They slither to their prey and wind up round it on long bodies, squeeze the coils in, then turn their heads to its face and lunge.
+
+Needs a brush in one hand
 
 | Stat | Value |
 |---|---|

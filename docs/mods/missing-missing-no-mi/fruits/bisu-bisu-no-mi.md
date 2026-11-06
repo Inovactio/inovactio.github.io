@@ -7,12 +7,53 @@
 | **Type** | Paramecia |
 | **Theme** | Biscuit |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.37%**, wooden **0.069%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="objects/bisu-hei objects/bisu-hard-biscuit objects/bisu-wall forms/bisu-armour"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Biscuit Hei](../animations/bisu-bisu-bisu-s1-hei-3p-700.webp){ loading=lazy }
+      <figcaption>Biscuit Hei</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hard Biscuit](../animations/bisu-bisu-bisu-s1-hard-3p-700.webp){ loading=lazy }
+      <figcaption>Hard Biscuit</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Biscuit Wall](../animations/bisu-bisu-bisu-s1-wall-3p-700.webp){ loading=lazy }
+      <figcaption>Biscuit Wall</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Biscuit Armour](../animations/bisu-bisu-bisu-s1-armour-f5-700.webp){ loading=lazy }
+      <figcaption>Biscuit Armour</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Biscuit Armour, 6 arms](../animations/bisu-bisu-bisu-s1-arms6-f5-700.webp){ loading=lazy }
+      <figcaption>Biscuit Armour, 6 arms</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Crush Biscuit](../animations/bisu-bisu-bisu-s1-crush-3p-700.webp){ loading=lazy }
+      <figcaption>Crush Biscuit</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Crumb Burst](../animations/bisu-bisu-bisu-s1-crumb-3p-700.webp){ loading=lazy }
+      <figcaption>Crumb Burst</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Biscuit rations](../animations/bisu-bisu-bisu-s1-rations-3p-700.webp){ loading=lazy }
+      <figcaption>Biscuit rations</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -25,12 +66,13 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![Biscuit Hei](../objects/bisu-hei.png){ .form-picture }
 
-The user makes 3 biscuit soldiers that follow them and attack their enemies. A broken soldier comes back after 10 seconds as long as the ability is active
+The user makes 3 biscuit soldiers that follow them and attack their enemies. A broken soldier comes back after 10 seconds as long as the ability is active, and each one that comes back makes the user a little hungry.
 
-In water or rain the biscuit gets soft. A soft soldier takes double damage and anyone can eat it
+In water or rain the biscuit gets soft. A soft soldier takes double damage and anyone can eat it.
 
 | Stat | Value |
 |---|---|
+| Charge | 1 s |
 | Cooldown | 30 s |
 | Hold | ∞ s |
 
@@ -40,7 +82,7 @@ In water or rain the biscuit gets soft. A soft soldier takes double damage and a
 
 ![Hard Biscuit](../objects/bisu-hard-biscuit.png){ .form-picture }
 
-A pile of hardened biscuit shields falls on the enemy the user looks at. It hurts the enemy and pins them to the ground for a moment
+A pile of hardened biscuit shields falls on the enemy the user looks at. It hurts the enemy and pins them to the ground for a moment.
 
 | Stat | Value |
 |---|---|
@@ -56,10 +98,11 @@ A pile of hardened biscuit shields falls on the enemy the user looks at. It hurt
 
 ![Biscuit Wall](../objects/bisu-wall.png){ .form-picture }
 
-A wall of hard biscuit rises in front of the user and stops enemies and projectiles for a while. In water or rain it lasts half as long. Using the ability again brings the wall down
+A wall of hard biscuit rises in front of the user and stops enemies and projectiles for a while. In water or rain it lasts half as long. Using the ability again brings the wall down.
 
 | Stat | Value |
 |---|---|
+| Charge | 0 s |
 | Cooldown | 20 s |
 | Hold | 10 s |
 
@@ -69,14 +112,15 @@ A wall of hard biscuit rises in front of the user and stops enemies and projecti
 
 ![Biscuit Armour](../forms/bisu-armour.png){ .form-picture }
 
-The user wears a giant biscuit soldier that takes the damage for them. When the armour breaks the user comes out unharmed
+The user wears a giant biscuit soldier that takes the damage for them. When the armour breaks the user comes out unharmed.
 
-Using it again adds a pair of arms with swords, up to 6 arms, and each pair makes the user hit harder. Using it with 6 arms leaves the armour
+Using it again adds a pair of arms with swords, up to 6 arms, and each pair makes the user hit harder. Using it with 6 arms leaves the armour.
 
-In water or rain the armour gets soft and breaks twice as fast
+In water or rain the armour gets soft and breaks twice as fast.
 
 | Stat | Value |
 |---|---|
+| Charge | 1 s |
 | Cooldown | 20–60 s |
 | Armour Toughness | 80 |
 | Damage per Extra Pair of Arms | +4 |
@@ -85,7 +129,7 @@ In water or rain the armour gets soft and breaks twice as fast
 
 ![](../abilities/bisu-pretzel.png){ .ability-icon } *Active*
 
-Inside the biscuit armour the user dashes forward with two spinning swords, hitting every enemy on the way and throwing them aside
+Inside the biscuit armour the user dashes forward with two spinning swords, hitting every enemy on the way and throwing them aside.
 
 | Stat | Value |
 |---|---|
@@ -98,9 +142,9 @@ Inside the biscuit armour the user dashes forward with two spinning swords, hitt
 
 ![](../abilities/bisu-crush-biscuit.png){ .ability-icon } *Active*
 
-The user crushes biscuits into fine crumbs and shapes a copy of the sword Pretzel in their hand, for 60 seconds at most
+The user crushes biscuits into fine crumbs and shapes a copy of the sword Pretzel in their hand, for 60 seconds at most.
 
-The sword crumbles if it leaves the hand of the user, in water or under the rain
+The sword crumbles if it leaves the hand of the user, in water or under the rain.
 
 | Stat | Value |
 |---|---|
@@ -113,7 +157,7 @@ The sword crumbles if it leaves the hand of the user, in water or under the rain
 
 ![](../abilities/bisu-crumb-burst.png){ .ability-icon } *Active*
 
-The user crushes biscuits and throws the hardened crumbs in a fan in front of them, hitting every enemy close ahead
+The user crushes biscuits and throws the hardened crumbs in a fan in front of them, hitting every enemy close ahead.
 
 | Stat | Value |
 |---|---|
@@ -127,7 +171,7 @@ The user crushes biscuits and throws the hardened crumbs in a fan in front of th
 
 ![](../abilities/bisu-biscuit-rations.png){ .ability-icon } *Active*
 
-The user makes 4 hard biscuits. They are too hard to eat until they are soaked, by using them on water
+The user makes 4 hard biscuits. They are too hard to eat until they are soaked, by using them on water.
 
 | Stat | Value |
 |---|---|

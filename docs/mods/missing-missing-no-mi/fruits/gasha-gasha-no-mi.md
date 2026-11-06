@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Assembly |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 10 active, 1 passive |
 | **Transformations** | [Unión Armado](#union-armado), [Blindado](#blindado) |
 
@@ -18,30 +18,32 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Union Armado](../animations/gasha-anim-union-armado.webp){ loading=lazy }
-      <figcaption>Union Armado</figcaption>
+      ![Soldado](../animations/gasha-gasha-gasha-s1-soldado-3p-700.webp){ loading=lazy }
+      <figcaption>Soldado</figcaption>
     </figure>
     <figure markdown="span">
-      ![Ultimate Faust](../animations/gasha-anim-ultimate-faust.webp){ loading=lazy }
-      <figcaption>Ultimate Faust</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Det Sterkeste Strike](../animations/gasha-anim-det-sterkeste-strike.webp){ loading=lazy }
-      <figcaption>Det Sterkeste Strike</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Torreta](../animations/gasha-anim-torreta.webp){ loading=lazy }
+      ![Torreta](../animations/gasha-gasha-gasha-s1-torreta-3p-700.webp){ loading=lazy }
       <figcaption>Torreta</figcaption>
     </figure>
     <figure markdown="span">
-      ![Cañón Armado](../animations/gasha-anim-canon-armado.webp){ loading=lazy }
-      <figcaption>Cañón Armado</figcaption>
+      ![Muralla](../animations/gasha-gasha-gasha-s1-muralla-3p-700.webp){ loading=lazy }
+      <figcaption>Muralla</figcaption>
     </figure>
     <figure markdown="span">
-      ![Mech](../animations/gasha-mech-walk.webp){ loading=lazy }
-      <figcaption>Mech</figcaption>
+      ![Blindado](../animations/gasha-gasha-gasha-s1-blindado-f5-700.webp){ loading=lazy }
+      <figcaption>Blindado</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Union Armado](../animations/gasha-gasha-gasha-s1-union-f5-700.webp){ loading=lazy }
+      <figcaption>Union Armado</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Sterkste](../animations/gasha-gasha-gasha-s1-sterkeste-f5-700.webp){ loading=lazy }
+      <figcaption>Sterkste</figcaption>
     </figure>
     </div>
 <!-- /animations -->
@@ -55,13 +57,14 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/desmontar.png){ .ability-icon } *Active*
 
-Breaks the crafted block or the dropped item the user is looking at into half the ingredients of its recipe, rounded down. A damaged item gives less ingredients
+Breaks the crafted block or the dropped item the user is looking at into half the ingredients of its recipe, rounded down. A damaged item gives fewer ingredients.
 
-A thing that can be made in more than one way does not come apart
+A thing that can be made in more than one way does not come apart.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 2 s |
+| Range | 5 blocks (line) |
 
 ## Taller { #taller }
 
@@ -69,7 +72,7 @@ A thing that can be made in more than one way does not come apart
 
 Opens a crafting table anywhere.
 
-If used while crouching, repairs the item in the user's hand using its material from the inventory, no anvil or experience needed
+If used while crouching, repairs the item in the user's hand with its material from the inventory, with no anvil or experience needed.
 
 | Stat | Value |
 |---|---|
@@ -79,12 +82,14 @@ If used while crouching, repairs the item in the user's hand using its material 
 
 ![](../abilities/muralla.png){ .ability-icon } *Active*
 
-The user creates a big wall where they are looking at, made from the ground blocks, which sends flying the enemies near it. The wall stops enemies and projectiles and disappears after 10 seconds. Using the ability again brings the wall down
+The user creates a big wall where they are looking, made from the ground blocks, which sends the enemies near it flying. The wall stops enemies and projectiles and disappears after 10 seconds. Using the ability again brings the wall down.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 12 s |
 | Hold | 10 s |
+| Range | 8 blocks (line) |
+| Charge | 0 s |
 
 ## Cañón Armado { #canon-armado }
 
@@ -92,11 +97,11 @@ The user creates a big wall where they are looking at, made from the ground bloc
 
 ![Cañón Armado](../forms/canon-armado.png){ .form-picture }
 
-Transforms the user's arm into a cannon. While active, holding right click with an empty hand shoots the first ammo found in the inventory, TNT, gunpowder, bullets, cannon balls or arrows
+Transforms the user's arm into a cannon. While active, holding right click with an empty hand shoots the first ammo found in the inventory (TNT, gunpowder, bullets, cannon balls or arrows).
 
 Use the ability again to remove the cannon.
 
-Making the cannon takes metal blocks near the user, or 2 iron ingots from the inventory
+Making the cannon takes metal blocks near the user, or 2 iron ingots from the inventory.
 
 | Stat | Value |
 |---|---|
@@ -109,15 +114,16 @@ Making the cannon takes metal blocks near the user, or 2 iron ingots from the in
 
 ![Torreta](../objects/torreta.png){ .form-picture }
 
-Creates a turret where the user is looking at and loads it with up to 32 bullets from the inventory. The turret shoots the closest enemy every second, for 1 minute or until it has no more bullets or is destroyed
+Creates a turret where the user is looking and loads it with up to 32 bullets from the inventory. The turret shoots the closest enemy every second, for 1 minute or until it has no more bullets or is destroyed.
 
 The unused bullets are given back to the user. Only one turret can be active.
 
-Building the turret takes metal blocks near the user, or 4 iron ingots and 2 gunpowder from the inventory
+Building the turret takes metal blocks near the user, or 4 iron ingots and 2 gunpowder from the inventory.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 30 s |
+| Range | 8 blocks (line) |
 
 ## Soldado { #soldado }
 
@@ -125,16 +131,17 @@ Building the turret takes metal blocks near the user, or 4 iron ingots and 2 gun
 
 ![Soldado](../objects/soldado.png){ .form-picture }
 
-Creates a soldier made of scrap in front of the user, that follows them and attacks their enemies for 90 seconds. A broken soldier comes back after 10 seconds as long as the ability is active
+Creates a soldier made of scrap in front of the user, which follows them and attacks their enemies for 90 seconds. A broken soldier comes back after 10 seconds as long as the ability is active.
 
-Only one soldier can be active
+Only one soldier can be active.
 
-Building the soldier takes metal blocks near the user, or 6 iron ingots and 2 copper ingots from the inventory, each time it comes back too
+Building the soldier takes metal blocks near the user, or 6 iron ingots and 2 copper ingots from the inventory, also each time it comes back.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 60 s |
 | Hold | 90 s |
+| Charge | 0 s |
 
 ## Unión Armado { #union-armado }
 
@@ -142,11 +149,11 @@ Building the soldier takes metal blocks near the user, or 6 iron ingots and 2 co
 
 ![Unión Armado](../forms/union-armado.png){ .form-picture }
 
-The user creates a giant mech around them, increasing the damage and the range of their punches and their armor, but making them slower
+The user creates a giant mech around them, increasing the damage and the range of their punches and their armor, but making them slower.
 
-The size can be changed before using it, the colossus looks like the ground it was made on, lasts less and has a longer cooldown.
+The size can be changed before using it. The colossus looks like the ground it was made on, lasts less and has a longer cooldown.
 
-Building the mech takes metal blocks near the user, or 8 iron ingots and 2 copper ingots from the inventory
+Building the mech takes metal blocks near the user, or 8 iron ingots and 2 copper ingots from the inventory.
 
 Unión Armado
 
@@ -168,7 +175,7 @@ Unión Armado
 
 ![](../abilities/ultimate-faust.png){ .ability-icon } *Active*
 
-While in the colossus form, the user pulls back their fist and then smashes it where they are looking, damaging all enemies around the impact and sending them flying
+While in the colossus form, the user pulls back their fist and then smashes it where they are looking, damaging all enemies around the impact and sending them flying.
 
 Deals more damage while Busoshoku Haki is active.
 
@@ -181,6 +188,7 @@ Needs Armament Haki mastery
 | Cooldown | 40 s |
 | Haki Cost | 400 |
 | Charge | 2 s |
+| Range | 20 blocks (line) |
 | Range | 6 blocks (area) |
 | Damage | 80 |
 
@@ -190,9 +198,9 @@ Needs Armament Haki mastery
 
 ![Blindado](../forms/blindado.png){ .form-picture }
 
-The user's arms gets bigger with scrap and Busoshoku Haki, increasing their punch damage, armor and speed
+The user's arms get bigger with scrap and Busoshoku Haki, increasing their punch damage, armor and speed.
 
-Growing the arms takes metal blocks near the user, or 3 iron ingots from the inventory
+Growing the arms takes metal blocks near the user, or 3 iron ingots from the inventory.
 
 Needs Armament Haki mastery
 
@@ -216,13 +224,13 @@ Needs Armament Haki mastery
 | Haki | Hardening |
 | Cooldown | 20 s |
 | Haki Cost | 200 |
-| Range | 4 blocks (line) |
-| Damage | 10 |
+| Range | 4 blocks (cone) |
+| Damage | 80 |
 
 ## Scrap Parts { #gasha-parts }
 
 ![](../abilities/gasha-parts.png){ .ability-icon } *Passive*
 
-Shows the iron ingots, copper ingots and gunpowder the user carries, in green when there are enough metal blocks around them to build for free
+Shows the iron ingots, copper ingots and gunpowder the user carries, in green when there are enough metal blocks around them to build for free.
 
-Soldado: 6 iron, 2 copper. Torreta: 4 iron, 2 gunpowder. Cañón Armado: 2 iron. Blindado: 3 iron. Unión Armado, the mech or the colossus: 8 iron, 2 copper. Muralla is free
+Soldado costs 6 iron and 2 copper, Torreta 4 iron and 2 gunpowder, Cañón Armado 2 iron, Blindado 3 iron, and Unión Armado (the mech or the colossus) 8 iron and 2 copper. Muralla is free.

@@ -7,8 +7,8 @@
 | **Type** | Paramecia |
 | **Theme** | Mochi |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 23: 22 active, 1 passive |
+| **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 23: 21 active, 2 passive |
 | **Effects applied** | ![](../effect-icons/stuck-in-mochi.png){ .effect-mini }[Stuck in Mochi](../effects.md#effect-stuck-in-mochi) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -101,20 +101,19 @@ The body of the user opens like soft mochi while they slip a few blocks where th
 
 ## Extra Arms { #mochi-extra-arms }
 
-![](../abilities/mochi-extra-arms.png){ .ability-icon } *Active*
+![](../abilities/mochi-extra-arms.png){ .ability-icon } *Passive*
 
 ![Extra Arms](../objects/mochi-extra-arms.png){ .form-picture }
 
-The user grows extra arms of soft mochi. For a while each of their own hits in close combat is followed by more punches from the extra arms
+Extra arms of soft mochi follow each of the user's own hits in close combat with more punches, once a second on the same enemy. They harden only while the user's Armament Haki is on
 
 | Stat | Value |
 |---|---|
 | Damage type | Fist, Physical |
 | Haki | Hardening |
-| Cooldown | 20 s |
-| Hold | 12 s |
 | Extra Blows per Hit | 2 |
 | Damage per Extra Blow | 3 |
+| Once per Enemy Every | 1 s |
 
 ## Kaku Mochi { #mochi-kaku }
 
@@ -324,7 +323,7 @@ Awakened. The ground around the user grows blunt arms of mochi that close on eve
 
 ![Muso Donuts](../objects/mochi-muso-donuts.png){ .form-picture }
 
-Awakened. Rings of mochi swell in the air around the user and stay with them for a while, facing where they look. The giant arms and the spikes of the awakening come out of the rings that stand, without a ring they can't be used
+Awakened. Rings of mochi swell in the air around the user and stay with them for a while, facing where they look. The giant arms and the spikes of the awakening come out of the rings that stand too
 
 Used again the rings go. The longer they stood the longer the cooldown
 
@@ -342,7 +341,7 @@ Used again the rings go. The longer they stood the longer the cooldown
 
 ![Chikara Mochi](../objects/mochi-chikara.png){ .form-picture }
 
-Awakened. A giant arm of hardened mochi shoots out of the nearest ring and punches the enemy the user looks at, sending it flying. Needs a ring of Muso Donuts
+Awakened. A donut of mochi swells over the user's shoulder and a giant arm of hardened mochi shoots out of it, or out of a nearer ring of Muso Donuts, and punches the enemy the user looks at, sending it flying
 
 | Stat | Value |
 |---|---|
@@ -358,7 +357,7 @@ Awakened. A giant arm of hardened mochi shoots out of the nearest ring and punch
 
 ![Mochi Ginchaku](../objects/mochi-ginchaku.png){ .form-picture }
 
-Awakened. Every ring of Muso Donuts throws its giant arm again and again at the enemy nearest to it. Needs a ring of Muso Donuts
+Awakened. A donut of mochi swells over the user's shoulder and throws its giant arm again and again at the enemy nearest to it. Every ring of Muso Donuts does the same
 
 | Stat | Value |
 |---|---|
@@ -375,7 +374,7 @@ Awakened. Every ring of Muso Donuts throws its giant arm again and again at the 
 
 ![Kuzu Mochi](../objects/mochi-kuzu.png){ .form-picture }
 
-Awakened. Nine giant arms of hardened mochi come out of the rings one after the other and pound the place the user is looking at. Needs a ring of Muso Donuts
+Awakened. A donut of mochi swells over the user's shoulder and nine giant arms of hardened mochi come out of it one after the other and pound the place the user is looking at. The rings of Muso Donuts throw arms too
 
 | Stat | Value |
 |---|---|
@@ -393,7 +392,7 @@ Awakened. Nine giant arms of hardened mochi come out of the rings one after the 
 
 Applies ![](../effect-icons/stuck-in-mochi.png){ .effect-mini }[Stuck in Mochi](../effects.md#effect-stuck-in-mochi)
 
-Awakened. Two giant open hands of mochi come out of the rings and clap on the enemy the user looks at, it stays stuck in their mochi. While right click is held they clap again and again. Needs a ring of Muso Donuts
+Awakened. Two donuts of mochi swell over the user's shoulders and two giant open hands come out of them and clap on the enemy the user looks at, it stays stuck in their mochi. While right click is held they clap again and again
 
 | Stat | Value |
 |---|---|
@@ -410,7 +409,13 @@ Awakened. Two giant open hands of mochi come out of the rings and clap on the en
 
 ![Kuri Mochi](../objects/mochi-kuri.png){ .form-picture }
 
-Awakened. The nearest ring bristles with hardened spikes and shoots them where the user is looking. Needs a ring of Muso Donuts
+Awakened. A donut of mochi swells beside the user, bristles with hardened spikes and shoots them, press the Alt key to switch between the two ways
+
+Kuri Mochi shoots where the user is looking, from the donut over their shoulder or the nearest ring of Muso Donuts
+
+Kuri Mochi Sentry leaves the donut in the air in front of the user, it shoots the nearest enemy it sees by itself for a while
+
+Kuri Mochi Sentry
 
 | Stat | Value |
 |---|---|
@@ -419,6 +424,7 @@ Awakened. The nearest ring bristles with hardened spikes and shoots them where t
 | Cooldown | 20 s |
 | Spikes | 24 |
 | Damage per Spike | 6 |
+| Sentry Time | 6 s |
 
 ## Mochi Body { #mochi-body }
 

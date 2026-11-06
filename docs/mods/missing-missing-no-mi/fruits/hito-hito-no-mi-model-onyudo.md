@@ -6,9 +6,10 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 | **Transformations** | [Onyudo Heavy Point](#onyudo-heavy-point), [Onyudo Guard Point](#onyudo-guard-point) |
+| **Effects applied** | [Stomped Flat](../effects.md#effect-stomped-flat) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -68,9 +69,9 @@ The user sweeps what they are holding in a wide arc in front of them, hitting al
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
-| Cooldown | 10 s |
+| Cooldown | 8 s |
 | Damage | 11–26 |
-| Range | 4–7.5 blocks (area) |
+| Range | 6–11 blocks (area) |
 
 ## Long Thrust { #long-thrust }
 
@@ -82,9 +83,9 @@ The user thrusts what they are holding straight ahead with both hands, hitting a
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
-| Cooldown | 11 s |
+| Cooldown | 9 s |
 | Damage | 14–30 |
-| Range | 5.5–10 blocks (line) |
+| Range | 8–15 blocks (line) |
 
 ## Monk's Guard { #monks-guard }
 
@@ -108,15 +109,19 @@ The user takes a guard stance that greatly reduces the damage coming from in fro
 
 ![](../abilities/giants-stomp.png){ .ability-icon } *Active*
 
+Applies [Stomped Flat](../effects.md#effect-stomped-flat)
+
 The user stomps the ground, all nearby enemies standing on it are damaged and knocked down for a moment
+
+A target at least twice as small as the user stays pinned to the ground for longer
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
-| Cooldown | 14 s |
+| Cooldown | 11 s |
 | Damage | 12–18 |
-| Range | 3.5–7 blocks (area) |
+| Range | 5–10 blocks (area) |
 
 ## Dread Gaze { #dread-gaze }
 
@@ -126,8 +131,8 @@ The user stares down the nearby enemies that are looking at them, weakening and 
 
 | Stat | Value |
 |---|---|
-| Cooldown | 18 s |
-| Range | 14 blocks (area) |
+| Cooldown | 14 s |
+| Range | 21 blocks (area) |
 | Dread Lasts | 6 s |
 
 ## Earth Splitter { #earth-splitter }
@@ -140,6 +145,6 @@ While in the giant onyudo form, the user raises what they are holding above thei
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
-| Cooldown | 40 s |
+| Cooldown | 32 s |
 | Damage | 26–40 |
-| Range | 16 blocks (line) |
+| Range | 24 blocks (line) |

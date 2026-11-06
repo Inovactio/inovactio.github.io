@@ -7,9 +7,9 @@
 | **Type** | Paramecia |
 | **Theme** | Pocket |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.81%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.65%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 3: 3 active, 0 passive |
-| **Effects applied** | ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/just-woken.png){ .effect-mini }[Just Woken](../effects.md#effect-just-woken), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet), ![](../effect-icons/wide-awake.png){ .effect-mini }[Wide Awake](../effects.md#effect-wide-awake) |
+| **Effects applied** | ![](../effect-icons/absorbed.png){ .effect-mini }[Absorbed](../effects.md#effect-absorbed), ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/just-woken.png){ .effect-mini }[Just Woken](../effects.md#effect-just-woken), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet), [Swallowed](../effects.md#effect-swallowed), ![](../effect-icons/wide-awake.png){ .effect-mini }[Wide Awake](../effects.md#effect-wide-awake) |
 
 <!-- animations -->
 ??? example "Animations"
@@ -43,13 +43,15 @@ Bows, crossbows, guns and cannons take their ammo from the pockets when the inve
 
 ![](../abilities/poke-swallow.png){ .ability-icon } *Active*
 
-Applies ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/just-woken.png){ .effect-mini }[Just Woken](../effects.md#effect-just-woken), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet), ![](../effect-icons/wide-awake.png){ .effect-mini }[Wide Awake](../effects.md#effect-wide-awake)
+Applies ![](../effect-icons/absorbed.png){ .effect-mini }[Absorbed](../effects.md#effect-absorbed), ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/just-woken.png){ .effect-mini }[Just Woken](../effects.md#effect-just-woken), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet), [Swallowed](../effects.md#effect-swallowed), ![](../effect-icons/wide-awake.png){ .effect-mini }[Wide Awake](../effects.md#effect-wide-awake)
 
 The user's belly swells and its zip opens into a big pocket that swallows the projectiles that come from the front
 
 Arrows, tridents, bullets and cannon balls go in the user's pockets if there is room, the other projectiles are stopped and disappear
 
 While the pocket is open the user cannot move or jump but can still turn
+
+A living target at least twice as small as the user is swallowed and spat out unhurt after 5 seconds or when used again, and the user can walk in the meantime
 
 | Stat | Value |
 |---|---|

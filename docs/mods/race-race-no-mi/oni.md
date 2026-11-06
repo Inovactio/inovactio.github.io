@@ -15,11 +15,11 @@ tags:
 |---|---|
 | **Size** | 1.75: about 3.15 blocks high and 1.05 wide (slider 1.64 to 1.86) |
 | **Passive** | Oni Blood |
-| **Techniques** | 5 |
+| **Techniques** | 7 |
 | **In the abilities menu** | ![](icons/oni-abilities.png){ .fruit-icon } their own category |
 | **Rokushiki** | Oni count as humans |
 
-An Oni is the player's own body at 1.75 times the size: reach, blows, health, strides and techniques all grow with it, through [AkumaLib](../../akumalib/index.md)'s size system. The horns are drawn over the player's own skin, and their shape and colour are picked from the player's identity, so they never change and every player sees the same horns.
+An Oni is the player's own body at 1.75 times the size: reach, blows, health, strides and techniques all grow with it, through [AkumaLib](../../akumalib/index.md)'s size system. The horns are drawn over the player's own skin, and their shape and colour are picked from the player's identity, so they never change and every player sees the same horns. There are five shapes since 0.3.0 (Harald's, long and almost straight, and Oars', from the temples, were added): some players who already had horns got another shape, once.
 
 ## In a man's house
 
@@ -46,7 +46,7 @@ The user hits hard with bare hands and harder with a blunt weapon. Drink makes t
 
 ## Techniques
 
-In the abilities tree, a branch only Oni see: Guard Breaker first, then Horn Toss and Shock Fist, then Demon Skin, then Demon Leap.
+In the abilities tree, a branch only Oni see: Guard Breaker first, then Horn Toss and Shock Fist, then Demon Skin and Demon Sweep, then Demon Leap, then Demon Quake.
 
 !!! note "About the values"
     Damage is what the target really loses, in health points (2 = one heart), and ranges are in blocks, for a body of size 1: an Oni's grow with their size (damage and reach about x1.3, cooldowns about x1.13 at size 1.75). Cooldowns and times are in seconds. Sizes and slider: [Your size](index.md#your-size).
@@ -57,7 +57,9 @@ In the abilities tree, a branch only Oni see: Guard Breaker first, then Horn Tos
 | ![](abilities/horn-toss.png){ .fruit-icon } [Horn Toss](#horn-toss) | 1,000 Doriki, 2 martial arts points | Guard Breaker |
 | ![](abilities/shock-fist.png){ .fruit-icon } [Shock Fist](#shock-fist) | 1,500 Doriki, 3 martial arts points | Guard Breaker |
 | ![](abilities/demon-skin.png){ .fruit-icon } [Demon Skin](#demon-skin) | 2,000 Doriki, 3 martial arts points | Horn Toss |
+| ![](abilities/demon-sweep.png){ .fruit-icon } [Demon Sweep](#demon-sweep) | 2,000 Doriki, 3 martial arts points | Shock Fist |
 | ![](abilities/demon-leap.png){ .fruit-icon } [Demon Leap](#demon-leap) | 3,000 Doriki, 5 martial arts points | Demon Skin and Shock Fist |
+| ![](abilities/demon-quake.png){ .fruit-icon } [Demon Quake](#demon-quake) | 4,000 Doriki, 6 martial arts points | Demon Leap |
 
 ### Guard Breaker { #guard-breaker }
 
@@ -109,6 +111,18 @@ For a few seconds the user hardens: they take less damage, and their blows push 
 | Damage taken | -30 % |
 | Knockback of the blows | +50 % |
 
+### Demon Sweep { #demon-sweep }
+
+![](abilities/demon-sweep.png){ .ability-icon } *Active, Oni*
+
+The user swings all the way round: every enemy close is hit and thrown away. Stronger with a blunt weapon.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 12 s |
+| Damage | 9, x1.2 with a blunt weapon |
+| Range | 3 blocks around |
+
 ### Demon Leap { #demon-leap }
 
 ![](abilities/demon-leap.png){ .ability-icon } *Active, Oni*
@@ -121,6 +135,18 @@ A great jump onto the enemy in sight. Landing, the Oni hits whoever is under the
 | Damage | 12 to the one landed on, 6 to the others in the wave |
 | Range | 20 blocks (line to the target), wave 5 blocks around |
 | Flight | up to 6 s |
+
+### Demon Quake { #demon-quake }
+
+![](abilities/demon-quake.png){ .ability-icon } *Active, Oni*
+
+The user strikes the ground: everything around them is hit and thrown up. From the ground only.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 16 s |
+| Damage | 8 |
+| Range | 4 blocks around |
 
 ## What follows the size
 

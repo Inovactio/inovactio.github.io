@@ -7,13 +7,30 @@
 | **Type** | Paramecia |
 | **Theme** | Sickle |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.81%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.65%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 | **Transformations** | [Kama Tsume](#kama-tsume) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/kama-tsume"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Midareuchi](../animations/kama-kama-midareuchi-size-1-700.webp){ loading=lazy }
+      <figcaption>Midareuchi</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Kamaitachi through rock](../animations/kama-kama-roche-size-1-700.webp){ loading=lazy }
+      <figcaption>Kamaitachi through rock</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -26,18 +43,24 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![Kama Tsume](../forms/kama-tsume.png){ .form-picture }
 
-The user extends their nails into long sickles, increasing the damage of their punches while active
+The user extends their nails into long sickles, increasing the damage of their punches while active. A bare hand with the nails out counts as a sword. A Black Leg user grows them on the feet instead.
 
 | Stat | Value |
 |---|---|
 | Damage type | Slash, Fist, Physical |
 | Element | Wind |
 
+**Stats while active**
+
+| Stat | Value |
+|---|---|
+| Punch Damage | +3 |
+
 ## Kama Kama no Kamaitachi { #kama-kama-no-kamaitachi }
 
 ![](../abilities/kama-kama-no-kamaitachi.png){ .ability-icon } *Active*
 
-The user swipes their nails launching a small and fast air blade
+The user swipes their nails launching a small and fast air blade that cuts through a few blocks, rock too
 
 | Stat | Value |
 |---|---|
@@ -51,7 +74,7 @@ The user swipes their nails launching a small and fast air blade
 
 ![](../abilities/kama-kama-no-tsumujikaze.png){ .ability-icon } *Active*
 
-Launches a big air blade that stays on the first enemy it hits and cuts it 3 times.
+Launches a big air blade that cuts through a few blocks, rock too, stays on the first enemy it hits and cuts it 3 times.
 
 If used while crouching, launches two crossed blades instead which deals more damage
 
@@ -67,7 +90,7 @@ If used while crouching, launches two crossed blades instead which deals more da
 
 ![](../abilities/kama-kama-no-kamaitachi-midareuchi.png){ .ability-icon } *Active*
 
-The user slashes the air multiple times launching a lot of air blades, after which a whirlwind is created where the user was looking at.
+The user slashes the air multiple times launching a lot of air blades, after which a whirlwind is created where the user was looking.
 
 | Stat | Value |
 |---|---|
@@ -76,13 +99,13 @@ The user slashes the air multiple times launching a lot of air blades, after whi
 | Haki | Imbuing |
 | Cooldown | 30 s |
 | Range | 3 blocks (area) |
-| Damage | 3–4 |
+| Damage | 3 |
 
 ## Kama Kama no Renzan { #kama-kama-no-renzan }
 
 ![](../abilities/kama-kama-no-renzan.png){ .ability-icon } *Active*
 
-While the nails are out, the user slashes the enemies in front of them a lot of times very fast, the last slash pushes them back
+While the nails are out, the user slashes the enemies in front of them many times, very fast. The last slash pushes them back.
 
 | Stat | Value |
 |---|---|
@@ -104,6 +127,7 @@ While the nails are out, the user dashes forward in a straight line cutting all 
 | Haki | Hardening |
 | Cooldown | 10 s |
 | Damage | 10 |
+| Range | 14.4 blocks (line) |
 
 ## Kama Kama no Kiri Harai { #kama-kama-no-kiri-harai }
 
@@ -115,6 +139,7 @@ The user sweeps the air with their nails for a short time, cutting all enemy pro
 |---|---|
 | Cooldown | 12 s |
 | Hold | 2 s |
+| Range | 3.5 blocks (area) |
 
 ## Kama Kama no Enbu { #kama-kama-no-enbu }
 

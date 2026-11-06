@@ -7,12 +7,53 @@
 | **Type** | Paramecia |
 | **Theme** | Weapons |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.37%**, wooden **0.069%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 8 active, 0 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/espada-girl forms/revolver-girl forms/revolver-leg forms/gatling-girl objects/sickle-girl forms/fire-girl forms/missile-girl forms/flying-disk-girl"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Espada Girl](../animations/buki-buki-buki-s1-espada-slash-3p-700.webp){ loading=lazy }
+      <figcaption>Espada Girl</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Revolver](../animations/buki-buki-buki-s1-revolver-700.webp){ loading=lazy }
+      <figcaption>Revolver</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Revolver leg](../animations/buki-buki-buki-s1-revolverleg-700.webp){ loading=lazy }
+      <figcaption>Revolver leg</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Gatling](../animations/buki-buki-buki-s1-gatling-700.webp){ loading=lazy }
+      <figcaption>Gatling</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Sickle Girl](../animations/buki-buki-buki-s1-sickle-700.webp){ loading=lazy }
+      <figcaption>Sickle Girl</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Flamethrower](../animations/buki-buki-buki-s1-fire-700.webp){ loading=lazy }
+      <figcaption>Flamethrower</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Missile](../animations/buki-buki-buki-s1-missile-700.webp){ loading=lazy }
+      <figcaption>Missile</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Flying Disk Girl](../animations/buki-buki-buki-s1-disk-700.webp){ loading=lazy }
+      <figcaption>Flying Disk Girl</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -25,12 +66,13 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![Espada Girl](../forms/espada-girl.png){ .form-picture }
 
-Transforms the user's arms into sword blades, the punches will cut the enemies and the hands are counted as a sword
+Turns the user's arms into weapons, sword blades by default. Their punches cut, and their hands count as a sword. The mode key picks another weapon before use.
 
 | Stat | Value |
 |---|---|
 | Damage type | Slash, Fist, Physical |
 | Haki | Hardening |
+| Charge | 0 s |
 
 ## Revolver Girl { #revolver-girl }
 
@@ -38,7 +80,7 @@ Transforms the user's arms into sword blades, the punches will cut the enemies a
 
 ![Revolver Girl](../forms/revolver-girl.png){ .form-picture }
 
-Transforms the user's arm into a revolver that shoots multiple bullets where the user is looking at.
+Turns the user's arm into a revolver that fires a burst of bullets where the user looks.
 
 | Stat | Value |
 |---|---|
@@ -46,7 +88,8 @@ Transforms the user's arm into a revolver that shoots multiple bullets where the
 | Haki | Imbuing |
 | Cooldown | 10 s |
 | Hold | 2 s |
-| Damage | 2.5 |
+| Damage | 25 |
+| Range | 87.5 blocks (line) |
 
 ## Revolver Leg { #revolver-leg }
 
@@ -54,13 +97,14 @@ Transforms the user's arm into a revolver that shoots multiple bullets where the
 
 ![Revolver Leg](../forms/revolver-leg.png){ .form-picture }
 
-The user kicks with their leg transformed into a gun, that shoots when the kick lands and pushes back the enemies in front
+The user kicks with a leg turned into a gun. It fires as the kick lands and pushes back the enemies in front.
 
 | Stat | Value |
 |---|---|
 | Damage type | Bullet |
 | Haki | Imbuing |
 | Cooldown | 7 s |
+| Charge | 0 s |
 | Damage | 10 |
 | Range | 3.5 blocks (cone) |
 
@@ -70,7 +114,7 @@ The user kicks with their leg transformed into a gun, that shoots when the kick 
 
 ![Gatling Girl](../forms/gatling-girl.png){ .form-picture }
 
-Transforms the user's leg into a Gatling gun that shoots a lot of bullets where the user is looking at. The user is slowed while shooting.
+Turns the user's leg into a Gatling gun that fires a long burst of bullets where the user looks. The user is slowed while firing.
 
 | Stat | Value |
 |---|---|
@@ -78,7 +122,8 @@ Transforms the user's leg into a Gatling gun that shoots a lot of bullets where 
 | Haki | Imbuing |
 | Cooldown | 25 s |
 | Hold | 4 s |
-| Damage | 1.2 |
+| Damage | 48 |
+| Range | 80 blocks (line) |
 
 **Stats while active**
 
@@ -92,14 +137,15 @@ Transforms the user's leg into a Gatling gun that shoots a lot of bullets where 
 
 ![Sickle Girl](../objects/sickle-girl.png){ .form-picture }
 
-Throws a sickle with a chain from the user's arm, it cuts the first enemy it hits and then the chain pulls it back
+Throws a sickle on a chain from the user's arm. It cuts the first enemy it hits, and the chain pulls that enemy back.
 
 | Stat | Value |
 |---|---|
-| Damage type | Slash, Projectile |
+| Damage type | Projectile |
 | Haki | Imbuing |
 | Cooldown | 9 s |
 | Damage | 5 |
+| Range | 35.2 blocks (line) |
 
 ## Fire Girl { #fire-girl }
 
@@ -107,7 +153,7 @@ Throws a sickle with a chain from the user's arm, it cuts the first enemy it hit
 
 ![Fire Girl](../forms/fire-girl.png){ .form-picture }
 
-Transforms the user's upper body into a flamethrower, that shoots a cone of fire in front of them setting the enemies on fire.
+Turns the user's upper body into a flamethrower that pours a cone of fire in front of them and sets the enemies on fire.
 
 | Stat | Value |
 |---|---|
@@ -115,7 +161,7 @@ Transforms the user's upper body into a flamethrower, that shoots a cone of fire
 | Haki | Special |
 | Cooldown | 16 s |
 | Hold | 3 s |
-| Damage | 3 |
+| Damage | 18 |
 | Range | 7 blocks (cone) |
 
 ## Missile Girl { #missile-girl }
@@ -124,7 +170,7 @@ Transforms the user's upper body into a flamethrower, that shoots a cone of fire
 
 ![Missile Girl](../forms/missile-girl.png){ .form-picture }
 
-Transforms the user into a missile that flies where they are looking and explodes on the first thing it hits. Use the ability again to explode instantly. The user takes no damage
+Turns the user into a missile that flies where they look and explodes on the first thing it hits. Use the ability again to explode at once. The blast does not hurt the user.
 
 | Stat | Value |
 |---|---|
@@ -133,6 +179,7 @@ Transforms the user into a missile that flies where they are looking and explode
 | Cooldown | 30 s |
 | Hold | 5 s |
 | Damage | 20 |
+| Range | 110 blocks (line) |
 
 ## Flying Disk Girl { #flying-disk-girl }
 
@@ -140,12 +187,13 @@ Transforms the user into a missile that flies where they are looking and explode
 
 ![Flying Disk Girl](../forms/flying-disk-girl.png){ .form-picture }
 
-Transforms the user into a spinning cutting disk that dashes forward, damaging and pushing away all enemies in its path.
+Turns the user into a spinning cutting disk that dashes forward, cutting and pushing away every enemy in its path.
 
 | Stat | Value |
 |---|---|
-| Damage type | Slash, Physical |
+| Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 12 s |
 | Hold | 2 s |
 | Damage | 7 |
+| Range | 27 blocks (line) |

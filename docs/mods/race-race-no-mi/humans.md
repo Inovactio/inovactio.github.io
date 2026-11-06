@@ -26,4 +26,4 @@ The user has no body bonus as the other races have, but grows faster: more Dorik
 | Doriki gained | +25 % |
 | Haki experience gained | +25 %, for all three Haki |
 
-Training points are not raised. Only the base mod's own humans hold it: the sky people count as humans for Rokushiki, but have passives of their own instead.
+Training points are not raised. Only the base mod's own humans hold it: the sky people count as humans for Rokushiki, but have passives of their own instead. So do the [Buccaneers](buccaneers.md) and the [modified humans](modified-humans.md), who have no Human Will.

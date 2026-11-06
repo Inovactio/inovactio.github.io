@@ -15,7 +15,7 @@ tags:
 |---|---|
 | **Size** | 0.25: about 0.45 blocks high and 0.15 wide, no slider |
 | **Passive** | Tontatta Strength |
-| **Techniques** | 5 |
+| **Techniques** | 7 |
 | **In the abilities menu** | ![](icons/tontatta-abilities.png){ .fruit-icon } their own category |
 | **Rokushiki** | Tontatta do not count as humans |
 
@@ -25,17 +25,21 @@ A Tontatta is the player's own body at a quarter of the size, with a bushy tail 
 
 ![](abilities/tontatta-strength.png){ .ability-icon } *Passive, Tontatta*
 
-The user is tiny, but their blows push as hard as a man's, and they reach blocks further than their size.
+The user is tiny, but their blows push as hard as a man's, and they reach blocks further than their size. They are a little quicker than a man, jump three blocks higher and fall from higher unhurt.
 
 | Stat | Value |
 |---|---|
 | Block reach | 3 blocks |
+| Speed | +15 % |
+| Jump | 4.25 blocks (a man 1.25) |
+| Fall without harm | 6 blocks |
+| Fall damage past that | a quarter of a man's a block: about 46 blocks kill a Tontatta, not 23 |
 
 A body this small would push almost nothing: Tontatta Strength takes the size's loss of knockback back out of the user's blows. Their damage and the speed of their swing already are a man's. They keep their short reach to hit.
 
 ## Techniques
 
-In the abilities tree, a branch only Tontatta see: Tonta Uppercut first, then Tonta Barrage and Underfoot Dash, then Tail Hammer, then Head Climb.
+In the abilities tree, a branch only Tontatta see: Tonta Uppercut first, then Tonta Barrage and Underfoot Dash, then Ant Burden, Tail Hammer and Tonta Whirl, then Head Climb.
 
 !!! note "About the values"
     Damage is what the target really loses, in health points (2 = one heart). The figures are those of a Tontatta at their own size 0.25, ranges and cooldowns included: their reach is half a man's, and their cooldowns shorter than a man's. Cooldowns and times are in seconds. Sizes: [Your size](index.md#your-size).
@@ -45,7 +49,9 @@ In the abilities tree, a branch only Tontatta see: Tonta Uppercut first, then To
 | ![](abilities/tonta-uppercut.png){ .fruit-icon } [Tonta Uppercut](#tonta-uppercut) | 500 Doriki, 2 martial arts points | |
 | ![](abilities/tonta-barrage.png){ .fruit-icon } [Tonta Barrage](#tonta-barrage) | 2,000 Doriki, 3 martial arts points | Tonta Uppercut |
 | ![](abilities/underfoot-dash.png){ .fruit-icon } [Underfoot Dash](#underfoot-dash) | 1,000 Doriki, 2 martial arts points | Tonta Uppercut |
+| ![](abilities/ant-burden.png){ .fruit-icon } [Ant Burden](#ant-burden) | 3,000 Doriki, 5 martial arts points | Tonta Barrage |
 | ![](abilities/tail-hammer.png){ .fruit-icon } [Tail Hammer](#tail-hammer) | 3,000 Doriki, 5 martial arts points | Tonta Uppercut and Underfoot Dash |
+| ![](abilities/tonta-whirl.png){ .fruit-icon } [Tonta Whirl](#tonta-whirl) | 2,000 Doriki, 3 martial arts points | Underfoot Dash |
 | ![](abilities/head-climb.png){ .fruit-icon } [Head Climb](#head-climb) | 5,000 Doriki, 8 martial arts points | Tail Hammer |
 
 ### Tonta Uppercut { #tonta-uppercut }
@@ -114,6 +120,29 @@ The small against the big: the user goes up the body of an enemy in 0.75 s, hits
 | Slowed | Slowness III for 1 s |
 
 The climb ends early if the enemy dies, changes level, or is moved too far in one tick to be a walk (a teleport).
+
+### Ant Burden { #ant-burden }
+
+![](abilities/ant-burden.png){ .ability-icon } *Active, Tontatta*
+
+The user lifts the nearest enemy over their head, even one much bigger, and throws it ahead. It is hurt where it lands.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 16 s |
+| Damage | 8, on landing |
+
+### Tonta Whirl { #tonta-whirl }
+
+![](abilities/tonta-whirl.png){ .ability-icon } *Active, Tontatta*
+
+The user runs twice round the nearest enemy in 1 s, so fast they hit it 4 times, and leave it dizzy and blind.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 20 s |
+| Damage | 4 blows of 1 |
+| Nausea and blindness | 3 s |
 
 ## What follows the size
 

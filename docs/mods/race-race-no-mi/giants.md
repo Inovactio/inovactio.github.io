@@ -17,7 +17,7 @@ tags:
 |---|---|
 | **Size** | 4 for an Elbaf giant: about 7.2 blocks high and 2.4 wide (slider 3.75 to 4.25). Wotan 2.5, Ancient giants 6: see [the three peoples](#sub-races) |
 | **Passive** | Pride of Elbaf, and one more for the Wotan and the Ancient giants |
-| **Techniques** | 6, and a 7th for the Ancient giants |
+| **Techniques** | 6, and a 7th for the Ancient giants; Shoulder Carry for all |
 | **In the abilities menu** | ![](icons/giant-abilities.png){ .fruit-icon } their own category |
 | **Rokushiki** | giants do not count as humans |
 
@@ -43,7 +43,7 @@ The character creator offers the giants in three peoples. All three are giants: 
 
 - **Elbaf Giant**: the giant as he was, proud warriors who never give way.
 - **Wotan**: half giant and half fishman, smaller than a true giant, at home under water, with a fishman's dorsal fin.
-- **Ancient Giant**: Oars's bloodline, horned, with skin of red or green, far bigger than any other giant. The horns' shape and colour are picked from the player's identity, so they never change.
+- **Ancient Giant**: Oars's bloodline, horned, far bigger than any other giant. His skin is red, green or the player's own, a third each (since 0.3.0, some players changed colour once). The horns' shape and colour are picked from the player's identity, so they never change; there are five shapes since 0.3.0, and some players who already had horns got another one, once.
 
 The slider is the same for all three: 6.25 % either way, by steps of 3.125 %. The figures below are for an Elbaf giant at size 4 unless they say otherwise: reach, damage and cooldowns follow each body's size.
 
@@ -57,8 +57,8 @@ The slider is the same for all three: 6.25 % either way, by steps of 3.125 %. Th
 
 ### Blocks: zones and precision (G)
 
-- By default he **breaks a 3x3x3**: the 3x3 of the face he aims at and the two layers behind it. The zone breaks in the time of its hardest block, the tool wears once per block, and every block drops what it would.
-- He **places a 3x3x3** the same way, growing out of the face toward him, **one item per block placed**, as long as he holds some.
+- By default he **breaks a 3x3x3** (an Ancient giant a **5x5x5**, so he fits the hole he digs): the 3x3 of the face he aims at and the two layers behind it. The zone breaks in the time of its hardest block, the tool wears once per block, and every block drops what it would.
+- He **places a 3x3x3** the same way (an Ancient giant a 5x5x5), growing out of the face toward him, **one item per block placed**, as long as he holds some.
 - Blocks with something inside (chests, furnaces...) are never taken in a zone, only the one he aims at.
 - The **G** key (Controls: "Giant: zones / precision") switches to **precision mode**: one block at a time, with his long reach (about 12.7 blocks at size 4). The mode is shown on screen.
 - Zones follow the base mod's ability griefing setting and its protected areas: where they forbid it, he works block by block. A server can turn zones off for everyone (`giantAreaBlocks`).
@@ -117,6 +117,16 @@ The blood of the first conquerors of the New World: the user keeps going, and bl
 | Knockback | none: blows do not push them |
 
 Nothing is added to the damage: the size gives it.
+
+## Shoulder Carry { #shoulder-carry }
+
+![](abilities/shoulder-carry.png){ .ability-icon } *Passive, giants*
+
+Right-click with an empty hand on a crouching player at least twice smaller than the giant to take them on his shoulder, one at a time. They can hit and use their techniques from there, but not on him, and he does not hurt them. They get down by crouching again, their fall spared; a crouching giant sets them down with an empty right-click.
+
+## Higher steps and water { #steps }
+
+A giant steps a third of his height: the Wotan 1.5 blocks, the Elbaf giant 2.4, the Ancient giant 3.6. A giant wading in water can jump, and climbs out onto a bank no higher than his step.
 
 ## Techniques
 
@@ -224,5 +234,5 @@ After Oars's epithet. The user sinks their hands into the ground and hauls it to
 | Stat | Value |
 |---|---|
 | Cooldown | 14 s |
-| Damage | 8 |
+| Damage | 24, the strongest giant technique |
 | Range | 12 blocks (a wide line) |
