@@ -84,6 +84,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - "What's new": whats-new.md
   - Awaken Awaken no Mi:
       - mods/awaken-awaken-no-mi/index.md
       - Fruits:
@@ -334,6 +335,7 @@ nav:
       - Buccaneers: mods/race-race-no-mi/buccaneers.md
       - Merfolk: mods/race-race-no-mi/merfolk.md
       - Modified Humans: mods/race-race-no-mi/modified-humans.md
+      - All techniques: mods/race-race-no-mi/all-techniques.md
       - Configuration: mods/race-race-no-mi/configuration.md
       - Changelog: mods/race-race-no-mi/changelog.md
   - Sky Island:

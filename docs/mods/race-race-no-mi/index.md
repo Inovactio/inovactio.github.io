@@ -40,6 +40,23 @@ tags:
 
 The base mod's other races (Mink, Cyborg...) are left as they are.
 
+## Compare the races { #compare }
+
+What each body gives, side by side, from the race pages (size 1 figures, a race at its own size). Every technique with its cost and figures: [All techniques](all-techniques.md).
+
+| Race | Size | Body | In the water | Own techniques |
+|---|---|---|---|---|
+| [Humans](humans.md) | 1 | +25 % Doriki and Haki experience | a man's | none |
+| [Sky People](sky-people.md) | 1 | wings; by sub-race +20 % speed, or +1 to +3 damage and +1 to +2 toughness; stronger the higher they stand | a man's | 3, and 2 per sub-race |
+| [Fishmen](fishmen.md) | 1.25 | by sub-race +3 damage and bleeding, +2 bare-handed damage and +1 toughness, or faster swimming | swim x3 (Garfish x4), breathe and see under water | none |
+| [Giants](giants.md) | 4 (Wotan 2.5, Ancient 6) | never give way, +25 % damage under 30 % health; Wotan -30 % blunt damage; Ancient +3 toughness, not pushed back | Wotan: swim x3, breathe and see under water | 6, 7 for the Ancient |
+| [Oni](oni.md) | 1.75 | +2 bare-handed damage, +1 toughness, +20 % with a blunt weapon, stronger when drunk | a man's | 7 |
+| [Tontatta](tontatta.md) | 0.25 | +15 % speed, a 4.25-block jump, 6-block falls unhurt, blows that push as a man's | a man's | 7 |
+| [Lunarians](lunarians.md) | 1.5 | +1 bare-handed damage; flame lit: -50 % damage taken; flame out: +40 % speed, +25 % attack speed, +2 bare-handed damage | a man's | 7, 2 of them given |
+| [Buccaneers](buccaneers.md) | 2 | +2 bare-handed damage, +2 toughness, left at 1 health once every 5 minutes | a man's | 6 |
+| [Merfolk](merfolk.md) | 1 (Great Merfolk 1.25) | Great Merfolk: +2 toughness | a fish tail: swim x4.5 (Mermaid faster still), breathe and see under water; lost with a Devil Fruit | 6 |
+| [Modified Humans](modified-humans.md) | 1 | -25 % projectile and cutting damage, 1 health every 2 s, +2 bare-handed damage, +10 % speed; in a suit -50 % fire damage, no fall damage, +4 bare-handed damage; nobody trades with them | a man's | 7 a suit |
+
 ## Your size
 
 Every race has a size, set in the character creator with a slider: a man is 1, a fishman 1.25, a Lunarian 1.5, an Oni 1.75, a Buccaneer 2, a giant 4, a Tontatta 0.25. Reach, blows, health, strides and techniques all follow the body, through [AkumaLib](../../akumalib/index.md)'s size system: a giant's Stomp covers more ground than a man's would. The figures on these pages are for a body of size 1 unless they say otherwise (the Tontatta and Lunarian pages give them at the race's own size).
