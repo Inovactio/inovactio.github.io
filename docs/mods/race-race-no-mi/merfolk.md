@@ -20,6 +20,40 @@ tags:
 | **Techniques** | 6 |
 | **In the abilities menu** | ![](icons/merfolk-abilities.png){ .fruit-icon } their own category |
 
+<!-- bodies -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Mermaid in the water: a coral fish tail in place of the legs](models/mermaid-water.png)
+<figcaption>Mermaid, in the water</figcaption>
+</figure>
+
+<figure markdown>
+![A Great Merfolk in the water: a grey-blue fish tail](models/great-merfolk-water.png)
+<figcaption>Great Merfolk, in the water</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom. The buttons switch between the two sub-races. On land, both have a man's legs.
+
+<div class="model-viewer" data-models="../models/" data-ids="merfolk"></div>
+
+<div class="mob-gallery small" markdown>
+
+<figure markdown>
+![The Mermaid's face in the book](icons/mermaid.png)
+<figcaption>Mermaid, in the book</figcaption>
+</figure>
+
+<figure markdown>
+![The Great Merfolk's face in the book](icons/great-merfolk.png)
+<figcaption>Great Merfolk, in the book</figcaption>
+</figure>
+
+</div>
+<!-- /bodies -->
+
 ## The tail { #tail }
 
 The tail comes out when a merfolk swims off the bottom of the water, or under it. Their legs shrink up into the hips as it grows, with a burst of bubbles, and it waves faster as they swim. Standing in a shallow, the legs stay. Back on land the tail goes the same way, drops falling from the hips. Leggings and boots are hidden while the tail is out.

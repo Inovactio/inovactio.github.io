@@ -22,6 +22,50 @@ tags:
 
 A Buccaneer is the player's own skin on a bigger body, with a broad chest: reach, blows, health, strides and techniques all grow with the size, through [AkumaLib](../../akumalib/index.md)'s size system. Armour and jackets follow the chest.
 
+<!-- bodies -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Broad Buccaneer: broad shoulders and chest over a narrower waist](models/broad-buccaneer.png)
+<figcaption>Broad Buccaneer</figcaption>
+</figure>
+
+<figure markdown>
+![A Stout Buccaneer: a belly and hips under a smaller chest](models/stout-buccaneer.png)
+<figcaption>Stout Buccaneer</figcaption>
+</figure>
+
+<figure markdown>
+![A Great Buccaneer: broad all the way down](models/great-buccaneer.png)
+<figcaption>Great Buccaneer</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom. The buttons switch between the three busts.
+
+<div class="model-viewer" data-models="../models/" data-ids="buccaneers"></div>
+
+<div class="mob-gallery small" markdown>
+
+<figure markdown>
+![The Broad Buccaneer's face in the book](icons/broad-buccaneer.png)
+<figcaption>Broad, in the book</figcaption>
+</figure>
+
+<figure markdown>
+![The Stout Buccaneer's face in the book](icons/stout-buccaneer.png)
+<figcaption>Stout, in the book</figcaption>
+</figure>
+
+<figure markdown>
+![The Great Buccaneer's face in the book](icons/great-buccaneer.png)
+<figcaption>Great, in the book</figcaption>
+</figure>
+
+</div>
+<!-- /bodies -->
+
 ## Three busts { #busts }
 
 In the character creator a Buccaneer picks one of three busts. They change the look only: the same size, the same passive, the same techniques. Each has its own face in the creator's book.

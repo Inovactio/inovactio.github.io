@@ -22,6 +22,50 @@ tags:
 
 A modified human has no Human Will: their growth is a man's.
 
+<!-- bodies -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A modified human in the Sparking Red suit](models/suit-sparking-red.png)
+<figcaption>Sparking Red</figcaption>
+</figure>
+
+<figure markdown>
+![A modified human in the Dengeki Blue suit](models/suit-dengeki-blue.png)
+<figcaption>Dengeki Blue</figcaption>
+</figure>
+
+<figure markdown>
+![A modified human in the Winch Green suit](models/suit-winch-green.png)
+<figcaption>Winch Green</figcaption>
+</figure>
+
+<figure markdown>
+![A modified human in the Stealth Black suit](models/suit-stealth-black.png)
+<figcaption>Stealth Black</figcaption>
+</figure>
+
+<figure markdown>
+![A modified human in the Poison Pink suit, its cape a pair of butterfly wings](models/suit-poison-pink.png)
+<figcaption>Poison Pink</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom. The buttons switch between the five suits.
+
+<div class="model-viewer" data-models="../models/" data-ids="raid-suits"></div>
+
+<div class="mob-gallery small" markdown>
+
+<figure markdown>
+![The modified human's face in the book](icons/modified-human.png)
+<figcaption>In the book</figcaption>
+</figure>
+
+</div>
+<!-- /bodies -->
+
 ## Modified Body { #modified-body }
 
 ![](abilities/modified-body.png){ .ability-icon } *Passive, modified humans*
