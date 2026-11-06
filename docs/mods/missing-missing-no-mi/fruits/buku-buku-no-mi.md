@@ -84,6 +84,32 @@ The user throws a torn page as sharp as a blade where they look. It cuts the fir
 
 ![Book Barrage](../objects/buku-barrage.png){ .form-picture }
 
+The books come in four covers, a book drawn at random each time (the buttons of the 3D view switch between them):
+
+<div class="mob-gallery small" markdown>
+
+<figure markdown>
+![Book Barrage, cover 1](../objects/buku-barrage.png)
+<figcaption>Cover 1</figcaption>
+</figure>
+
+<figure markdown>
+![Book Barrage, cover 2](../objects/buku-barrage-2.png)
+<figcaption>Cover 2</figcaption>
+</figure>
+
+<figure markdown>
+![Book Barrage, cover 3](../objects/buku-barrage-3.png)
+<figcaption>Cover 3</figcaption>
+</figure>
+
+<figure markdown>
+![Book Barrage, cover 4](../objects/buku-barrage-4.png)
+<figcaption>Cover 4</figcaption>
+</figure>
+
+</div>
+
 The user throws a volley of heavy books where they are looking
 
 | Stat | Value |

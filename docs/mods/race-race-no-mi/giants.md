@@ -30,7 +30,7 @@ tags:
 </figure>
 
 <figure markdown>
-![A Wotan on Steve's skin, with a fishman's dorsal fin](models/race-wotan.png)
+![A Wotan on Steve's skin](models/race-wotan.png)
 <figcaption>Wotan, size 2.5</figcaption>
 </figure>
 
@@ -45,6 +45,31 @@ In 3D: drag to turn, scroll or pinch to zoom. The buttons switch between the thr
 
 <div class="model-viewer" data-models="../models/" data-ids="giants"></div>
 <!-- /models -->
+
+<!-- models2 -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![An Ancient Giant with red skin](models/ancient-giants.png)
+<figcaption>Ancient Giant, red</figcaption>
+</figure>
+
+<figure markdown>
+![An Ancient Giant with green skin](models/ancient-giants-2.png)
+<figcaption>Ancient Giant, green</figcaption>
+</figure>
+
+<figure markdown>
+![An Ancient Giant in the player's own skin](models/ancient-giants-3.png)
+<figcaption>Ancient Giant, own skin</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom. The Ancient Giant's skins: red, green or the player's own, a third each, and the horns.
+
+<div class="model-viewer" data-models="../models/" data-ids="ancient-giants"></div>
+<!-- /models2 -->
 
 A giant is the player's own body at four times the size: reach, blows, health, strides and techniques all grow with it, through [AkumaLib](../../akumalib/index.md)'s size system. He steps over relief up to about a quarter of his height. Server owners can take the giants out of the character creator ([configuration](configuration.md)).
 

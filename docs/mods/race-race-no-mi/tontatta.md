@@ -25,13 +25,28 @@ A Tontatta is the player's own body at a quarter of the size, with a bushy tail 
 <div class="mob-gallery" markdown>
 
 <figure markdown>
-![A Tontatta on Steve's skin, with its tail](models/race-tontatta.png)
-<figcaption>Tontatta, size 0.25</figcaption>
+![A Tontatta on Steve's skin: a ball of a tail](models/tontatta.png)
+<figcaption>a ball of a tail</figcaption>
+</figure>
+
+<figure markdown>
+![A Tontatta on Steve's skin: a cloud of three](models/tontatta-2.png)
+<figcaption>a cloud of three</figcaption>
+</figure>
+
+<figure markdown>
+![A Tontatta on Steve's skin: a ball that curls up](models/tontatta-3.png)
+<figcaption>a ball that curls up</figcaption>
+</figure>
+
+<figure markdown>
+![A Tontatta on Steve's skin: the pointed nose](models/tontatta-4.png)
+<figcaption>the pointed nose</figcaption>
 </figure>
 
 </div>
 
-In 3D: drag to turn, scroll or pinch to zoom.
+In 3D: drag to turn, scroll or pinch to zoom. The three tails, in the colour of the skin's hair, and the pointed nose one Tontatta in two has; all from the player's identity.
 
 <div class="model-viewer" data-models="../models/" data-ids="tontatta"></div>
 <!-- /models -->
