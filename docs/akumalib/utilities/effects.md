@@ -126,6 +126,7 @@ if (AkumaStates.silenced(target)) {
 | In a silence | `akumalib:silenced` | the base mod's Silent (Nagi Nagi no Mi) | before anything that works by being heard, of the one who makes the sound and of the one it is for |
 | Soaked | `akumalib:soaked` | the base mod's Wet and Washed (Awa Awa no Mi). A body in water or in bubbles is soaked without any effect. Rain is not counted | `AkumaStates.soaked(entity)`, before keeping up what water washes off: ink, paint |
 | Metal | `akumalib:metal` | the library's `akumalib:metal_body` and `akumalib:gold_body`, laid by a power that makes its user steel or gold | `AkumaStates.metal(entity)`; `AkumaStates.rusts(entity)` is metal that is not in `akumalib:rustproof` (gold) |
+| Unsociable | `akumalib:unsociable` | nothing of the library's; an addon lists the hidden effect it lays (Race Race no Mi's modified humans: `racenomi:unsociable`) | `AkumaStates.unsociable(entity)`, before a trader opens his window or a village thinks better of someone |
 
 A power that turns its user to metal lays the state itself, for as long as it holds: `AkumaStates.hold(entity, AkumaEffects.METAL_BODY.get(), 10)` in its tick. The effect is hidden and does nothing, it only answers the question. An effect of your own that already means "made of metal" can be listed in the tag instead.
 

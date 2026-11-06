@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Whip |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.37%**, wooden **0.069%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 9 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/kneeling.png){ .effect-mini }[Kneeling](../effects.md#effect-kneeling) |
 
@@ -141,10 +141,14 @@ The user lashes the one they look at and for a few seconds it can not jump nor s
 
 Needs the whip in hand, take it out with Whip
 
+A target at least twice as big as the user falls to its knees, can not walk and bows its head down to the user's height
+
 | Stat | Value |
 |---|---|
 | Cooldown | 14 s |
 | On a Player | 6 s |
 | On a Creature | 10 s |
+| On a Big Player | 8 s |
+| On a Big Creature | 13 s |
 | Other order waits | 4 s |
 | Range | 12 blocks (line) |

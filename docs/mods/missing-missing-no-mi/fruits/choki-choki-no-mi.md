@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Scissors |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.81%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.65%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 7 active, 1 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -17,26 +17,32 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hasami](../animations/choki-hasami.webp){ loading=lazy }
+      ![Hasami](../animations/choki-choki-choki-s1-hasami-3p-700.webp){ loading=lazy }
       <figcaption>Hasami</figcaption>
     </figure>
     <figure markdown="span">
-      ![Dai Setsudan](../animations/choki-daisetsudan.webp){ loading=lazy }
+      ![Dai Setsudan](../animations/choki-choki-choki-s1-daisetsudan-700.webp){ loading=lazy }
       <figcaption>Dai Setsudan</figcaption>
     </figure>
     <figure markdown="span">
-      ![Kirikabe](../animations/choki-kirikabe.webp){ loading=lazy }
+      ![Kirisaki](../animations/choki-choki-choki-s1-kirisaki-700.webp){ loading=lazy }
+      <figcaption>Kirisaki</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Kirikabe](../animations/choki-choki-choki-s1-kirikabe-700.webp){ loading=lazy }
       <figcaption>Kirikabe</figcaption>
     </figure>
     <figure markdown="span">
-      ![Kamikiri](../animations/choki-kamikiri.webp){ loading=lazy }
-      <figcaption>Kamikiri</figcaption>
+      ![Kami Hashi](../animations/choki-choki-choki-s1-kamihashi-700.webp){ loading=lazy }
+      <figcaption>Kami Hashi</figcaption>
     </figure>
     <figure markdown="span">
-      ![O-Kanabashi](../animations/choki-okanabashi.webp){ loading=lazy }
-      <figcaption>O-Kanabashi</figcaption>
+      ![Keep Out](../animations/choki-choki-choki-s1-keepout-700.webp){ loading=lazy }
+      <figcaption>Keep Out</figcaption>
     </figure>
     </div>
 <!-- /animations -->
@@ -52,18 +58,20 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![Hasami](../forms/hasami.png){ .form-picture }
 
-Transforms the user's hands into giant scissors, the punches will cut the enemies and blocks can be cut like paper. The hands are counted as a sword
+Turns the user's hands into giant scissors. Punches cut the enemy, blocks are cut like paper, and the hands count as a sword.
 
 | Stat | Value |
 |---|---|
 | Damage type | Slash, Fist, Physical |
 | Haki | Hardening |
+| Cooldown | 1 s |
+| Damage | 6 |
 
 ## O Kanabashi { #o-kanabashi }
 
 ![](../abilities/o-kanabashi.png){ .ability-icon } *Active*
 
-While the scissors are active, the user dashes forward cutting all enemies and blocks near them.
+While the scissors are active, the user dashes forward and cuts all enemies and blocks near them.
 
 | Stat | Value |
 |---|---|
@@ -76,57 +84,64 @@ While the scissors are active, the user dashes forward cutting all enemies and b
 
 ![](../abilities/keep-out.png){ .ability-icon } *Active*
 
-While the scissors are active, the user cuts up to 4 pieces of the ground and throws them one by one where they are looking. Harder blocks deals more damage
+While the scissors are active, the user cuts up to 4 pieces of the ground and throws them one by one where they are looking. Harder blocks deal more damage.
 
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Projectile |
 | Haki | Imbuing |
 | Cooldown | 12 s |
+| Charge | 0 s |
 | Damage | 3–8 |
+| Range | 24 blocks (line) |
 
 ## Kirikabe { #kirikabe }
 
 ![](../abilities/kirikabe.png){ .ability-icon } *Active*
 
-While the scissors are active, cuts the ground under the user and raises it as a wall of 9 blocks wide and 6 blocks tall, which goes back down after 10 seconds
+While the scissors are active, the user cuts the ground under them and raises it as a wall 9 blocks wide and 6 blocks tall. It goes back down after 10 seconds.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 15 s |
+| Charge | 1 s |
 | Hold | 10 s |
 
 ## Kamikiri { #kamikiri }
 
 ![](../abilities/kamikiri.png){ .ability-icon } *Passive*
 
-While the scissors are active, right clicking a block with an empty hand cuts it instantly.
+While the scissors are active, right clicking a block with an empty hand cuts it instantly. An iron door or trapdoor is picked open instead.
 
 ## Dai Setsudan { #dai-setsudan }
 
 ![](../abilities/dai-setsudan.png){ .ability-icon } *Active*
 
-While the scissors are active, the user closes both blades on the enemy in front of them, dealing heavy damage
+While the scissors are active, the user closes both blades on the enemy in front of them and deals heavy damage.
 
 | Stat | Value |
 |---|---|
 | Damage type | Slash, Physical |
 | Haki | Hardening |
 | Cooldown | 10 s |
+| Charge | 0 s |
 | Damage | 18 |
+| Range | 3.5 blocks (line) |
 
 ## Kirisaki { #kirisaki }
 
 ![](../abilities/kirisaki.png){ .ability-icon } *Active*
 
-While the scissors are active, the user cuts open the protections of the enemy in front of them, it loses a big part of its armor for a few seconds
+While the scissors are active, the user cuts open the protections of the enemy in front of them. It loses a big part of its armor for a few seconds.
 
 | Stat | Value |
 |---|---|
 | Damage type | Slash, Physical |
 | Haki | Hardening |
 | Cooldown | 12 s |
+| Charge | 0 s |
 | Damage | 7 |
+| Range | 4 blocks (line) |
 | Hold | 6 s |
 | Target's Armor | x0.4 |
 
@@ -134,9 +149,11 @@ While the scissors are active, the user cuts open the protections of the enemy i
 
 ![](../abilities/kami-hashi.png){ .ability-icon } *Active*
 
-While the scissors are active, the user cuts a strip of the ground and unrolls it like paper towards where they are looking, making a bridge or a ramp that goes back down after 10 seconds
+While the scissors are active, the user cuts a strip of the ground and unrolls it like paper towards where they are looking. It makes a bridge or a ramp that goes back down after 10 seconds.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 15 s |
+| Charge | 1 s |
 | Hold | 10 s |
+| Range | 24 blocks (line) |

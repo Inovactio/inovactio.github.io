@@ -17,13 +17,13 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **6.1.0** |
+| Version documented | **7.0.0** |
 | Mod id | `inomissing` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [6.1.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9405201) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [7.0.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9480842) · [changelog](changelog.md) |
 
 ## What it adds
 
-**88 Devil Fruits**: 57 Paramecia, 6 Logia and 25 Zoan (5 of them ancient, 6 mythical), with their abilities, transformations, summoned creatures and status effects.
+**92 Devil Fruits**: 59 Paramecia, 6 Logia and 27 Zoan (5 of them ancient, 7 mythical), with their abilities, transformations, summoned creatures and status effects.
 
 The fruits behave like the base mod's own:
 
@@ -49,9 +49,9 @@ Mine Mine no Mi's **captains, notorious NPCs and troops** can draw every fruit o
 | Mod | Version |
 |---|---|
 | Minecraft | 1.20.1 |
-| Forge | 47.4.18 or later |
+| Forge | 47.4.2 or later (an older Forge crashes when a chest is opened) |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 |
-| [AkumaLib](../../akumalib/index.md) | **6.3.0 or later** |
+| [AkumaLib](../../akumalib/index.md) | **6.4.0 or later** |
 
 ## Getting started
 
@@ -63,7 +63,7 @@ Mine Mine no Mi's **captains, notorious NPCs and troops** can draw every fruit o
 
 | Page | What you'll find |
 |---|---|
-| **[Fruits](fruits/index.md)** | the 88 fruits, one page each, with every ability's description and values, and the odds of each box |
+| **[Fruits](fruits/index.md)** | the 92 fruits, one page each, with every ability's description and values, and the odds of each box |
 | **[All abilities](all-abilities.md)** | every ability in one table you can sort and filter: cooldown, charge, hold, damage, range |
 | **[Status effects](effects.md)** | the effects the fruits inflict or grant, and what applies each one |
 | **[For addon developers](developers.md)** | make another addon's creatures fight as this addon's Zoans |

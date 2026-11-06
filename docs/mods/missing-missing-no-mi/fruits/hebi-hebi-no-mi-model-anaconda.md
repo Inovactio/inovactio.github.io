@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.37%**, wooden **0.069%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 7 active, 0 passive |
 | **Transformations** | [Anaconda Heavy Point](#anaconda-heavy-point), [Anaconda Walk Point](#anaconda-walk-point) |
 | **Effects applied** | ![](../effect-icons/anaconda-digesting.png){ .effect-mini }[Anaconda Digesting](../effects.md#effect-anaconda-digesting), ![](../effect-icons/anaconda-dodge.png){ .effect-mini }[Anaconda Dodge](../effects.md#effect-anaconda-dodge), ![](../effect-icons/coiled.png){ .effect-mini }[Coiled](../effects.md#effect-coiled) |

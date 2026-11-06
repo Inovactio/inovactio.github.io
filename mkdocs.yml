@@ -264,6 +264,7 @@ nav:
               - "Modo Modo no Mi": mods/missing-missing-no-mi/fruits/modo-modo-no-mi.md
               - "Mosa Mosa no Mi": mods/missing-missing-no-mi/fruits/mosa-mosa-no-mi.md
               - "Muchi Muchi no Mi": mods/missing-missing-no-mi/fruits/muchi-muchi-no-mi.md
+              - "Nemu Nemu no Mi": mods/missing-missing-no-mi/fruits/nemu-nemu-no-mi.md
               - "Noko Noko no Mi": mods/missing-missing-no-mi/fruits/noko-noko-no-mi.md
               - "Nui Nui no Mi": mods/missing-missing-no-mi/fruits/nui-nui-no-mi.md
               - "Nuke Nuke no Mi": mods/missing-missing-no-mi/fruits/nuke-nuke-no-mi.md
@@ -271,6 +272,7 @@ nav:
               - "Peto Peto no Mi": mods/missing-missing-no-mi/fruits/peto-peto-no-mi.md
               - "Poke Poke no Mi": mods/missing-missing-no-mi/fruits/poke-poke-no-mi.md
               - "Riki Riki no Mi": mods/missing-missing-no-mi/fruits/riki-riki-no-mi.md
+              - "Shari Shari no Mi": mods/missing-missing-no-mi/fruits/shari-shari-no-mi.md
               - "Shibo Shibo no Mi": mods/missing-missing-no-mi/fruits/shibo-shibo-no-mi.md
               - "Shiku Shiku no Mi": mods/missing-missing-no-mi/fruits/shiku-shiku-no-mi.md
               - "Shima Shima no Mi": mods/missing-missing-no-mi/fruits/shima-shima-no-mi.md
@@ -298,11 +300,13 @@ nav:
               - "Inu Inu no Mi, Model: Dalmatian": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-dalmatian.md
               - "Inu Inu no Mi, Model: Jackal": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-jackal.md
               - "Inu Inu no Mi, Model: Kyubi no Kitsune": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-kyubi-no-kitsune.md
+              - "Inu Inu no Mi, Model: Okuchi no Makami": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-okuchi-no-makami.md
               - "Inu Inu no Mi, Model: Tanuki": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-tanuki.md
               - "Inu Inu no Mi, Model: Wolf": mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-wolf.md
               - "Kumo Kumo no Mi, Model: Rosamygale Grauvogeli": mods/missing-missing-no-mi/fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md
               - "Mushi Mushi no Mi, Model: Kabutomushi": mods/missing-missing-no-mi/fruits/mushi-mushi-no-mi-model-kabutomushi.md
               - "Mushi Mushi no Mi, Model: Suzumebachi": mods/missing-missing-no-mi/fruits/mushi-mushi-no-mi-model-suzumebachi.md
+              - "Neko Neko no Mi, Model: Cheetah": mods/missing-missing-no-mi/fruits/neko-neko-no-mi-model-cheetah.md
               - "Neko Neko no Mi, Model: Saber Tiger": mods/missing-missing-no-mi/fruits/neko-neko-no-mi-model-saber-tiger.md
               - "Ryu Ryu no Mi, Model: Pachycephalosaurus": mods/missing-missing-no-mi/fruits/ryu-ryu-no-mi-model-pachycephalosaurus.md
               - "Ryu Ryu no Mi, Model: Spinosaurus": mods/missing-missing-no-mi/fruits/ryu-ryu-no-mi-model-spinosaurus.md
@@ -327,6 +331,9 @@ nav:
       - Oni: mods/race-race-no-mi/oni.md
       - Tontatta: mods/race-race-no-mi/tontatta.md
       - Lunarians: mods/race-race-no-mi/lunarians.md
+      - Buccaneers: mods/race-race-no-mi/buccaneers.md
+      - Merfolk: mods/race-race-no-mi/merfolk.md
+      - Modified Humans: mods/race-race-no-mi/modified-humans.md
       - Configuration: mods/race-race-no-mi/configuration.md
       - Changelog: mods/race-race-no-mi/changelog.md
   - Sky Island:

@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.37%**, wooden **0.069%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 9 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Falcon Assault Point](#falcon-assault-point), [Falcon Fly Point](#falcon-fly-point) |
 
@@ -17,22 +17,36 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid: attack](../animations/tori-tori-falcon-assault-attack.webp){ loading=lazy }
-      <figcaption>Hybrid: attack</figcaption>
+      ![Hybrid](../animations/tori-tori-actuel-hybride-entree-s1-700.webp){ loading=lazy }
+      <figcaption>Hybrid</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: glide](../animations/tori-tori-falcon-assault-plane.webp){ loading=lazy }
-      <figcaption>Hybrid: glide</figcaption>
+      ![Falcon](../animations/tori-tori-actuel-faucon-entree-s1-700.webp){ loading=lazy }
+      <figcaption>Falcon</figcaption>
     </figure>
     <figure markdown="span">
-      ![Falcon: flight](../animations/tori-tori-falcon-fly-vol.webp){ loading=lazy }
-      <figcaption>Falcon: flight</figcaption>
+      ![Kagizume](../animations/tori-tori-actuel-kagizume-s1-700.webp){ loading=lazy }
+      <figcaption>Kagizume</figcaption>
     </figure>
     <figure markdown="span">
-      ![Falcon: dive](../animations/tori-tori-falcon-fly-pique.webp){ loading=lazy }
-      <figcaption>Falcon: dive</figcaption>
+      ![Hane Tsubute](../animations/tori-tori-actuel-hane-tsubute-s1-700.webp){ loading=lazy }
+      <figcaption>Hane Tsubute</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hane Arashi](../animations/tori-tori-actuel-hane-arashi-s1-700.webp){ loading=lazy }
+      <figcaption>Hane Arashi</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Kyukoka](../animations/tori-tori-actuel-kyukoka-s1-700.webp){ loading=lazy }
+      <figcaption>Kyukoka</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Tsukami Otoshi](../animations/tori-tori-actuel-tsukami-otoshi-s1-700.webp){ loading=lazy }
+      <figcaption>Tsukami Otoshi</figcaption>
     </figure>
     </div>
 <!-- /animations -->
@@ -56,7 +70,7 @@ Transforms the user into a falcon hybrid, which can fly and still use weapons.
 
 ![Falcon Fly Point](../forms/falcon-fly-point.png){ .form-picture }
 
-Transforms the user into a big falcon, which flies fast and can carry another player
+Transforms the user into a big falcon, which flies fast and can carry another player.
 
 ## Falcon Flight { #falcon-flight }
 
@@ -79,14 +93,15 @@ Requires Falcon Fly Point to be active.
 
 ![](../abilities/tobizume.png){ .ability-icon } *Active*
 
-While in the air, the user dives at the target and slashes it with their talons
+While in the air, the user dives at the target and slashes it with their talons.
 
 | Stat | Value |
 |---|---|
-| Damage type | Slash, Physical |
+| Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 8 s |
 | Damage | 12 |
+| Range | 24 blocks (line) |
 
 ## Tsukami Otoshi { #tsukami-otoshi }
 
@@ -98,12 +113,13 @@ While in the falcon form, the user grabs the enemy under them with their talons 
 |---|---|
 | Cooldown | 12 s |
 | Hold | 6 s |
+| Range | 2 blocks (area) |
 
 ## Hane Arashi { #hane-arashi }
 
 ![](../abilities/hane-arashi.png){ .ability-icon } *Active*
 
-The user flaps their wings pushing back all enemies in front of them, projectiles are also sent back
+The user flaps their wings and pushes back all enemies in front of them. Projectiles are sent back too.
 
 | Stat | Value |
 |---|---|
@@ -118,7 +134,7 @@ The user flaps their wings pushing back all enemies in front of them, projectile
 
 ![](../abilities/kyukoka.png){ .ability-icon } *Active*
 
-While in the air, the user dives straight down at very high speed, damaging all enemies around the impact and sending them flying. The damage is higher the bigger the dive is
+While in the air, the user dives straight down at very high speed, damaging all enemies around the impact and sending them flying. The higher the dive, the bigger the damage.
 
 | Stat | Value |
 |---|---|
@@ -132,11 +148,11 @@ While in the air, the user dives straight down at very high speed, damaging all 
 
 ![](../abilities/kagizume.png){ .ability-icon } *Active*
 
-While in the hybrid form, the user slashes the enemies in front of them a few times with their talons, the last slash sends them in the air
+While in the hybrid form, the user slashes the enemies in front of them a few times with their talons. The last slash sends them in the air.
 
 | Stat | Value |
 |---|---|
-| Damage type | Slash, Physical |
+| Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 11 s |
 | Damage | 16 |
@@ -146,7 +162,7 @@ While in the hybrid form, the user slashes the enemies in front of them a few ti
 
 ![](../abilities/hayabusa-no-me.png){ .ability-icon } *Active*
 
-The user looks around with the eyes of a falcon, all living beings around them can be seen through walls for 10 seconds
+The user looks around with the eyes of a falcon. All living beings around them can be seen through walls for 10 seconds.
 
 | Stat | Value |
 |---|---|
@@ -160,11 +176,11 @@ The user looks around with the eyes of a falcon, all living beings around them c
 
 ![Hane Tsubute](../objects/hane-tsubute.png){ .form-picture }
 
-The user flaps their wings throwing 4 sharp feathers where they are looking
+The user flaps their wings and throws 4 sharp feathers where they are looking.
 
 | Stat | Value |
 |---|---|
-| Damage type | Slash, Projectile |
+| Damage type | Projectile |
 | Haki | Imbuing |
 | Cooldown | 8 s |
-| Damage | 4 |
+| Damage | 16 |

@@ -124,3 +124,38 @@ AkumaLib ships `data/mineminenomi/tags/worldgen/biome/has_structure/large_ship.j
 `big_ship` tag: the deep oceans. Spacing, frequency and the ships themselves stay the base mod's. The tag uses
 `"replace": false`, so a data pack that adds biomes to it (a player's own fix, for example) adds to it rather than
 fighting it. Chunks already generated keep what they have: the ships appear in ocean explored after the update.
+
+## No Devil Fruit in an item frame under the extended One Fruit rule
+
+*Since 6.4.0.* `fixProtectionRules`, on by default.
+
+With Mine Mine no Mi's "One Fruit per World" set to `EXTENDED`, the base mod keeps Devil Fruits out of containers: its
+screens refuse to put one in a chest, and the fruits of the containers near a player fall at their feet. An item
+frame is no container, so a fruit could still be hung in one and stay there.
+
+Under that setting, the rule now holds for frames, plain and glowing:
+
+- a click with a fruit on an empty frame does nothing: the fruit stays in the hand;
+- a command or another mod that puts a fruit in a frame is refused;
+- a fruit already in a frame (an existing world, or the setting switched on later) falls to the ground as an item,
+  and the frame stays on its wall. It falls at the frame's own check that it still hangs, which Minecraft makes once
+  every 100 ticks (5 seconds): a frame costs nothing more on the other ticks.
+
+Under `NONE` or `SIMPLE`, or with `fixProtectionRules` false, frames take fruits as before.
+
+## The mode key is a choice for later
+
+*Since 6.4.0.* `fixModeKey`, on by default.
+
+Mine Mine no Mi's mode key first asked whether the technique could be used. That question ended the transformation
+running, even another one (Missing Missing no Mi's Gasha Gasha: Blindado on, choosing Union Armado's colossus ended
+Blindado and put it on cooldown), and it refused the key on cooldown, while the technique was disabled (silence,
+handcuffs, water), or when a check about the moment of use failed (no room under a roof for a size that was not even
+the one being chosen).
+
+The mode key now only changes the mode: on cooldown and disabled too, and it stops nothing. The checks run when the
+technique is used. What may still refuse a mode is the technique's own rule for changing it, such as "not while the
+form stands". The slot always shows the mode the technique is really in.
+
+For an addon: a check about the mode chosen belongs in the technique's use checks (`addCanUseCheck`), not in the
+mode change.

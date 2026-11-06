@@ -2,6 +2,79 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 6.4.0 { #v6-4-0 }
+
+<small>Released 2026-11-06 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9480836)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>A choice screen, fish tails, and small bodies that see and breathe right.</strong> Addons can now show a screen with one
+picture of you per choice, which you turn by dragging. Merfolk get a fish tail in the water, the race horns two more
+shapes, and a body smaller than a man no longer sees through a corner or bobs under the water. The mode key no longer
+ends another transformation. A man at normal size plays exactly as before. No method was removed or changed; one class,
+<code>TransmutationProjectile</code>, no longer claims a hit listener it never really had (no published addon used it).</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are
+optional.</p>
+<p>⚠️ <strong>New network protocol (17).</strong> A 6.4.0 game cannot join a 6.3.0 server, and the other way round: update AkumaLib on
+the server and on every client together.</p>
+<p>⚠️ <strong>Forge 47.4.2 or newer.</strong> On an older Forge, opening a chest crashed the game; that Forge now gets the game's
+dependency screen instead.</p>
+<hr />
+<h2>Choice screen</h2>
+<ul>
+<li><strong>One picture of you per choice</strong>, side by side, each in that choice's look. Your heads follow the pointer, and
+  dragging turns them all round. Under each one: its name, a line about it, and the techniques it gives, with their
+  icons. A click chooses. Missing's Fuku Fuku wardrobe and Race's Raid Suits use it.</li>
+</ul>
+<h2>Races</h2>
+<ul>
+<li><strong>Merfolk</strong>: a race brought by an addon can have a fish tail in the water and legs on land. The legs shrink into the
+  hips as the tail grows, with bubbles, and the tail waves faster as you swim. Leggings and boots hide while it is out.</li>
+<li><strong>Chests that flare</strong>: a race's chest can be broader at the shoulders than at the waist, or the other way round
+  (Race's three Buccaneer busts). Armour and jackets follow it.</li>
+<li><strong>Two more horn shapes</strong>: Harald's (long, thin, almost straight) and Oars' (from the temples, slanting up). With five
+  shapes instead of three, a player who already has horns may get another shape, once.</li>
+<li><strong>Changing race in the character creator</strong> no longer keeps the old sub-race: an Ancient Giant turned Tontatta is a
+  Tontatta's size, with no horns.</li>
+<li><strong>Creator book</strong>: a sub-race's own techniques are listed first on the Race page, and its name reads cleanly.</li>
+</ul>
+<h2>Bodies smaller than a man</h2>
+<ul>
+<li><strong>No seeing through a corner</strong> in first person.</li>
+<li><strong>The third-person camera</strong> stays out of the walls.</li>
+<li><strong>Breathing at the surface</strong>: jump held in the water, a small body floats with its eyes above water about as often as a
+  man, where it shot out and fell back under.</li>
+</ul>
+<h2>The mode key</h2>
+<ul>
+<li><strong>It no longer ends another transformation</strong> that is running, nor puts it on cooldown.</li>
+<li><strong>It changes the mode on cooldown</strong>, while silenced, handcuffed or in water: a mode is a choice for later. Whether the
+  technique can be used is checked when you use it.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Matter giants</strong> (Missing's Stone Giant, and the golems of the same kind): their reach and step come from their body's
+  size only. The biggest size reached 23 blocks and stepped 8 blocks high; it now reaches as a body of its size.</li>
+<li><strong>No Devil Fruit in an item frame</strong> when Mine Mine no Mi's "One Fruit per World" is <code>EXTENDED</code>: a fruit cannot be hung,
+  and one already in a frame drops out at its foot, the frame left on the wall.</li>
+<li><strong>Mine Mine Extra Slots</strong>: the game no longer stops at start-up with both mods.</li>
+<li><strong>The start-up report</strong> no longer says an addon's hook is missing when it works.</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li><strong><code>ChoiceScreens</code></strong>: <code>register(id, chooser)</code> and <code>open(player, id, title, chosen, choices)</code>, checked on the server;
+  the client's <code>ChoiceScreen.dresser</code> puts a choice's look on the pictures.</li>
+<li><strong><code>AkumaMerfolk.declare(raceOrSubRace, colour)</code></strong> and <code>AkumaMerfolk.inTail(entity)</code>.</li>
+<li><strong><code>AkumaStates.UNSOCIABLE</code></strong> (<code>akumalib:unsociable</code>): a body nobody trades with. An addon lists its own effect in the
+  tag; a mod with traders asks <code>AkumaStates.unsociable(entity)</code>.</li>
+<li><strong><code>AkumaBody.Shape.waist(wide, deep)</code></strong>, after <code>chest</code>: a chest broader at one end, drawn in three bands. The
+  6.3.0 constructor stays.</li>
+<li><strong><code>AkumaHorns.Shape.HARALD</code></strong> and <strong><code>OARS</code></strong>.</li>
+<li><strong><code>AkumaRaces.subRace(stats)</code></strong>: the sub-race, only if it belongs to the race.</li>
+<li><code>TransmutationProjectile</code> no longer declares <code>NuProjectileEntity.IOnHitEntityEvent</code>; its hit still works as before.</li>
+</ul>
+<p>An addon that uses any of these declares <code>versionRange = "[6.4.0,)"</code>. Leave the top of the range open.</p>
+</div>
+
 ## 6.3.0 { #v6-3-0 }
 
 <small>Released 2026-11-02 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9405199)</small>

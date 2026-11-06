@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Soul |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 7 active, 1 passive |
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
@@ -38,7 +38,7 @@ The ability mode key switches between Soul Pocus, the mode it starts in, and Giv
 | Stat | Value |
 |---|---|
 | Cooldown | 1–12 s |
-| Range | 6 blocks (area) |
+| Range | 9 blocks (area) |
 | Give Back Range | 8  blocks |
 | Afraid Under | 50 % |
 | Stolen Souls Kept | 100 |

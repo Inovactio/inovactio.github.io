@@ -7,13 +7,34 @@
 | **Type** | Logia |
 | **Theme** | Swamp |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 10 active, 1 passive |
 | **Effects applied** | [In the Swamp](../effects.md#effect-in-the-swamp) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="objects/numa-numa-no-gatling-gun objects/numachi objects/numa-kyu objects/doro-nami objects/numa-no-te"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Numa Sensui: down](../animations/numa-numa-plongee-s1-descente-700.webp){ loading=lazy }
+      <figcaption>Numa Sensui: down</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Numa Sensui: the wake](../animations/numa-numa-plongee-s1-sillage-700.webp){ loading=lazy }
+      <figcaption>Numa Sensui: the wake</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Numa Sensui: out](../animations/numa-numa-plongee-s1-sortie-700.webp){ loading=lazy }
+      <figcaption>Numa Sensui: out</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -26,7 +47,7 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 Allows the user to avoid attacks by instinctively transforming parts of their body into their specific element
 
-Arrows and thrown items that hits the user's swamp body are absorbed and stored inside it.
+Arrows and thrown items that hit the user's swamp body are absorbed and stored inside it.
 
 ## Numa Numa no Gatling Gun { #numa-numa-no-gatling-gun }
 
@@ -40,6 +61,9 @@ Shoots a burst of the things stored inside the swamp, first the arrows and then 
 |---|---|
 | Damage type | Blunt, Projectile |
 | Haki | Special |
+| Cooldown | 10 s |
+| Hold | 2 s |
+| Damage | 24 |
 
 ## Numachi { #numachi }
 
@@ -72,6 +96,7 @@ Traps the enemy the user is looking at inside a sphere of mud, which holds it, b
 | Cooldown | 15 s |
 | Damage | 9 |
 | Hold | 3 s |
+| Range | 16 blocks (line) |
 
 ## Hikizuri Komi { #hikizuri-komi }
 
@@ -79,7 +104,7 @@ Traps the enemy the user is looking at inside a sphere of mud, which holds it, b
 
 Applies [In the Swamp](../effects.md#effect-in-the-swamp)
 
-Pulls a nearby enemy inside the user's swamp body, where it is held and suffocates, and then spits it out. The range is bigger if the enemy is standing in the swamp.
+Pulls a nearby enemy inside the user's swamp body, where it is held and suffocates, and then spits it out. The range is bigger if the enemy is standing in the swamp. An ally can be hidden inside the same way, without harm, and comes out by crouching.
 
 | Stat | Value |
 |---|---|
@@ -88,6 +113,7 @@ Pulls a nearby enemy inside the user's swamp body, where it is held and suffocat
 | Cooldown | 18 s |
 | Damage | 14 |
 | Hold | 5 s |
+| Range | 5 blocks (line) |
 
 ## Numa Sensui { #numa-sensui }
 
@@ -125,7 +151,7 @@ The user sends a wave of mud in front of them, damaging all enemies in its path,
 | Damage type | Blunt, Indirect |
 | Haki | Special |
 | Cooldown | 12 s |
-| Damage | 20 |
+| Damage | 14 |
 | Range | 10 blocks (line) |
 
 ## Numa no Te { #numa-no-te }
@@ -143,6 +169,7 @@ Hands of mud come out of the ground and grab the enemy the user is looking at an
 | Cooldown | 15 s |
 | Damage | 18 |
 | Hold | 3 s |
+| Range | 12 blocks (line) |
 
 ## Haki Dashi { #haki-dashi }
 
@@ -155,7 +182,8 @@ The swamp spits 3 big volleys of the things stored inside it in front of the use
 | Damage type | Blunt, Projectile |
 | Haki | Special |
 | Cooldown | 14 s |
-| Damage | 6 |
+| Damage | 18 |
+| Hold | 1 s |
 
 ## Sokonashi Numa { #sokonashi-numa }
 
@@ -163,7 +191,7 @@ The swamp spits 3 big volleys of the things stored inside it in front of the use
 
 Applies [In the Swamp](../effects.md#effect-in-the-swamp)
 
-Turns the ground around the user into a bottomless swamp, all enemies standing in it are swallowed and suffocates for a few seconds, then the swamp spits them out with heavy damage
+Turns the ground around the user into a bottomless swamp, all enemies standing in it are swallowed and suffocate for a few seconds, then the swamp spits them out with heavy damage
 
 | Stat | Value |
 |---|---|

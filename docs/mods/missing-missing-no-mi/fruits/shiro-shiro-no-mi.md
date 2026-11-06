@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Castle |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 7 active, 0 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -150,11 +150,11 @@ Use it again to stop. The less is left of the fortress the longer the cooldown, 
 
 | Stat | Value |
 |---|---|
-| Step Height | +1.5 |
-| Punch Damage | +10 |
-| Speed | <span class="stat-malus">x0.35</span> |
-| Fall Resistance | +20 |
 | Knockback Resistance | +1 |
+| Speed | <span class="stat-malus">x0.35</span> |
+| Punch Damage | +10 |
+| Step Height | +1.5 |
+| Fall Resistance | +20 |
 
 ## Big Volley { #shiro-big-volley }
 

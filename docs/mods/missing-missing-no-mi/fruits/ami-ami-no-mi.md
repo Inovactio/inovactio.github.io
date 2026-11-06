@@ -7,13 +7,38 @@
 | **Type** | Paramecia |
 | **Theme** | Net |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.81%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.65%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 7 active, 0 passive |
 | **Transformations** | [No Shock Taimo](#no-shock-taimo) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="objects/mucho-neto-net objects/neto-net-hoso-mo objects/mucho-cho-shi-mo objects/mucho-tetsujo-mo objects/mucho-kaji-mo objects/millionet forms/no-shock-taimo"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Sticky net](../animations/ami-ami-actuel-filet-lance-s1-700.webp){ loading=lazy }
+      <figcaption>Sticky net</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Net dome](../animations/ami-ami-actuel-dome-s1-700.webp){ loading=lazy }
+      <figcaption>Net dome</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Iron cage](../animations/ami-ami-actuel-cage-s1-700.webp){ loading=lazy }
+      <figcaption>Iron cage</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Mucho-Mucho Zenshin Taimo](../animations/ami-ami-zenshin-s1-700.webp){ loading=lazy }
+      <figcaption>Mucho-Mucho Zenshin Taimo</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -26,14 +51,15 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![Mucho Neto Net](../objects/mucho-neto-net.png){ .form-picture }
 
-Throws a sticky net that wraps the target, making it unable to move for 3 seconds
+Throws a sticky net that wraps the target, making it unable to move for 3 seconds.
 
 | Stat | Value |
 |---|---|
 | Damage type | Projectile, Indirect |
 | Haki | Special |
 | Cooldown | 8 s |
-| Damage | 2 |
+| Range | 22.4 blocks (line) |
+| Damage | 3 |
 | Hold | 3 s |
 
 ## Neto Net Hoso Mo { #neto-net-hoso-mo }
@@ -42,12 +68,13 @@ Throws a sticky net that wraps the target, making it unable to move for 3 second
 
 ![Neto Net Hoso Mo](../objects/neto-net-hoso-mo.png){ .form-picture }
 
-Throws a sticky net that becomes a dome on the targeted location, all enemies inside are slowed and can't leave it for 5 seconds
+Throws a sticky net that becomes a dome on the targeted location, all enemies inside are slowed and can't leave it for 5 seconds.
 
 | Stat | Value |
 |---|---|
 | Damage type | Indirect |
 | Cooldown | 16 s |
+| Range | 20 blocks (line) |
 | Range | 4.5 blocks (area) |
 | Hold | 5 s |
 
@@ -57,7 +84,7 @@ Throws a sticky net that becomes a dome on the targeted location, all enemies in
 
 ![Mucho Cho Shi Mo](../objects/mucho-cho-shi-mo.png){ .form-picture }
 
-The user eats an iron ingot and throws a barbed wire net, that holds the target for 2 seconds and damages it every second.
+The user eats an iron ingot and throws a barbed wire net that holds the target for 2 seconds and damages it every second.
 
 | Stat | Value |
 |---|---|
@@ -65,7 +92,8 @@ The user eats an iron ingot and throws a barbed wire net, that holds the target 
 | Element | Metal |
 | Haki | Special |
 | Cooldown | 10 s |
-| Damage | 3 |
+| Range | 22.4 blocks (line) |
+| Damage | 6.5 |
 | Hold | 2 s |
 
 ## Mucho Tetsujo Mo { #mucho-tetsujo-mo }
@@ -82,7 +110,8 @@ The user eats an iron ingot and creates an iron cage around the enemy they are l
 | Element | Metal |
 | Haki | Special |
 | Cooldown | 15 s |
-| Damage | 8 |
+| Range | 16 blocks (line) |
+| Damage | 12 |
 | Hold | 3 s |
 
 ## Mucho Kaji Mo { #mucho-kaji-mo }
@@ -91,7 +120,7 @@ The user eats an iron ingot and creates an iron cage around the enemy they are l
 
 ![Mucho Kaji Mo](../objects/mucho-kaji-mo.png){ .form-picture }
 
-The user eats a fire charge and throws a burning net, that holds the target for 2 seconds and sets it on fire
+The user eats a fire charge and throws a burning net that holds the target for 2 seconds and sets it on fire.
 
 | Stat | Value |
 |---|---|
@@ -99,7 +128,8 @@ The user eats a fire charge and throws a burning net, that holds the target for 
 | Element | Fire |
 | Haki | Special |
 | Cooldown | 10 s |
-| Damage | 4 |
+| Range | 22.4 blocks (line) |
+| Damage | 6 |
 | Hold | 2 s |
 
 ## Millionet { #millionet }
@@ -116,7 +146,8 @@ The user drinks a water bottle and throws a net made of boiling water, which bur
 | Element | Water |
 | Haki | Special |
 | Cooldown | 10 s |
-| Damage | 6 |
+| Range | 22.4 blocks (line) |
+| Damage | 9 |
 | Hold | 2 s |
 
 ## No Shock Taimo { #no-shock-taimo }
@@ -125,4 +156,11 @@ The user drinks a water bottle and throws a net made of boiling water, which bur
 
 ![No Shock Taimo](../forms/no-shock-taimo.png){ .form-picture }
 
-The user's body becomes a net that absorbs the hits, melee attacks and projectiles deals 70% less damage. Does not work against blades, fire and explosions
+The user's body becomes a net that absorbs the hits, melee attacks and projectiles deal 70% less damage. Does not work against blades, fire, explosions and Haki.
+
+Mucho-Mucho Zenshin Taimo. While the body is a net, the ability mode key makes the user fall on the enemy in sight and hold it inside their body for 3 seconds.
+
+| Stat | Value |
+|---|---|
+| Damage type | Indirect |
+| Haki | Special |

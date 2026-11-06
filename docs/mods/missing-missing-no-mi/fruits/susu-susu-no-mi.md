@@ -7,7 +7,7 @@
 | **Type** | Logia |
 | **Theme** | Soot |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 8: 6 active, 2 passive |
 | **Effects applied** | ![](../effect-icons/murder-of-crows.png){ .effect-mini }[Murder of Crows](../effects.md#effect-murder-of-crows) |
 

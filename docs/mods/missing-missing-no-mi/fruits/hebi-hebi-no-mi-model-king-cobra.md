@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.48%**, wooden **0.074%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.37%**, wooden **0.069%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 7 active, 0 passive |
 | **Transformations** | [King Cobra Heavy Point](#king-cobra-heavy-point), [King Cobra Walk Point](#king-cobra-walk-point) |
 | **Effects applied** | ![](../effect-icons/coiled.png){ .effect-mini }[Coiled](../effects.md#effect-coiled), ![](../effect-icons/corroded.png){ .effect-mini }[Corroded](../effects.md#effect-corroded), ![](../effect-icons/frightened.png){ .effect-mini }[Frightened](../effects.md#effect-frightened) |

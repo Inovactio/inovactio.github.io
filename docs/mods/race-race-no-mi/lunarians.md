@@ -15,7 +15,7 @@ tags:
 |---|---|
 | **Size** | 1.5: about 2.7 blocks high and 0.9 wide (slider 1.41 to 1.59) |
 | **Passive** | Lunarian Blood |
-| **Techniques** | 5, two of them given with the race |
+| **Techniques** | 7, two of them given with the race |
 | **In the abilities menu** | ![](icons/lunarian-abilities.png){ .fruit-icon } their own category |
 | **Rokushiki** | Lunarians do not count as humans |
 
@@ -68,7 +68,9 @@ Two techniques come with the race and need no points: **Black Wings** and **Flam
 | ![](abilities/flame-switch.png){ .fruit-icon } [Flame Switch](#flame-switch) | given with the race | | either |
 | ![](abilities/flame-blast.png){ .fruit-icon } [Flame Blast](#flame-blast) | 500 Doriki, 2 martial arts points | | lit |
 | ![](abilities/flaming-blow.png){ .fruit-icon } [Flaming Blow](#flaming-blow) | 1,000 Doriki, 2 martial arts points | Flame Blast | lit |
+| ![](abilities/wing-gust.png){ .fruit-icon } [Wing Gust](#wing-gust) | 1,500 Doriki, 3 martial arts points | Flame Blast | either, burns when lit |
 | ![](abilities/flame-shroud.png){ .fruit-icon } [Flame Shroud](#flame-shroud) | 3,000 Doriki, 5 martial arts points | Flaming Blow and Flame Blast | lit |
+| ![](abilities/flameless-rush.png){ .fruit-icon } [Flameless Rush](#flameless-rush) | 2,000 Doriki, 3 martial arts points | Flaming Blow | out |
 
 ### Black Wings { #black-wings }
 
@@ -132,6 +134,30 @@ A shape of flame wraps round the user and burns everyone close, once a second. P
 | Duration | 5 s |
 | Damage | 3 a second |
 | Range | 4 blocks around |
+
+### Wing Gust { #wing-gust }
+
+![](abilities/wing-gust.png){ .ability-icon } *Active, Lunarians*
+
+The user beats their wings once: the wind throws back everything ahead, and burns it 2 s if the flame is lit. Not with the wings hidden.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 11 s |
+| Damage | 4 |
+| Range | 6 blocks ahead |
+
+### Flameless Rush { #flameless-rush }
+
+![](abilities/flameless-rush.png){ .ability-icon } *Active, Lunarians, flame out*
+
+The flame out, the user rushes straight ahead very fast: the first enemy met is hit and stops the rush.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 7 s |
+| Damage | 10 |
+| Range | 8 blocks (line) |
 
 ## What follows the size
 

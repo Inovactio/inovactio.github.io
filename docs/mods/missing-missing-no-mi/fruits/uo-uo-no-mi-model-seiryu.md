@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.32%**, iron **0.116%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 13: 11 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Seiryu Heavy Point](#seiryu-heavy-point), [Seiryu Fly Point](#seiryu-fly-point) |
 | **Effects applied** | [Kaen Daiko](../effects.md#effect-kaen-daiko) |
@@ -66,8 +66,6 @@ Transforms the user into a dragon hybrid with scales, claws and a long tail. Jum
 ## Seiryu Fly Point { #seiryu-fly-point }
 
 ![](../abilities/seiryu-fly-point.png){ .ability-icon } *Active · Transformation*
-
-![Seiryu Fly Point](../animations/seiryu-fly-point.webp){ .form-picture }
 
 Transforms the user into the azure dragon, a huge flying serpent 45 blocks long with scales that take most blows. It needs room to transform
 
