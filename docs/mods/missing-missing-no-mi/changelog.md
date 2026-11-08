@@ -2,6 +2,125 @@
 
 Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/all).
 
+## 7.1.0 { #v7-1-0 }
+
+<small>Released 2026-11-08 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9508836)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Six fruits made new and the Kote Kote no Mi rebuilt.</strong> Hobi, Ton, Ato, Nui and the two Mushi Mushi models
+(Suzumebachi and Kabutomushi) get new models, gestures in third and first person, particles and icons, with fixes and
+fairer numbers. The Kote Kote no Mi is reworked from top to bottom: bigger gauntlets, a rule of two hands, Tensei Hoshi
+that sends the gauntlets back, and four new techniques. The tooltip of a technique with an ALT mode now has a page per
+mode.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 6.5.0</strong> or newer.
+Client and server. Curios is optional, 5.2.0 or newer.</p>
+<p>⚠️ <strong>Servers: set <code>allow-flight=true</code></strong> in <code>server.properties</code>, as before. Several fruits fly or hover, and without it
+the server kicks their users.</p>
+<hr />
+<h2>New models</h2>
+<ul>
+<li><strong>New models, gestures and particles</strong> for Hobi, Ton, Ato, Nui, Kote, Mushi Mushi Model: Suzumebachi and Mushi Mushi
+  Model: Kabutomushi, in third and first person.</li>
+<li><strong>Hobi Hobi</strong>: the Headcracker Doll of the anime puts itself together after the cloud, bites with a snap of wood and
+  comes apart into its toys, also when it is killed. Toys are ducks, puppets, rocking horses or robots, by the creature
+  they were. The child is smaller, and sparks at her right hand show Omocha is ready.</li>
+<li><strong>Ton Ton</strong>: a ring of earth, a crack or a crater, dust and chips where the weight falls. Heavy Body cracks the ground
+  as it comes on and leaves footprints. Senton Press lands on its target and lays it on its back for its 3 s pin.</li>
+<li><strong>Ato Ato</strong>: a body turned into art is drawn flat, bent and cut into ink-ringed panes, and goes back in a puff of
+  smoke. Dying Art's mural rises out of the ground behind its victim. Heaven's Do Art paints its giant and raises a
+  dome, clearer from inside.</li>
+<li><strong>Nui Nui</strong>: a new needle in the hand, and the white stitches of the anime round every body sewn.</li>
+<li><strong>Suzumebachi and Kabutomushi</strong>: the hybrids and the whole insects of the anime, and <strong>they fly lying down</strong>, armour
+  included. The Kabutomushi hybrid wears its helmet over its egg-shaped head.</li>
+<li><strong>Kote Kote</strong>: bigger gauntlets (x1.35), a ring of lightning on Gauntlet Hammer, Grande's strikes and A Jien Te's
+  rams, and the base mod's lightning in the gauntlets' colours. Your own gauntlets, bolts and flash no longer fill your
+  view in first person.</li>
+<li><strong>Techniques wait for their gesture</strong>, as in 7.0.0: Hobi, Ton, Ato, Nui, Suzumebachi and Kote strike a few ticks
+  after the press, when the hand gets there.</li>
+<li><strong>New icons</strong>: the techniques of Hobi, Ton, Ato, Nui, Suzumebachi, Kabutomushi and Kote, the two Mushi forms, and the
+  fruits Ton, Ato and Kote.</li>
+</ul>
+<h2>Kote Kote no Mi</h2>
+<ul>
+<li><strong>The two hands</strong>: each technique takes one gauntlet or two and is greyed on your bar while they are busy. Never more
+  than two gauntlets out.</li>
+<li><strong>Tensei Hoshi</strong> sends the gauntlets back: a Gauntlet Punch or a block of Gauntlet Grab that strikes its target
+  comes back off the far pane and strikes it again from behind, the same blow (a punch does about 32 in all).</li>
+<li><strong>Gauntlet Hammer</strong> (new): both gauntlets clasped hang over the spot in sight, then fall after a short charge: 30
+  within 3 blocks, enemies thrown up and out.</li>
+<li><strong>Gauntlet Rush</strong> (mode of Gauntlet Punch): six blows of 5 in 1.2 s, each sent back by Tensei Hoshi. Both hands.</li>
+<li><strong>Gauntlet Boulder</strong> (mode of Gauntlet Grab): tear a 3 x 3 x 2 mass of ground, hold it over your head, throw it for
+  32 within 3 blocks. The hole closes 20 s later. Both hands.</li>
+<li><strong>Lightning Catch</strong> (mode of Lightning Barrier): for 3 s an open gauntlet catches the first enemy shot near you,
+  holds it a moment in the fist and throws it back at its sender, x1.5 damage. One hand.</li>
+<li><strong>Grande</strong> strikes: each second a giant gauntlet hits the nearest enemy in or close to the dome for 12. Cooldown 24 s
+  instead of 30.</li>
+<li><strong>A Jien Te rams</strong>: an enemy the steered boat or minecart runs into takes 10 and is thrown, once a second at most.</li>
+<li><strong>Gauntlet Lift has three charges</strong>, in the air too, all back when you land. A giant is thrown as high as his size.</li>
+<li><strong>Stronger blows</strong>: Gauntlet Punch 16 (was 14), cooldown 5 s. Gauntlet Grab's throw 16 (was 12) and it no longer
+  falls short far away. Gauntlet Vise 24 (was 18), cooldown 14 s.</li>
+</ul>
+<h2>Hobi Hobi no Mi</h2>
+<ul>
+<li><strong>Little Black Bears and Zettai Meirei reach farther for a big user</strong>: 6 and 24 blocks for a man, about 10 and 42 at
+  a giant's size.</li>
+<li><strong>Little Black Bears' bears are under contract</strong> as soon as they fall.</li>
+<li><strong>Toys keep their own size</strong>: a toy freed from the Headcracker Doll no longer comes back at its maker's size.</li>
+<li><strong>A refused Omocha touch</strong> (a boss, a protected area, someone's pet, a toy) costs nothing: no cooldown.</li>
+<li><strong>Greyed on your bar</strong>: Atamawari Ningyo without 8 toys under contract nearby, Zettai Meirei without one.</li>
+<li>Taming a toy no longer gives the vanilla "Best Friends Forever" advancement.</li>
+</ul>
+<h2>Ton Ton no Mi</h2>
+<ul>
+<li><strong>Float and Heavy Body end each other</strong>: turning one on turns the other off.</li>
+<li><strong>A giant's Manton Tackle hits</strong> what stands in its path, no longer only the line from its eyes.</li>
+<li><strong>Float rises faster for a big body</strong>, so a giant reaches its height in the same time as a man. Heavy Body's crush
+  reaches round a big body too.</li>
+<li><strong>Greyed on your bar</strong>: Vise on the ground, Hyakuton Stomp and Senton Knuckle in the air.</li>
+</ul>
+<h2>Ato Ato no Mi</h2>
+<ul>
+<li><strong>A body turned into art cannot use its weapons</strong>: no sword, axe, blunt, spear, gun or bow technique while it holds
+  one. Fruit, Haki and race techniques still work.</li>
+<li><strong>Panorama Art</strong>: its tooltip gives its true reach, about 9 blocks, and its paint cloud fills its cone for a big body.</li>
+<li><strong>Heaven's Do Art</strong>'s dome is as wide as its user is tall.</li>
+</ul>
+<h2>Nui Nui no Mi</h2>
+<ul>
+<li><strong>Nuitsuke</strong> brings a body caught in the air within 4 blocks of the ground down and sews it to the ground, unhurt.
+  Higher, or over water, it is held where it is.</li>
+<li><strong>Ude Nui</strong> no longer adds a held sword's damage.</li>
+<li><strong>Haute Couture: Patchwork</strong> gathers as far round its target as its user reaches, and its short wait is now a charge.</li>
+<li><strong>Threads</strong> are as thick as their user is big.</li>
+</ul>
+<h2>Mushi Mushi no Mi, Model: Kabutomushi</h2>
+<ul>
+<li><strong>Beetle Upper</strong>: 16 a body (was 10). Its rush grows with you (19 blocks for a man, 38 at a giant's size), hits all
+  in its way, and starts after a short charge.</li>
+<li><strong>A giant's blows</strong>: Four Arm Rush hits at its feet, and Horn Toss throws a body behind it, both with a giant's reach.</li>
+<li><strong>Horn Toss</strong> throws at the end of a short charge, then lowers its horn.</li>
+<li><strong>The wing cases open only in flight</strong>, no longer on every jump.</li>
+<li><strong>Greyed on your bar</strong>: Beetle Ram in the air, Horn Dive on the ground (the Triceratops' Magnumceratops too), the five
+  striking techniques while the shell is shut.</li>
+</ul>
+<h2>Mushi Mushi no Mi, Model: Suzumebachi</h2>
+<ul>
+<li><strong>Stronger forms</strong>: hybrid punch 6, armour 5, toughness 2, +20 % health (was 4 / 3 / 1 / +10 %); whole hornet
+  punch 5, armour 3, toughness 1, +10 % health (was 3 / 2 / 0 / +5 %).</li>
+<li><strong>Pink Hornets needs either form.</strong></li>
+<li><strong>Needle Dash at a big size</strong> hits what her body goes through: 28 at a giant's size, where it hit nothing.</li>
+<li><strong>Stinger, Numbing Sting and Mandible Bite</strong> reach like melee blows for a big body. Stinger and Numbing Sting stab at
+  the end of a short charge, same cooldown.</li>
+<li><strong>The wings spread only in flight</strong>, no longer on every jump. Venom Spray's cloud fills its cone for a big body.</li>
+</ul>
+<h2>Tooltips</h2>
+<ul>
+<li><strong>A technique with an ALT mode</strong> shows one tooltip page per mode, opened on the mode in use, with each mode's own
+  text and numbers, as the base mod does for Gomu Gomu no Pistol. The ALT key turns the page. Thirty-seven techniques
+  have them, Kote's three among them.</li>
+</ul>
+</div>
+
 ## 7.0.0 { #v7-0-0 }
 
 <small>Released 2026-11-06 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9480842)</small>

@@ -17,22 +17,40 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid: sting](../animations/suzumebachi-heavy-aiguillon.webp){ loading=lazy }
-      <figcaption>Hybrid: sting</figcaption>
+      ![Hybrid, flying](../animations/mushi-mushi-s1-hybride-vol-couche-710.webp){ loading=lazy }
+      <figcaption>Hybrid, flying</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: flight](../animations/suzumebachi-heavy-vol.webp){ loading=lazy }
-      <figcaption>Hybrid: flight</figcaption>
+      ![Hornet, flying](../animations/mushi-mushi-s1-frelon-vol-couche-710.webp){ loading=lazy }
+      <figcaption>Hornet, flying</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hornet: sting](../animations/suzumebachi-walk-aiguillon.webp){ loading=lazy }
-      <figcaption>Hornet: sting</figcaption>
+      ![Stinger](../animations/mushi-mushi-s1-hybride-stinger-3p-710.webp){ loading=lazy }
+      <figcaption>Stinger</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hornet: flight](../animations/suzumebachi-walk-vol.webp){ loading=lazy }
-      <figcaption>Hornet: flight</figcaption>
+      ![Needle Dash](../animations/mushi-mushi-s1-hybride-needle-dash-3p-710.webp){ loading=lazy }
+      <figcaption>Needle Dash</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Pink Hornets](../animations/mushi-mushi-s1-hybride-pink-hornets-3p-710.webp){ loading=lazy }
+      <figcaption>Pink Hornets</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Venom Spray, hybrid](../animations/mushi-mushi-s1-hybride-venom-spray-3p-710.webp){ loading=lazy }
+      <figcaption>Venom Spray, hybrid</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Venom Spray, hornet](../animations/mushi-mushi-s1-frelon-venom-spray-3p-710.webp){ loading=lazy }
+      <figcaption>Venom Spray, hornet</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Mandible Bite](../animations/mushi-mushi-s1-hybride-mandible-bite-3p-710.webp){ loading=lazy }
+      <figcaption>Mandible Bite</figcaption>
     </figure>
     </div>
 <!-- /animations -->
@@ -48,7 +66,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![Suzumebachi Heavy Point](../forms/suzumebachi-heavy-point.png){ .form-picture }
 
-Transforms the user into a giant hornet hybrid, with 4 arms that attacks fast, wings to fly and a poisonous stinger
+Transforms the user into a giant hornet hybrid with four arms that attack fast, wings to fly with and a poisonous stinger.
 
 ## Suzumebachi Walk Point { #suzumebachi-walk-point }
 
@@ -71,13 +89,15 @@ Requires Suzumebachi Heavy Point or Suzumebachi Walk Point to be active.
 
 ![](../abilities/stinger.png){ .ability-icon } *Active*
 
-The user stabs the enemy in front of them with their stinger, applying a strong poison
+The user stabs the enemy in front of them with their stinger and gives it a strong poison.
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 6 s |
+| Charge | under 1 s |
+| Range | 3 blocks (line) |
 | Damage | 7 |
 
 ## Pink Hornets { #pink-hornets }
@@ -86,19 +106,20 @@ The user stabs the enemy in front of them with their stinger, applying a strong 
 
 ![Pink Hornets](../objects/pink-hornets.png){ .form-picture }
 
-Summons a swarm of pink hornets that attacks the enemy the user is looking at, or the one attacking the user, and poisons it.
+While in either form, the user calls four pink hornets for 15 seconds. They sting the enemy the user is looking at, or whoever fights the user, and poison it.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 30 s |
-| Hold | 15 s |
+| Charge | under 1 s |
+| Duration | 15 s |
 | Damage | 2 |
 
 ## Needle Dash { #needle-dash }
 
 ![](../abilities/needle-dash.png){ .ability-icon } *Active*
 
-The user dashes very fast where they are looking with their stinger, damaging and poisoning all enemies in their path
+The user dashes stinger first where they are looking, on the ground or in the air. Every enemy in the way is hurt and poisoned.
 
 | Stat | Value |
 |---|---|
@@ -111,38 +132,43 @@ The user dashes very fast where they are looking with their stinger, damaging an
 
 ![](../abilities/venom-spray.png){ .ability-icon } *Active*
 
-The user sprays their venom at the eyes of all enemies in front of them, blinding them, slowing them and poisoning them
+The user sprays venom at the eyes of the enemies in front of them. They are hurt, blinded, slowed and poisoned, and a blinded mob loses its target.
 
 | Stat | Value |
 |---|---|
 | Damage type | Internal |
 | Haki | Special |
 | Cooldown | 15 s |
+| Charge | under 1 s |
 | Damage | 5 |
-| Range | 7 blocks (line) |
+| Range | 7 blocks (cone) |
 
 ## Numbing Sting { #numbing-sting }
 
 ![](../abilities/numbing-sting.png){ .ability-icon } *Active*
 
-The user stabs the enemy in front of them with their stinger, the venom paralyses it for a few seconds
+The user stabs the enemy in front of them with their stinger. The venom paralyses it for 3 seconds.
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 18 s |
+| Charge | under 1 s |
+| Range | 3 blocks (line) |
 | Damage | 9 |
 
 ## Mandible Bite { #mandible-bite }
 
 ![](../abilities/mandible-bite.png){ .ability-icon } *Active*
 
-While in the hybrid form, the user bites the enemy in front of them with their mandibles, dealing heavy damage
+While in the hybrid form, the user bites the enemy in front of them with their mandibles, dealing heavy damage.
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 14 s |
+| Charge | under 1 s |
+| Range | 3 blocks (line) |
 | Damage | 22 |

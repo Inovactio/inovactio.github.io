@@ -159,3 +159,24 @@ form stands". The slot always shows the mode the technique is really in.
 
 For an addon: a check about the mode chosen belongs in the technique's use checks (`addCanUseCheck`), not in the
 mode change.
+
+## Lower NPC bounties
+
+*Since 6.5.0.* One key in `akumalib-server.toml`, section `bounties`, `0.1` by default.
+
+A notorious NPC pirate's bounty climbs to hundreds of millions of belly, and a bounty hunter who redeems its wanted
+poster gets the whole of it. Now an NPC's bounty grows by a tenth of what it did: the poster shows the lower amount and
+pays exactly what it shows.
+
+| Key | Default | |
+|---|---|---|
+| `bountyMultiplierNpc` | `0.1` | multiplies a notorious NPC pirate's bounty: its 100,000 to start, each gain after, and the 10,000 floor. `1` is Mine Mine no Mi's |
+
+- **NPCs only** (maintainer's choice, 2026-11-08). A player's bounty, and what a player's poster pays, stay Mine Mine
+  no Mi's. So do the bounty-based rules that read a player's bounty (Marine ambushes, the crew requirement, AkumaLib's
+  return to civilian life).
+- **New bounties only.** A bounty or a poster already saved keeps its value; only what is added from now on is lower.
+- **Mine Mine no Mi's "Bounty Reward Multiplier"** multiplies the bounty a *player* gains from killing NPCs; it never
+  touched NPC bounties, and this key does not touch players' bounties. The two do not combine.
+- A poster shows the bounty issued when it was printed; when redeemed it pays the captain's bounty at that time, as in
+  Mine Mine no Mi, which is the same unless the bounty grew since.

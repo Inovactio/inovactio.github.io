@@ -17,22 +17,48 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid: punch](../animations/kabutomushi-heavy-coup.webp){ loading=lazy }
-      <figcaption>Hybrid: punch</figcaption>
+      ![Hybrid, flying](../animations/mushi-mushi-kabuto-s1-hybride-vol-avant-cote-3p-710.webp){ loading=lazy }
+      <figcaption>Hybrid, flying</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: flight](../animations/kabutomushi-heavy-vol.webp){ loading=lazy }
-      <figcaption>Hybrid: flight</figcaption>
+      ![Beetle, flying](../animations/mushi-mushi-kabuto-s1-scarabee-vol-avant-cote-3p-710.webp){ loading=lazy }
+      <figcaption>Beetle, flying</figcaption>
     </figure>
     <figure markdown="span">
-      ![Beetle: horn](../animations/kabutomushi-walk-corne.webp){ loading=lazy }
-      <figcaption>Beetle: horn</figcaption>
+      ![Beetle Upper](../animations/mushi-mushi-kabuto-s1-beetle-upper-proche-3p-710.webp){ loading=lazy }
+      <figcaption>Beetle Upper</figcaption>
     </figure>
     <figure markdown="span">
-      ![Beetle: flight](../animations/kabutomushi-walk-vol.webp){ loading=lazy }
-      <figcaption>Beetle: flight</figcaption>
+      ![Horn Toss](../animations/mushi-mushi-kabuto-s1-horn-toss-hybride-3p-710.webp){ loading=lazy }
+      <figcaption>Horn Toss</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Horn Dive, hybrid](../animations/mushi-mushi-kabuto-s1-hybride-horn-dive-cote-3p-710.webp){ loading=lazy }
+      <figcaption>Horn Dive, hybrid</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Horn Dive, beetle](../animations/mushi-mushi-kabuto-s1-scarabee-horn-dive-cote-3p-710.webp){ loading=lazy }
+      <figcaption>Horn Dive, beetle</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Four Arm Rush](../animations/mushi-mushi-kabuto-s1-four-arm-rush-3p-710.webp){ loading=lazy }
+      <figcaption>Four Arm Rush</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Shell Guard, hybrid](../animations/mushi-mushi-kabuto-s1-shell-guard-hybride-3p-710.webp){ loading=lazy }
+      <figcaption>Shell Guard, hybrid</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Shell Guard, beetle](../animations/mushi-mushi-kabuto-s1-shell-guard-scarabee-3p-710.webp){ loading=lazy }
+      <figcaption>Shell Guard, beetle</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Beetle Ram](../animations/mushi-mushi-kabuto-s1-beetle-ram-3p-710.webp){ loading=lazy }
+      <figcaption>Beetle Ram</figcaption>
     </figure>
     </div>
 <!-- /animations -->
@@ -48,7 +74,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![Kabutomushi Heavy Point](../forms/kabutomushi-heavy-point.png){ .form-picture }
 
-Transforms the user into a rhinoceros beetle hybrid, with a horn, a hard shell, 4 arms and wings to fly.
+Transforms the user into a rhinoceros beetle hybrid, with a horn, a hard shell, four arms and wings to fly.
 
 ## Kabutomushi Walk Point { #kabutomushi-walk-point }
 
@@ -56,7 +82,7 @@ Transforms the user into a rhinoceros beetle hybrid, with a horn, a hard shell, 
 
 ![Kabutomushi Walk Point](../forms/kabutomushi-walk-point.png){ .form-picture }
 
-Transforms the user into a big rhinoceros beetle, which has a lot of armor, can fly and can carry another player
+Transforms the user into a big rhinoceros beetle with a thick shell. It can fly and carry another player.
 
 ## Kabutomushi Flight { #kabutomushi-flight }
 
@@ -79,33 +105,36 @@ Requires Kabutomushi Walk Point to be active.
 
 ![](../abilities/beetle-upper.png){ .ability-icon } *Active*
 
-While in the hybrid form, the user dashes forward while spinning and headbutts all enemies in their path, launching them into the air
+While in the hybrid form, the user rushes forward at full speed while spinning and headbutts all enemies in their path, launching them into the air.
 
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Physical |
 | Haki | Hardening |
 | Cooldown | 11 s |
-| Damage | 10 |
+| Charge | under 1 s |
+| Damage | 16 |
 
 ## Horn Toss { #horn-toss }
 
 ![](../abilities/horn-toss.png){ .ability-icon } *Active*
 
-The user picks up the enemy in front of them with their horn and throws it over their back.
+The user scoops up the enemy in front of them with their horn and throws it over their back.
 
 | Stat | Value |
 |---|---|
 | Damage type | Blunt |
 | Haki | Hardening |
 | Cooldown | 7 s |
+| Charge | under 1 s |
 | Damage | 6 |
+| Range | 3 blocks (line) |
 
 ## Horn Dive { #horn-dive }
 
 ![](../abilities/horn-dive.png){ .ability-icon } *Active*
 
-While in the air, the user dives with their horn where they are looking, damaging all enemies around the impact and sending them flying. The damage is higher the bigger the dive is
+While in the air, the user dives horn first where they are looking, damaging all enemies around the impact and sending them flying. The higher the dive, the more damage it deals.
 
 | Stat | Value |
 |---|---|
@@ -113,13 +142,14 @@ While in the air, the user dives with their horn where they are looking, damagin
 | Haki | Hardening |
 | Cooldown | 14 s |
 | Damage | 14–26 |
+| Range | 24 blocks (line) |
 | Range | 4 blocks (area) |
 
 ## Four Arm Rush { #four-arm-rush }
 
 ![](../abilities/four-arm-rush.png){ .ability-icon } *Active*
 
-While in the hybrid form, the user launches a lot of fast punches with their four arms at the enemies in front of them, the last punch sends them flying
+While in the hybrid form, the user throws a flurry of fast punches with their four arms at the enemies in front of them. The last punch sends them flying.
 
 | Stat | Value |
 |---|---|
@@ -133,7 +163,7 @@ While in the hybrid form, the user launches a lot of fast punches with their fou
 
 ![](../abilities/shell-guard.png){ .ability-icon } *Active*
 
-The user closes their shell for a few seconds, taking much less damage and sending back the enemy projectiles, but they can't attack while it is active
+The user closes their shell for a few seconds, taking much less damage and sending back enemy projectiles, but they cannot attack while it is closed. Using it again opens the shell.
 
 | Stat | Value |
 |---|---|
@@ -145,7 +175,7 @@ The user closes their shell for a few seconds, taking much less damage and sendi
 
 ![](../abilities/beetle-ram.png){ .ability-icon } *Active*
 
-While in the beetle form, the user charges forward with their horn, damaging all enemies in their path and pushing them away. The charge also breaks leaves, glass and wood blocks
+While in the whole beetle form, the user charges forward with their horn, damaging all enemies in their path and pushing them aside. The charge also breaks leaves, glass and wood.
 
 | Stat | Value |
 |---|---|

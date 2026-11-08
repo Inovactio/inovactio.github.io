@@ -2,7 +2,6 @@
 tags:
   - giant
   - elbaf
-  - wotan
   - ancient-giant
   - hakoku
 ---
@@ -15,8 +14,8 @@ tags:
 
 | | |
 |---|---|
-| **Size** | 4 for an Elbaf giant: about 7.2 blocks high and 2.4 wide (slider 3.75 to 4.25). Wotan 2.5, Ancient giants 6: see [the three peoples](#sub-races) |
-| **Passive** | Pride of Elbaf, and one more for the Wotan and the Ancient giants |
+| **Size** | 4 for an Elbaf giant: about 7.2 blocks high and 2.4 wide (slider 3.75 to 4.25). Ancient giants 6: see [the two peoples](#sub-races) |
+| **Passive** | Pride of Elbaf, and one more for the Ancient giants |
 | **Techniques** | 6, and a 7th for the Ancient giants; Shoulder Carry for all |
 | **In the abilities menu** | ![](icons/giant-abilities.png){ .fruit-icon } their own category |
 | **Rokushiki** | giants do not count as humans |
@@ -30,18 +29,13 @@ tags:
 </figure>
 
 <figure markdown>
-![A Wotan on Steve's skin](models/race-wotan.png)
-<figcaption>Wotan, size 2.5</figcaption>
-</figure>
-
-<figure markdown>
 ![An Ancient Giant on Steve's skin, horned](models/race-ancient-giant.png)
 <figcaption>Ancient Giant, size 6</figcaption>
 </figure>
 
 </div>
 
-In 3D: drag to turn, scroll or pinch to zoom. The buttons switch between the three peoples.
+In 3D: drag to turn, scroll or pinch to zoom. The buttons switch between the two peoples.
 
 <div class="model-viewer" data-models="../models/" data-ids="giants"></div>
 <!-- /models -->
@@ -73,23 +67,24 @@ In 3D: drag to turn, scroll or pinch to zoom. The Ancient Giant's skins: red, gr
 
 A giant is the player's own body at four times the size: reach, blows, health, strides and techniques all grow with it, through [AkumaLib](../../akumalib/index.md)'s size system. He steps over relief up to about a quarter of his height. Server owners can take the giants out of the character creator ([configuration](configuration.md)).
 
-## The three peoples { #sub-races }
+## The two peoples { #sub-races }
 
-The character creator offers the giants in three peoples. All three are giants: they keep the postures, the terrain rules, the hands and the techniques below. A player who was a giant before the peoples existed has none, and stays a giant of size 4.
+The character creator offers the giants in two peoples. Both are giants: they keep the postures, the terrain rules, the hands and the techniques below. A player who was a giant before the peoples existed has none, and stays a giant of size 4.
 
-| | Elbaf Giant | Wotan | Ancient Giant |
-|---|---|---|---|
-| Size | 4 | 2.5 | 6 |
-| Height and width | 7.2 x 2.4 blocks | 4.5 x 1.5 blocks | 10.8 x 3.6 blocks |
-| Slider | 3.75 to 4.25 | 2.34 to 2.66 | 5.63 to 6.38 |
-| Passives | Pride of Elbaf | Pride of Elbaf, [Wotan Body](#wotan-body) | Pride of Elbaf, [Ancient Blood](#ancient-blood) |
-| Techniques | the 6 below | the 6 below | the 6 below and [Continent Puller](#continent-puller) |
+| | Elbaf Giant | Ancient Giant |
+|---|---|---|
+| Size | 4 | 6 |
+| Height and width | 7.2 x 2.4 blocks | 10.8 x 3.6 blocks |
+| Slider | 3.75 to 4.25 | 5.63 to 6.38 |
+| Passives | Pride of Elbaf | Pride of Elbaf, [Ancient Blood](#ancient-blood) |
+| Techniques | the 6 below | the 6 below and [Continent Puller](#continent-puller) |
 
 - **Elbaf Giant**: the giant as he was, proud warriors who never give way.
-- **Wotan**: half giant and half fishman, smaller than a true giant, at home under water, with a fishman's dorsal fin.
 - **Ancient Giant**: Oars's bloodline, horned, far bigger than any other giant. His skin is red, green or the player's own, a third each (since 0.3.0, some players changed colour once). The horns' shape and colour are picked from the player's identity, so they never change; there are five shapes since 0.3.0, and some players who already had horns got another one, once.
 
-The slider is the same for all three: 6.25 % either way, by steps of 3.125 %. The figures below are for an Elbaf giant at size 4 unless they say otherwise: reach, damage and cooldowns follow each body's size.
+Since 0.4.0 the **[Wotan](wotan.md)**, half giant and half fishman, is a race of its own: he has a giant's body and these techniques too. A Wotan of 0.3.0 becomes a Saw-shark Wotan.
+
+The slider is the same for both: 6.25 % either way, by steps of 3.125 %. The figures below are for an Elbaf giant at size 4 unless they say otherwise: reach, damage and cooldowns follow each body's size.
 
 ## A giant in a human world
 
@@ -135,20 +130,6 @@ The user never gives way: weakness and despair do not take hold of them, and the
 | Refuses | Weakness, and the base mod's Negative |
 | Damage under 30 % health | +25 % |
 
-## Wotan Body { #wotan-body }
-
-![](abilities/wotan-body.png){ .ability-icon } *Passive, Wotan*
-
-Half a fishman: the user swims fast, breathes and sees under water, and their slippery skin takes less from fists and blunt blows.
-
-| Stat | Value |
-|---|---|
-| Swim speed | +200 % |
-| Eyes under water | air always full, Night Vision, Haste I |
-| Blunt damage taken | -30 % |
-
-Blunt means a fist or an empty hand, a blunt weapon or a blunt technique. As with [Fishman Body](fishmen.md#fishman-body), a Devil Fruit user loses the swimming in water, unless a Bubbly Coral keeps them dry.
-
 ## Ancient Blood { #ancient-blood }
 
 ![](abilities/ancient-blood.png){ .ability-icon } *Passive, Ancient giants*
@@ -170,7 +151,7 @@ Right-click with an empty hand on a crouching player at least twice smaller than
 
 ## Higher steps and water { #steps }
 
-A giant steps a third of his height: the Wotan 1.5 blocks, the Elbaf giant 2.4, the Ancient giant 3.6. A giant wading in water can jump, and climbs out onto a bank no higher than his step.
+A giant steps a third of his height: the Elbaf giant 2.4 blocks, the Ancient giant 3.6, the [Wotan](wotan.md) 2.1. A giant wading in water can jump, and climbs out onto a bank no higher than his step.
 
 ## Techniques
 
