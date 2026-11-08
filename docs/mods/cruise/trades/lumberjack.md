@@ -96,21 +96,21 @@ Every 5 Lumberjack levels give you a **talent point** (10 at level 50, 20 at lev
 | Woodcraft 1 | small | A log you fell gives 5% more Lumberjack XP | Good swing 2, Heartwood |
 | ![](../block-models/kuuigosu-log.png){ .block-mini }Second Log | **major** | 15% chance that a log you fell gives two | Clean cut 1, Clean cut 2, Kept edge |
 | ![](../icons/kuuigosu_sapling.png){ .item-icon }Green Thumb | **major** | Leaves you break drop saplings twice as often | Green hand 1, Green hand 2, Planter |
-| ![](../block-models/adam-log.png){ .block-mini }Heartwood | **major** | Logs of the Kuuigosu the Burning Tree and the Adam give 25% more Lumberjack XP | Woodcraft 1, Woodcraft 2, Fighting Lumberjack 1, Fighting Lumberjack 2 |
+| ![](../block-models/adam-log.png){ .block-mini }Heartwood | **major** | Logs of the Kuuigosu the Burning Tree and the Adam give 25% more Lumberjack XP | Woodcraft 1, Woodcraft 2, Timber, Fighting Lumberjack 1 |
 | Clean cut 2 | small | 2% more chance that a log you fell gives two | Second Log, Sharp Teeth |
 | Kept edge | small | 8% chance that a log does not wear your tool | Second Log, Sharp Teeth |
 | Green hand 2 | small | Leaves you break drop saplings 10% more often | Green Thumb, Forester |
-| Planter | small | A sapling you plant gives 1 more Lumberjack XP | Green Thumb, Forester |
+| Planter | small | A sapling you plant gives 1 more Lumberjack XP when it grows into a tree | Green Thumb, Forester |
 | Woodcraft 2 | small | A log you fell gives 5% more Lumberjack XP | Heartwood, Good swing 3, Clean cut 3 |
-| Fighting Lumberjack 1 | small | Your Lumberjack abilities hit 5% harder | Heartwood, Timber |
-| Fighting Lumberjack 2 | small | Your Lumberjack abilities hit 5% harder | Heartwood, Whirling Axe |
+| ![](../icons/woodsmans_axe.png){ .item-icon }Timber | **ability** | Needs an axe. A great blow from above on a foe. It fells him for 2 seconds. Gives the ability **Timber** | Heartwood, Fighting Lumberjack 2 |
+| Fighting Lumberjack 1 | small | Your Lumberjack abilities hit 5% harder | Heartwood, Whirling Axe |
 | ![](../icons/felling_saw.png){ .item-icon }Sharp Teeth | **major** | Your Felling Saw brings down 96 logs in one cut instead of 64 | Clean cut 2, Kept edge, Fighting Lumberjack 3 |
-| ![](../icons/adam_sapling.png){ .item-icon }Forester | **major** | 10% of the saplings you plant are not used up | Green hand 2, Planter, Fighting Lumberjack 4 |
+| ![](../icons/adam_sapling.png){ .item-icon }Forester | **major** | 10% of the saplings you plant give one back when they grow into a tree | Green hand 2, Planter, Fighting Lumberjack 4 |
 | Good swing 3 | small | Logs give 5% faster under your axe | Woodcraft 2, Woodsman's Luck |
 | Clean cut 3 | small | 2% more chance that a log you fell gives two | Woodcraft 2, Old Growth |
-| ![](../icons/woodsmans_axe.png){ .item-icon }Timber | **ability** | Needs an axe. A great blow from above on a foe. It fells him for 2 seconds. Gives the ability **Timber** | Fighting Lumberjack 1, Fighting Lumberjack 3 |
-| ![](../icons/woodsmans_axe.png){ .item-icon }Whirling Axe | **ability** | Needs an axe. Spin and hit every foe around you. They are thrown back. Gives the ability **Whirling Axe** | Fighting Lumberjack 2, Fighting Lumberjack 4 |
-| Fighting Lumberjack 3 | small | Your Lumberjack abilities hit 5% harder | Timber, Sharp Teeth |
+| Fighting Lumberjack 2 | small | Your Lumberjack abilities hit 5% harder | Timber, Fighting Lumberjack 3 |
+| ![](../icons/woodsmans_axe.png){ .item-icon }Whirling Axe | **ability** | Needs an axe. Spin and hit every foe around you. They are thrown back. Gives the ability **Whirling Axe** | Fighting Lumberjack 1, Fighting Lumberjack 4 |
+| Fighting Lumberjack 3 | small | Your Lumberjack abilities hit 5% harder | Fighting Lumberjack 2, Sharp Teeth |
 | Fighting Lumberjack 4 | small | Your Lumberjack abilities hit 5% harder | Whirling Axe, Forester |
 | ![](../icons/sweet_sap.png){ .item-icon }Woodsman's Luck | **major** | 5% of the logs you fell give a Sweet Sap | Good swing 3, Woodcraft 3 |
 | ![](../block-models/burning-tree-log.png){ .block-mini }Old Growth | **major** | Logs of a trunk taller than 12 give 50% more Lumberjack XP | Clean cut 3, Woodcraft 4 |

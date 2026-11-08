@@ -80,6 +80,7 @@ In 3D: drag to turn, scroll or pinch to zoom; the buttons change the look. The w
 
 - Their skills, from dials: the burn bazooka, impact, a breath dash, a sky step, and the chief's reject.
 - Their arrows and bullets pass through other Shandias: they never hit their own.
+- Since 1.0.2 Marines, bounty hunters and revolutionaries can hurt a Shandia who attacks them or struck them; peaceful Shandias stay off-limits to them.
 
 A warrior carries **one of six weapons**; the chief keeps the bazooka.
 
@@ -141,6 +142,7 @@ On the summit of an Upper Yard that has neither a Giant Jack nor the City of Gol
 - **Four divine soldiers** keep it, and their commander, the **Divine Soldier Commander**, a mountain of a man with three announced attacks. They fight empty-handed with their dials — the Axe Dial's blade, the Flash Dial that blinds whoever looks at it, the Breath Dial's gust, skates under their feet — and **attack on sight**.
 - **The treasure** lies at the foot of the throne, as rich as the chest under the Golden Bell: one or two boxes every time, gold, a heavy pouch of extol, dials.
 - Now and then **a patrol** of two or three divine soldiers walks the jungle.
+- Since 1.0.2 the divine soldiers and their commander are **bandits**, like Enel and his priests. **Marines, bounty hunters and revolutionaries** fight back here since 1.0.2: they can hurt Enel's divine soldiers, and the Shandias, Birka's guards and the White Berets who attack them or who struck them. Peaceful Shandias, guards and White Berets stay off-limits to them. Pirates change nothing.
 
 ## The Ordeals of God's priests
 

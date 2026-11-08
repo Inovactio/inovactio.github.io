@@ -14,9 +14,9 @@ You only earn Merchant XP if you practise the Merchant trade (in Crew mode, if i
 
 | Source | XP |
 |---|---|
-| Selling goods to a Cruise merchant (the Sell window) | 1 XP per 10 Belly of the sale (at least 1) |
+| Selling goods to a Cruise merchant (the Sell window) | for each piece, a tenth of its price up to 100 Belly, then the square root of its price: 1 000 Belly give 32 XP, 60 000 give 245 (since 0.7.0) |
 | Delivering a merchant's contract | 1 XP per 10 Belly of the reward (at least 1) |
-| One of your lots selling at the Auction House | 1 XP per 10 Belly of its price (at least 1); if you are offline, it is given when you log in or collect |
+| One of your lots selling at the Auction House | as a sale to a merchant gives, piece by piece, on its price but never on more than a merchant would pay for it (at least 1, since 0.7.0); if you are offline, it is given when you log in or collect |
 | Fetching the takings of your stall in a town's market hall | 1 XP per 10 Belly fetched, as a sale gives |
 | Being the first to open a buried treasure chest | Rumor map 100 XP, Old map 400 XP, Legendary map 1 200 XP |
 
@@ -88,30 +88,30 @@ Every 5 Merchant levels give you a **talent point** (10 at level 50, 20 at level
 | Trade Network | **major** | The market fills half as fast with what you sell, and merchants show you the contract they keep for Merchants | Apprentice 1, Sharp deal 1 |
 | Sharp deal 1 | small | 3% less fee at the Auction House | Trade Network, Bargain |
 | Bargain | **major** | 15% off Cruise merchants' stalls | Sharp deal 1, Apprentice 2 |
-| Apprentice 2 | small | You earn 5% more Merchant XP | Bargain, Credit |
+| Apprentice 2 | small | You earn 5% more Merchant XP | Bargain, Credit, Golden Bulwark |
 | Credit | **major** | A merchant's purse no longer limits what he buys from you | Apprentice 2, Apprentice 3, Apprentice 4, Contacts 3 |
-| Apprentice 3 | small | You earn 5% more Merchant XP | Credit, Golden Bulwark |
+| Golden Bulwark | **ability** | A shield of gold for you and your crew. Gives the ability **Golden Bulwark** | Apprentice 2 |
+| Apprentice 3 | small | You earn 5% more Merchant XP | Credit |
 | Apprentice 4 | small | You earn 5% more Merchant XP | Credit, Merchant's Notes |
 | Contacts 3 | small | The market fills 10% slower with what you sell | Credit, Wide Network |
-| Golden Bulwark | **ability** | A shield of gold for you and your crew. Gives the ability **Golden Bulwark** | Apprentice 3 |
 | ![](../icons/sea_chart.png){ .item-icon }Merchant's Notes | **major** | You earn 15% more Merchant XP | Apprentice 4, Fighting Merchant 1 |
 | Wide Network | **major** | The market fills slower again with what you sell | Contacts 3, Fighting Merchant 2 |
-| Fighting Merchant 1 | small | Your Merchant abilities hit 5% harder | Merchant's Notes, Sharp deal 2, Market stall 1, Contacts 4 |
-| Fighting Merchant 2 | small | Your Merchant abilities hit 5% harder | Wide Network, Sharp deal 3, Market stall 2, Fighting Merchant 3 |
+| Fighting Merchant 1 | small | Your Merchant abilities hit 5% harder | Merchant's Notes, Sharp deal 2, Market stall 1, Coin Toss |
+| Fighting Merchant 2 | small | Your Merchant abilities hit 5% harder | Wide Network, Sharp deal 3, Bribe, Fighting Merchant 3 |
 | Sharp deal 2 | small | 3% less fee at the Auction House | Fighting Merchant 1, Auctioneer |
 | Market stall 1 | small | 1 more lot up at the Auction House | Fighting Merchant 1, Treasure Sense |
-| Contacts 4 | small | The market fills 10% slower with what you sell | Fighting Merchant 1, Auctioneer, Treasure Sense, Fighting Merchant 4 |
+| Coin Toss | **ability** | A fistful of coins at the foe you look at. Gives the ability **Coin Toss** | Fighting Merchant 1, Auctioneer, Treasure Sense, Fighting Merchant 4 |
 | Sharp deal 3 | small | 3% less fee at the Auction House | Fighting Merchant 2, Bulk Dealer |
-| Market stall 2 | small | 1 more lot up at the Auction House | Fighting Merchant 2, Apprentice 5 |
+| Bribe | **ability** | The foe you look at stops fighting you for a while. Gives the ability **Bribe** | Fighting Merchant 2, Apprentice 5 |
 | Fighting Merchant 3 | small | Your Merchant abilities hit 5% harder | Fighting Merchant 2, Bulk Dealer, Apprentice 5, Fighting Merchant 5 |
-| Auctioneer | **major** | 3 more lots up and 10% less fee at the Auction House | Sharp deal 2, Contacts 4 |
-| ![](../icons/treasure_pargai.png){ .item-icon }Treasure Sense | **major** | A treasure hunt pays twice the XP | Market stall 1, Contacts 4 |
-| Fighting Merchant 4 | small | Your Merchant abilities hit 5% harder | Contacts 4, Coin Toss |
+| Auctioneer | **major** | 3 more lots up and 10% less fee at the Auction House | Sharp deal 2, Coin Toss |
+| ![](../icons/treasure_pargai.png){ .item-icon }Treasure Sense | **major** | A treasure hunt pays twice the XP | Market stall 1, Coin Toss |
+| Fighting Merchant 4 | small | Your Merchant abilities hit 5% harder | Coin Toss, Contacts 4 |
 | Bulk Dealer | **major** | A warehouse order pays 50% more Merchant XP | Sharp deal 3, Fighting Merchant 3 |
-| Apprentice 5 | small | You earn 5% more Merchant XP | Market stall 2, Fighting Merchant 3 |
-| Fighting Merchant 5 | small | Your Merchant abilities hit 5% harder | Fighting Merchant 3, Bribe |
-| Coin Toss | **ability** | A fistful of coins at the foe you look at. Gives the ability **Coin Toss** | Fighting Merchant 4 |
-| Bribe | **ability** | The foe you look at stops fighting you for a while. Gives the ability **Bribe** | Fighting Merchant 5 |
+| Apprentice 5 | small | You earn 5% more Merchant XP | Bribe, Fighting Merchant 3 |
+| Fighting Merchant 5 | small | Your Merchant abilities hit 5% harder | Fighting Merchant 3, Market stall 2 |
+| Contacts 4 | small | The market fills 10% slower with what you sell | Fighting Merchant 4 |
+| Market stall 2 | small | 1 more lot up at the Auction House | Fighting Merchant 5 |
 
 The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
 
@@ -121,7 +121,7 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 
 | Ability | What it does | Needs | Cooldown | Damage | Range |
 |---|---|---|---|---|---|
-| **Golden Bulwark** | A shield of gold of 6 health for you and your crew within 8 blocks | — | 45 s | — | 8 blocks |
+| **Golden Bulwark** | A shield of gold of 8 health for 20 seconds for you and your crew within 8 blocks | — | 45 s | — | 8 blocks |
 | **Coin Toss** | Throw a fistful of coins at the enemy you look at within 14 blocks. They cost you nothing | — | 8 s | 25 | 14 blocks |
 | **Bribe** | Pay off the enemy you look at within 8 blocks. For 10 seconds it stops fighting you and will not pick you again. Not a player or a boss | — | 20 s | — | 8 blocks |
 

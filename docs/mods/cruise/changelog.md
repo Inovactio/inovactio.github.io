@@ -2,6 +2,341 @@
 
 Every Cruise Cruise no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/all).
 
+## 0.7.0: beta { #v0-7-0 }
+
+<small>Released 2026-11-08 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9517317)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Villages grow, and fight back.</strong> Every village now has a prosperity: treat it well and it grows, building by
+building, into a walled town with its bank and colosseum. Harm it and it shrinks. Wipe villages out and bounty
+hunters or a vice admiral come after you, the villages call the Marines, and a dead village can live again. The
+colosseum gets six real grounds, every player can be born with a trait of their race or of the sky, and a big round of
+balance and fixes goes through every trade.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer, <strong>Mine Mine no Mi</strong> 0.11.6 and <strong>AkumaLib 6.5.0</strong> or newer.
+Client and server. Valkyrien Skies is never required.
+With <strong>Sky Island</strong>, take <strong>1.0.2</strong> or newer: the Dial Tinkerer trait then works on every dial, Sky Island's and Mine
+Mine no Mi's.</p>
+<p>⚠️ <strong>Update AkumaLib and Forge first.</strong> With an AkumaLib older than 6.5.0, or a Forge older than 47.4.2, the game does
+not start.</p>
+<p>⚠️ <strong>Update the server and every player together.</strong> The network protocol changed: a 0.7.0 client cannot join a 0.6.1
+server, nor the other way round.</p>
+<p>⚠️ <strong>Your worlds.</strong> A world played with 0.6.1 opens as it is. Its towns start as towns (150 prosperity) and its villages
+at 0, and grow from there. Each village gets its two guards the first time a player comes near it. The world settings
+you had in <code>config/inocruise-common.toml</code> are taken over once by each world (see Server settings).</p>
+<p>⚠️ <strong>A beta</strong>: everything here is playable, but numbers may still move with your feedback.</p>
+<hr />
+<h3>New</h3>
+<h4>Villages grow into towns</h4>
+<ul>
+<li><strong>Every village has a prosperity.</strong> It goes up by a point for each day nobody harms it, for each 1 000 Belly of trade
+  with its merchants and stalls, by 5 for each order or errand done there, by 10 for each raid beaten back, and by a
+  point for each 500 Belly you give at its town hall. A blow on a villager costs it 5 points, a block broken by hand 1,
+  a raid lost 20, and a murder drops it a whole step.</li>
+<li><strong>Four steps.</strong> A village starts Modest. At 30 points it is Prosperous: new houses with their people, and a barracks
+  with its guards. At 80 it is Flourishing: the workshops of the trades it lacks, an inn, a warehouse and a market
+  hall. At 150 it is a town: walls, a bank, a bounty office, a colosseum and plots for sale.</li>
+<li><strong>Built before your eyes.</strong> Each new building rises block by block over a day, one at a time, on the free land round
+  the village, as the town plan has it. Nothing of yours is ever torn down: a building waits while something of yours
+  stands on its spot, and skips a spot in the sea or on a cliff. The walls follow the ground and only fill air and
+  leaves: where a tree trunk or a block of yours stands on their line, they leave a gap.</li>
+<li><strong>A town that falls back</strong> under 150 points is a village again by name. Its bank, inn, warehouse, market hall,
+  colosseum and bounty office close and their keepers leave, its barracks' guards too, and nothing new is built until
+  it climbs back. Nothing is destroyed.</li>
+<li><strong>See how it is doing.</strong> Its step shows when you walk in ("Fuchsia - prosperous village"), and the mayor's window has
+  a new page with a bar to the next step and a box to give Belly.</li>
+<li>New worlds make towns as before.</li>
+</ul>
+<h4>Villages defend themselves</h4>
+<ul>
+<li><strong>Guards of its own.</strong> Every village has 2 guards, and a town 2 more beside its barracks' own, posted round the
+  square. One who dies is back three days later, like any villager.</li>
+<li><strong>The Marines come to help.</strong> When a player kills a villager and a Marine post or base stands within 1 000 blocks, 4
+  soldiers and a captain land at the edge of the village 30 seconds later and go for the killer. Once a day per
+  village. Nobody comes in a peaceful world.</li>
+<li><strong>Villagers run.</strong> A frightened villager far from home runs away from the attacker, out of the village, and comes
+  back when the fright is over.</li>
+</ul>
+<h4>Village killers are hunted</h4>
+<ul>
+<li><strong>A bounty that climbs.</strong> Each village you help wipe out within 30 days of the last one doubles your part of its
+  bounty again (x1, x2, x4...). After 30 days with none, the count falls back to zero. The whole server is told.</li>
+<li><strong>Banned from the towns.</strong> Every living village within 1 000 blocks of the dead one closes to you for 30 days.</li>
+<li><strong>Someone comes for you</strong> from your second village on, at the next dusk, out of any village: either the Marines' vice
+  admiral with his squad, or bounty hunters, drawn each time. The higher your bounty, the likelier the hunters, and a
+  Marine always gets them. Under 10 million Belly two hunters come, up to 50 million three hunters and a seasoned one,
+  above that a veteran with Haki and two seasoned hunters. They follow you for a day and come back when you log in
+  again. Beaten, each hunter leaves Belly, and sometimes his weapon. A Bounty Hunter player sees at the bounty office
+  who is hunted.</li>
+<li><strong>No hiding behind your side.</strong> A Marine or a civilian who wiped out villages is fought for real by those sent after
+  them.</li>
+</ul>
+<h4>A dead village lives again</h4>
+<ul>
+<li><strong>With time</strong>: 7 days after a village died, people move back in by themselves.</li>
+<li><strong>Paid for</strong>: at the dead village's notice board, a player Liked or better by a village within 1 000 blocks can pay
+  2 000 Belly for each of its people to bring it back. A good deed.</li>
+<li><strong>The Carpenter's repopulation plan</strong>: made at the Shipyard at level 30, laid in a dead village.</li>
+<li>Its people come back one each dawn, the mayor first, and the village mends its broken blocks as usual. A block
+  standing where it had another stays.</li>
+</ul>
+<h4>Colosseum</h4>
+<ul>
+<li><strong>A real colosseum round every arena fight.</strong> Every ground now stands inside the same colosseum: rows of stands all
+  round, the fighters' two gates and the master's box. The higher the tier, the grander it is dressed: more banners,
+  more braziers, more gold.</li>
+<li><strong>Six grounds instead of four.</strong> The sand arena (tiers 1 and 2), the ship deck (3 and 4), the jungle islet (5 and 6),
+  a new glacier (7), a new volcano (8) and the ruins (9 and 10).</li>
+<li><strong>Grounds built for the fight.</strong> Each ground has a clear middle for big fruit fights, high and low grounds with wide
+  ramps, pillars to hide behind and low walls before the gates. Both sides are the same, so neither fighter has the
+  better start.</li>
+<li><strong>Room for giants.</strong> The grounds are bigger, and the gates, ramps and arches leave room for a giant.</li>
+<li><strong>The glacier's packed ice is slippery, and the volcano's veins of magma burn</strong> whoever stands on them.</li>
+<li><strong>No way out of the ring.</strong> Nobody climbs, jumps or flies into the stands during a fight.</li>
+<li><strong>A fresh ground for every fight.</strong> The ground is rebuilt before each fight, so the holes a fruit left in the last
+  fight are gone.</li>
+<li><strong>Those who bet watch from the master's box</strong>, looking down on the fight.</li>
+<li><strong>Your opponent comes for you.</strong> He no longer waits at his gate: he crosses the ground to fight you, and those who
+  shoot keep their distance.</li>
+</ul>
+<h4>Traits</h4>
+<ul>
+<li><strong>Traits of your race.</strong> A new character can now be born with a trait of their people. 15 new traits, each only for
+  its races: Sea Kings leave a fishman alone until he strikes them, a mermaid catches more in a school of fish, an oni
+  frightens weak monsters away, a tontatta reaps more but only sweets fill them well, a giant eats well but slows any
+  boat they steer, and more. The races of Race Race no Mi need that mod; the fishmen are Mine Mine no Mi's own.</li>
+<li><strong>Traits of the sky.</strong> With Sky Island installed, any character can be born with one of 5 new traits: faster or
+  slower on clouds, a faster swimmer in the sea of clouds, a Dial Tinkerer who keeps a used dial one time in five
+  (Cruise's Thunder, Jet and Tone Dials count too), or sick at Skypiea's height, which never happens to the sky people.
+  Without Sky Island they are never drawn and do nothing.</li>
+<li>A trait of a race or of the sky has the same chance as any other. Characters already made keep the traits they have.
+  A character who changes race keeps their old race's trait, but it does nothing. 78 traits in all.</li>
+<li><strong>Will of D. on the traits sheet.</strong> Under your traits it says whether today's Will of D. is ready, or used and back
+  tomorrow.</li>
+</ul>
+<h4>Townsfolk</h4>
+<ul>
+<li><strong>Six faces for each kind of villager</strong>, in each of the five lands: fishermen, farmers, guards, mayors, innkeepers,
+  bankers, children and the rest. Six arena masters, six nobles of each kind, and more Revolutionary captains.
+  Villagers already in your world keep their face.</li>
+<li><strong>Race Race no Mi's modified humans are turned away.</strong> Merchants will not deal with them, the head of a village will
+  not talk to them, and their good deeds win them no reputation. The inn, warehouse, bank and bounty office stay open.</li>
+</ul>
+<h4>Commands for operators</h4>
+<ul>
+<li><code>/cruise village</code> shows and changes a village and a player in it: reputation, keepers put back, an event started now,
+  and prosperity (show, set, add, step up, build). Also <code>/cruise bank</code>, <code>/cruise prices</code>, <code>/cruise blackmarket box</code>,
+  <code>/cruise trade level</code> and <code>xp</code>, <code>/cruise collection fill</code>, <code>/cruise clock</code> and <code>/cruise arena tier</code>, to test things
+  without waiting.</li>
+</ul>
+<h3>Changed</h3>
+<h4>Villages and reputation</h4>
+<ul>
+<li><strong>Fighting back is no crime.</strong> When a mob of any mod attacks you first in a village, the blocks your fruit's attacks
+  break while you fight it back cost you nothing for half a minute after its last blow, nor do the villagers and guards
+  your attacks catch. The village rebuilds the blocks as usual. Blocks you break by hand and villagers you punch still
+  count.</li>
+<li><strong>Each player answers for their own wrongs.</strong> A crewmate who angers a village no longer drags the rest of the crew
+  down. Good deeds are still shared with the crew.</li>
+<li><strong>A way back for the hated.</strong> A village that hates you, or calls you its sworn enemy, takes a fine at its town hall:
+  100 Belly for each point that brings you back to Unknown. Its errands also stay open to you, and each one done raises
+  you as it always did.</li>
+<li><strong>Guards let you come and pay your fine.</strong> A Sworn Enemy with empty hands can walk to the town hall. Draw a weapon or
+  strike and the guards come for you again.</li>
+<li><strong>A plot is still yours.</strong> Whatever the town thinks of you, even when it is closed to you for a crime, its mayor still
+  talks to you about your plot and your fine.</li>
+<li><strong>Fighting back keeps your loyalty.</strong> A Marine who kills the bounty hunters or the Marines sent after them no longer
+  loses Marine loyalty for it. Killing any other Marine still costs loyalty.</li>
+<li><strong>You are told when your reputation moves.</strong> A line on your screen says "Reputation +10 at" the village, and the chat
+  tells you when you become Liked, Hated and so on.</li>
+<li><strong>A crime tells what it cost.</strong> Striking or killing a villager says how much your bounty went up, or your Marine
+  loyalty went down, and how much reputation you lost. A lost assault tells the bounty it puts on you.</li>
+<li><strong>Warehouse orders and wanted notices earn reputation.</strong> A warehouse order gives 15, shared by the pieces each player
+  brought. Bringing down a wanted notice's captain gives 40.</li>
+<li><strong>Small village changes.</strong> Amounts on house plans and raid thanks are grouped, the raid thanks no longer say 0 Belly,
+  a village no longer calls itself a town when it is closed to you, and laying a house plan says what it cost. Moving
+  to a larger plot first warns you that what stands on your old plot will be cleared. The plot's reputation comes with
+  your first plot in a town only. Board orders pay a friend and a hero more, as errands do. The reputation page no
+  longer says a pirate's bad name fades.</li>
+</ul>
+<h4>Colosseum prizes</h4>
+<ul>
+<li><strong>One full prize a week across towns.</strong> A tier you already won this week in another town pays a quarter of its Belly
+  and no box. A higher tier still pays in full.</li>
+<li><strong>Fewer Devil Fruit boxes at tier 10.</strong> Tier 10 gives a box 30% of the time (was 75%), and one of those boxes in ten
+  is golden.</li>
+<li><strong>The arena window stays up to date.</strong> When a player bets or signs up, the odds and bets change for everyone with the
+  master's window open.</li>
+</ul>
+<h4>Trades</h4>
+<ul>
+<li><strong>Every trade gets its techniques at the same pace.</strong> In every talent web the first technique now comes between
+  levels 20 and 30, and the last by level 50. The Hunter, Fisher and Navigator get theirs a little later, the Musician,
+  Merchant, Farmer and Carpenter much sooner. A talent you took that no longer links to the middle gives its point back.</li>
+<li><strong>Techniques rebalanced.</strong> Harpoon Throw does 12 damage every 12 seconds (was 18 every 10), still with no rod.
+  Dissonance does 14 damage every 12 seconds (was 8 every 14). Thread Bind does 12 damage and holds for 3 seconds (was
+  8 and 2). Smoke Screen reaches 5 blocks and lasts 6 seconds (was 4 and 4).</li>
+<li><strong>Smoke, spice and mirages really lose the mobs.</strong> A mob caught in Smoke Screen or Spice Cloud, or near you when
+  Mirage hides you, lets go of you and cannot take you as its target again while the effect lasts. Piglins too.</li>
+<li><strong>Golden Bulwark wears off.</strong> Its shield is now 8 health of absorption for 20 seconds, instead of 6 health that never
+  went away.</li>
+<li><strong>Small technique changes.</strong> Field Dressing is refused, with a message, when you are not hurt nor poisoned, so its
+  cooldown is not wasted. Patch Up mends 30% of your armour's wear every 20 seconds (was 15% every 30). Only you see the
+  outline of the foe your Hunter's Mark marked. Snap Trap's circle now shows how far it really springs. Timber holds
+  its foe in place for its 2 seconds, as the other holds do.</li>
+<li><strong>Merchant XP grows slower with the price.</strong> Each piece sold gives a tenth of its price up to 100 Belly, then the
+  square root of its price: 1 000 Belly give 32 XP, 60 000 give 245. At the Auction House a sale gives no more XP than
+  the item is worth to a merchant.</li>
+<li><strong>Prices explained.</strong> Hover a slot of a merchant's sale window, or a line of his stall, to see the price and why: your
+  Merchant trade, a feast, a noble town, the region, a glut, your traits, your reputation. The guide's Trade page has a
+  new Prices section.</li>
+<li><strong>Fishing money evened out.</strong> The Lava Flounder bites less often, so lava pays about twice the sea, not four times.
+  Fishing tournament medals pay by your Fisher level, a gold 1 100 Belly at level 1 up to 6 000 at 50. A repaired ship
+  in distress shares at least 8 000 Belly among those who helped.</li>
+<li><strong>Old tunes pay less.</strong> A tune far below your Musician level pays less XP, the way an old recipe does: in full up to
+  10 levels above it, then a tenth less each level.</li>
+<li><strong>Cheap recipes ask for more.</strong> Cannon Balls also take an iron ingot, the Fishing Rod Upgrade two string and an Iron
+  Scrap, the Vice Admiral Pants seven wool and a gold nugget, Senor Pink's bonnet and diaper six wool and a leather.</li>
+<li><strong>Something new for the Navigator every 5 levels.</strong> The Log Pose finds a new kind of land every 5 levels up to 30, and
+  the Sea Chart two new kinds of places every 5 levels from 30 to 50. The guide says the rarest places come from level
+  60, and that the third tier of most tunes asks more than level 50. A score recipe above level 50 shows on a stall the
+  Musician level it needs.</li>
+<li><strong>The sieves have a tooltip.</strong> It says how often a sieve gives salt and how long it rests. The Cook's chapter of the
+  guide points to the Fine Sieve, an Inventor craft of level 12 that rests 20 seconds.</li>
+<li><strong>The bank window stays up to date.</strong> When a crewmate puts in or takes out Belly, the crew's balance changes for
+  everyone with the banker's window open.</li>
+<li><strong>The guide says what pays in every trade.</strong> The Miner, Cook, Inventor, Chemist, Blacksmith, Carpenter, Tailor and
+  Musician chapters now say how they earn XP, and a new page explains that a recipe pays less once you are more than
+  ten levels above it. The Collections chapter now covers the Herbarium, Minerals, Woods, Dishes tasted and Tunes
+  played, and the Villages chapter explains reputation and how to win a village back.</li>
+<li><strong>New icons for the Merchant's techniques.</strong> Bribe is now a sack of gold, Coin Toss a fistful of gold coins flying
+  out, and Golden Bulwark a wall of stacked gold coins.</li>
+<li><strong>New icons for the Farmer's harvests.</strong> Horrific Pear, Coconut, Rubber Fruit, Cactus Flower and Cactus Pulp, Golden
+  Matsutake and Mystery Mushroom, Ancient Rice, Bitter Grass, Medicinal Herb, Wilted Carrot and Lotus Seed are redrawn
+  after their look in One Piece Unlimited Cruise, in Mine Mine no Mi's item style.</li>
+</ul>
+<h4>The sea and the world</h4>
+<ul>
+<li><strong>Events are told to those nearby.</strong> The start, the warning and the end of every event, the falling star and the Sea
+  King included, now reach only the players within 1 000 blocks of it, in the same world. Barkeepers and notice boards
+  still tell of them farther away.</li>
+<li><strong>Your own fishing record is yours.</strong> Beating your own record is told to you alone, not to the whole server.</li>
+<li><strong>A star can fall while you sleep.</strong> If you sleep through the night when a star was due, it still falls, and you are
+  told where when you wake up.</li>
+<li><strong>The ghost ship's fog can fall from dusk</strong>, before beds can be used, and still lifts at dawn.</li>
+<li><strong>The Sea King's health bar only in its arena.</strong> It shows when you come onto the water it guards and goes when you
+  leave, instead of staying on the screen of everyone who can see it for its two days.</li>
+<li><strong>A school of fish says the Fisher level it needs.</strong> Its message and the rumours about it now tell the level. Below
+  it, nothing more bites there.</li>
+</ul>
+<h4>Server settings</h4>
+<ul>
+<li><strong>World settings now belong to each world.</strong> Village damage, monsters in villages, disabled traits, the guide given
+  at first join, the merchants, the Auction House and every world event are now set in each world's
+  <code>serverconfig/inocruise-server.toml</code>, so each single player world has its own. What you had set in
+  <code>config/inocruise-common.toml</code> is taken over once by each world, so nothing is lost.</li>
+<li><strong>New options</strong> for prosperity, the punishment of village killers, the villages' defence and their revival: each can
+  be turned off and its numbers changed.</li>
+<li><strong>A misspelt trait is reported.</strong> A trait id in <code>disabledTraits</code> that names no trait is now written in the log.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>The town hall window scrolls.</strong> At a large GUI scale or in a small window, the mayor's window was taller than the
+  screen and its last buttons, Declare assault among them, could not be reached. Its page now scrolls with the mouse
+  wheel or by dragging the bar on its right.</li>
+<li><strong>Cruise works beside Structurify.</strong> With Structurify installed, the game crashed while making a new world. Now the
+  world is made, villages and towns included.</li>
+<li><strong>No more free teleport from the arena.</strong> A player watching a fight could use the spectator menu to jump to any
+  player, even in the Nether or the End, and stay there. Now they are sent back where they stood before watching.</li>
+<li><strong>No more bets won from the stands.</strong> Hitting, shooting or burning an exhibition fighter from the stands does nothing
+  now. Only the other fighter can bring him down.</li>
+<li><strong>Leaving the game no longer settles an arena fight.</strong> A fighter who logs out during the fight no longer loses it: the
+  fight does not count and every bet on it is given back.</li>
+<li><strong>A huge bounty no longer drops to 0.</strong> With a very high bounty multiplier, wiping out many villages could reset a
+  player's bounty to 0. Now it stops at the highest bounty Mine Mine no Mi allows.</li>
+<li><strong>The vice admiral's squad stops growing in number.</strong> It is twelve at most. Past that, it gets stronger ranks instead:
+  brutes, snipers, then captains.</li>
+<li><strong>Hunters no longer linger when you leave.</strong> When a hunt ends while you are far away or in another dimension, the
+  whole squad leaves, wherever it stands.</li>
+<li><strong>A bounty hunter's Belly only for a player.</strong> He drops his purse only when a player or a crewmate brought him down,
+  not when lava, a fall or another mob killed him.</li>
+<li><strong>No prize lost at the fishing tournament.</strong> If your purse cannot hold the prize, the judge does not measure your
+  catch yet. Make room and come back, your one weigh-in is still yours.</li>
+<li><strong>No Belly lost to a nearly full purse.</strong> The ship in distress does not take your delivery, and the cooking contest
+  does not take your dish, while your purse cannot hold the pay. The captain's thanks for a repair wait for you until
+  your purse has room. A wanted man's 5 000 Belly waits for you at the notice board of the village that posted him:
+  read that board with room to get it. Giving a village back waits until your purse can hold all of its coffer.</li>
+<li><strong>A bigger bank box waits for its next week.</strong> You pay for the bigger box from its next week, and it grows then. A
+  smaller box is smaller at once.</li>
+<li><strong>Storm damage on a vanilla boat ends with the storm.</strong> A boat hit twice in one storm no longer breaks at the first
+  wave of the next one.</li>
+<li><strong>Village blocks taken in a Valkyrien Skies ship stay taken.</strong> Turning a village house into a ship no longer copies
+  it: the village does not build it again, and the player who put the ship together takes the same blame as if they
+  had broken those blocks.</li>
+<li><strong>What you put on a ship at sea stays when she leaves.</strong> A wreck, a merchant ship, the ghost ship, a ship in distress
+  or the floating restaurant no longer takes your own blocks with her, and your chest on her deck keeps what is in it.</li>
+<li><strong>Feast and noble town prices when you sell.</strong> The sale window now pays the extra 10% of a feast day and the extra 25%
+  of a noble town, as the price shown by the merchants said.</li>
+<li><strong>Buying off a stall to fill a contract no longer pays.</strong> A merchant's contract now pays what its goods are worth
+  where he trades, as his stall asks: less for a region's local goods, more for its wanted ones. A feast day still
+  takes its 10% off on top of the rest, but never brings a stall under what your best contract pays.</li>
+<li><strong>One dear fish no longer stops a sale.</strong> The merchant still buys the cheaper goods in the next slots when his purse
+  cannot pay for the first. What he cannot pay for is shown in red, and its tooltip says why.</li>
+<li><strong>The fine shown is the fine taken.</strong> The town hall button no longer shows up to 99 Belly less than the fine you are
+  charged.</li>
+<li><strong>The buy screen's price works beside other mods.</strong> Another mod reading the same price no longer risks hiding Cruise's
+  struck price.</li>
+<li><strong>A lighter sale window.</strong> An open sale window no longer slows the server down every tick.</li>
+<li><strong>A renamed Barometer or Experiment Equipment still works.</strong> Gust, Mirage, Thunder Call, Acid Flask, Smoke Screen,
+  Field Dressing and the lab's second brew no longer refuse a tool you renamed at an anvil.</li>
+<li><strong>Bribe and Mirage stop a piglin that is already attacking.</strong> Piglins and other mobs of their kind kept hitting you
+  after you paid them off or vanished.</li>
+<li><strong>Thrown flasks, rocks and spice burst at the end of their flight.</strong> An Acid Flask, Blast Rock or Spice Cloud that hits
+  nothing now bursts where its flight ends instead of vanishing.</li>
+<li><strong>Saplings pay when they grow.</strong> A sapling you plant gives its Lumberjack XP, and Forester's spare sapling, once it
+  grows into a tree. Planting and breaking the same sapling no longer pays or copies rare saplings.</li>
+<li><strong>Herbarium tiers pay their full XP.</strong> The harvest that fills a tenth of the Farmer's herbarium now gives the Farmer XP
+  its message announces, not a quarter of it.</li>
+<li><strong>A hurt Sea King stays hurt.</strong> Dying, walking away or reloading the world no longer heals a Sea King back to full.</li>
+<li><strong>A slain Sea King is no longer announced.</strong> Killing an event Sea King ends its event at once. Everyone is told who
+  slew it, and barkeepers and boards stop talking about it.</li>
+<li><strong>Creative and spectator players no longer calm a Sea King.</strong> It keeps fighting the survival player near it.</li>
+<li><strong>The Sea King on the Fisher's page.</strong> It is listed as Sea King at level 44, not as Sea King Scale at a random level.</li>
+<li><strong>Will of D. really once a day.</strong> Setting the time back with a command no longer gives it back the same day.</li>
+<li><strong>Treasure maps bury their chest in the Overworld only.</strong> Crossing the map's spot in the Nether no longer buries the
+  treasure there.</li>
+<li><strong>No crumbled star that never fell.</strong> A falling star whose spot proved unfit ends quietly, without the "crumbled to
+  dust" message.</li>
+<li><strong>No leftover Tracker outlines.</strong> After a restart or when you log in again, no random creature or player keeps the
+  Tracker's glow.</li>
+<li><strong>The repopulation plan says why it is refused.</strong> On open ground, or on a server where villages are not brought back,
+  it says so instead of "This village is alive".</li>
+<li><strong>Two wrong lines in the guide.</strong> It no longer says a dead village is dead for good: it can live again. The Potion of
+  Forgetting now says every trade goes back to level 1, not 0.</li>
+</ul>
+</div>
+
+## 0.6.1: beta { #v0-6-1 }
+
+<small>Released 2026-11-02 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9410517)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>A fix for 0.6.0.</strong> With Cruise 0.6.0 the game crashed as soon as a town was made near a player, in a new world as in
+an old one, by just playing or after <code>/locate</code>. Towns are made again with no crash.
+Nothing else changes: everything 0.6.0 brought is in 0.6.1.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47+</strong>, <strong>Mine Mine no Mi</strong> 0.11.6 and <strong>AkumaLib 6.2.0</strong> or newer.
+Client and server. Valkyrien Skies is never required.
+The network protocol does not change from 0.6.0: a 0.6.1 client joins a 0.6.0 server, and the other way round. Update
+the server first: the towns are made there.</p>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>No more crash when a town is made.</strong> The game stopped with a crash report while the land around a new town was
+  made. Towns, their lanes, walls and houses, and the pirates' ship moored at a port are made as in 0.6.0, without the
+  crash.</li>
+<li><strong>A world that crashed with 0.6.0 opens with 0.6.1</strong>, and the town that stopped the game is made where it was.</li>
+</ul>
+</div>
+
 ## 0.6.0: beta { #v0-6-0 }
 
 <small>Released 2026-11-02 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9408052)</small>

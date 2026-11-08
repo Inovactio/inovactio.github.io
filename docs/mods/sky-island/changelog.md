@@ -2,6 +2,35 @@
 
 Every Sky Island release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/all).
 
+## 1.0.2 { #v1-0-2 }
+
+<small>Released 2026-11-08 · [Download](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/9517075)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Marines, bounty hunters and revolutionaries can fight back at Skypiea</strong>, a tag of every dial for other mods, and a round of fixes: Valkyrien Skies ships, the empty Skypiea option, a second world opened in the same game, and mobs that kept hold of you through a portal.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer, <strong>Mine Mine no Mi</strong> 0.11.6 and <strong>AkumaLib 6.5.0</strong> or newer. Client and server.</p>
+<p>Worlds are kept.</p>
+<hr />
+<h3>Changes</h3>
+<ul>
+<li><strong>Marines, bounty hunters and revolutionaries can now hurt Enel's divine soldiers</strong>, and the Shandias, Birka's guards and the White Berets who attack them or who struck them. Before, they could be attacked but never hit back. Peaceful Shandias, guards and White Berets are still off-limits to them. Pirates change nothing.</li>
+<li><strong>Enel's divine soldiers and their commander are bandits now</strong>, like Enel and his priests. Soldiers already in your world change on their own.</li>
+<li><strong>A new item tag, <code>inosky:dials</code></strong>, holds every dial: Sky Island's eight and Mine Mine no Mi's eight. Cruise 0.7.0's Dial Tinkerer trait uses it, and modpacks can too.</li>
+<li><strong>Mine Mine no Mi older than 0.11.6 is refused at start</strong>, with its name, instead of failing in play. Forge 47.4.2 is now the minimum, like AkumaLib's.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>With <code>empty_skypiea</code> on, Weatheria still appeared.</strong> It no longer does. Chunks already made keep it.</li>
+<li><strong>Valkyrien Skies: a ship that vanished on the way home sent its crew 28 million blocks away.</strong> The crew now stays where it is. If Valkyrien Skies runs into an error, Sky Island turns its ship support off with one warning instead of breaking.</li>
+<li><strong>Opening another world in the same game no longer carries over anything from the first one</strong>: no falling boat, no crew, no terrain from the last world.</li>
+<li><strong>Bitten by a sky lamprey or carried by a bird while you went to another dimension</strong>, you were stuck there. They now let go.</li>
+<li><strong>Knock-Up Streams no longer appear in other mods' dimensions</strong> that have deep oceans: they belong to the overworld only.</li>
+<li><strong>Another mod's machines</strong> (block breakers and the like) breaking a block or opening a chest no longer raise the alarm in Birka or a Shandia camp.</li>
+<li><strong>A gold block outside Skypiea</strong> no longer acts like the Golden Bell.</li>
+<li><strong>A future Mine Mine no Mi update</strong> that moves what Sky Island hooks into for its Ordeals no longer stops the game at start: that part is skipped and named in the log.</li>
+</ul>
+</div>
+
 ## 1.0.1 { #v1-0-1 }
 
 <small>Released 2026-11-01 · [Download](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/9394457)</small>

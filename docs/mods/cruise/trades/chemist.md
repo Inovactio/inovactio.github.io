@@ -126,21 +126,21 @@ Every 5 Chemist levels give you a **talent point** (10 at level 50, 20 at level 
 | ![](../icons/medicine.png){ .item-icon }Potent Remedies | **major** | Your remedies heal and feed 50% more | Full flask 2, Clean bench 1, Thick fumes 2 |
 | Full flask 3 | small | 2% more chance that a brew gives one more | Full flask 2 |
 | ![](../icons/salt_ball.png){ .item-icon }Wide Burst | **major** | The balls you throw reach 1 block further | Thick fumes 1, Thick fumes 2, Thick fumes 3 |
-| Clean bench 1 | small | 2% more of your brews give an ingredient back | Potent Remedies, Thrift, Fighting Chemist 1 |
+| Clean bench 1 | small | 2% more of your brews give an ingredient back | Potent Remedies, Thrift, Acid Flask |
 | Thick fumes 2 | small | What the balls you throw do lasts 5% longer | Potent Remedies, Wide Burst, Lasting Fumes |
 | Thick fumes 3 | small | What the balls you throw do lasts 5% longer | Wide Burst, Steady Hands |
 | ![](../icons/antidote_powder.png){ .item-icon }Thrift | **major** | 25% of your brews give an ingredient back | Clean bench 1, Clean bench 2, Thick fumes 4 |
-| Fighting Chemist 1 | small | Your Chemist abilities hit 5% harder | Clean bench 1, Acid Flask |
+| Acid Flask | **ability** | Needs your Experiment Equipment. Throw a flask that burns and poisons where it lands. Gives the ability **Acid Flask** | Clean bench 1, Fighting Chemist 1 |
 | ![](../icons/sleep_ball.png){ .item-icon }Lasting Fumes | **major** | What the balls you throw do lasts 50% longer | Thick fumes 2, Thick fumes 4, Thick fumes 5 |
 | ![](../icons/poison_ball.png){ .item-icon }Steady Hands | **major** | 20% of the balls you throw are not used up | Thick fumes 3 |
 | Clean bench 2 | small | 2% more of your brews give an ingredient back | Thrift, Chemist's Notes, Clean bench 3 |
 | Thick fumes 4 | small | What the balls you throw do lasts 5% longer | Thrift, Lasting Fumes, Concentrate |
-| Acid Flask | **ability** | Needs your Experiment Equipment. Throw a flask that burns and poisons where it lands. Gives the ability **Acid Flask** | Fighting Chemist 1, Fighting Chemist 2 |
+| Fighting Chemist 1 | small | Your Chemist abilities hit 5% harder | Acid Flask, Fighting Chemist 2 |
 | Thick fumes 5 | small | What the balls you throw do lasts 5% longer | Lasting Fumes, Field Dressing |
 | ![](../icons/experiment_equipment.png){ .item-icon }Chemist's Notes | **major** | You earn 15% more Chemist XP | Clean bench 2, Lab hand 1, Fighting Chemist 3 |
 | Clean bench 3 | small | 2% more of your brews give an ingredient back | Clean bench 2 |
 | ![](../icons/revival_elixir.png){ .item-icon }Concentrate | **major** | Your remedies heal and feed 25% more again | Thick fumes 4, Lab hand 1, Lab hand 2 |
-| Fighting Chemist 2 | small | Your Chemist abilities hit 5% harder | Acid Flask |
+| Fighting Chemist 2 | small | Your Chemist abilities hit 5% harder | Fighting Chemist 1 |
 | ![](../icons/healing_candy.png){ .item-icon }Field Dressing | **ability** | Needs your Experiment Equipment. You get 10 health back and are cured of poison and wither. Gives the ability **Field Dressing** | Thick fumes 5, Lab hand 3 |
 | Lab hand 1 | small | You earn 5% more Chemist XP | Chemist's Notes, Concentrate |
 | Fighting Chemist 3 | small | Your Chemist abilities hit 5% harder | Chemist's Notes, Smoke Screen |
@@ -160,7 +160,7 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 |---|---|---|---|---|---|
 | **Acid Flask** | With your Experiment Equipment in your bag throw a flask of acid. It bursts where it lands. Every enemy within 3 blocks is burnt and poisoned for 4 seconds. A player or a boss half as long | Experiment Equipment in your bag | 12 s | 25 | 3 blocks |
 | **Field Dressing** | With your Experiment Equipment in your bag dress your wounds. You get 10 health back and are cured of poison and wither | Experiment Equipment in your bag | 25 s | — | — |
-| **Smoke Screen** | With your Experiment Equipment in your bag break a smoke flask at your feet. Every enemy within 4 blocks is blinded and slowed for 4 seconds. A player or a boss half as long | Experiment Equipment in your bag | 15 s | — | 4 blocks |
+| **Smoke Screen** | With your Experiment Equipment in your bag break a smoke flask at your feet. Every enemy within 5 blocks is blinded and slowed for 6 seconds and loses you. A player or a boss half as long | Experiment Equipment in your bag | 15 s | — | 5 blocks |
 
 #### Their moves
 

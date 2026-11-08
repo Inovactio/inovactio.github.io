@@ -185,22 +185,22 @@ Every 5 Inventor levels give you a **talent point** (10 at level 50, 20 at level
 | ![](../icons/enhanced_pickaxe.png){ .item-icon }Sturdy Work | **major** | The tools you make come with Unbreaking I | Apprentice 1, Tidy bench 2, Tidy bench 3, Big batch 1 |
 | Tidy bench 2 | small | 2% more of what you make gives an ingredient back | Sturdy Work, Thrift |
 | Tidy bench 3 | small | 2% more of what you make gives an ingredient back | Second Batch, Sturdy Work |
-| Big batch 1 | small | 3% more chance that a making of what stacks gives twice as many | Sturdy Work, Fighting Inventor 1, Fighting Inventor 2 |
+| Big batch 1 | small | 3% more chance that a making of what stacks gives twice as many | Sturdy Work, Shock Prod, Fighting Inventor 1 |
 | ![](../icons/iron_scrap.png){ .item-icon }Thrift | **major** | 15% more of what you make gives an ingredient back | Tidy bench 2, Tidy bench 4 |
 | ![](../icons/iron_plating.png){ .item-icon }Second Batch | **major** | 20% chance that a making of what stacks gives twice as many | Apprentice 2, Tidy bench 3 |
+| ![](../icons/thunder_powder.png){ .item-icon }Shock Prod | **ability** | A jolt that hurts and stuns the foe you look at. Gives the ability **Shock Prod** | Big batch 1, Quick Tools |
 | Fighting Inventor 1 | small | Your Inventor abilities hit 5% harder | Big batch 1, Quick Tools |
-| Fighting Inventor 2 | small | Your Inventor abilities hit 5% harder | Big batch 1, Quick Tools |
 | Tidy bench 4 | small | 2% more of what you make gives an ingredient back | Thrift, Fine Work |
 | Apprentice 2 | small | You earn 5% more Inventor XP | Inventor's Notes, Second Batch |
-| ![](../icons/felling_saw.png){ .item-icon }Quick Tools | **major** | The tools you make come with Efficiency I if they can take it | Fighting Inventor 1, Fighting Inventor 2, Shock Prod |
+| ![](../icons/felling_saw.png){ .item-icon }Quick Tools | **major** | The tools you make come with Efficiency I if they can take it | Shock Prod, Fighting Inventor 1, Fighting Inventor 2 |
 | ![](../icons/reinforced_frame.png){ .item-icon }Fine Work | **major** | The tools you make come with Unbreaking II | Tidy bench 4, Big batch 2, Fighting Inventor 3 |
 | ![](../icons/lens.png){ .item-icon }Inventor's Notes | **major** | You earn 15% more Inventor XP | Apprentice 3, Apprentice 2, Fighting Inventor 4 |
-| ![](../icons/thunder_powder.png){ .item-icon }Shock Prod | **ability** | A jolt that hurts and stuns the foe you look at. Gives the ability **Shock Prod** | Quick Tools, Tidy bench 5 |
+| Fighting Inventor 2 | small | Your Inventor abilities hit 5% harder | Quick Tools, Tidy bench 5 |
 | Big batch 2 | small | 3% more chance that a making of what stacks gives twice as many | Fine Work, Tidy bench 5, Big batch 3 |
 | Fighting Inventor 3 | small | Your Inventor abilities hit 5% harder | Fine Work, Magnet Pull |
 | Apprentice 3 | small | You earn 5% more Inventor XP | Tidy bench 5, Inventor's Notes, Apprentice 4 |
 | Fighting Inventor 4 | small | Your Inventor abilities hit 5% harder | Inventor's Notes, Jet Dash |
-| Tidy bench 5 | small | 2% more of what you make gives an ingredient back | Big batch 2, Apprentice 3, Shock Prod, Fighting Inventor 5 |
+| Tidy bench 5 | small | 2% more of what you make gives an ingredient back | Big batch 2, Apprentice 3, Fighting Inventor 2, Fighting Inventor 5 |
 | Big batch 3 | small | 3% more chance that a making of what stacks gives twice as many | Big batch 2, Big batch 4 |
 | ![](../icons/magnet.png){ .item-icon }Magnet Pull | **ability** | The foes round you are pulled to you and slowed. Gives the ability **Magnet Pull** | Fighting Inventor 3 |
 | Apprentice 4 | small | You earn 5% more Inventor XP | Apprentice 3, Apprentice 5 |
@@ -254,7 +254,7 @@ Every Workshop recipe, with the Inventor level that unlocks it and the XP it pay
 | ![](../icons/whopper_fishing_rod.png){ .item-icon }Whopper Fishing Rod | 5 | 20 | ![](../icons/reel.png){ .item-icon }Reel, Raw Iron |
 | ![](../icons/bamboo_flute.png){ .item-icon }Bamboo Flute | 6 | 22 | 3 × Bamboo, String |
 | ![](../icons/fishing_line_upgrade.png){ .item-icon }Fishing Line Upgrade | 8 | 26 | 9 × String |
-| ![](../icons/fishing_rod_upgrade.png){ .item-icon }Fishing Rod Upgrade | 8 | 26 | Bamboo |
+| ![](../icons/fishing_rod_upgrade.png){ .item-icon }Fishing Rod Upgrade | 8 | 26 | Bamboo, 2 × String, ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap |
 | ![](../icons/fine_sieve.png){ .item-icon }Fine Sieve | 12 | 34 | ![](../icons/sieve.png){ .item-icon }Sieve, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, 2 × String |
 | ![](../icons/iron_plating.png){ .item-icon }Iron Plating | 16 | 42 | 4 × Iron Ingot, 4 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, any planks |
 | ![](../icons/whopper_rod_upgrade.png){ .item-icon }Whopper Rod Upgrade | 18 | 46 | Raw Iron, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap |

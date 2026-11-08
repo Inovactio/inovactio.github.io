@@ -1,6 +1,14 @@
 # Configuration
 
-Cruise's own settings are in **`config/inocruise-common.toml`**, created the first time the game starts with the mod. The trades' levels and the Solo or Crew mode are **AkumaLib's**, per world.
+Cruise has two files of settings. The trades' levels and the Solo or Crew mode are **AkumaLib's**, per world.
+
+| File | What is in it |
+|---|---|
+| **`config/inocruise-common.toml`**, one for the game or the server | [`recipes`](#recipes), `withVanillaVillages` (under [`villages`](#villages)) and [`performance`](#performance) |
+| **`serverconfig/inocruise-server.toml`**, in each world's folder | everything else: [the world's own settings](#inocruise-servertoml) (sides, spacing, prosperity, punishment, defence, revival), `villageDamage` and `monstersInVillages`, [`traits`](#traits), [`guide`](#guide), [`merchants`](#merchants), [`auctionHouse`](#auctionhouse), the [village events](#village-events) and the [events at sea](#events-at-sea) and [on land](#events-on-land) |
+
+!!! note "Since 0.7.0 the world settings belong to each world"
+    Village damage, monsters in villages, disabled traits, the guide, the merchants, the Auction House and every world event moved from `config/inocruise-common.toml` to each world's `serverconfig/inocruise-server.toml`, with the same section names and keys, so each single player world has its own. What you had set in the common file is **taken over once** by each world, so nothing is lost; after that, set them in the world's file. The old lines in the common file say where they went.
 
 ## `recipes`
 
@@ -10,6 +18,8 @@ Cruise's own settings are in **`config/inocruise-common.toml`**, created the fir
 | `keepBaseRecipes` | `[]` | Base mod items whose crafting-table recipe is kept even while the takeover is on, one by one, for example `["mineminenomi:bullet", "mineminenomi:clima_tact"]`. |
 
 ## `villages`
+
+`withVanillaVillages` is in `config/inocruise-common.toml`; `monstersInVillages` and `villageDamage` in each world's `serverconfig/inocruise-server.toml` since 0.7.0.
 
 | Setting | Default | What it does |
 |---|---|---|
@@ -24,7 +34,7 @@ Cruise's own settings are in **`config/inocruise-common.toml`**, created the fir
 
 | Setting | Default | What it does |
 |---|---|---|
-| `disabledTraits` | `[]` | [Traits](traits.md) turned off, by id, for example `["inocruise:blind"]`. A trait turned off is never drawn for a new character, and does nothing on one who has it. They keep it: it works again once turned back on. (Since 0.6.0.) |
+| `disabledTraits` | `[]` | [Traits](traits.md) turned off, by id, for example `["inocruise:blind"]`. A trait turned off is never drawn for a new character, and does nothing on one who has it. They keep it: it works again once turned back on. An id that names no trait is written in the log. (Since 0.6.0; a world setting since 0.7.0.) |
 
 ## `guide`
 
@@ -34,13 +44,69 @@ Cruise's own settings are in **`config/inocruise-common.toml`**, created the fir
 
 ## `inocruise-server.toml`
 
-Since 0.6.0 Cruise also has a file per world, **`serverconfig/inocruise-server.toml`** in the world's folder.
+Since 0.6.0 Cruise also has a file per world, **`serverconfig/inocruise-server.toml`** in the world's folder. Since 0.7.0 it also holds every section this page marks as a world setting.
 
 | Section | Setting | Default | What it does |
 |---|---|---|---|
 | `factions` | `civilianStart` | `true` | Every new player starts as a [civilian](villages.md#playing-a-civilian) and earns a side by what they do; the character creator offers no side. `false` gives the choice of a side back to the character creator. |
 | `villages` | `spacing` | `24` | How many chunks apart [villages and towns](villages.md#finding-one) stand (12 to 100). Saved with the world when it is made: changing it later does nothing to that world. A world made before 0.6.0 keeps 34. |
 | `villages` | `townShare` | `33` | Of every hundred places, how many are [towns](towns.md) (0 to 100). Saved with the world when it is made, like `spacing`. A world made before 0.6.0 keeps 25. |
+
+### `prosperity`
+
+How the villages [grow with their prosperity](villages.md#prosperity-a-village-grows) (since 0.7.0).
+
+| Setting | Default | What it does |
+|---|---|---|
+| `enabled` | `true` | Whether villages grow: points earned and lost, new houses, workshops and town buildings that build themselves, walls once a village is a town. `false`: every place stays as it was made. |
+| `prosperous` | `30` | The points a village is Prosperous at: the quarters' houses and new inhabitants, the barracks and its guards. |
+| `flourishing` | `80` | The points it is Flourishing at: the missing trades' workshops, the inn, the warehouse and the market hall. |
+| `town` | `150` | The points it is a Town at: its walls, the bank, the bounty office, the colosseum and the plots for sale. A town the world made starts here. |
+| `perDay` | `1` | Points for each in-game day nobody harmed it. |
+| `tradeBelly` | `1000` | How many Belly of trade with its merchants and stalls earn it a point. |
+| `perOrder` | `5` | Points for an order or an errand done there. |
+| `perRaid` | `10` | Points for a raid beaten back. |
+| `giftBelly` | `500` | How many Belly given at its town hall earn it a point. |
+| `perBlow` | `5` | Points a blow on one of its people costs it. A murder costs a whole step. |
+| `perBlock` | `1` | Points a block of it broken by hand costs it. |
+| `perRaidLost` | `20` | Points a raid lost costs it. |
+
+### `punishment`
+
+How [village killers are hunted](villages.md#village-killers-are-hunted) (since 0.7.0).
+
+| Setting | Default | What it does |
+|---|---|---|
+| `enabled` | `true` | Whether wiping out villages is punished harder. `false`: a village wiped out costs its bounty alone, as before 0.7.0. |
+| `huntAfter` | `2` | How many villages a player wipes out, each within `forgetDays` of the one before, before someone is sent after them (1 to 20). The vice admiral's squad grows with each village after that. |
+| `forgetDays` | `30` | After how many in-game days with no village wiped out the count falls back to zero (1 to 365). |
+| `bountyMultiplier` | `2.0` | How much the bounty of each further village is multiplied: `2` gives x1, x2, x4, x8... (1 to 10). |
+| `banReach` | `1000` | How far, in blocks, the villages around a village wiped out close to its killers. |
+| `banDays` | `30` | For how many in-game days they stay closed to them. |
+| `huntersChance` | `0.3` | The chance, each time, that bounty hunters come instead of the Marines. A Marine player always gets the hunters. |
+| `huntersPerTenMillion` | `0.1` | How much that chance climbs for each 10,000,000 Belly of bounty. |
+| `huntersMost` | `0.8` | The highest that chance climbs. |
+
+### `defence`
+
+How [a village defends itself](villages.md#a-village-defends-itself) (since 0.7.0).
+
+| Setting | Default | What it does |
+|---|---|---|
+| `enabled` | `true` | Whether villages have their own guards, call the Marines, and see their villagers run off from an attacker. |
+| `guards` | `2` | How many guards of its own every village has, and a town beside its barracks' own (0 to 4). |
+| `aidReach` | `1000` | How far, in blocks, a Marine post or base may stand from a village and still send it help. |
+| `aidDelay` | `30` | How many seconds after a villager is killed the Marines land (0 to 600). |
+
+### `revival`
+
+How [a dead village lives again](villages.md#a-dead-village-lives-again) (since 0.7.0).
+
+| Setting | Default | What it does |
+|---|---|---|
+| `enabled` | `true` | Whether a dead village lives again. `false`: it stays a ruin for good, as before 0.7.0. |
+| `days` | `7` | After how many in-game days it is lived in again by itself. |
+| `pricePerHead` | `2000` | What bringing it back costs at its notice board, in Belly, for each of the people it was made with. |
 
 To turn off a whole trade, see AkumaLib's `disabledProfessions`: [A trade turned off](trades-and-levels.md#a-trade-turned-off).
 

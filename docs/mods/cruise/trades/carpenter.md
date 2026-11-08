@@ -68,6 +68,7 @@ These are all the Shipyard's recipes ("planks" means any planks):
 | ![](../icons/kuuigosu_cargo_boat.png){ .item-icon }Kuuigosu Cargo Boat | 27 | 64 | 6 × ![](../block-models/kuuigosu-planks.png){ .block-mini }Kuuigosu Planks, Iron Ingot, 2 × Chest |
 | ![](../icons/kuuigosu_longboat.png){ .item-icon }Kuuigosu Longboat | 30 | 70 | 6 × ![](../block-models/kuuigosu-planks.png){ .block-mini }Kuuigosu Planks, Iron Ingot, 2 × any planks |
 | ![](../icons/medium_house_plan.png){ .item-icon }Medium House Plan | 30 | 70 | 6 × Paper, 2 × Ink Sac, 4 × any planks, 2 × Bricks |
+| ![](../icons/repopulation_plan.png){ .item-icon }Repopulation Plan | 30 | 80 | 6 × Paper, 2 × Ink Sac, Book, Gold Ingot, Emerald |
 | ![](../block-models/kuuigosu-locker.png){ .block-mini }Kuuigosu Locker | 34 | 78 | 6 × ![](../block-models/kuuigosu-planks.png){ .block-mini }Kuuigosu Planks, Chest, 2 × Block of Iron |
 | ![](../icons/burning_boat.png){ .item-icon }Burning Tree Boat | 36 | 82 | 5 × ![](../block-models/burning-tree-planks.png){ .block-mini }Burning Tree Planks |
 | ![](../icons/burning_fishing_boat.png){ .item-icon }Burning Tree Fishing Boat | 37 | 84 | 6 × ![](../block-models/burning-tree-planks.png){ .block-mini }Burning Tree Planks, String, ![](../icons/reel.png){ .item-icon }Reel |
@@ -125,9 +126,9 @@ Every 5 Carpenter levels give you a **talent point** (10 at level 50, 20 at leve
 | ![](../icons/felling_saw.png){ .item-icon }Mender's Pride | **major** | Each timber you mend pays twice the Carpenter XP | Shipyard hand 4, Good plank 4, Shipyard hand 5, Shipyard hand 6 |
 | Shipyard hand 5 | small | You earn 5% more Carpenter XP | Mender's Pride, Good plank 2 |
 | Shipyard hand 6 | small | You earn 5% more Carpenter XP | Mender's Pride, Good plank 3 |
-| Good plank 4 | small | 3% more chance that a plank you mend with is not used up | Mender's Pride, Fighting Carpenter 5 |
-| Fighting Carpenter 5 | small | Your Carpenter abilities hit 5% harder | Good plank 4, Quick Repair |
-| ![](../icons/reinforced_frame.png){ .item-icon }Quick Repair | **ability** | The hull you ride or look at gets 2 timbers back. No plank is used. Gives the ability **Quick Repair** | Fighting Carpenter 5 |
+| Good plank 4 | small | 3% more chance that a plank you mend with is not used up | Mender's Pride, Quick Repair |
+| ![](../icons/reinforced_frame.png){ .item-icon }Quick Repair | **ability** | The hull you ride or look at gets 2 timbers back. No plank is used. Gives the ability **Quick Repair** | Good plank 4, Fighting Carpenter 5 |
+| Fighting Carpenter 5 | small | Your Carpenter abilities hit 5% harder | Quick Repair |
 
 The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
 

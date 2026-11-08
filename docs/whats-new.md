@@ -9,6 +9,32 @@ tags:
 
 The pages each release added or changed, newest first. What every release does, in full: the changelog of each mod.
 
+## 2026-11-08: Cruise Cruise no Mi 0.7.0, Sky Island 1.0.2 { #2026-11-08-cruise-sky }
+
+Both need AkumaLib 6.5.0 and Forge 47.4.2. Cruise 0.7.0 has a new network protocol (57): update the server and every player together.
+
+### Cruise Cruise no Mi 0.7.0 (beta)
+
+[Changelog](mods/cruise/changelog.md#v0-7-0)
+
+- **[Villages grow into towns](mods/cruise/villages.md#prosperity-a-village-grows)**: a prosperity in four steps, gifts at the town hall, buildings that rise before your eyes, walls, and a town that falls back
+- **[A village defends itself](mods/cruise/villages.md#a-village-defends-itself)**: guards of its own, Marines who land to help, villagers who run
+- **[Village killers are hunted](mods/cruise/villages.md#village-killers-are-hunted)**: a bounty that doubles, towns closed for 30 days, bounty hunters or a vice admiral at dusk
+- **[A dead village lives again](mods/cruise/villages.md#a-dead-village-lives-again)**: with time, paid for at its board, or with the Carpenter's repopulation plan
+- **[The colosseum's six grounds](mods/cruise/towns.md#the-six-grounds)**: sand, ship deck, jungle islet, glacier, volcano, ruins; one full prize a week across towns
+- **[20 new traits](mods/cruise/traits.md#traits-of-the-races)**: 15 of the races, 5 of the sky with Sky Island
+- **Townsfolk**: six faces for each kind of villager; modified humans turned away ([Villages](mods/cruise/villages.md#the-people))
+- **[Commands for operators](mods/cruise/villages.md#commands-for-operators)**: `/cruise village`, `bank`, `prices`, `trade`, `collection`, `clock`, `arena`
+- **Trades rebalanced**: talent webs, techniques and recipes on every [trade's page](mods/cruise/trades-and-levels.md); Merchant XP, tournament medals, events told within 1 000 blocks
+- **[World settings per world](mods/cruise/configuration.md)**: moved to `serverconfig/inocruise-server.toml`, with the new prosperity, punishment, defence and revival options
+
+### Sky Island 1.0.2
+
+[Changelog](mods/sky-island/changelog.md#v1-0-2)
+
+- **Marines, bounty hunters and revolutionaries fight back** at Skypiea: the [divine soldiers](mods/sky-island/upper-yards.md#the-sanctuary-of-god) are bandits now
+- **The item tag `inosky:dials`**: every dial, for other mods ([Compatibility](mods/sky-island/index.md#compatibility))
+
 ## 2026-11-08: AkumaLib 6.5.0, Missing Missing no Mi 7.1.0, Race Race no Mi 0.4.0 { #2026-11-08 }
 
 Race Race no Mi 0.4.0 needs AkumaLib 6.5.0. The network protocol is still 17, as in 6.4.0.

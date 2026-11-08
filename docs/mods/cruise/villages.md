@@ -33,7 +33,8 @@ tags:
   - mending
   - pirate village
   - revolutionary camp
-  - locate  - errand
+  - locate
+  - errand
   - exclamation mark
   - parcel
   - remarkable catch
@@ -48,11 +49,21 @@ tags:
   - hooded stranger
   - civilian start
   - theft
+  - prosperity
+  - prosperous
+  - flourishing
+  - village guard
+  - village killer
+  - vice admiral
+  - bounty hunters
+  - revival
+  - repopulation plan
+  - fine
 ---
 
 # Villages
 
-The islands are lived in. **One Piece villages** rise in five lands, each in its land's own look, each with its own name, its people and their day. They are where the [merchants](merchants-and-contracts.md) set up their stalls, where the merchant ship anchors, and where the [village events](village-events.md) happen. One place in three is larger: a walled [town](towns.md).
+The islands are lived in. **One Piece villages** rise in five lands, each in its land's own look, each with its own name, its people and their day. They are where the [merchants](merchants-and-contracts.md) set up their stalls, where the merchant ship anchors, and where the [village events](village-events.md) happen. One place in three is larger: a walled [town](towns.md). Since 0.7.0 a village can [grow into a town](#prosperity-a-village-grows) too.
 
 !!! note "Only in new land"
     Villages are part of the world's generation: they appear in land that has not been explored yet. **Villages already made keep their shape**: what 0.4.0 brings (the four new looks, the halls, the towns, the pirates' and the Revolutionaries' villages) is found in new land only. A village made before has no hall, and never passes under a flag.
@@ -244,6 +255,10 @@ These are the people of the plains. In the four other lands they dress for the p
 
 Pirates and bandits do not appear in the middle of a village.
 
+**Six faces for each kind** (since 0.7.0). Each kind of villager - fishermen, farmers, guards, heads, innkeepers, bankers, children and the rest - has six faces in each of the five lands, so two neighbours rarely look alike. A town's arena masters and nobles have six faces each too. Villagers already in a world keep the face they had.
+
+**Modified humans are turned away** (since 0.7.0). A player of [Race Race no Mi](../race-race-no-mi/index.md)'s modified humans finds no merchant to deal with, no head of a village who will talk, and no reputation for their good deeds. The inn, the warehouse, the bank and the bounty office stay open to them.
+
 ## Hands off the villagers
 
 | What you do | What it costs |
@@ -261,6 +276,10 @@ A player whose faction has no bounty, a Marine, loses loyalty instead. The civil
 - A death that follows your blow by a moment (a fall, a fire, your own animals) is counted as yours.
 - A crime in a village that flies your own group's flag also costs it some of its [loyalty](village-flags.md#loyalty).
 
+**A crime tells what it cost** (since 0.7.0): striking or killing a villager says how much your bounty went up, or your Marine loyalty went down, and how much reputation you lost.
+
+**Fighting back is no crime** (since 0.7.0). When a mob of any mod attacks you first in a village, the blocks your fruit's attacks break while you fight it, and the villagers and guards they catch, cost you nothing for half a minute after its last blow. The village rebuilds the blocks as usual. Blocks you break by hand and villagers you punch still count.
+
 While a village is **closed** to you, its people refuse to talk, its merchants do not trade with you and its notice board will not deal with you. A closed town also has no room for you at its inn, takes nothing from you at its warehouse and closes the stall you rent in its market hall, and its guards go for you on sight. Sitting in a moored boat at the pier costs nothing; rowing it away does.
 
 ## Villages mend themselves
@@ -272,7 +291,7 @@ A village can be damaged, and recovers. Whatever broke it (an ability, an explos
 - **Breaking them by hand is a crime.** The first two blocks in a day are warnings; the third closes the village to you and raises your bounty, as striking a villager does.
 - **A village whose people were all killed no longer mends**: its ruins stay.
 
-A server chooses what happens to its villages' blocks with `villageDamage`, under `villages` in `config/inocruise-common.toml`:
+A server chooses what happens to its villages' blocks with `villageDamage`, under `villages` in the world's `serverconfig/inocruise-server.toml` (in `config/inocruise-common.toml` before 0.7.0):
 
 | Value | What it does |
 |---|---|
@@ -359,10 +378,13 @@ Since 0.6.0 every village and town keeps a **reputation** for each player, in se
 | **Hero** | 300 and above | stalls 15 % cheaper, errands pay 20 % more, the largest loan |
 
 - **Where you start.** A civilian, a Marine, a Bounty Hunter or a Revolutionary starts every village at **Liked** (100); a pirate at **Distrusted** (-100).
-- **What raises it.** An errand +10, an order +5, a raid beaten off +40, a plot bought +15, each man of a bounty hunt +10, and +1 for every 1,000 Belly you sell there.
+- **What raises it.** An errand +10, an order +5, a [warehouse](towns.md#the-warehouse) order +15 (shared by the pieces each player brought), a [wanted notice](#the-notice-board)'s captain brought down +40, a raid beaten off +40, your first plot bought in a town +15, each man of a bounty hunt +10, and +1 for every 1,000 Belly you sell there.
 - **What lowers it.** Taking from a chest -20, a blow on one of its people -15, a death -60, a guard's death -100.
 - **Hero** of a village earns the title **Village Hero**.
-- **It spreads.** Your crew gets a quarter of each change, and the villages within 1,000 blocks a tenth. A bad name fades by one step every 30 days.
+- **It spreads.** Your crew gets a quarter of each good deed, but none of your wrongs: since 0.7.0 each player answers for their own. The villages within 1,000 blocks get a tenth of either. A bad name fades by one step every 30 days.
+- **You are told** (since 0.7.0): a line on your screen says "Reputation +10 at" the village, and the chat tells you when you become Liked, Hated and so on.
+- **A way back for the hated** (since 0.7.0). A village that hates you, or calls you its sworn enemy, takes a **fine** at its town hall: **100 Belly for each point** that brings you back to Unknown. Its errands stay open to you too, and each one done raises you as usual. A Sworn Enemy with empty hands can walk to the town hall: the guards let them come. Draw a weapon or strike, and they come for you again.
+- **Your plot stays yours.** Whatever the town thinks of you, even while it is closed to you for a crime, its head still talks to you about your plot and your fine.
 
 ## Marines
 
@@ -381,13 +403,85 @@ Since 0.4.1 **no monster spawns in a living village or town**: by night or in a 
 
 **New inhabitants.** A village does not stay empty after a death. Three days later, at dawn, someone new moves into the house: a fisherman after a fisherman, a child after a child, a musician at the tavern again, a new head at the hall. They only arrive while nobody is looking. The farm's animals and the cat or dog of the square come back the same way.
 
-**A village can die.** Kill all the people of a village but one, before anyone new has moved in, and the village is dead for good:
+**A village can die.** Kill all the people of a village but one, before anyone new has moved in, and the village is dead, until it [lives again](#a-dead-village-lives-again):
 
-- nobody comes to live there again, and the last inhabitant leaves at dawn;
+- nobody comes to live there, and the last inhabitant leaves at dawn;
 - the travelling merchants and the merchant ship stay away, and its notice board is closed;
 - its name comes up in grey, as an abandoned village;
 - it no longer mends, its mast stands bare, and a flag that flew over it comes down;
-- everyone on the server is told, and the killers share a very large bounty: **25,000 Belly for each inhabitant the village had**, split by how many each of them killed.
+- everyone on the server is told, and the killers share a very large bounty: **25,000 Belly for each inhabitant the village had**, split by how many each of them killed; since 0.7.0 that bounty [climbs with each village](#village-killers-are-hunted).
+
+## A dead village lives again
+
+Since 0.7.0 a dead village does not stay a ruin.
+
+- **With time**: **7 days** after it died, people move back in by themselves.
+- **Paid for**: at the dead village's notice board, a player **Liked or better** by a living village within 1,000 blocks can pay **2,000 Belly for each of its people** to bring it back. It counts as a good deed.
+- **The Carpenter's repopulation plan**: made at the Shipyard at Carpenter level 30, and laid in a dead village. It says why when it is refused: on open ground, or on a server where villages are not brought back.
+
+Its people come back **one each dawn**, the head first, and the village mends its broken blocks as usual. A block of yours standing where it had another stays.
+
+See [Configuration](configuration.md#revival).
+
+## Prosperity: a village grows
+
+Since 0.7.0 every village has a **prosperity**, in points. Treat it well and it grows, building by building, into a walled town; harm it and it falls back.
+
+| What happens | Points |
+|---|---|
+| A day nobody harms it | +1 |
+| 1,000 Belly of trade with its merchants and stalls | +1 |
+| An order or an errand done there | +5 |
+| A raid beaten back | +10 |
+| 500 Belly given at its town hall | +1 |
+| A blow on one of its people | -5 |
+| One of its blocks broken by hand | -1 |
+| A raid lost | -20 |
+| A murder | a whole step down |
+
+**Four steps.**
+
+| Step | From | What it brings |
+|---|---|---|
+| **Modest** | 0 | where a village starts |
+| **Prosperous** | 30 | new houses with their people, and a barracks with its guards |
+| **Flourishing** | 80 | the workshops of the trades it lacks, an inn, a warehouse and a market hall |
+| **Town** | 150 | walls, a bank, a bounty office, a colosseum and plots for sale: see [Towns](towns.md) |
+
+- **Built before your eyes.** Each new building rises block by block over a day, one at a time, on the free land round the village, as the town plan has it.
+- **Nothing of yours is torn down.** A building waits while something of yours stands on its spot, and skips a spot in the sea or on a cliff. The walls follow the ground and only fill air and leaves: where a tree trunk or a block of yours stands on their line, they leave a gap.
+- **A town that falls back** under 150 points is a village again by name. Its bank, inn, warehouse, market hall, colosseum and bounty office close and their keepers leave, its barracks' guards too, and nothing new is built until it climbs back. Nothing is destroyed.
+- **See how it is doing.** Its step shows when you walk in ("Fuchsia - prosperous village"), and the head's window has a page with a bar to the next step and a box to **give Belly**.
+- **New worlds make towns as before**, at 150 points. In a world played with 0.6.1, towns start as towns and villages at 0.
+
+Every number here, and the whole system, is a setting of the world: see [Configuration](configuration.md#prosperity).
+
+## A village defends itself
+
+Since 0.7.0:
+
+- **Guards of its own.** Every village has **2 guards**, and a town 2 more beside its barracks' own, posted round the square. One who dies is back three days later, like any villager. In a world played with 0.6.1, each village gets its two guards the first time a player comes near it.
+- **The Marines come to help.** When a player kills a villager and a Marine post or base stands within **1,000 blocks**, **4 soldiers and a captain** land at the edge of the village **30 seconds** later and go for the killer. Once a day per village. Nobody comes in a peaceful world.
+- **Villagers run.** A frightened villager far from home runs away from the attacker, out of the village, and comes back when the fright is over.
+
+See [Configuration](configuration.md#defence) to change or turn this off.
+
+## Village killers are hunted
+
+Since 0.7.0 wiping out villages is punished harder.
+
+- **A bounty that climbs.** Each village you help wipe out within **30 days** of the last one doubles your part of its bounty again: x1, x2, x4... After 30 days with none, the count falls back to zero. The whole server is told. The bounty stops at the highest Mine Mine no Mi allows.
+- **Banned from the towns.** Every living village within **1,000 blocks** of the dead one closes to you for **30 days**.
+- **Someone comes for you**, from your **second** village on, at the next dusk, out of any village: either the Marines' **vice admiral** with his squad, or **bounty hunters**, drawn each time.
+    - The hunters come 3 times in 10, and 1 time in 10 more for each 10 million Belly of your bounty, up to 8 in 10. A Marine player always gets the hunters.
+    - Under 10 million Belly, two hunters come; up to 50 million, three hunters and a seasoned one; above that, a veteran with Haki and two seasoned hunters.
+    - The vice admiral's squad grows with each village after that, up to twelve men; past that it gets stronger ranks instead: brutes, snipers, then captains.
+    - They follow you for a day, and come back when you log in again. When the hunt ends while you are far away or in another dimension, the whole squad leaves.
+    - Beaten by a player or a crewmate, each hunter leaves Belly, and sometimes his weapon.
+- **No hiding behind your side.** A Marine or a civilian who wiped out villages is fought for real by those sent after them. A Marine who kills the hunters or the Marines sent after them loses no Marine loyalty for it.
+- **A Bounty Hunter player** sees at the [bounty office](towns.md#the-bounty-office) who is hunted.
+
+See [Configuration](configuration.md#punishment).
 
 ## Finding one
 
@@ -407,3 +501,31 @@ Since 0.4.1 **no monster spawns in a living village or town**: by night or in a 
 | `/cruise locate adam_tree` | the nearest Adam tree |
 
 The answer gives the place's name, where it is and how far; click the coordinates to go there. A rare kind is far: the search may take a minute, and the server goes on meanwhile.
+
+## Commands for operators
+
+Since 0.7.0 `/cruise` has commands to test things without waiting (operators, permission level 2). A village left out is the one you stand in, and a player left out is you; `<set/add>` means one word or the other.
+
+| Command | What it does |
+|---|---|
+| `/cruise village info [village] [player]` | a village and a player in it |
+| `/cruise village reputation <set/add> <points/step> <value> [village] [player]` | a player's reputation there, in points or in steps |
+| `/cruise village keepers respawn [village]` | the keepers put back |
+| `/cruise village event <kind> [village]` | an event started now: `raid`, `assault`, `distress`, `feast`, `fever`, `concert`, `swordsmith` or `tournament` |
+| `/cruise village prosperity show [village]` | its [prosperity](#prosperity-a-village-grows) |
+| `/cruise village prosperity <set/add> <points> [village]` | its prosperity changed |
+| `/cruise village prosperity step up [village]` | to the start of the next step |
+| `/cruise village prosperity build [village]` | the next building its step brings, whole, now |
+| `/cruise bank balance set <amount> [player]` | an account's balance |
+| `/cruise bank loan set <amount> [player]`, `/cruise bank loan clear [player]` | a loan from the town you stand in |
+| `/cruise bank box set <size> [player]`, `/cruise bank box lock [player]` | a deposit box of 9, 18 or 27 squares |
+| `/cruise bank week` | the addon's clock a week on, and the bank's turn at once |
+| `/cruise prices <show/reset> [village]` | a village's regional prices and gluts |
+| `/cruise blackmarket box [village]` | the black market's Devil Fruit box |
+| `/cruise trade level set <trade> <level> [player]` | a trade's level |
+| `/cruise trade xp add <trade> <amount> [player]` | trade XP, as if earned |
+| `/cruise collection fill <kind> [player]` | a [collection](bestiary-and-logbook.md) filled: `herbs`, `minerals`, `woods`, `dishes` or `tunes` |
+| `/cruise clock <day/week> advance` | the addon's clock a day or a week on (the hour stays the world's) |
+| `/cruise arena tier set <tier> [player]` | a player's tier at the colosseum of the town you stand in (0 clears) |
+
+`/cruise locate` is told [above](#for-operators-cruise-locate).

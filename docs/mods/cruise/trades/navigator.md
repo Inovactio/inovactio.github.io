@@ -175,7 +175,7 @@ Every 5 Navigator levels give you a **talent point** (10 at level 50, 20 at leve
 | Thrifty pen 1 | small, start | 3% more of the Sea Charts you draw are not used up | Tidy table 2, Thrifty pen 2, Pathfinder |
 | Keen eye 2 | small | Your Log Pose looks 10% further | Keen eye 1, Apprentice 1, Quick Bearings |
 | Thrifty pen 2 | small | 3% more of the Sea Charts you draw are not used up | Thrifty pen 1, Keen eye 1, Spare Paper |
-| ![](../icons/log_pose.png){ .item-icon }Long Sight | **major** | Your Log Pose looks twice as far | Keen eye 1, Keen eye 3, Fighting Navigator 1, Thunder Call |
+| ![](../icons/log_pose.png){ .item-icon }Long Sight | **major** | Your Log Pose looks twice as far | Keen eye 1, Keen eye 3, Fighting Navigator 1 |
 | Tidy table 1 | small | 2% more of your work at the Chart Table gives an ingredient back | Apprentice 1, Apprentice 2, Trade Winds |
 | ![](../icons/sea_chart.png){ .item-icon }Navigator's Notes | **major** | You earn 15% more Navigator XP | Apprentice 1, Apprentice 3, Tidy table 3, Fighting Navigator 2 |
 | Tidy table 2 | small | 2% more of your work at the Chart Table gives an ingredient back | Apprentice 2, Thrifty pen 1, Fighting Navigator 3 |
@@ -184,8 +184,7 @@ Every 5 Navigator levels give you a **talent point** (10 at level 50, 20 at leve
 | ![](../icons/barometer.png){ .item-icon }Quick Bearings | **major** | Your Log Pose and Sea Charts wait half as long | Keen eye 2, Keen eye 3, Apprentice 3 |
 | Spare Paper | **major** | 25% of the Sea Charts you draw are not used up | Thrifty pen 2, Thrifty pen 4, Fighting Navigator 1 |
 | Keen eye 3 | small | Your Log Pose looks 10% further | Long Sight, Quick Bearings |
-| Fighting Navigator 1 | small | Your Navigator abilities hit 5% harder | Spare Paper, Long Sight |
-| Thunder Call | **ability** | Lightning on the foe you look at. Gives the ability **Thunder Call** | Long Sight |
+| Fighting Navigator 1 | small | Your Navigator abilities hit 5% harder | Spare Paper, Long Sight, Thunder Call |
 | ![](../icons/masters_sail.png){ .item-icon }Trade Winds | **major** | The boats you steer make a little more way again | Tidy table 1, Tidy table 3, Apprentice 4 |
 | Apprentice 3 | small | You earn 5% more Navigator XP | Quick Bearings, Navigator's Notes |
 | Tidy table 3 | small | 2% more of your work at the Chart Table gives an ingredient back | Navigator's Notes, Trade Winds |
@@ -197,6 +196,7 @@ Every 5 Navigator levels give you a **talent point** (10 at level 50, 20 at leve
 | Thrifty pen 3 | small | 3% more of the Sea Charts you draw are not used up | Fighting Navigator 3, Pathfinder |
 | Thrifty pen 4 | small | 3% more of the Sea Charts you draw are not used up | Pathfinder, Spare Paper |
 | Fighting Navigator 5 | small | Your Navigator abilities hit 5% harder | Pathfinder, Mirage |
+| Thunder Call | **ability** | Lightning on the foe you look at. Gives the ability **Thunder Call** | Fighting Navigator 1 |
 | Gust | **ability** | A gust that hurts and blows back the foes in front of you. Gives the ability **Gust** | Fighting Navigator 2 |
 | Mirage | **ability** | You vanish and the foes after you lose you. Gives the ability **Mirage** | Fighting Navigator 5 |
 
@@ -210,7 +210,7 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 |---|---|---|---|---|---|
 | **Thunder Call** | Call lightning on the enemy you look at within 16 blocks. It starts no fire | a Barometer in your bag | 15 s | 30 | 16 blocks |
 | **Gust** | Blow a gust before you. Every enemy in front of you within 8 blocks is hit and blown far back | a Barometer in your bag | 10 s | 20 | 8 blocks |
-| **Mirage** | Vanish for 5 seconds. The creatures after you lose you | a Barometer in your bag | 30 s | — | — |
+| **Mirage** | Vanish for 5 seconds. The creatures around you lose you and cannot find you again while you are hidden | a Barometer in your bag | 30 s | — | — |
 
 #### Their moves
 

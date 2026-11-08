@@ -14,9 +14,9 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **1.0.1** |
+| Version documented | **1.0.2** |
 | Mod id | `inosky` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island) · [1.0.2](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island/files/9517075) · [changelog](changelog.md) |
 | Languages | English, French |
 
 !!! note "Worlds"
@@ -27,9 +27,9 @@ tags:
 | Mod | Version |
 |---|---|
 | Minecraft | 1.20.1 |
-| Forge | 47 or later |
-| [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 |
-| [AkumaLib](../../akumalib/index.md) | 4.7.0 or later |
+| Forge | **47.4.2** or later |
+| [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6: an older one is refused at start, with its name |
+| [AkumaLib](../../akumalib/index.md) | **6.5.0** or later |
 
 Client **and** server.
 
@@ -59,4 +59,7 @@ Skypiea sits **above the overworld's deep oceans** and nowhere else: its islands
 - **Worldgen mods**: Skypiea reads the overworld's own biomes to find the deep oceans (`minecraft:is_deep_ocean`) and changes nothing in the overworld beyond the geyser. Checked with **Terralith** and with **TerraBlender + Biomes O' Plenty**: geysers and islands appear as usual.
 - **Fishing mods**: a fishing rod works in the cloud sea, and what is caught is left to the game's own table or to any mod that listens to the fishing event. The cloud sea is still not water: it does not weaken a Devil Fruit user.
 - **Biome tags**, for other mods and datapacks: `inosky:is_skypiea`, `inosky:is_cloud_sea`, `inosky:is_angel_island`, `inosky:is_upper_yard`.
-- **[Valkyrien Skies 2](https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies)** (optional, 2.4.11 or later): a ship sailed into an erupting Knock-Up Stream rises to Skypiea **with its crew**, lands on open cloud sea and floats on it. A ship that falls out of Skypiea goes back to the overworld with its crew — and **needs a balloon octopus**, clicked on any block of the ship, just as a boat does: without one it falls at full speed and everyone aboard takes the [hard landing](getting-there.md#the-way-back) (the ship itself stays whole). Anybody seated at the helm arrives standing on the deck. Sky Island never requires Valkyrien Skies.
+- **Item tag `inosky:dials`** (since 1.0.2), for other mods, modpacks and datapacks: every dial, Sky Island's eight and Mine Mine no Mi's eight. Others can add theirs: [Cruise Cruise no Mi](../cruise/index.md) 0.7.0 adds its Thunder, Jet and Tone Dials, and its [Dial Tinkerer](../cruise/traits.md#traits-of-the-sky) trait keeps a used dial of the tag one time in five.
+- **Machines of other mods** (block breakers and the like) breaking a block or opening a chest do not raise the alarm in Birka or a Shandia camp.
+- **A future Mine Mine no Mi update** that moves what Sky Island hooks into for its Ordeals does not stop the game: that part is skipped and named in the log.
+- **[Valkyrien Skies 2](https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies)** (optional, 2.4.11 or later): a ship sailed into an erupting Knock-Up Stream rises to Skypiea **with its crew**, lands on open cloud sea and floats on it. A ship that falls out of Skypiea goes back to the overworld with its crew — and **needs a balloon octopus**, clicked on any block of the ship, just as a boat does: without one it falls at full speed and everyone aboard takes the [hard landing](getting-there.md#the-way-back) (the ship itself stays whole). Anybody seated at the helm arrives standing on the deck. If Valkyrien Skies runs into an error, Sky Island turns its ship support off with one warning instead of breaking. Sky Island never requires Valkyrien Skies.

@@ -51,7 +51,7 @@ When you log in, the Belly your lots earned while you were away is paid at once 
 
 ## For Merchants
 
-A player who practises the [Merchant](trades/merchant.md) trade pays a lower fee and may have more lots up, for longer. From level 1 they also see **"Avg. lately"**: the average price per item of the last 20 sales of that kind. Every lot of theirs that sells pays 1 Merchant XP per 10 Belly of its price (if they are offline, when they next log in or collect).
+A player who practises the [Merchant](trades/merchant.md) trade pays a lower fee and may have more lots up, for longer. From level 1 they also see **"Avg. lately"**: the average price per item of the last 20 sales of that kind. Every lot of theirs that sells pays Merchant XP as a sale to a merchant does, piece by piece, on its price but never on more than a merchant would pay for it (if they are offline, when they next log in or collect).
 
 With the default settings:
 

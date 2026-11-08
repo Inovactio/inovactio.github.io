@@ -156,19 +156,19 @@ Every 5 Musician levels give you a **talent point** (10 at level 50, 20 at level
 | Long breath 2 | small | Your tunes last 5% longer | Long breath 1, Quick Fingers |
 | Apprentice 1 | small | You earn 5% more Musician XP | Long Notes, Musician's Notes |
 | Fighting Musician 3 | small | Your Musician abilities hit 5% harder | Long Notes, Reprise |
-| ![](../icons/violin.png){ .item-icon }Quick Fingers | **major** | You play a tune in 2 seconds and not 3 | Long breath 2, Long breath 3 |
+| ![](../icons/violin.png){ .item-icon }Quick Fingers | **major** | You play a tune in 2 seconds and not 3 | Long breath 2, Dissonance |
 | ![](../icons/sea_chart.png){ .item-icon }Musician's Notes | **major** | You earn 15% more Musician XP | Apprentice 1, Apprentice 2 |
 | Reprise | **ability** | The tune on you starts again for you and your crew with no score. Gives the ability **Reprise** | Fighting Musician 3 |
-| Long breath 3 | small | Your tunes last 5% longer | Quick Fingers, Apprentice 3 |
+| Dissonance | **ability** | A chord that hurts and weakens every foe around you. Gives the ability **Dissonance** | Quick Fingers, Apprentice 3 |
 | Apprentice 2 | small | You earn 5% more Musician XP | Musician's Notes, Crowd Pleaser |
-| Apprentice 3 | small | You earn 5% more Musician XP | Long breath 3, Crowd Pleaser, Light Touch |
+| Apprentice 3 | small | You earn 5% more Musician XP | Dissonance, Crowd Pleaser, Light Touch |
 | ![](../icons/tone_dial.png){ .item-icon }Crowd Pleaser | **major** | Each listener pays you twice the XP | Apprentice 2, Apprentice 3, Fighting Musician 4 |
 | ![](../icons/masters_guitar.png){ .item-icon }Light Touch | **major** | 50% of the tunes you play do not wear your instrument | Apprentice 3, Steady hand 3 |
 | Fighting Musician 4 | small | Your Musician abilities hit 5% harder | Crowd Pleaser, Fighting Musician 5 |
 | Steady hand 3 | small | 2% more of the scores you play are not used up | Light Touch, Fair Copy |
-| Fighting Musician 5 | small | Your Musician abilities hit 5% harder | Fighting Musician 4, Dissonance |
+| Fighting Musician 5 | small | Your Musician abilities hit 5% harder | Fighting Musician 4, Long breath 3 |
 | Fair Copy | **major** | 20% of the scores you write come out twice | Steady hand 3, Apprentice 4, Clear voice 3 |
-| Dissonance | **ability** | A chord that hurts and weakens every foe around you. Gives the ability **Dissonance** | Fighting Musician 5 |
+| Long breath 3 | small | Your tunes last 5% longer | Fighting Musician 5 |
 | Apprentice 4 | small | You earn 5% more Musician XP | Fair Copy, Steady hand 4 |
 | Clear voice 3 | small | Your tunes carry 5% further | Fair Copy, Steady hand 4 |
 | Steady hand 4 | small | 2% more of the scores you play are not used up | Apprentice 4, Clear voice 3 |
@@ -183,7 +183,7 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 |---|---|---|---|---|---|
 | **Sour Note** | Play a note so wrong it hurts. Every enemy in front of you within 7 blocks is hit and thrown back | an instrument | 9 s | 25 | 7 blocks |
 | **Reprise** | The tune that is on you starts again at its full length for you and your crew in reach of your instrument. No score is used | an instrument | 60 s | — | — |
-| **Dissonance** | Play a chord that grates. Every enemy within 5 blocks is hurt and weakened for 5 seconds. A player or a boss half as long | an instrument | 14 s | 20 | 5 blocks |
+| **Dissonance** | Play a chord that grates. Every enemy within 5 blocks is hurt and weakened for 5 seconds. A player or a boss half as long | an instrument | 12 s | 35 | 5 blocks |
 
 #### Their moves
 

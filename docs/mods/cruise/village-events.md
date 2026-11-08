@@ -151,14 +151,14 @@ Fish where you like while the tournament runs, then bring your best one to the j
 
 | Medal | The catch reaches | It pays |
 |---|---|---|
-| Gold | nine tenths of the way up its kind's range of sizes | 10 times its worth, in Belly and in Fisher XP |
-| Silver | three quarters | 6 times |
-| Bronze | six tenths | 3 times |
+| Gold | nine tenths of the way up its kind's range of sizes | 1,000 Belly and 100 more for each of your Fisher levels up to 50: 1,100 at level 1, 6,000 at 50; 10 times the catch's Fisher XP |
+| Silver | three quarters | six tenths of the gold's Belly (660 to 3,600); 6 times the Fisher XP |
+| Bronze | six tenths | three tenths of the gold's Belly (330 to 1,800); 3 times the Fisher XP |
 
 - His window gives the sizes in **centimetres**, tells what the catch in your hand would take, and shows the biggest catch measured so far.
 - He **hands the catch back** and pays at once.
 - **Only a catch you landed yourself since the tournament began counts**: its tooltip says so.
-- **One weigh-in** for each angler: pick your best.
+- **One weigh-in** for each angler: pick your best. If your purse cannot hold the prize, the judge does not measure your catch yet: make room and come back, your weigh-in is still yours.
 - The Fisher XP is for those who practise the trade; the medal and its Belly are for anyone.
 - The gold gives a title: **Golden Hook**.
 
