@@ -4,6 +4,10 @@ tags:
   - saw-shark
   - ray
   - garfish
+  - octopus
+  - whale-shark
+  - pufferfish
+  - hammerhead
   - swim
 ---
 
@@ -11,11 +15,11 @@ tags:
 
 ![](abilities/fishman-body.png){ .mod-icon }
 
-The base mod's fishmen and their three sub-races, **Saw-shark**, **Ray** and **Garfish**, made whole: a body of their own on the player, the sub-race's skin colour, and a passive for every fishman plus one per sub-race. They replace the base mod's Fishman Passive Bonuses.
+The base mod's fishmen and their three sub-races, **Saw-shark**, **Ray** and **Garfish**, made whole, and four more since 0.4.0: **Octopus**, **Whale Shark**, **Pufferfish** and **Hammerhead**. Each has a body of its own on the player, its skin colour, and a passive for every fishman plus one per sub-race. They replace the base mod's Fishman Passive Bonuses. The [Wotan](wotan.md), half giant, comes in the same seven species.
 
 | | |
 |---|---|
-| **Size** | 1.25, about 2.25 blocks high (slider about 0.94 to 1.56) |
+| **Size** | 1.25, about 2.25 blocks high (slider about 0.94 to 1.56); the Whale Shark 1.5, about 2.7 blocks |
 | **Passives** | Fishman Body, and one per sub-race |
 | **Techniques** | none added by this mod |
 
@@ -36,11 +40,33 @@ The base mod's fishmen and their three sub-races, **Saw-shark**, **Ray** and **G
 <figcaption>Garfish</figcaption>
 </figure>
 
+<figure markdown>
+![An Octopus fishman: two more arms behind the real ones](models/octopus.png)
+<figcaption>Octopus</figcaption>
+</figure>
+
+<figure markdown>
+![A Whale Shark fishman: a broad chest, white spots, a wide fin](models/whale-shark.png)
+<figcaption>Whale Shark</figcaption>
+</figure>
+
+<figure markdown>
+![A Pufferfish fishman: spines along the skin, brown spots](models/pufferfish.png)
+<figcaption>Pufferfish</figcaption>
+</figure>
+
+<figure markdown>
+![A Hammerhead fishman: the two lobes at the brow, an eye at each end](models/hammerhead.png)
+<figcaption>Hammerhead</figcaption>
+</figure>
+
 </div>
 
-In 3D: drag to turn, scroll or pinch to zoom. The buttons switch between the three sub-races.
+In 3D: drag to turn, scroll or pinch to zoom. The buttons switch between the seven sub-races.
 
 <div class="model-viewer" data-models="../models/" data-ids="fishmen"></div>
+
+Each sub-race has its own face in the character creator's book (the base mod's three too, since 0.4.0); they are shown in the table below.
 
 ## Their look
 
@@ -48,11 +74,15 @@ A fishman player wears their sub-race's features over their own skin, and the sk
 
 | Sub-race | Skin | Features |
 |---|---|---|
-| Saw-shark (Arlong's) | pale steel blue | a muzzle with a long drooping rostrum and its saw of teeth on both sides, gills, a dorsal fin in two parts curving back, small fins on the forearms |
-| Ray (Kuroobi's) | slate | broad fins along the arms that ripple as he runs, lobes at the temples, a crest, a ray's tail with its barb, swaying |
-| Garfish | sea green | two long thin jaws, gills, a dorsal fin in two parts, small fins on the forearms |
+| ![](icons/fishman-sawshark.png){ .fruit-icon } Saw-shark (Arlong's) | pale steel blue | a muzzle with a long drooping rostrum and its saw of teeth on both sides, gills, a dorsal fin in two parts curving back, small fins on the forearms |
+| ![](icons/fishman-ray.png){ .fruit-icon } Ray (Kuroobi's) | slate | broad fins along the arms that ripple as he runs, lobes at the temples, a crest, a ray's tail with its barb, swaying |
+| ![](icons/fishman-garfish.png){ .fruit-icon } Garfish | sea green | two long thin jaws, gills, a dorsal fin in two parts, small fins on the forearms |
+| ![](icons/fishman-octopus.png){ .fruit-icon } Octopus | its own colour | two more arms: the wearer's own arms drawn again behind the real ones, sleeves and the chest piece's armour too, swinging with them |
+| ![](icons/fishman-whale-shark.png){ .fruit-icon } Whale Shark | its own colour, white spots | a broad chest (12 by 6 where a man's is 8 by 4), a wide dorsal fin, three gill slits a side |
+| ![](icons/fishman-pufferfish.png){ .fruit-icon } Pufferfish | its own colour, brown spots | spines on the head, chest, back and arms, lying along the skin; they stand up for 2 s when the wearer is struck |
+| ![](icons/fishman-hammerhead.png){ .fruit-icon } Hammerhead | its own colour | the hammer: two lobes out of the head's sides with an eye at each end, gills, a tall dorsal fin |
 
-Fins, lobes, crest and tail are slabs with some thickness, and the gills small ridges on the neck. In another mod's form that has its own skin, such as Missing Missing no Mi's King Cobra hybrid, a fishman wears the form's skin, then their fishman colour again on leaving it.
+The four new sub-races are painted in their own colours, not tinted by the skin colour picked in the creator, and their spots land on the bare skin only, never on a shirt or the hair. Fins, lobes, crest and tail are slabs with some thickness, and the gills small ridges on the neck. In another mod's form that has its own skin, such as Missing Missing no Mi's King Cobra hybrid, a fishman wears the form's skin, then their fishman colour again on leaving it.
 
 The features take the skin colour picked in the character creator, if any. A slim (Alex) skin gets its arm fins moved onto its narrower arms. The pictures above are drawn on Steve's skin.
 
@@ -64,8 +94,12 @@ The features take the skin colour picked in the character creator, if any. A sli
 | ![](abilities/sawshark-body.png){ .fruit-icon } [Saw-shark Body](#saw-shark-body) | Saw-shark | +3 damage; bare-fisted blows may make the target bleed |
 | ![](abilities/ray-body.png){ .fruit-icon } [Ray Body](#ray-body) | Ray | +1 toughness; bare-handed: +2 damage, +25 % attack speed |
 | ![](abilities/garfish-body.png){ .fruit-icon } [Garfish Body](#garfish-body) | Garfish | swim speed +100 % more (x4 in all) |
+| ![](abilities/octopus-body.png){ .fruit-icon } [Octopus Body](#octopus-body) | Octopus | +30 % attack speed, armed or not |
+| ![](abilities/whale-shark-body.png){ .fruit-icon } [Whale Shark Body](#whale-shark-body) | Whale Shark | +2 toughness, +4 health; size 1.5 |
+| ![](abilities/pufferfish-body.png){ .fruit-icon } [Pufferfish Body](#pufferfish-body) | Pufferfish | a close attacker takes 2 damage, poisoned one time in four |
+| ![](abilities/hammerhead-body.png){ .fruit-icon } [Hammerhead Body](#hammerhead-body) | Hammerhead | +2 damage, blows push 50 % further |
 
-A fishman with no sub-race holds Fishman Body alone. The base mod's fishman NPCs (Arlong, Kuroobi, Chew...) carry their sub-race's passive too.
+Each sub-race's page in the character creator shows Fishman Body first, then its own passive. A fishman with no sub-race holds Fishman Body alone. The base mod's fishman NPCs (Arlong, Kuroobi, Chew...) carry their sub-race's passive too.
 
 ### Fishman Body { #fishman-body }
 
@@ -112,3 +146,47 @@ The swiftest of the fishmen in the water.
 | Stat | Value |
 |---|---|
 | Swim speed | +100 %, on top of Fishman Body's: x4 against the other fishmen's x3 |
+
+### Octopus Body { #octopus-body }
+
+![](abilities/octopus-body.png){ .ability-icon } *Passive, Octopus*
+
+The user's six arms strike faster, armed or not.
+
+| Stat | Value |
+|---|---|
+| Attack speed | +30 % |
+
+### Whale Shark Body { #whale-shark-body }
+
+![](abilities/whale-shark-body.png){ .ability-icon } *Passive, Whale Shark*
+
+The user is the biggest of the fishmen, sturdier and harder to bring down. They swim as fast as the other fishmen.
+
+| Stat | Value |
+|---|---|
+| Size | 1.5, about 2.7 blocks high (set with the sub-race) |
+| Toughness | +2 |
+| Health | +4 |
+
+### Pufferfish Body { #pufferfish-body }
+
+![](abilities/pufferfish-body.png){ .ability-icon } *Passive, Pufferfish*
+
+The user's spines prick whoever strikes them up close, and now and then poison them.
+
+| Stat | Value |
+|---|---|
+| Damage to a close attacker | 2, for each blow struck by hand or with a held weapon (not arrows nor bursts) |
+| Poison | one time in four, 3 s |
+
+### Hammerhead Body { #hammerhead-body }
+
+![](abilities/hammerhead-body.png){ .ability-icon } *Passive, Hammerhead*
+
+The user's blows hit harder and throw the target further back.
+
+| Stat | Value |
+|---|---|
+| Damage | +2 |
+| Knockback | +50 %, for blows struck by hand or with a held weapon |

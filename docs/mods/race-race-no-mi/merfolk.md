@@ -17,7 +17,7 @@ tags:
 | **Size** | Mermaid 1, Great Merfolk 1.25 |
 | **Sub-races** | Mermaid, Great Merfolk |
 | **Passive** | Merfolk Body, and one more for each sub-race |
-| **Techniques** | 6 |
+| **Techniques** | 7 |
 | **In the abilities menu** | ![](icons/merfolk-abilities.png){ .fruit-icon } their own category |
 
 <!-- bodies -->
@@ -101,7 +101,7 @@ The user is bigger than other merfolk, as big as a fishman, and sturdier.
 
 ## Techniques
 
-In the abilities tree, a branch only merfolk see: Undertow first, then Tail Sweep and Sea Escort, then Siren Song and Princely Fist, then Trident Assault. Each one has its own pose and water effects; the trident is drawn as one.
+In the abilities tree, a branch only merfolk see: Undertow first, then Tail Sweep and Sea Escort, then Siren Song and Princely Fist, then Trident Assault and Ultramarine. Each one has its own pose and water effects; the trident is drawn as one.
 
 !!! note "About the values"
     Damage is what the target really loses, in health points (2 = one heart), and ranges are in blocks, for a body of size 1. Cooldowns and times are in seconds. Sizes: [Your size](index.md#your-size).
@@ -114,6 +114,7 @@ In the abilities tree, a branch only merfolk see: Undertow first, then Tail Swee
 | ![](abilities/siren-song.png){ .fruit-icon } [Siren Song](#siren-song) | 3,000 Doriki, 5 martial arts points | Tail Sweep |
 | ![](abilities/princely-fist.png){ .fruit-icon } [Princely Fist](#princely-fist) | 2,000 Doriki, 3 martial arts points | Tail Sweep |
 | ![](abilities/trident-throw.png){ .fruit-icon } [Trident Assault](#trident-assault) | 3,500 Doriki, 5 martial arts points | Princely Fist |
+| ![](abilities/ultramarine.png){ .fruit-icon } [Merman Combat: Ultramarine](#ultramarine) | 3,000 Doriki, 4 martial arts points | Princely Fist |
 
 ### Undertow { #undertow }
 
@@ -191,6 +192,20 @@ With the **Alt key** it is **Trident Thrust**: the user thrusts straight ahead a
 | Cooldown | 12 s | 12 s |
 | Damage | 10, 15 with a trident in hand | 14, 21 with a trident in hand |
 | Range | up to 30 blocks | 6 blocks (line) |
+
+### Merman Combat: Ultramarine { #ultramarine }
+
+![](abilities/ultramarine.png){ .ability-icon } *Active, merfolk, since 0.4.0*
+
+Fukaboshi's technique. The user takes the water in their hands for half a second, then hurls it ahead in one narrow torrent that throws enemies far away. Further and stronger in the water. It does not slow: that is Undertow's.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 12 s |
+| Cast | 0.5 s |
+| Damage | 14 |
+| Range | 14 blocks on land, 21 in the water (a narrow cone) |
+| Push | hard, twice as hard in the water |
 
 <!-- animations -->
 ??? example "Animations"

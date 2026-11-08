@@ -7,7 +7,7 @@ tags:
 
 # All techniques
 
-Every technique of the 10 races in one table: **click a column** to sort it, **type in the box** to keep only the rows that match. Values are those of each race's page: damage is what the target really loses, for a body of size 1, except the Tontatta and the Lunarians, at their own size. A suit's techniques, listed in short on the Modified Humans page, have the values of their tooltip in game. A technique with an Alt mode shows each mode's value, separated by `/`.
+Every technique of the races in one table (the Wotan's are the giants'): **click a column** to sort it, **type in the box** to keep only the rows that match. Values are those of each race's page: damage is what the target really loses, for a body of size 1, except the Tontatta and the Lunarians, at their own size. A suit's techniques, listed in short on the Modified Humans page, have the values of their tooltip in game. A technique with an Alt mode shows each mode's value, separated by `/`.
 
 <input class="table-filter" type="search" placeholder="Filter by technique, race or type" aria-label="Filter the techniques">
 
@@ -32,10 +32,13 @@ Every technique of the 10 races in one table: **click a column** to sort it, **t
 | ![](abilities/sawshark-body.png){ .ability-mini }[Saw-shark Body](fishmen.md#saw-shark-body) | [Fishmen](fishmen.md) | Passive | given with the race |  |  |  | +3 |  |
 | ![](abilities/ray-body.png){ .ability-mini }[Ray Body](fishmen.md#ray-body) | [Fishmen](fishmen.md) | Passive | given with the race |  |  |  | +2, with an empty main hand |  |
 | ![](abilities/garfish-body.png){ .ability-mini }[Garfish Body](fishmen.md#garfish-body) | [Fishmen](fishmen.md) | Passive | given with the race |  |  |  |  |  |
+| ![](abilities/octopus-body.png){ .ability-mini }[Octopus Body](fishmen.md#octopus-body) | [Fishmen](fishmen.md) | Passive | given with the race |  |  |  |  |  |
+| ![](abilities/whale-shark-body.png){ .ability-mini }[Whale Shark Body](fishmen.md#whale-shark-body) | [Fishmen](fishmen.md) | Passive | given with the race |  |  |  |  |  |
+| ![](abilities/pufferfish-body.png){ .ability-mini }[Pufferfish Body](fishmen.md#pufferfish-body) | [Fishmen](fishmen.md) | Passive | given with the race |  |  |  | 2, for each blow struck by hand or with a held weapon (not arrows nor bursts) |  |
+| ![](abilities/hammerhead-body.png){ .ability-mini }[Hammerhead Body](fishmen.md#hammerhead-body) | [Fishmen](fishmen.md) | Passive | given with the race |  |  |  | +2 |  |
 | ![](abilities/human-will.png){ .ability-mini }[Human Will](humans.md#human-will) | [Humans](humans.md) | Passive | given with the race |  |  |  |  |  |
 | ![](abilities/elbaf-pride.png){ .ability-mini }[Pride of Elbaf](giants.md#elbaf-pride) | [Giants](giants.md) | Passive | given with the race |  |  |  | +25 % |  |
 | ![](abilities/shoulder-carry.png){ .ability-mini }[Shoulder Carry](giants.md#shoulder-carry) | [Giants](giants.md) | Passive | given with the race |  |  |  |  |  |
-| ![](abilities/wotan-body.png){ .ability-mini }[Wotan Body](giants.md#wotan-body) | [Giants](giants.md) | Passive | given with the race |  |  |  |  |  |
 | ![](abilities/ancient-blood.png){ .ability-mini }[Ancient Blood](giants.md#ancient-blood) | [Giants](giants.md) | Passive | given with the race |  |  |  |  |  |
 | ![](abilities/giant-stomp.png){ .ability-mini }[Stomp](giants.md#stomp) | [Giants](giants.md) | Active | 500 Doriki, 2 martial arts points | 10 s |  |  | 4 | 4 blocks around |
 | ![](abilities/giant-grip.png){ .ability-mini }[Giant's Grip](giants.md#giants-grip) | [Giants](giants.md) | Active | 1,500 Doriki, 3 martial arts points | 15 s |  | up to 5 s | 10, when the thrown body slams into something |  |
@@ -84,6 +87,7 @@ Every technique of the 10 races in one table: **click a column** to sort it, **t
 | ![](abilities/sea-escort.png){ .ability-mini }[Sea Escort](merfolk.md#sea-escort) | [Merfolk](merfolk.md) | Active | 1,500 Doriki, 3 martial arts points | 25 s |  | 30 s |  | 6 blocks around |
 | ![](abilities/princely-fist.png){ .ability-mini }[Princely Fist](merfolk.md#princely-fist) | [Merfolk](merfolk.md) | Active | 2,000 Doriki, 3 martial arts points | 11 s |  |  | 12 |  |
 | ![](abilities/trident-throw.png){ .ability-mini }[Trident Assault](merfolk.md#trident-assault) | [Merfolk](merfolk.md) | Active | 3,500 Doriki, 5 martial arts points | 12 s / 12 s |  |  | 10, 15 with a trident in hand / 14, 21 with a trident in hand | up to 30 blocks / 6 blocks (line) |
+| ![](abilities/ultramarine.png){ .ability-mini }[Merman Combat: Ultramarine](merfolk.md#ultramarine) | [Merfolk](merfolk.md) | Active | 3,000 Doriki, 4 martial arts points | 12 s | 0.5 s |  | 14 | 14 blocks on land, 21 in the water (a narrow cone) |
 | ![](abilities/modified-body.png){ .ability-mini }[Modified Body](modified-humans.md#modified-body) | [Modified Humans](modified-humans.md) | Passive | given with the race |  |  |  |  |  |
 | ![](abilities/raid-suit.png){ .ability-mini }[Raid Suit](modified-humans.md#raid-suit) | [Modified Humans](modified-humans.md) | Passive | given with the race |  |  |  |  |  |
 | ![](abilities/unsociable.png){ .ability-mini }[Unsociable](modified-humans.md#unsociable) | [Modified Humans](modified-humans.md) | Passive | given with the race |  |  |  |  |  |

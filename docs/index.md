@@ -2,8 +2,8 @@
 
 Player wikis and developer documentation for Inovactio's Minecraft mods. All of them are addons for [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod), on **Minecraft 1.20.1** with **Forge**.
 
-!!! tip "New on 2026-11-06"
-    Missing Missing no Mi 7.0.0 (four new fruits, seventeen with new models), Race Race no Mi 0.3.0 (Buccaneers, merfolk, modified humans) and AkumaLib 6.4.0: [what's new](whats-new.md).
+!!! tip "New on 2026-11-08"
+    Missing Missing no Mi 7.1.0 (six fruits made new, the Kote Kote no Mi rebuilt), Race Race no Mi 0.4.0 (the Wotan, four new fishmen) and AkumaLib 6.5.0 (fairer NPC bounties): [what's new](whats-new.md).
 
 <div class="grid cards" markdown>
 
@@ -51,7 +51,7 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     ---
 
-    The races of One Piece: sky people, fishmen, humans, giants, Oni, Tontatta, Lunarians, Buccaneers, merfolk and modified humans, each with its own body, passive and techniques.
+    The races of One Piece: sky people, fishmen, humans, giants, Wotan, Oni, Tontatta, Lunarians, Buccaneers, merfolk and modified humans, each with its own body, passive and techniques.
 
     **Needs:** Mine Mine no Mi, AkumaLib
 

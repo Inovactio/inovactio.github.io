@@ -38,6 +38,15 @@ AkumaFishmen.declare(MyEntities.SHARK_GUARD, AkumaFishmen.Look.SAWSHARK);  // an
 
 An addon's sub-race of any main race gets a look with `AkumaFishmen.declareSubRace(id, look)`; `Look.WOTAN` is an orange dorsal fin and nothing else, for a fishman-giant hybrid.
 
+Four more looks, Race Race no Mi's sub-races (#6), are painted in their own colours rather than tinted by the wearer's (`Look.tinted()`):
+
+| Look | What it draws |
+|---|---|
+| `OCTOPUS` | two more arms, the wearer's own drawn again behind his real ones, skin, sleeves and the chest piece's armour (`HumanoidArmorLayerMixin`), swinging with them |
+| `WHALE_SHARK` | a broad dorsal fin and three gill slits a side; on a broader chest (`AkumaBody`) the gills and the fin move out with it |
+| `PUFFERFISH` | spines on the head, chest, back and arms, lying along the skin, raised for two seconds when the wearer is struck (its hurt time, read on each client: nothing is sent) |
+| `HAMMERHEAD` | the hammer, two lobes out of the head's sides with an eye at each end, gills and a tall dorsal fin |
+
 AkumaLib adds the layer to the renderers. A declared entity's renderer must have a humanoid model; one that has not is logged and left alone. The features take the skin colour the wearer chose. The base mod's own fishmen (Arlong, Chew, Kuroobi, its fishman pirates) keep the features the base mod draws: declaring them would draw both. The skin itself stays the mod's: `SkinSwaps`, see [decoys](../entities/decoys.md).
 
 ## Horns
@@ -103,6 +112,8 @@ The tail is out while `AkumaMerfolk.inTail(entity)`: in the water and swimming, 
 ## A people's skin and hair
 
 `RecolouredSkins.SkinTint.skinAndHair(skin, hair)` lays a colour on the bare skin, as `SkinTint.skin`, and another on the hair: on the head's and its overlay's top, back, upper sides and fringe every pixel but the skin's own, elsewhere on the head those near `SkinTones.hairColour`, each keeping a share of its light. A bald head stays bald; a hat painted there takes the colour. Draw it instead of the skin with `SkinSwaps`.
+
+`RecolouredSkins.SkinTint.spotted(skin, mask, spots)` lays the colour on the bare skin, and spots in `spots` where the mask's green is, on the bare skin only (a fish's spots never land on a shirt or the hair); the mask is laid out as a player skin, its red how much of the colour each pixel takes. The whale shark's white spots and the pufferfish's brown ones (Race) are drawn so.
 
 ## Lunarian wings
 

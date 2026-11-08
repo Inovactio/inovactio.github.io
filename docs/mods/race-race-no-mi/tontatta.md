@@ -55,17 +55,19 @@ In 3D: drag to turn, scroll or pinch to zoom. The three tails, in the colour of 
 
 ![](abilities/tontatta-strength.png){ .ability-icon } *Passive, Tontatta*
 
-The user is tiny, but their blows push as hard as a man's, and they reach blocks further than their size. They are a little quicker than a man, jump three blocks higher and fall from higher unhurt.
+The user is tiny, but their blows push as hard as a man's, and they reach blocks further than their size. They are a little quicker than a man, in the air too, jump up to three blocks higher the longer the jump is held, and fall from higher unhurt.
 
 | Stat | Value |
 |---|---|
 | Block reach | 3 blocks |
 | Speed | +15 % |
-| Jump | 4.25 blocks (a man 1.25) |
+| Jump | up to 4.25 blocks with the key held, lower when let go sooner, a man's 1.25 for a tap; a sprint jump pushes forward as a man's |
 | Fall without harm | 6 blocks |
 | Fall damage past that | a quarter of a man's a block: about 46 blocks kill a Tontatta, not 23 |
 
 A body this small would push almost nothing: Tontatta Strength takes the size's loss of knockback back out of the user's blows. Their damage and the speed of their swing already are a man's. They keep their short reach to hit.
+
+Since 0.4.0 a jump no longer slows a Tontatta: they keep their extra speed in the air. And **they fly as high as a man**: Moku and the other flights of the base mod and the addons once climbed only to about 15 blocks over the ground for so small a body; they now climb to a man's ceiling, at a man's speed ([AkumaLib](../../akumalib/index.md) 6.5.0).
 
 ## Techniques
 

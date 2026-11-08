@@ -4,7 +4,7 @@ Race Race no Mi's settings live in each world's **`<world>/serverconfig/racenomi
 
 | Setting | When `false` |
 |---|---|
-| `giants.giantsSelectable` | The giants are no longer in the character creator. A player who is already a giant stays one. |
+| `giants.giantsSelectable` | The giants and the [Wotan](wotan.md) are no longer in the character creator. A player who is already one stays one. |
 | `giants.giantAreaBlocks` | A giant breaks and places one block at a time, as in precision mode, instead of 3x3x3. The zone also follows the base mod's ability griefing setting and protected areas. |
 | `giants.giantCouch` | The hay or wool couch does nothing, and a giant can sleep in a normal bed. |
 | `skyPeople.skyPeopleSelectable` | The sky people are no longer in the character creator. A player who is already one stays one. |

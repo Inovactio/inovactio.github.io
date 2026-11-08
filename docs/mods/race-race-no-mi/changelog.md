@@ -2,6 +2,69 @@
 
 Every Race Race no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/all).
 
+## 0.4.0 (beta) { #v0-4-0 }
+
+<small>Released 2026-11-08 · [Download](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/9508837)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>The Wotan becomes a race of its own, and the fishmen get four new species.</strong> The Wotan is now a full race, a giant's
+body with a fishman's karate, in seven fish species. The fishmen gain the Octopus, the Whale Shark, the Pufferfish and
+the Hammerhead. The merfolk learn Ultramarine, and the Tontatta fly as high as a man and jump as high as they hold the
+key. Still a beta: the numbers may change with your feedback.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 6.5.0</strong> or newer
+(with an older AkumaLib the game stops at start-up).
+<a href="https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island">Mine Mine no Mi: Sky Island</a> is optional.
+Needed on both the client and the server.</p>
+<hr />
+<h2>The Wotan, a race of its own</h2>
+<ul>
+<li><strong>No longer a giant's sub-race</strong>: the Wotan is a main race in the character creator, <strong>3.5 times a man</strong> (6.3 blocks;
+  the slider goes from 3.28 to 3.72), up from 2.5.</li>
+<li><strong>A giant's body</strong>: he hunches under low roofs, crawls, wades through water, breaks and places blocks by area, sleeps
+  on hay, and has the Elbaf giants' eight techniques: Stomp, Giant's Grip, Boulder Throw, Hakoku, Elbaf Charge, Roar of
+  Elbaf, Pride of Elbaf and Shoulder Carry.</li>
+<li><strong>A fishman's karate</strong>: he counts as a fishman for the base mod, so the whole Fishman Karate tree is his.</li>
+<li><strong>Seven species</strong>: Saw-shark, Ray, Garfish, Octopus, Whale Shark, Pufferfish and Hammerhead Wotan. Each has Fishman
+  Body, its fish's own passive, look and skin colour. The Whale Shark Wotan also gets the whale shark's broad chest.</li>
+<li><strong>His own book faces</strong> for the race and each species, and his own tab of techniques.</li>
+<li><strong>Wotan Body</strong> is gone: Fishman Body takes its place.</li>
+<li><strong>Your Wotan is kept</strong>: a Wotan from 0.3.0 becomes a <strong>Saw-shark Wotan</strong>, with his techniques, his bar and his size
+  slider.</li>
+<li>Servers: <code>giantsSelectable = false</code> takes the Wotan out of the creator too.</li>
+</ul>
+<h2>Fishmen: four new species</h2>
+<ul>
+<li><strong>Octopus</strong>: +30 % attack speed, armed or not. Two more arms, your own drawn again behind your real ones.</li>
+<li><strong>Whale Shark</strong>: 1.5 times a man (2.7 blocks), +2 toughness and +4 health. A broad chest, a wide dorsal fin and white
+  spots.</li>
+<li><strong>Pufferfish</strong>: a close attacker takes 2 damage from your spines, and one time in four is poisoned 3 s. The spines
+  stand up for 2 s after a blow.</li>
+<li><strong>Hammerhead</strong>: +2 damage, and your blows push 50 % further. Two lobes at the brow with an eye at each end.</li>
+<li>Each has its book face, and its page shows Fishman Body first, then its own passive. The Saw-shark, Ray and Garfish
+  keep theirs, and the base mod's three pages get our faces too.</li>
+</ul>
+<h2>Merfolk</h2>
+<ul>
+<li><strong>Merman Combat: Ultramarine</strong> (new, after Princely Fist in the tree): gather water for 0.5 s, then hurl it in one
+  narrow torrent, 14 damage, 14 blocks on land and 21 in the water. Enemies are thrown hard, twice as hard in the
+  water. Cooldown 12 s.</li>
+</ul>
+<h2>Tontatta</h2>
+<ul>
+<li><strong>Flight as high as a man</strong>: Moku and other flights climbed only to about 15 blocks; now to a man's ceiling, at a man's
+  speed.</li>
+<li><strong>The jump follows the key</strong>: hold jump for the full 4.25 blocks, let go early for less, tap it for a man's 1.25. A
+  sprint jump pushes forward as a man's does.</li>
+<li><strong>A jump no longer slows you</strong>: the Tontatta keeps its extra speed in the air.</li>
+</ul>
+<h2>Tooltips</h2>
+<ul>
+<li><strong>A technique with an ALT mode</strong> shows one tooltip page per mode, with each mode's own text and numbers, as the base
+  mod does for Gomu Gomu no Pistol. It opens on the mode in use. Tail Sweep, the Trident, Buccaneer Charge, Pink Hornet,
+  Sparking Figure, Winch Arm and Dial Blend have them.</li>
+</ul>
+</div>
+
 ## 0.3.0 (beta) { #v0-3-0 }
 
 <small>Released 2026-11-06 · [Download](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/9480844)</small>

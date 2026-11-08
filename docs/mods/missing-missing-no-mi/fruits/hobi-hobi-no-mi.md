@@ -15,6 +15,43 @@ In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/omocha objects/little-black-bears objects/atamawari-ningyo"></div>
 
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1, third person.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Omocha](../animations/hobi-hobi-hobi-s1-omocha-3p-710.webp){ loading=lazy }
+      <figcaption>Omocha</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Omocha ready: sparks at her hand](../animations/hobi-hobi-hobi-sparkle-s1-3pfront-710.webp){ loading=lazy }
+      <figcaption>Omocha ready: sparks at her hand</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Little Black Bears](../animations/hobi-hobi-hobi-s1-bears-3p-710.webp){ loading=lazy }
+      <figcaption>Little Black Bears</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Atamawari Ningyo](../animations/hobi-hobi-hobi-s1-atamawari-3p-710.webp){ loading=lazy }
+      <figcaption>Atamawari Ningyo</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![The Headcracker Doll bites](../animations/hobi-hobi-hobi-s1-atamawari-3p-bite-710.webp){ loading=lazy }
+      <figcaption>The Headcracker Doll bites</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![The doll comes apart into its toys](../animations/hobi-hobi-hobi-s1-atamawari-3p-apart-710.webp){ loading=lazy }
+      <figcaption>The doll comes apart into its toys</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Zettai Meirei](../animations/hobi-hobi-hobi-s1-zettai-3p-710.webp){ loading=lazy }
+      <figcaption>Zettai Meirei</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -28,17 +65,18 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 Applies ![](../effect-icons/toy.png){ .effect-mini }[Toy](../effects.md#effect-toy)
 
-The next punch of the user turns the target into a toy, for as long as the curse lasts. A new toy only defends itself until Keiyaku is used on it.
+The next touch of the user's bare hand turns the target into a toy for as long as the curse lasts. A new toy only defends itself until Keiyaku is used on it.
 
 ## Keiyaku { #keiyaku }
 
 ![](../abilities/keiyaku.png){ .ability-icon } *Active*
 
-Makes a contract with a toy made by the user, a creature will follow and fight for the user and a player can't attack the user anymore
+Makes a contract with a toy the user made. A creature then follows and fights for the user, and a player can no longer attack the user.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 1 s |
+| Charge | under 1 s |
 | Range | 10 blocks (line) |
 
 ## Little Black Bears { #little-black-bears }
@@ -47,11 +85,12 @@ Makes a contract with a toy made by the user, a creature will follow and fight f
 
 ![Little Black Bears](../objects/little-black-bears.png){ .form-picture }
 
-The user dashes around touching all nearby creatures, turning them into small black teddy bears.
+The user dashes around touching up to 8 nearby creatures and turns them into small black teddy bears, already under contract.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 45 s |
+| Charge | 1 s |
 | Range | 6 blocks (area) |
 
 ## Atamawari Ningyo { #atamawari-ningyo }
@@ -60,11 +99,12 @@ The user dashes around touching all nearby creatures, turning them into small bl
 
 ![Atamawari Ningyo](../objects/atamawari-ningyo.png){ .form-picture }
 
-Combines 8 of the user's contracted toys into a giant nutcracker that fights for the user for a while, after which it splits back into the toys
+Builds 8 of the user's toys under contract into a giant nutcracker that fights for the user. When its time is up or it is destroyed, it comes apart into the same toys.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 120 s |
+| Charge | under 1 s |
 | Hold | 60 s |
 | Range | 16 blocks (area) |
 
@@ -78,11 +118,12 @@ The fruit keeps the user as a child, smaller and weaker. All the toys are turned
 
 ![](../abilities/zettai-meirei.png){ .ability-icon } *Active*
 
-Gives an absolute order to all the contracted toys near the user, for 10 seconds they hit harder, move faster and are more resistant
+Gives an absolute order to every toy under contract near the user. For 10 seconds they hit harder, move faster and take less damage.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 30 s |
+| Charge | under 1 s |
 | Hold | 10 s |
 | Range | 24 blocks (area) |
 | Toys' Damage | x1.5 |
@@ -91,9 +132,10 @@ Gives an absolute order to all the contracted toys near the user, for 10 seconds
 
 ![](../abilities/kaijo.png){ .ability-icon } *Active*
 
-The user turns the toy they are looking at back to what it was, the other toys stay toys
+The user turns the toy they are looking at back into what it was. The other toys stay toys.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 5 s |
+| Charge | under 1 s |
 | Range | 10 blocks (line) |

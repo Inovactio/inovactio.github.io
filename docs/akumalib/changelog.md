@@ -2,6 +2,53 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 6.5.0 { #v6-5-0 }
+
+<small>Released 2026-11-08 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9508828)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Fairer NPC bounties, small bodies that fly as high as a man, and four new fishman looks.</strong> Notorious NPC pirates carry
+a tenth of the bounty they used to, and a wanted poster pays exactly what it shows. A body smaller than a man now flies
+as high as a man. Race Race no Mi's four new fishman sub-races get their looks. A man at normal size plays exactly as
+before. Nothing was removed or changed for addons.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are
+optional.</p>
+<p>The network protocol is still 17, as in 6.4.0. Update AkumaLib on the server and on every client all the same: Race
+Race no Mi 0.4.0 needs 6.5.0.</p>
+<hr />
+<h2>Bounties</h2>
+<ul>
+<li><strong>Notorious NPC pirates carry a tenth of their old bounty.</strong> A captain who would have reached 300,000,000 now reaches
+  about 30,000,000. A wanted poster shows that lower bounty, and a bounty hunter gets <strong>exactly what the poster shows</strong>.</li>
+<li><strong>Players' bounties do not change</strong>, and bounties already in your world keep their value.</li>
+<li>Servers can change it: <code>bountyMultiplierNpc</code> in <code>akumalib-server.toml</code>, section <code>bounties</code>, <code>0.1</code> by default. <code>1</code>
+  gives back Mine Mine no Mi's bounties.</li>
+</ul>
+<h2>Bodies smaller than a man</h2>
+<ul>
+<li><strong>Flight as high as a man</strong>: a small body (a Tontatta, or a player the creator's slider made small) flew only half as
+  high as a man, Moku stopping at about 15 blocks. It now climbs at a man's speed to a man's ceiling. A man and bigger
+  bodies fly as before.</li>
+</ul>
+<h2>Races</h2>
+<ul>
+<li><strong>Four new fishman looks</strong>, for Race Race no Mi's new sub-races: the <strong>octopus</strong> (two more arms, your own drawn again
+  behind your real ones, sleeves and armour too), the <strong>whale shark</strong> (a broad chest, a wide dorsal fin, three gill slits a
+  side, white spots), the <strong>pufferfish</strong> (spines along the skin that stand up for 2 s after a blow, brown spots) and the
+  <strong>hammerhead</strong> (two lobes at the brow with an eye at each end, gills, a tall fin).</li>
+<li><strong>Spots on the bare skin only</strong>: a fish's spots are never painted on a shirt or the hair.</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li><strong><code>SizeBodyStats.liftOnly(uuid)</code></strong>: one of your own <code>JUMP_HEIGHT</code> modifiers lifts only. A sprint jump pushes forward as
+  a man's does, not by the whole extra height.</li>
+<li><strong><code>AkumaFishmen.Look</code></strong>: <code>OCTOPUS</code>, <code>WHALE_SHARK</code>, <code>PUFFERFISH</code>, <code>HAMMERHEAD</code>, and <code>Look.tinted()</code>.</li>
+<li><strong><code>RecolouredSkins.SkinTint.spotted(rgb, mask, spots)</code></strong> and <code>SkinTones.tint(..., linesOnSkin)</code>: a mask's spots on the
+  bare skin only. <code>SkinTint</code> gets a sixth part, <code>linesOnSkin</code>; the 6.4.0 constructors stay.</li>
+</ul>
+<p>An addon that uses any of these declares <code>versionRange = "[6.5.0,)"</code>. Leave the top of the range open.</p>
+</div>
+
 ## 6.4.0 { #v6-4-0 }
 
 <small>Released 2026-11-06 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9480836)</small>
