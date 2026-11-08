@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Since 0.6.0 every player is born with 2 to 5 traits, out of 58: qualities and flaws of the body and of Haki, of the sea and the trades, of learning, reputation, crew, treasure and the hunt. They are…">
+        <meta name="description" content="Since 0.6.0 every player is born with 2 to 5 traits, out of 78 (58 before 0.7.0): qualities and flaws of the body and of Haki, of the sea and the trades, of learning, reputation, crew, treasure and…">
       
       
       
@@ -69,12 +69,12 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Inovactio's Minecraft Mods">
     <meta property="og:title" content="Traits · Cruise Cruise no Mi">
-    <meta property="og:description" content="Since 0.6.0 every player is born with 2 to 5 traits, out of 58: qualities and flaws of the body and of Haki, of the sea and the trades, of learning, reputation, crew, treasure and the hunt. They are…">
+    <meta property="og:description" content="Since 0.6.0 every player is born with 2 to 5 traits, out of 78 (58 before 0.7.0): qualities and flaws of the body and of Haki, of the sea and the trades, of learning, reputation, crew, treasure and…">
     <meta property="og:url" content="https://inovactio.github.io/mods/cruise/traits/">
     <meta property="og:image" content="https://inovactio.github.io/assets/icons/cruise.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Traits · Cruise Cruise no Mi">
-    <meta name="twitter:description" content="Since 0.6.0 every player is born with 2 to 5 traits, out of 58: qualities and flaws of the body and of Haki, of the sea and the trades, of learning, reputation, crew, treasure and the hunt. They are…">
+    <meta name="twitter:description" content="Since 0.6.0 every player is born with 2 to 5 traits, out of 78 (58 before 0.7.0): qualities and flaws of the body and of Haki, of the sea and the trades, of learning, reputation, crew, treasure and…">
     <meta name="twitter:image" content="https://inovactio.github.io/assets/icons/cruise.png"><meta name="theme-color" content="#7e56c2">
   
 
@@ -9221,6 +9221,28 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#traits-of-the-races" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traits of the races
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#traits-of-the-sky" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traits of the sky
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -13955,6 +13977,28 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#traits-of-the-races" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traits of the races
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#traits-of-the-sky" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traits of the sky
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -14021,10 +14065,11 @@
 
 
 <h1 id="traits">Traits<a class="headerlink" href="#traits" title="Permanent link">&para;</a></h1>
-<p>Since 0.6.0 every player is <strong>born with 2 to 5 traits</strong>, out of 58: qualities and flaws of the body and of Haki, of the sea and the trades, of learning, reputation, crew, treasure and the hunt. They are drawn once, when the character is made (or at the next login of a player from before 0.6.0), stay through death, and are drawn so that the qualities outweigh the flaws only a little; two traits that contradict each other never come together.</p>
+<p>Since 0.6.0 every player is <strong>born with 2 to 5 traits</strong>, out of 78 (58 before 0.7.0): qualities and flaws of the body and of Haki, of the sea and the trades, of learning, reputation, crew, treasure and the hunt. They are drawn once, when the character is made (or at the next login of a player from before 0.6.0), stay through death, and are drawn so that the qualities outweigh the flaws only a little; two traits that contradict each other never come together.</p>
 <ul>
-<li><strong>See yours</strong> in Mine Mine no Mi's player screen, where a sheet lists them with what each does.</li>
-<li><strong>A server can turn any trait off</strong>: list its id in <code>disabledTraits</code>, under <code>traits</code> in <code>config/inocruise-common.toml</code>, for example <code>["inocruise:blind"]</code>. A trait turned off is never drawn for a new character and does nothing on one who has it; they keep it, and it works again once it is turned back on. See <a href="../configuration/#traits">Configuration</a>.</li>
+<li><strong>See yours</strong> in Mine Mine no Mi's player screen, where a sheet lists them with what each does. Since 0.7.0 it also says, under your traits, whether today's <strong>Will of D.</strong> is ready, or used and back tomorrow.</li>
+<li><strong>Traits of a race or of the sky</strong> (since 0.7.0): see <a href="#traits-of-the-races">below</a>. They have the same chance as any other. Characters already made keep the traits they have.</li>
+<li><strong>A server can turn any trait off</strong>: list its id in <code>disabledTraits</code>, under <code>traits</code> in the world's <code>serverconfig/inocruise-server.toml</code> (in <code>config/inocruise-common.toml</code> before 0.7.0), for example <code>["inocruise:blind"]</code>. A trait turned off is never drawn for a new character and does nothing on one who has it; they keep it, and it works again once it is turned back on. An id that names no trait is written in the log. See <a href="../configuration/#traits">Configuration</a>.</li>
 <li><strong>For operators</strong>: <code>/traits get &lt;player&gt;</code>, <code>/traits set &lt;player&gt; &lt;traits&gt;</code> and <code>/traits reroll &lt;player&gt;</code>.</li>
 </ul>
 <h2 id="body-and-haki">Body and Haki<a class="headerlink" href="#body-and-haki" title="Permanent link">&para;</a></h2>
@@ -14411,6 +14456,170 @@
 <td>flaw</td>
 <td>Sleeps through anything and wakes up a little hungry</td>
 <td><code>inocruise:heavy_sleeper</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="traits-of-the-races">Traits of the races<a class="headerlink" href="#traits-of-the-races" title="Permanent link">&para;</a></h2>
+<p>Since 0.7.0 a new character can be born with a trait of their people: 15 traits, each drawn <strong>only for its races</strong>. The fishmen are Mine Mine no Mi's own race; the other races come with <a href="../../race-race-no-mi/">Race Race no Mi</a>, and without it those traits are never drawn. A character who changes race keeps their old race's trait, but it does nothing.</p>
+<table>
+<thead>
+<tr>
+<th>Trait</th>
+<th></th>
+<th>What it does</th>
+<th>Races</th>
+<th>Id</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kin of the Sea</strong></td>
+<td>quality</td>
+<td>Sea Kings never go for them until they strike them</td>
+<td>fishmen, Wotan</td>
+<td><code>inocruise:kin_of_the_sea</code></td>
+</tr>
+<tr>
+<td><strong>Shoal Caller</strong></td>
+<td>quality</td>
+<td>Fishing in a school of fish lands one more fish one time in five</td>
+<td>merfolk</td>
+<td><code>inocruise:shoal_caller</code></td>
+</tr>
+<tr>
+<td><strong>Hearty Eater</strong></td>
+<td>quality</td>
+<td>Food gives 20 % more saturation</td>
+<td>giants, Wotan</td>
+<td><code>inocruise:hearty_eater</code></td>
+</tr>
+<tr>
+<td><strong>Warm Blood</strong></td>
+<td>quality</td>
+<td>Never freezes nor is slowed by the cold</td>
+<td>Lunarians</td>
+<td><code>inocruise:warm_blood</code></td>
+</tr>
+<tr>
+<td><strong>Fearsome</strong></td>
+<td>quality</td>
+<td>A hostile creature weaker than them that goes for them flees for 5 seconds one time in four</td>
+<td>oni</td>
+<td><code>inocruise:fearsome</code></td>
+</tr>
+<tr>
+<td><strong>Kind Soul</strong></td>
+<td>quality</td>
+<td>Their crewmates within 16 blocks heal 10 % faster</td>
+<td>buccaneers</td>
+<td><code>inocruise:kind_soul</code></td>
+</tr>
+<tr>
+<td><strong>Quick Harvest</strong></td>
+<td>quality</td>
+<td>A ripe crop gives one more of its harvest one time in five</td>
+<td>tontatta</td>
+<td><code>inocruise:quick_harvest</code></td>
+</tr>
+<tr>
+<td><strong>Fearless</strong></td>
+<td>quality</td>
+<td>Deals 10 % more damage when below 30 % health</td>
+<td>modified humans</td>
+<td><code>inocruise:fearless</code></td>
+</tr>
+<tr>
+<td><strong>Light Body</strong></td>
+<td>quality</td>
+<td>Takes 20 % less damage from falls</td>
+<td>sky people</td>
+<td><code>inocruise:light_body</code></td>
+</tr>
+<tr>
+<td><strong>Dry Skin</strong></td>
+<td>flaw</td>
+<td>10 % slower and 10 % hungrier in hot and dry places</td>
+<td>fishmen, Wotan</td>
+<td><code>inocruise:dry_skin</code></td>
+</tr>
+<tr>
+<td><strong>Hunted</strong></td>
+<td>flaw</td>
+<td>Pirates, Marines and bandits notice them from 20 % further</td>
+<td>merfolk, Lunarians, buccaneers</td>
+<td><code>inocruise:hunted</code></td>
+</tr>
+<tr>
+<td><strong>Sinks the Boat</strong></td>
+<td>flaw</td>
+<td>A boat they steer sails 15 % slower</td>
+<td>giants, Wotan</td>
+<td><code>inocruise:sinks_the_boat</code></td>
+</tr>
+<tr>
+<td><strong>Feared</strong></td>
+<td>flaw</td>
+<td>Villagers pay 15 % less for their errands</td>
+<td>oni</td>
+<td><code>inocruise:feared</code></td>
+</tr>
+<tr>
+<td><strong>Sweet Tooth</strong></td>
+<td>flaw</td>
+<td>Food that is not sweet feeds 15 % less</td>
+<td>tontatta</td>
+<td><code>inocruise:sweet_tooth</code></td>
+</tr>
+<tr>
+<td><strong>Sky Sick</strong></td>
+<td>flaw</td>
+<td>10 % slower below sea level</td>
+<td>sky people</td>
+<td><code>inocruise:sky_sick</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="traits-of-the-sky">Traits of the sky<a class="headerlink" href="#traits-of-the-sky" title="Permanent link">&para;</a></h2>
+<p>With <a href="../../sky-island/">Sky Island</a> installed (1.0.2 or later), any character can be born with one of 5 more traits. Without Sky Island they are never drawn and do nothing.</p>
+<table>
+<thead>
+<tr>
+<th>Trait</th>
+<th></th>
+<th>What it does</th>
+<th>Id</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Light Foot</strong></td>
+<td>quality</td>
+<td>15 % faster on clouds</td>
+<td><code>inocruise:light_foot</code></td>
+</tr>
+<tr>
+<td><strong>Cloud Swimmer</strong></td>
+<td>quality</td>
+<td>Swims 30 % faster in the sea of clouds, even with a Devil Fruit</td>
+<td><code>inocruise:cloud_swimmer</code></td>
+</tr>
+<tr>
+<td><strong>Dial Tinkerer</strong></td>
+<td>quality</td>
+<td>A dial used is kept one time in five: Sky Island's, Mine Mine no Mi's (the item tag <code>inosky:dials</code>) and Cruise's Thunder, Jet and Tone Dials</td>
+<td><code>inocruise:dial_tinkerer</code></td>
+</tr>
+<tr>
+<td><strong>Altitude Sickness</strong></td>
+<td>flaw</td>
+<td>In Skypiea, mines 15 % slower and gets hungry 10 % faster. Never drawn for the sky people</td>
+<td><code>inocruise:altitude_sickness</code></td>
+</tr>
+<tr>
+<td><strong>Cloud Sick</strong></td>
+<td>flaw</td>
+<td>10 % slower on clouds</td>
+<td><code>inocruise:cloud_sick</code></td>
 </tr>
 </tbody>
 </table>

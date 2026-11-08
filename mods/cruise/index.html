@@ -13964,7 +13964,7 @@
 <tbody>
 <tr>
 <td>Version documented</td>
-<td><strong>0.6.0</strong> (beta)</td>
+<td><strong>0.7.0</strong> (beta)</td>
 </tr>
 <tr>
 <td>Mod id</td>
@@ -13972,7 +13972,7 @@
 </tr>
 <tr>
 <td>Download</td>
-<td><a href="https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi">CurseForge</a> · <a href="https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9408052">0.6.0</a> · <a href="changelog/">changelog</a></td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi">CurseForge</a> · <a href="https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9517317">0.7.0</a> · <a href="changelog/">changelog</a></td>
 </tr>
 </tbody>
 </table>
@@ -13991,7 +13991,7 @@
 </tr>
 <tr>
 <td>Forge</td>
-<td>47 or later</td>
+<td><strong>47.4.2</strong> or later: with an older one the game does not start</td>
 </tr>
 <tr>
 <td><a href="https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod">Mine Mine no Mi</a></td>
@@ -13999,11 +13999,19 @@
 </tr>
 <tr>
 <td><a href="../../akumalib/">AkumaLib</a></td>
-<td><strong>6.2.0</strong> or later: with an older one, 6.1.0 included, the game does not start</td>
+<td><strong>6.5.0</strong> or later: with an older one the game does not start</td>
 </tr>
 <tr>
 <td>JEI or EMI</td>
 <td>optional, recommended: every workstation, fish, creature and find shows in them</td>
+</tr>
+<tr>
+<td><a href="../sky-island/">Sky Island</a></td>
+<td>optional, <strong>1.0.2</strong> or later: five <a href="traits/#traits-of-the-sky">traits of the sky</a></td>
+</tr>
+<tr>
+<td><a href="../race-race-no-mi/">Race Race no Mi</a></td>
+<td>optional: the <a href="traits/#traits-of-the-races">traits of its races</a></td>
 </tr>
 <tr>
 <td>Valkyrien Skies 2</td>
@@ -14011,7 +14019,7 @@
 </tr>
 </tbody>
 </table>
-<p>Client <strong>and</strong> server.</p>
+<p>Client <strong>and</strong> server, the same version on both: 0.7.0 has a new network protocol (57), so a 0.7.0 client cannot join a 0.6.1 server, nor the other way round.</p>
 <div class="admonition note">
 <p class="admonition-title">A beta</p>
 <p>Everything is playable, but numbers - how often the <a href="village-events/">village events</a> and the <a href="events-at-sea/">events out in the world</a> come, what they carry and pay - may still move with the players' feedback.</p>
@@ -14107,11 +14115,11 @@
 <p>Every trade's combat technique has its own gesture since 0.6.0, and follows the size of a giant. A <strong>Cruise Guide</strong>, a book handed to every player, says where to start and has a chapter for each trade. Every trade levels from 1 to 100, with a <strong>talent point</strong> every 5 levels to spend in its web of talents, combat abilities among them, and a <strong>title</strong> at levels 25, 50, 75 and 100. Its page in the profession book (<strong>K</strong>) shows what each level unlocks. How levels, XP, Solo and Crew work: <a href="trades-and-levels/">Trades and levels</a>. A server can make any trade level faster or slower: see <a href="configuration/">Configuration</a>.</p>
 <h2 id="across-the-trades">Across the trades<a class="headerlink" href="#across-the-trades" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong><a href="villages/">Villages</a></strong>: One Piece villages in five lands - plains, desert, snowy plains, savanna and taiga - each in its land's look, with a market square, a tavern, workshops, a town hall and a port, people who have their day there, each with a name, and a notice board with five small orders every morning and the news. No monster spawns in one. Marines, a pirate crew or the Revolutionaries keep some of them, and their men walk the square by day. Strike a villager and the village closes to you; break it and it mends itself; kill its people and it dies.</li>
-<li><strong><a href="towns/">Towns</a></strong>: one place in three is a walled town, with its guards, a market hall where the merchants always are, an inn that lets rooms and a warehouse that buys in bulk; and since 0.6.0 a <strong>bank</strong> with accounts, loans and deposit boxes, a <strong>colosseum</strong> with its ladder of ten tiers and its bets, a <strong>black market</strong> under the tavern, a <strong>bounty office</strong>, and a quarter of <strong>plots</strong> from 9 by 9 to 25 by 25, where the Carpenter's <strong>house plans</strong> raise a house. One town in three has a noble quarter, with its manor, its nobles, their orders and the Antiquarian.</li>
+<li><strong><a href="villages/">Villages</a></strong>: One Piece villages in five lands - plains, desert, snowy plains, savanna and taiga - each in its land's look, with a market square, a tavern, workshops, a town hall and a port, people who have their day there, each with a name, and a notice board with five small orders every morning and the news. No monster spawns in one. Marines, a pirate crew or the Revolutionaries keep some of them, and their men walk the square by day. Strike a villager and the village closes to you; break it and it mends itself; kill its people and it dies, until it <a href="villages/#a-dead-village-lives-again">lives again</a>. Since 0.7.0 every village has a <strong><a href="villages/#prosperity-a-village-grows">prosperity</a></strong>: treated well, it grows building by building into a walled town; harmed, it shrinks. It has <a href="villages/#a-village-defends-itself">guards of its own</a>, calls the Marines when one of its people is killed, and sends <a href="villages/#village-killers-are-hunted">bounty hunters or a vice admiral</a> after those who wipe villages out.</li>
+<li><strong><a href="towns/">Towns</a></strong>: one place in three is a walled town, with its guards, a market hall where the merchants always are, an inn that lets rooms and a warehouse that buys in bulk; and since 0.6.0 a <strong>bank</strong> with accounts, loans and deposit boxes, a <strong>colosseum</strong> with its ladder of ten tiers, its bets and <a href="towns/#the-six-grounds">six grounds</a>, a <strong>black market</strong> under the tavern, a <strong>bounty office</strong>, and a quarter of <strong>plots</strong> from 9 by 9 to 25 by 25, where the Carpenter's <strong>house plans</strong> raise a house. One town in three has a noble quarter, with its manor, its nobles, their orders and the Antiquarian.</li>
 <li><strong><a href="villages/#playing-a-civilian">Playing a civilian</a></strong>: everyone starts as one since 0.6.0, with no bounty and no side, and earns a side by what they do: a pirate by their crimes, a Bounty Hunter at a town's bounty office, a Revolutionary through a hooded contact.</li>
 <li><strong><a href="villages/#your-name-in-a-village">Your name in a village</a></strong>: seven steps from Sworn Enemy to Hero, for each village and each player; prices, loans and doors follow it.</li>
-<li><strong><a href="traits/">Traits</a></strong>: every player is born with 2 to 5 qualities and flaws, out of 58.</li>
+<li><strong><a href="traits/">Traits</a></strong>: every player is born with 2 to 5 qualities and flaws, out of 78, some of them only for a race or only with Sky Island.</li>
 <li><strong><a href="village-flags/">A village under your flag</a></strong>: a crew, the Marines or the Revolutionaries win a village by trust, by fear or by force, collect its rent, and keep it against raids - and, on a server, against other players.</li>
 <li><strong><a href="village-events/">Village events</a></strong>: a concert on the square, a fever to cure with the Chemist's remedies, a swordsmith from Wano who forges the base mod's named blades, a fishing tournament on the quay. Announced in the chat, told on the notice boards and sold as rumours by the barkeepers.</li>
 <li><strong>Five <a href="merchants-and-contracts/">merchants</a></strong> come to the villages' market squares, keep the towns' market halls and roam the wild - the Fishmonger, the Hunting Merchant, the Travelling Cook, the Prospector and the Materials Trader - and buy what the trades make, for Belly. Each brings <strong>contracts</strong> that pay above the market. Each land has its <a href="merchants-and-contracts/#regional-prices-and-trade-routes">local and wanted goods</a>, cheap here and dear there.</li>

@@ -14298,7 +14298,7 @@
 <tbody>
 <tr>
 <td>Selling goods to a Cruise merchant (the Sell window)</td>
-<td>1 XP per 10 Belly of the sale (at least 1)</td>
+<td>for each piece, a tenth of its price up to 100 Belly, then the square root of its price: 1 000 Belly give 32 XP, 60 000 give 245 (since 0.7.0)</td>
 </tr>
 <tr>
 <td>Delivering a merchant's contract</td>
@@ -14306,7 +14306,7 @@
 </tr>
 <tr>
 <td>One of your lots selling at the Auction House</td>
-<td>1 XP per 10 Belly of its price (at least 1); if you are offline, it is given when you log in or collect</td>
+<td>as a sale to a merchant gives, piece by piece, on its price but never on more than a merchant would pay for it (at least 1, since 0.7.0); if you are offline, it is given when you log in or collect</td>
 </tr>
 <tr>
 <td>Fetching the takings of your stall in a town's market hall</td>
@@ -14428,7 +14428,7 @@
 <td>Apprentice 2</td>
 <td>small</td>
 <td>You earn 5% more Merchant XP</td>
-<td>Bargain, Credit</td>
+<td>Bargain, Credit, Golden Bulwark</td>
 </tr>
 <tr>
 <td>Credit</td>
@@ -14437,10 +14437,16 @@
 <td>Apprentice 2, Apprentice 3, Apprentice 4, Contacts 3</td>
 </tr>
 <tr>
+<td>Golden Bulwark</td>
+<td><strong>ability</strong></td>
+<td>A shield of gold for you and your crew. Gives the ability <strong>Golden Bulwark</strong></td>
+<td>Apprentice 2</td>
+</tr>
+<tr>
 <td>Apprentice 3</td>
 <td>small</td>
 <td>You earn 5% more Merchant XP</td>
-<td>Credit, Golden Bulwark</td>
+<td>Credit</td>
 </tr>
 <tr>
 <td>Apprentice 4</td>
@@ -14453,12 +14459,6 @@
 <td>small</td>
 <td>The market fills 10% slower with what you sell</td>
 <td>Credit, Wide Network</td>
-</tr>
-<tr>
-<td>Golden Bulwark</td>
-<td><strong>ability</strong></td>
-<td>A shield of gold for you and your crew. Gives the ability <strong>Golden Bulwark</strong></td>
-<td>Apprentice 3</td>
 </tr>
 <tr>
 <td><img alt="" class="item-icon" src="../../icons/sea_chart.png" />Merchant's Notes</td>
@@ -14476,13 +14476,13 @@
 <td>Fighting Merchant 1</td>
 <td>small</td>
 <td>Your Merchant abilities hit 5% harder</td>
-<td>Merchant's Notes, Sharp deal 2, Market stall 1, Contacts 4</td>
+<td>Merchant's Notes, Sharp deal 2, Market stall 1, Coin Toss</td>
 </tr>
 <tr>
 <td>Fighting Merchant 2</td>
 <td>small</td>
 <td>Your Merchant abilities hit 5% harder</td>
-<td>Wide Network, Sharp deal 3, Market stall 2, Fighting Merchant 3</td>
+<td>Wide Network, Sharp deal 3, Bribe, Fighting Merchant 3</td>
 </tr>
 <tr>
 <td>Sharp deal 2</td>
@@ -14497,9 +14497,9 @@
 <td>Fighting Merchant 1, Treasure Sense</td>
 </tr>
 <tr>
-<td>Contacts 4</td>
-<td>small</td>
-<td>The market fills 10% slower with what you sell</td>
+<td>Coin Toss</td>
+<td><strong>ability</strong></td>
+<td>A fistful of coins at the foe you look at. Gives the ability <strong>Coin Toss</strong></td>
 <td>Fighting Merchant 1, Auctioneer, Treasure Sense, Fighting Merchant 4</td>
 </tr>
 <tr>
@@ -14509,9 +14509,9 @@
 <td>Fighting Merchant 2, Bulk Dealer</td>
 </tr>
 <tr>
-<td>Market stall 2</td>
-<td>small</td>
-<td>1 more lot up at the Auction House</td>
+<td>Bribe</td>
+<td><strong>ability</strong></td>
+<td>The foe you look at stops fighting you for a while. Gives the ability <strong>Bribe</strong></td>
 <td>Fighting Merchant 2, Apprentice 5</td>
 </tr>
 <tr>
@@ -14524,19 +14524,19 @@
 <td>Auctioneer</td>
 <td><strong>major</strong></td>
 <td>3 more lots up and 10% less fee at the Auction House</td>
-<td>Sharp deal 2, Contacts 4</td>
+<td>Sharp deal 2, Coin Toss</td>
 </tr>
 <tr>
 <td><img alt="" class="item-icon" src="../../icons/treasure_pargai.png" />Treasure Sense</td>
 <td><strong>major</strong></td>
 <td>A treasure hunt pays twice the XP</td>
-<td>Market stall 1, Contacts 4</td>
+<td>Market stall 1, Coin Toss</td>
 </tr>
 <tr>
 <td>Fighting Merchant 4</td>
 <td>small</td>
 <td>Your Merchant abilities hit 5% harder</td>
-<td>Contacts 4, Coin Toss</td>
+<td>Coin Toss, Contacts 4</td>
 </tr>
 <tr>
 <td>Bulk Dealer</td>
@@ -14548,24 +14548,24 @@
 <td>Apprentice 5</td>
 <td>small</td>
 <td>You earn 5% more Merchant XP</td>
-<td>Market stall 2, Fighting Merchant 3</td>
+<td>Bribe, Fighting Merchant 3</td>
 </tr>
 <tr>
 <td>Fighting Merchant 5</td>
 <td>small</td>
 <td>Your Merchant abilities hit 5% harder</td>
-<td>Fighting Merchant 3, Bribe</td>
+<td>Fighting Merchant 3, Market stall 2</td>
 </tr>
 <tr>
-<td>Coin Toss</td>
-<td><strong>ability</strong></td>
-<td>A fistful of coins at the foe you look at. Gives the ability <strong>Coin Toss</strong></td>
+<td>Contacts 4</td>
+<td>small</td>
+<td>The market fills 10% slower with what you sell</td>
 <td>Fighting Merchant 4</td>
 </tr>
 <tr>
-<td>Bribe</td>
-<td><strong>ability</strong></td>
-<td>The foe you look at stops fighting you for a while. Gives the ability <strong>Bribe</strong></td>
+<td>Market stall 2</td>
+<td>small</td>
+<td>1 more lot up at the Auction House</td>
 <td>Fighting Merchant 5</td>
 </tr>
 </tbody>
@@ -14587,7 +14587,7 @@
 <tbody>
 <tr>
 <td><strong>Golden Bulwark</strong></td>
-<td>A shield of gold of 6 health for you and your crew within 8 blocks</td>
+<td>A shield of gold of 8 health for 20 seconds for you and your crew within 8 blocks</td>
 <td>—</td>
 <td>45 s</td>
 <td>—</td>

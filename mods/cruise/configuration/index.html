@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Cruise's own settings are in config/inocruise-common.toml, created the first time the game starts with the mod. The trades' levels and the Solo or Crew mode are AkumaLib's, per world.">
+        <meta name="description" content="Cruise has two files of settings. The trades' levels and the Solo or Crew mode are AkumaLib's, per world.">
       
       
       
@@ -69,12 +69,12 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Inovactio's Minecraft Mods">
     <meta property="og:title" content="Configuration · Cruise Cruise no Mi">
-    <meta property="og:description" content="Cruise's own settings are in config/inocruise-common.toml, created the first time the game starts with the mod. The trades' levels and the Solo or Crew mode are AkumaLib's, per world.">
+    <meta property="og:description" content="Cruise has two files of settings. The trades' levels and the Solo or Crew mode are AkumaLib's, per world.">
     <meta property="og:url" content="https://inovactio.github.io/mods/cruise/configuration/">
     <meta property="og:image" content="https://inovactio.github.io/assets/icons/cruise.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Configuration · Cruise Cruise no Mi">
-    <meta name="twitter:description" content="Cruise's own settings are in config/inocruise-common.toml, created the first time the game starts with the mod. The trades' levels and the Solo or Crew mode are AkumaLib's, per world.">
+    <meta name="twitter:description" content="Cruise has two files of settings. The trades' levels and the Solo or Crew mode are AkumaLib's, per world.">
     <meta name="twitter:image" content="https://inovactio.github.io/assets/icons/cruise.png"><meta name="theme-color" content="#7e56c2">
   
 
@@ -10149,6 +10149,56 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="inocruise-server.toml">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prosperity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        prosperity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#punishment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        punishment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        defence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revival" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        revival
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -14091,6 +14141,56 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="inocruise-server.toml">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prosperity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        prosperity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#punishment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        punishment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        defence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revival" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        revival
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -14253,7 +14353,29 @@
 
 
 <h1 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h1>
-<p>Cruise's own settings are in <strong><code>config/inocruise-common.toml</code></strong>, created the first time the game starts with the mod. The trades' levels and the Solo or Crew mode are <strong>AkumaLib's</strong>, per world.</p>
+<p>Cruise has two files of settings. The trades' levels and the Solo or Crew mode are <strong>AkumaLib's</strong>, per world.</p>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>What is in it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>config/inocruise-common.toml</code></strong>, one for the game or the server</td>
+<td><a href="#recipes"><code>recipes</code></a>, <code>withVanillaVillages</code> (under <a href="#villages"><code>villages</code></a>) and <a href="#performance"><code>performance</code></a></td>
+</tr>
+<tr>
+<td><strong><code>serverconfig/inocruise-server.toml</code></strong>, in each world's folder</td>
+<td>everything else: <a href="#inocruise-servertoml">the world's own settings</a> (sides, spacing, prosperity, punishment, defence, revival), <code>villageDamage</code> and <code>monstersInVillages</code>, <a href="#traits"><code>traits</code></a>, <a href="#guide"><code>guide</code></a>, <a href="#merchants"><code>merchants</code></a>, <a href="#auctionhouse"><code>auctionHouse</code></a>, the <a href="#village-events">village events</a> and the <a href="#events-at-sea">events at sea</a> and <a href="#events-on-land">on land</a></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Since 0.7.0 the world settings belong to each world</p>
+<p>Village damage, monsters in villages, disabled traits, the guide, the merchants, the Auction House and every world event moved from <code>config/inocruise-common.toml</code> to each world's <code>serverconfig/inocruise-server.toml</code>, with the same section names and keys, so each single player world has its own. What you had set in the common file is <strong>taken over once</strong> by each world, so nothing is lost; after that, set them in the world's file. The old lines in the common file say where they went.</p>
+</div>
 <h2 id="recipes"><code>recipes</code><a class="headerlink" href="#recipes" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -14277,6 +14399,7 @@
 </tbody>
 </table>
 <h2 id="villages"><code>villages</code><a class="headerlink" href="#villages" title="Permanent link">&para;</a></h2>
+<p><code>withVanillaVillages</code> is in <code>config/inocruise-common.toml</code>; <code>monstersInVillages</code> and <code>villageDamage</code> in each world's <code>serverconfig/inocruise-server.toml</code> since 0.7.0.</p>
 <table>
 <thead>
 <tr>
@@ -14320,7 +14443,7 @@
 <tr>
 <td><code>disabledTraits</code></td>
 <td><code>[]</code></td>
-<td><a href="../traits/">Traits</a> turned off, by id, for example <code>["inocruise:blind"]</code>. A trait turned off is never drawn for a new character, and does nothing on one who has it. They keep it: it works again once turned back on. (Since 0.6.0.)</td>
+<td><a href="../traits/">Traits</a> turned off, by id, for example <code>["inocruise:blind"]</code>. A trait turned off is never drawn for a new character, and does nothing on one who has it. They keep it: it works again once turned back on. An id that names no trait is written in the log. (Since 0.6.0; a world setting since 0.7.0.)</td>
 </tr>
 </tbody>
 </table>
@@ -14342,7 +14465,7 @@
 </tbody>
 </table>
 <h2 id="inocruise-servertoml"><code>inocruise-server.toml</code><a class="headerlink" href="#inocruise-servertoml" title="Permanent link">&para;</a></h2>
-<p>Since 0.6.0 Cruise also has a file per world, <strong><code>serverconfig/inocruise-server.toml</code></strong> in the world's folder.</p>
+<p>Since 0.6.0 Cruise also has a file per world, <strong><code>serverconfig/inocruise-server.toml</code></strong> in the world's folder. Since 0.7.0 it also holds every section this page marks as a world setting.</p>
 <table>
 <thead>
 <tr>
@@ -14370,6 +14493,198 @@
 <td><code>townShare</code></td>
 <td><code>33</code></td>
 <td>Of every hundred places, how many are <a href="../towns/">towns</a> (0 to 100). Saved with the world when it is made, like <code>spacing</code>. A world made before 0.6.0 keeps 25.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="prosperity"><code>prosperity</code><a class="headerlink" href="#prosperity" title="Permanent link">&para;</a></h3>
+<p>How the villages <a href="../villages/#prosperity-a-village-grows">grow with their prosperity</a> (since 0.7.0).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether villages grow: points earned and lost, new houses, workshops and town buildings that build themselves, walls once a village is a town. <code>false</code>: every place stays as it was made.</td>
+</tr>
+<tr>
+<td><code>prosperous</code></td>
+<td><code>30</code></td>
+<td>The points a village is Prosperous at: the quarters' houses and new inhabitants, the barracks and its guards.</td>
+</tr>
+<tr>
+<td><code>flourishing</code></td>
+<td><code>80</code></td>
+<td>The points it is Flourishing at: the missing trades' workshops, the inn, the warehouse and the market hall.</td>
+</tr>
+<tr>
+<td><code>town</code></td>
+<td><code>150</code></td>
+<td>The points it is a Town at: its walls, the bank, the bounty office, the colosseum and the plots for sale. A town the world made starts here.</td>
+</tr>
+<tr>
+<td><code>perDay</code></td>
+<td><code>1</code></td>
+<td>Points for each in-game day nobody harmed it.</td>
+</tr>
+<tr>
+<td><code>tradeBelly</code></td>
+<td><code>1000</code></td>
+<td>How many Belly of trade with its merchants and stalls earn it a point.</td>
+</tr>
+<tr>
+<td><code>perOrder</code></td>
+<td><code>5</code></td>
+<td>Points for an order or an errand done there.</td>
+</tr>
+<tr>
+<td><code>perRaid</code></td>
+<td><code>10</code></td>
+<td>Points for a raid beaten back.</td>
+</tr>
+<tr>
+<td><code>giftBelly</code></td>
+<td><code>500</code></td>
+<td>How many Belly given at its town hall earn it a point.</td>
+</tr>
+<tr>
+<td><code>perBlow</code></td>
+<td><code>5</code></td>
+<td>Points a blow on one of its people costs it. A murder costs a whole step.</td>
+</tr>
+<tr>
+<td><code>perBlock</code></td>
+<td><code>1</code></td>
+<td>Points a block of it broken by hand costs it.</td>
+</tr>
+<tr>
+<td><code>perRaidLost</code></td>
+<td><code>20</code></td>
+<td>Points a raid lost costs it.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="punishment"><code>punishment</code><a class="headerlink" href="#punishment" title="Permanent link">&para;</a></h3>
+<p>How <a href="../villages/#village-killers-are-hunted">village killers are hunted</a> (since 0.7.0).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether wiping out villages is punished harder. <code>false</code>: a village wiped out costs its bounty alone, as before 0.7.0.</td>
+</tr>
+<tr>
+<td><code>huntAfter</code></td>
+<td><code>2</code></td>
+<td>How many villages a player wipes out, each within <code>forgetDays</code> of the one before, before someone is sent after them (1 to 20). The vice admiral's squad grows with each village after that.</td>
+</tr>
+<tr>
+<td><code>forgetDays</code></td>
+<td><code>30</code></td>
+<td>After how many in-game days with no village wiped out the count falls back to zero (1 to 365).</td>
+</tr>
+<tr>
+<td><code>bountyMultiplier</code></td>
+<td><code>2.0</code></td>
+<td>How much the bounty of each further village is multiplied: <code>2</code> gives x1, x2, x4, x8... (1 to 10).</td>
+</tr>
+<tr>
+<td><code>banReach</code></td>
+<td><code>1000</code></td>
+<td>How far, in blocks, the villages around a village wiped out close to its killers.</td>
+</tr>
+<tr>
+<td><code>banDays</code></td>
+<td><code>30</code></td>
+<td>For how many in-game days they stay closed to them.</td>
+</tr>
+<tr>
+<td><code>huntersChance</code></td>
+<td><code>0.3</code></td>
+<td>The chance, each time, that bounty hunters come instead of the Marines. A Marine player always gets the hunters.</td>
+</tr>
+<tr>
+<td><code>huntersPerTenMillion</code></td>
+<td><code>0.1</code></td>
+<td>How much that chance climbs for each 10,000,000 Belly of bounty.</td>
+</tr>
+<tr>
+<td><code>huntersMost</code></td>
+<td><code>0.8</code></td>
+<td>The highest that chance climbs.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="defence"><code>defence</code><a class="headerlink" href="#defence" title="Permanent link">&para;</a></h3>
+<p>How <a href="../villages/#a-village-defends-itself">a village defends itself</a> (since 0.7.0).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether villages have their own guards, call the Marines, and see their villagers run off from an attacker.</td>
+</tr>
+<tr>
+<td><code>guards</code></td>
+<td><code>2</code></td>
+<td>How many guards of its own every village has, and a town beside its barracks' own (0 to 4).</td>
+</tr>
+<tr>
+<td><code>aidReach</code></td>
+<td><code>1000</code></td>
+<td>How far, in blocks, a Marine post or base may stand from a village and still send it help.</td>
+</tr>
+<tr>
+<td><code>aidDelay</code></td>
+<td><code>30</code></td>
+<td>How many seconds after a villager is killed the Marines land (0 to 600).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="revival"><code>revival</code><a class="headerlink" href="#revival" title="Permanent link">&para;</a></h3>
+<p>How <a href="../villages/#a-dead-village-lives-again">a dead village lives again</a> (since 0.7.0).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether a dead village lives again. <code>false</code>: it stays a ruin for good, as before 0.7.0.</td>
+</tr>
+<tr>
+<td><code>days</code></td>
+<td><code>7</code></td>
+<td>After how many in-game days it is lived in again by itself.</td>
+</tr>
+<tr>
+<td><code>pricePerHead</code></td>
+<td><code>2000</code></td>
+<td>What bringing it back costs at its notice board, in Belly, for each of the people it was made with.</td>
 </tr>
 </tbody>
 </table>
