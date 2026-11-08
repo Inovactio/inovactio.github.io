@@ -6,14 +6,19 @@ tags:
   - quality
   - flaw
   - disabledTraits
+  - race trait
+  - sky trait
+  - dial tinkerer
+  - will of d
 ---
 
 # Traits
 
-Since 0.6.0 every player is **born with 2 to 5 traits**, out of 58: qualities and flaws of the body and of Haki, of the sea and the trades, of learning, reputation, crew, treasure and the hunt. They are drawn once, when the character is made (or at the next login of a player from before 0.6.0), stay through death, and are drawn so that the qualities outweigh the flaws only a little; two traits that contradict each other never come together.
+Since 0.6.0 every player is **born with 2 to 5 traits**, out of 78 (58 before 0.7.0): qualities and flaws of the body and of Haki, of the sea and the trades, of learning, reputation, crew, treasure and the hunt. They are drawn once, when the character is made (or at the next login of a player from before 0.6.0), stay through death, and are drawn so that the qualities outweigh the flaws only a little; two traits that contradict each other never come together.
 
-- **See yours** in Mine Mine no Mi's player screen, where a sheet lists them with what each does.
-- **A server can turn any trait off**: list its id in `disabledTraits`, under `traits` in `config/inocruise-common.toml`, for example `["inocruise:blind"]`. A trait turned off is never drawn for a new character and does nothing on one who has it; they keep it, and it works again once it is turned back on. See [Configuration](configuration.md#traits).
+- **See yours** in Mine Mine no Mi's player screen, where a sheet lists them with what each does. Since 0.7.0 it also says, under your traits, whether today's **Will of D.** is ready, or used and back tomorrow.
+- **Traits of a race or of the sky** (since 0.7.0): see [below](#traits-of-the-races). They have the same chance as any other. Characters already made keep the traits they have.
+- **A server can turn any trait off**: list its id in `disabledTraits`, under `traits` in the world's `serverconfig/inocruise-server.toml` (in `config/inocruise-common.toml` before 0.7.0), for example `["inocruise:blind"]`. A trait turned off is never drawn for a new character and does nothing on one who has it; they keep it, and it works again once it is turned back on. An id that names no trait is written in the log. See [Configuration](configuration.md#traits).
 - **For operators**: `/traits get <player>`, `/traits set <player> <traits>` and `/traits reroll <player>`.
 
 ## Body and Haki
@@ -88,3 +93,37 @@ Since 0.6.0 every player is **born with 2 to 5 traits**, out of 58: qualities an
 | **Superstitious** | flaw | Weakened a while when the ghost ship's fog or a Sea King comes near | `inocruise:superstitious` |
 | **Allergic** | flaw | Sneezes among flowers and is slowed now and then | `inocruise:allergic` |
 | **Heavy Sleeper** | flaw | Sleeps through anything and wakes up a little hungry | `inocruise:heavy_sleeper` |
+
+## Traits of the races
+
+Since 0.7.0 a new character can be born with a trait of their people: 15 traits, each drawn **only for its races**. The fishmen are Mine Mine no Mi's own race; the other races come with [Race Race no Mi](../race-race-no-mi/index.md), and without it those traits are never drawn. A character who changes race keeps their old race's trait, but it does nothing.
+
+| Trait | | What it does | Races | Id |
+|---|---|---|---|---|
+| **Kin of the Sea** | quality | Sea Kings never go for them until they strike them | fishmen, Wotan | `inocruise:kin_of_the_sea` |
+| **Shoal Caller** | quality | Fishing in a school of fish lands one more fish one time in five | merfolk | `inocruise:shoal_caller` |
+| **Hearty Eater** | quality | Food gives 20 % more saturation | giants, Wotan | `inocruise:hearty_eater` |
+| **Warm Blood** | quality | Never freezes nor is slowed by the cold | Lunarians | `inocruise:warm_blood` |
+| **Fearsome** | quality | A hostile creature weaker than them that goes for them flees for 5 seconds one time in four | oni | `inocruise:fearsome` |
+| **Kind Soul** | quality | Their crewmates within 16 blocks heal 10 % faster | buccaneers | `inocruise:kind_soul` |
+| **Quick Harvest** | quality | A ripe crop gives one more of its harvest one time in five | tontatta | `inocruise:quick_harvest` |
+| **Fearless** | quality | Deals 10 % more damage when below 30 % health | modified humans | `inocruise:fearless` |
+| **Light Body** | quality | Takes 20 % less damage from falls | sky people | `inocruise:light_body` |
+| **Dry Skin** | flaw | 10 % slower and 10 % hungrier in hot and dry places | fishmen, Wotan | `inocruise:dry_skin` |
+| **Hunted** | flaw | Pirates, Marines and bandits notice them from 20 % further | merfolk, Lunarians, buccaneers | `inocruise:hunted` |
+| **Sinks the Boat** | flaw | A boat they steer sails 15 % slower | giants, Wotan | `inocruise:sinks_the_boat` |
+| **Feared** | flaw | Villagers pay 15 % less for their errands | oni | `inocruise:feared` |
+| **Sweet Tooth** | flaw | Food that is not sweet feeds 15 % less | tontatta | `inocruise:sweet_tooth` |
+| **Sky Sick** | flaw | 10 % slower below sea level | sky people | `inocruise:sky_sick` |
+
+## Traits of the sky
+
+With [Sky Island](../sky-island/index.md) installed (1.0.2 or later), any character can be born with one of 5 more traits. Without Sky Island they are never drawn and do nothing.
+
+| Trait | | What it does | Id |
+|---|---|---|---|
+| **Light Foot** | quality | 15 % faster on clouds | `inocruise:light_foot` |
+| **Cloud Swimmer** | quality | Swims 30 % faster in the sea of clouds, even with a Devil Fruit | `inocruise:cloud_swimmer` |
+| **Dial Tinkerer** | quality | A dial used is kept one time in five: Sky Island's, Mine Mine no Mi's (the item tag `inosky:dials`) and Cruise's Thunder, Jet and Tone Dials | `inocruise:dial_tinkerer` |
+| **Altitude Sickness** | flaw | In Skypiea, mines 15 % slower and gets hungry 10 % faster. Never drawn for the sky people | `inocruise:altitude_sickness` |
+| **Cloud Sick** | flaw | 10 % slower on clouds | `inocruise:cloud_sick` |

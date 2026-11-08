@@ -177,17 +177,17 @@ Every 5 Farmer levels give you a **talent point** (10 at level 50, 20 at level 1
 | Thorn Patch | **ability** | Needs a hoe. Thorns hurt and hold for 2 seconds the foe you look at and those round him. Gives the ability **Thorn Patch** | Heavy ears 2, Fighting Farmer 3 |
 | Fighting Farmer 2 | small | Your Farmer abilities hit 5% harder | Second Sowing, Field sense 3, Full Basket |
 | Fighting Farmer 3 | small | Your Farmer abilities hit 5% harder | Thorn Patch, Field sense 4 |
-| ![](../icons/lotus_seed.png){ .item-icon }Second Sowing | **major** | 15% of the crops you reap ripe are sown again at once | Good soil 3, Fighting Farmer 2 |
+| ![](../icons/lotus_seed.png){ .item-icon }Second Sowing | **major** | 15% of the crops you reap ripe are sown again at once | Hay Maker, Fighting Farmer 2 |
 | Field sense 3 | small | A harvest gives 5% more Farmer XP | Fighting Farmer 2, Old Hands |
 | Field sense 4 | small | A harvest gives 5% more Farmer XP | Old Hands, Fighting Farmer 3 |
-| Good soil 3 | small | The rare harvest of a crop gets a second chance worth 5% of its own | Second Sowing, Fighting Farmer 4 |
+| Hay Maker | **ability** | Needs a hoe. A blow from below that throws a foe up in the air. Gives the ability **Hay Maker** | Second Sowing, Fighting Farmer 4 |
 | ![](../icons/bitter_grass.png){ .item-icon }Old Hands | **major** | A plant far under your level never pays less than 50% of its XP | Field sense 3, Field sense 4, Heavy ears 4 |
-| Fighting Farmer 4 | small | Your Farmer abilities hit 5% harder | Hay Maker, Good soil 3 |
+| Fighting Farmer 4 | small | Your Farmer abilities hit 5% harder | Good soil 3, Hay Maker |
 | Heavy ears 4 | small | 2% chance of one more of what you harvest | Orchard Keeper, Field sense 5, Old Hands |
-| Hay Maker | **ability** | Needs a hoe. A blow from below that throws a foe up in the air. Gives the ability **Hay Maker** | Fighting Farmer 4, Fighting Farmer 5 |
+| Good soil 3 | small | The rare harvest of a crop gets a second chance worth 5% of its own | Fighting Farmer 4, Fighting Farmer 5 |
 | ![](../icons/coconut.png){ .item-icon }Orchard Keeper | **major** | 20% of the fruits you pick leave one half grown behind | Fighting Farmer 5, Heavy ears 4 |
 | Field sense 5 | small | A harvest gives 5% more Farmer XP | Heavy ears 4 |
-| Fighting Farmer 5 | small | Your Farmer abilities hit 5% harder | Hay Maker, Orchard Keeper |
+| Fighting Farmer 5 | small | Your Farmer abilities hit 5% harder | Good soil 3, Orchard Keeper |
 
 The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
 

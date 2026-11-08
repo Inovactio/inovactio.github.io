@@ -3,7 +3,7 @@
 Player wikis and developer documentation for Inovactio's Minecraft mods. All of them are addons for [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod), on **Minecraft 1.20.1** with **Forge**.
 
 !!! tip "New on 2026-11-08"
-    Missing Missing no Mi 7.1.0 (six fruits made new, the Kote Kote no Mi rebuilt), Race Race no Mi 0.4.0 (the Wotan, four new fishmen) and AkumaLib 6.5.0 (fairer NPC bounties): [what's new](whats-new.md).
+    Missing Missing no Mi 7.1.0 (six fruits made new, the Kote Kote no Mi rebuilt), Race Race no Mi 0.4.0 (the Wotan, four new fishmen) and AkumaLib 6.5.0 (fairer NPC bounties); Cruise Cruise no Mi 0.7.0 (villages that grow into towns and fight back) and Sky Island 1.0.2: [what's new](whats-new.md).
 
 <div class="grid cards" markdown>
 

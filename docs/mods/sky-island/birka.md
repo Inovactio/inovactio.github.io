@@ -23,7 +23,7 @@ About one Birkan island in five is **inhabited**: no crater, no burnt cloud, no 
 - **Thirty to fifty houses** in three rows, furnished, each with its people and **a modest chest**: provisions, a little gold, a common dial one time in ten.
 - **The merchant**, behind the counter of his shop before the temple's portal: Birka's masonry, cheap and in number, and two sorts of common dials. He **buys burnt cloud** — Ashen or Scorched Cloud brought from a ruined island — for extol: hold it out to him.
 - **The craftsman of dials**, in his workshop beside the shop: **Flame Dials and Impact Dials**, and the rarest of [Sky Island's dials](dials.md), **Jet Dials and Vision Dials**, always.
-- **The guards**: two at the portal, two in the crypt, two by their posts. They fight like the divine soldiers, with their dials, but go for nobody on sight.
+- **The guards**: two at the portal, two in the crypt, two by their posts. They fight like the divine soldiers, with their dials, but go for nobody on sight. Since 1.0.2 Marines, bounty hunters and revolutionaries can hurt a guard who attacks them or struck them.
 
 !!! warning "Theft"
     **Strike a Birkan, open a chest of the town or break a block of one of its buildings**, and the guards around come for you. **The town remembers**: a guard who was not there knows the thief all the same. A chest or a torch of your own, set down in a house, is yours.

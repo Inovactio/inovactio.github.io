@@ -135,19 +135,19 @@ Every 5 Cook levels give you a **talent point** (10 at level 50, 20 at level 100
 | Big pot 2 | small | 2% more chance that a recipe gives one more dish | Chef's Touch |
 | ![](../icons/flour.png){ .item-icon }Thrifty Kitchen | **major** | 10% chance that a dish gives back one of its ingredients | Kitchen hand 2, Big pot 3 |
 | Fine palate 3 | small | 2% more chance that a dish you cook comes out one quality higher | Kitchen hand 2 |
-| ![](../icons/pirates_lunch.png){ .item-icon }Second Serving | **major** | 10% chance that a recipe gives one more dish | Master Chef, Big pot 3, Kitchen hand 3, Fighting Cook 1 |
-| ![](../icons/roasted_meat_festival.png){ .item-icon }Master Chef | **major** | 15% more chance that a dish you cook comes out one quality higher | Slow fire 3, Second Serving, Fighting Cook 2 |
-| Big pot 3 | small | 2% more chance that a recipe gives one more dish | Thrifty Kitchen, Second Serving, Fighting Cook 3 |
-| Fighting Cook 1 | small | Your Cook abilities hit 5% harder | Second Serving, Nourishing |
-| Fighting Cook 2 | small | Your Cook abilities hit 5% harder | Master Chef, Flambe |
-| Fighting Cook 3 | small | Your Cook abilities hit 5% harder | Big pot 3, Spice Cloud |
-| ![](../icons/seagull_bone_soup.png){ .item-icon }Nourishing | **major** | Your dishes give 20% more Doriki. The cap of their tier stays | Fighting Cook 1, Crew Meal, Fine palate 4, Slow fire 4 |
-| ![](../icons/flame_powder.png){ .item-icon }Flambe | **ability** | A jet of flame before you. It burns the foes in front of you and sets them alight. Gives the ability **Flambe** | Fighting Cook 2, Fighting Cook 4, Fine palate 4 |
-| ![](../icons/flame_powder.png){ .item-icon }Spice Cloud | **ability** | Throw a pouch of spice. It hurts and blinds and slows the foes where it lands. Gives the ability **Spice Cloud** | Fighting Cook 3, Fighting Cook 5, Slow fire 4 |
+| ![](../icons/pirates_lunch.png){ .item-icon }Second Serving | **major** | 10% chance that a recipe gives one more dish | Master Chef, Big pot 3, Kitchen hand 3, Flambe |
+| ![](../icons/roasted_meat_festival.png){ .item-icon }Master Chef | **major** | 15% more chance that a dish you cook comes out one quality higher | Slow fire 3, Second Serving, Fighting Cook 1 |
+| Big pot 3 | small | 2% more chance that a recipe gives one more dish | Thrifty Kitchen, Second Serving, Fighting Cook 2 |
+| ![](../icons/flame_powder.png){ .item-icon }Flambe | **ability** | A jet of flame before you. It burns the foes in front of you and sets them alight. Gives the ability **Flambe** | Second Serving, Nourishing |
+| Fighting Cook 1 | small | Your Cook abilities hit 5% harder | Master Chef, Fighting Cook 3 |
+| Fighting Cook 2 | small | Your Cook abilities hit 5% harder | Big pot 3, Spice Cloud |
+| ![](../icons/seagull_bone_soup.png){ .item-icon }Nourishing | **major** | Your dishes give 20% more Doriki. The cap of their tier stays | Flambe, Crew Meal, Fine palate 4, Slow fire 4 |
+| Fighting Cook 3 | small | Your Cook abilities hit 5% harder | Fighting Cook 1, Fighting Cook 4, Fine palate 4 |
+| ![](../icons/flame_powder.png){ .item-icon }Spice Cloud | **ability** | Throw a pouch of spice. It hurts and blinds and slows the foes where it lands. Gives the ability **Spice Cloud** | Fighting Cook 2, Fighting Cook 5, Slow fire 4 |
 | ![](../icons/sky_island_lunch.png){ .item-icon }Crew Meal | **ability** | You and your crewmates and your animals round you get 8 health back. Gives the ability **Crew Meal** | Nourishing |
-| Fine palate 4 | small | 2% more chance that a dish you cook comes out one quality higher | Flambe, Nourishing |
+| Fine palate 4 | small | 2% more chance that a dish you cook comes out one quality higher | Fighting Cook 3, Nourishing |
 | Slow fire 4 | small | The buffs of your dishes last 5% longer | Nourishing, Spice Cloud |
-| Fighting Cook 4 | small | Your Cook abilities hit 5% harder | Flambe |
+| Fighting Cook 4 | small | Your Cook abilities hit 5% harder | Fighting Cook 3 |
 | Fighting Cook 5 | small | Your Cook abilities hit 5% harder | Spice Cloud |
 
 The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
@@ -159,7 +159,7 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 | Ability | What it does | Needs | Cooldown | Damage | Range |
 |---|---|---|---|---|---|
 | **Flambe** | Throw a jet of flame before you. Every enemy in front of you within 4 blocks is burnt and set alight for 3 seconds | — | 10 s | 30 | 4 blocks |
-| **Spice Cloud** | Throw a pouch of spice. It bursts where it lands. Every enemy within 3 blocks is hurt and blinded and slowed for 3 seconds. A player or a boss half as long | — | 12 s | 20 | 3 blocks |
+| **Spice Cloud** | Throw a pouch of spice. It bursts where it lands. Every enemy within 3 blocks is hurt and blinded and slowed for 3 seconds and loses you. A player or a boss half as long | — | 12 s | 20 | 3 blocks |
 | **Crew Meal** | Hand a quick meal round. You and your crewmates and your animals within 6 blocks get 8 health back | — | 30 s | — | 6 blocks |
 
 #### Their moves

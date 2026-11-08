@@ -125,8 +125,8 @@ These are all the Sewing Table's recipes:
 | CP9 Jacket | 38 | 86 | 5 × Black Wool, White Wool, Gold Nugget |
 | CP9 Pants | 38 | 86 | 4 × Black Wool, String |
 | Law's Hat | 39 | 88 | 4 × White Wool, 2 × Black Dye, 2 × ![](../icons/mole.png){ .item-icon }Mole |
-| Senor Pink's Bonnet | 40 | 90 | 3 × Pink Wool, White Wool |
-| Senor Pink's Diaper | 40 | 90 | 3 × White Wool, String |
+| Senor Pink's Bonnet | 40 | 90 | 4 × Pink Wool, 2 × White Wool, Leather |
+| Senor Pink's Diaper | 40 | 90 | 6 × White Wool, String, Leather |
 | Senor Pink's Shirt | 40 | 90 | 5 × Pink Wool, White Wool, Rabbit Hide |
 | Killer's Mask | 41 | 92 | 3 × ![](../icons/pure_iron_ore.png){ .item-icon }Pure Iron Ore, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, Blue Dye, White Dye, Leather |
 | Soul King Crown | 41 | 92 | 3 × Gold Ingot, ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment, Red Dye |
@@ -138,7 +138,7 @@ These are all the Sewing Table's recipes:
 | Who's Who Mask | 44 | 98 | 3 × any hides, 2 × Black Dye, 2 × Gold Ingot, ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment |
 | Vice Admiral Boots | 45 | 100 | 2 × Leather, any hides, Gold Nugget |
 | Vice Admiral Jacket | 45 | 100 | 5 × White Wool, 2 × Gold Ingot, ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment |
-| Vice Admiral Pants | 45 | 100 | 4 × White Wool, Blue Wool |
+| Vice Admiral Pants | 45 | 100 | 6 × White Wool, Blue Wool, Gold Nugget |
 | White Walkie Coat | 46 | 102 | 6 × White Wool, 2 × Leather, ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment |
 | Doflamingo's Glasses | 47 | 104 | 2 × Glass Pane, Red Dye, 2 × Gold Ingot, 2 × ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment |
 | Mihawk's Hat | 48 | 106 | 4 × Black Wool, 2 × Feather, any wings, Gold Ingot, ![](../icons/diamond_fragment.png){ .item-icon }Diamond Fragment |
@@ -172,7 +172,7 @@ Every 5 Tailor levels give you a **talent point** (10 at level 50, 20 at level 1
 | Wide cloth 3 | small | 3% more chance that a working of your own materials gives twice as many | Sturdy Seams, Royal Cut |
 | ![](../icons/masters_sail.png){ .item-icon }Master's Cut | **major** | A garment you sew is a master's work. It is signed and adds 1 Armor and half an Armor Toughness | Fine Seams, Apprentice 3, Fighting Tailor 2 |
 | ![](../icons/mask_fragment.png){ .item-icon }Offcuts | **major** | 25% of your work gives an ingredient back | Tailor's Notes, Saved scraps 4, Fighting Tailor 3 |
-| Patch Up | **ability** | Each piece of armour you wear gets 15% of its wear back. Gives the ability **Patch Up** | Fighting Tailor 1 |
+| Patch Up | **ability** | Each piece of armour you wear gets 30% of its wear back. Gives the ability **Patch Up** | Fighting Tailor 1 |
 | Royal Cut | **major** | A master's work of yours adds 1 more Armor and half an Armor Toughness more. Needs Master's Cut | Wide cloth 2, Wide cloth 3 |
 | Fighting Tailor 2 | small | Your Tailor abilities hit 5% harder | Master's Cut, Fighting Tailor 4 |
 | Fighting Tailor 3 | small | Your Tailor abilities hit 5% harder | Offcuts, Fighting Tailor 5 |
@@ -189,8 +189,8 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 
 | Ability | What it does | Needs | Cooldown | Damage | Range |
 |---|---|---|---|---|---|
-| **Patch Up** | Mend what you wear on the spot. Each piece of armour on you gets 15% of its wear back | — | 30 s | — | — |
-| **Thread Bind** | Throw a thread round the enemy you look at within 10 blocks. He is hurt and held for 2 seconds. A player or a boss half as long | — | 12 s | 20 | 10 blocks |
+| **Patch Up** | Mend what you wear on the spot. Each piece of armour on you gets 30% of its wear back | — | 20 s | — | — |
+| **Thread Bind** | Throw a thread round the enemy you look at within 10 blocks. He is hurt and held for 3 seconds. A player or a boss half as long | — | 12 s | 30 | 10 blocks |
 | **Needle Rain** | Throw a fan of needles before you. Every enemy in front of you within 6 blocks is hit | — | 9 s | 25 | 6 blocks |
 
 #### Their moves

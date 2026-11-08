@@ -49,16 +49,16 @@ Now and then, the world comes to you. **Events** turn up near a player, stay for
 
 | Event | How often | How long | Where it is announced |
 |---|---|---|---|
-| [The merchant ship](#the-merchant-ship) | every 4 to 7 days | 1 day | chat, to everyone, with its coordinates |
-| [A Sea King surfaces](#a-sea-king-surfaces) | every 7 to 10 days | 2 days | chat, to everyone, with its coordinates |
-| [A wreck adrift](#a-wreck-adrift) | every 5 to 8 days | 1 day, then it sinks | chat, to everyone, with its coordinates |
-| [The floating restaurant](#the-floating-restaurant) | every 9 to 13 days | 1 day | chat, to everyone, with its coordinates and the chef's dish |
-| [The fog of the Florian Triangle](#the-fog-of-the-florian-triangle) | every 7 to 10 days, at nightfall | until dawn | chat, to players within 1 000 blocks: a way and a distance |
+| [The merchant ship](#the-merchant-ship) | every 4 to 7 days | 1 day | chat, to players within 1 000 blocks, with its coordinates |
+| [A Sea King surfaces](#a-sea-king-surfaces) | every 7 to 10 days | 2 days | chat, to players within 1 000 blocks, with its coordinates |
+| [A wreck adrift](#a-wreck-adrift) | every 5 to 8 days | 1 day, then it sinks | chat, to players within 1 000 blocks, with its coordinates |
+| [The floating restaurant](#the-floating-restaurant) | every 9 to 13 days | 1 day | chat, to players within 1 000 blocks, with its coordinates and the chef's dish |
+| [The fog of the Florian Triangle](#the-fog-of-the-florian-triangle) | every 7 to 10 days, from dusk | until dawn | chat, to players within 1 000 blocks: a way and a distance |
 | [A storm at sea](#a-storm-at-sea) | every 4 to 7 days | 4 to 6 in-game hours | the Barometer half a day ahead; chat when it breaks, to players within 1 000 blocks: a way and a distance |
-| [A ship in distress](#a-ship-in-distress) | every 8 to 12 days | 1 day, then she sinks | chat, to everyone, with her coordinates |
+| [A ship in distress](#a-ship-in-distress) | every 8 to 12 days | 1 day, then she sinks | chat, to players within 1 000 blocks, with her coordinates |
 | [A school of fish](#a-school-of-fish) | every 3 to 5 days | half a day | chat, to players within 1 000 blocks: the fish, a way and a distance |
 | [A creature migration](#a-creature-migration) | every 5 to 8 days | 1 day | chat, to players within 1 000 blocks: the creature, a way and a distance |
-| [A falling star](#a-falling-star) | every 15 to 20 days, in the night | 1 day | chat, to everyone: a way and a distance |
+| [A falling star](#a-falling-star) | every 15 to 20 days, in the night | 1 day | chat, to players within 1 000 blocks: a way and a distance |
 | [A concert on the square](village-events.md#a-concert-on-the-square) | every 5 to 8 days | 1 day | chat, with the village's name and its coordinates |
 | [A fever in the village](village-events.md#a-fever-in-the-village) | every 7 to 10 days | 1 day | chat, with the village's name and its coordinates |
 | [A swordsmith from Wano](village-events.md#a-swordsmith-from-wano) | every 8 to 12 days | 2 days | chat, with the village's name and its coordinates |
@@ -70,7 +70,7 @@ Days are in-game days (one day = 20 real minutes, one in-game hour = 50 real sec
 
 ## How you hear of them
 
-- **In the chat.** Everyone is told when an event starts, with its coordinates, and again when it is about to end. The fog, the storm, the school of fish, the migration and the falling star give no coordinates: each player is told **which way and about how far** from where he stands, and has to look for it. The fog, the storm, the school and the migration are told only to the players within 1 000 blocks.
+- **In the chat.** Since 0.7.0 the start, the warning and the end of every event, the falling star and the Sea King included, reach only the players **within 1 000 blocks** of it, in the same world. The ships, the Sea King and the wreck are told with their coordinates. The fog, the storm, the school of fish, the migration and the falling star give no coordinates: each player is told **which way and about how far** from where they stand, and has to look for it.
 - **From the barkeepers.** Mine Mine no Mi's barkeepers sell rumours (1 000 Belly). While an event runs within 2 000 blocks of the barkeeper, the rumour is about it: the nearest one. Every player hears it, Marine, Bounty Hunter or not.
 - **On the notice board.** The board of a [village](villages.md) has a **news** note beside the day's orders: every event running within 2 000 blocks, with how long it still lasts. It costs nothing: see [The news on the notice board](village-events.md#the-news-on-the-notice-board).
 
@@ -230,7 +230,9 @@ A Sea King is sighted off a coast and stays for **two days**, circling slowly ov
 | Extra-Large Sea King | 35 % | 200 | 11 | 1 400 |
 | Goldfish Sea King | 15 % | 260 | 14 | 2 000 |
 
-It is the same beast a [Fisher](trades/fisher.md) pulls up on a line, with the same attacks. It **only goes for whoever is on its water**: swimming or in a boat within 32 blocks of where it lies. The beach is safe.
+It is the same beast a [Fisher](trades/fisher.md) pulls up on a line, with the same attacks. It **only goes for whoever is on its water**: swimming or in a boat within 32 blocks of where it lies. The beach is safe. Its **health bar** shows when you come onto its water and goes when you leave. A creative or spectator player does not calm it: it keeps fighting the survival player near it.
+
+**A hurt Sea King stays hurt**: dying, walking away or reloading the world does not heal it. **Killed**, it ends its event at once: everyone is told who slew it, and barkeepers and boards stop talking about it.
 
 Killed, it gives its **parts only**, as a hooked one does:
 
@@ -319,7 +321,7 @@ His stall holds up to 24 goods, and is dear, as any stall. He sells no torn map 
 
 ## The fog of the Florian Triangle
 
-At **nightfall**, a thick fog falls over a stretch of sea, out at sea. Those within 1 000 blocks are told which way and about how far:
+From **dusk**, before beds can be used, a thick fog falls over a stretch of sea, out at sea. Those within 1 000 blocks are told which way and about how far:
 
 > *A fog has fallen over the sea to the north-east, about 400 blocks from here. They say a ship drifts in it.*
 
@@ -431,7 +433,7 @@ It is handed to you **wherever you are**, at your next coming if you are away. T
 
 ## A school of fish
 
-A school of one fish passes **off a wild coast or out at sea**, away from the villages. Those within 1 000 blocks are told which fish, which way and about how far:
+A school of one fish passes **off a wild coast or out at sea**, away from the villages. Those within 1 000 blocks are told which fish, which way and about how far, and the Fisher level it needs; the rumours say it too. Below that level, nothing more bites there:
 
 > *A school of &lt;fish&gt; is passing off the coast to the north-east, about 400 blocks from here. Look for the gulls diving over it: it will not stay long.*
 
@@ -491,7 +493,7 @@ The migration holds **thirty creatures for everyone**. It is over when the last 
 
 ## A falling star
 
-In the night, a star falls somewhere **in the wild, on dry land**, away from the players and the villages. If you are within 700 blocks you see it streak across the sky and hear it strike. Everyone is told which way it fell and about how far:
+In the night, a star falls somewhere **in the wild, on dry land**, away from the players and the villages. If you are within 700 blocks you see it streak across the sky and hear it strike. Those within 1 000 blocks are told which way it fell and about how far. If you sleep through the night when a star was due, it still falls, and you are told where when you wake up:
 
 > *A star has fallen to the north-east, about 400 blocks from here. Look for its smoke: by tomorrow night nothing will be left of it.*
 

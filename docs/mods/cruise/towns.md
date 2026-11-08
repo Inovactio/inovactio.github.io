@@ -41,11 +41,20 @@ tags:
   - nobles
   - manor
   - antiquarian
+  - arena ground
+  - glacier
+  - volcano
+  - ruins
+  - ship deck
+  - jungle islet
+  - sand arena
 ---
 
 # Towns
 
 One new place in three is a **town** (one in four in a world made before 0.6.0): a [village](villages.md) with quarters round it, a wall, guards, and four buildings no village has. Everything a village does, a town does too; this page tells what it has more.
+
+Since 0.7.0 a village also **becomes a town** when its [prosperity](villages.md#prosperity-a-village-grows) reaches 150 points: its walls, bank, bounty office, colosseum and plots are built one by one before your eyes. A town that falls back under 150 is a village again by name: its bank, inn, warehouse, market hall, colosseum and bounty office close and their keepers leave, its barracks' guards too, but nothing is destroyed. A town the world made starts at 150.
 
 !!! note "Only in new land"
     Towns came with 0.4.0 and stand in land that has not been explored yet. Villages already made stay as they are, and keep their names.
@@ -146,6 +155,8 @@ Guards live at the barracks and keep the town. Each is as strong as one of Mine 
 - A player the town is closed to, on sight, for as long as it is closed to him.
 
 They follow nobody far out of their town: a dozen blocks past its ground, and they let go.
+
+**A village's own guards.** Since 0.7.0 a town also has 2 guards of its own beside its barracks' own, posted round the square, like [every village](villages.md#a-village-defends-itself).
 
 **A blow on a guard costs double** what a blow on a townsman costs, as a blow on a child does: see [Hands off the villagers](villages.md#hands-off-the-villagers).
 
@@ -249,17 +260,39 @@ Since 0.6.0 every new town has a **colosseum**, with its **Arena Master**.
 | 7 | 34,000 | captains and dugongs |
 | 8 | 61,000 | captains, notorious captains and vice admirals, with Devil Fruits; 10 % chance of a Devil Fruit box |
 | 9 | 110,000 | the same; 25 % chance of a Devil Fruit box |
-| 10 | 200,000 | the same; 75 % chance of a Devil Fruit box, and the title **Arena Champion** |
+| 10 | 200,000 | the same; 30 % chance of a Devil Fruit box (75 % before 0.7.0), one in ten of them golden, and the title **Arena Champion** |
 
 - A tier pays **half as much again** to one who fights without their Devil Fruit.
-- The top three tiers pay a rare prize when no box comes. The box, or the prize, comes once per town per week.
+- The top three tiers pay a rare prize when no box comes.
+- **One full prize a week across towns** (since 0.7.0). A tier you already won this week in another town pays a quarter of its Belly and no box. A higher tier still pays in full.
 - **The ladders start over every Monday** at midnight, the server's real time. The arena window tells how many days are left.
 
-**Bets.** Bet on a fight, up to 50,000 Belly. The odds come from each side's Doriki; the house keeps 10 %.
+**Bets.** Bet on a fight, up to 50,000 Belly. The odds come from each side's Doriki; the house keeps 10 %. When a player bets or signs up, the odds and bets change at once for everyone with the master's window open. **Those who bet watch from the master's box**, looking down on the fight; from the stands nobody can strike, shoot or burn a fighter, and a spectator is sent back where they stood before watching.
+
+**A fighter who logs out** during a fight no longer loses it: the fight does not count, and every bet on it is given back.
 
 **Exhibitions.** Every evening, two fighters of tiers 3 to 7 are announced in the late afternoon and fight at sunset. A fight not over in 5 minutes is no fight, and the bets are paid back.
 
 **Neutral ground.** Beating a Marine in a bout costs no loyalty, adds no bounty, is no strike for a civilian and does not end a pirate's truce. A bout gives no Hunter XP, no Bestiary page and no quest kill. The same holds for the men of the other side when a crew [assaults a village](village-flags.md#assaults-between-players): no loyalty, bounty or strike. You keep your Doriki and the Belly.
+
+### The six grounds
+
+Since 0.7.0 every ground stands inside the same **colosseum**: rows of stands all round, the fighters' two gates and the master's box. The higher the tier, the grander it is dressed: more banners, more braziers, more gold.
+
+| Ground | Tiers |
+|---|---|
+| **The sand arena** | 1 and 2 |
+| **The ship deck** | 3 and 4 |
+| **The jungle islet** | 5 and 6 |
+| **The glacier**: its packed ice is slippery | 7 |
+| **The volcano**: its veins of magma burn whoever stands on them | 8 |
+| **The ruins** | 9 and 10 |
+
+- **Built for the fight.** Each ground has a clear middle for big fruit fights, high and low ground with wide ramps, pillars to hide behind and low walls before the gates. Both sides are the same, so neither fighter has the better start.
+- **Room for giants.** The grounds are big, and the gates, ramps and arches leave room for a giant.
+- **No way out of the ring.** Nobody climbs, jumps or flies into the stands during a fight.
+- **A fresh ground for every fight.** The ground is rebuilt before each fight: the holes a fruit left in the last one are gone.
+- **Your opponent comes for you.** He crosses the ground to fight you, and those who shoot keep their distance.
 
 ## The black market
 

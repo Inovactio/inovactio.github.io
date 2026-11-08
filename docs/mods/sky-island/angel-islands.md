@@ -73,7 +73,7 @@ Every block the villages are built from can be crafted: cloud brick, cut cloud, 
 <figcaption>The White Berets' post.</figcaption>
 </figure>
 
-Skypiea's police. Every village has their **post** — a small tower of white stone with battlements, a cell and a bell — with a rare chest of seized goods, and the **White Beret Guards** (the recruits) and a **White Beret Captain** who keep order in the village. Under the same uniform there are **eight faces**: skin, hair, eyes, a moustache, a beard or a scar. They are calibrated against the base mod's own NPCs — the captain is the stronger, with Busoshoku Haki.
+Skypiea's police. Every village has their **post** — a small tower of white stone with battlements, a cell and a bell — with a rare chest of seized goods, and the **White Beret Guards** (the recruits) and a **White Beret Captain** who keep order in the village. Under the same uniform there are **eight faces**: skin, hair, eyes, a moustache, a beard or a scar. They are calibrated against the base mod's own NPCs — the captain is the stronger, with Busoshoku Haki. Since 1.0.2 Marines, bounty hunters and revolutionaries can hurt a White Beret who attacks them or struck them; peaceful ones stay off-limits to them.
 
 <div class="mob-gallery" markdown>
 

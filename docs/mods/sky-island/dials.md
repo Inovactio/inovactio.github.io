@@ -12,7 +12,7 @@ tags:
 
 # Dials
 
-Mine Mine no Mi already has eight dials: Axe, Breath, Eisen, Flame, Flash, Impact, Milky and Reject. Sky Island adds **the eight the base mod does not have**, in the base mod's own style — a shell you hold, or a shell you set down.
+Mine Mine no Mi already has eight dials: Axe, Breath, Eisen, Flame, Flash, Impact, Milky and Reject. Sky Island adds **the eight the base mod does not have**, in the base mod's own style — a shell you hold, or a shell you set down. All sixteen are in the item tag `inosky:dials` (since 1.0.2), for other mods: see [Compatibility](index.md#compatibility).
 
 ## What each one does
 

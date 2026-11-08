@@ -294,35 +294,35 @@ Every 5 Hunter levels give you a **talent point** (10 at level 50, 20 at level 1
 | Talent | Kind | What it gives | Linked to |
 |---|---|---|---|
 | Careful catch 1 | small, start | 8% more chance that a net or a trap is not worn by a catch | Careful Hands |
-| Fighting Hunter 1 | small, start | Your Hunter abilities hit 5% harder | Net Throw |
+| Fighting Hunter 1 | small, start | Your Hunter abilities hit 5% harder | Good hand 1 |
 | Sharp eye 1 | small, start | Rare variants are 10% more common around you | Keen Eye |
 | Heavy net 1 | small, start | 3% more chance that a catch's drops come twice | Full Bag |
-| Fighting Hunter 2 | small, start | Your Hunter abilities hit 5% harder | Hunter's Mark |
+| Fighting Hunter 2 | small, start | Your Hunter abilities hit 5% harder | Soft step 2 |
 | Soft step 1 | small, start | Creatures notice you half a block later | Light Step |
-| ![](../icons/bug_catcher_net.png){ .item-icon }Careful Hands | **major** | Your nets and traps wear half as fast | Careful catch 1, Long handle, Net Throw, Light Step |
-| ![](../icons/enhanced_bug_catcher_net.png){ .item-icon }Net Throw | **ability** | Needs a bug net. Throw a net at a foe. It wraps him 3 seconds and slows those by him. Gives the ability **Net Throw** | Careful Hands, Fighting Hunter 1, Tight knots, Keen Eye |
-| ![](../icons/golden_hercules.png){ .item-icon }Keen Eye | **major** | Rare variants are twice as common around you | Net Throw, Sharp eye 1, New page, Full Bag |
-| ![](../icons/mystery_egg.png){ .item-icon }Full Bag | **major** | 20% chance that a catch's drops come twice | Keen Eye, Heavy net 1, Beast slayer 1, Hunter's Mark |
-| ![](../icons/scent_lure.png){ .item-icon }Hunter's Mark | **ability** | Mark a foe for 20 seconds. You see him through walls and your blows do 15% more to him. Gives the ability **Hunter's Mark** | Full Bag, Fighting Hunter 2, Long trail, Light Step |
-| ![](../icons/swallowtail_butterfly.png){ .item-icon }Light Step | **major** | Creatures notice you 2 blocks later | Hunter's Mark, Soft step 1, Good hand 1, Careful Hands |
+| ![](../icons/bug_catcher_net.png){ .item-icon }Careful Hands | **major** | Your nets and traps wear half as fast | Careful catch 1, Long handle, Good hand 1, Light Step |
+| Good hand 1 | small | A catch gives 5% more Hunter XP | Careful Hands, Fighting Hunter 1, Tight knots, Keen Eye |
+| ![](../icons/golden_hercules.png){ .item-icon }Keen Eye | **major** | Rare variants are twice as common around you | Good hand 1, Sharp eye 1, New page, Full Bag |
+| ![](../icons/mystery_egg.png){ .item-icon }Full Bag | **major** | 20% chance that a catch's drops come twice | Keen Eye, Heavy net 1, Beast slayer 1, Soft step 2 |
+| Soft step 2 | small | Creatures notice you half a block later | Full Bag, Fighting Hunter 2, Long trail, Light Step |
+| ![](../icons/swallowtail_butterfly.png){ .item-icon }Light Step | **major** | Creatures notice you 2 blocks later | Soft step 2, Soft step 1, Good hand 2, Careful Hands |
 | Long handle | small | Your net reaches half a block further | Careful Hands, Master Trapper |
-| Tight knots | small | Your net and your trap hold 10% longer | Net Throw, Snap Trap |
+| Tight knots | small | Your net and your trap hold 10% longer | Good hand 1, Snap Trap |
 | New page | small | The first catch of a kind gives 10% more Hunter XP | Keen Eye, Collector |
 | Beast slayer 1 | small | You hit big game 5% harder | Full Bag, Big Game Hunter |
-| Long trail | small | Your mark lasts 10% longer | Hunter's Mark, Hornet Swarm |
-| Good hand 1 | small | A catch gives 5% more Hunter XP | Light Step, Still Air |
-| ![](../icons/enhanced_traps.png){ .item-icon }Master Trapper | **major** | 25% of your traps that catch are not used up | Long handle, Good hand 2, Careful catch 2 |
-| ![](../icons/traps.png){ .item-icon }Snap Trap | **ability** | Lay a trap for 30 seconds. The first foe on it is hurt and held 4 seconds. Gives the ability **Snap Trap** | Good hand 2, Tight knots, Sharp eye 2 |
+| Long trail | small | Your mark lasts 10% longer | Soft step 2, Hornet Swarm |
+| Good hand 2 | small | A catch gives 5% more Hunter XP | Light Step, Still Air |
+| ![](../icons/enhanced_traps.png){ .item-icon }Master Trapper | **major** | 25% of your traps that catch are not used up | Long handle, Net Throw, Careful catch 2 |
+| ![](../icons/traps.png){ .item-icon }Snap Trap | **ability** | Lay a trap for 30 seconds. The first foe on it is hurt and held 4 seconds. Gives the ability **Snap Trap** | Net Throw, Tight knots, Sharp eye 2 |
 | ![](../icons/golden_egg.png){ .item-icon }Collector | **major** | A rare variant pays 5 times its XP instead of 3 | Sharp eye 2, New page, Heavy net 2 |
 | ![](../icons/thunder_spider.png){ .item-icon }Big Game Hunter | **major** | A beast you hunt gives 50% more Hunter XP | Heavy net 2, Beast slayer 1, Beast slayer 2 |
-| ![](../icons/doctor_hornet.png){ .item-icon }Hornet Swarm | **ability** | Send a swarm at a foe. It stings him 6 seconds and poisons those by him. Gives the ability **Hornet Swarm** | Beast slayer 2, Long trail, Soft step 2 |
-| ![](../icons/invisible_swallowtail.png){ .item-icon }Still Air | **major** | A creature that takes off waits 1 second more before it leaves | Soft step 2, Good hand 1, Careful catch 2 |
-| Good hand 2 | small | A catch gives 5% more Hunter XP | Master Trapper, Snap Trap |
+| ![](../icons/doctor_hornet.png){ .item-icon }Hornet Swarm | **ability** | Send a swarm at a foe. It stings him 6 seconds and poisons those by him. Gives the ability **Hornet Swarm** | Beast slayer 2, Long trail, Hunter's Mark |
+| ![](../icons/invisible_swallowtail.png){ .item-icon }Still Air | **major** | A creature that takes off waits 1 second more before it leaves | Hunter's Mark, Good hand 2, Careful catch 2 |
+| ![](../icons/enhanced_bug_catcher_net.png){ .item-icon }Net Throw | **ability** | Needs a bug net. Throw a net at a foe. It wraps him 3 seconds and slows those by him. Gives the ability **Net Throw** | Master Trapper, Snap Trap |
 | Careful catch 2 | small | 8% more chance that a net or a trap is not worn by a catch | Still Air, Master Trapper |
 | Sharp eye 2 | small | Rare variants are 10% more common around you | Snap Trap, Collector |
 | Heavy net 2 | small | 3% more chance that a catch's drops come twice | Collector, Big Game Hunter |
 | Beast slayer 2 | small | You hit big game 5% harder | Big Game Hunter, Hornet Swarm |
-| Soft step 2 | small | Creatures notice you half a block later | Hornet Swarm, Still Air |
+| ![](../icons/scent_lure.png){ .item-icon }Hunter's Mark | **ability** | Mark a foe for 20 seconds. You see him through walls and your blows do 15% more to him. Gives the ability **Hunter's Mark** | Hornet Swarm, Still Air |
 
 The numbers after the names of small talents only tell them apart on this page: in game, small talents of one kind have the same name.
 
@@ -332,10 +332,10 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 
 | Ability | What it does | Needs | Cooldown | Damage | Range |
 |---|---|---|---|---|---|
-| **Net Throw** | With a bug net in hand throw a net at an enemy. It wraps them for 3 seconds and slows the enemies by them. A player or a boss is held half as long | a bug net in hand | 14 s | 10 | 14 blocks |
-| **Hunter's Mark** | Mark the enemy you look at for 20 seconds. You see them through walls and your blows do 15 percent more to them | — | 30 s | — | 24 blocks |
 | **Snap Trap** | Lay a trap at your feet for 30 seconds. The first enemy to step on it is hurt and held for 4 seconds | — | 20 s | 30 | — |
 | **Hornet Swarm** | Send a swarm of hornets at the enemy you look at. It stings them for 6 seconds and poisons the enemies by them | — | 25 s | 45 | 16 blocks |
+| **Net Throw** | With a bug net in hand throw a net at an enemy. It wraps them for 3 seconds and slows the enemies by them. A player or a boss is held half as long | a bug net in hand | 14 s | 10 | 14 blocks |
+| **Hunter's Mark** | Mark the enemy you look at for 20 seconds. You see them through walls and your blows do 15 percent more to them | — | 30 s | — | 24 blocks |
 
 #### Their moves
 

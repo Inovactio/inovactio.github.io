@@ -206,14 +206,14 @@ Damage is on the base mod's scale, as in the ability screen. The trade's page ha
 | **Reap** | [Farmer](trades/farmer.md#combat-abilities) | a hoe in hand | 9 s | 35 |
 | **Thorn Patch** | [Farmer](trades/farmer.md#combat-abilities) | a hoe in hand | 12 s | 25 |
 | **Hay Maker** | [Farmer](trades/farmer.md#combat-abilities) | a hoe in hand | 10 s | 50 |
-| **Hook Shot** | [Fisher](trades/fisher.md#combat-abilities) | a fishing rod in hand | 8 s | 20 |
 | **Big Catch** | [Fisher](trades/fisher.md#combat-abilities) | a fishing rod in hand | 15 s | 50 / 25 |
+| **Hook Shot** | [Fisher](trades/fisher.md#combat-abilities) | a fishing rod in hand | 8 s | 20 |
 | **Line Snare** | [Fisher](trades/fisher.md#combat-abilities) | a fishing rod in hand | 14 s | 10 |
-| **Harpoon Throw** | [Fisher](trades/fisher.md#combat-abilities) | — | 10 s | 45 / 67.5 |
-| **Net Throw** | [Hunter](trades/hunter.md#combat-abilities) | a bug net in hand | 14 s | 10 |
-| **Hunter's Mark** | [Hunter](trades/hunter.md#combat-abilities) | — | 30 s | — |
+| **Harpoon Throw** | [Fisher](trades/fisher.md#combat-abilities) | — | 12 s | 30 / 45 |
 | **Snap Trap** | [Hunter](trades/hunter.md#combat-abilities) | — | 20 s | 30 |
 | **Hornet Swarm** | [Hunter](trades/hunter.md#combat-abilities) | — | 25 s | 45 |
+| **Net Throw** | [Hunter](trades/hunter.md#combat-abilities) | a bug net in hand | 14 s | 10 |
+| **Hunter's Mark** | [Hunter](trades/hunter.md#combat-abilities) | — | 30 s | — |
 | **Shock Prod** | [Inventor](trades/inventor.md#combat-abilities) | — | 10 s | 40 |
 | **Magnet Pull** | [Inventor](trades/inventor.md#combat-abilities) | — | 14 s | — |
 | **Jet Dash** | [Inventor](trades/inventor.md#combat-abilities) | — | 12 s | — |
@@ -228,12 +228,12 @@ Damage is on the base mod's scale, as in the ability screen. The trade's page ha
 | **Blast Rock** | [Miner](trades/miner.md#combat-abilities) | a pickaxe in hand | 12 s | 40 |
 | **Sour Note** | [Musician](trades/musician.md#combat-abilities) | an instrument | 9 s | 25 |
 | **Reprise** | [Musician](trades/musician.md#combat-abilities) | an instrument | 60 s | — |
-| **Dissonance** | [Musician](trades/musician.md#combat-abilities) | an instrument | 14 s | 20 |
+| **Dissonance** | [Musician](trades/musician.md#combat-abilities) | an instrument | 12 s | 35 |
 | **Thunder Call** | [Navigator](trades/navigator.md#combat-abilities) | a Barometer in your bag | 15 s | 30 |
 | **Gust** | [Navigator](trades/navigator.md#combat-abilities) | a Barometer in your bag | 10 s | 20 |
 | **Mirage** | [Navigator](trades/navigator.md#combat-abilities) | a Barometer in your bag | 30 s | — |
-| **Patch Up** | [Tailor](trades/tailor.md#combat-abilities) | — | 30 s | — |
-| **Thread Bind** | [Tailor](trades/tailor.md#combat-abilities) | — | 12 s | 20 |
+| **Patch Up** | [Tailor](trades/tailor.md#combat-abilities) | — | 20 s | — |
+| **Thread Bind** | [Tailor](trades/tailor.md#combat-abilities) | — | 12 s | 30 |
 | **Needle Rain** | [Tailor](trades/tailor.md#combat-abilities) | — | 9 s | 25 |
 
 ## Advancements

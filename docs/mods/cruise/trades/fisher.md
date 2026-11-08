@@ -95,30 +95,30 @@ Every 5 Fisher levels give you a **talent point** (10 at level 50, 20 at level 1
 | More bites 1 | small, start | Cruise fish bite 4% more often | Good Waters |
 | Deep bites 1 | small, start | Fish bite 5% more often over 20 blocks of water or more | Long Line |
 | Shore bites 1 | small, start | Fish bite 5% more often over less than 8 blocks of water | Low Tide |
-| ![](../icons/whopper_fishing_rod.png){ .item-icon }Whopper | **major** | Your catches run 10% bigger | Bigger catch 1, Bigger catch 2, Bigger catch 3, Hook Shot, Big Catch |
-| ![](../icons/forkedtail_killifish.png){ .item-icon }Good Waters | **major** | Cruise fish bite 20% more often | More bites 1, Second fish 1, More bites 2, Hook Shot, Line Snare |
-| ![](../icons/sounding_lead.png){ .item-icon }Long Line | **major** | The water under your hook counts 50% deeper | Deep bites 1, Sea King slayer 1, Deep bites 2, Line Snare, Harpoon Throw |
-| ![](../icons/striped_clam.png){ .item-icon }Low Tide | **major** | 25% of your shellfish come with a second | Shore bites 1, Lasting bait 1, Shore bites 2, Harpoon Throw, Big Catch |
-| Bigger catch 2 | small | Your catches run 3% bigger | Whopper, Trophy Fish |
+| ![](../icons/whopper_fishing_rod.png){ .item-icon }Whopper | **major** | Your catches run 10% bigger | Bigger catch 1, Bigger catch 2, Bigger catch 3, Fighting Fisher 1, Trophy Fish |
+| ![](../icons/forkedtail_killifish.png){ .item-icon }Good Waters | **major** | Cruise fish bite 20% more often | More bites 1, Second fish 1, More bites 2, Fighting Fisher 1, Double Hook |
+| ![](../icons/sounding_lead.png){ .item-icon }Long Line | **major** | The water under your hook counts 50% deeper | Deep bites 1, Sea King slayer 1, Deep bites 2, Double Hook, Fighting Fisher 2 |
+| ![](../icons/striped_clam.png){ .item-icon }Low Tide | **major** | 25% of your shellfish come with a second | Shore bites 1, Lasting bait 1, Shore bites 2, Fighting Fisher 2, Trophy Fish |
+| Bigger catch 2 | small | Your catches run 3% bigger | Whopper, Big Catch |
 | Bigger catch 3 | small | Your catches run 3% bigger | Whopper, Good eye |
-| ![](../icons/whopper_fishing_rod.png){ .item-icon }Hook Shot | **ability** | Needs a fishing rod. Cast the hook at a foe up to 16 blocks away. It hurts him and pulls him to you. Gives the ability **Hook Shot** | Whopper, Good Waters, Fighting Fisher 1 |
-| ![](../icons/sea_king_fishing_rod.png){ .item-icon }Big Catch | **ability** | Needs a fishing rod. Lift a hooked foe and slam him down. It hits those around. Gives the ability **Big Catch** | Low Tide, Whopper |
-| Second fish 1 | small | 2% more chance of a second fish on the line | Good Waters, Double Hook |
+| Fighting Fisher 1 | small | Your Fisher abilities hit 5% harder | Whopper, Good Waters, Hook Shot |
+| ![](../icons/golden_whale.png){ .item-icon }Trophy Fish | **major** | A catch at its top size sells 25% dearer | Low Tide, Whopper |
+| Second fish 1 | small | 2% more chance of a second fish on the line | Good Waters, Line Snare |
 | More bites 2 | small | Cruise fish bite 4% more often | Good Waters, Second fish 2 |
-| ![](../icons/reel.png){ .item-icon }Line Snare | **ability** | Needs a fishing rod. Your line binds a foe where he stands for 3 seconds. Gives the ability **Line Snare** | Good Waters, Long Line |
+| ![](../icons/fishing_line_upgrade.png){ .item-icon }Double Hook | **major** | 10% chance of a second fish on the line | Good Waters, Long Line |
 | Sea King slayer 1 | small | You hit Sea Kings 5% harder | Long Line, Sea King Hunter |
 | Deep bites 2 | small | Fish bite 5% more often over 20 blocks of water or more | Long Line, Sea King slayer 2 |
-| ![](../icons/sea_king_fin.png){ .item-icon }Harpoon Throw | **ability** | Throw a heavy harpoon. It hits harder a foe who is in water. Gives the ability **Harpoon Throw** | Long Line, Low Tide, Fighting Fisher 2 |
+| Fighting Fisher 2 | small | Your Fisher abilities hit 5% harder | Long Line, Low Tide, Harpoon Throw |
 | Lasting bait 1 | small | Your bait lasts 15% longer | Low Tide, Patient Angler |
 | Shore bites 2 | small | Fish bite 5% more often over less than 8 blocks of water | Low Tide, Lasting bait 2 |
-| ![](../icons/golden_whale.png){ .item-icon }Trophy Fish | **major** | A catch at its top size sells 25% dearer | Bigger catch 2, Good eye |
-| Good eye | small | A catch gives 5% more Fisher XP | Bigger catch 3, Trophy Fish |
-| Fighting Fisher 1 | small | Your Fisher abilities hit 5% harder | Hook Shot |
-| ![](../icons/fishing_line_upgrade.png){ .item-icon }Double Hook | **major** | 10% chance of a second fish on the line | Second fish 1, Second fish 2 |
-| Second fish 2 | small | 2% more chance of a second fish on the line | More bites 2, Double Hook |
+| ![](../icons/sea_king_fishing_rod.png){ .item-icon }Big Catch | **ability** | Needs a fishing rod. Lift a hooked foe and slam him down. It hits those around. Gives the ability **Big Catch** | Bigger catch 2, Good eye |
+| Good eye | small | A catch gives 5% more Fisher XP | Bigger catch 3, Big Catch |
+| ![](../icons/whopper_fishing_rod.png){ .item-icon }Hook Shot | **ability** | Needs a fishing rod. Cast the hook at a foe up to 16 blocks away. It hurts him and pulls him to you. Gives the ability **Hook Shot** | Fighting Fisher 1 |
+| ![](../icons/reel.png){ .item-icon }Line Snare | **ability** | Needs a fishing rod. Your line binds a foe where he stands for 3 seconds. Gives the ability **Line Snare** | Second fish 1, Second fish 2 |
+| Second fish 2 | small | 2% more chance of a second fish on the line | More bites 2, Line Snare |
 | ![](../icons/sea_king_head_crest.png){ .item-icon }Sea King Hunter | **major** | Sea Kings bite 2 times as often for you | Sea King slayer 1, Sea King slayer 2 |
 | Sea King slayer 2 | small | You hit Sea Kings 5% harder | Deep bites 2, Sea King Hunter |
-| Fighting Fisher 2 | small | Your Fisher abilities hit 5% harder | Harpoon Throw |
+| ![](../icons/sea_king_fin.png){ .item-icon }Harpoon Throw | **ability** | Throw a heavy harpoon. It hits harder a foe who is in water. Gives the ability **Harpoon Throw** | Fighting Fisher 2 |
 | ![](../icons/bait.png){ .item-icon }Patient Angler | **major** | The bite comes 15% sooner | Lasting bait 1, Lasting bait 2 |
 | Lasting bait 2 | small | Your bait lasts 15% longer | Shore bites 2, Patient Angler |
 
@@ -130,10 +130,10 @@ Taking an ability talent puts its ability in the **Profession** tab of the abili
 
 | Ability | What it does | Needs | Cooldown | Damage | Range |
 |---|---|---|---|---|---|
-| **Hook Shot** | With a fishing rod in hand cast the hook at the enemy you look at. It hurts them and pulls them to you. One too big to be pulled pulls you to them | a fishing rod in hand | 8 s | 20 | 16 blocks |
 | **Big Catch** | With a fishing rod in hand swing the enemy you look at up on your line and slam them down. Enemies around them are hit too | a fishing rod in hand | 15 s | 50 / 25 | 6 blocks |
+| **Hook Shot** | With a fishing rod in hand cast the hook at the enemy you look at. It hurts them and pulls them to you. One too big to be pulled pulls you to them | a fishing rod in hand | 8 s | 20 | 16 blocks |
 | **Line Snare** | With a fishing rod in hand bind the enemy you look at with your line. They can not move for 3 seconds. A player or a boss is held half as long | a fishing rod in hand | 14 s | 10 | 12 blocks |
-| **Harpoon Throw** | Throw a heavy harpoon straight ahead. It hits half as hard again an enemy who is in water | — | 10 s | 45 / 67.5 | — |
+| **Harpoon Throw** | Throw a heavy harpoon straight ahead. It hits half as hard again an enemy who is in water | — | 12 s | 30 / 45 | — |
 
 #### Their moves
 
@@ -199,7 +199,7 @@ How to read the table:
 | ![](../icons/salamandrake.png){ .item-icon }Salamandrake | 36 | desert, badlands, warm ocean, deep lukewarm ocean | 3–256 | 4 % | 40–90 | 48 (400) |
 | ![](../icons/sky_fish.png){ .item-icon }Sky Fish | 38 | anywhere | 3+ (above y 150) | 8 % | 30–70 | 50 (420) |
 | ![](../icons/sky_fish.png){ .item-icon }Sky Fish | 38 | is cloud sea | 3+ | 12 % | 30–70 | 50 (420) |
-| ![](../icons/lava_flounder.png){ .item-icon }Lava Flounder | 40 | lava | 1–64 | 35 % | 30–70 | 53 (440) |
+| ![](../icons/lava_flounder.png){ .item-icon }Lava Flounder | 40 | lava | 1–64 | 15 % | 30–70 | 53 (440) |
 | ![](../icons/great_terigius.png){ .item-icon }Great Terigius | 42 | deep cold ocean, deep frozen ocean, deep ocean | 24+ | 3 % | 200–500 | 55 (460) |
 | ![](../icons/giant_sky_fish.png){ .item-icon }Giant Sky Fish | 44 | anywhere | 5+ (above y 150) | 3 % | 150–350 | 58 (480) |
 | ![](../icons/giant_sky_fish.png){ .item-icon }Giant Sky Fish | 44 | is cloud sea | 5+ | 5 % | 150–350 | 58 (480) |

@@ -37,7 +37,7 @@ These are all the Forge's recipes ("planks" means any planks):
 | Handcuffs | 14 | 38 | Iron Ingot, 2 × Chain |
 | Kabuto | 17 | 44 | 4 × any planks, 3 × String, 2 × ![](../icons/iron_scrap.png){ .item-icon }Iron Scrap, ![](../icons/mysterious_parts.png){ .item-icon }Mysterious Parts |
 | Pop Green ×8 | 21 | 52 | 2 × any small flowers, 3 × Wheat Seeds, 2 × Bone Meal, Gunpowder |
-| Cannon Ball ×4 | 24 | 58 | 4 × Cobblestone |
+| Cannon Ball ×4 | 24 | 58 | 4 × Cobblestone, Iron Ingot |
 | Kairoseki Net | 25 | 60 | 4 × Kairoseki, 5 × String |
 | Cannon | 28 | 66 | 3 × Block of Iron, 3 × Cobblestone, String |
 | Kairoseki Bullet ×8 | 32 | 74 | 2 × Kairoseki, 2 × Cobblestone |
@@ -72,25 +72,25 @@ Every 5 Blacksmith levels give you a **talent point** (10 at level 50, 20 at lev
 | Keen Edge | **major** | A weapon you forge comes with Sharpness I and an armour with Protection I | Bellows boy 2, Scrap heap 1, Bellows boy 3, Wide mould 1, Scrap heap 2, Scrap heap 3 |
 | Scrap heap 1 | small | 2% more of your forgings give an ingredient back | Keen Edge, Scrap |
 | Bellows boy 3 | small | You earn 5% more Blacksmith XP | Keen Edge, Smith's Notes |
-| Wide mould 1 | small | 3% more chance that a forging of bullets or balls gives twice as many | Keen Edge, Fine Temper |
+| Wide mould 1 | small | 3% more chance that a forging of bullets or balls gives twice as many | Keen Edge, Hammer Blow |
 | Scrap heap 2 | small | 2% more of your forgings give an ingredient back | Keen Edge, Full Mould |
 | Scrap heap 3 | small | 2% more of your forgings give an ingredient back | Keen Edge, Honed Edge |
 | ![](../icons/iron_scrap.png){ .item-icon }Scrap | **major** | 25% of your forgings give an ingredient back | Scrap heap 1, Scrap heap 4 |
 | ![](../icons/craftsmans_song_score.png){ .item-icon }Smith's Notes | **major** | You earn 15% more Blacksmith XP | Bellows boy 3, Bellows boy 4 |
-| ![](../icons/reinforced_frame.png){ .item-icon }Fine Temper | **major** | What you forge comes with Unbreaking II | Wide mould 1, Wide mould 2, Full Mould |
-| Full Mould | **major** | 20% chance that a forging of bullets or balls gives twice as many | Scrap heap 2, Wide mould 3, Fine Temper, Honed Edge |
+| Hammer Blow | **ability** | Needs a forged weapon. A great blow that throws a foe back. Gives the ability **Hammer Blow** | Wide mould 1, Wide mould 2, Full Mould |
+| Full Mould | **major** | 20% chance that a forging of bullets or balls gives twice as many | Scrap heap 2, Wide mould 3, Hammer Blow, Honed Edge |
 | Honed Edge | **major** | A weapon you forge comes with Sharpness II and an armour with Protection II | Scrap heap 3, Wide mould 4, Full Mould |
 | Scrap heap 4 | small | 2% more of your forgings give an ingredient back | Scrap, Scrap heap 5 |
 | Bellows boy 4 | small | You earn 5% more Blacksmith XP | Smith's Notes, Bellows boy 5 |
-| Wide mould 2 | small | 3% more chance that a forging of bullets or balls gives twice as many | Fine Temper, Hammer Blow |
+| Wide mould 2 | small | 3% more chance that a forging of bullets or balls gives twice as many | Hammer Blow, Fine Temper |
 | Wide mould 3 | small | 3% more chance that a forging of bullets or balls gives twice as many | Full Mould, Hot Iron |
 | Wide mould 4 | small | 3% more chance that a forging of bullets or balls gives twice as many | Honed Edge, Sunder |
 | Scrap heap 5 | small | 2% more of your forgings give an ingredient back | Scrap heap 4 |
 | Bellows boy 5 | small | You earn 5% more Blacksmith XP | Bellows boy 4 |
-| Hammer Blow | **ability** | Needs a forged weapon. A great blow that throws a foe back. Gives the ability **Hammer Blow** | Wide mould 2, Fighting Blacksmith 1, Hot Iron |
-| ![](../icons/flame_powder.png){ .item-icon }Hot Iron | **major** | A weapon you forge comes with Fire Aspect I | Wide mould 3, Fighting Blacksmith 2, Hammer Blow, Sunder |
+| ![](../icons/reinforced_frame.png){ .item-icon }Fine Temper | **major** | What you forge comes with Unbreaking II | Wide mould 2, Fighting Blacksmith 1, Hot Iron |
+| ![](../icons/flame_powder.png){ .item-icon }Hot Iron | **major** | A weapon you forge comes with Fire Aspect I | Wide mould 3, Fighting Blacksmith 2, Fine Temper, Sunder |
 | Sunder | **ability** | Needs a forged weapon. A blow that takes 30% of a foe's armour for 6 seconds. Gives the ability **Sunder** | Wide mould 4, Fighting Blacksmith 3, Hot Iron |
-| Fighting Blacksmith 1 | small | Your Blacksmith abilities hit 5% harder | Hammer Blow, Fighting Blacksmith 4 |
+| Fighting Blacksmith 1 | small | Your Blacksmith abilities hit 5% harder | Fine Temper, Fighting Blacksmith 4 |
 | Fighting Blacksmith 2 | small | Your Blacksmith abilities hit 5% harder | Hot Iron, Tempered Guard |
 | Fighting Blacksmith 3 | small | Your Blacksmith abilities hit 5% harder | Sunder, Fighting Blacksmith 5 |
 | Fighting Blacksmith 4 | small | Your Blacksmith abilities hit 5% harder | Fighting Blacksmith 1, Tempered Guard |
