@@ -2,6 +2,43 @@
 
 Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/all). The Minecraft 1.16.5 releases (0.2.1 to 0.7.2) are listed there too.
 
+## 3.0.2 { #v3-0-2 }
+
+<small>Released 2026-11-09 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9523280)</small>
+
+<div class="changelog-body" markdown="0">
+<blockquote>
+<h4>⚠️ AkumaLib update required: 6.6.0</h4>
+<p>This version needs <strong><a href="https://www.curseforge.com/minecraft/mc-mods/akumalib">AkumaLib</a> 6.6.0</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. With an older one the game will stop on Forge's missing-dependency screen.</p>
+<p>Just replace the AkumaLib jar in your <code>mods</code> folder with the new one. On a server every player needs it too.</p>
+</blockquote>
+<p><strong>Fixes for Gear Fifth, the awakened human form and starting the game beside other mods.</strong></p>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>Gear Fifth during Geppo.</strong> Your legs and arms showed in your normal skin while Geppo, Kamisori, Kamie, a backflip or a cartwheel posed them. They stay white now, and full-body Armament Haki covers them too</li>
+<li><strong>Gear Fifth on a server.</strong> Running in the air in Gear Fifth no longer kicks you with "Flying is not enabled" on a server where flying is off</li>
+<li><strong>The awakened human form</strong> (Hito Hito no Mi) is drawn at your own size, it was a little taller than you. What other mods add to players (their armor, race looks, combat animations) now shows in the form too</li>
+<li><strong>Starting the game beside other mods</strong><ul>
+<li>With <strong>Neko Neko no Mi: Leopard Reworked</strong> installed the game stopped at start-up. It starts now, and the Leopard awakening still steps aside for that mod</li>
+<li>A newer Mine Mine no Mi, or another mod changing the same thing, can no longer stop the game at start-up because of this addon. The small part that cannot apply is turned off, with a line in the log</li>
+</ul>
+</li>
+<li><strong>Dislocated arms</strong> no longer take the items out of your hands to hide them. Another mod could leave the hand empty</li>
+<li><strong>Flattened</strong> no longer crashes the game when another mod cancels the drawing of a flattened creature</li>
+<li><strong>Invisible Touch</strong> in singleplayer: a hidden block could also count as see-through for the world itself (mob paths, world generation). It is only hidden from your view now</li>
+<li><strong>46 names</strong> of effects and creatures showed as raw text. They show their real name now</li>
+</ul>
+<hr />
+<h3>Requirements</h3>
+<ul>
+<li>Minecraft <strong>1.20.1</strong></li>
+<li>Forge <strong>47.4.2+</strong></li>
+<li><strong>Mine Mine no Mi</strong> <code>1.20.1-0.11.6</code></li>
+<li><strong>AkumaLib</strong> <code>6.6.0+</code></li>
+</ul>
+</div>
+
 ## 3.0.1 { #v3-0-1 }
 
 <small>Released 2026-10-31 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9380938)</small>

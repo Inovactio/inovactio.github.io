@@ -6,13 +6,13 @@
 
 | | |
 |---|---|
-| Version documented | **3.0.1** (beta) |
+| Version documented | **3.0.2** |
 | Mod id | `awakenawakennomi` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) · [3.0.1](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9380938) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) · [3.0.2](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9523280) |
 | Changelog | [Every release](changelog.md) |
 
 !!! danger "Do not use 3.0.0"
-    Awaken 3.0.0 crashes the game while it loads, in every launcher, with a mixin error (`@Shadow field model was not located`). Replace that jar with **[3.0.1](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9380938)**: nothing else changes. See the [changelog](changelog.md#v3-0-1).
+    Awaken 3.0.0 crashes the game while it loads, in every launcher, with a mixin error (`@Shadow field model was not located`). Replace that jar with **[3.0.2](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9523280)** or newer. See the [changelog](changelog.md#v3-0-1).
 
 ## What it adds
 
@@ -29,12 +29,12 @@ It adds **no new Devil Fruit**: every ability here belongs to a fruit the base m
 | Mod | Version |
 |---|---|
 | Minecraft | 1.20.1 |
-| Forge | 47.4.18 or later |
+| Forge | 47.4.2 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 or newer (built against `1.20.1-0.11.6`) |
-| [AkumaLib](../../akumalib/index.md) | **6.1.0 or later** |
+| [AkumaLib](../../akumalib/index.md) | **6.6.0 or later** |
 
 !!! warning "AkumaLib is required"
-    AkumaLib is a library: it adds nothing you can see, but this mod is built on it. Without it, Forge stops on its missing-dependency screen. Since 3.0.0, Awaken Awaken no Mi needs AkumaLib **6.1.0 or newer**.
+    AkumaLib is a library: it adds nothing you can see, but this mod is built on it. Without it, Forge stops on its missing-dependency screen. Since 3.0.2, Awaken Awaken no Mi needs AkumaLib **6.6.0 or newer**.
 
 ## Your size
 

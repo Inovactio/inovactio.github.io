@@ -9,6 +9,27 @@ tags:
 
 The pages each release added or changed, newest first. What every release does, in full: the changelog of each mod.
 
+## 2026-11-09: AkumaLib 6.6.0, Awaken Awaken no Mi 3.0.2 { #2026-11-09 }
+
+Awaken Awaken no Mi 3.0.2 needs AkumaLib 6.6.0 and Forge 47.4.2. The network protocol is still 17, as in 6.4.0 and 6.5.0.
+
+### Awaken Awaken no Mi 3.0.2
+
+[Changelog](mods/awaken-awaken-no-mi/changelog.md#v3-0-2)
+
+- **Gear Fifth**: the posed legs and arms stay white during Geppo, and running in the air no longer kicks you from a server where flying is off
+- **The awakened human form** is drawn at your own size, with what other mods add to players
+- **Starts beside other mods**: Neko Neko no Mi: Leopard Reworked no longer stops the game at start-up
+- Fixes for dislocated arms, Flattened, Invisible Touch in singleplayer, and 46 names that showed as raw text
+
+### AkumaLib 6.6.0
+
+[Changelog](akumalib/changelog.md#v6-6-0)
+
+- **Armament Haki on posed limbs** in a form that keeps your own body (Gear Fifth during Geppo, Kamisori, Kamie)
+- **`/akumalib faction`** for operators: a player's strikes, highest bounty, prison time and fading bounty
+- For addon makers: [first-person gestures](akumalib/animations/first-person-limbs.md#gestures-in-first-person-armgestures), `PoseAnimation`, `ModeTooltips`, [`AkumaMotion.shoveAway`](akumalib/utilities/motion.md#away-from-the-user), `AkumaSize.damageOf` / `hurtOf`
+
 ## 2026-11-08: Cruise Cruise no Mi 0.7.0, Sky Island 1.0.2 { #2026-11-08-cruise-sky }
 
 Both need AkumaLib 6.5.0 and Forge 47.4.2. Cruise 0.7.0 has a new network protocol (57): update the server and every player together.
