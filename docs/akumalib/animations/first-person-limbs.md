@@ -72,3 +72,37 @@ SkinSwaps.register(SkinSwaps.FORM, player -> MySkinTint.texture(player));
 ```
 
 The texture is a whole player skin: the arm and the sleeve are read at their usual places in it. It REPLACES the skin, never goes over it: the same faces drawn twice flicker (z-fighting).
+
+## Gestures in first person: `ArmGestures`
+
+Vanilla draws the first-person arm at rest, whatever the body's pose: a technique's pose never shows there. `ArmGestures` draws the local player's arms posed by a table of keys while a technique plays, the gesture starting the same tick as the body's animation. One engine for every fruit (AkumaLib #880, from 22 copies in Missing Missing no Mi).
+
+A fruit's gestures are an enum that implements `ArmGesture`: its length, and each arm's keys `{tick, xRot, yRot, zRot, pushX, pushY, pushZ, ...}`, eased between (smoothstep). A `null` arm is not drawn. `loops()` plays it again and again, `held()` keeps it at its last key; both stop when the animation that started them ends.
+
+```java
+public enum Gesture implements ArmGesture {
+    PUNCH(8, new float[][] {{0F, 0F, 0F, 0F, 0F, 0F, 0F}, {3F, -1.5F, 0.2F, 0F, 0F, 0.1F, 0F}, {8F, 0F, 0F, 0F, 0F, 0F, 0F}}, null);
+    // ticks(), right(), left() return the fields
+}
+
+// each gesture with the body's animation that starts it
+public static final ArmGestures<Gesture> ARMS = new ArmGestures<>(Map.of(MyAnimations.PUNCH, Gesture.PUNCH));
+
+// client setup, once
+ArmGestures.register(MyFirstPerson.ARMS);
+```
+
+The arm is vanilla's, in vanilla's empty-hand frame (`ArmGestures.emptyArm`), in the skin the whole player is drawn in (`SkinSwaps`: a race's colour stays on during a gesture). Left-handed players get it mirrored. `play`, `hold` and `stop` start and end a gesture by hand, for one that no animation starts.
+
+What differs from fruit to fruit is a hook, overridden in an anonymous subclass:
+
+| Hook | For |
+| --- | --- |
+| `gestureFor(animation)` | a condition (only in a hybrid form), a gesture picked by the animation's length, something started with it |
+| `endsWithAnimation(gesture)` | every gesture cut with its pose, not only the held and looping ones |
+| `time(player, gesture, t)` | a key held while something lasts (a fist kept clenched on a pouch) |
+| `pose(gesture, mainHand, t)` | keys moved by code (a recoil) |
+| `model`, `skin`, `armLength` | another arm (a stone giant's), another skin, a child's short arm |
+| `afterimages(player, gesture)` | the arms drawn again behind themselves, translucent, in a tint |
+| `dress(arm)` | something laid on the arm just drawn: `HandGrafts.dress(...)` lays the coating and the active graft as on vanilla's arm |
+| `drawMore(gesture, view)` | something drawn after the arms (a raised leg, a cannon) |

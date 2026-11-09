@@ -13,6 +13,8 @@ AkumaAbilityHelper.hurtBurst(target, source, grown);
 
 Pass the ability (`this`) so the exempt list applies. Never use them on a hit that goes through `DealDamageComponent.hurtTarget`: it would grow twice.
 
+*Since 6.6.0.* A hit that only knows its technique's core (a piece, a projectile, a thrown body, a helper shared by a kit) uses `AkumaSize.hurtOf(user, core, target, source, damage)` / `AkumaSize.damageOf(user, core, damage)`: the user's own instance is looked up, so the exempt list applies, and a creature's technique (no equipped ability) tells the size guard by its core. With no living user the damage stays as written. A radius known by the core alone: `AkumaSize.reachOf(user, core, base)`.
+
 AkumaLib's own bases (`GustAbility`, `WaveAbility`, `AuraAbility`, `DiveStrikeAbility`, the blocks of `StompAbility`, `ZoneAbility`, `SpreadingBlockAbility`, `BlockWaveAbility`) already size their own areas.
 
 ## Sizes an ability writes: the size-aware blocks

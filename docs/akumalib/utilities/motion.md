@@ -72,3 +72,11 @@ AkumaMotion.nudgeAlong(target, flight, 0.6, 0.3);                  // adds to it
 | `nudgeAlong` | `push` added to the current motion | at least `lift` |
 
 The direction is flattened and normalised for you. ⚠️ **A direction with no horizontal part** (straight up, or a target standing exactly on the origin) is the case every hand-written push gets wrong: `Vec3.normalize` returns `ZERO`, not NaN, so the push silently does nothing. `shoveAlong` turns it into a straight lift of `max(lift, push)`; `nudgeAlong` adds nothing horizontally.
+
+### Away from the user
+
+*Since 6.6.0.* The blow of a tail or a stomp all round the user: the target is thrown away from him, level with the ground, its motion replaced as with `shoveAlong`. A target standing right on him is thrown where he faces (`AkumaAim.facing`), not straight up.
+
+```java
+AkumaMotion.shoveAway(user, target, 0.8, 0.35);
+```
