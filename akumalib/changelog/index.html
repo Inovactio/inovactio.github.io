@@ -13873,6 +13873,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#v6-6-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#v6-5-0" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -14298,6 +14309,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v6-6-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6.0
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#v6-5-0" class="md-nav__link">
@@ -14751,6 +14773,52 @@
 
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
 <p>Every AkumaLib release for Minecraft 1.20.1, newest first, as published on <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all">CurseForge</a>.</p>
+<h2 id="v6-6-0">6.6.0<a class="headerlink" href="#v6-6-0" title="Permanent link">&para;</a></h2>
+<p><small>Released 2026-11-09 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9523277">Download</a></small></p>
+<div class="changelog-body" markdown="0">
+<p><strong>Haki on posed limbs, and tools for operators and addons.</strong> In a form that keeps your own body, such as Gear Fifth,
+Armament Haki now covers your arms and legs while Geppo or another move poses them. Operators get commands to check and
+change a player's life as a civilian, a pirate or a prisoner. A man at normal size plays exactly as before. Nothing was
+removed or changed for addons.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are
+optional.</p>
+<p>The network protocol is still 17, as in 6.4.0 and 6.5.0. Update AkumaLib on the server and on every client all the same:
+Awaken Awaken no Mi 3.0.2 needs 6.6.0.</p>
+<hr />
+<h2>Fixes</h2>
+<ul>
+<li><strong>Haki on posed limbs in a partial form.</strong> In a form that keeps your own body (Gear Fifth, a hybrid form), Geppo,
+  Kamisori, Kamie, a backflip or a cartwheel pose your legs and arms. Armament Haki stayed on the limbs at rest, so a
+  posed arm showed bare beside a coated one. The coating now follows the pose.</li>
+</ul>
+<h2>For server operators</h2>
+<ul>
+<li><strong><code>/akumalib faction</code></strong> (operators only, permission level 2), to check or change a player's place as a civilian, a
+  pirate or a prisoner. With no player named, it acts on you.</li>
+<li><code>strikes show|clear</code>: a civilian's strikes of the day (blows on the law and thefts).</li>
+<li><code>peak show|set</code>: the highest bounty a player ever had, against the cap that decides whether he may go back to a
+    civilian life.</li>
+<li><code>prison send|end|lift</code>: send a pirate to a cell now, let him out as a civilian once his time is served, or let him
+    out still a pirate.</li>
+<li><code>fading show|skip_quiet|skip_day</code>: a pirate's bounty waiting or fading, and skipping its wait or one of its days.</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li><strong><code>ModeTooltips</code></strong> (<code>util/tooltip</code>): one tooltip page per mode of an ability, <code>text(modId, id, lines...)</code> and
+  <code>pages(...)</code>.</li>
+<li><strong><code>PoseAnimation</code></strong> (<code>api/animations</code>): a pose laid over an animation's whole length, by name if wanted, with
+  <code>armsEmpty()</code> and <code>turn(...)</code>.</li>
+<li><strong><code>ArmGestures</code></strong> and <strong><code>ArmGesture</code></strong> (<code>client/firstperson</code>): one engine for first-person gestures, started by the
+  body's animation, in vanilla's empty-hand frame. <code>HandGrafts.dress(...)</code> lays an arm's coating and graft on an arm
+  drawn elsewhere.</li>
+<li><strong><code>AkumaMotion.shoveAway(user, target, push, lift)</code></strong>: a body thrown away from the user, level with the ground.</li>
+<li><strong><code>AkumaSize.damageOf</code> / <code>hurtOf</code></strong>: a hit known only by its technique's core follows the size of its user.</li>
+<li><strong><code>CivilianFaction.strikes</code></strong>, <strong><code>CivilianReturn.setPeak</code> / <code>quiet</code> / <code>fadeFrom</code> / <code>skipQuiet</code> / <code>skipFadeDay</code></strong>,
+  <strong><code>MarinePrison.send</code> / <code>end</code></strong>: what <code>/akumalib faction</code> uses.</li>
+</ul>
+<p>An addon that uses any of these declares <code>versionRange = "[6.6.0,)"</code>. Leave the top of the range open.</p>
+</div>
+
 <h2 id="v6-5-0">6.5.0<a class="headerlink" href="#v6-5-0" title="Permanent link">&para;</a></h2>
 <p><small>Released 2026-11-08 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9508828">Download</a></small></p>
 <div class="changelog-body" markdown="0">

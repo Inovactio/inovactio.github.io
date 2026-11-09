@@ -12153,6 +12153,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Pushing along a direction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#away-from-the-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Away from the user
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -14026,6 +14043,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Pushing along a direction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#away-from-the-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Away from the user
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -14238,6 +14272,10 @@
 </tbody>
 </table>
 <p>The direction is flattened and normalised for you. ⚠️ <strong>A direction with no horizontal part</strong> (straight up, or a target standing exactly on the origin) is the case every hand-written push gets wrong: <code>Vec3.normalize</code> returns <code>ZERO</code>, not NaN, so the push silently does nothing. <code>shoveAlong</code> turns it into a straight lift of <code>max(lift, push)</code>; <code>nudgeAlong</code> adds nothing horizontally.</p>
+<h3 id="away-from-the-user">Away from the user<a class="headerlink" href="#away-from-the-user" title="Permanent link">&para;</a></h3>
+<p><em>Since 6.6.0.</em> The blow of a tail or a stomp all round the user: the target is thrown away from him, level with the ground, its motion replaced as with <code>shoveAlong</code>. A target standing right on him is thrown where he faces (<code>AkumaAim.facing</code>), not straight up.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">AkumaMotion</span><span class="p">.</span><span class="na">shoveAway</span><span class="p">(</span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">target</span><span class="p">,</span><span class="w"> </span><span class="mf">0.8</span><span class="p">,</span><span class="w"> </span><span class="mf">0.35</span><span class="p">);</span>
+</code></pre></div>
 
 
 

@@ -12629,6 +12629,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#gestures-in-first-person-armgestures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestures in first person: ArmGestures
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -13984,6 +13995,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#gestures-in-first-person-armgestures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestures in first person: ArmGestures
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -14144,6 +14166,64 @@
 <a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">SkinSwaps</span><span class="p">.</span><span class="na">register</span><span class="p">(</span><span class="n">SkinSwaps</span><span class="p">.</span><span class="na">FORM</span><span class="p">,</span><span class="w"> </span><span class="n">player</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">MySkinTint</span><span class="p">.</span><span class="na">texture</span><span class="p">(</span><span class="n">player</span><span class="p">));</span>
 </code></pre></div>
 <p>The texture is a whole player skin: the arm and the sleeve are read at their usual places in it. It REPLACES the skin, never goes over it: the same faces drawn twice flicker (z-fighting).</p>
+<h2 id="gestures-in-first-person-armgestures">Gestures in first person: <code>ArmGestures</code><a class="headerlink" href="#gestures-in-first-person-armgestures" title="Permanent link">&para;</a></h2>
+<p>Vanilla draws the first-person arm at rest, whatever the body's pose: a technique's pose never shows there. <code>ArmGestures</code> draws the local player's arms posed by a table of keys while a technique plays, the gesture starting the same tick as the body's animation. One engine for every fruit (AkumaLib #880, from 22 copies in Missing Missing no Mi).</p>
+<p>A fruit's gestures are an enum that implements <code>ArmGesture</code>: its length, and each arm's keys <code>{tick, xRot, yRot, zRot, pushX, pushY, pushZ, ...}</code>, eased between (smoothstep). A <code>null</code> arm is not drawn. <code>loops()</code> plays it again and again, <code>held()</code> keeps it at its last key; both stop when the animation that started them ends.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">enum</span><span class="w"> </span><span class="n">Gesture</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">ArmGesture</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="n">PUNCH</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">float</span><span class="o">[][]</span><span class="w"> </span><span class="p">{{</span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">},</span><span class="w"> </span><span class="p">{</span><span class="mf">3F</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mf">1.5F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.2F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0.1F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">},</span><span class="w"> </span><span class="p">{</span><span class="mf">8F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">,</span><span class="w"> </span><span class="mf">0F</span><span class="p">}},</span><span class="w"> </span><span class="kc">null</span><span class="p">);</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="c1">// ticks(), right(), left() return the fields</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="p">}</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="c1">// each gesture with the body's animation that starts it</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">ArmGestures</span><span class="o">&lt;</span><span class="n">Gesture</span><span class="o">&gt;</span><span class="w"> </span><span class="n">ARMS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArmGestures</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">Map</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">MyAnimations</span><span class="p">.</span><span class="na">PUNCH</span><span class="p">,</span><span class="w"> </span><span class="n">Gesture</span><span class="p">.</span><span class="na">PUNCH</span><span class="p">));</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="c1">// client setup, once</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="n">ArmGestures</span><span class="p">.</span><span class="na">register</span><span class="p">(</span><span class="n">MyFirstPerson</span><span class="p">.</span><span class="na">ARMS</span><span class="p">);</span>
+</code></pre></div>
+<p>The arm is vanilla's, in vanilla's empty-hand frame (<code>ArmGestures.emptyArm</code>), in the skin the whole player is drawn in (<code>SkinSwaps</code>: a race's colour stays on during a gesture). Left-handed players get it mirrored. <code>play</code>, <code>hold</code> and <code>stop</code> start and end a gesture by hand, for one that no animation starts.</p>
+<p>What differs from fruit to fruit is a hook, overridden in an anonymous subclass:</p>
+<table>
+<thead>
+<tr>
+<th>Hook</th>
+<th>For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>gestureFor(animation)</code></td>
+<td>a condition (only in a hybrid form), a gesture picked by the animation's length, something started with it</td>
+</tr>
+<tr>
+<td><code>endsWithAnimation(gesture)</code></td>
+<td>every gesture cut with its pose, not only the held and looping ones</td>
+</tr>
+<tr>
+<td><code>time(player, gesture, t)</code></td>
+<td>a key held while something lasts (a fist kept clenched on a pouch)</td>
+</tr>
+<tr>
+<td><code>pose(gesture, mainHand, t)</code></td>
+<td>keys moved by code (a recoil)</td>
+</tr>
+<tr>
+<td><code>model</code>, <code>skin</code>, <code>armLength</code></td>
+<td>another arm (a stone giant's), another skin, a child's short arm</td>
+</tr>
+<tr>
+<td><code>afterimages(player, gesture)</code></td>
+<td>the arms drawn again behind themselves, translucent, in a tint</td>
+</tr>
+<tr>
+<td><code>dress(arm)</code></td>
+<td>something laid on the arm just drawn: <code>HandGrafts.dress(...)</code> lays the coating and the active graft as on vanilla's arm</td>
+</tr>
+<tr>
+<td><code>drawMore(gesture, view)</code></td>
+<td>something drawn after the arms (a raised leg, a cannon)</td>
+</tr>
+</tbody>
+</table>
 
 
 
