@@ -139,6 +139,14 @@ public static void wave(HumanoidModel<?> model, float t) {
 }
 ```
 
+### Played over its animation: `PoseAnimation`
+
+`PoseAnimation` lays such a pose on the user's body over the animation's whole length, the frame's part added so it does not step at 20 fps, and the first person hand left at rest when `handAtRest` is set. The pose takes `(entity, model, t, ticks, age)`; `Pose.ofT`, `ofTicks` and `ofAge` adapt the shorter shapes. `armsEmpty()` clears the arm poses, `turn((t, ticks) -> degrees)` turns the whole body. The class loads no client class by itself; to keep a server clear of the poses, pick one by name from a map built in the addon's client class: `new PoseAnimation(id, POSES, "charge")`.
+
+```java
+register("wave", id -> new PoseAnimation(id, PoseAnimation.Pose.ofT(MyPoses::wave), true));
+```
+
 ## A pose held for the whole form: `PlayerPoses`
 
 An animation plays for a technique; one entity plays one at a time. A partial morph that changes the player's own body for as long as it is worn (a torso stretched upwards, the head risen with it) registers a `PlayerPoses.Pose` from its client setup instead. It runs after every `setupAnim` and animation pass, for every model and entity, so it checks both and sets absolute values:
