@@ -61,6 +61,10 @@ The user's body is made of living wood, fire always hurts them and deals 50% mor
 
 During the day and under the sky, the user does not get hungry and slowly regenerates health. Does not work during rain, night or under a roof
 
+| Stat | Value |
+|---|---|
+| Healing Every 5 s | 1 |
+
 ## Hosaku { #ryokuka }
 
 ![](../abilities/ryokuka.png){ .ability-icon } *Active*
@@ -78,30 +82,24 @@ Every plant around the user grows as with bone meal, crops, saplings and flowers
 
 ![Jukon](../objects/jukon.png){ .form-picture }
 
-Roots comes out of the ground where the user is looking at and grabs up to 6 enemies, they are stuck in place but can still attack.
+Roots come out of the ground where the user is looking and grab up to 6 enemies. They are stuck in place but can still attack.
 
-Use the ability again for Kyusui, the roots drains the enemies every second, healing the user and weakening them
+Use the ability again for Kyusui: the roots drain the enemies every second, healing the user and weakening them
 
 The mode key switches between Jukon, the mode it starts in, and Jukai. Jukai sends a wave of roots forward through the ground, it hits every enemy on its way and tangles them for a moment
 
-Jukon
-
-Jukai
-
-| Stat | Value |
-|---|---|
-| Damage type | Blunt, Indirect |
-| Haki | Special |
-| Cooldown | 16 s |
-| Hold | 5 s |
-| Damage | 20 |
-| Range | 5 blocks (area) |
-| Max Targets | 6 |
-| Kyusui Drain per Second | 5 |
-| Cooldown | 15 s |
-| Damage | 28 |
-| Wave Length | 18 blocks |
-| Tangled | 2 s |
+| Stat | Jukon | Jukai |
+|---|---|---|
+| Damage type | Blunt, Indirect | Blunt, Indirect |
+| Haki | Special | Special |
+| Cooldown | 14 s | 15 s |
+| Duration | 5.45 s |  |
+| Damage | 24 | 32 |
+| Range | 5 blocks (area) |  |
+| Max Targets | 6 |  |
+| Kyusui Drain per Second | 5 |  |
+| Wave Length |  | 18 blocks |
+| Tangled |  | 2 s |
 
 ## Edayari { #edayari }
 
@@ -109,28 +107,23 @@ Jukai
 
 ![Edayari](../forms/edayari.png){ .form-picture }
 
-The user's arm extends into a long branch that pierces all enemies in a line, they are stuck in place but can still attack
+The user's fingers extend into long branches that spread out in a fan and pierce every enemy on them. They are stuck in place but can still attack
 
-Use the ability again for Kyusui, the branch drains the enemies every second, healing the user and weakening them.
+Use the ability again for Kyusui: the branches drain the enemies every second, healing the user and weakening them.
 
 The mode key switches between Edayari, the mode it starts in, and Eda Shigure. Eda Shigure thrusts the branch again and again where the user looks, hitting every enemy on the line each time
 
-Edayari
-
-Eda Shigure
-
-| Stat | Value |
-|---|---|
-| Damage type | Physical |
-| Haki | Hardening |
-| Cooldown | 10 s |
-| Hold | 3 s |
-| Damage | 24 |
-| Range | 12 blocks (line) |
-| Cooldown | 16 s |
-| Thrusts | 8 |
-| Total Damage | 32 |
-| Range | 12 blocks (line) |
+| Stat | Edayari | Eda Shigure |
+|---|---|---|
+| Damage type | Physical | Physical |
+| Haki | Hardening | Hardening |
+| Cooldown | 8 s | 16 s |
+| Duration | 3 s |  |
+| Damage | 28 |  |
+| Branches | 5 |  |
+| Thrusts |  | 8 |
+| Total Damage |  | 40 |
+| Range | 12 blocks (line) | 12 blocks (line) |
 
 ## Senbon Kui { #senbon-kui }
 
@@ -142,8 +135,8 @@ Sharp wooden stakes burst out of the user's whole body, hitting every enemy arou
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
-| Cooldown | 14 s |
-| Damage | 22 |
+| Cooldown | 12 s |
+| Damage | 28 |
 | Range | 4.5 blocks (area) |
 | Bleeding | 5 s |
 
@@ -160,20 +153,20 @@ Two arms of sharp roots grow out of the user's back. While active, each of their
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 20 s |
-| Hold | 30 s |
-| Root Arm Blow | 7 |
+| Duration | 30 s |
+| Root Arm Blow | 8 |
 | Bleeding | 3 s |
 
 ## Jurin Heki { #jurin-heki }
 
 ![](../abilities/jurin-heki.png){ .ability-icon } *Active*
 
-A wall of trees rises out of the ground in front of the user. It stops enemies and projectiles and takes hits until it breaks. Fire burns it unless Bokarin is active. Using the ability again brings the wall down
+A wall of trees rises out of the ground in front of the user. It stops enemies and projectiles and takes hits until it breaks. Fire burns it unless Bokarin is active. Using the ability again brings the wall down. As a golem, the wall is twice as big and its wood harder
 
 | Stat | Value |
 |---|---|
 | Cooldown | 20 s |
-| Hold | 15 s |
+| Duration | 15 s |
 | Wall Health | 150 |
 
 ## Kinniku Mori Mori { #kinniku-mori-mori }
@@ -186,22 +179,14 @@ While standing on natural ground, the user transforms into a tree golem, increas
 
 The size can be changed before using it, the giant golem lasts less and has a longer cooldown
 
-Kinniku Mori Mori
-
-Giant Kinniku Mori Mori
-
-| Stat | Value |
-|---|---|
-| Cooldown | 6–30 s |
-| Hold | 60 s |
-| Size | x3 |
-| Fist Damage | +14 |
-| Armor | +8 |
-| Cooldown | 18–90 s |
-| Hold | 30 s |
-| Size | x8 |
-| Fist Damage | +30 |
-| Armor | +14 |
+| Stat | Kinniku Mori Mori | Giant Kinniku Mori Mori |
+|---|---|---|
+| Cooldown | 6–30 s | 18–90 s |
+| Charge | 1 s | 1 s |
+| Hold | 60 s | 30 s |
+| Size | x3 | x8 |
+| Fist Damage | +14 | +30 |
+| Armor | +8 | +14 |
 
 ## Wakagi { #wakagi }
 
@@ -209,11 +194,13 @@ Giant Kinniku Mori Mori
 
 ![Wakagi](../forms/wakagi.png){ .form-picture }
 
-If the user would die while in the golem form, the golem falls instead and the user grows back from a sapling a few blocks away with a part of their health. Does not work if killed by fire.
+If the user would die while in the golem form, the golem falls instead and the user grows back from a sapling a few blocks away with a part of their health. Does not work if killed by a very strong fire attack.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 300 s |
+| Health Kept | 30 % |
+| As a Sapling | 3 s |
 
 ## Bokarin { #bokarin }
 
@@ -224,6 +211,7 @@ The user fills their wood with water so fire doesn't deal extra damage to them a
 | Stat | Value |
 |---|---|
 | Cooldown | 5 s |
+| Fire That Burns Through | 20 |
 
 **Stats while active**
 

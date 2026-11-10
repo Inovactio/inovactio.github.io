@@ -28,11 +28,11 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 Applies ![](../effect-icons/genie-master.png){ .effect-mini }[Genie Master](../effects.md#effect-genie-master)
 
-The user rubs their belly and a huge genie comes out. It floats in front of the user and attacks nearby enemies by itself. The other abilities are orders for the genie
+The user rubs their belly and a huge genie comes out, tied to them by a trail of smoke. It hunts the enemies around by itself and strikes them with its halberd. The other abilities are orders for the genie
 
 While the genie is out the user walks slowly and can't attack or use items
 
-The genie can be attacked. It disappears if it has no health left or if the user takes a heavy hit or gets stunned
+The genie can be attacked. It goes back in when it has no health left, or when the user takes a heavy hit or gets stunned. It keeps its health and slowly heals while it is in
 
 | Stat | Value |
 |---|---|
@@ -41,31 +41,39 @@ The genie can be attacked. It disappears if it has no health left or if the user
 | Cooldown | 15–60 s |
 | Hold | ∞ s |
 | Damage | 8 |
+| Genie Strikes Every | 1.5 s |
+| Genie Health | 120 |
+| Genie Goes Up To | 24 blocks |
+| User Speed | <span class="stat-malus">-40 %</span> |
+| Sent Back by a Hit Over | 15 % of health |
 
 ## Genie Command { #hoya-command }
 
 ![](../abilities/hoya-command.png){ .ability-icon } *Active*
 
-The user points at the enemy they look at and the genie goes for it first
+The user points at the enemy they look at, and the genie goes for it before any other
 
 | Stat | Value |
 |---|---|
 | Cooldown | 1 s |
-| Range | 32 blocks (line) |
+| Range | 24 blocks (line) |
 
 ## Maji Giren { #hoya-maji-giren }
 
 ![](../abilities/hoya-maji-giren.png){ .ability-icon } *Active*
 
-The genie slams its halberd down where the user looks. It hits the enemies around that spot and sweeps them away
+The genie slams its halberd down on the enemy it is fighting. It hits the enemies around and sweeps them away. One that guards is swept twice as far
 
-| Stat | Value |
-|---|---|
-| Damage type | Physical, Indirect |
-| Haki | Special |
-| Cooldown | 8 s |
-| Damage | 16 |
-| Range | 2.5 blocks (area) |
+With the **Alt key** it is **Maji Karu**: the genie brings its halberd down with all its weight on the enemy it is fighting. The enemy is driven into the ground and can't move for a moment
+
+| Stat | Maji Giren | Maji Karu |
+|---|---|---|
+| Damage type | Physical, Indirect | Physical, Indirect |
+| Haki | Special | Special |
+| Cooldown | 8 s | 15 s |
+| Damage | 18 | 28 |
+| Range | 2.5 blocks (area) |  |
+| Held in the Ground |  | 1.5 s |
 
 ## Majin Saidan { #hoya-majin-saidan }
 
@@ -73,33 +81,35 @@ The genie slams its halberd down where the user looks. It hits the enemies aroun
 
 ![Majin Saidan](../objects/hoya-majin-saidan.png){ .form-picture }
 
-The genie swings its halberd and sends a great flying slash where the user looks. It goes through every enemy in its way
+The genie swings its halberd and sends a great flying slash at the enemy it is fighting. It goes through every enemy in its way and cuts through wood, leaves, glass and wool
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical, Projectile |
 | Haki | Special |
-| Cooldown | 12 s |
-| Damage | 22 |
+| Cooldown | 10 s |
+| Damage | 24 |
 
-## Maji Karu { #hoya-maji-karu }
+## Genie Grab { #hoya-grab }
 
-![](../abilities/hoya-maji-karu.png){ .ability-icon } *Active*
+![](../abilities/hoya-grab.png){ .ability-icon } *Active*
 
-The genie brings its halberd down with all its weight on the enemy the user looks at. The enemy is driven into the ground and can't move for a moment
+The genie seizes the enemy it is fighting in its hand and holds it. The enemy can't move or attack while held, and the genie can still take orders. Using it again lets go
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical, Indirect |
 | Haki | Special |
-| Cooldown | 15 s |
-| Damage | 26 |
+| Cooldown | 14 s |
+| Damage | 6 |
+| Held | 3 s |
+| Held, a Player or a Boss | 1 s |
 
 ## Genie Shield { #hoya-shield }
 
 ![](../abilities/hoya-shield.png){ .ability-icon } *Active*
 
-The genie guards the user with its halberd. While it is held the genie takes the hits that come from the front instead of the user. It can't attack while guarding
+The genie comes back in front of the user and guards them with its halberd. While it is held, the genie takes the hits that come from the front instead of the user, and sends back what is shot at them. It can't attack while guarding
 
 | Stat | Value |
 |---|---|
@@ -110,23 +120,26 @@ The genie guards the user with its halberd. While it is held the genie takes the
 
 ![](../abilities/hoya-smoke.png){ .ability-icon } *Active*
 
-The genie turns to smoke for 3 seconds. Nothing can hit it but it can't attack
+The genie turns to smoke for a moment. Nothing can hit it, but it can't attack
 
 | Stat | Value |
 |---|---|
 | Cooldown | 15 s |
-| Hold | 3 s |
+| Duration | 3 s |
 
 ## Great Genie { #hoya-great-genie }
 
 ![](../abilities/hoya-great-genie.png){ .ability-icon } *Active*
 
-The genie grows gigantic for a while. It reaches twice as far and all its attacks hit harder and wider
+The genie grows gigantic for a while. Its halberd reaches much farther, and all its attacks hit harder and wider
 
 | Stat | Value |
 |---|---|
 | Cooldown | 45 s |
 | Hold | 15 s |
+| Genie Size | x3 |
+| Halberd Reach | 9 blocks |
+| Genie Damage | +25 % |
 
 ## Genie's Life { #hoya-genie-life }
 
@@ -135,4 +148,4 @@ The genie grows gigantic for a while. It reaches twice as far and all its attack
 !!! info "Hidden ability"
     It does not appear in the ability menu.
 
-Shows the health of the genie. The genie keeps its health when it goes back in and slowly recovers while it is not out
+Shows the health of the genie. The genie keeps its health when it goes back in, and slowly heals while it is not out

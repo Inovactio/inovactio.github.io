@@ -8,7 +8,7 @@
 | **Theme** | Liquid |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
 | **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 8: 7 active, 1 passive |
+| **Abilities** | 7: 6 active, 1 passive |
 | **Transformations** | [Flow](#flow) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -28,6 +28,13 @@ Allows the user to avoid attacks by instinctively transforming parts of their bo
 
 Powder snow and freezing lock the user's liquid body in place, and it then lets every hit through
 
+As a pool, an empty bucket or bottle used on the user shuts the user in a jar: no moving, no technique, no taking shape again
+
+| Stat | Value |
+|---|---|
+| Frozen After the Cold | 2 s |
+| Shut in a Jar | 5 s |
+
 ## Flow { #flow }
 
 ![](../abilities/flow.png){ .ability-icon } *Active · Transformation*
@@ -36,9 +43,14 @@ Powder snow and freezing lock the user's liquid body in place, and it then lets 
 
 The user becomes a pool of liquid that slides fast along the ground, under low ceilings and through one-block openings
 
-Pressed against bars, a fence or a gate, the pool flows through it. As a pool the user cannot attack, except with Geyser
+Pressed against bars, a fence or a gate, the pool flows through it. The user takes shape again only where the body fits
 
-Geyser and Slick are only used as a pool
+As a pool the user cannot attack: only Geyser and Slick are used as a pool
+
+| Stat | Value |
+|---|---|
+| Cooldown | 5 s |
+| Speed as a Pool | +60 % |
 
 ## Liquid Blast { #liquid-blast }
 
@@ -48,12 +60,16 @@ Geyser and Slick are only used as a pool
 
 The user shoots a jet of liquid where the user is looking, which hits the first enemy in its way and pushes it far back
 
-| Stat | Value |
-|---|---|
-| Damage type | Blunt, Projectile |
-| Haki | Special |
-| Cooldown | 5 s |
-| Damage | 8 |
+With the **Alt key** it is **Pressure Jet**: the user shoots a thin jet of liquid under pressure that follows where the user is looking. It goes through enemies and keeps hitting all those on its line, without pushing them. Use the ability again to stop the jet
+
+| Stat | Liquid Blast | Pressure Jet |
+|---|---|---|
+| Damage type | Blunt, Projectile | Blunt, Projectile |
+| Haki | Special | Special |
+| Cooldown | 4 s | 14 s |
+| Hold | | 2 s |
+| Damage | 12 | 6 |
+| Range | | 14 blocks (line) |
 
 ## Great Wave { #great-wave }
 
@@ -68,7 +84,7 @@ The user sends a great wave of liquid in front of them, which hits all enemies i
 | Damage type | Blunt, Indirect |
 | Haki | Special |
 | Cooldown | 15 s |
-| Damage | 12 |
+| Damage | 18 |
 | Range | 12 blocks (line) |
 
 ## Liquid Sphere { #liquid-sphere }
@@ -84,39 +100,23 @@ Traps the enemy the user is looking at inside a sphere of liquid, which holds it
 | Damage type | Blunt, Indirect |
 | Haki | Special |
 | Cooldown | 18 s |
-| Damage | 10 |
-| Hold | 4 s |
+| Damage | 14 |
+| Hold | 4.4 s |
+| Range | 12 blocks (line) |
 
 ## Geyser { #geyser }
 
 ![](../abilities/geyser.png){ .ability-icon } *Active*
 
-Only as a pool. The pool bursts up in a column of liquid that hits all enemies standing over it and throws them in the air, and the user takes shape again
+Only as a pool. The pool bursts up in a column of liquid that hits all enemies standing over it and throws them high in the air, and the user takes shape again
 
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
 | Haki | Special |
 | Cooldown | 12 s |
-| Damage | 10 |
+| Damage | 16 |
 | Range | 2.5 blocks (area) |
-
-## Pressure Jet { #pressure-jet }
-
-![](../abilities/pressure-jet.png){ .ability-icon } *Active*
-
-The user shoots a thin jet of liquid under pressure that follows where the user is looking. It goes through enemies and keeps hitting all those on its line, without pushing them
-
-Use the ability again to stop the jet
-
-| Stat | Value |
-|---|---|
-| Damage type | Blunt, Indirect |
-| Haki | Special |
-| Cooldown | 14 s |
-| Hold | 2 s |
-| Damage | 4 |
-| Range | 14 blocks (line) |
 
 ## Slick { #slick }
 

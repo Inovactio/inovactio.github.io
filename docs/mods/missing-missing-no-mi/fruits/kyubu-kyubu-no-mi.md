@@ -22,8 +22,6 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 The user breaks the block they are looking at and those around it into cubes that float above them, up to 6 cubes. Only plain blocks no harder than cobblestone can be broken
 
-The cubes are needed by Cubooster and Cube Wall
-
 If used while crouching, drops all the cubes
 
 | Stat | Value |
@@ -34,7 +32,7 @@ If used while crouching, drops all the cubes
 
 ![](../abilities/cubooster.png){ .ability-icon } *Active*
 
-Needs cubes taken with Cubreak. The user hurls their floating cubes one after another at the enemy they are looking at
+Needs cubes taken with Cubreak. The user hurls their floating cubes one after another at the enemy they are looking at, up to 6 cubes, the damage is for each cube
 
 | Stat | Value |
 |---|---|
@@ -42,12 +40,13 @@ Needs cubes taken with Cubreak. The user hurls their floating cubes one after an
 | Haki | Imbuing |
 | Cooldown | 8 s |
 | Damage | 3.5 |
+| Range | 24 blocks (line) |
 
 ## Cube Wall { #cube-wall }
 
 ![](../abilities/cube-wall.png){ .ability-icon } *Active*
 
-Needs cubes taken with Cubreak. The user assembles their floating cubes into a wall of blocks in front of them
+Needs cubes taken with Cubreak. The user assembles their floating cubes into a wall of blocks in front of them, 3 blocks wide and 2 high
 
 | Stat | Value |
 |---|---|
@@ -68,6 +67,8 @@ If used again, throws the cube where the user is looking and it bursts like a bo
 | Cooldown | 12 s |
 | Hold | 10 s |
 | Damage | 12 |
+| Burst Damage | 8 |
+| Range | 3 blocks (area) |
 
 ## Living Cube { #living-cube }
 
@@ -77,12 +78,10 @@ Applies ![](../effect-icons/cubed.png){ .effect-mini }[Cubed](../effects.md#effe
 
 The user turns the enemy they are looking at from up close into a cube, it can barely move and can no longer fight. The cube breaks after taking enough damage
 
-An enemy turned into a cube can be lifted with Totem Cube
-
 | Stat | Value |
 |---|---|
 | Cooldown | 20 s |
-| Hold | 4–10 s |
+| Duration | 4–10 s |
 | Range | 5 blocks (line) |
 | Cube Health | 20 |
 
@@ -109,4 +108,4 @@ The user sits on a floating cube that carries them where they are looking for a 
 | Stat | Value |
 |---|---|
 | Cooldown | 15 s |
-| Hold | 5 s |
+| Duration | 5 s |
