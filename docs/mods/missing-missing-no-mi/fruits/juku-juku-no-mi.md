@@ -11,6 +11,19 @@
 | **Abilities** | 5: 5 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/aged.png){ .effect-mini }[Aged](../effects.md#effect-aged) |
 
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1, third person.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Rot Gear (ALT): an enemy in iron](../animations/juku-rot-gear-720.webp){ loading=lazy }
+      <figcaption>Rot Gear (ALT): an enemy in iron</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -63,7 +76,7 @@ Applies ![](../effect-icons/aged.png){ .effect-mini }[Aged](../effects.md#effect
 
 The enemy the user touches grows old. A creature stays old until it dies, a player or a boss for a while. A young animal grows up instead.
 
-With the **Alt key** it is **Rot Gear**: the weapon and the armor of the enemy the user touches rot, and a piece that had too little durability left breaks.
+![](../abilities/rot-gear.png){ .effect-mini }With the **Alt key** it is **Rot Gear**: the weapon and the armor of the enemy the user touches rot, and a piece that had too little durability left breaks.
 
 | Stat | Aging Touch | Rot Gear |
 |---|---|---|

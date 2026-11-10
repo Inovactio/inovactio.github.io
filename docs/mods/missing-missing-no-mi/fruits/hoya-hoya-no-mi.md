@@ -15,6 +15,23 @@ In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="objects/hoya-genie objects/hoya-majin-saidan"></div>
 
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1, third person.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Maji Karu (ALT)](../animations/hoya-maji-karu-720.webp){ loading=lazy }
+      <figcaption>Maji Karu (ALT)</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Genie Grab](../animations/hoya-genie-grab-720.webp){ loading=lazy }
+      <figcaption>Genie Grab</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
+
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -64,7 +81,7 @@ The user points at the enemy they look at, and the genie goes for it before any 
 
 The genie slams its halberd down on the enemy it is fighting. It hits the enemies around and sweeps them away. One that guards is swept twice as far
 
-With the **Alt key** it is **Maji Karu**: the genie brings its halberd down with all its weight on the enemy it is fighting. The enemy is driven into the ground and can't move for a moment
+![](../abilities/hoya-maji-karu.png){ .effect-mini }With the **Alt key** it is **Maji Karu**: the genie brings its halberd down with all its weight on the enemy it is fighting. The enemy is driven into the ground and can't move for a moment
 
 | Stat | Maji Giren | Maji Karu |
 |---|---|---|

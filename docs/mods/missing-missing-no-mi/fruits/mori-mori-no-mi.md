@@ -13,31 +13,37 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="objects/jukon forms/edayari forms/konwan forms/kinniku-mori-mori forms/wakagi forms/hanaguruma"></div>
+<div class="model-viewer" data-models="../../" data-ids="objects/jukon forms/edayari forms/konwan forms/kinniku-mori-mori forms/wakagi forms/hanaguruma objects/senbon-kui objects/jurin-heki"></div>
 
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Jukon](../animations/mori-root-rise.webp){ loading=lazy }
+      ![Jukon](../animations/mori-jukon-720.webp){ loading=lazy }
       <figcaption>Jukon</figcaption>
     </figure>
     <figure markdown="span">
-      ![Konwan](../animations/mori-root-arms-strike.webp){ loading=lazy }
+      ![Edayari](../animations/mori-edayari-720.webp){ loading=lazy }
+      <figcaption>Edayari</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Konwan](../animations/mori-konwan-720.webp){ loading=lazy }
       <figcaption>Konwan</figcaption>
     </figure>
     <figure markdown="span">
-      ![Sapling](../animations/mori-sapling-grow.webp){ loading=lazy }
-      <figcaption>Sapling</figcaption>
+      ![Hanaguruma](../animations/mori-hanaguruma-720.webp){ loading=lazy }
+      <figcaption>Hanaguruma</figcaption>
     </figure>
     <figure markdown="span">
-      ![Branch](../animations/mori-branch-attack.webp){ loading=lazy }
-      <figcaption>Branch</figcaption>
+      ![Kinniku Mori Mori](../animations/mori-kinniku-720.webp){ loading=lazy }
+      <figcaption>Kinniku Mori Mori</figcaption>
     </figure>
     <figure markdown="span">
-      ![Flower](../animations/mori-flower-spin.webp){ loading=lazy }
-      <figcaption>Flower</figcaption>
+      ![Wakagi: the sapling](../animations/mori-wakagi-720.webp){ loading=lazy }
+      <figcaption>Wakagi: the sapling</figcaption>
     </figure>
     </div>
 <!-- /animations -->
@@ -129,6 +135,8 @@ The mode key switches between Edayari, the mode it starts in, and Eda Shigure. E
 
 ![](../abilities/senbon-kui.png){ .ability-icon } *Active*
 
+![Senbon Kui](../objects/senbon-kui.png){ .form-picture }
+
 Sharp wooden stakes burst out of the user's whole body, hitting every enemy around, making them bleed and throwing them back
 
 | Stat | Value |
@@ -160,6 +168,8 @@ Two arms of sharp roots grow out of the user's back. While active, each of their
 ## Jurin Heki { #jurin-heki }
 
 ![](../abilities/jurin-heki.png){ .ability-icon } *Active*
+
+![Jurin Heki](../objects/jurin-heki.png){ .form-picture }
 
 A wall of trees rises out of the ground in front of the user. It stops enemies and projectiles and takes hits until it breaks. Fire burns it unless Bokarin is active. Using the ability again brings the wall down. As a golem, the wall is twice as big and its wood harder
 

@@ -15,6 +15,23 @@ In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="objects/paper-blades objects/paper-mummy objects/paper-wall"></div>
 
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1, third person.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Sefer Ha-Zohar (ALT)](../animations/pasa-sefer-ha-zohar-720.webp){ loading=lazy }
+      <figcaption>Sefer Ha-Zohar (ALT)</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Sefer Assiah (ALT)](../animations/pasa-sefer-assiah-720.webp){ loading=lazy }
+      <figcaption>Sefer Assiah (ALT)</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -125,7 +142,7 @@ Sheets of paper gather into a wall in front of the user that stops enemies and p
 
 The user throws a page marked with the symbol of brightness at the enemy in front of them. It explodes where it lands, hurting the enemies around, and sets its target on fire
 
-With the **Alt key** it is **Sefer Ha-Zohar**: the user throws pages marked with the symbol of splendor at the enemies in front of them. Each one explodes under a lightning strike, hurting the enemies around it
+![](../abilities/sefer-ha-zohar.png){ .effect-mini }With the **Alt key** it is **Sefer Ha-Zohar**: the user throws pages marked with the symbol of splendor at the enemies in front of them. Each one explodes under a lightning strike, hurting the enemies around it
 
 Using it puts the other Sefer on a 10 seconds cooldown
 
@@ -147,7 +164,7 @@ Using it puts the other Sefer on a 10 seconds cooldown
 
 The user throws pages marked with the symbol of emanation at the enemies in front of them, poisoning each one
 
-With the **Alt key** it is **Sefer Assiah**: the user throws pages marked with the symbol of action at the enemies in front of them, paralysing each one for a few seconds
+![](../abilities/sefer-assiah.png){ .effect-mini }With the **Alt key** it is **Sefer Assiah**: the user throws pages marked with the symbol of action at the enemies in front of them, paralysing each one for a few seconds
 
 Using it puts the other Sefer on a 10 seconds cooldown
 

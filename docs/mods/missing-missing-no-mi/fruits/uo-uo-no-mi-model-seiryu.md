@@ -13,39 +13,45 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="forms/seiryu-heavy-point"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/seiryu-heavy-point forms/seiryu-fly-point forms/seiryu-kaen-daiko"></div>
 
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Dragon: flight](../animations/seiryu-dragon-fly.webp){ loading=lazy }
+      ![Dragon: flight](../animations/seiryu-dragon-fly-720.webp){ loading=lazy }
       <figcaption>Dragon: flight</figcaption>
     </figure>
     <figure markdown="span">
-      ![Bolo Breath](../animations/seiryu-anim-bolo-breath.webp){ loading=lazy }
+      ![Bolo Breath](../animations/seiryu-dragon-bolo-breath-720.webp){ loading=lazy }
       <figcaption>Bolo Breath</figcaption>
     </figure>
     <figure markdown="span">
-      ![Shoryu: Kaen Hakke](../animations/seiryu-anim-kaen-hakke.webp){ loading=lazy }
-      <figcaption>Shoryu: Kaen Hakke</figcaption>
+      ![Kaen Daiko](../animations/seiryu-dragon-kaen-daiko-720.webp){ loading=lazy }
+      <figcaption>Kaen Daiko</figcaption>
     </figure>
     <figure markdown="span">
-      ![Dragon Storm](../animations/seiryu-anim-storm.webp){ loading=lazy }
+      ![Kaen Daiko: Kaen Hakke](../animations/seiryu-dragon-kaen-hakke-720.webp){ loading=lazy }
+      <figcaption>Kaen Daiko: Kaen Hakke</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Dragon Storm](../animations/seiryu-dragon-storm-720.webp){ loading=lazy }
       <figcaption>Dragon Storm</figcaption>
     </figure>
     <figure markdown="span">
-      ![Tatsumaki](../animations/seiryu-anim-tatsumaki.webp){ loading=lazy }
+      ![Tatsumaki](../animations/seiryu-dragon-tatsumaki-720.webp){ loading=lazy }
       <figcaption>Tatsumaki</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: double jump](../animations/seiryu-hybrid-anim-double-jump.webp){ loading=lazy }
+      ![Hybrid: double jump](../animations/seiryu-hybrid-double-jump-720.webp){ loading=lazy }
       <figcaption>Hybrid: double jump</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: tail grab](../animations/seiryu-hybrid-anim-tail-grab.webp){ loading=lazy }
-      <figcaption>Hybrid: tail grab</figcaption>
+      ![Hybrid: Tail Grab](../animations/seiryu-hybrid-tail-grab-720.webp){ loading=lazy }
+      <figcaption>Hybrid: Tail Grab</figcaption>
     </figure>
     </div>
 <!-- /animations -->
@@ -66,6 +72,8 @@ Transforms the user into a dragon hybrid with scales, claws and a long tail. Jum
 ## Seiryu Fly Point { #seiryu-fly-point }
 
 ![](../abilities/seiryu-fly-point.png){ .ability-icon } *Active · Transformation*
+
+![Seiryu Fly Point](../animations/seiryu-dragon-fly-720.webp){ .form-picture }
 
 Transforms the user into the azure dragon, a huge flying serpent 45 blocks long with scales that take most blows. It needs room to transform
 
@@ -222,6 +230,8 @@ With Hail Storm a storm cloud gathers where the user looks and hail beats down o
 ## Kaen Daiko { #seiryu-kaen-daiko }
 
 ![](../abilities/seiryu-kaen-daiko.png){ .ability-icon } *Active*
+
+![Kaen Daiko](../forms/seiryu-kaen-daiko.png){ .form-picture }
 
 Applies [Kaen Daiko](../effects.md#effect-kaen-daiko)
 

@@ -11,6 +11,10 @@
 | **Abilities** | 7: 7 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/cubed.png){ .effect-mini }[Cubed](../effects.md#effect-cubed) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/living-cube objects/air-cube objects/cubreak objects/totem-cube objects/cube-ride"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,6 +23,8 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 ## Cubreak { #cubreak }
 
 ![](../abilities/cubreak.png){ .ability-icon } *Active*
+
+![Cubreak](../objects/cubreak.png){ .form-picture }
 
 The user breaks the block they are looking at and those around it into cubes that float above them, up to 6 cubes. Only plain blocks no harder than cobblestone can be broken
 
@@ -56,6 +62,8 @@ Needs cubes taken with Cubreak. The user assembles their floating cubes into a w
 
 ![](../abilities/air-cube.png){ .ability-icon } *Active*
 
+![Air Cube](../objects/air-cube.png){ .form-picture }
+
 The user compresses the air into a cube in their hand, no block is needed
 
 If used again, throws the cube where the user is looking and it bursts like a bomb
@@ -74,6 +82,8 @@ If used again, throws the cube where the user is looking and it bursts like a bo
 
 ![](../abilities/living-cube.png){ .ability-icon } *Active*
 
+![Living Cube](../objects/living-cube.png){ .form-picture }
+
 Applies ![](../effect-icons/cubed.png){ .effect-mini }[Cubed](../effects.md#effect-cubed)
 
 The user turns the enemy they are looking at from up close into a cube, it can barely move and can no longer fight. The cube breaks after taking enough damage
@@ -89,6 +99,8 @@ The user turns the enemy they are looking at from up close into a cube, it can b
 
 ![](../abilities/totem-cube.png){ .ability-icon } *Active*
 
+![Totem Cube](../objects/totem-cube.png){ .form-picture }
+
 Needs an enemy turned into a cube with Living Cube. The user lifts it on top of a stack of cubes, then knocks the bottom cube away and the enemy falls
 
 | Stat | Value |
@@ -102,6 +114,8 @@ Needs an enemy turned into a cube with Living Cube. The user lifts it on top of 
 ## Cube Ride { #cube-ride }
 
 ![](../abilities/cube-ride.png){ .ability-icon } *Active*
+
+![Cube Ride](../objects/cube-ride.png){ .form-picture }
 
 The user sits on a floating cube that carries them where they are looking for a short time, no block is needed
 
