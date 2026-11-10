@@ -11,6 +11,10 @@
 | **Abilities** | 8: 6 active, 2 passive |
 | **Effects applied** | ![](../effect-icons/murder-of-crows.png){ .effect-mini }[Murder of Crows](../effects.md#effect-murder-of-crows) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/obelisusu"></div>
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -59,7 +63,7 @@ Use the ability again to call the crows back
 
 The user sends a murder of soot crows on the target they look at, the crows cover it and peck it again and again
 
-With the **Alt key** it is **Rakuro**: soot crows whirl around the user hurting the enemies close to them, then they dive beak first on the target the user looks at. Every hit of Rakuro slows a lot
+![](../abilities/rakuro.png){ .effect-mini }With the **Alt key** it is **Rakuro**: soot crows whirl around the user hurting the enemies close to them, then they dive beak first on the target the user looks at. Every hit of Rakuro slows a lot
 
 | Stat | Karasu Renkon | Rakuro |
 |---|---|---|
@@ -77,6 +81,8 @@ With the **Alt key** it is **Rakuro**: soot crows whirl around the user hurting 
 ## Obelisusu { #obelisusu }
 
 ![](../abilities/obelisusu.png){ .ability-icon } *Active*
+
+![Obelisusu](../objects/obelisusu.png){ .form-picture }
 
 The user dashes past the enemies as soot leaving soot at their feet, then obelisks of soot shoot up under them, piercing them and throwing them up
 
@@ -112,7 +118,7 @@ The crows peck the enemies they go through, once a second, and snatch what they 
 
 Kokuro, the user sends a swarm of soot crows on a small area in front of them. The enemies hit are hurt and slowed a lot
 
-With the **Alt key** it is **Shokuro**: the user sends a wide rush of soot crows in front of them. The enemies hit are hurt and slowed a lot
+![](../abilities/shokuro-alt.png){ .effect-mini }With the **Alt key** it is **Shokuro**: the user sends a wide rush of soot crows in front of them. The enemies hit are hurt and slowed a lot
 
 | Stat | Kokuro | Shokuro |
 |---|---|---|
@@ -129,7 +135,7 @@ With the **Alt key** it is **Shokuro**: the user sends a wide rush of soot crows
 
 Hijona Kokuu, the user shoots a dense murder of soot crows in a straight line. The enemies hit are hurt and slowed a lot
 
-With the **Alt key** it is **Gokuro**: soot crows swirl over the user then keep falling on the place the user looks at, use the ability again to stop it. The enemies hit are hurt and slowed a lot
+![](../abilities/gokuro-alt.png){ .effect-mini }With the **Alt key** it is **Gokuro**: soot crows swirl over the user then keep falling on the place the user looks at, use the ability again to stop it. The enemies hit are hurt and slowed a lot
 
 | Stat | Hijona Kokuu | Gokuro |
 |---|---|---|

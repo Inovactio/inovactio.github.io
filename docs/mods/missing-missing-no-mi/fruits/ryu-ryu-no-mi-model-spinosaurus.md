@@ -17,22 +17,24 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid: claw swipe](../animations/ryu-ryu-spinosaurus-heavy-swipe.webp){ loading=lazy }
-      <figcaption>Hybrid: claw swipe</figcaption>
+      ![Dinosaur: walking](../animations/spino-beast-walk-720.webp){ loading=lazy }
+      <figcaption>Dinosaur: walking</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: jaws](../animations/ryu-ryu-spinosaurus-heavy-jaw.webp){ loading=lazy }
-      <figcaption>Hybrid: jaws</figcaption>
+      ![Dinosaur: Jaw Crush](../animations/spino-beast-jaw-crush-720.webp){ loading=lazy }
+      <figcaption>Dinosaur: Jaw Crush</figcaption>
     </figure>
     <figure markdown="span">
-      ![Dinosaur: swim](../animations/ryu-ryu-spinosaurus-walk-swim.webp){ loading=lazy }
-      <figcaption>Dinosaur: swim</figcaption>
+      ![Dinosaur: Paddle Tail](../animations/spino-beast-paddle-tail-720.webp){ loading=lazy }
+      <figcaption>Dinosaur: Paddle Tail</figcaption>
     </figure>
     <figure markdown="span">
-      ![Dinosaur: tail sweep](../animations/ryu-ryu-spinosaurus-walk-tail-sweep.webp){ loading=lazy }
-      <figcaption>Dinosaur: tail sweep</figcaption>
+      ![Hybrid: Rending Claw](../animations/spino-hybrid-rending-claw-720.webp){ loading=lazy }
+      <figcaption>Hybrid: Rending Claw</figcaption>
     </figure>
     </div>
 <!-- /animations -->

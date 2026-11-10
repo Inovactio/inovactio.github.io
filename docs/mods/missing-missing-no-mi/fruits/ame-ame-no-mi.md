@@ -13,7 +13,28 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="forms/syrup-spear forms/spike-burst"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/syrup-spear forms/spike-burst objects/syrup-pool"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1, third person.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Syrup Grab (ALT)](../animations/ame-syrup-grab-720.webp){ loading=lazy }
+      <figcaption>Syrup Grab (ALT)</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Spiked Charge (ALT)](../animations/ame-spiked-charge-720.webp){ loading=lazy }
+      <figcaption>Spiked Charge (ALT)</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Slingshot](../animations/ame-slingshot-720.webp){ loading=lazy }
+      <figcaption>Slingshot</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -46,7 +67,7 @@ A hit with wheat or bread in hand, or one of them thrown at the user, covers the
 
 The user's arm stretches far ahead into a spear of hardened syrup. It pierces every enemy in a line and leaves them stuck for a moment
 
-With the **Alt key** it is **Syrup Grab**: the user's arm stretches far ahead and catches the first enemy in its way. The enemy is brought back stuck against the user's syrup body
+![](../abilities/syrup-grab.png){ .effect-mini }With the **Alt key** it is **Syrup Grab**: the user's arm stretches far ahead and catches the first enemy in its way. The enemy is brought back stuck against the user's syrup body
 
 | Stat | Syrup Spear | Syrup Grab |
 |---|---|---|
@@ -65,7 +86,7 @@ With the **Alt key** it is **Syrup Grab**: the user's arm stretches far ahead an
 
 Spikes of hardened syrup shoot out of the user's whole body. Every enemy around is hit and thrown back
 
-With the **Alt key** it is **Spiked Charge**: covered in spikes of hardened syrup, the user dashes forward. Every enemy on the way is hit and thrown aside
+![](../abilities/spiked-charge.png){ .effect-mini }With the **Alt key** it is **Spiked Charge**: covered in spikes of hardened syrup, the user dashes forward. Every enemy on the way is hit and thrown aside
 
 | Stat | Spike Burst | Spiked Charge |
 |---|---|---|
@@ -96,6 +117,8 @@ The first enemy in the way is struck and stuck in the syrup
 ## Syrup Pool { #syrup-pool }
 
 ![](../abilities/syrup-pool.png){ .ability-icon } *Active*
+
+![Syrup Pool](../objects/syrup-pool.png){ .form-picture }
 
 The user spreads a pool of syrup on the ground where the user is looking. Whoever steps in it is stuck
 

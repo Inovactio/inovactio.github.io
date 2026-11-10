@@ -14,7 +14,28 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="objects/molten-shot objects/molten-stream"></div>
+<div class="model-viewer" data-models="../../" data-ids="objects/molten-shot objects/molten-stream objects/molten-sphere forms/metal-coat"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1, third person.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Molten Shot](../animations/gutsu-molten-shot-720.webp){ loading=lazy }
+      <figcaption>Molten Shot</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Molten Sphere (ALT)](../animations/gutsu-molten-sphere-720.webp){ loading=lazy }
+      <figcaption>Molten Sphere (ALT)</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Heat Metal (ALT): an enemy in iron](../animations/gutsu-heat-metal-720.webp){ loading=lazy }
+      <figcaption>Heat Metal (ALT): an enemy in iron</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -72,9 +93,11 @@ The user forges a weapon for each ally around them who has no forged weapon yet,
 
 ![Molten Shot](../objects/molten-shot.png){ .form-picture }
 
+![Molten Sphere](../objects/molten-sphere.png){ .form-picture }
+
 The user spits a ball of molten metal. It damages what it hits and sets it on fire
 
-With the **Alt key** it is **Molten Sphere**: the user spits a big, slow sphere of molten metal. It bursts where it lands, and every enemy around takes damage and catches fire
+![](../abilities/molten-sphere.png){ .effect-mini }With the **Alt key** it is **Molten Sphere**: the user spits a big, slow sphere of molten metal. It bursts where it lands, and every enemy around takes damage and catches fire
 
 | Stat | Molten Shot | Molten Sphere |
 |---|---|---|
@@ -116,7 +139,7 @@ Applies ![](../effect-icons/cased-in-metal.png){ .effect-mini }[Cased in Metal](
 
 The user pours molten metal over the enemy they are looking at. It burns them and sets around them, and they can't move or attack. The casing lasts less on players and bosses, and breaks if it takes enough damage
 
-With the **Alt key** it is **Heat Metal**: the metal armour of the enemy the user is looking at heats up. Each piece of iron, chain, gold or netherite burns them every second, and the steam blinds them for a moment
+![](../abilities/heat-metal.png){ .effect-mini }With the **Alt key** it is **Heat Metal**: the metal armour of the enemy the user is looking at heats up. Each piece of iron, chain, gold or netherite burns them every second, and the steam blinds them for a moment
 
 | Stat | Metal Casing | Heat Metal |
 |---|---|---|
@@ -131,6 +154,8 @@ With the **Alt key** it is **Heat Metal**: the metal armour of the enemy the use
 ## Metal Coat { #metal-coat }
 
 ![](../abilities/metal-coat.png){ .ability-icon } *Active · Transformation*
+
+![Metal Coat](../forms/metal-coat.png){ .form-picture }
 
 The user covers their whole body with the metal of their furnace, becoming much tougher and harder to push, but heavier and slower
 

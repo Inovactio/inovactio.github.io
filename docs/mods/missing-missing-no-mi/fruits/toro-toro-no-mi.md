@@ -15,6 +15,19 @@ In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="forms/flow objects/liquid-blast objects/great-wave objects/liquid-sphere"></div>
 
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1, third person.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Pressure Jet (ALT)](../animations/toro-pressure-jet-720.webp){ loading=lazy }
+      <figcaption>Pressure Jet (ALT)</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -60,7 +73,7 @@ As a pool the user cannot attack: only Geyser and Slick are used as a pool
 
 The user shoots a jet of liquid where the user is looking, which hits the first enemy in its way and pushes it far back
 
-With the **Alt key** it is **Pressure Jet**: the user shoots a thin jet of liquid under pressure that follows where the user is looking. It goes through enemies and keeps hitting all those on its line, without pushing them. Use the ability again to stop the jet
+![](../abilities/pressure-jet.png){ .effect-mini }With the **Alt key** it is **Pressure Jet**: the user shoots a thin jet of liquid under pressure that follows where the user is looking. It goes through enemies and keeps hitting all those on its line, without pushing them. Use the ability again to stop the jet
 
 | Stat | Liquid Blast | Pressure Jet |
 |---|---|---|
