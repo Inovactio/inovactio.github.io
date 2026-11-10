@@ -17,14 +17,15 @@
 (function () {
   const VERTEX = `
     attribute vec3 position; attribute vec2 uv; attribute vec3 normal;
-    uniform mat4 view; uniform vec2 scale;
+    uniform mat4 view; uniform vec2 scale; uniform float depth;
     varying vec2 vUv; varying float vShade;
     void main() {
       vec4 p = view * vec4(position, 1.0);
       vec3 n = normalize((view * vec4(normal, 0.0)).xyz);
       vShade = 0.55 + 0.45 * max(0.0, dot(n, normalize(vec3(0.35, 0.8, 0.5))));
       vUv = uv;
-      gl_Position = vec4(p.x * scale.x, p.y * scale.y, -p.z * 0.01, 1.0);
+      // depth spans the model's own size: a 45-block dragon is not cut as it turns
+      gl_Position = vec4(p.x * scale.x, p.y * scale.y, -p.z * depth, 1.0);
     }`;
   const FRAGMENT = `
     precision mediump float;
@@ -198,6 +199,7 @@
         const s = zoom / (frame.radius * 1.05);
         gl.uniformMatrix4fv(gl.getUniformLocation(prog, 'view'), false, viewMatrix(yaw, pitch, frame.centre));
         gl.uniform2f(gl.getUniformLocation(prog, 'scale'), s * Math.min(1, h / w), s * Math.min(1, w / h));
+        gl.uniform1f(gl.getUniformLocation(prog, 'depth'), 1 / (frame.radius * 1.1));
         meshes.forEach(function (m) {
           [['pos', 3, 'position'], ['uv', 2, 'uv'], ['nor', 3, 'normal']].forEach(function ([k, n, name]) {
             gl.bindBuffer(gl.ARRAY_BUFFER, m.buf[k]);
