@@ -8,7 +8,7 @@
 | **Theme** | Ripening |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
 | **Chance per opening** | wooden **1.65%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 6: 6 active, 0 passive |
+| **Abilities** | 5: 5 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/aged.png){ .effect-mini }[Aged](../effects.md#effect-aged) |
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
@@ -26,6 +26,7 @@ The block the user touches rots, and the rot spreads to the blocks around it. A 
 |---|---|
 | Cooldown | 6 s |
 | Range | 5 blocks (line) |
+| Range | 4 blocks (area) |
 
 ## Sinkhole { #sinkhole }
 
@@ -37,6 +38,8 @@ The ground the user looks at rots into a pit that goes on deepening for a while.
 |---|---|
 | Cooldown | 15 s |
 | Range | 8 blocks (line) |
+| Range | 4.6 blocks (area) |
+| Depth | 6 blocks |
 
 ## Kare-San-Sui { #kare-san-sui }
 
@@ -44,12 +47,13 @@ The ground the user looks at rots into a pit that goes on deepening for a while.
 
 The ceiling above the enemy the user looks at rots through and falls on whoever is under it. The fallen blocks break where they land.
 
-The harder the ceiling, the longer it takes to rot and the more it hurts
+The harder the ceiling, the longer it takes to rot and the more it hurts. A giant's rubble hits twice as hard
 
 | Stat | Value |
 |---|---|
 | Cooldown | 20 s |
 | Range | 16 blocks (line) |
+| Damage a Block, by Hardness | 2–40 |
 
 ## Aging Touch { #aging-touch }
 
@@ -57,26 +61,18 @@ The harder the ceiling, the longer it takes to rot and the more it hurts
 
 Applies ![](../effect-icons/aged.png){ .effect-mini }[Aged](../effects.md#effect-aged)
 
-The enemy the user touches grows old, they are slower and weaker. A creature stays old until it dies, a player for a while.
+The enemy the user touches grows old. A creature stays old until it dies, a player or a boss for a while. A young animal grows up instead.
 
-A young animal grows up instead
+With the **Alt key** it is **Rot Gear**: the weapon and the armor of the enemy the user touches rot, and a piece that had too little durability left breaks.
 
-| Stat | Value |
-|---|---|
-| Cooldown | 15 s |
-| Range | 4.5 blocks (line) |
-| Old Age on Players | 90 s |
-
-## Rot Gear { #rot-gear }
-
-![](../abilities/rot-gear.png){ .ability-icon } *Active*
-
-The weapon and the armor of the enemy the user touches rot, each loses a third of its durability and breaks if it had less left.
-
-| Stat | Value |
-|---|---|
-| Cooldown | 15 s |
-| Range | 4.5 blocks (line) |
+| Stat | Aging Touch | Rot Gear |
+|---|---|---|
+| Cooldown | 15 s | 15 s |
+| Range | 4.5 blocks (line) | 4.5 blocks (line) |
+| Speed of the Aged | <span class="stat-malus">-33 %</span> | |
+| Damage of the Aged | <span class="stat-malus">-40 %</span> | |
+| Old Age on Players | 90 s | |
+| Durability Lost | | <span class="stat-malus">-34 %</span> |
 
 ## Ripen { #ripen }
 

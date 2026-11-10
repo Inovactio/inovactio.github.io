@@ -2,8 +2,8 @@
 
 Player wikis and developer documentation for Inovactio's Minecraft mods. All of them are addons for [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod), on **Minecraft 1.20.1** with **Forge**.
 
-!!! tip "New on 2026-11-09"
-    Awaken Awaken no Mi 3.0.2 (fixes for Gear Fifth and the awakened human form) and AkumaLib 6.6.0 (Armament Haki on posed limbs, `/akumalib faction` for operators): [what's new](whats-new.md).
+!!! tip "New on 2026-11-10"
+    Missing Missing no Mi 7.2.0: ten fruits made new (Gutsu, Hoya, Mori, Ame, Toro, Pasa, Susu, Juku, Kyubu, Spinosaurus) and the Seiryu redrawn. On 2026-11-09: Awaken Awaken no Mi 3.0.2 (fixes for Gear Fifth and the awakened human form) and AkumaLib 6.6.0 (Armament Haki on posed limbs, `/akumalib faction` for operators). See [what's new](whats-new.md).
 
 <div class="grid cards" markdown>
 

@@ -62,33 +62,33 @@ Transforms the user into a spinosaurus, a huge and strong dinosaur with a sail o
 
 ![](../abilities/frenzy.png){ .ability-icon } *Passive*
 
-While in a spinosaurus form the user deals more damage to enemies that have less than half of their health
+The user deals more damage to enemies that have less than half of their health
 
 Requires Spinosaurus Heavy Point or Spinosaurus Walk Point to be active.
 
 | Stat | Value |
 |---|---|
-| Damage on Bleeding Enemies | x1.25 |
+| Damage on Enemies Under Half Health | x1.25 |
 
 ## Rending Claw { #rending-claw }
 
 ![](../abilities/rending-claw.png){ .ability-icon } *Active*
 
-While in the spinosaurus hybrid form, the user slashes the enemies in front of them with their claws, making them bleed and sending them flying
+While in the spinosaurus hybrid form, the user slashes the enemies in front of them with their claws, making them bleed for 5 seconds and sending them flying
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 10 s |
-| Damage | 18 |
+| Damage | 22 |
 | Range | 2.5 blocks (line) |
 
 ## Shred { #shred }
 
 ![](../abilities/shred.png){ .ability-icon } *Active*
 
-While in the spinosaurus hybrid form, the user slashes the enemies in front of them many times with both claws, each hit makes them bleed longer
+While in the spinosaurus hybrid form, the user slashes the enemies in front of them 6 times with both claws, each hit makes them bleed 2 seconds longer
 
 | Stat | Value |
 |---|---|
@@ -102,7 +102,7 @@ While in the spinosaurus hybrid form, the user slashes the enemies in front of t
 
 ![](../abilities/cling.png){ .ability-icon } *Active*
 
-While in the spinosaurus hybrid form, the user latches onto the enemy in front of them and mauls it, it is slowed, bleeds and takes damage. Use the ability again to let go
+While in the spinosaurus hybrid form, the user latches onto the enemy in front of them and mauls it every half second, it is slowed and bleeds for 3 seconds at each bite. Use the ability again to let go
 
 | Stat | Value |
 |---|---|
@@ -116,7 +116,7 @@ While in the spinosaurus hybrid form, the user latches onto the enemy in front o
 
 ![](../abilities/jaw-crush.png){ .ability-icon } *Active*
 
-While in the full spinosaurus form, the user bites the enemy in front of them with their powerful jaws, dealing heavy damage and making it bleed
+While in the full spinosaurus form, the user bites the enemy in front of them with their powerful jaws, dealing heavy damage and making it bleed for 6 seconds
 
 | Stat | Value |
 |---|---|
@@ -130,14 +130,14 @@ While in the full spinosaurus form, the user bites the enemy in front of them wi
 
 ![](../abilities/paddle-tail.png){ .ability-icon } *Active*
 
-While in the full spinosaurus form, the user spins and sweeps their huge tail around them, hitting all nearby enemies, pushing them away and breaking weak blocks
+While in the full spinosaurus form, the user spins and sweeps their huge tail around them, hitting all nearby enemies, pushing them away and breaking blocks no harder than stone
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 15 s |
-| Damage | 16 |
+| Damage | 22 |
 | Range | 6 blocks (area) |
 
 ## Crushing Leap { #crushing-leap }
@@ -151,5 +151,5 @@ While in the full spinosaurus form, the user leaps high where they are looking a
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 16 s |
-| Damage | 18 |
+| Damage | 22 |
 | Range | 5 blocks (area) |

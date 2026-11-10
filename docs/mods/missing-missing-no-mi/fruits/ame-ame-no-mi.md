@@ -8,7 +8,7 @@
 | **Theme** | Candy syrup |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
 | **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 6: 5 active, 1 passive |
+| **Abilities** | 5: 4 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/floured.png){ .effect-mini }[Floured](../effects.md#effect-floured) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -28,9 +28,15 @@ Applies ![](../effect-icons/floured.png){ .effect-mini }[Floured](../effects.md#
 
 Allows the user to avoid attacks by instinctively transforming parts of their body into their specific element
 
-Whoever hits the user's syrup body in close combat without Haki is stuck in place for a moment
+Whoever hits the user's syrup body in close combat without Haki is stuck in place for a moment. The user's punches hit harder on an enemy stuck in the syrup
 
-A hit with wheat or bread in hand, or one of them thrown at the user, covers the user in flour. For a while the syrup body lets no hit through and holds nobody
+A hit with wheat or bread in hand, or one of them thrown at the user, covers the user in flour. For a while every hit lands on the syrup body, and it holds nobody
+
+| Stat | Value |
+|---|---|
+| Striker Stuck | 2 s |
+| Floured | 10 s |
+| Punch Damage on a Stuck Enemy | +4 |
 
 ## Syrup Spear { #syrup-spear }
 
@@ -38,15 +44,18 @@ A hit with wheat or bread in hand, or one of them thrown at the user, covers the
 
 ![Syrup Spear](../forms/syrup-spear.png){ .form-picture }
 
-The user's arm stretches far ahead into a spear of hardened syrup that pierces every enemy in a line and leaves them stuck for a moment
+The user's arm stretches far ahead into a spear of hardened syrup. It pierces every enemy in a line and leaves them stuck for a moment
 
-| Stat | Value |
-|---|---|
-| Damage type | Slash |
-| Haki | Hardening |
-| Cooldown | 7 s |
-| Damage | 16 |
-| Range | 12 blocks (line) |
+With the **Alt key** it is **Syrup Grab**: the user's arm stretches far ahead and catches the first enemy in its way. The enemy is brought back stuck against the user's syrup body
+
+| Stat | Syrup Spear | Syrup Grab |
+|---|---|---|
+| Damage type | Slash | Slash |
+| Haki | Hardening | Hardening |
+| Cooldown | 6 s | 8 s |
+| Damage | 18 | 8 |
+| Range | 12 blocks (line) | 12 blocks (line) |
+| Stuck | 1.5 s | 3 s |
 
 ## Spike Burst { #spike-burst }
 
@@ -54,45 +63,41 @@ The user's arm stretches far ahead into a spear of hardened syrup that pierces e
 
 ![Spike Burst](../forms/spike-burst.png){ .form-picture }
 
-Spikes of hardened syrup shoot out of the user's whole body, hitting every enemy around and throwing them back
+Spikes of hardened syrup shoot out of the user's whole body. Every enemy around is hit and thrown back
 
-| Stat | Value |
-|---|---|
-| Damage type | Slash |
-| Haki | Hardening |
-| Cooldown | 10 s |
-| Damage | 14 |
-| Range | 4 blocks (area) |
+With the **Alt key** it is **Spiked Charge**: covered in spikes of hardened syrup, the user dashes forward. Every enemy on the way is hit and thrown aside
 
-## Spiked Charge { #spiked-charge }
-
-![](../abilities/spiked-charge.png){ .ability-icon } *Active*
-
-Covered in spikes of hardened syrup, the user dashes forward, hitting every enemy on the way and throwing them aside
-
-| Stat | Value |
-|---|---|
-| Damage type | Slash |
-| Haki | Hardening |
-| Cooldown | 9 s |
-| Damage | 12 |
+| Stat | Spike Burst | Spiked Charge |
+|---|---|---|
+| Damage type | Slash | Slash |
+| Haki | Hardening | Hardening |
+| Cooldown | 10 s | 9 s |
+| Damage | 20 | 18 |
+| Range | 4 blocks (area) | |
 
 ## Slingshot { #slingshot }
 
 ![](../abilities/slingshot.png){ .ability-icon } *Active*
 
-The user's syrup body stretches back and snaps forward, launching the user far where the user is looking
+While the key is held, the user's syrup body stretches back like a slingshot. When it is let go, the body snaps forward and throws the user where they look. The longer it is held, the farther the leap and the harder the blow
+
+The first enemy in the way is struck and stuck in the syrup
 
 | Stat | Value |
 |---|---|
-| Cooldown | 8 s |
-| Charge | 1 s |
+| Damage type | Blunt |
+| Haki | Hardening |
+| Cooldown | 8–12 s |
+| Charge | 2 s |
+| Leap Length | 10–30 blocks |
+| Damage | 6–20 |
+| Stuck | 1.5 s |
 
 ## Syrup Pool { #syrup-pool }
 
 ![](../abilities/syrup-pool.png){ .ability-icon } *Active*
 
-The user spreads a pool of syrup on the ground where the user is looking, whoever steps in it is stuck
+The user spreads a pool of syrup on the ground where the user is looking. Whoever steps in it is stuck
 
 Using it again hardens the pool into spikes that hit every enemy standing in it
 
@@ -100,7 +105,7 @@ Using it again hardens the pool into spikes that hit every enemy standing in it
 |---|---|
 | Damage type | Indirect |
 | Haki | Special |
-| Cooldown | 15 s |
+| Cooldown | 12 s |
 | Hold | 8 s |
-| Damage | 12 |
+| Damage | 14 |
 | Range | 4 blocks (area) |

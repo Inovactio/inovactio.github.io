@@ -50,35 +50,29 @@ Use the ability again to call the crows back
 | Cooldown, All Lost | 30 s |
 | Crows | 3 |
 | Peck Damage | 4 |
+| Peck Every | 2 s |
+| Crow Health | 20 |
 
 ## Karasu Renkon { #karasu-renkon }
 
 ![](../abilities/karasu-renkon.png){ .ability-icon } *Active*
 
-Karasu Renkon, the user sends a murder of soot crows on the target they look at, the crows cover it and peck it again and again
+The user sends a murder of soot crows on the target they look at, the crows cover it and peck it again and again
 
-Rakuro, soot crows whirl around the user hurting the enemies close to them, then they dive beak first on the target the user looks at. Every hit of Rakuro slows a lot
+With the **Alt key** it is **Rakuro**: soot crows whirl around the user hurting the enemies close to them, then they dive beak first on the target the user looks at. Every hit of Rakuro slows a lot
 
-Use the alt mode key to switch between the two
-
-Karasu Renkon
-
-Rakuro
-
-| Stat | Value |
-|---|---|
-| Damage type | Physical, Indirect |
-| Haki | Special |
-| Cooldown | 15 s |
-| Pecks | 8 |
-| Peck Damage | 2 |
-| Total Damage | 16 |
-| Range | 24 blocks (line) |
-| Cooldown | 16 s |
-| Whirl Damage | 6 |
-| Dive Damage | 14 |
-| Range | 24 blocks (line) |
-| Slowness IV | 3 s |
+| Stat | Karasu Renkon | Rakuro |
+|---|---|---|
+| Damage type | Physical, Indirect | Physical, Indirect |
+| Haki | Special | Special |
+| Cooldown | 15 s | 16 s |
+| Pecks | 8 | |
+| Peck Damage | 3 | |
+| Total Damage | 24 | |
+| Whirl Damage | | 6 |
+| Dive Damage | | 18 |
+| Range | 24 blocks (line) | 24 blocks (line) |
+| Slowness IV | | 3 s |
 
 ## Obelisusu { #obelisusu }
 
@@ -91,7 +85,7 @@ The user dashes past the enemies as soot leaving soot at their feet, then obelis
 | Damage type | Physical, Indirect |
 | Haki | Special |
 | Cooldown | 18 s |
-| Damage | 16 |
+| Damage | 20 |
 | Range | 12 blocks (line) |
 
 ## Karasu Hiko { #karasu-hiko }
@@ -104,60 +98,47 @@ The user comes apart into a murder of soot crows and flies fast where they look,
 
 Use the ability again to form again sooner
 
+The crows peck the enemies they go through, once a second, and snatch what they hold in their hand, a crow carries it off and drops it a little further
+
 | Stat | Value |
 |---|---|
 | Cooldown | 30 s |
-| Hold | 6 s |
+| Duration | 6 s |
+| Damage | 3 |
 
 ## Shokuro { #shokuro }
 
 ![](../abilities/shokuro.png){ .ability-icon } *Active*
 
-Kokuro, the user sends a swarm of soot crows on a small area in front of them
+Kokuro, the user sends a swarm of soot crows on a small area in front of them. The enemies hit are hurt and slowed a lot
 
-Shokuro, the user sends a wide rush of soot crows in front of them
+With the **Alt key** it is **Shokuro**: the user sends a wide rush of soot crows in front of them. The enemies hit are hurt and slowed a lot
 
-The enemies hit are hurt and slowed a lot. Use the alt mode key to switch between the two
-
-Kokuro
-
-Shokuro
-
-| Stat | Value |
-|---|---|
-| Damage type | Physical, Indirect |
-| Haki | Special |
-| Cooldown | 10 s |
-| Damage | 10 |
-| Range | 4 blocks (area) |
-| Cooldown | 16 s |
-| Damage | 12 |
-| Range | 10–5 blocks (cone) |
-| Slowness IV | 3 s |
+| Stat | Kokuro | Shokuro |
+|---|---|---|
+| Damage type | Physical, Indirect | Physical, Indirect |
+| Haki | Special | Special |
+| Cooldown | 10 s | 16 s |
+| Damage | 14 | 16 |
+| Range | 4 blocks (area) | 10–5 blocks (cone) |
+| Slowness IV | 3 s | 3 s |
 
 ## Gokuro { #gokuro }
 
 ![](../abilities/gokuro.png){ .ability-icon } *Active*
 
-Hijona Kokuu, the user shoots a dense murder of soot crows in a straight line
+Hijona Kokuu, the user shoots a dense murder of soot crows in a straight line. The enemies hit are hurt and slowed a lot
 
-Gokuro, soot crows swirl over the user then keep falling on the place the user looks at, use the ability again to stop it
+With the **Alt key** it is **Gokuro**: soot crows swirl over the user then keep falling on the place the user looks at, use the ability again to stop it. The enemies hit are hurt and slowed a lot
 
-The enemies hit are hurt and slowed a lot. Use the alt mode key to switch between the two
-
-Hijona Kokuu
-
-Gokuro
-
-| Stat | Value |
-|---|---|
-| Damage type | Physical, Indirect |
-| Haki | Special |
-| Cooldown | 12 s |
-| Damage | 12 |
-| Range | 16 blocks (line) |
-| Cooldown | 24 s |
-| Hold | 5 s |
-| Damage Every 0.5 s | 3 |
-| Range | 6 blocks (area) |
-| Slowness IV | 3 s |
+| Stat | Hijona Kokuu | Gokuro |
+|---|---|---|
+| Damage type | Physical, Indirect | Physical, Indirect |
+| Haki | Special | Special |
+| Cooldown | 12 s | 24 s |
+| Charge | | 0.5 s |
+| Duration | | 4.5 s |
+| Damage | 16 | |
+| Damage Every 0.5 s | | 4 |
+| Range | 16 blocks (line) | 6 blocks (area) |
+| Slowness IV | 3 s | 3 s |

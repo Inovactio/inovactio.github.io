@@ -8,7 +8,7 @@
 | **Theme** | Paper |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
 | **Chance per opening** | golden **2.26%**, iron **0.113%**, wooden **0.006%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 14: 12 active, 2 passive (1 hidden, not in the ability menu) |
+| **Abilities** | 12: 10 active, 2 passive (1 hidden, not in the ability menu) |
 | **Effects applied** | ![](../effect-icons/buried.png){ .effect-mini }[Buried](../effects.md#effect-buried), ![](../effect-icons/scattered.png){ .effect-mini }[Scattered](../effects.md#effect-scattered), ![](../effect-icons/warded.png){ .effect-mini }[Warded](../effects.md#effect-warded) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -26,7 +26,9 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 Allows the user to avoid attacks by instinctively transforming parts of their body into their specific element
 
-The user's body is made of sheets of paper, fire always hurts them and deals 50% more damage.
+The user's body is made of sheets of paper, fire always hurts them and deals 50% more damage
+
+A dye or an ink sac used on the user smudges their pages for 10 seconds: no Sefer and no Warding Page, and fire is deadly again
 
 | Stat | Value |
 |---|---|
@@ -36,7 +38,12 @@ The user's body is made of sheets of paper, fire always hurts them and deals 50%
 
 ![](../abilities/paper-swarm.png){ .ability-icon } *Active*
 
-The user scatters into a swarm of sheets of paper allowing them to fly. Fire burns the sheets and stops the flight. The swarm ends when they land with no stamina left
+The user scatters into a swarm of sheets of paper allowing them to fly, and the sheets cut the enemies the swarm goes through. Fire burns the sheets and stops the flight. The swarm ends when they land with no stamina left
+
+| Stat | Value |
+|---|---|
+| Cooldown | 2 s |
+| Damage | 4 |
 
 ## Paper Flight { #paper-flight }
 
@@ -59,6 +66,9 @@ The user throws a volley of sheets of paper as sharp as blades where they are lo
 |---|---|
 | Damage type | Projectile |
 | Haki | Special |
+| Cooldown | 10 s |
+| Sheets | 12 |
+| Damage | 3 |
 
 ## Paper Storm { #paper-storm }
 
@@ -74,7 +84,7 @@ Use the ability again to stop the storm
 | Haki | Special |
 | Cooldown | 16 s |
 | Hold | 5 s |
-| Damage | 3 |
+| Damage | 4 |
 | Range | 3.5 blocks (area) |
 
 ## Paper Mummy { #paper-mummy }
@@ -85,15 +95,15 @@ Use the ability again to stop the storm
 
 Applies ![](../effect-icons/buried.png){ .effect-mini }[Buried](../effects.md#effect-buried)
 
-Sheets of paper wrap the enemy the user is looking at like a mummy, they can't move, attack or use abilities and are damaged every second. Fire on the enemy burns the sheets away
+Sheets of paper wrap the enemy the user is looking at like a mummy, they can't move, attack or use abilities and are damaged every second (2 seconds for a player or a boss). Fire on the enemy burns the sheets away
 
 | Stat | Value |
 |---|---|
 | Damage type | Indirect |
 | Haki | Special |
 | Cooldown | 20 s |
-| Hold | 2–4 s |
-| Damage | 2–4 |
+| Hold | 4 s |
+| Damage | 2.5–5 |
 | Range | 14 blocks (line) |
 
 ## Paper Wall { #paper-wall }
@@ -113,36 +123,23 @@ Sheets of paper gather into a wall in front of the user that stops enemies and p
 
 ![](../abilities/sefer-ha-bahir.png){ .ability-icon } *Active*
 
-The user throws a page marked with the symbol of brightness at the enemy in front of them, it explodes and sets them on fire
+The user throws a page marked with the symbol of brightness at the enemy in front of them. It explodes where it lands, hurting the enemies around, and sets its target on fire
+
+With the **Alt key** it is **Sefer Ha-Zohar**: the user throws pages marked with the symbol of splendor at the enemies in front of them. Each one explodes under a lightning strike, hurting the enemies around it
 
 Using it puts the other Sefer on a 10 seconds cooldown
 
-| Stat | Value |
-|---|---|
-| Damage type | Projectile |
-| Element | Fire |
-| Haki | Special |
-| Cooldown | 12 s |
-| Damage | 8–14 |
-| Range | 20 blocks (line) |
-
-## Sefer Ha-Zohar { #sefer-ha-zohar }
-
-![](../abilities/sefer-ha-zohar.png){ .ability-icon } *Active*
-
-The user throws pages marked with the symbol of splendor at the enemies in front of them, lightning strikes each one and shocks them for a moment
-
-Using it puts the other Sefer on a 10 seconds cooldown
-
-| Stat | Value |
-|---|---|
-| Damage type | Projectile |
-| Element | Lightning |
-| Haki | Special |
-| Cooldown | 16 s |
-| Shock | 1 s |
-| Damage | 9 |
-| Range | 20 blocks (line) |
+| Stat | Sefer Ha-Bahir | Sefer Ha-Zohar |
+|---|---|---|
+| Damage type | Projectile | Projectile |
+| Element | Fire | Lightning |
+| Haki | Special | Special |
+| Cooldown | 12 s | 16 s |
+| Pages | | 4 |
+| Damage | 8–18 | 6–12 |
+| Blast Radius | 3 blocks | 2 blocks |
+| Burn | 5 s | |
+| Range | 20 blocks (line) | 20 blocks (line) |
 
 ## Sefer Atziluth { #sefer-atziluth }
 
@@ -150,34 +147,21 @@ Using it puts the other Sefer on a 10 seconds cooldown
 
 The user throws pages marked with the symbol of emanation at the enemies in front of them, poisoning each one
 
-Using it puts the other Sefer on a 10 seconds cooldown
-
-| Stat | Value |
-|---|---|
-| Damage type | Projectile |
-| Element | Poison |
-| Haki | Special |
-| Cooldown | 16 s |
-| Poison | 8 s |
-| Damage | 3 |
-| Range | 20 blocks (line) |
-
-## Sefer Assiah { #sefer-assiah }
-
-![](../abilities/sefer-assiah.png){ .ability-icon } *Active*
-
-The user throws pages marked with the symbol of action at the enemies in front of them, paralysing each one for a few seconds
+With the **Alt key** it is **Sefer Assiah**: the user throws pages marked with the symbol of action at the enemies in front of them, paralysing each one for a few seconds
 
 Using it puts the other Sefer on a 10 seconds cooldown
 
-| Stat | Value |
-|---|---|
-| Damage type | Projectile |
-| Haki | Special |
-| Cooldown | 20 s |
-| Paralysis | 3 s |
-| Damage | 2 |
-| Range | 20 blocks (line) |
+| Stat | Sefer Atziluth | Sefer Assiah |
+|---|---|---|
+| Damage type | Projectile | Projectile |
+| Element | Poison | |
+| Haki | Special | Special |
+| Cooldown | 16 s | 20 s |
+| Pages | 5 | 5 |
+| Poison | 8 s | |
+| Paralysis | | 3 s |
+| Damage | 4 | 3 |
+| Range | 20 blocks (line) | 20 blocks (line) |
 
 ## Sefer Briah { #sefer-briah }
 
@@ -207,7 +191,7 @@ Using it puts the other Sefer on a 10 seconds cooldown
 | Stat | Value |
 |---|---|
 | Cooldown | 25 s |
-| Hold | 3 s |
+| Hold | 2.5 s |
 
 ## Warding Page { #warding-page }
 

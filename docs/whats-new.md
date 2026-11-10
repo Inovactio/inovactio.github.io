@@ -9,6 +9,27 @@ tags:
 
 The pages each release added or changed, newest first. What every release does, in full: the changelog of each mod.
 
+## 2026-11-10: Missing Missing no Mi 7.2.0 { #2026-11-10 }
+
+Missing Missing no Mi 7.2.0 needs [AkumaLib 6.6.0](#2026-11-09).
+
+### Missing Missing no Mi 7.2.0
+
+[Changelog](mods/missing-missing-no-mi/changelog.md#v7-2-0)
+
+**Ten fruits made new**, with new techniques, Alt modes, fairer numbers and new icons:
+[Gutsu](mods/missing-missing-no-mi/fruits/gutsu-gutsu-no-mi.md),
+[Hoya](mods/missing-missing-no-mi/fruits/hoya-hoya-no-mi.md),
+[Mori](mods/missing-missing-no-mi/fruits/mori-mori-no-mi.md),
+[Ame](mods/missing-missing-no-mi/fruits/ame-ame-no-mi.md),
+[Toro](mods/missing-missing-no-mi/fruits/toro-toro-no-mi.md),
+[Pasa](mods/missing-missing-no-mi/fruits/pasa-pasa-no-mi.md),
+[Susu](mods/missing-missing-no-mi/fruits/susu-susu-no-mi.md),
+[Juku](mods/missing-missing-no-mi/fruits/juku-juku-no-mi.md),
+[Kyubu](mods/missing-missing-no-mi/fruits/kyubu-kyubu-no-mi.md) and
+[Ryu Ryu, Model: Spinosaurus](mods/missing-missing-no-mi/fruits/ryu-ryu-no-mi-model-spinosaurus.md). New fruit icons for the Gutsu Gutsu and the Spinosaurus.
+
+**The [Uo Uo no Mi, Model: Seiryu](mods/missing-missing-no-mi/fruits/uo-uo-no-mi-model-seiryu.md)** redrawn: a new hybrid, an indigo dragon and its technique icons. Every value on the [All abilities](mods/missing-missing-no-mi/all-abilities.md) table.
 ## 2026-11-09: AkumaLib 6.6.0, Awaken Awaken no Mi 3.0.2 { #2026-11-09 }
 
 Awaken Awaken no Mi 3.0.2 needs AkumaLib 6.6.0 and Forge 47.4.2. The network protocol is still 17, as in 6.4.0 and 6.5.0.
