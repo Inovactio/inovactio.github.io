@@ -5920,10 +5920,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hoya-maji-karu" class="md-nav__link">
+  <a href="#hoya-grab" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Maji Karu
+        Genie Grab
       
     </span>
   </a>
@@ -14034,10 +14034,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hoya-maji-karu" class="md-nav__link">
+  <a href="#hoya-grab" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Maji Karu
+        Genie Grab
       
     </span>
   </a>
@@ -14237,9 +14237,9 @@
 <p><img alt="" class="ability-icon" src="../../abilities/hoya-genie.png" /> <em>Active</em></p>
 <p><img alt="Genie" class="form-picture" src="../../objects/hoya-genie.png" /></p>
 <p>Applies <img alt="" class="effect-mini" src="../../effect-icons/genie-master.png" /><a href="../../effects/#effect-genie-master">Genie Master</a></p>
-<p>The user rubs their belly and a huge genie comes out. It floats in front of the user and attacks nearby enemies by itself. The other abilities are orders for the genie</p>
+<p>The user rubs their belly and a huge genie comes out, tied to them by a trail of smoke. It hunts the enemies around by itself and strikes them with its halberd. The other abilities are orders for the genie</p>
 <p>While the genie is out the user walks slowly and can't attack or use items</p>
-<p>The genie can be attacked. It disappears if it has no health left or if the user takes a heavy hit or gets stunned</p>
+<p>The genie can be attacked. It goes back in when it has no health left, or when the user takes a heavy hit or gets stunned. It keeps its health and slowly heals while it is in</p>
 <table>
 <thead>
 <tr>
@@ -14268,11 +14268,31 @@
 <td>Damage</td>
 <td>8</td>
 </tr>
+<tr>
+<td>Genie Strikes Every</td>
+<td>1.5 s</td>
+</tr>
+<tr>
+<td>Genie Health</td>
+<td>120</td>
+</tr>
+<tr>
+<td>Genie Goes Up To</td>
+<td>24 blocks</td>
+</tr>
+<tr>
+<td>User Speed</td>
+<td><span class="stat-malus">-40 %</span></td>
+</tr>
+<tr>
+<td>Sent Back by a Hit Over</td>
+<td>15 % of health</td>
+</tr>
 </tbody>
 </table>
 <h2 id="hoya-command">Genie Command<a class="headerlink" href="#hoya-command" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/hoya-command.png" /> <em>Active</em></p>
-<p>The user points at the enemy they look at and the genie goes for it first</p>
+<p>The user points at the enemy they look at, and the genie goes for it before any other</p>
 <table>
 <thead>
 <tr>
@@ -14287,47 +14307,59 @@
 </tr>
 <tr>
 <td>Range</td>
-<td>32 blocks (line)</td>
+<td>24 blocks (line)</td>
 </tr>
 </tbody>
 </table>
 <h2 id="hoya-maji-giren">Maji Giren<a class="headerlink" href="#hoya-maji-giren" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/hoya-maji-giren.png" /> <em>Active</em></p>
-<p>The genie slams its halberd down where the user looks. It hits the enemies around that spot and sweeps them away</p>
+<p>The genie slams its halberd down on the enemy it is fighting. It hits the enemies around and sweeps them away. One that guards is swept twice as far</p>
+<p>With the <strong>Alt key</strong> it is <strong>Maji Karu</strong>: the genie brings its halberd down with all its weight on the enemy it is fighting. The enemy is driven into the ground and can't move for a moment</p>
 <table>
 <thead>
 <tr>
 <th>Stat</th>
-<th>Value</th>
+<th>Maji Giren</th>
+<th>Maji Karu</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Damage type</td>
 <td>Physical, Indirect</td>
+<td>Physical, Indirect</td>
 </tr>
 <tr>
 <td>Haki</td>
+<td>Special</td>
 <td>Special</td>
 </tr>
 <tr>
 <td>Cooldown</td>
 <td>8 s</td>
+<td>15 s</td>
 </tr>
 <tr>
 <td>Damage</td>
-<td>16</td>
+<td>18</td>
+<td>28</td>
 </tr>
 <tr>
 <td>Range</td>
 <td>2.5 blocks (area)</td>
+<td></td>
+</tr>
+<tr>
+<td>Held in the Ground</td>
+<td></td>
+<td>1.5 s</td>
 </tr>
 </tbody>
 </table>
 <h2 id="hoya-majin-saidan">Majin Saidan<a class="headerlink" href="#hoya-majin-saidan" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/hoya-majin-saidan.png" /> <em>Active</em></p>
 <p><img alt="Majin Saidan" class="form-picture" src="../../objects/hoya-majin-saidan.png" /></p>
-<p>The genie swings its halberd and sends a great flying slash where the user looks. It goes through every enemy in its way</p>
+<p>The genie swings its halberd and sends a great flying slash at the enemy it is fighting. It goes through every enemy in its way and cuts through wood, leaves, glass and wool</p>
 <table>
 <thead>
 <tr>
@@ -14346,17 +14378,17 @@
 </tr>
 <tr>
 <td>Cooldown</td>
-<td>12 s</td>
+<td>10 s</td>
 </tr>
 <tr>
 <td>Damage</td>
-<td>22</td>
+<td>24</td>
 </tr>
 </tbody>
 </table>
-<h2 id="hoya-maji-karu">Maji Karu<a class="headerlink" href="#hoya-maji-karu" title="Permanent link">&para;</a></h2>
-<p><img alt="" class="ability-icon" src="../../abilities/hoya-maji-karu.png" /> <em>Active</em></p>
-<p>The genie brings its halberd down with all its weight on the enemy the user looks at. The enemy is driven into the ground and can't move for a moment</p>
+<h2 id="hoya-grab">Genie Grab<a class="headerlink" href="#hoya-grab" title="Permanent link">&para;</a></h2>
+<p><img alt="" class="ability-icon" src="../../abilities/hoya-grab.png" /> <em>Active</em></p>
+<p>The genie seizes the enemy it is fighting in its hand and holds it. The enemy can't move or attack while held, and the genie can still take orders. Using it again lets go</p>
 <table>
 <thead>
 <tr>
@@ -14375,17 +14407,25 @@
 </tr>
 <tr>
 <td>Cooldown</td>
-<td>15 s</td>
+<td>14 s</td>
 </tr>
 <tr>
 <td>Damage</td>
-<td>26</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Held</td>
+<td>3 s</td>
+</tr>
+<tr>
+<td>Held, a Player or a Boss</td>
+<td>1 s</td>
 </tr>
 </tbody>
 </table>
 <h2 id="hoya-shield">Genie Shield<a class="headerlink" href="#hoya-shield" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/hoya-shield.png" /> <em>Active</em></p>
-<p>The genie guards the user with its halberd. While it is held the genie takes the hits that come from the front instead of the user. It can't attack while guarding</p>
+<p>The genie comes back in front of the user and guards them with its halberd. While it is held, the genie takes the hits that come from the front instead of the user, and sends back what is shot at them. It can't attack while guarding</p>
 <table>
 <thead>
 <tr>
@@ -14406,7 +14446,7 @@
 </table>
 <h2 id="hoya-smoke">Smoke<a class="headerlink" href="#hoya-smoke" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/hoya-smoke.png" /> <em>Active</em></p>
-<p>The genie turns to smoke for 3 seconds. Nothing can hit it but it can't attack</p>
+<p>The genie turns to smoke for a moment. Nothing can hit it, but it can't attack</p>
 <table>
 <thead>
 <tr>
@@ -14420,14 +14460,14 @@
 <td>15 s</td>
 </tr>
 <tr>
-<td>Hold</td>
+<td>Duration</td>
 <td>3 s</td>
 </tr>
 </tbody>
 </table>
 <h2 id="hoya-great-genie">Great Genie<a class="headerlink" href="#hoya-great-genie" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/hoya-great-genie.png" /> <em>Active</em></p>
-<p>The genie grows gigantic for a while. It reaches twice as far and all its attacks hit harder and wider</p>
+<p>The genie grows gigantic for a while. Its halberd reaches much farther, and all its attacks hit harder and wider</p>
 <table>
 <thead>
 <tr>
@@ -14444,6 +14484,18 @@
 <td>Hold</td>
 <td>15 s</td>
 </tr>
+<tr>
+<td>Genie Size</td>
+<td>x3</td>
+</tr>
+<tr>
+<td>Halberd Reach</td>
+<td>9 blocks</td>
+</tr>
+<tr>
+<td>Genie Damage</td>
+<td>+25 %</td>
+</tr>
 </tbody>
 </table>
 <h2 id="hoya-genie-life">Genie's Life<a class="headerlink" href="#hoya-genie-life" title="Permanent link">&para;</a></h2>
@@ -14452,7 +14504,7 @@
 <p class="admonition-title">Hidden ability</p>
 <p>It does not appear in the ability menu.</p>
 </div>
-<p>Shows the health of the genie. The genie keeps its health when it goes back in and slowly recovers while it is not out</p>
+<p>Shows the health of the genie. The genie keeps its health when it goes back in, and slowly heals while it is not out</p>
 
 
 

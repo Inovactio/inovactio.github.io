@@ -14243,7 +14243,7 @@
 <p>The user is immune to fire and lava</p>
 <h2 id="smelt">Smelt<a class="headerlink" href="#smelt" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/smelt.png" /> <em>Active</em></p>
-<p>The user eats up to 8 pieces of metal from their inventory, the one in their hand first. It can be ore, raw metal, ingots, nuggets or blocks of iron, gold or copper. It fills their furnace</p>
+<p>The user eats up to 8 pieces of metal from their inventory, the one in their hand first. It can be ore, raw metal, ingots, nuggets or blocks of iron, gold, copper or black metal. It fills their furnace</p>
 <table>
 <thead>
 <tr>
@@ -14261,7 +14261,7 @@
 <h2 id="forge">Forge<a class="headerlink" href="#forge" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/forge.png" /> <em>Active</em></p>
 <p>The user pulls a glowing weapon out of their body, it can be a blade, a maul, a spear or a gun that fires molten metal. The weapon is chosen before it is forged</p>
-<p>Forged weapons are made of the best metal in the furnace, set what they strike on fire, and melt after 90 seconds or when dropped</p>
+<p>Forged weapons are made of the best metal in the furnace, set what they strike on fire, and melt after 90 seconds or when dropped. Arm the Crew hands out the weapon chosen here</p>
 <p>The weapon is a <strong>Forged Blade</strong>, a <strong>Forged Maul</strong>, a <strong>Forged Spear</strong> or a <strong>Forged Gun</strong>, in the metal the furnace holds (iron, gold or copper). What it strikes burns. It takes no wear and no enchantment, melts after 90 seconds, and at once if it is dropped. The gun fires 6 balls of molten metal, then it is spent.</p>
 <table>
 <thead>
@@ -14283,7 +14283,7 @@
 </table>
 <h2 id="arm-the-crew">Arm the Crew<a class="headerlink" href="#arm-the-crew" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/arm-the-crew.png" /> <em>Active</em></p>
-<p>The user forges a blade for each ally around them who has no forged weapon yet, as long as the furnace has metal for it. These blades melt as the user's own do</p>
+<p>The user forges a weapon for each ally around them who has no forged weapon yet, as long as the furnace has metal for it. It is the weapon chosen in Forge, but a creature that can't shoot gets a blade instead of a gun. These weapons melt as the user's own do</p>
 <table>
 <thead>
 <tr>
@@ -14309,34 +14309,51 @@
 <h2 id="molten-shot">Molten Shot<a class="headerlink" href="#molten-shot" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/molten-shot.png" /> <em>Active</em></p>
 <p><img alt="Molten Shot" class="form-picture" src="../../objects/molten-shot.png" /></p>
-<p>The user spits a ball of molten metal that damages what it hits and sets it on fire</p>
+<p>The user spits a ball of molten metal. It damages what it hits and sets it on fire</p>
+<p>With the <strong>Alt key</strong> it is <strong>Molten Sphere</strong>: the user spits a big, slow sphere of molten metal. It bursts where it lands, and every enemy around takes damage and catches fire</p>
 <table>
 <thead>
 <tr>
 <th>Stat</th>
-<th>Value</th>
+<th>Molten Shot</th>
+<th>Molten Sphere</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Damage type</td>
 <td>Projectile</td>
+<td>Projectile</td>
 </tr>
 <tr>
 <td>Haki</td>
 <td>Special</td>
+<td>Special</td>
 </tr>
 <tr>
 <td>Cooldown</td>
-<td>4 s</td>
+<td>3.5 s</td>
+<td>12 s</td>
+</tr>
+<tr>
+<td>Charge</td>
+<td>0.1 s</td>
+<td>0.3 s</td>
 </tr>
 <tr>
 <td>Damage</td>
-<td>9</td>
+<td>14</td>
+<td>26</td>
+</tr>
+<tr>
+<td>Range</td>
+<td></td>
+<td>3 blocks (area)</td>
 </tr>
 <tr>
 <td>Metal Spent</td>
 <td><span class="stat-malus">1</span></td>
+<td><span class="stat-malus">4</span></td>
 </tr>
 </tbody>
 </table>
@@ -14345,6 +14362,7 @@
 <p><img alt="Molten Stream" class="form-picture" src="../../objects/molten-stream.png" /></p>
 <p>The user pours a wide stream of molten metal where they are looking, enemies in it are burned and set on fire. It spends metal for as long as it flows</p>
 <p>Use the ability again to stop it</p>
+<p>While Overfed, the stream is a torrent, half again as wide and as strong</p>
 <table>
 <thead>
 <tr>
@@ -14363,7 +14381,7 @@
 </tr>
 <tr>
 <td>Cooldown</td>
-<td>15 s</td>
+<td>12 s</td>
 </tr>
 <tr>
 <td>Hold</td>
@@ -14371,7 +14389,7 @@
 </tr>
 <tr>
 <td>Damage</td>
-<td>2</td>
+<td>57</td>
 </tr>
 <tr>
 <td>Range</td>
@@ -14379,41 +14397,58 @@
 </tr>
 <tr>
 <td>Metal Spent</td>
-<td><span class="stat-malus">10</span></td>
+<td><span class="stat-malus">9.5</span></td>
 </tr>
 </tbody>
 </table>
 <h2 id="metal-casing">Metal Casing<a class="headerlink" href="#metal-casing" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/metal-casing.png" /> <em>Active</em></p>
 <p>Applies <img alt="" class="effect-mini" src="../../effect-icons/cased-in-metal.png" /><a href="../../effects/#effect-cased-in-metal">Cased in Metal</a></p>
-<p>The user pours molten metal over the enemy they are looking at, it sets around them and they can't move or attack. The casing lasts less on players and bosses and breaks if it takes enough damage</p>
+<p>The user pours molten metal over the enemy they are looking at. It burns them and sets around them, and they can't move or attack. The casing lasts less on players and bosses, and breaks if it takes enough damage</p>
+<p>With the <strong>Alt key</strong> it is <strong>Heat Metal</strong>: the metal armour of the enemy the user is looking at heats up. Each piece of iron, chain, gold or netherite burns them every second, and the steam blinds them for a moment</p>
 <table>
 <thead>
 <tr>
 <th>Stat</th>
-<th>Value</th>
+<th>Metal Casing</th>
+<th>Heat Metal</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Cooldown</td>
 <td>25 s</td>
+<td>15 s</td>
+</tr>
+<tr>
+<td>Charge</td>
+<td>0.25 s</td>
+<td></td>
+</tr>
+<tr>
+<td>Damage</td>
+<td>8</td>
+<td>20</td>
 </tr>
 <tr>
 <td>Hold</td>
 <td>3–8 s</td>
-</tr>
-<tr>
-<td>Metal Spent</td>
-<td><span class="stat-malus">4</span></td>
+<td>5 s</td>
 </tr>
 <tr>
 <td>Range</td>
+<td>12 blocks (line)</td>
 <td>12 blocks (line)</td>
 </tr>
 <tr>
 <td>Casing Health</td>
 <td>25</td>
+<td></td>
+</tr>
+<tr>
+<td>Metal Spent</td>
+<td><span class="stat-malus">4</span></td>
+<td><span class="stat-malus">2</span></td>
 </tr>
 </tbody>
 </table>
@@ -14436,8 +14471,8 @@
 </table>
 <h2 id="overfed">Overfed<a class="headerlink" href="#overfed" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/overfed.png" /> <em>Active · Transformation</em></p>
-<p>With at least 32 ingots in the furnace the user's body swells, they are bigger, much stronger and harder to push, and so hot that enemies standing close catch fire</p>
-<p>The furnace burns its metal for as long as the form lasts, and the form ends when it is empty</p>
+<p>With at least 32 ingots in the furnace the user's body swells, they are bigger, much stronger and harder to push. They are so hot that enemies close to them are burned, ice and snow melt and what can burn catches fire. The fuller the furnace, the hotter and the further</p>
+<p>The furnace burns its metal for as long as the form lasts, and the form ends when it is empty. Molten Stream becomes a torrent</p>
 <table>
 <thead>
 <tr>
@@ -14451,12 +14486,20 @@
 <td>Special</td>
 </tr>
 <tr>
-<td>Damage</td>
-<td>2</td>
+<td>Metal Needed</td>
+<td>32</td>
 </tr>
 <tr>
-<td>Range</td>
-<td>3.5 blocks (area)</td>
+<td>Metal Burned per Second</td>
+<td><span class="stat-malus">0.5</span></td>
+</tr>
+<tr>
+<td>Heat Damage per Second</td>
+<td>2–4</td>
+</tr>
+<tr>
+<td>Heat Range</td>
+<td>3.5–5 blocks (area)</td>
 </tr>
 </tbody>
 </table>
