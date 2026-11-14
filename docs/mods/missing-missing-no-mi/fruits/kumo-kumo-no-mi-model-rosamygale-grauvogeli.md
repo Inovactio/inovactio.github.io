@@ -6,8 +6,8 @@
 |---|---|
 | **Type** | Ancient Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.37%**, wooden **0.069%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 11: 10 active, 1 passive |
+| **Chance per opening** | iron **1.35%**, wooden **0.068%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 10: 9 active, 1 passive |
 | **Transformations** | [Rosamygale Heavy Point](#rosamygale-heavy-point), [Rosamygale Walk Point](#rosamygale-walk-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -48,7 +48,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![Rosamygale Heavy Point](../forms/rosamygale-heavy-point.png){ .form-picture }
 
-Transforms the user into a spider hybrid, which stands on 2 of its 8 legs and weaves sticky webs. Its punches poison.
+Transforms the user into a spider hybrid with 6 black arms and a spider abdomen, which weaves sticky webs. Its punches poison for 4 seconds.
 
 ## Rosamygale Walk Point { #rosamygale-walk-point }
 
@@ -56,77 +56,67 @@ Transforms the user into a spider hybrid, which stands on 2 of its 8 legs and we
 
 ![Rosamygale Walk Point](../forms/rosamygale-walk-point.png){ .form-picture }
 
-Transforms the user into a giant spider, which is fast, low to the ground and has a poisonous bite.
+Transforms the user into a giant spider, which is fast, low to the ground and has a poisonous bite. Its punches poison for 4 seconds.
 
 ## Wall Walker { #wall-walker }
 
 ![](../abilities/wall-walker.png){ .ability-icon } *Passive*
 
-While in a spider form the user climbs the walls they walk against, and holds on to them while crouching
+While in a spider form the user climbs the walls they walk against and holds on to them while crouching. Once under a ceiling they stay on it and walk upside down, crouching lets go
 
 Requires Rosamygale Heavy Point or Rosamygale Walk Point to be active.
 
 ## Hard Gum { #hard-gum }
 
-![](../abilities/hard-gum.png){ .ability-icon } *Active*
+![](../abilities/web-trap.png){ .ability-icon } *Active*
 
-The user throws a mass of sticky web where they are looking, it holds everything that walks into it. The web disappears after a while, burns easily and shatters in the cold
+While in a spider form, the user lays a hidden web on the ground where they stand, the first one to step on it is held in place and wrapped in sticky web. The trap disappears after 60 seconds
 
-| Stat | Value |
-|---|---|
-| Cooldown | 12 s |
-| Range | 12 blocks (line) |
+![](../abilities/hard-gum.png){ .effect-mini }With the **Alt key** it is **Hard Gum**: the user throws a mass of sticky web where they are looking, it holds every enemy that walks into it. The web disappears after 40 seconds, burns easily and shatters in the cold
+
+| Stat | Web Trap | Hard Gum |
+|---|---|---|
+| Cooldown | 8 s | 12 s |
+| Range |  | 12 blocks (line) |
+| Web Lasts | 60 s | 40 s |
+| Holds For | 4 s |  |
+| Webs Up At Most | 60 |  |
+| Web Width |  | 3 blocks |
+| Web Height |  | 2 blocks |
 
 ## Marianette { #marianette }
 
 ![](../abilities/marianette.png){ .ability-icon } *Active*
 
-While in the spider hybrid form, the user shoots threads from their fingers at the enemy they are looking at, binding its limbs so it can't move. Use the ability again to let it go
+While in the spider hybrid form, the user shoots threads from their fingers at the enemy they are looking at, binding its limbs so it can't move. Use the ability again for Oshizumaria, the threads pull its arms apart, it is weakened and takes more damage from everyone for 5 seconds. Use it once more to let it go
 
 | Stat | Value |
 |---|---|
 | Cooldown | 14 s |
 | Hold | 4 s |
 | Range | 14 blocks (line) |
-
-## Oshizumaria { #oshizumaria }
-
-![](../abilities/oshizumaria.png){ .ability-icon } *Active*
-
-While in the spider hybrid form, the user pulls apart the arms of the enemy bound by Marianette, it is weakened and takes more damage from everyone for a while
-
-| Stat | Value |
-|---|---|
-| Cooldown | 15 s |
 | Damage Taken After | <span class="stat-malus">x1.3</span> |
+| Opened For | 5 s |
 
 ## Ikidomaria { #ikidomaria }
 
 ![](../abilities/ikidomaria.png){ .ability-icon } *Active*
 
-While in the spider hybrid form, the user weaves a wall of net in front of them that stops enemies and projectiles. The wall disappears after a while, burns easily and shatters in the cold
+While in the spider hybrid form, the user weaves a wall of net in front of them that stops enemies and projectiles. The wall disappears after 30 seconds, burns easily and shatters in the cold
 
 The wall is made of **Gum Wall** blocks.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 15 s |
-
-## Web Trap { #web-trap }
-
-![](../abilities/web-trap.png){ .ability-icon } *Active*
-
-The user lays a hidden web on the ground where they stand, the first one to step on it is held in place and wrapped in sticky web. The trap disappears after a while
-
-| Stat | Value |
-|---|---|
-| Cooldown | 8 s |
+| Web Width | 5 blocks |
+| Web Height | 3 blocks |
 
 ## Cocoon { #cocoon }
 
 ![](../abilities/cocoon.png){ .ability-icon } *Active*
 
-The user winds a nearby enemy that is already caught in a web, a trap or Marianette in a cocoon of silk, it can't move and is poisoned for a while
+While in a spider form, the user winds a nearby enemy that is already caught in a web, a trap or Marianette in a cocoon of silk, it can't move and is poisoned for 6 seconds
 
 | Stat | Value |
 |---|---|
@@ -137,21 +127,35 @@ The user winds a nearby enemy that is already caught in a web, a trap or Mariane
 
 ![](../abilities/venom-bite.png){ .ability-icon } *Active*
 
-While in the full spider form, the user bites the enemy in front of them with their fangs and injects a strong poison
+While in the full spider form, the user bites the enemy in front of them with their fangs and injects a strong poison for 6 seconds
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 10 s |
-| Damage | 18 |
+| Damage | 22 |
 | Range | 2.5 blocks (line) |
+
+## Venom Legs { #venom-legs }
+
+![](../abilities/venom-legs.png){ .ability-icon } *Active*
+
+While in the spider hybrid form, the user strikes the enemies in front of them with all 6 arms at once, the poison on their tips poisons them for 4 seconds
+
+| Stat | Value |
+|---|---|
+| Damage type | Physical |
+| Haki | Hardening |
+| Cooldown | 12 s |
+| Damage | 22 |
+| Range | 3 blocks (line) |
 
 ## Thread Pull { #thread-pull }
 
 ![](../abilities/thread-pull.png){ .ability-icon } *Active*
 
-The user throws a thread at the block they are looking at, the thread then pulls them to it. Use the ability again to let go
+While in a spider form, the user throws a thread at the block they are looking at, the thread then pulls them to it. Use the ability again to let go
 
 | Stat | Value |
 |---|---|

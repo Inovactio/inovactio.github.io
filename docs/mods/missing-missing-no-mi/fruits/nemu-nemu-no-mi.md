@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Sleep |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.65%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.53%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 5: 5 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/asleep.png){ .effect-mini }[Asleep](../effects.md#effect-asleep), ![](../effect-icons/haunted.png){ .effect-mini }[Haunted](../effects.md#effect-haunted), ![](../effect-icons/hypnotized.png){ .effect-mini }[Hypnotized](../effects.md#effect-hypnotized), ![](../effect-icons/memories-taken.png){ .effect-mini }[Memories Taken](../effects.md#effect-memories-taken), ![](../effect-icons/nemu-memories.png){ .effect-mini }[Nemu Memories](../effects.md#effect-nemu-memories), ![](../effect-icons/nemu-puppet-link.png){ .effect-mini }[Nemu Puppet Link](../effects.md#effect-nemu-puppet-link) |
 

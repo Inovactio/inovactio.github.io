@@ -13,6 +13,15 @@ The pages each release added or changed, newest first. What every release does, 
 
 Missing Missing no Mi 8.0.0 needs AkumaLib 6.7.0. AkumaLib's network protocol is now 21: update the server and every player together, a 6.6.0 game cannot join a 6.7.0 server.
 
+### Missing Missing no Mi 8.0.0
+
+[Changelog](mods/missing-missing-no-mi/changelog.md#v8-0-0)
+
+- **Eight new fruits**: [Toshi Toshi](mods/missing-missing-no-mi/fruits/toshi-toshi-no-mi.md), [Nomi Nomi](mods/missing-missing-no-mi/fruits/nomi-nomi-no-mi.md), [Inu Inu, Model: Bake-danuki](mods/missing-missing-no-mi/fruits/inu-inu-no-mi-model-bakedanuki.md), [Jake Jake](mods/missing-missing-no-mi/fruits/jake-jake-no-mi.md), [Woshu Woshu](mods/missing-missing-no-mi/fruits/woshu-woshu-no-mi.md), [Mato Mato](mods/missing-missing-no-mi/fruits/mato-mato-no-mi.md), [Iro Iro](mods/missing-missing-no-mi/fruits/iro-iro-no-mi.md) and [Ushi Ushi, Model: Alpaca](mods/missing-missing-no-mi/fruits/ushi-ushi-no-mi-model-alpaca.md). The Toshi Toshi and the Nomi Nomi are not finished yet, more is coming
+- **[SMILEs and Zoan weapons](mods/missing-missing-no-mi/index.md#smiles-and-zoan-weapons)**: the Nomi Nomi makes SMILEs, every Zoan of this addon has a failed SMILE form, and any weapon can eat a Zoan fruit and call out its beast
+- **[Bisu Bisu](mods/missing-missing-no-mi/fruits/bisu-bisu-no-mi.md)** and **[Kumo Kumo](mods/missing-missing-no-mi/fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md)**: stronger, with new techniques (Honey Pretzel, Venom Legs)
+- The box odds of every fruit, the [all abilities](mods/missing-missing-no-mi/all-abilities.md) table and the [status effects](mods/missing-missing-no-mi/effects.md)
+
 ### AkumaLib 6.7.0
 
 [Changelog](akumalib/changelog.md#v6-7-0)

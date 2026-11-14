@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Pocket |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.65%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.53%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 3: 3 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/absorbed.png){ .effect-mini }[Absorbed](../effects.md#effect-absorbed), ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/just-woken.png){ .effect-mini }[Just Woken](../effects.md#effect-just-woken), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet), [Swallowed](../effects.md#effect-swallowed), ![](../effect-icons/wide-awake.png){ .effect-mini }[Wide Awake](../effects.md#effect-wide-awake) |
 
