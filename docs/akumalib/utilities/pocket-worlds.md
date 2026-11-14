@@ -63,11 +63,14 @@ WorldMending.watch(MY_WORLD, "mymod_world_mending", 600, (level, pos) -> MyGener
 - `600` is the wait in ticks after a place last changed.
 - The last argument says **what stood there at first**. A world laid by a pure function of the position needs no memory: ask your generator.
 - A block does not come back onto somebody: that place waits until he has moved.
+- A mob saved on the disk is not buried either. In a chunk kept loaded (forced, a player near) whose entities are not read yet, the place waits for them. A chunk only read for its blocks (no player, not forced) never reads its entities: its place is mended, and a mob read off the disk inside it later opens it again, as it was; the place then waits for him like any other.
 - At most 4 000 places are mended in a pass; a great ability changes a hundred thousand, and they follow over the next ticks.
 - The places still to mend are saved with the dimension, under the name you gave, and mended once their chunk is loaded again.
 - `WorldMending.waiting(level)` says how many places still wait.
 
 It hears every change through [`BlockWrites`](blocks.md#blockwrites), and takes the dimension's watcher: a mended dimension cannot have another one.
+
+A dimension of several places that each live their own life - towers, arenas - is cut into [zones](mending-zones.md): each has its own clock and waits while a player is inside.
 
 !!! info "Not `TemporaryBlocks`, not a protected area"
     [`TemporaryBlocks`](blocks.md#temporaryblocks) is the other way round: it remembers what an ability laid, and takes it away. The base mod's protected areas restore only the blocks its own abilities queue, and an area is a box in a world, not a world.

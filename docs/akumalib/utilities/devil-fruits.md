@@ -21,6 +21,7 @@ Notes:
 
 - The base mod's Zoan points never time out, so there is no morph duration to extend. To strengthen a form, check `isMorphed` and add modifiers, as Cruise's Rumble does.
 - The base mod's `mineminenomi:zoan` item tag leaves the artificial Zoans out. `isZoan` counts them.
+- A successful [SMILE](smiles.md) counts as the Zoan it copies for `fruit`, `hasFruit` and `isZoan`; a failed one as no fruit (#928).
 - The Hito Hito no Mi (Chopper's fruit) is a Zoan with no abilities in 0.11.5, so its user is never morphed.
 
 ## `ExternalMorphs`

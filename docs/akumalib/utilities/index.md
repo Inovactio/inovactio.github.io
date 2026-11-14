@@ -42,6 +42,8 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 | [Doriki and Cola](doriki.md) | `AkumaStats`: read and grant Doriki, refill a cyborg's Cola; `DorikiGainEffect`: more Doriki from fights |
 | [Devil Fruits](devil-fruits.md) | `AkumaDevilFruits`: a living entity's Devil Fruit as the base mod keeps it |
 | [Devil Fruits on NPCs](npc-fruits.md) | `/akumalib npcfruit`, troops and any mob with a Devil Fruit, fewer Rokushiki, NPCs that break no terrain |
+| [SMILEs](smiles.md) | `Smiles`, `SmileData`: artificial Zoan fruits, a copy or a failure, outside the One Fruit per World rule |
+| [Prisons](prisons.md) | `Prisons`: the game's prison, `MarinePrison` unless an addon registers its own; `Arrests`: a player beaten by a faction handed to it |
 | [Titles](titles.md) | `AkumaTitles`: titles players earn and wear after their name, from code, professions or data packs |
 
 ## The world
@@ -57,11 +59,11 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 
 | Page | Helpers |
 |---|---|
-| [Deferred work](tick-queue.md) | `AkumaTickQueue`: run something at the end of this server tick, or N ticks from now; `ServerScopedMap`: static state emptied when the server stops; `AbilityLifecycle`: abilities stopped on death, zero gravity and soft landings that clean up after themselves |
+| [Deferred work](tick-queue.md) | `AkumaTickQueue`: run something at the end of this server tick, or N ticks from now; `ServerScopedMap`: static state emptied when the server stops; `AbilityLifecycle`: abilities stopped on death, zero gravity and soft landings that clean up after themselves; `TimeMarks`: a continuity's moments passed once under 20 TPS |
 | [Other helpers](other-helpers.md) | four short pages: [for abilities](ability-helpers.md), [bodies, seats and places](bodies-and-places.md), [ammunition, stores, amounts and markers](ammo-stores-and-markers.md), [long rays and heavy work](rays-and-heavy-work.md): `FruitInjectionHelper`, `RandomTeleportHelper`, `InoHelper`, `AkumaAmounts`, `UnseenSeat`, `AkumaRoom`, `LoadedRay`, `SpreadWork`, `FruitRegister` and more |
 
 ## Documented elsewhere
 
-- The worldgen tools, `AkumaCells`, `OverworldLookup`, `AkumaDimensionTravel` and `AkumaJigsaw`, have their own section: [Worldgen and dimensions](../worldgen/index.md).
+- The worldgen tools, `AkumaCells`, `OverworldLookup`, `AkumaDimensionTravel`, `AkumaJigsaw`, `WorldMending.Zones` and `SpawnPost`, have their own section: [Worldgen and dimensions](../worldgen/index.md).
 - The damage helpers, `AkumaAbilityHelper.scaledDamage` and `hurtBurst`, have their own page in [Core concepts](../core-concepts/damage.md).
 - `AkumaCharges.interrupt`, cutting a charge short without firing it or leaking what it started, is documented with [Charges](../core-concepts/charges.md#a-charge-stopped-from-outside).

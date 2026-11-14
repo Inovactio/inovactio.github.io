@@ -9,6 +9,20 @@ tags:
 
 The pages each release added or changed, newest first. What every release does, in full: the changelog of each mod.
 
+## 2026-11-14: AkumaLib 6.7.0, Missing Missing no Mi 8.0.0 { #2026-11-14 }
+
+Missing Missing no Mi 8.0.0 needs AkumaLib 6.7.0. AkumaLib's network protocol is now 21: update the server and every player together, a 6.6.0 game cannot join a 6.7.0 server.
+
+### AkumaLib 6.7.0
+
+[Changelog](akumalib/changelog.md#v6-7-0)
+
+- **SMILEs**: artificial fruits that copy a Zoan, a success or a failure you only learn by eating it, with odds set by the server
+- **Several trades in Crew mode**, if the server allows it
+- **Races and fighting styles by data pack** in the character creator
+- **Clothes and capes**: NPC clothes no longer vanish, capes show over a top, and blasts and bullets hit long creatures such as the Ender Dragon
+- For addon makers: [SMILEs](akumalib/utilities/smiles.md), [races by data pack](akumalib/utilities/races-by-datapack.md), [NPC looks](akumalib/entities/npc-looks.md), [NPC clothes](akumalib/entities/npc-armour.md), [prisons and arrests](akumalib/utilities/prisons.md), [mending zones](akumalib/utilities/mending-zones.md), [spawn posts](akumalib/utilities/spawn-posts.md), [several trades](akumalib/professions/solo-and-crew.md)
+
 ## 2026-11-10: Missing Missing no Mi 7.2.0 { #2026-11-10 }
 
 Missing Missing no Mi 7.2.0 needs [AkumaLib 6.6.0](#2026-11-09).

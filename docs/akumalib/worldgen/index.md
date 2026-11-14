@@ -42,6 +42,18 @@ Your `AkumaRegistry` carries a deferred register for each of these, like every o
 
     `PocketGuests`, `AkumaDimensionTravel.place`, `WorldMending`: a power's own world, its guests and their way back.
 
+-   :material-map-clock-outline:{ .lg .middle } **[Mending zones](../utilities/mending-zones.md)**
+
+    ---
+
+    `WorldMending.Zones`: a mended dimension cut into zones, each with its clock, that wait while a player is inside.
+
+-   :material-flag-outline:{ .lg .middle } **[Spawn posts](../utilities/spawn-posts.md)**
+
+    ---
+
+    `SpawnPost`, `SpawnPostBlockEntity`: a marker that keeps its entities standing only while a player is near, as new after each mending.
+
 -   :material-puzzle-outline:{ .lg .middle } **[Jigsaw pools](../utilities/jigsaw.md)**
 
     ---

@@ -423,6 +423,9 @@ nav:
           - Currency: akumalib/utilities/currency.md
           - Devil Fruits: akumalib/utilities/devil-fruits.md
           - Devil Fruits on NPCs: akumalib/utilities/npc-fruits.md
+          - SMILEs: akumalib/utilities/smiles.md
+          - Races by data pack: akumalib/utilities/races-by-datapack.md
+          - Prisons: akumalib/utilities/prisons.md
       - Ability base classes:
           - akumalib/ability-base-classes/index.md
           - Zones: akumalib/ability-base-classes/zones.md
@@ -471,6 +474,8 @@ nav:
           - Decoys: akumalib/entities/decoys.md
           - Holding spheres: akumalib/entities/holding-spheres.md
           - Torn ground: akumalib/entities/torn-ground.md
+          - NPC looks: akumalib/entities/npc-looks.md
+          - NPC clothes: akumalib/entities/npc-armour.md
       - Professions:
           - akumalib/professions/index.md
           - Levels and XP: akumalib/professions/levels-and-xp.md
@@ -487,6 +492,8 @@ nav:
           - Asking the overworld: akumalib/utilities/overworld-lookup.md
           - Dimension travel: akumalib/utilities/dimension-travel.md
           - Pocket worlds: akumalib/utilities/pocket-worlds.md
+          - Mending zones: akumalib/utilities/mending-zones.md
+          - Spawn posts: akumalib/utilities/spawn-posts.md
           - Jigsaw pools: akumalib/utilities/jigsaw.md
           - World events: akumalib/utilities/world-events.md
           - Loot injection:

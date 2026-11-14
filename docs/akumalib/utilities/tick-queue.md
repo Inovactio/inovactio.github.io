@@ -60,3 +60,20 @@ Losing the fruit needs nothing: `Ability.onRemove` already stops the continuity.
 **Zero gravity.** `NoGravity` is saved with the entity: a server stopped during a float left the player floating at the next login. Use `noGravity(entity)` / `endNoGravity(entity)` instead of `setNoGravity`, and a login lifts a marked one.
 
 **Soft landings.** A "the next fall is free" flag lived until a fall used it, and landing in water used none: it cancelled some later, unrelated fall. `grantSoftLanding(entity, key)` opens a 20-second window; `useSoftLanding(entity, key)` in your `LivingFallEvent` spends it.
+
+## `TimeMarks`
+
+*Since 6.7.0.* The moments of a continuity or a cast, each passed once, even on a server under 20 TPS. The base mod moves their time by more than 1 a tick when the server lags, so `time == 5` can be stepped over (4.36 then 5.38); and on a tick of 100 ms or more it runs the tick event twice or more with the same time, so a counter bumped in it counts that tick twice.
+
+```java
+private final TimeMarks marks = new TimeMarks();
+
+// when it starts
+this.marks.reset();
+// in its tick
+this.marks.at(this.continuousComponent.getContinueTime());
+if (this.marks.passed(STRIKE_AT)) { strike(); }          // once
+if (this.marks.passedEvery(2)) { sparks(); }             // at 2, 4, 6...
+```
+
+At 20 TPS a moment is passed at the same tick as `time == moment`: nothing changes for a server that keeps up.

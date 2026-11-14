@@ -54,6 +54,12 @@ The check is asked on the client, every frame the bar is drawn. It must answer f
 
 A gate combined with `.and(...)` or `.or(...)` is a new check and is not greyed by itself: hand the combined check to `GreyedSlots.unless`.
 
+**The grey instead of the message** (*since 6.7.0*): `GreyedSlots.silentlyUnless(this, check)` adds `check` as a use check of its own, asked before the technique's others, and greys the slot while it refuses. A press then fails in silence, for a failed press's cooldown. The check fails with a null message; do not also add it with `addCanUseCheck`.
+
+```java
+GreyedSlots.silentlyUnless(this, (entity, ability) -> isLit(entity) ? Result.success() : Result.fail(null));
+```
+
 ## Declaring a form's attributes: `MorphStats`
 
 A morph ability's stats used to take three declarations per attribute: a field, a line wiring it into the `ChangeStatsComponent`, and the modifier itself. `MorphStats` knows the UUID, attribute and default operation of each stat, so only the number is left:
@@ -111,6 +117,54 @@ Pass `null` to go back to unconditional stats.
 
 !!! note "One modifier per attribute"
     A `ChangeStatsComponent` holds a single modifier per attribute. Two techniques that want different bonuses on the same attribute at the same time need separate components or separate forms, not two `movementSpeed` calls.
+
+## A form given as data: `DataMorphInfo`
+
+Most forms are only data: a texture, a box, eyes, a shadow. `DataMorphInfo` holds that data and answers the base mod's `MorphInfo` methods with it. Its name is its ability's (`new DataMorphInfo(MyAbility.INSTANCE)`) or a translation key's (`new DataMorphInfo("morph.mymod.gold_gauntlet")`). Whatever is not given keeps the base mod's default.
+
+```java
+// Measured on the animated envelope: the gauntlet swings out of the box as the arm does.
+private static final EntityDimensions STANDING = EntityDimensions.scalable(0.6F, 1.8F);
+private static final EntityDimensions CROUCHING = EntityDimensions.scalable(0.6F, 1.5F);
+
+public static final RegistryObject<MorphInfo> GOLD_GAUNTLET = registerMorph("gold_gauntlet",
+        () -> new DataMorphInfo(GonBombaAbility.INSTANCE)
+                .texture(new ResourceLocation(MODID, "textures/models/morphs/gold_gauntlet.png"))
+                .box(STANDING, CROUCHING)
+                .shadow(0.5F)
+                .partial());
+```
+
+| Setter | Base mod method | Not given |
+|---|---|---|
+| `texture(rl)` | `getTexture` | `null` |
+| `box(standing, crouching)`, `box(both)` | `getSizes` | `null`: the body's own box |
+| `eyes(standing, crouching)` | `getEyeHeight`, through `MorphEyes.of` | `MorphEyes.OWN` |
+| `shadow(f)` | `getShadowSize` | `-1` |
+| `zoom(d)` | `getCameraZoom` | `0` |
+| `scale(f)` | `preRenderCallback`: the model drawn `f` times as big (the box does not follow) | none |
+| `hidesArm(side)`, `hidesArms()`, `hidesLeg(side)`, `hidesLegs()` | `preRenderCallback`: the player's limb and its sleeve are not drawn | none |
+| `partial()` | `isPartial` | `false` |
+| `noMount()` | `canMount` is false | `true` |
+
+A form with real logic (a rider's seat, armour fitted to its parts, a pose of its own) keeps its class and extends `DataMorphInfo`: it gives its data in its constructor and overrides only the logic. An override of `preRenderCallback` calls `super` first to keep the scale and the hidden limbs.
+
+```java
+public class EagleFlyMorphInfo extends DataMorphInfo {
+    public EagleFlyMorphInfo() {
+        super(EagleFlyPointAbility.INSTANCE);
+        this.texture(TEXTURE).box(STANDING, CROUCHING).eyes(1.1F, 0.9F).shadow(0.8F).zoom(4.0D).scale(1.3F).noMount();
+    }
+
+    @Override
+    public void positionRider(LivingEntity entity, Entity passenger) {
+        // its own logic
+    }
+}
+```
+
+!!! note "The box and the eyes are the form at SIZE 1"
+    `FormSizes`, `KeptForms` and AkumaLib's size code read `getSizes` and `getEyeHeight`. Copy a form's numbers onto `DataMorphInfo` as they are, never worked out again.
 
 ## A body in another matter
 
