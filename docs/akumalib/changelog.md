@@ -2,6 +2,88 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 6.7.0 { #v6-7-0 }
+
+<small>Released 2026-11-14 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9619311)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>SMILEs, several trades in Crew mode, and clothes that show.</strong> The SMILE comes in, the artificial fruit that copies a
+Zoan. You only learn whether yours worked once you eat it. In Crew mode a player can now hold more than one trade if the
+server allows it. A data pack can choose the races and fighting styles of the character creator. Clothes worn by NPCs no
+longer vanish, capes show over a top, and blasts and bullets now hit long creatures such as the Ender Dragon. A man at
+normal size plays exactly as before. No signature was removed or changed for addons.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are
+optional. Curios is optional.</p>
+<p>⚠️ <strong>The network protocol is now 21</strong> (it was 17 in 6.4.0 to 6.6.0). The server and every player must have AkumaLib
+6.7.0. A 6.6.0 game cannot join a 6.7.0 server, nor the other way round.</p>
+<p>⚠️ <strong>Missing Missing no Mi 8.0.0 needs AkumaLib 6.7.0.</strong> The other published addons run on it as they are.</p>
+<hr />
+<h2>New</h2>
+<ul>
+<li><strong>SMILEs.</strong> A SMILE is an artificial fruit made from a Zoan. A success and a failure look exactly the same until the
+  fruit is eaten, even in the tooltip. A success gives the whole Zoan it copied, in other colours, and it can awaken. A
+  failure gives a failed form when an addon has one for that Zoan, and no power otherwise. A SMILE user cannot swim, and a
+  second fruit kills him as any other would. SMILEs stay outside One Fruit per World. The character screen shows the SMILE
+  you ate. In Missing Missing no Mi the Nomi Nomi no Mi makes them.</li>
+<li><strong>The odds of a SMILE follow the Zoan it copies.</strong> 50 % for a wooden-box Zoan, 35 % for an iron-box one, 15 % for a
+  golden-box one, each set in the server config.</li>
+<li><strong>Several trades in Crew mode.</strong> A server can let each player hold more than one trade. The next trade opens once the
+  last one taken reaches level 25. The professions screen lists your trades and has a Take a trade button. By default a
+  player still holds one trade, as before.</li>
+<li><strong>Races and fighting styles by data pack.</strong> A data pack can take a race, a sub-race or a fighting style out of the
+  character creator, bring one back that a mod already has, and change a race's size range. A player who already has a
+  removed race or style keeps it.</li>
+<li><strong>NPCs wear capes.</strong> An addon can give its NPCs a cape on the back, worn through Curios.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Clothes on NPCs.</strong> A flat cloth piece worn by an NPC (a Marine shirt, a cap, a prisoner's outfit) vanished or showed
+  smeared bits. It is now drawn whole, at every size.</li>
+<li><strong>Capes over a top.</strong> A captain's cape or a fluffy cape worn in the Curios back slot disappeared under a shirt or a
+  jacket. It now hangs over it, for players and NPCs.</li>
+<li><strong>Clothes on players.</strong> A flat top or a pair of trousers flickered against the outer layer of the skin, and a belt
+  could vanish under it. A hat or glasses worn in a Curios slot sank into the hair. Both now sit just outside the skin.</li>
+<li><strong>Long creatures.</strong> A blast that touched only the head or the tail of a creature made of parts (the Ender Dragon, the
+  Sphinx of Impel Down) missed it. A bullet, a fireball or a punch from Mine Mine no Mi went through such a creature
+  without a scratch. Both now hit it.</li>
+<li><strong>A SMILE form after <code>/removedf</code>.</strong> A failed SMILE form stayed drawn on the player, for him and for everyone who saw
+  him, after the fruit was taken away. It now leaves. Any form lost between two updates no longer stays drawn either.</li>
+<li><strong>Places the world puts back</strong> (the Mirro-World, Impel Down). A mob standing in a hole was buried when its chunk came
+  back. A place in a chunk nobody stood in could stay broken for good. Both are fixed.</li>
+<li><strong>The Scent Lure</strong> (Cruise Cruise no Mi) no longer says that something moves nearby when nothing came.</li>
+<li><strong>Guard posts.</strong> A guard who followed a player into a chunk that unloaded was replaced by a second guard. He now keeps
+  his place.</li>
+</ul>
+<h2>For server operators</h2>
+<ul>
+<li><strong><code>akumalib-server.toml</code></strong>, section <code>smiles</code>, holds <code>smileSuccessChanceTier1</code>, <code>smileSuccessChanceTier2</code> and
+  <code>smileSuccessChanceTier3</code> (50, 35 and 15 %). Beside <code>professionMode</code>, <code>maxTrades</code> (1 to 14, default 1) and
+  <code>nextTradeLevel</code> (default 25) set the trades of Crew mode.</li>
+<li><strong><code>/akumalib smile</code></strong> (operators) gives a SMILE, at random, a success or a failure, and tells what a SMILE held in hand
+  is.</li>
+<li><strong>Data packs</strong> list the creator's races in <code>data/&lt;namespace&gt;/akumalib/races/</code> and its fighting styles in
+  <code>data/&lt;namespace&gt;/akumalib/fighting_styles/</code>. The documentation has an example.</li>
+<li><strong><code>akumalib-client.toml</code></strong>, section <code>baseModFixes</code>, gets <code>fixClothes</code> (capes and clothes) and <code>fixNpcArmour</code> (clothes
+  on NPCs), both on.</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li><strong>SMILEs</strong> (<code>api/smile</code>). <code>Smiles</code>, <code>SmileForms</code> for a Zoan's failed forms, <code>SmileColours</code> for a full form drawn by
+  its own renderer.</li>
+<li><strong>NPCs</strong>. Generated skins from grey layers (<code>LookSet</code>, <code>AkumaLooks</code>), <code>NpcArmour</code>, <code>NpcBack</code> (a cape through
+  Curios), <code>AkumaNpcRaces</code> (an NPC drawn into a race without a race mod).</li>
+<li><strong>Factions</strong>. <code>Prisons</code> (a prison an addon can replace) and <code>Arrests</code> (a player beaten by a faction is sent to it
+  instead of dying).</li>
+<li><strong>Worlds</strong>. <code>WorldMending</code> zones with a clock of their own, <code>SpawnPost</code> and <code>SpawnPostBlockEntity</code>.</li>
+<li><strong>Forms and bodies</strong>. <code>DataMorphInfo</code> (a form given as data), <code>FormMarks</code>, <code>AkumaBody.declare</code> and arm girth,
+  <code>SkinTints</code>.</li>
+<li><strong>Smaller pieces</strong>. <code>EntityHighlights.mark</code> with a colour, <code>TimeMarks</code>, <code>GreyedSlots.silentlyUnless</code>, <code>AkumaRaces.is</code>,
+  <code>Techniques.holds</code>, <code>CarryAbility.refusesGrab</code>, <code>AkumaPackets.work</code>, the trades of <code>AkumaProfessions</code>, and
+  <code>CreatorEntryData</code>.</li>
+</ul>
+<p>An addon that uses any of these declares <code>versionRange = "[6.7.0,)"</code>. Leave the top of the range open.</p>
+</div>
+
 ## 6.6.0 { #v6-6-0 }
 
 <small>Released 2026-11-09 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9523277)</small>

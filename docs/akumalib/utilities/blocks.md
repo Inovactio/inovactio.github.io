@@ -157,6 +157,12 @@ From the server, for a while:
 EntityHighlights.mark(user, target, 600);   // 30 seconds, for the user only
 ```
 
+*Since 6.7.0.* In a colour of your own, ARGB (an alpha of 0 is read as opaque, so `0xFF40BE` is pink); without one the outline keeps its usual colour, its team's or white. The last mark on an entity sets its colour:
+
+```java
+EntityHighlights.mark(user, target, 600, 0xFF40BE);   // the same, in pink
+```
+
 On the client, for whatever a vision sees right now: a provider asked every tick, registered once (a static block in a client class does):
 
 ```java
@@ -168,7 +174,7 @@ ClientEntityHighlights.addProvider(player -> visionIsOn(player)
 Marks and providers add up; only what AkumaLib lit is ever put out. It is vanilla's outline, set on this client's copy of the entity every tick through `Entity#setSharedFlag` (glowing is flag 6) - `setGlowingTag` does nothing on a client.
 
 !!! warning "Both sides need 3.1.0"
-    `mark` is a packet: the network protocol went to 5 with it.
+    `mark` is a packet: the network protocol went to 5 with it. A colour needs 6.7.0 on both sides: the protocol went to 19.
 
 ## Counting and finding blocks of a kind
 

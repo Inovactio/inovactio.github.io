@@ -19,6 +19,13 @@ One entity is ready to spawn as it is, registered and drawn by the library:
 |---|---|---|
 | `TornGroundEntity` | a mass of real ground torn out, carried over its owner's head, thrown, burst on what it meets | [Torn ground](torn-ground.md) |
 
+NPCs of an addon get their look from the library:
+
+| Helper | For | Page |
+|---|---|---|
+| `LookSet`, `AkumaLooks`, `AkumaNpcRaces` | skins generated from grey layers, an NPC drawn into a race | [NPC looks](npc-looks.md) |
+| `NpcArmour`, `NpcBack` | flat clothes drawn whole on an NPC, a cape on its back through Curios | [NPC clothes](npc-armour.md) |
+
 ## Registering an entity
 
 Every entity your addon spawns needs four things. Forgetting one fails in a different way each time.

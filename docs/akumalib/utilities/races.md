@@ -2,6 +2,8 @@
 
 An addon's race is registered in Mine Mine no Mi's own `RACES` registry; given book details, it shows in the Character Creator and in its random roll by itself. What the base mod does not do is treat it as anything: it compares a player's race with its four races exactly. `AkumaRaces` fills that gap. It adds no race.
 
+A server or a modpack chooses which races the creator offers, and their sizes, with a data pack: [Races by data pack](races-by-datapack.md).
+
 ```java
 // common setup
 ResourceLocation sky = new ResourceLocation(MODID, "sky_people");
@@ -24,7 +26,7 @@ AkumaRaces.setSize(fishman, 1.25D);                    // the default slider: -0
 AkumaRaces.setSize(giant, 4.0D, 0.0D, 0.2D, 0.1D);     // its own: min, max, step
 ```
 
-A race that declares nothing takes base 1 and the default slider. A sub-race's declaration wins over its race's. The start is 0, or the bound nearest to it. `AkumaRaces.size(race, subRace)` reads it; `forgetSize` takes it back. AkumaLib puts the size on the players itself, kept over death; see [Attributes and size](../size/race-size.md#the-races-base-size-and-the-creators-slider-746).
+A race that declares nothing takes base 1 and the default slider. A sub-race's declaration wins over its race's. The start is 0, or the bound nearest to it. `AkumaRaces.size(race, subRace)` reads it; `forgetSize` takes it back. A data pack's `sizes` go over it ([Races by data pack](races-by-datapack.md)). AkumaLib puts the size on the players itself, kept over death; see [Attributes and size](../size/race-size.md#the-races-base-size-and-the-creators-slider-746).
 
 ## Fishman features
 
@@ -127,3 +129,21 @@ The tail is out while `AkumaMerfolk.inTail(entity)`: in the water and swimming, 
 - **Open**: a slab cut out of its texture with no wall along the cut, a transparent edge where the slab is solid, or a texel solid on one side only. From some angles one looks through it. A box in `client.race` gets its walls from `SlabWalls`, which reads the texture.
 
 Volumes that cross without sharing a plane are listed, not failed: a part's root sunk in the body is how it holds. The horns are also measured against a helmet. A new layer goes in `LayerAudit.main`.
+
+## NPCs of a race (#946)
+
+An addon that places NPCs gives them a race without depending on a race mod: the race mod registers its races in `AkumaNpcRaces`, the placing addon draws one and applies it. The base mod's Fishman, Mink, Cyborg and Skypiean, and their sub-races, are registered from the start.
+
+```java
+// the race mod, common setup: a race (or a sub-race) NPCs can take, and what it adds after the stats and the size
+AkumaNpcRaces.register(giant, npc -> addGiantStats(npc));
+
+// the placing addon: weights from its own data (one Impel Down file per level)
+ResourceLocation race = AkumaNpcRaces.draw(Map.of(AkumaNpcRaces.HUMAN, 70, giant, 30), level.random);
+double size = AkumaNpcRaces.size(race);        // 4 for a giant: check the cell has room first
+AkumaNpcRaces.apply(prisoner, race);           // false, and nothing done, for a human
+```
+
+- **Draw.** By weight; a race no one registered (the race mod absent, a typo) or one a data pack took out of the creator ([Races by data pack](races-by-datapack.md)) counts as a human: its weight goes to the human. Without a race mod, every NPC but the base mod's races is human.
+- **Apply.** The main race and the sub-race in the NPC's stats (a sub-race puts its main race too), the race's base size as a lasting `SIZE` modifier (never the creator's slider, so `size` is exact; `raceBaseSizes` off, a man's), then the extras registered for the race, then for the sub-race.
+- `drawable(id)` says whether a race can come out; `forget(id)` takes a registration back.
