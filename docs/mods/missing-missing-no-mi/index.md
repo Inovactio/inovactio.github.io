@@ -17,13 +17,13 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **7.2.0** |
+| Version documented | **8.0.0** |
 | Mod id | `inomissing` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [7.2.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9546443) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [8.0.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9619316) · [changelog](changelog.md) |
 
 ## What it adds
 
-**92 Devil Fruits**: 59 Paramecia, 6 Logia and 27 Zoan (5 of them ancient, 7 mythical), with their abilities, transformations, summoned creatures and status effects.
+**100 Devil Fruits**: 65 Paramecia, 6 Logia and 29 Zoan (5 of them ancient, 8 mythical), with their abilities, transformations, summoned creatures and status effects.
 
 The fruits behave like the base mod's own:
 
@@ -44,6 +44,12 @@ Mine Mine no Mi's **captains, notorious NPCs and troops** can draw every fruit o
 - Nothing of an NPC's fruit can be farmed: its gold, metal and turret bullets never run out, and its turret drops nothing.
 - NPCs with these fruits break no blocks, unless the server turns on `npcAbilityGriefing` in `akumalib-server.toml` (off by default). Players are not affected.
 
+## SMILEs and Zoan weapons
+
+- **SMILEs.** The [Nomi Nomi no Mi](fruits/nomi-nomi-no-mi.md) samples Zoan users and makes SMILEs, artificial fruits that copy a Zoan. A success and a failure look the same until the fruit is eaten. A failed SMILE gives a body of its own, with its Zoan's hybrid stats and two techniques, for every Zoan of this addon and many of Mine Mine no Mi's. The Kibi Kibi's dango tames SMILE users, never real Zoans.
+- **Zoan weapons.** The Nomi Nomi makes a weapon or a tool eat a Zoan fruit, as Funkfreed did. Whoever holds it calls out the Zoan's beast, rides it when the Zoan can be ridden, and gets a bonus of that animal while the item is in hand. One Fruit per World holds.
+- **Infusion no Mi.** With that addon installed, its own infusion applies and the Nomi Nomi's steps aside (a server option keeps both).
+
 ## Requirements
 
 | Mod | Version |
@@ -51,7 +57,7 @@ Mine Mine no Mi's **captains, notorious NPCs and troops** can draw every fruit o
 | Minecraft | 1.20.1 |
 | Forge | 47.4.2 or later (an older Forge crashes when a chest is opened) |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 |
-| [AkumaLib](../../akumalib/index.md) | **6.6.0 or later** |
+| [AkumaLib](../../akumalib/index.md) | **6.7.0 or later** |
 
 ## Getting started
 
@@ -63,7 +69,7 @@ Mine Mine no Mi's **captains, notorious NPCs and troops** can draw every fruit o
 
 | Page | What you'll find |
 |---|---|
-| **[Fruits](fruits/index.md)** | the 92 fruits, one page each, with every ability's description and values, and the odds of each box |
+| **[Fruits](fruits/index.md)** | the 100 fruits, one page each, with every ability's description and values, and the odds of each box |
 | **[All abilities](all-abilities.md)** | every ability in one table you can sort and filter: cooldown, charge, hold, damage, range |
 | **[Status effects](effects.md)** | the effects the fruits inflict or grant, and what applies each one |
 | **[For addon developers](developers.md)** | make another addon's creatures fight as this addon's Zoans |

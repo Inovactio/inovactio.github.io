@@ -1,6 +1,6 @@
 # All abilities
 
-Every ability of the 92 fruits in one table: **click a column** to sort it, **type in the box** to keep only the rows that match. Values are those of the ability's tooltip in game; an ability with several modes shows each mode's value, separated by `/`. Hidden abilities are left out.
+Every ability of the 100 fruits in one table: **click a column** to sort it, **type in the box** to keep only the rows that match. Values are those of the ability's tooltip in game; an ability with several modes shows each mode's value, separated by `/`. Hidden abilities are left out.
 
 <input class="table-filter" type="search" placeholder="Filter by ability, fruit or type" aria-label="Filter the abilities">
 
@@ -66,6 +66,7 @@ Every ability of the 92 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/bisu-wall.png){ .ability-mini }[Biscuit Wall](fruits/bisu-bisu-no-mi.md#bisu-wall) | [Bisu Bisu no Mi](fruits/bisu-bisu-no-mi.md) | Active | 20 s | 0 s | 10 s |  |  |
 | ![](abilities/bisu-armour.png){ .ability-mini }[Biscuit Armour](fruits/bisu-bisu-no-mi.md#bisu-armour) | [Bisu Bisu no Mi](fruits/bisu-bisu-no-mi.md) | Active | 20–60 s | 1 s |  |  |  |
 | ![](abilities/bisu-pretzel.png){ .ability-mini }[Double Roll Pretzel](fruits/bisu-bisu-no-mi.md#bisu-pretzel) | [Bisu Bisu no Mi](fruits/bisu-bisu-no-mi.md) | Active | 12 s |  |  | 18 |  |
+| ![](abilities/bisu-honey-pretzel.png){ .ability-mini }[Honey Pretzel](fruits/bisu-bisu-no-mi.md#bisu-honey-pretzel) | [Bisu Bisu no Mi](fruits/bisu-bisu-no-mi.md) | Active | 12 s / 20 s |  |  | 16 / 22 |  |
 | ![](abilities/bisu-crush-biscuit.png){ .ability-mini }[Crush Biscuit](fruits/bisu-bisu-no-mi.md#bisu-crush-biscuit) | [Bisu Bisu no Mi](fruits/bisu-bisu-no-mi.md) | Active | 12 s |  | 60 s |  |  |
 | ![](abilities/bisu-crumb-burst.png){ .ability-mini }[Crumb Burst](fruits/bisu-bisu-no-mi.md#bisu-crumb-burst) | [Bisu Bisu no Mi](fruits/bisu-bisu-no-mi.md) | Active | 12 s |  |  | 12 | 6 blocks (cone) |
 | ![](abilities/bisu-biscuit-rations.png){ .ability-mini }[Biscuit Rations](fruits/bisu-bisu-no-mi.md#bisu-biscuit-rations) | [Bisu Bisu no Mi](fruits/bisu-bisu-no-mi.md) | Active | 30 s |  |  |  |  |
@@ -232,6 +233,16 @@ Every ability of the 92 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/hoya-shield.png){ .ability-mini }[Genie Shield](fruits/hoya-hoya-no-mi.md#hoya-shield) | [Hoya Hoya no Mi](fruits/hoya-hoya-no-mi.md) | Active | 15 s |  | 4 s |  |  |
 | ![](abilities/hoya-smoke.png){ .ability-mini }[Smoke](fruits/hoya-hoya-no-mi.md#hoya-smoke) | [Hoya Hoya no Mi](fruits/hoya-hoya-no-mi.md) | Active | 15 s |  | 3 s |  |  |
 | ![](abilities/hoya-great-genie.png){ .ability-mini }[Great Genie](fruits/hoya-hoya-no-mi.md#hoya-great-genie) | [Hoya Hoya no Mi](fruits/hoya-hoya-no-mi.md) | Active | 45 s |  | 15 s |  |  |
+| ![](abilities/bake-danuki-heavy-point.png){ .ability-mini }[Bake-danuki Heavy Point](fruits/inu-inu-no-mi-model-bakedanuki.md#bake-danuki-heavy-point) | [Inu Inu no Mi, Model: Bake-danuki](fruits/inu-inu-no-mi-model-bakedanuki.md) | Active · Transformation |  |  |  |  |  |
+| ![](abilities/bake-danuki-walk-point.png){ .ability-mini }[Bake-danuki Walk Point](fruits/inu-inu-no-mi-model-bakedanuki.md#bake-danuki-walk-point) | [Inu Inu no Mi, Model: Bake-danuki](fruits/inu-inu-no-mi-model-bakedanuki.md) | Active · Transformation |  |  |  |  |  |
+| ![](abilities/item-leaf.png){ .ability-mini }[Konoha Henge](fruits/inu-inu-no-mi-model-bakedanuki.md#item-leaf) | [Inu Inu no Mi, Model: Bake-danuki](fruits/inu-inu-no-mi-model-bakedanuki.md) | Active | 30 s | 1 s |  |  |  |
+| ![](abilities/clone-leaf.png){ .ability-mini }[Bunshin no Ha](fruits/inu-inu-no-mi-model-bakedanuki.md#clone-leaf) | [Inu Inu no Mi, Model: Bake-danuki](fruits/inu-inu-no-mi-model-bakedanuki.md) | Active | 60 s | 1 s |  |  |  |
+| ![](abilities/attack-leaf.png){ .ability-mini }[Utsushi no Ha](fruits/inu-inu-no-mi-model-bakedanuki.md#attack-leaf) | [Inu Inu no Mi, Model: Bake-danuki](fruits/inu-inu-no-mi-model-bakedanuki.md) | Active | 40 s | 1 s |  |  |  |
+| ![](abilities/bake-disguise.png){ .ability-mini }[Bake no Ha](fruits/inu-inu-no-mi-model-bakedanuki.md#bake-disguise) | [Inu Inu no Mi, Model: Bake-danuki](fruits/inu-inu-no-mi-model-bakedanuki.md) | Active | 45 s |  | 60 s |  |  |
+| ![](abilities/darkness-leaf.png){ .ability-mini }[Yami no Ha](fruits/inu-inu-no-mi-model-bakedanuki.md#darkness-leaf) | [Inu Inu no Mi, Model: Bake-danuki](fruits/inu-inu-no-mi-model-bakedanuki.md) | Active | 35 s | 1 s | 10 s |  | 6 blocks (area) |
+| ![](abilities/henge.png){ .ability-mini }[Henge](fruits/inu-inu-no-mi-model-bakedanuki.md#henge) | [Inu Inu no Mi, Model: Bake-danuki](fruits/inu-inu-no-mi-model-bakedanuki.md) | Active | 25 s |  | 10 s | 20 | 8–1.5 blocks (line) |
+| ![](abilities/medicine-leaf.png){ .ability-mini }[Kusuri no Ha](fruits/inu-inu-no-mi-model-bakedanuki.md#medicine-leaf) | [Inu Inu no Mi, Model: Bake-danuki](fruits/inu-inu-no-mi-model-bakedanuki.md) | Active | 30 s | 1 s | 4 s |  |  |
+| ![](abilities/hyakki-yako.png){ .ability-mini }[Hyakki Yako](fruits/inu-inu-no-mi-model-bakedanuki.md#hyakki-yako) | [Inu Inu no Mi, Model: Bake-danuki](fruits/inu-inu-no-mi-model-bakedanuki.md) | Active | 90 s | 1 s |  | 30 | 5 blocks (area) |
 | ![](abilities/dachshund-heavy-point.png){ .ability-mini }[Dachshund Heavy Point](fruits/inu-inu-no-mi-model-dachshund.md#dachshund-heavy-point) | [Inu Inu no Mi, Model: Dachshund](fruits/inu-inu-no-mi-model-dachshund.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/dachshund-walk-point.png){ .ability-mini }[Dachshund Walk Point](fruits/inu-inu-no-mi-model-dachshund.md#dachshund-walk-point) | [Inu Inu no Mi, Model: Dachshund](fruits/inu-inu-no-mi-model-dachshund.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/badger-hunt.png){ .ability-mini }[Badger Hunt](fruits/inu-inu-no-mi-model-dachshund.md#badger-hunt) | [Inu Inu no Mi, Model: Dachshund](fruits/inu-inu-no-mi-model-dachshund.md) | Active | 12 s |  |  | 10 |  |
@@ -296,6 +307,10 @@ Every ability of the 92 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/tekkai-kenpo-roga-no-kamae.png){ .ability-mini }[Tekkai Kenpo: Roga no Kamae](fruits/inu-inu-no-mi-model-wolf.md#tekkai-kenpo-roga-no-kamae) | [Inu Inu no Mi, Model: Wolf](fruits/inu-inu-no-mi-model-wolf.md) | Active |  |  | 15 s |  |  |
 | ![](abilities/tekkai-kenpo.png){ .ability-mini }[Tekkai Kenpo: Don Poro](fruits/inu-inu-no-mi-model-wolf.md#tekkai-kenpo) | [Inu Inu no Mi, Model: Wolf](fruits/inu-inu-no-mi-model-wolf.md) | Active | 8 s |  |  | 10 |  |
 | ![](abilities/rokaru-area-network.png){ .ability-mini }[Rokaru Area Network](fruits/inu-inu-no-mi-model-wolf.md#rokaru-area-network) | [Inu Inu no Mi, Model: Wolf](fruits/inu-inu-no-mi-model-wolf.md) | Active | 10 s |  |  | 12 |  |
+| ![](abilities/camouflapaint.png){ .ability-mini }[Camouflapaint](fruits/iro-iro-no-mi.md#camouflapaint) | [Iro Iro no Mi](fruits/iro-iro-no-mi.md) | Active | 40 s |  | 20 s |  | 6 blocks (area) |
+| ![](abilities/copy-paint.png){ .ability-mini }[Copy Paint](fruits/iro-iro-no-mi.md#copy-paint) | [Iro Iro no Mi](fruits/iro-iro-no-mi.md) | Active | 45 s |  | 60 s |  |  |
+| ![](abilities/migawari-nuri.png){ .ability-mini }[Migawari Nuri](fruits/iro-iro-no-mi.md#migawari-nuri) | [Iro Iro no Mi](fruits/iro-iro-no-mi.md) | Active | 30 s |  |  |  | 12 blocks (area) |
+| ![](abilities/hade-iro.png){ .ability-mini }[Hade Iro](fruits/iro-iro-no-mi.md#hade-iro) | [Iro Iro no Mi](fruits/iro-iro-no-mi.md) | Active | 15 s / 30 s |  |  |  | 16 blocks (line) |
 | ![](abilities/ishi-stone.png){ .ability-mini }[Stone Mass](fruits/ishi-ishi-no-mi.md#ishi-stone) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Passive |  |  |  |  |  |
 | ![](abilities/ishi-travel.png){ .ability-mini }[Stone Assimilation](fruits/ishi-ishi-no-mi.md#ishi-travel) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Passive |  |  |  |  |  |
 | ![](abilities/pulpostone.png){ .ability-mini }[Pulpostone](fruits/ishi-ishi-no-mi.md#pulpostone) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active | 10 s |  | 3 s | 8 | 16 blocks (line) |
@@ -305,6 +320,9 @@ Every ability of the 92 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/ishi-kobushi.png){ .ability-mini }[Ishi Kobushi](fruits/ishi-ishi-no-mi.md#ishi-kobushi) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active | 3 s |  |  | 6 | 20 blocks (line) |
 | ![](abilities/ishi-ude.png){ .ability-mini }[Ishi Ude](fruits/ishi-ishi-no-mi.md#ishi-ude) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active | 10 s | 0 s |  | 12 | 8 blocks (line) |
 | ![](abilities/ishi-giant.png){ .ability-mini }[Stone Giant](fruits/ishi-ishi-no-mi.md#ishi-giant) | [Ishi Ishi no Mi](fruits/ishi-ishi-no-mi.md) | Active · Transformation |  | 1 s |  |  |  |
+| ![](abilities/jake-possession.png){ .ability-mini }[Possession](fruits/jake-jake-no-mi.md#jake-possession) | [Jake Jake no Mi](fruits/jake-jake-no-mi.md) | Active | 40 s |  |  |  | 8 blocks (area) |
+| ![](abilities/jake-ninin-baori.png){ .ability-mini }[Jake Jake Ninin-baori](fruits/jake-jake-no-mi.md#jake-ninin-baori) | [Jake Jake no Mi](fruits/jake-jake-no-mi.md) | Active | 60 s |  |  |  | 4 blocks (area) |
+| ![](abilities/jake-rarara-ranbo.png){ .ability-mini }[Rarara Ranbo](fruits/jake-jake-no-mi.md#jake-rarara-ranbo) | [Jake Jake no Mi](fruits/jake-jake-no-mi.md) | Active | 5 s |  |  | 2 |  |
 | ![](abilities/decaying-touch.png){ .ability-mini }[Decaying Touch](fruits/juku-juku-no-mi.md#decaying-touch) | [Juku Juku no Mi](fruits/juku-juku-no-mi.md) | Active | 6 s |  |  |  | 5 blocks (line) |
 | ![](abilities/sinkhole.png){ .ability-mini }[Sinkhole](fruits/juku-juku-no-mi.md#sinkhole) | [Juku Juku no Mi](fruits/juku-juku-no-mi.md) | Active | 15 s |  |  |  | 8 blocks (line) |
 | ![](abilities/kare-san-sui.png){ .ability-mini }[Kare-San-Sui](fruits/juku-juku-no-mi.md#kare-san-sui) | [Juku Juku no Mi](fruits/juku-juku-no-mi.md) | Active | 20 s |  |  | 2–40 | 16 blocks (line) |
@@ -339,13 +357,12 @@ Every ability of the 92 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/rosamygale-heavy-point.png){ .ability-mini }[Rosamygale Heavy Point](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#rosamygale-heavy-point) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/rosamygale-walk-point.png){ .ability-mini }[Rosamygale Walk Point](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#rosamygale-walk-point) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/wall-walker.png){ .ability-mini }[Wall Walker](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#wall-walker) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Passive |  |  |  |  |  |
-| ![](abilities/hard-gum.png){ .ability-mini }[Hard Gum](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#hard-gum) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active | 12 s |  |  |  | 12 blocks (line) |
+| ![](abilities/web-trap.png){ .ability-mini }[Hard Gum](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#hard-gum) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active | 8 s / 12 s |  |  |  | / 12 blocks (line) |
 | ![](abilities/marianette.png){ .ability-mini }[Marianette](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#marianette) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active | 14 s |  | 4 s |  | 14 blocks (line) |
-| ![](abilities/oshizumaria.png){ .ability-mini }[Oshizumaria](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#oshizumaria) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active | 15 s |  |  |  |  |
 | ![](abilities/ikidomaria.png){ .ability-mini }[Ikidomaria](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#ikidomaria) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active | 15 s |  |  |  |  |
-| ![](abilities/web-trap.png){ .ability-mini }[Web Trap](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#web-trap) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active | 8 s |  |  |  |  |
 | ![](abilities/cocoon.png){ .ability-mini }[Cocoon](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#cocoon) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active | 16 s |  |  |  | 6 blocks (area) |
-| ![](abilities/venom-bite.png){ .ability-mini }[Venom Bite](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#venom-bite) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active | 10 s |  |  | 18 | 2.5 blocks (line) |
+| ![](abilities/venom-bite.png){ .ability-mini }[Venom Bite](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#venom-bite) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active | 10 s |  |  | 22 | 2.5 blocks (line) |
+| ![](abilities/venom-legs.png){ .ability-mini }[Venom Legs](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#venom-legs) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active | 12 s |  |  | 22 | 3 blocks (line) |
 | ![](abilities/thread-pull.png){ .ability-mini }[Thread Pull](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md#thread-pull) | [Kumo Kumo no Mi, Model: Rosamygale Grauvogeli](fruits/kumo-kumo-no-mi-model-rosamygale-grauvogeli.md) | Active | 7 s |  |  |  | 20 blocks (line) |
 | ![](abilities/cream-ball.png){ .ability-mini }[Cream Ball](fruits/kuri-kuri-no-mi.md#cream-ball) | [Kuri Kuri no Mi](fruits/kuri-kuri-no-mi.md) | Active | 5 s |  |  | 6 |  |
 | ![](abilities/cream-grab.png){ .ability-mini }[Cream Grab](fruits/kuri-kuri-no-mi.md#cream-grab) | [Kuri Kuri no Mi](fruits/kuri-kuri-no-mi.md) | Active | 10 s |  |  | 5 | 10 blocks (line) |
@@ -370,6 +387,11 @@ Every ability of the 92 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/bunshin-no-jutsu.png){ .ability-mini }[Bunshin no Jutsu](fruits/maki-maki-no-mi.md#bunshin-no-jutsu) | [Maki Maki no Mi](fruits/maki-maki-no-mi.md) | Active | 30 s |  | 15 s |  |  |
 | ![](abilities/face-touch.png){ .ability-mini }[Face Touch](fruits/mane-mane-no-mi.md#face-touch) | [Mane Mane no Mi](fruits/mane-mane-no-mi.md) | Active | 2 s |  |  |  | 4 blocks (line) |
 | [Mane Mane Memory](fruits/mane-mane-no-mi.md#mane-mane-memory) | [Mane Mane no Mi](fruits/mane-mane-no-mi.md) | Active | 5 s |  | ∞ s |  |  |
+| ![](abilities/mato-tsuke.png){ .ability-mini }[Mato Tsuke](fruits/mato-mato-no-mi.md#mato-tsuke) | [Mato Mato no Mi](fruits/mato-mato-no-mi.md) | Active | 2 s |  |  |  | 3 blocks (line) |
+| ![](abilities/mato-nage.png){ .ability-mini }[Mato Nage](fruits/mato-mato-no-mi.md#mato-nage) | [Mato Mato no Mi](fruits/mato-mato-no-mi.md) | Active | 25 s |  | 20 s |  | 64 blocks (line) |
+| ![](abilities/mato-nikudan.png){ .ability-mini }[Nikudan](fruits/mato-mato-no-mi.md#mato-nikudan) | [Mato Mato no Mi](fruits/mato-mato-no-mi.md) | Active | 15 s |  |  | 6 | 64 blocks (line) |
+| ![](abilities/mato-tobi-nori.png){ .ability-mini }[Tobi Nori](fruits/mato-mato-no-mi.md#mato-tobi-nori) | [Mato Mato no Mi](fruits/mato-mato-no-mi.md) | Active | 30 s |  | 8 s |  | 150 blocks (line) |
+| ![](abilities/mato-hakobune.png){ .ability-mini }[Hakobune](fruits/mato-mato-no-mi.md#mato-hakobune) | [Mato Mato no Mi](fruits/mato-mato-no-mi.md) | Active | 90 s | 2 s |  | 20 | 64 blocks (line) |
 | ![](abilities/memo-flashback.png){ .ability-mini }[Memories Fil Flashback](fruits/memo-memo-no-mi.md#memo-flashback) | [Memo Memo no Mi](fruits/memo-memo-no-mi.md) | Active | 14 s |  |  |  | 8 blocks (line) |
 | ![](abilities/memo-cut.png){ .ability-mini }[Cut](fruits/memo-memo-no-mi.md#memo-cut) | [Memo Memo no Mi](fruits/memo-memo-no-mi.md) | Active | 15 s |  |  |  | 5 blocks (line) |
 | ![](abilities/memo-paste.png){ .ability-mini }[Paste](fruits/memo-memo-no-mi.md#memo-paste) | [Memo Memo no Mi](fruits/memo-memo-no-mi.md) | Active | 30 s |  |  |  | 5 blocks (line) |
@@ -493,6 +515,12 @@ Every ability of the 92 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/run-hypha.png){ .ability-mini }[Run Hypha](fruits/noko-noko-no-mi.md#run-hypha) | [Noko Noko no Mi](fruits/noko-noko-no-mi.md) | Active | 16 s |  | 6 s |  | 16 blocks (line) |
 | ![](abilities/snow-spore.png){ .ability-mini }[Snow Spore](fruits/noko-noko-no-mi.md#snow-spore) | [Noko Noko no Mi](fruits/noko-noko-no-mi.md) | Active | 25 s |  |  |  | 6 blocks (area) |
 | ![](abilities/fatal-bomb.png){ .ability-mini }[Fatal Bomb](fruits/noko-noko-no-mi.md#fatal-bomb) | [Noko Noko no Mi](fruits/noko-noko-no-mi.md) | Active | 180 s |  |  | 10 | 14 blocks (area) |
+| ![](abilities/nomi-knowledge.png){ .ability-mini }[Knowledge](fruits/nomi-nomi-no-mi.md#nomi-knowledge) | [Nomi Nomi no Mi](fruits/nomi-nomi-no-mi.md) | Passive |  |  |  |  |  |
+| ![](abilities/nomi-perfect-memory.png){ .ability-mini }[Perfect Memory](fruits/nomi-nomi-no-mi.md#nomi-perfect-memory) | [Nomi Nomi no Mi](fruits/nomi-nomi-no-mi.md) | Passive |  |  |  |  |  |
+| ![](abilities/nomi-analysis.png){ .ability-mini }[Analysis](fruits/nomi-nomi-no-mi.md#nomi-analysis) | [Nomi Nomi no Mi](fruits/nomi-nomi-no-mi.md) | Active | 3 s | 0 s |  |  |  |
+| ![](abilities/nomi-syringe.png){ .ability-mini }[Syringe](fruits/nomi-nomi-no-mi.md#nomi-syringe) | [Nomi Nomi no Mi](fruits/nomi-nomi-no-mi.md) | Active | 10 s | 0 s |  |  | 3 blocks (line) |
+| ![](abilities/nomi-smile-making.png){ .ability-mini }[SMILE Making](fruits/nomi-nomi-no-mi.md#nomi-smile-making) | [Nomi Nomi no Mi](fruits/nomi-nomi-no-mi.md) | Active | 120 s | 3 s |  |  |  |
+| ![](abilities/nomi-infusion.png){ .ability-mini }[Infusion](fruits/nomi-nomi-no-mi.md#nomi-infusion) | [Nomi Nomi no Mi](fruits/nomi-nomi-no-mi.md) | Active | 120 s | 3 s |  |  |  |
 | ![](abilities/nuitsuke.png){ .ability-mini }[Nuitsuke](fruits/nui-nui-no-mi.md#nuitsuke) | [Nui Nui no Mi](fruits/nui-nui-no-mi.md) | Active | 10 s | under 1 s | 6 s |  |  |
 | ![](abilities/nuiawase.png){ .ability-mini }[Nuiawase](fruits/nui-nui-no-mi.md#nuiawase) | [Nui Nui no Mi](fruits/nui-nui-no-mi.md) | Active | 12 s | under 1 s | 6 s |  |  |
 | ![](abilities/haute-couture-patchwork.png){ .ability-mini }[Haute Couture: Patchwork](fruits/nui-nui-no-mi.md#haute-couture-patchwork) | [Nui Nui no Mi](fruits/nui-nui-no-mi.md) | Active | 18 s | under 1 s |  | 4–20 | 8 blocks (area) |
@@ -682,6 +710,15 @@ Every ability of the 92 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/liquid-sphere.png){ .ability-mini }[Liquid Sphere](fruits/toro-toro-no-mi.md#liquid-sphere) | [Toro Toro no Mi](fruits/toro-toro-no-mi.md) | Active | 18 s |  | 4.4 s | 14 | 12 blocks (line) |
 | ![](abilities/geyser.png){ .ability-mini }[Geyser](fruits/toro-toro-no-mi.md#geyser) | [Toro Toro no Mi](fruits/toro-toro-no-mi.md) | Active | 12 s |  |  | 16 | 2.5 blocks (area) |
 | ![](abilities/slick.png){ .ability-mini }[Slick](fruits/toro-toro-no-mi.md#slick) | [Toro Toro no Mi](fruits/toro-toro-no-mi.md) | Active | 20 s |  | 10 s |  |  |
+| ![](abilities/toshi-conviction.png){ .ability-mini }[Conviction](fruits/toshi-toshi-no-mi.md#toshi-conviction) | [Toshi Toshi no Mi](fruits/toshi-toshi-no-mi.md) | Passive |  |  |  |  |  |
+| ![](abilities/distortion-future.png){ .ability-mini }[Distortion Future](fruits/toshi-toshi-no-mi.md#distortion-future) | [Toshi Toshi no Mi](fruits/toshi-toshi-no-mi.md) | Active · Transformation | 10 s / 60 s |  |  |  |  |
+| ![](abilities/nika-mitaina-mirai.png){ .ability-mini }[Distortion Future: Nika Mitaina Mirai](fruits/toshi-toshi-no-mi.md#nika-mitaina-mirai) | [Toshi Toshi no Mi](fruits/toshi-toshi-no-mi.md) | Active · Transformation | 10 s |  |  |  |  |
+| ![](abilities/tokudai-nika-no-punch.png){ .ability-mini }[Tokudai!! "Nika no Punch"](fruits/toshi-toshi-no-mi.md#tokudai-nika-no-punch) | [Toshi Toshi no Mi](fruits/toshi-toshi-no-mi.md) | Active | 12 s | 0 s |  | 39 | 10 blocks (line) |
+| ![](abilities/atashi-ga-ichiban-jiyuna-mirai.png){ .ability-mini }[Atashi Ga Ichiban Jiyuna Mirai](fruits/toshi-toshi-no-mi.md#atashi-ga-ichiban-jiyuna-mirai) | [Toshi Toshi no Mi](fruits/toshi-toshi-no-mi.md) | Active · Transformation | 300 s |  |  |  |  |
+| ![](abilities/toshi-tsuki.png){ .ability-mini }[Toshi Tsuki](fruits/toshi-toshi-no-mi.md#toshi-tsuki) | [Toshi Toshi no Mi](fruits/toshi-toshi-no-mi.md) | Active | 10 s | 0 s |  |  | 4 blocks (line) |
+| ![](abilities/oil-shock.png){ .ability-mini }[Oil Shock](fruits/toshi-toshi-no-mi.md#oil-shock) | [Toshi Toshi no Mi](fruits/toshi-toshi-no-mi.md) | Active | 7 s | 0 s |  |  | 5 blocks (line) |
+| ![](abilities/nde.png){ .ability-mini }[NDE](fruits/toshi-toshi-no-mi.md#nde) | [Toshi Toshi no Mi](fruits/toshi-toshi-no-mi.md) | Active | 14 s | 0 s |  |  | 30 blocks (line) |
+| ![](abilities/child-self.png){ .ability-mini }[Child Self](fruits/toshi-toshi-no-mi.md#child-self) | [Toshi Toshi no Mi](fruits/toshi-toshi-no-mi.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/uma-heavy-point.png){ .ability-mini }[Uma Heavy Point](fruits/uma-uma-no-mi.md#uma-heavy-point) | [Uma Uma no Mi](fruits/uma-uma-no-mi.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/uma-walk-point.png){ .ability-mini }[Uma Walk Point](fruits/uma-uma-no-mi.md#uma-walk-point) | [Uma Uma no Mi](fruits/uma-uma-no-mi.md) | Active · Transformation |  |  |  |  |  |
 | ![](abilities/uma-rideable.png){ .ability-mini }[Uma Rideable](fruits/uma-uma-no-mi.md#uma-rideable) | [Uma Uma no Mi](fruits/uma-uma-no-mi.md) | Passive |  |  |  |  |  |
@@ -709,6 +746,14 @@ Every ability of the 92 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/seiryu-tatsumaki.png){ .ability-mini }[Tatsumaki](fruits/uo-uo-no-mi-model-seiryu.md#seiryu-tatsumaki) | [Uo Uo no Mi, Model: Seiryu](fruits/uo-uo-no-mi-model-seiryu.md) | Active | 25–30 s |  | 4–5 s | 40–48 | 25.5–60 blocks (area) |
 | ![](abilities/seiryu-storm.png){ .ability-mini }[Dragon Storm](fruits/uo-uo-no-mi-model-seiryu.md#seiryu-storm) | [Uo Uo no Mi, Model: Seiryu](fruits/uo-uo-no-mi-model-seiryu.md) | Active | 25 s |  |  | 32–48 | 48 blocks (area) |
 | ![](abilities/seiryu-kaen-daiko.png){ .ability-mini }[Kaen Daiko](fruits/uo-uo-no-mi-model-seiryu.md#seiryu-kaen-daiko) | [Uo Uo no Mi, Model: Seiryu](fruits/uo-uo-no-mi-model-seiryu.md) | Active | 30 s |  | 20 s | 4–40 | 27.2 blocks (line) |
+| ![](abilities/alpaca-heavy-point.png){ .ability-mini }[Alpaca Heavy Point](fruits/ushi-ushi-no-mi-model-alpaca.md#alpaca-heavy-point) | [Ushi Ushi no Mi, Model: Alpaca](fruits/ushi-ushi-no-mi-model-alpaca.md) | Active · Transformation |  |  |  |  |  |
+| ![](abilities/alpaca-walk-point.png){ .ability-mini }[Alpaca Walk Point](fruits/ushi-ushi-no-mi-model-alpaca.md#alpaca-walk-point) | [Ushi Ushi no Mi, Model: Alpaca](fruits/ushi-ushi-no-mi-model-alpaca.md) | Active · Transformation |  |  |  |  |  |
+| ![](abilities/alpaca-spit.png){ .ability-mini }[Alpaca Spit](fruits/ushi-ushi-no-mi-model-alpaca.md#alpaca-spit) | [Ushi Ushi no Mi, Model: Alpaca](fruits/ushi-ushi-no-mi-model-alpaca.md) | Active | 8 s / 10 s | 0.3 s |  | 5 / 3 |  |
+| ![](abilities/woolly-kick.png){ .ability-mini }[Woolly Kick](fruits/ushi-ushi-no-mi-model-alpaca.md#woolly-kick) | [Ushi Ushi no Mi, Model: Alpaca](fruits/ushi-ushi-no-mi-model-alpaca.md) | Active | 10 s |  |  | 14 |  |
+| ![](abilities/neck-ram.png){ .ability-mini }[Neck Ram](fruits/ushi-ushi-no-mi-model-alpaca.md#neck-ram) | [Ushi Ushi no Mi, Model: Alpaca](fruits/ushi-ushi-no-mi-model-alpaca.md) | Active | 10 s |  |  | 10 |  |
+| ![](abilities/guard-stomp.png){ .ability-mini }[Guard Stomp](fruits/ushi-ushi-no-mi-model-alpaca.md#guard-stomp) | [Ushi Ushi no Mi, Model: Alpaca](fruits/ushi-ushi-no-mi-model-alpaca.md) | Active | 12 s |  |  | 12 / 10 | 3 blocks (area) |
+| ![](abilities/spit-volley.png){ .ability-mini }[Spit Volley](fruits/ushi-ushi-no-mi-model-alpaca.md#spit-volley) | [Ushi Ushi no Mi, Model: Alpaca](fruits/ushi-ushi-no-mi-model-alpaca.md) | Active | 30 s | 1 s |  | 25 |  |
+| ![](abilities/thick-wool.png){ .ability-mini }[Thick Wool](fruits/ushi-ushi-no-mi-model-alpaca.md#thick-wool) | [Ushi Ushi no Mi, Model: Alpaca](fruits/ushi-ushi-no-mi-model-alpaca.md) | Passive |  |  |  |  |  |
 | ![](abilities/uta-song.png){ .ability-mini }[Song](fruits/uta-uta-no-mi.md#uta-song) | [Uta Uta no Mi](fruits/uta-uta-no-mi.md) | Active | 30–120 s | 3 s |  |  | 16 blocks (area) |
 | ![](abilities/note-soldiers.png){ .ability-mini }[Musical Note Soldiers](fruits/uta-uta-no-mi.md#note-soldiers) | [Uta Uta no Mi](fruits/uta-uta-no-mi.md) | Active | 30 s |  |  | 7 |  |
 | ![](abilities/uta-staff.png){ .ability-mini }[Staff](fruits/uta-uta-no-mi.md#uta-staff) | [Uta Uta no Mi](fruits/uta-uta-no-mi.md) | Active | 16 s | 0 s | 4 s | 6 | 14 blocks (line) |
@@ -726,5 +771,9 @@ Every ability of the 92 fruits in one table: **click a column** to sort it, **ty
 | ![](abilities/wapu-reflex-warp.png){ .ability-mini }[Reflex Warp](fruits/wapu-wapu-no-mi.md#wapu-reflex-warp) | [Wapu Wapu no Mi](fruits/wapu-wapu-no-mi.md) | Active | 20 s | 0 s | 5 s |  |  |
 | ![](abilities/wapu-behind-the-back.png){ .ability-mini }[Behind the Back](fruits/wapu-wapu-no-mi.md#wapu-behind-the-back) | [Wapu Wapu no Mi](fruits/wapu-wapu-no-mi.md) | Active | 10 s |  |  |  | 24 blocks (line) |
 | ![](abilities/wapu-scatter.png){ .ability-mini }[Scatter](fruits/wapu-wapu-no-mi.md#wapu-scatter) | [Wapu Wapu no Mi](fruits/wapu-wapu-no-mi.md) | Active | 20 s | 0 s |  |  | 6 blocks (area) |
+| ![](abilities/woshu-sentaku.png){ .ability-mini }[Sentaku](fruits/woshu-woshu-no-mi.md#woshu-sentaku) | [Woshu Woshu no Mi](fruits/woshu-woshu-no-mi.md) | Active | 18 s |  | 2 s |  | 3 blocks (line) |
+| ![](abilities/woshu-tenpiboshi.png){ .ability-mini }[Tenpiboshi](fruits/woshu-woshu-no-mi.md#woshu-tenpiboshi) | [Woshu Woshu no Mi](fruits/woshu-woshu-no-mi.md) | Active | 20 s | 0.25 s | 6 s / 3 s |  | 6 blocks (line) |
+| ![](abilities/woshu-zokin-shibori.png){ .ability-mini }[Zokin Shibori](fruits/woshu-woshu-no-mi.md#woshu-zokin-shibori) | [Woshu Woshu no Mi](fruits/woshu-woshu-no-mi.md) | Active | 12 s | 0 s |  | 6 | 3 blocks (line) |
+| ![](abilities/woshu-senshin.png){ .ability-mini }[Senshin](fruits/woshu-woshu-no-mi.md#woshu-senshin) | [Woshu Woshu no Mi](fruits/woshu-woshu-no-mi.md) | Active | 30 s | 0 s |  |  | 6 blocks (line) |
 
 </div>

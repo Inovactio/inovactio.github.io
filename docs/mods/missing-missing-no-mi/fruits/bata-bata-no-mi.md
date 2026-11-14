@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Butter |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
-| **Chance per opening** | wooden **1.65%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | wooden **1.53%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 6: 6 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/butter-cuffs.png){ .effect-mini }[Butter Cuffs](../effects.md#effect-butter-cuffs), ![](../effect-icons/butter-wrap.png){ .effect-mini }[Butter Wrap](../effects.md#effect-butter-wrap) |
 

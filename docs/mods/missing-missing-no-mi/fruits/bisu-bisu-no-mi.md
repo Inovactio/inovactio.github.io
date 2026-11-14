@@ -7,8 +7,8 @@
 | **Type** | Paramecia |
 | **Theme** | Biscuit |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.37%**, wooden **0.069%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 8: 8 active, 0 passive |
+| **Chance per opening** | iron **1.35%**, wooden **0.068%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 9: 9 active, 0 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -66,7 +66,7 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 ![Biscuit Hei](../objects/bisu-hei.png){ .form-picture }
 
-The user makes 3 biscuit soldiers that follow them and attack their enemies. A broken soldier comes back after 10 seconds as long as the ability is active, and each one that comes back makes the user a little hungry.
+The user makes biscuit soldiers that follow them and attack their enemies, and take the orders of the Command ability. A broken soldier comes back after a while as long as the ability is active, and each one that comes back makes the user a little hungry.
 
 In water or rain the biscuit gets soft. A soft soldier takes double damage and anyone can eat it.
 
@@ -75,6 +75,10 @@ In water or rain the biscuit gets soft. A soft soldier takes double damage and a
 | Charge | 1 s |
 | Cooldown | 30 s |
 | Hold | ∞ s |
+| Soldiers | 3 |
+| Soldier Comes Back After | 10 s |
+| Soldier Health | 80 |
+| Soldier Damage | 10 |
 
 ## Hard Biscuit { #bisu-hard-biscuit }
 
@@ -91,6 +95,8 @@ A pile of hardened biscuit shields falls on the enemy the user looks at. It hurt
 | Cooldown | 15 s |
 | Damage | 14 |
 | Range | 16 blocks (line) |
+| Pinned For | 3 s |
+| Pinned For, a Player | 2 s |
 
 ## Biscuit Wall { #bisu-wall }
 
@@ -122,7 +128,7 @@ In water or rain the armour gets soft and breaks twice as fast.
 |---|---|
 | Charge | 1 s |
 | Cooldown | 20–60 s |
-| Armour Toughness | 80 |
+| Armour Toughness | 120 |
 | Damage per Extra Pair of Arms | +4 |
 
 ## Double Roll Pretzel { #bisu-pretzel }
@@ -137,6 +143,22 @@ Inside the biscuit armour the user dashes forward with two spinning swords, hitt
 | Haki | Hardening |
 | Cooldown | 12 s |
 | Damage | 18 |
+
+## Honey Pretzel { #bisu-honey-pretzel }
+
+![](../abilities/bisu-honey-pretzel.png){ .ability-icon } *Active*
+
+The user leaps at the enemy and thrusts the sword they hold. The blow sends a shock wave that hits every enemy around
+
+![](../abilities/bisu-crash-pretzel.png){ .effect-mini }With the **Alt key** it is **Crash Pretzel**: the same thrust, stronger, and the point of the sword explodes when it strikes. It does not break blocks
+
+| Stat | Honey Pretzel | Crash Pretzel |
+|---|---|---|
+| Damage type | Slash, Physical | Slash, Physical |
+| Haki | Imbuing | Imbuing |
+| Cooldown | 12 s | 20 s |
+| Damage | 16 | 22 |
+| Shock Wave Radius | 2.5 blocks | 2.5 blocks |
 
 ## Crush Biscuit { #bisu-crush-biscuit }
 
