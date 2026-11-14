@@ -11084,6 +11084,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -11315,6 +11321,90 @@
     
   
     Devil Fruits on NPCs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../smiles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SMILEs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../races-by-datapack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Races by data pack
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prisons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prisons
   
 
     
@@ -12593,6 +12683,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -12861,6 +12955,62 @@
     
   
     Torn ground
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/npc-looks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NPC looks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/npc-armour/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NPC clothes
   
 
     
@@ -13227,6 +13377,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -13403,6 +13557,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../mending-zones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mending zones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spawn-posts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spawn posts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../jigsaw/" class="md-nav__link">
         
   
@@ -13482,7 +13692,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_11_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_11_10" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -13504,14 +13714,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_10_11_8" id="__nav_10_11_8_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_10_11_10" id="__nav_10_11_10_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_11_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10_11_8">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_11_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_11_10">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -14364,15 +14574,18 @@
 <p>From the server, for a while:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">EntityHighlights</span><span class="p">.</span><span class="na">mark</span><span class="p">(</span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">target</span><span class="p">,</span><span class="w"> </span><span class="mi">600</span><span class="p">);</span><span class="w">   </span><span class="c1">// 30 seconds, for the user only</span>
 </code></pre></div>
+<p><em>Since 6.7.0.</em> In a colour of your own, ARGB (an alpha of 0 is read as opaque, so <code>0xFF40BE</code> is pink); without one the outline keeps its usual colour, its team's or white. The last mark on an entity sets its colour:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">EntityHighlights</span><span class="p">.</span><span class="na">mark</span><span class="p">(</span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">target</span><span class="p">,</span><span class="w"> </span><span class="mi">600</span><span class="p">,</span><span class="w"> </span><span class="mh">0xFF40BE</span><span class="p">);</span><span class="w">   </span><span class="c1">// the same, in pink</span>
+</code></pre></div>
 <p>On the client, for whatever a vision sees right now: a provider asked every tick, registered once (a static block in a client class does):</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">ClientEntityHighlights</span><span class="p">.</span><span class="na">addProvider</span><span class="p">(</span><span class="n">player</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">visionIsOn</span><span class="p">(</span><span class="n">player</span><span class="p">)</span>
-<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">        </span><span class="o">?</span><span class="w"> </span><span class="n">player</span><span class="p">.</span><span class="na">level</span><span class="p">().</span><span class="na">getEntitiesOfClass</span><span class="p">(</span><span class="n">LivingEntity</span><span class="p">.</span><span class="na">class</span><span class="p">,</span><span class="w"> </span><span class="n">player</span><span class="p">.</span><span class="na">getBoundingBox</span><span class="p">().</span><span class="na">inflate</span><span class="p">(</span><span class="mi">40</span><span class="p">),</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">player</span><span class="p">)</span>
-<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">        </span><span class="p">:</span><span class="w"> </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">());</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">ClientEntityHighlights</span><span class="p">.</span><span class="na">addProvider</span><span class="p">(</span><span class="n">player</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">visionIsOn</span><span class="p">(</span><span class="n">player</span><span class="p">)</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">        </span><span class="o">?</span><span class="w"> </span><span class="n">player</span><span class="p">.</span><span class="na">level</span><span class="p">().</span><span class="na">getEntitiesOfClass</span><span class="p">(</span><span class="n">LivingEntity</span><span class="p">.</span><span class="na">class</span><span class="p">,</span><span class="w"> </span><span class="n">player</span><span class="p">.</span><span class="na">getBoundingBox</span><span class="p">().</span><span class="na">inflate</span><span class="p">(</span><span class="mi">40</span><span class="p">),</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">player</span><span class="p">)</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">        </span><span class="p">:</span><span class="w"> </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">());</span>
 </code></pre></div>
 <p>Marks and providers add up; only what AkumaLib lit is ever put out. It is vanilla's outline, set on this client's copy of the entity every tick through <code>Entity#setSharedFlag</code> (glowing is flag 6) - <code>setGlowingTag</code> does nothing on a client.</p>
 <div class="admonition warning">
 <p class="admonition-title">Both sides need 3.1.0</p>
-<p><code>mark</code> is a packet: the network protocol went to 5 with it.</p>
+<p><code>mark</code> is a packet: the network protocol went to 5 with it. A colour needs 6.7.0 on both sides: the protocol went to 19.</p>
 </div>
 <h2 id="counting-and-finding-blocks-of-a-kind">Counting and finding blocks of a kind<a class="headerlink" href="#counting-and-finding-blocks-of-a-kind" title="Permanent link">&para;</a></h2>
 <p>For a power that feeds on what is under its user (stone, gold, plants):</p>

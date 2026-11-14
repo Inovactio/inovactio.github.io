@@ -11084,6 +11084,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -11315,6 +11321,90 @@
     
   
     Devil Fruits on NPCs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../smiles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SMILEs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../races-by-datapack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Races by data pack
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prisons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prisons
   
 
     
@@ -12183,6 +12273,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#timemarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TimeMarks
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -12697,6 +12798,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -12965,6 +13070,62 @@
     
   
     Torn ground
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/npc-looks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NPC looks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/npc-armour/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NPC clothes
   
 
     
@@ -13331,6 +13492,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -13507,6 +13672,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../mending-zones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mending zones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spawn-posts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spawn posts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../jigsaw/" class="md-nav__link">
         
   
@@ -13586,7 +13807,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_11_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_11_10" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -13608,14 +13829,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_10_11_8" id="__nav_10_11_8_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_10_11_10" id="__nav_10_11_10_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_11_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10_11_8">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_11_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_11_10">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -14028,6 +14249,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#timemarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TimeMarks
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -14171,6 +14403,18 @@
 <p>Losing the fruit needs nothing: <code>Ability.onRemove</code> already stops the continuity.</p>
 <p><strong>Zero gravity.</strong> <code>NoGravity</code> is saved with the entity: a server stopped during a float left the player floating at the next login. Use <code>noGravity(entity)</code> / <code>endNoGravity(entity)</code> instead of <code>setNoGravity</code>, and a login lifts a marked one.</p>
 <p><strong>Soft landings.</strong> A "the next fall is free" flag lived until a fall used it, and landing in water used none: it cancelled some later, unrelated fall. <code>grantSoftLanding(entity, key)</code> opens a 20-second window; <code>useSoftLanding(entity, key)</code> in your <code>LivingFallEvent</code> spends it.</p>
+<h2 id="timemarks"><code>TimeMarks</code><a class="headerlink" href="#timemarks" title="Permanent link">&para;</a></h2>
+<p><em>Since 6.7.0.</em> The moments of a continuity or a cast, each passed once, even on a server under 20 TPS. The base mod moves their time by more than 1 a tick when the server lags, so <code>time == 5</code> can be stepped over (4.36 then 5.38); and on a tick of 100 ms or more it runs the tick event twice or more with the same time, so a counter bumped in it counts that tick twice.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">private</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">TimeMarks</span><span class="w"> </span><span class="n">marks</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">TimeMarks</span><span class="p">();</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="c1">// when it starts</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="k">this</span><span class="p">.</span><span class="na">marks</span><span class="p">.</span><span class="na">reset</span><span class="p">();</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="c1">// in its tick</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="k">this</span><span class="p">.</span><span class="na">marks</span><span class="p">.</span><span class="na">at</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">continuousComponent</span><span class="p">.</span><span class="na">getContinueTime</span><span class="p">());</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">marks</span><span class="p">.</span><span class="na">passed</span><span class="p">(</span><span class="n">STRIKE_AT</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">strike</span><span class="p">();</span><span class="w"> </span><span class="p">}</span><span class="w">          </span><span class="c1">// once</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">marks</span><span class="p">.</span><span class="na">passedEvery</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">sparks</span><span class="p">();</span><span class="w"> </span><span class="p">}</span><span class="w">             </span><span class="c1">// at 2, 4, 6...</span>
+</code></pre></div>
+<p>At 20 TPS a moment is passed at the same tick as <code>time == moment</code>: nothing changes for a server that keeps up.</p>
 
 
 

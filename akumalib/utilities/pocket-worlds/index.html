@@ -16,7 +16,7 @@
         <link rel="prev" href="../dimension-travel/">
       
       
-        <link rel="next" href="../jigsaw/">
+        <link rel="next" href="../mending-zones/">
       
       
         
@@ -11084,6 +11084,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -11315,6 +11321,90 @@
     
   
     Devil Fruits on NPCs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../smiles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SMILEs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../races-by-datapack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Races by data pack
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prisons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prisons
   
 
     
@@ -12593,6 +12683,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -12861,6 +12955,62 @@
     
   
     Torn ground
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/npc-looks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NPC looks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/npc-armour/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NPC clothes
   
 
     
@@ -13229,6 +13379,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -13485,6 +13639,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../mending-zones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mending zones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spawn-posts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spawn posts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../jigsaw/" class="md-nav__link">
         
   
@@ -13564,7 +13774,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_11_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_11_10" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -13586,14 +13796,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_10_11_8" id="__nav_10_11_8_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_10_11_10" id="__nav_10_11_10_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_11_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10_11_8">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_11_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_11_10">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -14134,11 +14344,13 @@
 <li><code>600</code> is the wait in ticks after a place last changed.</li>
 <li>The last argument says <strong>what stood there at first</strong>. A world laid by a pure function of the position needs no memory: ask your generator.</li>
 <li>A block does not come back onto somebody: that place waits until he has moved.</li>
+<li>A mob saved on the disk is not buried either. In a chunk kept loaded (forced, a player near) whose entities are not read yet, the place waits for them. A chunk only read for its blocks (no player, not forced) never reads its entities: its place is mended, and a mob read off the disk inside it later opens it again, as it was; the place then waits for him like any other.</li>
 <li>At most 4 000 places are mended in a pass; a great ability changes a hundred thousand, and they follow over the next ticks.</li>
 <li>The places still to mend are saved with the dimension, under the name you gave, and mended once their chunk is loaded again.</li>
 <li><code>WorldMending.waiting(level)</code> says how many places still wait.</li>
 </ul>
 <p>It hears every change through <a href="../blocks/#blockwrites"><code>BlockWrites</code></a>, and takes the dimension's watcher: a mended dimension cannot have another one.</p>
+<p>A dimension of several places that each live their own life - towers, arenas - is cut into <a href="../mending-zones/">zones</a>: each has its own clock and waits while a player is inside.</p>
 <div class="admonition info">
 <p class="admonition-title">Not <code>TemporaryBlocks</code>, not a protected area</p>
 <p><a href="../blocks/#temporaryblocks"><code>TemporaryBlocks</code></a> is the other way round: it remembers what an ability laid, and takes it away. The base mod's protected areas restore only the blocks its own abilities queue, and an area is a box in a world, not a world.</p>
@@ -14198,13 +14410,13 @@
         
         
           
-          <a href="../jigsaw/" class="md-footer__link md-footer__link--next" aria-label="Next: Jigsaw pools">
+          <a href="../mending-zones/" class="md-footer__link md-footer__link--next" aria-label="Next: Mending zones">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Jigsaw pools
+                Mending zones
               </div>
             </div>
             <div class="md-footer__button md-icon">
