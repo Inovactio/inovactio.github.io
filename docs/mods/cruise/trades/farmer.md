@@ -1,5 +1,7 @@
 # Farmer
 
+![](../icons/trades/farmer.png){ .mod-icon }
+
 The Farmer plants Cruise's **fruit trees**, from the Red Fruit of the plains to the Golden Fruit of the sky islands, and sows its **crops**, from Bitter Grass to the Cactus Flower. Only a Farmer picks and reaps them cleanly.
 
 | | |
@@ -14,6 +16,8 @@ Farmer XP comes from every clean pick and every clean ripe harvest:
 - **Crops**: half of (5 + the crop's level), per harvest.
 
 The tables below give what is paid. A harvest of quality pays more, and a plant far under your level pays less: see [Harvests of quality](#harvests-of-quality) and [Old plants pay less](#old-plants-pay-less).
+
+**Devil Fruits** (since 0.8.0): the [Mori Mori no Mi](../../missing-missing-no-mi/fruits/mori-mori-no-mi.md) (faster techniques) and the [Juku Juku no Mi](../../missing-missing-no-mi/fruits/juku-juku-no-mi.md) (faster techniques) help this trade. Its user earns 15 % more of its XP: see [Devil Fruits that help a trade](../trades-and-levels.md#devil-fruits-that-help-a-trade).
 
 ## Fruit trees
 

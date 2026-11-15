@@ -1,5 +1,7 @@
 # Cook
 
+![](../icons/trades/cook.png){ .mod-icon }
+
 The Cook turns the other trades' harvest into the islands' dishes at the **Kitchen**. A dish feeds you and also gives buffs: extra XP in one trade, more Doriki from fights, slower hunger, and a little Doriki of its own. The fish and the produce in a dish decide its **quality**, and a skilled Cook makes every meal's buffs last longer.
 
 | | |
@@ -8,6 +10,8 @@ The Cook turns the other trades' harvest into the islands' dishes at the **Kitch
 | How it is made | crafting table, no level: a Cauldron, a Furnace and planks |
 | Levels | 1 to 100; recipes up to level 50 |
 | XP | every dish cooked: 10 + 2 × the recipe's level |
+
+**Devil Fruits** (since 0.8.0): the Kuku Kuku no Mi (one more) and the [Bisu Bisu no Mi](../../missing-missing-no-mi/fruits/bisu-bisu-no-mi.md) (an ingredient back) help this trade. Its user earns 15 % more of its XP: see [Devil Fruits that help a trade](../trades-and-levels.md#devil-fruits-that-help-a-trade).
 
 ## The Kitchen
 

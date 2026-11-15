@@ -1,5 +1,7 @@
 # Merchant
 
+![](../icons/trades/merchant.png){ .mod-icon }
+
 The Merchant makes nothing and gathers nothing: they **sell**, and learn by selling. Every Belly they earn from Cruise's travelling merchants, from their contracts and at the Auction House counts toward their level. They are also the only ones who can read the torn treasure maps that turn up in chests, on stalls and on the end of a fishing line.
 
 | | |
@@ -9,6 +11,8 @@ The Merchant makes nothing and gathers nothing: they **sell**, and learn by sell
 | Levels | 1 to 100; torn maps up to level 75 |
 
 You only earn Merchant XP if you practise the Merchant trade (in Crew mode, if it is your trade). A player who does not can still sell, deliver contracts and use the Auction House, but gets none of the Merchant's XP, prices or bonuses, and cannot read a torn map.
+
+**Devil Fruits** (since 0.8.0): the [Goru Goru no Mi](../../missing-missing-no-mi/fruits/goru-goru-no-mi.md) (faster techniques) helps this trade. Its user earns 15 % more of its XP: see [Devil Fruits that help a trade](../trades-and-levels.md#devil-fruits-that-help-a-trade).
 
 ## How a Merchant earns XP
 

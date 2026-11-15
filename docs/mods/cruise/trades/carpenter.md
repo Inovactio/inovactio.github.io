@@ -1,5 +1,7 @@
 # Carpenter
 
+![](../icons/trades/carpenter.png){ .mod-icon }
+
 The Carpenter builds **boats** and heavy **storage** at the Shipyard: sixteen boats whose hulls take several blows before they give, four lockers bigger than a chest, and the Auction House. Out on the water, only a Carpenter can mend a damaged hull.
 
 | | |

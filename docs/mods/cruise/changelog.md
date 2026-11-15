@@ -2,6 +2,135 @@
 
 Every Cruise Cruise no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/all).
 
+## 0.8.0: beta { #v0-8-0 }
+
+<small>Released 2026-11-15 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9626153)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Win a village over, and watch it build.</strong> Many new ways to raise your name in a village: gifts, wishes, cures, repairs,
+night watches, feasts, lost villagers and castaways, stolen goods brought back, sick villagers in bed. A Prosperous
+village now builds a school where you teach its children. Growing villages build on the water, on pontoons, throw
+bridges over their rivers, grow a harbour with a lighthouse on the coast and hold steep hills with terraces. Villages ask
+for what their land gives, a Crew server can let each player take more than one trade, and some Devil Fruits now help a
+trade.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer, <strong>Mine Mine no Mi</strong> 0.11.6 and <strong>AkumaLib 6.7.0</strong> or newer.
+Client and server. Valkyrien Skies is never required.</p>
+<p>⚠️ <strong>Update AkumaLib first.</strong> With an AkumaLib older than 6.7.0 the game does not start.</p>
+<p>⚠️ <strong>Update the server and every player together.</strong> The network protocol changed: a 0.8.0 client cannot join a 0.7.0
+server, nor the other way round.</p>
+<p>⚠️ <strong>Your worlds.</strong> A world played with 0.7.0 opens as it is. Its Prosperous villages build their school on free ground
+nearby, and its villages by the water or on a slope get their pontoons, bridges, harbour and terraces as they grow.</p>
+<p>⚠️ <strong>A beta</strong>: everything here is playable, but numbers may still move with your feedback.</p>
+<hr />
+<h2>New</h2>
+<h3>More ways to win a village over</h3>
+<ul>
+<li><strong>Belly at the town hall</strong> now raises your reputation there too: +1 for each 1 000 Belly, up to +20 a week in each
+  village.</li>
+<li><strong>A wish a day.</strong> Each villager wishes for one thing a day, by his trade. Talk to him to hear it. Give it to him for
+  +3 reputation and a little prosperity, once a villager a day, up to +15 a day in each village.</li>
+<li><strong>Cures.</strong> Give a remedy or a dish to a villager sick with the fever, or a guard an enemy hurt, and he is cured at
+  once: +8 reputation and a little prosperity, once a villager a day, up to +40 a day in each village. A wound from a
+  fall, fire or a player earns nothing.</li>
+<li><strong>Repairs.</strong> Put back by hand the blocks a raid or an assault broke in a village, before it mends them itself: +1
+  reputation a block, up to +20 a raid, and a little prosperity.</li>
+<li><strong>The night watch.</strong> Kill the monsters that come into a village at night: +2 reputation each, up to +20 a night, and a
+  point of prosperity once you have killed five.</li>
+<li><strong>Feasts.</strong> On a feast day, a dish given to the feast's chef raises your name there (+5, Fine +10, Superb +20), and so
+  does a tune played on its stage (+5, +10 or +20 by the score's rank), once each a feast, up to +40.</li>
+<li><strong>Lost villagers.</strong> Now and then a villager gets lost a few hundred blocks from his village. The news and the
+  barkeepers tell where. Find him, right click and he follows you. Bring him home for +25 reputation and some
+  prosperity.</li>
+<li><strong>Castaways.</strong> A ship in distress now carries two or three castaways. Right click and they follow you, onto your boat
+  too. Bring them to any village for +10 reputation each there. One who follows you stays with you: another player
+  cannot take him while you are near.</li>
+<li><strong>Stolen goods.</strong> Pirate ships' chests now hold Stolen Goods, taken from the nearest village. Bring them back to its
+  head within 7 days for up to +30 reputation and some prosperity.</li>
+<li><strong>Sick in bed.</strong> Now and then a villager falls ill and stays in bed. He asks for one remedy of the Chemist, with the
+  Chemist's icon by his mark. Give it to him to cure him, for Belly, Chemist XP and reputation. If nobody comes he gets
+  up by himself within two days.</li>
+<li>The reputation line now says what earned it, and a chat line tells you when you reach a cap.</li>
+<li>A pirate whose village likes him (Liked or above) is no longer shunned there for his bounty: its people talk to him
+  and give him requests, nobles too.</li>
+</ul>
+<h3>A school in the villages</h3>
+<ul>
+<li>A village that becomes Prosperous now builds a school near its square, with a bell, a blackboard and desks for its
+  children, in the look of its land. New towns have one too.</li>
+<li>With a trade at level 25 or more, right click the school's lectern by day to teach the village's children: they come
+  and sit at their desks, and you earn +5 reputation and a point of prosperity, once a day in each village. In the
+  desert the lectern is the carved sandstone beside the teacher's desk.</li>
+</ul>
+<h3>Villages build on the water and on the hills</h3>
+<ul>
+<li><strong>Pontoons.</strong> A growing village's warehouse, inn or new houses whose spot is in shallow water (8 blocks deep at most,
+  12 blocks from land at most) now rise on a pontoon: a deck on piles over the water, and a walkway on beams with rails
+  and lanterns from the door to the shore.</li>
+<li><strong>Bridges.</strong> Where a lane of a growing village crosses a river 16 blocks wide at most, the village builds a bridge
+  with the lane, block by block: a wooden deck between two beams with rails, posts and lanterns, in sandstone in the
+  desert. Its villagers cross it.</li>
+<li><strong>A harbour.</strong> A coastal village with a port grows a harbour: at Flourishing its stone quay goes on along the shore;
+  as a town, a tall lighthouse rises in the sea at the end of a stone jetty, and a wooden pontoon goes out where any
+  boat can come alongside.</li>
+<li><strong>Terraces.</strong> A building planned on a steep slope is now built on its own spot, on a terrace: the hill behind held by
+  retaining walls in the land's own stone, with a stair in each, and a wall under it on the low side.</li>
+<li><strong>Steps from the door.</strong> A building grown on a slope gets a way of steps from its door down to the ground, so its door
+  is never out of reach.</li>
+<li><strong>A new spot instead of none.</strong> A building a village cannot put on its own spot is now built on free ground nearby,
+  within the future town walls, its door toward the nearest lane, instead of never being built.</li>
+<li><strong>Room round new buildings.</strong> When a village builds something new, it clears the trees, tall grass and ferns two
+  blocks round it, so the forest no longer presses against the walls. Wild pumpkins, melons, huge mushrooms, explosive
+  rocks and bees' nests no longer stop a building either. Saplings, flowers, plots and anything a player placed are
+  left alone.</li>
+</ul>
+<h3>Villages ask for what their land gives</h3>
+<ul>
+<li>Villagers and notice boards now mostly ask for what their land gives: its fish, creatures, ores, crops and dishes.</li>
+<li>A request for something rare or from another land pays more Belly, and brings the village more prosperity and you
+  more reputation.</li>
+<li>Over a villager who asks for something, the icon of the trade it is for now shows beside the mark.</li>
+</ul>
+<h3>Several trades per player</h3>
+<ul>
+<li>A Crew server can now let each player hold more than one trade, with the new server setting <code>maxTrades</code> (1 by
+  default, as before). Once your last trade reaches level 25 (<code>nextTradeLevel</code>), the Professions screen shows a
+  <strong>Take a trade</strong> button. The new trade starts at level 1 and your others keep their levels, talents and abilities.</li>
+<li>The Potion of Forgetting now makes you forget only the trade you pick, and your others stay.</li>
+</ul>
+<h3>Devil Fruits that help a trade</h3>
+<ul>
+<li>Some Devil Fruits now help a trade, like the Kuku Kuku with the Cook, the Fuku Fuku with the Tailor or the Gutsu Gutsu
+  with the Blacksmith (23 links, listed in the guide). If you ate one and practise its trade, you earn 15% more of its
+  XP and get the fruit's own bonus: one more from a craft, an ingredient back, techniques that recharge 15% faster, or
+  faster mining and felling. The trade's page shows it in green, and servers can change the list in a data pack.</li>
+</ul>
+<h3>The guide</h3>
+<ul>
+<li>A new <strong>Reputation</strong> chapter: your name in a village, how to win it back, helping out, lost villagers, stolen goods,
+  the school and the sick in bed.</li>
+<li>Two new pages under Villages: <strong>A village grows</strong> (school, quay, lighthouse, pontoons, bridges, terraces) and
+  <strong>What they ask for</strong>.</li>
+</ul>
+<h2>Changed</h2>
+<ul>
+<li><strong>New trade icons.</strong> The fourteen trade icons are drawn again: each trade's tool or work on a disc of its colour in a
+  brass rim, easier to tell apart beside a villager's mark.</li>
+<li><strong>Fewer creatures and Explosive Rocks.</strong> Insects and the other small creatures are three times fewer, and Explosive
+  Rocks five times rarer in new land. A new server setting, creatures <code>spawnMultiplier</code>, brings fewer still: 0.5 for
+  half, 0 for none.</li>
+<li><strong>Less lag in big villages.</strong> A town's walls are worked out ahead, and villagers ask for their way much less often,
+  also when a door is opened or shut near them.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>A town's wooden palisade is no longer cut by a building that grows beside it.</li>
+<li>A growing village no longer makes the game load land round its building sites, which could stutter the server.</li>
+<li>A child sitting at school no longer stays on his stool for good after you leave and come back during a lesson.</li>
+<li>The Scent Lure no longer says something moves nearby when no creature can come.</li>
+<li>In the guide, a donation cap no longer calls Belly "gifts", and the welcome page is no longer cut short.</li>
+</ul>
+</div>
+
 ## 0.7.0: beta { #v0-7-0 }
 
 <small>Released 2026-11-08 · [Download](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9517317)</small>

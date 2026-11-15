@@ -1,5 +1,7 @@
 # Blacksmith
 
+![](../icons/trades/blacksmith.png){ .mod-icon }
+
 At the **Forge**, the Blacksmith makes Mine Mine no Mi weapons and gear that the base mod ships but never lets players craft, up to Brook's Soul Solid. The trade also takes over a few that the base mod did let players craft, such as bullets, cannons and handcuffs.
 
 | | |
@@ -12,6 +14,8 @@ At the **Forge**, the Blacksmith makes Mine Mine no Mi weapons and gear that the
 The Forge glows (light level 10) and needs a pickaxe to be picked back up. Every recipe asks for a Blacksmith level and pays Blacksmith XP.
 
 **Forged by.** A weapon made at the Forge carries the name of the Blacksmith who forged it ("Forged by ..."). It is what the [swordsmith from Wano](../village-events.md#a-swordsmith-from-wano) asks for: he turns a forged Katana or Broadsword into one of the base mod's named blades, and what your skill had put on the blade passes to the new one.
+
+**Devil Fruits** (since 0.8.0): the [Gutsu Gutsu no Mi](../../missing-missing-no-mi/fruits/gutsu-gutsu-no-mi.md) (one more), the [Gasha Gasha no Mi](../../missing-missing-no-mi/fruits/gasha-gasha-no-mi.md) (an ingredient back) and the [Buki Buki no Mi](../../missing-missing-no-mi/fruits/buki-buki-no-mi.md) (faster techniques) help this trade. Its user earns 15 % more of its XP: see [Devil Fruits that help a trade](../trades-and-levels.md#devil-fruits-that-help-a-trade).
 
 ## What the Forge makes
 

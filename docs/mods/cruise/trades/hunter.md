@@ -9,6 +9,8 @@ tags:
 
 # Hunter
 
+![](../icons/trades/hunter.png){ .mod-icon }
+
 The Hunter catches the islands' small creatures (beetles, butterflies, frogs, lizards, fireflies, even a phoenix) with a bug net or a trap, keeps them as items along with whatever they carry, and turns them into leather, bait, lures and trophies at the **Tannery**. From level 30 the Hunter also hunts the beasts of Mine Mine no Mi, with a weapon.
 
 | | |
@@ -133,7 +135,7 @@ The [Inventor](inventor.md) makes four parts at the Workshop. Anyone fits them a
 
 ## The creatures
 
-Creatures appear around you, 16 to 48 blocks away. Every 5 seconds each kind rolls its chance to appear, up to a cap on how many of it may be nearby. In the lists below, Hunter levels are in brackets.
+Creatures appear around you, 16 to 48 blocks away. Every 5 seconds each kind rolls its chance to appear, up to a cap on how many of it may be nearby. Since 0.8.0 they are **three times fewer** than before: each kind's chance and its cap were cut to a third, and a server can bring fewer still with the setting [`spawnMultiplier`](../configuration.md#creatures). In the lists below, Hunter levels are in brackets.
 
 Every creature in 3D (drag to turn, scroll or pinch to zoom); the Hercules Beetle and the Swallowtail Butterfly show their rare variant under their buttons:
 

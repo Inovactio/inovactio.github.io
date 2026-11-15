@@ -1,5 +1,7 @@
 # Inventor
 
+![](../icons/trades/inventor.png){ .mod-icon }
+
 The Inventor builds the crew's gear at the **Workshop**: the Fisher's rods and parts, the Hunter's traps and nets, the Miner's and Lumberjack's tools, the Musician's instruments, hull parts for the Carpenter's boats, dials, and weapons and bombs for a fight. A second bench, the **Upgrade Bench**, fits their parts onto tools.
 
 | | |
@@ -9,6 +11,8 @@ The Inventor builds the crew's gear at the **Workshop**: the Fisher's rods and p
 | Second bench | ![](../block-models/upgrade-bench.png){ .block-mini }**Upgrade Bench**, to fit parts |
 | Levels | 1 to 100; recipes up to level 50 |
 | XP | every recipe built: 10 + 2 × its level |
+
+**Devil Fruits** (since 0.8.0): the [Gutsu Gutsu no Mi](../../missing-missing-no-mi/fruits/gutsu-gutsu-no-mi.md) (one more) and the [Gasha Gasha no Mi](../../missing-missing-no-mi/fruits/gasha-gasha-no-mi.md) (an ingredient back) help this trade. Its user earns 15 % more of its XP: see [Devil Fruits that help a trade](../trades-and-levels.md#devil-fruits-that-help-a-trade).
 
 ## The benches
 

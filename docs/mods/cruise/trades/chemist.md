@@ -1,5 +1,7 @@
 # Chemist
 
+![](../icons/trades/chemist.png){ .mod-icon }
+
 The Chemist compounds the islands' remedies at the **Laboratory**: candies and tonics that heal and restore, powders the other trades need, balls to throw in a fight, and at the top of the trade the Revival Elixir, the Rumble Ball and the Potion of Forgetting.
 
 | | |
@@ -8,6 +10,8 @@ The Chemist compounds the islands' remedies at the **Laboratory**: candies and t
 | How it is made | crafting table, no level: a Brewing Stand, a Glass Bottle and planks |
 | Levels | 1 to 100; recipes up to level 50 |
 | XP | every recipe compounded: 10 + 2 × its level; and the remedies brought to a village's doctor during a [fever](../village-events.md#a-fever-in-the-village) |
+
+**Devil Fruits** (since 0.8.0): the Chiyu Chiyu no Mi (one more), the Doku Doku no Mi (an ingredient back) and the Ope Ope no Mi (faster techniques) help this trade. Its user earns 15 % more of its XP: see [Devil Fruits that help a trade](../trades-and-levels.md#devil-fruits-that-help-a-trade).
 
 ## The Laboratory
 
@@ -84,11 +88,11 @@ You throw a ball like a snowball, and it bursts where it lands. Every living thi
 
 Made from a Golden Matsutake, a Mystery Mushroom, Bitter Grass, a Medicinal Herb and a Glass Bottle; it is rare, stacks to 16, and is found nowhere else.
 
-- Drinking it opens the choice of a new trade (not the one you already have). It is used up **only when you confirm** a choice, so closing the book keeps the potion.
-- On a confirmed choice, **all your trade XP is wiped**, in every trade, and you take up the new trade from the start.
+- Drinking it opens the choice of a new trade (not one you already have). With several trades, you also pick which of yours you give up. It is used up **only when you confirm** a choice, so closing the book keeps the potion.
+- Since 0.8.0, on a confirmed choice **only the trade you forget** goes back to level 1 and leaves you; your other trades stay as they are.
 - In **Solo** mode the recipe does not exist, the potion is left out of the creative tab, and a stray potion cannot be drunk.
 
-See [Trades and levels](../trades-and-levels.md) for how the choice works.
+See [Trades and levels](../trades-and-levels.md#changing-trade-the-potion-of-forgetting) for how the choice works.
 
 ## ![](../icons/potion_of_second_thoughts.png){ .item-icon }The Potion of Second Thoughts (level 20) { #the-potion-of-second-thoughts }
 
