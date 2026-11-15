@@ -10436,6 +10436,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#creatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        creatures
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -10474,6 +10485,17 @@
   
     <nav class="md-nav" aria-label="Village events">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lost-villagers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lost villagers
+      
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#feast-days" class="md-nav__link">
@@ -14638,6 +14660,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#creatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        creatures
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -14676,6 +14709,17 @@
   
     <nav class="md-nav" aria-label="Village events">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lost-villagers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lost villagers
+      
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#feast-days" class="md-nav__link">
@@ -14818,7 +14862,7 @@
 </tr>
 <tr>
 <td><strong><code>serverconfig/inocruise-server.toml</code></strong>, in each world's folder</td>
-<td>everything else: <a href="#inocruise-servertoml">the world's own settings</a> (sides, spacing, prosperity, punishment, defence, revival), <code>villageDamage</code> and <code>monstersInVillages</code>, <a href="#traits"><code>traits</code></a>, <a href="#guide"><code>guide</code></a>, <a href="#merchants"><code>merchants</code></a>, <a href="#auctionhouse"><code>auctionHouse</code></a>, the <a href="#village-events">village events</a> and the <a href="#events-at-sea">events at sea</a> and <a href="#events-on-land">on land</a></td>
+<td>everything else: <a href="#inocruise-servertoml">the world's own settings</a> (sides, spacing, prosperity, punishment, defence, revival), <a href="#creatures"><code>creatures</code></a>, <code>villageDamage</code> and <code>monstersInVillages</code>, <a href="#traits"><code>traits</code></a>, <a href="#guide"><code>guide</code></a>, <a href="#merchants"><code>merchants</code></a>, <a href="#auctionhouse"><code>auctionHouse</code></a>, the <a href="#village-events">village events</a> and the <a href="#events-at-sea">events at sea</a> and <a href="#events-on-land">on land</a></td>
 </tr>
 </tbody>
 </table>
@@ -15138,6 +15182,24 @@
 </tr>
 </tbody>
 </table>
+<h3 id="creatures"><code>creatures</code><a class="headerlink" href="#creatures" title="Permanent link">&para;</a></h3>
+<p>How many of Cruise's <a href="../trades/hunter/#the-creatures">creatures</a> come out in the wild (since 0.8.0).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>spawnMultiplier</code></td>
+<td><code>1.0</code></td>
+<td>How many of Cruise's creatures spawn in the wild: insects, frogs, lizards, birds and the others. <code>1</code> gives the mod's own numbers, <code>0.5</code> half of them, <code>0</code> none (0 to 1). A Scent Lure brings fewer too. The creatures already out stay.</td>
+</tr>
+</tbody>
+</table>
 <p>To turn off a whole trade, see AkumaLib's <code>disabledProfessions</code>: <a href="../trades-and-levels/#a-trade-turned-off">A trade turned off</a>.</p>
 <h2 id="merchants"><code>merchants</code><a class="headerlink" href="#merchants" title="Permanent link">&para;</a></h2>
 <table>
@@ -15260,6 +15322,39 @@
 <td><code>48</code></td>
 <td><code>24</code></td>
 <td>How many in-game hours it lasts (1 to 720): the stage stays up, the fever runs if nobody cures it, the swordsmith stays, the judge stays on the quay.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="lost-villagers">Lost villagers<a class="headerlink" href="#lost-villagers" title="Permanent link">&para;</a></h3>
+<p><code>lostVillager</code>, for the <a href="../villages/#lost-villagers-and-castaways">lost villagers</a> (since 0.8.0):</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td><code>true</code></td>
+<td>Whether villagers get lost at all.</td>
+</tr>
+<tr>
+<td><code>leastDaysBetween</code></td>
+<td><code>6</code></td>
+<td>The fewest in-game days from one lost villager to the next (1 to 365).</td>
+</tr>
+<tr>
+<td><code>mostDaysBetween</code></td>
+<td><code>9</code></td>
+<td>The most in-game days from one lost villager to the next (1 to 365).</td>
+</tr>
+<tr>
+<td><code>stayHours</code></td>
+<td><code>24</code></td>
+<td>How many in-game hours the lost villager waits before walking home alone (1 to 720).</td>
 </tr>
 </tbody>
 </table>
@@ -15669,6 +15764,8 @@
 <p>Per world, in <strong><code>&lt;world&gt;/serverconfig/akumalib-server.toml</code></strong>:</p>
 <ul>
 <li><code>professionMode</code>: <code>AUTO</code> (Solo in single player and LAN, Crew on a dedicated server), <code>SOLO</code> or <code>CREW</code>;</li>
+<li><code>maxTrades</code>: in Crew mode, how many trades each player may hold (1 to 14; <code>1</code> by default, one trade a player as before). Since AkumaLib 6.7.0 and Cruise 0.8.0: see <a href="../trades-and-levels/#several-trades">Several trades</a>.</li>
+<li><code>nextTradeLevel</code>: in Crew mode, the level a player's last trade must reach before they can take the next one (1 to 100; <code>25</code> by default).</li>
 <li><code>xpMultiplier</code>: how fast every trade levels (<code>2.0</code> twice as fast, <code>0.5</code> half as fast);</li>
 <li><code>curves</code>: one line per trade, with how much each level costs and a speed of its own, for example <code>"inocruise:fisher = 20, 1.25, 1"</code>.</li>
 <li><code>deathXpLoss</code>: what a death costs the trades (AkumaLib 2.10.0 or later): <code>KEEP</code> (nothing, the default), <code>PERCENT</code> (<code>deathXpLossPercent</code> of every trade's XP, 10 by default, so levels can go down) or <code>ALL</code> (every trade back to level 1). The chosen trade and the recipes learned are always kept.</li>
