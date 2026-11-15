@@ -180,6 +180,7 @@ On the day:
 - **Feast prices**: the village's stalls sell 10 % cheaper and its merchants buy 10 % dearer, on top of what you already have there.
 - **Feast Day**: while you stand on the village's ground you have this effect, 10 % more XP in every trade, on top of a night at the [inn](towns.md#the-inn).
 - **A contest**: a place with a port holds the [fishing tournament](#a-fishing-tournament) on its quay; an inland one has a head chef on its square for a **cooking contest**, with the rules and prizes of the [floating restaurant](events-at-sea.md)'s: Cooks only, one dish each.
+- **Your name there** (since 0.8.0): a dish given to the feast's chef raises your [reputation](villages.md#winning-a-village-over) in the village (+5, a Fine dish +10, a Superb one +20), and so does a tune played on its stage (+5, +10 or +20 by the score's rank), once each a feast, up to +40.
 
 ![A desert village's square on its feast day: the five merchants at their stalls](pictures/feast-square.png)
 

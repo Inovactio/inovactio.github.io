@@ -1,5 +1,7 @@
 # Lumberjack
 
+![](../icons/trades/lumberjack.png){ .mod-icon }
+
 The Lumberjack fells trees that grew in the world and plants saplings. The trade leads to the three great trees: the **Kuuigosu**, the **Burning Tree** and, at the top of the trade, the giant **Treasure Tree Adam**. The [Carpenter](carpenter.md) builds hulls from their woods.
 
 | | |
@@ -7,6 +9,8 @@ The Lumberjack fells trees that grew in the world and plants saplings. The trade
 | Workstation | none: you work in the forest |
 | Tools | the **Woodsman's Axe** and the **Felling Saw**, made by the [Inventor](inventor.md) |
 | Levels | 1 to 100; felling the Adam needs level 50 |
+
+**Devil Fruits** (since 0.8.0): the [Mori Mori no Mi](../../missing-missing-no-mi/fruits/mori-mori-no-mi.md) (faster felling) helps this trade. Its user earns 15 % more of its XP: see [Devil Fruits that help a trade](../trades-and-levels.md#devil-fruits-that-help-a-trade).
 
 ## Felling for XP
 

@@ -59,6 +59,19 @@ tags:
   - revival
   - repopulation plan
   - fine
+  - reputation
+  - school
+  - lesson
+  - pontoon
+  - bridge
+  - harbour
+  - lighthouse
+  - terrace
+  - lost villager
+  - castaway
+  - stolen goods
+  - sick villager
+  - wish
 ---
 
 # Villages
@@ -350,6 +363,11 @@ He waits **3 days**, then somebody else asks. The first player to bring it has i
 
 - A fish too small is not taken. Of several big enough, the smallest goes.
 - Every errand done is **a good turn** for the village that asked: after twenty it will take [your flag](village-flags.md#by-trust). For a parcel, it is the village that sent it.
+- Since 0.8.0 the **icon of the trade** the errand is for shows beside the mark over his head.
+
+## What they ask for
+
+Since 0.8.0 a village mostly asks, on its notice board and in its errands, for **what its own land gives**: its fish, its creatures, its ores, its crops and its dishes. Now and then it asks for something **rare or from another land**. That pays more Belly, brings the village more prosperity and you more reputation.
 
 ## Where you stand
 
@@ -378,13 +396,57 @@ Since 0.6.0 every village and town keeps a **reputation** for each player, in se
 | **Hero** | 300 and above | stalls 15 % cheaper, errands pay 20 % more, the largest loan |
 
 - **Where you start.** A civilian, a Marine, a Bounty Hunter or a Revolutionary starts every village at **Liked** (100); a pirate at **Distrusted** (-100).
-- **What raises it.** An errand +10, an order +5, a [warehouse](towns.md#the-warehouse) order +15 (shared by the pieces each player brought), a [wanted notice](#the-notice-board)'s captain brought down +40, a raid beaten off +40, your first plot bought in a town +15, each man of a bounty hunt +10, and +1 for every 1,000 Belly you sell there.
+- **What raises it.** An errand +10, an order +5, a [warehouse](towns.md#the-warehouse) order +15 (shared by the pieces each player brought), a [wanted notice](#the-notice-board)'s captain brought down +40, a raid beaten off +40, your first plot bought in a town +15, each man of a bounty hunt +10, and +1 for every 1,000 Belly you sell there. Since 0.8.0 there are many more ways: see [Winning a village over](#winning-a-village-over).
 - **What lowers it.** Taking from a chest -20, a blow on one of its people -15, a death -60, a guard's death -100.
 - **Hero** of a village earns the title **Village Hero**.
 - **It spreads.** Your crew gets a quarter of each good deed, but none of your wrongs: since 0.7.0 each player answers for their own. The villages within 1,000 blocks get a tenth of either. A bad name fades by one step every 30 days.
-- **You are told** (since 0.7.0): a line on your screen says "Reputation +10 at" the village, and the chat tells you when you become Liked, Hated and so on.
+- **You are told** (since 0.7.0): a line on your screen says "Reputation +10 at" the village, and the chat tells you when you become Liked, Hated and so on. Since 0.8.0 the line also says what earned it, and a chat line tells you when you reach a cap.
+- **Liked pirates** (since 0.8.0). A pirate whose village likes him, Liked or above, is no longer shunned there for his bounty: its people talk to him and give him errands, the nobles too.
 - **A way back for the hated** (since 0.7.0). A village that hates you, or calls you its sworn enemy, takes a **fine** at its town hall: **100 Belly for each point** that brings you back to Unknown. Its errands stay open to you too, and each one done raises you as usual. A Sworn Enemy with empty hands can walk to the town hall: the guards let them come. Draw a weapon or strike, and they come for you again.
 - **Your plot stays yours.** Whatever the town thinks of you, even while it is closed to you for a crime, its head still talks to you about your plot and your fine.
+
+## Winning a village over
+
+Since 0.8.0 a village thanks you for much more than errands and orders. Each of these raises your [name](#your-name-in-a-village) there, most of them its [prosperity](#prosperity-a-village-grows) too, and each counts only so many times: the chat tells you when it is enough.
+
+| What you do | Reputation | How often |
+|---|---|---|
+| **Belly given** at its town hall | +1 for each 1,000 Belly | up to +20 a week in each village |
+| **A wish a day**: talk to a villager to hear the one thing he would like today, by his trade, and give it to him with a right click | +3 | once a villager a day, up to +15 a day in each village |
+| **A cure**: give a Chemist's remedy or a Cook's dish to a villager sick with the [fever](village-events.md#a-fever-in-the-village), or to a guard an enemy hurt, and he is cured at once | +8 | once a villager a day, up to +40 a day in each village |
+| **Repairs**: put back by hand the blocks a raid or an assault broke, before the village mends them itself | +1 a block | up to +20 a raid |
+| **The night watch**: kill the monsters that come into the village at night | +2 each | up to +20 a night; a point of prosperity once you have killed five |
+| **A feast**: on a [feast day](village-events.md#a-feast-day), a dish for the feast's chef, or a tune on its stage | +5; +10 for a Fine dish or a better score; +20 for a Superb dish or the best score | once each a feast, up to +40 |
+| **A lost villager** brought home | +25 | see [below](#lost-villagers-and-castaways) |
+| **A castaway** brought to any village | +10 each | see [below](#lost-villagers-and-castaways) |
+| **Stolen goods** brought back | up to +30 | see [below](#stolen-goods) |
+| **A sick villager** cured in his bed | Belly, Chemist XP and reputation | see [below](#sick-in-bed) |
+| **A lesson** at the [school](#the-school) | +5 | once a day in each village |
+
+A wound from a fall, from fire or from a player earns nothing: only one a monster or an enemy gave.
+
+### Lost villagers and castaways
+
+- **Lost villagers.** Every 6 to 9 days, one of a village's people gets lost a few hundred blocks from it. The news on the [notice board](#the-notice-board) and the barkeepers say which way and how far. Find him and right click: he follows you, on foot or into your boat. Bring him home within the day for **+25 reputation** and some prosperity. After a day he walks back alone. See [Configuration](configuration.md#lost-villagers).
+- **Castaways.** A [ship in distress](events-at-sea.md#a-ship-in-distress) now carries two or three castaways. Right click and they follow you, onto your boat too. Bring them to **any village** for **+10 reputation each** there. One who follows you stays with you: another player cannot take him while you are near.
+
+### Stolen goods
+
+![](icons/stolen_goods.png){ .item-icon } The chests of pirate ships now hold **Stolen Goods**, taken from the nearest village. The crate says which one, and about what it is worth. Bring it back to the head of that village **within 7 days** for up to **+30 reputation** and some prosperity: the more it is worth, the more it thanks you. Too late, and the village has given it up. Another village does not take it.
+
+### Sick in bed
+
+Now and then a villager falls ill and stays in bed, with the **Chemist's icon** beside the mark over his head. Speak to him to hear the one remedy of the [Chemist](trades/chemist.md) he needs, then right click him with it. He pays you in Belly, it gives Chemist XP, and the village counts it as a cure. If nobody comes, he gets up by himself within two days.
+
+## The school
+
+Since 0.8.0 a village that becomes **Prosperous** builds a school near its square, in the look of its land: a bell, a blackboard, a teacher's desk and desks for its children. New towns have one too, and a Prosperous village of an older world builds its school on free ground nearby.
+
+- **Give a lesson.** With a trade at **level 25 or more**, right click the school's lectern by day. The village's children come and sit at their desks for a minute.
+- A lesson gives no XP, but **+5 reputation** and a point of prosperity, once a day in each village.
+- In the desert, the lectern is the carved sandstone beside the teacher's desk.
+
+![A plains village's school by the river, with its bell on the roof and benches by the door](pictures/school.webp)
 
 ## Marines
 
@@ -444,17 +506,37 @@ Since 0.7.0 every village has a **prosperity**, in points. Treat it well and it 
 | Step | From | What it brings |
 |---|---|---|
 | **Modest** | 0 | where a village starts |
-| **Prosperous** | 30 | new houses with their people, and a barracks with its guards |
-| **Flourishing** | 80 | the workshops of the trades it lacks, an inn, a warehouse and a market hall |
-| **Town** | 150 | walls, a bank, a bounty office, a colosseum and plots for sale: see [Towns](towns.md) |
+| **Prosperous** | 30 | new houses with their people, a barracks with its guards, and a [school](#the-school) |
+| **Flourishing** | 80 | the workshops of the trades it lacks, an inn, a warehouse and a market hall; by the sea, a longer quay |
+| **Town** | 150 | walls, a bank, a bounty office, a colosseum and plots for sale: see [Towns](towns.md); by the sea, a lighthouse and a mooring pontoon |
 
 - **Built before your eyes.** Each new building rises block by block over a day, one at a time, on the free land round the village, as the town plan has it.
-- **Nothing of yours is torn down.** A building waits while something of yours stands on its spot, and skips a spot in the sea or on a cliff. The walls follow the ground and only fill air and leaves: where a tree trunk or a block of yours stands on their line, they leave a gap.
+- **Nothing of yours is torn down.** A building waits while something of yours stands on its spot. Since 0.8.0 a spot in shallow water gets a pontoon, a spot on a steep slope a terrace, and a building that cannot go on its own spot is built on free ground nearby: see [below](#villages-build-on-the-water-and-on-the-hills). The walls follow the ground and only fill air and leaves: where a tree trunk or a block of yours stands on their line, they leave a gap.
 - **A town that falls back** under 150 points is a village again by name. Its bank, inn, warehouse, market hall, colosseum and bounty office close and their keepers leave, its barracks' guards too, and nothing new is built until it climbs back. Nothing is destroyed.
 - **See how it is doing.** Its step shows when you walk in ("Fuchsia - prosperous village"), and the head's window has a page with a bar to the next step and a box to **give Belly**.
 - **New worlds make towns as before**, at 150 points. In a world played with 0.6.1, towns start as towns and villages at 0.
 
 Every number here, and the whole system, is a setting of the world: see [Configuration](configuration.md#prosperity).
+
+## Villages build on the water and on the hills
+
+Since 0.8.0 a growing village no longer stops at the shore or at the foot of a hill.
+
+- **Pontoons.** A warehouse, an inn or a new house whose spot is in shallow water (8 blocks deep at most, 12 blocks from land at most) rises on a pontoon: a deck on piles over the water, and a walkway on beams, with rails and lanterns, from its door to the shore.
+![Two houses of a savanna village grown on pontoons over the water, by the lanes of the village](pictures/pontoon.webp)
+
+- **Bridges.** Where a lane of the village crosses a river 16 blocks wide at most, the village builds a bridge with the lane, block by block: a wooden deck between two beams, with rails, posts and lanterns; in sandstone in the desert. Its people cross it.
+- **A harbour.** A village by the sea with a port grows a harbour. At **Flourishing** its stone quay goes on along the shore. As a **town**, a tall **lighthouse** rises in the sea at the end of a stone jetty, and a wooden pontoon goes out where any boat can come alongside.
+- **Terraces.** A building planned on a steep slope is built on its own spot, on a terrace: the hill behind it held by retaining walls in the land's own stone, with a stair in each, and a wall under it on the low side.
+- **Steps from the door.** A building grown on a slope gets steps from its door down to the ground, so its door is never out of reach.
+- **A new spot instead of none.** A building a village cannot put on its own spot is built on free ground nearby, within the future town walls, its door toward the nearest lane.
+- **Room round new buildings.** The village clears the trees, tall grass and ferns two blocks round what it builds, so the forest no longer presses against its walls. Wild pumpkins, melons, huge mushrooms, Explosive Rocks and bees' nests no longer stop a building either. Saplings, flowers, plots and anything a player placed are left alone.
+
+![A savanna town's lighthouse in the sea at the end of its jetty, the port's pontoons beside it](pictures/lighthouse.webp)
+
+![A savanna village grown into a town by the sea: its school in front, the colosseum, the port and the lighthouse](pictures/grown-town.webp)
+
+In a world played with 0.7.0, villages by the water or on a slope get their pontoons, bridges, harbour and terraces as they grow.
 
 ## A village defends itself
 
@@ -511,7 +593,7 @@ Since 0.7.0 `/cruise` has commands to test things without waiting (operators, pe
 | `/cruise village info [village] [player]` | a village and a player in it |
 | `/cruise village reputation <set/add> <points/step> <value> [village] [player]` | a player's reputation there, in points or in steps |
 | `/cruise village keepers respawn [village]` | the keepers put back |
-| `/cruise village event <kind> [village]` | an event started now: `raid`, `assault`, `distress`, `feast`, `fever`, `concert`, `swordsmith` or `tournament` |
+| `/cruise village event <kind> [village]` | an event started now: `raid`, `assault`, `distress`, `feast`, `fever`, `concert`, `swordsmith`, `tournament` or, since 0.8.0, `lost_villager` |
 | `/cruise village prosperity show [village]` | its [prosperity](#prosperity-a-village-grows) |
 | `/cruise village prosperity <set/add> <points> [village]` | its prosperity changed |
 | `/cruise village prosperity step up [village]` | to the start of the next step |

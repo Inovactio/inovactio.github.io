@@ -413,6 +413,7 @@ Her **Ship Captain** stands on what is left of her deck. Right click him to see 
 - **Each delivery is paid at once**: 1 312 Belly for the whole list.
 - The woods of the Carpenter's hulls (Kuuigosu, Burning Tree, Adam) are not taken: the captain wants ordinary timber.
 - Her hold is empty and nothing guards her: there is nothing to salvage.
+- **Castaways** (since 0.8.0): two or three of her people wait on board. Right click one and he follows you, onto your boat too; bring him to any village for +10 reputation there. See [Lost villagers and castaways](villages.md#lost-villagers-and-castaways).
 
 **When all of it is there she is whole again** before your eyes, masts, sails and all, and her captain thanks those who delivered, **each in proportion to what he brought**:
 

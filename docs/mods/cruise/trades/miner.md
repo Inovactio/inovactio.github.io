@@ -1,5 +1,7 @@
 # Miner
 
+![](../icons/trades/miner.png){ .mod-icon }
+
 The Miner earns XP by breaking ore and certain rocks. As the trade grows, the rock starts to give up **finds** on top of its normal drops: Diamond Fragments, Marble, Kairoseki, Dial Fragments, Pure Iron Ore and more. At the **Masonry**, the Miner turns those finds into marble blocks, iron and diamonds.
 
 | | |
@@ -8,6 +10,8 @@ The Miner earns XP by breaking ore and certain rocks. As the trade grows, the ro
 | How it is made | 8 Stone around a Crafting Table |
 | Tools | any pickaxe of the right tier; the **Enhanced Pick-axe** is made by the [Inventor](inventor.md) |
 | Levels | 1 to 100; new finds up to level 50 |
+
+**Devil Fruits** (since 0.8.0): the Mogu Mogu no Mi (faster mining), the [Goru Goru no Mi](../../missing-missing-no-mi/fruits/goru-goru-no-mi.md) (faster mining) and the [Ishi Ishi no Mi](../../missing-missing-no-mi/fruits/ishi-ishi-no-mi.md) (faster techniques) help this trade. Its user earns 15 % more of its XP: see [Devil Fruits that help a trade](../trades-and-levels.md#devil-fruits-that-help-a-trade).
 
 ## What counts
 
@@ -71,7 +75,7 @@ Two finds are worth a closer look:
 
 ### The Explosive Rock
 
-Red, cracked boulders two to three blocks across, half buried, found in **badlands, desert and mountain** biomes (in roughly one chunk in five there).
+Red, cracked boulders two to three blocks across, half buried, found in **badlands, desert and mountain** biomes (in roughly one chunk in 25 there: since 0.8.0 they are five times rarer in new land).
 
 - A **Miner of level 5 or more** who breaks one with a pickaxe gets 1 to 3 ![](../icons/explosive_rock_fragment.png){ .item-icon }**Explosive Rock Fragments**. About 12 % of the time, a **Rock Lizard** was hiding inside.
 - Anyone else sets it off: a small blast that hurts but breaks no blocks, and leaves them nothing.

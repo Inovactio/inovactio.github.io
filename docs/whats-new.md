@@ -9,6 +9,22 @@ tags:
 
 The pages each release added or changed, newest first. What every release does, in full: the changelog of each mod.
 
+## 2026-11-15: Cruise Cruise no Mi 0.8.0 { #2026-11-15 }
+
+Cruise Cruise no Mi 0.8.0 (beta) needs [AkumaLib 6.7.0](#2026-11-14). Its network protocol changed: update the server and every player together.
+
+### Cruise Cruise no Mi 0.8.0
+
+[Changelog](mods/cruise/changelog.md#v0-8-0)
+
+- **[Winning a village over](mods/cruise/villages.md#winning-a-village-over)**: a wish a day, cures, repairs, the night watch, feasts, [lost villagers and castaways](mods/cruise/villages.md#lost-villagers-and-castaways), [stolen goods](mods/cruise/villages.md#stolen-goods) and [sick villagers in bed](mods/cruise/villages.md#sick-in-bed)
+- **[The school](mods/cruise/villages.md#the-school)** of a Prosperous village, where a player teaches its children
+- **[Villages build on the water and on the hills](mods/cruise/villages.md#villages-build-on-the-water-and-on-the-hills)**: pontoons, bridges, a harbour with a lighthouse, terraces
+- **[What they ask for](mods/cruise/villages.md#what-they-ask-for)**: what their own land gives
+- **[Several trades](mods/cruise/trades-and-levels.md#several-trades)** per player on a Crew server, a Potion of Forgetting that forgets one trade, and **[Devil Fruits that help a trade](mods/cruise/trades-and-levels.md#devil-fruits-that-help-a-trade)** (23 links)
+- The fourteen trade icons drawn again, on [the mod's page](mods/cruise/index.md#the-fourteen-trades) and on each trade's page
+- Fewer [creatures](mods/cruise/trades/hunter.md#the-creatures) and rarer [Explosive Rocks](mods/cruise/trades/miner.md#the-explosive-rock); new settings `spawnMultiplier`, `lostVillager`, and AkumaLib's `maxTrades` and `nextTradeLevel` in [Configuration](mods/cruise/configuration.md)
+
 ## 2026-11-14: AkumaLib 6.7.0, Missing Missing no Mi 8.0.0 { #2026-11-14 }
 
 Missing Missing no Mi 8.0.0 needs AkumaLib 6.7.0. AkumaLib's network protocol is now 21: update the server and every player together, a 6.6.0 game cannot join a 6.7.0 server.

@@ -5,7 +5,7 @@ Cruise has two files of settings. The trades' levels and the Solo or Crew mode a
 | File | What is in it |
 |---|---|
 | **`config/inocruise-common.toml`**, one for the game or the server | [`recipes`](#recipes), `withVanillaVillages` (under [`villages`](#villages)) and [`performance`](#performance) |
-| **`serverconfig/inocruise-server.toml`**, in each world's folder | everything else: [the world's own settings](#inocruise-servertoml) (sides, spacing, prosperity, punishment, defence, revival), `villageDamage` and `monstersInVillages`, [`traits`](#traits), [`guide`](#guide), [`merchants`](#merchants), [`auctionHouse`](#auctionhouse), the [village events](#village-events) and the [events at sea](#events-at-sea) and [on land](#events-on-land) |
+| **`serverconfig/inocruise-server.toml`**, in each world's folder | everything else: [the world's own settings](#inocruise-servertoml) (sides, spacing, prosperity, punishment, defence, revival), [`creatures`](#creatures), `villageDamage` and `monstersInVillages`, [`traits`](#traits), [`guide`](#guide), [`merchants`](#merchants), [`auctionHouse`](#auctionhouse), the [village events](#village-events) and the [events at sea](#events-at-sea) and [on land](#events-on-land) |
 
 !!! note "Since 0.7.0 the world settings belong to each world"
     Village damage, monsters in villages, disabled traits, the guide, the merchants, the Auction House and every world event moved from `config/inocruise-common.toml` to each world's `serverconfig/inocruise-server.toml`, with the same section names and keys, so each single player world has its own. What you had set in the common file is **taken over once** by each world, so nothing is lost; after that, set them in the world's file. The old lines in the common file say where they went.
@@ -108,6 +108,14 @@ How [a dead village lives again](villages.md#a-dead-village-lives-again) (since 
 | `days` | `7` | After how many in-game days it is lived in again by itself. |
 | `pricePerHead` | `2000` | What bringing it back costs at its notice board, in Belly, for each of the people it was made with. |
 
+### `creatures`
+
+How many of Cruise's [creatures](trades/hunter.md#the-creatures) come out in the wild (since 0.8.0).
+
+| Setting | Default | What it does |
+|---|---|---|
+| `spawnMultiplier` | `1.0` | How many of Cruise's creatures spawn in the wild: insects, frogs, lizards, birds and the others. `1` gives the mod's own numbers, `0.5` half of them, `0` none (0 to 1). A Scent Lure brings fewer too. The creatures already out stay. |
+
 To turn off a whole trade, see AkumaLib's `disabledProfessions`: [A trade turned off](trades-and-levels.md#a-trade-turned-off).
 
 ## `merchants`
@@ -143,6 +151,17 @@ One section for each of the [village events](village-events.md), with the same f
 | `leastDaysBetween` | `5` | `7` | `8` | `6` | The fewest days from one to the next (1 to 365). |
 | `mostDaysBetween` | `8` | `10` | `12` | `9` | The most days from one to the next (1 to 365). |
 | `stayHours` | `24` | `24` | `48` | `24` | How many in-game hours it lasts (1 to 720): the stage stays up, the fever runs if nobody cures it, the swordsmith stays, the judge stays on the quay. |
+
+### Lost villagers
+
+`lostVillager`, for the [lost villagers](villages.md#lost-villagers-and-castaways) (since 0.8.0):
+
+| Setting | Default | What it does |
+|---|---|---|
+| `enabled` | `true` | Whether villagers get lost at all. |
+| `leastDaysBetween` | `6` | The fewest in-game days from one lost villager to the next (1 to 365). |
+| `mostDaysBetween` | `9` | The most in-game days from one lost villager to the next (1 to 365). |
+| `stayHours` | `24` | How many in-game hours the lost villager waits before walking home alone (1 to 720). |
 
 ### Feast days
 
@@ -275,6 +294,8 @@ Nothing here changes a world: only when the work is done. Both came with 0.4.2 a
 Per world, in **`<world>/serverconfig/akumalib-server.toml`**:
 
 - `professionMode`: `AUTO` (Solo in single player and LAN, Crew on a dedicated server), `SOLO` or `CREW`;
+- `maxTrades`: in Crew mode, how many trades each player may hold (1 to 14; `1` by default, one trade a player as before). Since AkumaLib 6.7.0 and Cruise 0.8.0: see [Several trades](trades-and-levels.md#several-trades).
+- `nextTradeLevel`: in Crew mode, the level a player's last trade must reach before they can take the next one (1 to 100; `25` by default).
 - `xpMultiplier`: how fast every trade levels (`2.0` twice as fast, `0.5` half as fast);
 - `curves`: one line per trade, with how much each level costs and a speed of its own, for example `"inocruise:fisher = 20, 1.25, 1"`.
 - `deathXpLoss`: what a death costs the trades (AkumaLib 2.10.0 or later): `KEEP` (nothing, the default), `PERCENT` (`deathXpLossPercent` of every trade's XP, 10 by default, so levels can go down) or `ALL` (every trade back to level 1). The chosen trade and the recipes learned are always kept.

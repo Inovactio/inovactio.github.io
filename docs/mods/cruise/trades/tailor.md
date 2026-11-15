@@ -1,5 +1,7 @@
 # Tailor
 
+![](../icons/trades/tailor.png){ .mod-icon }
+
 The Tailor sews Mine Mine no Mi's clothing at the **Sewing Table**: hats, capes, masks, glasses and characters' outfits, which the base mod ships but never lets players make. The Tailor also sews the [Carpenter](carpenter.md)'s boat sails and makes two materials of their own.
 
 | | |
@@ -10,6 +12,8 @@ The Tailor sews Mine Mine no Mi's clothing at the **Sewing Table**: hats, capes,
 | Levels | 1 to 100; new recipes up to level 50 |
 
 Every recipe asks for a Tailor level and pays Tailor XP: 12 XP at level 1, rising to 110 at level 50.
+
+**Devil Fruits** (since 0.8.0): the [Fuku Fuku no Mi](../../missing-missing-no-mi/fruits/fuku-fuku-no-mi.md) (one more), the [Nui Nui no Mi](../../missing-missing-no-mi/fruits/nui-nui-no-mi.md) (an ingredient back) and the Ito Ito no Mi (faster techniques) help this trade. Its user earns 15 % more of its XP: see [Devil Fruits that help a trade](../trades-and-levels.md#devil-fruits-that-help-a-trade).
 
 ## What the Sewing Table makes
 

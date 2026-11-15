@@ -94,7 +94,7 @@ A server can choose not to hand the guide out (`guide` in `inocruise-common.toml
 The mode is a server setting ([Configuration](configuration.md)): **Solo** in single player and on LAN, **Crew** on a dedicated server, unless the server says otherwise.
 
 - **Solo**: you practise **all fourteen trades** at once, each with its own level.
-- **Crew**: each player picks **one** trade, in the *Profession* tab of Mine Mine no Mi's character creator, and practises only that one. The crew shares out the work: the Fisher's catch goes to the Cook, the Miner's ore to the Blacksmith, the Hunter's creatures to the Chemist. A player counts as level 0 in every trade they don't practise.
+- **Crew**: each player picks **one** trade, in the *Profession* tab of Mine Mine no Mi's character creator, and practises only that one (since 0.8.0 a server can allow [more than one](#several-trades)). The crew shares out the work: the Fisher's catch goes to the Cook, the Miner's ore to the Blacksmith, the Hunter's creatures to the Chemist. A player counts as level 0 in every trade they don't practise.
 
 What that means for someone who does not practise a trade:
 
@@ -127,14 +127,66 @@ Since 0.6.0, in **Crew** mode, five pairs of trades help each other when two cre
 
 Since 0.6.0 a server can turn off any trade: list it in `disabledProfessions`, under `professions` in AkumaLib's `serverconfig/akumalib-server.toml` (for example `["inocruise:musician"]`). Nobody can practise it any more and its workstation stays shut. Nobody orders its goods, and the base mod's recipes Cruise had given it are back on the crafting table. Players lose its XP and talents, and in Crew mode those who had chosen it choose again. Items already made keep working.
 
+### Several trades
+
+Since 0.8.0 a **Crew** server can let each player hold **more than one trade**, with AkumaLib's setting `maxTrades` (1 by default: one trade each, as before). See [Configuration](configuration.md#the-trades-levels-akumalib).
+
+- Once your last trade reaches **level 25** (the server's `nextTradeLevel`), the professions screen shows a **Take a trade** button.
+- The new trade starts at level 1. Your other trades keep their levels, talents and abilities.
+- You can take trades this way until you hold as many as the server allows.
+
 ### Changing trade: the Potion of Forgetting
 
-In **Crew** mode, a player can start over in another trade.
+In **Crew** mode, a player can give up one of their trades for another.
 
 - **Made by** a Chemist of **level 30** at the Laboratory, from a Golden Matsutake, a Mystery Mushroom, Bitter Grass, a Medicinal Herb and a Glass Bottle. It is found nowhere else.
-- **Drinking it** opens a book, "Choose a new trade": every trade on the left (yours greyed out), the chosen trade's icon on the right (and, for the Farmer and the Merchant, the bonuses that grow with their level), and in red: *"You will forget everything: every trade, yours included, goes back to level 0."* The button asks twice ("Become …", then "Confirm: forget all").
-- **The cost**: on confirmation, **all your trade XP is wiped** (every trade, not only yours) and you take up the new trade from the start. The potion is used up only then: close the book instead and you keep it.
+- **Drinking it** opens a book, "Choose a new trade": every trade on the left (yours marked), the chosen trade's icon on the right. With several trades, click one of yours to pick the one you forget.
+- **The cost** (since 0.8.0): only **the trade you forget** goes back to level 1 and leaves you. Your other trades stay as they are. The button asks twice ("Become …", then "Confirm, forget …"). The potion is used up only then: close the book instead and you keep it.
 - In a **Solo** world there is nothing to forget: the recipe is removed, and a potion that still turns up cannot be drunk.
+
+## Devil Fruits that help a trade
+
+Since 0.8.0 some Devil Fruits help a trade. If you ate one and practise its trade:
+
+- you earn **15 % more** of that trade's XP, on top of a crew's synergy and of dishes;
+- and you get the fruit's own bonus for that trade, worth 15 % too.
+
+| Bonus | What it does |
+|---|---|
+| **One more** | a craft at the trade's workstation gives one more, 15 % of the time |
+| **An ingredient back** | a craft at the trade's workstation gives back one of its ingredients, 15 % of the time |
+| **Faster techniques** | the trade's combat techniques recharge 15 % faster |
+| **Faster gathering** | the Miner breaks rock and ore, the Lumberjack logs, 15 % faster |
+
+The trade's page in the professions book shows the bonus in green, under your level. The 23 links:
+
+| Trade | Fruit | Bonus |
+|---|---|---|
+| ![](icons/trades/cook.png){ .item-icon }[Cook](trades/cook.md) | Kuku Kuku no Mi | One more |
+| ![](icons/trades/cook.png){ .item-icon }[Cook](trades/cook.md) | [Bisu Bisu no Mi](../missing-missing-no-mi/fruits/bisu-bisu-no-mi.md) | An ingredient back |
+| ![](icons/trades/tailor.png){ .item-icon }[Tailor](trades/tailor.md) | [Fuku Fuku no Mi](../missing-missing-no-mi/fruits/fuku-fuku-no-mi.md) | One more |
+| ![](icons/trades/tailor.png){ .item-icon }[Tailor](trades/tailor.md) | [Nui Nui no Mi](../missing-missing-no-mi/fruits/nui-nui-no-mi.md) | An ingredient back |
+| ![](icons/trades/tailor.png){ .item-icon }[Tailor](trades/tailor.md) | Ito Ito no Mi | Faster techniques |
+| ![](icons/trades/blacksmith.png){ .item-icon }[Blacksmith](trades/blacksmith.md) | [Gutsu Gutsu no Mi](../missing-missing-no-mi/fruits/gutsu-gutsu-no-mi.md) | One more |
+| ![](icons/trades/blacksmith.png){ .item-icon }[Blacksmith](trades/blacksmith.md) | [Gasha Gasha no Mi](../missing-missing-no-mi/fruits/gasha-gasha-no-mi.md) | An ingredient back |
+| ![](icons/trades/blacksmith.png){ .item-icon }[Blacksmith](trades/blacksmith.md) | [Buki Buki no Mi](../missing-missing-no-mi/fruits/buki-buki-no-mi.md) | Faster techniques |
+| ![](icons/trades/inventor.png){ .item-icon }[Inventor](trades/inventor.md) | [Gutsu Gutsu no Mi](../missing-missing-no-mi/fruits/gutsu-gutsu-no-mi.md) | One more |
+| ![](icons/trades/inventor.png){ .item-icon }[Inventor](trades/inventor.md) | [Gasha Gasha no Mi](../missing-missing-no-mi/fruits/gasha-gasha-no-mi.md) | An ingredient back |
+| ![](icons/trades/chemist.png){ .item-icon }[Chemist](trades/chemist.md) | Chiyu Chiyu no Mi | One more |
+| ![](icons/trades/chemist.png){ .item-icon }[Chemist](trades/chemist.md) | Doku Doku no Mi | An ingredient back |
+| ![](icons/trades/chemist.png){ .item-icon }[Chemist](trades/chemist.md) | Ope Ope no Mi | Faster techniques |
+| ![](icons/trades/musician.png){ .item-icon }[Musician](trades/musician.md) | [Uta Uta no Mi](../missing-missing-no-mi/fruits/uta-uta-no-mi.md) | One more |
+| ![](icons/trades/musician.png){ .item-icon }[Musician](trades/musician.md) | Oto Oto no Mi | Faster techniques |
+| ![](icons/trades/miner.png){ .item-icon }[Miner](trades/miner.md) | Mogu Mogu no Mi | Faster gathering |
+| ![](icons/trades/miner.png){ .item-icon }[Miner](trades/miner.md) | [Goru Goru no Mi](../missing-missing-no-mi/fruits/goru-goru-no-mi.md) | Faster gathering |
+| ![](icons/trades/miner.png){ .item-icon }[Miner](trades/miner.md) | [Ishi Ishi no Mi](../missing-missing-no-mi/fruits/ishi-ishi-no-mi.md) | Faster techniques |
+| ![](icons/trades/lumberjack.png){ .item-icon }[Lumberjack](trades/lumberjack.md) | [Mori Mori no Mi](../missing-missing-no-mi/fruits/mori-mori-no-mi.md) | Faster gathering |
+| ![](icons/trades/farmer.png){ .item-icon }[Farmer](trades/farmer.md) | [Mori Mori no Mi](../missing-missing-no-mi/fruits/mori-mori-no-mi.md) | Faster techniques |
+| ![](icons/trades/farmer.png){ .item-icon }[Farmer](trades/farmer.md) | [Juku Juku no Mi](../missing-missing-no-mi/fruits/juku-juku-no-mi.md) | Faster techniques |
+| ![](icons/trades/fisher.png){ .item-icon }[Fisher](trades/fisher.md) | [Ami Ami no Mi](../missing-missing-no-mi/fruits/ami-ami-no-mi.md) | Faster techniques |
+| ![](icons/trades/merchant.png){ .item-icon }[Merchant](trades/merchant.md) | [Goru Goru no Mi](../missing-missing-no-mi/fruits/goru-goru-no-mi.md) | Faster techniques |
+
+Fruits marked with a link come from [Missing Missing no Mi](../missing-missing-no-mi/index.md); without it, their links are simply not there. The others are Mine Mine no Mi's own. A server can change the list in a data pack: one file per fruit in `data/<namespace>/fruit_trades/`, for example `{ "fruit": "mineminenomi:kuku_kuku_no_mi", "trades": { "inocruise:cook": "extra_output" } }`, with the bonuses `extra_output`, `ingredient_back`, `faster_techniques` and `faster_gathering`.
 
 ## Titles
 

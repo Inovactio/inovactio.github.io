@@ -1,5 +1,7 @@
 # Musician
 
+![](../icons/trades/musician.png){ .mod-icon }
+
 The Musician writes **scores** at the **Music Stand** and plays them on an instrument for their crew. A tune gives every crewmate within reach a buff that lasts 20 minutes or more: speed, faster work, healing, attack, armour, luck, more XP or more Doriki. It is the one trade whose recipes already run to **level 100**.
 
 | | |
@@ -9,6 +11,8 @@ The Musician writes **scores** at the **Music Stand** and plays them on an instr
 | Instruments | made by the [Inventor](inventor.md) at the Workshop |
 | Levels | 1 to 100; scores up to level 100 |
 | XP | writing scores (10 + 2 × the recipe's level) and playing them |
+
+**Devil Fruits** (since 0.8.0): the [Uta Uta no Mi](../../missing-missing-no-mi/fruits/uta-uta-no-mi.md) (one more) and the Oto Oto no Mi (faster techniques) help this trade. Its user earns 15 % more of its XP: see [Devil Fruits that help a trade](../trades-and-levels.md#devil-fruits-that-help-a-trade).
 
 ## The Music Stand
 

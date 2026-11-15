@@ -10,6 +10,8 @@ tags:
 
 # Fisher
 
+![](../icons/trades/fisher.png){ .mod-icon }
+
 The Fisher lands the islands' own catches (fish, shellfish, crustaceans, even a whale) with an ordinary fishing rod, measures each one in centimetres, and at the top of the trade hooks the **Sea Kings** of the deep sea and fights them.
 
 | | |
@@ -19,6 +21,8 @@ The Fisher lands the islands' own catches (fish, shellfish, crustaceans, even a 
 | Levels | 1 to 100; new catches up to level 50 |
 
 Fisher XP comes **only** from Cruise's catches, from Sea Kings, from a [fishing tournament](../village-events.md#a-fishing-tournament)'s medals and from the Bestiary (see [Bestiary and Log Book](../bestiary-and-logbook.md)). A vanilla cod, salmon or pufferfish, and any junk or treasure, gives none.
+
+**Devil Fruits** (since 0.8.0): the [Ami Ami no Mi](../../missing-missing-no-mi/fruits/ami-ami-no-mi.md) (faster techniques) helps this trade. Its user earns 15 % more of its XP: see [Devil Fruits that help a trade](../trades-and-levels.md#devil-fruits-that-help-a-trade).
 
 ## How a catch is decided
 

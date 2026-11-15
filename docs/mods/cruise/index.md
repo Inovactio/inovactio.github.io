@@ -6,9 +6,9 @@
 
 | | |
 |---|---|
-| Version documented | **0.7.0** (beta) |
+| Version documented | **0.8.0** (beta) |
 | Mod id | `inocruise` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.7.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9517317) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi) · [0.8.0](https://www.curseforge.com/minecraft/mc-mods/cruise-cruise-no-mi/files/9626153) · [changelog](changelog.md) |
 
 ## Requirements
 
@@ -17,13 +17,13 @@
 | Minecraft | 1.20.1 |
 | Forge | **47.4.2** or later: with an older one the game does not start |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 |
-| [AkumaLib](../../akumalib/index.md) | **6.5.0** or later: with an older one the game does not start |
+| [AkumaLib](../../akumalib/index.md) | **6.7.0** or later: with an older one the game does not start |
 | JEI or EMI | optional, recommended: every workstation, fish, creature and find shows in them |
 | [Sky Island](../sky-island/index.md) | optional, **1.0.2** or later: five [traits of the sky](traits.md#traits-of-the-sky) |
 | [Race Race no Mi](../race-race-no-mi/index.md) | optional: the [traits of its races](traits.md#traits-of-the-races) |
 | Valkyrien Skies 2 | optional: the Carpenter builds and mends its ships (see [Boats](boats.md#ships-of-valkyrien-skies-optional)) |
 
-Client **and** server, the same version on both: 0.7.0 has a new network protocol (57), so a 0.7.0 client cannot join a 0.6.1 server, nor the other way round.
+Client **and** server, the same version on both: 0.8.0 has a new network protocol, so a 0.8.0 client cannot join a 0.7.0 server, nor the other way round.
 
 !!! note "A beta"
     Everything is playable, but numbers - how often the [village events](village-events.md) and the [events out in the world](events-at-sea.md) come, what they carry and pay - may still move with the players' feedback.
@@ -31,37 +31,39 @@ Client **and** server, the same version on both: 0.7.0 has a new network protoco
 ## Solo or Crew
 
 - **Solo** (single player): every trade is yours.
-- **Crew** (dedicated servers): each player **chooses one trade** in Mine Mine no Mi's character creator, and needs the others. The Fisher's catch goes to the Cook, the Miner's ore to the Blacksmith, the Hunter's creatures to the Chemist.
+- **Crew** (dedicated servers): each player **chooses one trade** in Mine Mine no Mi's character creator, and needs the others. The Fisher's catch goes to the Cook, the Miner's ore to the Blacksmith, the Hunter's creatures to the Chemist. Since 0.8.0 a server can let each player [take more than one](trades-and-levels.md#several-trades).
 
-The mode is AkumaLib's setting, in the world's `serverconfig/akumalib-server.toml`. A **Potion of Forgetting** lets a Crew player change trade, starting over.
+The mode is AkumaLib's setting, in the world's `serverconfig/akumalib-server.toml`. A **Potion of Forgetting** lets a Crew player give up one trade for another.
+
+Since 0.8.0 some **Devil Fruits help a trade**: the Kuku Kuku the Cook, the Gutsu Gutsu the Blacksmith, the Fuku Fuku the Tailor and others. See [Devil Fruits that help a trade](trades-and-levels.md#devil-fruits-that-help-a-trade).
 
 ## The fourteen trades
 
 | Trade | Workstation | What it does |
 |---|---|---|
-| **[Fisher](trades/fisher.md)** | - | 37 fish with their sizes, by biome and depth, down to the lava. Better rods. The **Sea Kings**. |
-| **[Hunter](trades/hunter.md)** | Tannery | Some thirty creatures, caught with the net or in traps, and from level 30 the base mod's big game. Leather, bait, lures. |
-| **[Farmer](trades/farmer.md)** | - | Seven fruit trees, plantations, golden orchards in the sky, harvests of quality. |
-| **[Cook](trades/cook.md)** | Kitchen | The game's 29 dishes, in three qualities, each with a meal buff. |
-| **[Inventor](trades/inventor.md)** | Workshop | Reels, sieves, nets, traps and their parts, dials, the Clima-Tacts, instruments. |
-| **[Chemist](trades/chemist.md)** | Laboratory | Remedies, powders and battle balls, up to the Rumble Ball. |
-| **[Miner](trades/miner.md)** | Masonry | Finds in the rock, from Iron Scrap to diamonds. |
-| **[Lumberjack](trades/lumberjack.md)** | - | The story's trees: the Kuuigosu, the Burning Tree, the colossal Treasure Tree Adam. |
-| **[Carpenter](trades/carpenter.md)** | Shipyard | Boats of four hulls and four shapes, hull parts, lockers, the Auction House. |
-| **[Blacksmith](trades/blacksmith.md)** | Forge | The base mod's weapons nobody could make, up to Brook's Soul Solid. |
-| **[Tailor](trades/tailor.md)** | Sewing Table | A hundred hats, capes and masks, every character outfit, the boats' sails. |
-| **[Merchant](trades/merchant.md)** | - | Better prices, contracts, the Auction House, treasure hunts, a stall in a town's market hall. |
-| **[Navigator](trades/navigator.md)** | Chart Table | Log Pose, Barometer, Sounding Lead, Sea Charts, the Eternal Pose, a log book of the world. |
-| **[Musician](trades/musician.md)** | Music Stand | Scores played on a flute, a violin, a guitar or a grand piano, to buff the whole crew. |
+| ![](icons/trades/fisher.png){ .item-icon }**[Fisher](trades/fisher.md)** | - | 37 fish with their sizes, by biome and depth, down to the lava. Better rods. The **Sea Kings**. |
+| ![](icons/trades/hunter.png){ .item-icon }**[Hunter](trades/hunter.md)** | Tannery | Some thirty creatures, caught with the net or in traps, and from level 30 the base mod's big game. Leather, bait, lures. |
+| ![](icons/trades/farmer.png){ .item-icon }**[Farmer](trades/farmer.md)** | - | Seven fruit trees, plantations, golden orchards in the sky, harvests of quality. |
+| ![](icons/trades/cook.png){ .item-icon }**[Cook](trades/cook.md)** | Kitchen | The game's 29 dishes, in three qualities, each with a meal buff. |
+| ![](icons/trades/inventor.png){ .item-icon }**[Inventor](trades/inventor.md)** | Workshop | Reels, sieves, nets, traps and their parts, dials, the Clima-Tacts, instruments. |
+| ![](icons/trades/chemist.png){ .item-icon }**[Chemist](trades/chemist.md)** | Laboratory | Remedies, powders and battle balls, up to the Rumble Ball. |
+| ![](icons/trades/miner.png){ .item-icon }**[Miner](trades/miner.md)** | Masonry | Finds in the rock, from Iron Scrap to diamonds. |
+| ![](icons/trades/lumberjack.png){ .item-icon }**[Lumberjack](trades/lumberjack.md)** | - | The story's trees: the Kuuigosu, the Burning Tree, the colossal Treasure Tree Adam. |
+| ![](icons/trades/carpenter.png){ .item-icon }**[Carpenter](trades/carpenter.md)** | Shipyard | Boats of four hulls and four shapes, hull parts, lockers, the Auction House. |
+| ![](icons/trades/blacksmith.png){ .item-icon }**[Blacksmith](trades/blacksmith.md)** | Forge | The base mod's weapons nobody could make, up to Brook's Soul Solid. |
+| ![](icons/trades/tailor.png){ .item-icon }**[Tailor](trades/tailor.md)** | Sewing Table | A hundred hats, capes and masks, every character outfit, the boats' sails. |
+| ![](icons/trades/merchant.png){ .item-icon }**[Merchant](trades/merchant.md)** | - | Better prices, contracts, the Auction House, treasure hunts, a stall in a town's market hall. |
+| ![](icons/trades/navigator.png){ .item-icon }**[Navigator](trades/navigator.md)** | Chart Table | Log Pose, Barometer, Sounding Lead, Sea Charts, the Eternal Pose, a log book of the world. |
+| ![](icons/trades/musician.png){ .item-icon }**[Musician](trades/musician.md)** | Music Stand | Scores played on a flute, a violin, a guitar or a grand piano, to buff the whole crew. |
 
 Every trade's combat technique has its own gesture since 0.6.0, and follows the size of a giant. A **Cruise Guide**, a book handed to every player, says where to start and has a chapter for each trade. Every trade levels from 1 to 100, with a **talent point** every 5 levels to spend in its web of talents, combat abilities among them, and a **title** at levels 25, 50, 75 and 100. Its page in the profession book (**K**) shows what each level unlocks. How levels, XP, Solo and Crew work: [Trades and levels](trades-and-levels.md). A server can make any trade level faster or slower: see [Configuration](configuration.md).
 
 ## Across the trades
 
-- **[Villages](villages.md)**: One Piece villages in five lands - plains, desert, snowy plains, savanna and taiga - each in its land's look, with a market square, a tavern, workshops, a town hall and a port, people who have their day there, each with a name, and a notice board with five small orders every morning and the news. No monster spawns in one. Marines, a pirate crew or the Revolutionaries keep some of them, and their men walk the square by day. Strike a villager and the village closes to you; break it and it mends itself; kill its people and it dies, until it [lives again](villages.md#a-dead-village-lives-again). Since 0.7.0 every village has a **[prosperity](villages.md#prosperity-a-village-grows)**: treated well, it grows building by building into a walled town; harmed, it shrinks. It has [guards of its own](villages.md#a-village-defends-itself), calls the Marines when one of its people is killed, and sends [bounty hunters or a vice admiral](villages.md#village-killers-are-hunted) after those who wipe villages out.
+- **[Villages](villages.md)**: One Piece villages in five lands - plains, desert, snowy plains, savanna and taiga - each in its land's look, with a market square, a tavern, workshops, a town hall and a port, people who have their day there, each with a name, and a notice board with five small orders every morning and the news. No monster spawns in one. Marines, a pirate crew or the Revolutionaries keep some of them, and their men walk the square by day. Strike a villager and the village closes to you; break it and it mends itself; kill its people and it dies, until it [lives again](villages.md#a-dead-village-lives-again). Since 0.7.0 every village has a **[prosperity](villages.md#prosperity-a-village-grows)**: treated well, it grows building by building into a walled town; harmed, it shrinks. It has [guards of its own](villages.md#a-village-defends-itself), calls the Marines when one of its people is killed, and sends [bounty hunters or a vice admiral](villages.md#village-killers-are-hunted) after those who wipe villages out. Since 0.8.0 a growing village also [builds on the water and on the hills](villages.md#villages-build-on-the-water-and-on-the-hills): pontoons, bridges, a harbour with a lighthouse and terraces, and it [asks for what its land gives](villages.md#what-they-ask-for).
 - **[Towns](towns.md)**: one place in three is a walled town, with its guards, a market hall where the merchants always are, an inn that lets rooms and a warehouse that buys in bulk; and since 0.6.0 a **bank** with accounts, loans and deposit boxes, a **colosseum** with its ladder of ten tiers, its bets and [six grounds](towns.md#the-six-grounds), a **black market** under the tavern, a **bounty office**, and a quarter of **plots** from 9 by 9 to 25 by 25, where the Carpenter's **house plans** raise a house. One town in three has a noble quarter, with its manor, its nobles, their orders and the Antiquarian.
 - **[Playing a civilian](villages.md#playing-a-civilian)**: everyone starts as one since 0.6.0, with no bounty and no side, and earns a side by what they do: a pirate by their crimes, a Bounty Hunter at a town's bounty office, a Revolutionary through a hooded contact.
-- **[Your name in a village](villages.md#your-name-in-a-village)**: seven steps from Sworn Enemy to Hero, for each village and each player; prices, loans and doors follow it.
+- **[Your name in a village](villages.md#your-name-in-a-village)**: seven steps from Sworn Enemy to Hero, for each village and each player; prices, loans and doors follow it. Since 0.8.0 there are [many ways to win it](villages.md#winning-a-village-over): a wish a day, cures, repairs, the night watch, feasts, lost villagers and castaways brought home, stolen goods brought back, sick villagers in bed, and lessons at the village [school](villages.md#the-school).
 - **[Traits](traits.md)**: every player is born with 2 to 5 qualities and flaws, out of 78, some of them only for a race or only with Sky Island.
 - **[A village under your flag](village-flags.md)**: a crew, the Marines or the Revolutionaries win a village by trust, by fear or by force, collect its rent, and keep it against raids - and, on a server, against other players.
 - **[Village events](village-events.md)**: a concert on the square, a fever to cure with the Chemist's remedies, a swordsmith from Wano who forges the base mod's named blades, a fishing tournament on the quay. Announced in the chat, told on the notice boards and sold as rumours by the barkeepers.
