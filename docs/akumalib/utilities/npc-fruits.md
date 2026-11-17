@@ -69,6 +69,25 @@ Mobs spawn by the thousands: 0.01 % is about one fruit user for 10,000 mobs, a r
 
 From code: `MobFruitUsers.draw(mob)` gives a mob a fruit by the same draw; `MobFruitUsers.mayTakeFruit(mob)` says whether one may have it at all.
 
+## Pirates with a failed SMILE
+
+*Since 6.8.0.* A pirate with no Devil Fruit (captain, notorious captain, grunt, brute, sniper) may spawn as a failed SMILE user: locked in the odd form of a Zoan, it fights with that form's techniques, as Kaido's Gifters do. One key in `akumalib-server.toml`, section `npcFruitUsers`:
+
+| Key | Default | |
+|---|---|---|
+| `npcSmileChance` | `0.0` | chance in %, 0.0 to 100.0, per pirate spawned; 0: off |
+
+Grunts spawn about 20 times as often as captains: 3 % already gives a few.
+
+- **Pirates only**: Marines and bandits never. Never an NPC that already has a fruit (the base mod's or a troop's draw comes first).
+- **Any Zoan with a failure form** an addon declared ([SMILEs](smiles.md)), then one of its forms by their weights. A form whose techniques have no goal wrapper (`addGoalWrapper`) is never drawn: an addon wires its forms' techniques as it wires its fruits'.
+- **A failure only**: a success is the real Zoan's power, which the base mod's draw gives already.
+- Rolled at the spawn, drawn as the NPC joins its world (its faction is known then): natural spawns, a camp's NPCs, spawners, `/summon`.
+- Kept after a reload: the SMILE is the NPC's fruit, saved with it; `NpcStyles` gives its techniques' goals back, `SmileForms` its form, which every player who comes to see it sees. The form's stats are saved with the NPC, so it keeps the form's health.
+- No SMILE is dropped on death.
+
+From code: `NpcSmiles.draw(mob)` gives a mob a failed SMILE by the same draw, `NpcSmiles.give(mob, zoan, form)` a chosen form; `NpcStyles.takeFruit(mob)` takes it off.
+
 ## Fewer Rokushiki for captains and notorious NPCs
 
 *Since 5.1.0.* The base mod gives every human captain 3 Rokushiki (2 for a bandit leader), Soru first, and a notorious NPC 3 to 5: fights with them are hard to read. Now a captain (pirate, Marine, bandit leader) or a human notorious NPC (vice admiral, notorious captain) draws how many it knows, and uses them from time to time. Section `npcRokushiki` of `akumalib-server.toml`:

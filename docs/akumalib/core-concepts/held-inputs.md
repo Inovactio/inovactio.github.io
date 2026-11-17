@@ -20,7 +20,7 @@ if (HeldInputs.isHeld(player, HeldInputs.Input.USE)) {
 }
 ```
 
-Two keys can be watched: `Input.USE` (right click by default) and `Input.ATTACK` (left click).
+Three keys can be watched: `Input.USE` (right click by default), `Input.ATTACK` (left click) and, since protocol 22, `Input.JUMP` (space: a glide held in the air).
 
 ## What is sent, and when
 

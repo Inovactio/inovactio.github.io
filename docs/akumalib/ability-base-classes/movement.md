@@ -164,6 +164,10 @@ this.continuousComponent
 !!! warning "The base mod's flight is not vanilla flight"
     `PropelledFlightAbility` never sets `player.getAbilities().flying`: it turns gravity off and drives the velocity itself. Read `isNoGravity()` if you need to know whether a player is flying, and never enable a flight through a pause (`takeOff` refuses to) - haki overuse, Seastone and protected areas pause a passive to take flight away.
 
+A winged form's pose only in flight, never on a jump: `AkumaFlight.isFlying(entity)` (gravity off, not on the ground, in
+water or riding; either side), and `AkumaFlight.pose(entity, animationComponent)` each tick of the form, which plays the
+base mod's `ASSAULT_FLY` while it flies (a player's own flight too) and stops it otherwise (*since 6.8.0*).
+
 ### NPCs that fly
 
 *Since 5.0.0.* The base mod's flight works for players only: an NPC that draws the fruit takes the forms and stays on the ground. Give the flight passive a goal wrapper, `FlightAbilityWrapperGoal`, and the NPC flies from the server, with no input:

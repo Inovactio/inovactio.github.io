@@ -23,8 +23,8 @@ dependencies {
     minecraft "net.minecraftforge:forge:1.20.1-47.4.18"
 
     implementation fg.deobf("maven.modrinth:mine-mine-no-mi:1.20.1-0.11.6")
-    // AkumaLib 6.7.0 on CurseForge: project 1678152, file 9619311
-    implementation fg.deobf("curse.maven:akumalib-1678152:9619311")
+    // AkumaLib 6.8.0 on CurseForge: project 1678152, file 9666324
+    implementation fg.deobf("curse.maven:akumalib-1678152:9666324")
 }
 ```
 
@@ -42,7 +42,7 @@ Then declare AkumaLib as a required dependency, so Forge shows its missing-mod s
 [[dependencies.yourmodid]]
     modId = "akumalib"
     mandatory = true
-    versionRange = "[6.7.0,)"
+    versionRange = "[6.8.0,)"
     ordering = "AFTER"
     side = "BOTH"
 

@@ -66,6 +66,7 @@ Zoan, and says when that Zoan has no failure form. Never whether it is a success
 - The encyclopedia never records a SMILE, success or not (the maintainer's choice, 2026-11-12).
 
 `Smiles.give(entity, data)` makes any living entity a SMILE user without the curse checks: an NPC given one by an addon.
+Pirate NPCs may spawn with a failed SMILE (`npcSmileChance`, *since 6.8.0*): see [Devil Fruits on NPCs](npc-fruits.md).
 
 ## Declaring failure forms
 

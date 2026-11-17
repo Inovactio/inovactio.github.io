@@ -2,6 +2,83 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 6.8.0 { #v6-8-0 }
+
+<small>Released 2026-11-17 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9666324)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Lineage traits, minks drawn anew, and towers that mend.</strong> A body can now carry the traits of a race over its own, the
+Lineage Factor of the Nomi Nomi no Mi and of Race Race no Mi. Minks get new ears, muzzles, tails and manes, seven kinds
+of them, and a white feral form. NPCs can wear the look of a race. The creator book shows more than seven techniques on a
+page. A place the world puts back is now mended even when nobody stood near it. A man at normal size plays exactly as
+before. No signature was removed or changed for addons.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are
+optional. Curios is optional.</p>
+<p>⚠️ <strong>The network protocol is now 23</strong> (it was 21 in 6.7.0). The server and every player must have AkumaLib 6.8.0. A
+6.7.0 game cannot join a 6.8.0 server, nor the other way round.</p>
+<p>⚠️ <strong>Race Race no Mi 0.5.0 needs AkumaLib 6.8.0.</strong> The other published addons, Missing Missing no Mi 8.0.0 among them,
+run on it as they are.</p>
+<hr />
+<h2>New</h2>
+<ul>
+<li><strong>Lineage traits.</strong> A body can carry the traits of other races over its own: their stats, part of their size and
+  their look (horns, a tail, a mink's ears). Each race and sub-race has its own Lineage Factor; a race's own bodies carry
+  it already and can never be given it twice. Past three traits a body grows unstable: it loses some health and every
+  trait weakens. Traits are kept at death by default. The base mod's races have theirs too: <strong>Human Lineage</strong> (+25 %
+  Doriki and Haki experience) and <strong>Mink Lineage</strong> (+50 % speed, a higher jump, softer falls, a dog's, lion's or bunny's
+  ears and tail).</li>
+<li><strong>Minks drawn anew</strong> (with Race Race no Mi): ears, a muzzle in relief, a tail that wags, the lion's mane, the bull's
+  horns, for seven kinds of mink: dog, lion, bunny, cat, jaguar, polar bear and bull, each in a few canon fur colours.
+  The fur takes the skin colour chosen in the book; the lion's mane takes the colour of your hair. In their feral form
+  their fur turns white, the tail and mane grow and the eyes shine red in the dark. Without Race Race no Mi, minks look
+  as before.</li>
+<li><strong>NPCs of a race look like it.</strong> An NPC given a race by an addon wears its horns, tail, fins and skin colour, as a
+  player of that race does.</li>
+<li><strong>The creator book shows every technique.</strong> A page with more than seven techniques puts them on two or three rows. A
+  page with seven or fewer is unchanged.</li>
+<li><strong>A furnace you carry</strong> (for addons): Race Race no Mi's Furnace Module cooks with the game's furnace screen, no block
+  placed.</li>
+<li><strong>One double jump for every addon</strong>, taken from the Seiryu hybrid's (Missing Missing no Mi). Race Race no Mi's Heel
+  Boosters use it: your game moves you at once, then the server checks it, so the jump never comes late. Once until
+  you touch the ground, water, a ladder or a mount.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Places the world puts back</strong> (Impel Down, the Mirro-World). A place left with its chunks unloaded stayed broken
+  until someone stood in it again for long enough. It is now mended as soon as its chunk loads.</li>
+<li><strong>A shulker box</strong> in a place the world puts back no longer vanishes with its contents: it drops as an item, with
+  everything still inside.</li>
+<li><strong>A mink in Sulong</strong>, drawn beside other minks, could take the mane and tail size of the one drawn before it for a
+  frame. Each one now has its own.</li>
+<li><strong>A giant turned human</strong> no longer counts as a giant for the Lineage traits.</li>
+</ul>
+<h2>For server operators</h2>
+<ul>
+<li><strong><code>akumalib-server.toml</code></strong>, section <code>traits</code>: <code>stableTraits</code> (3), <code>unstableHealthLoss</code> (10 %), <code>unstableWeakening</code>
+  (15 %) and <code>traitsKeptOnDeath</code> (true).</li>
+<li><strong><code>/akumalib faction prison send &lt;player&gt; &lt;minutes&gt; [level]</code></strong> sends a pirate to prison for the time you give (and, in
+  a prison with levels such as Impel Down, to that level). <code>send &lt;player&gt;</code> alone still uses his bounty, as before.</li>
+<li><strong><code>akumalib-server.toml</code></strong>, section <code>npcFruitUsers</code>: <code>npcSmileChance</code> (0 to 100 %, <strong>default 0 = off</strong>). Above 0, a
+  pirate NPC with no fruit may spawn locked in a failed SMILE form, when an addon has one. Marines and bandits never do.</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li><strong>Traits</strong> (<code>api/races/AkumaTraits</code>, <code>TraitAbility</code>, <code>BaseRaceTraits</code>): register a trait, graft it, take it away; a
+  shared passive that shows it. <code>HeldInputs.Input.JUMP</code>.</li>
+<li><strong>Minks</strong> (<code>api/races/AkumaMinks</code>): <code>players()</code>, <code>declareSubRace</code>, <code>look</code>, <code>feral</code>, <code>furColour</code>.</li>
+<li><strong>NPC looks</strong>: <code>NpcRaceRenderers.humanoids()</code>, <code>SkinSwaps.registerLiving</code>, <code>RecolouredSkins.skinColour</code>.</li>
+<li><strong>NPC SMILE users</strong>: <code>util/NpcSmiles</code>.</li>
+<li><strong>Worlds</strong>: <code>SpawnPost.Settings</code> takes a <code>stock</code> (the 4-value constructor stays), <code>SpawnPostBlockEntity.reaches</code>.</li>
+<li><strong>Baton and spear techniques</strong> (<code>WeaponTechniques</code>): eight techniques of a held weapon (Knockout Blow, Flurry, Sweep,
+  Parry, Thrust, Spear Charge, Spear Whirl, Spear Throw), each with its NPC goal. AkumaLib gives them to no one by
+  itself; the weapons are the item tags <code>akumalib:batons</code> and <code>akumalib:spears</code>.</li>
+<li><strong>Shared particles</strong>: <code>akumalib:drop</code>, <code>puff</code>, <code>glint</code>, <code>ring</code>, and <code>AkumaParticleProviders</code> for an addon's own.</li>
+<li><strong>Smaller pieces</strong>: <code>PersonalFurnace</code>, <code>TechniquePose</code>, <code>AkumaFlight.isFlying</code> / <code>pose</code>,
+  <code>AttributeBonusHelper.setTransient</code>, <code>BaseModAccess</code>, <code>DoubleJumps</code> (a double jump an addon registers).</li>
+</ul>
+<p>An addon that uses any of these declares <code>versionRange = "[6.8.0,)"</code>. Leave the top of the range open.</p>
+</div>
+
 ## 6.7.0 { #v6-7-0 }
 
 <small>Released 2026-11-14 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9619311)</small>

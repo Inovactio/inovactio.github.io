@@ -2,8 +2,8 @@
 
 Player wikis and developer documentation for Inovactio's Minecraft mods. All of them are addons for [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod), on **Minecraft 1.20.1** with **Forge**.
 
-!!! tip "New on 2026-11-15"
-    Cruise Cruise no Mi 0.8.0 (many ways to win a village over, a school, villages that build on the water and on the hills, several trades per player, Devil Fruits that help a trade). Also Missing Missing no Mi 8.0.0 and AkumaLib 6.7.0 on 2026-11-14. See [what's new](whats-new.md).
+!!! tip "New on 2026-11-17"
+    Race Race no Mi 0.5.0 (cyborgs rebuilt part by part, four new kinds of mink with Electro and the Sulong, a Lineage Factor for every race) and AkumaLib 6.8.0. Also Cruise Cruise no Mi 0.8.0 on 2026-11-15. See [what's new](whats-new.md).
 
 <div class="grid cards" markdown>
 

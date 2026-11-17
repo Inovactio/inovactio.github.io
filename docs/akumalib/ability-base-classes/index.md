@@ -28,6 +28,7 @@ Every class here extends a Mine Mine no Mi type and encodes a technique shape th
 | a form with a time limit that comes in several sizes | `TimedSizeFormAbility` | [Giants of matter](giants.md) |
 | passing through blocks: a dive, a walk through a wall | `BlockPassageAbility` | [Movement](movement.md) |
 | catching a target and holding it | `GrabAbility` | [Grabs](grabs.md) |
+| a technique of a held baton or spear, ready made | `WeaponTechniques` | [Baton and spear techniques](weapon-techniques.md) |
 | taking a target along while staying free to move | `CarryAbility` | [Carries](carries.md) |
 | a wave that runs ahead of the user, hitting each body once and carrying it along | `WaveAbility` | [Waves](waves.md) |
 | a dive on a quarry that ends in one blow | `DiveStrikeAbility` | [Dives and gusts](dives-and-gusts.md) |

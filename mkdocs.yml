@@ -344,6 +344,8 @@ nav:
       - Buccaneers: mods/race-race-no-mi/buccaneers.md
       - Merfolk: mods/race-race-no-mi/merfolk.md
       - Modified Humans: mods/race-race-no-mi/modified-humans.md
+      - Minks: mods/race-race-no-mi/minks.md
+      - Cyborgs: mods/race-race-no-mi/cyborgs.md
       - All techniques: mods/race-race-no-mi/all-techniques.md
       - Configuration: mods/race-race-no-mi/configuration.md
       - Changelog: mods/race-race-no-mi/changelog.md
@@ -409,6 +411,7 @@ nav:
           - Charges: akumalib/core-concepts/charges.md
           - Awakening abilities: akumalib/core-concepts/awakenings.md
           - Held inputs: akumalib/core-concepts/held-inputs.md
+          - Double jumps: akumalib/core-concepts/double-jumps.md
           - The civilian faction: akumalib/core-concepts/civilian-faction.md
       - Size system:
           - akumalib/size/index.md
@@ -425,6 +428,7 @@ nav:
           - Size defects register: akumalib/utilities/size-defects.md
       - Players and races:
           - Races: akumalib/utilities/races.md
+          - Grafted traits: akumalib/utilities/traits.md
           - Character creator: akumalib/utilities/character-creator.md
           - Titles: akumalib/utilities/titles.md
           - Doriki and Cola: akumalib/utilities/doriki.md
@@ -441,6 +445,7 @@ nav:
           - Terrain: akumalib/ability-base-classes/terrain.md
           - Passives: akumalib/ability-base-classes/passives.md
           - Movement: akumalib/ability-base-classes/movement.md
+          - Baton and spear techniques: akumalib/ability-base-classes/weapon-techniques.md
           - Grabs: akumalib/ability-base-classes/grabs.md
           - Carries: akumalib/ability-base-classes/carries.md
           - Waves: akumalib/ability-base-classes/waves.md
@@ -511,6 +516,7 @@ nav:
       - Blocks, visuals and screens:
           - Blocks: akumalib/utilities/blocks.md
           - Lines: akumalib/utilities/lines.md
+          - Shared particles: akumalib/utilities/particles.md
           - Tooltips: akumalib/utilities/tooltips.md
           - Screens: akumalib/utilities/screens.md
       - Fixes to the base mod: akumalib/utilities/base-mod-fixes.md
