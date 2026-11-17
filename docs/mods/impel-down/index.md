@@ -44,7 +44,7 @@ Client **and** server.
 | **[The prisoners](prisoners.md)** | life in the cells, breakouts, their Devil Fruits, their races and the giants |
 | **[Keys, lifts and desks](keys.md)** | the cell keys of each level, the master key and the control desk, the lift key and the staff lift |
 | **[Jailed](jailed.md)** | the arrest, giving yourself up, your sentence, your gear in the depot, and the ways to escape |
-| **[Blocks and items](blocks-and-items.md)** | the tower's blocks, the uniforms, the frozen ration, the hidden hook; the loot |
+| **[Blocks and items](blocks-and-items.md)** | the tower's blocks, the uniforms, the hidden hook; the loot |
 | **[Advancements](advancements.md)** | the Impel Down tab, from the gate to the warden |
 | **[Configuration](configuration.md)** | how many prisons, the tower's mending, the guards' strength, the alarm, the arrest; the `/impel` command |
 
@@ -58,4 +58,5 @@ A tower does not stay broken. **30 minutes** after the last player leaves it, it
 - **[Missing Missing no Mi](../missing-missing-no-mi/index.md)**: Impel Bricks count as stone for the Ishi Ishi no Mi.
 - **Fruits that go through blocks** (Nuke Nuke, the Dachshund, Shima Shima...): a player found outside a tower's walls is put back inside.
 - **The base mod's Marines** fight on the jailers' side, and its Marines, Pacifistas and bounty hunters can [arrest](jailed.md) a pirate instead of killing him.
+- **Other mods' structures** (the base mod's ships, vanilla's ruins, a worldgen mod's buildings) never generate inside a prison or its Gate of Justice.
 - **Datapacks**: where prisons may stand (the biome tag `inoimpel:gate_biomes`, deep oceans by default), the bounties that send a prisoner to each level (`data/inoimpel/arrest/level_bounties.json`) and the prisoners' races per level (`data/inoimpel/prison_races/`) can all be replaced.

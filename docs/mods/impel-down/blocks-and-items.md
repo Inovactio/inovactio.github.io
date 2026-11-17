@@ -7,7 +7,6 @@ tags:
   - outfit
   - uniform
   - clothes
-  - frozen ration
   - hidden hook
   - loot
   - chests
@@ -59,12 +58,13 @@ The tower's people wear their uniforms, and the tower's chests hold some. Each p
 
 | Item | What it is |
 |---|---|
-| ![](items/frozen_ration.png){ .item-icon } **Frozen Ration** | Level 5's food, frozen hard: it cannot be eaten as it is. Thaw it into **bread** in a furnace, a smoker or on a campfire. |
 | **Hidden Hook** | What a [jailed](jailed.md#escaping) player may find in his cell: held by his door, it forces the lock. |
 | **Keys** | The cell keys, the Master Key and the Lift Key: see [keys, lifts and desks](keys.md). |
 
 ## Loot
 
-The tower's chests are in its armories, depots, offices, laboratory, refectory and quarters. **The deeper, the richer**: more items, more Belly, rarer things. Level 3 keeps no food, and level 5's is frozen.
+The tower's chests are in its armories, depots, offices, laboratory, refectory and quarters. **The deeper, the richer**: more items, more Belly, rarer things, and each level has a few things of its own.
 
-**Devil Fruit boxes** may be in any chest of the tower, more often the deeper. And every tower keeps **one box for certain on level 6**, always in the same depot chest. The server can change these chances (`fruitBoxes` in the [configuration](configuration.md#tower)). Chests fill again after each [mending](the-tower.md#the-tower-mends-itself).
+Two more kinds of chest: **a prisoner's stash**, hidden in one cell in eight on levels 1 to 6, and **the remains** in the beasts' lairs of levels 1, 2 and 5.
+
+**Devil Fruit boxes** may be in the tower's chests (not in a stash or the remains), more often the deeper. And every tower keeps **one box for certain on level 6**, always in the same depot chest. The server can change these chances (`fruitBoxes` in the [configuration](configuration.md#tower)). Chests fill again after each [mending](the-tower.md#the-tower-mends-itself).
