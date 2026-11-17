@@ -2,6 +2,27 @@
 
 Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/all). The Minecraft 1.16.5 releases (0.2.1 to 0.7.2) are listed there too.
 
+## 3.0.3 { #v3-0-3 }
+
+<small>Released 2026-11-17 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9668589)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>A fix for the Mera Mera no Mi.</strong></p>
+<hr />
+<h3>Fixes</h3>
+<ul>
+<li><strong>Mera Mera no Mi</strong>: you can no longer fly without the awakening. A double jump made any Mera user fly; flight now needs the awakened Crown of Flames, and it ends if you lose the awakening or the fruit</li>
+</ul>
+<hr />
+<h3>Requirements</h3>
+<ul>
+<li>Minecraft <strong>1.20.1</strong></li>
+<li>Forge <strong>47.4.2+</strong></li>
+<li><strong>Mine Mine no Mi</strong> <code>1.20.1-0.11.6</code></li>
+<li><strong>AkumaLib</strong> <code>6.6.0+</code></li>
+</ul>
+</div>
+
 ## 3.0.2 { #v3-0-2 }
 
 <small>Released 2026-11-09 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9523280)</small>
