@@ -23,8 +23,8 @@ dependencies {
     minecraft "net.minecraftforge:forge:1.20.1-47.4.18"
 
     implementation fg.deobf("maven.modrinth:mine-mine-no-mi:1.20.1-0.11.6")
-    // AkumaLib 6.8.0 on CurseForge: project 1678152, file 9666324
-    implementation fg.deobf("curse.maven:akumalib-1678152:9666324")
+    // AkumaLib 6.8.1 on CurseForge: project 1678152, file 9668586
+    implementation fg.deobf("curse.maven:akumalib-1678152:9668586")
 }
 ```
 

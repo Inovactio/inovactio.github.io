@@ -6,9 +6,9 @@
 
 | | |
 |---|---|
-| Version documented | **3.0.2** |
+| Version documented | **3.0.3** |
 | Mod id | `awakenawakennomi` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) · [3.0.2](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9523280) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) · [3.0.3](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9668589) |
 | Changelog | [Every release](changelog.md) |
 
 !!! danger "Do not use 3.0.0"
