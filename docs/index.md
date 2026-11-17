@@ -67,6 +67,16 @@ Player wikis and developer documentation for Inovactio's Minecraft mods. All of 
 
     [:octicons-arrow-right-24: Read the wiki](mods/sky-island/index.md)
 
+-   ![](assets/icons/impel-down.png){ .card-icon } **Impel Down**
+
+    ---
+
+    The World Government's great prison under the sea: seven levels down to the Eternal Hell, its guards and beasts, its prisoners, and a cell of your own if the Marines beat you.
+
+    **Needs:** Mine Mine no Mi, AkumaLib
+
+    [:octicons-arrow-right-24: Read the wiki](mods/impel-down/index.md)
+
 -   ![](assets/icons/cruise.png){ .card-icon } **Cruise Cruise no Mi**
 
     ---

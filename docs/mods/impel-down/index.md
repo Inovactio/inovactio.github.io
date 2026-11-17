@@ -17,6 +17,7 @@ tags:
 |---|---|
 | Version documented | **0.1.0** (beta) |
 | Mod id | `inoimpel` |
+| Download | [CurseForge](https://www.curseforge.com/projects/1812558) · [changelog](changelog.md) |
 | Languages | English |
 
 !!! warning "Beta"
@@ -28,8 +29,9 @@ tags:
 |---|---|
 | Minecraft | 1.20.1 |
 | Forge | **47.4.2** or later |
-| [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 |
-| [AkumaLib](../../akumalib/index.md) | **6.8.0** or later |
+| [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | **0.11.6** or later |
+| [AkumaLib](../../akumalib/index.md) | **6.8.1** or later |
+| [Race Race no Mi](../race-race-no-mi/index.md) | optional: prisoners of other races, giants included |
 
 Client **and** server.
 

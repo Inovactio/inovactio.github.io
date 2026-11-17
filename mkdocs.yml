@@ -63,8 +63,6 @@ extra_javascript:
 
 # Unreleased mods: their pages stay in the repository but are not built or published.
 # Add a line here for one, and remove it (adding the page back to the nav and the home page) when it is released.
-exclude_docs: |
-  /mods/impel-down/
 
 markdown_extensions:
   - admonition
@@ -365,6 +363,19 @@ nav:
       - Advancements: mods/sky-island/advancements.md
       - Configuration: mods/sky-island/configuration.md
       - Changelog: mods/sky-island/changelog.md
+  - Impel Down:
+      - mods/impel-down/index.md
+      - Getting there: mods/impel-down/getting-there.md
+      - The tower: mods/impel-down/the-tower.md
+      - The staff: mods/impel-down/staff.md
+      - The beasts: mods/impel-down/beasts.md
+      - The prisoners: mods/impel-down/prisoners.md
+      - Keys, lifts and desks: mods/impel-down/keys.md
+      - Jailed: mods/impel-down/jailed.md
+      - Blocks and items: mods/impel-down/blocks-and-items.md
+      - Advancements: mods/impel-down/advancements.md
+      - Configuration: mods/impel-down/configuration.md
+      - Changelog: mods/impel-down/changelog.md
   - Cruise Cruise no Mi:
       - mods/cruise/index.md
       - Trades and levels: mods/cruise/trades-and-levels.md
