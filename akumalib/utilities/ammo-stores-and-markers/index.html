@@ -8363,6 +8363,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -8712,6 +8716,62 @@
     
   
     Modified Humans
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/minks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Minks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/cyborgs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cyborgs
   
 
     
@@ -10576,6 +10636,8 @@
       
         
       
+        
+      
     
     
     
@@ -10844,6 +10906,34 @@
     
   
     Held inputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/double-jumps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Double jumps
   
 
     
@@ -11330,6 +11420,8 @@
       
         
       
+        
+      
     
     
     
@@ -11393,6 +11485,34 @@
     
   
     Races
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../traits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grafted traits
   
 
     
@@ -11703,6 +11823,8 @@
       
         
       
+        
+      
     
     
     
@@ -11887,6 +12009,34 @@
     
   
     Movement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/weapon-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baton and spear techniques
   
 
     
@@ -12680,6 +12830,17 @@
     <span class="md-ellipsis">
       
         PlayerStore: items a player keeps with him
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personalfurnace-a-furnace-a-player-carries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PersonalFurnace: a furnace a player carries
       
     </span>
   </a>
@@ -14168,6 +14329,8 @@
       
         
       
+        
+      
     
     
     
@@ -14259,6 +14422,34 @@
     
   
     Lines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../particles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shared particles
   
 
     
@@ -14448,6 +14639,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#personalfurnace-a-furnace-a-player-carries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PersonalFurnace: a furnace a player carries
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#screenmarkers" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -14611,10 +14813,37 @@
 <li>The key is where it is written. Put the id of the addon in it and never change it once shipped.</li>
 <li>A player gets a new body when he dies and when he comes back from the End. The store is read again for the new body, so do not keep the container: ask <code>of(player)</code> each time.</li>
 </ul>
+<h2 id="personalfurnace-a-furnace-a-player-carries"><code>PersonalFurnace</code>: a furnace a player carries<a class="headerlink" href="#personalfurnace-a-furnace-a-player-carries" title="Permanent link">&para;</a></h2>
+<p><em>Since 6.8.0.</em> The game's furnace screen over three slots kept on the player (a <code>PlayerStore</code>), no block placed: a fruit user's belly, a cyborg's furnace part. It cooks every <code>smelting</code> recipe at the recipe's own speed and gives its experience as orbs. What heats it is yours.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">PersonalFurnace</span><span class="w"> </span><span class="n">OVEN</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">PersonalFurnace</span><span class="p">(</span><span class="s">"myaddon:belly_oven"</span><span class="p">,</span><span class="w"> </span><span class="n">player</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">hasFruit</span><span class="p">(</span><span class="n">player</span><span class="p">))</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">        </span><span class="p">.</span><span class="na">fuel</span><span class="p">(</span><span class="n">PersonalFurnace</span><span class="p">.</span><span class="na">Fuel</span><span class="p">.</span><span class="na">ENDLESS</span><span class="p">)</span><span class="w">   </span><span class="c1">// the default: never runs out</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">        </span><span class="p">.</span><span class="na">cooksWhenClosed</span><span class="p">(</span><span class="kc">true</span><span class="p">)</span><span class="w">                </span><span class="c1">// the default</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">        </span><span class="p">.</span><span class="na">keptAtDeath</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span><span class="w">                  </span><span class="c1">// the default: drops as the inventory does</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="n">OVEN</span><span class="p">.</span><span class="na">open</span><span class="p">(</span><span class="n">serverPlayer</span><span class="p">,</span><span class="w"> </span><span class="n">Component</span><span class="p">.</span><span class="na">translatable</span><span class="p">(</span><span class="s">"ability.myaddon.belly_oven_title"</span><span class="p">));</span>
+</code></pre></div>
+<ul>
+<li><strong>Owner check</strong> (constructor): read on the server every tick of a player whose furnace holds something. Once it is false (the fruit lost, the part taken off) the furnace spills at his feet. It also closes the screen.</li>
+<li><strong><code>Fuel</code></strong>: <code>canPay(player)</code> is asked every tick and cooking waits while it is false; <code>pay(player)</code> is called once per item, when it comes out (false keeps the item raw); <code>flame(player)</code> (0 to 1, default full while <code>canPay</code>) is the flame drawn in the screen. <code>Fuel.ENDLESS</code> costs nothing. A creative player never pays. Example, one cola per item:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">.</span><span class="na">fuel</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">PersonalFurnace</span><span class="p">.</span><span class="na">Fuel</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">canPay</span><span class="p">(</span><span class="n">ServerPlayer</span><span class="w"> </span><span class="n">p</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">cola</span><span class="p">(</span><span class="n">p</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">pay</span><span class="p">(</span><span class="n">ServerPlayer</span><span class="w"> </span><span class="n">p</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">spendCola</span><span class="p">(</span><span class="n">p</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="nf">flame</span><span class="p">(</span><span class="n">ServerPlayer</span><span class="w"> </span><span class="n">p</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">cola</span><span class="p">(</span><span class="n">p</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="p">(</span><span class="kt">float</span><span class="p">)</span><span class="w"> </span><span class="n">MAX_COLA</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="p">})</span>
+</code></pre></div>
+<ul>
+<li><strong><code>cooksWhenClosed(false)</code></strong>: it cooks only while its owner has its screen open.</li>
+<li><strong><code>keptAtDeath(true)</code></strong>: it stays with the player over a death. Otherwise it drops at his feet when he dies, unless the <code>keepInventory</code> rule is on.</li>
+<li><strong><code>spill(player)</code></strong>: drops it all at his feet and stops the cooking, at any time: call it when the part is removed.</li>
+<li><code>of(player)</code> gives the live slots (<code>INPUT</code>, <code>FUEL</code> which stays empty, <code>RESULT</code>), <code>keeps(player)</code> whether anything is in it, <code>cooked(player)</code> the ticks cooked on the current item, <code>tick(player)</code> one tick by hand (tests only, it ticks by itself).</li>
+<li>The fuel slot of the screen is locked. The client draws the game's own furnace screen, so a dedicated server needs nothing more.</li>
+<li>The key is where it is written. Put the id of the addon in it and never change it once shipped.</li>
+</ul>
 <h2 id="screenmarkers"><code>ScreenMarkers</code><a class="headerlink" href="#screenmarkers" title="Permanent link">&para;</a></h2>
 <p><em>Since 3.1.0.</em> Markers on one player's screen pointing at places in the world, for a while: a clairvoyance, a radar, Observation Haki.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">ScreenMarkers</span><span class="p">.</span><span class="na">show</span><span class="p">(</span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="s">"mymod"</span><span class="p">,</span><span class="w"> </span><span class="s">"radar"</span><span class="p">),</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">        </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ScreenMarkers</span><span class="p">.</span><span class="na">Marker</span><span class="p">(</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">target</span><span class="p">.</span><span class="na">position</span><span class="p">(),</span><span class="w"> </span><span class="mh">0xFFF3C94C</span><span class="p">)),</span><span class="w"> </span><span class="mi">300</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">ScreenMarkers</span><span class="p">.</span><span class="na">show</span><span class="p">(</span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ResourceLocation</span><span class="p">(</span><span class="s">"mymod"</span><span class="p">,</span><span class="w"> </span><span class="s">"radar"</span><span class="p">),</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">        </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ScreenMarkers</span><span class="p">.</span><span class="na">Marker</span><span class="p">(</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">target</span><span class="p">.</span><span class="na">position</span><span class="p">(),</span><span class="w"> </span><span class="mh">0xFFF3C94C</span><span class="p">)),</span><span class="w"> </span><span class="mi">300</span><span class="p">);</span>
 </code></pre></div>
 <p>Along a band at the top of the screen, each marker sits in its direction from where the player looks, with its label and distance; one behind the player goes to the edge with an arrow. A new <code>show</code> with the same source replaces that source's markers, others stay. Labels are cut at 64 characters and a packet carries at most 256 markers. Both sides need 3.1.0 (network protocol 5).</p>
 <h2 id="akumaamounts"><code>AkumaAmounts</code><a class="headerlink" href="#akumaamounts" title="Permanent link">&para;</a></h2>

@@ -8363,6 +8363,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -8712,6 +8716,62 @@
     
   
     Modified Humans
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/minks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Minks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/cyborgs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cyborgs
   
 
     
@@ -10576,6 +10636,8 @@
       
         
       
+        
+      
     
     
     
@@ -10844,6 +10906,34 @@
     
   
     Held inputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/double-jumps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Double jumps
   
 
     
@@ -11330,6 +11420,8 @@
       
         
       
+        
+      
     
     
     
@@ -11393,6 +11485,34 @@
     
   
     Races
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../traits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grafted traits
   
 
     
@@ -11703,6 +11823,8 @@
       
         
       
+        
+      
     
     
     
@@ -11887,6 +12009,34 @@
     
   
     Movement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/weapon-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baton and spear techniques
   
 
     
@@ -14166,6 +14316,8 @@
       
         
       
+        
+      
     
     
     
@@ -14257,6 +14409,34 @@
     
   
     Lines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../particles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shared particles
   
 
     
@@ -14601,7 +14781,7 @@
 </code></pre></div>
 <p>The block, its block entity type and where it is placed are registered by you: the library has no block.</p>
 <h2 id="what-a-post-is">What a post is<a class="headerlink" href="#what-a-post-is" title="Permanent link">&para;</a></h2>
-<p>Four values, saved with the block and writable by hand (<code>/data merge block ~ ~ ~ {kind:"minecraft:pig",max:2}</code>) or from code (<code>set(kind, max, delay, persistent)</code>):</p>
+<p>Five values, saved with the block and writable by hand (<code>/data merge block ~ ~ ~ {kind:"minecraft:pig",max:2}</code>) or from code (<code>set(kind, max, delay, persistent)</code>, or <code>set(kind, max, delay, persistent, stock)</code>):</p>
 <table>
 <thead>
 <tr>
@@ -14631,9 +14811,14 @@
 <td>kept for ever, see below</td>
 <td>false</td>
 </tr>
+<tr>
+<td><code>stock</code></td>
+<td><em>Since 6.8.0.</em> how many of the missing it replaces between two renewals, see below; under 0, any number</td>
+<td>-1 (<code>SpawnPost.Settings.UNLIMITED</code>)</td>
+</tr>
 </tbody>
 </table>
-<p>A post with no <code>kind</code> asks <code>fallback(level)</code>: a structure laid from a plan writes nothing in its posts, and every post already in the world follows a change of the plan.</p>
+<p>A post with no <code>kind</code> asks <code>fallback(level)</code>, stock included: a structure laid from a plan writes nothing in its posts, and every post already in the world follows a change of the plan.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nd">@Override</span>
 <a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kd">protected</span><span class="w"> </span><span class="n">SpawnPost</span><span class="p">.</span><span class="na">Settings</span><span class="w"> </span><span class="nf">fallback</span><span class="p">(</span><span class="n">ServerLevel</span><span class="w"> </span><span class="n">level</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">MyPlan</span><span class="p">.</span><span class="na">postAt</span><span class="p">(</span><span class="n">getBlockPos</span><span class="p">());</span><span class="w">     </span><span class="c1">// null: nothing</span>
@@ -14644,9 +14829,11 @@
 <li><strong>A player within <code>radius</code></strong> (alive, no spectator, all round it): it puts its people down, up to <code>max</code> at once the first time, then one each <code>delay</code> ticks while some are missing. They are spawned as a spawner's (<code>MobSpawnType.SPAWNER</code>), on the floor found up to <code>drop()</code> blocks under the post.</li>
 <li><strong>Nobody that near</strong>: it puts nothing down.</li>
 <li><strong>No player within 128 blocks of one of its people</strong> (<code>SpawnPost.FAR</code>): that one goes. Vanilla does the same to the types that follow its rule; many modded types do not.</li>
-<li><strong>A <code>persistent</code> post</strong> keeps its people for ever, and a missing one is not replaced. Beyond 128 blocks from every player they <strong>sleep</strong>: the post takes them out of the world, keeps all they are, and puts the very same ones back, where they stood, when a player comes within <code>radius</code> again.</li>
+<li><strong>A <code>persistent</code> post</strong> keeps its people for ever, and a missing one is not replaced. Beyond 128 blocks from every player they <strong>sleep</strong>: the post takes them out of the world, keeps all they are, and puts the very same ones back, where they stood, when a player comes within <code>radius</code> again. A woken one gets what the library gives back to a mob read from its chunk: the AI goals of a fruit it was given (#975).</li>
 <li><strong>One of its people that is <code>SpawnPost.Roaming</code></strong> and says so (<code>roaming()</code> is true: a freed prisoner, an escort on its way) is let be: never put to sleep nor sent away, however far from every player, and still counted, so nobody takes its place while it is out. Your entity class implements the interface.</li>
-<li><strong>Renewed</strong>, any post is as new: it fills up at once, the missing of a persistent post with the others.</li>
+<li><strong>A post with a <code>stock</code></strong> (<em>since 6.8.0</em>, #985) replaces its missing that many times, one by one, then stays empty until it is renewed: what dies near it cannot be farmed for ever. Its first filling, and each one after a renewal, takes nothing from the stock. What it spent is saved with it. A post saved before 6.8.0 has no stock.</li>
+<li><strong>Which players count</strong> (<em>since 6.8.0</em>, #209): override <code>reaches(player, y)</code> to narrow them, for the post (its height) and for each of its people (theirs). A tall structure keeps a floor's people to the players of that floor: a player on one level no longer wakes nor keeps every level within reach. By default every player counts, all round, as before.</li>
+<li><strong>Renewed</strong>, any post is as new: it fills up at once, the missing of a persistent post with the others, and its stock is full again.</li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">What a persistent post's people must bear</p>
@@ -14654,7 +14841,7 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">People are known by their ids</p>
-<p>One that is in a chunk not loaded while the post's own chunk is counts as gone. A post is for people who stay about it.</p>
+<p>The post knows the chunk each one was last seen in, and saves it as soon as it changes (#975): one in a chunk not loaded while the post's own chunk is still counts, through a restart too, and is gone only once that chunk's entities are loaded without him. A post is still for people who stay about it.</p>
 </div>
 <h2 id="renewed-by-the-mending">Renewed by the mending<a class="headerlink" href="#renewed-by-the-mending" title="Permanent link">&para;</a></h2>
 <p><code>renewed(level)</code> gives the game time the post's place was last put back in order. By default it is <a href="../mending-zones/#when-was-this-place-last-mended"><code>WorldMending.mended(level, pos)</code></a>: in a mended dimension cut into zones, a post is as new each time its zone is mended, with nothing to write. Elsewhere it answers 0, never: override it for a rule of your own.</p>
@@ -14667,13 +14854,18 @@
 <p>For an owner that is not a block entity. It is called once a second and saved by its owner:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">private</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">SpawnPost</span><span class="w"> </span><span class="n">post</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">SpawnPost</span><span class="p">();</span>
 <a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">SpawnPost</span><span class="p">.</span><span class="na">Settings</span><span class="w"> </span><span class="n">GUARDS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">SpawnPost</span><span class="p">.</span><span class="na">Settings</span><span class="p">(</span><span class="s">"mymod:guard"</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">600</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">);</span>
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c1">// once a second, server side; true when something changed that must be saved</span>
-<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="kt">boolean</span><span class="w"> </span><span class="n">changed</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">post</span><span class="p">.</span><span class="na">second</span><span class="p">(</span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">pos</span><span class="p">,</span><span class="w"> </span><span class="n">GUARDS</span><span class="p">,</span><span class="w"> </span><span class="n">radius</span><span class="p">,</span><span class="w"> </span><span class="n">drop</span><span class="p">,</span><span class="w"> </span><span class="n">renewed</span><span class="p">);</span>
-<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>
-<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="n">post</span><span class="p">.</span><span class="na">save</span><span class="p">(</span><span class="n">tag</span><span class="p">);</span>
-<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="n">post</span><span class="p">.</span><span class="na">load</span><span class="p">(</span><span class="n">tag</span><span class="p">);</span>
-<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="n">post</span><span class="p">.</span><span class="na">people</span><span class="p">();</span><span class="w">      </span><span class="c1">// the ids of those in the world, not of those asleep</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="c1">// 6.8.0: the same, replacing its missing 3 times between two renewals</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">SpawnPost</span><span class="p">.</span><span class="na">Settings</span><span class="w"> </span><span class="n">WARDENS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">SpawnPost</span><span class="p">.</span><span class="na">Settings</span><span class="p">(</span><span class="s">"mymod:warden"</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">600</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">);</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="c1">// once a second, server side; true when something changed that must be saved</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="kt">boolean</span><span class="w"> </span><span class="n">changed</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">post</span><span class="p">.</span><span class="na">second</span><span class="p">(</span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">pos</span><span class="p">,</span><span class="w"> </span><span class="n">GUARDS</span><span class="p">,</span><span class="w"> </span><span class="n">radius</span><span class="p">,</span><span class="w"> </span><span class="n">drop</span><span class="p">,</span><span class="w"> </span><span class="n">renewed</span><span class="p">);</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="c1">// 6.8.0: only the players a rule of yours reaches count (null: all of them)</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="n">changed</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">post</span><span class="p">.</span><span class="na">second</span><span class="p">(</span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="n">pos</span><span class="p">,</span><span class="w"> </span><span class="n">GUARDS</span><span class="p">,</span><span class="w"> </span><span class="n">radius</span><span class="p">,</span><span class="w"> </span><span class="n">drop</span><span class="p">,</span><span class="w"> </span><span class="n">renewed</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="n">player</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Math</span><span class="p">.</span><span class="na">abs</span><span class="p">(</span><span class="n">player</span><span class="p">.</span><span class="na">getY</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">y</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">24</span><span class="p">);</span>
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="n">post</span><span class="p">.</span><span class="na">save</span><span class="p">(</span><span class="n">tag</span><span class="p">);</span>
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a><span class="n">post</span><span class="p">.</span><span class="na">load</span><span class="p">(</span><span class="n">tag</span><span class="p">);</span>
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="n">post</span><span class="p">.</span><span class="na">people</span><span class="p">();</span><span class="w">      </span><span class="c1">// the ids of those in the world, not of those asleep</span>
 </code></pre></div>
 
 

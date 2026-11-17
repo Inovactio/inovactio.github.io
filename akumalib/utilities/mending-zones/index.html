@@ -8363,6 +8363,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -8712,6 +8716,62 @@
     
   
     Modified Humans
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/minks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Minks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/cyborgs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cyborgs
   
 
     
@@ -10576,6 +10636,8 @@
       
         
       
+        
+      
     
     
     
@@ -10844,6 +10906,34 @@
     
   
     Held inputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/double-jumps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Double jumps
   
 
     
@@ -11330,6 +11420,8 @@
       
         
       
+        
+      
     
     
     
@@ -11393,6 +11485,34 @@
     
   
     Races
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../traits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grafted traits
   
 
     
@@ -11703,6 +11823,8 @@
       
         
       
+        
+      
     
     
     
@@ -11887,6 +12009,34 @@
     
   
     Movement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/weapon-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baton and spear techniques
   
 
     
@@ -14155,6 +14305,8 @@
       
         
       
+        
+      
     
     
     
@@ -14246,6 +14398,34 @@
     
   
     Lines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../particles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shared particles
   
 
     
@@ -14562,9 +14742,11 @@
 <li><strong>Each zone has its own clock.</strong> A tower nobody is in is mended while another is visited.</li>
 <li><strong>A change does not set the clock back.</strong> Only being held does: water that flips a block for ever cannot keep a zone from mending.</li>
 <li><strong>A zone nobody ever held is mended at the next pass</strong>: what an ability breaks from outside is put back at once.</li>
+<li><strong>Once its time has come, what it owes is put back as its chunks load, held or not</strong> (#975). A tower left with its chunks unloaded is mended when they load again, as its player comes back into it: he finds it as new. A place he stands on waits for him to move; what he changes once back waits for the zone to be left again.</li>
 <li><strong>Its times are saved with its places.</strong> After a restart nothing of a held zone is put back; without zones, what waited is mended as soon as its chunk loads.</li>
 <li>A place of <strong>no zone</strong> (<code>zone</code> answers <code>null</code>) goes by its own clock, exactly as in a world without zones.</li>
-<li>The rest is <code>WorldMending</code>'s: no block comes back onto somebody, 4 000 places a pass at most, a place whose chunk is not loaded waits for it.</li>
+<li>The rest is <code>WorldMending</code>'s: no block comes back onto somebody, 4 000 places a pass at most, a place whose chunk is not loaded waits for it. A pass only looks into the chunks that are loaded.</li>
+<li><strong>A zone with nothing left to do</strong> (nothing waits, nobody in it, mended since it was last held) is set aside: no pass looks at it any more, and only its time of mending is kept. It comes back the moment a block changes in it or a player walks in.</li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title"><code>zone</code> is asked in the middle of a write</p>
@@ -14585,7 +14767,7 @@
 <h2 id="mending-a-zone-now">Mending a zone now<a class="headerlink" href="#mending-a-zone-now" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">WorldMending</span><span class="p">.</span><span class="na">mend</span><span class="p">(</span><span class="n">level</span><span class="p">,</span><span class="w"> </span><span class="s">"tower_3_7"</span><span class="p">);</span>
 </code></pre></div>
-<p>Held or not: for a command, or a fight that ends. Its time of mending is set to now. Past 4 000 places, and for those whose chunk is not loaded, the rest follows once the zone is no longer held.</p>
+<p>Held or not: for a command, or a fight that ends. Its time of mending is set to now. Past 4 000 places, and for those whose chunk is not loaded, the rest follows as their chunks are there, held or not.</p>
 <p><code>WorldMending.waiting(level)</code> counts the places of the zones with the others.</p>
 
 

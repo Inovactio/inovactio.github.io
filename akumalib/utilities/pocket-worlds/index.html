@@ -8363,6 +8363,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -8712,6 +8716,62 @@
     
   
     Modified Humans
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/minks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Minks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/cyborgs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cyborgs
   
 
     
@@ -10576,6 +10636,8 @@
       
         
       
+        
+      
     
     
     
@@ -10844,6 +10906,34 @@
     
   
     Held inputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/double-jumps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Double jumps
   
 
     
@@ -11330,6 +11420,8 @@
       
         
       
+        
+      
     
     
     
@@ -11393,6 +11485,34 @@
     
   
     Races
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../traits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grafted traits
   
 
     
@@ -11703,6 +11823,8 @@
       
         
       
+        
+      
     
     
     
@@ -11887,6 +12009,34 @@
     
   
     Movement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/weapon-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baton and spear techniques
   
 
     
@@ -14144,6 +14294,8 @@
       
         
       
+        
+      
     
     
     
@@ -14235,6 +14387,34 @@
     
   
     Lines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../particles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shared particles
   
 
     
@@ -14586,7 +14766,8 @@
 <li>A block does not come back onto somebody: that place waits until he has moved.</li>
 <li>A mob saved on the disk is not buried either. In a chunk kept loaded (forced, a player near) whose entities are not read yet, the place waits for them. A chunk only read for its blocks (no player, not forced) never reads its entities: its place is mended, and a mob read off the disk inside it later opens it again, as it was; the place then waits for him like any other.</li>
 <li>At most 4 000 places are mended in a pass; a great ability changes a hundred thousand, and they follow over the next ticks.</li>
-<li>The places still to mend are saved with the dimension, under the name you gave, and mended once their chunk is loaded again.</li>
+<li>The places still to mend are saved with the dimension, under the name you gave, and mended once their chunk is loaded again. They are kept by chunk: a pass only looks into the loaded ones.</li>
+<li>A shulker box taken away falls as an item, what it held inside, as when it is broken (#975). A chest, a barrel or a furnace spill what they hold by themselves, as vanilla does.</li>
 <li><code>WorldMending.waiting(level)</code> says how many places still wait.</li>
 </ul>
 <p>It hears every change through <a href="../blocks/#blockwrites"><code>BlockWrites</code></a>, and takes the dimension's watcher: a mended dimension cannot have another one.</p>

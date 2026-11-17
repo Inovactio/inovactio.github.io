@@ -8363,6 +8363,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -8712,6 +8716,62 @@
     
   
     Modified Humans
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/minks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Minks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/cyborgs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cyborgs
   
 
     
@@ -10576,6 +10636,8 @@
       
         
       
+        
+      
     
     
     
@@ -10844,6 +10906,34 @@
     
   
     Held inputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/double-jumps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Double jumps
   
 
     
@@ -11330,6 +11420,8 @@
       
         
       
+        
+      
     
     
     
@@ -11393,6 +11485,34 @@
     
   
     Races
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../traits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grafted traits
   
 
     
@@ -11703,6 +11823,8 @@
       
         
       
+        
+      
     
     
     
@@ -11887,6 +12009,34 @@
     
   
     Movement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/weapon-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baton and spear techniques
   
 
     
@@ -12352,6 +12502,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attribute bonuses
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -12368,6 +12536,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a-bonus-that-is-not-saved-settransient" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A bonus that is not saved: setTransient
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -14074,6 +14272,8 @@
       
         
       
+        
+      
     
     
     
@@ -14165,6 +14365,34 @@
     
   
     Lines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../particles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shared particles
   
 
     
@@ -14325,6 +14553,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a-bonus-that-is-not-saved-settransient" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A bonus that is not saved: setTransient
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -14423,6 +14670,13 @@
 <p><code>add</code> uses a <strong>permanent</strong> modifier, which is saved with the entity. A bonus applied when a condition starts and removed when it ends is kept for good if the entity logs out in between: on reconnect, your "was active" flag is gone and the modifier is not. Checking the condition every tick and calling <code>add</code> or <code>remove</code> accordingly cannot drift.</p>
 <p>For a passive, <a href="../../ability-base-classes/passives/#conditionalstatpassiveability"><code>ConditionalStatPassiveAbility</code></a> already does this, with tiers and disable handling. For a morph, see <a href="../../core-concepts/morph-gates-and-stats/"><code>MorphStats</code></a>.</p>
 </div>
+<h2 id="a-bonus-that-is-not-saved-settransient">A bonus that is not saved: <code>setTransient</code><a class="headerlink" href="#a-bonus-that-is-not-saved-settransient" title="Permanent link">&para;</a></h2>
+<p><em>Since 6.8.0.</em> For a bonus that changes while a technique runs (a speed that grows, a stat per head left), put it as a
+<strong>transient</strong> modifier, never saved: <code>setTransient</code> takes off what the same modifier gave before and puts the new amount,
+and 0 only takes it off.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">AttributeBonusHelper</span><span class="p">.</span><span class="na">setTransient</span><span class="p">(</span><span class="n">entity</span><span class="p">,</span><span class="w"> </span><span class="n">Attributes</span><span class="p">.</span><span class="na">MOVEMENT_SPEED</span><span class="p">,</span><span class="w"> </span><span class="n">DASH_UUID</span><span class="p">,</span><span class="w"> </span><span class="s">"Dash"</span><span class="p">,</span><span class="w"> </span><span class="n">running</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="mf">0.4D</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mf">0.0D</span><span class="p">,</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">        </span><span class="n">AttributeModifier</span><span class="p">.</span><span class="na">Operation</span><span class="p">.</span><span class="na">MULTIPLY_TOTAL</span><span class="p">);</span>
+</code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">One UUID per attribute per bonus</p>
 <p>Two modifiers with the same UUID on one attribute cannot coexist: the second is refused while the first is present. Give every bonus its own UUID.</p>

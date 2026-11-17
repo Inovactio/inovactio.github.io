@@ -8363,6 +8363,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -8712,6 +8716,62 @@
     
   
     Modified Humans
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/minks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Minks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/cyborgs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cyborgs
   
 
     
@@ -10576,6 +10636,8 @@
       
         
       
+        
+      
     
     
     
@@ -10844,6 +10906,34 @@
     
   
     Held inputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/double-jumps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Double jumps
   
 
     
@@ -11332,6 +11422,8 @@
       
         
       
+        
+      
     
     
     
@@ -11395,6 +11487,34 @@
     
   
     Races
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../traits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grafted traits
   
 
     
@@ -11785,6 +11905,8 @@
       
         
       
+        
+      
     
     
     
@@ -11969,6 +12091,34 @@
     
   
     Movement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ability-base-classes/weapon-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baton and spear techniques
   
 
     
@@ -14144,6 +14294,8 @@
       
         
       
+        
+      
     
     
     
@@ -14235,6 +14387,34 @@
     
   
     Lines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../particles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shared particles
   
 
     
@@ -14593,7 +14773,7 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// in your mod's common set up</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">event</span><span class="p">.</span><span class="na">enqueueWork</span><span class="p">(()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Prisons</span><span class="p">.</span><span class="na">register</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">MyPrison</span><span class="p">()));</span>
 </code></pre></div>
-<p>Optional: <code>arrest(player, by)</code> (a player beaten and handed over, see below; by default <code>jail(player)</code>), <code>minutes(player)</code> (the time shown on the desk's surrender button; by default <code>MarinePrison.minutes</code> of his bounty), <code>isJailed</code> and <code>left</code> (by default read from the record, <code>extra.getInt("Left")</code>).</p>
+<p>Optional: <code>arrest(player, by)</code> (a player beaten and handed over, see below; by default <code>jail(player)</code>), <code>minutes(player)</code> (the time shown on the desk's surrender button; by default <code>MarinePrison.minutes</code> of his bounty), <code>isJailed</code> and <code>left</code> (by default read from the record, <code>extra.getInt("Left")</code>), <code>jail(player, minutes, level)</code> (an operator's <code>/akumalib faction prison send &lt;player&gt; &lt;minutes&gt; [level]</code>, since #1003: the given time whatever his bounty, and a level from 1 to 6 for a prison with levels, 0 for the one his bounty gives; by default <code>jail(player)</code>, then <code>"Left"</code> set to the given time and the level ignored).</p>
 <h2 id="rules">Rules<a class="headerlink" href="#rules" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Two addons that register</strong>: the last one wins, and the log names the one it replaced.</li>

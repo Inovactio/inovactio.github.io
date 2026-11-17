@@ -16,7 +16,7 @@
         <link rel="prev" href="../passives/">
       
       
-        <link rel="next" href="../grabs/">
+        <link rel="next" href="../weapon-techniques/">
       
       
         
@@ -8363,6 +8363,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -8712,6 +8716,62 @@
     
   
     Modified Humans
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/minks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Minks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mods/race-race-no-mi/cyborgs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cyborgs
   
 
     
@@ -10576,6 +10636,8 @@
       
         
       
+        
+      
     
     
     
@@ -10844,6 +10906,34 @@
     
   
     Held inputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core-concepts/double-jumps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Double jumps
   
 
     
@@ -11330,6 +11420,8 @@
       
         
       
+        
+      
     
     
     
@@ -11393,6 +11485,34 @@
     
   
     Races
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/traits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grafted traits
   
 
     
@@ -11679,6 +11799,8 @@
       
         
           
+        
+      
         
       
         
@@ -12038,6 +12160,34 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../weapon-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baton and spear techniques
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -14205,6 +14355,8 @@
       
         
       
+        
+      
     
     
     
@@ -14296,6 +14448,34 @@
     
   
     Lines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilities/particles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shared particles
   
 
     
@@ -14825,6 +15005,9 @@
 <p class="admonition-title">The base mod's flight is not vanilla flight</p>
 <p><code>PropelledFlightAbility</code> never sets <code>player.getAbilities().flying</code>: it turns gravity off and drives the velocity itself. Read <code>isNoGravity()</code> if you need to know whether a player is flying, and never enable a flight through a pause (<code>takeOff</code> refuses to) - haki overuse, Seastone and protected areas pause a passive to take flight away.</p>
 </div>
+<p>A winged form's pose only in flight, never on a jump: <code>AkumaFlight.isFlying(entity)</code> (gravity off, not on the ground, in
+water or riding; either side), and <code>AkumaFlight.pose(entity, animationComponent)</code> each tick of the form, which plays the
+base mod's <code>ASSAULT_FLY</code> while it flies (a player's own flight too) and stops it otherwise (<em>since 6.8.0</em>).</p>
 <h3 id="npcs-that-fly">NPCs that fly<a class="headerlink" href="#npcs-that-fly" title="Permanent link">&para;</a></h3>
 <p><em>Since 5.0.0.</em> The base mod's flight works for players only: an NPC that draws the fruit takes the forms and stays on the ground. Give the flight passive a goal wrapper, <code>FlightAbilityWrapperGoal</code>, and the NPC flies from the server, with no input:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">new</span><span class="w"> </span><span class="n">AbilityCore</span><span class="p">.</span><span class="na">Builder</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">AbilityCategory</span><span class="p">.</span><span class="na">DEVIL_FRUITS</span><span class="p">,</span><span class="w"> </span><span class="n">AbilityType</span><span class="p">.</span><span class="na">PASSIVE</span><span class="p">,</span><span class="w"> </span><span class="n">MyFlight</span><span class="p">::</span><span class="k">new</span><span class="p">)</span>
@@ -14931,13 +15114,13 @@
         
         
           
-          <a href="../grabs/" class="md-footer__link md-footer__link--next" aria-label="Next: Grabs">
+          <a href="../weapon-techniques/" class="md-footer__link md-footer__link--next" aria-label="Next: Baton and spear techniques">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Grabs
+                Baton and spear techniques
               </div>
             </div>
             <div class="md-footer__button md-icon">
