@@ -22,7 +22,7 @@ Everything Impel Down adds that has an item is in its own creative tab, **Impel 
 
 Turn a block round (drag), zoom (scroll or pinch), and pick another with the buttons:
 
-<div class="model-viewer" data-models="../block-models/" data-ids="impel-wall impel-bricks impel-brick-slab impel-brick-stairs impel-brick-wall cell-door dark-cell-door giants-cell-grille great-gate-leaf blade-log blade-leaves crimson-grass icicle lift-gate lift-desk control-desk watch-snail table-weapon"></div>
+<div class="model-viewer" data-models="../block-models/" data-ids="impel-wall impel-bricks impel-brick-slab impel-brick-stairs impel-brick-wall cell-door dark-cell-door great-gate-leaf blade-log blade-leaves crimson-grass icicle lift-desk control-desk watch-snail table-weapon"></div>
 
 | Block | What it is |
 |---|---|
