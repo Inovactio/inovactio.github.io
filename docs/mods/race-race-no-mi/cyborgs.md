@@ -26,6 +26,32 @@ The Cyborg is the base mod's race (its NPCs, its cola and its weakness to magnet
 !!! note "About the values"
     Damage is what the target really loses, in health points (2 = one heart): a technique's tooltip shows the base mod's own number, 2.5 times the iron figure. Ranges are in blocks, for a body of size 1. Times are in seconds. "Iron / diamond / netherite" gives a part's three tiers.
 
+<!-- models:0 -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A cyborg on Steve's skin with a full set of iron parts](models/cyborg-full-iron.png)
+<figcaption>Iron parts</figcaption>
+</figure>
+
+<figure markdown>
+![A cyborg on Steve's skin with a full set of diamond parts](models/cyborg-full-diamond.png)
+<figcaption>Diamond parts</figcaption>
+</figure>
+
+<figure markdown>
+![A cyborg on Steve's skin with a full set of netherite parts](models/cyborg-full-netherite.png)
+<figcaption>Netherite parts</figcaption>
+</figure>
+
+</div>
+
+In 3D: drag to turn, scroll or pinch to zoom. A full set at each tier (Fire Jaw, Striking Arms and Armed Arm, Armored Chest, Cannon Shoulders, Tank Legs, five accessories), Franky Tank, and the bare body.
+
+<div class="model-viewer" data-models="../models/" data-ids="cyborgs"></div>
+
+<!-- /models:0 -->
+
 ## The body { #body }
 
 ![](abilities/body.png){ .ability-icon } *Body, every cyborg*
@@ -101,11 +127,23 @@ The two arms add up. **The Armored Chest leaves the back weak**: a blow from beh
 | ![](items/iron-kentauros-legs.png){ .fruit-icon } [Kentauros Legs](#kentauros-legs) | legs | Franky Kentauros, Ultimate Hammer |
 | ![](items/iron-tank-legs.png){ .fruit-icon } [Tank Legs](#tank-legs) | legs | Franky Tank |
 
+<!-- models:1 -->
+In 3D: drag to turn, scroll or pinch to zoom. Every part alone, iron, on the body.
+
+<div class="model-viewer" data-models="../models/" data-ids="cyborg-parts"></div>
+
+<!-- /models:1 -->
+
 A part's techniques come with it and go when it is taken off; they are not bought in the tree. Each needs its part fitted ("Needs the ... part").
 
 ### Fire Jaw { #fire-jaw }
 
 ![](items/iron-fire-jaw.png){ .fruit-icon } ![](items/diamond-fire-jaw.png){ .fruit-icon } ![](items/netherite-fire-jaw.png){ .fruit-icon }
+
+<!-- models:2 -->
+![The Fire Jaw (iron) on a cyborg, front and back](models/cyborg-part-fire-jaw.png){ .form-picture }
+
+<!-- /models:2 -->
 
 **Fresh Fire** ![](abilities/fresh-fire.png){ .fruit-icon }: a flamethrower from the jaw, 10 bursts (one every 0.15 s). Press again to stop it.
 
@@ -129,6 +167,11 @@ A part's techniques come with it and go when it is taken off; they are not bough
 
 ![](items/iron-nail-jaw.png){ .fruit-icon } ![](items/diamond-nail-jaw.png){ .fruit-icon } ![](items/netherite-nail-jaw.png){ .fruit-icon }
 
+<!-- models:3 -->
+![The Nail Jaw (iron) on a cyborg, front and back](models/cyborg-part-nail-jaw.png){ .form-picture }
+
+<!-- /models:3 -->
+
 **Master Nail** ![](abilities/master-nail.png){ .fruit-icon }: 7 nails spat in a 60° fan; each pins its target (Slowness V).
 
 | Stat | Iron | Diamond | Netherite |
@@ -142,6 +185,11 @@ A part's techniques come with it and go when it is taken off; they are not bough
 
 ![](items/iron-steel-hair.png){ .fruit-icon } ![](items/diamond-steel-hair.png){ .fruit-icon } ![](items/netherite-steel-hair.png){ .fruit-icon }
 
+<!-- models:4 -->
+![The Steel Hair (iron) on a cyborg, front and back](models/cyborg-part-steel-hair.png){ .form-picture }
+
+<!-- /models:4 -->
+
 **Franky Triangle Jacker** ![](abilities/triangle-jacker.png){ .fruit-icon }: two sideburn blades thrown, one from each side. They go through every enemy and cut through blocks as soft as stone (griefing rules permitting); a harder block stops them.
 
 | Stat | Iron | Diamond | Netherite |
@@ -153,6 +201,16 @@ A part's techniques come with it and go when it is taken off; they are not bough
 ### Striking Arms { #striking-arms }
 
 ![](items/iron-striking-arms.png){ .fruit-icon } ![](items/diamond-striking-arms.png){ .fruit-icon } ![](items/netherite-striking-arms.png){ .fruit-icon }
+
+<!-- models:5 -->
+![The Striking Arms (iron) on a cyborg, front and back](models/cyborg-part-striking-arms.png){ .form-picture }
+
+<!-- /models:5 -->
+
+<!-- models:16 -->
+![Strong Right in game: the fist flying off on its chain](models/strong-right-chain.png)
+
+<!-- /models:16 -->
 
 **Strong Right** ![](abilities/strong-right.png){ .fruit-icon }: the fist flies off on a chain, from the arm that wears the Striking Arms (the right one if both do), and is reeled back after its hit. Needs empty hands; the hand is gone until the fist is back. No cola.
 
@@ -197,6 +255,11 @@ A part's techniques come with it and go when it is taken off; they are not bough
 
 ![](items/iron-armed-arm.png){ .fruit-icon } ![](items/diamond-armed-arm.png){ .fruit-icon } ![](items/netherite-armed-arm.png){ .fruit-icon }
 
+<!-- models:6 -->
+![The Armed Arm (iron) on a cyborg, front and back](models/cyborg-part-armed-arm.png){ .form-picture }
+
+<!-- /models:6 -->
+
 **Weapons Left** ![](abilities/weapons-left.png){ .fruit-icon }: a cannonball from the arm, falling a little in flight. It bursts where it lands for half its damage, the struck enemy included; no block breaks.
 
 | Stat | Iron | Diamond | Netherite |
@@ -230,6 +293,11 @@ A part's techniques come with it and go when it is taken off; they are not bough
 
 ![](items/iron-connector-arms.png){ .fruit-icon } ![](items/diamond-connector-arms.png){ .fruit-icon } ![](items/netherite-connector-arms.png){ .fruit-icon }
 
+<!-- models:7 -->
+![The Connector Arms (iron) on a cyborg, front and back](models/cyborg-part-connector-arms.png){ .form-picture }
+
+<!-- /models:7 -->
+
 **Coup de Vent** ![](abilities/coup-de-vent.png){ .fruit-icon }: a blast of air charged up to 3 s; press again (or run out of cola) to fire early. The longer the charge, the stronger, faster and more costly, and the harder the recoil.
 
 | Stat | Iron | Diamond | Netherite |
@@ -251,6 +319,11 @@ A part's techniques come with it and go when it is taken off; they are not bough
 ### Vegapunk Arms { #vegapunk-arms }
 
 ![](items/iron-vegapunk-arms.png){ .fruit-icon } ![](items/diamond-vegapunk-arms.png){ .fruit-icon } ![](items/netherite-vegapunk-arms.png){ .fruit-icon } *Learnt from a [plan](#plans).*
+
+<!-- models:8 -->
+![The Vegapunk Arms (iron) on a cyborg, front and back](models/cyborg-part-vegapunk-arms.png){ .form-picture }
+
+<!-- /models:8 -->
 
 **Franky Radical Beam** ![](abilities/radical-beam.png){ .fruit-icon }: after a 3 s charge, the base mod's beam, with its explosion and griefing rules.
 
@@ -281,6 +354,11 @@ A part's techniques come with it and go when it is taken off; they are not bough
 
 ![](items/iron-super-fridge.png){ .fruit-icon } ![](items/diamond-super-fridge.png){ .fruit-icon } ![](items/netherite-super-fridge.png){ .fruit-icon }
 
+<!-- models:9 -->
+![The Super Fridge (iron) on a cyborg, front and back](models/cyborg-part-super-fridge.png){ .form-picture }
+
+<!-- /models:9 -->
+
 Raises the max cola: +150 / +250 / +400.
 
 **Cola Overdrive** ![](abilities/cola-overdrive.png){ .fruit-icon }: the cyborg burns cola for speed and strength until it ends, the cola runs out, or it is pressed again.
@@ -301,6 +379,11 @@ Raises the max cola: +150 / +250 / +400.
 
 ![](items/iron-armored-chest.png){ .fruit-icon } ![](items/diamond-armored-chest.png){ .fruit-icon } ![](items/netherite-armored-chest.png){ .fruit-icon }
 
+<!-- models:10 -->
+![The Armored Chest (iron) on a cyborg, front and back](models/cyborg-part-armored-chest.png){ .form-picture }
+
+<!-- /models:10 -->
+
 Twice a chest part's armour and toughness, but the back stays weak: +25 % damage from behind, unless Back Plating is worn.
 
 **Franky Nipple Light** ![](abilities/nipple-light.png){ .fruit-icon }: the cyborg's lamps light up: they see in the dark, and every enemy around who looks at them is blinded.
@@ -318,6 +401,11 @@ An enemy is blinded if it looks within 45° of the cyborg.
 ### Cannon Shoulders { #cannon-shoulders }
 
 ![](items/iron-cannon-shoulders.png){ .fruit-icon } ![](items/diamond-cannon-shoulders.png){ .fruit-icon } ![](items/netherite-cannon-shoulders.png){ .fruit-icon }
+
+<!-- models:11 -->
+![The Cannon Shoulders (iron) on a cyborg, front and back](models/cyborg-part-cannon-shoulders.png){ .form-picture }
+
+<!-- /models:11 -->
 
 **Franky Destroy Ho** ![](abilities/destroy-ho.png){ .fruit-icon }: after a 0.5 s wind-up, one shell from each shoulder; each bursts, breaking no block. The recoil costs the cyborg 2 health.
 
@@ -339,6 +427,11 @@ An enemy is blinded if it looks within 45° of the cyborg.
 ### Rocket Shoulders { #rocket-shoulders }
 
 ![](items/iron-rocket-shoulders.png){ .fruit-icon } ![](items/diamond-rocket-shoulders.png){ .fruit-icon } ![](items/netherite-rocket-shoulders.png){ .fruit-icon } *Learnt from a [plan](#plans).*
+
+<!-- models:12 -->
+![The Rocket Shoulders (iron) on a cyborg, front and back](models/cyborg-part-rocket-shoulders.png){ .form-picture }
+
+<!-- /models:12 -->
 
 **Franky Rocket Launcher** ![](abilities/rocket-launcher.png){ .fruit-icon }: 3 rockets, one every 0.2 s, each homing on the nearest enemy in a 30° cone; each bursts, breaking no block.
 
@@ -363,6 +456,11 @@ An enemy is blinded if it looks within 45° of the cyborg.
 
 ![](items/iron-coup-de-boo-thruster.png){ .fruit-icon } ![](items/diamond-coup-de-boo-thruster.png){ .fruit-icon } ![](items/netherite-coup-de-boo-thruster.png){ .fruit-icon }
 
+<!-- models:13 -->
+![The Coup de Boo Thruster (iron) on a cyborg, front and back](models/cyborg-part-boo-thruster.png){ .form-picture }
+
+<!-- /models:13 -->
+
 **Coup de Boo** ![](abilities/coup-de-boo.png){ .fruit-icon }: a charge up to 1.5 s, then the cyborg is blown up and forward, and the enemies behind are pushed away (no damage). Charged 0.75 s or more, the launch is half as strong again (if the cola is there). Falls are spared for 10 s.
 
 | Stat | Iron | Diamond | Netherite |
@@ -375,6 +473,11 @@ An enemy is blinded if it looks within 45° of the cyborg.
 ### Kentauros Legs { #kentauros-legs }
 
 ![](items/iron-kentauros-legs.png){ .fruit-icon } ![](items/diamond-kentauros-legs.png){ .fruit-icon } ![](items/netherite-kentauros-legs.png){ .fruit-icon }
+
+<!-- models:14 -->
+![The Kentauros Legs (iron) on a cyborg, front and back](models/cyborg-part-kentauros-legs.png){ .form-picture }
+
+<!-- /models:14 -->
 
 **Franky Kentauros** ![](abilities/kentauros.png){ .fruit-icon }: the cyborg pins the enemy in reach to the ground: it cannot move, jump nor break free. The cyborg is slowed (Slowness II) while holding. Press again to let go.
 
@@ -396,6 +499,16 @@ An enemy is blinded if it looks within 45° of the cyborg.
 ### Tank Legs { #tank-legs }
 
 ![](items/iron-tank-legs.png){ .fruit-icon } ![](items/diamond-tank-legs.png){ .fruit-icon } ![](items/netherite-tank-legs.png){ .fruit-icon }
+
+<!-- models:15 -->
+![The Tank Legs (iron) on a cyborg, front and back](models/cyborg-part-tank-legs.png){ .form-picture }
+
+<!-- /models:15 -->
+
+<!-- models:17 -->
+![Franky Tank: the treads down under the legs](models/cyborg-franky-tank.png){ .form-picture }
+
+<!-- /models:17 -->
 
 **Franky Tank** ![](abilities/franky-tank.png){ .fruit-icon }: a toggle with no time limit. Treads come down under the legs and roll: +60 % speed, +1 step height, and enemies just ahead are rammed and pushed (each at most once a second). Ends when pressed again or out of cola.
 
@@ -422,6 +535,68 @@ One item each, no tier, one accessory slot each.
 | ![](items/workbench-module.png){ .fruit-icon } Workbench Module | Workbench |
 | ![](items/storage-module.png){ .fruit-icon } Storage Module | Storage |
 | ![](items/furnace-module.png){ .fruit-icon } Furnace Module | Furnace |
+
+<!-- models:18 -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![The Cola Tank on a cyborg, front and back](models/cyborg-part-cola-tank.png)
+<figcaption>Cola Tank</figcaption>
+</figure>
+
+<figure markdown>
+![The Back Plating on a cyborg, front and back](models/cyborg-part-back-plating.png)
+<figcaption>Back Plating</figcaption>
+</figure>
+
+<figure markdown>
+![The Magnet Insulator on a cyborg, front and back](models/cyborg-part-magnet-insulator.png)
+<figcaption>Magnet Insulator</figcaption>
+</figure>
+
+<figure markdown>
+![The Shock Absorbers on a cyborg, front and back](models/cyborg-part-shock-absorbers.png)
+<figcaption>Shock Absorbers</figcaption>
+</figure>
+
+<figure markdown>
+![The Head Lamp on a cyborg, front and back](models/cyborg-part-head-lamp.png)
+<figcaption>Head Lamp</figcaption>
+</figure>
+
+<figure markdown>
+![The Skywalk Kit on a cyborg, front and back](models/cyborg-part-skywalk-kit.png)
+<figcaption>Skywalk Kit</figcaption>
+</figure>
+
+<figure markdown>
+![The Airbag on a cyborg, front and back](models/cyborg-part-airbag.png)
+<figcaption>Airbag</figcaption>
+</figure>
+
+<figure markdown>
+![The Heel Boosters on a cyborg, front and back](models/cyborg-part-heel-boosters.png)
+<figcaption>Heel Boosters</figcaption>
+</figure>
+
+<figure markdown>
+![The Workbench Module on a cyborg, front and back](models/cyborg-part-workbench-module.png)
+<figcaption>Workbench Module</figcaption>
+</figure>
+
+<figure markdown>
+![The Storage Module on a cyborg, front and back](models/cyborg-part-storage-module.png)
+<figcaption>Storage Module</figcaption>
+</figure>
+
+<figure markdown>
+![The Furnace Module on a cyborg, front and back](models/cyborg-part-furnace-module.png)
+<figcaption>Furnace Module</figcaption>
+</figure>
+
+</div>
+
+<!-- /models:18 -->
 
 **Franky Skywalk** ![](abilities/franky-skywalk.png){ .fruit-icon }: for 12 s, oak planks lay themselves under the cyborg's feet wherever they step over the void (only into air, nothing replaced or dropped); jump to climb, look steeply down to drop. Every plank goes at the end. Cola 6. Cooldown 8 s.
 

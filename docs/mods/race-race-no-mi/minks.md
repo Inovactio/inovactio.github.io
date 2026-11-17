@@ -22,6 +22,54 @@ tags:
 
 The Mink is the base mod's race, with its three kinds (Dog, Lion, Bunny). Since 0.5.0 this mod draws them anew, adds four kinds, gives each kind a passive, and replaces the minks' techniques with a full kit of its own. Every mink keeps the base mod's **Mink Passive Bonuses** (+50 % speed, a higher jump, softer falls).
 
+<!-- models:0 -->
+<div class="mob-gallery" markdown>
+
+<figure markdown>
+![A Dog mink on Steve's skin](models/mink-dog.png)
+<figcaption>Dog</figcaption>
+</figure>
+
+<figure markdown>
+![A Lion mink on Steve's skin](models/mink-lion.png)
+<figcaption>Lion</figcaption>
+</figure>
+
+<figure markdown>
+![A Bunny mink on Steve's skin](models/mink-bunny.png)
+<figcaption>Bunny</figcaption>
+</figure>
+
+<figure markdown>
+![A Cat mink on Steve's skin](models/mink-cat.png)
+<figcaption>Cat</figcaption>
+</figure>
+
+<figure markdown>
+![A Jaguar mink on Steve's skin](models/mink-jaguar.png)
+<figcaption>Jaguar</figcaption>
+</figure>
+
+<figure markdown>
+![A Polar Bear mink on Steve's skin](models/mink-polar-bear.png)
+<figcaption>Polar Bear, size 1.5</figcaption>
+</figure>
+
+<figure markdown>
+![A Bull mink on Steve's skin](models/mink-bull.png)
+<figcaption>Bull, size 1.25</figcaption>
+</figure>
+
+</div>
+
+![The seven minks side by side, each at its size: Dog, Lion, Bunny, Cat, Jaguar, Polar Bear, Bull](models/mink-lineup.png){ .form-picture }
+
+In 3D: drag to turn, scroll or pinch to zoom. The buttons switch between the seven kinds and a Lion in Sulong. The fur is one of the kind's canon colours, picked from the player's identity.
+
+<div class="model-viewer" data-models="../models/" data-ids="minks"></div>
+
+<!-- /models:0 -->
+
 ## The seven kinds { #kinds }
 
 | Kind | Size | Passive | Own techniques |
@@ -60,6 +108,11 @@ All passives below are on top of the base mod's Mink Passive Bonuses. Each kind'
 
 ![](icons/mink-dog.png){ .mod-icon }
 
+<!-- models:1 -->
+![A Dog mink on Steve's skin](models/mink-dog.png){ .form-picture }
+
+<!-- /models:1 -->
+
 #### Dog Mink Pack { #dog-mink-pack }
 
 ![](abilities/dog-mink-pack.png){ .ability-icon } *Passive, Dog minks*
@@ -77,6 +130,11 @@ Allies are the members of the player's crew, alive, counted every half second; t
 
 ![](icons/mink-lion.png){ .mod-icon }
 
+<!-- models:2 -->
+![A Lion mink on Steve's skin](models/mink-lion.png){ .form-picture }
+
+<!-- /models:2 -->
+
 #### Lion Mink Body { #lion-mink-body }
 
 ![](abilities/lion-mink-body.png){ .ability-icon } *Passive, Lion minks*
@@ -90,6 +148,11 @@ The hardest hits of the minks.
 ### Bunny { #bunny }
 
 ![](icons/mink-bunny.png){ .mod-icon }
+
+<!-- models:3 -->
+![A Bunny mink on Steve's skin](models/mink-bunny.png){ .form-picture }
+
+<!-- /models:3 -->
 
 #### Bunny Mink Legs { #bunny-mink-legs }
 
@@ -106,6 +169,11 @@ Light feet: the user jumps higher, runs faster and lands unhurt from up to 12 bl
 ### Cat { #cat }
 
 ![](icons/mink-cat.png){ .mod-icon }
+
+<!-- models:4 -->
+![A Cat mink on Steve's skin](models/mink-cat.png){ .form-picture }
+
+<!-- /models:4 -->
 
 #### Cat Mink Eyes { #cat-mink-eyes }
 
@@ -124,6 +192,11 @@ The night vision is hidden (no icon) and goes in the light. A Night Vision potio
 
 ![](icons/mink-jaguar.png){ .mod-icon }
 
+<!-- models:5 -->
+![A Jaguar mink on Steve's skin](models/mink-jaguar.png){ .form-picture }
+
+<!-- /models:5 -->
+
 #### Jaguar Mink Claws { #jaguar-mink-claws }
 
 ![](abilities/jaguar-mink-claws.png){ .ability-icon } *Passive, Jaguar minks*
@@ -140,6 +213,11 @@ Only a direct blow with an empty main hand: arrows and techniques do not bleed.
 ### Polar Bear { #polar-bear }
 
 ![](icons/mink-polar-bear.png){ .mod-icon }
+
+<!-- models:6 -->
+![A Polar Bear mink on Steve's skin](models/mink-polar-bear.png){ .form-picture }
+
+<!-- /models:6 -->
 
 1.5 times a man, about 2.7 blocks high, with a broad chest: Bepo's build. Reach, blows, health and strides grow with the body.
 
@@ -159,6 +237,11 @@ Thick fur: the user never freezes, swims well and takes blows.
 ### Bull { #bull }
 
 ![](icons/mink-bull.png){ .mod-icon }
+
+<!-- models:7 -->
+![A Bull mink on Steve's skin](models/mink-bull.png){ .form-picture }
+
+<!-- /models:7 -->
 
 1.25 times a man, about 2.25 blocks high, with a broad chest and horns.
 
@@ -227,6 +310,11 @@ It shows Electrical Full Power's pose as it starts.
 ### Sulong { #sulong }
 
 ![](abilities/sulong.png){ .ability-icon } *Cast, then held, every mink*
+
+<!-- models:8 -->
+![A Lion mink in Sulong: white fur and hair, red eyes, the mane grown](models/mink-sulong.png){ .form-picture }
+
+<!-- /models:8 -->
 
 The minks' true form, under the full moon. After a 2 s cast the user grows, their fur and hair turn white, their eyes red and lit in the dark, their mane and tail wilder, with sparks all over. Press again to end it.
 
