@@ -63,7 +63,7 @@ public final class MyPrison implements Prisons.Provider {
 event.enqueueWork(() -> Prisons.register(new MyPrison()));
 ```
 
-Optional: `arrest(player, by)` (a player beaten and handed over, see below; by default `jail(player)`), `minutes(player)` (the time shown on the desk's surrender button; by default `MarinePrison.minutes` of his bounty), `isJailed` and `left` (by default read from the record, `extra.getInt("Left")`).
+Optional: `arrest(player, by)` (a player beaten and handed over, see below; by default `jail(player)`), `minutes(player)` (the time shown on the desk's surrender button; by default `MarinePrison.minutes` of his bounty), `isJailed` and `left` (by default read from the record, `extra.getInt("Left")`), `jail(player, minutes, level)` (an operator's `/akumalib faction prison send <player> <minutes> [level]`, since #1003: the given time whatever his bounty, and a level from 1 to 6 for a prison with levels, 0 for the one his bounty gives; by default `jail(player)`, then `"Left"` set to the given time and the level ignored).
 
 ## Rules
 

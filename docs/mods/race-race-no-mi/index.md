@@ -8,6 +8,8 @@ tags:
   - oni
   - tontatta
   - lunarian
+  - mink
+  - cyborg
 ---
 
 # Race Race no Mi
@@ -18,7 +20,7 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **0.4.0** (beta) |
+| Version documented | **0.5.0** (beta) |
 | Mod id | `racenomi` |
 | Configuration | [Server settings](configuration.md) |
 | Changelog | [Every release](changelog.md) |
@@ -38,8 +40,10 @@ tags:
 | ![](icons/buccaneer.png){ .fruit-icon } [Buccaneers](buccaneers.md): three busts | 2 | twice a man's height, a broad chest, they take the blows for their friends; 6 techniques |
 | ![](icons/merfolk.png){ .fruit-icon } [Merfolk](merfolk.md): Mermaid, Great Merfolk | 1, 1.25 | a fish tail in the water, legs on land, the fastest swimmers; 7 techniques |
 | ![](icons/modified-human.png){ .fruit-icon } [Modified Humans](modified-humans.md) | 1 | the Vinsmoke's bodies and the five Raid Suits of Germa 66, 7 techniques a suit |
+| ![](icons/mink-dog.png){ .fruit-icon } [Minks](minks.md): Dog, Lion, Bunny, Cat, Jaguar, Polar Bear, Bull | 1 (Polar Bear 1.5, Bull 1.25) | Electro in their fists, the Sulong under the full moon, a passive for each kind; 8 techniques, and 1 or 2 for each kind |
+| ![](abilities/body.png){ .fruit-icon } [Cyborgs](cyborgs.md) | 1 | Franky's way: a body built from crafted parts, iron to netherite, each giving its techniques; 29 techniques from the parts |
 
-The base mod's other races (Mink, Cyborg...) are left as they are.
+The Mink and the Cyborg are the base mod's races, taken over by this mod since 0.5.0.
 
 ## Compare the races { #compare }
 
@@ -57,11 +61,17 @@ What each body gives, side by side, from the race pages (size 1 figures, a race 
 | [Lunarians](lunarians.md) | 1.5 | +1 bare-handed damage; flame lit: -50 % damage taken; flame out: +40 % speed, +25 % attack speed, +2 bare-handed damage | a man's | 7, 2 of them given |
 | [Buccaneers](buccaneers.md) | 2 | +2 bare-handed damage, +2 toughness, left at 1 health once every 5 minutes | a man's | 6 |
 | [Merfolk](merfolk.md) | 1 (Great Merfolk 1.25) | Great Merfolk: +2 toughness | a fish tail: swim x4.5 (Mermaid faster still), breathe and see under water; lost with a Devil Fruit | 7 |
+| [Minks](minks.md) | 1 (Polar Bear 1.5, Bull 1.25) | the base mod's +50 % speed, higher jump and softer falls, and by kind: stronger beside crew allies, +3 damage, jump +1 and +20 % speed, night vision, +2 damage and bleeding, never freezing with +4 health and +2 toughness, or +2 damage and a doubled sprinting push | a man's (Polar Bear +30 % swim) | 8, and 1 or 2 per kind |
+| [Cyborgs](cyborgs.md) | 1 | nothing bare; each crafted part gives armour, toughness, bare-hand damage or speed by tier | a man's (+100 % swim with the Striking Arms) | from the parts: 29 |
 | [Modified Humans](modified-humans.md) | 1 | -25 % projectile and cutting damage, 1 health every 2 s, +2 bare-handed damage, +10 % speed; in a suit -50 % fire damage, no fall damage, +4 bare-handed damage; nobody trades with them | a man's | 7 a suit |
+
+## Lineage Factor { #lineage-factor }
+
+*Since 0.5.0.* Every race and sub-race of this mod (and the base mod's Minks' kinds) has a **Lineage Factor**: a trait with the same numbers and the same look as its passive, never its size. A body of that race carries it already. Another body can be grafted with it by the Nomi Nomi no Mi of [Missing Missing no Mi](../missing-missing-no-mi/index.md), through AkumaLib's [grafted traits](../../akumalib/utilities/traits.md): past three traits a body grows unstable, losing some health and weakening every trait. Cyborgs and modified humans have no blood, so no trait.
 
 ## Your size
 
-Every race has a size, set in the character creator with a slider: a man is 1, a fishman 1.25, a Lunarian 1.5, an Oni 1.75, a Buccaneer 2, a Wotan 3.5, a giant 4, a Tontatta 0.25. Reach, blows, health, strides and techniques all follow the body, through [AkumaLib](../../akumalib/index.md)'s size system: a giant's Stomp covers more ground than a man's would. The figures on these pages are for a body of size 1 unless they say otherwise (the Tontatta and Lunarian pages give them at the race's own size).
+Every race has a size, set in the character creator with a slider: a man is 1, a fishman 1.25, a Bull mink 1.25, a Polar Bear mink 1.5, a Lunarian 1.5, an Oni 1.75, a Buccaneer 2, a Wotan 3.5, a giant 4, a Tontatta 0.25. Reach, blows, health, strides and techniques all follow the body, through [AkumaLib](../../akumalib/index.md)'s size system: a giant's Stomp covers more ground than a man's would. The figures on these pages are for a body of size 1 unless they say otherwise (the Tontatta and Lunarian pages give them at the race's own size).
 
 | Race | Size | Slider |
 |---|---|---|
@@ -78,7 +88,7 @@ Every race has a size, set in the character creator with a slider: a man is 1, a
 
 ## The techniques
 
-The techniques of the sky people, the giants and the Wotan, the Oni, the Tontatta, the Lunarians, the Buccaneers and the merfolk sit in a branch of their own in the abilities tree, right of the base mod's races. Each one costs Doriki and training points, like the base mod's race techniques. A player only sees the techniques of their own race in the tree, and loses them on leaving the race (by the book or by command). The modified humans' techniques come with the Raid Suit they wear, not from the tree.
+The techniques of the sky people, the giants and the Wotan, the Oni, the Tontatta, the Lunarians, the Buccaneers, the merfolk and the minks sit in a branch of their own in the abilities tree, right of the base mod's races. Each one costs Doriki and training points, like the base mod's race techniques. A player only sees the techniques of their own race in the tree, and loses them on leaving the race (by the book or by command). The modified humans' techniques come with the Raid Suit they wear, not from the tree. The cyborgs' techniques come with the parts fitted in their body, not from the tree either.
 
 **By command**, `/ability unlock_group` has a group for each race and sub-race (`racenomi:giant`, `racenomi:wotan`...): a race gives its whole kit, a sub-race only its own. A technique given by a command is not taken back by the race check.
 
@@ -89,7 +99,7 @@ The techniques of the sky people, the giants and the Wotan, the Oni, the Tontatt
 | Minecraft | 1.20.1 |
 | Forge | 47.4.2 or later (an older Forge crashes when a chest is opened) |
 | Mine Mine no Mi | 0.11.6 |
-| [AkumaLib](../../akumalib/index.md) | 6.5.0 or later (with an older AkumaLib the game stops at start-up) |
+| [AkumaLib](../../akumalib/index.md) | 6.8.0 or later (with an older AkumaLib the game stops at start-up) |
 | [Sky Island](../sky-island/index.md) | optional: the sky people are at their strongest in Skypiea |
 
 Needed on both the client and the server.

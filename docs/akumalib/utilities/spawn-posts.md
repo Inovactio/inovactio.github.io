@@ -34,7 +34,7 @@ The block, its block entity type and where it is placed are registered by you: t
 
 ## What a post is
 
-Four values, saved with the block and writable by hand (`/data merge block ~ ~ ~ {kind:"minecraft:pig",max:2}`) or from code (`set(kind, max, delay, persistent)`):
+Five values, saved with the block and writable by hand (`/data merge block ~ ~ ~ {kind:"minecraft:pig",max:2}`) or from code (`set(kind, max, delay, persistent)`, or `set(kind, max, delay, persistent, stock)`):
 
 | Key | Meaning | Default |
 |---|---|---|
@@ -42,8 +42,9 @@ Four values, saved with the block and writable by hand (`/data merge block ~ ~ ~
 | `max` | how many may stand at once | 1 |
 | `delay` | ticks before one that is missing is replaced | 600 |
 | `persistent` | kept for ever, see below | false |
+| `stock` | *Since 6.8.0.* how many of the missing it replaces between two renewals, see below; under 0, any number | -1 (`SpawnPost.Settings.UNLIMITED`) |
 
-A post with no `kind` asks `fallback(level)`: a structure laid from a plan writes nothing in its posts, and every post already in the world follows a change of the plan.
+A post with no `kind` asks `fallback(level)`, stock included: a structure laid from a plan writes nothing in its posts, and every post already in the world follows a change of the plan.
 
 ```java
 @Override
@@ -57,15 +58,17 @@ protected SpawnPost.Settings fallback(ServerLevel level) {
 - **A player within `radius`** (alive, no spectator, all round it): it puts its people down, up to `max` at once the first time, then one each `delay` ticks while some are missing. They are spawned as a spawner's (`MobSpawnType.SPAWNER`), on the floor found up to `drop()` blocks under the post.
 - **Nobody that near**: it puts nothing down.
 - **No player within 128 blocks of one of its people** (`SpawnPost.FAR`): that one goes. Vanilla does the same to the types that follow its rule; many modded types do not.
-- **A `persistent` post** keeps its people for ever, and a missing one is not replaced. Beyond 128 blocks from every player they **sleep**: the post takes them out of the world, keeps all they are, and puts the very same ones back, where they stood, when a player comes within `radius` again.
+- **A `persistent` post** keeps its people for ever, and a missing one is not replaced. Beyond 128 blocks from every player they **sleep**: the post takes them out of the world, keeps all they are, and puts the very same ones back, where they stood, when a player comes within `radius` again. A woken one gets what the library gives back to a mob read from its chunk: the AI goals of a fruit it was given (#975).
 - **One of its people that is `SpawnPost.Roaming`** and says so (`roaming()` is true: a freed prisoner, an escort on its way) is let be: never put to sleep nor sent away, however far from every player, and still counted, so nobody takes its place while it is out. Your entity class implements the interface.
-- **Renewed**, any post is as new: it fills up at once, the missing of a persistent post with the others.
+- **A post with a `stock`** (*since 6.8.0*, #985) replaces its missing that many times, one by one, then stays empty until it is renewed: what dies near it cannot be farmed for ever. Its first filling, and each one after a renewal, takes nothing from the stock. What it spent is saved with it. A post saved before 6.8.0 has no stock.
+- **Which players count** (*since 6.8.0*, #209): override `reaches(player, y)` to narrow them, for the post (its height) and for each of its people (theirs). A tall structure keeps a floor's people to the players of that floor: a player on one level no longer wakes nor keeps every level within reach. By default every player counts, all round, as before.
+- **Renewed**, any post is as new: it fills up at once, the missing of a persistent post with the others, and its stock is full again.
 
 !!! warning "What a persistent post's people must bear"
     Everything one of them must keep goes in its saved data, and nothing may rely on it ticking while nobody is near. An entity that only stands still costs as much as one that walks: that is why they sleep.
 
 !!! info "People are known by their ids"
-    One that is in a chunk not loaded while the post's own chunk is counts as gone. A post is for people who stay about it.
+    The post knows the chunk each one was last seen in, and saves it as soon as it changes (#975): one in a chunk not loaded while the post's own chunk is still counts, through a restart too, and is gone only once that chunk's entities are loaded without him. A post is still for people who stay about it.
 
 ## Renewed by the mending
 
@@ -85,9 +88,14 @@ For an owner that is not a block entity. It is called once a second and saved by
 ```java
 private final SpawnPost post = new SpawnPost();
 private static final SpawnPost.Settings GUARDS = new SpawnPost.Settings("mymod:guard", 2, 600, false);
+// 6.8.0: the same, replacing its missing 3 times between two renewals
+private static final SpawnPost.Settings WARDENS = new SpawnPost.Settings("mymod:warden", 2, 600, false, 3);
 
 // once a second, server side; true when something changed that must be saved
 boolean changed = post.second(level, pos, GUARDS, radius, drop, renewed);
+
+// 6.8.0: only the players a rule of yours reaches count (null: all of them)
+changed = post.second(level, pos, GUARDS, radius, drop, renewed, (player, y) -> Math.abs(player.getY() - y) <= 24);
 
 post.save(tag);
 post.load(tag);

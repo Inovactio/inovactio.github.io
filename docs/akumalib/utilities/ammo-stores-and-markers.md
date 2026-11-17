@@ -34,6 +34,37 @@ player.openMenu(new SimpleMenuProvider((id, inventory, p) -> ChestMenu.sixRows(i
 - The key is where it is written. Put the id of the addon in it and never change it once shipped.
 - A player gets a new body when he dies and when he comes back from the End. The store is read again for the new body, so do not keep the container: ask `of(player)` each time.
 
+## `PersonalFurnace`: a furnace a player carries
+
+*Since 6.8.0.* The game's furnace screen over three slots kept on the player (a `PlayerStore`), no block placed: a fruit user's belly, a cyborg's furnace part. It cooks every `smelting` recipe at the recipe's own speed and gives its experience as orbs. What heats it is yours.
+
+```java
+public static final PersonalFurnace OVEN = new PersonalFurnace("myaddon:belly_oven", player -> hasFruit(player))
+        .fuel(PersonalFurnace.Fuel.ENDLESS)   // the default: never runs out
+        .cooksWhenClosed(true)                // the default
+        .keptAtDeath(false);                  // the default: drops as the inventory does
+
+OVEN.open(serverPlayer, Component.translatable("ability.myaddon.belly_oven_title"));
+```
+
+- **Owner check** (constructor): read on the server every tick of a player whose furnace holds something. Once it is false (the fruit lost, the part taken off) the furnace spills at his feet. It also closes the screen.
+- **`Fuel`**: `canPay(player)` is asked every tick and cooking waits while it is false; `pay(player)` is called once per item, when it comes out (false keeps the item raw); `flame(player)` (0 to 1, default full while `canPay`) is the flame drawn in the screen. `Fuel.ENDLESS` costs nothing. A creative player never pays. Example, one cola per item:
+
+```java
+.fuel(new PersonalFurnace.Fuel() {
+    public boolean canPay(ServerPlayer p) { return cola(p) >= 1; }
+    public boolean pay(ServerPlayer p) { return spendCola(p, 1); }
+    public float flame(ServerPlayer p) { return cola(p) / (float) MAX_COLA; }
+})
+```
+
+- **`cooksWhenClosed(false)`**: it cooks only while its owner has its screen open.
+- **`keptAtDeath(true)`**: it stays with the player over a death. Otherwise it drops at his feet when he dies, unless the `keepInventory` rule is on.
+- **`spill(player)`**: drops it all at his feet and stops the cooking, at any time: call it when the part is removed.
+- `of(player)` gives the live slots (`INPUT`, `FUEL` which stays empty, `RESULT`), `keeps(player)` whether anything is in it, `cooked(player)` the ticks cooked on the current item, `tick(player)` one tick by hand (tests only, it ticks by itself).
+- The fuel slot of the screen is locked. The client draws the game's own furnace screen, so a dedicated server needs nothing more.
+- The key is where it is written. Put the id of the addon in it and never change it once shipped.
+
 ## `ScreenMarkers`
 
 *Since 3.1.0.* Markers on one player's screen pointing at places in the world, for a while: a clairvoyance, a radar, Observation Haki.

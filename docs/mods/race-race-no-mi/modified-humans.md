@@ -66,6 +66,15 @@ In 3D: drag to turn, scroll or pinch to zoom. The buttons switch between the fiv
 </div>
 <!-- /bodies -->
 
+## The hidden modified human { #hidden-modified-human }
+
+*Since 0.5.0.* A Human who finds out late, as Sanji: the body was changed, the heart was not.
+
+- **The draw.** The first time a player is a Human, 1 in 100 is secretly a hidden modified human. It is drawn once and kept, over death and race changes. Nothing shows it.
+- **The awakening.** Once they have **5,000 Doriki** and **20 hours of play** since the draw, both, a message and a sound tell them, and within a few seconds they get Modified Body, the Raid Suit passive and the suits' techniques. The ration box opens for them and its recipe works.
+- **Still a Human.** They keep Human Will, are never Unsociable, and have no mental resistance: love, gloom and Conqueror's Haki hit them as any man. No ration box is given: they craft or buy one.
+- **Servers** choose in the [configuration](configuration.md): `DRAW` (the default, at `hiddenModifiedChance`), `CHOICE` (the character creator shows two pages, "Human" and "Hidden Modified Human", the second with the kit to come) or `OFF`.
+
 ## Modified Body { #modified-body }
 
 ![](abilities/modified-body.png){ .ability-icon } *Passive, modified humans*

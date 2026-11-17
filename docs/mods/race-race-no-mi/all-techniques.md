@@ -7,7 +7,7 @@ tags:
 
 # All techniques
 
-Every technique of the races in one table (the Wotan's are the giants'): **click a column** to sort it, **type in the box** to keep only the rows that match. Values are those of each race's page: damage is what the target really loses, for a body of size 1, except the Tontatta and the Lunarians, at their own size. A suit's techniques, listed in short on the Modified Humans page, have the values of their tooltip in game. A technique with an Alt mode shows each mode's value, separated by `/`.
+Every technique of the races in one table (the Wotan's are the giants'): **click a column** to sort it, **type in the box** to keep only the rows that match. Values are those of each race's page (a cyborg's at the iron tier): damage is what the target really loses, for a body of size 1, except the Tontatta and the Lunarians, at their own size. A suit's techniques, listed in short on the Modified Humans page, have the values of their tooltip in game. A technique with an Alt mode shows each mode's value, separated by `/`.
 
 <input class="table-filter" type="search" placeholder="Filter by technique, race or type" aria-label="Filter the techniques">
 
@@ -116,5 +116,64 @@ Every technique of the races in one table (the Wotan's are the giants'): **click
 | ![](abilities/winch-punch.png){ .ability-mini }[Winch Punch](modified-humans.md#winch-green) | [Modified Humans: Winch Green](modified-humans.md) | Active | with the suit | 8 s |  |  | 14 | 16 blocks (line) |
 | ![](abilities/winch-danton.png){ .ability-mini }[Winch Danton](modified-humans.md#winch-green) | [Modified Humans: Winch Green](modified-humans.md) | Active | with the suit | 18 s |  | 3 s | 12 |  |
 | ![](abilities/winch-bomber.png){ .ability-mini }[Winch Bomber](modified-humans.md#winch-green) | [Modified Humans: Winch Green](modified-humans.md) | Active | with the suit | 18 s | 1 s | 2 s | 20 | 10 blocks (line) |
+| ![](abilities/dog-mink-pack.png){ .ability-mini }[Dog Mink Pack](minks.md#dog-mink-pack) | [Minks](minks.md) | Passive | given with the kind |  |  |  |  |  |
+| ![](abilities/lion-mink-body.png){ .ability-mini }[Lion Mink Body](minks.md#lion-mink-body) | [Minks](minks.md) | Passive | given with the kind |  |  |  |  |  |
+| ![](abilities/bunny-mink-legs.png){ .ability-mini }[Bunny Mink Legs](minks.md#bunny-mink-legs) | [Minks](minks.md) | Passive | given with the kind |  |  |  |  |  |
+| ![](abilities/cat-mink-eyes.png){ .ability-mini }[Cat Mink Eyes](minks.md#cat-mink-eyes) | [Minks](minks.md) | Passive | given with the kind |  |  |  |  |  |
+| ![](abilities/jaguar-mink-claws.png){ .ability-mini }[Jaguar Mink Claws](minks.md#jaguar-mink-claws) | [Minks](minks.md) | Passive | given with the kind |  |  |  |  |  |
+| ![](abilities/polar-bear-mink-fur.png){ .ability-mini }[Polar Bear Mink Fur](minks.md#polar-bear-mink-fur) | [Minks](minks.md) | Passive | given with the kind |  |  |  |  |  |
+| ![](abilities/bull-mink-charge.png){ .ability-mini }[Bull Mink Charge](minks.md#bull-mink-charge) | [Minks](minks.md) | Passive | given with the kind |  |  |  |  |  |
+| ![](abilities/electro.png){ .ability-mini }[Electro](minks.md#electro) | [Minks](minks.md) | Toggle | 500 Doriki, 3 martial arts points | 2.5 to 9 s |  | until off | +5 to blows |  |
+| ![](abilities/sulong.png){ .ability-mini }[Sulong](minks.md#sulong) | [Minks](minks.md) | Active | 1,200 Doriki | 5 to 60 s | 2 s | until ended | +10 to bare hands |  |
+| ![](abilities/eleclaw.png){ .ability-mini }[Eleclaw](minks.md#eleclaw) | [Minks](minks.md) | Active | 800 Doriki, 5 martial arts points | 8 s |  |  | 10 | 10 blocks (leap) |
+| ![](abilities/mink-assault.png){ .ability-mini }[Mink Assault](minks.md#mink-assault) | [Minks](minks.md) | Active | 800 Doriki, 5 martial arts points | 9 s |  |  | 8 | 12 blocks (rush) |
+| ![](abilities/electrical-tempesta.png){ .ability-mini }[Electrical Tempesta](minks.md#electrical-tempesta) | [Minks](minks.md) | Active | 3,000 Doriki, 5 martial arts points | 8 s | 0.5 s |  | 8 | 5 blocks around |
+| ![](abilities/electrical-luna.png){ .ability-mini }[Electrical Luna](minks.md#electrical-luna) | [Minks](minks.md) | Active | 3,600 Doriki, 10 martial arts points | 10 s | 2 s |  | 14 | 6 blocks around |
+| ![](abilities/moon-raid.png){ .ability-mini }[Moon Raid](minks.md#moon-raid) | [Minks](minks.md) | Active | 5,000 Doriki, 10 martial arts points | 7.5 s (in Sulong) |  |  | 21 (in Sulong) | 16 blocks (rush) |
+| ![](abilities/electrical-shower.png){ .ability-mini }[Electrical Shower](minks.md#electrical-shower) | [Minks](minks.md) | Active | 7,000 Doriki, 10 martial arts points | 12 s |  | 1.5 s | 4 a bolt | 6 blocks around |
+| ![](abilities/inu-odoshi.png){ .ability-mini }[Inu Odoshi](minks.md#inu-odoshi) | [Minks](minks.md) | Active | 3,000 Doriki, 5 martial arts points | 13 s |  |  | 16 | 16 blocks (rush) |
+| ![](abilities/electro-roar.png){ .ability-mini }[Electro Roar](minks.md#electro-roar) | [Minks](minks.md) | Active | 3,000 Doriki, 5 martial arts points | 11 s |  |  | 8 | 7 blocks, a cone |
+| ![](abilities/moon-rabbit.png){ .ability-mini }[Moon Rabbit](minks.md#moon-rabbit) | [Minks](minks.md) | Active | 3,000 Doriki, 5 martial arts points | 12 s |  |  | 10 | 19.6 blocks (rush) |
+| ![](abilities/comet-rabbit.png){ .ability-mini }[Comet Rabbit](minks.md#comet-rabbit) | [Minks](minks.md) | Active | 5,000 Doriki, 10 martial arts points | 14 s |  |  | 14 | 3 blocks around the landing |
+| ![](abilities/aka-byobu.png){ .ability-mini }[Aka Byobu](minks.md#aka-byobu) | [Minks](minks.md) | Active | 3,000 Doriki, 5 martial arts points | 13 s |  |  | 14 | 15.6 blocks (rush) |
+| ![](abilities/juken-karajishi.png){ .ability-mini }[Juken Karajishi](minks.md#juken-karajishi) | [Minks](minks.md) | Active | 3,000 Doriki, 5 martial arts points | 10 s |  |  | 14 (17.5 with a sword) | 3.5 blocks (line) |
+| ![](abilities/bear-hug.png){ .ability-mini }[Bear Hug](minks.md#bear-hug) | [Minks](minks.md) | Active | 3,000 Doriki, 5 martial arts points | 15 s |  | 3 s | 18 in all | 2.5 blocks |
+| ![](abilities/mo-golova.png){ .ability-mini }[Mo Golova](minks.md#mo-golova) | [Minks](minks.md) | Active | 3,000 Doriki, 5 martial arts points | 8 s |  |  | 12 | 7.2 blocks (rush) |
+| ![](abilities/body.png){ .ability-mini }[Body](cyborgs.md#body) | [Cyborgs](cyborgs.md) | Active | given with the race | 1 s |  |  |  |  |
+| ![](abilities/fresh-fire.png){ .ability-mini }[Fresh Fire](cyborgs.md#fire-jaw) | [Cyborgs](cyborgs.md) | Active | with the part (Fire Jaw) | 4 s |  | 1.5 s | 5.4 a burst |  |
+| ![](abilities/franky-fireball.png){ .ability-mini }[Franky Fireball](cyborgs.md#fire-jaw) | [Cyborgs](cyborgs.md) | Active (ALT) | with the part (Fire Jaw) | 6.4 s |  |  | 28.8 | 2.3 blocks around the hit |
+| ![](abilities/master-nail.png){ .ability-mini }[Master Nail](cyborgs.md#nail-jaw) | [Cyborgs](cyborgs.md) | Active | with the part (Nail Jaw) | 5.6 s |  |  | 7.2 a nail | a 60° fan |
+| ![](abilities/triangle-jacker.png){ .ability-mini }[Franky Triangle Jacker](cyborgs.md#steel-hair) | [Cyborgs](cyborgs.md) | Active | with the part (Steel Hair) | 4 s |  |  | 16.2 |  |
+| ![](abilities/strong-right.png){ .ability-mini }[Strong Right](cyborgs.md#striking-arms) | [Cyborgs](cyborgs.md) | Active | with the part (Striking Arms) | 4 s |  |  | 21.6 |  |
+| ![](abilities/strong-hammer.png){ .ability-mini }[Strong Hammer](cyborgs.md#striking-arms) | [Cyborgs](cyborgs.md) | Active | with the part (Striking Arms) | 8 s | 0.75 s |  | 36 | 4 blocks |
+| ![](abilities/franky-boxing.png){ .ability-mini }[Franky Boxing](cyborgs.md#striking-arms) | [Cyborgs](cyborgs.md) | Active | with the part (Striking Arms) | 6.4 s |  | 2 s | 7.2 a jab, 8 jabs | 3.45 blocks |
+| ![](abilities/franky-southland-suplex.png){ .ability-mini }[Franky Southland Suplex](cyborgs.md#striking-arms) | [Cyborgs](cyborgs.md) | Active | with the part (Striking Arms) | 8 s |  |  | 28.8 | 2.9 blocks |
+| ![](abilities/franosuke-iron-suplex.png){ .ability-mini }[Franosuke Iron Suplex](cyborgs.md#striking-arms) | [Cyborgs](cyborgs.md) | Active (ALT) | with the part (Striking Arms) | 10.4 s |  |  | 39.6 | 2.9 blocks |
+| ![](abilities/franky-butterfly.png){ .ability-mini }[Franky Butterfly](cyborgs.md#striking-arms) | [Cyborgs](cyborgs.md) | Passive | with the part (Striking Arms) |  |  |  |  |  |
+| ![](abilities/weapons-left.png){ .ability-mini }[Weapons Left](cyborgs.md#armed-arm) | [Cyborgs](cyborgs.md) | Active | with the part (Armed Arm) | 6.4 s |  |  | 28.8, burst 14.4 | 2.3 blocks around the hit |
+| ![](abilities/ouch-finger.png){ .ability-mini }[Ouch Finger](cyborgs.md#armed-arm) | [Cyborgs](cyborgs.md) | Active | with the part (Armed Arm) | 2.4 s |  |  | 18 |  |
+| ![](abilities/beans-left.png){ .ability-mini }[Beans Left](cyborgs.md#armed-arm) | [Cyborgs](cyborgs.md) | Active (ALT) | with the part (Armed Arm) | 5.6 s |  |  | 4.5 a pellet, 8 pellets |  |
+| ![](abilities/hoshi-shield.png){ .ability-mini }[Hoshi Shield](cyborgs.md#armed-arm) | [Cyborgs](cyborgs.md) | Toggle | with the part (Armed Arm) | 2.4 s and the time held |  | 5 s |  |  |
+| ![](abilities/coup-de-vent.png){ .ability-mini }[Coup de Vent](cyborgs.md#connector-arms) | [Cyborgs](cyborgs.md) | Active | with the part (Connector Arms) | 9.6 s | up to 3 s |  | 18 to 72 |  |
+| ![](abilities/hakugeki-ho.png){ .ability-mini }[Hakugeki Ho](cyborgs.md#connector-arms) | [Cyborgs](cyborgs.md) | Active | with the part (Connector Arms) | 9.6 s |  |  | 32.4 (64.8 on a big body) | about 8 blocks |
+| ![](abilities/radical-beam.png){ .ability-mini }[Franky Radical Beam](cyborgs.md#vegapunk-arms) | [Cyborgs](cyborgs.md) | Active | with the part (Vegapunk Arms) | 10.4 s | 3 s |  | 90 |  |
+| ![](abilities/strong-impact-right.png){ .ability-mini }[Strong Impact Right](cyborgs.md#vegapunk-arms) | [Cyborgs](cyborgs.md) | Active | with the part (Vegapunk Arms) | 8 s |  |  | 46.8 |  |
+| ![](abilities/super-strong-dexter.png){ .ability-mini }[Super Strong Dexter](cyborgs.md#vegapunk-arms) | [Cyborgs](cyborgs.md) | Active | with the part (Vegapunk Arms) | 12 s |  |  | 81 | 4.6 blocks |
+| ![](abilities/cola-overdrive.png){ .ability-mini }[Cola Overdrive](cyborgs.md#super-fridge) | [Cyborgs](cyborgs.md) | Active | with the part (Super Fridge) | (5 s + the time run) x0.8 |  | up to 15 s |  |  |
+| ![](abilities/nipple-light.png){ .ability-mini }[Franky Nipple Light](cyborgs.md#armored-chest) | [Cyborgs](cyborgs.md) | Active | with the part (Armored Chest) | 12 s |  |  |  | 6.9 blocks around |
+| ![](abilities/destroy-ho.png){ .ability-mini }[Franky Destroy Ho](cyborgs.md#cannon-shoulders) | [Cyborgs](cyborgs.md) | Active | with the part (Cannon Shoulders) | 8 s | 0.5 s |  | 25.2 a shell, 2 shells | 1.7 blocks around the hit |
+| ![](abilities/tsuiseki-hodan.png){ .ability-mini }[Tsuiseki Hodan](cyborgs.md#cannon-shoulders) | [Cyborgs](cyborgs.md) | Active | with the part (Cannon Shoulders) | 6.4 s |  | 5 s | 10.8 a shell, 10 shells |  |
+| ![](abilities/rocket-launcher.png){ .ability-mini }[Franky Rocket Launcher](cyborgs.md#rocket-shoulders) | [Cyborgs](cyborgs.md) | Active | with the part (Rocket Shoulders) | 12 s |  |  | 32.4 a rocket, 3 rockets | 2.9 blocks around the hit |
+| ![](abilities/franky-cannon.png){ .ability-mini }[Franky Cannon](cyborgs.md#rocket-shoulders) | [Cyborgs](cyborgs.md) | Active | with the part (Rocket Shoulders) | 9.6 s | 1 s |  | 54 | 3.45 blocks around the hit |
+| ![](abilities/coup-de-boo.png){ .ability-mini }[Coup de Boo](cyborgs.md#coup-de-boo-thruster) | [Cyborgs](cyborgs.md) | Active | with the part (Coup de Boo Thruster) | 8 s | up to 1.5 s |  |  | 4.6 blocks behind |
+| ![](abilities/kentauros.png){ .ability-mini }[Franky Kentauros](cyborgs.md#kentauros-legs) | [Cyborgs](cyborgs.md) | Active | with the part (Kentauros Legs) | 8 s |  | 5 s |  | 2.9 blocks |
+| ![](abilities/ultimate-hammer.png){ .ability-mini }[Ultimate Hammer](cyborgs.md#kentauros-legs) | [Cyborgs](cyborgs.md) | Active | with the part (Kentauros Legs) | 9.6 s |  |  | 54, through armour |  |
+| ![](abilities/franky-tank.png){ .ability-mini }[Franky Tank](cyborgs.md#tank-legs) | [Cyborgs](cyborgs.md) | Toggle | with the part (Tank Legs) | 4 s |  | until off | 10.8 a ram |  |
+| ![](abilities/franky-skywalk.png){ .ability-mini }[Franky Skywalk](cyborgs.md#accessories) | [Cyborgs](cyborgs.md) | Active | with the part (Skywalk Kit) | 8 s |  | 12 s |  |  |
+| ![](abilities/franky-airbag.png){ .ability-mini }[Franky Airbag](cyborgs.md#accessories) | [Cyborgs](cyborgs.md) | Active | with the part (Airbag) | 15 s |  | 6 s |  |  |
+| ![](abilities/franky-heel-boost.png){ .ability-mini }[Heel Boost](cyborgs.md#accessories) | [Cyborgs](cyborgs.md) | Passive | with the part (Heel Boosters) |  |  |  |  |  |
+| ![](abilities/cyborg-workbench.png){ .ability-mini }[Workbench](cyborgs.md#accessories) | [Cyborgs](cyborgs.md) | Active | with the part (Workbench Module) | 1 s |  |  |  |  |
+| ![](abilities/cyborg-storage.png){ .ability-mini }[Storage](cyborgs.md#accessories) | [Cyborgs](cyborgs.md) | Active | with the part (Storage Module) | 1 s |  |  |  |  |
+| ![](abilities/cyborg-furnace.png){ .ability-mini }[Furnace](cyborgs.md#accessories) | [Cyborgs](cyborgs.md) | Active | with the part (Furnace Module) | 1 s |  |  |  |  |
 
 </div>

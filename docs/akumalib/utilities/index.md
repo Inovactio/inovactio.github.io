@@ -31,6 +31,7 @@ Small helpers that encode a decision easy to get wrong once per fruit.
 |---|---|
 | [Blocks](blocks.md) | `TemporaryBlocks`, `PropagationHelper`, `BlockPlacingHelper`, `BlockHighlightManager`, `BlockOverlayManager`, `EntityHighlights`, `BlockWrites` |
 | [Lines](lines.md) | `AkumaLines`, `LineAnchor`, `LineStyle`: a rope or thread between two anchors, rendered on the client |
+| [Shared particles](particles.md) | `AkumaParticles`: a drop, a puff, a glint and a ring, white and tinted at sending; `AkumaParticleProviders`: gravity, pull and growth for a mod's own particles |
 | [Tooltips](tooltips.md) | `ToolTipHelper`, `AwakenTooltipHelper`, `AkumaSourceTooltip`, `AkumaI18n` |
 | [Mixins and new versions of the base mod](mixin-report.md) | `MixinReport`, `@Protection`, `checkMixinTargets`: what to do so a newer Mine Mine no Mi does not stop the game |
 

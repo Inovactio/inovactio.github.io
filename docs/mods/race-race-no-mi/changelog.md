@@ -2,6 +2,95 @@
 
 Every Race Race no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/all).
 
+## 0.5.0 (beta) { #v0-5-0 }
+
+<small>Released 2026-11-17 · [Download](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/9666325)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Cyborgs rebuilt part by part, and minks reborn.</strong> The cyborg now builds Franky's body himself: he crafts parts and
+fits them, each part giving its techniques, from iron to netherite. Minks get four new kinds, a full kit of Zou's
+techniques and the Sulong under the full moon. Every race now has a Lineage Factor, a Human may be a hidden modified
+human who finds out late, NPCs of the world can be of our races, and every item has its own creative tab. Still a beta:
+the numbers may change with your feedback.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 6.8.0</strong> or newer
+(with an older AkumaLib the game stops at start-up).
+<a href="https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-sky-island">Mine Mine no Mi: Sky Island</a> is optional.
+Needed on both the client and the server.</p>
+<p>⚠️ <strong>Cyborgs from 0.4.0 start bare.</strong> The base mod's cyborg techniques and Cyborg Passive Bonuses leave the tree: whoever
+bought them gets the points back, and the techniques now come from the parts you fit. Craft your first parts at a
+crafting table and fit them with the <strong>Body</strong> technique.</p>
+<hr />
+<h2>Cyborgs, rebuilt</h2>
+<ul>
+<li><strong>A body you build.</strong> A bare cyborg gives nothing. With the <strong>Body</strong> technique he fits crafted parts in six slots
+  (head, right arm, left arm, chest, shoulders, legs) and accessory slots. Each part gives its zone's stats and its own
+  techniques for as long as it is fitted, and is kept over death.</li>
+<li><strong>Three tiers per part</strong>: iron, diamond and netherite. A tier goes up at the crafting table (the iron part and 4
+  diamonds, then the diamond part and a netherite ingot). Higher tiers hit much harder, use less cola and wait less.</li>
+<li><strong>Slots open with your Doriki.</strong> A new cyborg has one arm and one accessory. The left arm opens at half the server's
+  Doriki limit (5000 by default), and up to five accessories open along the way. A closed slot shows the Doriki it
+  needs.</li>
+<li><strong>Two arms</strong>: each arm gives its own part's techniques; never the same part twice.</li>
+<li><strong>Franky's techniques, from his canon</strong>, 29 of them over 14 parts: Fresh Fire, Master Nail, Franky Triangle Jacker,
+  Strong Right (the fist now flies on a chain and is reeled back), Strong Hammer, Franky Boxing, Southland Suplex,
+  Weapons Left, Ouch Finger, Hoshi Shield, Coup de Vent, Hakugeki Ho, Franky Radical Beam, Strong Impact Right, Super
+  Strong Dexter, Cola Overdrive, Franky Nipple Light, Franky Destroy Ho, Tsuiseki Hodan, Franky Rocket Launcher, Franky
+  Cannon, Coup de Boo, Franky Kentauros, Ultimate Hammer, Franky Tank (its treads come down and roll) and more.</li>
+<li><strong>Accessories</strong> (no tier): Cola Tank, Back Plating, Magnet Insulator, Shock Absorbers, Head Lamp, Skywalk Kit (oak
+  planks lay themselves under your feet over the void), Airbag, <strong>Heel Boosters</strong> (a second jump in the air, once until you land, the same double jump as the Seiryu hybrid's), and three
+  modules: <strong>Workbench</strong> (a crafting grid anywhere), <strong>Storage</strong> (nine slots you carry) and <strong>Furnace</strong> (cooks any
+  smelting recipe, one cola per item, even with its screen closed).</li>
+<li><strong>Plans</strong>: the Vegapunk Arms and Rocket Shoulders are learnt from plans found in labs and chests or sold by traders.
+  <strong>Super Vega Cola</strong> refills your cola and makes your bare hands hit harder for a minute; the bonus grows with your
+  size.</li>
+<li><strong>Parts drawn on the body</strong>, tinted by tier, the jaws, forearms and legs in your skin's own colour as Franky's; in
+  first person too, on the arm that wears them and on the Black Leg leg.</li>
+<li><strong>Cyborg NPCs</strong> wear parts by their strength: a grunt one or two iron parts, a captain three, a notorious pirate four.</li>
+</ul>
+<h2>Minks</h2>
+<ul>
+<li><strong>Four new kinds</strong>: <strong>Cat</strong> (sees in the dark, faster blows), <strong>Jaguar</strong> (bare-handed blows may bleed, +2 damage),
+  <strong>Polar Bear</strong> (never freezes, swims faster, more health and toughness, 1.5 times a man) and <strong>Bull</strong> (a sprinting
+  blow knocks back twice as far, harder to push, 1.25 times a man). The Dog, Lion and Bunny get a passive of their own
+  too: the Dog's pack grows stronger beside crew allies, the Lion hits harder, the Bunny falls softly and jumps higher.</li>
+<li><strong>New looks</strong>: ears, a muzzle, a tail, the lion's mane, the bull's horns, in canon fur colours or the skin tint chosen
+  in the book. Your skin takes the fur's colour.</li>
+<li><strong>A new kit</strong>: Electro (charged fists and weapon), <strong>Sulong</strong> (under the full moon and an open sky: bigger, white fur,
+  red eyes, much stronger, tired afterwards), Eleclaw, Mink Assault, Electrical Luna, Electrical Tempesta, Electrical
+  Shower and Moon Raid (with a crew mink in Sulong beside you). Each kind has its own techniques: Moon Rabbit and Comet
+  Rabbit, Inu Odoshi, Aka Byobu, Mo Golova, Juken Karajishi and more.</li>
+<li><strong>Your mink is kept</strong>: the base mod's mink techniques you had become ours, on the same slot, points paid back.</li>
+<li>The creator book shows the whole kit, on two rows when a page has more than seven.</li>
+</ul>
+<h2>Every race</h2>
+<ul>
+<li><strong>Lineage Factor</strong>: every race and sub-race has its own trait, the same numbers as its passive and its look, that the
+  Nomi Nomi no Mi of Missing Missing no Mi can graft on another body.</li>
+<li><strong>The hidden modified human</strong>: the first time a player is a Human, 1 in 100 is secretly a modified human, as Sanji.
+  Nothing shows it until 5000 Doriki and 20 hours played: then the Raid Suit's body and techniques wake up. Servers can
+  set it to <code>DRAW</code>, <code>CHOICE</code> (a page of its own in the book) or <code>OFF</code>.</li>
+<li><strong>NPCs of our races</strong>: the base mod's grunts, brutes, snipers, captains and notorious pirates may be born a giant, an
+  Oni, a Tontatta, a fishman and so on, with the race's size and look. Marines get a race far more rarely, by canon.</li>
+<li><strong>A creative tab</strong>, "Race Race no Mi", with every item of the addon.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Henry Cracker</strong> strikes its six times and <strong>Henry Blazer</strong> lays its full lightning trail on a lagging server too.</li>
+<li><strong>Stealth Decoy</strong> hides you for Stealth's full time, without touching Stealth's cooldown.</li>
+<li><strong>Moon Raid</strong>: the partner's blow is no longer lost.</li>
+<li><strong>Cyborg NPCs</strong> keep their parts' stats after the world reloads.</li>
+</ul>
+<h2>Server settings</h2>
+<ul>
+<li><strong><code>giantsSelectable</code> and <code>skyPeopleSelectable</code> are gone</strong> from <code>racenomi-server.toml</code>. To keep a race out of the
+  character creator, use AkumaLib's races data pack instead: it works for every race of every mod. A player who
+  already has the race keeps it. For example, <code>data/myserver/akumalib/races/creator.json</code> in a data pack:</li>
+</ul>
+<p><code>json
+  { "remove": ["racenomi:giant", "racenomi:wotan", "racenomi:sky_people"] }</code>
+- <strong><code>[humans]</code></strong>: <code>hiddenModifiedHuman</code> (<code>DRAW</code>, <code>CHOICE</code> or <code>OFF</code>) and <code>hiddenModifiedChance</code> (0.01).</p>
+</div>
+
 ## 0.4.0 (beta) { #v0-4-0 }
 
 <small>Released 2026-11-08 · [Download](https://www.curseforge.com/minecraft/mc-mods/race-race-no-mi/files/9508837)</small>

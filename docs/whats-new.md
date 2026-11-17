@@ -9,6 +9,26 @@ tags:
 
 The pages each release added or changed, newest first. What every release does, in full: the changelog of each mod.
 
+## 2026-11-17: AkumaLib 6.8.0, Race Race no Mi 0.5.0 { #2026-11-17 }
+
+Race Race no Mi 0.5.0 (beta) needs AkumaLib 6.8.0. AkumaLib's network protocol is now 23: update the server and every player together, a 6.7.0 game cannot join a 6.8.0 server. Every published addon runs on AkumaLib 6.8.0 as it is.
+
+### Race Race no Mi 0.5.0
+
+[Changelog](mods/race-race-no-mi/changelog.md#v0-5-0)
+
+- **[Cyborgs](mods/race-race-no-mi/cyborgs.md)**, rebuilt as Franky: crafted parts in iron, diamond and netherite, two arms and slots opened by Doriki, 29 techniques, accessories and the workbench, storage and furnace modules, cola, recipes and plans
+- **[Minks](mods/race-race-no-mi/minks.md)**: four new kinds (Cat, Jaguar, Polar Bear, Bull), a passive and a look for each of the seven, Electro, the Sulong and the whole kit
+- **[Lineage Factor](mods/race-race-no-mi/index.md#lineage-factor)** of every race, the **[hidden modified human](mods/race-race-no-mi/modified-humans.md#hidden-modified-human)**, **[NPCs of our races](mods/race-race-no-mi/configuration.md#npcs)**, and the new [configuration](mods/race-race-no-mi/configuration.md)
+- The [all techniques](mods/race-race-no-mi/all-techniques.md) table with the minks and the cyborgs
+
+### AkumaLib 6.8.0
+
+[Changelog](akumalib/changelog.md#v6-8-0)
+
+- New pages: [Grafted traits](akumalib/utilities/traits.md), [Double jumps](akumalib/core-concepts/double-jumps.md), [Baton and spear techniques](akumalib/ability-base-classes/weapon-techniques.md), [Shared particles](akumalib/utilities/particles.md)
+- Updated: [Races](akumalib/utilities/races.md) (minks), [Spawn posts](akumalib/utilities/spawn-posts.md) (stock, reach), [Prisons](akumalib/utilities/prisons.md) (a sentence for a time), [Devil Fruits on NPCs](akumalib/utilities/npc-fruits.md) (NPC SMILE users), [Getting started](akumalib/getting-started.md)
+
 ## 2026-11-15: Cruise Cruise no Mi 0.8.0 { #2026-11-15 }
 
 Cruise Cruise no Mi 0.8.0 (beta) needs [AkumaLib 6.7.0](#2026-11-14). Its network protocol changed: update the server and every player together.

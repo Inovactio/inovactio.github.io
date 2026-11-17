@@ -26,9 +26,11 @@ A `Zones` is an `Origin` that also names the zone of a place. Nothing is registe
 - **Each zone has its own clock.** A tower nobody is in is mended while another is visited.
 - **A change does not set the clock back.** Only being held does: water that flips a block for ever cannot keep a zone from mending.
 - **A zone nobody ever held is mended at the next pass**: what an ability breaks from outside is put back at once.
+- **Once its time has come, what it owes is put back as its chunks load, held or not** (#975). A tower left with its chunks unloaded is mended when they load again, as its player comes back into it: he finds it as new. A place he stands on waits for him to move; what he changes once back waits for the zone to be left again.
 - **Its times are saved with its places.** After a restart nothing of a held zone is put back; without zones, what waited is mended as soon as its chunk loads.
 - A place of **no zone** (`zone` answers `null`) goes by its own clock, exactly as in a world without zones.
-- The rest is `WorldMending`'s: no block comes back onto somebody, 4 000 places a pass at most, a place whose chunk is not loaded waits for it.
+- The rest is `WorldMending`'s: no block comes back onto somebody, 4 000 places a pass at most, a place whose chunk is not loaded waits for it. A pass only looks into the chunks that are loaded.
+- **A zone with nothing left to do** (nothing waits, nobody in it, mended since it was last held) is set aside: no pass looks at it any more, and only its time of mending is kept. It comes back the moment a block changes in it or a player walks in.
 
 !!! warning "`zone` is asked in the middle of a write"
     And for each player of the dimension at each pass (every 5 ticks). Answer from the position: read no block, load no chunk.
@@ -59,6 +61,6 @@ The time moves **once each time the zone is left**: the wait after its last hold
 WorldMending.mend(level, "tower_3_7");
 ```
 
-Held or not: for a command, or a fight that ends. Its time of mending is set to now. Past 4 000 places, and for those whose chunk is not loaded, the rest follows once the zone is no longer held.
+Held or not: for a command, or a fight that ends. Its time of mending is set to now. Past 4 000 places, and for those whose chunk is not loaded, the rest follows as their chunks are there, held or not.
 
 `WorldMending.waiting(level)` counts the places of the zones with the others.

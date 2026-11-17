@@ -51,6 +51,29 @@ Four more looks, Race Race no Mi's sub-races (#6), are painted in their own colo
 
 AkumaLib adds the layer to the renderers. A declared entity's renderer must have a humanoid model; one that has not is logged and left alone. The features take the skin colour the wearer chose. The base mod's own fishmen (Arlong, Chew, Kuroobi, its fishman pirates) keep the features the base mod draws: declaring them would draw both. The skin itself stays the mod's: `SkinSwaps`, see [decoys](../entities/decoys.md).
 
+## Mink features
+
+AkumaLib's own mink features (`MinkFeaturesModel`, `MinkFeaturesLayer`, Race Race no Mi #125), in place of the base mod's drawing: ears, a muzzle in relief over the wearer's face, a tail, and a lion's mane or a bull's horns. Nothing is on by default. A race mod turns them on in its common setup, on both sides:
+
+```java
+AkumaMinks.players();                                          // players of the base mod's Dog, Lion and Bunny wear ours
+AkumaMinks.declareSubRace(MY_CAT_MINK_ID, AkumaMinks.Look.CAT);  // an addon's sub-race, players and NPCs, or a trait of that id
+```
+
+| Look | What it draws |
+|---|---|
+| `DOG` | pointed ears, a long muzzle, a curled tail that wags |
+| `LION` | small round ears, a mane all round the head, a long tail with a tuft |
+| `BUNNY` | long ears in two joints that flop as it runs, a small muzzle with two teeth, a round tail |
+| `CAT` | pointed ears, a small muzzle, a striped tail held up |
+| `JAGUAR` | round ears, a spotted tail hanging low with a dark tip |
+| `POLAR_BEAR` | round ears, a broad muzzle, a round stub of a tail |
+| `BULL` | horns, ears out sideways, a broad muzzle, a thin tail with a tuft |
+
+Each look has 3 or 4 canon colourings (`Look.variants()`, one texture each); the wearer's UUID picks one (`AkumaMinks.variant`): stable, nothing to save. A wearer who chose a skin tint in the book gets a light fur (`mink_<look>_tinted.png`) in that tint instead, as the base mod tints its features. The base mod's `RacialFeaturesLayer` is skipped on whoever wears ours (`RacialFeaturesLayerMinkMixin`); the base mod's own NPCs of its three sub-races keep its drawing. Once `players()` is on, a player holding the base mod's Mink Lineage wears ours too (a dog's, a lion's or a bunny's by the UUID). On a broader chest (`AkumaBody`) the tail moves back with it. Shapes and textures come from one generator (`ressources/races/minks/_gen_minks.py`); `gradlew checkLayers` measures them.
+
+**Feral form** (*since 6.8.0*, Race #167): `AkumaMinks.feral(predicate)` names who is in their feral form now (a Sulong): read on both sides each frame, so it must read something synced. A feral wearer's features are drawn from their own texture recoloured white (its shading kept), the tail a third longer and the mane a tenth fuller, with red eyes lit in the dark over the skin's own eyes (`mink_feral_eyes.png`, the default skin's eye pixels). `AkumaMinks.furColour` gives `FERAL_FUR` then, so a race mod tinting the skin like the fur follows; whitening the skin's hair is the race mod's (`RecolouredSkins.SkinTint.skinAndHair`).
+
 ## Horns
 
 Curved horns on a player's head (`HornsModel`, `HornsLayer`), five shapes drawn from the pictures: Kaido's, Yamato's, the young Kaido's, Harald's and Loki's, and Oars'. A mod names the races that wear them, main race or sub-race, in its constructor or common setup, on both sides:
@@ -117,6 +140,8 @@ The tail is out while `AkumaMerfolk.inTail(entity)`: in the water and swimming, 
 
 `RecolouredSkins.SkinTint.spotted(skin, mask, spots)` lays the colour on the bare skin, and spots in `spots` where the mask's green is, on the bare skin only (a fish's spots never land on a shirt or the hair); the mask is laid out as a player skin, its red how much of the colour each pixel takes. The whale shark's white spots and the pufferfish's brown ones (Race) are drawn so.
 
+`RecolouredSkins.skinColour(entity, fallback)` reads the bare skin's own colour off a body's skin (on plain pixels `SkinTones.skinTone`), once per skin, as `hairColour` reads the hair's: for what is drawn over a body in its own colour, such as Race's cyborg parts covered in skin.
+
 ## Lunarian wings
 
 `WingsLayer.Kind.LUNARIAN`: King's wings, the arch up to the top of the head, the long primaries past the hips, black with a violet shade, on a texture twice as fine as the sky people's. A race mod adds the layer and picks its wearers, as for the other wings.
@@ -147,3 +172,13 @@ AkumaNpcRaces.apply(prisoner, race);           // false, and nothing done, for a
 - **Draw.** By weight; a race no one registered (the race mod absent, a typo) or one a data pack took out of the creator ([Races by data pack](races-by-datapack.md)) counts as a human: its weight goes to the human. Without a race mod, every NPC but the base mod's races is human.
 - **Apply.** The main race and the sub-race in the NPC's stats (a sub-race puts its main race too), the race's base size as a lasting `SIZE` modifier (never the creator's slider, so `size` is exact; `raceBaseSizes` off, a man's), then the extras registered for the race, then for the sub-race.
 - `drawable(id)` says whether a race can come out; `forget(id)` takes a registration back.
+
+### Their look (#981)
+
+An NPC given a race wears it as a player does, on every humanoid NPC renderer (`NpcRaceRenderers.humanoids()`: every living renderer with a humanoid model):
+
+- **Horns, a dwarf's tail and nose**: by the NPC's race or sub-race, as declared for players (`AkumaHorns`, `AkumaDwarves`).
+- **Fishman features**: an NPC no one declared wears the look of an addon's sub-race (`declareSubRace`); the base mod's three looks stay on players and declared types, since the base mod draws its own fishmen's.
+- **Skin colour**: `SkinSwaps.registerLiving(priority, entity -> ...)` answers for an NPC too (`register` stays players only); the NPC's body is drawn in it (`LivingEntityRendererSkinMixin`, the texture of `getRenderType`). `RecolouredSkins.tinted` and `hair` read an NPC's own texture, the one its renderer chose.
+- **A race mod's own layers** (wings, antennae): it adds them to `NpcRaceRenderers.humanoids()` in its `AddLayers`, with a wearer check that reads the entity's race.
+- **Not yet**: the merfolk tail stays players only (`MerfolkTails` hides a player model's legs).
