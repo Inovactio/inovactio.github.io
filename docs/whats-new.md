@@ -9,6 +9,17 @@ tags:
 
 The pages each release added or changed, newest first. What every release does, in full: the changelog of each mod.
 
+## 2026-11-17: Impel Down 0.1.0 { #2026-11-17-impel-down }
+
+The first beta of a new addon, [Impel Down](mods/impel-down/index.md): the World Government's great prison under the sea. It needs AkumaLib 6.8.1 and Mine Mine no Mi 0.11.6.
+
+[Changelog](mods/impel-down/changelog.md#v0-1-0)
+
+- **[Getting there](mods/impel-down/getting-there.md)**: the prisons in the deep ocean, behind their Gate of Justice
+- **[The tower](mods/impel-down/the-tower.md)**: seven levels, from the offices of level 0 to the Eternal Hell, with pictures of each
+- **[The staff](mods/impel-down/staff.md)**, **[the beasts](mods/impel-down/beasts.md)** and **[the prisoners](mods/impel-down/prisoners.md)** in 3D
+- **[Keys, lifts and desks](mods/impel-down/keys.md)**, **[Jailed](mods/impel-down/jailed.md)** (arrest, sentence, escape), **[blocks and items](mods/impel-down/blocks-and-items.md)**, [advancements](mods/impel-down/advancements.md) and [configuration](mods/impel-down/configuration.md)
+
 ## 2026-11-17: AkumaLib 6.8.0, Race Race no Mi 0.5.0 { #2026-11-17 }
 
 Race Race no Mi 0.5.0 (beta) needs AkumaLib 6.8.0. AkumaLib's network protocol is now 23: update the server and every player together, a 6.7.0 game cannot join a 6.8.0 server. Every published addon runs on AkumaLib 6.8.0 as it is.
