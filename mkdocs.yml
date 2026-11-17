@@ -63,6 +63,8 @@ extra_javascript:
 
 # Unreleased mods: their pages stay in the repository but are not built or published.
 # Add a line here for one, and remove it (adding the page back to the nav and the home page) when it is released.
+exclude_docs: |
+  /mods/impel-down/
 
 markdown_extensions:
   - admonition

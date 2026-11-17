@@ -18,6 +18,7 @@ SECTIONS = [
     ("mods/missing-missing-no-mi/", "Missing Missing no Mi", "assets/icons/missing-missing-no-mi.png"),
     ("mods/sky-island/", "Sky Island", "assets/icons/sky-island.png"),
     ("mods/cruise/", "Cruise Cruise no Mi", "assets/icons/cruise.png"),
+    ("mods/impel-down/", "Impel Down", "assets/icons/impel-down.png"),
     ("akumalib/", "AkumaLib", "assets/icons/akumalib.png"),
     ("", None, "assets/icons/akumalib.png"),
 ]
