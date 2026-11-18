@@ -15225,7 +15225,7 @@
 </tr>
 <tr>
 <td><strong>Chance per opening</strong></td>
-<td>iron <strong>1.35%</strong>, wooden <strong>0.068%</strong> (<a href="../#box-odds">how it works</a>)</td>
+<td>iron <strong>1.33%</strong>, wooden <strong>0.067%</strong> (<a href="../#box-odds">how it works</a>)</td>
 </tr>
 <tr>
 <td><strong>Abilities</strong></td>
@@ -15240,6 +15240,35 @@
 <p>In 3D: drag to turn, scroll or pinch to zoom.</p>
 <div class="model-viewer" data-models="../../" data-ids="objects/cream-ball objects/cream-grab objects/cream-monster objects/cream-shell"></div>
 
+<!-- animations -->
+<details class="example">
+<summary>Animations</summary>
+<p>Taken in game, at size 1, third person.</p>
+<p><div class="mob-gallery" markdown>
+<figure markdown="span">
+  <img alt="Cream Ball" loading="lazy" src="../../animations/kuri-cream-ball-810.webp" />
+  <figcaption>Cream Ball</figcaption>
+</figure>
+<figure markdown="span">
+  <img alt="Cream Grab" loading="lazy" src="../../animations/kuri-cream-grab-810.webp" />
+  <figcaption>Cream Grab</figcaption>
+</figure>
+<figure markdown="span">
+  <img alt="Cream Wave" loading="lazy" src="../../animations/kuri-cream-wave-810.webp" />
+  <figcaption>Cream Wave</figcaption>
+</figure>
+<figure markdown="span">
+  <img alt="Cream Monster" loading="lazy" src="../../animations/kuri-cream-monster-810.webp" />
+  <figcaption>Cream Monster</figcaption>
+</figure>
+<figure markdown="span">
+  <img alt="Cream Shell" loading="lazy" src="../../animations/kuri-cream-shell-810.webp" />
+  <figcaption>Cream Shell</figcaption>
+</figure>
+</div></p>
+</details>
+<!-- /animations -->
+
 <p>Found in the base mod's <strong>iron Devil Fruit box</strong>. Eat it and its abilities appear in the ability menu, grouped under the fruit.</p>
 <div class="admonition note">
 <p class="admonition-title">About the values</p>
@@ -15249,7 +15278,7 @@
 <p><img alt="" class="ability-icon" src="../../abilities/cream-ball.png" /> <em>Active</em></p>
 <p><img alt="Cream Ball" class="form-picture" src="../../objects/cream-ball.png" /></p>
 <p>Applies <img alt="" class="effect-mini" src="../../effect-icons/cream-burn.png" /><a href="../../effects/#effect-cream-burn">Cream Burn</a></p>
-<p>The user throws a ball of cream where they look. It hits the first enemy in its way, burns it and slows it for a moment</p>
+<p>The user throws a ball of cream where they look. It hits the first enemy in its way, burns it and slows it for a moment.</p>
 <table>
 <thead>
 <tr>
@@ -15272,7 +15301,15 @@
 </tr>
 <tr>
 <td>Damage</td>
-<td>6</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Slowed</td>
+<td>3 s</td>
+</tr>
+<tr>
+<td>Cream Burn</td>
+<td>4 s</td>
 </tr>
 </tbody>
 </table>
@@ -15280,7 +15317,7 @@
 <p><img alt="" class="ability-icon" src="../../abilities/cream-grab.png" /> <em>Active</em></p>
 <p><img alt="Cream Grab" class="form-picture" src="../../objects/cream-grab.png" /></p>
 <p>Applies <img alt="" class="effect-mini" src="../../effect-icons/cream-burn.png" /><a href="../../effects/#effect-cream-burn">Cream Burn</a></p>
-<p>A tentacle of cream shoots at the enemy the user looks at, burns it and pulls it to the user</p>
+<p>A tentacle of cream shoots at the enemy the user looks at, burns it and pulls it to the user. It pulls it off its mount or boat too.</p>
 <table>
 <thead>
 <tr>
@@ -15303,18 +15340,22 @@
 </tr>
 <tr>
 <td>Damage</td>
-<td>5</td>
+<td>8</td>
 </tr>
 <tr>
 <td>Range</td>
 <td>10 blocks (line)</td>
+</tr>
+<tr>
+<td>Cream Burn</td>
+<td>3 s</td>
 </tr>
 </tbody>
 </table>
 <h2 id="cream-wave">Cream Wave<a class="headerlink" href="#cream-wave" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/cream-wave.png" /> <em>Active</em></p>
 <p>Applies <img alt="" class="effect-mini" src="../../effect-icons/cream-burn.png" /><a href="../../effects/#effect-cream-burn">Cream Burn</a></p>
-<p>The user sends a wave of cream in front of them, which hits all enemies in its path, pushes them back and burns them</p>
+<p>The user sends a wave of cream in front of them, which hits all enemies in its path, pushes them back and burns them.</p>
 <table>
 <thead>
 <tr>
@@ -15333,22 +15374,30 @@
 </tr>
 <tr>
 <td>Cooldown</td>
-<td>14 s</td>
+<td>12 s</td>
 </tr>
 <tr>
 <td>Damage</td>
-<td>10</td>
+<td>16</td>
 </tr>
 <tr>
 <td>Range</td>
 <td>10 blocks (line)</td>
 </tr>
+<tr>
+<td>Width</td>
+<td>5 blocks</td>
+</tr>
+<tr>
+<td>Cream Burn</td>
+<td>5 s</td>
+</tr>
 </tbody>
 </table>
 <h2 id="cream-flood">Cream Flood<a class="headerlink" href="#cream-flood" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/cream-flood.png" /> <em>Active</em></p>
-<p>The user spreads cream on the ground around them. Enemies that walk in it are slowed and burnt by the cream</p>
-<p>Using it again takes the cream back</p>
+<p>The user spreads cream on the ground around them. Enemies that walk in it are slowed and burnt by the cream again and again.</p>
+<p>Using it again takes the cream back.</p>
 <table>
 <thead>
 <tr>
@@ -15369,14 +15418,18 @@
 <td>Range</td>
 <td>8 blocks (area)</td>
 </tr>
+<tr>
+<td>Cream Burn each Half Second</td>
+<td>1.5 s</td>
+</tr>
 </tbody>
 </table>
 <h2 id="cream-monster">Cream Monster<a class="headerlink" href="#cream-monster" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/cream-monster.png" /> <em>Active</em></p>
 <p><img alt="Cream Monster" class="form-picture" src="../../objects/cream-monster.png" /></p>
 <p>Applies <img alt="" class="effect-mini" src="../../effect-icons/cream-burn.png" /><a href="../../effects/#effect-cream-burn">Cream Burn</a></p>
-<p>A puddle of cream spreads around the user and follows them. Tentacles spring out of it at the enemies that come close, burn them and hold them for a moment</p>
-<p>The user keeps moving and using other abilities while it lasts</p>
+<p>A puddle of cream spreads around the user and follows them. Tentacles spring out of it at the enemies that come close, burn them and hold them for a moment. It holds less on players and bosses.</p>
+<p>The user keeps moving and using other abilities while it lasts. Inside Cream Shell the tentacles stay in the puddle.</p>
 <table>
 <thead>
 <tr>
@@ -15409,14 +15462,34 @@
 <td>Range</td>
 <td>6 blocks (area)</td>
 </tr>
+<tr>
+<td>Tentacles</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Total Damage on One Enemy</td>
+<td>42</td>
+</tr>
+<tr>
+<td>Held</td>
+<td>1.25 s</td>
+</tr>
+<tr>
+<td>Held, a Player or a Boss</td>
+<td>0.6 s</td>
+</tr>
+<tr>
+<td>Cream Burn</td>
+<td>3 s</td>
+</tr>
 </tbody>
 </table>
 <h2 id="cream-shell">Cream Shell<a class="headerlink" href="#cream-shell" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/cream-shell.png" /> <em>Active</em></p>
 <p><img alt="Cream Shell" class="form-picture" src="../../objects/cream-shell.png" /></p>
 <p>Applies <img alt="" class="effect-mini" src="../../effect-icons/cream-burn.png" /><a href="../../effects/#effect-cream-burn">Cream Burn</a></p>
-<p>The user shuts themselves in a thick shell of cream. Inside it the user takes almost no damage but can't move, can't attack and can't use other abilities of the fruit</p>
-<p>Whoever hits the shell with a bare hand is burnt. The shell breaks after stopping enough damage</p>
+<p>The user shuts themselves in a thick shell of cream. Inside it the user takes almost no damage but can't move, can't attack and can't use other abilities of the fruit.</p>
+<p>Whoever hits the shell with a bare hand is burnt. The shell breaks after stopping enough damage.</p>
 <table>
 <thead>
 <tr>
@@ -15449,7 +15522,26 @@
 </table>
 <h2 id="cream-body">Cream Body<a class="headerlink" href="#cream-body" title="Permanent link">&para;</a></h2>
 <p><img alt="" class="ability-icon" src="../../abilities/cream-body.png" /> <em>Passive</em></p>
-<p>The body of the user is always covered with cream. Whoever hits the user with a bare hand is burnt by the cream. A weapon is not</p>
+<p>The body of the user is always covered with cream. Whoever hits the user with a bare hand is burnt by the cream. Hitting the user with a weapon does not burn.</p>
+<p>The cream of every ability burns. The burn hurts 2 every second, each touch of cream makes it last longer up to 10 seconds and water washes it off. What fire can't hurt the cream can't burn.</p>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Haki</td>
+<td>Special</td>
+</tr>
+<tr>
+<td>Cream Burn</td>
+<td>3 s</td>
+</tr>
+</tbody>
+</table>
 
 
 
