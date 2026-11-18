@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Ancient Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.35%**, wooden **0.068%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.33%**, wooden **0.067%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 11 active, 0 passive |
 | **Transformations** | [Saber Tiger Heavy Point](#saber-tiger-heavy-point), [Saber Tiger Walk Point](#saber-tiger-walk-point) |
 
@@ -17,30 +17,24 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid: Gagan](../animations/neko-neko-saber-tiger-heavy-gagan.webp){ loading=lazy }
+      ![Hybrid: Gagan](../animations/saber-hybrid-gagan-810.webp){ loading=lazy }
       <figcaption>Hybrid: Gagan</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: Saber Bite](../animations/neko-neko-saber-tiger-heavy-saberbite.webp){ loading=lazy }
+      ![Hybrid: Claw Rake](../animations/saber-hybrid-claw-rake-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Claw Rake</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Hybrid: Saber Bite](../animations/saber-hybrid-saber-bite-810.webp){ loading=lazy }
       <figcaption>Hybrid: Saber Bite</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: Shigan Madara](../animations/neko-neko-saber-tiger-heavy-shiganmadara.webp){ loading=lazy }
-      <figcaption>Hybrid: Shigan Madara</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Tiger: pounce](../animations/neko-neko-saber-tiger-walk-pounce.webp){ loading=lazy }
-      <figcaption>Tiger: pounce</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Tiger: run](../animations/neko-neko-saber-tiger-walk-run.webp){ loading=lazy }
-      <figcaption>Tiger: run</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Tiger: roar](../animations/neko-neko-saber-tiger-walk-roar.webp){ loading=lazy }
-      <figcaption>Tiger: roar</figcaption>
+      ![Tiger: Pounce](../animations/saber-beast-pounce-810.webp){ loading=lazy }
+      <figcaption>Tiger: Pounce</figcaption>
     </figure>
     </div>
 <!-- /animations -->
@@ -70,7 +64,7 @@ Transforms the user into a saber tiger, a very fast big cat that hunts by surpri
 
 ![](../abilities/saber-bite.png){ .ability-icon } *Active*
 
-The user bites the enemy in front of them with their long fangs, which go through part of its armor and make it bleed. Deals more damage while crouching or from behind
+The user bites the enemy in front of them with their long fangs, which go through part of its armor and make it bleed. Deals more damage while crouching or from behind.
 
 | Stat | Value |
 |---|---|
@@ -85,20 +79,20 @@ The user bites the enemy in front of them with their long fangs, which go throug
 
 ![](../abilities/pounce.png){ .ability-icon } *Active*
 
-While in the full saber tiger form, the user leaps where they are looking and throws the first enemy they meet to the ground, where it can't move for a moment. Deals more damage if the user was crouching or hits from behind
+The user leaps where they are looking and throws the first enemy they meet to the ground, where it can't move for a moment. Deals more damage if the user was crouching or hits from behind.
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 11 s |
-| Damage | 14–21 |
+| Damage | 16–24 |
 
 ## Throat Hold { #throat-hold }
 
 ![](../abilities/throat-hold.png){ .ability-icon } *Active*
 
-While in the full saber tiger form, after a Pounce, the user holds the enemy they threw down under their fangs, it can't move and takes damage that goes through part of its armor. Use the ability again to let it go
+After a Pounce, the user holds the enemy they threw down under their fangs, it can't move and takes damage that goes through part of its armor. Use the ability again to let it go.
 
 | Stat | Value |
 |---|---|
@@ -106,28 +100,28 @@ While in the full saber tiger form, after a Pounce, the user holds the enemy the
 | Haki | Hardening |
 | Cooldown | 15 s |
 | Hold | 3 s |
-| Damage | 4 |
+| Damage | 24 |
 | Pierces | Armour |
 
 ## Claw Rake { #claw-rake }
 
 ![](../abilities/claw-rake.png){ .ability-icon } *Active*
 
-The user slashes all the enemies in front of them with their claws, making them bleed and pushing them back
+The user slashes all the enemies in front of them with their claws, making them bleed and pushing them back.
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 8 s |
-| Damage | 10 |
+| Damage | 14 |
 | Range | 2.5 blocks (line) |
 
 ## Roar { #roar }
 
 ![](../abilities/roar.png){ .ability-icon } *Active*
 
-The user roars, pushing back and weakening all nearby enemies
+The user roars, pushing back and weakening all nearby enemies.
 
 | Stat | Value |
 |---|---|
@@ -138,7 +132,7 @@ The user roars, pushing back and weakening all nearby enemies
 
 ![](../abilities/evasive-leap.png){ .ability-icon } *Active*
 
-The user leaps backwards and can't be hit during the jump
+The user leaps backwards and can't be hit during the jump.
 
 | Stat | Value |
 |---|---|
@@ -149,7 +143,7 @@ The user leaps backwards and can't be hit during the jump
 
 ![](../abilities/gagan.png){ .ability-icon } *Active*
 
-While in the saber tiger hybrid form, the user shoots a blast of air shaped like their fangs from their mouth at the enemy they are looking at, it goes through part of its armor
+The user shoots a blast of air shaped like their fangs from their mouth at the enemy they are looking at, it goes through part of its armor.
 
 | Stat | Value |
 |---|---|
@@ -157,7 +151,7 @@ While in the saber tiger hybrid form, the user shoots a blast of air shaped like
 | Element | Wind |
 | Haki | Imbuing |
 | Cooldown | 10 s |
-| Damage | 14 |
+| Damage | 18 |
 | Range | 16 blocks (line) |
 | Pierces | Armour |
 
@@ -165,7 +159,7 @@ While in the saber tiger hybrid form, the user shoots a blast of air shaped like
 
 ![](../abilities/tekkai-kibasen.png){ .ability-icon } *Active*
 
-While in the saber tiger hybrid form, the user hardens their body and fangs and leaps face first where they are looking, the first enemy they meet is hit through part of its armor and sent back. The user takes less damage during the leap
+The user hardens their body and fangs and leaps face first where they are looking, the first enemy they meet is hit through part of its armor and sent back. The user takes half the damage during the leap.
 
 | Stat | Value |
 |---|---|
@@ -179,7 +173,7 @@ While in the saber tiger hybrid form, the user hardens their body and fangs and 
 
 ![](../abilities/shigan-madara.png){ .ability-icon } *Active*
 
-While in the saber tiger hybrid form, the user stabs the enemies in front of them many times very fast with the claws of both index fingers, making them bleed
+The user stabs the enemies in front of them 8 times very fast with the claws of both index fingers, making them bleed.
 
 | Stat | Value |
 |---|---|

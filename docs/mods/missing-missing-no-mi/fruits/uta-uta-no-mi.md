@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Song |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.11%**, iron **0.106%**, wooden **0.005%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.16%**, iron **0.108%**, wooden **0.005%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 8 active, 1 passive |
 | **Transformations** | [Knight Form](#knight-form) |
 | **Effects applied** | ![](../effect-icons/absorbed.png){ .effect-mini }[Absorbed](../effects.md#effect-absorbed), ![](../effect-icons/exhausted.png){ .effect-mini }[Exhausted](../effects.md#effect-exhausted), ![](../effect-icons/just-woken.png){ .effect-mini }[Just Woken](../effects.md#effect-just-woken), ![](../effect-icons/puppet.png){ .effect-mini }[Puppet](../effects.md#effect-puppet), ![](../effect-icons/stuffed-toy.png){ .effect-mini }[Stuffed Toy](../effects.md#effect-stuffed-toy), ![](../effect-icons/wide-awake.png){ .effect-mini }[Wide Awake](../effects.md#effect-wide-awake) |

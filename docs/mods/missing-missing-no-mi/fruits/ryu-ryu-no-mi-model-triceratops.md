@@ -6,8 +6,8 @@
 |---|---|
 | **Type** | Ancient Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.35%**, wooden **0.068%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 11: 9 active, 2 passive (1 hidden, not in the ability menu) |
+| **Chance per opening** | iron **1.33%**, wooden **0.067%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 10: 8 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Triceratops Heavy Point](#triceratops-heavy-point), [Triceratops Guard Point](#triceratops-guard-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -17,22 +17,20 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid: spin](../animations/ryu-ryu-triceratops-heavy-spin.webp){ loading=lazy }
-      <figcaption>Hybrid: spin</figcaption>
+      ![Hybrid: Horn Charge (Tamaceratops)](../animations/tri-hybrid-tamaceratops-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Horn Charge (Tamaceratops)</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: charge](../animations/ryu-ryu-triceratops-heavy-charge.webp){ loading=lazy }
-      <figcaption>Hybrid: charge</figcaption>
+      ![Dinosaur: Horn Charge](../animations/tri-beast-horn-charge-810.webp){ loading=lazy }
+      <figcaption>Dinosaur: Horn Charge</figcaption>
     </figure>
     <figure markdown="span">
-      ![Dinosaur: charge](../animations/ryu-ryu-triceratops-guard-charge.webp){ loading=lazy }
-      <figcaption>Dinosaur: charge</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Dinosaur: headbutt](../animations/ryu-ryu-triceratops-guard-headbutt.webp){ loading=lazy }
-      <figcaption>Dinosaur: headbutt</figcaption>
+      ![Dinosaur: Ground Stomp](../animations/tri-beast-ground-stomp-810.webp){ loading=lazy }
+      <figcaption>Dinosaur: Ground Stomp</figcaption>
     </figure>
     </div>
 <!-- /animations -->
@@ -62,7 +60,11 @@ Transforms the user into a triceratops, a huge and slow beast on 4 legs with the
 
 ![](../abilities/thick-hide.png){ .ability-icon } *Passive*
 
-While in a triceratops form a single hit can't deal more than 30% of the user's max health, or 20% as the full triceratops
+No single hit can take more than a part of the user's max health. In the full triceratops form that part is smaller.
+
+Max Damage per Hit (Hybrid) 30 %
+
+Max Damage per Hit (Triceratops) 20 %
 
 Requires Triceratops Heavy Point or Triceratops Guard Point to be active.
 
@@ -86,24 +88,11 @@ The user's frill spins like a propeller around their neck allowing them to fly f
 
 Requires Triceratops Heavy Point to be active.
 
-## Tamaceratops { #tamaceratops }
-
-![](../abilities/tamaceratops.png){ .ability-icon } *Active*
-
-While in the hybrid form, the user's frill spins and propels them forward horns first, damaging all enemies in their path and throwing them away
-
-| Stat | Value |
-|---|---|
-| Damage type | Physical |
-| Haki | Hardening |
-| Cooldown | 12 s |
-| Damage | 20 |
-
 ## Magnumceratops { #magnumceratops }
 
 ![](../abilities/magnumceratops.png){ .ability-icon } *Active*
 
-While flying with the frill, the user dives head first where they are looking, damaging all enemies around the impact and sending them flying. The damage is higher when diving from high up
+While flying with the frill, the user dives head first where they are looking, damaging all enemies around the impact and sending them flying. The damage is higher when diving from high up.
 
 | Stat | Value |
 |---|---|
@@ -117,53 +106,57 @@ While flying with the frill, the user dives head first where they are looking, d
 
 ![](../abilities/heliceratops.png){ .ability-icon } *Active*
 
-While flying with the frill, the user strikes the enemies in front of them many times with what they are holding, the last hit sends them flying. A better weapon deals more damage
+While flying with the frill, the user strikes the enemies in front of them 5 times with what they are holding, the last hit sends them flying. A better weapon deals more damage.
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 14 s |
-| Damage | 3–9 |
+| Damage | 15–30 |
 | Range | 4 blocks (line) |
 
 ## Horn Charge { #horn-charge }
 
 ![](../abilities/horn-charge.png){ .ability-icon } *Active*
 
-While in the full triceratops form, the user charges forward horns first, damaging all enemies in their path and throwing them far away. The charge also breaks the blocks in its path, up to stone.
+The user charges forward horns first, damaging all enemies in their path and throwing them far away. The charge also breaks the blocks in its path, up to stone.
 
-| Stat | Value |
-|---|---|
-| Damage type | Physical |
-| Haki | Hardening |
-| Cooldown | 18 s |
-| Damage | 26 |
+![](../abilities/tamaceratops.png){ .effect-mini }In Triceratops Heavy Point it is **Tamaceratops**: the user's frill spins and propels them forward horns first, damaging all enemies in their path and throwing them away.
+
+| Stat | Horn Charge | Tamaceratops |
+|---|---|---|
+| Damage type | Physical | Physical |
+| Haki | Hardening | Hardening |
+| Form | Triceratops Guard Point | Triceratops Heavy Point |
+| Cooldown | 18 s | 12 s |
+| Damage | 26 | 20 |
 
 ## Horn Lift { #horn-lift }
 
 ![](../abilities/horn-lift.png){ .ability-icon } *Active*
 
-While in the full triceratops form, the user puts their horns under the enemies in front of them and throws them in the air
+The user puts their horns under the enemies in front of them and throws them in the air.
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 10 s |
-| Damage | 14 |
+| Damage | 20 |
 | Range | 5 blocks (line) |
 
 ## Ground Stomp { #ground-stomp }
 
 ![](../abilities/ground-stomp.png){ .ability-icon } *Active*
 
-While in the full triceratops form, the user stomps the ground, all nearby enemies standing on it are damaged, pushed away and slowed
+The user stomps the ground, all nearby enemies standing on it are damaged, pushed away and slowed.
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 14 s |
-| Damage | 10 |
+| Damage | 18 |
 | Range | 7 blocks (area) |
+| Slowness | 4 s |

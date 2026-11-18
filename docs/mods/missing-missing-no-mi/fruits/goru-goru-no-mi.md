@@ -7,14 +7,39 @@
 | **Type** | Paramecia |
 | **Theme** | Gold |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.11%**, iron **0.106%**, wooden **0.005%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 14: 12 active, 2 passive |
+| **Chance per opening** | golden **2.16%**, iron **0.108%**, wooden **0.005%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 12: 10 active, 2 passive |
 | **Transformations** | [Golden Armour](#golden-armour), [Golden Tesoro](#golden-tesoro) |
 | **Effects applied** | ![](../effect-icons/gold-dust.png){ .effect-mini }[Gold Dust](../effects.md#effect-gold-dust), ![](../effect-icons/golden-statue.png){ .effect-mini }[Golden Statue](../effects.md#effect-golden-statue) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="forms/gon-bomba objects/gon-lancia objects/gon-incantesimo"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/gon-bomba objects/gon-lancia objects/gon-incantesimo forms/golden-armour"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1, third person.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Gon Bomba: Gon Tempesta](../animations/goru-gon-tempesta-810.webp){ loading=lazy }
+      <figcaption>Gon Bomba: Gon Tempesta</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Gon Bomba (ALT)](../animations/goru-gon-bomba-alt-810.webp){ loading=lazy }
+      <figcaption>Gon Bomba (ALT)</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Gon L'ira di Dio: Gold Splash](../animations/goru-gold-splash-810.webp){ loading=lazy }
+      <figcaption>Gon L'ira di Dio: Gold Splash</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Gon Incantesimo](../animations/goru-gon-incantesimo-810.webp){ loading=lazy }
+      <figcaption>Gon Incantesimo</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -25,13 +50,13 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/gold-hoard.png){ .ability-icon } *Passive*
 
-Shows the gold the user can use, a gold nugget counts for 1, an ingot for 9 and a block for 81, and pulls the nearby gold items to them. The gold is shown in green when there are enough gold blocks around them to use the abilities for free
+Shows the gold the user can use, a gold nugget counts for 1, an ingot for 9 and a block for 81, and pulls the nearby gold items to them. The gold is shown in green when there are enough gold blocks around them to use the abilities for free.
 
 ## Golden Senses { #golden-senses }
 
 ![](../abilities/golden-senses.png){ .ability-icon } *Passive*
 
-The user sees everyone covered in gold dust through walls
+The user sees everyone covered in gold dust through walls.
 
 ## Gold Dust { #gold-dust }
 
@@ -71,17 +96,21 @@ Use the ability again to release the enemy
 
 ![Gon Bomba](../forms/gon-bomba.png){ .form-picture }
 
-The user covers their arm with a golden gauntlet and punches the enemy in front, the gold then explodes damaging all nearby enemies
+The user uppercuts the enemies in front of them with a golden gauntlet, launching them in the air, the gust it creates pushes back the enemies further away.
 
-| Stat | Value |
-|---|---|
-| Damage type | Fist, Physical |
-| Element | Explosion |
-| Haki | Hardening |
-| Cooldown | 10 s |
-| Gold Held | <span class="stat-malus">18</span> |
-| Damage | 22 |
-| Range | 3 blocks (area) |
+As Golden Tesoro the golem punches with Gon Inferno instead, a bigger exploding punch that needs no gold.
+
+![](../abilities/gon-bomba-alt.png){ .effect-mini }With the **Alt key** it is **Gon Bomba**: the user covers their arm with a golden gauntlet and punches the enemy in front, the gold then explodes damaging all nearby enemies.
+
+| Stat | Gon Tempesta | Gon Bomba |
+|---|---|---|
+| Damage type | Fist, Physical | Fist, Physical |
+| Element | Explosion | Explosion |
+| Haki | Hardening | Hardening |
+| Cooldown | 12 s | 10 s |
+| Gold Held | <span class="stat-malus">18</span> | <span class="stat-malus">18</span> |
+| Damage | 16 | 22 |
+| Range | 8 blocks (cone) | 3 blocks (area) |
 
 ## Gon Lancia { #gon-lancia }
 
@@ -89,7 +118,7 @@ The user covers their arm with a golden gauntlet and punches the enemy in front,
 
 ![Gon Lancia](../objects/gon-lancia.png){ .form-picture }
 
-The user fires 9 golden spikes from their fingertips where they are looking, the gold of each spike is left where it lands
+The user fires 9 golden spikes from their fingertips where they are looking, the gold of each spike is left where it lands.
 
 | Stat | Value |
 |---|---|
@@ -103,16 +132,19 @@ The user fires 9 golden spikes from their fingertips where they are looking, the
 
 ![](../abilities/gon-lira-di-dio.png){ .ability-icon } *Active*
 
-The user throws a huge golden tendril straight where they are looking, damaging and pushing away all the enemies on its way
+The user throws a wave of gold in front of them, damaging and pushing back all the enemies it falls on. The gold stays where the wave lands.
 
-| Stat | Value |
-|---|---|
-| Damage type | Blunt |
-| Haki | Hardening |
-| Cooldown | 14 s |
-| Gold Held | <span class="stat-malus">36</span> |
-| Damage | 26 |
-| Range | 16 blocks (line) |
+With the **Alt key** it is **Gon L'ira di Dio**: the user throws a huge golden tendril straight where they are looking, damaging and pushing away all the enemies on its way.
+
+| Stat | Gold Splash | Gon L'ira di Dio |
+|---|---|---|
+| Damage type | Blunt | Blunt |
+| Haki | Hardening | Hardening |
+| Cooldown | 16 s | 14 s |
+| Gold Thrown | <span class="stat-malus">36</span> | — |
+| Damage | 14 | 26 |
+| Range | 10 blocks (line) | 16 blocks (line) |
+| Gold Held | — | <span class="stat-malus">36</span> |
 
 ## Gon Incantesimo { #gon-incantesimo }
 
@@ -138,7 +170,7 @@ Use the ability again to release the enemy
 
 ![](../abilities/gon-frenesia.png){ .ability-icon } *Active*
 
-The user forms a long golden blade on their arm and slashes all the enemies in front of them, pushing them back
+The user forms a long golden blade on their arm and slashes all the enemies in front of them, pushing them back.
 
 | Stat | Value |
 |---|---|
@@ -149,26 +181,13 @@ The user forms a long golden blade on their arm and slashes all the enemies in f
 | Damage | 18 |
 | Range | 4 blocks (cone) |
 
-## Gon Tempesta { #gon-tempesta }
-
-![](../abilities/gon-tempesta.png){ .ability-icon } *Active*
-
-The user uppercuts the enemies in front of them with a golden gauntlet, launching them in the air, the gust it creates pushes back the enemies further away
-
-| Stat | Value |
-|---|---|
-| Damage type | Fist, Physical |
-| Haki | Hardening |
-| Cooldown | 12 s |
-| Gold Held | <span class="stat-malus">18</span> |
-| Damage | 16 |
-| Range | 8 blocks (cone) |
-
 ## Golden Armour { #golden-armour }
 
 ![](../abilities/golden-armour.png){ .ability-icon } *Active · Transformation*
 
-The user covers their whole body with gold, becoming much tougher and harder to push, but heavier and slower
+![Golden Armour](../forms/golden-armour.png){ .form-picture }
+
+The user covers their whole body with gold, becoming much tougher and harder to push, but heavier and slower.
 
 | Stat | Value |
 |---|---|
@@ -203,20 +222,6 @@ Huge Golden Tesoro
 | Gold Body | 1,152 |
 | Fist Damage | +50 |
 | Movement Speed | <span class="stat-malus">-75 %</span> |
-
-## Gon Inferno { #gon-inferno }
-
-![](../abilities/gon-inferno.png){ .ability-icon } *Active*
-
-Only as Golden Tesoro. The golem punches the enemy in front, the gold then explodes damaging all nearby enemies. A bigger golem hits harder and further.
-
-| Stat | Value |
-|---|---|
-| Damage type | Fist, Physical |
-| Element | Explosion |
-| Haki | Hardening |
-| Cooldown | 20 s |
-| Damage | 26 |
 
 ## Gon Fuoco di Dio { #gon-fuoco-di-dio }
 

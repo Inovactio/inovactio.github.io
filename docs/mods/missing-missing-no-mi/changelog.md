@@ -2,6 +2,159 @@
 
 Every Missing Missing no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/all).
 
+## 8.1.0 { #v8-1-0 }
+
+<small>Released 2026-11-18 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9687839)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>Fifteen fruits reworked, and the Nomi Nomi grafts lineages.</strong> The Mane Mane, Toge Toge, Mira Mira, Toki Toki, Goru
+Goru, Memo Memo, Gunyo Gunyo, Shima Shima, Shiku Shiku, Atsu Atsu, Kibi Kibi and Kuri Kuri no Mi, and the Triceratops,
+Pachycephalosaurus and Saber Tiger, get new art, new icons and stronger kits. The Toshi Toshi gets four new abilities.
+The Nomi Nomi learns from what it discovers, and grafts the traits of a creature's blood on itself and its allies. Pirate
+NPCs can eat SMILEs, and the Gutsu Gutsu gets an oven in its belly.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer, <strong>Mine Mine no Mi 0.11.6</strong> and <strong>AkumaLib 6.8.1</strong> or newer.
+Client and server. Curios is optional, 5.2.0 or newer.</p>
+<p>⚠️ <strong>Update AkumaLib to 6.8.1 on the server and on every client.</strong> Its network protocol changed since 6.7.0 (the one
+Missing 8.0.0 needed), so both sides need the same version.</p>
+<p>⚠️ <strong>Servers: set <code>allow-flight=true</code></strong> in <code>server.properties</code>, as before. Several fruits fly or hover, and without it
+the server kicks their users.</p>
+<hr />
+<h2>Toshi Toshi no Mi</h2>
+<ul>
+<li><strong>Roshi</strong> (new) pushes the enemy in front to the end of its years, 30 on an aged enemy and 12 otherwise. An aged
+  creature at 30 health or less dies of old age. Reach 4, cooldown 12 s.</li>
+<li><strong>Old Age Wave</strong> (new) ages every enemy in 6 blocks around her and hurts them for 8. Cooldown 40 s. A child she made
+  gets its age back instead.</li>
+<li><strong>Rejuvenation</strong> (new) takes years off an ally in front (a player crouches to agree) or off herself: 8 health back, and
+  old age, slowness, weakness and poison gone. On herself it costs 20 conviction. Cooldown 20 s.</li>
+<li><strong>Old Self</strong> (new) is the <strong>ALT mode of Child Self</strong>: her own body aged, slower (-20 % speed) but sturdier (+4 armour,
+  +50 % knockback resistance). Marines who hunt her lose her beyond 8 blocks.</li>
+<li><strong>NDE</strong> now leaves the target aged for 10 s after the bones show. Still no damage.</li>
+<li><strong>Futures are cheaper</strong>: the muscle future costs 10 conviction to start (was 15), the giant 40 (was 50).</li>
+</ul>
+<h2>Nomi Nomi no Mi</h2>
+<ul>
+<li><strong>Knowledge by discoveries.</strong> Each repeat of the same subject gives half the one before, down to nothing (a Zoan
+  sampled: 40, 20, 10, 5...). New things to learn from: a Devil Fruit analysed on its user (10), a biome entered for the
+  first time (3), a technique seen within 16 blocks or taken (2, not his own), a trait grafted (15).</li>
+<li><strong>Lineage Factor traits.</strong> One prick of the Syringe takes one creature's blood. The sample lists the creature, its
+  race, its Zoan (in form) and every trait it carries; a right click picks the next trait. The Syringe now also pricks
+  the Ender Dragon.</li>
+<li><strong>Lineage Graft</strong> (new, from 100 knowledge, 3 s cast, 2 min cooldown) puts the picked trait on a body. Two ALT modes:
+  <strong>Self Graft</strong> on himself (he pricks his forearm), <strong>Graft Another</strong> on a crouching player or one of his own creatures
+  in reach (he pricks their chest). Up to 3 traits are stable; more make the body unstable and every trait weaker.</li>
+<li><strong>Lineage Purge</strong> (new, same knowledge, cast and cooldown) takes the newest trait off, with the same two modes, <strong>Self
+  Purge</strong> and <strong>Purge Another</strong>. Lineage Graft no longer takes traits off when used crouching.</li>
+<li><strong>Traits</strong> are passives always on (they cannot be paused in the abilities screen):</li>
+<li>Steel Skin, Regeneration, Superhuman Strength, Night Vision, Giant Lineage (x1.5 size), Dwarf Lineage (x0.6 size),
+    Fish-Man Strength (with a fishman's dorsal fin) and Lunarian Traits (wings, fire immunity, -15 % damage taken and +2
+    armour). The Lunarian Traits come only from a Lunarian of the Race Race no Mi.</li>
+<li><strong>Blaze Lineage</strong>: an unarmed blow sets the target on fire for 3 s, and hits +2 harder on a target already burning.</li>
+<li><strong>A trait for every vanilla creature</strong>, 41 in all. For example Wolf Lineage (+2 damage, +10 % speed), Horse Lineage
+    (+15 % speed, higher step), Spider Lineage (climbs walls), Fish Lineage (breathes under water), Ender Lineage (blinks
+    away from a projectile), Shulker Lineage (+8 armour crouching), Warden Lineage and Dragon Lineage. Villagers,
+    illagers, the allay and the vex give none.</li>
+<li>The rare and boss ones (Lunarian, warden, wither skeleton, enderman, Wither, Ender Dragon) need 300 knowledge.</li>
+<li><strong>Analysis</strong> lists a body's traits, in red when the body is unstable.</li>
+<li>With the Race Race no Mi, a race keeps its race and gets the trait on top. A race's own trait cannot be grafted on it.</li>
+<li>Operators can list, add, remove or clear traits with <code>/missing nomi lineage &lt;targets&gt;</code>.</li>
+</ul>
+<h2>Gutsu Gutsu no Mi</h2>
+<ul>
+<li><strong>Belly Oven</strong> (new) opens a furnace kept in the user's belly. No fuel and no cost: the heat never runs out. It cooks
+  every furnace recipe at its own speed, and keeps cooking with the screen closed. What is inside is kept over log out,
+  and drops at death like the inventory.</li>
+</ul>
+<h2>SMILEs</h2>
+<ul>
+<li><strong>Pirate NPCs can eat SMILEs</strong>: captains, notorious pirates, grunts, brutes and snipers spawn in a failed SMILE form and
+  use its techniques. Off by default: set AkumaLib's server option <code>npcSmileChance</code> to turn it on.</li>
+<li>The Kibi Kibi's dango tames every NPC SMILE user, captains included. Its description says so again.</li>
+</ul>
+<h2>Rework: Mane Mane, Toge Toge, Mira Mira</h2>
+<ul>
+<li><strong>Mane Mane.</strong> A friend of the copied player holds back his first blow; the second lands and ends the look. Under a
+  creature's look the user lets out its cry now and then. Face Touch reaches a man at a giant's feet. New icons and
+  gestures.</li>
+<li><strong>Toge Toge.</strong> Stinger Finger's passage grows with the user (1x2x3 for a man, 2x4x6 at four times his size). New
+  icons, a black stem on the fruit, and redrawn urchin, arms and ground spikes.</li>
+<li><strong>Mira Mira.</strong> <strong>Mirror Image on ALT</strong> gives the look of the last one she copied to the body she looks at, for 30 s (a
+  player crouches to agree). From inside <strong>Mirro-World</strong>, her hand comes out of a mirror by a door and pulls in the first
+  enemy within 4 blocks. New icons, more ornate mirrors and gestures for every ability.</li>
+</ul>
+<h2>Rework: Toki Toki, Goru Goru, Memo Memo</h2>
+<ul>
+<li><strong>Toki Toki</strong> is now an <strong>iron box</strong> fruit (was golden). <strong>Shelter</strong> sends a group, the ally touched and the allies
+  within 3 blocks of them, 5 in all. <strong>Jump Ahead</strong> has a short cast. A ring of hours (twelve closing glints and a brass
+  ring) now shows the way out and back. NPCs use Jump Ahead near death and Shelter on a wounded ally. New icons, gestures
+  and dial.</li>
+<li><strong>Goru Goru: 12 slots instead of 14.</strong> <strong>Gon Bomba</strong> holds Gon Tempesta (the default) and Gon Bomba (ALT), and strikes
+  Gon Inferno while the user is the golem. <strong>Gold Splash</strong> (new) is the default mode of Gon L'ira di Dio: a wave of gold
+  10 blocks long, 14 damage and a push, that leaves 4 ingots where it falls. New icons, and the gauntlet and gold redone.</li>
+<li><strong>Memo Memo.</strong> <strong>Rewind</strong> (new) reads the film of the one you look at, in your chat only: their fruit, faction, who hit
+  them last and whom they hit last. The user holds real shears while cutting. NPCs use Cut and Paste. New icons, film and
+  gestures.</li>
+</ul>
+<h2>Rework: Triceratops, Pachycephalosaurus, Saber Tiger</h2>
+<ul>
+<li><strong>Triceratops: 9 slots instead of 10.</strong> <strong>Horn Charge</strong> now holds both charges, picked by the form: the beast's Horn
+  Charge (26, breaks blocks up to stone) and the hybrid's Tamaceratops (20). Horn Lift 20 (was 14), Ground Stomp 18 (was
+  10), the hybrid's punch 9 (was 6). Heliceratops is capped at 6 a blow.</li>
+<li><strong>Pachycephalosaurus: 11 slots instead of 10.</strong> <strong>Bounding Leap</strong> (new): the hybrid bounds where she looks, even in the
+  air, twice, with no fall damage until she lands. Wall Breaker 20 (was 16), Tail Sweep 14 / 18 (was 10 / 13), Ul-Zugan as
+  the whole dinosaur 20 (was 18).</li>
+<li><strong>Saber Tiger.</strong> Both forms get 15 armour and 3 toughness. Claw Rake 14 (was 10), Pounce 16 (was 14, 24 from an
+  ambush), Gagan 18 (was 14), with new fangs of air along its shot. The failed SMILE's Plunging Fangs now bleeds, as its
+  text says.</li>
+<li><strong>All three</strong>: new models from the anime, new icons and fruit icons, new particles, and the hybrid's own arm in first
+  person. Captains use more of the kit, and slots grey out when they cannot be used (feet off the ground and the like).</li>
+</ul>
+<h2>Rework: Gunyo Gunyo, Shima Shima, Shiku Shiku</h2>
+<ul>
+<li><strong>Gunyo Gunyo: 8 slots instead of 9.</strong> <strong>Giant Golem is the ALT mode of the Golems</strong>, sharing one 30 s cooldown. The
+  golems take the base mod's Command orders.</li>
+<li><strong>Gunyo no Su</strong> has a 1 s cast (was 3 s) and stands at most 6 blocks away, 3 to 9 blocks across. The web now stays
+    until used again or until its maker goes 32 blocks away; the 20 s cooldown starts then.</li>
+<li><strong>Clay Wall</strong> stays up to 15 s, and using it again brings it down. <strong>Clay Bridge</strong> is laid like the Bari Bari's
+    stairs, 16 blocks long and 3 wide, following your look as stairs you walk without jumping; it stays until used again.</li>
+<li>Everything remade in terracotta, with new icons and gestures.</li>
+<li><strong>Shima Shima.</strong> At a big size the arm, hand, face and spikes now land where they should (the fist used to land behind
+  its target). The island's size bonus is about x3.5 on land and x3 at sea (was up to x5.6). <strong>Island Face</strong> also comes
+  out of a rock face you aim at. <strong>Island Hand</strong> also throws a boat with those in it. <strong>Rising Wall</strong> stays until used
+  again. New models, icons and particles.</li>
+<li><strong>Shiku Shiku.</strong> <strong>Wasting</strong> takes 1 health a second (was 1 every 2 s). <strong>Feminization Disease</strong> makes the sick one's
+  blows x0.85 for its 2 minutes. <strong>Contagion</strong> and <strong>Epidemic</strong> spare players you may not fight and other players'
+  animals. Epidemic is greyed until you have given a disease. New icons and effect icons.</li>
+</ul>
+<h2>Rework: Atsu Atsu, Kibi Kibi, Kuri Kuri</h2>
+<ul>
+<li><strong>Atsu Atsu.</strong> While Netsuryo Up is on, what hits the user's bare body gets burnt. <strong>Net Tire</strong> bounds once per roll and
+  the bound hits. <strong>Atsu Atsu no Gatling</strong> throws slow heat balls. Net Surfing, Slippery Slippery and the 10,000 Degree
+  Press are greyed when they cannot be used, instead of a message. New icons, fruit icon and gestures.</li>
+<li><strong>Kibi Kibi.</strong> The dango is pinched from the cheek into the empty main hand. Servants show a small sign over their
+  head. NPC users tame the beasts around them. <strong>Every lent creature</strong> (Kibi, Muchi, Kote, Nemu, Jake, Memo) now waits
+  while its master is away. New icons, fruit icon and dango.</li>
+<li><strong>Kuri Kuri.</strong> The cream's burn counts as the user's hit and grows with the user's size, so Ball, Grab, Wave and Monster
+  hit harder. Lighter Cream Monster, and its tentacles go back in under Cream Shell. Cream on the first-person arm.</li>
+<li><strong>Waves.</strong> Cream Wave, Net Surfing, Doro Nami and Great Wave no longer go twice too fast for a big body.</li>
+</ul>
+<h2>Other changes</h2>
+<ul>
+<li><strong>Fixed a crash</strong> when right-clicking an infused beast in singleplayer.</li>
+<li><strong>NPCs.</strong> The alpaca captain now lands Woolly Kick. NPCs no longer hold back Atsu's Net Tire and Steam Iron, Kibi's
+  throw and Kuri's Cream Monster, Flood and Shell.</li>
+<li><strong>Icons.</strong> The Bisu Bisu's ten icons and ten of the base mod's SMILE techniques redrawn. Rarara Ranbo and the Hito Hito
+  and Tama Tama infused beasts get their own icons. The Shari Shari fruit has a steel stem.</li>
+</ul>
+<h2>For servers and modpacks</h2>
+<ul>
+<li>Removed the particles <code>inomissing:ring_particle</code> and <code>inomissing:glint_particle</code>: the same drawings are now AkumaLib's
+  <code>akumalib:ring</code> and <code>akumalib:glint</code>. Worlds are not affected.</li>
+<li>Merged abilities keep their old ids as aliases, so saves keep working: <code>gon_tempesta</code> and <code>gon_inferno</code> (now
+  <code>gon_bomba</code>), <code>tamaceratops</code> (now <code>horn_charge</code>), <code>gunyo_giant_golem</code> (now <code>gunyo_golems</code>).</li>
+</ul>
+</div>
+
 ## 8.0.0 { #v8-0-0 }
 
 <small>Released 2026-11-14 · [Download](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9619316)</small>

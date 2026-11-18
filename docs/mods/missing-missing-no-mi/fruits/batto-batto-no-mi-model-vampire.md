@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Mythical Zoan |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.11%**, iron **0.106%**, wooden **0.005%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.16%**, iron **0.108%**, wooden **0.005%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 10 active, 1 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Vampire Assault Point](#vampire-assault-point), [Vampire Fly Point](#vampire-fly-point) |
 | **Effects applied** | ![](../effect-icons/aged.png){ .effect-mini }[Aged](../effects.md#effect-aged), ![](../effect-icons/in-his-darkness.png){ .effect-mini }[In His Darkness](../effects.md#effect-in-his-darkness), ![](../effect-icons/swarm-of-bats.png){ .effect-mini }[Swarm of Bats](../effects.md#effect-swarm-of-bats) |
@@ -18,18 +18,20 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid: slash](../animations/batto-batto-vampire-assault-slash.webp){ loading=lazy }
-      <figcaption>Hybrid: slash</figcaption>
+      ![Bat: flying](../animations/batto-vampire-fly-idle-810.webp){ loading=lazy }
+      <figcaption>Bat: flying</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: flight](../animations/batto-batto-vampire-assault-fly.webp){ loading=lazy }
-      <figcaption>Hybrid: flight</figcaption>
+      ![Hybrid: Wing Slash](../animations/batto-hybrid-wing-slash-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Wing Slash</figcaption>
     </figure>
     <figure markdown="span">
-      ![Bat: flight](../animations/batto-batto-vampire-fly-flap.webp){ loading=lazy }
-      <figcaption>Bat: flight</figcaption>
+      ![Hybrid: Draining Bite](../animations/batto-hybrid-draining-bite-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Draining Bite</figcaption>
     </figure>
     </div>
 <!-- /animations -->

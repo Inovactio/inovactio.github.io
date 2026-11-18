@@ -1,6 +1,6 @@
 # Status effects
 
-The **99 status effects** Missing Missing no Mi adds, and what applies them.
+The **100 status effects** Missing Missing no Mi adds, and what applies them.
 
 | Effect | Kind | Applied by |
 |---|---|---|
@@ -73,6 +73,7 @@ The **99 status effects** Missing Missing no Mi adds, and what applies them.
 | **Rotting Gear**{ #effect-rotting-gear } | Harmful | [Aging Touch](fruits/juku-juku-no-mi.md#aging-touch), [Oil Shock](fruits/toshi-toshi-no-mi.md#oil-shock) |
 | ![](effect-icons/scattered.png){ .effect-icon } **Scattered**{ #effect-scattered } | Beneficial | [Sefer Yetzirah](fruits/pasa-pasa-no-mi.md#sefer-yetzirah) |
 | ![](effect-icons/sent-ahead.png){ .effect-icon } **Sent Ahead**{ #effect-sent-ahead } | Neutral | — |
+| ![](effect-icons/shiku-primed.png){ .effect-icon } **Shiku Primed**{ #effect-shiku-primed } | Beneficial | — |
 | **Shari Wheels**{ #effect-shari-wheels } | Neutral | [Spinning Top](fruits/shari-shari-no-mi.md#shari-spinning-top), [Wheel Arms](fruits/shari-shari-no-mi.md#shari-wheel-arms), [Wheel Feet](fruits/shari-shari-no-mi.md#shari-wheel-feet) |
 | ![](effect-icons/shut-in-a-book.png){ .effect-icon } **Shut in a Book**{ #effect-shut-in-a-book } | Harmful | [Imprison](fruits/buku-buku-no-mi.md#buku-imprison) |
 | ![](effect-icons/shut-in-a-jar.png){ .effect-icon } **Shut in a Jar**{ #effect-shut-in-a-jar } | Harmful | — |

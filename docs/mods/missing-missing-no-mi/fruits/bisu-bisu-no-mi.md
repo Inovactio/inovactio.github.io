@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Biscuit |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.35%**, wooden **0.068%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.33%**, wooden **0.067%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 9: 9 active, 0 passive |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -17,40 +17,24 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
-    Taken in game, at size 1.
+    Taken in game, at size 1, third person.
 
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Biscuit Hei](../animations/bisu-bisu-bisu-s1-hei-3p-700.webp){ loading=lazy }
+      ![Biscuit Hei](../animations/bisu-hei-810.webp){ loading=lazy }
       <figcaption>Biscuit Hei</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hard Biscuit](../animations/bisu-bisu-bisu-s1-hard-3p-700.webp){ loading=lazy }
+      ![Hard Biscuit](../animations/bisu-hard-biscuit-810.webp){ loading=lazy }
       <figcaption>Hard Biscuit</figcaption>
     </figure>
     <figure markdown="span">
-      ![Biscuit Wall](../animations/bisu-bisu-bisu-s1-wall-3p-700.webp){ loading=lazy }
+      ![Biscuit Wall](../animations/bisu-wall-810.webp){ loading=lazy }
       <figcaption>Biscuit Wall</figcaption>
     </figure>
     <figure markdown="span">
-      ![Biscuit Armour](../animations/bisu-bisu-bisu-s1-armour-f5-700.webp){ loading=lazy }
+      ![Biscuit Armour](../animations/bisu-armour-810.webp){ loading=lazy }
       <figcaption>Biscuit Armour</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Biscuit Armour, 6 arms](../animations/bisu-bisu-bisu-s1-arms6-f5-700.webp){ loading=lazy }
-      <figcaption>Biscuit Armour, 6 arms</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Crush Biscuit](../animations/bisu-bisu-bisu-s1-crush-3p-700.webp){ loading=lazy }
-      <figcaption>Crush Biscuit</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Crumb Burst](../animations/bisu-bisu-bisu-s1-crumb-3p-700.webp){ loading=lazy }
-      <figcaption>Crumb Burst</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Biscuit rations](../animations/bisu-bisu-bisu-s1-rations-3p-700.webp){ loading=lazy }
-      <figcaption>Biscuit rations</figcaption>
     </figure>
     </div>
 <!-- /animations -->

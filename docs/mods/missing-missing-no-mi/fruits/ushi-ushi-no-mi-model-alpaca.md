@@ -11,6 +11,10 @@
 | **Transformations** | [Alpaca Heavy Point](#alpaca-heavy-point), [Alpaca Walk Point](#alpaca-walk-point) |
 | **Effects applied** | ![](../effect-icons/spat-on.png){ .effect-mini }[Spat On](../effects.md#effect-spat-on) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/alpaca-walk-point forms/alpaca-heavy-point"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -20,11 +24,15 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/alpaca-heavy-point.png){ .ability-icon } *Active · Transformation*
 
+![Alpaca Heavy Point](../forms/alpaca-heavy-point.png){ .form-picture }
+
 Transforms the user into an alpaca hybrid, sturdy in thick wool and hard to push back.
 
 ## Alpaca Walk Point { #alpaca-walk-point }
 
 ![](../abilities/alpaca-walk-point.png){ .ability-icon } *Active · Transformation*
+
+![Alpaca Walk Point](../forms/alpaca-walk-point.png){ .form-picture }
 
 Transforms the user into a white alpaca, a quick and sure-footed runner.
 

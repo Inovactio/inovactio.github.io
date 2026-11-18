@@ -11,6 +11,10 @@
 | **Abilities** | 4: 4 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/calmed.png){ .effect-mini }[Calmed](../effects.md#effect-calmed), ![](../effect-icons/hung-out.png){ .effect-mini }[Hung Out](../effects.md#effect-hung-out), ![](../effect-icons/laundry.png){ .effect-mini }[Laundry](../effects.md#effect-laundry), ![](../effect-icons/wrung.png){ .effect-mini }[Wrung](../effects.md#effect-wrung) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="objects/woshu-tenpiboshi"></div>
+
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -34,6 +38,8 @@ The user grabs the one in front of them and washes them like laundry. Once washe
 ## Tenpiboshi { #woshu-tenpiboshi }
 
 ![](../abilities/woshu-tenpiboshi.png){ .ability-icon } *Active*
+
+![Tenpiboshi](../objects/woshu-tenpiboshi.png){ .form-picture }
 
 Applies ![](../effect-icons/hung-out.png){ .effect-mini }[Hung Out](../effects.md#effect-hung-out)
 

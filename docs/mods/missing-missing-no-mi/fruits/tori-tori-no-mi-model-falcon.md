@@ -6,7 +6,7 @@
 |---|---|
 | **Type** | Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.35%**, wooden **0.068%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.33%**, wooden **0.067%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 11: 9 active, 2 passive (1 hidden, not in the ability menu) |
 | **Transformations** | [Falcon Assault Point](#falcon-assault-point), [Falcon Fly Point](#falcon-fly-point) |
 
@@ -17,36 +17,20 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
-    Taken in game, at size 1.
+    Taken in game, at size 1, third person.
 
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid](../animations/tori-tori-actuel-hybride-entree-s1-700.webp){ loading=lazy }
-      <figcaption>Hybrid</figcaption>
+      ![Falcon: flying](../animations/falcon-falcon-fly-idle-810.webp){ loading=lazy }
+      <figcaption>Falcon: flying</figcaption>
     </figure>
     <figure markdown="span">
-      ![Falcon](../animations/tori-tori-actuel-faucon-entree-s1-700.webp){ loading=lazy }
-      <figcaption>Falcon</figcaption>
+      ![Hybrid: Hane Tsubute](../animations/falcon-hybrid-hane-tsubute-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Hane Tsubute</figcaption>
     </figure>
     <figure markdown="span">
-      ![Kagizume](../animations/tori-tori-actuel-kagizume-s1-700.webp){ loading=lazy }
-      <figcaption>Kagizume</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Hane Tsubute](../animations/tori-tori-actuel-hane-tsubute-s1-700.webp){ loading=lazy }
-      <figcaption>Hane Tsubute</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Hane Arashi](../animations/tori-tori-actuel-hane-arashi-s1-700.webp){ loading=lazy }
-      <figcaption>Hane Arashi</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Kyukoka](../animations/tori-tori-actuel-kyukoka-s1-700.webp){ loading=lazy }
-      <figcaption>Kyukoka</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Tsukami Otoshi](../animations/tori-tori-actuel-tsukami-otoshi-s1-700.webp){ loading=lazy }
-      <figcaption>Tsukami Otoshi</figcaption>
+      ![Hybrid: Kagizume](../animations/falcon-hybrid-kagizume-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Kagizume</figcaption>
     </figure>
     </div>
 <!-- /animations -->

@@ -9,6 +9,18 @@ tags:
 
 The pages each release added or changed, newest first. What every release does, in full: the changelog of each mod.
 
+## 2026-11-18: Missing Missing no Mi 8.1.0 { #2026-11-18-missing }
+
+Missing Missing no Mi 8.1.0 needs AkumaLib 6.8.1 (network protocol changed since 6.7.0: update the server and every player together) and Forge 47.4.2 or later.
+
+[Changelog](mods/missing-missing-no-mi/changelog.md#v8-1-0)
+
+- **Fifteen reworked fruits**, with new pictures, 3D models, icons and texts: [Mane Mane](mods/missing-missing-no-mi/fruits/mane-mane-no-mi.md), [Toge Toge](mods/missing-missing-no-mi/fruits/toge-toge-no-mi.md), [Mira Mira](mods/missing-missing-no-mi/fruits/mira-mira-no-mi.md), [Toki Toki](mods/missing-missing-no-mi/fruits/toki-toki-no-mi.md), [Goru Goru](mods/missing-missing-no-mi/fruits/goru-goru-no-mi.md), [Memo Memo](mods/missing-missing-no-mi/fruits/memo-memo-no-mi.md), [Gunyo Gunyo](mods/missing-missing-no-mi/fruits/gunyo-gunyo-no-mi.md), [Shima Shima](mods/missing-missing-no-mi/fruits/shima-shima-no-mi.md), [Shiku Shiku](mods/missing-missing-no-mi/fruits/shiku-shiku-no-mi.md), [Atsu Atsu](mods/missing-missing-no-mi/fruits/atsu-atsu-no-mi.md), [Kibi Kibi](mods/missing-missing-no-mi/fruits/kibi-kibi-no-mi.md), [Kuri Kuri](mods/missing-missing-no-mi/fruits/kuri-kuri-no-mi.md), [Triceratops](mods/missing-missing-no-mi/fruits/ryu-ryu-no-mi-model-triceratops.md), [Pachycephalosaurus](mods/missing-missing-no-mi/fruits/ryu-ryu-no-mi-model-pachycephalosaurus.md) and [Saber Tiger](mods/missing-missing-no-mi/fruits/neko-neko-no-mi-model-saber-tiger.md)
+- **[Nomi Nomi](mods/missing-missing-no-mi/fruits/nomi-nomi-no-mi.md)**: knowledge by discoveries, Lineage Factor traits, Lineage Graft and Lineage Purge
+- **[Toshi Toshi](mods/missing-missing-no-mi/fruits/toshi-toshi-no-mi.md)**: Roshi, Old Age Wave, Rejuvenation and Old Self
+- **[Gutsu Gutsu](mods/missing-missing-no-mi/fruits/gutsu-gutsu-no-mi.md)**: Belly Oven
+- Pirate NPCs can eat SMILEs (AkumaLib's [`npcSmileChance`](akumalib/utilities/npc-fruits.md)), the box odds of every fruit, the [all abilities](mods/missing-missing-no-mi/all-abilities.md) table and the [status effects](mods/missing-missing-no-mi/effects.md)
+
 ## 2026-11-17: Impel Down 0.1.0 { #2026-11-17-impel-down }
 
 The first beta of a new addon, [Impel Down](mods/impel-down/index.md): the World Government's great prison under the sea. It needs AkumaLib 6.8.1 and Mine Mine no Mi 0.11.6.
