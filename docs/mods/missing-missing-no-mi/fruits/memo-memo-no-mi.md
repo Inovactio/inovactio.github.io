@@ -9,7 +9,7 @@
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
 | **Chance per opening** | wooden **1.53%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 5: 5 active, 0 passive |
-| **Effects applied** | ![](../effect-icons/flashback.png){ .effect-mini }[Flashback](../effects.md#effect-flashback) |
+| **Effects applied** | ![](../effect-icons/flashback.png){ .effect-mini }[Flashback](../effects.md#effect-flashback), ![](../effect-icons/forgotten-quarrel.png){ .effect-mini }[Forgotten Quarrel](../effects.md#effect-forgotten-quarrel) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
@@ -60,6 +60,8 @@ The user sends threads from their palms to the enemies in front. The touched ene
 ![](../abilities/memo-cut.png){ .ability-icon } *Active*
 
 ![Cut](../objects/memo-cut.png){ .form-picture }
+
+Applies ![](../effect-icons/forgotten-quarrel.png){ .effect-mini }[Forgotten Quarrel](../effects.md#effect-forgotten-quarrel)
 
 The user pulls the memories of the creature they look at as a film and cuts its quarrel out. The creature drops its target and its anger until something hits it. Needs shears in the bag.
 
