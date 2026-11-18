@@ -15,19 +15,6 @@ In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="objects/shima-island-arm objects/shima-island-hand objects/shima-arm-swarm objects/shima-rising-ground objects/shima-island-face"></div>
 
-<!-- animations -->
-??? example "Animations"
-
-    Taken in game, at size 1, third person.
-
-    <div class="mob-gallery" markdown>
-    <figure markdown="span">
-      ![Island Arm](../animations/shima-island-arm-810.webp){ loading=lazy }
-      <figcaption>Island Arm</figcaption>
-    </figure>
-    </div>
-<!-- /animations -->
-
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
