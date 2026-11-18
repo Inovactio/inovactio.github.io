@@ -17,9 +17,9 @@ tags:
 
 | | |
 |---|---|
-| Version documented | **8.0.0** |
+| Version documented | **8.1.0** |
 | Mod id | `inomissing` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [8.0.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9619316) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi) · [8.1.0](https://www.curseforge.com/minecraft/mc-mods/missing-missing-no-mi/files/9687839) · [changelog](changelog.md) |
 
 ## What it adds
 
@@ -57,7 +57,7 @@ Mine Mine no Mi's **captains, notorious NPCs and troops** can draw every fruit o
 | Minecraft | 1.20.1 |
 | Forge | 47.4.2 or later (an older Forge crashes when a chest is opened) |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 |
-| [AkumaLib](../../akumalib/index.md) | **6.7.0 or later** |
+| [AkumaLib](../../akumalib/index.md) | **6.8.1 or later** |
 
 ## Getting started
 

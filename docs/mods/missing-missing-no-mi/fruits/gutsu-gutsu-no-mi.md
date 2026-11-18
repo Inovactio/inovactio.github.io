@@ -7,8 +7,8 @@
 | **Type** | Paramecia |
 | **Theme** | Furnace |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.35%**, wooden **0.068%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 9: 8 active, 1 passive |
+| **Chance per opening** | iron **1.33%**, wooden **0.067%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 10: 9 active, 1 passive |
 | **Transformations** | [Metal Coat](#metal-coat), [Overfed](#overfed) |
 | **Effects applied** | ![](../effect-icons/cased-in-metal.png){ .effect-mini }[Cased in Metal](../effects.md#effect-cased-in-metal) |
 
@@ -55,6 +55,18 @@ The user is immune to fire and lava
 ![](../abilities/smelt.png){ .ability-icon } *Active*
 
 The user eats up to 8 pieces of metal from their inventory, the one in their hand first. It can be ore, raw metal, ingots, nuggets or blocks of iron, gold, copper or black metal. It fills their furnace
+
+| Stat | Value |
+|---|---|
+| Cooldown | 1 s |
+
+## Belly Oven { #belly-oven }
+
+![](../abilities/belly-oven.png){ .ability-icon } *Active*
+
+The user opens the oven in their belly. Anything a furnace can smelt cooks in it with no fuel and it never runs out of heat. It keeps cooking when closed.
+
+What is inside stays with the user, but it drops when they die like the inventory does.
 
 | Stat | Value |
 |---|---|

@@ -8,12 +8,33 @@
 | **Theme** | Memory |
 | **Box** | ![Wooden box](../../../assets/mineminenomi/wooden_box.png "Wooden box: texture from Mine Mine no Mi"){ .box-icon } Wooden |
 | **Chance per opening** | wooden **1.53%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 4: 4 active, 0 passive |
-| **Effects applied** | ![](../effect-icons/flashback.png){ .effect-mini }[Flashback](../effects.md#effect-flashback), ![](../effect-icons/forgotten-quarrel.png){ .effect-mini }[Forgotten Quarrel](../effects.md#effect-forgotten-quarrel) |
+| **Abilities** | 5: 5 active, 0 passive |
+| **Effects applied** | ![](../effect-icons/flashback.png){ .effect-mini }[Flashback](../effects.md#effect-flashback) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="objects/memo-cut objects/memo-paste objects/memo-forgotten-skill"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1, third person.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Cut](../animations/memo-cut-810.webp){ loading=lazy }
+      <figcaption>Cut</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Paste](../animations/memo-paste-810.webp){ loading=lazy }
+      <figcaption>Paste</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Rewind](../animations/memo-rewind-810.webp){ loading=lazy }
+      <figcaption>Rewind</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -26,7 +47,7 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 Applies ![](../effect-icons/flashback.png){ .effect-mini }[Flashback](../effects.md#effect-flashback)
 
-The user sends threads from their palms to the enemies in front. The touched enemies live old memories again and stand still for a moment, they can't move, hit or use abilities
+The user sends threads from their palms to the enemies in front. The touched enemies live old memories again and stand still for a moment, they can't move, hit or use abilities.
 
 | Stat | Value |
 |---|---|
@@ -40,11 +61,9 @@ The user sends threads from their palms to the enemies in front. The touched ene
 
 ![Cut](../objects/memo-cut.png){ .form-picture }
 
-Applies ![](../effect-icons/forgotten-quarrel.png){ .effect-mini }[Forgotten Quarrel](../effects.md#effect-forgotten-quarrel)
+The user pulls the memories of the creature they look at as a film and cuts its quarrel out. The creature drops its target and its anger until something hits it. Needs shears in the bag.
 
-The user pulls the memories of the creature they look at as a film and cuts its quarrel out. The creature drops its target and its anger until something hits it. Needs shears in the bag
-
-The cut frames are kept as a reel that remembers who the creature was angry at
+The cut frames are kept as a reel that remembers who the creature was angry at.
 
 | Stat | Value |
 |---|---|
@@ -58,9 +77,9 @@ The cut frames are kept as a reel that remembers who the creature was angry at
 
 ![Paste](../objects/memo-paste.png){ .form-picture }
 
-The user pastes a false memory in the film of the creature they look at. The creature takes the user for a friend and fights for them for a while. Bosses can't be fooled. Needs shears in the bag
+The user pastes a false memory in the film of the creature they look at. The creature takes the user for a friend and fights for them for a while. Bosses can't be fooled. Needs shears in the bag.
 
-With a reel in a hand the creature gets the anger kept on it and goes for whoever that anger was for. The reel is used up
+With a reel in a hand the creature gets the anger kept on it and goes for whoever that anger was for. The reel is used up.
 
 | Stat | Value |
 |---|---|
@@ -74,10 +93,22 @@ With a reel in a hand the creature gets the anger kept on it and goes for whoeve
 
 ![Forgotten Skill](../objects/memo-forgotten-skill.png){ .form-picture }
 
-The user pulls the memories of the enemy they look at as a film and cuts frames out. The enemy forgets 3 to 6 random abilities of their current bar and can't use them for a while. Needs shears in the bag
+The user pulls the memories of the enemy they look at as a film and cuts frames out. The enemy forgets 3 to 6 random abilities of their current bar and can't use them for a while. Needs shears in the bag.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 40 s |
 | Range | 5 blocks (line) |
 | Abilities Forgotten | 15 s |
+
+## Rewind { #memo-rewind }
+
+![](../abilities/memo-rewind.png){ .ability-icon } *Active*
+
+The user pulls the memories of the one they look at as a film and watches it without cutting anything. They learn their fruit, their faction, who hit them last and who they hit last, and the abilities of a player's bar. The user sees them through walls for a while.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 15 s |
+| Range | 5 blocks (line) |
+| Seen Through Walls | 10 s |

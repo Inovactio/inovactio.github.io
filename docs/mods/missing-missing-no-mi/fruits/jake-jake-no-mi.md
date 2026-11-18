@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Jacket |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.35%**, wooden **0.068%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.33%**, wooden **0.067%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 3: 3 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/jake-possessed.png){ .effect-mini }[Possessed](../effects.md#effect-jake-possessed) |
 

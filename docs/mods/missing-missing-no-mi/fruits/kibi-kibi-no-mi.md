@@ -28,21 +28,31 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 The user pulls a dango from their cheek. It costs hunger, more when several are made in a row.
 
-An animal given a dango serves the user, it follows them, fights for them and obeys Command
+An animal or an NPC who ate a SMILE, given a dango, serves the user, it follows them, fights for them and obeys Command. A real Zoan user does not eat it.
 
-A second dango makes a servant stronger and tougher for a minute, and heals it
+A second dango makes a servant stronger and tougher, and heals it.
 
-Sneaking and clicking a servant twice with an empty hand sends it away
+Sneaking and clicking a servant twice with an empty hand sends it away.
 
-A player who ate a Zoan fruit and is given a dango can no longer harm the user
+A player who ate a SMILE and is given a dango cannot harm the user for a while, only where players may fight, then takes no dango for a while.
+
+Every creature lent by a fruit (the Kibi Kibi's servants, and those of the Muchi Muchi, Kote Kote, Nemu Nemu, Jake Jake and Memo Memo) waits where it is while its master is away.
+
+Holding a dango or sneaking, the user sees a dango over the head of each servant.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 2 s |
+| Hunger Cost | 2 |
+| Hunger More per Dango in a Row | +1 |
+| Dango in a Row Within | 30 s |
+| Most Hunger Cost | 6 |
 | Fed Servant Attack Damage | +6 |
 | Fed Servant Damage Taken | -20 % |
 | Fed Servant Heal | +10 |
 | Duration | 60 s |
+| SMILE Player Cannot Harm the User | 5 s |
+| SMILE Player Takes No Dango After | 10 s |
 
 ## Kibi Dan-boshi { #kibi-dan-boshi }
 
@@ -50,13 +60,17 @@ A player who ate a Zoan fruit and is given a dango can no longer harm the user
 
 Applies ![](../effect-icons/devoted.png){ .effect-mini }[Devoted](../effects.md#effect-devoted)
 
-The user throws a dango, the first animal it strikes eats it and serves them, a servant it strikes is strengthened. A dango that misses falls on the ground.
+The user throws a dango, the first animal or SMILE user it strikes eats it like a dango given by hand. A dango that misses falls on the ground.
 
-Each throw costs the hunger of a dango
+Each throw costs the hunger of a dango.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 3 s |
+| Hunger Cost | 2 |
+| Hunger More per Dango in a Row | +1 |
+| Dango in a Row Within | 30 s |
+| Most Hunger Cost | 6 |
 | Fed Servant Attack Damage | +6 |
 | Fed Servant Damage Taken | -20 % |
 | Fed Servant Heal | +10 |

@@ -7,7 +7,7 @@
 | **Type** | Paramecia |
 | **Theme** | Mochi |
 | **Box** | ![Golden box](../../../assets/mineminenomi/golden_box.png "Golden box: texture from Mine Mine no Mi"){ .box-icon } Golden |
-| **Chance per opening** | golden **2.11%**, iron **0.106%**, wooden **0.005%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | golden **2.16%**, iron **0.108%**, wooden **0.005%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 23: 21 active, 2 passive |
 | **Effects applied** | ![](../effect-icons/stuck-in-mochi.png){ .effect-mini }[Stuck in Mochi](../effects.md#effect-stuck-in-mochi) |
 

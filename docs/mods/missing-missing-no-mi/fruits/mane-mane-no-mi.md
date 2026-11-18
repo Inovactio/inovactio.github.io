@@ -21,7 +21,7 @@ Found in the base mod's **wooden Devil Fruit box**. Eat it and its abilities app
 
 The user touches whoever they look at and remembers their look. The one touched is not hurt and is not told.
 
-The ability mode key opens the memory
+The ability mode key opens the memory.
 
 | Stat | Value |
 |---|---|
@@ -30,11 +30,11 @@ The ability mode key opens the memory
 
 ## Mane Mane Memory { #mane-mane-memory }
 
-*Active*
+![](../abilities/mane-mane-memory.png){ .ability-icon } *Active*
 
-The user takes the look of someone they have touched, and keeps it until they use the ability again or receive a blow.
+The user takes the look of someone they have touched, and keeps it until they use the ability again or receive a blow. A friend of a copied player holds back their first blow, and under a creature look the user makes its cries.
 
-The ability mode key opens the memory, where the look is chosen
+The ability mode key opens the memory, where the look is chosen.
 
 | Stat | Value |
 |---|---|

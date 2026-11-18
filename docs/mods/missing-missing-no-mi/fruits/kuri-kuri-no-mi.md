@@ -7,13 +7,42 @@
 | **Type** | Paramecia |
 | **Theme** | Cream |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.35%**, wooden **0.068%** ([how it works](index.md#box-odds)) |
+| **Chance per opening** | iron **1.33%**, wooden **0.067%** ([how it works](index.md#box-odds)) |
 | **Abilities** | 7: 6 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
 <div class="model-viewer" data-models="../../" data-ids="objects/cream-ball objects/cream-grab objects/cream-monster objects/cream-shell"></div>
+
+<!-- animations -->
+??? example "Animations"
+
+    Taken in game, at size 1, third person.
+
+    <div class="mob-gallery" markdown>
+    <figure markdown="span">
+      ![Cream Ball](../animations/kuri-cream-ball-810.webp){ loading=lazy }
+      <figcaption>Cream Ball</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Cream Grab](../animations/kuri-cream-grab-810.webp){ loading=lazy }
+      <figcaption>Cream Grab</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Cream Wave](../animations/kuri-cream-wave-810.webp){ loading=lazy }
+      <figcaption>Cream Wave</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Cream Monster](../animations/kuri-cream-monster-810.webp){ loading=lazy }
+      <figcaption>Cream Monster</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Cream Shell](../animations/kuri-cream-shell-810.webp){ loading=lazy }
+      <figcaption>Cream Shell</figcaption>
+    </figure>
+    </div>
+<!-- /animations -->
 
 Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -28,14 +57,16 @@ Found in the base mod's **iron Devil Fruit box**. Eat it and its abilities appea
 
 Applies ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn)
 
-The user throws a ball of cream where they look. It hits the first enemy in its way, burns it and slows it for a moment
+The user throws a ball of cream where they look. It hits the first enemy in its way, burns it and slows it for a moment.
 
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Projectile |
 | Haki | Special |
 | Cooldown | 5 s |
-| Damage | 6 |
+| Damage | 8 |
+| Slowed | 3 s |
+| Cream Burn | 4 s |
 
 ## Cream Grab { #cream-grab }
 
@@ -45,15 +76,16 @@ The user throws a ball of cream where they look. It hits the first enemy in its 
 
 Applies ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn)
 
-A tentacle of cream shoots at the enemy the user looks at, burns it and pulls it to the user
+A tentacle of cream shoots at the enemy the user looks at, burns it and pulls it to the user. It pulls it off its mount or boat too.
 
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
 | Haki | Special |
 | Cooldown | 10 s |
-| Damage | 5 |
+| Damage | 8 |
 | Range | 10 blocks (line) |
+| Cream Burn | 3 s |
 
 ## Cream Wave { #cream-wave }
 
@@ -61,29 +93,32 @@ A tentacle of cream shoots at the enemy the user looks at, burns it and pulls it
 
 Applies ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn)
 
-The user sends a wave of cream in front of them, which hits all enemies in its path, pushes them back and burns them
+The user sends a wave of cream in front of them, which hits all enemies in its path, pushes them back and burns them.
 
 | Stat | Value |
 |---|---|
 | Damage type | Blunt, Indirect |
 | Haki | Special |
-| Cooldown | 14 s |
-| Damage | 10 |
+| Cooldown | 12 s |
+| Damage | 16 |
 | Range | 10 blocks (line) |
+| Width | 5 blocks |
+| Cream Burn | 5 s |
 
 ## Cream Flood { #cream-flood }
 
 ![](../abilities/cream-flood.png){ .ability-icon } *Active*
 
-The user spreads cream on the ground around them. Enemies that walk in it are slowed and burnt by the cream
+The user spreads cream on the ground around them. Enemies that walk in it are slowed and burnt by the cream again and again.
 
-Using it again takes the cream back
+Using it again takes the cream back.
 
 | Stat | Value |
 |---|---|
 | Cooldown | 18 s |
 | Hold | 10 s |
 | Range | 8 blocks (area) |
+| Cream Burn each Half Second | 1.5 s |
 
 ## Cream Monster { #cream-monster }
 
@@ -93,9 +128,9 @@ Using it again takes the cream back
 
 Applies ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn)
 
-A puddle of cream spreads around the user and follows them. Tentacles spring out of it at the enemies that come close, burn them and hold them for a moment
+A puddle of cream spreads around the user and follows them. Tentacles spring out of it at the enemies that come close, burn them and hold them for a moment. It holds less on players and bosses.
 
-The user keeps moving and using other abilities while it lasts
+The user keeps moving and using other abilities while it lasts. Inside Cream Shell the tentacles stay in the puddle.
 
 | Stat | Value |
 |---|---|
@@ -105,6 +140,11 @@ The user keeps moving and using other abilities while it lasts
 | Hold | 10 s |
 | Damage | 6 |
 | Range | 6 blocks (area) |
+| Tentacles | 4 |
+| Total Damage on One Enemy | 42 |
+| Held | 1.25 s |
+| Held, a Player or a Boss | 0.6 s |
+| Cream Burn | 3 s |
 
 ## Cream Shell { #cream-shell }
 
@@ -114,9 +154,9 @@ The user keeps moving and using other abilities while it lasts
 
 Applies ![](../effect-icons/cream-burn.png){ .effect-mini }[Cream Burn](../effects.md#effect-cream-burn)
 
-The user shuts themselves in a thick shell of cream. Inside it the user takes almost no damage but can't move, can't attack and can't use other abilities of the fruit
+The user shuts themselves in a thick shell of cream. Inside it the user takes almost no damage but can't move, can't attack and can't use other abilities of the fruit.
 
-Whoever hits the shell with a bare hand is burnt. The shell breaks after stopping enough damage
+Whoever hits the shell with a bare hand is burnt. The shell breaks after stopping enough damage.
 
 | Stat | Value |
 |---|---|
@@ -130,4 +170,11 @@ Whoever hits the shell with a bare hand is burnt. The shell breaks after stoppin
 
 ![](../abilities/cream-body.png){ .ability-icon } *Passive*
 
-The body of the user is always covered with cream. Whoever hits the user with a bare hand is burnt by the cream. A weapon is not
+The body of the user is always covered with cream. Whoever hits the user with a bare hand is burnt by the cream. Hitting the user with a weapon does not burn.
+
+The cream of every ability burns. The burn hurts 2 every second, each touch of cream makes it last longer up to 10 seconds and water washes it off. What fire can't hurt the cream can't burn.
+
+| Stat | Value |
+|---|---|
+| Haki | Special |
+| Cream Burn | 3 s |

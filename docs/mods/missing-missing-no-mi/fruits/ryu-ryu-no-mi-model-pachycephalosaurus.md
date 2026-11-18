@@ -6,8 +6,8 @@
 |---|---|
 | **Type** | Ancient Zoan |
 | **Box** | ![Iron box](../../../assets/mineminenomi/iron_box.png "Iron box: texture from Mine Mine no Mi"){ .box-icon } Iron |
-| **Chance per opening** | iron **1.35%**, wooden **0.068%** ([how it works](index.md#box-odds)) |
-| **Abilities** | 10: 8 active, 2 passive |
+| **Chance per opening** | iron **1.33%**, wooden **0.067%** ([how it works](index.md#box-odds)) |
+| **Abilities** | 11: 9 active, 2 passive |
 | **Transformations** | [Pachycephalosaurus Heavy Point](#pachycephalosaurus-heavy-point), [Pachycephalosaurus Walk Point](#pachycephalosaurus-walk-point) |
 
 In 3D: drag to turn, scroll or pinch to zoom.
@@ -17,22 +17,20 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid: headbutt](../animations/ryu-ryu-pachycephalosaurus-heavy-headbutt.webp){ loading=lazy }
-      <figcaption>Hybrid: headbutt</figcaption>
+      ![Hybrid: Bounding Leap](../animations/pachy-hybrid-bounding-leap-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Bounding Leap</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: leap](../animations/ryu-ryu-pachycephalosaurus-heavy-leap.webp){ loading=lazy }
-      <figcaption>Hybrid: leap</figcaption>
+      ![Hybrid: Wall Breaker](../animations/pachy-hybrid-wall-breaker-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Wall Breaker</figcaption>
     </figure>
     <figure markdown="span">
-      ![Dinosaur: charge](../animations/ryu-ryu-pachycephalosaurus-walk-charge.webp){ loading=lazy }
-      <figcaption>Dinosaur: charge</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Dinosaur: headbutt](../animations/ryu-ryu-pachycephalosaurus-walk-headbutt.webp){ loading=lazy }
-      <figcaption>Dinosaur: headbutt</figcaption>
+      ![Dinosaur: Tail Sweep](../animations/pachy-beast-tail-sweep-810.webp){ loading=lazy }
+      <figcaption>Dinosaur: Tail Sweep</figcaption>
     </figure>
     </div>
 <!-- /animations -->
@@ -62,7 +60,9 @@ Transforms the user into a pachycephalosaurus, a big and strong dinosaur that ru
 
 ![](../abilities/thick-skull.png){ .ability-icon } *Passive*
 
-While in a pachycephalosaurus form the user's headbutts stun the enemies they hit, and the user can't be pushed back or stunned while charging
+The user's headbutts stun the enemies they hit, and the user can't be pushed back or stunned while charging.
+
+Stun 1.5 s
 
 Requires Pachycephalosaurus Heavy Point or Pachycephalosaurus Walk Point to be active.
 
@@ -70,7 +70,7 @@ Requires Pachycephalosaurus Heavy Point or Pachycephalosaurus Walk Point to be a
 
 ![](../abilities/skull-smash.png){ .ability-icon } *Passive*
 
-While running as a pachycephalosaurus the user rams the enemies in front of them, dealing damage and knocking them back
+While running, the user rams the enemies in front of them, dealing damage and knocking them back.
 
 Requires Pachycephalosaurus Walk Point to be active.
 
@@ -83,20 +83,20 @@ Requires Pachycephalosaurus Walk Point to be active.
 
 ![](../abilities/ul-zugan.png){ .ability-icon } *Active*
 
-The user leaps where they are looking and headbutts the first enemy they meet. Stronger and from further in the hybrid form
+The user leaps where they are looking and headbutts the first enemy they meet. Stronger and from further in the hybrid form.
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 12 s |
-| Damage | 18–22 |
+| Damage | 20–22 |
 
 ## Ul-Meteor { #ul-meteor }
 
 ![](../abilities/ul-meteor.png){ .ability-icon } *Active*
 
-While in the hybrid form, the user grabs the enemy in front of them, holds it and headbutts it
+The user grabs the enemy in front of them, holds it up and headbutts it.
 
 | Stat | Value |
 |---|---|
@@ -109,20 +109,20 @@ While in the hybrid form, the user grabs the enemy in front of them, holds it an
 
 ![](../abilities/wall-breaker.png){ .ability-icon } *Active*
 
-The user charges forward head first, damaging and stunning all enemies in their path. The charge breaks the blocks in its path, even stone, ores and iron
+The user charges forward head first, damaging and stunning all enemies in their path. The charge breaks the blocks in its path, even stone, ores and iron.
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 16 s |
-| Damage | 16 |
+| Damage | 20 |
 
 ## Pin Down { #pin-down }
 
 ![](../abilities/pin-down.png){ .ability-icon } *Active*
 
-While in the full pachycephalosaurus form, the user holds the enemy in front of them under their claws, it can't move and takes damage. Use the ability again to let it go
+The user holds the enemy in front of them under their claws, it can't move and takes damage. Use the ability again to let it go.
 
 | Stat | Value |
 |---|---|
@@ -130,27 +130,27 @@ While in the full pachycephalosaurus form, the user holds the enemy in front of 
 | Haki | Hardening |
 | Cooldown | 15 s |
 | Hold | 3 s |
-| Damage | 3 |
+| Damage | 18 |
 
 ## Tail Sweep { #tail-sweep }
 
 ![](../abilities/tail-sweep.png){ .ability-icon } *Active*
 
-The user spins and sweeps their tail around them, hitting all nearby enemies and pushing them away. Stronger and wider in the full pachycephalosaurus form
+The user spins and sweeps their tail around them, hitting all nearby enemies and pushing them away. Stronger and wider in the full pachycephalosaurus form.
 
 | Stat | Value |
 |---|---|
 | Damage type | Physical |
 | Haki | Hardening |
 | Cooldown | 10 s |
-| Damage | 10–13 |
+| Damage | 14–18 |
 | Range | 3–4.5 blocks (area) |
 
 ## Skull Barrage { #skull-barrage }
 
 ![](../abilities/skull-barrage.png){ .ability-icon } *Active*
 
-The user headbutts the enemies in front of them many times in a row, the last hit stuns them and sends them back. Faster in the hybrid form, with a longer reach in the full pachycephalosaurus form
+The user headbutts the enemies in front of them many times in a row, the last hit stuns them and sends them back. Faster in the hybrid form, with a longer reach in the full pachycephalosaurus form.
 
 | Stat | Value |
 |---|---|
@@ -159,3 +159,14 @@ The user headbutts the enemies in front of them many times in a row, the last hi
 | Cooldown | 13 s |
 | Damage | 3.5–21 |
 | Range | 2.5–3.5 blocks (line) |
+
+## Bounding Leap { #bounding-leap }
+
+![](../abilities/bounding-leap.png){ .ability-icon } *Active*
+
+The user bounds where they are looking, even in the air. Use the ability again to bound a second time. The user takes no fall damage until they land.
+
+| Stat | Value |
+|---|---|
+| Cooldown | 8 s |
+| Bounds | 2 |
