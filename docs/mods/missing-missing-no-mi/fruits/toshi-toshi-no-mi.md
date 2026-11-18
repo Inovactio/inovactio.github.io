@@ -58,7 +58,7 @@ The user ages into a possible future of theirs, big and muscular, they hit harde
 
 Each future costs conviction to start and every second, and ends when none is left. Crouching, the user ages the enemy they touch instead, or gives a child they made its age back.
 
-With the **Alt key** it is **Distortion Future: Kyojin Mitaina Mirai**: Kyojin Mitaina Mirai is a future like a giant, the user grows as big as a giant, but it costs the most and cannot last.
+![](../abilities/kyojin-mitaina-mirai.png){ .effect-mini }With the **Alt key** it is **Distortion Future: Kyojin Mitaina Mirai**: Kyojin Mitaina Mirai is a future like a giant, the user grows as big as a giant, but it costs the most and cannot last.
 
 | Stat | Distortion Future | Distortion Future: Kyojin Mitaina Mirai |
 |---|---|---|

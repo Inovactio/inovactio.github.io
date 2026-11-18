@@ -47,6 +47,7 @@ Mine Mine no Mi's **captains, notorious NPCs and troops** can draw every fruit o
 ## SMILEs and Zoan weapons
 
 - **SMILEs.** The [Nomi Nomi no Mi](fruits/nomi-nomi-no-mi.md) samples Zoan users and makes SMILEs, artificial fruits that copy a Zoan. A success and a failure look the same until the fruit is eaten. A failed SMILE gives a body of its own, with its Zoan's hybrid stats and two techniques, for every Zoan of this addon and many of Mine Mine no Mi's. The Kibi Kibi's dango tames SMILE users, never real Zoans.
+- **Pirate NPCs with SMILEs.** Captains, notorious pirates, grunts, brutes and snipers may spawn in a failed SMILE form and use its techniques. Off by default: set AkumaLib's server option [`npcSmileChance`](../../akumalib/utilities/npc-fruits.md) above 0. The Kibi Kibi's dango tames them, captains included.
 - **Zoan weapons.** The Nomi Nomi makes a weapon or a tool eat a Zoan fruit, as Funkfreed did. Whoever holds it calls out the Zoan's beast, rides it when the Zoan can be ridden, and gets a bonus of that animal while the item is in hand. One Fruit per World holds.
 - **Infusion no Mi.** With that addon installed, its own infusion applies and the Nomi Nomi's steps aside (a server option keeps both).
 
