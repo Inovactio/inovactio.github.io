@@ -17,7 +17,7 @@ tags:
 |---|---|
 | Version documented | **0.1.0** (beta) |
 | Mod id | `inoimpel` |
-| Download | [CurseForge](https://www.curseforge.com/projects/1812558) · [changelog](changelog.md) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-impel-down) · [changelog](changelog.md) |
 | Languages | English |
 
 !!! warning "Beta"

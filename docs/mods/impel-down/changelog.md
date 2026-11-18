@@ -1,10 +1,10 @@
 # Changelog
 
-Every Impel Down release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/projects/1812558).
+Every Impel Down release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-impel-down).
 
 ## 0.1.0 (beta) { #v0-1-0 }
 
-<small>Released 2026-11-17 · [Download](https://www.curseforge.com/projects/1812558)</small>
+<small>Released 2026-11-17 · [Download](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-impel-down/files/9671173)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>The first beta: the World Government's great prison under the sea.</strong> Find it in the deep ocean behind its Gate of
