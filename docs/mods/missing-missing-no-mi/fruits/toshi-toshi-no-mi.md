@@ -35,7 +35,7 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="forms/old-self"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/old-self forms/nika-mitaina-mirai"></div>
 
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
@@ -75,6 +75,8 @@ Each future costs conviction to start and every second, and ends when none is le
 ## Distortion Future: Nika Mitaina Mirai { #nika-mitaina-mirai }
 
 ![](../abilities/nika-mitaina-mirai.png){ .ability-icon } *Active · Transformation*
+
+![Nika Mitaina Mirai](../forms/nika-mitaina-mirai.png){ .form-picture }
 
 The user ages into a future like Nika, their arms stretch and their fist inflates, they reach further, jump higher and take no fall damage. It allows Tokudai!! "Nika no Punch". It costs conviction to start and every second, and ends when none is left.
 

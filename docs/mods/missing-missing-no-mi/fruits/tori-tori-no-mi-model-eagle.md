@@ -17,22 +17,16 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid: gust](../animations/tori-tori-eagle-assault-gust.webp){ loading=lazy }
-      <figcaption>Hybrid: gust</figcaption>
+      ![Eagle: flying](../animations/eagle-eagle-fly-idle-810.webp){ loading=lazy }
+      <figcaption>Eagle: flying</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: wing blow](../animations/tori-tori-eagle-assault-coup-ailes.webp){ loading=lazy }
-      <figcaption>Hybrid: wing blow</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Eagle: flight](../animations/tori-tori-eagle-fly-vol.webp){ loading=lazy }
-      <figcaption>Eagle: flight</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Eagle: dive](../animations/tori-tori-eagle-fly-pique.webp){ loading=lazy }
-      <figcaption>Eagle: dive</figcaption>
+      ![Hybrid: Wing Gust](../animations/eagle-hybrid-wing-gust-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Wing Gust</figcaption>
     </figure>
     </div>
 <!-- /animations -->

@@ -18,16 +18,12 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
-    Taken in game, at size 1.
+    Taken in game, at size 1, third person.
 
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Midareuchi](../animations/kama-kama-midareuchi-size-1-700.webp){ loading=lazy }
-      <figcaption>Midareuchi</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Kamaitachi through rock](../animations/kama-kama-roche-size-1-700.webp){ loading=lazy }
-      <figcaption>Kamaitachi through rock</figcaption>
+      ![Kamaitachi Midareuchi](../animations/kama-midareuchi-810.webp){ loading=lazy }
+      <figcaption>Kamaitachi Midareuchi</figcaption>
     </figure>
     </div>
 <!-- /animations -->

@@ -18,18 +18,20 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid: slash](../animations/batto-batto-vampire-assault-slash.webp){ loading=lazy }
-      <figcaption>Hybrid: slash</figcaption>
+      ![Bat: flying](../animations/batto-vampire-fly-idle-810.webp){ loading=lazy }
+      <figcaption>Bat: flying</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: flight](../animations/batto-batto-vampire-assault-fly.webp){ loading=lazy }
-      <figcaption>Hybrid: flight</figcaption>
+      ![Hybrid: Wing Slash](../animations/batto-hybrid-wing-slash-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Wing Slash</figcaption>
     </figure>
     <figure markdown="span">
-      ![Bat: flight](../animations/batto-batto-vampire-fly-flap.webp){ loading=lazy }
-      <figcaption>Bat: flight</figcaption>
+      ![Hybrid: Draining Bite](../animations/batto-hybrid-draining-bite-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Draining Bite</figcaption>
     </figure>
     </div>
 <!-- /animations -->

@@ -17,22 +17,16 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid: wing wall](../animations/tori-tori-albatross-assault-mur-ailes.webp){ loading=lazy }
-      <figcaption>Hybrid: wing wall</figcaption>
+      ![Albatross: flying](../animations/albatross-albatross-fly-idle-810.webp){ loading=lazy }
+      <figcaption>Albatross: flying</figcaption>
     </figure>
     <figure markdown="span">
-      ![Albatross: glide](../animations/tori-tori-albatross-fly-glide.webp){ loading=lazy }
-      <figcaption>Albatross: glide</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Albatross: flight](../animations/tori-tori-albatross-fly-vol.webp){ loading=lazy }
-      <figcaption>Albatross: flight</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Albatross: dive](../animations/tori-tori-albatross-fly-pique.webp){ loading=lazy }
-      <figcaption>Albatross: dive</figcaption>
+      ![Hybrid: Wing Wall](../animations/albatross-hybrid-wing-wall-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Wing Wall</figcaption>
     </figure>
     </div>
 <!-- /animations -->

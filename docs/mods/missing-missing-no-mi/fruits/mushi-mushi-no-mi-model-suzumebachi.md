@@ -21,36 +21,12 @@ In 3D: drag to turn, scroll or pinch to zoom.
 
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid, flying](../animations/mushi-mushi-s1-hybride-vol-couche-710.webp){ loading=lazy }
-      <figcaption>Hybrid, flying</figcaption>
+      ![Hybrid](../animations/suzume-suzumebachi-heavy-idle-810.webp){ loading=lazy }
+      <figcaption>Hybrid</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hornet, flying](../animations/mushi-mushi-s1-frelon-vol-couche-710.webp){ loading=lazy }
-      <figcaption>Hornet, flying</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Stinger](../animations/mushi-mushi-s1-hybride-stinger-3p-710.webp){ loading=lazy }
-      <figcaption>Stinger</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Needle Dash](../animations/mushi-mushi-s1-hybride-needle-dash-3p-710.webp){ loading=lazy }
-      <figcaption>Needle Dash</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Pink Hornets](../animations/mushi-mushi-s1-hybride-pink-hornets-3p-710.webp){ loading=lazy }
-      <figcaption>Pink Hornets</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Venom Spray, hybrid](../animations/mushi-mushi-s1-hybride-venom-spray-3p-710.webp){ loading=lazy }
-      <figcaption>Venom Spray, hybrid</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Venom Spray, hornet](../animations/mushi-mushi-s1-frelon-venom-spray-3p-710.webp){ loading=lazy }
-      <figcaption>Venom Spray, hornet</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Mandible Bite](../animations/mushi-mushi-s1-hybride-mandible-bite-3p-710.webp){ loading=lazy }
-      <figcaption>Mandible Bite</figcaption>
+      ![Hybrid: Pink Hornets](../animations/suzume-hybrid-pink-hornets-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Pink Hornets</figcaption>
     </figure>
     </div>
 <!-- /animations -->

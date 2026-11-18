@@ -17,22 +17,20 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
+    Taken in game, at size 1, third person.
+
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Hybrid: attack](../animations/kumo-kumo-rosamygale-heavy-attaque.webp){ loading=lazy }
-      <figcaption>Hybrid: attack</figcaption>
+      ![Spider](../animations/kumo-rosamygale-walk-idle-810.webp){ loading=lazy }
+      <figcaption>Spider</figcaption>
     </figure>
     <figure markdown="span">
-      ![Hybrid: walk](../animations/kumo-kumo-rosamygale-heavy-marche.webp){ loading=lazy }
-      <figcaption>Hybrid: walk</figcaption>
+      ![Hybrid](../animations/kumo-rosamygale-heavy-idle-810.webp){ loading=lazy }
+      <figcaption>Hybrid</figcaption>
     </figure>
     <figure markdown="span">
-      ![Spider: bite](../animations/kumo-kumo-rosamygale-walk-morsure.webp){ loading=lazy }
-      <figcaption>Spider: bite</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Spider: threat](../animations/kumo-kumo-rosamygale-walk-menace-marche.webp){ loading=lazy }
-      <figcaption>Spider: threat</figcaption>
+      ![Hybrid: Venom Legs](../animations/kumo-hybrid-venom-legs-810.webp){ loading=lazy }
+      <figcaption>Hybrid: Venom Legs</figcaption>
     </figure>
     </div>
 <!-- /animations -->

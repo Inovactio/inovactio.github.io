@@ -17,40 +17,20 @@ In 3D: drag to turn, scroll or pinch to zoom.
 <!-- animations -->
 ??? example "Animations"
 
-    Taken in game, at size 1.
+    Taken in game, at size 1, third person.
 
     <div class="mob-gallery" markdown>
     <figure markdown="span">
-      ![Espada Girl](../animations/buki-buki-buki-s1-espada-slash-3p-700.webp){ loading=lazy }
+      ![Gatling Girl](../animations/buki-gatling-girl-810.webp){ loading=lazy }
+      <figcaption>Gatling Girl</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Missile Girl](../animations/buki-missile-girl-810.webp){ loading=lazy }
+      <figcaption>Missile Girl</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Espada Girl](../animations/buki-espada-girl-810.webp){ loading=lazy }
       <figcaption>Espada Girl</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Revolver](../animations/buki-buki-buki-s1-revolver-700.webp){ loading=lazy }
-      <figcaption>Revolver</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Revolver leg](../animations/buki-buki-buki-s1-revolverleg-700.webp){ loading=lazy }
-      <figcaption>Revolver leg</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Gatling](../animations/buki-buki-buki-s1-gatling-700.webp){ loading=lazy }
-      <figcaption>Gatling</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Sickle Girl](../animations/buki-buki-buki-s1-sickle-700.webp){ loading=lazy }
-      <figcaption>Sickle Girl</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Flamethrower](../animations/buki-buki-buki-s1-fire-700.webp){ loading=lazy }
-      <figcaption>Flamethrower</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Missile](../animations/buki-buki-buki-s1-missile-700.webp){ loading=lazy }
-      <figcaption>Missile</figcaption>
-    </figure>
-    <figure markdown="span">
-      ![Flying Disk Girl](../animations/buki-buki-buki-s1-disk-700.webp){ loading=lazy }
-      <figcaption>Flying Disk Girl</figcaption>
     </figure>
     </div>
 <!-- /animations -->

@@ -10,6 +10,10 @@
 | **Abilities** | 10: 10 active, 0 passive |
 | **Transformations** | [Bake-danuki Heavy Point](#bake-danuki-heavy-point), [Bake-danuki Walk Point](#bake-danuki-walk-point) |
 
+In 3D: drag to turn, scroll or pinch to zoom.
+
+<div class="model-viewer" data-models="../../" data-ids="forms/bake-danuki-walk-point forms/bake-danuki-heavy-point"></div>
+
 Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities appear in the ability menu, grouped under the fruit.
 
 !!! note "About the values"
@@ -19,11 +23,15 @@ Found in the base mod's **golden Devil Fruit box**. Eat it and its abilities app
 
 ![](../abilities/bake-danuki-heavy-point.png){ .ability-icon } *Active · Transformation*
 
+![Bake-danuki Heavy Point](../forms/bake-danuki-heavy-point.png){ .form-picture }
+
 Transforms the user into a bake-danuki hybrid, whose brush tail writes the leaves.
 
 ## Bake-danuki Walk Point { #bake-danuki-walk-point }
 
 ![](../abilities/bake-danuki-walk-point.png){ .ability-icon } *Active · Transformation*
+
+![Bake-danuki Walk Point](../forms/bake-danuki-walk-point.png){ .form-picture }
 
 Transforms the user into a small bake-danuki, very quick, whose brush tail writes the leaves.
 
