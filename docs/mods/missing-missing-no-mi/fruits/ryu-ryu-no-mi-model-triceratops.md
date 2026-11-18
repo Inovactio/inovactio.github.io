@@ -122,18 +122,15 @@ While flying with the frill, the user strikes the enemies in front of them 5 tim
 
 The user charges forward horns first, damaging all enemies in their path and throwing them far away. The charge also breaks the blocks in its path, up to stone.
 
-Requires Triceratops Guard Point to be active.
-
-Cooldown 18 second(s)
-
-Damage 26
-
-![](../abilities/tamaceratops.png){ .effect-mini }With the **Alt key** it is **Tamaceratops**: the user's frill spins and propels them forward horns first, damaging all enemies in their path and throwing them away. Requires Triceratops Heavy Point to be active. Cooldown 12 second(s) Damage 20
+![](../abilities/tamaceratops.png){ .effect-mini }In Triceratops Heavy Point it is **Tamaceratops**: the user's frill spins and propels them forward horns first, damaging all enemies in their path and throwing them away.
 
 | Stat | Horn Charge | Tamaceratops |
 |---|---|---|
 | Damage type | Physical | Physical |
 | Haki | Hardening | Hardening |
+| Form | Triceratops Guard Point | Triceratops Heavy Point |
+| Cooldown | 18 s | 12 s |
+| Damage | 26 | 20 |
 
 ## Horn Lift { #horn-lift }
 
