@@ -19,7 +19,7 @@ Missing 8.0.0 needed), so both sides need the same version.</p>
 <p>⚠️ <strong>Servers: set <code>allow-flight=true</code></strong> in <code>server.properties</code>, as before. Several fruits fly or hover, and without it
 the server kicks their users.</p>
 <hr />
-<h3>Toshi Toshi no Mi</h3>
+<h2>Toshi Toshi no Mi</h2>
 <ul>
 <li><strong>Roshi</strong> (new) pushes the enemy in front to the end of its years, 30 on an aged enemy and 12 otherwise. An aged
   creature at 30 health or less dies of old age. Reach 4, cooldown 12 s.</li>
@@ -32,7 +32,7 @@ the server kicks their users.</p>
 <li><strong>NDE</strong> now leaves the target aged for 10 s after the bones show. Still no damage.</li>
 <li><strong>Futures are cheaper</strong>: the muscle future costs 10 conviction to start (was 15), the giant 40 (was 50).</li>
 </ul>
-<h3>Nomi Nomi no Mi</h3>
+<h2>Nomi Nomi no Mi</h2>
 <ul>
 <li><strong>Knowledge by discoveries.</strong> Each repeat of the same subject gives half the one before, down to nothing (a Zoan
   sampled: 40, 20, 10, 5...). New things to learn from: a Devil Fruit analysed on its user (10), a biome entered for the
@@ -59,19 +59,19 @@ the server kicks their users.</p>
 <li>With the Race Race no Mi, a race keeps its race and gets the trait on top. A race's own trait cannot be grafted on it.</li>
 <li>Operators can list, add, remove or clear traits with <code>/missing nomi lineage &lt;targets&gt;</code>.</li>
 </ul>
-<h3>Gutsu Gutsu no Mi</h3>
+<h2>Gutsu Gutsu no Mi</h2>
 <ul>
 <li><strong>Belly Oven</strong> (new) opens a furnace kept in the user's belly. No fuel and no cost: the heat never runs out. It cooks
   every furnace recipe at its own speed, and keeps cooking with the screen closed. What is inside is kept over log out,
   and drops at death like the inventory.</li>
 </ul>
-<h3>SMILEs</h3>
+<h2>SMILEs</h2>
 <ul>
 <li><strong>Pirate NPCs can eat SMILEs</strong>: captains, notorious pirates, grunts, brutes and snipers spawn in a failed SMILE form and
   use its techniques. Off by default: set AkumaLib's server option <code>npcSmileChance</code> to turn it on.</li>
 <li>The Kibi Kibi's dango tames every NPC SMILE user, captains included. Its description says so again.</li>
 </ul>
-<h3>Rework: Mane Mane, Toge Toge, Mira Mira</h3>
+<h2>Rework: Mane Mane, Toge Toge, Mira Mira</h2>
 <ul>
 <li><strong>Mane Mane.</strong> A friend of the copied player holds back his first blow; the second lands and ends the look. Under a
   creature's look the user lets out its cry now and then. Face Touch reaches a man at a giant's feet. New icons and
@@ -82,7 +82,7 @@ the server kicks their users.</p>
   player crouches to agree). From inside <strong>Mirro-World</strong>, her hand comes out of a mirror by a door and pulls in the first
   enemy within 4 blocks. New icons, more ornate mirrors and gestures for every ability.</li>
 </ul>
-<h3>Rework: Toki Toki, Goru Goru, Memo Memo</h3>
+<h2>Rework: Toki Toki, Goru Goru, Memo Memo</h2>
 <ul>
 <li><strong>Toki Toki</strong> is now an <strong>iron box</strong> fruit (was golden). <strong>Shelter</strong> sends a group, the ally touched and the allies
   within 3 blocks of them, 5 in all. <strong>Jump Ahead</strong> has a short cast. A ring of hours (twelve closing glints and a brass
@@ -95,7 +95,7 @@ the server kicks their users.</p>
   them last and whom they hit last. The user holds real shears while cutting. NPCs use Cut and Paste. New icons, film and
   gestures.</li>
 </ul>
-<h3>Rework: Triceratops, Pachycephalosaurus, Saber Tiger</h3>
+<h2>Rework: Triceratops, Pachycephalosaurus, Saber Tiger</h2>
 <ul>
 <li><strong>Triceratops: 9 slots instead of 10.</strong> <strong>Horn Charge</strong> now holds both charges, picked by the form: the beast's Horn
   Charge (26, breaks blocks up to stone) and the hybrid's Tamaceratops (20). Horn Lift 20 (was 14), Ground Stomp 18 (was
@@ -109,7 +109,7 @@ the server kicks their users.</p>
 <li><strong>All three</strong>: new models from the anime, new icons and fruit icons, new particles, and the hybrid's own arm in first
   person. Captains use more of the kit, and slots grey out when they cannot be used (feet off the ground and the like).</li>
 </ul>
-<h3>Rework: Gunyo Gunyo, Shima Shima, Shiku Shiku</h3>
+<h2>Rework: Gunyo Gunyo, Shima Shima, Shiku Shiku</h2>
 <ul>
 <li><strong>Gunyo Gunyo: 8 slots instead of 9.</strong> <strong>Giant Golem is the ALT mode of the Golems</strong>, sharing one 30 s cooldown. The
   golems take the base mod's Command orders.</li>
@@ -126,7 +126,7 @@ the server kicks their users.</p>
   blows x0.85 for its 2 minutes. <strong>Contagion</strong> and <strong>Epidemic</strong> spare players you may not fight and other players'
   animals. Epidemic is greyed until you have given a disease. New icons and effect icons.</li>
 </ul>
-<h3>Rework: Atsu Atsu, Kibi Kibi, Kuri Kuri</h3>
+<h2>Rework: Atsu Atsu, Kibi Kibi, Kuri Kuri</h2>
 <ul>
 <li><strong>Atsu Atsu.</strong> While Netsuryo Up is on, what hits the user's bare body gets burnt. <strong>Net Tire</strong> bounds once per roll and
   the bound hits. <strong>Atsu Atsu no Gatling</strong> throws slow heat balls. Net Surfing, Slippery Slippery and the 10,000 Degree
@@ -138,7 +138,7 @@ the server kicks their users.</p>
   hit harder. Lighter Cream Monster, and its tentacles go back in under Cream Shell. Cream on the first-person arm.</li>
 <li><strong>Waves.</strong> Cream Wave, Net Surfing, Doro Nami and Great Wave no longer go twice too fast for a big body.</li>
 </ul>
-<h3>Other changes</h3>
+<h2>Other changes</h2>
 <ul>
 <li><strong>Fixed a crash</strong> when right-clicking an infused beast in singleplayer.</li>
 <li><strong>NPCs.</strong> The alpaca captain now lands Woolly Kick. NPCs no longer hold back Atsu's Net Tire and Steam Iron, Kibi's
@@ -146,7 +146,7 @@ the server kicks their users.</p>
 <li><strong>Icons.</strong> The Bisu Bisu's ten icons and ten of the base mod's SMILE techniques redrawn. Rarara Ranbo and the Hito Hito
   and Tama Tama infused beasts get their own icons. The Shari Shari fruit has a steel stem.</li>
 </ul>
-<h3>For servers and modpacks</h3>
+<h2>For servers and modpacks</h2>
 <ul>
 <li>Removed the particles <code>inomissing:ring_particle</code> and <code>inomissing:glint_particle</code>: the same drawings are now AkumaLib's
   <code>akumalib:ring</code> and <code>akumalib:glint</code>. Worlds are not affected.</li>

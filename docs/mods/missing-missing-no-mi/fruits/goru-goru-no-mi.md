@@ -14,7 +14,7 @@
 
 In 3D: drag to turn, scroll or pinch to zoom.
 
-<div class="model-viewer" data-models="../../" data-ids="forms/gon-bomba objects/gon-lancia objects/gon-incantesimo"></div>
+<div class="model-viewer" data-models="../../" data-ids="forms/gon-bomba objects/gon-lancia objects/gon-incantesimo forms/golden-armour"></div>
 
 <!-- animations -->
 ??? example "Animations"
@@ -184,6 +184,8 @@ The user forms a long golden blade on their arm and slashes all the enemies in f
 ## Golden Armour { #golden-armour }
 
 ![](../abilities/golden-armour.png){ .ability-icon } *Active · Transformation*
+
+![Golden Armour](../forms/golden-armour.png){ .form-picture }
 
 The user covers their whole body with gold, becoming much tougher and harder to push, but heavier and slower.
 
