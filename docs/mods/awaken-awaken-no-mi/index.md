@@ -2,13 +2,13 @@
 
 ![](../../assets/icons/awaken-awaken-no-mi.png){ .mod-icon }
 
-**Awaken Awaken no Mi** adds **awakenings** to the Devil Fruits of [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod): new abilities, and for Zoan fruits new awakened forms, that a fruit's user gets once their fruit is awakened.
+**Awaken Awaken no Mi** adds **awakenings** to the Devil Fruits of [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod): new abilities, and for Zoan fruits their own forms awakened, that a fruit's user gets once their fruit is awakened.
 
 | | |
 |---|---|
-| Version documented | **3.0.3** |
+| Version documented | **4.0.0** |
 | Mod id | `awakenawakennomi` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) · [3.0.3](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9668589) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) · [4.0.0](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/TO-FILL) |
 | Changelog | [Every release](changelog.md) |
 
 !!! danger "Do not use 3.0.0"
@@ -17,7 +17,7 @@
 ## What it adds
 
 - **239 awakened abilities across 71 of the base mod's Devil Fruits** (see [Fruits](fruits/index.md)).
-- **Awakened Zoan forms**: the awakened version of each supported Zoan's point forms, with their own models and animations.
+- **Awakened Zoan forms**: since 4.0.0, a Zoan fruit's own forms become their awakened selves once the fruit is awakened (smoke, stats ×1.5), and every technique works in them. The awakened human form of the Hito Hito no Mi, Gear Fifth, Gigant and Deka keep forms of their own.
 - **Domains**: area abilities that change the ground around the user, such as *Kenzan World*, *Smooth World* or *Sabaku no Okoku*.
 - **BakuMetal gear**: a BakuMetal Ingot and a full set of BakuMetal tools and armour, each with a crafting recipe.
 - Custom status effects, particles and sounds for the new abilities.
@@ -31,10 +31,10 @@ It adds **no new Devil Fruit**: every ability here belongs to a fruit the base m
 | Minecraft | 1.20.1 |
 | Forge | 47.4.2 or later |
 | [Mine Mine no Mi](https://www.curseforge.com/minecraft/mc-mods/mine-mine-no-mi-mod) | 0.11.6 or newer (built against `1.20.1-0.11.6`) |
-| [AkumaLib](../../akumalib/index.md) | **6.6.0 or later** |
+| [AkumaLib](../../akumalib/index.md) | **6.9.0 or later** |
 
 !!! warning "AkumaLib is required"
-    AkumaLib is a library: it adds nothing you can see, but this mod is built on it. Without it, Forge stops on its missing-dependency screen. Since 3.0.2, Awaken Awaken no Mi needs AkumaLib **6.6.0 or newer**.
+    AkumaLib is a library: it adds nothing you can see, but this mod is built on it. Without it, Forge stops on its missing-dependency screen. Since 4.0.0, Awaken Awaken no Mi needs AkumaLib **6.9.0 or newer**.
 
 ## Your size
 
