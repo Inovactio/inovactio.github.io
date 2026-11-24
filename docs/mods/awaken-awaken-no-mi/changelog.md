@@ -4,7 +4,7 @@ Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as publish
 
 ## 4.0.0 { #v4-0-0 }
 
-<small>Released 2026-11-XX · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/TO-FILL)</small>
+<small>Released 2026-11-24 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9791044)</small>
 
 <div class="changelog-body" markdown="0">
 <blockquote>

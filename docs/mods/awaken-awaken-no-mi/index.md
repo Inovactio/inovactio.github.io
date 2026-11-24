@@ -8,7 +8,7 @@
 |---|---|
 | Version documented | **4.0.0** |
 | Mod id | `awakenawakennomi` |
-| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) · [4.0.0](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/TO-FILL) |
+| Download | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi) · [4.0.0](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9791044) |
 | Changelog | [Every release](changelog.md) |
 
 !!! danger "Do not use 3.0.0"
