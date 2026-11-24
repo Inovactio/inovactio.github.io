@@ -7,8 +7,8 @@ Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [Curs
 <small>Released 2026-11-XX · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/TO-FILL)</small>
 
 <div class="changelog-body" markdown="0">
-<p><strong>Awakened Zoans, awakened damage and a Yami crash fixed.</strong> Once a Zoan fruit is awakened, its own forms become their
-awakened selves, with the smoke and stronger stats, for every Zoan of every mod. An awakened fruit's own techniques deal
+<p><strong>Awakened Zoans, awakened damage and a Yami crash fixed.</strong> Once a player's Zoan fruit is awakened, its own forms become
+their awakened selves, with the smoke and stronger stats, for the Zoans of every mod. An awakened fruit's own techniques deal
 ×1.5 damage, and their tooltips show it. A Yami user with a huge stock of absorbed blocks can join a world again. A man
 at normal size plays exactly as before, and nothing changes while awakenings are off.</p>
 <p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are
@@ -20,8 +20,8 @@ so that the awakened forms and damage are the same for all.</p>
 <hr />
 <h2>New</h2>
 <ul>
-<li><strong>Awakened Zoan forms, for every Zoan.</strong> Once your Zoan fruit is awakened (with the base mod's "Enable Awakenings"
-  on), each form of your fruit becomes its awakened self: the awakening smoke around the neck, and the form's own
+<li><strong>Awakened Zoan forms.</strong> Once your Zoan fruit is awakened (with the base mod's "Enable Awakenings" on), the forms of
+  your fruit's Point abilities become their awakened selves (a SMILE's forms and NPCs' forms do not): the awakening smoke around the neck, and the form's own
   strength, armour, toughness and health ×1.5, at least +4 armour and +2 toughness, and +0.5 regeneration. A weakness of
   the form is halved instead. It is the same form, so every technique of the form still works in it. The form's tooltip
   shows the awakened stats, marked "(Awakened)".</li>
@@ -41,13 +41,9 @@ so that the awakened forms and damage are the same for all.</p>
 <li><strong>Yami Yami no Mi, "Invalid player data" at login.</strong> A Yami user who had absorbed a huge number of blocks (Black Hole,
   Liberation) was thrown out of every world at login. The stock of absorbed blocks now stops at 30 000, and a player
   who already has more can join again.</li>
-<li><strong>Hidden marks</strong> of techniques (Shiku Primed, Missing Missing no Mi's hidden markers) no longer show in the inventory
-  and on the screen.</li>
-<li><strong>First person</strong>: the fur and claws of a form's arm now follow your hand during a technique (Missing Missing no Mi's
-  Cerberus and otter, many InoFruits forms).</li>
-<li><strong>A blast that grows where a beam ends</strong> (Missing Missing no Mi's Bolo Breath and Thorheim) now strikes the bodies
-  below it, once, before the ground falls under them.</li>
-<li><strong>A form's health percentage</strong> now adds to its fixed health instead of replacing it.</li>
+<li><strong>Hidden marks</strong> of techniques (Missing Missing no Mi's Shiku Primed and others) no longer show in the inventory and
+  on the screen.</li>
+<li><strong>First person</strong>: the fur and claws of a form's arm now follow your hand during a technique (many InoFruits forms).</li>
 </ul>
 <h2>For server operators</h2>
 <ul>
