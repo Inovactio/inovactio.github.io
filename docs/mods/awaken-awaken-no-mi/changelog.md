@@ -8,13 +8,13 @@ Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as publish
 
 <div class="changelog-body" markdown="0">
 <blockquote>
-<h3>⚠️ AkumaLib update required: 6.9.0</h3>
+<h4>⚠️ AkumaLib update required: 6.9.0</h4>
 <p>This version needs <strong><a href="https://www.curseforge.com/minecraft/mc-mods/akumalib">AkumaLib</a> 6.9.0</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. With an older one the game will stop on Forge's missing-dependency screen.</p>
 <p>Just replace the AkumaLib jar in your <code>mods</code> folder with the new one. On a server every player needs it too.</p>
 </blockquote>
 <p><strong>Your own Zoan forms awaken, and every awakened technique was balanced.</strong></p>
 <hr />
-<h2>Awakened Zoan forms</h2>
+<h3>Awakened Zoan forms</h3>
 <ul>
 <li><strong>No more separate awakened forms.</strong> Once your Zoan fruit is awakened, the fruit's normal forms become their awakened selves: the awakening smoke, and stronger stats (×1.5 strength, armour, toughness and health, at least +4 armour and +2 toughness, +0.5 regeneration). Every technique of the form, the base mod's and the awakened ones, works in it</li>
 <li>The awakened techniques that needed an awakened form now need <strong>the normal form and an awakened fruit</strong></li>
@@ -23,11 +23,11 @@ Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as publish
 <li>Gone with the old forms: the Mogu Mogu's Haste and Night Vision, and the extra speed, jump and reach of the old forms</li>
 <li>Still their own: the awakened human form of the Hito Hito no Mi, Gear Fifth, Gigant and Deka</li>
 </ul>
-<h2>Awakened damage</h2>
+<h3>Awakened damage</h3>
 <ul>
 <li>With AkumaLib 6.9.0, an awakened fruit's base techniques deal ×1.5 damage. The awakened techniques of this mod keep their own numbers, and so do the Dawn modes of Gear Fifth (Dawn Pistol, Gatling, Cymbal and Rocket)</li>
 </ul>
-<h2>Balance</h2>
+<h3>Balance</h3>
 <ul>
 <li><strong>One hit per enemy</strong> for Ao no Rakka, Ancient Spine Saw, Horn Drill, Ivory Catastrophe and Reverse Slow Smash. A target that stayed in reach used to be struck again and again (up to 10 times for one Ao no Rakka dive)<ul>
 <li>Ao no Rakka: 60 damage, 45 s cooldown, heals 20 from each of the first 3 enemies hit</li>
@@ -45,7 +45,7 @@ Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as publish
 <li><strong>Cooldowns as long as the effect</strong>: Lightfall Domain (90 s), Sabaku no Okoku and Yukiro (at least 45 s)</li>
 <li><strong>Stronger</strong>: Bara Bara Parade (60 a fist), Tenchi Hokai (150 s cooldown)</li>
 </ul>
-<h2>Fixes</h2>
+<h3>Fixes</h3>
 <ul>
 <li><strong>Yomi Yomi no Mi</strong>: the count of resurrections is kept. Leaving the End or a death that keeps your stats reset it, which made resurrections unlimited</li>
 <li><strong>Breach, Undertow and Sugar Coffin</strong> no longer take an ally</li>
@@ -55,7 +55,7 @@ Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as publish
 <li><strong>Tooltips</strong>: Funshin no longer shows an unused power, High-Frequency Wall shows its damage, Brilliant Meteor its shards, Inga Impact its real range of damage</li>
 </ul>
 <hr />
-<h2>Requirements</h2>
+<h3>Requirements</h3>
 <ul>
 <li>Minecraft <strong>1.20.1</strong></li>
 <li>Forge <strong>47.4.2+</strong></li>
