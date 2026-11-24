@@ -42,6 +42,8 @@ If Diamond Body is active it deals 50% more damage.
 | Charge | 2 s |
 | Range | 6 blocks (area) |
 | Damage | 70 |
+| Damage per Shard | 25 |
+| Shards | 12 |
 
 ## Unscratchable { #unscratchable }
 

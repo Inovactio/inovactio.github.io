@@ -29,16 +29,16 @@ The user pushes past their limits for a short time, becoming a one-man army.
 
 | Stat | Value |
 |---|---|
-| Armor | +10 |
-| Speed | x3.5 |
 | Knockback Resistance | +6 |
+| Toughness | +5 |
 | Step Height | +1 |
 | Punch Damage | +20 |
-| Toughness | +5 |
-| Fall Resistance | +30 |
-| Jump Height | +15 |
 | Armor Toughness | +5 |
+| Jump Height | +15 |
+| Fall Resistance | +30 |
+| Speed | x3.5 |
 | Attack Speed | +2 |
+| Armor | +10 |
 
 ## Battlefield Resonance { #battlefield-resonance }
 

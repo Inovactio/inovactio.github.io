@@ -3,61 +3,13 @@
 | | |
 |---|---|
 | **Type** | Ancient Zoan |
-| **Abilities** | 4: 4 active, 0 passive |
-| **Transformations** | [Awaken Pteranodon Assault Point](#awaken-pteranodon-assault-point), [Awaken Pteranodon Fly Point](#awaken-pteranodon-fly-point) |
+| **Abilities** | 2: 2 active, 0 passive |
 | **Effects applied** | ![](../effect-icons/downdraft-pinned.png){ .effect-mini .pixelated }[Downdraft Pinned](../effects.md#effect-downdraft-pinned) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
 !!! note "About the values"
     The values are those of the ability's tooltip in game, with the base mod's default settings. Damage is shown on the base mod's scale, as in the ability screen.
-
-## Awaken Pteranodon Assault Point { #awaken-pteranodon-assault-point }
-
-![](../abilities/awaken-pteranodon-assault-point.png){ .ability-icon } *Active · Transformation*
-
-Transforms the user into an awakened pteranodon hybrid, which focuses on attacking.
-
-| Stat | Value |
-|---|---|
-| Cooldown | 1 s |
-| Hold | ∞ s |
-
-**Stats while active**
-
-| Stat | Value |
-|---|---|
-| Armor | +16 |
-| Speed | +0.7 |
-| Step Height | +1 |
-| Punch Damage | +14 |
-| Regen Rate | +0.5 |
-| Toughness | +4 |
-| Fall Resistance | +8 |
-| Jump Height | +2 |
-| Attack Speed | +0.3 |
-
-## Awaken Pteranodon Fly Point { #awaken-pteranodon-fly-point }
-
-![](../abilities/awaken-pteranodon-fly-point.png){ .ability-icon } *Active · Transformation*
-
-Transforms the user into an awakened pteranodon, which focuses on flying.
-
-| Stat | Value |
-|---|---|
-| Cooldown | 1 s |
-| Hold | ∞ s |
-
-**Stats while active**
-
-| Stat | Value |
-|---|---|
-| Armor | +4 |
-| Punch Damage | +30 |
-| Regen Rate | +0.5 |
-| Toughness | +4 |
-| Fall Resistance | +8 |
-| Attack Speed | +1.5 |
 
 ## Tei-Kasané { #tei-kasane }
 

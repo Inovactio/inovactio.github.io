@@ -5,6 +5,7 @@
 | **Type** | Paramecia |
 | **Abilities** | 3: 2 active, 1 passive |
 | **Zones** | [Ukiyo](#ukiyo) |
+| **Effects applied** | [Fall Damage Immunity](../effects.md#effect-fall-damage-immunity), ![](../effect-icons/suspended.png){ .effect-mini .pixelated }[Suspended](../effects.md#effect-suspended) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
@@ -14,6 +15,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 ## Ukiyo { #ukiyo }
 
 ![](../abilities/ukiyo.png){ .ability-icon } *Active · Zone*
+
+Applies [Fall Damage Immunity](../effects.md#effect-fall-damage-immunity), ![](../effect-icons/suspended.png){ .effect-mini .pixelated }[Suspended](../effects.md#effect-suspended)
 
 Turns off gravity in the zone, lifting every enemy off the ground and leaving them floating helpless
 

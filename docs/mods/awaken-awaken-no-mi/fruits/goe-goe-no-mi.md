@@ -24,6 +24,8 @@ Creates a sound wall that destroys enemy projectiles and Deafens enemies who pas
 |---|---|
 | Cooldown | 15–125 s |
 | Hold | 30 s |
+| Damage | 50 |
+| Effect Pulse (s) | 2 |
 
 ## Resonating World { #resonating-world }
 

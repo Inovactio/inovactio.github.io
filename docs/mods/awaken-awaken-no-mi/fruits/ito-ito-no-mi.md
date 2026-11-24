@@ -5,6 +5,7 @@
 | **Type** | Paramecia |
 | **Abilities** | 3: 2 active, 1 passive |
 | **Zones** | [Ever White](#ever-white) |
+| **Effects applied** | [Fall Damage Immunity](../effects.md#effect-fall-damage-immunity) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
@@ -41,6 +42,8 @@ Standing on threads makes the burst bigger and stronger
 ## White Ground { #white-ground }
 
 ![](../abilities/white-ground.png){ .ability-icon } *Passive*
+
+Applies [Fall Damage Immunity](../effects.md#effect-fall-damage-immunity)
 
 Standing on the user's own threads makes them stronger, tougher, faster and jump higher.
 

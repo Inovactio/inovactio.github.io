@@ -15,7 +15,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/inga-samsara.png){ .ability-icon } *Active · Zone*
 
-Creates a zone that links everyone's fate to the user, if the user bleeds everyone bleeds.
+Creates a zone that links everyone's fate to the user, if the user bleeds everyone bleeds, up to 200 HP each.
 
 | Stat | Value |
 |---|---|
@@ -34,9 +34,9 @@ Damage and size go up with the Karma stored.
 
 | Stat | Value |
 |---|---|
-| Cooldown | 15 s |
+| Cooldown | 60 s |
 | Charge | 2 s |
-| Projectile damage | 12.75 |
+| Projectile damage | 12.75–225 |
 
 ## Karmic Return { #karmic-return }
 

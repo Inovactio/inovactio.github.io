@@ -5,7 +5,7 @@
 | **Type** | Paramecia |
 | **Abilities** | 3: 3 active, 0 passive |
 | **Zones** | [Waterpool Domain](#waterpool-domain) |
-| **Effects applied** | ![](../effect-icons/ground-drown.png){ .effect-mini .pixelated }[Ground Drown](../effects.md#effect-ground-drown), ![](../effect-icons/undertow-held.png){ .effect-mini .pixelated }[Undertow Held](../effects.md#effect-undertow-held) |
+| **Effects applied** | ![](../effect-icons/ground-drown.png){ .effect-mini .pixelated }[Ground Drown](../effects.md#effect-ground-drown), ![](../effect-icons/ground-swim.png){ .effect-mini .pixelated }[Ground Swim](../effects.md#effect-ground-swim), ![](../effect-icons/undertow-held.png){ .effect-mini .pixelated }[Undertow Held](../effects.md#effect-undertow-held) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
@@ -16,7 +16,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/waterpool-domain.png){ .ability-icon } *Active · Zone*
 
-Applies ![](../effect-icons/ground-drown.png){ .effect-mini .pixelated }[Ground Drown](../effects.md#effect-ground-drown)
+Applies ![](../effect-icons/ground-drown.png){ .effect-mini .pixelated }[Ground Drown](../effects.md#effect-ground-drown), ![](../effect-icons/ground-swim.png){ .effect-mini .pixelated }[Ground Swim](../effects.md#effect-ground-swim)
 
 Turns the ground into liquid, the user and their allies can swim in it while enemies sink and drown.
 
@@ -33,7 +33,7 @@ Inside it the user counts as swimming for Nekomimi Punch and the Nyan Nyan Suple
 
 ![](../abilities/undertow.png){ .ability-icon } *Active*
 
-Applies ![](../effect-icons/undertow-held.png){ .effect-mini .pixelated }[Undertow Held](../effects.md#effect-undertow-held)
+Applies ![](../effect-icons/ground-swim.png){ .effect-mini .pixelated }[Ground Swim](../effects.md#effect-ground-swim), ![](../effect-icons/undertow-held.png){ .effect-mini .pixelated }[Undertow Held](../effects.md#effect-undertow-held)
 
 Grabs the enemy in front and drags them down into the ground, swimming off with them while they drown.
 

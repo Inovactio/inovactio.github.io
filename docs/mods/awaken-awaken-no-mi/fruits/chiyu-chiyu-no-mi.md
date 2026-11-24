@@ -29,7 +29,7 @@ The target can't be healed by anything for a while.
 
 | Stat | Value |
 |---|---|
-| Damage | 40–75 |
+| Damage | 40–100 |
 
 ## Overflow { #overflow }
 

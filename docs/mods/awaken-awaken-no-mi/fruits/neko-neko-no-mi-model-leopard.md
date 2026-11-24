@@ -3,62 +3,12 @@
 | | |
 |---|---|
 | **Type** | Zoan |
-| **Abilities** | 11: 11 active, 0 passive |
-| **Transformations** | [Awaken Leopard Heavy Point](#awaken-leopard-heavy-point), [Awaken Leopard Walk Point](#awaken-leopard-walk-point) |
+| **Abilities** | 9: 9 active, 0 passive |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
 !!! note "About the values"
     The values are those of the ability's tooltip in game, with the base mod's default settings. Damage is shown on the base mod's scale, as in the ability screen.
-
-## Awaken Leopard Heavy Point { #awaken-leopard-heavy-point }
-
-![](../abilities/awaken-leopard-heavy-point.png){ .ability-icon } *Active · Transformation*
-
-Transforms the user into an awakened leopard hybrid, which focuses on strength and speed.
-
-| Stat | Value |
-|---|---|
-| Cooldown | 1 s |
-| Hold | ∞ s |
-
-**Stats while active**
-
-| Stat | Value |
-|---|---|
-| Armor | +10 |
-| Speed | x2.5 |
-| Step Height | +1 |
-| Punch Damage | +20 |
-| Regen Rate | +0.5 |
-| Toughness | +4 |
-| Fall Resistance | +8 |
-| Jump Height | +5 |
-| Attack Speed | <span class="stat-malus">0</span> |
-
-## Awaken Leopard Walk Point { #awaken-leopard-walk-point }
-
-![](../abilities/awaken-leopard-walk-point.png){ .ability-icon } *Active · Transformation*
-
-Transforms the user into an awakened leopard, which focuses on speed.
-
-| Stat | Value |
-|---|---|
-| Cooldown | 1 s |
-| Hold | ∞ s |
-
-**Stats while active**
-
-| Stat | Value |
-|---|---|
-| Speed | +1.47 |
-| Step Height | +1 |
-| Punch Damage | +15 |
-| Regen Rate | +0.5 |
-| Toughness | +2 |
-| Fall Resistance | +9.5 |
-| Jump Height | +3.5 |
-| Attack Speed | +0.75 |
 
 ## Shugan { #shugan }
 

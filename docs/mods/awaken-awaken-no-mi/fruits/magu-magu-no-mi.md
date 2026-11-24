@@ -38,7 +38,7 @@ Each hit burns a quarter of the Netsuryo gauge so the first punch hits the harde
 
 | Stat | Value |
 |---|---|
-| Attack Damage | 35–110 |
+| Attack Damage | 15–110 |
 | Heat Burned Per Hit | 25 |
 
 ## Netsuryo { #netsuryo }

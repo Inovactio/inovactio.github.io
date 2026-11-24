@@ -28,7 +28,7 @@ The faster the user goes, the faster their other abilities recover and charge.
 
 | Stat | Value |
 |---|---|
-| Damage | 10 |
+| Damage | 20 |
 | Charge | 1 s |
 | Cooldown | 20 s |
 
@@ -36,7 +36,7 @@ The faster the user goes, the faster their other abilities recover and charge.
 
 | Stat | Value |
 |---|---|
-| Damage | 20 |
+| Damage | 40 |
 | Charge | 1 s |
 | Cooldown | 40 s |
 
@@ -44,7 +44,7 @@ The faster the user goes, the faster their other abilities recover and charge.
 
 | Stat | Value |
 |---|---|
-| Damage | 35 |
+| Damage | 70 |
 | Charge | 2 s |
 | Cooldown | 60 s |
 
@@ -52,7 +52,7 @@ The faster the user goes, the faster their other abilities recover and charge.
 
 | Stat | Value |
 |---|---|
-| Damage | 60 |
+| Damage | 120 |
 | Charge | 4 s |
 | Cooldown | 80 s |
 
@@ -60,7 +60,7 @@ The faster the user goes, the faster their other abilities recover and charge.
 
 ![](../abilities/reverse-slow-smash.png){ .ability-icon } *Passive*
 
-Running into enemies at high speed damages them
+Running into enemies at high speed damages them, once each per Reverse Slow
 
 ## Noroma Field { #noroma-field }
 

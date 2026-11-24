@@ -18,10 +18,10 @@ Tears the ground apart over a huge area, throwing it into the air and knocking o
 
 | Stat | Value |
 |---|---|
-| Cooldown | 240 s |
+| Cooldown | 150 s |
 | Charge | 12 s |
 | Range | 80 blocks (area) |
-| Damage | 60–200 |
+| Damage | 160–200 |
 
 ## Funshin { #funshin }
 
@@ -36,7 +36,6 @@ Landing sends a second quake through the enemies around the user.
 | Cooldown | 25 s |
 | Charge | 1 s |
 | Damage | 40 |
-| Explosion power | 20 |
 | Explosion size | 10 |
 | Explosion damage | 60 |
 

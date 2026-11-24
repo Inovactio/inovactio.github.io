@@ -3,71 +3,12 @@
 | | |
 |---|---|
 | **Type** | Zoan |
-| **Abilities** | 4: 4 active, 0 passive |
-| **Transformations** | [Awaken Zou Heavy Point](#awaken-zou-heavy-point), [Awaken Zou Guard Point](#awaken-zou-guard-point) |
+| **Abilities** | 2: 2 active, 0 passive |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
 !!! note "About the values"
     The values are those of the ability's tooltip in game, with the base mod's default settings. Damage is shown on the base mod's scale, as in the ability screen.
-
-## Awaken Zou Heavy Point { #awaken-zou-heavy-point }
-
-![](../abilities/awaken-zou-heavy-point.png){ .ability-icon } *Active · Transformation*
-
-Transforms the user into an awakened elephant hybrid, which focuses on strength.
-
-| Stat | Value |
-|---|---|
-| Cooldown | 1 s |
-| Hold | ∞ s |
-
-**Stats while active**
-
-| Stat | Value |
-|---|---|
-| Armor | +12 |
-| Block Reach | +0.75 |
-| Knockback Resistance | +1.5 |
-| Step Height | +1 |
-| Regen Rate | +0.5 |
-| Fall Resistance | +12 |
-| Attack Speed | x1.1 |
-| Speed | +0.56 |
-| Punch Damage | +18 |
-| Toughness | +6 |
-| Entity Reach | +0.75 |
-| Jump Height | +4 |
-| Max Health | x1.15 |
-
-## Awaken Zou Guard Point { #awaken-zou-guard-point }
-
-![](../abilities/awaken-zou-guard-point.png){ .ability-icon } *Active · Transformation*
-
-Transforms the user into an awakened elephant, which focuses on defense.
-
-| Stat | Value |
-|---|---|
-| Cooldown | 1 s |
-| Hold | ∞ s |
-
-**Stats while active**
-
-| Stat | Value |
-|---|---|
-| Armor | +14 |
-| Block Reach | +1.2 |
-| Knockback Resistance | +3 |
-| Step Height | +1 |
-| Regen Rate | +0.5 |
-| Fall Resistance | +20 |
-| Attack Speed | +0.1 |
-| Speed | +0.14 |
-| Punch Damage | +12.5 |
-| Toughness | +8 |
-| Entity Reach | +1.2 |
-| Jump Height | +1.5 |
-| Max Health | x1.25 |
 
 ## Ivory Catastrophe { #ivory-catastrophe }
 
@@ -79,7 +20,7 @@ Charges forward spinning with huge tusks, impaling everything in the way.
 |---|---|
 | Cooldown | 60 s |
 | Hold | 8 s |
-| Damage | 60 |
+| Damage | 120 |
 
 ## Trunk Geyser { #trunk-geyser }
 

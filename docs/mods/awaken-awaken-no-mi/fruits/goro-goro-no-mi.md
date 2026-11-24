@@ -23,11 +23,11 @@ Diamond and leather don't conduct at all.
 
 | Stat | Value |
 |---|---|
-| Cooldown | 90 s |
+| Cooldown | 120 s |
 | Charge | 3–12 s |
 | Zone Radius (blocks) | 128 |
 | Effect Pulse (s) | 3 |
-| Damage | 20–65 |
+| Damage | 10–30 |
 
 ## Stormstep { #stormstep }
 

@@ -23,7 +23,7 @@ Everything inside dries up and loses the water it carries.
 
 | Stat | Value |
 |---|---|
-| Cooldown | 60 s |
+| Cooldown | 45–60 s |
 | Charge | 1–6 s |
 | Range | 110 blocks (area) |
 | Moisture Drain (per pulse) | 1–4.5 |

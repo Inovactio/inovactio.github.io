@@ -52,4 +52,4 @@ A blow off the beat breaks the combo.
 
 | Stat | Value |
 |---|---|
-| Damage | +8–40 |
+| Damage | +4–20 |

@@ -26,16 +26,16 @@ Allows the user to grow to the size of a Titan.
 
 | Stat | Value |
 |---|---|
-| Armor | +20 |
-| Speed | +0.88 |
-| Block Reach | +20 |
 | Knockback Resistance | +10 |
+| Toughness | +6 |
 | Step Height | +3 |
 | Punch Damage | +25 |
-| Toughness | +6 |
-| Fall Resistance | +50 |
 | Jump Height | +10 |
 | Entity Reach | +20 |
+| Fall Resistance | +50 |
+| Speed | +0.88 |
+| Armor | +20 |
+| Block Reach | +20 |
 | Max Health | +10 |
 
 ## Titan Trample { #titan-trample }

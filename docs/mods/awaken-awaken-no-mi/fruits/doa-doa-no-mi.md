@@ -51,5 +51,5 @@ The user's next blow on them within a few seconds opens a door in their body, de
 | Stat | Value |
 |---|---|
 | Range (blocks) | 32 |
-| Armour-Ignoring Strike Damage | 40 |
+| Armour-Ignoring Strike Damage | 15 |
 | Strike Window (s) | 3 |

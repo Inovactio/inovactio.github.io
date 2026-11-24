@@ -33,7 +33,7 @@ Fires a bunch of venom hydras one after another from different spots, poisoning 
 
 | Stat | Value |
 |---|---|
-| Damage per Hydra | 40–80 |
+| Damage per Hydra | 30–40 |
 
 ## Virulence { #virulence }
 
@@ -45,5 +45,5 @@ It can go up to the max poison level.
 
 | Stat | Value |
 |---|---|
-| Max Poison Level | 5 |
-| Poison Damage at Max Level (HP/s) | 20 |
+| Max Poison Level | 4 |
+| Poison Damage at Max Level (HP/s) | 6.7 |

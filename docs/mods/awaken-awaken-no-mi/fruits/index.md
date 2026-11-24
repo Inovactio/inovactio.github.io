@@ -1,6 +1,6 @@
 # Fruits
 
-Awaken Awaken no Mi awakens **71 of the base mod's Devil Fruits**, with **239 abilities** between them. Pick a fruit to see what its awakening gives.
+Awaken Awaken no Mi awakens **71 of the base mod's Devil Fruits**, with **213 abilities** between them. Pick a fruit to see what its awakening gives.
 
 ## Paramecia
 
@@ -73,27 +73,27 @@ Awaken Awaken no Mi awakens **71 of the base mod's Devil Fruits**, with **239 ab
 | Fruit | Awakened abilities |
 |---|---|
 | [**Hito Hito no Mi**](hito-hito-no-mi.md) | [Awaken Human Form](hito-hito-no-mi.md#awaken-human-form), [Insight](hito-hito-no-mi.md#insight), [Adaptive Mind](hito-hito-no-mi.md#adaptive-mind) |
-| [**Kame Kame no Mi**](kame-kame-no-mi.md) | [Awaken Kame Walk Point](kame-kame-no-mi.md#awaken-kame-walk-point), [Awaken Kame Guard Point](kame-kame-no-mi.md#awaken-kame-guard-point), [Spin](kame-kame-no-mi.md#spin), [Snapping Jaw](kame-kame-no-mi.md#snapping-jaw) |
-| [**Mogu Mogu no Mi**](mogu-mogu-no-mi.md) | [Awaken Mogu Heavy Point](mogu-mogu-no-mi.md#awaken-mogu-heavy-point), [Mogu Dig](mogu-mogu-no-mi.md#mogu-dig), [Subterranean Dash](mogu-mogu-no-mi.md#subterranean-dash) |
-| [**Neko Neko no Mi, Model: Leopard**](neko-neko-no-mi-model-leopard.md) | [Awaken Leopard Heavy Point](neko-neko-no-mi-model-leopard.md#awaken-leopard-heavy-point), [Awaken Leopard Walk Point](neko-neko-no-mi-model-leopard.md#awaken-leopard-walk-point), [Shugan](neko-neko-no-mi-model-leopard.md#shugan), [Shugan: Madara](neko-neko-no-mi-model-leopard.md#shugan-madara), [Tobu Shigan "Bachi"](neko-neko-no-mi-model-leopard.md#tobu-shigan-bachi), [Rankyaku "Gaicho"](neko-neko-no-mi-model-leopard.md#rankyaku-gaicho), [Rankyaku "Hyobi"](neko-neko-no-mi-model-leopard.md#rankyaku-hyobi), [Tekkai "Utsugi"](neko-neko-no-mi-model-leopard.md#tekkai-utsugi), [Sai Dai Rin: Rokuogan](neko-neko-no-mi-model-leopard.md#sai-dai-rin-rokuogan), [Mauling](neko-neko-no-mi-model-leopard.md#mauling), [Tail Hold](neko-neko-no-mi-model-leopard.md#tail-hold) |
-| [**Sai Sai no Mi**](sai-sai-no-mi.md) | [Awaken Sai Heavy Point](sai-sai-no-mi.md#awaken-sai-heavy-point), [Awaken Sai Walk Point](sai-sai-no-mi.md#awaken-sai-walk-point), [Horn Drill](sai-sai-no-mi.md#horn-drill), [Juggernaut](sai-sai-no-mi.md#juggernaut) |
-| [**Sara Sara no Mi, Model: Axolotl**](sara-sara-no-mi-model-axolotl.md) | [Awaken Axolotl Heavy Point](sara-sara-no-mi-model-axolotl.md#awaken-axolotl-heavy-point), [Awaken Axolotl Walk Point](sara-sara-no-mi-model-axolotl.md#awaken-axolotl-walk-point), [Cellular Overload](sara-sara-no-mi-model-axolotl.md#cellular-overload), [Toxic Bloom](sara-sara-no-mi-model-axolotl.md#toxic-bloom), [Toxic Reserve](sara-sara-no-mi-model-axolotl.md#toxic-reserve) |
-| [**Ushi Ushi no Mi, Model: Bison**](ushi-ushi-no-mi-model-bison.md) | [Awaken Bison Heavy Point](ushi-ushi-no-mi-model-bison.md#awaken-bison-heavy-point), [Awaken Bison Walk Point](ushi-ushi-no-mi-model-bison.md#awaken-bison-walk-point), [Fiddle Overdrive](ushi-ushi-no-mi-model-bison.md#fiddle-overdrive), [Thundering Herd](ushi-ushi-no-mi-model-bison.md#thundering-herd) |
-| [**Ushi Ushi no Mi, Model: Giraffe**](ushi-ushi-no-mi-model-giraffe.md) | [Awaken Giraffe Heavy Point](ushi-ushi-no-mi-model-giraffe.md#awaken-giraffe-heavy-point), [Awaken Giraffe Walk Point](ushi-ushi-no-mi-model-giraffe.md#awaken-giraffe-walk-point), [Longneck Ram](ushi-ushi-no-mi-model-giraffe.md#longneck-ram), [Neck Hammer](ushi-ushi-no-mi-model-giraffe.md#neck-hammer) |
-| [**Zou Zou no Mi**](zou-zou-no-mi.md) | [Awaken Zou Heavy Point](zou-zou-no-mi.md#awaken-zou-heavy-point), [Awaken Zou Guard Point](zou-zou-no-mi.md#awaken-zou-guard-point), [Ivory Catastrophe](zou-zou-no-mi.md#ivory-catastrophe), [Trunk Geyser](zou-zou-no-mi.md#trunk-geyser) |
+| [**Kame Kame no Mi**](kame-kame-no-mi.md) | [Spin](kame-kame-no-mi.md#spin), [Snapping Jaw](kame-kame-no-mi.md#snapping-jaw) |
+| [**Mogu Mogu no Mi**](mogu-mogu-no-mi.md) | [Mogu Dig](mogu-mogu-no-mi.md#mogu-dig), [Subterranean Dash](mogu-mogu-no-mi.md#subterranean-dash) |
+| [**Neko Neko no Mi, Model: Leopard**](neko-neko-no-mi-model-leopard.md) | [Shugan](neko-neko-no-mi-model-leopard.md#shugan), [Shugan: Madara](neko-neko-no-mi-model-leopard.md#shugan-madara), [Tobu Shigan "Bachi"](neko-neko-no-mi-model-leopard.md#tobu-shigan-bachi), [Rankyaku "Gaicho"](neko-neko-no-mi-model-leopard.md#rankyaku-gaicho), [Rankyaku "Hyobi"](neko-neko-no-mi-model-leopard.md#rankyaku-hyobi), [Tekkai "Utsugi"](neko-neko-no-mi-model-leopard.md#tekkai-utsugi), [Sai Dai Rin: Rokuogan](neko-neko-no-mi-model-leopard.md#sai-dai-rin-rokuogan), [Mauling](neko-neko-no-mi-model-leopard.md#mauling), [Tail Hold](neko-neko-no-mi-model-leopard.md#tail-hold) |
+| [**Sai Sai no Mi**](sai-sai-no-mi.md) | [Horn Drill](sai-sai-no-mi.md#horn-drill), [Juggernaut](sai-sai-no-mi.md#juggernaut) |
+| [**Sara Sara no Mi, Model: Axolotl**](sara-sara-no-mi-model-axolotl.md) | [Cellular Overload](sara-sara-no-mi-model-axolotl.md#cellular-overload), [Toxic Bloom](sara-sara-no-mi-model-axolotl.md#toxic-bloom), [Toxic Reserve](sara-sara-no-mi-model-axolotl.md#toxic-reserve) |
+| [**Ushi Ushi no Mi, Model: Bison**](ushi-ushi-no-mi-model-bison.md) | [Fiddle Overdrive](ushi-ushi-no-mi-model-bison.md#fiddle-overdrive), [Thundering Herd](ushi-ushi-no-mi-model-bison.md#thundering-herd) |
+| [**Ushi Ushi no Mi, Model: Giraffe**](ushi-ushi-no-mi-model-giraffe.md) | [Longneck Ram](ushi-ushi-no-mi-model-giraffe.md#longneck-ram), [Neck Hammer](ushi-ushi-no-mi-model-giraffe.md#neck-hammer) |
+| [**Zou Zou no Mi**](zou-zou-no-mi.md) | [Ivory Catastrophe](zou-zou-no-mi.md#ivory-catastrophe), [Trunk Geyser](zou-zou-no-mi.md#trunk-geyser) |
 
 ## Ancient Zoan
 
 | Fruit | Awakened abilities |
 |---|---|
-| [**Ryu Ryu no Mi, Model: Allosaurus**](ryu-ryu-no-mi-model-allosaurus.md) | [Awaken Allosaurus Heavy Point](ryu-ryu-no-mi-model-allosaurus.md#awaken-allosaurus-heavy-point), [Awaken Allosaurus Walk Point](ryu-ryu-no-mi-model-allosaurus.md#awaken-allosaurus-walk-point), [Ancient Spine Saw](ryu-ryu-no-mi-model-allosaurus.md#ancient-spine-saw), [Apex Pursuit](ryu-ryu-no-mi-model-allosaurus.md#apex-pursuit) |
-| [**Ryu Ryu no Mi, Model: Brachiosaurus**](ryu-ryu-no-mi-model-brachiosaurus.md) | [Awaken Brachiosaurus Heavy Point](ryu-ryu-no-mi-model-brachiosaurus.md#awaken-brachiosaurus-heavy-point), [Awaken Brachiosaurus Guard Point](ryu-ryu-no-mi-model-brachiosaurus.md#awaken-brachiosaurus-guard-point), [Brachio Stomp](ryu-ryu-no-mi-model-brachiosaurus.md#brachio-stomp), [Neck Catapult](ryu-ryu-no-mi-model-brachiosaurus.md#neck-catapult) |
-| [**Ryu Ryu no Mi, Model: Pteranodon**](ryu-ryu-no-mi-model-pteranodon.md) | [Awaken Pteranodon Assault Point](ryu-ryu-no-mi-model-pteranodon.md#awaken-pteranodon-assault-point), [Awaken Pteranodon Fly Point](ryu-ryu-no-mi-model-pteranodon.md#awaken-pteranodon-fly-point), [Tei-Kasané](ryu-ryu-no-mi-model-pteranodon.md#tei-kasane), [Downdraft](ryu-ryu-no-mi-model-pteranodon.md#downdraft) |
-| [**Zou Zou no Mi, Model: Mammoth**](zou-zou-no-mi-model-mammoth.md) | [Awaken Mammoth Heavy Point](zou-zou-no-mi-model-mammoth.md#awaken-mammoth-heavy-point), [Awaken Mammoth Guard Point](zou-zou-no-mi-model-mammoth.md#awaken-mammoth-guard-point), [Drought Calamity](zou-zou-no-mi-model-mammoth.md#drought-calamity), [Drought Siphon](zou-zou-no-mi-model-mammoth.md#drought-siphon), [Ancient Hide](zou-zou-no-mi-model-mammoth.md#ancient-hide) |
+| [**Ryu Ryu no Mi, Model: Allosaurus**](ryu-ryu-no-mi-model-allosaurus.md) | [Ancient Spine Saw](ryu-ryu-no-mi-model-allosaurus.md#ancient-spine-saw), [Apex Pursuit](ryu-ryu-no-mi-model-allosaurus.md#apex-pursuit) |
+| [**Ryu Ryu no Mi, Model: Brachiosaurus**](ryu-ryu-no-mi-model-brachiosaurus.md) | [Brachio Stomp](ryu-ryu-no-mi-model-brachiosaurus.md#brachio-stomp), [Neck Catapult](ryu-ryu-no-mi-model-brachiosaurus.md#neck-catapult) |
+| [**Ryu Ryu no Mi, Model: Pteranodon**](ryu-ryu-no-mi-model-pteranodon.md) | [Tei-Kasané](ryu-ryu-no-mi-model-pteranodon.md#tei-kasane), [Downdraft](ryu-ryu-no-mi-model-pteranodon.md#downdraft) |
+| [**Zou Zou no Mi, Model: Mammoth**](zou-zou-no-mi-model-mammoth.md) | [Drought Calamity](zou-zou-no-mi-model-mammoth.md#drought-calamity), [Drought Siphon](zou-zou-no-mi-model-mammoth.md#drought-siphon), [Ancient Hide](zou-zou-no-mi-model-mammoth.md#ancient-hide) |
 
 ## Mythical Zoan
 
 | Fruit | Awakened abilities |
 |---|---|
-| [**Hito Hito no Mi, Model: Daibutsu**](hito-hito-no-mi-model-daibutsu.md) | [Awaken Daibutsu Point](hito-hito-no-mi-model-daibutsu.md#awaken-daibutsu-point), [Nyorai Shinshō](hito-hito-no-mi-model-daibutsu.md#nyorai-shinsho), [Sanctuary](hito-hito-no-mi-model-daibutsu.md#sanctuary) |
-| [**Tori Tori no Mi, Model: Phoenix**](tori-tori-no-mi-model-phoenix.md) | [Awaken Phoenix Assault Point](tori-tori-no-mi-model-phoenix.md#awaken-phoenix-assault-point), [Awaken Phoenix Fly Point](tori-tori-no-mi-model-phoenix.md#awaken-phoenix-fly-point), [Ao no Rakka](tori-tori-no-mi-model-phoenix.md#ao-no-rakka), [Rebirth Blaze](tori-tori-no-mi-model-phoenix.md#rebirth-blaze) |
+| [**Hito Hito no Mi, Model: Daibutsu**](hito-hito-no-mi-model-daibutsu.md) | [Nyorai Shinshō](hito-hito-no-mi-model-daibutsu.md#nyorai-shinsho), [Sanctuary](hito-hito-no-mi-model-daibutsu.md#sanctuary) |
+| [**Tori Tori no Mi, Model: Phoenix**](tori-tori-no-mi-model-phoenix.md) | [Ao no Rakka](tori-tori-no-mi-model-phoenix.md#ao-no-rakka), [Rebirth Blaze](tori-tori-no-mi-model-phoenix.md#rebirth-blaze) |

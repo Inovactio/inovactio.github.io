@@ -23,7 +23,7 @@ The dome does not hurt anyone.
 
 | Stat | Value |
 |---|---|
-| Cooldown | 45 s |
+| Cooldown | 90 s |
 | Charge | 3–9 s |
 | Zone Radius (blocks) | 128 |
 | Effect Pulse (s) | 2 |
