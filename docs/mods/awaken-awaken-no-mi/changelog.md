@@ -2,6 +2,68 @@
 
 Every Awaken Awaken no Mi release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/all). The Minecraft 1.16.5 releases (0.2.1 to 0.7.2) are listed there too.
 
+## 4.0.0 { #v4-0-0 }
+
+<small>Released 2026-11-24 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9791044)</small>
+
+<div class="changelog-body" markdown="0">
+<blockquote>
+<h4>⚠️ AkumaLib update required: 6.9.0</h4>
+<p>This version needs <strong><a href="https://www.curseforge.com/minecraft/mc-mods/akumalib">AkumaLib</a> 6.9.0</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. With an older one the game will stop on Forge's missing-dependency screen.</p>
+<p>Just replace the AkumaLib jar in your <code>mods</code> folder with the new one. On a server every player needs it too.</p>
+</blockquote>
+<p><strong>Your own Zoan forms awaken, and every awakened technique was balanced.</strong></p>
+<hr />
+<h3>Awakened Zoan forms</h3>
+<ul>
+<li><strong>No more separate awakened forms.</strong> Once your Zoan fruit is awakened, the fruit's normal forms become their awakened selves: the awakening smoke, and stronger stats (×1.5 strength, armour, toughness and health, at least +4 armour and +2 toughness, +0.5 regeneration). Every technique of the form, the base mod's and the awakened ones, works in it</li>
+<li>The awakened techniques that needed an awakened form now need <strong>the normal form and an awakened fruit</strong></li>
+<li><strong>Your saves are kept.</strong> An awakened form that was equipped or active loads as the normal form, in the same slot</li>
+<li>Kept from the old forms: the awakened Kame Guard's harder shell when crouched and its faster ice slide, and the faster flight of the awakened Phoenix and Pteranodon</li>
+<li>Gone with the old forms: the Mogu Mogu's Haste and Night Vision, and the extra speed, jump and reach of the old forms</li>
+<li>Still their own: the awakened human form of the Hito Hito no Mi, Gear Fifth, Gigant and Deka</li>
+</ul>
+<h3>Awakened damage</h3>
+<ul>
+<li>With AkumaLib 6.9.0, an awakened fruit's base techniques deal ×1.5 damage. The awakened techniques of this mod keep their own numbers, and so do the Dawn modes of Gear Fifth (Dawn Pistol, Gatling, Cymbal and Rocket)</li>
+</ul>
+<h3>Balance</h3>
+<ul>
+<li><strong>One hit per enemy</strong> for Ao no Rakka, Ancient Spine Saw, Horn Drill, Ivory Catastrophe and Reverse Slow Smash. A target that stayed in reach used to be struck again and again (up to 10 times for one Ao no Rakka dive)<ul>
+<li>Ao no Rakka: 60 damage, 45 s cooldown, heals 20 from each of the first 3 enemies hit</li>
+<li>Ancient Spine Saw 120, Horn Drill 75, Ivory Catastrophe 120, Reverse Slow Smash 20 / 40 / 70 / 120</li>
+</ul>
+</li>
+<li><strong>Limits on what had none</strong><ul>
+<li>Diosa Fleur's clone and Living Feast's golem last 60 s, cooldown 50 to 150 s; the clone hits for 20</li>
+<li>Kagutsuchi, On the Beat, Anesthesia (once per target every 2 s), K-Room (60 s cooldown), Titan Trample, Sunless Brand and Gourmet Metabolism hit or heal less often or less</li>
+<li>Soulchill Aura no longer freezes again the target it just broke free, Love's Punishment leaves 10 s between two petrifications</li>
+<li>Drought Siphon heals from the first 3 enemies, Inga Samsara sends back at most 200 to each target</li>
+</ul>
+</li>
+<li><strong>Lower numbers or longer cooldowns</strong>: Compound Hydra, Virulence, Blast Jump, Bomu Airburst, Backdoor, Inga Impact, Kami no Kuni, Scorching Fist, Heart Rebound, Kenzan World, Razor Cyclone, Cellular Overgrowth (40 to 100), White Night</li>
+<li><strong>Cooldowns as long as the effect</strong>: Lightfall Domain (90 s), Sabaku no Okoku and Yukiro (at least 45 s)</li>
+<li><strong>Stronger</strong>: Bara Bara Parade (60 a fist), Tenchi Hokai (150 s cooldown)</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Yomi Yomi no Mi</strong>: the count of resurrections is kept. Leaving the End or a death that keeps your stats reset it, which made resurrections unlimited</li>
+<li><strong>Breach, Undertow and Sugar Coffin</strong> no longer take an ally</li>
+<li><strong>Candle World</strong>: its burn now lands while you charge it, while the wax is still soft (6 a second, enemies only)</li>
+<li><strong>Piercing Blast</strong> explodes once per target, not twice</li>
+<li><strong>Invisible Touch</strong> respects land-protection mods</li>
+<li><strong>Tooltips</strong>: Funshin no longer shows an unused power, High-Frequency Wall shows its damage, Brilliant Meteor its shards, Inga Impact its real range of damage</li>
+</ul>
+<hr />
+<h3>Requirements</h3>
+<ul>
+<li>Minecraft <strong>1.20.1</strong></li>
+<li>Forge <strong>47.4.2+</strong></li>
+<li><strong>Mine Mine no Mi</strong> <code>1.20.1-0.11.6</code></li>
+<li><strong>AkumaLib</strong> <code>6.9.0+</code></li>
+</ul>
+</div>
+
 ## 3.0.3 { #v3-0-3 }
 
 <small>Released 2026-11-17 · [Download](https://www.curseforge.com/minecraft/mc-mods/awaken-awaken-no-mi/files/9668589)</small>
