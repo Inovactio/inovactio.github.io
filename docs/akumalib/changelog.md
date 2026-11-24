@@ -4,7 +4,7 @@ Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [Curs
 
 ## 6.9.0 { #v6-9-0 }
 
-<small>Released 2026-11-XX · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/TO-FILL)</small>
+<small>Released 2026-11-24 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9791043)</small>
 
 <div class="changelog-body" markdown="0">
 <p><strong>Awakened Zoans, awakened damage and a Yami crash fixed.</strong> Once a player's Zoan fruit is awakened, its own forms become
