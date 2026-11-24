@@ -14929,6 +14929,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#v6-9-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.9.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#v6-8-1" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -15398,6 +15409,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v6-9-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.9.0
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#v6-8-1" class="md-nav__link">
@@ -15895,6 +15917,72 @@
 
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
 <p>Every AkumaLib release for Minecraft 1.20.1, newest first, as published on <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all">CurseForge</a>.</p>
+<h2 id="v6-9-0">6.9.0<a class="headerlink" href="#v6-9-0" title="Permanent link">&para;</a></h2>
+<p><small>Released 2026-11-24 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9791043">Download</a></small></p>
+<div class="changelog-body" markdown="0">
+<p><strong>Awakened Zoans, awakened damage and a Yami crash fixed.</strong> Once a player's Zoan fruit is awakened, its own forms become
+their awakened selves, with the smoke and stronger stats, for the Zoans of every mod. An awakened fruit's own techniques deal
+×1.5 damage, and their tooltips show it. A Yami user with a huge stock of absorbed blocks can join a world again. A man
+at normal size plays exactly as before, and nothing changes while awakenings are off.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are
+optional. Curios is optional.</p>
+<p>⚠️ <strong>The network protocol is still 23</strong>: 6.9.0 plays with 6.8.0 and 6.8.1 servers and players. Update everyone anyway,
+so that the awakened forms and damage are the same for all.</p>
+<p>⚠️ <strong>Awaken Awaken no Mi 4.0.0 needs AkumaLib 6.9.0 or newer.</strong> The other published addons run on it as they are.</p>
+<p>The awakened Zoan forms and the ×1.5 show right everywhere in Missing Missing no Mi only with its next version.</p>
+<hr />
+<h2>New</h2>
+<ul>
+<li><strong>Awakened Zoan forms.</strong> Once your Zoan fruit is awakened (with the base mod's "Enable Awakenings" on), the forms of
+  your fruit's Point abilities become their awakened selves (a SMILE's forms and NPCs' forms do not): the awakening smoke around the neck, and the form's own
+  strength, armour, toughness and health ×1.5, at least +4 armour and +2 toughness, and +0.5 regeneration. A weakness of
+  the form is halved instead. It is the same form, so every technique of the form still works in it. The form's tooltip
+  shows the awakened stats, marked "(Awakened)".</li>
+<li><strong>The smoke fits every body</strong>: as wide as the head, the ribbons ending half way to the feet, on a small otter as on a
+  tall horse, and on forms drawn in their own way.</li>
+<li><strong>Awakened fruits hit harder.</strong> Once your fruit is awakened, its own Devil Fruit techniques deal <strong>×1.5 damage</strong>:
+  blows, shots and explosions, on top of your size. Haki, Rokushiki, fighting styles, race techniques and another
+  fruit's techniques never change, and neither do the techniques made for the awakening itself. Every damage line of a
+  tooltip shows it as a green bonus, such as <code>Damage 12 (+6)</code>, equipped or not.</li>
+<li><strong>Random NPC names</strong>: NPCs of the addons can get a name of their own, such as <code>"Broadside" Viggo Solberg</code>, from
+  pools of pirate, Marine, prisoner and civilian names. A data pack can add names or replace the pools.</li>
+<li><strong>Lightning for show</strong>: a technique's lightning that only lights the sky no longer powers a lightning rod or scrapes
+  copper, even in a protected area.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Yami Yami no Mi, "Invalid player data" at login.</strong> A Yami user who had absorbed a huge number of blocks (Black Hole,
+  Liberation) was thrown out of every world at login. The stock of absorbed blocks now stops at 30 000, and a player
+  who already has more can join again.</li>
+<li><strong>Hidden marks</strong> of techniques (Missing Missing no Mi's Shiku Primed and others) no longer show in the inventory and
+  on the screen.</li>
+<li><strong>First person</strong>: the fur and claws of a form's arm now follow your hand during a technique (many InoFruits forms).</li>
+</ul>
+<h2>For server operators</h2>
+<ul>
+<li><strong><code>akumalib-server.toml</code></strong>, section <code>awakenedFruits</code>: <code>awakenedDamage</code> (1.5; 1 turns the ×1.5 off).</li>
+<li><strong><code>data/&lt;namespace&gt;/npc_names/&lt;kind&gt;.json</code></strong> for the NPC name pools (<code>pirate</code>, <code>marine</code>, <code>prisoner</code>, <code>civilian</code>).</li>
+<li>The Yami stock cap follows the switch <code>fixCrashGuards</code> in the section <code>baseModFixes</code>.</li>
+</ul>
+<h2>For addon makers</h2>
+<ul>
+<li><strong>Awakenings</strong>: <code>AutoAwakenedForms</code> (<code>awakenAsPoints</code> for animal forms that do not come from a Point, <code>skip</code>),
+  <code>Awakenings.damageFactor</code>, <code>Awakenings.markWhile</code> (an ability that is an awakening only while a condition holds),
+  <code>SizeTooltips.damageLine</code> (a kit's own damage line with the bonus), <code>AwakenZoanSmokeLayer.drawHere</code> for a renderer
+  that draws its body itself.</li>
+<li><strong>NPCs</strong>: <code>api/entities/ai/NpcAbilityGoals</code> (the base mod's ability goals, made to hold on an NPC),
+  <code>CarryAbility.getNpcHold</code>, <code>NpcNames</code>.</li>
+<li><strong>New pieces</strong>: <code>SwellingBlastAbility</code>, <code>TechniqueClouds</code> (rain or a storm cloud near the user), <code>VisualBolts</code>,
+  <code>MorphStats.healthPercent</code>, <code>ItemDrawScale</code>, <code>AkumaSpawnSize.growInFlight</code> and <code>bodyTimes</code>,
+  <code>AkumaSize.attackWithoutSize</code>, the <code>DragonThirteenModel</code>.</li>
+<li><strong>MixinExtras</strong> now comes inside the AkumaLib jar, and AkumaLib's own changes to Minecraft chain with other mods'
+  instead of replacing them.</li>
+<li><strong>Removed</strong>: the unused three-value constructor of <code>AwakenZoanMorphRenderer</code>; <code>SizeHearing.listeningPoint</code> takes a
+  position instead of a camera. No published addon used either. Nothing else was removed or changed.</li>
+</ul>
+<p>An addon that uses any of the new pieces declares <code>versionRange = "[6.9.0,)"</code>. Leave the top of the range open.</p>
+</div>
+
 <h2 id="v6-8-1">6.8.1<a class="headerlink" href="#v6-8-1" title="Permanent link">&para;</a></h2>
 <p><small>Released 2026-11-17 · <a href="https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9668586">Download</a></small></p>
 <div class="changelog-body" markdown="0">
