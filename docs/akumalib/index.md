@@ -136,7 +136,7 @@ You get all of that by extending the class. Departing from one is fine, but read
 | Minecraft | 1.20.1 |
 | Forge | 47.4.2 or later (an older Forge crashes when a chest is opened) |
 | Mine Mine no Mi | 0.11.6 or newer (built against `1.20.1-0.11.6`) |
-| AkumaLib | 6.9.0 (network protocol 23, the same as 6.8.0 and 6.8.1: a 6.7.0 game cannot join a 6.9.0 server) |
+| AkumaLib | 6.9.1 (network protocol 23, the same as 6.8.0, 6.8.1 and 6.9.0: a 6.7.0 game cannot join a 6.9.1 server) |
 
 What each version added or changed, and what it requires: the [changelog](changelog.md).
 

@@ -2,6 +2,27 @@
 
 Every AkumaLib release for Minecraft 1.20.1, newest first, as published on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/all).
 
+## 6.9.1 { #v6-9-1 }
+
+<small>Released 2026-11-XX · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/TO-FILL)</small>
+
+<div class="changelog-body" markdown="0">
+<p><strong>A crash in the creator book fixed.</strong> In a pack with other Mine Mine no Mi addons, opening the tooltip of some
+techniques in the creator book stopped the game (AkumaLib 6.9.0). 6.9.1 replaces 6.9.0 and carries all of it (see 6.9.0 below).
+A man at normal size plays exactly as before. No signature was removed or changed for addons.</p>
+<p>Requires Minecraft <strong>1.20.1</strong>, Forge <strong>47.4.2</strong> or newer and <strong>Mine Mine no Mi 0.11.6</strong> or newer. JEI and EMI are
+optional. Curios is optional.</p>
+<p>⚠️ <strong>The network protocol is still 23</strong>: 6.9.1 plays with 6.8.0, 6.8.1 and 6.9.0 servers and players. Update everyone
+anyway: the crash is on the player's side.</p>
+<p>⚠️ <strong>Awaken Awaken no Mi 4.0.0 needs AkumaLib 6.9.0 or newer.</strong> The other published addons run on it as they are.</p>
+<hr />
+<h2>New in 6.9.1</h2>
+<ul>
+<li><strong>Creator book crash</strong>: the tooltip of a technique from another addon no longer stops the game. Such a technique
+  grows with your size like the others; the awakened ×1.5 stays for your fruit's own techniques.</li>
+</ul>
+</div>
+
 ## 6.9.0 { #v6-9-0 }
 
 <small>Released 2026-11-24 · [Download](https://www.curseforge.com/minecraft/mc-mods/akumalib/files/9791043)</small>
