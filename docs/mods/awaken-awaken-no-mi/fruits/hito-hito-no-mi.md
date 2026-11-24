@@ -21,17 +21,17 @@ Transforms the user into an awakened human, which focuses on speed and strength.
 
 | Stat | Value |
 |---|---|
-| Armor | +15 |
-| Speed | +2.1 |
 | Knockback Resistance | +1 |
+| Toughness | +3 |
 | Step Height | +1 |
 | Punch Damage | +10 |
-| Regen Rate | +0.25 |
-| Toughness | +3 |
-| Fall Resistance | +10 |
-| Jump Height | +8 |
 | Armor Toughness | +10 |
+| Jump Height | +8 |
+| Regen Rate | +0.25 |
+| Fall Resistance | +10 |
+| Speed | +2.1 |
 | Attack Speed | +1.2 |
+| Armor | +15 |
 | Max Health | x1.25 |
 
 ## Insight { #insight }

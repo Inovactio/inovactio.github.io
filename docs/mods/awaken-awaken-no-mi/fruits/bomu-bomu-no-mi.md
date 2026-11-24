@@ -18,7 +18,7 @@ Creates exploding bursts of air around the user for 30 seconds without breaking 
 
 | Stat | Value |
 |---|---|
-| Cooldown | 30 s |
+| Cooldown | 90 s |
 | Explosion size | 32 |
 | Explosion damage | 30 |
 

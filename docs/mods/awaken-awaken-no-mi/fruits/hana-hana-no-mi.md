@@ -18,7 +18,8 @@ Summons a giant clone of the user that fights alongside them and gets stronger o
 
 | Stat | Value |
 |---|---|
-| Cooldown | 50–250 s |
+| Cooldown | 50–150 s |
+| Hold | 60 s |
 | Charge | 1 s |
 
 ## Bloom Crusher { #bloom-crusher }

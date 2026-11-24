@@ -5,6 +5,7 @@
 | **Type** | Paramecia |
 | **Abilities** | 3: 2 active, 1 passive |
 | **Zones** | [Smooth World](#smooth-world) |
+| **Effects applied** | ![](../effect-icons/smooth-world-sliding.png){ .effect-mini .pixelated }[Smooth World Sliding](../effects.md#effect-smooth-world-sliding) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
@@ -14,6 +15,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 ## Smooth World { #smooth-world }
 
 ![](../abilities/smooth-world.png){ .ability-icon } *Active · Zone*
+
+Applies ![](../effect-icons/smooth-world-sliding.png){ .effect-mini .pixelated }[Smooth World Sliding](../effects.md#effect-smooth-world-sliding)
 
 Creates a slippery zone around the user where enemies lose their footing and slide around.
 

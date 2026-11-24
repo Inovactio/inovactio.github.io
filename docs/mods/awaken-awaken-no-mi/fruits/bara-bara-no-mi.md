@@ -4,6 +4,7 @@
 |---|---|
 | **Type** | Paramecia |
 | **Abilities** | 3: 2 active, 1 passive |
+| **Effects applied** | ![](../effect-icons/dismember-arm.png){ .effect-mini .pixelated }[Dismember Arm](../effects.md#effect-dismember-arm), ![](../effect-icons/dismember-leg.png){ .effect-mini .pixelated }[Dismember Leg](../effects.md#effect-dismember-leg) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
@@ -14,6 +15,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/dislocation-punch.png){ .ability-icon } *Active · Punch*
 
+Applies ![](../effect-icons/dismember-arm.png){ .effect-mini .pixelated }[Dismember Arm](../effects.md#effect-dismember-arm), ![](../effect-icons/dismember-leg.png){ .effect-mini .pixelated }[Dismember Leg](../effects.md#effect-dismember-leg)
+
 **Modes**
 
 - **Dislocation Punch : Arm**: Dislocates the target's arm so they can't use it
@@ -23,6 +26,8 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/bara-bara-parade.png){ .ability-icon } *Active*
 
+Applies ![](../effect-icons/dismember-arm.png){ .effect-mini .pixelated }[Dismember Arm](../effects.md#effect-dismember-arm), ![](../effect-icons/dismember-leg.png){ .effect-mini .pixelated }[Dismember Leg](../effects.md#effect-dismember-leg)
+
 The user sends their hands flying at up to 8 enemies nearby, each fist goes after its own target.
 
 Every fist that lands dislocates an arm or a leg.
@@ -31,11 +36,13 @@ Every fist that lands dislocates an arm or a leg.
 |---|---|
 | Cooldown | 60 s |
 | Range | 32 blocks (area) |
-| Damage | 40 |
+| Damage | 60 |
 
 ## Severed Grip { #severed-grip }
 
 ![](../abilities/severed-grip.png){ .ability-icon } *Passive*
+
+Applies ![](../effect-icons/dismember-arm.png){ .effect-mini .pixelated }[Dismember Arm](../effects.md#effect-dismember-arm)
 
 When a blade fails to cut the user, the arm that swung it gets dislocated.
 

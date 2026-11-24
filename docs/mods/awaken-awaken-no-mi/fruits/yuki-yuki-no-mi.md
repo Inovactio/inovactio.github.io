@@ -23,13 +23,13 @@ Hard snow burns easily so a torch is a way out
 
 | Stat | Value |
 |---|---|
-| Cooldown | 90 s |
+| Cooldown | 45–90 s |
 | Charge | 2–6 s |
 | Zone Radius (blocks) | 36 |
 | Effect Pulse (s) | 2 |
 | Wall Height (blocks) | 9 |
 | Frostbite Stacks (per pulse) | 2 |
-| Cooldown If Released Early (s) | 20 |
+| Cooldown If Released Early (s) | 45 |
 
 ## Gokkan { #gokkan }
 

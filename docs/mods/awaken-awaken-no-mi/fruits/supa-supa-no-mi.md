@@ -43,7 +43,7 @@ Inside the user's Kenzan World the whirlwind is bigger and hits harder.
 
 | Stat | Value |
 |---|---|
-| Cooldown | 30 s |
+| Cooldown | 45 s |
 | Hold | 6 s |
 | Range | 3.5 blocks (area) |
 | Damage | 14 |

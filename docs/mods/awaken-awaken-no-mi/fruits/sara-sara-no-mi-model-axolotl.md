@@ -3,63 +3,13 @@
 | | |
 |---|---|
 | **Type** | Zoan |
-| **Abilities** | 5: 4 active, 1 passive |
-| **Transformations** | [Awaken Axolotl Heavy Point](#awaken-axolotl-heavy-point), [Awaken Axolotl Walk Point](#awaken-axolotl-walk-point) |
+| **Abilities** | 3: 2 active, 1 passive |
 | **Effects applied** | ![](../effect-icons/cellular-overload.png){ .effect-mini .pixelated }[Cellular Overload](../effects.md#effect-cellular-overload) |
 
 These abilities unlock once the fruit is **awakened**: see [Awakening](../index.md#getting-started).
 
 !!! note "About the values"
     The values are those of the ability's tooltip in game, with the base mod's default settings. Damage is shown on the base mod's scale, as in the ability screen.
-
-## Awaken Axolotl Heavy Point { #awaken-axolotl-heavy-point }
-
-![](../abilities/awaken-axolotl-heavy-point.png){ .ability-icon } *Active · Transformation*
-
-Transforms the user into an awakened axolotl hybrid, which focuses on strength and regeneration
-
-| Stat | Value |
-|---|---|
-| Cooldown | 1 s |
-| Hold | ∞ s |
-
-**Stats while active**
-
-| Stat | Value |
-|---|---|
-| Armor | +30 |
-| Speed | +1.26 |
-| Block Reach | +0.6 |
-| Knockback Resistance | +1.5 |
-| Step Height | +2 |
-| Punch Damage | +10 |
-| Regen Rate | +0.5 |
-| Toughness | +5 |
-| Fall Resistance | +4 |
-| Jump Height | +3 |
-| Entity Reach | +0.6 |
-
-## Awaken Axolotl Walk Point { #awaken-axolotl-walk-point }
-
-![](../abilities/awaken-axolotl-walk-point.png){ .ability-icon } *Active · Transformation*
-
-Transforms the user into an awakened axolotl, which focuses on speed and swimming.
-
-| Stat | Value |
-|---|---|
-| Cooldown | 1 s |
-| Hold | ∞ s |
-
-**Stats while active**
-
-| Stat | Value |
-|---|---|
-| Speed | +1.26 |
-| Step Height | +1 |
-| Regen Rate | +1 |
-| Fall Resistance | +4.5 |
-| Jump Height | +2.4 |
-| Attack Speed | +0.1 |
 
 ## Cellular Overload { #cellular-overload }
 

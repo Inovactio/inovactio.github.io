@@ -1,6 +1,6 @@
 # Status effects
 
-The **36 status effects** Awaken Awaken no Mi adds, and what applies them.
+The **44 status effects** Awaken Awaken no Mi adds, and what applies them.
 
 | Effect | Kind | Applied by |
 |---|---|---|
@@ -14,11 +14,17 @@ The **36 status effects** Awaken Awaken no Mi adds, and what applies them.
 | ![](effect-icons/cellular-overload.png){ .effect-icon .pixel-art } **Cellular Overload**{ #effect-cellular-overload } | Beneficial | [Cellular Overload](fruits/sara-sara-no-mi-model-axolotl.md#cellular-overload) |
 | ![](effect-icons/corroded.png){ .effect-icon .pixel-art } **Corroded**{ #effect-corroded } | Harmful | [Oxidized Plate](fruits/sabi-sabi-no-mi.md#oxidized-plate) |
 | ![](effect-icons/deafened.png){ .effect-icon .pixel-art } **Deafened**{ #effect-deafened } | Harmful | [High-Frequency Wall](fruits/goe-goe-no-mi.md#high-frequency-wall), [Resonating World](fruits/goe-goe-no-mi.md#resonating-world) |
+| ![](effect-icons/dismember-arm.png){ .effect-icon .pixel-art } **Dismember Arm**{ #effect-dismember-arm } | Harmful | [Bara Bara Parade](fruits/bara-bara-no-mi.md#bara-bara-parade), [Dislocation Punch](fruits/bara-bara-no-mi.md#dislocation-punch), [Severed Grip](fruits/bara-bara-no-mi.md#severed-grip) |
+| ![](effect-icons/dismember-leg.png){ .effect-icon .pixel-art } **Dismember Leg**{ #effect-dismember-leg } | Harmful | [Bara Bara Parade](fruits/bara-bara-no-mi.md#bara-bara-parade), [Dislocation Punch](fruits/bara-bara-no-mi.md#dislocation-punch) |
 | ![](effect-icons/downdraft-pinned.png){ .effect-icon .pixel-art } **Downdraft Pinned**{ #effect-downdraft-pinned } | Harmful | [Downdraft](fruits/ryu-ryu-no-mi-model-pteranodon.md#downdraft) |
 | ![](effect-icons/enthralled.png){ .effect-icon .pixel-art } **Enthralled**{ #effect-enthralled } | Harmful | [Enthralling Gaze](fruits/mero-mero-no-mi.md#enthralling-gaze) |
+| **Fall Damage Immunity**{ #effect-fall-damage-immunity } | Beneficial | [Spring Domain](fruits/bane-bane-no-mi.md#spring-domain), [Ukiyo](fruits/zushi-zushi-no-mi.md#ukiyo), [White Ground](fruits/ito-ito-no-mi.md#white-ground) |
 | ![](effect-icons/flattened.png){ .effect-icon .pixel-art } **Flattened**{ #effect-flattened } | Harmful | [Gear Fifth](fruits/gomu-gomu-no-mi.md#gear-fifth) |
 | ![](effect-icons/friction.png){ .effect-icon .pixel-art } **Friction**{ #effect-friction } | Harmful | [Aura of Friction](fruits/kachi-kachi-no-mi.md#aura-of-friction), [Friction Burn](fruits/kachi-kachi-no-mi.md#friction-burn), [Scalding Steam](fruits/kachi-kachi-no-mi.md#scalding-steam) |
+| ![](effect-icons/ground-dig.png){ .effect-icon .pixel-art } **Ground Dig**{ #effect-ground-dig } | Beneficial | [Mogu Dig](fruits/mogu-mogu-no-mi.md#mogu-dig) |
+| ![](effect-icons/ground-dig-break.png){ .effect-icon .pixel-art } **Ground Dig Break**{ #effect-ground-dig-break } | Beneficial | [Mogu Dig](fruits/mogu-mogu-no-mi.md#mogu-dig) |
 | ![](effect-icons/ground-drown.png){ .effect-icon .pixel-art } **Ground Drown**{ #effect-ground-drown } | Harmful | [Waterpool Domain](fruits/sui-sui-no-mi.md#waterpool-domain) |
+| ![](effect-icons/ground-swim.png){ .effect-icon .pixel-art } **Ground Swim**{ #effect-ground-swim } | Neutral | [Undertow](fruits/sui-sui-no-mi.md#undertow), [Waterpool Domain](fruits/sui-sui-no-mi.md#waterpool-domain) |
 | ![](effect-icons/gullivers-shrink.png){ .effect-icon .pixel-art } **Gulliver's Shrink**{ #effect-gullivers-shrink } | Harmful | [Gulliver's Nightmare](fruits/mini-mini-no-mi.md#gullivers-nightmare) |
 | ![](effect-icons/heavy-weight.png){ .effect-icon .pixel-art } **Heavy Weight**{ #effect-heavy-weight } | Harmful | [Assign World](fruits/jiki-jiki-no-mi.md#assign-world), [Gravity Zone](fruits/kilo-kilo-no-mi.md#gravity-zone), [Infinity Kilo Punch](fruits/kilo-kilo-no-mi.md#infinity-kilo-punch) |
 | ![](effect-icons/hollow-despair.png){ .effect-icon .pixel-art } **Hollow Despair**{ #effect-hollow-despair } | Harmful | [Hollow Shroud](fruits/horo-horo-no-mi.md#hollow-shroud) |
@@ -33,10 +39,12 @@ The **36 status effects** Awaken Awaken no Mi adds, and what applies them.
 | ![](effect-icons/positive-hormonal.png){ .effect-icon .pixel-art } **Positive Hormonal**{ #effect-positive-hormonal } | Beneficial | [Hormonal Fog](fruits/horu-horu-no-mi.md#hormonal-fog) |
 | ![](effect-icons/rust.png){ .effect-icon .pixel-art } **Rust**{ #effect-rust } | Harmful | [Empire of Decay](fruits/sabi-sabi-no-mi.md#empire-of-decay) |
 | ![](effect-icons/shadow-boost.png){ .effect-icon .pixel-art } **Shadow Boost**{ #effect-shadow-boost } | Beneficial | [Nightmare Banquet](fruits/kage-kage-no-mi.md#nightmare-banquet) |
+| ![](effect-icons/smooth-world-sliding.png){ .effect-icon .pixel-art } **Smooth World Sliding**{ #effect-smooth-world-sliding } | Harmful | [Smooth World](fruits/sube-sube-no-mi.md#smooth-world) |
 | ![](effect-icons/soul-severed.png){ .effect-icon .pixel-art } **Soul Severed**{ #effect-soul-severed } | Harmful | [Soul Reap](fruits/yomi-yomi-no-mi.md#soul-reap) |
 | ![](effect-icons/soul-unbound.png){ .effect-icon .pixel-art } **Soul Unbound**{ #effect-soul-unbound } | Beneficial | [Undying Soul](fruits/yomi-yomi-no-mi.md#undying-soul) |
 | ![](effect-icons/sugar-coffin.png){ .effect-icon .pixel-art } **Sugar Coffin**{ #effect-sugar-coffin } | Harmful | [Sugar Coffin](fruits/pero-pero-no-mi.md#sugar-coffin) |
 | ![](effect-icons/sugar-shell.png){ .effect-icon .pixel-art } **Sugar Shell**{ #effect-sugar-shell } | Beneficial | [Sugar Shell](fruits/pero-pero-no-mi.md#sugar-shell) |
+| ![](effect-icons/suspended.png){ .effect-icon .pixel-art } **Suspended**{ #effect-suspended } | Harmful | [Ukiyo](fruits/zushi-zushi-no-mi.md#ukiyo) |
 | ![](effect-icons/total-isolation.png){ .effect-icon .pixel-art } **Total Isolation**{ #effect-total-isolation } | Harmful | [Total Isolation](fruits/nagi-nagi-no-mi.md#total-isolation) |
 | ![](effect-icons/undertow-held.png){ .effect-icon .pixel-art } **Undertow Held**{ #effect-undertow-held } | Harmful | [Undertow](fruits/sui-sui-no-mi.md#undertow) |
 | ![](effect-icons/wax-petrify.png){ .effect-icon .pixel-art } **Wax Petrify**{ #effect-wax-petrify } | Harmful | [Candle World](fruits/doru-doru-no-mi.md#candle-world) |

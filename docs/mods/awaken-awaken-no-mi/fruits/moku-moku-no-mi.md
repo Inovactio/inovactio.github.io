@@ -23,11 +23,11 @@ The mark lasts after the dome and works with White Pull and Smoke Launch
 
 | Stat | Value |
 |---|---|
-| Cooldown | 45 s |
+| Cooldown | 120 s |
 | Charge | 3–9 s |
 | Zone Radius (blocks) | 128 |
 | Effect Pulse (s) | 2 |
-| Damage | 6–20 |
+| Damage | 6–14 |
 
 ## White Ash { #white-ash }
 

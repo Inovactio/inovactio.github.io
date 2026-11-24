@@ -15,7 +15,7 @@ These abilities unlock once the fruit is **awakened**: see [Awakening](../index.
 
 ![](../abilities/loves-punishment.png){ .ability-icon } *Passive · Aura*
 
-Enemies that get too close fall in love and slowly turn to stone.
+Enemies that get too close fall in love and slowly turn to stone, then are left alone for 10 seconds.
 
 | Stat | Value |
 |---|---|
@@ -46,6 +46,6 @@ On its way back it drags the enemies it strikes toward the user.
 
 | Stat | Value |
 |---|---|
-| Cooldown | 20 s |
+| Cooldown | 45 s |
 | Range | 30 blocks (line) |
 | Damage | 70 |

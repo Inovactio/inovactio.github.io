@@ -25,8 +25,8 @@ The user gives up their hunger to bring a Cake Golem to life, the more food spen
 
 | Stat | Value |
 |---|---|
-| Hold | ∞ s |
-| Cooldown | 50–250 s |
+| Hold | 60 s |
+| Cooldown | 50–150 s |
 
 ## Cake Transmutation { #cake-transmutation }
 
@@ -55,5 +55,5 @@ While Gourmetamorphosis is active even items that are not food count as food.
 
 | Stat | Value |
 |---|---|
-| Healing Per Food Point | 4 |
+| Healing Per Food Point | 2 |
 | Max Absorption From Food | 40 |

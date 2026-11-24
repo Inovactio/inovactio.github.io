@@ -40,14 +40,14 @@ The base mod's own awakened abilities of this fruit (its Gear Fifth, Gigant and 
 
 | Stat | Value |
 |---|---|
-| Armor | +12 |
-| Speed | +0.7 |
-| Gravity | <span class="stat-malus">-0.04</span> |
+| Toughness | +3 |
 | Step Height | +1 |
 | Punch Damage | +20 |
-| Toughness | +3 |
-| Jump Height | +6 |
 | Armor Toughness | +8 |
+| Jump Height | +6 |
+| Speed | +0.7 |
+| Armor | +12 |
+| Gravity | <span class="stat-malus">-0.04</span> |
 
 ## Gomu Gomu no Sekai { #gomu-gomu-no-sekai }
 
@@ -97,13 +97,13 @@ Can only be used in Gear Fifth, and ends with it.
 
 | Stat | Value |
 |---|---|
-| Armor | +8 |
-| Block Reach | +6 |
 | Knockback Resistance | +1 |
+| Toughness | +2 |
 | Step Height | +1.5 |
 | Punch Damage | +10 |
-| Toughness | +2 |
 | Entity Reach | +6 |
+| Armor | +8 |
+| Block Reach | +6 |
 
 ## Gomu Gomu no Kaminari { #gomu-gomu-no-kaminari }
 

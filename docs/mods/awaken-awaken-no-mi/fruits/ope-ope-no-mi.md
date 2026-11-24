@@ -26,7 +26,7 @@ Applies ![](../effect-icons/anesthesia.png){ .effect-mini .pixelated }[Anesthesi
 |---|---|
 | Charge | 1 s |
 | Hold | 60 s |
-| Cooldown | 20 s |
+| Cooldown | 60 s |
 
 ## Shock Wille { #shock-wille }
 
@@ -62,7 +62,7 @@ Everything around it is run through, ignoring armor, and thrown into the air.
 
 Applies ![](../effect-icons/anesthesia.png){ .effect-mini .pixelated }[Anesthesia](../effects.md#effect-anesthesia)
 
-While K-Room is active every hit the user lands puts the target under Anesthesia.
+While K-Room is active every hit the user lands puts the target under Anesthesia, and a charged blow cuts with the Room once every 2 seconds per target.
 
 The user and their allies ignore the invulnerability frames of anyone under Anesthesia so every hit does full damage.
 
