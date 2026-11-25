@@ -49,6 +49,8 @@ Since 0.6.0 every player is **born with 2 to 5 traits**, out of 78 (58 before 0.
 | **Coward** | flaw | Deals 20 % less damage when below 30 % health | `inocruise:coward` |
 | **Deaf** | flaw | Hears the world muffled | `inocruise:deaf` |
 
+**Strong** and **Colossus** work on every melee hit, bare-handed or with a weapon in hand: a sword hit deals 20 % more with either of them. A character with both gets the two bonuses one after the other, 1.2 × 1.2 = 44 % more melee damage.
+
 ## The sea and the trades
 
 | Trait | | What it does | Id |
